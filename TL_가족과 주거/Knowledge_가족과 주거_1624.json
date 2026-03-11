@@ -1,0 +1,342 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011886",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011886",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_nhn_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번주에 아이들과 함께 1박 2일로 다녀올 국내 여행지를 찾고 있어요. 수도권에서 멀지 않고 아이들과 부부 모두 좋아할만한 여행지가 있을까요?",
+            "turn_id": "BK22011886-1",
+            "utterance_id": "BK22011886.1"
+        },
+        {
+            "reference_date": "2022-06-01",
+            "reference_text": [
+                {
+                    "value": "수도권에서 가까운 용인에는 에버랜드나 한국민속촌처럼 누구나 좋아하는 여행 명소가 많다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/economy/view/2022/482428",
+            "search_query": "아이와 여행 추천 용인",
+            "terminate": false,
+            "text": "수도권에서 멀지 않은 용인에는 누구나 좋아하는 여행 명소인 에버랜드와 한국민속촌이 있으니 가족 여행으로 추천해 드려요.",
+            "turn_id": "BK22011886-1",
+            "utterance_id": "BK22011886.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "용인은 한번도 안 가봤는데, 좋을 것 같아요. 아이들은 특히 에버랜드를 좋아할 것 같은데, 몇시부터 개장하나요?",
+            "turn_id": "BK22011886-2",
+            "utterance_id": "BK22011886.3"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "에버랜드 운영 시간은 오전 10시~오후 10시, 입장료는 날짜와 시간에 따라 다르다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ilyosisa.co.kr/news/article.html?no=236364",
+            "search_query": "에버랜드 운영시간",
+            "terminate": false,
+            "text": "에버랜드는 오전 10시에 개장하여 오후 10시에 폐장하고 있어요. 입장료는 날짜와 시간에 따라서 달라지고요.",
+            "turn_id": "BK22011886-2",
+            "utterance_id": "BK22011886.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이들이 10시 개장하자마자 가겠다고 할 것 같아요. 저희는 평일에 갈 건데 에버랜드 입장료는 얼마나 할까요?",
+            "turn_id": "BK22011886-3",
+            "utterance_id": "BK22011886.5"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "어른·청소년 5만8000원, 어린이 4만6000원이다(9월 평일 기준).",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ilyosisa.co.kr/news/article.html?no=236364",
+            "search_query": "에버랜드 입장료",
+            "terminate": false,
+            "text": "9월 평일 기준으로 에버랜드 입장료는 어른 및 청소년은 58000원, 어린이는 46000원이에요.",
+            "turn_id": "BK22011886-3",
+            "utterance_id": "BK22011886.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "20만원 이상 들겠네요. 밤에 퍼레이드하는 것도 보고 싶은데, 퍼레이드 일정은 어디서 확인하면 될까요?",
+            "turn_id": "BK22011886-4",
+            "utterance_id": "BK22011886.7"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "‘에버랜드 앱’은 에버랜드 이용에 꼭 필요하다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "놀이 기구 예약뿐만 아니라 퍼레이드 시간과 장소 등 에버랜드를 즐기는 데 필요한 정보를 제공한다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ilyosisa.co.kr/news/article.html?no=236364",
+            "search_query": "에버랜드 퍼레이드 시간",
+            "terminate": false,
+            "text": "퍼레이드 시간 및 장소는 에버랜드 앱을 통해서 확인하시면 되는데요. 이러한 퍼레이드 정보뿐 아니라 놀이 기구 예약 등 에버랜드를 즐기기 위해 필요한 정보들이 제공되고 있는 앱이에요.",
+            "turn_id": "BK22011886-4",
+            "utterance_id": "BK22011886.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "에버랜드 앱이 따로 있군요. 가게 되면 사진도 많이 찍고 싶은데 넓은 에버랜드에서 포토존으로 유명한 장소가 어디죠?",
+            "turn_id": "BK22011886-5",
+            "utterance_id": "BK22011886.9"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "에버랜드는 사진 찍기 좋은 곳이 많으나, ‘포시즌스 가든’이 가장 사랑받는다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "에버랜드 대표 정원으로 계절마다 형형색색 꽃의 향연이 펼쳐진다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ilyosisa.co.kr/news/article.html?no=236364",
+            "search_query": "에버랜드 사진 찍기 좋은 곳",
+            "terminate": false,
+            "text": "에버랜드는 포토존이 많은데 포시즌스 가든이 가장 많이 사랑받고 있어요. 이곳은 에버랜드의 대표 정원으로써 계절마다 형형색색의 꽃들이 향연을 펼치는 장소랍니다.",
+            "turn_id": "BK22011886-5",
+            "utterance_id": "BK22011886.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "포시즌즈 가든에서 사진부터 찍고 놀이기구 타면 되겠네요. 둘째 날은 한국민속촌에 들르고 싶은데, 한국민속촌에서는 무엇을 볼 수 있나요?",
+            "turn_id": "BK22011886-6",
+            "utterance_id": "BK22011886.11"
+        },
+        {
+            "reference_date": "2018-04-29",
+            "reference_text": [
+                {
+                    "value": "가족이 함께 체험할 거리와 생동감 넘치는 공연, 전래 동화에 나오는 조선 시대 캐릭터가 더해져, 신나게 놀기 좋은 테마파크로 자리 잡았다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01361206619181040&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "한국민속촌 대표적 볼거리",
+            "terminate": false,
+            "text": "한국민속촌은 가족 체험 거리와 생동감 있는 공연, 전래 동화에 볼 수 있는 조선 시대의 캐릭터들이 있어 신나게 놀기 좋은 테마파크랍니다.",
+            "turn_id": "BK22011886-6",
+            "utterance_id": "BK22011886.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "말씀해 주신 것 중에서 공연은 꼭 보고 싶네요. 공연 일정은 어디서 확인하면 될까요?",
+            "turn_id": "BK22011886-7",
+            "utterance_id": "BK22011886.13"
+        },
+        {
+            "reference_date": "2015-12-03",
+            "reference_text": [
+                {
+                    "value": "자세한 행사 내용과 프로그램 일정은 한국민속촌 홈페이지에서 확인할 수 있다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한국민속촌 홈페이지(koreanfolk.co.kr)에서 촬영 일정을 확인할 수 있다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "관아, 시장 등 다양한 장소에서 관객과 함께 상황극을 연출하기도 한다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etnews.com/20151203000339",
+            "search_query": "한국민속촌 공연일정",
+            "terminate": false,
+            "text": "한국민속촌 내의 관아나 시장 등 여러 장소에서 관객과 함께 상황극을 펼치고 있는데요. 이러한 공연에 대한 내용 및 프로그램 일정을 확인하려면 한국민속촌 홈페이지 koreanfolk.co.kr에 들어가 보시면 돼요.",
+            "turn_id": "BK22011886-7",
+            "utterance_id": "BK22011886.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사이트에서 공연 시간을 보고 이동 동선을 짜야겠네요. 혹시 민속촌에는 아이들이 탈 수 있는 놀이기구도 있나요? 아이들이 놀이기구 타는 걸 너무 좋아하거든요.",
+            "turn_id": "BK22011886-8",
+            "utterance_id": "BK22011886.15"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "바이킹부터 범퍼카, 회전목마 등 다양한 놀이 기구를 갖췄다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대기 시간이 길지 않고, 키 100㎝ 미만 어린이가 이용 가능한 놀이 기구도 있어 유아 동반 가족 여행자에게 필수 코스다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ilyosisa.co.kr/news/article.html?no=236364",
+            "search_query": "한국민속촌 놀이기구",
+            "terminate": false,
+            "text": "한국민속촌에는 바이킹, 회전목마, 범퍼카 등의 놀이기구가 있어요. 대기시간도 길지 않은 편이고, 100cm 미만의 아이도 탈 수 있는 놀이기구도 있으니 아이와 여행할 때는 꼭 가봐야 할 곳이랍니다.",
+            "turn_id": "BK22011886-8",
+            "utterance_id": "BK22011886.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이들이 한국민속촌은 재미없을 것 같다고 했는데 놀이기구도 있다면 너무 좋아할 것 같아요. 한국 민속촌에서 사극도 많이 찍는 걸로 아는데, 민속촌에서 찍은 영화 좀 알려주세요. 영화에 나온 곳을 직접 가보면 신기할 것 같거든요.",
+            "turn_id": "BK22011886-9",
+            "utterance_id": "BK22011886.17"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "또 민속촌은 영화 〈관상〉 〈역린〉 〈광해, 왕이 된 남자〉 등 다양한 사극 촬영지로, 한류 영화와 드라마에 빠진 외국인 방문객이 특히 좋아한다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ilyosisa.co.kr/news/article.html?no=236364",
+            "search_query": "한국민속촌 사극촬영지",
+            "terminate": false,
+            "text": "한국민속촌은 관상과 역린, 광해, 왕이 된 남자 등 여러 사극을 촬영한 곳이에요. 그래서 한류 영화나 드라마에 빠진 외국인들에게도 인기가 많은 곳이기도 하답니다.",
+            "turn_id": "BK22011886-9",
+            "utterance_id": "BK22011886.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "3개 다 본 영화인데, 영화 속 장소가 어딘지 잘 살펴봐야겠어요. 1박 2일 짧은 여정이지만 두 곳 다 들러서 알차게 놀다 올게요. 정보 주셔서 감사해요.",
+            "turn_id": "BK22011886-10",
+            "utterance_id": "BK22011886.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네. 아이와 좋은 추억 쌓으시고, 여행 다녀와서 한번 봬요. 그럼 여행 준비 잘하세요.",
+            "turn_id": "BK22011886-10",
+            "utterance_id": "BK22011886.20"
+        }
+    ]
+}

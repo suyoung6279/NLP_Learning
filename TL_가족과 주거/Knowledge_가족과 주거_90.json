@@ -1,0 +1,406 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013446",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013446",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신 준비 중이라서 기대감에 매일 임신 증상을 보게 되네. 임신 초기증상에 대해 알려줘.",
+            "turn_id": "BK22013446-1",
+            "utterance_id": "BK22013446.1"
+        },
+        {
+            "reference_date": "44729.0",
+            "reference_text": [
+                {
+                    "value": "생리가 멈추는 것은 임신을 나타내는 대표적인 신호다.",
+                    "value_time": "44811.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "임신을 하면 기초체온이 올라 미열이 지속된다.",
+                    "value_time": "44811.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "임신 초기에는 증가된 여성호르몬으로 자궁 활동이 활발해져 질 분비량이 많아진다.",
+                    "value_time": "44811.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이처럼 임신 초기 증상은 매우 다양하고, 또 사람마다 차이가 크다.",
+                    "value_time": "44811.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "때문에 몇 가지 증상만으로 임신을 단정 짓기보다는 임신 테스트기를 사용하거나 산부인과를 찾아 정밀한 검사와 진단을 받는 것이 좋다.",
+                    "value_time": "44811.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000707904",
+            "search_query": "임신 초기증상",
+            "terminate": false,
+            "text": "대표적인 임신 신호는 생리가 멈추는 거야. 또 임신초기에는 기초체온이 올라서 미열이 계속되기도 하고, 여성호르몬이 증가로 자궁 활동이 활발해져, 질 분비량이 증가하기도 해. 하지만 임신 초기증상은 다양하고 개인차가 크기 때문에, 몇 가지 증상으로 임신이라고 생각하지 말고, 임신테스트기로 확인해보거나, 산부인과에 가서 정밀검사와 진단을 받는 게 좋아.",
+            "turn_id": "BK22013446-1",
+            "utterance_id": "BK22013446.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 내가 임신한 줄 모르고 함부로 행동할 수 있으니, 준비기간에도 임신초기처럼 주의하려고 해. 임신초기일 때 어떤 걸 주의해야 할까?",
+            "turn_id": "BK22013446-2",
+            "utterance_id": "BK22013446.3"
+        },
+        {
+            "reference_date": "42534.0",
+            "reference_text": [
+                {
+                    "value": "한편, 임신 초기에는 유산 위험도 높아 주의해야 한다.",
+                    "value_time": "44811.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "오래 서 있거나 무거운 물건을 드는 행동, 무리한 운동은 피한다.",
+                    "value_time": "44811.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 무리한 성 관계나 술, 담배 등을 피해야 한다.",
+                    "value_time": "44811.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "약물을 복용하기 전에는 의사와 반드시 상의한 뒤 복용해야 한다.",
+                    "value_time": "44811.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2016/06/13/2016061301438.html",
+            "search_query": "임신초기 주의사항",
+            "terminate": false,
+            "text": "임신초기는 유산위험이 높은 시기라 조심해야 해. 오래 서 있거나, 무거운 짐을 들거나, 무리하게 운동하는 것은 피하고, 성관계, 술, 담배 등도 피해야 해. 혹시 약을 먹을 일이 생기면, 의사와 반드시 상의하고 먹어야 해.",
+            "turn_id": "BK22013446-2",
+            "utterance_id": "BK22013446.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신 준비 기간에 먹어야 하는 영양제는 무엇이 있을까?",
+            "turn_id": "BK22013446-3",
+            "utterance_id": "BK22013446.5"
+        },
+        {
+            "reference_date": "44760.0",
+            "reference_text": [
+                {
+                    "value": "엽산이 결핍되면 DNA 합성 저하로 세포분열이 왕성한 점막이나 생식기관 및 골수 등에 문제가 발생하고 태아의 신경관 형성 장애로 신경관결손증의 기형아 출산 확률이 높아진다.",
+                    "value_time": "44811.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "태아의 신경관 정상 발달은 임신 초기에 진행되고, 우리가 보통 임신을 확인하는 시기가 임신 4주 전후이므로 가능하면 임신 준비기부터 임신 후 3개월까지 엽산 섭취를 권한다.",
+                    "value_time": "44811.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1409173/%EC%9E%84%EC%8B%A0-%EC%A4%80%EB%B9%84-%EC%98%81%EC%96%91%EC%A0%9C-%EB%AC%B4%EC%97%87%EC%9D%84-%EC%B1%99%EA%B2%A8%EC%95%BC-%ED%95%A0%EA%B9%8C/",
+            "search_query": "임신준비 영양제",
+            "terminate": false,
+            "text": "임신초기에 태아의 신경관 정상 발달이 진행되고, 임신 확인은 보통 임신 4주 전이나 후이기 때문에, 임신 준비 기간부터 임신한 다음 3개월까지 엽산을 먹는 게 좋아. 왜냐하면, 엽산이 결핍된다면, DNA 합성 저하가 생겨서 세포분열이 왕성한 점막 또는 생식기관, 골수 등에 문제가 생기고, 아기의 신경관 형성에 장애가 생겨서 신경관결손증의 기형아를 출산할 확률이 높아지기 때문이야.",
+            "turn_id": "BK22013446-3",
+            "utterance_id": "BK22013446.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신을 어렵게 하는 식습관도 있니?",
+            "turn_id": "BK22013446-4",
+            "utterance_id": "BK22013446.7"
+        },
+        {
+            "reference_date": "44695.0",
+            "reference_text": [
+                {
+                    "value": "채소만 먹는 식단을 고수하는 여성은 임신하기가 어려울 수 있다.",
+                    "value_time": "44811.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고기와 생선을 섭취하지 않아 아연, 철, 비타민B12와 같은 건강에 중요한 영양소가 부족해질 수 있기 때문이다.",
+                    "value_time": "44811.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한, 생선에서 주로 나오는 오메가3와 요오드가 부족할 수 있는데, 이는 임신과 생식 능력에 필요한 중요한 영양소다.",
+                    "value_time": "44811.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/05/11/2022051102141.html",
+            "search_query": "임신을 어렵게 하는",
+            "terminate": false,
+            "text": "여성이 채소만 먹는 식단을 하면 임신이 어려워. 왜냐하면, 고기와 생선을 섭취하지 않기 때문에 아연, 철, 비타민B12와 같은 건강에 중요한 영양소가 부족해질 뿐만 아니라, 임신과 생식능력에 필수 영양소인 오메가3, 요오드가 생선에 주로 들어 있기 때문이야.",
+            "turn_id": "BK22013446-4",
+            "utterance_id": "BK22013446.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다이어트한다고 채식만 먹으면 안 되겠구나. 임신하면 살이 찔 걸 예상해서 요즘 체중 관리를 하고 있었거든, 혹시 임신 준비와 체중 관리에 대해 알려줄 수 있어?",
+            "turn_id": "BK22013446-5",
+            "utterance_id": "BK22013446.9"
+        },
+        {
+            "reference_date": "44692.0",
+            "reference_text": [
+                {
+                    "value": "스트레스 관리와 함께, 임신 준비를 위해 무엇보다 우선시 되는 건 체중 관리다.",
+                    "value_time": "44811.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "과체중도 위험하지만, 저체중도 조산이나 임신 합병증과 연관성이 있기 때문에 표준체중을 유지하는 게 좋다.",
+                    "value_time": "44811.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/05/11/2022051102128.html",
+            "search_query": "임신준비와 체중",
+            "terminate": false,
+            "text": "임신 준비할 때 가장 우선시 되는 게 체중 관리야. 체중이 너무 나가는 것도 위험하지만, 체중이 너무 적게 나가면 조산이나 임신 합병증과 관련이 있기 때문에 표준체중을 잘 유지해야 하고, 체중과 스트레스도 함께 관리하는 게 좋아.",
+            "turn_id": "BK22013446-5",
+            "utterance_id": "BK22013446.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신 전에 살 빼려고 하지도 말고, 다이어트하면서 스트레스받지도 말고, 적정 체중으로 관리해야겠다. 혹시 임신 준비 때 미리 해야 하는 검사가 있을까?",
+            "turn_id": "BK22013446-6",
+            "utterance_id": "BK22013446.11"
+        },
+        {
+            "reference_date": "44630.0",
+            "reference_text": [
+                {
+                    "value": "갑상선 기능의 문제는 산모와 태아 모두에게 영향을 줄 수 있는데 불임, 조산, 기형 등의 위험성을 높이는 요인이기 때문에 임신 전에 미리 갑상선 관련 검사를 받아서 이상이 없는지 확인해야 합니다.",
+                    "value_time": "44811.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "풍진, 간염 검사도 필수적으로 해야 합니다.",
+                    "value_time": "44811.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "임신 초기 풍진에 걸리면 기형아 출산의 위험이 커집니다.",
+                    "value_time": "44811.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "B형 간염의 경우에는 산모에게서 태아에게로 전염될 수 있으며 관련해서 간 질환의 발생 위험도 높아지게 됩니다.",
+                    "value_time": "44811.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=99452",
+            "search_query": "임신준비 검사",
+            "terminate": false,
+            "text": "임신 전에는 갑상선 검사를 받아서 이상이 없는지 확인해야 해. 갑상선 기능에 문제가 있으면 불임, 조산, 기형 등의 위험성을 높여서 산모와 태아 모두에게 영향이 갈 수 있어. 또 풍진과 간염 검사도 필수적으로 받아야 해. 임신초기에 풍진에 걸리면 기형아 출산 위험도 커지고, B형 간염은 산모에서 태아에게 전염이 될 수 있어서, 간 질환이 발생할 위험도 커지기 때문이야.",
+            "turn_id": "BK22013446-6",
+            "utterance_id": "BK22013446.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산부인과에 가서 검사를 미리 해야겠어. 임신 증상이 있으면 가려고 했는데, 우선 검사부터 하고 임신 준비해야지.",
+            "turn_id": "BK22013446-7",
+            "utterance_id": "BK22013446.13"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산부인과에 가면 임신 준비에 필요한 검사를 받을 수 있을 거야.",
+            "turn_id": "BK22013446-7",
+            "utterance_id": "BK22013446.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알려줘서 고마워. 혹시 남자도 임신 준비를 위해 해야 할 게 있을까?",
+            "turn_id": "BK22013446-8",
+            "utterance_id": "BK22013446.15"
+        },
+        {
+            "reference_date": "44427.0",
+            "reference_text": [
+                {
+                    "value": "건강한 임신을 위해서는 준비와 노력이 필요한데 생활습관 개선 등을 통해 정자의 질적, 양적 개선을 기대하려면 적어도 3개월 이상의 준비기간이 필요하다.",
+                    "value_time": "44811.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "①스트레스를 잘 관리하자.",
+                    "value_time": "44811.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "②규칙적이고 충분한 수면이 중요하다.",
+                    "value_time": "44811.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "⑤술, 담배는 이제 그만하자.",
+                    "value_time": "44811.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "⑥고환온도를 낮게 유지하자.",
+                    "value_time": "44811.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hkn24.com/news/articleView.html?idxno=320883",
+            "search_query": "남자의 임신준비",
+            "terminate": false,
+            "text": "건강한 임신을 위해서는 준비도 필요하고 노력도 필요해. 스트레스도 잘 관리해야 되고, 규칙적이고 충분히 자는 것도 중요해. 술과 담배는 그만하는 게 좋고, 고환의 온도를 낮게 유지하는 게 좋아, 이러한 건강생활 습관 개선으로 정자의 질과 양은 개선을 기대하려면 적어도 3개월 이상 준비기간 필요해.",
+            "turn_id": "BK22013446-8",
+            "utterance_id": "BK22013446.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신은 여자가 하지만 남자도 관리해야 될 것들이 많구나. 남편에게 꼭 말해 줘야겠어. 그렇다면 임신 준비 중 남자가 먹어야 할 영양제가 있을까?",
+            "turn_id": "BK22013446-9",
+            "utterance_id": "BK22013446.17"
+        },
+        {
+            "reference_date": "42475.0",
+            "reference_text": [
+                {
+                    "value": "남성의 경우 엽산, 셀레늄, 아연이 정자의 질을 좋게 해준다.",
+                    "value_time": "44811.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사무직인 남성들은 비타민D가 결핍되기 쉬운데, 비타민D 결핍시 정자의 운동성이 떨어질 수 있으므로 반드시 따로 섭취해주는 것이 좋다.",
+                    "value_time": "44811.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2016/04/15/2016041501717.html",
+            "search_query": "임신준비 남자영양제",
+            "terminate": false,
+            "text": "남자의 정자의 질을 좋게 해주는 건, 엽산, 셀레늄, 아연이 있어. 그리고 비타민D가 결핍되면 정자의 운동성이 떨어져. 특히 사무직 남자들은 비타민D 결핍이 되기 쉽기 때문에 비타민D도 반드시 챙겨 먹는 게 좋아.",
+            "turn_id": "BK22013446-9",
+            "utterance_id": "BK22013446.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "바로 임신하려고 하지 말고, 남편과 함께 임신 준비부터 해야겠어. 매일 임신 증상만 살펴볼 게 아니구나. 도움 줘서 고마워.",
+            "turn_id": "BK22013446-10",
+            "utterance_id": "BK22013446.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "너에게 도움이 되었다니 기뻐. 건강하고 이쁜 아기 갖길 바랄게.",
+            "turn_id": "BK22013446-10",
+            "utterance_id": "BK22013446.20"
+        }
+    ]
+}

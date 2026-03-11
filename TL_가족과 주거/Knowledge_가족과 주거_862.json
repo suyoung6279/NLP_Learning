@@ -1,0 +1,363 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003108",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003108",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 3.8,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "개나 고양이 같은 반려동물 말고 좀 특색있는 반려동물 키울만한 거 없을까요?",
+            "turn_id": "BK22003108-1",
+            "utterance_id": "BK22003108.1"
+        },
+        {
+            "reference_date": "2022-06-09",
+            "reference_text": [
+                {
+                    "value": "일반적으로 개와 고양이를 제외한 반려동물을 ‘특수 반려동물’이라고 하며 새, 햄스터, 고슴도치, 파충류, 양서류, 어류 등이 있다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2022060818252897821",
+            "search_query": "특색있는 반려동물",
+            "terminate": false,
+            "text": "특수 반려동물이라고 해서 개나 고양이를 제외한 동물들이 있어요. 새나 햄스터, 고슴도치 같은 동물들이죠.",
+            "turn_id": "BK22003108-1",
+            "utterance_id": "BK22003108.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안 그래도 어릴 때 새를 키워보고 싶었는데, 지금이라도 새를 키우려면 먼저 고려해야 할 사항이 있을까요?",
+            "turn_id": "BK22003108-2",
+            "utterance_id": "BK22003108.3"
+        },
+        {
+            "reference_date": "2020-08-06",
+            "reference_text": [
+                {
+                    "value": "반려조를 키우기 전에는 많은 사항을 고려해야 한다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "새를 돌보기 위해 얼마나 많은 시간을 할애할 수 있는지, 그리고 집에서 얼마나 많은 공간을 새에게 할당할 수 있는지 등이다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.famtimes.co.kr/news/articleView.html?idxno=493954",
+            "search_query": "새 키우기",
+            "terminate": false,
+            "text": "반려조를 들이려면 많은 부분을 생각해보아야 해요. 새를 돌보기 위한 시간을 얼마나 쓸 수 있는지, 또 집 공간의 얼마만큼을 새를 위해 사용할 수 있는지와 같은 부분을 고려해 봐야죠.",
+            "turn_id": "BK22003108-2",
+            "utterance_id": "BK22003108.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저 시간도 되고 공간도 넉넉하게 쓸 수 있어요! 저는 새 중에 앵무새를 키우고 싶거든요. 듣기로는 앵무새가 꽤 똑똑하다고 하던데 맞나요?",
+            "turn_id": "BK22003108-3",
+            "utterance_id": "BK22003108.5"
+        },
+        {
+            "reference_date": "2022-06-09",
+            "reference_text": [
+                {
+                    "value": "앵무새 지능은 동물 중 높은 편에 속한다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "개체에 따라 다르지만 3~5세 지능을 갖고 있다고 알려져 있다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 훈련을 동반하면 간단한 단어를 기억해 말할 수 있고, 사회적인 동물이기 때문에 사람과의 교감도 뛰어난 편이다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2022060818252897821",
+            "search_query": "앵무새 특징",
+            "terminate": false,
+            "text": "앵무새는 개체에 따라 다르긴 하지만 보통 3세에서 5세 정도의 지능을 가져서 동물 중에서도 높은 편이에요. 그래서 훈련하면 간단한 단어는 기억해서 말도 하고 사회적인 성향이라 사람과 교감도 잘하죠.",
+            "turn_id": "BK22003108-3",
+            "utterance_id": "BK22003108.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시, 키울 만할 것 같아요. 혹시 앵무새 종류 중에서도 어떤 종이 좋을까요?",
+            "turn_id": "BK22003108-4",
+            "utterance_id": "BK22003108.7"
+        },
+        {
+            "reference_date": "2020-08-06",
+            "reference_text": [
+                {
+                    "value": "왕관앵무는 앵무새의 일종이며, 밝고 명랑한 성격이 특징이다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사람과도 금방 친해진다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.famtimes.co.kr/news/articleView.html?idxno=493954",
+            "search_query": "왕관앵무 키우기",
+            "terminate": false,
+            "text": "앵무새의 일종인 명랑한 성격의 왕관앵무도 괜찮아요. 사람이랑도 금방 친해지거든요.",
+            "turn_id": "BK22003108-4",
+            "utterance_id": "BK22003108.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "왕관앵무 키울 때 주의사항은 없어요?",
+            "turn_id": "BK22003108-5",
+            "utterance_id": "BK22003108.9"
+        },
+        {
+            "reference_date": "2020-08-06",
+            "reference_text": [
+                {
+                    "value": "또 왕관앵무는 목욕하는 것을 좋아하기 때문에 새장 안에 목욕통을 넣어주려면 새장의 크기가 충분히 커야 한다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.famtimes.co.kr/news/articleView.html?idxno=493954",
+            "search_query": "왕관앵무 주의사항",
+            "terminate": false,
+            "text": "왕관앵무는 새장이 커야 해요. 목욕하는 걸 좋아해서 그 안에 목욕통을 넣어줘야 하거든요.",
+            "turn_id": "BK22003108-5",
+            "utterance_id": "BK22003108.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 혹시 카나리아 같은 새는 어때요? 소리가 예뻐서 카나리아도 괜찮을 것 같거든요.",
+            "turn_id": "BK22003108-6",
+            "utterance_id": "BK22003108.11"
+        },
+        {
+            "reference_date": "2020-08-06",
+            "reference_text": [
+                {
+                    "value": "카나리아는 명랑하고 노래하기를 좋아한다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "돌봐줄 시간이 적더라도 잘 크기 때문에 바쁜 가족 구성원들에게 적합한 반려조다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.famtimes.co.kr/news/articleView.html?idxno=493954",
+            "search_query": "카나리아 키우기",
+            "terminate": false,
+            "text": "카나리아도 좋죠. 노래도 잘하고 명랑한데다 돌봐주는 시간이 많지 않아도 잘 커서 가족들이 바쁘더라도 괜찮거든요.",
+            "turn_id": "BK22003108-6",
+            "utterance_id": "BK22003108.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 새를 데려올 때 안전하게 입양할 수 있는 방법이 뭔지 아세요?",
+            "turn_id": "BK22003108-7",
+            "utterance_id": "BK22003108.13"
+        },
+        {
+            "reference_date": "2017-07-17",
+            "reference_text": [
+                {
+                    "value": "바로 주위에 국내 번식새를 전문으로 하는 깨끗한 환경의 조류원을 찾아 알곡 적응을 막 시작한 어린새(중소형 새의 경우 3개월령, 중대형 새의 경우 4개월령)를 분양받는 것이 현재로서는 최선이다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://edu.donga.com/?p=article&ps=view&at_no=20170717144054760611",
+            "search_query": "반려조 입양 방법",
+            "terminate": false,
+            "text": "주위에 있는 깨끗한 환경의 조류원을 찾아가 봐요. 국내의 번식 새를 전문으로 하는 곳인데, 여기에서 알곡 적응을 하기 시작한 어린 새를 분양받는 게 좋아요. 중소형 새는 태어난 지 3개월 정도, 중대형 새는 4개월 정도 되었을 때가 적기거든요.",
+            "turn_id": "BK22003108-7",
+            "utterance_id": "BK22003108.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 데려와서 키울 때 조심해야 할 점은 뭐가 있을까요? 특히 신경 써야 할 부분이 있다면 알려주세요.",
+            "turn_id": "BK22003108-8",
+            "utterance_id": "BK22003108.15"
+        },
+        {
+            "reference_date": "2022-06-09",
+            "reference_text": [
+                {
+                    "value": "감기는 앵무새가 자주 걸리는 질환 중 하나다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "앵무새는 기온에 예민해 추운 곳에 있다 보면 면역력이 약해져 감기에 걸릴 가능성이 높다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2022060818252897821",
+            "search_query": "앵무새 키울 때 주의사항",
+            "terminate": false,
+            "text": "앵무새는 감기에 잘 걸려요. 기온에 예민하므로 춥게 있다가는 면역력이 약해지고, 감기에 걸리기 쉽거든요.",
+            "turn_id": "BK22003108-8",
+            "utterance_id": "BK22003108.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머. 집을 따뜻하게 하고 살아야겠네요. 그래도 감기 걸리면 동물병원 데리고 가면 되겠죠?",
+            "turn_id": "BK22003108-9",
+            "utterance_id": "BK22003108.17"
+        },
+        {
+            "reference_date": "2020-03-09",
+            "reference_text": [
+                {
+                    "value": "조류는 특수 동물이기 때문에 일반적인 동물병원에서는 조류를 진료하지 않는 경우가 있다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이런 경우 조류 전문 동물병원까지 가는 교통비, 이동 경로까지 고려해야 한다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.famtimes.co.kr/news/articleView.html?idxno=496561",
+            "search_query": "조류 동물병원",
+            "terminate": false,
+            "text": "이 부분은 잘 고려해야 해요. 조류는 특수한 동물이라서 일반 동물병원에서 진료를 보지 못할 수 있거든요. 조류를 전문으로 치료하는 동물병원에 가는 데 필요한 교통비와 이동 경로까지 미리 파악하고 있어야겠죠.",
+            "turn_id": "BK22003108-9",
+            "utterance_id": "BK22003108.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "흔하게 키우는 동물이 아니라서 아프면 고생할 것 같네요. 그래도 어릴 때부터 꿈이니 진지하게 생각해봐야겠어요.",
+            "turn_id": "BK22003108-10",
+            "utterance_id": "BK22003108.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어떤 반려동물이든 끝까지 책임감을 느끼고 가족처럼 생활해야 하는 것 잊지 말아요.",
+            "turn_id": "BK22003108-10",
+            "utterance_id": "BK22003108.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그 점도 꼭 명심할게요. 오늘 여러 가지 알려줘서 고마워요. 다음에 또 봐요.",
+            "turn_id": "BK22003108-11",
+            "utterance_id": "BK22003108.21"
+        }
+    ]
+}

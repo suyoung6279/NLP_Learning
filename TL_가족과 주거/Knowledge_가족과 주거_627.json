@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015919",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015919",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0004"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저번 달에 출산해서 신생아를 키우고 있는 산모예요. 아이를 낳고 나면 원래 주기에 맞추어 생리할 줄 알았는데 아직 생리를 안 하고 있어요. 출산 후 생리는 언제부터 하는 거예요?",
+            "turn_id": "BK22015919-1",
+            "utterance_id": "BK22015919.1"
+        },
+        {
+            "reference_date": "2018-08-28",
+            "reference_text": [
+                {
+                    "value": "생리가 다시 시작되는 시점은 아기에게 분유를 먹이는 경우 빠르면 출산 후 4주, 모유 수유를 하는 경우는 빠르면 출산 후 3~6개월 이후이며 개인차가 크므로 ‘평균 수치’에 너무 신경 쓸 필요는 없다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000430951",
+            "search_query": "출산 후 생리 시작 시점",
+            "terminate": false,
+            "text": "출산 후 생리하는 시점은 분유수유 산모의 경우 빠르면 출산 후 4주, 모유 수유 산모는 빠르면 출산 후 3~6개월 이후에요. 그런데 이 부분은 개인차가 크기 때문에 평균 수치에 너무 신경 쓸 필요는 없어요.",
+            "turn_id": "BK22015919-1",
+            "utterance_id": "BK22015919.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "모유수유를 하면 생리가 더 늦어지는 거네요. 모유수유와 생리가 무슨 관계가 있는 거에요?",
+            "turn_id": "BK22015919-2",
+            "utterance_id": "BK22015919.3"
+        },
+        {
+            "reference_date": "2018-08-28",
+            "reference_text": [
+                {
+                    "value": "프로락틴은 모유의 생성, 옥시토신은 모유의 배출을 돕는 작용을 하는데, 이 호르몬들이 많이 분비되는 기간, 즉 수유 중에는 배란이 억제되어 생리를 하지 않게 된다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 모유 수유를 하는 산모는 분유를 먹이는 산모보다 생리 재개가 늦어지는 경향이 있다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000430951",
+            "search_query": "모유수유 생리 재개",
+            "terminate": false,
+            "text": "프로락틴이라는 호르몬은 모유를 만들고 옥시토신이라는 호르몬은 모유의 배출을 도와주는 역할을 하는데요. 이 호르몬들은 수유 기간 중에 다량으로 분비되어 배란이 억제되므로 생리하지 않게 돼요. 그래서 분유를 먹이는 산모보다는 모유를 먹이는 산모가 생리 재개가 늦어지는 거죠.",
+            "turn_id": "BK22015919-2",
+            "utterance_id": "BK22015919.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 모유수유를 하면 호르몬이 나오는데 그 호르몬이 배란을 억제하는구나. 그런데 제 친구는 출산 후 없던 생리통이 생겼다고 하더라구요. 이런 경우도 있나요?",
+            "turn_id": "BK22015919-3",
+            "utterance_id": "BK22015919.5"
+        },
+        {
+            "reference_date": "2020-08-19",
+            "reference_text": [
+                {
+                    "value": "출산 후 회복 과정에서 일시적으로 발생한 것일 수도 있고 자궁내막이 복강 안으로 들어가 자궁내막증을 만든다거나 근종, 선근증 등 다른 산부인과적 질환이 원인이 되어서 발생한 것일 수 있다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mkhealth.co.kr/news/articleView.html?idxno=46301",
+            "search_query": "출산 후 생리통",
+            "terminate": false,
+            "text": "출산 후 없던 생리통이 생기는 경우는 아이를 낳고 회복하는 과정에서 일시적으로 발생한 것일 수 있어요. 하지만 자궁내막이 복강 안으로 들어가서 자궁내막증을 만드는 것일 수도 있고, 근종, 선근증과 같이 산부인과적 질환 때문에 발생한 것일 수도 있어요.",
+            "turn_id": "BK22015919-3",
+            "utterance_id": "BK22015919.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금은 괜찮아졌다고 하는 걸 보니 일시적으로 그랬나 봐요. 그럼 반대로 출산 후 생리통이 없어진 케이스도 있을까요?",
+            "turn_id": "BK22015919-4",
+            "utterance_id": "BK22015919.7"
+        },
+        {
+            "reference_date": "2020-08-19",
+            "reference_text": [
+                {
+                    "value": "특별한 원인 없이 발생하는 원발성 생리통의 경우 출산 후 사라지는 경우가 종종 있다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아직 정확히 밝혀진 원인은 없으나 분만하는 과정에서 생리통을 유발하는 프로스타글란딘 수용체가 파괴되면서 생리통이 사라진다는 이론이 있다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mkhealth.co.kr/news/articleView.html?idxno=46301",
+            "search_query": "출산 후 생리통",
+            "terminate": false,
+            "text": "특별한 원인 없이 생기는 원발성 생리통이라면 출산 후 사라지는 경우들이 종종 있는데요. 원인에 대해서는 아직 정확히 밝혀지진 않았지만 분만 과정에서 프로스타글란딘이라는 생리통 유발 수용체가 파괴되면서 생리통이 없어진다는 이론이 있어요.",
+            "turn_id": "BK22015919-4",
+            "utterance_id": "BK22015919.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신기하네요. 아이를 낳고 나면 생리 주기도 달라지고 기간이 짧아지는 경우도 많다고 하더라구요. 혹시 이것도 수유와 연관이 있을까요?",
+            "turn_id": "BK22015919-5",
+            "utterance_id": "BK22015919.9"
+        },
+        {
+            "reference_date": "2018-08-28",
+            "reference_text": [
+                {
+                    "value": "모유의 분비와 관련이 있는 호르몬인 프로락틴이 배란을 억제해 수유 기간 동안 무월경 상태가 된다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "생리를 하는 경우에도 무배란 월경이 되거나 생리 불순이 나타나기 쉽다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000430951",
+            "search_query": "출산 후 생리불순 수유",
+            "terminate": false,
+            "text": "앞에서 언급했듯이 프로락틴 호르몬은 배란을 억제하므로 수유 기간 동안 무월경 상태가 되는데요. 모유 수유하는 동안 생리하더라도 무배란 월경이 된다거나 생리 불순이 나타나기 쉬워요.",
+            "turn_id": "BK22015919-5",
+            "utterance_id": "BK22015919.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수유가 생리 불순과도 연관이 있는 거 맞네요. 그럼 수유하지 않는 산모가 생리불순이라면 그건 어떤 원인이 있을까요?",
+            "turn_id": "BK22015919-6",
+            "utterance_id": "BK22015919.11"
+        },
+        {
+            "reference_date": "2018-08-28",
+            "reference_text": [
+                {
+                    "value": "출산 후 감정 기복 및 육아 스트레스 등이 호르몬에 영향을 미쳐 생리 불순을 일으킬 수 있다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000430951",
+            "search_query": "출산 후 생리불순 스트레스",
+            "terminate": false,
+            "text": "출산하고 나면 감정의 기복이 심해지기도 하고 아이를 키우면서 스트레스를 받을 수 있는데, 이러한 모든 상황이 호르몬에 영향을 미치기 때문에 수유하지 않는 산모에게 생리 불순이 나타날 수 있어요.",
+            "turn_id": "BK22015919-6",
+            "utterance_id": "BK22015919.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생리가 호르몬과도 연관이 있으니 충분히 그럴 수 있겠네요. 수유를 하면 몸에 영양소가 다 빠져나가는 느낌인데, 이런 점도 생리불순에 영향이 있을까요?",
+            "turn_id": "BK22015919-7",
+            "utterance_id": "BK22015919.13"
+        },
+        {
+            "reference_date": "2018-08-28",
+            "reference_text": [
+                {
+                    "value": "모유 수유 시 생기기 쉬운 빈혈과 운동 부족, 수면 부족의 영향으로 혈액 순환에 문제가 생기면 배란 및 생리에 영향을 줄 수 있다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000430951",
+            "search_query": "출산 후 생리불순 혈액순환",
+            "terminate": false,
+            "text": "모유 수유를 하게 되면 빈혈이 생기기 쉽고 거기다 운동 부족, 수면 부족으로 인하여 혈액 순환에도 문제가 생길 수 있어요. 혈액 순환이 잘 되지 않으면 배란과 생리에 영향을 줄 수 있답니다.",
+            "turn_id": "BK22015919-7",
+            "utterance_id": "BK22015919.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 요즘은 출산 후 빠르게 살을 빼는 사람이 많잖아요. 이런 경우에 생리 불순이 나타날수 있을까요?",
+            "turn_id": "BK22015919-8",
+            "utterance_id": "BK22015919.15"
+        },
+        {
+            "reference_date": "2018-08-28",
+            "reference_text": [
+                {
+                    "value": "임신 중 찐 살을 빨리 빼고 싶은 마음에 과도한 다이어트를 시도하는 경우가 많다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 식사량과 수분 섭취량을 급격하게 줄일 경우 빈혈과 영양 결핍으로 인해 생리 불순이 올 수 있다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000430951",
+            "search_query": "출산 후 생리불순 과도한 다이어트",
+            "terminate": false,
+            "text": "임신 시기에 쪘던 살을 빨리 빼기 위해서 과도하게 다이어트를 하는 산모들이 많아요. 이렇게 다이어트를 하면서 식사량과 수분 섭취량을 급격하게 줄여버리면 빈혈과 영양 결핍이 생겨 생리 불순이 올 수 있답니다.",
+            "turn_id": "BK22015919-8",
+            "utterance_id": "BK22015919.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신했을 때만큼이나 출산 후에도 영양 섭취를 잘 하는건 정말 중요한 것 같아요. 출산 후 생리가 늦어지는 게 몸에 이상이 있어서 그런가 싶었는데, 그게 아니라 다행이에요.",
+            "turn_id": "BK22015919-9",
+            "utterance_id": "BK22015919.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네. 그래도 전과 다르게 몸에 이상이 느껴지거나 통증까지 생긴다면 병원에 가서 진료받는 게 좋아요.",
+            "turn_id": "BK22015919-9",
+            "utterance_id": "BK22015919.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 할게요. 오늘 시간내서 정보 공유해 주셔서 감사해요. 전 이만 수유하러 가볼게요.",
+            "turn_id": "BK22015919-10",
+            "utterance_id": "BK22015919.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요. 그럼 아이와 행복한 시간 보내시고 다음에 또 대화 나눠요. 안녕히 가세요.",
+            "turn_id": "BK22015919-10",
+            "utterance_id": "BK22015919.20"
+        }
+    ]
+}

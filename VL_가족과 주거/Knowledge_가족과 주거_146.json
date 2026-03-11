@@ -1,0 +1,381 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018174",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018174",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 3.8,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전문가님, 개 중에 가장 무는 힘이 강한 개는 어떤 견종인가요?",
+            "turn_id": "BK22018174-1",
+            "utterance_id": "BK22018174.1"
+        },
+        {
+            "reference_date": "44805.0",
+            "reference_text": [
+                {
+                    "value": "캉갈은 치악력(무는 힘)이 세상에서 가장 강한 견종입니다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "개의 치악력은 평균 200~250PSI이며 사람의 치악력은 평균 50PSI라고 알려져 있는데요.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "캉갈은 743PSI(3305N, 337kg)이나 되는 엄청난 치악력을 가지고 있으며, 쇠사슬을 끊을 수 있는 정도라고 해요.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/133764/",
+            "search_query": "캉갈 치악력 세상에서 가장 강한 견종",
+            "terminate": false,
+            "text": "지구상에서 무는 힘이 가장 센 견종은 바로 캉갈입니다. 개의 무는 힘은 평균 200에서 250PSI이고, 사람의 무는 힘은 평균 50PSI로 알려져 있는데요. 캉갈은 743PSI나 되는 어마어마한 무는 힘을 지니고 있으며, 쇠사슬을 끊을 수 있는 수준입니다.",
+            "turn_id": "BK22018174-1",
+            "utterance_id": "BK22018174.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 쇠사슬을 끊을 수도 있다고요? 그러면 캉갈은 기본적으로 어떤 신체적 특징이 있나요?",
+            "turn_id": "BK22018174-2",
+            "utterance_id": "BK22018174.3"
+        },
+        {
+            "reference_date": "44805.0",
+            "reference_text": [
+                {
+                    "value": "캉갈은 덩치가 아주 큰 초대형견입니다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "암컷의 키(체고)는 최소 68cm, 몸무게는 36~54kg 정도로 알려져 있어요.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "수컷은 암컷보다 덩치가 더 큰데요.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "수컷 키(체고)는 최소 73cm, 몸무게는 50~68kg 정도라고 합니다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "다른 초대형견의 평균 수명은 6~8년 정도인데, 캉갈은 11~13년 정도 산다고 합니다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/133764/",
+            "search_query": "캉갈 초대형견 평균 수명",
+            "terminate": false,
+            "text": "캉갈은 몸집이 매우 큰 초대형 견입니다. 암컷의 체고가 최소 68센티미터이고, 체중은 36에서 54킬로그램 정도 나가고요. 수컷은 암컷보다 몸집이 더 큰데, 수컷의 체고는 최소 73센티미터이고, 체중은 50에서 68킬로그램 정도가 나갑니다. 평균적으로 6에서 8년 정도 사는 다른 초대형 견과 달리, 캉갈은 평균수명이 11년에서 13년 정도고요.",
+            "turn_id": "BK22018174-2",
+            "utterance_id": "BK22018174.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 말로만 들어도 육중함이 느껴지는군요. 캉갈의 기원은 어떻게 되나요?",
+            "turn_id": "BK22018174-3",
+            "utterance_id": "BK22018174.5"
+        },
+        {
+            "reference_date": "44805.0",
+            "reference_text": [
+                {
+                    "value": "캉갈은 튀르키예 동부 시바스 지역의 캉갈이라는 곳에서 유래했습니다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기원전 2000년부터 있었다고 추측되는 역사가 깊은 견종이에요.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "캉갈은 목양견으로 많이 알려져 있는데, 보더콜리같이 양을 몰기보단 양을 곰, 늑대와 같은 포식자로부터 보호하던 경비견이었습니다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/133764/",
+            "search_query": "캉갈 튀르키예에서 유래한 견종",
+            "terminate": false,
+            "text": "캉갈은 튀르키예 동부 시바스 지역의 캉갈이라는 곳에서 기원한 개입니다. 기원전 2천 년부터 존재했다고 추정될 정도로 역사가 오래된 견종이죠. 캉갈은 목양견으로 유명한데, 보더콜리처럼 양몰이를 하기 보다는, 곰, 늑대 같은 포식자가 양을 해치지 못하도록 지키던 경비견이었습니다.",
+            "turn_id": "BK22018174-3",
+            "utterance_id": "BK22018174.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "경비견이라면 민첩해야 하지 않나요? 캉갈의 무는 힘이 아무리 세더라도, 맹수를 쫓아가지 못하면 허사일 것 같은데요. 캉갈의 몸놀림은 어떤 수준인가요?",
+            "turn_id": "BK22018174-4",
+            "utterance_id": "BK22018174.7"
+        },
+        {
+            "reference_date": "44805.0",
+            "reference_text": [
+                {
+                    "value": "캉갈은 덩치가 아주 큰 견종이지만, 날씬한 체형에 근육질 몸을 가지고 있어요.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그래서 몸이 둔하지 않고 아주 민첩합니다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "개의 평균 달리기 속도는 시속 30km 정도인데, 캉갈은 최대 시속 56km로 달릴 수 있다고 해요.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/133764/",
+            "search_query": "캉갈 최대 시속",
+            "terminate": false,
+            "text": "캉갈의 몸집이 매우 크지만, 체형이 날씬하고 몸이 근육질이라 둔하지 않고 매우 민첩합니다. 개는 평균적으로 시속 30킬로미터로 달릴 수 있는데, 캉갈은 최대 시속이 56킬로미터까지 나올 정도죠.",
+            "turn_id": "BK22018174-4",
+            "utterance_id": "BK22018174.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우와, 그 정도면 맹수들도 공포에 떨 것 같은데요. 그건 그렇고 경비견이면 뭔가 되게 사나울 것 같은데 실제 캉갈의 성격은 어떤 편인가요?",
+            "turn_id": "BK22018174-5",
+            "utterance_id": "BK22018174.9"
+        },
+        {
+            "reference_date": "44805.0",
+            "reference_text": [
+                {
+                    "value": "캉갈은 경비견이었던 만큼 낯선 사람, 동물에 대한 경계심이 매우 강하고 용감한 성격을 가지고 있습니다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "단, 공격성보다는 보호 및 방어하려는 성향이 강해 사납진 않다고 알려져 있어요.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/133764/",
+            "search_query": "캉갈 성격",
+            "terminate": false,
+            "text": "네, 경비견으로 쓰였던 만큼 낯선 인간이나 동물을 아주 강하게 경계하고, 성격이 용감합니다. 다만 공격성보다는 보호나 방어하려는 성향이 더 짙어서 사납지는 않습니다.",
+            "turn_id": "BK22018174-5",
+            "utterance_id": "BK22018174.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 캉갈의 지능은 어떤 수준인가요?",
+            "turn_id": "BK22018174-6",
+            "utterance_id": "BK22018174.11"
+        },
+        {
+            "reference_date": "44805.0",
+            "reference_text": [
+                {
+                    "value": "캉갈은 별다른 지시 없이도 행동했을 만큼, 스스로 생각하고 주변 상황을 파악할 수 있는 높은 지능을 가진 견종입니다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "보호자의 말도 잘 알아듣는 편이라고 해요.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/133764/",
+            "search_query": "캉갈 지능",
+            "terminate": false,
+            "text": "캉갈은 별도의 지시가 없어도 행동할 만큼, 혼자 생각하고 주위 상황을 살필 수 있을 정도로 지능이 높습니다. 주인이 하는 말도 잘 이해하는 편이고요.",
+            "turn_id": "BK22018174-6",
+            "utterance_id": "BK22018174.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하긴 머리가 좋아야 경비견 노릇도 잘 할 수 있겠네요. 그렇다면 털 빠짐은 어느 정도인 편인가요?",
+            "turn_id": "BK22018174-7",
+            "utterance_id": "BK22018174.13"
+        },
+        {
+            "reference_date": "44805.0",
+            "reference_text": [
+                {
+                    "value": "캉갈은 짧은 이중모를 가지고 있어 겨울의 추위를 버틸 수 있으면서 여름철 태양으로부터 피부를 보호할 수 있습니다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "털은 방수가 되어 눈, 비에 쉽게 젖지 않으며, 이중모이기 때문에 털 빠짐은 상당하다고 알려져 있어요.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/133764/",
+            "search_query": "캉갈 이중모",
+            "terminate": false,
+            "text": "캉갈의 털은 짧은 이중 모라서 겨울 추위를 견딜 수 있으며, 여름 태양으로 피부가 상하지 않습니다. 게다가 방수도 되어서 눈이나 비에 쉽게 안 젖는데요. 다만 이중 모라서 털이 상당히 빠지는 편입니다.",
+            "turn_id": "BK22018174-7",
+            "utterance_id": "BK22018174.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "초 대형견에 털 빠짐도 상당하다면 아파트 같은 실내에서 기르기는 어렵겠군요.",
+            "turn_id": "BK22018174-8",
+            "utterance_id": "BK22018174.15"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무래도 전원주택 같은 곳이 좋죠.",
+            "turn_id": "BK22018174-8",
+            "utterance_id": "BK22018174.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "캉갈의 무는 힘도 엄청나고 덩치도 크면 규제를 해야 할 것 같은데요. 실제로 캉갈은 지금 맹견으로 지정돼 있나요?",
+            "turn_id": "BK22018174-9",
+            "utterance_id": "BK22018174.17"
+        },
+        {
+            "reference_date": "44041.0",
+            "reference_text": [
+                {
+                    "value": "동물보호법에 따르면 도사견, 아메리칸 핏불테리어, 로트와일러, 마스티프, 라이카, 오브차카, 캉갈, 울프독은 맹견으로 분류돼 입마개를 의무 착용해야 한다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "위반시 300만원 이하 과태료를 물어야 한다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.wikitree.co.kr/articles/556760",
+            "search_query": "캉갈 맹견",
+            "terminate": false,
+            "text": "네, 동물보호법상 도사견, 아메리칸 핏불테리어, 로트와일러, 마스티프, 라이카, 오브차카, 울프독과 더불어 캉갈은 맹견으로 지정돼 있습니다. 입마개를 반드시 착용시켜야 하는데, 이를 위반하면 300만 원 이하의 과태료를 물게 됩니다.",
+            "turn_id": "BK22018174-9",
+            "utterance_id": "BK22018174.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 캉갈과 마주치면 입마개가 잘 착용돼 있는지 주의해야 하겠네요. 덕분에 오늘도 말씀 잘 들었습니다. 그러면 안녕히 계세요!",
+            "turn_id": "BK22018174-10",
+            "utterance_id": "BK22018174.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 다음에 또 만나서 대화 나눠요.",
+            "turn_id": "BK22018174-10",
+            "utterance_id": "BK22018174.20"
+        }
+    ]
+}

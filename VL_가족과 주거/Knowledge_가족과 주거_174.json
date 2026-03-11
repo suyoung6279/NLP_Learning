@@ -1,0 +1,361 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.5,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.6,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018461",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018461",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 3.6,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_nhn_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 집에 오다가 새끼 고양이가 버려져 있길래 데려오려다가 말았어. 오늘도 있으면 데려올 생각인데 데려오고 나면 뭘 어떻게 해야 하지?",
+            "turn_id": "BK22018461-1",
+            "utterance_id": "BK22018461.1"
+        },
+        {
+            "reference_date": "44698.0",
+            "reference_text": [
+                {
+                    "value": "아기고양이를 발견했다면 가장 먼저 해야 할 일은 인근에 어미고양이가 있는지 확인하는 것이다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아기고양이를 구조했다면 반드시 동물병원으로 내원해 기본적인 진료를 받고 고양이의 정확한 상태를 살펴봐야 한다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 아기고양이에게는 ▲파보바이러스감염 ▲헤르페스바이러스감염 ▲귀진드기감염 ▲곰팡이감염성피부염 ▲원충감염성설사 등과 같은 질환이 많이 나타나는 편이니 이와 관련된 검사를 받아보는 것이 좋다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=59378",
+            "search_query": "고양이 구조 주의",
+            "terminate": false,
+            "text": "새끼 고양이를 발견했다면 가장 먼저 인근에 어미 고양이가 있는지 확인해야 해요. 새끼 고양이를 구조했다면 반드시 동물병원에 먼저 내원해서 기본적인 진료를 받고 고양이의 정확한 상태를 확인해야 하죠. 특히 새끼 고양이 같은 경우 파보바이러스 감염, 헤르페스 바이러스 감염, 귀진드기 감염, 곰팡이 감염성 피부염, 원충 감염성 설사 등의 질환이 많이 나타나므로 관련 검사를 받아보는 것이 좋아요.",
+            "turn_id": "BK22018461-1",
+            "utterance_id": "BK22018461.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이에게 먹이는 뭘 주면 되지? 사료를 물에 불려서 주면 되나?",
+            "turn_id": "BK22018461-2",
+            "utterance_id": "BK22018461.3"
+        },
+        {
+            "reference_date": "44780.0",
+            "reference_text": [
+                {
+                    "value": "전문가들에 따르면 고양이가 건사료를 먹을 수 있는 시기는 생후 3주 무렵부터다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 초기에는 사료가 너무 딱딱하게 느껴질 수 있으니 미지근한 물에 불려서 급여하는 것이 좋다고.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/4761303",
+            "search_query": "새끼 고양이 사료",
+            "terminate": false,
+            "text": "고양이는 생후 3주 무렵부터 건사료를 먹을 수 있어요. 다만 처음에는 사료가 너무 딱딱할 수 있기 때문에 미지근한 물에 불려서 주는 것이 좋아요.",
+            "turn_id": "BK22018461-2",
+            "utterance_id": "BK22018461.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "병원에서 검진받을 때 사료도 같이 사 와야겠다. 그리고 또 뭘 준비하면 좋지?",
+            "turn_id": "BK22018461-3",
+            "utterance_id": "BK22018461.5"
+        },
+        {
+            "reference_date": "44617.0",
+            "reference_text": [
+                {
+                    "value": "고양이 입양 전 준비할 물품에는 사료, 밥·물그릇, 화장실(보통 구입할 때 삽을 함께 지급), 화장실 모래, 스크래처 여러 개, 캣타워, 빗, 발톱깎기, 치약·칫솔, 이동장, 장난감 등이다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ggilbo.com/news/articleView.html?idxno=748115",
+            "search_query": "새끼고양이 입양 준비물",
+            "terminate": false,
+            "text": "사료와 밥그릇, 물그릇, 화장실, 화장실 모래, 스크래처나 캣타워, 빗, 발톱 깎기, 칫솔과 치약, 이동장, 장난감 등을 함께 준비해두면 좋아요.",
+            "turn_id": "BK22018461-3",
+            "utterance_id": "BK22018461.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "중성화 수술은 꼭 시켜야 하나? 중성화 수술시키는 이유가 뭐야?",
+            "turn_id": "BK22018461-4",
+            "utterance_id": "BK22018461.7"
+        },
+        {
+            "reference_date": "44573.0",
+            "reference_text": [
+                {
+                    "value": "서울시수의사회 등에 따르면 고양이를 중성화하는 이유는 발정기 울음소리와 스트레스를 줄여줄 수 있기 때문이다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전립선 질환과 유선종양, 자궁축농증 등 생식기 질환도 예방된다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4551041",
+            "search_query": "고양이 중성화 이유",
+            "terminate": false,
+            "text": "고양이에게 중성화 수술시키는 이유는 발정기 때의 울음소리와 고양이가 받는 스트레스를 줄여줄 수 있기 때문이에요. 또 전립선 질환이나 유선종양, 자궁 축농증 등 생식기 관련 질환 예방에도 도움이 되고요.",
+            "turn_id": "BK22018461-4",
+            "utterance_id": "BK22018461.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 그것도 신중히 생각을 해봐야겠네. 그 외에 새끼 고양이를 기를 때 주의해야 할 점이 있을까?",
+            "turn_id": "BK22018461-5",
+            "utterance_id": "BK22018461.9"
+        },
+        {
+            "reference_date": "42635.0",
+            "reference_text": [
+                {
+                    "value": "새끼고양이에게 가장 먼저 신경 써야할 일은 바로 사회화를 적절한 시기에 이뤄주는 일입니다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "일반적으로 새끼고양이에서 사회화가 이뤄지는 기간은 3~9주령입니다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 시기의 적절한 교육은 새로운 환경과 가족에 적응하는데 큰 도움이 됩니다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/life/health/article/201609221433122",
+            "search_query": "고양이 입양 주의",
+            "terminate": false,
+            "text": "새끼 고양이를 기를 때 먼저 신경 써야 할 일은 적절한 시기에 사회화를 이뤄주는 일이에요. 일반적으로 사회화가 이뤄지는 기간은 생후 3~9주 정도예요. 이 시기에 적절한 사회화 교육을 하면 새로운 환경과 가족에 적응하는 데 큰 도움이 돼요.",
+            "turn_id": "BK22018461-5",
+            "utterance_id": "BK22018461.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이도 사회화 과정이 필요한 줄은 몰랐네. 고양이 사회화 교육은 어떻게 하는 건데?",
+            "turn_id": "BK22018461-6",
+            "utterance_id": "BK22018461.11"
+        },
+        {
+            "reference_date": "43588.0",
+            "reference_text": [
+                {
+                    "value": "고양이들은 사회화 시기에 놀이와 학습을 하고 대소변 조절을 한다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 사냥 본능에 따라 포식 행동을 시작한다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "나 수의사는 \"고양이가 생후 2~7주령부터 14주령까지 5분씩 핸들링하면서 놀아주면 사람들과 친근해질 수 있다\"며 장난감으로 놀아주고 독립공간을 보장하는 캣타워 설치 등으로 낯선 생명체와 환경에 대한 두려움을 없애줄 것을 조언했다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?3613200",
+            "search_query": "고양이 사회화 방법",
+            "terminate": false,
+            "text": "고양이들은 사회화 시기에 놀이와 학습을 해요. 대소변을 조절하거나 사냥 본능에 따라 포식 행동을 시작하기도 하죠. 생후 2~7주가량부터 14 주령까지 5분씩 핸들링하면서 놀아주는 것이 사람들과 친해지는 데 도움이 돼요. 장난감이나 캣타워 등을 설치해서 낯선 생명체와 환경에 대한 두려움을 없애주는 것도 필요하죠.",
+            "turn_id": "BK22018461-6",
+            "utterance_id": "BK22018461.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이 나이 이야기가 나와서 그러는데, 고양이 수명은 얼마나 돼?",
+            "turn_id": "BK22018461-7",
+            "utterance_id": "BK22018461.13"
+        },
+        {
+            "reference_date": "44842.0",
+            "reference_text": [
+                {
+                    "value": "일본 일반사회법인 펫푸드협회 조사에 따르면 실내에서만 생활한 고양이의 평균 수명은 15.95세였지만, 집 밖으로 나가는 생활을 한 고양이의 평균 수명은 13.2세였다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://weekly.donga.com/3/all/11/3683440/1",
+            "search_query": "고양이 수명",
+            "terminate": false,
+            "text": "실내에서만 생활한 고양이의 경우 평균 수명이 15.95세예요. 하지만 집 밖으로 나가는 생활을 한 고양이의 경우 평균 수명은 13.2세예요.",
+            "turn_id": "BK22018461-7",
+            "utterance_id": "BK22018461.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 생활환경에 따른 차이는 있지만 10년 이상은 사는구나.",
+            "turn_id": "BK22018461-8",
+            "utterance_id": "BK22018461.15"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 그렇기 때문에 한 생명을 10년 이상 책임진다는 생각으로 입양해야 하죠.",
+            "turn_id": "BK22018461-8",
+            "utterance_id": "BK22018461.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러니까 말이야. 막상 데려오려고 하니까 조금 부담이 되는 것도 사실이야. 본격적으로 데려오기 전에 마음의 자세나, 양육자로서 확인해 봐야 할 사항이 있을까?",
+            "turn_id": "BK22018461-9",
+            "utterance_id": "BK22018461.17"
+        },
+        {
+            "reference_date": "44701.0",
+            "reference_text": [
+                {
+                    "value": "의외로 가장 먼저 고려되야 하는 것은 경제적 여유다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가족과 함께 거주할 경우 반드시 가족 구성원을 모두의 동의가 필요하며, 주 반려인 부재 시 동물을 케어해 줄 수 있는 가족 구성원이 있는지, 가족 구성원 중 알레르기 반응이 있는 사람은 없는지 확인이 필요하다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1인 가구일 경우 반려동물과 함께 보낼 수 있는 시간이 있는지 고려할 필요가 있다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthinnews.co.kr/news/articleView.html?idxno=30153",
+            "search_query": "고양이 입양 전 체크",
+            "terminate": false,
+            "text": "가장 먼저 고려해 봐야 할 것은 경제적 여유가 있는가예요. 그리고 가족과 함께 거주할 경우 반드시 가족 구성원 모두의 동의가 필요해요. 내가 없을 때 반려동물을 케어해 줄 가족이 있는지, 혹시 알레르기 반응이 있는 사람은 없는지 등을 확인해야 하죠. 1인 가구의 경우에는 반려동물과 함께 충분한 시간을 보낼 수 있는지에 대해 고려할 필요가 있어요.",
+            "turn_id": "BK22018461-9",
+            "utterance_id": "BK22018461.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇겠네. 나는 동생이랑 같이 사니까 데려오기 전에 먼저 동생이랑 상의를 해봐야겠어.",
+            "turn_id": "BK22018461-10",
+            "utterance_id": "BK22018461.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "혹시라도 기르지 못하게 됐을 경우 다시 한번 말을 걸어주세요. 고양이를 임시로 보호해주는 곳을 찾아드릴게요.",
+            "turn_id": "BK22018461-10",
+            "utterance_id": "BK22018461.20"
+        }
+    ]
+}

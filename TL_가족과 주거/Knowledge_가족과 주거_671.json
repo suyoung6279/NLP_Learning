@@ -1,0 +1,381 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016024",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016024",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전에 강아지를 키우게 되었어요. 강아지에 대해서 공부하고 있는데 개물림 사고가 많다고 들었어요. 실제로 개물림 사고가 많이 일어나고 있나요?",
+            "turn_id": "BK22016024-1",
+            "utterance_id": "BK22016024.1"
+        },
+        {
+            "reference_date": "2022-09-22",
+            "reference_text": [
+                {
+                    "value": "21일 소방청이 발표한 ‘개 물림 사고 환자 119 구급이송 현황’에 따르면 2016년부터 2020년까지 5년간 1만1152명이 개 물림 사고로 구급 이송됐다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "해마다 2000건 이상, 매일 6건씩 크고 작은 개물림 사고가 발생하는 셈이다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01302166632462744&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "개물림 사고 현황",
+            "terminate": false,
+            "text": "소방청의 개물림 사고 환자 119 구급이송 현황에 따르면 2016년부터 2020년까지 1만 1152명이 개물림 사고로 구급이송 되었다고 조사되었어요. 매년 2000건 이상, 매일 6건 이상 개물림 사고가 발생하고 있는 거죠.",
+            "turn_id": "BK22016024-1",
+            "utterance_id": "BK22016024.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "매일 6건 이상이라니 제가 생각 했던 것 보다 훨씬 많군요. 개물림 사고는 왜 일어나는 건가요? 저희 집 강아지가 가해자가 되지 않으려면 미리 알고 교육시켜야 할 것 같아요.",
+            "turn_id": "BK22016024-2",
+            "utterance_id": "BK22016024.3"
+        },
+        {
+            "reference_date": "2019-09-04",
+            "reference_text": [
+                {
+                    "value": "개물림 사고의 가장 큰 원인으로 볼 수 있는 것은 관리 부주의와 사회성부족, 과잉보호에서 가장 큰 문제를 가져온다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "무엇보다 중요한 것은 모든 반려견은 맹견이 아니더라도 보호자의 관찰을 통해 짖음이 심하거나 통제가 되지 않는 특징이나 또는 위협이나 공격성이 보인다면 올바른 교육이 반드시 필요하다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.nspna.com/news/?mode=view&newsid=381401",
+            "search_query": "개물림 사고 원인",
+            "terminate": false,
+            "text": "개물림사고의 원인은 관리부주의와 사회성 부족, 과잉보호에 있어요. 맹견이 아니더라도 짖음이 심하거나 통제가 되지 않고 위협, 공격성을 보이는 개는 보호자가 교육시켜야 해요.",
+            "turn_id": "BK22016024-2",
+            "utterance_id": "BK22016024.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 기미가 보이는 강아지면 미리 교육을 시켜야 하는군요. 다행히 저희집 강아지는 순한 것 같은데, 사람이 먼저 개물림 사고를 막을 수 있는 방법은 없나요?",
+            "turn_id": "BK22016024-3",
+            "utterance_id": "BK22016024.5"
+        },
+        {
+            "reference_date": "2022-09-22",
+            "reference_text": [
+                {
+                    "value": "반려견 보유 인구가 1500만명까지 늘어나면서 개물림 사고도 꾸준히 증가하고 있지만, 개물림 사고를 막을 뾰족한 수가 없다는 지적이 계속되고 있다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "큰 틀에서 △견주의 책임과 처벌 강화 △사고견에 대한 안락사 등이 대책으로 거론되며 갑론을박이 오가지만, 전문가는 이마저도 근본적인 대책이 아니라고 입을 모은다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01302166632462744&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "개물림 사고 막을",
+            "terminate": false,
+            "text": "개물림 사고를 막을 뾰족한 방법은 없어요. 견주의 책임과 처벌을 강화하고 강아지를 안락사 하는 방법이 있지만 전문가들은 근본적인 대책은 아니라고 주장하죠.",
+            "turn_id": "BK22016024-3",
+            "utterance_id": "BK22016024.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사고를 미연에 막을 수 있는 방법은 없는 거군요. 개물림 사고가 있을 때 견주는 처벌을 받기도 하나요?",
+            "turn_id": "BK22016024-4",
+            "utterance_id": "BK22016024.7"
+        },
+        {
+            "reference_date": "2022-09-23",
+            "reference_text": [
+                {
+                    "value": "잇따른 개 물림 사고로 내년 4월 27일부터는 개정된 동물보호법이 시행된다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "소유자 없이 반려견이 기르는 곳에서 벗어나지 않도록 관리해야 하며, 이를 위반하면 50만 원 이하의 과태료가 부과된다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려견이 사람에게 상해를 입히면 견주는 2년 이하의 징역 또는 2천만 원 이하 벌금이, 사람이 사망하면 3년 이하 징역 또는 3천만 원 이하 벌금이 처해진다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newspost.kr/news/articleView.html?idxno=101983",
+            "search_query": "개물림 사고 개정",
+            "terminate": false,
+            "text": "그럼요. 내년 4월 27일 부터는 개정된 동물보호법이 시행되어서 반려견이 소유자 없이 기르는 곳을 벗어나면 50만원 이하의 과태료가 부과돼요. 만약 반려견이 상해를 입혔다면 견주는 2년 이하의 징역이나 2천만원 이하의 벌금을 물게 되고, 사망할 경우에는 3년 이하의 징역이나 3천만원 이하의 벌금을 물어요.",
+            "turn_id": "BK22016024-4",
+            "utterance_id": "BK22016024.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내년부터 법이 더 강화되는군요. 맹견은 입마개를 반드시 해야 한다고 들었어요. 저희 집 강아지가 맹견인지 궁금한데 데 어떤 개가 맹견에 속하나요?",
+            "turn_id": "BK22016024-5",
+            "utterance_id": "BK22016024.9"
+        },
+        {
+            "reference_date": "2022-09-23",
+            "reference_text": [
+                {
+                    "value": "맹견은 입마개가 의무화됐다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "현행 동물보호법은 도사견과 아메리칸 핏불테리어, 아메리칸 스태퍼드셔테리어, 스테퍼드셔 불테리어, 로트와일러 등 5종과 이들의 잡종 개를 맹견으로 규정했다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newspost.kr/news/articleView.html?idxno=101983",
+            "search_query": "맹견 입마개 의무화",
+            "terminate": false,
+            "text": "도사견과 아메리칸 핏불테리어, 아메리칸 스태퍼드셔테리어, 스테퍼드셔 불테리어, 로트와일러 같은 맹견과 그 잡종이 해당되고 맹견은 입마개를 반드시 해야 해요.",
+            "turn_id": "BK22016024-5",
+            "utterance_id": "BK22016024.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "실제 개물림 사례를 보면 항상 맹견만 사고를 일으키는건 아닌 것 같더라고요. 만약에 맹견이 아닌 강아지도 사고를 일으키면 입마개를 해야 할 수도 있나요?",
+            "turn_id": "BK22016024-6",
+            "utterance_id": "BK22016024.11"
+        },
+        {
+            "reference_date": "2022-09-23",
+            "reference_text": [
+                {
+                    "value": "새 동물보호법 개정안이 시행되면 맹견 사육은 허가제가 된다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "맹견이 아닌 견종에 대해서도 사람이나 동물에 위해를 가한 경우 시·도지사가 기질 평가를 명할 수 있도록 했고, 맹견으로 지정될 가능성도 열어뒀다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newspost.kr/news/articleView.html?idxno=101983",
+            "search_query": "개물림 사고 맹견 개정",
+            "terminate": false,
+            "text": "그렇죠. 개정된 동물보호법에는 맹견이 아닌 견종도 사람이나 동물에 해가 될 경우에는 시, 도지사가 기질평가를 명하고 맹견으로 지정될 수도 있어요.",
+            "turn_id": "BK22016024-6",
+            "utterance_id": "BK22016024.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 강아지도 개물림 사고에서 안전하지 못해서 걱정이네요. 만약 길에서 사나운 개를 만났다면 어떻게 대처해야 하는지도 궁금해요.",
+            "turn_id": "BK22016024-7",
+            "utterance_id": "BK22016024.13"
+        },
+        {
+            "reference_date": "2022-07-19",
+            "reference_text": [
+                {
+                    "value": "개와 대치하는 상황이 발생한다면 몸동작을 크게 하고 큰 목소리로 소리를 질러 위화감을 조성해야 한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이때 중요한 것은 절대 등을 보이면 안 된다는 점이다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "맞설 용기가 나지 않고 주변에 도움을 요청할 사람도 없다면 손가락 깍지를 끼고 목을 보호한 채 쓰러지는 것도 좋은 방법이다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "맹견과 대치했을 때 먼 산을 쳐다보는 등 시선을 마주치지 않는 것도 중요하다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "적대감 혹은 관심이 없다는 것을 임의로 표시하는 행위이기 때문이다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/404327",
+            "search_query": "개물림 사고 대처법",
+            "terminate": false,
+            "text": "사나운 개를 만났다면 절대 등을 보이지 말고 몸동작을 크게 하면서 크게 소리를 질러서 위화감을 조성해야 해요. 주변에 도움을 요청할 사람이 없다면 손가락 깍지를 끼고 목을 감싼 채로 쓰러지는 것도 좋아요. 그리고 개와 시선을 마주치지 않고 먼 산을 바라보면서 적대감이나 관심이 없다는 것을 표현하는 것도 좋고요.",
+            "turn_id": "BK22016024-7",
+            "utterance_id": "BK22016024.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대처법 대로 했는데도 물렸을 경우에는 어떻게 해야 하나요?",
+            "turn_id": "BK22016024-8",
+            "utterance_id": "BK22016024.15"
+        },
+        {
+            "reference_date": "2022-01-06",
+            "reference_text": [
+                {
+                    "value": "‘개물림 사고’라 하면 큰 개나 광견병부터 떠올리는 사람들이 많다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 작은 개도 파상풍이나 패혈증 등을 유발할 수 있으므로 주의해야 한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "파상풍균은 치료하지 않은 상처에서 증식하기 때문에 작은 개에게 물린 작은 상처라도 방치하면 안 된다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "개의 침에는 파스퇴렐라균, 포도알균, 사슬알균, 혐기균 등이 있는데 이러한 세균들이 피부 조직을 뚫고 혈관으로 들어가면 세균 감염으로 인한 패혈증을 일으킬 수 있다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/01/06/2022010602044.html",
+            "search_query": "개물림사고 파상풍",
+            "terminate": false,
+            "text": "개에게 물렸을 때는 광견병도 걱정이지만 파상풍과 패혈증을 조심해야 해요. 파상풍균은 치료하지 않은 상처에서 증식하기 때문에 상처를 방치하면 안돼요. 패혈증은 개의 침에 있는 파스퇴렐라균, 포도알균, 사슬알균, 혐기균 등이 혈관으로 들어가 감염되는 병이고요.",
+            "turn_id": "BK22016024-8",
+            "utterance_id": "BK22016024.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "광견병 뿐만 아니라 파상풍이나 패혈증도 걱정해야 하는군요.",
+            "turn_id": "BK22016024-9",
+            "utterance_id": "BK22016024.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼요. 가장 좋은 방법은 대처법을 미리 익혀 둬서 강아지에게 물리지 않는 거예요.",
+            "turn_id": "BK22016024-9",
+            "utterance_id": "BK22016024.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "덕분에 오늘 강아지와 대치 상황에서 어떻게 해야 하는지도 배웠네요.",
+            "turn_id": "BK22016024-10",
+            "utterance_id": "BK22016024.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 다행이네요. 그럼 다음에도 궁금한 게 있으시면 언제든지 말씀 주세요.",
+            "turn_id": "BK22016024-10",
+            "utterance_id": "BK22016024.20"
+        }
+    ]
+}

@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22017093",
+        "name": "2022 한국어 블렌더봇 데이터 BK22017093",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0007"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "많은 아파트 브랜드들을 보면서 느끼는 건데 정말 우리나라는 아파트 문화가 발전하지 않았니? 아파트가 왜 이렇게 많은 걸까?",
+            "turn_id": "BK22017093-1",
+            "utterance_id": "BK22017093.1"
+        },
+        {
+            "reference_date": "41115.0",
+            "reference_text": [
+                {
+                    "value": "아파트가 대세가 된 것은 한국이 다른 나라에 비해 인구밀도가 높고, 특히 서울과 수도권에 전체 인구 중 절반이 모여 사는 특수성 때문이에요.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "좁은 땅에 많은 사람이 살아야 하니 단독주택보다는 아파트 같은 공동주택이 필요했던 것이죠.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/society/view/2012/07/463648/",
+            "search_query": "우리나라에 아파트가 많은 이유",
+            "terminate": false,
+            "text": "맞아, 우리나라는 아무래도 다른 나라보다 인구밀도가 높고, 특히 서울과 수도권에 전체 인구의 절반이 집중되어 있다 보니 좁은 면적에 많은 사람이 살 수 있는 아파트가 단독주택보다 많을 수밖에 없어.",
+            "turn_id": "BK22017093-1",
+            "utterance_id": "BK22017093.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하긴, 인구밀도가 높은 도시에는 더더욱 아파트가 많을 수 있겠다. 그리고 우리나라 사람들은 아파트를 주택이나 빌라보다 더 선호하는 경향이 있는데 그 이유에 대해서 알아?",
+            "turn_id": "BK22017093-2",
+            "utterance_id": "BK22017093.3"
+        },
+        {
+            "reference_date": "44177.0",
+            "reference_text": [
+                {
+                    "value": "그 결과 시세차익(사고팔 때 나는 수익)이 46%의 득표율로 1위로 선정됐다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이어 △2위 편의성(주차장, 생활환경 등)이 29% △3위 보안(혹시 모를 사고에 대한 보호) 13% △4위 주변 인식(친구, 가족 등과의 비교) 9% △5위 인테리어(유명건설사만의 차별화된 내부설계) 3% 등의 순으로 집계됐다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.readyonnews.com/news/view.html?section=86&category=94&no=740",
+            "search_query": "아파트 선호하는 이유",
+            "terminate": false,
+            "text": "일단 아파트에서 얻을 수 있는 시세차익이 많기 때문에 선호하는 이유가 가장 크지. 그다음으로는 편의성, 보안, 아파트에 대한 사람들의 인식 등의 이유로 아파트를 선호해.",
+            "turn_id": "BK22017093-2",
+            "utterance_id": "BK22017093.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아파트 하니까 생각난 에피소드인데, 나 지난번에 오랜만에 친구 집 놀러 가려고 아파트 찾아가는데 이름이 바뀌어서 한참 헤맸어. 이름 바뀐 아파트들이 꽤 생겼던데 왜 헷갈리게 바꾸는 거야?",
+            "turn_id": "BK22017093-3",
+            "utterance_id": "BK22017093.5"
+        },
+        {
+            "reference_date": "44735.0",
+            "reference_text": [
+                {
+                    "value": "아파트 단지명을 바꾸는 이유는 대부분 집값 상승과 연결돼 있다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "교통 호재가 있는 지역명이 들어가거나 건설사의 고급 브랜드명이 들어가면 아파트 가치가 올라가는 효과가 있기 때문이다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.aptn.co.kr/news/articleView.html?idxno=100379",
+            "search_query": "아파트 이름 변경하는 이유",
+            "terminate": false,
+            "text": "나도 비슷한 경험을 한 적이 있어, 엄청 혼란스러웠지? 아파트 단지명을 바꾸는 이유 또한 대부분 집값 상승을 위해서야. 교통권이 좋은 지역명이나 고급 건설사 브랜드명이 들어가면 아파트 값이 올라가는 효과가 있거든.",
+            "turn_id": "BK22017093-3",
+            "utterance_id": "BK22017093.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 정도 효과가 있다면 너도나도 이름을 바꾸려고 하겠구나. 그런데 아파트 단지명 변경이 간단한 일이야?",
+            "turn_id": "BK22017093-4",
+            "utterance_id": "BK22017093.7"
+        },
+        {
+            "reference_date": "44363.0",
+            "reference_text": [
+                {
+                    "value": "우선 소유자 3분의 2 이상이 참여해 집회 결의를 하거나 5분의 4 이상의 서면이나 전자적 방법 또는 서면과 전자적 방법으로 합의가 필요하고, 변경될 브랜드명에 관한 권리를 가진 시공사로부터 승낙을 받아야 한다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한, 특정 브랜드명으로 명칭을 변경하기 위해서는 외관상 변경할 브랜드명에 부합하는 아파트의 실체적 유형적 변경이 수반돼야 한다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.aptn.co.kr/news/articleView.html?idxno=84290",
+            "search_query": "아파트 이름 변경",
+            "terminate": false,
+            "text": "일단 소유자 3분의 2 이상이 참여해 집회 결의를 하거나 5분의 4 이상의 서면 또는 전자적 방법을 통한 합의가 있어야 하고, 또 바꾸고자 하는 브랜드명에 대한 권리가 있는 시공사의 승낙이 필요해. 그리고 특정 브랜드명으로 단지명을 바꾸려면 해당 브랜드와 적합한 아파트 외관 변형이 이뤄져야 해.",
+            "turn_id": "BK22017093-4",
+            "utterance_id": "BK22017093.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "쉬운 일만은 아니구나, 아파트가 우리 생활에 깊숙이 자리 잡고 있네. 아파트 단지의 트렌드도 옛날에 비해 많이 변하지 않았어?",
+            "turn_id": "BK22017093-5",
+            "utterance_id": "BK22017093.9"
+        },
+        {
+            "reference_date": "44708.0",
+            "reference_text": [
+                {
+                    "value": "여기에 최근 코로나로 인해 집에 머무는 시간이 늘어나면서 수요자들 또한 다양한 커뮤니티 시설을 갖춘 단지에 대한 선호 현상이 높아지고 있다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.conslove.co.kr/news/articleView.html?idxno=74083",
+            "search_query": "아파트 트렌드",
+            "terminate": false,
+            "text": "맞아, 최근 코로나로 인해 사람들이 집에 머무는 시간이 많아지면서 다양한 커뮤니티 시설을 갖춘 단지를 더욱 선호하게 됐지.",
+            "turn_id": "BK22017093-5",
+            "utterance_id": "BK22017093.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라 아파트는 여러 기능을 가졌구나. 하나의 문화로 자리 잡은 것과 다름없는걸?",
+            "turn_id": "BK22017093-6",
+            "utterance_id": "BK22017093.11"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 너도나도 아파트 구매를 위해 노력하나 봐.",
+            "turn_id": "BK22017093-6",
+            "utterance_id": "BK22017093.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 외국의 주거 형태는 한국과 많이 다르지?",
+            "turn_id": "BK22017093-7",
+            "utterance_id": "BK22017093.13"
+        },
+        {
+            "reference_date": "44490.0",
+            "reference_text": [
+                {
+                    "value": "유럽, 혹은 북아메리카와 같은 서구권 국가는 일반적으로 주거단지를 조성할 때 오직 주거만을 위한 목적으로 개발계획을 수립한다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "즉, 집이란 주거의 목적을 달성하기 위한 수단이며, 소위 ‘인프라'로 일컬어지는 각종 편의시설의 유무는 집을 선택함에 있어 크게 중요한 요소로 작용하지 않는다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://archiveh.co.kr/board/board.php?bo_table=vision&idx=38",
+            "search_query": "나라별 주거형태",
+            "terminate": false,
+            "text": "물론이지, 유럽이나 북아메리카 같은 서구권 국가들은 오직 주거를 위한 목적으로 주거단지를 만드는 편이야. 집은 그저 주거의 목적일 뿐이고 주변 편의시설 같은 인프라는 집을 선택할 때 많은 부분을 차지하지 않아.",
+            "turn_id": "BK22017093-7",
+            "utterance_id": "BK22017093.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래? 생각해보니 도심 근처에 있는 전원주택에서 사는 것을 선호하는 사람들이 있던 것 같은데 도시의 편리함을 우선적으로 생각하지 않는 거겠지?",
+            "turn_id": "BK22017093-8",
+            "utterance_id": "BK22017093.15"
+        },
+        {
+            "reference_date": "44707.0",
+            "reference_text": [
+                {
+                    "value": "국내의 경우 30~60분 정도면 도시로 출퇴근이 가능한 거리에 있는 전원주택을 선호하는 사람들이 늘고 있다. 이 정도 거리면 도시의 편리함과 함께 자연이 주는 쾌적함을 동시에 누릴 수 있어서다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://realestate.daum.net/news/detail/invest/145656",
+            "search_query": "도심 전원주택",
+            "terminate": false,
+            "text": "꼭 그렇지만은 않지만 어느 정도 맞는 말이야. 우리나라의 경우 도시까지 30~60분 거리에 있는 전원주택을 선호하는 사람들이 많아지고 있어. 자연이 주는 쾌적함과 도시에서 누릴 수 있는 편리함이 공존하거든.",
+            "turn_id": "BK22017093-8",
+            "utterance_id": "BK22017093.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "주거 공간과 편의 시설이 분리되어 있으면 정말 조용하고 쾌적한 삶을 누릴 수 있겠다. 그러면 단독 주택을 선호하는 사람들이 늘어나면 우리나라 부동산 시장에도 변화가 있게 되겠지?",
+            "turn_id": "BK22017093-9",
+            "utterance_id": "BK22017093.17"
+        },
+        {
+            "reference_date": "44429.0",
+            "reference_text": [
+                {
+                    "value": "특히, 이 같은 단독주택 홈 트렌드에 따라 국내 부동산 시장 역시 재편될 것이라는 의견이 나오고 있다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "집값의 양극화가 심화하고 재택근무의 안착, 전원생활에 대한 수요가 높아질수록 국내 부동산 시장도 이 같은 추세를 따라갈 것으로 전망된다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://realestate.daum.net/news/detail/all/20210821120004563",
+            "search_query": "단독주택 트렌드와 부동산",
+            "terminate": false,
+            "text": "맞아, 단독주택을 선호하는 트렌드에 따라 국내 부동산에도 많은 영향을 줄 것이라는 의견들이 여럿 있긴 해. 집값의 편차가 너무 크고, 재택근무의 안착, 전원생활에 대한 수요가 늘면서 자연스럽게 한국 부동산 시장도 이런 트렌드를 따라갈 수밖에 없지.",
+            "turn_id": "BK22017093-9",
+            "utterance_id": "BK22017093.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집이라는 공간도 시대별, 시기별로 트렌드가 형성된다니 참 흥미롭다. 자세한 설명 너무 고마워!",
+            "turn_id": "BK22017093-10",
+            "utterance_id": "BK22017093.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "더 궁금한 거 있음 언제든 나 찾는 것 잊지 마!",
+            "turn_id": "BK22017093-10",
+            "utterance_id": "BK22017093.20"
+        }
+    ]
+}

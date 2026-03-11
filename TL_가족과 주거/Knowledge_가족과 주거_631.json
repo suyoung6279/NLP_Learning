@@ -1,0 +1,391 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015927",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015927",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다음 주 출산 예정일을 앞둔 임산부예요. 첫 출산이라 모르는 것 투성이인데, 출산을 알리는 징후가 있다면 알려주시겠어요?",
+            "turn_id": "BK22015927-1",
+            "utterance_id": "BK22015927.1"
+        },
+        {
+            "reference_date": "2019-01-22",
+            "reference_text": [
+                {
+                    "value": "출산을 알리는 3가지 징후는 진통, 피 섞인 분비물(이슬), 양막파수다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "분만시 진통은 가진통과 달리 자궁 수축이 규칙적으로 나타난다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "진통 전에 보이는 소량의 끈끈한 점액질 섞인 출혈을 이슬이라고 한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "양막파수는 태아와 양수를 싸고 있는 양막이 터지면서 양수가 흘러나오는 것을 말한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.medisobizanews.com/news/articleView.html?idxno=57516",
+            "search_query": "출산 알리는 징후",
+            "terminate": false,
+            "text": "출산이 임박했음을 알리는 징후는 3가지가 있는데요. 하나는 규칙적인 진통, 또 하나는 피가 섞인 끈끈한 점액질인 이슬이 보이는 경우, 남은 하나는 태아와 양수를 감싸는 양막이 터져서 생기는 양막파수예요.",
+            "turn_id": "BK22015927-1",
+            "utterance_id": "BK22015927.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "3가지 증상 중 하나라도 나타나면 병원 갈 준비를 하면 되는 거네요. 그런데 진통이 가진통인지 진진통인지 초산모는 구별하기가 어렵다던데, 어떤 차이가 있나요?",
+            "turn_id": "BK22015927-2",
+            "utterance_id": "BK22015927.3"
+        },
+        {
+            "reference_date": "2017-04-04",
+            "reference_text": [
+                {
+                    "value": "△ 가진통의 특징 = 임신 중기와 후기의 일시적인 자궁 수축에 의한 통증으로 주로 하복부의 불쾌감으로 나타난다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "자궁 수축의 간격이 불규칙하므로 진통간격이 불규칙하고 진통 강도에는 변화가 없으며, 통증이 슬며시 줄면서 완전히 사라지는 특징을 보인다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "△ 진진통의 특징 = 실제 출산이 시작되었음을 알리는 진통으로, 진통간격은 규칙적으로 점차 짧아지며, 5분 간격까지 좁혀지면 출산 준비를 위해 병원 방문이 필요하다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "통증은 등을 포함하는 복부 전체로 나타나며, 자세를 바꿔도 진통이 유지되고, 걸으면 통증이 더 심해진다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000208710",
+            "search_query": "진진통 가진통",
+            "terminate": false,
+            "text": "가진통은 임신중기, 후기에 일시적으로 자궁수축이 일어나면서 생기는 통증으로 보통 하복부의 불쾌감으로 나타나요. 가진통은 진통 간격이 불규칙하고 진통 강도에 변화가 없으며 통증이 점차 줄어들면서 없어지는 특징이 있어요. 진진통은 실제 출산이 임박했음을 알리는 진통으로 병원 방문이 필요해요. 진진통은 규칙적인 진통이 나타나다가 5분 간격까지 점차 좁혀지게 되며, 복부 전체에 통증이 생기죠. 자세를 바꿔도 진통이 그대로 유지되고 걸으면 통증이 더 심해지는 특징이 있어요.",
+            "turn_id": "BK22015927-2",
+            "utterance_id": "BK22015927.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가진통과 진진통은 확연히 차이가 있긴 하네요. 언제 진통이 시작될지 모르니 짐을 싸두어야 할 것 같은데, 어떤 것들을 준비해두어야 할까요?",
+            "turn_id": "BK22015927-3",
+            "utterance_id": "BK22015927.5"
+        },
+        {
+            "reference_date": "2021-03-05",
+            "reference_text": [
+                {
+                    "value": "출산 후에는 오로가 많이 나오기 때문에 팬티는 여러장 준비하는 것이 좋은데, 3~5장 정도 준비해 가면 입원기간 동안 불편함 없이 보낼 수 있다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "가디건은 환자복 위에 입고 벗기 편하도록 넉넉한 것으로 준비하도록 한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 발목까지 올라오는 긴 양말 3~4켤레를 준비해 몸을 따뜻하게 해주는 것이 좋다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "출산 직후에는 잇몸이 약해져 있어 이전 처럼 칫솔질을 하기 힘든 경우가 있다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이에 대비해 양치용 가글을 준비하고, 자주 씻기 힘들 수 있으므로 자극이 적은 향균 물티슈를 가져가면 유용한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202103057326o",
+            "search_query": "출산 병원 준비물",
+            "terminate": false,
+            "text": "출산 후에는 오로가 많이 나오므로 팬티 3~5장 정도는 가져가야 입원기간 동안 불편하지 않게 보낼 수 있어요. 가디건은 환자복 위에 입어야 하니 벗기 편하고 넉넉한 것으로 준비하고 발목까지 올라오는 긴 양말은 3~4켤레 준비하는 것이 좋아요. 또한 출산 직후에는 잇몸이 약해져 있어 전처럼 양치질하기가 힘들 수 있으므로 양치용 가글을 준비해 가세요. 또한 출산을 하고 나면 자주 씻기 힘들기 때문에 저자극 향균 물티슈를 가져가면 유용하게 사용할 수 있어요.",
+            "turn_id": "BK22015927-3",
+            "utterance_id": "BK22015927.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "말씀해 주신 것들 하나하나 잘 준비해둬야겠네요. 진통이 시작돼서 병원에 가면 가장 먼저 어떤 걸 하게 되나요?",
+            "turn_id": "BK22015927-4",
+            "utterance_id": "BK22015927.7"
+        },
+        {
+            "reference_date": "2019-01-22",
+            "reference_text": [
+                {
+                    "value": "① 입원한 산모는 혈압과 맥박을 측정하고 응급상황 시 필요한 수혈을 대비해 혈액검사를 진행한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "② 자궁경부의 확장 정도를 파악하기 위해 의료진이 내진한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/life/health/article/201901221801002",
+            "search_query": "분만 준비 과정",
+            "terminate": false,
+            "text": "병원에 입원을 한 후 혈압, 맥박을 측정하고 응급상황에 수혈이 필요할 수 있으니 먼저 혈액 검사를 하게 돼요. 그 후에는 자궁 경부가 얼마나 열렸는지를 파악하기 위해 의료진이 내진을 하고요.",
+            "turn_id": "BK22015927-4",
+            "utterance_id": "BK22015927.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "분만을 시작한다니 생각만 해도 떨리네요. 자궁 경부가 다 열려야 분만을 할 텐데, 자궁 경부가 열리는 데 오래 걸리나요?",
+            "turn_id": "BK22015927-5",
+            "utterance_id": "BK22015927.9"
+        },
+        {
+            "reference_date": "2019-01-22",
+            "reference_text": [
+                {
+                    "value": "① 분만 제1기(개구기 또는 준비기) : 진통이 시작되는 순간부터 자궁경부가 10cm 정도 완전히 열릴 때까지의 단계로 분만과정 중 가장 많은 시간이 소요되는 단계.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/life/health/article/201901221801002",
+            "search_query": "출산 시 자궁 경부 열리는 시간",
+            "terminate": false,
+            "text": "진통이 시작되는 순간부터 분만 제1기라고 표현하는데요. 자궁경부가 10cm 가량 다 열릴 때까지의 단계가 제 1기로써, 분만과정 중에서는 가장 많은 시간이 소요되는 단계라 보시면 돼요.",
+            "turn_id": "BK22015927-5",
+            "utterance_id": "BK22015927.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자궁 경부가 열릴 때까지 진통을 참아가며 기다려야 하는 건가 봐요. 그럼 경부가 다 열린 이후에는 바로 아이가 나오는 건가요?",
+            "turn_id": "BK22015927-6",
+            "utterance_id": "BK22015927.11"
+        },
+        {
+            "reference_date": "2019-01-22",
+            "reference_text": [
+                {
+                    "value": "② 분만 제2기(배출기 또는 산출기) : 경부가 완전히 열리고 태아가 만출되는 시기.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "보통 초산모는 1-3시간, 경산모는 30분 이내의 시간이 소요된다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/life/health/article/201901221801002",
+            "search_query": "분만 태아 만출 시간",
+            "terminate": false,
+            "text": "자궁 경부가 완전히 다 열렸다고 해서 바로 태아가 나오는 건 아니에요. 경부가 모두 열린 후 태아가 나오려면 초산모는 1~3시간, 경산모는 30분 이내의 시간이 소요된답니다.",
+            "turn_id": "BK22015927-6",
+            "utterance_id": "BK22015927.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "경부가 다 열려도 3시간까지는 아이가 안 나올 수 있다는 거네요. 최대한 빨리 분만을 하려면 어떻게 해야 하죠?",
+            "turn_id": "BK22015927-7",
+            "utterance_id": "BK22015927.13"
+        },
+        {
+            "reference_date": "2019-01-22",
+            "reference_text": [
+                {
+                    "value": "이 시기에 산모는 태아를 만출하기 위해 힘주기를 한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "적절한 힘주기는 태아 하강을 촉진해 분만시간을 단축한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/life/health/article/201901221801002",
+            "search_query": "분만시간 단축 힘주기",
+            "terminate": false,
+            "text": "경부가 모두 열린 후에는 아이를 출산하기 위해 힘주기를 해주셔야 해요. 적절한 힘주기는 아이를 밑으로 밀어내기 때문에 분만 시간을 줄일 수 있거든요.",
+            "turn_id": "BK22015927-7",
+            "utterance_id": "BK22015927.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기진맥진한 상태에서 힘주는 게 가능할지 모르겠네요. 아이가 나오면 출산은 끝난 거라고 보면 되나요?",
+            "turn_id": "BK22015927-8",
+            "utterance_id": "BK22015927.15"
+        },
+        {
+            "reference_date": "2019-01-22",
+            "reference_text": [
+                {
+                    "value": "③ 분만 제3기(후산기) : 아기가 태어난 후 태반이 나오는 시기.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아기가 태어난 후 5~10분 뒤 자궁이 강하게 수축하면서 태반이 자궁에서 떨어져 나온다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "분만 종료시점으로, 태반 만출 후 자궁은 더 강하게 수축해 출혈을 방지한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자궁수축을 돕기 위해 자궁수축제를 투여한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/life/health/article/201901221801002",
+            "search_query": "분만 후산기",
+            "terminate": false,
+            "text": "분만 후 5~10분 후에 자궁이 강하게 수축하면서 자궁에서 태반까지 나와야 출산이 끝난 거라고 볼 수 있어요. 태아가 나오면 자궁이 더 강하게 수축하면서 출혈을 방지하게 되는데요. 이때 자궁 수축을 돕기 위해서 자궁 수축제를 투여하기도 한답니다.",
+            "turn_id": "BK22015927-8",
+            "utterance_id": "BK22015927.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "태반까지 나와야 출산이 끝난 거구나. 진통과 출산 시간이 최대한 짧았으면 좋겠는데 초산이라 그렇게 안 될 것 같아 걱정이에요.",
+            "turn_id": "BK22015927-9",
+            "utterance_id": "BK22015927.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너무 걱정하지 마세요. 출산의 고통이 큰 건 맞지만 내 아이가 세상에 처음으로 나오는 날이기도 하니까 행복한 상상만 하시면 출산의 두려움이 조금은 줄어들 거예요.",
+            "turn_id": "BK22015927-9",
+            "utterance_id": "BK22015927.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 해봐야겠네요. 떨리고 걱정스러웠던 마음이 조금은 안정되는 것 같아요. 좋은 말씀 감사해요.",
+            "turn_id": "BK22015927-10",
+            "utterance_id": "BK22015927.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "즐거운 생각 하시면서 태교하시고, 순산하시길 바랄게요. 그럼 다음에 또 대화 나눠요. 안녕히 가세요.",
+            "turn_id": "BK22015927-10",
+            "utterance_id": "BK22015927.20"
+        }
+    ]
+}

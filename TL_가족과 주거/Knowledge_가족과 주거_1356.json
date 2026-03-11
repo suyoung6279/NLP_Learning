@@ -1,0 +1,321 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22000103",
+        "name": "2022 한국어 블렌더봇 데이터 BK22000103",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_insvoter1"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이를 가진 건 너무 행복하고 좋은데 요즘 자꾸 몸이 가려워서 힘들어요.",
+            "turn_id": "BK22000103-1",
+            "utterance_id": "BK22000103.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 임신 중에 겪을 수 있는 이벤트가 정말 많지만 임신 소양증 때문에 힘들어하는 분들이 많더라고요.",
+            "turn_id": "BK22000103-1",
+            "utterance_id": "BK22000103.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여기저기 가렵다보니까 예민해 지기도하고 아이한테 안 좋은 영향이 있을까 걱정도 많이돼요.",
+            "turn_id": "BK22000103-2",
+            "utterance_id": "BK22000103.3"
+        },
+        {
+            "reference_date": "2022-05-03",
+            "reference_text": [
+                {
+                    "value": "특히 과거 아토피피부염을 앓았던 여성은 임신·출산 후 유두습진(유두 아토피)이 나타날 수 있는 확률이 높아지기 때문에 더욱 주의가 필요하다.",
+                    "value_time": "2022-05-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000693729",
+            "search_query": "임신소양증 비율",
+            "terminate": false,
+            "text": "원래 피부가 예민하신가요? 과거에 아토피 피부염이 있었으면 임신하고 유두습진 같이 소양증에 걸릴 확률이 높거든요.",
+            "turn_id": "BK22000103-2",
+            "utterance_id": "BK22000103.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런가요, 어릴 때 아토피가 있긴했어요.",
+            "turn_id": "BK22000103-3",
+            "utterance_id": "BK22000103.5"
+        },
+        {
+            "reference_date": "2018-12-20",
+            "reference_text": [
+                {
+                    "value": "보통은 가려움증이 나타나지만 긁다 보면 진물, 더 나아가 숙면 방해, 체력 저하 및 면역력 감소로 이어집니다.",
+                    "value_time": "2022-05-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://realfoods.co.kr/view.php?ud=20181220000004&pg=11&ret=search&search=%EC%9C%A0%EC%82%B0%EA%B7%A0",
+            "search_query": "임신소양증 염증",
+            "terminate": false,
+            "text": "지금 많이 가려우신가요? 무의식적으로 긁거나 자다가 피부 자극을 많이 주면 염증이 생길수도 있어서 조심해야해요.",
+            "turn_id": "BK22000103-3",
+            "utterance_id": "BK22000103.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "진물이 난다거나 하진 않아요. 많이 가려울 때는 차가운 물로 샤워하면서 버티는 중이에요.",
+            "turn_id": "BK22000103-4",
+            "utterance_id": "BK22000103.7"
+        },
+        {
+            "reference_date": "2020-06-08",
+            "reference_text": [
+                {
+                    "value": "가렵다고 찬물에 자주 샤워를 하면 몸이 더 건조해져서 오히려 더 가려움이 심해지기 때문에 보습제를 사용하는 것이 효과적이라고 전문가들은 조언한다.",
+                    "value_time": "2022-05-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sisunnews.co.kr/news/articleView.html?idxno=125876",
+            "search_query": "임신소양증 차가운물",
+            "terminate": false,
+            "text": "찬물 샤워가 일시적으로 좋아질 수는 있어도 잠시 뿐이에요. 건조함이 더 커지면서 심해질 수 있으니까 보습제를 꼭 바르세요.",
+            "turn_id": "BK22000103-4",
+            "utterance_id": "BK22000103.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 그래요? 귀찮아서 보습제는 미루는 편이었는데 그러면 안되는거였네요.",
+            "turn_id": "BK22000103-5",
+            "utterance_id": "BK22000103.9"
+        },
+        {
+            "reference_date": "2021-04-29",
+            "reference_text": [
+                {
+                    "value": "피부가 건조해지지 않도록 보습제를 자주 발라주는 것이 좋다.",
+                    "value_time": "2022-05-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/04/29/2021042900829.html",
+            "search_query": "임신소양증 보습제",
+            "terminate": false,
+            "text": "맞아요, 피부가 건조해지지 않게 보습제를 발라주는 게 좋아요. 자주 자주 발라주세요.",
+            "turn_id": "BK22000103-5",
+            "utterance_id": "BK22000103.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "파라 벤이 들어있는 보습제는 쓰면 안된다고 하던데.",
+            "turn_id": "BK22000103-6",
+            "utterance_id": "BK22000103.11"
+        },
+        {
+            "reference_date": "2014-09-30",
+            "reference_text": [
+                {
+                    "value": "파라벤은 화장품 외에도 식품, 생활용품, 의약품 등으로 늘 접촉하는 물질이다.",
+                    "value_time": "2022-05-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "미국암학회, FDA, 유럽소비자안전과학위원회, 미국미용제품평가위원회, 캐나다보건원, 우리나라 식약처까지 파라벤을 화장품으로 바르는 정도로는 피부에 아무런 해를 끼치지 않으며 암 발병과 무관하다고 밝히고 있다.",
+                    "value_time": "2022-05-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "물론 임산부의 건강과도 무관하다.",
+                    "value_time": "2022-05-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=11145",
+            "search_query": "임신소양증 샤워",
+            "terminate": false,
+            "text": "파라 벤은 먹는 것이나 의약품에도 쓰이는 성분이고 보습제에 들어있는 정도로는 미국암학회, FDA와 같은 외국 기관 뿐만 아니라 우리나라 식약처까지 피부에 해를 끼치지 않는다고 말하고 있어요. 물론 임산부에게도 해롭지 않고요.",
+            "turn_id": "BK22000103-6",
+            "utterance_id": "BK22000103.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 괜한 걱정을 했어요.",
+            "turn_id": "BK22000103-7",
+            "utterance_id": "BK22000103.13"
+        },
+        {
+            "reference_date": "2016-09-06",
+            "reference_text": [
+                {
+                    "value": "임신 중 스트레스에 대한 유병률을 예측하는 것은 매우 어렵지만, 외국의 연구에서 임신부의 약 1/3이 불안장애가 있었다고 한다.",
+                    "value_time": "2022-05-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2016/09/06/2016090601173.html",
+            "search_query": "임산부 스트레스",
+            "terminate": false,
+            "text": "임산부의 삼 분의 일이 불안장애가 있었다는 연구 결과가 있다고 해요. 임신 중 스트레스가 쌓인다고 꼭 문제가 생긴다는 건 아니지만 그만큼 새 생명을 품는 일이 힘들다는 거죠.",
+            "turn_id": "BK22000103-7",
+            "utterance_id": "BK22000103.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게요, 예전에는 뭔가 몸에 문제가 생기면 바로 약 부터 먹었는데 요즘은 멈칫하게되요.",
+            "turn_id": "BK22000103-8",
+            "utterance_id": "BK22000103.15"
+        },
+        {
+            "reference_date": "2020-05-28",
+            "reference_text": [
+                {
+                    "value": "그러나 치료를 하지 않는 것은 질환의 경과를 악화시켜 태아나 산모에게 더 안 좋은 예후를 나타낼 수 있으므로 전문의와 상담을 통하여 치료하는 것이 중요하다.",
+                    "value_time": "2022-05-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.whosaeng.com/118156",
+            "search_query": "임산부 약 먹어도",
+            "terminate": false,
+            "text": "치료를 안 하는게 더 안 좋은 거예요. 그러다가 병이 더 악화되면 어쩌려고요. 제일 좋은 건 의사를 찾아가서 상담을 받아보는 거죠.",
+            "turn_id": "BK22000103-8",
+            "utterance_id": "BK22000103.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "적절하게 치료받아야 하는 건 잘 알지만 참 어렵네요.",
+            "turn_id": "BK22000103-9",
+            "utterance_id": "BK22000103.17"
+        },
+        {
+            "reference_date": "2019-10-19",
+            "reference_text": [
+                {
+                    "value": "이 때 모체가 스트레스를 받거나 수면이 부족하면 결국 태아의 발육과 정서에도 악영향을 줄 수 있다는 것을 생각해야 합니다.",
+                    "value_time": "2022-05-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healtip.co.kr/news/articleView.html?idxno=2099",
+            "search_query": "임신소양증",
+            "terminate": false,
+            "text": "괴로운 걸 참으면서 잠도 잘 못 자고 엄마가 스트레스를 받게 되면 태아 성장이나 정서에도 좋지 않은 영향을 줄 수 있으니 너무 힘드시다면 꼭 병원에 방문하세요.",
+            "turn_id": "BK22000103-9",
+            "utterance_id": "BK22000103.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래야겠어요, 덕분에 마음이 한결 가벼워졌어요.",
+            "turn_id": "BK22000103-10",
+            "utterance_id": "BK22000103.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별 말씀을요, 힘이 되었다니 저도 기쁘네요. 조심히 들어가세요.",
+            "turn_id": "BK22000103-10",
+            "utterance_id": "BK22000103.20"
+        }
+    ]
+}

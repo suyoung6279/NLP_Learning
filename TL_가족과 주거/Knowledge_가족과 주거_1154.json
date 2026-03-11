@@ -1,0 +1,386 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007425",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007425",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 고양이를 정말 좋아해요. 그래서 드디어 고양이 입양을 결정했어요. 그런데 고양이를 키우는 게 처음이라 걱정이 많이 돼요.",
+            "turn_id": "BK22007425-1",
+            "utterance_id": "BK22007425.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "새로운 가족이 생기는 거네요. 귀여운 고양이를 맞이할 생각에 아주 설레겠어요.",
+            "turn_id": "BK22007425-1",
+            "utterance_id": "BK22007425.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 설레죠. 그런데 막상 고양이를 입양하려고 하니까 어떤 나이대의 고양이를 입양해야 할지 고민이 돼요. 아기 고양이를 입양 하는 게 좋을까요?",
+            "turn_id": "BK22007425-2",
+            "utterance_id": "BK22007425.3"
+        },
+        {
+            "reference_date": "2020-06-11",
+            "reference_text": [
+                {
+                    "value": "고양이는 보통 생후 6주령에 어미 젖을 떼고 이유식을 먹기 때문에 입양은 생후 2달 전후가 적절하다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2020061018130944175",
+            "search_query": "고양이 입양 준비",
+            "terminate": false,
+            "text": "고양이는 보통 생후 6주쯤에 젖을 떼고 이유식을 시작해요. 그렇기 때문에 입양은 생후 2달 전후가 적절해요.",
+            "turn_id": "BK22007425-2",
+            "utterance_id": "BK22007425.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "태어나고 바로 데려오면 안되겠네요. 몰랐어요. 그렇다면 혹시 고양이를 데려오기 전에 필요한 물품에 대해서도 알려주실 수 있을까요?",
+            "turn_id": "BK22007425-3",
+            "utterance_id": "BK22007425.5"
+        },
+        {
+            "reference_date": "2022-01-20",
+            "reference_text": [
+                {
+                    "value": "가장 우선이 되어야 할 것은 사료와 밥그릇이다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "화장실과 배변모래도 필수품이다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "화장실은 처음부터 크고 넓은 것을 선택하는 것이 좋다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "케이지(이동장)도 필요하다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고양이와의 안전한 병원동행을 위해 케이지는 필수품이다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=57359",
+            "search_query": "고양이 입양 준비물",
+            "terminate": false,
+            "text": "고양이를 데려오기 전에 미리 준비해 놓으려고 하는군요. 가장 먼저 사료와 밥그릇이 있어야 하겠죠. 그리고 화장실과 배변모래도 필수품인데 화장실은 처음부터 크고 넓은 제품을 고르는 게 좋아요. 아, 그리고 케이지도 필요해요. 고양이를 안전하게 데리고 병원을 방문하려면 케이지는 필수적이거든요.",
+            "turn_id": "BK22007425-3",
+            "utterance_id": "BK22007425.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여러 가지 물건이 필요하네요. 아, 그리고 혹시 아기 고양이는 어떤 사료를 줘야 하는지 궁금한데 알려주실 수 있으세요?",
+            "turn_id": "BK22007425-4",
+            "utterance_id": "BK22007425.7"
+        },
+        {
+            "reference_date": "2016-05-23",
+            "reference_text": [
+                {
+                    "value": "고양이는 1년 안에 신체 대부분이 성장을 마치게 된다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 이 시기에는 단백질, 칼슘, DHA 함량이 높은 자묘용(Kitten) 사료를 선택해야 한다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 주식 습식사료는 다양한 영양성분을 함유한 고단백 영양식으로 성장이 빠른 아기고양이에게 적합하다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 고양이는 생후 6개월 동안 먹은 것들의 맛을 기억하기 때문에 다양한 맛, 질감, 재료, 냄새를 지닌 사료에 길들이는 게 중요하다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?2669722",
+            "search_query": "아기고양이 사료",
+            "terminate": false,
+            "text": "고양이는 일 년 안에 대부분의 성장이 끝난다고 보면 돼요. 그래서 이 시기에는 단백질, 칼슘, DHA 가 많이 함유된 자묘용 사료를 제공해야 하죠. 아기 고양이 같은 경우에는 다양한 영양 성분이 들어있는 고단백 영양식이 필요하기 때문에 습식사료가 적합해요. 그리고 고양이는 태어나고 6개월 동안 경험했던 맛들을 잊어버리지 않아요. 그래서 이 시기에는 사료를 통해서 맛, 냄새, 질감, 재료를 고양이에게 다양하게 경험 시켜주셔야 해요.",
+            "turn_id": "BK22007425-4",
+            "utterance_id": "BK22007425.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사료를 고르는 것도 여러 조건이 있군요. 잘 알아보고 구매해야겠어요. 또 걱정되는게 있는데요, 목욕은 얼마나 자주 시켜야 할까요? ",
+            "turn_id": "BK22007425-5",
+            "utterance_id": "BK22007425.9"
+        },
+        {
+            "reference_date": "2018-03-06",
+            "reference_text": [
+                {
+                    "value": "실내에서 키우는 고양이는 장모종일 경우 한달에 1번 또는 두달에 1번, 단모종일 경우 일년에 1~2번이 적당하다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?3252041",
+            "search_query": "고양이 목욕 횟수",
+            "terminate": false,
+            "text": "실내에서 키우는 고양이는 털이 긴 장모종이라면 한달에 1번 또는 두달에 1번이 적합해요. 고양이가 털이 짧은 단모종일 경우 일년에 1~2번이 적당하고요.",
+            "turn_id": "BK22007425-5",
+            "utterance_id": "BK22007425.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "털이 긴지 짧은지에 따라서 목욕을 시키는 횟수가 다르다는 걸 처음 알았어요. 아 게다가 고양이는 화장실에 신경을 많이 써줘야 한다고 들었거든요. 어떤 점을 주의해서 신경 써야 하는지 알려주실 수 있으세요?",
+            "turn_id": "BK22007425-6",
+            "utterance_id": "BK22007425.11"
+        },
+        {
+            "reference_date": "2020-12-29",
+            "reference_text": [
+                {
+                    "value": "화장실 청소는 매일 최소한 한 번은 해줘야 한다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "매일 화장실을 청소하며 대소변에 오염된 덩어리를 꺼낸 다음 모래를 보충해주어야 한다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고양이의 발바닥은 매우 예민하여 촉감이 좋은 모래를 선호한다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "후각 또한 사람보다 발달되어 있기 때문에 소변을 빨리 응고시키고 냄새를 잡아주는 모래가 필요하다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.withinnews.co.kr/news/view.html?section=1&category=161&item=&no=23749",
+            "search_query": "고양이 화장실 모래",
+            "terminate": false,
+            "text": "일단 화장실 청소는 최소한 하루에 한 번은 해주셔야 해요. 화장실을 청소할 때는 대소변에 오염된 덩어리를 꺼내서 버리고 모래를 다시 채워놓으면 돼요. 모래의 촉감 또한 무시할 수 없는데 고양이의 발바닥은 무척 예민해서 좋은 촉감을 가진 모래를 좋아하기 때문이에요. 후각까지 사람보다 예민하게 발달했기에 소변을 빨리 굳게 하고 냄새를 잡아주는 모래를 고양이에게 준비해주셔야 하고요.",
+            "turn_id": "BK22007425-6",
+            "utterance_id": "BK22007425.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "모래 제품도 이것저것 찾아봐야겠네요. 그나저나 고양이는 산책을 안 하는 거 같은데 운동을 할 필요가 없는 건가요?",
+            "turn_id": "BK22007425-7",
+            "utterance_id": "BK22007425.13"
+        },
+        {
+            "reference_date": "2021-06-10",
+            "reference_text": [
+                {
+                    "value": "고양이도 개와 마찬가지로 충분한 운동이 필요하고 적절한 운동을 하지 않으면 비만으로 이어져 여러 질병의 원인이 된다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이런 환경을 수직으로 오르내릴 수 있는 캣타워나 기구를 통해 구조를 변화시키고, 호기심을 자극할 수 있는 여러 가지 장난감이나 캣휠 등 놀이 환경을 마련해 주는 것이 좋다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sisajournal.com/news/articleView.html?idxno=218128",
+            "search_query": "고양이 운동",
+            "terminate": false,
+            "text": "고양이도 강아지처럼 충분한 양의 운동이 필요해요. 만약 운동을 충분히 하지 않는다면 비만으로 이어지고 여러 질병에 걸릴 위험이 있어요. 수직으로 이동할 수 있는 캣타워나 기구를 통해서 환경을 변화시켜주거나 호기심을 자극할 수 있는 여러 장난감이나 놀이 환경을 준비해주세요.",
+            "turn_id": "BK22007425-7",
+            "utterance_id": "BK22007425.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산책 대신 캣타워 기억해야겠네요. 아휴, 신경쓸 게 한 두개가 아니네요. 어느 정도 크고 나면 중성화 수술도 시켜야 한다던데, 고양이에게 수술을 시키려니 걱정이 되는데 이런 중성화 수술이 고양이에게 필수인가요?",
+            "turn_id": "BK22007425-8",
+            "utterance_id": "BK22007425.15"
+        },
+        {
+            "reference_date": "2019-09-20",
+            "reference_text": [
+                {
+                    "value": "중성화 수술은 고양이의 건강과도 직결되는 문제로 반드시 해주는 것이 좋다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 고양이에게 유선종양이 발생하는 경우 대부분 악성인 경우가 많고 치료를 해도 재발 가능성이 크다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이에 예방이 가장 좋은 치료법이며 6개월 이전에 중성화 수술을 할 경우 발병 확률이 91%로 현저히 감소한다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mydaily.co.kr/new_yk/html/read.php?newsid=201909201042269211&ext=na#PL2",
+            "search_query": "고양이 중성화 필요성",
+            "terminate": false,
+            "text": "중성화 수술은 고양이의 건강이 달려있는 문제이기 때문에 해주는 게 좋아요. 특히 고양이한테 유선종양이 발생하는 경우에는 악성인 경우가 많은데 치료를 해도 재발 할 확률이 높아요. 만약 6개월 이전에 중성화 수술을 할 경우 유선종양의 발병 확률이 91%로 현저히 감소하기 때문에 중성화 수술을 통해 높은 확률로 예방 할 수 있겠죠.",
+            "turn_id": "BK22007425-8",
+            "utterance_id": "BK22007425.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "중성화 수술로 고양이의 건강을 지킬 수 있다면 꼭 해줘야겠네요. 그런데 건강을 위해서 중성화 말고도 예방 접종을 고양이에게 시켜야겠죠? 예방접종은 고양이에게 언제쯤 시켜야 좋을지도 알려주실 수 있을까요?",
+            "turn_id": "BK22007425-9",
+            "utterance_id": "BK22007425.17"
+        },
+        {
+            "reference_date": "2019-06-21",
+            "reference_text": [
+                {
+                    "value": "새끼고양이의 경우 생후 8주가 지나서 예방접종을 하는 것이 좋습니다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "8주 전까진 어미로부터 받은 항체가 질병에 대한 방어력을 발휘하기 때문입니다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "혹시 이 적정시기를 놓쳤더라도 예방접종을 해주는 것이 좋습니다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nongmin.com/plan/PLN/SRS/312643/view",
+            "search_query": "고양이 예방접종 시기",
+            "terminate": false,
+            "text": "새끼 고양이 같은 경우 태어나고 8주 후에 예방 접종을 해주는 게 좋아요. 8주 전까지는 엄마 고양이로부터 받은 항체가 질병으로부터 방어력을 행사하기 때문인데요. 만약에 이 적정 시기에 예방 접종을 해주지 못했다면 추후에라도 해주는 게 좋아요.",
+            "turn_id": "BK22007425-9",
+            "utterance_id": "BK22007425.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이에 대해 이렇게 자세하게 알려주셔서 감사해요. 고양이를 입양하기 전에 알려주신대로 미리 준비물도 사다 놓고 동물병원도 알아봐야겠어요.",
+            "turn_id": "BK22007425-10",
+            "utterance_id": "BK22007425.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요. 새로운 가족이 생기니까 참 행복하겠어요. 입양하는 고양이가 건강하고 행복하기를 바랄게요.",
+            "turn_id": "BK22007425-10",
+            "utterance_id": "BK22007425.20"
+        }
+    ]
+}

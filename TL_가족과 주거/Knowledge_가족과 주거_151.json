@@ -1,0 +1,357 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014279",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014279",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "차를 타고 외곽으로 나가다 보니 시 외곽에 처음 보는 노인요양시설이 생겼더라고요. 요즘 노인요양시설이 많이 늘어난 것 같은데 현재 그 수가 얼마나 되나요?",
+            "turn_id": "BK22014279-1",
+            "utterance_id": "BK22014279.1"
+        },
+        {
+            "reference_date": "2022-09-19",
+            "reference_text": [
+                {
+                    "value": "반면에 노인요양시설 수는 2018년 3389개소 수준이었으나 올해 7월에는 4254개소로 4년간 25%가 넘게 늘어났다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/society/view/2022/09/823017/",
+            "search_query": "노인요양시설",
+            "terminate": false,
+            "text": "2018년 3,389곳이었던 노인요양시설 수는 2022년 7월에는 4,254개소로 증가했어요. 4년간 25% 넘게 증가한 거죠.",
+            "turn_id": "BK22014279-1",
+            "utterance_id": "BK22014279.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고령화가 심해지면서 노인요양시설도 많이 늘어난 것 같아요. 우리나라 고령화가 얼마나 심하죠? 우리나라 인구 중에 노인인구가 차지하는 비율은 얼마나 되나요?",
+            "turn_id": "BK22014279-2",
+            "utterance_id": "BK22014279.3"
+        },
+        {
+            "reference_date": "2022-09-19",
+            "reference_text": [
+                {
+                    "value": "국민 6명 중 한 명은 65세 이상 고령자가 됐다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "50년 후에는 국민 두 사람 중 한 명이 고령자다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://biz.chosun.com/policy/policy_sub/2022/09/19/2ZUZEWT3IFFKDA3KOAHAXFSOC4/",
+            "search_query": "고령화",
+            "terminate": false,
+            "text": "우리나라 국민 중 6분의 1은 이미 65세 이상 고령자예요. 더 심각한 건 올해로부터 50년 뒤에는 국민의 2분의 1이 고령층이 될 것으로 예상돼요.",
+            "turn_id": "BK22014279-2",
+            "utterance_id": "BK22014279.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "50년 후에는 국민 중 절반은 노인이라니 고령화가 심각하네요. 전 세계와 비교했을 때 우리나라는 얼마나 빠른 속도로 고령화가 진행되고 있는 건가요?",
+            "turn_id": "BK22014279-3",
+            "utterance_id": "BK22014279.5"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "전 세계 246개국의 고령인구 구성비(2070년 기준) 가운데 가장 높은 수준이다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "저출산 심화로 한국이 세계에서 가장 빨리 늙어감에 따른 결과치다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.seoul.co.kr/news/newsView.php?id=20220906009008",
+            "search_query": "한국 고령화 속도",
+            "terminate": false,
+            "text": "2070년 기준 고령인구가 전체 인구 중 차지하는 비율은 전 세계 246개국 중 한국이 가장 높을 것으로 예상돼요. 저출산이 심해지면서 우리나라의 고령화가 세계에서 가장 빠르게 진행된 결과죠.",
+            "turn_id": "BK22014279-3",
+            "utterance_id": "BK22014279.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라가 세계에서 가장 빠르게 늙어가고 있다니 충격이네요. 이제는 중년이라는 말도 예전보다 더 늦은 나이를 가리키는 것 같아요. 우리나라에서는 몇 살이 중간인가요?",
+            "turn_id": "BK22014279-4",
+            "utterance_id": "BK22014279.7"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "한국의 중위연령은 올해 45.0세에서 2070년 62.2세로 높아진다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "중위연령은 총인구를 연령 순서로 나열할 때 중앙에 있는 사람의 연령을 말한다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220905071951002",
+            "search_query": "중위연령",
+            "terminate": false,
+            "text": "전체 인구를 연령 순서로 나열해서 가운데 있는 사람의 나이를 말하는 중위 연령이라는 게 있어요. 우리나라의 중위연령은 2022년 기준으로 45세죠. 하지만 이마저도 2070년에는 62.2세로 올라가요.",
+            "turn_id": "BK22014279-4",
+            "utterance_id": "BK22014279.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "2070년에는 62세가 중년이군요. 고령화가 심해지면서 고령층을 부양하는 것도 걱정이에요. 젊은 사람들이 더 많은 고령층을 부양해야 할 텐데 젊은 사람들이 얼마나 책임져야 하나요?",
+            "turn_id": "BK22014279-5",
+            "utterance_id": "BK22014279.9"
+        },
+        {
+            "reference_date": "2022-09-19",
+            "reference_text": [
+                {
+                    "value": "자연스레 노년부양비(생산연령인구 100명당 고령인구 비율)는 24.6명에서 100.6명으로 급증할 전망이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "50년 후면 생산 활동을 하는 모든 국민이 각자 한 명의 노인을 먹여 살려야 한다는 뜻이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://biz.chosun.com/policy/policy_sub/2022/09/19/2ZUZEWT3IFFKDA3KOAHAXFSOC4/",
+            "search_query": "노년부양비",
+            "terminate": false,
+            "text": "생산 활동이 가능한 인구 100명당 고령인구의 비율은 올해 24.6명에서 50년 뒤에는 100.6명으로 확 늘어나요. 한마디로 50년 후에는 국민 한 명이 노인 한 명을 책임져야 한다는 거죠.",
+            "turn_id": "BK22014279-5",
+            "utterance_id": "BK22014279.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "국민 한 명당 노인 한 명을 책임져야 한다니 국민들의 경제적 부담이 커지겠네요. 그럼 경제도 어려워질 텐데 고령화가 경제에 미치는 영향은 어떤가요?",
+            "turn_id": "BK22014279-6",
+            "utterance_id": "BK22014279.11"
+        },
+        {
+            "reference_date": "2022-09-15",
+            "reference_text": [
+                {
+                    "value": "고령화가 만성 저성장을 부르는 이유는 혁신을 막고 경제 체질 자체를 바꿔놓기 때문이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "펜실베이니아대 와튼스쿨(경영대학원)의 기디언 본스타인 교수는 지난해 11월 내놓은 논문을 통해 “고령화가 새로운 산업 형성과 젊은 기업의 탄생은 막는 반면, 기존의 오래된 대기업 이익만 높인다”는 분석 결과를 발표했다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/economy/mint/2022/09/15/UTV7NOZPKRE5BPKLM7MVPDXCFQ/",
+            "search_query": "고령화 저성장",
+            "terminate": false,
+            "text": "고령화는 만성 저성장을 불러일으켜요. 고령화는 혁신을 방해하고 경제 체질을 변화시키기 때문이죠. 펜실베이니아 대학교 경영대학원의 기디언 본스타인 교수가 2021년 11월에 내놓은 논문의 분석에 따르면 고령화는 새로운 산업이 생겨나는 것과 젊은 기업들이 생겨나는 것을 방해해요. 또 이미 있던 큰 기업들만 이익을 얻게 되죠.",
+            "turn_id": "BK22014279-6",
+            "utterance_id": "BK22014279.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고령화가 경제 발전 자체도 막는다니 해결이 시급하네요. 고령화 때문에 지금 내는 국민연금도 걱정이 돼요. 국민연금이 고갈된다는 말이 있던데 사실인가요?",
+            "turn_id": "BK22014279-7",
+            "utterance_id": "BK22014279.13"
+        },
+        {
+            "reference_date": "2022-09-11",
+            "reference_text": [
+                {
+                    "value": "2020년에는 국회에서 한 번 조사해봤는데, 2055년이면 국민연금이 고갈될 것이라는 결과가 나왔다고 해요.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "더 큰 문제는 국민연금 고갈 시점이 현재 예상보다도 앞당겨질 수 있다는 거예요.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고령화가 너무 빠르게 진행되기 때문이죠.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/business/view/2022/09/803210/",
+            "search_query": "고령화 국민연금",
+            "terminate": false,
+            "text": "네, 2020년 국회 조사 결과 2055년이면 국민연금이 다 떨어질 것으로 예상해요. 고령화가 생각보다 더 빠르게 진행되면서 2055년보다 더 빠르게 고갈될 거라는 우려도 있어요.",
+            "turn_id": "BK22014279-7",
+            "utterance_id": "BK22014279.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "국민연금을 못 받을 수 있다니 은퇴 후가 걱정이네요. 어떤 방법이 없을까요?",
+            "turn_id": "BK22014279-8",
+            "utterance_id": "BK22014279.15"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "40년 넘게 65세로 묶인 노인 연령을 앞으로 10년마다 1세씩 높여야 한다는 국책연구기관의 정책 제언이 나왔다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "현 기준을 유지했다간 갈수록 불어나는 노인 복지 비용·국민연금 보험료를 감당하기 어렵다는 이유에서인데, 세계 최저 수준의 출산율에 따른 고육지책이라는 평가다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2022090614410000947",
+            "search_query": "노인 연령",
+            "terminate": false,
+            "text": "국책 연구기관이 65세로 40년 넘게 고정되어 있던 노인 연령을 10년마다 1세씩 높이는 방안을 제시했어요. 세계 최저의 출산율 때문에 65세라는 기준을 그대로 둬서는 노인 복지 비용과 국민연금 지출을 감당할 수 없어 어쩔 수 없이 내놓은 방안이죠.",
+            "turn_id": "BK22014279-8",
+            "utterance_id": "BK22014279.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "연령을 높여서 국민연금의 안전성을 높이는 것에 대한 국민들의 생각은 어때요?",
+            "turn_id": "BK22014279-9",
+            "utterance_id": "BK22014279.17"
+        },
+        {
+            "reference_date": "2022-08-26",
+            "reference_text": [
+                {
+                    "value": "재정 안정화를 위한 구체적인 방안에 대한 물음에서는 “연금 수급 연령을 높인다”가 전체 응답자의 36.6%에 이르러 가장 많았다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/society/society_general/1056166.html",
+            "search_query": "연금 수령 연령",
+            "terminate": false,
+            "text": "국민들은 국민연금 재정 안정화를 위해서 연금을 받는 나이를 높이는 것을 가장 좋은 방안이라고 생각하고 있어요. 이 방안에 36.6%의 응답자가 가장 좋은 방안이라고 답했죠.",
+            "turn_id": "BK22014279-9",
+            "utterance_id": "BK22014279.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "국민연금 고갈을 막으려면 받는 나이를 늦추는 방법까지 사용해야 한다니 정말 큰 일이네요. 다른 획기적인 정책이 나와서 근본적인 문제를 해결해 줬으면 하네요.",
+            "turn_id": "BK22014279-10",
+            "utterance_id": "BK22014279.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "맞는 말씀이에요. 미봉책이 아니라 고령화 속도를 늦출 방법이 빨리 나왔으면 좋겠어요.",
+            "turn_id": "BK22014279-10",
+            "utterance_id": "BK22014279.20"
+        }
+    ]
+}

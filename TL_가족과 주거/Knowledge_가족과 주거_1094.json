@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.6,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006941",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006941",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0030"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저 이제 좀 임산부 티가 나나요?",
+            "turn_id": "BK22006941-1",
+            "utterance_id": "BK22006941.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러고 보니 배가 꽤 불룩해진 것 같아요. 아기 잘 크고 있죠?",
+            "turn_id": "BK22006941-1",
+            "utterance_id": "BK22006941.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 어제 정기검진 다녀왔는데 건강하대요. 그런데 자궁경부무력증을 조심해야 한다고 말씀하시던데 자궁경부무력증이 뭐예요?",
+            "turn_id": "BK22006941-2",
+            "utterance_id": "BK22006941.3"
+        },
+        {
+            "reference_date": "2019-12-26",
+            "reference_text": [
+                {
+                    "value": "자궁경부무력증이란, 자궁수축이 진행되면 반응해야 하는 자궁경부가 진통과 같은 특별한 증상도 없이 힘이 빠져 임신이 유지되지 않는 질환이다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "정상적인 자궁경부의 길이는 3~5cm인데, 보통 3cm 미만일 때 의학적으로 조산 위험이 있다고 본다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=80919",
+            "search_query": "자궁경부무력증",
+            "terminate": false,
+            "text": "자궁 경부는 본래 자궁 수축이 진행되면 반응해야 하는데 진통 등의 특별한 증상 없이 자궁 경부에 힘이 빠져서 임신 유지가 불가능해지는 질환을 자궁경부무력증이라고 해요. 자궁 경부의 정상 길이는 3~5cm인데, 일반적으로 자궁 경부의 길이가 3cm 미만일 때 조산의 위험이 있다고 의학적으로 판단하는 것이고요.",
+            "turn_id": "BK22006941-2",
+            "utterance_id": "BK22006941.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자궁경부무력증이 있으면 자궁 경부가 짧아지는 것이군요. 그런데 자궁 경부가 뭔가요? 자세히 설명해 주시겠어요?",
+            "turn_id": "BK22006941-3",
+            "utterance_id": "BK22006941.5"
+        },
+        {
+            "reference_date": "2016-11-16",
+            "reference_text": [
+                {
+                    "value": "자궁경부는 자궁의 아래쪽에 위치한 좁은 부분으로 질과 연결되는 부분이다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "임신을 하면 임신 유지와 분만에 중요한 역할을 한다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "건강한 산모의 경우, 임신 말기까지 닫혀있어 태아가 밖으로 빠지지 못하게 막아준다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "출산이 다가오면 길이가 점점 짧아지고 부드러워지면서 분만이 용이하게 이뤄질 수 있도록 한다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.cctoday.co.kr/news/articleView.html?idxno=1018095",
+            "search_query": "자궁 경부",
+            "terminate": false,
+            "text": "자궁 경부는 자궁의 아래쪽에 자리잡고 있는 좁은 부위로 질과의 연결부이기도 한데 임신 기간 중 임신의 유지와 분만에 중요한 역할을 담당하고 있어요. 산모의 건강 상태에 문제가 없다면 이 자궁 경부는 임신 말기까지 닫힌 상태를 유지하며 태아가 바깥으로 빠지는 것을 방지해 줘요. 그러다가 출산이 가까워지면 자궁 경부가 부드러워지고 점점 짧아지면서 쉽게 분만할 수 있도록 변하는 것이죠.",
+            "turn_id": "BK22006941-3",
+            "utterance_id": "BK22006941.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 태아가 밖으로 빠지지 않게 막아준다니 임신을 유지하는데 있어서 정말 중요한 곳이네요. 그런데 자궁경부무력증이 생기는 원인은 무엇인가요?",
+            "turn_id": "BK22006941-4",
+            "utterance_id": "BK22006941.7"
+        },
+        {
+            "reference_date": "2019-09-05",
+            "reference_text": [
+                {
+                    "value": "자궁경부무력증의 원인으로는 자궁경부의 선천적 이상, 과거의 분만이나 유산에 의한 자궁경부의 손상, 자궁 경부암 치료를 위한 자궁경부 원추 절제술 이력, 조기 분만 이력, 임신 중 약물 노출 등이 위험요인으로 꼽힌다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000477108",
+            "search_query": "자궁경부무력증 원인",
+            "terminate": false,
+            "text": "자궁경부무력증의 위험 요인으로는 자궁경부에 선천적으로 이상이 있는 경우, 과거에 경험한 분만 혹은 유산으로 인해 자궁 경부가 손상을 입은 경우, 자궁 경부암을 치료하기 위해 자궁경부 원추 절제술을 받은 경험이 있는 경우, 조기 분만을 한 경험이 있는 경우, 임신 중 약물에 노출된 경우 등을 들 수 있어요.",
+            "turn_id": "BK22006941-4",
+            "utterance_id": "BK22006941.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 일단 해당되는 위험 요인은 없네요. 그럼 자궁경부무력증이 생기면 어떤 증상이 나타나는 거예요?",
+            "turn_id": "BK22006941-5",
+            "utterance_id": "BK22006941.9"
+        },
+        {
+            "reference_date": "2016-11-16",
+            "reference_text": [
+                {
+                    "value": "자궁경부 무력증은 임신 중 특별한 증상 없이도 발생할 수 있다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 질분비물이 증가하거나 비정상적인 질출혈, 또는 골반의 압박, 잦은 배뭉침, 생리통과 비슷한 통증이 있는 경우에는 즉시 의사의 진찰을 받는 것이 좋다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.cctoday.co.kr/news/articleView.html?idxno=1018095",
+            "search_query": "자궁경부무력증 증상",
+            "terminate": false,
+            "text": "자궁경부무력증이 발생해도 별다른 증상이 없을 수도 있어요. 그렇지만 질분비물의 증가, 비정상적인 질출혈, 골반의 압박, 잦은 배뭉침, 생리통과 유사한 통증이 관찰될 때는 바로 병원에 방문해 의사에게 진찰받아야 해요.",
+            "turn_id": "BK22006941-5",
+            "utterance_id": "BK22006941.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 말씀하신 증상 잘 기억해 둘게요. 그럼 자궁경부무력증은 어떻게 진단할 수 있어요?",
+            "turn_id": "BK22006941-6",
+            "utterance_id": "BK22006941.11"
+        },
+        {
+            "reference_date": "2019-07-28",
+            "reference_text": [
+                {
+                    "value": "진단은 초음파검사로 한다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "최근 자궁경부가 굳어진 경도(硬度) 또는 탄성도를 측정할 수 있는 특수 초음파 장비가 선보여 자궁경부무력증 진단의 정확도가 더 높아졌다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.kmib.co.kr/article/view.asp?arcid=0924090195&code=14130000&cp=nv",
+            "search_query": "자궁경부무력증 진단",
+            "terminate": false,
+            "text": "자궁경부무력증은 초음파 검사를 통해 진단해요. 근래 들어 자궁 경부의 경도나 탄성도의 측정이 가능한 특수 초음파 장비가 도입되어 더 정확하게 자궁경부무력증을 진단하는 게 가능해졌어요.",
+            "turn_id": "BK22006941-6",
+            "utterance_id": "BK22006941.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "더 정확한 진단이 가능하다니 반가운 소식이네요. 그런데 조금 전에 자궁 경부의 길이가 3cm 미만이면 조산의 위험이 있다고 하셨는데 그렇게 자궁 경부가 짧아질 경우 치료할 수 있는 방법이 있나요?",
+            "turn_id": "BK22006941-7",
+            "utterance_id": "BK22006941.13"
+        },
+        {
+            "reference_date": "2019-02-15",
+            "reference_text": [
+                {
+                    "value": "자궁 경부 길이가 짧은 경우 조산 예방을 위해 프로게스테론을 복용하거나 수술(자궁경부원형 결찰술)을 진행하며, 조산 과거력이 없는 경우 프로게스테론을 복용하며 과거력이 있는 경우 프로게스테론을 임신 4개월부터 쓰다가 자궁경부 길이가 짧아지면 수술을 진행합니다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000452063",
+            "search_query": "자궁경부무력증 치료",
+            "terminate": false,
+            "text": "자궁 경부의 길이가 짧다면 프로게스테론 복용이나 자궁경부원형 결찰술이라는 수술을 통해 조산을 예방할 수 있어요. 만약 과거에 조산을 했던 경험이 없다면 프로게스테론을 복용하고 과거에 조산을 했던 경험이 있다면 임신 4개월부터 프로게스테론을 복용하다가 자궁 경부의 길이가 짧아지는 것이 관찰되면 수술을 진행하게 돼요.",
+            "turn_id": "BK22006941-7",
+            "utterance_id": "BK22006941.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 프로게스테론을 복용한다는 것은 약을 먹는 것인가요?",
+            "turn_id": "BK22006941-8",
+            "utterance_id": "BK22006941.15"
+        },
+        {
+            "reference_date": "2021-06-27",
+            "reference_text": [
+                {
+                    "value": "프로게스테론 치료는 여성 호르몬인 프로게스테론을 질정 또는 근육주사로 투여하는 방법으로 호르몬 제제이나 임산부와 태아에게 안전한 것으로 알려져 있다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01118486629085984&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "프로게스테론 치료",
+            "terminate": false,
+            "text": "아니에요, 프로게스테론을 질정 혹은 근육 주사를 통해 투여하는 것이에요. 프로게스테론은 여성 호르몬이지만 임산부와 태아에게 위험하지 않다고 밝혀져 있어요.",
+            "turn_id": "BK22006941-8",
+            "utterance_id": "BK22006941.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안전하다니 다행이네요. 그럼 마지막으로 수술 치료에 대해서도 자세히 알려 주실래요?",
+            "turn_id": "BK22006941-9",
+            "utterance_id": "BK22006941.17"
+        },
+        {
+            "reference_date": "2013-12-09",
+            "reference_text": [
+                {
+                    "value": "자궁경부 원형결찰술이 임신 12~16주에 주로 시행되며 시로드카와 맥도널드 수술법이 가장 널리 시술되고 있는 질수술방법이다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "수술성공률은 75~90%로 보고되고 있으며, 대부분의 수술은 질쪽에서 시행하는데, 자궁경부 결손이 매우 심한 경우에는 복부수술이 필요하다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jemin.com/news/articleView.html?idxno=322803",
+            "search_query": "자궁경부원형결찰술",
+            "terminate": false,
+            "text": "네, 자궁경부원형 결찰술은 주로 임신 주수 12~16주 사이에 실시되는 수술로 가장 보편적으로 사용되는 질수술 방법은 시로드카와 맥도널드 수술법이에요. 75~90%의 수술 성공률을 보이고 있고 대개 질쪽에서 수술이 이루어지지만 자궁 경부가 심하게 결손된 경우에는 복부 수술이 필요할 수도 있어요.",
+            "turn_id": "BK22006941-9",
+            "utterance_id": "BK22006941.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자세히 설명해 주셔서 감사해요. 잘 기억했다가 혹시라도 이상 증상이 있으면 빨리 병원에 가 볼게요.",
+            "turn_id": "BK22006941-10",
+            "utterance_id": "BK22006941.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 항상 몸조심하세요. 그리고 궁금한 게 있으면 언제든 물어보세요.",
+            "turn_id": "BK22006941-10",
+            "utterance_id": "BK22006941.20"
+        }
+    ]
+}

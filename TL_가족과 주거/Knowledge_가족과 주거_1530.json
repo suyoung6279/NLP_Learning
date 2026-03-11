@@ -1,0 +1,363 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011670",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011670",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "결혼을 하고 재작년에 내 집 마련을 해서 신랑이랑 너무 좋아했었거든요. 주택담보대출을 받고 산 집인데 요즘엔 금리가 너무 올라 대출금 갚고 생활하기가 빠듯하네요.",
+            "turn_id": "BK22011670-1",
+            "utterance_id": "BK22011670.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안 그래도 육아 휴직도 했다고 들었는데 금리 상승기에 부담스럽죠.",
+            "turn_id": "BK22011670-1",
+            "utterance_id": "BK22011670.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가입 당시에는 변동금리가 낫다고 생각했는데 너무 올라버리니깐요. 제가 오늘 안심전환대출 홍보물을 봤는데 이건 어떤 거에요?",
+            "turn_id": "BK22011670-2",
+            "utterance_id": "BK22011670.3"
+        },
+        {
+            "reference_date": "2022-09-21",
+            "reference_text": [
+                {
+                    "value": "안심전환대출은 금리 상승기에 주택담보 대출자의 경제적 부담을 덜어주기 위해 제1·2금융권에서 받은 변동·혼합형 금리 주택담보대출을 주금공의 3%대 장기·고정금리 정책모기지로 대환해주는 상품이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://biz.chosun.com/stock/finance/2022/09/21/O63AQ2QH45BKJD24YRHARETEB4/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+            "search_query": "안심전환대출",
+            "terminate": false,
+            "text": "금리가 상승하는 시기에 주택담보 대출자가 경제적으로 부담이 되다보니 제1금융권, 제2금융권에서 받은 변동금리형, 혼합금리형 주택담보대출을 주금공의 3퍼센트대의 장기, 고정금리 정책금리로 바꿔주는 금융상품이에요.",
+            "turn_id": "BK22011670-2",
+            "utterance_id": "BK22011670.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "장기, 고정금리로 갈아탈 수 있다니 좋은걸요. 안심전환대출 대상자가 되면 대출금리는 어떻게 되나요?",
+            "turn_id": "BK22011670-3",
+            "utterance_id": "BK22011670.5"
+        },
+        {
+            "reference_date": "2022-09-23",
+            "reference_text": [
+                {
+                    "value": "대출금리는 연 3.8%(10년)∼4.0%(30년).",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만 39세 이하이고 소득 6천만원 이하인 저소득 청년층은 연 3.7%(10년)∼3.9%(30년)가 적용된다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.imaeil.com/page/view/2022092314530280947",
+            "search_query": "안심전환대출 대출금리",
+            "terminate": false,
+            "text": "대출금리는 10년물의 경우 연 3.8퍼센트, 30년물의 경우 연 4퍼센트로 형성되어 있어요. 만 39세 이하, 소득 6천만원 이하에 드는 저소득 청년층은 10년물 기준 연 3.7퍼센트, 30년물 기준 3.9퍼센트의 금리가 적용돼요.",
+            "turn_id": "BK22011670-3",
+            "utterance_id": "BK22011670.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "보통 3퍼센트대 후반이 적용이 되네요. 안심전환대출 주담대 대상은 어떻게 되나요?",
+            "turn_id": "BK22011670-4",
+            "utterance_id": "BK22011670.7"
+        },
+        {
+            "reference_date": "2022-09-20",
+            "reference_text": [
+                {
+                    "value": "올해 8월16일까지 제1금융권·2금융권에서 취급된 변동금리 또는 준고정금리 주담대를 대상으로 한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20220920_0002019998&cID=15001&pID=15000",
+            "search_query": "안심전환대출 주담대 대상",
+            "terminate": false,
+            "text": "2022년 8월 16일까지 제1금융권, 제2금융권에서 받은 변동금리나 준고정금리 주담대가 대상이에요.",
+            "turn_id": "BK22011670-4",
+            "utterance_id": "BK22011670.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 2년 전에 제1금융권에서 변동금리로 받았으니 일단 대상에 해당되네요. 혹시 안심전환대출 주담대 제외 기준도 있나요?",
+            "turn_id": "BK22011670-5",
+            "utterance_id": "BK22011670.9"
+        },
+        {
+            "reference_date": "2022-09-23",
+            "reference_text": [
+                {
+                    "value": "만기가 5년 이상이면서 만기까지 금리가 완전히 고정돼 있는 주담대와 보금자리론·적격대출·디딤돌대출 등 정책모기지는 제외된다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://moneys.mt.co.kr/news/mwView.php?no=2022092315391794721",
+            "search_query": "안심전환대출 제외 대상",
+            "terminate": false,
+            "text": "만기가 5년 이상이면서 만기까지 고정 금리인 주담대와 보금자리론, 적격대출, 디딤돌대출과 같은 정책모기지 상품은 안심전환대출 제외 대상이에요.",
+            "turn_id": "BK22011670-5",
+            "utterance_id": "BK22011670.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 제외 대상에 해당하지 않으니 다행이네요. 혹시 안심전환대출을 신청할 때 재산 기준도 있나요?",
+            "turn_id": "BK22011670-6",
+            "utterance_id": "BK22011670.11"
+        },
+        {
+            "reference_date": "2022-09-20",
+            "reference_text": [
+                {
+                    "value": "부부합산소득 7000만원 이하, 주택 가격(시세 기준) 4억원 이하인 1주택자라면 신청할 수 있다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20220920_0002019998&cID=15001&pID=15000",
+            "search_query": "안심전환대출 재산 기준",
+            "terminate": false,
+            "text": "부부합산소득이 7000만원 이하여야하고 시세 기준 주택 가격이 4억원 이하인 1주택자면 신청이 가능해요.",
+            "turn_id": "BK22011670-6",
+            "utterance_id": "BK22011670.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 저희 부부는 안심전환대출 소득 기준과 재산 기준도 충족하네요. 안심전환대출 신청 기간은 어떻게 되나요?",
+            "turn_id": "BK22011670-7",
+            "utterance_id": "BK22011670.13"
+        },
+        {
+            "reference_date": "2022-09-21",
+            "reference_text": [
+                {
+                    "value": "신청 기간은 주택가격에 따라 다르다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1회차(9월 15일∼30일)에는 주택가격 3억원까지 신청할 수 있고, 2회차(10월 6일∼17일)에는 주택가격 4억원까지 신청할 수 있다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://biz.chosun.com/stock/finance/2022/09/21/O63AQ2QH45BKJD24YRHARETEB4/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+            "search_query": "안심전환대출 신청 기간",
+            "terminate": false,
+            "text": "신청 기간은 주택가격에 따라 구분되는데요. 9월 15일부터 9월 30일까지 1회차는 주택가격 3억원까지 신청할 수 있는 기간이구요. 2회차인 10월 6일부터 10월 17일까지는 주택가격 4억원까지 신청이 가능해요.",
+            "turn_id": "BK22011670-7",
+            "utterance_id": "BK22011670.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 신청 기한이 얼마 남지 않았네요. 오늘 물어보길 정말 잘했어요. 안심전환대출 신청은 어떻게 하면 되나요?",
+            "turn_id": "BK22011670-8",
+            "utterance_id": "BK22011670.15"
+        },
+        {
+            "reference_date": "2022-09-23",
+            "reference_text": [
+                {
+                    "value": "신청 방식은 주민등록번호 출생연도 끝자리에 따라 가입 신청 요일이 다른 '요일제'.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "출생연도별 신청일을 확인해야 한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가령 월요일은 출생연도 끝자리가 1, 6이 신청하는 식이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.imaeil.com/page/view/2022092314530280947",
+            "search_query": "안심전환대출 신청 방식",
+            "terminate": false,
+            "text": "주민등록번호 출생연도 끝자리에 따라 가입 신청 요일이 다른 요일제로 신청을 받아요. 출생연도별 신청일을 확인해야하죠. 예를들어 출생연도 끝자리가 1과 6인 사람이 월요일에 신청할 수 있어요.",
+            "turn_id": "BK22011670-8",
+            "utterance_id": "BK22011670.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 다른 것도 요즘 출생연도 끝자리로 많이 나눠서 하던데 분산이 돼서 신청하는데 대기가 길지 않겠어요. 안심전환대출 신청 창구는 어디인가요?",
+            "turn_id": "BK22011670-9",
+            "utterance_id": "BK22011670.17"
+        },
+        {
+            "reference_date": "2022-09-23",
+            "reference_text": [
+                {
+                    "value": "주택담보대출 취급기관에 따라 신청 창구도 다르다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "국민·기업·농협·신한·우리·하나은행 등 6대 은행의 주택담보대출은 기존 대출 은행의 온라인 홈페이지나 영업점 창구에서 신청을 받는다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 외 은행과 제2금융권 주택담보대출은 주택금융공사 홈페이지나 앱를 통해 신청하면 된다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.imaeil.com/page/view/2022092314530280947",
+            "search_query": "안심전환대출 신청 창구",
+            "terminate": false,
+            "text": "취급기관에 따라 신청 창구가 구분이 돼요. 국민, 기업, 농협, 신한, 우리, 하나은행이 포함된 6대 은행의 주택담보대출은 대출을 받은 은행의 온라인 홈페이지 혹은 영업점 창구에서 신청을 할 수 있어요. 그 밖의 은행과 제2금융권의 주택담보대출은 주택금융공사 홈페이지나 어플을 통해 신청을 하면 돼요.",
+            "turn_id": "BK22011670-9",
+            "utterance_id": "BK22011670.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 저희는 은행의 온라인 홈페이지에서 하면 편리하겠네요. 오늘 신랑이랑 이야기해보고 신청해봐야겠어요.",
+            "turn_id": "BK22011670-10",
+            "utterance_id": "BK22011670.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "꼭 안심전환대출 대상자가 돼서 혜택을 보면 좋겠네요.",
+            "turn_id": "BK22011670-10",
+            "utterance_id": "BK22011670.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잘 알려주신 덕분에 신청을 할 수 있겠어요. 너무 감사해요.",
+            "turn_id": "BK22011670-11",
+            "utterance_id": "BK22011670.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "이야기 나누다보니 벌써 셔틀버스 시간이 다 됐네요. 저는 이만 가 볼게요. 집에 잘 들어가서 톡 남겨주세요.",
+            "turn_id": "BK22011670-11",
+            "utterance_id": "BK22011670.22"
+        }
+    ]
+}

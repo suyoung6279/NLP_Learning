@@ -1,0 +1,435 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001062",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001062",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요새 뉴스에서 저출산 문제를 이슈로 삼는데 우리나라 출산율이 얼마나 되는지 아시나요?",
+            "turn_id": "BK22001062-1",
+            "utterance_id": "BK22001062.1"
+        },
+        {
+            "reference_date": "2022-05-26",
+            "reference_text": [
+                {
+                    "value": "우리나라 연간 합계 출산율은 2018년(0.98명), 2019년(0.92명), 2020년(0.84명), 2021년(0.81명) 4년 연속 1명을 밑돌고 있다.",
+                    "value_time": "2022-06-29",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2022052610470001933?did=NA",
+            "search_query": "출산율",
+            "terminate": false,
+            "text": "우리나라의 출산율은 2018년에 0.98명에서 2021년 0.81명으로 4년 동안 연속으로 1명을 밑돌고 있어요.",
+            "turn_id": "BK22001062-1",
+            "utterance_id": "BK22001062.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 출산율이 그 정도군요. 제 주위에는 결혼하신 분들은 대부분 출산하셔서 의외네요. 어떤 이유로 출산율이 낮은 걸까요?",
+            "turn_id": "BK22001062-2",
+            "utterance_id": "BK22001062.3"
+        },
+        {
+            "reference_date": "2020-12-22",
+            "reference_text": [
+                {
+                    "value": "정부는 정규직과 비정규직, 대기업과 중소기업 등 고용 형태, 기업 규모, 직종에 따른 임금 격차와 고용 안정성 차이가 저출산의 첫 번째 원인이라고 봤다.",
+                    "value_time": "2022-06-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이외에도 임금, 일자리 질 등에서 남녀 성차별적 구조가 지속되고, 가사 노동과 돌봄 수행을 여성에게만 맡기는 현실이 저출산의 원인 중 하나라고 밝혔다.",
+                    "value_time": "2022-06-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ilyo.co.kr/?ac=article_view&entry_id=388083",
+            "search_query": "낮은 출산율 원인",
+            "terminate": false,
+            "text": "일단 정부에서는 임금 격차와 고용 안정성, 주택 가격의 상승 등을 저출산의 원인으로 보고 있어요. 그 외에도 직장과 관련된 남녀 성차별적 구조와 여성에게만 육아를 맡기는 현실도 들 수 있고요.",
+            "turn_id": "BK22001062-2",
+            "utterance_id": "BK22001062.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 정부에서 낮은 출산율을 대비해 다양한 출산 장려 정책을 계획하겠네요?",
+            "turn_id": "BK22001062-3",
+            "utterance_id": "BK22001062.5"
+        },
+        {
+            "reference_date": "2020-12-17",
+            "reference_text": [
+                {
+                    "value": "2005년 저출산·고령사회기본법이 제정된 후 이듬해부터 5년 주기로 장기계획을 내놓고 있는데 이번이 4번째다.",
+                    "value_time": "2022-06-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newsgn.com/296035",
+            "search_query": "출산 고령사회기본법",
+            "terminate": false,
+            "text": "네, 정부는 2005년에 출산 고령사회 기본법을 제정한 후 5년을 주기로 장기 계획을 발표하고 있답니다.",
+            "turn_id": "BK22001062-3",
+            "utterance_id": "BK22001062.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 2022년도에는 어떤 새로운 지원 정책이 생기는지, 아니면 다른 변화가 있는지 궁금해요.",
+            "turn_id": "BK22001062-4",
+            "utterance_id": "BK22001062.7"
+        },
+        {
+            "reference_date": "2021-11-18",
+            "reference_text": [
+                {
+                    "value": "내년 1월부터 자녀를 임신했을 때 건강보험공단에서 신용카드나 체크카드에 담은 바우처(이용권) 형태로 받는 임신·출산 지원금액이 대폭 늘어난다.",
+                    "value_time": "2022-06-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "임신·출산 진료비 지원 금액은 한 자녀를 임신한 경우 60만원에서 100만원으로, 쌍둥이 등 다자녀를 임신하면 100만원에서 140만원으로 지금보다 각각 40만원 늘어난 금액을 받는다.",
+                    "value_time": "2022-06-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailian.co.kr/news/view/1054078/?sc=Naver",
+            "search_query": "임신 및 출산 진료비 바우처",
+            "terminate": false,
+            "text": "그렇다면 몇 가지 제가 아는 정보를 말씀드릴게요. 일단 임신 및 출산 진료비로 사용할 수 있는 지원금은 기존 60만 원에서 100만 원으로 상향되었고, 건강보험공단에서 신용카드나 체크카드에 담은 바우처 형태로 지급돼요.",
+            "turn_id": "BK22001062-4",
+            "utterance_id": "BK22001062.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 변화가 있군요. 임신 및 출산 시에 드는 병원비 면에서 부담이 줄겠네요.",
+            "turn_id": "BK22001062-5",
+            "utterance_id": "BK22001062.9"
+        },
+        {
+            "reference_date": "2022-04-01",
+            "reference_text": [
+                {
+                    "value": "보건복지부에 따르면 첫만남이용권은 2022년 출생 아동에게 200만원 상당의 바우처를 지급하는 사업으로 2020년 12월 제4차 저출산·고령사회 기본계획의 핵심 사업인 영아기 집중투자 사업의 일환으로 도입됐다.",
+                    "value_time": "2022-06-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "바우처는 아동 출생일로부터 1년간 유흥·사행업종, 레저업종 등을 제외한 전 업종에서 사용할 수 있다.",
+                    "value_time": "2022-06-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newspim.com/news/view/20220401000367",
+            "search_query": "첫만남이용권",
+            "terminate": false,
+            "text": "그렇죠, 그리고 첫 만남 이용권이라는 출생 시 지급되는 200만 원 상당의 바우처가 있어요. 이 바우처는 아동 출생일로부터 1년 동안 유흥, 사행 업종 등을 제외하고 사용할 수 있어요.",
+            "turn_id": "BK22001062-5",
+            "utterance_id": "BK22001062.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 출생 시, 지자체별로 지급되었던 출산 장려금이 첫 만남 이용권인가요?",
+            "turn_id": "BK22001062-6",
+            "utterance_id": "BK22001062.11"
+        },
+        {
+            "reference_date": "2022-06-26",
+            "reference_text": [
+                {
+                    "value": "보건복지부는 공문을 통해 각 지자체에 자체적으로 지급하던 출산장려금을 통·폐합할 것을 권고, 올해 경기 지역 31개 시·군 중 5개 지자체가 권고 사항에 따라 금액 조정 또는 폐지에 나섰다.",
+                    "value_time": "2022-06-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.incheonilbo.com/news/articleView.html?idxno=1150182",
+            "search_query": "출산장려금",
+            "terminate": false,
+            "text": "아니요, 출산 장려금은 각 지자체에서 자치적으로 지급하던 지원금이에요. 보건복지부에서 각 지자체에 출산 장려금의 통폐합을 권고했고 일부 지자체는 금액 조정 또는 폐지했어요.",
+            "turn_id": "BK22001062-6",
+            "utterance_id": "BK22001062.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 지역별로 금액이 달랐던 걸로 기억하고 있거든요.",
+            "turn_id": "BK22001062-7",
+            "utterance_id": "BK22001062.13"
+        },
+        {
+            "reference_date": "2022-01-05",
+            "reference_text": [
+                {
+                    "value": "올해 이후 태어난 아동은 만 2세가 될 때까지 월 30만원의 영아수당도 받을 수 있다.",
+                    "value_time": "2022-06-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "영아수당은 어린이집에 다니지 않는 아동을 대상으로 연령별 월 최대 20만원씩 지급하던 가정양육수당을 확대·개편한 제도다.",
+                    "value_time": "2022-06-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2022010514220480583",
+            "search_query": "영아수당",
+            "terminate": false,
+            "text": "네, 그리고 만 2세까지 어린이집에 다니지 않는 아동을 대상으로 주는 영아 수당이 20만 원에서 30만 원으로 확대되었어요.",
+            "turn_id": "BK22001062-7",
+            "utterance_id": "BK22001062.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "영아 외에 아동 수당은 어떻게 되나요?",
+            "turn_id": "BK22001062-8",
+            "utterance_id": "BK22001062.15"
+        },
+        {
+            "reference_date": "2022-04-24",
+            "reference_text": [
+                {
+                    "value": "아동수당 지급 연령을 현행 만 6세에서 만 7세까지 확대하는 '아동수당법'이 시행되면서 대상 아동도 50여만명으로 늘어났다.",
+                    "value_time": "2022-06-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아동수당은 아동 양육에 따른 경제적 부담을 경감하기 위해 월 10만원을 지급하는 제도다.",
+                    "value_time": "2022-06-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newspim.com/news/view/20220422001119",
+            "search_query": "아동수당법",
+            "terminate": false,
+            "text": "혹시 아동수당법이라고 들어보셨나요? 아동 양육으로 인한 경제적 부담을 줄이기 위해 월 10만 원을 지급하는 제도인데 기존 만 6세에서 만 7세까지 확대되었어요.",
+            "turn_id": "BK22001062-8",
+            "utterance_id": "BK22001062.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "영아 수당, 아동 수당 모두 확대 개편되는군요. 아, 혹시 근로자의 출산 휴가와 육아 휴직 기간은 어떻게 되는지 알고 계시나요?",
+            "turn_id": "BK22001062-9",
+            "utterance_id": "BK22001062.17"
+        },
+        {
+            "reference_date": "2020-08-24",
+            "reference_text": [
+                {
+                    "value": "근로기준법에 따르면 출산휴가는 90일이다.",
+                    "value_time": "2022-06-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "근로기준법에 따라 만 8세 이하 또는 초등학교 2학년 이하의 자녀를 가진 근로자는 1년 이내의 육아휴직을 쓸 수 있다.",
+                    "value_time": "2022-06-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://weekly.khan.co.kr/khnm.html?mode=view&code=115&artid=202008141423181&pt=nv",
+            "search_query": "출산휴가 육아휴직",
+            "terminate": false,
+            "text": "근로기준법에 따르면 출산 휴가는 90일로 만 8세 이하 또는 초등학교 2학년 이하의 자녀를 가진 근로자의 경우 1년 이내의 육아 휴직을 사용할 수 있어요.",
+            "turn_id": "BK22001062-9",
+            "utterance_id": "BK22001062.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 육아 휴직 관련된 제도는 어떤 게 있을까요?",
+            "turn_id": "BK22001062-10",
+            "utterance_id": "BK22001062.19"
+        },
+        {
+            "reference_date": "2022-01-18",
+            "reference_text": [
+                {
+                    "value": "2022년 주목해야할 육아휴직 제도 중 ‘3+3 부모육아휴직제’가 있다.",
+                    "value_time": "2022-06-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 제도는 2022년도부터 자녀 생후 12개월 내 부모가 동시에 또는 순차적으로 육아휴직 사용 시, 첫 3개월에 대해 부모 각각의 육아휴직 급여를 상향하여 지급하는 것이다.",
+                    "value_time": "2022-06-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.babytimes.co.kr/news/articleView.html?idxno=54664",
+            "search_query": "3플러스3 부모육아휴직제",
+            "terminate": false,
+            "text": "3 플러스 3 부모 육아 휴직제로 2022년부터 자녀가 생후 12개월 이내에 부모가 육아휴직 시, 각각 첫 3개월에 육아휴직 급여를 상향해 지급하는 것이에요.",
+            "turn_id": "BK22001062-10",
+            "utterance_id": "BK22001062.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그럼 앞으로 예정된 제도에는 어떤 게 있을까요?",
+            "turn_id": "BK22001062-11",
+            "utterance_id": "BK22001062.21"
+        },
+        {
+            "reference_date": "2022-06-16",
+            "reference_text": [
+                {
+                    "value": "2023년부터 신설되는 부모급여는 0~11개월 아동에게 월 70만원을 지급하며 2024년에 100만원으로 증액한다.",
+                    "value_time": "2022-06-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "육아휴직의 경우 엄마와 아빠가 각각 자녀 1인당 최대 1.5년을 쓸 수 있도록 기간을 확대하고 제도를 정비할 계획이다.",
+                    "value_time": "2022-06-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newspim.com/news/view/20220616000126",
+            "search_query": "부모급여",
+            "terminate": false,
+            "text": "2023년에 11개월 이하 아동을 대상으로 월 70만 원을 지급하는 부모 급여가 예정되어 있고, 2024년에는 금액을 100만 원으로 증액할 예정이에요. 또 육아 휴직의 경우, 부모 각각 자녀 1인당 최대 1.5년을 쓸 수 있도록 확대할 계획이 있어요.",
+            "turn_id": "BK22001062-11",
+            "utterance_id": "BK22001062.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 계획이 예정되어 있군요. 앞으로도 아이를 낳아 양육하는 데 도움이 될 만한 다양한 지원과 정책이 나오면 좋겠네요.",
+            "turn_id": "BK22001062-12",
+            "utterance_id": "BK22001062.23"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동의해요, 그리고 이러한 출산장려정책으로 우리나라 출산율에 어떤 변화가 생길지 기대되네요.",
+            "turn_id": "BK22001062-12",
+            "utterance_id": "BK22001062.24"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러니까요, 오늘 많은 새로운 정보를 알게 되었네요.",
+            "turn_id": "BK22001062-13",
+            "utterance_id": "BK22001062.25"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요, 다음에 또 다른 주제로 대화 나눠요.",
+            "turn_id": "BK22001062-13",
+            "utterance_id": "BK22001062.26"
+        }
+    ]
+}

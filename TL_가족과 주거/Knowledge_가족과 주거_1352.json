@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009007",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009007",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신을 했을 때는 약을 복용하는 것 또한 신경을 써야 한다던데, 임신 중 약물 복용을 조심해야 하는 까닭은 무엇인가요?",
+            "turn_id": "BK22009007-1",
+            "utterance_id": "BK22009007.1"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "임신 중 약물사용은 태아의 발달에 영향을 미친다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "어떤 약물은 태아 기형, 유산, 성장 저해 등을 유발하기도 한다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/07/01/2022070101688.html",
+            "search_query": "임신 중 약물",
+            "terminate": false,
+            "text": "그건 약물 복용이 태아의 발달에 영향을 끼칠 수 있기 때문이야. 임신 중에 복용하는 특정 약물이 태아의 기형 또는 성장 저해를 유발하거나 유산까지 이르게 할 수 있어.",
+            "turn_id": "BK22009007-1",
+            "utterance_id": "BK22009007.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 유산을 초래할 수도 있다니 정말 조심해야겠네요. 그럼 임신 중에 복용하면 안 되는 약은 어떤 게 있나요?",
+            "turn_id": "BK22009007-2",
+            "utterance_id": "BK22009007.3"
+        },
+        {
+            "reference_date": "2022-07-06",
+            "reference_text": [
+                {
+                    "value": "임신부와 임신을 준비하는 여성이 절대 먹으면 안 되는 약물이 있다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여드름 치료제의 주성분인 ‘이소트레티노인’이 태아 기형을 유발한다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mdtoday.co.kr/news/view/1065576141409164",
+            "search_query": "임신부 여드름 치료제 기형",
+            "terminate": false,
+            "text": "임신을 준비하고 있는 여성을 비롯하여 임신부는 여드름 치료제를 복용하면 안 돼. 여드름 치료제에는 태아의 기형을 유발하는 이소트레티노인이라는 성분이 들어있거든.",
+            "turn_id": "BK22009007-2",
+            "utterance_id": "BK22009007.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여드름 치료제에 이런 성분도 들어있었군요. 그런데 이소트레티노인이 함유된 여드름 치료제는 주로 어떤 경우에 처방되는 건가요?",
+            "turn_id": "BK22009007-3",
+            "utterance_id": "BK22009007.5"
+        },
+        {
+            "reference_date": "2022-07-07",
+            "reference_text": [
+                {
+                    "value": "여드름 치료제 이소트레티노인은 원래 1차 약물에 치료 효과가 없는 여드름에 처방하는 2차 약물이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대부분은 피부 깊숙한 곳에 생기는 결절성 여드름이나 낭포성 여드름이 대상이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202207072218o",
+            "search_query": "이소트레티노인 여드름 치료제",
+            "terminate": false,
+            "text": "이소트레티노인이 들어있는 여드름 치료제는 일반적으로 1차 약물 사용 후 효과가 없는 경우에 처방되는 2차 약물이야. 대부분 피부 속 깊은 곳에 발생하는 낭포성 및 결정성 여드름을 타깃으로 하지.",
+            "turn_id": "BK22009007-3",
+            "utterance_id": "BK22009007.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 임신 중에 여드름이 생겼다고 해서 아무 약이나 복용하면 안 되겠어요. 그럼 임신 중에 또 어떤 약을 조심하면 될까요?",
+            "turn_id": "BK22009007-4",
+            "utterance_id": "BK22009007.7"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "포말리도마이드는 다발골수종 치료제로 사용되는 성분이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "포말리도마이드 역시 기형 유발이 우려되므로 임부에게 사용하면 안 된다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/07/01/2022070101688.html",
+            "search_query": "임부 기형 포말리도마이드",
+            "terminate": false,
+            "text": "포말리도마이드가 들어있는 다발골수종 치료제도 사용을 피해야 해. 임신부가 포말리도마이드 성분을 흡수하게 되면 이 또한 태아의 기형을 유발할 수 있기 때문이야.",
+            "turn_id": "BK22009007-4",
+            "utterance_id": "BK22009007.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "태아의 기형을 유발하는 만큼 정말 조심해야겠군요. 또 어떤 약물이 태아에게 악영향을 끼치나요?",
+            "turn_id": "BK22009007-5",
+            "utterance_id": "BK22009007.9"
+        },
+        {
+            "reference_date": "2022-09-04",
+            "reference_text": [
+                {
+                    "value": "피나스테리드 성분 탈모약은 임신 중에 복용했거나, 복용 중 임신하면 태아의 호르몬 생성이 억제돼 생식기 기형을 초래할 수 있다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "여성이 약 조각을 만지기만 해도 피부로 약이 흡수되기 때문에 만져선 안 된다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/09/01/2022090102152.html",
+            "search_query": "피나스테리드 임신 생식기 기형",
+            "terminate": false,
+            "text": "피나스테리드가 들어있는 탈모약을 임신한 상태에서 복용했거나, 이 약을 복용 중 임신을 하게 되면 태아의 호르몬 생성에 문제가 생겨 생식기의 기형을 야기할 수 있어. 특히 피나스테리드 성분은 만지기만 해도 피부를 통해 흡수되기 때문에 만지지 않도록 조심해야 해.",
+            "turn_id": "BK22009007-5",
+            "utterance_id": "BK22009007.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이 약은 손도 대면 안 되는 약이네요. 그럼 혹시 남편도 피나스테리드 성분이 들어있는 탈모약을 복용하면 안 되는 건가요?",
+            "turn_id": "BK22009007-6",
+            "utterance_id": "BK22009007.11"
+        },
+        {
+            "reference_date": "2021-09-14",
+            "reference_text": [
+                {
+                    "value": "즉, 피나스테리드 성분이 남편의 정액을 통해 아내에게 이동하는 것은 맞지만, 그 양이 매우 적어 태아에 미치는 영향은 없다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 남편이 탈모 약을 복용해도 괜찮다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://weekly.cnbnews.com/news/article.html?no=140203",
+            "search_query": "피나스테리드 남편 태아 영향",
+            "terminate": false,
+            "text": "남편은 피나스테리드가 들어있는 탈모약을 복용해도 괜찮아. 남편의 정액을 매개체로 하여 피나스테리드 성분이 아내의 체내로 이동하긴 하지만 그 양이 매우 적기 때문에 태아에게 끼치는 영향은 없거든.",
+            "turn_id": "BK22009007-6",
+            "utterance_id": "BK22009007.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "당연히 남편도 약을 먹으면 안 될 것 같았는데, 다행히 태아에게 영향을 끼치지는 않는군요. 그럼 반대로 임신 중에 복용해도 괜찮은 약은 어떤 게 있어요?",
+            "turn_id": "BK22009007-7",
+            "utterance_id": "BK22009007.13"
+        },
+        {
+            "reference_date": "2021-09-17",
+            "reference_text": [
+                {
+                    "value": "다행히 아세트아미노펜은 임신부에게 안전한 진통제로 알려졌다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "식품의약품안전처의 의약품 안전사용 매뉴얼에 따르면 아세트아미노펜은 태아에게 독성이 없는 성분이어서 임신기간뿐 아니라 수유 중에도 복용 가능하다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=55632",
+            "search_query": "임신부 아세트아미노펜",
+            "terminate": false,
+            "text": "아세트아미노펜 계열의 진통제는 임신부에게도 안전한 진통제야. 식품의약품안전처에서 발표한 의약품 안전사용 매뉴얼에도 아세트아미노펜 성분은 태아에게 독성 영향을 끼치는 성분이 아니어서 임신 기간을 비롯해 수유 중에도 복용 가능하다고 명시되어 있거든.",
+            "turn_id": "BK22009007-7",
+            "utterance_id": "BK22009007.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 임신 중에 약 복용을 피하기 위해 통증을 무조건 참지 않아도 되겠네요. 그런데 우리나라 외에 다른 나라에서도 임신부가 아세트아미노펜을 복용해도 된다고 규정해 놓고 있는 거죠?",
+            "turn_id": "BK22009007-8",
+            "utterance_id": "BK22009007.15"
+        },
+        {
+            "reference_date": "2016-11-17",
+            "reference_text": [
+                {
+                    "value": "특히, 호주식약청(TGA)의 경우 아세트아미노펜을 임신부가 가장 안전하게 사용할 수 있는 B등급으로 분류하고 있다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 ‘많은 임신 여성과 가임기 여성이 복약해온 약물이면서, 태아에 대한 기형 유발이나 직접적 혹은 간접적 유해 작용의 빈도 증가가 관찰되지 않은 약제’에 부여되는 등급이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mtn.co.kr/news-detail/2016111715111232828",
+            "search_query": "호주 아세트아미노펜 임신부",
+            "terminate": false,
+            "text": "응, 호주에서도 아세트아미노펜을 임신부가 안전하게 복용할 수 있는 B등급 약물 중 하나로 지정하고 있어. B등급은 가임기 여성, 임신 여성이 많이 복용해 온 약물이면서 태아에 직간접적인 유해 작용을 끼치는 빈도 증가가 보이지 않는 약품을 가리키는 등급으로 호주식약청이 정한 등급이야.",
+            "turn_id": "BK22009007-8",
+            "utterance_id": "BK22009007.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 나중에 이런 상황이 생기게 되면 아세트아미노펜만큼은 걱정 없이 복용해도 되겠어요.",
+            "turn_id": "BK22009007-9",
+            "utterance_id": "BK22009007.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 혹시 더 궁금한 점은 없어?",
+            "turn_id": "BK22009007-9",
+            "utterance_id": "BK22009007.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 나중에 또 궁금한 게 생기면 그때 다시 여쭤볼게요!",
+            "turn_id": "BK22009007-10",
+            "utterance_id": "BK22009007.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 언제든 편하게 연락해!",
+            "turn_id": "BK22009007-10",
+            "utterance_id": "BK22009007.20"
+        }
+    ]
+}

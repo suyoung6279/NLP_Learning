@@ -1,0 +1,338 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001593",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001593",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0036"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 친구네 강아지가 네 달 전에 낳은 포메라니안을 받아서 지난 달부터 키우게 됐어요. 가만히 있어도 귀여워 죽겠어요.",
+            "turn_id": "BK22001593-1",
+            "utterance_id": "BK22001593.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "포메라니안이라니 정말 좋으시겠어요. 그런데, 동물 등록은 해 두셨어요?",
+            "turn_id": "BK22001593-1",
+            "utterance_id": "BK22001593.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동물 등록이 뭐예요? 반려견을 처음 키워보는데 제가 키우는 동물도 등록해야하는 거예요?",
+            "turn_id": "BK22001593-2",
+            "utterance_id": "BK22001593.3"
+        },
+        {
+            "reference_date": "2022-06-26",
+            "reference_text": [
+                {
+                    "value": "동물등록제'란 반려동물의 유실·유기 방지 등을 위해 반려견의 정보를 시·군·구청에 등록하도록 하는 제도다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/401122",
+            "search_query": "동물등록제",
+            "terminate": false,
+            "text": "반려동물을 잃어버릴 수도 있고 유기하는 사람도 있잖아요. 반려동물을 잃어버리는 것과 버리는 것을 막기 위해 시, 군, 구청에 반려견의 정보를 등록해야 하는 제도예요.",
+            "turn_id": "BK22001593-2",
+            "utterance_id": "BK22001593.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 제 포메라니안도 동물 등록하고 와야겠네요. 요즘 좀 바쁜데 언제까지 하면 돼요?",
+            "turn_id": "BK22001593-3",
+            "utterance_id": "BK22001593.5"
+        },
+        {
+            "reference_date": "2022-06-26",
+            "reference_text": [
+                {
+                    "value": "26일 농림축산식품부는 동물등록제 활성화를 위해 내달 1일부터 8월 31일까지 '동물등록 자진신고 기간'을 운영한다고 밝혔다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/401122",
+            "search_query": "반려견 자진신고 기간",
+            "terminate": false,
+            "text": "내달 1일부터 8월 31일까지 동물 등록 자진신고 기간이에요.",
+            "turn_id": "BK22001593-3",
+            "utterance_id": "BK22001593.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 8월 31일까지면 여유가 있네요. 어떤 조건의 반려동물을 등록해야하는 거예요?",
+            "turn_id": "BK22001593-4",
+            "utterance_id": "BK22001593.7"
+        },
+        {
+            "reference_date": "2022-06-26",
+            "reference_text": [
+                {
+                    "value": "월령 2개월 이상인 개 중 주택·준주택에서 기르거나 주택·준주택 외의 장소에서 반려 목적으로 기르는 개를 대상으로 한다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/401122",
+            "search_query": "동물등록 대상 반려동물",
+            "terminate": false,
+            "text": "월령이 2개월 이상이면 등록 대상이에요. 또한 반려 목적으로 주택과 준주택, 혹은 이외의 장소에서 키우는 개는 등록을 해야 해요.",
+            "turn_id": "BK22001593-4",
+            "utterance_id": "BK22001593.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 강아지가 네 달 전에 태어났으니 등록 대상이긴 하네요. 만약에 깜빡하고 8월 31일까지 등록하지 않으면 어떻게 되나요?",
+            "turn_id": "BK22001593-5",
+            "utterance_id": "BK22001593.9"
+        },
+        {
+            "reference_date": "2022-06-30",
+            "reference_text": [
+                {
+                    "value": "반려견을 등록하지 않은 경우 100만원 이하 과태료가 부과됩니다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "소유자가 바뀌는 등의 변경된 등록정보를 신고하지 않은 경우엔 50만원 이하의 과태료가 부과되지요.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newsway.co.kr/news/view?tp=1&ud=2022063008453966594",
+            "search_query": "동물등록 안하면 처벌",
+            "terminate": false,
+            "text": "반려견을 등록하지 않으면 100만 원 이하의 과태료를 물게 돼요. 변경된 등록 정보를 신고하지 않으면 50만 원 이하의 과태료가 나오고요.",
+            "turn_id": "BK22001593-5",
+            "utterance_id": "BK22001593.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "과태료를 물려면 단속을 해야하잖아요. 단속은 어떤 방식으로 진행되나요?",
+            "turn_id": "BK22001593-6",
+            "utterance_id": "BK22001593.11"
+        },
+        {
+            "reference_date": "2022-06-26",
+            "reference_text": [
+                {
+                    "value": "농식품부는 자진신고 기간 이후인 9월 1일부터 30일까지 반려견 출입이 많은 공원, 산책길 등의 장소를 중심으로 동물등록, 인식표 착용, 목줄 길이 2m 이내 유지 여부를 집중적으로 단속하고 위반 시 과태료를 부과할 예정이다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/401122",
+            "search_query": "자진 신고 기간 이후 단속 방법",
+            "terminate": false,
+            "text": "자진신고 기간이 끝나면 9월 1일부터 30일까지 반려견 출입이 많은 장소를 중심으로 단속을 할 예정이에요. 이 때 동물등록, 인식표 착용, 목줄 길이 2m 유지 여부를 같이 단속해서 과태료가 부과돼요.",
+            "turn_id": "BK22001593-6",
+            "utterance_id": "BK22001593.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그러고보니 제 친구가 혹시라도 등록 했었는지 물어봐야겠네요. 만약에 친구가 동물 등록을 했었으면 변경된 등록 정보를 신고하면 되는 거 맞죠?",
+            "turn_id": "BK22001593-7",
+            "utterance_id": "BK22001593.13"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "또한 소유자(반려인)이 변경된 경우에는 시·군·구청 또는 등록 대행 기관에 직접 방문해서 신고해야 한다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/401849",
+            "search_query": "반려인 변경 동물등록",
+            "terminate": false,
+            "text": "네. 소유자가 변경 된 경우이니 직접 방문하셔야하는데, 등록 대행 기관이나 시청, 구청으로 가시면 돼요.",
+            "turn_id": "BK22001593-7",
+            "utterance_id": "BK22001593.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "직접 방문하지 않고 신고해도 되는 케이스가 있나봐요?",
+            "turn_id": "BK22001593-8",
+            "utterance_id": "BK22001593.15"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "만약 과거 등록한 이력이 있거나 소유자의 주소 혹은 연락처가 변경됐다면, '동물보호 관리 시스템'에서 간편하게 온라인 변경 신청하면 된다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/401849",
+            "search_query": "동물보호 관리 시스템",
+            "terminate": false,
+            "text": "네. 과거 등록한 이력이 있거나 반려인의 주소나 연락처가 변경된 경우에는 동물보호 관리 시스템에서 온라인으로 신청할 수 있어요.",
+            "turn_id": "BK22001593-8",
+            "utterance_id": "BK22001593.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어쨌든 친구가 등록을 했어도 반려인이 바꼈으니 저는 직접 가야하는거네요.",
+            "turn_id": "BK22001593-9",
+            "utterance_id": "BK22001593.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 바쁘신 거 끝내고 신고하러 다녀오세요.",
+            "turn_id": "BK22001593-9",
+            "utterance_id": "BK22001593.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "까먹지 않게 위젯에 표시해놔야겠어요. 동물 등록이 완료된 걸 어떻게 나타낼 수 있나요?",
+            "turn_id": "BK22001593-10",
+            "utterance_id": "BK22001593.19"
+        },
+        {
+            "reference_date": "2022-06-30",
+            "reference_text": [
+                {
+                    "value": "무선식별장치를 반려견의 몸에 삽입하거나, 외장형 장치를 부착하는 방법 중 선택할 수 있습니다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newsway.co.kr/news/view?tp=1&ud=2022063008453966594",
+            "search_query": "동물 등록 방법",
+            "terminate": false,
+            "text": "반려견의 몸에 무선 식별 장치를 삽입하는 방법과 외장형 장치를 붙이는 방법이 있거든요. 두 가지 중 선택하면 돼요.",
+            "turn_id": "BK22001593-10",
+            "utterance_id": "BK22001593.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 뭔가 안에 삽입한다는 게 꺼려지네요. 저희 강아지는 외장형 장치를 부착해야겠어요.",
+            "turn_id": "BK22001593-11",
+            "utterance_id": "BK22001593.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "선호하시는 방식으로 하시면 돼요. 그럼 동물 등록 잘 하고 오세요.",
+            "turn_id": "BK22001593-11",
+            "utterance_id": "BK22001593.22"
+        }
+    ]
+}

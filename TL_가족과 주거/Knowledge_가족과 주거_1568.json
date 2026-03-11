@@ -1,0 +1,420 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011766",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011766",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 주변에 보면 반려견을 키우는 사람이 많아진 것 같은데 맞나요?",
+            "turn_id": "BK22011766-1",
+            "utterance_id": "BK22011766.1"
+        },
+        {
+            "reference_date": "2022-02-14",
+            "reference_text": [
+                {
+                    "value": "우리나라 반려견 보유 인구가 1000만명이라고 한다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "5명당 1명이 반려견을 키우는 셈이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.headlinejeju.co.kr/news/articleView.html?idxno=476335",
+            "search_query": "반려견 인구",
+            "terminate": false,
+            "text": "네, 현재 우리나라에서 반려견을 기르는 인구가 1000만명이에요. 5명당 1명이 반려견을 키우고 있는 셈이죠.",
+            "turn_id": "BK22011766-1",
+            "utterance_id": "BK22011766.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 요즘 이런 반려견들을 산책시키면서 목줄을 제대로 착용하지 않거나 느슨하게 착용해서 반려견이 사람을 물거나 다른 반려견을 무는 경우가 종종 생기던데 이런 반려견들은 어떤 방법으로 사회화시킬 수 있나요?",
+            "turn_id": "BK22011766-2",
+            "utterance_id": "BK22011766.3"
+        },
+        {
+            "reference_date": "2022-07-20",
+            "reference_text": [
+                {
+                    "value": "최동락 부산경상대 반려동물과 교수는 \"개는 밥 주는 자기 주인한테는 언제든지 복종하지만, 다른 상황이 됐을 때 언제든지 사람을 해칠 수 있다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "외출할 때는 모든 개가 입마개를 해야 된다고 생각한다\"며 \"개가 사고를 일으킨 경우가 처음이라면 (애견) 훈련소·유치원 등에 의뢰해 교육을 시켜보는 것도 한 방법이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.kbs.co.kr/news/view.do?ncd=5513353&ref=A",
+            "search_query": "개 애견훈련소",
+            "terminate": false,
+            "text": "개는 밥을 주는 자기 주인한테는 항상 복종하지만, 다른 상황에 부닥쳤을 때는 언제라도 사람을 공격할 수 있죠. 개가 무는 사고를 발생시킨 것이 처음이라면 애견 훈련소, 유치원 등에 위탁해 교육을 해보는 것이 한 방법이에요.",
+            "turn_id": "BK22011766-2",
+            "utterance_id": "BK22011766.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그런데 목줄이 풀리거나 없어서 사람을 공격하는 반려견을 만났을 때 어떻게 대처해야 개 물림 사고를 방지할 수 있을까요?",
+            "turn_id": "BK22011766-3",
+            "utterance_id": "BK22011766.5"
+        },
+        {
+            "reference_date": "2022-09-23",
+            "reference_text": [
+                {
+                    "value": "맹견이나 흥분한 개를 만나면 무섭고 두려운 마음에 일단 도망가게 되는데, 등을 보이고 도망가는 것은 절대 해서는 안되는 행동이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 화난 개의 추적 본능을 자극하기 때문인데, 즉 도망가는 행위는 개로부터 벗어나는 것이 아닌, 개 물림 사고를 유발하는 행동인 셈이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 밖에도 절대 하지 말아야 하는 행동에는 개의 눈을 빤히 바라보는 것, 개와 정면으로 마주하는 것 등이 있다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.huffingtonpost.kr/news/articleView.html?idxno=202306",
+            "search_query": "개 추적본능",
+            "terminate": false,
+            "text": "맹견이나 흥분한 개를 마주치면 무섭고 두렵게 느껴져서 도망가게 되는데, 등을 보이고 도망가서는 절대 안 돼요. 이는 화난 개의 추적 본능을 도발하기 때문이에요. 즉 도망가는 행위는 개로부터 빠져나오는 것이 아니라, 개 물림 사고를 촉발하는 행동이에요. 이 밖에도 절대 하지 말아야 하는 반응에는 개의 눈을 빤히 쳐다보는 것, 개와 정면으로 마주 서는 것 등이 있어요.",
+            "turn_id": "BK22011766-3",
+            "utterance_id": "BK22011766.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그렇다면 흥분한 개에게서 어떻게 빠져나올 수 있나요?",
+            "turn_id": "BK22011766-4",
+            "utterance_id": "BK22011766.7"
+        },
+        {
+            "reference_date": "2022-09-23",
+            "reference_text": [
+                {
+                    "value": "흥분한 개, 맹견으로부터 탈출하는 방법으로는 옆으로 고개를 돌리고 눈을 아래로 내린 뒤 두세 번 깜박 거리는 것이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 ‘나는 너를 공격하려는 의도가 없어.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우리 화해할래?’라는 의미로, 절대 하지 말아야 할 행동 중 하나인 개의 눈을 빤히 바라보는 것과 정반대되는 행동으로 볼 수 있다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.huffingtonpost.kr/news/articleView.html?idxno=202306",
+            "search_query": "개 탈출",
+            "terminate": false,
+            "text": "흥분한 개나 맹견으로부터 빠져나오는 방법으로는 고개를 옆으로 향하고 눈을 밑으로 내린 뒤 두세 번 깜박거리면 돼요. 이 행동은 나는 너를 공격하려는 뜻이 없어, 우리 화해할래? 는 뜻으로, 삼가야 할 행동 중 하나인 개의 눈을 빤히 쳐다보는 것과 정반대되는 행동이에요.",
+            "turn_id": "BK22011766-4",
+            "utterance_id": "BK22011766.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "절대로 개의 눈을 마주쳐서는 안 되는 거군요. 또 다른 방법도 있나요?",
+            "turn_id": "BK22011766-5",
+            "utterance_id": "BK22011766.9"
+        },
+        {
+            "reference_date": "2022-09-23",
+            "reference_text": [
+                {
+                    "value": "또 다른 방법으로는 대각선으로 비스듬하게 서서 개가 진정되길 기다리는 것, 손에 들고 있는 물건을 자신이 있는 곳과 반대 방향으로 던져 개의 관심사를 돌리는 것 등이 있다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.huffingtonpost.kr/news/articleView.html?idxno=202306",
+            "search_query": "개 관심사",
+            "terminate": false,
+            "text": "또 다른 방법으로는 대각선으로 비스듬하게 서서 개의 흥분이 가라앉게 기다리는 것, 손에 쥐고 있는 물건을 자신이 있는 곳과 반대 방향으로 던져 개의 시선을 돌리는 방법을 쓸 수 있어요.",
+            "turn_id": "BK22011766-5",
+            "utterance_id": "BK22011766.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그런데 만약 개에 물렸다면 어떻게 해야 하나요?",
+            "turn_id": "BK22011766-6",
+            "utterance_id": "BK22011766.11"
+        },
+        {
+            "reference_date": "2022-09-15",
+            "reference_text": [
+                {
+                    "value": "우선 사람이 개에 물렸을 경우, 소형견이라면 자신의 힘으로 빠져나올 수 있다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 대형견이나 맹견에게 물렸다면 급소 부위인 목이나 귀를 감싸 보호하고 몸을 최대한 공처럼 웅크려 자신의 몸을 방어한 뒤 주위 사람들에게 도움을 요청하는 것이 최선이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2022091418381055408",
+            "search_query": "개물림",
+            "terminate": false,
+            "text": "개에 물렸을 경우, 소형견이라면 자력으로 빠져나올 수 있어요. 하지만 대형견이나 맹견에게 물렸다면 급소 부위인 목과 귀를 감싸서 막고 몸을 가능한 공처럼 웅크려 자기 몸을 공격으로부터 막은 뒤 주변 사람들에게 도움을 구하는 것이 가장 좋은 방법이에요.",
+            "turn_id": "BK22011766-6",
+            "utterance_id": "BK22011766.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 응급처치는 어떻게 해야 할까요?",
+            "turn_id": "BK22011766-7",
+            "utterance_id": "BK22011766.13"
+        },
+        {
+            "reference_date": "2022-09-23",
+            "reference_text": [
+                {
+                    "value": "그럼에도 개 물림 사고를 당했다면 응급처치가 가장 중요하다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "상처가 발생한 즉시 흐르는 물에 세척을 한 뒤 병원을 찾아 전문의에게 적절한 치료를 받아야 한다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사고 발생 직후 해당견의 보호자는 상대가 적절한 치료를 받을 수 있도록 적극적으로 협조해야 하며, 혹시라도 자신의 반려견에게 질병이 있다면 빠른 처치가 가능할 수 있도록 알려야 한다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.huffingtonpost.kr/news/articleView.html?idxno=202306",
+            "search_query": "개물림 응급처치",
+            "terminate": false,
+            "text": "응급처치 방법으로는 상처가 발생한 즉시 흐르는 물에 깨끗이 씻은 뒤 병원을 방문해 전문의에게 적절한 진료를 받아야 해요. 또 사고 발생 직후 해당 견의 보호자는 상대가 알맞은 치료를 받을 수 있도록 적극적으로 협조해야 하며, 혹시라도 자기 반려견에게 질병이 있다면 빠른 처치가 행해질 수 있도록 말해야 해요.",
+            "turn_id": "BK22011766-7",
+            "utterance_id": "BK22011766.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려견 주인의 역할도 중요하군요. 그런데 사람이 아니라 만약 제 반려견이 맹견한테 물린 상태라면 어떻게 대처해야 할까요?",
+            "turn_id": "BK22011766-8",
+            "utterance_id": "BK22011766.15"
+        },
+        {
+            "reference_date": "2022-09-15",
+            "reference_text": [
+                {
+                    "value": "반려견이 다른 개에 물렸다면 주변에 위협이 될만한 물건을 휘두르거나 집어던져 최대한 다른 곳으로 시선을 돌리는 것이 가장 좋은 방법이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려견에게 관심을 가지지 않도록 상황을 빠르게 벗어나야 한다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "주인이 당황해 반려견을 당기거나 흔들어 떼어내려 한다면 물고 있는 개가 흥분해 더 세게 공격할 수 있다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2022091418381055408",
+            "search_query": "개 물림 반려견",
+            "terminate": false,
+            "text": "반려견이 다른 개에 물렸다면 근처에 위협이 될만한 물건을 휘두르거나 집어던져 최대한 다른 곳으로 시선을 분산시키는 것이 가장 좋은 방법이에요. 반려견에게 관심을 두지 않도록 상황을 빠르게 벗어나야 해요. 만약 주인이 당황해 반려견을 당기거나 흔들어 떨어뜨리려 한다면 물고 있는 개가 흥분해 더 심하게 공격할 수 있기 때문이에요.",
+            "turn_id": "BK22011766-8",
+            "utterance_id": "BK22011766.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그럼 만약 누군가가 개한테 공격당하고 있는 걸 보게 되면 어떻게 도와줘야 할까요?",
+            "turn_id": "BK22011766-9",
+            "utterance_id": "BK22011766.17"
+        },
+        {
+            "reference_date": "2022-09-15",
+            "reference_text": [
+                {
+                    "value": "개 물림 사고를 목격했다면 도와주려고 무작정 달려들었다가는 오히려 개를 흥분시키거나 도와주는 사람에게 공격을 가할 수 있어 물건을 이용해 시선을 돌려주거나 자신에게 달려들 것에 대비해 가방이나 옷가지 등을 대신 물려주는 방법이 가장 좋다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2022091418381055408",
+            "search_query": "개 물림 사고 목격",
+            "terminate": false,
+            "text": "개 물림 사고를 목격했다면 도와주려고 다짜고짜 달려들었다가는 오히려 개를 흥분시키거나 도와주는 사람에게 공격을 할 수 있어요. 그래서 물건을 이용해 시선을 돌리거나 자신에게 달려들 것을 미리 대비해 가방이나 옷가지 등을 대신 물리는 방법이 가장 좋아요.",
+            "turn_id": "BK22011766-9",
+            "utterance_id": "BK22011766.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시선을 분산시키면서 돕는 것이 가장 중요하군요. 그런데 반려인이 자기 반려견이 사람 또는 다른 반려견을 물지 않도록 하기 위한 다른 방안은 없을까요?",
+            "turn_id": "BK22011766-10",
+            "utterance_id": "BK22011766.19"
+        },
+        {
+            "reference_date": "2022-09-15",
+            "reference_text": [
+                {
+                    "value": "맹견이나 공격성이 있는 반려견을 키우는 견주라면 강한 책임감을 가져야 한다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려견 동반 외출 시 목줄, 가슴줄, 입마개 등 안전조치와 일정 거리 유지는 기본이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "언제든지 사고에 대처가 가능하도록 목줄은 짧게 잡거나 2m 이내로 사용하자.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 자신의 반려견이 누군가를 물려고 했던 전력이 있거나 공격성이 강한 개라면 맹견이 아니더라도 외출 시 반드시 입마개를 채우고 다녀야 한다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "성격이 예민한 반려견에게 누군가 다가온다면 “오지마세요. 애가 좀 예민해요”라고 말해 주의와 대비할 시간을 주는 것이 중요하다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2022091418381055408",
+            "search_query": "개 물림 사고 예방",
+            "terminate": false,
+            "text": "맹견이나 공격성이 있는 반려견을 키우는 견주라면 큰 책임감이 필요해요. 반려견과 함께 외출 시 목줄, 가슴 줄, 입마개 등의 안전 조치하고 일정 거리 유지를 하는 것이 기본이죠. 항상 사고에 대처할 수 있도록 목줄을 가능한 한 짧게 잡거나 2m 이내로 잡아야 해요. 또한 자기 반려견이 누군가를 물려고 했던 적이 있거나 공격성이 심한 개라면 맹견이 아니더라도 외출 시 꼭 입마개를 착용하고 다녀야 하죠. 성격이 예민한 반려견에게 사람이나 다른 개가 가까이 온다면 오지 마세요, 애가 좀 예민하다고 미리 말해 조심할 시간을 주는 것이 중요해요.",
+            "turn_id": "BK22011766-10",
+            "utterance_id": "BK22011766.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 반려인이 세심하게 신경 써줬으면 하는 부분이네요. 오늘 유용한 정보 잘 들었어요. 다음에 만나서 얘기 또 나눠요.",
+            "turn_id": "BK22011766-11",
+            "utterance_id": "BK22011766.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 그럼 조심히 들어가세요.",
+            "turn_id": "BK22011766-11",
+            "utterance_id": "BK22011766.22"
+        }
+    ]
+}

@@ -1,0 +1,373 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011435",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011435",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "출산이 얼마 남지 않아서 수유에 대해 궁금한 게 너무 많아요. 수유에 대해서 잘 아세요?",
+            "turn_id": "BK22011435-1",
+            "utterance_id": "BK22011435.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 잘 알고 있어요. 수유에 대해서 어떤 것들이 궁금하세요?",
+            "turn_id": "BK22011435-1",
+            "utterance_id": "BK22011435.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사람들이 아기 면역을 좋게 하려면 모유 수유를 해야 한다고 하던데 그렇게 얘기 할만한 근거가 있나요?",
+            "turn_id": "BK22011435-2",
+            "utterance_id": "BK22011435.3"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "또한 면역글로불린, 락토페린, 리소자임 등 면역물질이 풍부해 위장관 및 호흡기 감염을 줄여주는 효과가 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.babytimes.co.kr/news/articleView.html?idxno=60285",
+            "search_query": "모유 면역물질",
+            "terminate": false,
+            "text": "모유에는 면역물질인 락토페린, 리소자임, 면역글로불린 등이 풍부하게 들어 있어서 호흡기 및 위장관 감염을 낮춰주는데 효과적이에요.",
+            "turn_id": "BK22011435-2",
+            "utterance_id": "BK22011435.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "모유에 면역 성분이 들어 있었군요. 혹시 면역 효과 외에 분유에 비해서 다른 좋은 점들도 있나요?",
+            "turn_id": "BK22011435-3",
+            "utterance_id": "BK22011435.5"
+        },
+        {
+            "reference_date": "2021-05-14",
+            "reference_text": [
+                {
+                    "value": "모유에는 아기에게 꼭 필요한 수분과 지방, 단백질, 비타민, 무기질 등이 소화하기 쉬운 형태로 혼합되어 있어 분유를 먹는 아이에 비해 소화를 잘 시킬 수 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "분유를 먹다 잠이 든 아이는 치아 우식증이 생기기 쉬운데, 분유에 들어있는 유당이 치아를 공격하기 때문이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "모유에는 치아우식증을 유발하는 뮤탄스연쇄구균의 활동을 방해하는 효소가 들어 있어 치아우식증으로부터 훨씬 안전하다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202105144748o",
+            "search_query": "모유수유 아이에게 좋은점",
+            "terminate": false,
+            "text": "모유에는 아기에게 꼭 필요한 수분과 단백질, 지방, 비타민, 무기질 등이 소화하기 쉬운 형태로 섞여 있어서 분유에 비해서 아기의 소화에 더 도움이 돼요. 또 아이가 수유를 하다가 잠이 들 경우, 분유에는 유당이 있어서 치아 우식증이 발생하기 쉬워요. 반대로 모유에는 치아우식증을 일으키는 뮤탄스연쇄구균의 발생을 저해하는 효소가 있어서 치아우식증으로부터 분유보다는 훨씬 안전해요.",
+            "turn_id": "BK22011435-3",
+            "utterance_id": "BK22011435.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "모유 수유가 분유보다 좋다는 게 그냥 하는 말은 아니었군요. 아기에게는 여러가지로 장점이 있는데 모유 수유를 할 경우 엄마에게도 이로운 점이 있나요?",
+            "turn_id": "BK22011435-4",
+            "utterance_id": "BK22011435.7"
+        },
+        {
+            "reference_date": "2021-05-14",
+            "reference_text": [
+                {
+                    "value": "2년 이상 모유를 먹이면 유방암에 걸릴 확률이 절반으로 낮아진다는 연구 결과가 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "빠른 산후회복에도 좋다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아기에게 젖을 먹일 때 엄마의 체내에서 옥시토신이라는 호르몬이 분비되는데, 이 호르몬은 자궁 수축을 촉진해 출혈을 빨리 멎게 하고 오로가 원활하게 배출되도록 한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202105144748o",
+            "search_query": "모유수유 엄마에게 좋은점",
+            "terminate": false,
+            "text": "모유를 2년 이상 먹이는 산모는 유방암에 걸릴 확률이 절반으로 줄어든다는 연구 결과가 있어요. 또, 아기에게 모유 수유할 때 엄마의 신체 안에서는 옥시토신이라는 호르몬이 분비돼요. 이 호르몬은 자궁 수축을 촉진해서 오로가 수월하게 배출되도록 하고, 출혈을 빨리 멎게 하는데 도움을 주기 때문에 산후회복의 속도를 빠르게 해주죠.",
+            "turn_id": "BK22011435-4",
+            "utterance_id": "BK22011435.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산후회복을 빠르게 하는데 도움이 된다면 혹시 임신 기간 동안 불어난 살을 원상 회복 하기 위한 다이어트에도 도움이 될까요?",
+            "turn_id": "BK22011435-5",
+            "utterance_id": "BK22011435.9"
+        },
+        {
+            "reference_date": "2019-10-22",
+            "reference_text": [
+                {
+                    "value": "모유 수유를 하면 유즙 생성을 위해 하루 평균 170칼로리를 소모하게 된다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "젖을 먹인 산모가 식사 조절을 하지 않아도 매달 0.4㎏씩 체중이 감소했다는 연구결과도 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2019/10/22/2019102201935.html",
+            "search_query": "모우수유 다이어트 효과",
+            "terminate": false,
+            "text": "아이에게 직접 젖을 먹이는 경우, 유즙을 만들어내기 위해 소모되는 칼로리가 하루 평균 170칼로리예요. 모유수유를 하는 산모는 식이 조절을 하지 않아도 체중이 매달 0.4kg씩 감소했다는 연구 결과도 있어요.",
+            "turn_id": "BK22011435-5",
+            "utterance_id": "BK22011435.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다이어트라는 게 결국 섭취량보다 많은 칼로리 소모를 해야 가능한 건데 모유수유 할 때 엄청난 에너지를 소모하는군요. 모유 수유 할 때 더 도움이 되거나 피해야 할 음식이 따로 있나요?",
+            "turn_id": "BK22011435-6",
+            "utterance_id": "BK22011435.11"
+        },
+        {
+            "reference_date": "2019-12-18",
+            "reference_text": [
+                {
+                    "value": "모유수유를 할 시 산모에게 좋은 음식은 해조류, 양질의 단백질 음식, 허브차 등이 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "피해야할 음식은 카페인, 매운 음식 처럼 자극적인 음식이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busaneconomy.com/news/articleView.html?idxno=137652",
+            "search_query": "모유수유 음식",
+            "terminate": false,
+            "text": "모유 수유를 할 때 산모가 섭취하면 좋은 음식은 양질의 단백질 음식과 해조류나 허브차 등이 있어요. 카페인이나 매운 음식처럼 자극적인 음식은 피하는 게 좋고요.",
+            "turn_id": "BK22011435-6",
+            "utterance_id": "BK22011435.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "칼로리를 위해서는 양질의 단백질을 많이 섭취하는 게 중요하겠군요. 그런데 모유수유 중에 엄마가 감기라도 걸리면 어떻게 해요?",
+            "turn_id": "BK22011435-7",
+            "utterance_id": "BK22011435.13"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "모유를 통해 바이러스가 감염되는 경우는 없으므로 괜찮다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 엄마는 아기에게 모유를 먹일 때 손을 깨끗하게 씻고, 기침이나 재채기가 나올 경우를 대비해 마스크를 쓰는 것이 좋다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202209136867o",
+            "search_query": "감기걸린 경우 모유수유",
+            "terminate": false,
+            "text": "바이러스가 모유를 통해서 감염되지는 않아요. 하지만 아기에게 모유수유를 할 경우에 엄마는 손을 아주 깨끗하게 씻고, 재채기나 기침이 나올 경우를 대비해서 마스크를 쓰는 것이 좋아요.",
+            "turn_id": "BK22011435-7",
+            "utterance_id": "BK22011435.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "모유 자체보다 엄마의 손이나 호흡기가 더 문제군요. 안전하게 젖병 등에 넣어서 다른 사람이 주는 게 좋을 것 같은데 혹시 엄마가 아프거나 외출 할 때 대비해서 모유를 따로 보관할 수도 있나요?",
+            "turn_id": "BK22011435-8",
+            "utterance_id": "BK22011435.15"
+        },
+        {
+            "reference_date": "2019-12-18",
+            "reference_text": [
+                {
+                    "value": "깨끗하게 소독된 젖병에 보관하면 되고 냉장 보관된 모유는 최대 48시간, 냉동 보관된 모유는 최대 6개월까지 보관할 수 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busaneconomy.com/news/articleView.html?idxno=137652",
+            "search_query": "모유보관",
+            "terminate": false,
+            "text": "그럼요, 모유를 보관할 때는 젖병을 깨끗하게 소독해서 보관해야 하고, 냉장고에 모유를 보관할 경우는 최대 48시간, 냉동고에서는 최대 6개월까지도 보관 가능해요.",
+            "turn_id": "BK22011435-8",
+            "utterance_id": "BK22011435.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "젖병에 따로 짜서 수유 가능한 것도 좋고, 냉장 냉동 보관도 가능하다니 정말 좋네요. 냉장 냉동 보관을 활용하면 꽤 오래 모유수유가 가능하다는 건데 모유수유의 기간은 어느 정도가 좋아요?",
+            "turn_id": "BK22011435-9",
+            "utterance_id": "BK22011435.17"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "세계보건기구(WHO)에서는 생후 6개월간 완전 모유수유를 하고 2년 이상 모유수유를 지속하는 것을 권고하고 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "6개월 이후부터는 모유만으로 아기의 영양적 수요를 만족할 수 없기 때문에 이유식을 병행하면서 수유한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.babytimes.co.kr/news/articleView.html?idxno=58629",
+            "search_query": "모유수유 기간",
+            "terminate": false,
+            "text": "모유수유 기간에 대해서 세계보건기구가 권고하는 기간은 2년 이상이에요. 6개월까지는 완전모유 수유를 하고, 6개월 이후부터는 모유만으로는 아기의 영양을 모두 채울 수 없어서 수유를 할 때 이유식과 병행해야 해요.",
+            "turn_id": "BK22011435-9",
+            "utterance_id": "BK22011435.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "2년 이상 권고라면 생각보다 오랜 기간인데 6개월부터 이유식 병행하다 보면 그렇게 힘들지는 않을 것도 같아요.",
+            "turn_id": "BK22011435-10",
+            "utterance_id": "BK22011435.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇죠, 이유식 병행이라서 모유수유만 매달리는 게 아니니까요.",
+            "turn_id": "BK22011435-10",
+            "utterance_id": "BK22011435.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게요, 제가 수유에 대해서 좀 막연했는데 오늘 덕분에 큰 도움 되었어요. 지금 갈 시간 돼서 일어나야 하는데 다음 만날 때 궁금한 것 더 여쭤봐도 될까요?",
+            "turn_id": "BK22011435-11",
+            "utterance_id": "BK22011435.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그럼요, 궁금한 것 뭐든지 물어보세요. 몸 관리 잘 하시고 다음에 뵈어요.",
+            "turn_id": "BK22011435-11",
+            "utterance_id": "BK22011435.22"
+        }
+    ]
+}

@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.6,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018919",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018919",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 집 고양이가 볼일을 볼 때 막 우는 거야. 그래서 가보니까 모래에 피가 보였어. 병이 생긴 걸까?",
+            "turn_id": "BK22018919-1",
+            "utterance_id": "BK22018919.1"
+        },
+        {
+            "reference_date": "44376.0",
+            "reference_text": [
+                {
+                    "value": "반려동물이 소변을 제대로 보지 못하거나 반려동물의 소변에 피가 섞여 나온다면 비뇨기계 질환을 의심해볼 수 있다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=54364",
+            "search_query": "반려동물 요로결석",
+            "terminate": false,
+            "text": "고양이가 오줌을 제대로 누지 못하거나 고양이의 오줌에 혈액이 섞여 나오면 비뇨기계 병을 의심할 수 있어.",
+            "turn_id": "BK22018919-1",
+            "utterance_id": "BK22018919.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세상에, 비뇨기계 질환은 왜 생기는 거야?",
+            "turn_id": "BK22018919-2",
+            "utterance_id": "BK22018919.3"
+        },
+        {
+            "reference_date": "44376.0",
+            "reference_text": [
+                {
+                    "value": "체내로 흡수되지 않은 영양분이 요로에서 작은 돌처럼 단단하게 뭉쳐지면 요로결석이 발생하게 되는데 발생 위치에 따라 신장결석, 방광결석 등으로 불리기도 한다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=54364",
+            "search_query": "요로결석 발생",
+            "terminate": false,
+            "text": "몸으로 흡수되지 않은 영양분이 요로에서 작은 돌처럼 단단하게 덩어리 지면, 요로결석이 생기게 돼. 발생하는 자리에 따라 방광결석, 신장결석 등으로 지칭되기도 해.",
+            "turn_id": "BK22018919-2",
+            "utterance_id": "BK22018919.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요로에 돌이 생기다니 몰랐어. 요로결석이 심해지면 어떤 증상이 생길 수 있어?",
+            "turn_id": "BK22018919-3",
+            "utterance_id": "BK22018919.5"
+        },
+        {
+            "reference_date": "44376.0",
+            "reference_text": [
+                {
+                    "value": "하지만 치료를 받기 전까지는 요로결석으로 인해 상당한 고통이 동반될 수 있다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 결석의 크기가 커 소변이 나오는 길을 막아버리면 방광 파열이나 신부전이 발생할 수 있고 심할 경우 생명이 위태로울 수도 있다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=54364",
+            "search_query": "요로결석 증상",
+            "terminate": false,
+            "text": "요로결석은 치료받기 전까지는 심한 아픔이 수반될 수 있어. 결석의 사이즈가 커 오줌이 나오는 길을 폐쇄해버리면, 신부전이나 방광 파열이 생길 수 있고, 심할 경우 목숨이 위험할 수도 있어.",
+            "turn_id": "BK22018919-3",
+            "utterance_id": "BK22018919.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 볼일 볼 때 자꾸 울었구나. 빨리 눈치챈 거여야 할 텐데. 요로결석의 치료법은 어떻게 돼?",
+            "turn_id": "BK22018919-4",
+            "utterance_id": "BK22018919.7"
+        },
+        {
+            "reference_date": "44376.0",
+            "reference_text": [
+                {
+                    "value": "요로결석을 치료하기 위해서는 가장 먼저 결석의 종류에 대해 알아야 한다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려동물에게 주로 발생하는 결석은 ‘스트루바이트’와 ‘칼슘 옥살레이트’로 결석의 종류에 따라 치료법이 달라진다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=54364",
+            "search_query": "요로결석 종류",
+            "terminate": false,
+            "text": "요로결석을 치유하기 위해서는 가장 먼저 결석의 유형에 대해 살펴봐야 해. 결석의 종류에 따라 치료 요법이 바뀌는데, 반려동물에게 주로 생기는 결석은 칼슘 옥살레이트와 스트루바이트야.",
+            "turn_id": "BK22018919-4",
+            "utterance_id": "BK22018919.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스트루바이트 결석인 경우에는 어떻게 치료해?",
+            "turn_id": "BK22018919-5",
+            "utterance_id": "BK22018919.9"
+        },
+        {
+            "reference_date": "44376.0",
+            "reference_text": [
+                {
+                    "value": "스트루바이트는 소변이 알칼리화되면서 만들어진 결석으로 식이요법이나 약물을 통해 소변을 산성화해 녹이는 치료를 진행한다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "치료를 시작하고 한두 달 정도 지나면 스트루바이트 결석이 자연스럽게 녹아서 없어지게 된다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=54364",
+            "search_query": "요로결석 스투루바이트",
+            "terminate": false,
+            "text": "스트루바이트는 오줌이 알칼리화되면서 생긴 결석으로 식사 치료법이나 약물을 이용해 오줌을 산성화해 용해하는 처치를 진행해. 치료를 시작하고 한두 달 정도 지나면, 스트루바이트 결석이 자연스럽게 용해돼서 사라지게 돼.",
+            "turn_id": "BK22018919-5",
+            "utterance_id": "BK22018919.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "칼슘 옥살레이트 결석은 어떻게 치료해?",
+            "turn_id": "BK22018919-6",
+            "utterance_id": "BK22018919.11"
+        },
+        {
+            "reference_date": "44376.0",
+            "reference_text": [
+                {
+                    "value": "반면에 칼슘 옥살레이트는 스트루바이트와 달리 식이요법이나 약물로는 치료가 되지 않고 외과적인 수술로 결석을 제거해야 한다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 칼슘 옥살레이트는 표면이 거칠고 날카로워 이차염증을 유발하기 때문에 반드시 제거를 해주는 것이 좋다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=54364",
+            "search_query": "요로결석 칼슘옥살레이트",
+            "terminate": false,
+            "text": "반면에 스트루바이트와 다르게 칼슘 옥살레이트는 식사 치료법이나 약물로는 치유가 되지 않고, 외과적인 수술로 결석을 없애야 한다. 특별히 칼슘 옥살레이트는 겉이 날카롭고 거칠어 2차 염증을 일으키기 때문에, 필히 제거해주는 것이 좋아.",
+            "turn_id": "BK22018919-6",
+            "utterance_id": "BK22018919.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 고양이도 약물로 치료하는 스트루바이트 결석이었으면 좋겠다. 요로결석을 치료하고 난 다음엔 재발할 수도 있을까?",
+            "turn_id": "BK22018919-7",
+            "utterance_id": "BK22018919.13"
+        },
+        {
+            "reference_date": "44376.0",
+            "reference_text": [
+                {
+                    "value": "요로결석은 치료 후에도 재발이 잦아 관리의 필요성을 여실히 느낄 수 있는 질환이다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "반려동물에게 요로결석이 나타난 적이 있다면 치료가 다 됐다 하더라도 한 달에 한 번은 정기적으로 상태를 확인 받길 추천한다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=54364",
+            "search_query": "요로결석 재발",
+            "terminate": false,
+            "text": "요로결석은 치료 후에도 재발이 빈번해 관리의 필요성이 중요한 병이야. 치유가 다 됐다고 해도 고양이에게 요로결석이 생긴 적이 있다면, 한 달에 한 번은 정기적으로 상태를 확인받는 걸 추천해.",
+            "turn_id": "BK22018919-7",
+            "utterance_id": "BK22018919.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요로결석을 예방하기 위해 집에서 뭘 해줘야 할까?",
+            "turn_id": "BK22018919-8",
+            "utterance_id": "BK22018919.15"
+        },
+        {
+            "reference_date": "44376.0",
+            "reference_text": [
+                {
+                    "value": "평소에는 물을 자주 마실 수 있게 해 수분을 충전해주고 수의사와 상담해 처방식을 먹이는 것도 좋은 선택이 될 수 있다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=54364",
+            "search_query": "요로결석 처방식",
+            "terminate": false,
+            "text": "의사와 상의해서 처방식을 주는 것도 좋은 방법이야. 평상시에는 물을 자주 먹을 수 있게 해서 수분을 채워줘.",
+            "turn_id": "BK22018919-8",
+            "utterance_id": "BK22018919.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러고 보니 평소에 물을 마시지 않긴 했어. 물을 많이 마시게 해야 했는데.",
+            "turn_id": "BK22018919-9",
+            "utterance_id": "BK22018919.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이들은 억지로 물을 마시게 하기 어렵잖아. 오늘 병원 갈 거야?",
+            "turn_id": "BK22018919-9",
+            "utterance_id": "BK22018919.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 점심에 예약해 놨어. 병원에 가서 검진받아보고, 빨리 치료해줘야지.",
+            "turn_id": "BK22018919-10",
+            "utterance_id": "BK22018919.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 문제가 있을 때 빨리 가서 치료해주는 게 더 큰 병을 막는 방법이야. 조심히 잘 다녀와!",
+            "turn_id": "BK22018919-10",
+            "utterance_id": "BK22018919.20"
+        }
+    ]
+}

@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016149",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016149",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이제 아기를 가지려고 준비하기로 했어. 그래서, 산부인과에 가서 산전 검사를 받으려고 하는데, 나는 어떤 항목에 대해 검사받게 돼?",
+            "turn_id": "BK22016149-1",
+            "utterance_id": "BK22016149.1"
+        },
+        {
+            "reference_date": "2022-09-14",
+            "reference_text": [
+                {
+                    "value": "산부인과에서 시행하는 산전 검사로는 초음파, 자궁경부암, 풍진바이러스 항체, B형 간염 항원항체, 에이즈, 혈청매독, 빈혈, 간 기능, 갑상선 기능, 질 분비물 균 검사 등이 있다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=107733",
+            "search_query": "산전 검사 여성",
+            "terminate": false,
+            "text": "임신하려고 계획하고 준비하고 있구나. 산부인과에 가서 받게 되는 산전 검사의 항목은 다양한데, 초음파, 자궁경부암, 풍진바이러스 항체, B형 간염 항원 항체, 에이즈, 혈청 매독 등이 있어.",
+            "turn_id": "BK22016149-1",
+            "utterance_id": "BK22016149.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 많은 항목에 대한 검사를 받는구나. 그러면, 남편은 어떤 산전 검사를 받아?",
+            "turn_id": "BK22016149-2",
+            "utterance_id": "BK22016149.3"
+        },
+        {
+            "reference_date": "2022-09-14",
+            "reference_text": [
+                {
+                    "value": "남성은 혈액이나 소변으로 검사한다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이때 성병인 매독, 에이즈, 요도염, 전립선, 신장 기능, 간 기능 등의 질병을 확인하게 된다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=107733",
+            "search_query": "산전 검사 남성",
+            "terminate": false,
+            "text": "남자가 받는 산전 검사는 성병인 매독, 에이즈, 요도염, 전립선, 신장 기능, 간 기능 같은 질병 관련 검사를 받아. 이 검사들은 소변과 혈액으로 검사해.",
+            "turn_id": "BK22016149-2",
+            "utterance_id": "BK22016149.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "남자들도 확인할 것들이 많구나. 근데, 나는 나이가 많은데 더 검사받아야 할 것은 없을까?",
+            "turn_id": "BK22016149-3",
+            "utterance_id": "BK22016149.5"
+        },
+        {
+            "reference_date": "2022-10-11",
+            "reference_text": [
+                {
+                    "value": "고령 임신에 해당한다면 고혈압, 당뇨 등의 만성질환 검사도 필수다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 당뇨는 기형아 발생은 물론 유산 위험을 높일 수 있다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "임신 전 반드시 잘 조절해야 한다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.whosaeng.com/139373",
+            "search_query": "고령 산모 고혈압, 당뇨 산전 검사",
+            "terminate": false,
+            "text": "그런 경우라면 만성질환인 고혈압, 당뇨 검사도 받아야 해. 당뇨는 유산과 기형아 발생 위험을 높일 수 있어서 임신 전에 잘 조절해야 하지.",
+            "turn_id": "BK22016149-3",
+            "utterance_id": "BK22016149.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내가 고령 산모라서 고혈압과 당뇨도 검사해야 하는구나. 근데 내가 자궁근종을 진단받았었는데 임신이 가능할까?",
+            "turn_id": "BK22016149-4",
+            "utterance_id": "BK22016149.7"
+        },
+        {
+            "reference_date": "2022-10-13",
+            "reference_text": [
+                {
+                    "value": "자궁근종을 진단받았다고 해서 무조건 임신이 불가하거나 출산이 어려운 것은 아닙니다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 자궁근종을 발견하더라도 자궁을 최대한 보존하면서 병변 치료를 진행하고, 사후관리에 관심을 갖는다면 건강하고 안전하게 임신, 출산을 준비할 수 있습니다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000739434",
+            "search_query": "자궁근종 임신",
+            "terminate": false,
+            "text": "그럼, 자궁근종을 진단받았다고 임신이 무조건 어렵거나 출산이 힘든 건 아니야. 자궁을 보존하면서 병변을 치료하고, 사후관리를 한다면 건강하게 임신을 거쳐 출산할 수 있어.",
+            "turn_id": "BK22016149-4",
+            "utterance_id": "BK22016149.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다행이네, 그리고, 임신 준비하려면 체중도 조절하는 것이 좋겠지?",
+            "turn_id": "BK22016149-5",
+            "utterance_id": "BK22016149.9"
+        },
+        {
+            "reference_date": "2022-10-10",
+            "reference_text": [
+                {
+                    "value": "체중관리도 중요하다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "저체중과 과체중 모두 임신 합병증과 연관이 있는 만큼 표준체중을 유지하고 임신 중에는 너무 체중이 증가하지 않도록 관리해야 한다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61507",
+            "search_query": "임신 준비 체중관리",
+            "terminate": false,
+            "text": "그럼, 체중 관리 역시 중요한 부분이야. 저체중이나 과체중 모두 임신 합병증을 일으킬 수 있어서 표준체중을 유지하고, 임신 중에도 체중이 많이 늘지 않도록 조절해야 해.",
+            "turn_id": "BK22016149-5",
+            "utterance_id": "BK22016149.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 체중 관리부터 시작해야겠다. 그리고, 남편이 담배를 피우는데 임신과 연관이 있을까?",
+            "turn_id": "BK22016149-6",
+            "utterance_id": "BK22016149.11"
+        },
+        {
+            "reference_date": "2022-10-10",
+            "reference_text": [
+                {
+                    "value": "흡연은 산모도, 남편도 절대금물이다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "흡연하는 남성들은 기본적으로 정자의 운동 상태가 좋지 않고, 흡연하는 산모들에게는 태반 조기 박리, 임신중독증과 같은 심각한 문제가 동반될 수 있다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://zdnet.co.kr/view/?no=20221010235223",
+            "search_query": "임신 준비 흡연",
+            "terminate": false,
+            "text": "산모도 남편도 모두 금연해야 해. 남자가 흡연하는 경우 정자 운동 상태가 좋지 않은 경우가 많아. 그리고, 산모가 흡연하면 태반이 조기 박리되거나 임신중독증 같은 문제가 생길 수 있어.",
+            "turn_id": "BK22016149-6",
+            "utterance_id": "BK22016149.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "남편에게 이 기회에 금연하라고 해야겠다. 그리고, 임신 예정 중이면 필요한 영양성분이 있다고 하던데 뭐야?",
+            "turn_id": "BK22016149-7",
+            "utterance_id": "BK22016149.13"
+        },
+        {
+            "reference_date": "2022-10-10",
+            "reference_text": [
+                {
+                    "value": "임신을 계획 중이라면 최소 3개월 전부터 엽산 400㎍ 이상을 복용하는 것이 도움이 된다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "비타민 B의 일종인 엽산은 태아의 뇌 발달을 돕고 신경관 결손을 예방하는데 식품을 통해 충분히 섭취되지 않는다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "영양제로 복용해야 한다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/10/07/2022100702193.html",
+            "search_query": "임신 준비 엽산",
+            "terminate": false,
+            "text": "임신 준비할 때는 최소 3개월 전부터 400마이크로그램의 엽산을 섭취하는 것이 좋아. 엽산은 비타민 B의 일종으로 태아의 뇌 발달을 돕고 신경관 결손을 예방하는 역할을 하거든. 그런데, 이 엽산은 식품을 통해서는 충분하게 먹기 어려워서 영양제로 복용해야 해.",
+            "turn_id": "BK22016149-7",
+            "utterance_id": "BK22016149.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 오늘 엽산부터 챙겨 먹어야겠네. 그리고, 비타민D가 임신과 연관이 있다고 하던데 어떤 점이 그래?",
+            "turn_id": "BK22016149-8",
+            "utterance_id": "BK22016149.15"
+        },
+        {
+            "reference_date": "2022-07-18",
+            "reference_text": [
+                {
+                    "value": "비타민D가 결핍되면 시험관 시술의 임신 성공률이 낮아지고, 임신성 당뇨나 임신 중 요로감염 위험 증가 등의 영향은 이 알려져 있다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "요즘은 임신을 준비할 때 비타민D 혈중 농도 검사를 하고 결핍상태일 경우 비타민D 주사를 맞거나 고용량 비타민D 보충제를 섭취하며 정상적인 비타민D 수치를 유지하려고 노력한다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1409173/%ec%9e%84%ec%8b%a0-%ec%a4%80%eb%b9%84-%ec%98%81%ec%96%91%ec%a0%9c-%eb%ac%b4%ec%97%87%ec%9d%84-%ec%b1%99%ea%b2%a8%ec%95%bc-%ed%95%a0%ea%b9%8c/",
+            "search_query": "임신 준비 비타민D",
+            "terminate": false,
+            "text": "비타민 D가 부족하면 시험관 시술하는 경우 임신 성공률이 떨어지고, 임신성 당뇨나 임신 중 요로 감염 위험을 증가시키기도 해. 그래서, 임신 준비하는 경우 비타민 D의 혈중 농도 검사를 하고 부족하면 정상 비타민 D 수치를 유지하기 위해서 고용량의 비타민 D 보충제나 비타민D 주사를 맞기도 해.",
+            "turn_id": "BK22016149-8",
+            "utterance_id": "BK22016149.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비타민 D 수치가 정상인 것도 중요하구나. 임신 준비에 대해 궁금한 것이 많았는데 자세히 알려줘서 고마워.",
+            "turn_id": "BK22016149-9",
+            "utterance_id": "BK22016149.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고맙긴, 임신하려면 준비할 것도 많을 텐데 궁금한 건 언제든 물어봐.",
+            "turn_id": "BK22016149-9",
+            "utterance_id": "BK22016149.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 우리는 다음에 보자.",
+            "turn_id": "BK22016149-10",
+            "utterance_id": "BK22016149.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "잘 가고 다음에 보자, 안녕.",
+            "turn_id": "BK22016149-10",
+            "utterance_id": "BK22016149.20"
+        }
+    ]
+}

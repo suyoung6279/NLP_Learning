@@ -1,0 +1,353 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002798",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002798",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0031"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이가 키가 작아 고민이에요. 성장판에 자극이 가는 운동이 좋다고 하던데, 어떤 운동이 좋은지 알려줄 수 있나요?",
+            "turn_id": "BK22002798-1",
+            "utterance_id": "BK22002798.1"
+        },
+        {
+            "reference_date": "2014-08-27",
+            "reference_text": [
+                {
+                    "value": "줄넘기, 축구, 농구, 배구 등등은 익히 알고 있는 키성장 운동이라고 할 수 있는데, 단점이라면 줄넘기는 너무 단순하고 재미가 없으며, 축구나 농구, 배구 등은 격한 운동에 속하기 때문에 왜소한 아이들이 힘들어 한다는 것이다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?1833159",
+            "search_query": "키크는 운동",
+            "terminate": false,
+            "text": "키 크는 운동에는 줄넘기가 대표적인데, 너무 단순하고 재미가 없어요. 또, 축구나 농구, 배구 등은 격한 운동이기 때문에 왜소한 아이들이 따라 하기에 힘들 수 있고요.",
+            "turn_id": "BK22002798-1",
+            "utterance_id": "BK22002798.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 어떤 운동을 해야 하나요?",
+            "turn_id": "BK22002798-2",
+            "utterance_id": "BK22002798.3"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집에서 간단히 할 수 있는 스트레칭 몇 가지 알려드릴게요.",
+            "turn_id": "BK22002798-2",
+            "utterance_id": "BK22002798.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너무 감사해요. 어떤 스트레칭을 하면 키 크는 데 도움이 될까요?",
+            "turn_id": "BK22002798-3",
+            "utterance_id": "BK22002798.5"
+        },
+        {
+            "reference_date": "2014-08-27",
+            "reference_text": [
+                {
+                    "value": "양손 뻗어 올리기'는 전신의 근육을 수축시켜 혈행과 신진대사를 촉진시킨다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가슴 펴고 발 내딛기'는 목뼈야 등뼈의 성장 발육과 다리를 길게 만든다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가슴 뒤로 젖히고 배 젖기'는 등뼈와 다리를 균형있게 키우기 때문에 중요한 체조이다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "줄없이 하는 줄넘기'는 허리 무릎, 발목의 관절에 강한 자극을 주어 이 부분들을 강하게 만든다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?1833159",
+            "search_query": "집에서 할 수 있는 키크는 운동",
+            "terminate": false,
+            "text": "전신의 근육을 수축시켜 혈행과 신진대사를 촉진하는 양손 뻗어 올리기, 목뼈와 등뼈의 성장 발육과 다리를 길게 만드는 가슴 펴고 발 내딛기, 등뼈와 다리를 균형 있게 만드는 가슴 뒤로 젖히고 배 젓기 등의 스트레칭이 있고, 허리 무릎, 발목 등 관절에 자극을 줘서 강하게 만드는 줄 없이 하는 줄넘기 등이 있어요.",
+            "turn_id": "BK22002798-3",
+            "utterance_id": "BK22002798.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여러 가지 방법의 스트레칭이 있네요.",
+            "turn_id": "BK22002798-4",
+            "utterance_id": "BK22002798.7"
+        },
+        {
+            "reference_date": "2014-08-27",
+            "reference_text": [
+                {
+                    "value": "위와 같은 키크는 운동의 공통점이자 핵심은 적절히 성장판을 자극하는 것이라 할 수 있다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?1833159",
+            "search_query": "성장판 자극 키크는 운동",
+            "terminate": false,
+            "text": "이 방법들의 공통점은 성장판을 자극해 키 크는 데 도움을 준다는 점이에요.",
+            "turn_id": "BK22002798-4",
+            "utterance_id": "BK22002798.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스트레칭을 많이 시켜야겠네요. 또 다른 방법에는 뭐가 있을까요?",
+            "turn_id": "BK22002798-5",
+            "utterance_id": "BK22002798.9"
+        },
+        {
+            "reference_date": "2020-03-11",
+            "reference_text": [
+                {
+                    "value": "평소 키크는 음식을 꾸준이 섭취하는 것도 키크는 방법으로 좋다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=145486",
+            "search_query": "키크는 음식",
+            "terminate": false,
+            "text": "음식 섭취가 중요하죠. 키 크는 음식을 먹는 방법도 좋아요.",
+            "turn_id": "BK22002798-5",
+            "utterance_id": "BK22002798.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음식은 어떤 음식들이 좋은가요?",
+            "turn_id": "BK22002798-6",
+            "utterance_id": "BK22002798.11"
+        },
+        {
+            "reference_date": "2020-03-11",
+            "reference_text": [
+                {
+                    "value": "중요한 것은 먹는 양이 아닌 질이기 때문에 단백질이 풍부한 두부, 육류를 비롯해 칼슘이 풍부한 미역, 다시마, 멸치, 우유 등을 골고루 섭취해야 한다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=145486",
+            "search_query": "키크는 음식",
+            "terminate": false,
+            "text": "양보단 질이 중요해요. 두부처럼 단백질이 풍부한 두부나 육류, 칼슘이 풍부한 미역이나 다시마, 멸치나 우유 등을 골고루 먹는 게 좋아요.",
+            "turn_id": "BK22002798-6",
+            "utterance_id": "BK22002798.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "운동과 식단, 그 외에 다른 방법들은 없나요?",
+            "turn_id": "BK22002798-7",
+            "utterance_id": "BK22002798.13"
+        },
+        {
+            "reference_date": "2017-07-18",
+            "reference_text": [
+                {
+                    "value": "아이들의 키 성장에 있어서 수면습관은 매우 중요한 요소다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "키 성장을 위해 최소 7시간, 특히 밤 10시부터 새벽2시 사이에는 숙면상태인 것이 좋다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.betanews.net/article/723498",
+            "search_query": "키크는 수면습관",
+            "terminate": false,
+            "text": "키 크는 데 중요한 것 중 하나는 수면이에요. 최소 7시간, 특히 밤 10시부터 새벽 2시 사이에는 깊이 잠드는 게 키 크는 데 좋아요.",
+            "turn_id": "BK22002798-7",
+            "utterance_id": "BK22002798.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좋은 정보 너무 감사해요. 그런데 이 방법들로도 효과가 없으면 또 다른 방법이 있는 걸까요?",
+            "turn_id": "BK22002798-8",
+            "utterance_id": "BK22002798.15"
+        },
+        {
+            "reference_date": "2021-12-23",
+            "reference_text": [
+                {
+                    "value": "최근에는 성장호르몬 주사치료를 통해 키성장에 도움을 받는 사례도 많아졌다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.medisobizanews.com/news/articleView.html?idxno=83974",
+            "search_query": "성장호르몬 주사 효과",
+            "terminate": false,
+            "text": "마지막으로 전문의의 도움을 구할 수 있어요. 최근에는 성장호르몬 주사 치료를 통해 키를 키우는 데 도움을 받을 수 있어요.",
+            "turn_id": "BK22002798-8",
+            "utterance_id": "BK22002798.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "성장호르몬 주사에 대해 알아보긴 했어요. 하지만 부작용은 없을까요?",
+            "turn_id": "BK22002798-9",
+            "utterance_id": "BK22002798.17"
+        },
+        {
+            "reference_date": "2022-05-04",
+            "reference_text": [
+                {
+                    "value": "가장 흔한 부작용은 수분 저류로 인한 말초 부종 증상으로, 손·발·얼굴이 부으며 치료 대상자의 5~10%에서 나타납니다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 외에 이상 감각, 관절 경직, 관절통, 근육통, 두통, 혈압 상승 등이 나타나며 갑상샘 호르몬 저하, 인슐린 감수성의 변화, 고혈당, 척추측만증을 비롯한 정형외과적 문제가 나타날 수 있습니다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://jhealthmedia.joins.com/article/article_view.asp?pno=25367",
+            "search_query": "성장호르몬 부작용",
+            "terminate": false,
+            "text": "부작용이 생길 수 있어요. 가장 흔한 부작용은 수분 저류로 말초 부종 증상으로 손이나 발, 얼굴이 붓는 증상이에요. 또, 이외에도 감각, 관절 경직, 관절통, 근육통, 두통, 혈압 상승 등의 부작용이 발생할 수 있으며 갑상샘 호르몬 저하나 인슐린 감수성의 변화, 고혈당, 척추측만증 등 정형외과적 문제가 발생할 수 있어요.",
+            "turn_id": "BK22002798-9",
+            "utterance_id": "BK22002798.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 스트레칭과 음식 조절, 수면과 성장호르몬 주사, 정말 많은 걸 배웠어요. 너무 감사해요.",
+            "turn_id": "BK22002798-10",
+            "utterance_id": "BK22002798.19"
+        },
+        {
+            "reference_date": "2022-05-04",
+            "reference_text": [
+                {
+                    "value": "아이 상황에 따라 아이·보호자와 면밀히 상담해 치료 여부를 결정하며, 경험 많은 소아 내분비 전문의와의 상담이 필요합니다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://jhealthmedia.joins.com/article/article_view.asp?pno=25367",
+            "search_query": "성장호르몬 상담치료",
+            "terminate": false,
+            "text": "도움이 되셨다니 정말 다행이네요. 하지만 성장호르몬 치료는 아이 상태에 따라 경험 많은 소아 내분비 전문의와의 상담이 필수에요.",
+            "turn_id": "BK22002798-10",
+            "utterance_id": "BK22002798.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 알려주신 내용으로 공부를 더 해야겠어요. 좋은 정보 너무 감사합니다.",
+            "turn_id": "BK22002798-11",
+            "utterance_id": "BK22002798.21"
+        }
+    ]
+}

@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22017920",
+        "name": "2022 한국어 블렌더봇 데이터 BK22017920",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "부모님 건강을 위해서 인삼과 홍삼을 사서 선물 드리려고 하는데요. 한 번도 사본 적이 없어서 고르기가 너무 어렵네요.",
+            "turn_id": "BK22017920-1",
+            "utterance_id": "BK22017920.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "당연히 한 번도 안 사보셨다면 그러실만해요.",
+            "turn_id": "BK22017920-1",
+            "utterance_id": "BK22017920.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게요. 그런데 인삼을 고를 때는 어떤 색이나 모양을 선택하는 게 좋은지 혹시 아세요?",
+            "turn_id": "BK22017920-2",
+            "utterance_id": "BK22017920.3"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "인삼을 고를 때는 머리 부분인 '뇌두'와 몸통인 '동체', 다리 부분인 '지근'이 균일하게 발달해있고 뿌리 색이 연 노란색을 띠는 것을 선택하는 게 좋다.",
+                    "value_time": "2022-10-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20220830_0001995965&cID=10401&pID=10400",
+            "search_query": "인삼 구매 요령 노란색",
+            "terminate": false,
+            "text": "아, 인삼을 고르실 때는 뿌리 색이 연 노란색인 것을 선택하시면 좋아요. 또한 인삼 머리 부분인 뇌두와 몸통인 동체, 다리 부분의 지근이 균형 있게 발달해 있는 모양을 고르시면 돼요.",
+            "turn_id": "BK22017920-2",
+            "utterance_id": "BK22017920.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 간단한 방법이라 어렵지 않겠어요. 그런데 인삼 구매 시 좀 더 저렴하게 구매할 수 있는 방법이 있나요?",
+            "turn_id": "BK22017920-3",
+            "utterance_id": "BK22017920.5"
+        },
+        {
+            "reference_date": "2022-10-04",
+            "reference_text": [
+                {
+                    "value": "또한, 경기 파주, 김포, 안성 등, 충남 금산, 경북 영주 등 지역별로 9월 말부터 10월 중순에 열리는 인삼 축제를 방문하면 10~20% 저렴하게 인삼을 구매할 수도 있다.",
+                    "value_time": "2022-10-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongang.tv/news/articleView.html?idxno=57071",
+            "search_query": "인삼 저렴하게 구매하는 방법",
+            "terminate": false,
+            "text": "그럼요. 9월 말부터 10월 중순까지 경기 파주와 김포, 안성, 충남 금산, 경북 영주 등 지역별로 인삼 축제가 열리고 있어요. 축제에 가시면 인삼을 10퍼센트에서 20퍼센트 저렴하게 구매할 수 있어요.",
+            "turn_id": "BK22017920-3",
+            "utterance_id": "BK22017920.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 인삼을 저렴하게 구매 가능하니 꼭 축제에 가봐야겠네요. 이제 인삼은 잘 알겠는데 비슷한 홍삼은 제품 종류가 많아서 헷갈리더라고요. 특히 제품을 보면 건강기능식품이라 뜻이 쓰여 있던데 그건 어떤 의미의 식품인 거죠?",
+            "turn_id": "BK22017920-4",
+            "utterance_id": "BK22017920.7"
+        },
+        {
+            "reference_date": "2022-09-10",
+            "reference_text": [
+                {
+                    "value": "‘건강기능식품’이란 ‘인체에 유용한 기능성을 가진 원료나 성분을 사용해 제조하거나 가공한 식품으로 식품의약품안전처로부터 기능성과 안전성을 인정받은 제품’이라는 설명이 나옵니다.",
+                    "value_time": "2022-10-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://h21.hani.co.kr/arti/culture/science/52545.html",
+            "search_query": "건강기능식품 의미",
+            "terminate": false,
+            "text": "음, 건강기능식품은 인체에 쓸모가 있는 기능성이 있는 원료나 성분을 이용해서 만들거나 가공한 식품을 말하는데요. 식품의약품안전처에서 기능성과 안정성을 인정받은 제품을 말해요.",
+            "turn_id": "BK22017920-4",
+            "utterance_id": "BK22017920.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 그렇다면 건강기능식품은 정말로 건강에 효과가 있는 거네요. 그런데 홍삼 제품에는 건강 기능성식품 말고도 일반 가공식품도 있던데 둘은 무슨 차이가 있는 거예요?",
+            "turn_id": "BK22017920-5",
+            "utterance_id": "BK22017920.9"
+        },
+        {
+            "reference_date": "2021-09-13",
+            "reference_text": [
+                {
+                    "value": "유통 홍삼제품은 건강기능식품의 기준 및 규격에 따라 진세노사이드 함량(Rg1, Rb1 및 Rg3의 합)이 제품 규격으로 설정돼 있는 건강기능식품과 이에 해당하지 않는 일반 가공식품으로 나눌 수 있다.",
+                    "value_time": "2022-10-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "홍삼을 함유한 일반 가공식품은 홍삼음료, 당절임, 액상차, 고형차 등의 식품 유형으로 판매되고 있으며 홍삼음료만 식품공전에 따라 ‘홍삼성분 확인’으로 규격 기준이 설정돼 있고 진세노사이드 함량에 관한 기준은 없다.",
+                    "value_time": "2022-10-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.wsobi.com/news/articleView.html?idxno=136913",
+            "search_query": "홍삼 식품 유형",
+            "terminate": false,
+            "text": "홍삼 제품은 건강기능식품의 기준 및 규격에 의해 진세노사이드 함량이 제품 규격으로 정해져 있는 건강기능식품과 거기에 해당하지 않는 일반 가공식품으로 나뉘어요. 진세노사이드 함량은 Rg1, Rb1 및 Rg3의 합을 말하고요. 일반 가공식품의 경우 홍삼음료, 당절임, 액상차, 고형차 등의 식품 유형이 있는데요. 홍삼음료는 식품공전에 의해 홍삼 성분 확인으로 규격 기준이 정해져 있어요. 단 일반 가공식품은 진세노사이드 함량에 관한 기준은 없어요.",
+            "turn_id": "BK22017920-5",
+            "utterance_id": "BK22017920.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 홍삼 제품의 건강기능식품과 일반가공식품은 꽤 분명한 차이가 있는 거네요. 그러면 홍삼을 살 때 건강기능식품인지 확인할 수 있는 방법이 따로 있나요?",
+            "turn_id": "BK22017920-6",
+            "utterance_id": "BK22017920.11"
+        },
+        {
+            "reference_date": "2022-09-20",
+            "reference_text": [
+                {
+                    "value": "제대로 검증을 받은 제품을 고르고 싶다면, 포장 겉면에 '건강기능식품' 인정 마크와 '표시·광고사전심의필' 마크를 확인하면 된다.",
+                    "value_time": "2022-10-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/09/20/2022092002026.html",
+            "search_query": "홍삼 건강기능식품 확인 방법",
+            "terminate": false,
+            "text": "네, 만약 확실한 검증을 받은 제품을 구매하시고 싶으시면 제품 포장 겉면에 건강기능식품 인정 마크와 표시, 광고 사전심의 필 마크를 확인하시면 돼요.",
+            "turn_id": "BK22017920-6",
+            "utterance_id": "BK22017920.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "건강기능식품 마크가 있으니 확실히 구분할 수 있어서 좋네요. 건강기능식품 마크 말고도 좋은 효능의 홍삼 제품을 구매하려면 어떻게 해야 할까요?",
+            "turn_id": "BK22017920-7",
+            "utterance_id": "BK22017920.13"
+        },
+        {
+            "reference_date": "2022-05-04",
+            "reference_text": [
+                {
+                    "value": "또한 홍삼의 유효 성분인 진세노사이드 함량에 따라 기능도 차이가 있다.",
+                    "value_time": "2022-10-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "홍삼의 기본적인 효능을 최적화하려면 5중 기능성으로 진세노사이드 함량은 10~12mg으로 고르는 게 가장 좋다.",
+                    "value_time": "2022-10-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.apnews.kr/news/articleView.html?idxno=3001988",
+            "search_query": "홍삼 진세노사이드 함량",
+            "terminate": false,
+            "text": "홍삼의 진세노사이드 함량에 따라 유효 성분의 기능이 차이가 있으니 진세노사이드 함량은 10mg에서 12mg의 제품으로 구매하시는 게 좋아요.",
+            "turn_id": "BK22017920-7",
+            "utterance_id": "BK22017920.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 진세노사이드 함량을 잘 봐야겠어요. 홍삼을 살 때 성분을 알고 싶을 때는 어떻게 확인할 수 있나요?",
+            "turn_id": "BK22017920-8",
+            "utterance_id": "BK22017920.15"
+        },
+        {
+            "reference_date": "2021-11-19",
+            "reference_text": [
+                {
+                    "value": "건기식은 식약처에서 인정한 기능성만 표시할 수 있다.",
+                    "value_time": "2022-10-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "건기식의 포장 뒷면을 보면 '영양 기능 정보'란이 있다.",
+                    "value_time": "2022-10-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여기에 건기식의 기능성, 섭취량, 섭취 방법, 기능성 성분 등에 대한 정보가 표시돼 있으니 꼭 확인할 필요가 있다.",
+                    "value_time": "2022-10-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.chosun.com/news/ntype.htm?id=202111200100156630010411&servicedate=20211119#rs",
+            "search_query": "홍삼 성분 확인 방법",
+            "terminate": false,
+            "text": "홍삼을 살 때 건강 기능 식품은 식약처에서 인정받은 기능성만 표시할 수 있어요. 포장 뒷면을 살펴보시면 영양 기능 정보가 있는데요. 이곳에 건강 기능 식품의 기능성, 섭취량, 섭취 방법, 기능성 성분 등의 정보를 꼭 체크하시면 돼요.",
+            "turn_id": "BK22017920-8",
+            "utterance_id": "BK22017920.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 제품을 살 때 포장 뒷면을 꼭 살피는 것도 잊지 말아야겠어요. 그런데 홍삼의 기능성은 인증받았다 쳐도 제조업체에서 안전하게 잘 만들었는지 걱정되는데 그걸 확인하는 방법은 없나요?",
+            "turn_id": "BK22017920-9",
+            "utterance_id": "BK22017920.17"
+        },
+        {
+            "reference_date": "2019-09-10",
+            "reference_text": [
+                {
+                    "value": "'건강기능식품'으로 인증된 홍삼 제품들은, 건강기능식품으로 인정받은 원료를 사용하고, 생산 공장 역시 GMP(Good Manufacturing Practice, 우수건강기능식품 제조기준)시설이 갖추어진 공장에서 제조하는 제품들이다.",
+                    "value_time": "2022-10-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이러한 제품들은 식약처에서 발급하는 GMP 인증 마크를 달고 있어 구분하기 쉽다.",
+                    "value_time": "2022-10-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/201909101650416028",
+            "search_query": "홍삼 GMP 뜻",
+            "terminate": false,
+            "text": "아, 홍삼 제품이 우수 건강기능식품 제조기준 시설을 갖춘 곳에서 만들어졌다면 제품에는 식약처에서 발급하는 GMP 인증 마크가 있으니 그 부분을 확인하시면 돼요.",
+            "turn_id": "BK22017920-9",
+            "utterance_id": "BK22017920.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 생각보다 꼼꼼하게 홍삼 제품을 고를 수 있는 방법이 다양하게 있어서 좋네요. 오늘 알려주신 정보 덕분에 인삼과 홍삼을 모두 잘 고를 수 있게 됐네요. 정말 고마워요.",
+            "turn_id": "BK22017920-10",
+            "utterance_id": "BK22017920.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요. 부모님 챙겨드릴 건강식품이니 꼼꼼하게 잘 따져보고 사셔야죠. 그럼 쇼핑 잘하시고 다음에 또 만나서 수다 떨어요.",
+            "turn_id": "BK22017920-10",
+            "utterance_id": "BK22017920.20"
+        }
+    ]
+}

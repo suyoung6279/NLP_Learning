@@ -1,0 +1,392 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015970",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015970",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이를 키우고 싶은데 어릴 때 강아지가 아팠던 기억이 있어서 쉽게 데려오지를 못하겠어요. 고양이는 신장이 약하다면서요?",
+            "turn_id": "BK22015970-1",
+            "utterance_id": "BK22015970.1"
+        },
+        {
+            "reference_date": "2019-03-27",
+            "reference_text": [
+                {
+                    "value": "고양이에게는 신장과 관련된 질병이 많이 발생한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "통계에 따르면 전체 고양이 중 약 30% 이상이 신장과 관련된 문제를 가지고 있다고 하며, 암 다음으로 사망률 2위를 차지하는 심각한 질병이기도 하다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 개와 비교했을 때 무려 7배나 높은 수치이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.fntoday.co.kr/news/articleView.html?idxno=184869",
+            "search_query": "고양이 신장 질환",
+            "terminate": false,
+            "text": "맞아요. 고양이는 신장 질병이 많이 생기는 편이에요. 전체 고양이 중에 30퍼센트가 이상이 신장 질병을 가지고 있어요. 암 다음으로 사망률이 2위인 무서운 질병이죠. 강아지 신장 질병보다 7배나 높은 발병률이에요.",
+            "turn_id": "BK22015970-1",
+            "utterance_id": "BK22015970.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "암 다음으로 높은 사망률이라니 무서운 병이네요. 왜 강아지보다 고양이가 신장 질병에 많이 걸리는 건가요?",
+            "turn_id": "BK22015970-2",
+            "utterance_id": "BK22015970.3"
+        },
+        {
+            "reference_date": "2019-03-27",
+            "reference_text": [
+                {
+                    "value": "고양이에서 신장 질환이 많이 발생하는 이유는 정확히 밝혀지지 않았지만 먼 옛날 고양이의 조상이 사막 지대에 서식했을 때의 습성이 남아 물을 자주 마시지 않는 경우가 많고, 현대에 넘어와서는 건사료 위주의 식생활로 인해 만성적인 탈수 상태가 되어 신장 질환 발생 빈도가 증가했다는 주장도 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 다낭성 신장 질환(PKD, Polycystic Kidney Disease)이나 아밀로이드 침착증과 같은 선천적인 유전성 신장 질환 역시 상대적으로 높은 빈도로 발생하는 원인까지는 설명되지 않는다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.fntoday.co.kr/news/articleView.html?idxno=184869",
+            "search_query": "고양이 신장 질환 이유",
+            "terminate": false,
+            "text": "고양이에게 신장질환이 많이 생기는 이유는 정확하게는 알려지지 않았지만, 고양이의 조상이 사막에 살았을 때의 습성 때문으로 추정해요. 이 습성이 남아 물을 자주 안 마시고, 건사료 위주의 식생활로 만성 탈수 상태가 되어 생기는 질병이라는 의견도 있어요. 하지만 다낭성 신장질환이나 아밀로이드 침착증같은 유전성 신장 질환은 왜 강아지보다 높은 빈도로 발생하는지 밝혀진 건 없어요.",
+            "turn_id": "BK22015970-2",
+            "utterance_id": "BK22015970.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이가 신장 질환에 잘 걸리는 원인에 대해 여러 가설이 있지만 유전적인 신장질환의 이유는 아직 밝히지 못했나 보네요. 길냥이들을 보면 침을 흘리고 있는 경우도 많던데 그건 어떤 질병인가요?",
+            "turn_id": "BK22015970-3",
+            "utterance_id": "BK22015970.5"
+        },
+        {
+            "reference_date": "2022-03-16",
+            "reference_text": [
+                {
+                    "value": "단순히 길에서 생활하니까 위생상태가 좋지 않다고 생각할지 모르겠지만, 길고양이도 건강한 상태에서는 침을 흘리지 않는다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이런 증상이 나타나는 이유는 대부분 구내염이라는 질병 때문이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sisajournal.com/news/articleView.html?idxno=234558",
+            "search_query": "고양이 침흘림",
+            "terminate": false,
+            "text": "길냥이들이 침을 흘리는 건 대부분 구내염 때문이에요. 길에서 생활해서 위생상태가 좋지 않기 때문에 그렇다고 생각할 수도 있지만 원래 길냥이들도 건강하면 침을 흘리지 않죠.",
+            "turn_id": "BK22015970-3",
+            "utterance_id": "BK22015970.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "구내염을 앓는 고양이였군요. 고양이 구내염은 왜 생기는 건가요?",
+            "turn_id": "BK22015970-4",
+            "utterance_id": "BK22015970.7"
+        },
+        {
+            "reference_date": "2021-07-18",
+            "reference_text": [
+                {
+                    "value": "전 세계 수의학계의 활발한 연구에도 불구하고 고양이 구내염의 원인은 정확히 밝혀진 바 없습니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 유력한 요인으로는 고양이 감기 바이러스라고도 불리는 칼리시 및 헤르페스 바이러스가 꼽힙니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 바이러스들은 고양이 체내에 반영구적으로 머물다가 고양이가 쇠약해지면 급격히 증식해서 잇몸 및 호흡기 염증, 면역력 감퇴를 일으킵니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.kmib.co.kr/article/view.asp?arcid=0016061764&code=61171811&cp=nv",
+            "search_query": "고양이 구내염 원인",
+            "terminate": false,
+            "text": "전 세계 수의학계에서 활발히 연구하고 있지만 고양이 구내염의 원인은 정확하게 밝혀지지 않았어요. 고양이 감기 바이러스인 헤르페스 바이러스나 칼리시 바이러스 때문이라는 주장도 있죠. 이 바이러스는 고양이의 몸속에 있다가 고양이의 면역력이 떨어지면 증식해서 잇몸과 호흡기 염증, 구내염이나 면역력 감퇴 등의 질병을 일으켜요.",
+            "turn_id": "BK22015970-4",
+            "utterance_id": "BK22015970.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잠복해 있던 바이러스가 면역력이 낮아지면 나오는거군요. 치료할 수는 있는 건가요?",
+            "turn_id": "BK22015970-5",
+            "utterance_id": "BK22015970.9"
+        },
+        {
+            "reference_date": "2020-04-14",
+            "reference_text": [
+                {
+                    "value": "고양이가 구내염에 걸렸다면 가장 효과적인 치료는 플라크를 없애는 것이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "발치를 진행할 때는 구내염의 상태에 따라 뒤쪽 어금니부터 치아의 일부 혹은 단계적으로 전부를 발치한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "내과적 치료는 내복약을 처방해 염증을 가라앉히고 진통제를 사용해 통증을 없애주는 치료다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고양이 구내염은 치료가 쉽지 않고 완치를 기대하기 힘들어 예방이 필수다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=48058",
+            "search_query": "고양이 구내염 치료",
+            "terminate": false,
+            "text": "고양이 입 안의 플라크를 없애는 게 가장 효과적인 치료법이에요. 또는 고양이의 이빨을 뽑는 방법도 있죠. 구내염의 상태에 따라 뒤쪽 어금니부터 치아의 일부를 발치하거나 단계적으로 이빨 전부를 발치해요. 내복약을 먹어서 염증을 줄이고 진통제로 통증을 조절할 수도 있지만 치료가 쉽지 않고 완치가 어려워서 예방하는 방법이 최선이에요.",
+            "turn_id": "BK22015970-5",
+            "utterance_id": "BK22015970.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이빨을 다 뽑는 치료 방법도 있군요. 고양이의 이빨을 다 뽑으면 사는데는 지장이 없나요?",
+            "turn_id": "BK22015970-6",
+            "utterance_id": "BK22015970.11"
+        },
+        {
+            "reference_date": "2021-12-27",
+            "reference_text": [
+                {
+                    "value": "고양이는 이빨을 다 뽑더라도 사료를 먹는 데 전혀 지장이 없다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이가 없어도 잇몸으로 얼마든지 살 수 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보호자도 고양이가 통증에서 벗어나서 잘 먹는 모습을 보면 매우 만족스러워한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=57294",
+            "search_query": "고양이 발치해도",
+            "terminate": false,
+            "text": "고양이는 이빨이 없어도 사료를 먹는 데 문제 없어요. 이빨이 없으면 잇몸으로 살 수 있거든요. 이빨이 없어도 통증 없이 잘 먹는 걸 보면 보호자도 발치 한 것을 만족해하는 경우가 많아요.",
+            "turn_id": "BK22015970-6",
+            "utterance_id": "BK22015970.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이빨이 없어도 문제없다니 다행이네요. 고양이는 생각보다 약해서 불치병도 많다던데 어떤 불치병이 있나요?",
+            "turn_id": "BK22015970-7",
+            "utterance_id": "BK22015970.13"
+        },
+        {
+            "reference_date": "2020-01-08",
+            "reference_text": [
+                {
+                    "value": "고양이에게 대표적인 불치병은 고양이전염성복막염(FIP)이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 코로나바이러스가 고양이 체내에서 고양이전염성복막염바이러스(FIpV)로 변이되면 상황은 급격히 심각해진다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고양이전염성복막염바이러스가 사망율100%의 고양이전염성복막염을 발생시키기 때문이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.imaeil.com/page/view/2020010815441259329",
+            "search_query": "고양이 불치병",
+            "terminate": false,
+            "text": "고양이에게도 치료할 수 없는 병이 있죠. 고양이전염성복막염이 가장 대표적인 고양이 불치병이에요. 코로나 바이러스가 고양이 몸 안에 있다가 고양이전염성복막염바이러스로 변이되어 발생하는데 사망률 100퍼센트의 무서운 병이죠.",
+            "turn_id": "BK22015970-7",
+            "utterance_id": "BK22015970.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사망률이 100퍼센트면 정말 불치병이 맞네요. 고양이전염성복막염이면 다른 고양이들에게도 옮기는 건가요?",
+            "turn_id": "BK22015970-8",
+            "utterance_id": "BK22015970.15"
+        },
+        {
+            "reference_date": "2020-04-20",
+            "reference_text": [
+                {
+                    "value": "고양이 전염성 복막염 바이러스 자체는 감염력이 없다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 고양이 코로나바이러스는 분변을 통해 다른 고양이에게 쉽게 감염되며 특히 다묘가정에서는 화장실과 식기를 공유할 경우 쉽게 감염될 수 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=48114",
+            "search_query": "고양이 전염성 복막염 전염",
+            "terminate": false,
+            "text": "고양이전염성복막염 바이러스 자체는 감염되지 않지만 코로나 바이러스가 분변을 통해 다른 고양이들에게 전염돼요. 고양이를 여러 마리 키우는 집에서는 화장실과 식기를 통해 감염되는 거죠.",
+            "turn_id": "BK22015970-8",
+            "utterance_id": "BK22015970.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "변이되기 전의 코로나 바이러스가 전염이 되는거군요. 이 병의 치료법은 없는 건가요?",
+            "turn_id": "BK22015970-9",
+            "utterance_id": "BK22015970.17"
+        },
+        {
+            "reference_date": "2020-06-12",
+            "reference_text": [
+                {
+                    "value": "난치성 질환인 고양이전염성복막염(FIP)에 대한 신약후보물질 ‘GC376’이 수의사들 사이에서 화제로 떠오르고 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아직 임상시험단계에 머무르고 있는 화학물질임에도 불구하고, 극소수의 국내 동물병원이 연구를 명분으로 FIP 환자치료에 사용하고 있는 것으로 알려졌다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailyvet.co.kr/news/practice/companion-animal/109902",
+            "search_query": "고양이 복막염 치료방법",
+            "terminate": false,
+            "text": "현재까지는 없지만, GC376이라고 하는 신약후보물질이 개발되었어요. 아직 임상시험 단계이지만 연구를 명분으로 극소수의 국내 동물병원에서도 고양이전염성복막염 치료에 사용하고 있어요.",
+            "turn_id": "BK22015970-9",
+            "utterance_id": "BK22015970.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신약이 개발되고 있다니 다행이네요. 오늘 대화로 고양이가 잘 걸리는 질병에 대해 잘 알게 되었어요.",
+            "turn_id": "BK22015970-10",
+            "utterance_id": "BK22015970.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 다행이네요. 그럼 다음에도 궁금한 게 있으시면 언제든지 말씀 주세요.",
+            "turn_id": "BK22015970-10",
+            "utterance_id": "BK22015970.20"
+        }
+    ]
+}

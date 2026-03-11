@@ -1,0 +1,426 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013443",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013443",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지를 입양하려고 하는데, 애완동물 가게에서 입양하면 어떤 문제점이 있을까?",
+            "turn_id": "BK22013443-1",
+            "utterance_id": "BK22013443.1"
+        },
+        {
+            "reference_date": "44115.0",
+            "reference_text": [
+                {
+                    "value": "동물보호법 시행규칙 제43조는 ‘동물판매업자는 생후 2개월 이상인 개·고양이를 판매해야 한다’고 규정하고 있습니다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "견공의 사회화는 생후 8주 이후에도 계속됩니다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "생후 7~11주는 다양한 존재를 만나 담력을 키우는 공포학습시기(Fear Impact Period)입니다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이때 펫샵에 갇혀있으면 이후 다른 개·사람을 공격적으로 대할 가능성이 크죠.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이런 내막을 모르고 펫샵에서 강아지를 산다면 이웃 갈등 및 행동교정 문제로 막대한 대가를 치를 수 있습니다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.kmib.co.kr/article/view.asp?arcid=0015092767",
+            "search_query": "펫샵 입양 문제점",
+            "terminate": false,
+            "text": "동물판매업자는 생후 2개월 이상인 개, 고양이를 판매해야 한다고 동물보호법 시행규칙 제43조에 규정하고 있어. 하지만 개의 사회화는 생후 8주 이후에도 계속돼, 특히 생후 7~11주는 공포학습 시기라고 여러 존재를 만나 담력을 키우는 시기인데, 이 시기에 애완동물 가게에 갇혀 있으면 다른 개나 사람을 공격적으로 대할 가능성이 커져. 이런 것을 모르고 애완동물 가게에서 강아지를 입양하면 이웃과 갈등이 생길 수도 있고, 행동 교정에 큰 문제가 생길 수 있어.",
+            "turn_id": "BK22013443-1",
+            "utterance_id": "BK22013443.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 애완동물 가게에서 입양하는 대신 유기견을 입양해야겠다. 유기견 입양은 어떻게 해야 해?",
+            "turn_id": "BK22013443-2",
+            "utterance_id": "BK22013443.3"
+        },
+        {
+            "reference_date": "44799.0",
+            "reference_text": [
+                {
+                    "value": "유기견을 입양하고 싶다고 무작정 센터를 방문하기보다는 먼저 홈페이지에서 보호 중인 동물들을 파악해보는 것을 추천한다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "입양된 유기견들이 재유기·파양되는 일을 막기 위해 센터에서는 소정의 신청서를 받는다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "입양자의 이름, 주소 등 신상 정보를 제출해야 하고 미성년자는 단독으로 입양할 수 없다",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kado.net/news/articleView.html?idxno=1141559",
+            "search_query": "유기견 입양 절차",
+            "terminate": false,
+            "text": "유기견 입양을 위해 아무 계획 없이 센터를 방문하지 말고, 먼저 홈페이지에서 보호 중인 동물들을 확인해야 해. 센터에는 소정의 신청서를 받고, 입양자의 이름, 주소 등 신상정보를 제출해야 해. 왜냐하면 입양된 유기견들이 재 유기되거나 파양되는 일을 막기 위해서야. 또한 미성년자는 혼자서 입양할 수는 없어.",
+            "turn_id": "BK22013443-2",
+            "utterance_id": "BK22013443.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유기견 입양을 고려할 때 주의하거나 내가 미리 생각해둬야 할 점은 뭐가 있을까?",
+            "turn_id": "BK22013443-3",
+            "utterance_id": "BK22013443.5"
+        },
+        {
+            "reference_date": "43637.0",
+            "reference_text": [
+                {
+                    "value": "유기견 입양을 고려하고 있다면 아래와 같은 질문에 답을 해보자.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "인내심을 갖고 우리집에 적응할 때까지 기다릴 준비가 되었는가?",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "적응기간은 며칠, 수 주가 아니라 수개월이 될 수 있다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "입양 후 일어나는 건강, 행동 문제를 내가 책임져야 한다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "모든 가족이 같은 마음인가?",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/33672/",
+            "search_query": "유기견 입양 주의점",
+            "terminate": false,
+            "text": "유기견 입양을 고려한다면 이 질문에 대답을 해봐야 해. 첫째로 적응 기간은 며칠 혹은 수 주가 아니라 수개월이 될 수도 있으니 인내심을 가지고 우리 집에 적응할 때까지 내가 기다려 줄 수 있을지, 둘째로 입양 후에 건강, 행동 문제는 내가 책임질 수 있는지, 셋째로 우리 가족 모두가 입양에 대해 같은 의견인지 생각해봐야 해.",
+            "turn_id": "BK22013443-3",
+            "utterance_id": "BK22013443.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가족과도 상의해야 하고, 단단한 마음가짐을 가지고 유기견을 입양해야겠구나.",
+            "turn_id": "BK22013443-4",
+            "utterance_id": "BK22013443.7"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "재 파양 된다면, 강아지에게는 더 큰 상처가 되니, 고려할 점을 잘 고민해보고 결정해.",
+            "turn_id": "BK22013443-4",
+            "utterance_id": "BK22013443.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럴게. 강아지를 분양받을 때는, 어떤 강아지를 데리고 와야 하는지 알려줄 수 있어?",
+            "turn_id": "BK22013443-5",
+            "utterance_id": "BK22013443.9"
+        },
+        {
+            "reference_date": "44102.0",
+            "reference_text": [
+                {
+                    "value": "•반려견을 분양 받을때는 40~50일 정도의 강아지가 적합하다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이보다 나이가 많은 강아지는 배변훈련과 환경에 적응하는데 좀 더 시간이 걸린다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "•분양 받을 때는 예방접종 여부, 건강상태, 성격특징, 털빠짐의 정도 등 종의 특성을 미리 파악해 자신과 맞는지를 살펴보는 것이 좋다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.seniormaeil.com/news/articleView.html?idxno=24489",
+            "search_query": "반려견 분양 방법",
+            "terminate": false,
+            "text": "강아지를 입양할 때는 40~50일 정도 된 강아지가 좋아. 이보다 나이가 많은 강아지는 환경과 배변 훈련에 적응하는 데 시간이 더 오래 걸리기 때문이야. 또 예방접종 여부와 건강 상태, 성격 특징, 털 빠짐의 정도 등의 강아지 종 특성을 미리 알고 나와 맞는지 살펴봐야 해.",
+            "turn_id": "BK22013443-5",
+            "utterance_id": "BK22013443.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지 입양 고려 시에 알고 있어야 할 점이 뭐가 있을까?",
+            "turn_id": "BK22013443-6",
+            "utterance_id": "BK22013443.11"
+        },
+        {
+            "reference_date": "44735.0",
+            "reference_text": [
+                {
+                    "value": "그러니 강아지 입양을 고려할 때에는 강아지와 함께 할 시간이 충분한지도 확인해야 합니다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "강아지가 아프면 심리적으로도 힘든 건 물론이고 비용적으로도 많이 부담이 될 수 있다는 걸 꼭 알아둬야 합니다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "강아지 평균 수명은 10~13년 정도이며 20년까지 사는 경우도 있어요.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "강아지 입양을 고려하고 있다면, 이 시간동안 끝까지 함께 해야 한다는 것도 명심해야 합니다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/122110/",
+            "search_query": "강아지 입양 준비",
+            "terminate": false,
+            "text": "강아지와 함께 할 시간이 충분한지 확인해야 하고, 강아지가 아프면 마음도 아프지만 비용도 많이 부담될 수 있다는 걸 알아둬야 해. 강아지 평균 수명이 10~13년 정도지만 20년까지도 사는 경우도 있으니, 이 시간 동안 끝까지 나와 함께 해야 한다는 것도 유념해야 해.",
+            "turn_id": "BK22013443-6",
+            "utterance_id": "BK22013443.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지 입양 시 준비물은 어떤 게 있어?",
+            "turn_id": "BK22013443-7",
+            "utterance_id": "BK22013443.13"
+        },
+        {
+            "reference_date": "43579.0",
+            "reference_text": [
+                {
+                    "value": "쾌적한 식생활을 위하여 강아지에게 맞는 식기를 준비해야 한다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "식기를 샀다면 이제 식기를 채워놓을 수 있는 사료를 사야 한다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "산책을 위해서는 목줄 혹은 가슴줄이 필수다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "강아지도 집안에서 편하게 쉴 수 있는 공간이 필요하다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "강이지 집은 너무 커도, 너무 작아도 안된다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/27059/",
+            "search_query": "강아지 입양 준비물",
+            "terminate": false,
+            "text": "강아지의 쾌적한 식생활을 위해 알맞은 식기를 준비하고, 식기를 채워 놓을 사료를 구입해야 해. 또 산책을 위한 목줄 혹은 가슴 줄의 준비는 필수야. 그리고 강아지가 우리 집에서 편하게 쉴 수 있는 공간으로 너무 크지도, 작지도 않은 크기의 집을 준비해야 해.",
+            "turn_id": "BK22013443-7",
+            "utterance_id": "BK22013443.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지 사료를 고를 때 따져봐야 할 게 있으면 알려줄래?",
+            "turn_id": "BK22013443-8",
+            "utterance_id": "BK22013443.15"
+        },
+        {
+            "reference_date": "44728.0",
+            "reference_text": [
+                {
+                    "value": "사료의 단백질 함량을 높이기 위해 살코기 외에도 육류 부산물(뼈, 내장) 및 곡물, 곡물 부산물이 들어가게 되는데요.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이런 재료가 무조건 나쁜 건 아니지만 주의해야 할 필요는 있어요.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "화학 첨가물이 들어가 있진 않은지 확인해 주세요.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그중 강아지에게 알레르기를 유발할 수 있는 성분이 들어갔는지 확인해 주세요.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/121237/",
+            "search_query": "강야지 사료 고르는 법",
+            "terminate": false,
+            "text": "사료에 단백질 함량을 높이려고 살코기 말고도 육류, 뼈, 내장과 곡물, 또 곡물의 부산물이 들어가는데, 이 재료들이 다 나쁘다고 할 순 없지만, 주의는 해야 해. 또 화학 첨가물이 들어갔는지, 강아지에게 알레르기가 생길만한 성분이 들어가 있는지도 따져봐야 해.",
+            "turn_id": "BK22013443-8",
+            "utterance_id": "BK22013443.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사료와 함께 간식도 준비해 둬야겠어. 강아지 간식은 어떤 게 있을까?",
+            "turn_id": "BK22013443-9",
+            "utterance_id": "BK22013443.17"
+        },
+        {
+            "reference_date": "44712.0",
+            "reference_text": [
+                {
+                    "value": "강아지가 씹고 뜯고 맛볼 수 있는 개껌! 강아지 스트레스 해소에 좋은 간식입니다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "간식으로 강아지 캔이나 미역국, 북엇국 등의 팩 제품을 주는 것도 좋아요.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/118477/",
+            "search_query": "강아지 간식",
+            "terminate": false,
+            "text": "개껌은 강아지가 씹고 뜯고 맛볼 수 있고, 스트레스 해소에 좋은 간식이야. 또 강아지 캔, 미역국, 북엇국 등의 팩 간식을 주는 것도 좋아.",
+            "turn_id": "BK22013443-9",
+            "utterance_id": "BK22013443.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알려줘서 많이 도움이 되었어. 나와 가족이 된다는 마음으로 반려견을 입양할게.",
+            "turn_id": "BK22013443-10",
+            "utterance_id": "BK22013443.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "반려견을 입양해서 좋은 가족이 되길 바랄게.",
+            "turn_id": "BK22013443-10",
+            "utterance_id": "BK22013443.20"
+        }
+    ]
+}

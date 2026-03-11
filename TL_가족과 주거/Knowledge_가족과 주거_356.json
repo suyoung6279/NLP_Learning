@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015200",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015200",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지를 데려오고 싶은데 비용이 많이 든다고 해서 고민이에요. 강아지를 키울 때 비용이 얼마나 많이 드나요?",
+            "turn_id": "BK22015200-1",
+            "utterance_id": "BK22015200.1"
+        },
+        {
+            "reference_date": "2020-09-27",
+            "reference_text": [
+                {
+                    "value": "KB연구소 조사(2018년 기준)에 따르면 반려견 한 마리를 키우는데 매달 지출하는 비용은 10만3000원, 고양이는 7만8000원이었다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2020092709474249329",
+            "search_query": "강아지 키울 때 비용",
+            "terminate": false,
+            "text": "KB연구소에서 조사했는데, 반려견 한 마리를 키울 때 매달 10만 3천원을 지출하는 걸로 조사됐어요. 고양이는 7만 8천원을 매달 사용하고요.",
+            "turn_id": "BK22015200-1",
+            "utterance_id": "BK22015200.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "매달 10만원을 쓴다고 생각하고 데려와야겠네요. 강아지 밥값은 얼마인지 궁금해요.",
+            "turn_id": "BK22015200-2",
+            "utterance_id": "BK22015200.3"
+        },
+        {
+            "reference_date": "2020-09-27",
+            "reference_text": [
+                {
+                    "value": "밥(사료)도 먹어야 한다. 사료 가격은 1.2kg 기준 1만5000원~2만5000원 정도.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사람이 밥만 먹진 않는 것처럼, 반려견에게도 사료 외 간식이 중요한 생활 중 하나다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2020092709474249329",
+            "search_query": "강아지 사료 비용",
+            "terminate": false,
+            "text": "강아지 사료는 보통 1.2kg 기준에 만 5천원에서 2만 5천원 정도의 가격이에요. 게다가 간식비용은 따로 들죠.",
+            "turn_id": "BK22015200-2",
+            "utterance_id": "BK22015200.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사료 가격도 만만치 않군요. 강아지 비용 중에 가장 걱정되는 건 병원비인데 병원비는 얼마가 드나요?",
+            "turn_id": "BK22015200-3",
+            "utterance_id": "BK22015200.5"
+        },
+        {
+            "reference_date": "2020-09-27",
+            "reference_text": [
+                {
+                    "value": "태어나서 죽을 때까지, 반려견 생애 들어갈 병원비는 보통 1000만원 정도다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "예방접종은 기본이고, 감기 한 번 걸려도 사람 진료비보다 대개 더 비싸다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2020092709474249329",
+            "search_query": "강아지 병원비 비용",
+            "terminate": false,
+            "text": "보통 태어나서 죽을 때까지 강아지 병원비가 천만원이 들어요. 예방접종도 해야 하고 감기에만 걸려도 사람 진료비보다 비싸거든요.",
+            "turn_id": "BK22015200-3",
+            "utterance_id": "BK22015200.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "보통 1000만원의 병원비가 드는군요. 강아지를 데려오면 바로 예방접종을 해야 한다고 하던데 예방접종 시기는 언제인가요?",
+            "turn_id": "BK22015200-4",
+            "utterance_id": "BK22015200.7"
+        },
+        {
+            "reference_date": "2018-10-17",
+            "reference_text": [
+                {
+                    "value": "특히 강아지가 태어나고 생후 6주에서 8주의 시기는 예방 접종 최적의 시기다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이때는 종합 백신, 코로나 장염, 인플루엔자, 광견병 등을 예방하기에 적합하다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.e2news.com/news/articleView.html?idxno=203322",
+            "search_query": "강아지 예방접종 시기",
+            "terminate": false,
+            "text": "강아지는 생후 6주에서 8주가 될 때까지 예방접종을 하면 돼요. 종합백신과 코로나장염, 인플루엔자, 광견병 등의 예방접종이 필요하죠.",
+            "turn_id": "BK22015200-4",
+            "utterance_id": "BK22015200.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "6주에서 8주 사이에 병원을 가면 되겠네요. 강아지의 병원비가 1000만원이나 든다고 하셨는데 강아지는 어떤 질병에 잘 걸리는지 궁금하네요.",
+            "turn_id": "BK22015200-5",
+            "utterance_id": "BK22015200.9"
+        },
+        {
+            "reference_date": "2022-09-01",
+            "reference_text": [
+                {
+                    "value": "대표적인 질환으로는 먼저, 완치가 어렵고 재발 가능성이 높은 신장 질환이 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "식이 관리를 잘못해 발병할 수 있는 질환에는 췌장염도 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "최근 반려견의 고령화로 심장병을 앓는 반려견 수도 늘고 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "마지막으로 관절 질환이 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisamagazine.co.kr/news/articleView.html?idxno=461811",
+            "search_query": "강아지 질병",
+            "terminate": false,
+            "text": "강아지는 신장질환에 잘 걸려요. 완치가 어렵고 재발 가능성도 있죠. 그리고 식이 관리를 잘 못하면 췌장염에 걸릴 수 있고, 관절 질환도 흔해요. 반려견의 수명이 길어지면서 심장병도 많이 발병하죠.",
+            "turn_id": "BK22015200-5",
+            "utterance_id": "BK22015200.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 심각한 질병에 많이 걸리는군요. 펫 보험이 있다던데 그걸로는 병원비를 좀 절약할 수 없을까요?",
+            "turn_id": "BK22015200-6",
+            "utterance_id": "BK22015200.11"
+        },
+        {
+            "reference_date": "2022-10-07",
+            "reference_text": [
+                {
+                    "value": "펫보험은 반려견, 반려묘가 사고로 다치거나 질병에 걸려 치료가 필요할 때 도움을 받을 수 있는 방법이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "평상시 진료비에 대해서는 1일 한도까지 보장이 가능하고, 수술로 높은 의료비가 발생할 것에 대비해 수술시에는 한도를 높일 수 있는 장치도 마련했다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20221007000142",
+            "search_query": "펫보험 보장",
+            "terminate": false,
+            "text": "펫보험은 사고나 질병에 걸렸을 때 도움을 받을 수 있어요. 평상시 진료비는 1일 한도 내에서 보장되고 수술 처럼 높은 비용의 의료비가 발생하면 한도를 높일 수도 있어요.",
+            "turn_id": "BK22015200-6",
+            "utterance_id": "BK22015200.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1일 한도 내에서 보장받을 수 있다니 좋네요. 펫 보험을 들기 전에 확인해야 하는게 있을까요?",
+            "turn_id": "BK22015200-7",
+            "utterance_id": "BK22015200.13"
+        },
+        {
+            "reference_date": "2019-03-30",
+            "reference_text": [
+                {
+                    "value": "그럼에도 불구하고 펫보험을 가입할 때에는 사람 보험과 마찬가지로 보장 기간, 갱신주기, 보장내용 및 횟수 등을 꼼꼼히 따져볼 필요가 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 우리나라는 소형견을 키우는 경우가 많은 만큼 슬개골, 고관절 질환 등을 기본적으로 보장하는지 등의 약관을 따져 자신의 반려동물에게 딱 맞는 보험을 가입하는 것이 현명하다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etoday.co.kr/news/view/1739749",
+            "search_query": "펫보험 가입 주의",
+            "terminate": false,
+            "text": "펫 보험을 가입하기 전에는 보장기간, 갱신주기, 보장내용, 횟수를 따져보고 가입해야 해요. 우리나라는 소형견이 많아 슬개골과 고관절 질환이 흔한데, 이 질병들을 보장하는지 등을 따져서 반려견에게 맞는 보험을 찾는게 좋죠.",
+            "turn_id": "BK22015200-7",
+            "utterance_id": "BK22015200.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사람 보험을 들 때랑 똑같네요. 강아지를 키우게 되면 하나 들어놓고 싶은데 펫보험은 얼마나 비싼지 궁금해요.",
+            "turn_id": "BK22015200-8",
+            "utterance_id": "BK22015200.15"
+        },
+        {
+            "reference_date": "2022-03-31",
+            "reference_text": [
+                {
+                    "value": "보험사마다 보험금 산정 방법이 조금씩 다르기 때문에 자기부담금과 한도 등에 유의해야 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "평균적으로 반려동물 보험료는 월 3~5만원 수준이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.womentimes.co.kr/news/articleView.html?idxno=55945",
+            "search_query": "펫보험 보험료 월 평균",
+            "terminate": false,
+            "text": "펫보험은 보험사마다 비용이 달라요. 자기부담금이나 한도 등을 알아봐야 하는데 평균적으로는 월 3만원에서 5만원 정도의 보험료에요.",
+            "turn_id": "BK22015200-8",
+            "utterance_id": "BK22015200.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엄청 비쌀 줄 알았더니 생각보다 비싸지 않군요.",
+            "turn_id": "BK22015200-9",
+            "utterance_id": "BK22015200.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지를 데려오시면 보험사마다 보장내용이 다르니 잘 비교해보고 가입하셔야 해요.",
+            "turn_id": "BK22015200-9",
+            "utterance_id": "BK22015200.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래야겠네요. 덕분에 강아지 키울 때 들어가는 비용과 보험료에 대해 자세히 알게 되었어요.",
+            "turn_id": "BK22015200-10",
+            "utterance_id": "BK22015200.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 다행이네요. 그럼 다음에도 궁금한 게 있으시면 언제든지 말씀 주세요.",
+            "turn_id": "BK22015200-10",
+            "utterance_id": "BK22015200.20"
+        }
+    ]
+}

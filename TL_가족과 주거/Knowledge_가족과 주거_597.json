@@ -1,0 +1,372 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015845",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015845",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나 이번에 분양 받은 아파트가 곧 입주거든. 아파트 사전 점검 하라고 연락이 왔는데 너 사전점검 해본 적 있어?",
+            "turn_id": "BK22015845-1",
+            "utterance_id": "BK22015845.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "원래 새 아파트는 입주 전에 사전점검하지. 나도 지금 살고 있는 아파트 사전점검 했었어.",
+            "turn_id": "BK22015845-1",
+            "utterance_id": "BK22015845.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 , 그럼 너한테 좀 물어봐야겠다. 점검 하러갈 때 챙겨야 할 준비물 같은 거 있을까?",
+            "turn_id": "BK22015845-2",
+            "utterance_id": "BK22015845.3"
+        },
+        {
+            "reference_date": "2015-02-11",
+            "reference_text": [
+                {
+                    "value": "계약자 본인이 참석할 경우 신분증 또는 계약서가 필요하며 대리인이 참석할 경우 계약자와 대리인의 신분증과 위임장을 챙겨야 한다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하자점검을 보다 꼼꼼하게 하기 위해서는 분양 카탈로그, 줄자, 메모지, 장갑 등을 챙기면 좋다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yeongnam.com/web/view.php?key=20150211.010180759480001",
+            "search_query": "아파트 사전점검 준비물",
+            "terminate": false,
+            "text": "계약자가 직접 방문하면 신분증이나 계약서 가지고 가면 되고, 대리인이 가게 되면 계약자랑 대리인 신분증이랑 위임장이 있어야 돼. 하자점검을 꼼꼼히 하려면 분양 카달로그랑 줄자, 메모지나 장갑도 챙기면 좋고.",
+            "turn_id": "BK22015845-2",
+            "utterance_id": "BK22015845.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇구나. 그런데 줄자랑 메모지는 왜 가지고 가면 좋은거야?",
+            "turn_id": "BK22015845-3",
+            "utterance_id": "BK22015845.5"
+        },
+        {
+            "reference_date": "2018-08-11",
+            "reference_text": [
+                {
+                    "value": "줄자는 카탈로그와 집의 구도 도면에 나와있는 치수를 확인할 수 있고 방에 맞는 가구나 전자제품을 구입할 때 유용하다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "마지막으로 접착식 메모지과 펜을 하자표시용으로 가지고 가자.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하자 발생 부위에 지적사항을 적어 붙여 놓은 뒤 사진을 찍어주면 추후에 문제가 발생 시 증빙자료로도 쓰일 수 있다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.it-b.co.kr/news/articleView.html?idxno=23404",
+            "search_query": "사전점검 줄자 메모지",
+            "terminate": false,
+            "text": "줄자를 가져가면 카탈로그나 집 구조 도면에 있는 치수를 직접 확인해볼 수 도 있고, 방에 놓을 가구나 전자제품을 구입할 때 확인하기도 유용하지. 그리고 메모지는 접착식 메모지 가져가면 되는데, 하자가 있는 곳에 내용을 적어서 붙여 놓고 사진을 찍어주면 나중에 문제가 생겼을 때 증빙자료로 활용할 수가 있어.",
+            "turn_id": "BK22015845-3",
+            "utterance_id": "BK22015845.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오호, 그러고 보니 필요하겠네. 사전 점검은 어떤 절차로 진행되는거야?",
+            "turn_id": "BK22015845-4",
+            "utterance_id": "BK22015845.7"
+        },
+        {
+            "reference_date": "2014-08-18",
+            "reference_text": [
+                {
+                    "value": "사전점검 절차는 입주현장에 도착해서 입주자임을 확인한 후 점검표 작성 및 하자보수와 관련된 안내를 받게 된다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "세대 점검표 수령 후 계약 세대로 이동한 뒤 하자 여부를 체크하고 사업시행자에게 점검표를 제출하게 된다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ggilbo.com/news/articleView.html?idxno=191020",
+            "search_query": "사전점검 절차",
+            "terminate": false,
+            "text": "사전점검은 우선 입주현장에 도착을 하면 입주자 신분을 확인하게 되고, 그 후 점검표 작성 방법과 하자보수에 대한 안내를 받게 돼. 그리고 세대별 점검표를 받아서 계약한 집으로 이동해 하자를 체크하고 체크한 점검표를 사업시행자에게 제출하면 돼.",
+            "turn_id": "BK22015845-4",
+            "utterance_id": "BK22015845.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "점검표가 따로 있나보구나. 그럼, 사전 점검하러 가서 어떤 것들을 주로 점검해봐야 하는 거야?",
+            "turn_id": "BK22015845-5",
+            "utterance_id": "BK22015845.9"
+        },
+        {
+            "reference_date": "2014-09-01",
+            "reference_text": [
+                {
+                    "value": "주로 점검해야 할 사항은 거실과 방·주방·현관·발코니·욕실 등 아파트 내부의 창호와 바닥·전기 배선 등이다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yeongnam.com/web/view.php?key=20140901.010210742540001",
+            "search_query": "사전점검 점검해야할 사항",
+            "terminate": false,
+            "text": "사전점검을 가면 거실, 방과 주방, 현관, 발코니, 욕실 등 아파트 내부 창호와 바닥, 전기 배선들을 점검해봐야 해.",
+            "turn_id": "BK22015845-5",
+            "utterance_id": "BK22015845.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전반적으로 다 체크를 해봐야하네. 그런데 현관은 뭘 확인해 봐야하는거야?",
+            "turn_id": "BK22015845-6",
+            "utterance_id": "BK22015845.11"
+        },
+        {
+            "reference_date": "2015-08-03",
+            "reference_text": [
+                {
+                    "value": "우선 아파트 현관을 열고 들어서면서 현관문의 열고 닫힘 상태를 살펴야 한다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다음으로 신발을 벗고 발을 딛는 대리석의 턱진 부분을 확인해야 한다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "마감 막바지 공사에서 자재 반입 등의 과정에서 자칫 대리석의 가장자리가 파손되기 쉽기 때문이다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatoday.co.kr/view.php?key=20150803010000550",
+            "search_query": "사전점검 현관",
+            "terminate": false,
+            "text": "먼저 현관문을 열고 들어갈 때 현관문의 열림, 닫힘 상태를 확인 해봐야지. 그리고 신발을 벗어 발을 딛는 대리석에 턱진 부분을 잘 봐야 하는데, 그 부분이 마지막 마감 때 자재를 반입하거나 하는 과정에 대리석 가장자리가 쉽게 파손될 수 있거든.",
+            "turn_id": "BK22015845-6",
+            "utterance_id": "BK22015845.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럴 수 있겠다. 거실을 점검할 때는 어떤 걸 중점적으로 확인해 봐야할까?",
+            "turn_id": "BK22015845-7",
+            "utterance_id": "BK22015845.13"
+        },
+        {
+            "reference_date": "2017-12-15",
+            "reference_text": [
+                {
+                    "value": "거실에서는 콘센트, 스위치, 등기구 위치 등을 확인해야한다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "천장과 벽의 마감상태, 창문과 거실 문의 수평 개폐 상황, 도배·마루 상태, 거실장 가구 상태 등도 눈여겨 보자.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatoday.co.kr/view.php?key=20171215010007714",
+            "search_query": "사전점검 거실",
+            "terminate": false,
+            "text": "거실은 콘센트와 스위치, 등기구 위치 같은 걸 확인해봐야 하고 천정과 벽의 마감이나 창문, 거실문의 수평 여닫임 상태, 도배나 마루의 상태 그리고 거실장 가구의 상태를 모두 확인해 봐야 해.",
+            "turn_id": "BK22015845-7",
+            "utterance_id": "BK22015845.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "거실은 볼 게 가장 많은 거 아닐까 싶네. 발코니는 요즘 거의 기본으로 확장을 하잖아. 확장 발코니도 확인해야할 사항이 있어?",
+            "turn_id": "BK22015845-8",
+            "utterance_id": "BK22015845.15"
+        },
+        {
+            "reference_date": "2014-05-27",
+            "reference_text": [
+                {
+                    "value": "발코니 창문을 챙기는 것도 필수다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "발코니의 높이와 용접 상태를 살펴보고 고정이 잘 됐는 지도 체크한다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 발코니창이 수직 수평으로 잘 설치됐는지와 휨 현상은 없는 지도 따져봐야 한다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/014/0003169083?sid=101",
+            "search_query": "사전점검 발코니",
+            "terminate": false,
+            "text": "발코니는 창문을 주로 점검해 봐야하는데 발코니 높이와 용접 상태를 확인해봐야하고 고정이 잘 되어있는지도 체크를 해보면 좋아. 그리고 발코니창이 수직과 수평으로 잘 설치가 되어있는지, 휜 부분은 없는지도 꼭 확인해봐야 하고.",
+            "turn_id": "BK22015845-8",
+            "utterance_id": "BK22015845.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그러고 보니 발코니 휜 거는 꼭 체크를 해야 할 부분이겠네. 주방은 점검가면 가장 꼼꼼히 봐야 하지 않을까 싶긴 한데, 어떤 걸 신경 써서 점검해야 해?",
+            "turn_id": "BK22015845-9",
+            "utterance_id": "BK22015845.17"
+        },
+        {
+            "reference_date": "2022-05-07",
+            "reference_text": [
+                {
+                    "value": "주방의 경우 싱크대와 서랍 설치 상태와 가스렌즈 후드 작동 여부 및 연결 상태 등을 확인해야 합니다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 ▲주방 타일 파손 및 오염 ▲음식물처리기·식기세척기 등 빌트인 주방가전 작동 여부 ▲수도꼭지 누수 등도 점검 대상입니다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/003/0011169042?sid=101",
+            "search_query": "사전점검 주방",
+            "terminate": false,
+            "text": "주방에서는 싱크대와 서랍의 설치 상태나 가스렌즈, 후드가 잘 작동을 하는지 연결은 잘 되어있는지 확인을 해보면 되고 주방에 타일이 파손이나 오염된 부분은 없는지도 봐야 해. 그리고 음식물처리기나 식기세척기 같은 빌트인 가전이 있으면 작동이 잘 되는지 확인해 보면 좋지. 수도꼭지에 누수도 필수로 확인해 봐야 해.",
+            "turn_id": "BK22015845-9",
+            "utterance_id": "BK22015845.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "빌트인 가전도 한 번씩 다 작동해 보고 와야겠네. 너한테 안 물어보고 갔으면 겉만 대충 보고 왔을 것 같아. 정말 고맙다.",
+            "turn_id": "BK22015845-10",
+            "utterance_id": "BK22015845.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 내가 얘기한 거 잘 기억해서 꼼꼼히 잘 체크하고 와.",
+            "turn_id": "BK22015845-10",
+            "utterance_id": "BK22015845.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 내가 다녀와서 또 연락할게.",
+            "turn_id": "BK22015845-11",
+            "utterance_id": "BK22015845.21"
+        }
+    ]
+}

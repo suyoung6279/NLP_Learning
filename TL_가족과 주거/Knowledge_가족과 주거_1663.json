@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011993",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011993",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0018"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 제가 임신 준비 중인데, 처음이라 그런지 모르는 게 많네요. 만약 임신하게 되면 언제부터 임신 증상이 나타나게 되나요?",
+            "turn_id": "BK22011993-1",
+            "utterance_id": "BK22011993.1"
+        },
+        {
+            "reference_date": "2019-11-25",
+            "reference_text": [
+                {
+                    "value": "임신 초기증상 나타나는 시기는 임신 4주 차 증상으로, 예민한 여성은 임신 2~3주 차 증상을 느끼기도 한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=752512",
+            "search_query": "임신초기증상 나타나는시기",
+            "terminate": false,
+            "text": "보통 임신 4주 차가 되면 임신 초기증상을 느끼게 되는데요. 예민한 여성이라면 임신 2~3주 차에도 증상을 느낀답니다.",
+            "turn_id": "BK22011993-1",
+            "utterance_id": "BK22011993.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 임신했을 때 어떤 증상들이 나타나는지 궁금한데, 임신 2~3주차가 되면 몸에 어떤 변화가 생기나요?",
+            "turn_id": "BK22011993-2",
+            "utterance_id": "BK22011993.3"
+        },
+        {
+            "reference_date": "2019-11-25",
+            "reference_text": [
+                {
+                    "value": "이어 임신 2주 차 증상은 임신 호르몬인 에스트로겐이 증가해 쉽게 피로해지고 온몸이 나른해진다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "임신 3주 차 증상은 임신 초기 가슴 통증과 몸살감기 증상을 느낀다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=752512",
+            "search_query": "임신 2주 차 증상",
+            "terminate": false,
+            "text": "임신 2주 차에는 에스트로겐이라고 하는 임신 호르몬 때문에 쉽게 피곤을 느끼고 온몸이 나른해져요. 임신 3주 차에는 가슴 통증과 함께 몸살감기 증상을 느끼게 된답니다.",
+            "turn_id": "BK22011993-2",
+            "utterance_id": "BK22011993.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "몸이 나른하고 피곤한 거면 정말 몸살이랑 비슷하네요. 그럼 입덧이 시작되는 시기가 언제인가요?",
+            "turn_id": "BK22011993-3",
+            "utterance_id": "BK22011993.5"
+        },
+        {
+            "reference_date": "2019-11-25",
+            "reference_text": [
+                {
+                    "value": "임신 5주 차 증상은 입덧 시기로, 임신 4~5개월쯤 되면 입덧 증상이 사라진다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=752512",
+            "search_query": "임신 5주 증상 입덧",
+            "terminate": false,
+            "text": "입덧은 보통 5주 차에 나타나는데, 임신 4~5개월 정도 되면 입덧 증상은 사라지게 돼요.",
+            "turn_id": "BK22011993-3",
+            "utterance_id": "BK22011993.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신 중기까지 입덧을 할 수 있겠네요. 그런데 요즘 미열이 있는 것 같은데, 미열도 임신 증상 중 하나인가요?",
+            "turn_id": "BK22011993-4",
+            "utterance_id": "BK22011993.7"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "평소와 달리 미열이 지속되고 피로감을 자주 느끼는 경우도 임신 초기 증상이다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sportsworldi.com/newsView/20220904518130",
+            "search_query": "임신 초기증상 미열",
+            "terminate": false,
+            "text": "네, 평소와 다르게 미열이 계속되고 피로감을 느끼는 것은 임신 초기 증상 중 하나예요.",
+            "turn_id": "BK22011993-4",
+            "utterance_id": "BK22011993.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "미열도 임신 증상 중 하나군요. 열은 어딘가 몸에 이상이 있거나 염증이 있을 때 나는 걸로 알고 있었는데, 임신하면 왜 미열이 나는 거죠?",
+            "turn_id": "BK22011993-5",
+            "utterance_id": "BK22011993.9"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "임 웑아에 따르면 원래 배란을 하면 황체에서 여성호르몬의 하나인 프로게스테론이 분비되면서 체온이 상승하고, 생리가 시작돼 황체가 퇴화하면 프로게스테론 분비가 줄어 체온이 내려간다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 임신을 하면 황체가 일정 기간 퇴화하지 않기 때문에 기초 체온이 높은 상태가 지속된다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sportsworldi.com/newsView/20220904518130",
+            "search_query": "임신 황체 퇴화 미열",
+            "terminate": false,
+            "text": "배란을 하면 황체에서 프로게스테론이라는 여성 호르몬이 분비되면서 체온이 올라가는데요. 생리를 시작하면 황체가 퇴화되고 프로게스테론의 분비가 줄어들면서 체온이 내려가게 돼요. 그렇지만 임신하면 일정 기간 동안 황체가 퇴화되지 않으므로 기초 체온이 계속 높게 유지되는 거죠.",
+            "turn_id": "BK22011993-5",
+            "utterance_id": "BK22011993.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "호르몬 때문에 미열이 생길 수 있다는 걸 처음 알았네요. 저희 언니는 임신했을 때 두통 때문에 고생하던데, 임신하면 왜 두통이 생기는 걸까요?",
+            "turn_id": "BK22011993-6",
+            "utterance_id": "BK22011993.11"
+        },
+        {
+            "reference_date": "2015-09-08",
+            "reference_text": [
+                {
+                    "value": "A. 부종, 입덧으로 인해 앞머리나 옆머리가 흔들리는 것처럼 아플 수 있어요.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107882",
+            "search_query": "임신증상 두통",
+            "terminate": false,
+            "text": "입덧이나 부종으로 인하여 앞머리 혹은 옆머리가 흔들리는 것처럼 두통이 생길 수 있어요.",
+            "turn_id": "BK22011993-6",
+            "utterance_id": "BK22011993.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 몸이 붓게 되면서 두통도 발생하는군요. 그런데 임산부는 두통약도 함부로 못 먹지 않나요?",
+            "turn_id": "BK22011993-7",
+            "utterance_id": "BK22011993.13"
+        },
+        {
+            "reference_date": "2019-05-14",
+            "reference_text": [
+                {
+                    "value": "덕분에 위장이 약한 사람도 마음 편히 복용할 수 있으며, 임산부나 영·유아도 복용이 가능하다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "해열 진통제의 경우 참기 힘든 통증이 있을 때 즉각적으로 사용할 수 있다는 장점이 있다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dtnews24.com/news/articleView.html?idxno=547499",
+            "search_query": "임산부 두통약",
+            "terminate": false,
+            "text": "해열진통제는 임산부나 영유아도 복용이 가능하기 때문에, 참기 힘든 통증이 있다면 해열진통제를 복용해도 된답니다.",
+            "turn_id": "BK22011993-7",
+            "utterance_id": "BK22011993.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신 중에도 해열진통제는 먹을 수 있군요. 제가 요즘 화장실도 부쩍 자주 가는데 임신하면 화장실도 자주 가게 되나요?",
+            "turn_id": "BK22011993-8",
+            "utterance_id": "BK22011993.15"
+        },
+        {
+            "reference_date": "2022-06-17",
+            "reference_text": [
+                {
+                    "value": "평소보다 소변을 자주 보기도 한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "자궁이 커지면서 바로 앞에 있는 방광을 누르기 때문이다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000707904",
+            "search_query": "임신 증상 잦은 배뇨",
+            "terminate": false,
+            "text": "임신하면 자궁이 커지면서 바로 앞의 방광을 누르기 때문에 평소보다 자주 소변을 보기도 해요.",
+            "turn_id": "BK22011993-8",
+            "utterance_id": "BK22011993.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 요즘 미열도 있고 화장실도 자주 가는데, 요즘 나타나는 증상이 임신 초기 증상과 비슷한 것 같아요.",
+            "turn_id": "BK22011993-9",
+            "utterance_id": "BK22011993.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "말씀하신 증상들은 임신이 아니더라도 나타날 수 있는 증상들이니, 생리 예정일이 지나도 생리를 안 하는지를 꼭 확인해 보세요.",
+            "turn_id": "BK22011993-9",
+            "utterance_id": "BK22011993.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번 달 생리 예정일까지 기다려보고 늦어지면 병원에 가봐야겠네요. 오늘 유익한 정보 주셔서 감사했어요. 전 그럼 이만 가볼게요.",
+            "turn_id": "BK22011993-10",
+            "utterance_id": "BK22011993.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네. 임신이 아니더라도 너무 실망하지 마시고 편한 마음으로 기다려 주세요. 그럼 다음에 또 대화 나눠요. 안녕히 가세요.",
+            "turn_id": "BK22011993-10",
+            "utterance_id": "BK22011993.20"
+        }
+    ]
+}

@@ -1,0 +1,353 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003737",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003737",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 우리 집 둘째가 아파서 온종일 정신이 없네.",
+            "turn_id": "BK22003737-1",
+            "utterance_id": "BK22003737.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "에구, 병원은 가봤어? 요즘 폐렴이 유행이라던데 별일 없길 바라.",
+            "turn_id": "BK22003737-1",
+            "utterance_id": "BK22003737.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안 그래도 숨소리가 심상치 않길래 병원에 갔더니 폐렴일 수도 있대. 너무 당황스러워.",
+            "turn_id": "BK22003737-2",
+            "utterance_id": "BK22003737.3"
+        },
+        {
+            "reference_date": "2019-10-11",
+            "reference_text": [
+                {
+                    "value": "폐렴 진단에는 흉부 엑스레이와 혈액검사가 활용된다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.rapportian.com/news/articleView.html?idxno=120587",
+            "search_query": "폐렴 흉부엑스레이",
+            "terminate": false,
+            "text": "그럼 아직 확실하지 않은 거야? 폐렴 여부는 흉부 엑스레이와 혈액검사를 통해 진단할 수 있어. 우선 엑스레이 촬영을 해보는 게 어때?",
+            "turn_id": "BK22003737-2",
+            "utterance_id": "BK22003737.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇지 않아도 엑스레이를 찍었어야 했는데 기계가 고장이 나서 못 했어. 감기 걸릴 때마다 기침 증상이 잦다고 했더니 소아천식일 수도 있다고 하는데, 구체적으로 소아 천식 증상이 어떻게 돼?",
+            "turn_id": "BK22003737-3",
+            "utterance_id": "BK22003737.5"
+        },
+        {
+            "reference_date": "2021-04-08",
+            "reference_text": [
+                {
+                    "value": "가장 흔한 증상은 반복되는 기침 또는 간헐적으로 발생하는 기침이다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.rapportian.com/news/articleView.html?idxno=133310",
+            "search_query": "소아 천식 증상",
+            "terminate": false,
+            "text": "혹시 기침을 반복하거나 기침이 간헐적으로 나타나니? 이러한 증상이 소아 천식에서 가장 흔하거든.",
+            "turn_id": "BK22003737-3",
+            "utterance_id": "BK22003737.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 기침이 심하긴 한데 걱정이네. 우리나라에 소아천식이 흔해?",
+            "turn_id": "BK22003737-4",
+            "utterance_id": "BK22003737.7"
+        },
+        {
+            "reference_date": "2022-06-16",
+            "reference_text": [
+                {
+                    "value": "우리나라 소아 천식의 유병률은 5~9% 정도로 많은 아이들에게 생긴다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.koreahealthlog.com/news/articleView.html?idxno=32329",
+            "search_query": "소아 천식 유병률",
+            "terminate": false,
+            "text": "우리나라에 소아천식을 앓는 아이들이 많지. 소아 천식의 유병률은 5퍼센트에서 9퍼센트 정도야.",
+            "turn_id": "BK22003737-4",
+            "utterance_id": "BK22003737.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 적지는 않구나. 사실 아이가 잘 못 먹고 숨소리도 좋지 않아서 입원 권유를 받았는데, 입원할 수 있는 병실을 알아보니 요즘 코로나 재유행 때문에 입원 병실이 없대.",
+            "turn_id": "BK22003737-5",
+            "utterance_id": "BK22003737.9"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 요즘 정말 다시 재유행이구나. 그래서 그냥 집에 돌아온 거야?",
+            "turn_id": "BK22003737-5",
+            "utterance_id": "BK22003737.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 일단 집에서 통원치료하려고. 처방 받은 약 잘 먹이고 네블라이저 구매해서 흡입 치료를 매일 해야 한대. 근데 네블라이저가 뭔지 알아?",
+            "turn_id": "BK22003737-6",
+            "utterance_id": "BK22003737.11"
+        },
+        {
+            "reference_date": "2015-10-14",
+            "reference_text": [
+                {
+                    "value": "네블라이저는 호흡기 치료를 위해 기관지확장제나 흡입용 스테로이드 등의 약물을 수증기 형태로 만들어 연무시켜 코와 입으로 쉽게 흡입될 수 있도록 하는 의료용 기계장치다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.khan.co.kr/bizlife/sk_index.html?cat=view&art_id=201510141732293&sec_id=561801&pt=nv",
+            "search_query": "네블라이저",
+            "terminate": false,
+            "text": "네블라이저를 쓸 일이 없어서 몰랐나 보다. 네블라이저는 기관지 확장제, 흡입용 스테로이드 같은 약물을 수증기 형태로 만들어 연무시켜 코와 입으로 쉽게 흡입될 수 있도록 돕는 의료 장치야. 나도 첫째가 폐렴으로 입원했을 때 병원에서 처음 써봤는데 매일 호흡기 치료를 했더니 금방 나았어.",
+            "turn_id": "BK22003737-6",
+            "utterance_id": "BK22003737.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 우리 둘째도 폐렴 증상이 있어서 처방해주셨나 보다. 네블라이저는 주로 어떤 증상에 쓰이는 거야?",
+            "turn_id": "BK22003737-7",
+            "utterance_id": "BK22003737.13"
+        },
+        {
+            "reference_date": "2017-04-24",
+            "reference_text": [
+                {
+                    "value": "네블라이저는 약물을 미세하게 분무해 약물의 효과가 기관지와 허파꽈리까지 잘 전달되기 때문에 천식, 만성폐쇄성 폐질환, 기관지 확장증, 기관지염, 폐렴, 폐기종 등에 사용할 수 있다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ikunkang.com/news/articleView.html?idxno=21533",
+            "search_query": "네블라이저 효과",
+            "terminate": false,
+            "text": "폐렴에도 네블라이저 치료가 쓰여. 네블라이저는 약물을 미세하게 분무해서 기관지와 허파꽈리까지 약물의 효과가 잘 전달될 수 있거든. 그래서 천식, 만성폐쇄성 폐 질환, 기관지 확장증, 기관지염, 폐렴 등에 사용할 수 있지.",
+            "turn_id": "BK22003737-7",
+            "utterance_id": "BK22003737.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 집에서 네블라이저를 처음 사용해보는데 어떤 것을 주의해야 할까?",
+            "turn_id": "BK22003737-8",
+            "utterance_id": "BK22003737.15"
+        },
+        {
+            "reference_date": "2017-04-24",
+            "reference_text": [
+                {
+                    "value": "네블라이저를 잘못 관리하면 기계 자체가 세균에 오염될 수도 있다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사용 후에는 세척을 잘하고 주기적으로 소독해야 한다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ikunkang.com/news/articleView.html?idxno=21533",
+            "search_query": "가정용 네블라이저 주의할 점",
+            "terminate": false,
+            "text": "가정에서 네블라이저를 사용할 때는 세척과 소독이 제일 중요해. 네블라이저를 잘 못 관리할 경우 세균에 오염될 수 있거든. 그리고 사용 후에는 세척을 꼼꼼하게 해주고 주기적으로 소독해줘야 해.",
+            "turn_id": "BK22003737-8",
+            "utterance_id": "BK22003737.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 관리가 중요하겠네. 우리 애들은 코감기가 자주 와서 콧물흡입기도 살까 생각 중이야. 지금도 콧물이 너무 많아.",
+            "turn_id": "BK22003737-9",
+            "utterance_id": "BK22003737.17"
+        },
+        {
+            "reference_date": "2020-09-24",
+            "reference_text": [
+                {
+                    "value": "콧물이 너무 많아 아기가 불편해하면 콧물 흡입기를 사용한다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "콧물 흡입기를 쓸 때 너무 세게 빨아들이지 않게 주의하라는 뜻이다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/culture-life/culture_general/2020/09/24/CUQJ3NBWP5F4LMFVQWMICZ4QAM/?utm_source=naver&utm_medium=original&utm_campaign=news",
+            "search_query": "콧물흡입기",
+            "terminate": false,
+            "text": "콧물 흡입기까지 있으면 애들 감기 왔을 때 든든하지. 나는 아기가 콧물이 너무 많아서 불편해할 때만 사용하고 있어. 참고로 콧물 흡입기의 압력이 너무 세지 않도록 조심해서 사용해.",
+            "turn_id": "BK22003737-9",
+            "utterance_id": "BK22003737.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 역시 육아 선배님은 장비도 좋구나. 그런데 혹시 너희 애들도 도라지배즙 먹여? 기관지에 좋다고 그래서 한 번 먹여보려고.",
+            "turn_id": "BK22003737-10",
+            "utterance_id": "BK22003737.19"
+        },
+        {
+            "reference_date": "2022-02-15",
+            "reference_text": [
+                {
+                    "value": "기관지와 호흡기 질환에 탁월한 도라지는 배와 함께 즙이나 차로 마시면 더욱 큰 효과를 볼 수 있다.",
+                    "value_time": "2022-07-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "배에는 항산화 물질인 루테올린(Luteolin) 성분이 풍부하게 들어있다.",
+                    "value_time": "2022-07-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "루테올린 성분은 혈관의 염증을 제거해 주며 가래와 기침 등을 완화해 준다.",
+                    "value_time": "2022-07-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000670774",
+            "search_query": "기관지 도라지배즙",
+            "terminate": false,
+            "text": "기관지에는 도라지배즙이 아주 좋지. 즙도 좋지만 차로 마셔도 큰 효과를 볼 수 있어. 배에 항산화 물질인 루테올린이 많이 들어있는데, 이 루테올린이 혈관의 염증을 제거해서 가래와 기침을 완화해줘. 우리 애들도 기관지가 약해서 환절기마다 매번 챙겨 먹이고 있지.",
+            "turn_id": "BK22003737-10",
+            "utterance_id": "BK22003737.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다들 도라지배즙도 챙겨 먹이고 하는데 내가 너무 무심한 엄마였나 봐. 이제라도 기관지 건강을 위해 장비도 사고, 음식도 잘 챙겨 먹여야겠어.",
+            "turn_id": "BK22003737-11",
+            "utterance_id": "BK22003737.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "무심하긴, 그렇게 말하면 모든 엄마가 다 죄인이지. 너무 자책하지 말고 지금 아픈 아이 잘 간호해서 얼른 낫게 하자!",
+            "turn_id": "BK22003737-11",
+            "utterance_id": "BK22003737.22"
+        }
+    ]
+}

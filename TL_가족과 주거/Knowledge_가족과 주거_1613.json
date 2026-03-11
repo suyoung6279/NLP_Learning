@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011847",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011847",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0019"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 최근에 조카를 만났는데, 뽀로로를 너무 좋아하더라고요. TV에 나오는 캐릭터라면서 나중에 저한테 같이 보자고 하더라고요. 그래서 미리 정보를 좀 알아두려고 하는데, 그 프로그램이 뭔지 혹시 알고 계신가요?",
+            "turn_id": "BK22011847-1",
+            "utterance_id": "BK22011847.1"
+        },
+        {
+            "reference_date": "2022-09-27",
+            "reference_text": [
+                {
+                    "value": "《뽀롱뽀롱 뽀로로》는 최종일이 기획하고 아이코닉스와 오콘, SK브로드밴드, 스튜디오 게일, EBS가 제작한 대한민국의 텔레비전 애니메이션이다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%BD%80%EB%A1%B1%EB%BD%80%EB%A1%B1_%EB%BD%80%EB%A1%9C%EB%A1%9C",
+            "search_query": "뽀로로",
+            "terminate": false,
+            "text": "네, TV 프로그램의 전체 제목은 뽀롱뽀롱 뽀로로예요. 아이코닉스와 오콘, SK브로드밴드, 스튜디오 게일, EBS가 제작한 TV 애니메이션이죠.",
+            "turn_id": "BK22011847-1",
+            "utterance_id": "BK22011847.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "꽤 많은 회사가 같이 만든 애니메이션인가 보네요. 그런데 제 조카는 영화관에서 가서 보더라고요. 극장판으로도 나온 건가요?",
+            "turn_id": "BK22011847-2",
+            "utterance_id": "BK22011847.3"
+        },
+        {
+            "reference_date": "2020-12-04",
+            "reference_text": [
+                {
+                    "value": "'뽀로로 극장판 슈퍼썰매 대모험'은 뽀로로와 친구들이 최고의 슈퍼썰매 챔피언이 되기 위해 얼음나라 노스피아로 떠나는 스펙터클 어드벤처로, '뽀로로' 시리즈의 첫 번째 극장판이다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.chosun.com/news/ntype.htm?id=202012040100035590001936&servicedate=20201204",
+            "search_query": "뽀로로 극장판 슈퍼썰매 대모험",
+            "terminate": false,
+            "text": "네, 첫 번째 극장판은 뽀로로 극장판 슈퍼썰매 대모험이었어요. 뽀로로와 그 친구들이 얼음나라 노스피아로 모험을 떠나는 내용인데, 슈퍼썰매 챔피언이 되기 위해서이죠.",
+            "turn_id": "BK22011847-2",
+            "utterance_id": "BK22011847.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "말 그대로 슈퍼썰매 대모험이네요. 아이들이 그렇게 좋아한다면서요? 얼마나 많은 아이들이 이 극장판을 보았나요?",
+            "turn_id": "BK22011847-3",
+            "utterance_id": "BK22011847.5"
+        },
+        {
+            "reference_date": "2022-07-20",
+            "reference_text": [
+                {
+                    "value": "2013년 첫 극장판 ‘뽀로로 극장판 슈퍼썰매 대모험’이 관객 93만 명을 동원하는 등 어린이영화로는 대박에 가까운 흥행을 기록하며 뽀로로의 저력을 보여준 만큼 이번에도 흥행할 것이란 관측이 나온다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220720/114547762/1",
+            "search_query": "뽀로로 극장판 슈퍼썰매 대모험 관객 수",
+            "terminate": false,
+            "text": "슈퍼썰매 대모험은 2013년에 개봉했는데, 93만 명이 관객이 보았어요.",
+            "turn_id": "BK22011847-3",
+            "utterance_id": "BK22011847.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "애들 영화가 100만 가까이 찍을 정도면 인정해야겠네요. 그런데 방금 첫 번째 시리즈라고 하셨으니 여러 개가 나온 거겠죠? 가장 최근에 나온 건 어떤 건가요?",
+            "turn_id": "BK22011847-4",
+            "utterance_id": "BK22011847.7"
+        },
+        {
+            "reference_date": "2022-07-29",
+            "reference_text": [
+                {
+                    "value": "28일 개봉한 <뽀로로 극장판 드래곤캐슬 대모험>은 꼬마가 돼버린 드래곤 왕국의 왕 아서가 뽀로로, 크롱 등과 함께 악당 마법사 게드에게 맞서 싸우는 이야기를 다룬다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/culture/movie/1052650.html",
+            "search_query": "뽀로로 극장판 드래곤캐슬 대모험 내용",
+            "terminate": false,
+            "text": "이번 해 7월 28일에 뽀로로 극장판 드래곤캐슬 대모험이 나왔어요. 드래곤 왕국의 왕인 아서가 꼬마가 된 후 뽀로로, 크롱 등과 함께 모험을 떠나는 이야기가 주된 줄거리예요. 악당인 마법사 게드와 싸우기 위해서죠.",
+            "turn_id": "BK22011847-4",
+            "utterance_id": "BK22011847.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "바로 올해 또 개봉했다니 신기하네요. 그런데 제 조카가 뽀로로가 턱시도를 입은 모습을 보여줬는데, 그게 어떤 사진인지 아시나요? 제 조카 말로는 레드카펫 사진이라고 하더라고요.",
+            "turn_id": "BK22011847-5",
+            "utterance_id": "BK22011847.9"
+        },
+        {
+            "reference_date": "2022-07-23",
+            "reference_text": [
+                {
+                    "value": "뽀로로는 제26회 부천국제판타스틱영화제에 초대받았다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "'뽀로로 극장판 드래곤캐슬 대모험'이 이 행사에 공식 초청됐기 때문이다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "검은색 턱시도로 멋을 낸 뽀로로는 지난 7일 레드카펫에 모습을 드러내 취재진과 팬들을 만났다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2022072009270002139?did=NA",
+            "search_query": "뽀로로 극장판 드래곤캐슬 레드카펫",
+            "terminate": false,
+            "text": "7월에 부천국제판타스틱영화제에 뽀로로가 드래콘캐슬 대모험 때문에 초대받았었거든요. 그때 레드카펫에 턱시도를 입고 나타났었어요.",
+            "turn_id": "BK22011847-5",
+            "utterance_id": "BK22011847.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이제는 애니메이션의 캐릭터도 턱시도를 입고 레드카펫을 밟네요. 아이들이 왜 그렇게 좋아하는지 이해가 될 것 같아요. 그런데 이번 극장판은 첫 번째 극장판처럼 반응이 좋았나요?",
+            "turn_id": "BK22011847-6",
+            "utterance_id": "BK22011847.11"
+        },
+        {
+            "reference_date": "2022-07-29",
+            "reference_text": [
+                {
+                    "value": "29일 영화진흥위원회 영화관입장권 통합전산망에 따르면 전날 개봉된 '뽀로로 극장판 드래곤캐슬 대모험'이 첫날부터 3만4825명의 관객을 동원했다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 '뽀로로 극장판' 시리즈 사상 개봉일 역대 최다 관객수를 기록했다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.stoo.com/article.php?aid=81672229524",
+            "search_query": "뽀로로 극장판 드래곤캐슬 대모험 관객 수",
+            "terminate": false,
+            "text": "네, 뽀로로 극장판 시리즈 중에서 개봉한 날에 가장 많은 관객을 끌어모았어요. 영화진흥위원회 통합 전산망에 따르면 첫날에만 3만 4825명의 관객이 보았죠.",
+            "turn_id": "BK22011847-6",
+            "utterance_id": "BK22011847.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 정도면 정말 선방했네요. 그런데 뽀로로가 해외로도 많이 진출한다고 하는데, 경제 규모가 꽤 되는 거 같더라고요. 어느 정도인지 대략적으로나마 알 수 있을까요?",
+            "turn_id": "BK22011847-7",
+            "utterance_id": "BK22011847.13"
+        },
+        {
+            "reference_date": "2015-11-20",
+            "reference_text": [
+                {
+                    "value": "2011년 발간된 캐릭터 산업백서에 따르면 뽀로로가 만들어낸 경제 효과가 5조7000억원, 브랜드 가치는 8000억원으로 추정된다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://view.asiae.co.kr/news/view.htm?idxno=2015111917354117747",
+            "search_query": "뽀로로 경제 효과",
+            "terminate": false,
+            "text": "2011년에 만들어진 캐릭터 산업백서에 따르면 뽀로로의 브랜드 가치는 8000억 원 정도로 추정돼요. 그리고 뽀로로가 만들어내는 경제 효과는 5조 7000억 원 정도가 되고요.",
+            "turn_id": "BK22011847-7",
+            "utterance_id": "BK22011847.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "6조에 육박하는 경제 규모를 가지고 있다니 놀랍네요. 그 정도면 캐릭터 계의 스타라고 볼 수 있을 것 같은데, 한류의 측면에서도 영향력을 가지고 있나요?",
+            "turn_id": "BK22011847-8",
+            "utterance_id": "BK22011847.15"
+        },
+        {
+            "reference_date": "2022-08-24",
+            "reference_text": [
+                {
+                    "value": "농림축산식품부와 한국농수산식품유통공사(aT)가 ‘뽀로로의 미식 탐험기’ 애니메이션을 제작해 한국음식(K-푸드) 홍보에 나섰다고 24일 밝혔다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "‘뽀로로의 미식탐험기’는 뽀로로가 친구들과 함께 파프리카, 포도, 유자차, 장류 등 K-푸드 식재료를 활용해 누구나 쉽게 따라할 수 잇는 요리 레시피를 소개하는 내용으로 구성됐다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.seoul.co.kr/news/newsView.php?id=20220824500154&wlog_tag3=naver",
+            "search_query": "뽀로로 K 푸드 홍보",
+            "terminate": false,
+            "text": "네, 그래서 이번에 농림축산식품부와 한국농수산식품유통공사가 K-푸드를 홍보하기 위한 방법으로 뽀로로 애니메이션을 만들었을 정도예요. 제목은 뽀로로의 미식 탐험기인데, 뽀로로와 친구들이 K-푸드 식자재를 이용해서 요리를 만드는 내용으로 구성되어 있어요.",
+            "turn_id": "BK22011847-8",
+            "utterance_id": "BK22011847.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "캐릭터 하나가 정말 효자 노릇을 하고 있네요. 이렇게 보면 IP라는 게 참 신기한 것 같아요.",
+            "turn_id": "BK22011847-9",
+            "utterance_id": "BK22011847.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무래도 다양한 방법으로 활용할 수 있으니까 말이에요.",
+            "turn_id": "BK22011847-9",
+            "utterance_id": "BK22011847.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그나저나 오늘은 정말 뽀로로에 대해 많은 것을 알게 되었네요. 언제나처럼 유익한 정보 정말 감사드립니다.",
+            "turn_id": "BK22011847-10",
+            "utterance_id": "BK22011847.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아니에요, 다음에도 궁금한 게 생기면 언제든지 물어보러 오세요.",
+            "turn_id": "BK22011847-10",
+            "utterance_id": "BK22011847.20"
+        }
+    ]
+}

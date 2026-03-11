@@ -1,0 +1,337 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018053",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018053",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지 모임에 갔었는데, 소형견을 키우는 사람들은 슬개골 탈구에 대해 알고 있어야 하더라고 그게 뭔지 알아?",
+            "turn_id": "BK22018053-1",
+            "utterance_id": "BK22018053.1"
+        },
+        {
+            "reference_date": "44341.0",
+            "reference_text": [
+                {
+                    "value": "슬개골 탈구란 무릎 가운데 얹혀있는 조약돌 모양의 슬개골이라는 뼈가 무릎 안쪽 또는 바깥쪽으로 빠지는 질환이다.",
+                    "value_time": "44840.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2021051918062521837",
+            "search_query": "슬개골 탈구",
+            "terminate": false,
+            "text": "무릎 가운데 위에 올려진 조약돌처럼 생긴 슬개골이라는 뼈가 무릎 안쪽이나 바깥쪽으로 빠지는 병을 슬개골 탈구라고 해.",
+            "turn_id": "BK22018053-1",
+            "utterance_id": "BK22018053.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "개의 슬개골 탈구는 왜 발생하는 거야?",
+            "turn_id": "BK22018053-2",
+            "utterance_id": "BK22018053.3"
+        },
+        {
+            "reference_date": "44341.0",
+            "reference_text": [
+                {
+                    "value": "대형견보다는 소형견에게 주로 발병하는 질환으로 선천적으로 무릎이 약한 견종이 미끄러운 환경에 노출되거나 충격을 받아 발생한다.",
+                    "value_time": "44840.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2021051918062521837",
+            "search_query": "슬개골 소형견",
+            "terminate": false,
+            "text": "태생적으로 무릎이 안 좋은 견종이 미끄러운 환경에 놓이거나, 충격을 받으면서 발생해. 큰 개보다 작은 개한테서 주로 발병해.",
+            "turn_id": "BK22018053-2",
+            "utterance_id": "BK22018053.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소형견한테 주로 발생하는 질병이면 어떤 견종이 특히 조심해야 할까?",
+            "turn_id": "BK22018053-3",
+            "utterance_id": "BK22018053.5"
+        },
+        {
+            "reference_date": "44341.0",
+            "reference_text": [
+                {
+                    "value": "소형견 중에서도 특히 슬개골 탈구를 조심해야 하는 견종은 몰티즈, 푸들, 포메라니안이다.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2021051918062521837",
+            "search_query": "슬개골 탈구 조심 견종",
+            "terminate": false,
+            "text": "특히 슬개골 탈구를 조심해야 하는 소형견 견종은 몰티즈, 푸들, 포메라니안이야.",
+            "turn_id": "BK22018053-3",
+            "utterance_id": "BK22018053.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이 셋 중 슬개골 탈구로 병원을 가장 많이 가는 견종은 뭐야?",
+            "turn_id": "BK22018053-4",
+            "utterance_id": "BK22018053.7"
+        },
+        {
+            "reference_date": "44341.0",
+            "reference_text": [
+                {
+                    "value": "몰티즈는 한국에서 가장 많이 키울 뿐만 아니라 슬개골 탈구로 병원을 가장 많이 찾는 견종이다.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "애교가 많고 활동성이 좋지만 비만도가 높은 견종이기도 하다.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다리는 약한데 비만인 경우가 많아 슬개골 탈구를 조심해야 하는 견종 중 하나다.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2021051918062521837",
+            "search_query": "몰티즈 슬개골",
+            "terminate": false,
+            "text": "슬개골 탈구로 병원을 가장 많이 가는 견종은 한국에서 가장 많이 키우는 몰티즈야. 애교가 많고 활동량이 많지만, 비만도도 높은 견종이기도 해. 다리가 약한데 비만인 경우가 많아서 슬개골 탈구를 주의해야 해.",
+            "turn_id": "BK22018053-4",
+            "utterance_id": "BK22018053.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "푸들은 어떤 특징 때문에 슬개골 탈구가 생겨?",
+            "turn_id": "BK22018053-5",
+            "utterance_id": "BK22018053.9"
+        },
+        {
+            "reference_date": "44341.0",
+            "reference_text": [
+                {
+                    "value": "푸들은 몰티즈보다 활동량이 많고 다리가 길고 가는 게 특징이다.",
+                    "value_time": "44840.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그래서 골절과 탈구가 많이 일어난다.",
+                    "value_time": "44840.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "작고 예쁜 개를 선호하는 분위기 탓에 토이푸들처럼 작은 종으로 개량이 이뤄져 무릎도 약하게 태어나는 경우가 많다.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2021051918062521837",
+            "search_query": "푸들 슬개골",
+            "terminate": false,
+            "text": "푸들은 작고 예쁜 개를 선호하는 탓에 토이푸들처럼 작은 종으로 개량이 되면서 무릎도 약하게 태어나는 경우가 많아. 몰티즈보다 다리가 길고 가는데 활동성이 큰 특징이 있어서 골절과 탈구가 잦아.",
+            "turn_id": "BK22018053-5",
+            "utterance_id": "BK22018053.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인간 때문에 개량돼서 태어나는 강아지들이 고생하는구나. 포메라니안도 개량되다 보니 무릎이 약한 걸까?",
+            "turn_id": "BK22018053-6",
+            "utterance_id": "BK22018053.11"
+        },
+        {
+            "reference_date": "44341.0",
+            "reference_text": [
+                {
+                    "value": "포메라니안 역시 푸들과 마찬가지로 작은 종으로 개량하다 보니 다리가 선천적으로 약하게 태어난다.",
+                    "value_time": "44840.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2021051918062521837",
+            "search_query": "포메라니안 슬개골",
+            "terminate": false,
+            "text": "맞아, 푸들과 같이 포메라니안도 작은 종으로 개량하다 보니 태생적으로 다리가 약하게 태어나.",
+            "turn_id": "BK22018053-6",
+            "utterance_id": "BK22018053.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 강아지한테 미안하네. 어릴 때부터 슬개골 탈구를 예방하기 위해서는 할 수 있는 방법은 뭐가 있을까?",
+            "turn_id": "BK22018053-7",
+            "utterance_id": "BK22018053.13"
+        },
+        {
+            "reference_date": "44341.0",
+            "reference_text": [
+                {
+                    "value": "반려견이 미끄러지지 않도록 러그와 매트를 깔거나 발바닥 털을 밀어주는 것도 방법이다.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2021051918062521837",
+            "search_query": "슬개골 러그 매트",
+            "terminate": false,
+            "text": "강아지가 미끄러지지 않게 매트나 러그를 깔아주거나, 발바닥 털을 미는 방법이 있어.",
+            "turn_id": "BK22018053-7",
+            "utterance_id": "BK22018053.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "바로 바닥에 매트 사서 설치해야겠어. 슬개골 탈구를 일으키는 행동들도 있을까?",
+            "turn_id": "BK22018053-8",
+            "utterance_id": "BK22018053.15"
+        },
+        {
+            "reference_date": "44341.0",
+            "reference_text": [
+                {
+                    "value": "반려견이 주인을 반긴다고 두발로 서는 행동, 높은 침대나 소파에서 뛰어내리는 행동도 다리에 무리가 갈 수 있어 자제시켜야 한다.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2021051918062521837",
+            "search_query": "두발로 서는 행동",
+            "terminate": false,
+            "text": "강아지가 높은 침대나 소파에서 뛰어내리거나 주인에게 반갑다고 두 발로 서는 행동은 다리에 무리를 줄 수 있어서 하지 못하게 해야 해.",
+            "turn_id": "BK22018053-8",
+            "utterance_id": "BK22018053.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반갑다고 자주 두 발로 서서 재롱도 부리는 데 이제는 더 이상 못하게 해야겠다. 다리가 약한 애들은 운동이나 다리에 무리가 안 가게 체중 관리를 해줘야 하는데 어떻게 하는 게 좋아?",
+            "turn_id": "BK22018053-9",
+            "utterance_id": "BK22018053.17"
+        },
+        {
+            "reference_date": "44341.0",
+            "reference_text": [
+                {
+                    "value": "다리가 약한 종들은 무리한 운동보다는 간식과 사료를 줄이는 방법으로 체중관리를 하는 것이 바람직하다.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2021051918062521837",
+            "search_query": "소형견 체중관리",
+            "terminate": false,
+            "text": "다리가 약한 종은 과도한 운동보다는 사료와 간식을 줄이는 방법으로 체중 관리를 하는 것이 좋아.",
+            "turn_id": "BK22018053-9",
+            "utterance_id": "BK22018053.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "무리하게 운동하는 것도 안 좋은 거구나. 강아지도 식이 관리를 적절하게 잘해 줘야겠다.",
+            "turn_id": "BK22018053-10",
+            "utterance_id": "BK22018053.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "슬개골 탈구가 생기지 않게 잘 관리하고 예방해줘.",
+            "turn_id": "BK22018053-10",
+            "utterance_id": "BK22018053.20"
+        }
+    ]
+}

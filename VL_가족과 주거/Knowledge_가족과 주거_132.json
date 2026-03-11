@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018095",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018095",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "언니가 키우는 강아지가 중이염이라고 하던데 귀 질환이야?",
+            "turn_id": "BK22018095-1",
+            "utterance_id": "BK22018095.1"
+        },
+        {
+            "reference_date": "44804.0",
+            "reference_text": [
+                {
+                    "value": "이러한 구조물 중 중이와 내이에 발생하는 염증성질환을 각각 중이염, 내이염이라고 한다.",
+                    "value_time": "44844.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "중이·내이염이 발생해 점차 진행되면 중이와 내이에 근접한 신경계에 문제가 생긴다.",
+                    "value_time": "44844.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60926",
+            "search_query": "강아지 중이염",
+            "terminate": false,
+            "text": "응, 중이에 염증이 발생하면 중이염이라고 해. 중이염이 진행되면 중이와 내이 가까이에 있는 신경계에 이상이 생길 수 있어.",
+            "turn_id": "BK22018095-1",
+            "utterance_id": "BK22018095.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 강아지 중이염에는 어떤 증상이 있어?",
+            "turn_id": "BK22018095-2",
+            "utterance_id": "BK22018095.3"
+        },
+        {
+            "reference_date": "44804.0",
+            "reference_text": [
+                {
+                    "value": "이에 따라 자세와 균형감각, 공간감각을 유지해주는 기능에 이상이 생겨 어지럼증, 보행이상, 머리 기울임 등의 증상이 나타난다.",
+                    "value_time": "44844.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60926",
+            "search_query": "강아지 중이염 증상",
+            "terminate": false,
+            "text": "자세와 균형감각, 공간 감각을 유지하는 기능에 문제가 생겨서 어지러워하고, 걸을 때 평소와 다르고, 머리를 기울이는 증상이 나타나.",
+            "turn_id": "BK22018095-2",
+            "utterance_id": "BK22018095.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "언니네 강아지도 머리를 기울여서 걷던데 중이염 증상이었구나. 중이염은 어떻게 검사해?",
+            "turn_id": "BK22018095-3",
+            "utterance_id": "BK22018095.5"
+        },
+        {
+            "reference_date": "44804.0",
+            "reference_text": [
+                {
+                    "value": "중이‧내이염은 증상이 비슷한 다른 질환들을 배제하기 위해 검이경검사부터 필요 시에는 CT, MRI검사를 통해 중이‧내이의 문제를 진단하고 치료방향을 정하게 된다.",
+                    "value_time": "44844.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60926",
+            "search_query": "강아지 중이염 검사",
+            "terminate": false,
+            "text": "중이염은 검이경 검사를 통해서 증상이 비슷한 다른 질환들을 소거해. 그리고 필요하다면 CT나 MRI 검사를 해서 진단하고 치료 방법을 결정해.",
+            "turn_id": "BK22018095-3",
+            "utterance_id": "BK22018095.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "검사할 때 최신 기술을 사용하네. 중이염은 치료할 때 어떤 방법을 주로 써?",
+            "turn_id": "BK22018095-4",
+            "utterance_id": "BK22018095.7"
+        },
+        {
+            "reference_date": "44804.0",
+            "reference_text": [
+                {
+                    "value": "중이‧내이염은 대부분 외부 감염으로 발생하기 때문에 감염체에 대한 검사와 이에 대한 항생제 또는 항진균제 등의 내과적 치료를 진행하게 된다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60926",
+            "search_query": "강아지 중이염 내과적 치료",
+            "terminate": false,
+            "text": "중이염은 대부분 외부 감염에 의해 발생하거든. 그래서 감염체를 검사하고 감염체에 대한 항생제, 항진균제를 사용하는 내과적인 치료를 해.",
+            "turn_id": "BK22018095-4",
+            "utterance_id": "BK22018095.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 수술은 거의 하지 않는 거야?",
+            "turn_id": "BK22018095-5",
+            "utterance_id": "BK22018095.9"
+        },
+        {
+            "reference_date": "44804.0",
+            "reference_text": [
+                {
+                    "value": "하지만 이에 대해 효과가 없거나 만성적인 변화, 심한 증상과 함께 중이의 삼출물 등이 관찰되면 질환이 더 진행되기 전 외과적 치료를 고려해야 한다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60926",
+            "search_query": "강아지 중이염 외과적 치료",
+            "terminate": false,
+            "text": "만약 내과를 이용한 치료를 했을 때 효과가 없거나 증상이 심해지고 만성적인 변화를 보이거나 중이의 삼출물 등이 관찰된다면 질환이 더 심해지기 전에 수술도 고려해 볼 수 있어.",
+            "turn_id": "BK22018095-5",
+            "utterance_id": "BK22018095.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내과적 치료를 먼저 하고 효과가 없으면 외과적 치료를 하는 거구나. 중이염을 방치하면 어떻게 돼?",
+            "turn_id": "BK22018095-6",
+            "utterance_id": "BK22018095.11"
+        },
+        {
+            "reference_date": "44804.0",
+            "reference_text": [
+                {
+                    "value": "중이·내이염을 방치하면 상행성 감염 또는 염증이 진행돼 중추신경계에까지 문제가 발생할 수 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 적절한 치료시기를 놓쳐 질환이 진행돼 신경에 만성적인 문제가 생긴다면 내·외과적 치료 후에도 신경증상의 문제가 계속될 수 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60926",
+            "search_query": "강아지 중이염 방치",
+            "terminate": false,
+            "text": "중이염을 방치하면 상행성 감염이나 염증이 생겨서 중추신경계까지 이상이 생길 수 있어. 치료 시기를 놓친다면 질환이 진행되고 신경에 만성적인 문제가 발생할 수 있고, 그렇게 되면 치료 후에도 신경에 문제가 지속될 수 있어.",
+            "turn_id": "BK22018095-6",
+            "utterance_id": "BK22018095.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "적절한 시기에 치료하는 게 중요하겠네. 귀 관리를 잘 해줘야 할 거 같은데 귀 청소는 언제마다 해주면 될까?",
+            "turn_id": "BK22018095-7",
+            "utterance_id": "BK22018095.13"
+        },
+        {
+            "reference_date": "44808.0",
+            "reference_text": [
+                {
+                    "value": "귓병이 없다면 1주일에 1번이 적당합니다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "강아지마다 귀지가 생성되는 양과 속도가 다르기 때문에 귀청소할 때 귀지가 많이 나오면 주기를 줄이고 귀지가 없다면 주기를 늘려도 좋습니다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60995",
+            "search_query": "강아지 귀 청소 주기",
+            "terminate": false,
+            "text": "귓병이 없다면 보통 일주일에 한 번이 좋지만, 강아지의 귀지가 생성되는 속도나 양을 보면서 결정하는 게 좋아. 귀지가 없으면 주기를 더 늘려도 좋고 귀지가 많다면 주기를 줄여야 해.",
+            "turn_id": "BK22018095-7",
+            "utterance_id": "BK22018095.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 강아지의 귀지는 면봉으로 닦아줘도 돼?",
+            "turn_id": "BK22018095-8",
+            "utterance_id": "BK22018095.15"
+        },
+        {
+            "reference_date": "44808.0",
+            "reference_text": [
+                {
+                    "value": "면봉을 쓰면 외려 귀지를 귓속으로 밀어 넣고 연약한 외이도피부가 손상될 수 있습니다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60995",
+            "search_query": "강아지 귀 청소 면봉",
+            "terminate": false,
+            "text": "아니, 면봉은 사용하면 안 돼. 왜냐하면 면봉을 쓰면 오히려 귀지를 귓속으로 밀어 넣게 되고 외이도 피부가 연약해서 다칠 수 있거든.",
+            "turn_id": "BK22018095-8",
+            "utterance_id": "BK22018095.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "면봉은 사용하지 말아야겠다. 귀 관리를 미리 해줘서 중이염을 예방해야겠어.",
+            "turn_id": "BK22018095-9",
+            "utterance_id": "BK22018095.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 평소에 관리를 잘하면 중이염뿐 아니라 다른 귀 질환을 예방할 수 있어.",
+            "turn_id": "BK22018095-9",
+            "utterance_id": "BK22018095.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 잘 몰랐던 내용인데 자세하고 쉽게 설명해줘서 고마워.",
+            "turn_id": "BK22018095-10",
+            "utterance_id": "BK22018095.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 더 궁금한 게 있다면 언제든 연락해. 좋은 하루 보내.",
+            "turn_id": "BK22018095-10",
+            "utterance_id": "BK22018095.20"
+        }
+    ]
+}

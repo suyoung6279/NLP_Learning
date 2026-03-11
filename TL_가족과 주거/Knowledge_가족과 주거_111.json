@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013593",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013593",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0018"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "친척 여동생의 쌍둥이 임신 소식을 들었는데 내 주변에는 쌍둥이가 없어서 그런지 더 신기하더라. 혹시 주변이나 아는 사람 중에 쌍둥이 있니?",
+            "turn_id": "BK22013593-1",
+            "utterance_id": "BK22013593.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 외가 쪽에 이란성 쌍둥이인 친척 언니들이 있어서 쌍둥이에 대해 조금 익숙한 편이지.",
+            "turn_id": "BK22013593-1",
+            "utterance_id": "BK22013593.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 학교 다닐 때 생물 시간에 배웠던 기억은 있지만 쌍둥이에 대해 잘 모르겠어. 이란성 쌍둥이란 정확히 어떤 거야?",
+            "turn_id": "BK22013593-2",
+            "utterance_id": "BK22013593.3"
+        },
+        {
+            "reference_date": "44767.0",
+            "reference_text": [
+                {
+                    "value": "이란성 쌍둥이는 두 개 난자가 두 개 다른 정자와 수정될 때 발생한다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "태반과 양막을 각각 가지고 있다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jemin.com/news/articleView.html?idxno=740925",
+            "search_query": "이란성 쌍둥이",
+            "terminate": false,
+            "text": "두 개의 난자가 두 개의 다른 정자와 수정되었을 때 이란성 쌍둥이가 발생하는데 태반과 양막을 각각 가지고 있어.",
+            "turn_id": "BK22013593-2",
+            "utterance_id": "BK22013593.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼굴이나 모습이 약간 다르게 생긴 쌍둥이를 말하는 거지?",
+            "turn_id": "BK22013593-3",
+            "utterance_id": "BK22013593.5"
+        },
+        {
+            "reference_date": "44608.0",
+            "reference_text": [
+                {
+                    "value": "동갑인 이란성 쌍둥이의 외모는 서로 비슷할 수도, 다를 수도 있다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "혹은 동성이거나 이성일 수도 있다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이란성 쌍둥이가 같은 염색체 지도를 가질 확률은 매우 적다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8C%8D%EB%91%A5%EC%9D%B4",
+            "search_query": "이란성 쌍둥이 외모",
+            "terminate": false,
+            "text": "나이가 같은 이란성 쌍둥이는 외모가 비슷할 수도 있고 다를 수도 있어. 그리고 같은 성별이거나 다른 성별일 수도 있지. 이란성 쌍둥이의 염색체 지도가 같을 확률은 아주 적어.",
+            "turn_id": "BK22013593-3",
+            "utterance_id": "BK22013593.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 의학이 발달한데다가 노산이 많아 이란성 쌍둥이를 임신할 확률이 많다던데 정말 그래?",
+            "turn_id": "BK22013593-4",
+            "utterance_id": "BK22013593.7"
+        },
+        {
+            "reference_date": "44608.0",
+            "reference_text": [
+                {
+                    "value": "최근, 의학 기술의 발달로 이란성 쌍둥이의 출생률이 눈에 띄게 높아졌다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "노산인 경우 이란성 쌍둥이를 출생할 확률이 높다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "산모가 35세 이상인 경우 이란성 쌍둥이의 출생률은 두 배가 된다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8C%8D%EB%91%A5%EC%9D%B4",
+            "search_query": "의학발달과 노산으로 이란성 쌍둥이 확률 높다",
+            "terminate": false,
+            "text": "맞아, 의학 기술이 발달해서 이란성 쌍둥이가 태어날 확률이 크게 높아졌는데 노산일 경우 이란성 쌍둥이를 낳을 확률이 더 높아. 산모가 35세 이상일 경우에는 이란성 쌍둥이 출생률이 두 배 정도 되지.",
+            "turn_id": "BK22013593-4",
+            "utterance_id": "BK22013593.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 한 해 동안 태어난 아이 중에 다태아가 차지하는 비중도 높아졌겠네?",
+            "turn_id": "BK22013593-5",
+            "utterance_id": "BK22013593.9"
+        },
+        {
+            "reference_date": "44802.0",
+            "reference_text": [
+                {
+                    "value": "29일 통계청 출생통계에 따르면 지난해 출생아 26만 400명 중 다태아는 1만 4000명으로 5.4%였다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1990년대 1%대였던 다태아 비중은 2002년 2%대, 2012년 3%대로 꾸준히 상승했고 지난해 처음으로 5%대까지 올라왔다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2022082909223293710",
+            "search_query": "출생아 중 다태아 비율증가",
+            "terminate": false,
+            "text": "맞아, 2022년 8월 29일 통계청의 출생통계에 따르면 작년 태어난 아이 26만 400명 중에서 다태아가 1만 4000명으로 5.4% 정도 되었어. 다태아 비중은 계속 높아져 왔는데 1990년대 1%대였고 2002년 2%대, 2012년에는 3%대로 꾸준히 올라가다가 2021년에 처음 5%대로 올라왔지.",
+            "turn_id": "BK22013593-5",
+            "utterance_id": "BK22013593.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "태어난 다태아 중에 두 쌍둥이가 당연히 제일 많겠지? 성별은 어떻게 태어났어?",
+            "turn_id": "BK22013593-6",
+            "utterance_id": "BK22013593.11"
+        },
+        {
+            "reference_date": "44802.0",
+            "reference_text": [
+                {
+                    "value": "다태아 중 두쌍둥이만 놓고 보면, 지난해 전국에서 태어난 6734쌍 중 남녀 쌍둥이가 2730쌍으로 가장 많았고, 남자 2명 쌍둥이는 2052쌍, 여자 2명 쌍둥이는 1952쌍으로 각각 집계됐다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.chosun.com/news/ntype.htm?id=202208300100203600012544&servicedate=20220829",
+            "search_query": "두쌍둥이 성별 비율",
+            "terminate": false,
+            "text": "2021년 전국에서 태어난 두 쌍둥이 6734쌍 중에 가장 많은 것은 남녀 쌍둥이로 2730쌍이 태어났어. 남아 두쌍이 태어난 경우는 2052쌍, 여자아이 두 쌍둥이는 1952쌍이었어.",
+            "turn_id": "BK22013593-6",
+            "utterance_id": "BK22013593.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "남녀 쌍둥이가 많았구나, 태어난 다태아 중에 두 쌍둥이를 넘는 쌍둥이는 몇 명이나 돼?",
+            "turn_id": "BK22013593-7",
+            "utterance_id": "BK22013593.13"
+        },
+        {
+            "reference_date": "44802.0",
+            "reference_text": [
+                {
+                    "value": "삼태아(세쌍둥이) 이상은 500명으로 전체 출생아의 0.2%였다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220828023700002?input=1195m",
+            "search_query": "다태아",
+            "terminate": false,
+            "text": "삼태아 즉, 세쌍둥이 이상은 500명으로 전체 출생아의 0.2%였어.",
+            "turn_id": "BK22013593-7",
+            "utterance_id": "BK22013593.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 많구나, 이 또한 시험관 시술 등으로 인한 현상인거야?",
+            "turn_id": "BK22013593-8",
+            "utterance_id": "BK22013593.15"
+        },
+        {
+            "reference_date": "44802.0",
+            "reference_text": [
+                {
+                    "value": "다태아가 이처럼 늘어난 것은 출산 연령이 높아지면서 다태아 출산 확률이 높은 시험관 등 난임시술을 받는 부부가 많아진 영향으로 보인다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220828023700002?input=1195m",
+            "search_query": "다태아 원인",
+            "terminate": false,
+            "text": "맞아. 출산하는 연령대가 높아지면서 난임시술을 받는 부부들이 늘어났고 그에 따라 다태아 출산 확률이 높은 시험관 시술도 많아져서 다태아 출산이 잦아지게 된 거지.",
+            "turn_id": "BK22013593-8",
+            "utterance_id": "BK22013593.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전에 뉴스에서 다태아 출산을 제왕절개가 아닌 자연분만으로 한 산모가 있다고 들은 것 같은데 정말 그래?",
+            "turn_id": "BK22013593-9",
+            "utterance_id": "BK22013593.17"
+        },
+        {
+            "reference_date": "44800.0",
+            "reference_text": [
+                {
+                    "value": "국내 최초로 제왕절개가 아닌 자연분만을 통해 네 쌍둥이가 태어났다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "27일 SBS에 따르면 지난 24일 서울대병원 산부인과에서 31주6일을 채운 네 쌍둥이가 자연분만으로 무사히 세상 빛을 봤다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.kmib.co.kr/article/view.asp?arcid=0017412170&code=61171911&cp=nv",
+            "search_query": "자연분만 네 쌍둥이 출산",
+            "terminate": false,
+            "text": "응, 2022년 8월 27일 SBS에 따르면, 서울대병원 산부인과에서 8월 24일 네쌍둥이가 31주 6일을 채우고 자연분만으로 태어났어. 네쌍둥이를 제왕절개가 아닌 자연분만으로 낳은 것은 우리나라에서 처음이야.",
+            "turn_id": "BK22013593-9",
+            "utterance_id": "BK22013593.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엄청 위험할 수도 있었을 텐데 산모와 아이들 모두 정말 대단하다. 부디 아프지 않고 건강하게 잘 자랐으면 좋겠네. 오늘 쌍둥이에 대해 많은 내용 알려줘서 고마워.",
+            "turn_id": "BK22013593-10",
+            "utterance_id": "BK22013593.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그러게 무사히 잘 태어난 네쌍둥이들이 잘 자랐으면 좋겠다. 궁금한 내용이 있다면 언제든 환영이니까 연락해.",
+            "turn_id": "BK22013593-10",
+            "utterance_id": "BK22013593.20"
+        }
+    ]
+}

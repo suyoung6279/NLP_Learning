@@ -1,0 +1,321 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007960",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007960",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0017"
+            },
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0010"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내년부터 반려동물에 관한 정책이 변경된다고 하던데, 어떤 변경 사항이 있는 거야?",
+            "turn_id": "BK22007960-1",
+            "utterance_id": "BK22007960.1"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "정부가 내년부터 반려동물의 진찰료, 입원비 등 일부 의료비에 매겨지는 부가가치세 10%를 면제하는 방안을 추진한다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/366/0000839031?lfrom=kakao",
+            "search_query": "반려동물 진료비 부가세",
+            "terminate": false,
+            "text": "맞아, 지금은 동물 병원에 가면 진찰료, 입원비 등이 10퍼센트 부가가치세가 매겨지잖아? 하지만 내년부터는 진찰료, 입원비, 그리고 일부 의료비에 매겨지는 부가가치세를 면제하도록 추진 중이야.",
+            "turn_id": "BK22007960-1",
+            "utterance_id": "BK22007960.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우와 그러면 반려동물을 키우는 사람들에게는 부담이 덜겠네. 지금은 모든 진료 시 다 부가세를 내고 있는거지?",
+            "turn_id": "BK22007960-2",
+            "utterance_id": "BK22007960.3"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "현재는 예방접종, 중성화수술, 병리검사 등의 부가세가 면제되고 있는데, 내년에는 진찰료, 입원비 등도 면세 대상에 포함하겠다는 방침이다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/366/0000839031?lfrom=kakao",
+            "search_query": "반려동물 진료비 부가세 면제확대",
+            "terminate": false,
+            "text": "지금도 예방접종, 중성화수술, 병리 검사 등의 검사 시에는 부가세를 받지 않고 있긴 한데 내년부터는 진찰료, 입원비 등도 부가세 면제 대상에 추가될 계획이야.",
+            "turn_id": "BK22007960-2",
+            "utterance_id": "BK22007960.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 지금도 일부는 면세지만 추가로 면세 항목들이 더 생기는 거네. 그럼 면세 범위 확대는 바로 추진 하는 거야?",
+            "turn_id": "BK22007960-3",
+            "utterance_id": "BK22007960.5"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "부가가치세 담당 부처인 기획재정부는 농식품부의 진료비 조사, 진료항목 표준화가 된 이후에 면세 범위를 확대할 계획이다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/366/0000839031?lfrom=kakao",
+            "search_query": "반려동물 진료비 부가세 범위",
+            "terminate": false,
+            "text": "아니, 이건 부가가치세 담당 부처인 기획재정부에서 결정하는데, 농식품부가 진료비 조사, 진료 항목 표준화를 먼저 한 이후에 면세 범위를 확대할 예정이라고 입장을 밝혔어.",
+            "turn_id": "BK22007960-3",
+            "utterance_id": "BK22007960.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 빨리 진료비 조사와 진료 항목 표준화가 이루어졌으면 좋겠어. 그럼 이번에는 부가가치세 면제 이외에 다른 반려동물 정책은 없는 거야?",
+            "turn_id": "BK22007960-4",
+            "utterance_id": "BK22007960.7"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "동물병원마다 동일한 반려동물 질병에 대해 질병 명칭, 진료 항목 등이 달라 병원별로 진료비 편차가 발생하는 사례도 수술대에 올랐다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/366/0000839031?lfrom=kakao",
+            "search_query": "동물병원 문제",
+            "terminate": false,
+            "text": "아니, 동일한 반려동물의 질병에 관해 동물병원마다 다르게 질병 이름을 정하고, 진료 항목 등을 정해서 진료비의 편차가 커지는 문제점도 제기되었어.",
+            "turn_id": "BK22007960-4",
+            "utterance_id": "BK22007960.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그건 정말 문제라는 생각이 들어. 이에 대한 해결정책은 뭐야?",
+            "turn_id": "BK22007960-5",
+            "utterance_id": "BK22007960.9"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "농식품부는 이로 인한 병원별 진료비 편차를 완화하고 동물의료 체계화를 위해 동물병원에서 사용하는 질병명과 진료행위 절차 등에 대해 표준화할 계획이다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/366/0000839031?lfrom=kakao",
+            "search_query": "동물병원 진료비 편차 해결방안",
+            "terminate": false,
+            "text": "농식품부에 따르면 병원별 진료비의 큰 차이를 줄이고, 동물을 위한 의료서비스를 체계화하기 위해서, 동물 병원에서 사용하는 질병의 명칭과 진료하는 행위 등에 대해서 표준화할 계획이야.",
+            "turn_id": "BK22007960-5",
+            "utterance_id": "BK22007960.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "모든 동물병원에서 통일된 질병명과 진료를 한다면 진짜 좋을 것 같아. 반려인들에게도 큰 도움이 될 것 같은데?",
+            "turn_id": "BK22007960-6",
+            "utterance_id": "BK22007960.11"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "동물병원 진료비 관련 정보 부족으로 소비자들에게 진료 선택권이 제한되고 있는 점도 개선 대상이다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/366/0000839031?lfrom=kakao",
+            "search_query": "동물병원 진료비 소비자",
+            "terminate": false,
+            "text": "맞아, 반려동물을 키우는 사람들은 지금의 동물 병원에서 진료비에 대한 정보를 얻지 못하기 때문에 진료 선택권의 제한이 많았는데, 그 점에서 정말 좋은 개선사항이지.",
+            "turn_id": "BK22007960-6",
+            "utterance_id": "BK22007960.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 너무 좋은 것 같아. 그럼 내년부터 진료비 공개는 어디서 확인할 수 있는거야?",
+            "turn_id": "BK22007960-7",
+            "utterance_id": "BK22007960.13"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "동물병원의 진찰, 입원 등 기본적인 중요 진료비를 내년 1월부터 소비자들이 보기 쉬운 동물병원 내부 접수 창구, 진료실, 동물병원 홈페이지에 게시하도록 한다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "진료비를 소비자들이 사전에 알아보고 비교, 선택할 수 있도록 하기 위해서다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/366/0000839031?lfrom=kakao",
+            "search_query": "동물병원 진료비 고시 의무화",
+            "terminate": false,
+            "text": "반려동물을 키우는 소비자들이 쉽게 찾아보기 쉬운 동물 병원 내부에 있는 접수 창구나 진료실, 병원 홈페이지 등에 게시할 계획이야. 이걸 보고 소비자들은 미리 가격을 알고 다른 병원과 비교해 볼 수 있어.",
+            "turn_id": "BK22007960-7",
+            "utterance_id": "BK22007960.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이제 더 이상 동물병원에서 소비자들에게 바가지 씌우는 치료는 없겠네. 그럼 중대한 큰 수술의 경우에도 진료비 공개가 이뤄질까?",
+            "turn_id": "BK22007960-8",
+            "utterance_id": "BK22007960.15"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "또 고비용이 예상되는 수술 등 중대진료의 예상 비용을 동물병원에서 소비자들에게 사전에 설명하도록 2023년 1월부터 의무화한다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "‘중대 진료’의 범위는 전신마취를 동반하는 내부장기, 뼈, 관절 수술과 전신마취 동반 수혈 등이 포함될 전망이다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/366/0000839031?lfrom=kakao",
+            "search_query": "중대수술 진료비 공개 의무화",
+            "terminate": false,
+            "text": "당연하지, 큰 비용이 드는 수술과 중대 진료를 할 경우 예상되는 비용 또한 소비자들에게 공개될 수 있도록 내년 1월부터 의무화가 돼. 여기서 중대 진료란 전신마취를 하면서 내부장기, 뼈, 관절 수술을 하는 경우이고, 전신마취를 동반한 수혈 또한 포함될 예정이야.",
+            "turn_id": "BK22007960-8",
+            "utterance_id": "BK22007960.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 그렇구나. 반려동물을 키우는 소비자들은 반려동물이 큰 질병에 걸리면 정말 부담이 큰데, 이 부분은 꼭 되었으면 좋겠어.",
+            "turn_id": "BK22007960-9",
+            "utterance_id": "BK22007960.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇지, 진료비가 투명하게 보인다면, 지금처럼 진료비를 비싸게 받기가 어려울 것 같아.",
+            "turn_id": "BK22007960-9",
+            "utterance_id": "BK22007960.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럴 것 같아. 오늘 좋은 정보 알려줘서 고마워, 나중에 꼭 강아지를 키울 건데 오늘 얘기 잘 참고할게.",
+            "turn_id": "BK22007960-10",
+            "utterance_id": "BK22007960.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 도움이 되었다니 다행이다. 다음에 또 만나자, 잘 가.",
+            "turn_id": "BK22007960-10",
+            "utterance_id": "BK22007960.20"
+        }
+    ]
+}

@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014825",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014825",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이사를 하기로 했는데 집이 낯설어서 벌써 걱정이 되네요.",
+            "turn_id": "BK22014825-1",
+            "utterance_id": "BK22014825.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 이사 준비 때문에 걱정이 많으시겠어요. 혹시 새집 증후군에 대해서 들어보셨나요?",
+            "turn_id": "BK22014825-1",
+            "utterance_id": "BK22014825.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아니요, 처음 들어보는 단어라서 생소하네요. 새집 증후군이 어떤 뜻인가요?",
+            "turn_id": "BK22014825-2",
+            "utterance_id": "BK22014825.3"
+        },
+        {
+            "reference_date": "2022-04-01",
+            "reference_text": [
+                {
+                    "value": "새집증후군(sick house syndrome)은 새로 지은 건물 안에서 거주자들이 느끼는 건강상 문제 및 불쾌감을 이르는 용어다(네이버 지식백과).",
+                    "value_time": "2022-10-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ksilbo.co.kr/news/articleView.html?idxno=931091",
+            "search_query": "새집증후군",
+            "terminate": false,
+            "text": "네, 새집증후군은 신축 건물에서 거주자들이 느끼는 건강상 문제나 불쾌감을 뜻하는 말이에요.",
+            "turn_id": "BK22014825-2",
+            "utterance_id": "BK22014825.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 그런 경험이 있었던 것 같아요. 그렇다면 새집 증후군 때문에 불쾌감을 느끼는 이유는 뭐예요?",
+            "turn_id": "BK22014825-3",
+            "utterance_id": "BK22014825.5"
+        },
+        {
+            "reference_date": "2022-04-01",
+            "reference_text": [
+                {
+                    "value": "합판이 내장된 가구, 목제 제품, 단열재, 벽지, 페인트, 광택제, 기타 건축자재 등에서 나오는 유해물질로 인한 불편을 일컫는데, 주로 포름알데히드, 톨루엔, 자일렌을 비롯한 휘발성유기화합물(VOCs, Volatile Organic Compounds)로 인해 몸이 느끼는 고통으로, 장시간 노출시 중대 질병으로까지 이어질 수 있다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ksilbo.co.kr/news/articleView.html?idxno=931091",
+            "search_query": "새집 증후군 불편함",
+            "terminate": false,
+            "text": "네, 합판이 내장된 가구, 목제 제품, 단열재, 벽지, 페인트, 광택제, 기타 건축자재 등에서 나오는 유해 물질 때문에 불쾌감을 느끼죠. 주로 포름알데히드, 톨루엔, 자일렌을 비롯해 휘발성유기화합물로 인해 불편함을 느끼게 되는데 오랜 시간 노출이 될 경우 심각한 질병으로 이어질 수 있어요.",
+            "turn_id": "BK22014825-3",
+            "utterance_id": "BK22014825.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 건물에서 나오는 그런 물질 때문이군요. 새집 증후군으로 인해 어떤 증상이 생기는지 구체적으로 알 수 있을까요?",
+            "turn_id": "BK22014825-4",
+            "utterance_id": "BK22014825.7"
+        },
+        {
+            "reference_date": "2022-07-19",
+            "reference_text": [
+                {
+                    "value": "증상은 아토피 피부염이나 천식과 같은 기존의 알레르기 질환이 악화되는 것이지만 그 외에도 특별한 원인 없이 두드러기가 생기거나 눈이 가렵고 아프다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그리고 만성 피로나 무기력증이 나타나기도 한다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dt.co.kr/contents.html?article_no=2022072002102269660002&ref=naver",
+            "search_query": "새집증후군 증상",
+            "terminate": false,
+            "text": "아토피 피부염, 천식 같은 기존에 있던 알러지 질환이 심해지는 증상이 있어요. 하지만 그 외에도 특별한 원인 없이 두드러기가 나거나 눈이 가렵고 따갑죠. 그리고 만성 피로, 무기력증이 생길 수가 있어요.",
+            "turn_id": "BK22014825-4",
+            "utterance_id": "BK22014825.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 증상들이 많이 나타나는군요. 그렇다면 새집 증후군을 예방하는 방법을 알 수 있을까요?",
+            "turn_id": "BK22014825-5",
+            "utterance_id": "BK22014825.9"
+        },
+        {
+            "reference_date": "2019-03-21",
+            "reference_text": [
+                {
+                    "value": "새집으로 이사할 경우, 이사할 집에 미리 가서 출입문과 창문을 닫고 보일러를 가동시킨다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그리고 실내기온을 35~40도까지 높인 후 강제로 환기시켜 유해물질을 강제 배출시킨다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이러한 ‘베이크 아웃(bake-out)’을 반복하는 것이 좋다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newsworks.co.kr/news/articleView.html?idxno=345455",
+            "search_query": "새집 증후군 예방법",
+            "terminate": false,
+            "text": "네, 먼저 미리 이사할 집에 방문해 출입문, 창문을 닫아주고 보일러를 켜줘요. 그리고 실내 기온을 35~40도까지 올리고 강제로 환기시킨 다음 앞서 말씀드린 유해 물질을 강제 배출시키는 방법이 있어요. 이 방법을 베이크 아웃이라고 하는데, 여러 번 반복하는 것이 좋죠.",
+            "turn_id": "BK22014825-5",
+            "utterance_id": "BK22014825.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "베이크 아웃이라는 방법이 있었군요. 혹시 베이크 아웃을 더 효과적으로 하려면 어떻게 해야 하나요?",
+            "turn_id": "BK22014825-6",
+            "utterance_id": "BK22014825.11"
+        },
+        {
+            "reference_date": "2021-03-12",
+            "reference_text": [
+                {
+                    "value": "그 방법으로는(bakeout) 충분한 환기와 보일러를 통해 방안 온도를 높이고, 피톤치드과 숯 그리고 공기 정화용 화초 등으로 보완하는 것이다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dt.co.kr/contents.html?article_no=2021031202109923053004&ref=naver",
+            "search_query": "베이크 아웃 보완",
+            "terminate": false,
+            "text": "먼저, 베이크 아웃을 한 다음 피톤치드와 숯을 비롯해 공기 정화용 화초 등으로 보완하는 것이 효과적이죠.",
+            "turn_id": "BK22014825-6",
+            "utterance_id": "BK22014825.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "화초를 들여놓는 것도 베이크 아웃을 효과적으로 할 수 있군요. 그러면 공기정화를 하는 데에 어떤 식물이 있나요?",
+            "turn_id": "BK22014825-7",
+            "utterance_id": "BK22014825.13"
+        },
+        {
+            "reference_date": "2021-11-03",
+            "reference_text": [
+                {
+                    "value": "관엽식물이나 다육식물은 공기오염물질과 냄새 등을 제거하는 효과를 가지고 있다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대표적인 식물로는 산세베리아,행운목,스투키,아이비 등이 있다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kado.net/news/articleView.html?idxno=1097556",
+            "search_query": "공기정화식물",
+            "terminate": false,
+            "text": "네, 공기오염 물질과 냄새 등을 제거하는 효과를 가지고 있는 식물은 관엽식물과 다육식물인데요. 그중 대표적으로 산세베리아, 행운목, 스투키, 아이비 등의 식물들이 있어요.",
+            "turn_id": "BK22014825-7",
+            "utterance_id": "BK22014825.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "관엽식물과 다육식물이 공기정화에 효과적이군요. 그리고 새집증후군에서 벗어나기 위해 또 어떤 방법이 있을까요?",
+            "turn_id": "BK22014825-8",
+            "utterance_id": "BK22014825.15"
+        },
+        {
+            "reference_date": "2021-09-02",
+            "reference_text": [
+                {
+                    "value": "최소한 아침저녁에는 집 앞뒤 창문을 열어 완전히 환기해야 한다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "눈, 코, 목 등이 따갑거나 자극되는 증상은 온도가 높고, 습도가 낮을수록 심해진다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 실내 온도는 18~22도, 습도는 60% 정도로 유지하는 게 좋다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/09/01/2021090101913.html",
+            "search_query": "새집 증후군 환기",
+            "terminate": false,
+            "text": "최소한 아침, 저녁으로 집 안 창문을 열어 완전히 환기하는 것인데요. 온도가 높고 습도가 낮을수록 눈, 코, 목 등이 따끔거리고 자극되는 증상을 겪을 수 있어요. 그래서 실내 온도는 18~22도, 습도는 60% 정도로 유지하는 게 좋아요.",
+            "turn_id": "BK22014825-8",
+            "utterance_id": "BK22014825.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 실내 온도와 습도에도 유의해야겠네요. 그런데도 새집 증후군을 겪게 된다면 어떤 원인이 있을까요?",
+            "turn_id": "BK22014825-9",
+            "utterance_id": "BK22014825.17"
+        },
+        {
+            "reference_date": "2021-11-03",
+            "reference_text": [
+                {
+                    "value": "마지막으로 신축건물이 아닌데도 새집증후군을 겪는다면 곰팡이나 먼지들이 원인일 수도 있다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그렇기 때문에 입주 전 오래된 타일,보일러실 등의 구석진 공간을 잘 청소해야 한다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kado.net/news/articleView.html?idxno=1097556",
+            "search_query": "신축건물 새집증후군",
+            "terminate": false,
+            "text": "그 원인으로는 곰팡이나 먼지 때문일 수도 있죠. 그렇기 때문에 입주 전 오래된 타일이나 보일러실 등의 공간을 구석구석 잘 청소 하셔야 해요.",
+            "turn_id": "BK22014825-9",
+            "utterance_id": "BK22014825.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 이사 가기 전 공간을 구석구석 살펴보는 것도 중요하겠네요. 새집 증후군에 대해서 자세히 알려주셔서 감사합니다.",
+            "turn_id": "BK22014825-10",
+            "utterance_id": "BK22014825.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 저도 자세히 설명하게 되어 뿌듯한 시간이었어요. 그럼 안녕히 계세요!",
+            "turn_id": "BK22014825-10",
+            "utterance_id": "BK22014825.20"
+        }
+    ]
+}

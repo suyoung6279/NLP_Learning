@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012785",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012785",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지가 자신의 변을 먹기도 한다고 하던데, 정말이야?",
+            "turn_id": "BK22012785-1",
+            "utterance_id": "BK22012785.1"
+        },
+        {
+            "reference_date": "44422.0",
+            "reference_text": [
+                {
+                    "value": "식분증은 배변을 먹는 행동이다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "반려동물 중에서는 주로 개에서 나타나는 문제다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/08/13/2021081301204.html",
+            "search_query": "식분증 개",
+            "terminate": false,
+            "text": "응, 변을 먹는 것을 식분증이라고 하는데, 보통 반려동물 중에서 강아지한테 식분증 문제가 발생해.",
+            "turn_id": "BK22012785-1",
+            "utterance_id": "BK22012785.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "왜 본인의 변을 먹는 거야?",
+            "turn_id": "BK22012785-2",
+            "utterance_id": "BK22012785.3"
+        },
+        {
+            "reference_date": "44803.0",
+            "reference_text": [
+                {
+                    "value": "반려견 식분증의 원인은 영양 결핍과 같은 단순한 생리학적 원인에서부터 환경 또는 학습에 따른 행동학적인 이유까지 다양하다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000728518",
+            "search_query": "식분증 원인",
+            "terminate": false,
+            "text": "영양 결핍처럼 단순한 생리학적 원인에서부터 환경으로 인해 강아지가 변을 먹기도 하고, 학습으로 인한 행동학적 이유 등 여러 가지 원인으로 인해서 식분증이 생기게 돼.",
+            "turn_id": "BK22012785-2",
+            "utterance_id": "BK22012785.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 영양이 부족한 강아지가 변을 먹을 수 있겠네?",
+            "turn_id": "BK22012785-3",
+            "utterance_id": "BK22012785.5"
+        },
+        {
+            "reference_date": "44803.0",
+            "reference_text": [
+                {
+                    "value": "생후 2~3개월 정도 된 어린 강아지는 성장을 위해서 하루에 4~5끼를 먹어야 한다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 사료 급여가 충분하지 않아 영양 공급이 원활하게 이루어지지 않으면, 부족한 영양분을 본인의 배설물을 먹어 채우려 한다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000728518",
+            "search_query": "어린 강아지 배설물 영양분",
+            "terminate": false,
+            "text": "맞아. 태어난 지 2개월에서 3개월 정도 된 강아지는 성장하기 위해 하루에 4끼에서 5끼를 섭취해야 하는데, 사료를 충분히 주지 않아서 영양 공급이 잘되지 않으면 배설물을 통해 부족한 영양분을 채우려고 해.",
+            "turn_id": "BK22012785-3",
+            "utterance_id": "BK22012785.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "부족하지 않게 사료를 충분히 급여해야 하는구나. 또 다른 이유로도 식분증이 생길 수 있어?",
+            "turn_id": "BK22012785-4",
+            "utterance_id": "BK22012785.7"
+        },
+        {
+            "reference_date": "44803.0",
+            "reference_text": [
+                {
+                    "value": "부모견의 모습을 보고 배우는 경우도 있다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "어미는 새끼가 배설을 하면 본능적으로 새끼의 냄새를 지우려 변을 먹어치운다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "어미의 모습을 따라해서 나타나는 식분증은 시간이 지나면 대부분 사라진다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000728518",
+            "search_query": "새끼 식분증 부모견 모습",
+            "terminate": false,
+            "text": "어미 개는 본능적으로 새끼가 배설한 것을 먹어 치워 새끼의 냄새를 없애려고 하는데, 이러한 모습을 보고 배우기도 해. 만약 그로인해 생긴 식분증은 자연스럽게 시간이 흐르면 없어져.",
+            "turn_id": "BK22012785-4",
+            "utterance_id": "BK22012785.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 강아지가 스트레스를 받아도 식분증이 생길 수 있는 거야?",
+            "turn_id": "BK22012785-5",
+            "utterance_id": "BK22012785.9"
+        },
+        {
+            "reference_date": "44789.0",
+            "reference_text": [
+                {
+                    "value": "평소 개를 가둬서 키우거나 묶어서 키우는 경우, 또는 충분한 산책이나 놀이를 해주지 않아 에너지와 스트레스를 충분히 해소해 주지 않는 경우 스트레스로 인한 식분증이 나타날 수 있다.",
+                    "value_time": "44819.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisajournal.com/news/articleView.html?idxno=244065",
+            "search_query": "개 식분증 스트래스",
+            "terminate": false,
+            "text": "응. 평상시에 강아지를 묶거나 가둬놓고 키우는 경우, 또 충분하게 산책시키지 않고 놀아주지 않는 경우에 스트레스로 인한 식분증이 생길 수 있어. ",
+            "turn_id": "BK22012785-5",
+            "utterance_id": "BK22012785.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 변을 먹을 때 혼내면 안 돼?",
+            "turn_id": "BK22012785-6",
+            "utterance_id": "BK22012785.11"
+        },
+        {
+            "reference_date": "44789.0",
+            "reference_text": [
+                {
+                    "value": "변을 먹는 모습을 발견한 보호자들은 대개 놀라서 개를 혼내는 경우가 많다.",
+                    "value_time": "44819.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 이렇게 혼내는 행동은 식분증을 더욱 악화시킬 뿐 개선하는 데 도움이 되지 않는다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisajournal.com/news/articleView.html?idxno=244065",
+            "search_query": "식분증 혼내는 행동",
+            "terminate": false,
+            "text": "대다수의 견주들이 강아지가 변을 먹는 걸 보면 놀라서 혼을 내는데, 그렇게 하면 되레 강아지의 식분증을 더 심하게 만들고 악영향을 끼쳐.",
+            "turn_id": "BK22012785-6",
+            "utterance_id": "BK22012785.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "변을 먹어도 혼내면 안 되겠구나. 그런데 처음 그 모습을 보게 되면 많이 놀라긴 할 것 같아.",
+            "turn_id": "BK22012785-7",
+            "utterance_id": "BK22012785.13"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혼내는 것보다는 강아지와 잘 놀아주고 산책을 시켜주는 게 더 좋아.",
+            "turn_id": "BK22012785-7",
+            "utterance_id": "BK22012785.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 해야겠다. 그런데 식분증을 고칠 수 있는 약이 따로 있어?",
+            "turn_id": "BK22012785-8",
+            "utterance_id": "BK22012785.15"
+        },
+        {
+            "reference_date": "44422.0",
+            "reference_text": [
+                {
+                    "value": "식분증은 원인이 다양해 치료가 어렵기도 하지만, 일단 '약' 자체가 없다.",
+                    "value_time": "44819.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "온라인 등을 통해 식분증 치료제로 판매되는 제품은 모두 기능성 사료류에 속한다.",
+                    "value_time": "44819.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/08/13/2021081301204.html",
+            "search_query": "식분증 치료제",
+            "terminate": false,
+            "text": "다양한 이유로 발생하는 식분증은 약 자체가 없고, 치료도 어려워. 인터넷 등에서 판매하는 식분증 치료제는 모두 기능성 사료 종류에 포함돼있는 거야.",
+            "turn_id": "BK22012785-8",
+            "utterance_id": "BK22012785.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 궁금한 게 있는데, 어린 강아지 말고 다 큰 개가 식분증이 있는 경우는 원인이 뭘까?",
+            "turn_id": "BK22012785-9",
+            "utterance_id": "BK22012785.17"
+        },
+        {
+            "reference_date": "44803.0",
+            "reference_text": [
+                {
+                    "value": "반면 성견의 식분증은 질병의 신호일 수 있어 유의 깊게 살펴봐야 한다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기생충에 감염되었거나 췌장염·췌장 기능 부전 등으로 영양분 흡수가 제대로 이루어지지 않으면 배설물을 먹어 부족한 영양분을 보충하려 하기 때문이다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000728518",
+            "search_query": "성견 식분증",
+            "terminate": false,
+            "text": "다 큰 개는 질병으로 인해서 식분증이 생길 수 있기 때문에 주의 깊게 봐야 해. 췌장 기능 부전이나 췌장염 또는 기생충에 감염되는 등으로 인해서 영양분 흡수가 충분히 안 되면, 변을 먹어서 영양분을 채우려고 하거든.",
+            "turn_id": "BK22012785-9",
+            "utterance_id": "BK22012785.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "성견이 식분증이 있으면 몸에 문제가 생긴 걸 수 있구나.",
+            "turn_id": "BK22012785-10",
+            "utterance_id": "BK22012785.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "만약 성견이 식분증 행동을 보인다면, 다른 질환이 생긴 건지 잘 살펴봐.",
+            "turn_id": "BK22012785-10",
+            "utterance_id": "BK22012785.20"
+        }
+    ]
+}

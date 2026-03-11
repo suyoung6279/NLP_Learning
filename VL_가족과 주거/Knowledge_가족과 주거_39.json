@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22017051",
+        "name": "2022 한국어 블렌더봇 데이터 BK22017051",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 부모님 성씨가 김씨, 이씨인데 생각해 보면 우리나라는 참 특정 성씨들이 많은 것 같아요.",
+            "turn_id": "BK22017051-1",
+            "utterance_id": "BK22017051.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇죠. 한국의 성씨는 여러 가지 특별한 점이 있어요.",
+            "turn_id": "BK22017051-1",
+            "utterance_id": "BK22017051.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한국인 성씨의 가장 큰 특징은 무엇이라 할 수 있을까요?",
+            "turn_id": "BK22017051-2",
+            "utterance_id": "BK22017051.3"
+        },
+        {
+            "reference_date": "41225.0",
+            "reference_text": [
+                {
+                    "value": "한국인의 성씨에서 가장 큰 특징은 본관제도이다.",
+                    "value_time": "44832.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "본관은 조상의 출신지 또는 씨족의 거주지를 성 앞에 붙여서 사용하게 된 것으로, 대개 고려초 이후 성이 일반화되는 과정에서 혈족계통을 달리하는 같은 성이 많이 생겨남에 다른 혈족의 성과 구별하기 위해 쓰이게 되었다.",
+                    "value_time": "44832.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyeongin.com/main/view.php?key=690927",
+            "search_query": "한국 성씨 특징",
+            "terminate": false,
+            "text": "한국인의 성씨에서 가장 돋보이는 점은 본관 제도예요. 본관이란 조상의 고향이나 씨족이 거주하고 있는 지역을 성 앞에 붙여서 사용하는 것이에요. 고려 초에 성이 일반화되는 단계에서 핏줄이 다르지만 같은 성을 쓰는 사례가 많아지자 그것을 구분하기 위해 쓰이게 된 것이었죠.",
+            "turn_id": "BK22017051-2",
+            "utterance_id": "BK22017051.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 같은 성이라도 본관이 다르다면 구분도 달라진다는 뜻인가요?",
+            "turn_id": "BK22017051-3",
+            "utterance_id": "BK22017051.5"
+        },
+        {
+            "reference_date": "41225.0",
+            "reference_text": [
+                {
+                    "value": "성이 같아도 본관이 다르면 다른 혈족이다.",
+                    "value_time": "44832.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 이것도 원칙론이지 실제는 예외가 많아 대단히 복잡하다.",
+                    "value_time": "44832.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "씨족의 뿌리를 같이하면서도 성 또는 본관을 달리하는 성씨가 있고, 반대로 다른 혈족이면서도 성과 본관을 동일하게 하는 경우가 있다.",
+                    "value_time": "44832.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyeongin.com/main/view.php?key=690927",
+            "search_query": "성씨 본관",
+            "terminate": false,
+            "text": "맞아요. 본관이 다르다면 같은 성씨를 써도 다른 혈족으로 취급해요. 하지만 이것은 원칙적인 것이고 실제로는 같은 뿌리를 가지면서도 성과 본관이 다른 경우도 있고, 다른 뿌리임에도 성과 본관이 똑같은 경우 등 예외적인 일들이 많아서 굉장히 복잡한 문제죠.",
+            "turn_id": "BK22017051-3",
+            "utterance_id": "BK22017051.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 한국에는 몇 개의 성씨가 존재할까요?",
+            "turn_id": "BK22017051-4",
+            "utterance_id": "BK22017051.7"
+        },
+        {
+            "reference_date": "44675.0",
+            "reference_text": [
+                {
+                    "value": "2015년 대한민국 통계청의 인구주택총조사 결과 외국에서 귀화하여 생긴 성씨까지 합하면 5,582개의 성씨가 있는 것으로 조사되었다.[2]",
+                    "value_time": "44832.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EC%9D%98_%EC%84%B1%EC%94%A8",
+            "search_query": "한국의 성씨",
+            "terminate": false,
+            "text": "2015년 통계청이 실시한 인구주택총조사에선 외국에서 귀화하면서 생긴 새로운 성씨까지 포함해 5,582개의 성씨가 있는 것으로 나타났어요.",
+            "turn_id": "BK22017051-4",
+            "utterance_id": "BK22017051.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 많은 성씨가 있군요. 그렇다면 우리나라에서 제일 많은 성씨는 무엇인가요?",
+            "turn_id": "BK22017051-5",
+            "utterance_id": "BK22017051.9"
+        },
+        {
+            "reference_date": "44221.0",
+            "reference_text": [
+                {
+                    "value": "2015 인구주택총조사에 따르면 김씨가 전체 인구의 21.5%로 1위, 이어 이씨(14.7%), 박씨(8.4%), 최씨 (4.7%), 정씨(4.3%), 강씨(2.4%), 조씨(2.1%), 윤씨(2.1%), 장씨(2.0%), 임씨(1.7%) 순이었다.",
+                    "value_time": "44832.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://stv.seoul.co.kr/news/newsView.php?id=20210125500093&wlog_tag3=naver",
+            "search_query": "가장 많은 한국의 성씨",
+            "terminate": false,
+            "text": "조금 전 언급했던 2015 인구주택총조사 통계에서는 김씨가 전체 인구 중 21.5%로 가장 많았고, 그 뒤에는 이, 박, 최, 정, 강, 조, 윤, 장, 임 순으로 많았어요.",
+            "turn_id": "BK22017051-5",
+            "utterance_id": "BK22017051.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "김씨 성은 어떤 특징이 있나요?",
+            "turn_id": "BK22017051-6",
+            "utterance_id": "BK22017051.11"
+        },
+        {
+            "reference_date": "44781.0",
+            "reference_text": [
+                {
+                    "value": "한국의 김(金)씨는 거의 대부분이 신라의 김알지를 시원으로 하는 경주 김씨계와 가야의 수로왕을 시원으로 하는 김해 김씨계로 크게 나눌 수 있다.",
+                    "value_time": "44832.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "김(金)씨는 2015년 대한민국 통계청 인구조사에서 10,689,959명으로 조사되어 가장 인구가 많은 성씨이다.",
+                    "value_time": "44832.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B9%80_(%EC%84%B1%EC%94%A8)",
+            "search_query": "김씨",
+            "terminate": false,
+            "text": "김씨는 2015년 인구조사에서 10,689,959명이 있는 것으로 조사됐어요. 이는 우리나라에서 제일 많은 성씨로, 신라의 김알지를 뿌리로 두는 경주 김씨와 가야의 수로왕을 뿌리로 두는 김해 김씨 계열로 나눌 수 있어요.",
+            "turn_id": "BK22017051-6",
+            "utterance_id": "BK22017051.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이씨 성은 어떤 특징이 있나요?",
+            "turn_id": "BK22017051-7",
+            "utterance_id": "BK22017051.13"
+        },
+        {
+            "reference_date": "44813.0",
+            "reference_text": [
+                {
+                    "value": "이(李)씨는 2015년 대한민국 통계청 인구주택총조사에서 대한민국에 7,306,828명으로 조사되었다.",
+                    "value_time": "44832.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "본관은 문헌에 546본이 전해진다.",
+                    "value_time": "44832.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%B4_(%EC%84%B1%EC%94%A8)",
+            "search_query": "이씨",
+            "terminate": false,
+            "text": "2015년 인구조사에서 7,306,828명이 이씨 성을 가지고 있는 것으로 조사됐어요. 문헌에 적혀 있는 본관의 수는 무려 546본이나 되죠.",
+            "turn_id": "BK22017051-7",
+            "utterance_id": "BK22017051.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "박씨는 어떤 특징이 있나요?",
+            "turn_id": "BK22017051-8",
+            "utterance_id": "BK22017051.15"
+        },
+        {
+            "reference_date": "44808.0",
+            "reference_text": [
+                {
+                    "value": "박(朴)씨는 2015년 대한민국 통계청 인구 조사에서 4,192,074명으로 조사되어 한국 성씨 인구 3위이다.",
+                    "value_time": "44832.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "밀양 박씨가 박씨 인구의 77.8%를 차지한다.",
+                    "value_time": "44832.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%95_(%EC%84%B1%EC%94%A8)",
+            "search_query": "박씨",
+            "terminate": false,
+            "text": "박씨는 2015년 인구조사에서 4,192,074명이 가지고 있는 것으로 조사됐어요. 이는 한국 성씨 3위에 해당하며, 밀양 박씨가 박씨의 전체 77.8%의 비중을 가지고 있어요.",
+            "turn_id": "BK22017051-8",
+            "utterance_id": "BK22017051.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 이런 특정 성씨들이 우리나라에 유독 많은 이유가 무엇인가요?",
+            "turn_id": "BK22017051-9",
+            "utterance_id": "BK22017051.17"
+        },
+        {
+            "reference_date": "44821.0",
+            "reference_text": [
+                {
+                    "value": "16세기 조선에서 성씨가 없는 무성층(無姓層) 비율은 전체 인구의 약 40%를 차지하였다.",
+                    "value_time": "44832.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1909년 민적법(民籍法)이 시행되어 모든 사람이 성과 본을 가지도록 법제화가 되면서 국민 모두가 성씨를 취득하게 되었다.",
+                    "value_time": "44832.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "무성층에게 성을 갖도록 했더니 대부분이 인구가 많던 김씨, 이씨, 박씨로 신고를 하여 일부 성씨가 인구 대부분을 차지하는 기현상이 빚어졌다.",
+                    "value_time": "44832.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EC%9D%98_%EC%84%B1%EC%94%A8%EC%99%80_%EC%9D%B4%EB%A6%84",
+            "search_query": "특정 성씨가 많은 이유",
+            "terminate": false,
+            "text": "원래 16세기 조선만 하더라도, 성씨가 없는 사람들의 비율은 전체의 약 40%나 되었지만, 1909년 민적법이 시행되면서 모든 국민이 성과 본관을 가질 수 있게 되었어요. 그러자 성이 없는 대다수 사람들이 비중이 높던 김씨와 이씨, 박씨로 성을 가져가게 되면서 우리나라의 대부분이 일부 성씨로 채워지게 되는 현상이 벌어진 것이죠.",
+            "turn_id": "BK22017051-9",
+            "utterance_id": "BK22017051.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리의 성씨에도 굉장히 다양하고 재미있는 이야기들이 얽혀 있군요. 이야기 잘 들었습니다.",
+            "turn_id": "BK22017051-10",
+            "utterance_id": "BK22017051.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "재미있게 들어주셔서 감사하네요. 다음번에도 즐거운 이야기 나눌 수 있었으면 좋겠습니다.",
+            "turn_id": "BK22017051-10",
+            "utterance_id": "BK22017051.20"
+        }
+    ]
+}

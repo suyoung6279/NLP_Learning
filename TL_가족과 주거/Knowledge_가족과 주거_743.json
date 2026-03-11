@@ -1,0 +1,321 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016511",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016511",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 집 개가 자주 짖어서 이웃들한테 불편을 주고 있어. 어떻게 해야 할지 고민이야.",
+            "turn_id": "BK22016511-1",
+            "utterance_id": "BK22016511.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "개를 훈육하는 방법을 모르겠다면 서울 반려동물 시민학교에서 행동 교정 신청을 해봐.",
+            "turn_id": "BK22016511-1",
+            "utterance_id": "BK22016511.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "서울 반려동물 시민학교 그게 뭐야?",
+            "turn_id": "BK22016511-2",
+            "utterance_id": "BK22016511.3"
+        },
+        {
+            "reference_date": "44315.0",
+            "reference_text": [
+                {
+                    "value": "‘서울반려동물시민학교’는 서울시와 ㈔유기견없는도시가 함께 운영하는 반려동물 교육 플랫폼이다.",
+                    "value_time": "44829.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.seouland.com/arti/society/society_general/8235.html",
+            "search_query": "서울 반려동물 시민학교",
+            "terminate": false,
+            "text": "서울 반려동물 시민학교는 반려동물 교육 플랫폼이야. 서울시와 유기견 없는 도시가 같이 관리해.",
+            "turn_id": "BK22016511-2",
+            "utterance_id": "BK22016511.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려동물을 교육하는 플랫폼이 있었다니 몰랐어. 교육은 언제까지 진행해?",
+            "turn_id": "BK22016511-3",
+            "utterance_id": "BK22016511.5"
+        },
+        {
+            "reference_date": "44315.0",
+            "reference_text": [
+                {
+                    "value": "올해는 4월부터 12월까지 서울동물복지 지원센터와 서울 반려동물시민학교 누리집(seoulschool.co.kr)에서 온·오프라인으로 나눠 실시하며, 교육비는 전 과정이 무료다.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.seouland.com/arti/society/society_general/8235.html",
+            "search_query": "서울 반려동물 시민학교 신청",
+            "terminate": false,
+            "text": "올해 4월~12월까지야. 서울 동물복지 지원센터와 서울 반려동물 시민학교 누리집에서 온라인과 오프라인으로 나눠서 진행하고, 교육비는 전 과정 무료야.",
+            "turn_id": "BK22016511-3",
+            "utterance_id": "BK22016511.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "무료라니 더 좋은걸. 신청자 자격 조건은 어떻게 돼?",
+            "turn_id": "BK22016511-4",
+            "utterance_id": "BK22016511.7"
+        },
+        {
+            "reference_date": "44315.0",
+            "reference_text": [
+                {
+                    "value": "유기동물을 입양한 시민뿐 아니라 동물에 관심 있는 시민이라면 회원가입과 교육 신청을 거쳐 교육과정에 참여할 수 있다.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.seouland.com/arti/society/society_general/8235.html",
+            "search_query": "서울 반려동물 시민학교 참여방법",
+            "terminate": false,
+            "text": "동물에게 관심이 있거나, 유기 동물을 입양한 주민 모두 신청이 가능해. 회원가입 후 교육 신청을 하면 교육과정에 참가할 수 있어.",
+            "turn_id": "BK22016511-4",
+            "utterance_id": "BK22016511.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려동물을 키우는 사람들은 다 되는구나. 오프라인 교육에 참여하려면 반려견은 어떤 조건이어야 해?",
+            "turn_id": "BK22016511-5",
+            "utterance_id": "BK22016511.9"
+        },
+        {
+            "reference_date": "44792.0",
+            "reference_text": [
+                {
+                    "value": "안전한 교육을 위해 모든 반려견은 동물등록과 광견병 백신접종을 완료해야 참여가 가능하다.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatoday.co.kr/view.php?key=20220819010011478",
+            "search_query": "서울 반려동물 시민학교 교육",
+            "terminate": false,
+            "text": "안전한 교육을 위해 광견병 백신접종과 동물등록이 완료된 반려견만 참여할 수 있어.",
+            "turn_id": "BK22016511-5",
+            "utterance_id": "BK22016511.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 개는 다 해놨어. 반려동물 시민학교에는 어떤 교육 과목이 있어?",
+            "turn_id": "BK22016511-6",
+            "utterance_id": "BK22016511.11"
+        },
+        {
+            "reference_date": "44315.0",
+            "reference_text": [
+                {
+                    "value": "교육과목은 △반려동물(견·묘) 돌봄 교육 △입양(전·후) 교육 △사회화·예절 교육 △반려동물 행동교정 교육 △생명존중 명사 특강 △동물보호 체험교실 등이다.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.seouland.com/arti/society/society_general/8235.html",
+            "search_query": "서울 반려동물 시민학교 교육과목",
+            "terminate": false,
+            "text": "반려동물 시민학교에서는 입양 전후 교육, 사회화 예절 교육, 행동 교정 교육, 반려동물 돌봄 교육, 생명 존중 명사 특강, 동물보호 체험 교실 등의 교육과목이 있어.",
+            "turn_id": "BK22016511-6",
+            "utterance_id": "BK22016511.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좋은 교육과목이 많이 있네. 반려동물의 행동 교정 교육에 반려인도 함께 참여하는 이유는 뭘까?",
+            "turn_id": "BK22016511-7",
+            "utterance_id": "BK22016511.13"
+        },
+        {
+            "reference_date": "44738.0",
+            "reference_text": [
+                {
+                    "value": "하지만 시가 학교를 개설한 진짜 목적은 '반려인 역량 강화'에 있다.",
+                    "value_time": "44829.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "동물 관련 TV 프로그램 제목처럼, '세상에 나쁜 개는 없어도 자격이 부족한 보호자는 있다'고 보기 때문이다.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "실제 잊을 만하면 터지는 개물림 사고 원인도 반려인들의 주의부족이나 훈련미숙 탓이 크다는 분석이 대부분이다.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2022062416330001539?did=NA",
+            "search_query": "반려동물 행동교정",
+            "terminate": false,
+            "text": "시에서 학교를 신설한 실제 목적은 반려인 역량 강화에 있어. 동물 TV 프로그램 제목과 같이 세상에 나쁜 개는 없어도 자격이 부족한 보호자는 있다고 생각하고 있어. 종종 생기는 개 물림 사고의 원인도 개를 키우는 사람들의 주의 부족이나 훈련 미숙 탓이 크다는 해석이 대다수야.",
+            "turn_id": "BK22016511-7",
+            "utterance_id": "BK22016511.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려동물 행동 교정 교육받으면 정말 효과가 있을까?",
+            "turn_id": "BK22016511-8",
+            "utterance_id": "BK22016511.15"
+        },
+        {
+            "reference_date": "44738.0",
+            "reference_text": [
+                {
+                    "value": "지난해부터 시민학교에서 행동교정과 사회화 교육을 맡고 있는 강사 고이든씨는 \"과하게 짖는 개들의 80%는 보호자가 반려견과 잠자리를 분리하는 것만으로도 이를 절반 이상 줄어들게 할 수 있다\"며 \"5회짜리 기초 수업이지만 보호자 역량에 따라 개선 효과가 크게 좌우된다\"고 강조한다.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2022062416330001539?did=NA",
+            "search_query": "반려동물 시민학교 행동교정",
+            "terminate": false,
+            "text": "반려견의 80퍼센트가 반려인과 자는 곳을 따로 하는 것만으로도 심하게 짖는 상태를 절반 아래로 감소시킬 수 있고 5회 분량의 기초 수업이지만 반려인의 능력에 따라 개선 효과가 크게 달라 질 수 있어.",
+            "turn_id": "BK22016511-8",
+            "utterance_id": "BK22016511.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려인의 능력이 어떠냐에 따라 교정 교육이 엄청나게 도움이 되는구나. 서울 반려 동물시민학교에하는 오프라인 교육은 한 반에 몇 명이 수업을 들어?",
+            "turn_id": "BK22016511-9",
+            "utterance_id": "BK22016511.17"
+        },
+        {
+            "reference_date": "44738.0",
+            "reference_text": [
+                {
+                    "value": "특히 오프라인 교육은 한 반에 6명까지만 들을 수 있기 때문에 신청 경쟁이 치열하다.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2022062416330001539?did=NA",
+            "search_query": "반려동물 시민학교 오프라인교육",
+            "terminate": false,
+            "text": "오프라인에서 하는 교육은 한 반당 6명까지 참여할 수 있기 때문에 신청 경쟁이 치열해.",
+            "turn_id": "BK22016511-9",
+            "utterance_id": "BK22016511.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 빨리 등록해 봐야겠어! 열심히 공부해서 우리 집 개를 올바르게 키워야지.",
+            "turn_id": "BK22016511-10",
+            "utterance_id": "BK22016511.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "맞아 함께 행복해지려면 반려인의 태도는 정말 중요해. 열심히 해봐!",
+            "turn_id": "BK22016511-10",
+            "utterance_id": "BK22016511.20"
+        }
+    ]
+}

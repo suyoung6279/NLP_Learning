@@ -1,0 +1,375 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001910",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001910",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전 산부인과에 다녀왔는데 전치태반이라고 해요. 저 괜찮은 거겠죠?",
+            "turn_id": "BK22001910-1",
+            "utterance_id": "BK22001910.1"
+        },
+        {
+            "reference_date": "2017-12-07",
+            "reference_text": [
+                {
+                    "value": "의학의 발달로 전치태반으로 인한 사망률이 현저히 감소되었기는 하지만 여전히 전치태반은 산모와 태아에게 위협이 되는 질환임에는 틀림이 없다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000320259",
+            "search_query": "전치태반",
+            "terminate": false,
+            "text": "네, 너무 걱정하지 마세요. 의학이 발달하면서 전치태반으로 인한 사망률은 많이 감소하였어요. 하지만 산모와 태아에게 위협이 되는 건 사실이죠.",
+            "turn_id": "BK22001910-1",
+            "utterance_id": "BK22001910.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전치태반이면 무조건 제왕절개를 해야 한다고 하던데 맞나요?",
+            "turn_id": "BK22001910-2",
+            "utterance_id": "BK22001910.3"
+        },
+        {
+            "reference_date": "2022-04-30",
+            "reference_text": [
+                {
+                    "value": "전치태반은 자연분만을 시도할 수 있는 하위태반을 제외하고서는 반드시 제왕절개 분만이 필요하다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 출혈이 심하다면 수혈이 필요할 수 있기 때문에 혈액을 공급받을 수 있는 3차 병원에서 수술받는 것이 좋다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000692540",
+            "search_query": "전치태반 제왕절개",
+            "terminate": false,
+            "text": "맞아요. 하위태반의 경우 자연분만을 시도해볼 수 있는데 그 외에는 꼭 제왕절개를 해야 해요. 출혈이 심한 경우 수혈이 필요하기 때문에 혈액을 충분히 공급받을 수 있는 3차 병원에서 수술받는 것이 좋아요.",
+            "turn_id": "BK22001910-2",
+            "utterance_id": "BK22001910.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 부분 전치태반이라고 하셨던 것 같아요. 전치태반도 종류가 있나 보네요.",
+            "turn_id": "BK22001910-3",
+            "utterance_id": "BK22001910.5"
+        },
+        {
+            "reference_date": "2021-09-07",
+            "reference_text": [
+                {
+                    "value": "자궁 입구에 얼마나 영향을 끼치는지에 따라서 자궁 입구가 모두 태반으로 덮인 완전 전치태반, 부분적으로 덮인 부분 전치태반, 입구 바로 가장자리까지 태반이 있는 가장자리 전치태반, 자궁 입구까지 태반이 도달하진 않았으나 태반이 아래에 위치하는 하위 태반 등의 네 가지로 나뉘게 된다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mdtoday.co.kr/mdtoday/index.html?no=429312",
+            "search_query": "완전 전치태반",
+            "terminate": false,
+            "text": "총 4가지로 분류할 수 있어요. 기준은 자궁 입구에 영향을 얼마나 끼치느냐예요. 자궁 입구가 모두 태반으로 덮여있다면 완전 전치태반, 부분적으로 덮였다면 부분 전치태반, 입구 바로 가장자리까지 태반이 있다면 가장자리 전치태반, 자궁 입구까지 도달하진 않았지만 비교적 아래에 있는 하위태반이 있어요.",
+            "turn_id": "BK22001910-3",
+            "utterance_id": "BK22001910.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 전치태반이 생기는 이유가 뭔가요? 평범한 임신이 아니라는 생각에 조금 우울해지기도 해요.",
+            "turn_id": "BK22001910-4",
+            "utterance_id": "BK22001910.7"
+        },
+        {
+            "reference_date": "2020-03-11",
+            "reference_text": [
+                {
+                    "value": "전치태반의 원인은 아직 아직 명확하게 밝혀지지 않았다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 고령, 다산, 제왕절개수술, 자궁근종절제술 횟수 등과 밀접한 관계가 있는 것으로 알려지고 있다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=140376",
+            "search_query": "전치태반 원인",
+            "terminate": false,
+            "text": "원인은 아직 정확히 밝혀지지 않았지만 고령, 다산, 제왕절개수술, 자궁근종절제술 횟수와 밀접한 관계가 있는 것으로 알려져 있어요.",
+            "turn_id": "BK22001910-4",
+            "utterance_id": "BK22001910.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내가 무슨 잘못을 해서 이렇게 된 걸까 생각 많이 했었는데 원인 불명이라니 왠지 좀 마음이 놓여요. 저는 별다른 증상 없이 검진 갔다가 알게 됐는데 증상이 따로 있나요?",
+            "turn_id": "BK22001910-5",
+            "utterance_id": "BK22001910.9"
+        },
+        {
+            "reference_date": "2019-03-04",
+            "reference_text": [
+                {
+                    "value": "전치태반의 주요 증상은 통증을 동반하지 않는 무통성 자궁 출혈이다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "첫 출혈은 속옷에 가볍게 묻는 정도로 그친다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 임신 주수가 더해질수록 출혈의 양과 횟수가 늘어난다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=72460",
+            "search_query": "전치태반 증상",
+            "terminate": false,
+            "text": "주 증상은 통증 없는 무통성 자궁 출혈이에요. 처음에는 속옷에 조금 묻는 정도지만 주 수가 지날수록 출혈이 많아지고 횟수도 늘어나게 돼요.",
+            "turn_id": "BK22001910-5",
+            "utterance_id": "BK22001910.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전치태반 출산이 어렵다고 하는 이유가 출혈 때문인 건가요?",
+            "turn_id": "BK22001910-6",
+            "utterance_id": "BK22001910.11"
+        },
+        {
+            "reference_date": "2017-12-07",
+            "reference_text": [
+                {
+                    "value": "정상 임신에서는 분만 후 상절부의 근육층이 효과적으로 수축하게 돼 자연스럽게 지혈이 이루어지지만, 전치태반은 자궁 하절부에 붙어 있다가 분만 시 떨어진 후 근육층이 덜 발달한 자궁 하절부가 상절부처럼 적절한 수축을 하지 못해 대량 출혈이 발생하게 되는 것.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000320259",
+            "search_query": "전치태반 어려운 이유",
+            "terminate": false,
+            "text": "맞아요. 정상 임신이라면 출산을 마친 후 상절부의 근육층이 잘 수축하면서 자연스럽게 지혈이 되거든요. 전치태반은 근육층이 비교적 덜 발달한 하절부에 붙어있다가 출산을 하며 떨어지며 상절부처럼 적절하게 수축을 못 하게 돼요. 그래서 대량 출혈이 발생하게 되는 거에요.",
+            "turn_id": "BK22001910-6",
+            "utterance_id": "BK22001910.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그럼 저는 앞으로 어떻게 관리를 해야 안전하게 출산할 수 있을까요?",
+            "turn_id": "BK22001910-7",
+            "utterance_id": "BK22001910.13"
+        },
+        {
+            "reference_date": "2022-04-10",
+            "reference_text": [
+                {
+                    "value": "전치태반이 나타나는 임신부가 의료진과의 상담 없이 운동하면 인해 자궁 출혈이 심해져 임신부와 태아 모두 위험해질 수 있다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000685649",
+            "search_query": "전치태반 관리",
+            "terminate": false,
+            "text": "의료진과 상의 없이 운동하는 것을 피해야 해요. 전치태반이 있다면 운동으로 인해 자궁 출혈이 더 심해질 수 있으니까요.",
+            "turn_id": "BK22001910-7",
+            "utterance_id": "BK22001910.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 요즘은 임산부여도 무조건 눕거나 쉬지 말고 운동을 해야 한다고 하던데 전혀 안 되나요?",
+            "turn_id": "BK22001910-8",
+            "utterance_id": "BK22001910.15"
+        },
+        {
+            "reference_date": "2022-04-30",
+            "reference_text": [
+                {
+                    "value": "이때까지 임신을 성공적으로 유지하기 위해 임신부는 최대한 안정을 취해야 한다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "부부관계는 피하고, 자궁과 자궁경부에 자극을 주는 어떤 운동이나 활동도 삼가는 것이 좋다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000692540",
+            "search_query": "전치태반 운동",
+            "terminate": false,
+            "text": "임신을 잘 유지하기 위해서는 최대한 안정을 취하는 것이 중요해요. 부부관계는 물론이고 자궁, 자궁경부에 자극이 갈 수 있는 운동이나 활동은 무엇이라도 피해야 해요.",
+            "turn_id": "BK22001910-8",
+            "utterance_id": "BK22001910.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집에만 있는 게 답답하긴 하지만 건강하게 출산하려면 참아야겠죠. 큰 이슈가 없다면 만삭으로 출산할 수 있겠죠?",
+            "turn_id": "BK22001910-9",
+            "utterance_id": "BK22001910.17"
+        },
+        {
+            "reference_date": "2016-08-24",
+            "reference_text": [
+                {
+                    "value": "이 경우 안정을 취하고 출혈 없이 만삭까지 컨디션을 유지하는 것이 관건이다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "출혈조절이 어려운 경우 임신 주수에 관계없이 분만해야한다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/life/health/article/201608241617402",
+            "search_query": "전치태반 만삭",
+            "terminate": false,
+            "text": "안정을 취하면서 출혈 없이 만삭까지 컨디션을 잘 유지하는 것이 포인트에요. 만약 출혈 조절이 안된다면 임신 주수와는 상관없이 출산을 해야 하니 알아두세요.",
+            "turn_id": "BK22001910-9",
+            "utterance_id": "BK22001910.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 어떻게 하느냐에 따라 출산 시기가 달라질 수 있겠네요. 최대한 누워서 쉬어야겠네요.",
+            "turn_id": "BK22001910-10",
+            "utterance_id": "BK22001910.19"
+        },
+        {
+            "reference_date": "2021-08-17",
+            "reference_text": [
+                {
+                    "value": "전치태반 산모들의 출혈에 따른 위험을 최소화하고 안전하게 치료하기 위해 하이브리드수술실에서 제왕절개와 자궁동맥색전술을 함께 시행하는 시스템이 있다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.inews24.com/view/1396519",
+            "search_query": "전치태반 수술",
+            "terminate": false,
+            "text": "전치태반 산모들을 위한 제왕절개, 자궁동맥색전술을 함께 시행하는 시스템도 있으니 너무 걱정하지 마세요. 산모의 출혈에 따른 위험을 최소화하며 안전하게 치료할 수 있도록 하이브리드수술실에서 진행돼요.",
+            "turn_id": "BK22001910-10",
+            "utterance_id": "BK22001910.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 전문가들이 꾸준히 노력해주고 있군요. 편히 마음먹고 안정 취하다가 출산 잘하고 올게요. 다음엔 예쁜 아가랑 같이 봐요.",
+            "turn_id": "BK22001910-11",
+            "utterance_id": "BK22001910.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "의료진들을 믿고 마음을 편안히 가지면 다 잘될 거에요. 순산하시길 바라고 출산하면 연락주세요.",
+            "turn_id": "BK22001910-11",
+            "utterance_id": "BK22001910.22"
+        }
+    ]
+}

@@ -1,0 +1,362 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007219",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007219",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 강아지가 다리를 불편해하는 것 같아서 검색해 봤더니 슬개골 탈구일 수 있대. 걱정이 많이 되는데, 슬개골 탈구는 어떤 병이야?",
+            "turn_id": "BK22007219-1",
+            "utterance_id": "BK22007219.1"
+        },
+        {
+            "reference_date": "2022-08-22",
+            "reference_text": [
+                {
+                    "value": "슬개골은 무릎 앞에 있는 무릎 뼈로, 무릎 관절을 보호하고 다리 근육을 당겨 반려견이 걷고 뛰는데 매우 중요한 역할을 한다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "슬개골탈구는 대퇴골 활차구의 깊이가 변형되거나 낮아 슬개골이 제대로 고정되지 못하고 탈출하는 질환을 말한다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.jeonmae.co.kr/news/articleView.html?idxno=910311",
+            "search_query": "강아지 슬개골탈구",
+            "terminate": false,
+            "text": "강아지가 다리가 불편해서 걱정이구나. 무릎 앞쪽에 있는 무릎뼈가 슬개골인데, 이 슬개골은 무릎 관절을 보호하고 다리 근육을 당기는 역할을 해서 강아지가 걷고 뛰도록 하는 곳이야. 그런데, 대퇴골 활차구의 깊이가 낮거나 변형되어 슬개골이 제대로 고정되지 않아 슬개골이 빠지는 질환을 슬개골 탈구라고 해.",
+            "turn_id": "BK22007219-1",
+            "utterance_id": "BK22007219.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "슬개골이 제 위치에 있지 않아서 뛰거나 걷는 데 문제가 생기는 병이구나. 특히 작은 강아지에게 많이 나타나는 슬개골 탈구도 있다면서?",
+            "turn_id": "BK22007219-2",
+            "utterance_id": "BK22007219.3"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "빠지는 방향에 따라 내측탈구, 외측탈구로 나눈다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이때 소형견은 내측탈구가 흔하다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=59984",
+            "search_query": "소형견 슬개골 탈구",
+            "terminate": false,
+            "text": "응, 슬개골이 빠지는 방향에 따라 내측 탈구와 외측 탈구로 나뉘는데, 소형견은 내측으로 빠지는 내측 탈구가 흔해.",
+            "turn_id": "BK22007219-2",
+            "utterance_id": "BK22007219.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 집 강아지는 몰티즈이니 내측 탈구일 확률이 높겠구나. 강아지들은 왜 슬개골 탈구에 걸리는 거야?",
+            "turn_id": "BK22007219-3",
+            "utterance_id": "BK22007219.5"
+        },
+        {
+            "reference_date": "2022-03-16",
+            "reference_text": [
+                {
+                    "value": "체구가 작은 소형견의 경우 선천적으로 슬개골이 쉽게 탈구되는 구조를 가지고 있다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또, 자주 두 발로 서 있거나 점프를 하는 습관이 있는 경우, 비만인 경우, 생활 환경 등 다양한 요인이 복합적으로 작용해 증상을 유발한다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jeonmin.co.kr/news/articleView.html?idxno=351579",
+            "search_query": "슬개골탈구 원인",
+            "terminate": false,
+            "text": "소형견들은 선천적으로 쉽게 슬개골이 탈구되는 구조로 태어나서 걸리기도 해. 그리고, 두 발로 자주 서거나 점프를 많이 하고 살이 찐 경우, 생활 환경 등의 다양하고 복합적인 이유가 원인이 돼.",
+            "turn_id": "BK22007219-3",
+            "utterance_id": "BK22007219.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소형견들이 선천적으로 슬개골 탈구가 많이 생기는구나. 슬개골 탈구가 나타나면 어떤 증상이 나타나?",
+            "turn_id": "BK22007219-4",
+            "utterance_id": "BK22007219.7"
+        },
+        {
+            "reference_date": "2022-03-21",
+            "reference_text": [
+                {
+                    "value": "슬개골이 탈구되면 나타나는 증상으로는 다리에 힘을 주지 않고 걷기, 절뚝거리기, 간헐적 다리들기, 뒷다리 오다리 등 비정상적인 자세를 취하게 된다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthinnews.co.kr/news/articleView.html?idxno=28754",
+            "search_query": "슬개골탈구 증상",
+            "terminate": false,
+            "text": "슬개골 탈구가 나타나면 여러 비정상적인 자세를 취하는 데 다리에 힘을 주지 않고 걷는다던가 절뚝거리기도 하고, 간헐적으로 다리를 드는 행동을 하고 뒷다리가 오다리가 되기도 해.",
+            "turn_id": "BK22007219-4",
+            "utterance_id": "BK22007219.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 강아지는 절뚝거리기도 하고 가끔 다리를 들기도 하는데 슬개골 탈구가 맞나 보다. 병원에 가서 진료받아 봐야겠지?",
+            "turn_id": "BK22007219-5",
+            "utterance_id": "BK22007219.9"
+        },
+        {
+            "reference_date": "2021-09-10",
+            "reference_text": [
+                {
+                    "value": "반려견에게 슬개골 탈구로 의심되는 증상이 보인다면 강아지 동물병원에 방문해 검사와 치료를 받아야 한다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "퇴행성 관절염이나 십자인대가 끊어지는 등 다른 질환이 발병할 수 있기 때문이다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ikunkang.com/news/articleView.html?idxno=34469",
+            "search_query": "슬개골탈구 방치",
+            "terminate": false,
+            "text": "그럼, 슬개골 탈구의 의심 증상이 보이면 동물 병원에 가서 검사와 치료를 받아야 해. 그냥 두면 퇴행성 관절염이나 십자인대가 끊어지는 것 같은 문제들이 생길 수 있어.",
+            "turn_id": "BK22007219-5",
+            "utterance_id": "BK22007219.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "방치하지 말고 바로 동물 병원에 가 봐야 하겠네. 상태에 따라 슬개골 탈구 진행 단계가 있다고 하는 데 자세히 설명 좀 해줘.",
+            "turn_id": "BK22007219-6",
+            "utterance_id": "BK22007219.11"
+        },
+        {
+            "reference_date": "2022-05-06",
+            "reference_text": [
+                {
+                    "value": "슬개골탈구는 진행 단계에 따라 1~4기로 나눌 수 있다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "먼저 1기는 슬개골이 원위치에 존재하나 간혹 빠지며 쉽게 제자리로 돌아가는 상태다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "여기서 더 발전하면 2기로 이어지고 3, 4기는 슬개골의 위치가 아예 제자리를 벗어나 빠진 상태다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://sjbnews.com/news/news.php?number=744614",
+            "search_query": "슬개골탈구 진행",
+            "terminate": false,
+            "text": "슬개골 탈구는 1에서 4기로 진행 단계를 구분하는 데 1기는 슬개골이 제위치에는 있지만 가끔 빠지고 쉽게 다시 제자리로 돌아가는 상태야. 2기는 더 진행된 상태이고, 3기에서 4기는 슬개골이 제 자리에 있지 않은 거야.",
+            "turn_id": "BK22007219-6",
+            "utterance_id": "BK22007219.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 우리 강아지는 많이 진행된 단계가 아니었으면 좋겠어. 치료도 단계마다 다르게 받는 거지?",
+            "turn_id": "BK22007219-7",
+            "utterance_id": "BK22007219.13"
+        },
+        {
+            "reference_date": "2021-12-23",
+            "reference_text": [
+                {
+                    "value": "치료의 경우, 2기 이상부터는 수술이 권고됩니다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "증상이 심각한 수준이 아니라면 뼈를 깎아 골의 깊이를 깊게 하는 방식의 활차구성형술이 진행될 수 있습니다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "심각한 수준이라면 경골결정변위, 사두근분리 등을 사용해 교정하기도 합니다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=56752",
+            "search_query": "슬개골탈구 치료",
+            "terminate": false,
+            "text": "응, 2기 이상부터는 수술을 권하는 경우가 많아. 증상이 심하지 않으면 뼈를 깎아서 골의 깊이를 깊게 하는 활자구성형술을 하기도 해. 하지만, 심각하다면 경골결정변위, 사두근분리를 사용하기도 해.",
+            "turn_id": "BK22007219-7",
+            "utterance_id": "BK22007219.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수술하면 엄청 아프고 고생할 텐데 걱정이네. 일단 슬개골 탈구를 심해지지 않게 해줘야 할 것 같은데 어떻게 하면 될까?",
+            "turn_id": "BK22007219-8",
+            "utterance_id": "BK22007219.15"
+        },
+        {
+            "reference_date": "2022-01-05",
+            "reference_text": [
+                {
+                    "value": "산책 전에는 강아지가 다치지 않도록 충분히 스트레칭과 마사지를 해주고 실내에서는 미끄러지지 않도록 바닥에 매트나 카펫 등을 깔아주는 것이 좋다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.jejutwn.com/news/article.html?no=117720",
+            "search_query": "슬개골탈구 예방",
+            "terminate": false,
+            "text": "산책시키기 전에는 강아지를 스트레칭과 마사지를 해서 다치지 않도록 해주고, 실내에서는 바닥에 매트나 카펫을 깔아 미끄러지지 않게 해주는 것이 좋아.",
+            "turn_id": "BK22007219-8",
+            "utterance_id": "BK22007219.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "온 집안에 카펫을 깔아야겠구나. 또 예방하는 방법이 있으면 알려 줘.",
+            "turn_id": "BK22007219-9",
+            "utterance_id": "BK22007219.17"
+        },
+        {
+            "reference_date": "2022-01-14",
+            "reference_text": [
+                {
+                    "value": "발톱 및 발바닥털 관리 미흡도 주요 원인이다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "발톱과 발바닥털이 길 경우 수직으로 서 있기 어려워지면서 뼈에 무리가 갈 수도 있어 평소 생활상에서 지속적으로 관리를 해주어야 한다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthinnews.co.kr/news/articleView.html?idxno=27193",
+            "search_query": "슬개골탈구 예방",
+            "terminate": false,
+            "text": "발톱이나 발바닥의 털을 잘 관리해 줘야 해. 발톱이나 발바닥 털이 길면 수직으로 서기 힘들어지면서 뼈에 무리가 가거든.",
+            "turn_id": "BK22007219-9",
+            "utterance_id": "BK22007219.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 발바닥에 털이 많으면 미끄러지던데 잘 관리해 줘야겠네. 병원에도 데려가서 진찰을 받아봐야겠어. 오늘 이것저것 좋은 정보 고마워.",
+            "turn_id": "BK22007219-10",
+            "utterance_id": "BK22007219.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "고맙긴, 언제든지 궁금한 것들은 물어봐. 병원 잘 다녀오고, 우리는 다음에 보자.",
+            "turn_id": "BK22007219-10",
+            "utterance_id": "BK22007219.20"
+        }
+    ]
+}

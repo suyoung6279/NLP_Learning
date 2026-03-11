@@ -1,0 +1,350 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009181",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009181",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이버지가 얼마전에 암에 걸려서 외래진료 중이에요. 비용이 부담되어서 알아보니 의료비를 지원하는 제도가 있다고 하던 데 어떤 것인지 알려주실 수 있나요? 병원에 가니 기초생활수급자이면 지원해주는 제도가 있다고 하더라고요.",
+            "turn_id": "BK22009181-1",
+            "utterance_id": "BK22009181.1"
+        },
+        {
+            "reference_date": "2022-09-21",
+            "reference_text": [
+                {
+                    "value": "재난적 의료비는 의료기관 입원 또는 ▲암 ▲뇌혈관 ▲심장질환 ▲희귀질환 ▲중증난치질환 ▲중증화상질환 등 6대 중증질환으로 외래진료를 받는 저소득층에 본인부담금의 최대 80%를 지원하는 제도다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20220921_0002020615&cID=10201&pID=10200",
+            "search_query": "재난적의료비",
+            "terminate": false,
+            "text": "재난적 의료비 말씀하시나 보군요. 의료기관에 입원하거나 암, 뇌혈관 등 6대 중증질환으로 외래진료를 받는 저소득층에게 본인부담금의 최대 80퍼센트를 지원하는 제도를 재난적 의료비라고 해요.",
+            "turn_id": "BK22009181-1",
+            "utterance_id": "BK22009181.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 제도가 있었는지 몰랐네요. 저소득층이 기초생활수급자를 이야기하는 것 맞나요?",
+            "turn_id": "BK22009181-2",
+            "utterance_id": "BK22009181.3"
+        },
+        {
+            "reference_date": "2022-09-21",
+            "reference_text": [
+                {
+                    "value": "의료비가 가구 연 소득 15%를 초과하는 기초생활수급자나 차상위계층, 기준 중위소득 100% 이하 가구가 지원 대상이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "재산과 소득수준에 따라 본인부담 의료비는 50~80%를 지원한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20220921000529",
+            "search_query": "재난적의료비 저소득층",
+            "terminate": false,
+            "text": "맞아요. 기초생활수급자뿐만 아니라 기준 중위소득 100퍼센트 이하 가구, 차상위 계층 중에 의료비가 가구 연 소득 15퍼센트를 초과한다면 지원 대상에 해당돼요. 그리고 본인 부담 의료비는 50에서 80퍼센트를 지원하는 데 재산과 소득수준에 따라서 달라져요.",
+            "turn_id": "BK22009181-2",
+            "utterance_id": "BK22009181.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 저희 아버지도 지원받을 수 있겠네요. 그리고 병원 직원이 아버지께 신청자들이 많이 불편해해서 시행규칙이 바뀔 거라는 이야기도 했다는데 어떤 내용인가요?",
+            "turn_id": "BK22009181-3",
+            "utterance_id": "BK22009181.5"
+        },
+        {
+            "reference_date": "2022-09-21",
+            "reference_text": [
+                {
+                    "value": "보건복지부가 재난적 의료비 지원을 간소화하는 내용을 골자로 한 '재난적의료비 지원에 관한 법률 시행규칙'을 오는 22일부터 11월 3일까지 입법예고한다고 21일 밝혔다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202209211632520327",
+            "search_query": "재난적의료비 보건복지부",
+            "terminate": false,
+            "text": "재난적 의료비 지원에 관한 법률 시행규칙을 오는 22일부터 11월3일까지 입법 예고한다고 보건복지부에서 어제 발표했어요. 이 규칙은 재난적 의료비 지원을 간소화하는 내용이 골자에요.",
+            "turn_id": "BK22009181-3",
+            "utterance_id": "BK22009181.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 내용을 발표했군요. 근데 그동안 신청자들이 어떤 불편함을 느껴서 바뀐 건가요?",
+            "turn_id": "BK22009181-4",
+            "utterance_id": "BK22009181.7"
+        },
+        {
+            "reference_date": "2022-09-21",
+            "reference_text": [
+                {
+                    "value": "그동안 신청자가 고지해야 하는 민간보험 및 기타 지원금 수령 내역에 대한 상세 항목 구분이 없어 여러 건을 기입해야 하는 불편함이 있었다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kukinews.com/newsView/kuk202209210036",
+            "search_query": "재난적의료비 상세항목 여러 건 기입",
+            "terminate": false,
+            "text": "맞아요. 그동안은 민간보험 및 기타 지원금 수령 내역에 대해 고지해야 하는 상세 항목 구분이 없었기 때문에 신청자가 여러 건을 기입해야 하는 불편함이 있었어요.",
+            "turn_id": "BK22009181-4",
+            "utterance_id": "BK22009181.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 기입해야 하는 항목들이 매우 복잡했겠네요. 그럼 이번 개정안을 통해 어떤 식으로 개선되는 건가요?",
+            "turn_id": "BK22009181-5",
+            "utterance_id": "BK22009181.9"
+        },
+        {
+            "reference_date": "2022-09-21",
+            "reference_text": [
+                {
+                    "value": "복지부는 재난적 의료비 지원 지급신청서에 포함돼 있던 청구세부내역, 지원 제외 대상 금액 등 일반인이 기입하기 어려운 항목을 진료비 영수증 내역을 참조해 기입할 수 있도록 삭제 또는 간소화한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/4808990",
+            "search_query": "재난적 의료비 신청 간소화",
+            "terminate": false,
+            "text": "재난적 의료비 지원 지급신청서에 포함되어 있던 청구세부내역, 지원 제외 대상 금액 등 일반인이 기입하기 어려운 항목을 진료비 영수증 내역을 참조해 기입할 수 있도록 삭제하거나 간소화할 예정이라고 복지부에서 밝혔어요.",
+            "turn_id": "BK22009181-5",
+            "utterance_id": "BK22009181.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 지금의 신청방식보다 간편해지겠네요. 말씀해주신 내용 말고 바뀌는 다른 내용은 없나요?",
+            "turn_id": "BK22009181-6",
+            "utterance_id": "BK22009181.11"
+        },
+        {
+            "reference_date": "2022-09-21",
+            "reference_text": [
+                {
+                    "value": "이제는 국민건강보험공단이 재난적 의료비 지원금 지급 세부 내역을 의료기관에도 통보할 수 있게 된다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220921040200530?input=1195m",
+            "search_query": "재난적 의료비 지원금 세부내역",
+            "terminate": false,
+            "text": "또 바뀌는 것이 있어요. 재난적 의료비 지급 세부 내역을 국민건강보험공단에서 의료기관에도 통보가 가능해졌어요.",
+            "turn_id": "BK22009181-6",
+            "utterance_id": "BK22009181.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 개정안이 마련되기 전에는 통보가 불가능했던 건가요?",
+            "turn_id": "BK22009181-7",
+            "utterance_id": "BK22009181.13"
+        },
+        {
+            "reference_date": "2022-09-21",
+            "reference_text": [
+                {
+                    "value": "입원 중 재난적의료비 지원금액을 의료기관 등에 직접 지급 신청하는 경우, 관련 법은 공단이 지원대상자 결정 여부를 신청인과 의료기관 등에 알리도록 하고 있으나 그간 의료기관 등에 지급 세부내역을 통보할 수 있는 근거가 없어 의료기관 등이 신청지원 업무를 수행하는데 어려움이 있었다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.discoverynews.kr/news/articleView.html?idxno=880365",
+            "search_query": "재난적 의료비 의료기관 통보",
+            "terminate": false,
+            "text": "맞아요. 그동안은 의료기관 등에 지급 세부내역을 통보할 수 있는 근거가 없어 신청자가 입원하고 있는 도중에 재난적 의료비 지원금액을 의료기관에 직접 지급 신청했을 경우, 의료기관 등이 신청지원 업무를 수행하는 데 어려움이 있었어요.",
+            "turn_id": "BK22009181-7",
+            "utterance_id": "BK22009181.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그럼 어떤 내용을 통보할 수 있는지 구체적으로 알려주세요.",
+            "turn_id": "BK22009181-8",
+            "utterance_id": "BK22009181.15"
+        },
+        {
+            "reference_date": "2022-09-21",
+            "reference_text": [
+                {
+                    "value": "구체적으로는 재난적 의료비 지원 금액, 지원 적용 비율, 소득세, 주민세, 지급액 등을 안내하고 개인에게 통보되던 세부 내역 항목에는 지원 적용 비율이 추가됩니다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://biz.sbs.co.kr/article/20000081338?division=NAVER",
+            "search_query": "재난적 의료비 통보 구체적",
+            "terminate": false,
+            "text": "의료기관에 통보가 가능한 구체적인 내용은 재난적 의료비 지원금액, 지원 적용 비율, 소득세, 주민세, 지급액 등이 있어요. 그리고 이 밖에도 개인에게 통보되던 세부 내역 항목에 지원 적용 비율이 추가돼요.",
+            "turn_id": "BK22009181-8",
+            "utterance_id": "BK22009181.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 내용들이 추가되는군요. 말씀해주신 내용 말고 더 자세한 내용이 궁금한데 어디에서 볼 수 있나요?",
+            "turn_id": "BK22009181-9",
+            "utterance_id": "BK22009181.17"
+        },
+        {
+            "reference_date": "2022-09-21",
+            "reference_text": [
+                {
+                    "value": "개정안에 대한 상세한 사항은 보건복지부 누리집(www.mohw.go.kr)→정보→법령→‘입법·행정예고 전자공청회’에서 확인할 수 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.korea.kr/news/policyNewsView.do?newsId=148906153&call_from=naver_news",
+            "search_query": "재난적 의료비 개정안 상세한 사항",
+            "terminate": false,
+            "text": "보건복지부 누리집의 입법, 행정예고 전자 공청회에서 개정안에 대한 상세한 내용을 확인할 수 있어요.",
+            "turn_id": "BK22009181-9",
+            "utterance_id": "BK22009181.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "누리집 사이트에 들어가서 찾아봐야겠네요. 근데 이런 개정안은 국민들의 의견을 수렴해 만드는 것이 좋을 것 같은 데 그런 의견을 제출하는 곳은 없나요?",
+            "turn_id": "BK22009181-10",
+            "utterance_id": "BK22009181.19"
+        },
+        {
+            "reference_date": "2022-09-21",
+            "reference_text": [
+                {
+                    "value": "복지부는 입법예고 기간 중 국민의 의견을 폭넓게 수렴한 후 개정안을 확정할 예정으로, 이번 개정령안에 대해 의견이 있는 개인 또는 단체는 오는 11월 3일까지 보건복지부 의료보장관리과로 의견을 제출하면 된다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.bosa.co.kr/news/articleView.html?idxno=2181288",
+            "search_query": "재난적 의료비 국민 의견 수렴",
+            "terminate": false,
+            "text": "있어요. 이번 개정령안에 대해 의견이 있는 개인이나 단체가 있다면 올해 11월 3일까지 보건복지부 의료보장 관리과로 의견을 제출하면 된다고 복지부에서 밝혔어요.",
+            "turn_id": "BK22009181-10",
+            "utterance_id": "BK22009181.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "누리집에 들어가서 자세한 내용 읽어보고 의견이 생기면 제출하면 되겠네요. 덕분에 많은 정보 알게 되어서 아버지 의료비 지원 신청을 잘 할 수 있을 것 같아요. 저는 이제 일이 있어 가봐야겠어요.",
+            "turn_id": "BK22009181-11",
+            "utterance_id": "BK22009181.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "언제든지 필요한 정보나 궁금한 점이 있다면 연락주세요. 안녕히 계세요.",
+            "turn_id": "BK22009181-11",
+            "utterance_id": "BK22009181.22"
+        }
+    ]
+}

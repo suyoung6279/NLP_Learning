@@ -1,0 +1,361 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014347",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014347",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번 추석에도 가족끼리 다툼이 일어날까 봐 걱정이 돼요.",
+            "turn_id": "BK22014347-1",
+            "utterance_id": "BK22014347.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "명절 갈등 때문에 걱정이 많으시군요.",
+            "turn_id": "BK22014347-1",
+            "utterance_id": "BK22014347.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 명절 때마다 조용히 넘어갔으면 해요. 다른 집도 같을까요?",
+            "turn_id": "BK22014347-2",
+            "utterance_id": "BK22014347.3"
+        },
+        {
+            "reference_date": "44811.0",
+            "reference_text": [
+                {
+                    "value": "추석 연휴 기간에 가정 폭력 신고 건수가 평소보다 크게 증가하는 것으로 나타났다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "6일 강원경찰청에 따르면 2021년 추석 연휴기간 접수된 가정 폭력 신고 건수는 하루 평균 32건으로 전주(20.4건)대비 57% 증가했다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kwnews.co.kr/page/view/2022090616221885831",
+            "search_query": "명절 갈등 신고",
+            "terminate": false,
+            "text": "명절 때 갈등이 더 심해지는 건 맞아요. 추석 연휴에는 가정 폭력 신고 건수가 평소보다 훨씬 많이 집계돼요. 2022년 9월 6일 강원경찰청에서 밝히기를 2021년에 추석 연휴 기간 동안 확인된 가정 폭력 신고 건수는 일일 평균 32건으로 그 전주보다 57퍼센트 증가했어요.",
+            "turn_id": "BK22014347-2",
+            "utterance_id": "BK22014347.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "명절 때의 부부 갈등이 실제 이혼으로 이어지는 경우도 많을까요?",
+            "turn_id": "BK22014347-3",
+            "utterance_id": "BK22014347.5"
+        },
+        {
+            "reference_date": "44813.0",
+            "reference_text": [
+                {
+                    "value": "전체적인 이혼건수는 매년 감소하고 있는 추세이기는 하나 명절 이후 이혼이 급격하게 증가하는 것은 기존과 다르지 않았다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "실제로 2021년 설 명절이 있던 2월에는 이혼 건수가 1만 5000건이었으나, 명절 직후인 3월에는 1만 6800건으로 약 1800건이 증가했으며, 2021년 추석이 있던 9월의 경우 이혼 건수가 1만 3700건이었고, 그 직후인 10월은 1만 5200건으로 전달 대비 약 1400건이 증가했다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.globalepic.co.kr/view.php?ud=202209051039516726cf2d78c68_29",
+            "search_query": "명절 이혼",
+            "terminate": false,
+            "text": "그렇죠, 해마다 전체적인 이혼 건수는 줄어드는 경향을 보이기는 하는데, 명절 직후로 이혼 건수가 갑작스럽게 늘어나는 건 여전해요. 설 연휴가 있던 2021년 2월에 이혼 건수가 1만5000건이었는데요, 명절이 끝난 직후 3월에는 1만 6800건으로 대략 1800건이 증가했어요. 그리고 추석의 경우 2021년 9월에 1만3700건이었던 이혼 건수가 그 직후인 10월에는 1400건 늘어난 1만5200건을 기록했어요.",
+            "turn_id": "BK22014347-3",
+            "utterance_id": "BK22014347.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수치로 드러나는 명절 갈등의 모습이군요. 명절 갈등으로 인해 명절증후군을 호소하기도 한다던데, 명절증후군이 정확히 무엇인가요?",
+            "turn_id": "BK22014347-4",
+            "utterance_id": "BK22014347.7"
+        },
+        {
+            "reference_date": "44813.0",
+            "reference_text": [
+                {
+                    "value": "명절증후군이란, 명절 기간 전후로 받는 스트레스로 나타나는 여러 증상을 말한다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "명절이라는 공통의 배경에서 발생하지만 특별한 원인이 없고 폭넓은 스펙트럼으로 발생하는 특징이 있다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://zdnet.co.kr/view/?no=20220909081148",
+            "search_query": "명절증후군 갈등",
+            "terminate": false,
+            "text": "명절 전후로 스트레스를 받아서 발현되는 각종 증상을 명절증후군이라고 불러요. 공통으로 명절 때 발생하지만 원인을 특정하기 어렵고 폭넓은 스펙트럼 위에서 발현돼요.",
+            "turn_id": "BK22014347-4",
+            "utterance_id": "BK22014347.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "명절증후군의 특별한 원인을 찾기 어렵다고 하지만, 대략 어떤 것들이 증후군을 발생시킨다고 볼 수 있나요?",
+            "turn_id": "BK22014347-5",
+            "utterance_id": "BK22014347.9"
+        },
+        {
+            "reference_date": "44590.0",
+            "reference_text": [
+                {
+                    "value": "29일 HR테크 전문기업 인크루트는 회원 1017명을 대상으로 명절증후군에 대해 설문조사 한 결과를 발표했다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "명절증후군의 원인이 무엇인가에 대해서는(복수응답) 가족·세대간 대화로 인한 갈등, 즉 정신적 스트레스가 50.0%로 가장 많았다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "다음으로는 명절 음식준비가 35.5%, 명절 선물 및 세뱃돈 준비 30.6%, 장거리 운전 23.0%, 명절 음식 과식 16.0%, 장기 연휴를 보내는 것 8.2%, 귀향하지 못한 것 5.6% 순으로 나타났다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202201281241592856",
+            "search_query": "명절증후군 832",
+            "terminate": false,
+            "text": "2022년 1월 29일 인크루트에서 1017명을 대상으로 명절증후군에 대해 진행한 설문조사 결과를 공개했어요. 명절증후군의 원인이 무엇이냐는 질문에 50퍼센트가 가족과 세대 간 대화에서 발생하는 갈등 즉, 정신적 스트레스를 원인으로 꼽았어요. 그다음으로 명절 음식을 준비하면서 받는 스트레스가 35.5퍼센트, 세뱃돈, 명절 선물 등 선물 준비에서 오는 부담감이 30.6퍼센트, 장거리 운전 23퍼센트, 그다음으로 명절 음식 과식, 고향에 가지 못한 것 등이었어요.",
+            "turn_id": "BK22014347-5",
+            "utterance_id": "BK22014347.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가족끼리 이야기를 나누다가 발생하는 갈등으로 스트레스를 많이 받는다는 말이군요. 명절 싸움을 부추기는 말과 행동에 대한 설문조사도 있을까요?",
+            "turn_id": "BK22014347-6",
+            "utterance_id": "BK22014347.11"
+        },
+        {
+            "reference_date": "44812.0",
+            "reference_text": [
+                {
+                    "value": "동아일보가 ‘명절에 가장 듣기 싫은 말 또는 보기 싫은 행동’에 대해 조사한 결과 ‘부동산, 투자 등 주머니 사정에 대한 언행’(44.9%·2위)을 꼽은 사람이 많았다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1위는 ‘외모, 결혼, 출산 등 사생활 관련 언행’(53.8%)이었다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220908/115366291/1",
+            "search_query": "명절 잔소리",
+            "terminate": false,
+            "text": "동아일보에서 명절에 가장 듣기 싫은 말과 보기 싫은 행동에 대해 설문 조사를 진행했어요. 조사 결과 외모, 결혼, 출산과 같은 사생활 관련 말이나 행동이 1위를 기록했고요, 그다음 투자나 부동산 등 주머니 사정에 대한 언행이 2위를 차지했어요.",
+            "turn_id": "BK22014347-6",
+            "utterance_id": "BK22014347.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이렇게 듣기만 해도 스트레스를 받는 것 같군요. 앞서 말씀하신 명절증후군 원인 중에서 명절 음식 준비도 있었는데, 명절날 가사 노동도 문제의 원인으로 볼 수 있는 건가요?",
+            "turn_id": "BK22014347-7",
+            "utterance_id": "BK22014347.13"
+        },
+        {
+            "reference_date": "44809.0",
+            "reference_text": [
+                {
+                    "value": "또 과도한 가사 노동으로 어깨, 허리, 손목 등 관절 질환이 생기기도 한다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "증상을 방치하면 손목터널 증후군, 허리 디스크, 목 디스크 등 근골격계 질환이 초래된다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "건강한 명절을 보내려면 가족끼리 가사일을 적절히 분담하는 것이 좋다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20220905_0002002684&cID=10201&pID=10200",
+            "search_query": "명절증후군 가사노동",
+            "terminate": false,
+            "text": "네, 명절에 과도하게 가사 노동을 하면 어깨, 손목, 허리 같은 관절에 질환이 발생하게 돼요. 이 증상을 내버려 두면 목디스크, 허리디스크, 손목터널증후군 같은 근골격계 질환에 걸릴 위험도 커져요. 그러니 명절을 건강하게 지내기 위해서는 가족끼리 가사 노동을 적절하게 분배해서 실시하는 게 좋겠죠.",
+            "turn_id": "BK22014347-7",
+            "utterance_id": "BK22014347.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안 그래도 최근에 차례상 표준안이 발표된 것 같던데, 그 표준안대로라면 명절 준비의 부담도 덜해지겠죠?",
+            "turn_id": "BK22014347-8",
+            "utterance_id": "BK22014347.15"
+        },
+        {
+            "reference_date": "44809.0",
+            "reference_text": [
+                {
+                    "value": "전을 부치느라 더는 고생하지 말라는 것과 음식 가짓수는 최대 9개면 족하다는 것이다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "성균관의례정립위원회는 이날 서울 중구 한국프레스센터 기자회견장에서 이런 내용이 담긴 '차례상 표준안'을 발표했다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220905086700005?input=1195m",
+            "search_query": "성균관 명절",
+            "terminate": false,
+            "text": "맞아요, 2022년 9월 5일 서울 중구 한국프레스센터 기자회견장에서 성균관 의례 정립위원회가 차례상 표준안을 발표했는데요, 더는 전을 부칠 필요 없다는 것과 차례상 음식은 9가지로 충분하다는 게 골자였어요.",
+            "turn_id": "BK22014347-8",
+            "utterance_id": "BK22014347.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알려진 것보다 훨씬 차례상이 간소화되겠네요. 사실 아예 제사를 지내지 않는 게 요즘 트렌드인 것 같기도 한데, 관련된 자료가 있나요?",
+            "turn_id": "BK22014347-9",
+            "utterance_id": "BK22014347.17"
+        },
+        {
+            "reference_date": "44813.0",
+            "reference_text": [
+                {
+                    "value": "지난해 5월 여성가족부가 전국 1만여 가구를 상대로 조사해 발표한 '제4차 가족실태 조사'에 따르면 응답자의 45.6%가 '제사를 지내지 않는 것에 동의한다'고 대답했다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 젊은 세대인 20대에서는 63.5%, 30대는 54.9%로 과반수 이상이 제사 폐지에 동의했다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/4798940",
+            "search_query": "명절 제사 폐지",
+            "terminate": false,
+            "text": "네, 2021년 5월에 여성가족부에서 전국 약 1만개 가구를 대상으로 제4차 가족 실태 조사를 실시했어요. 결과에 따르면 응답자의 45.6퍼센트가 제사를 지내지 않는 것에 동의한다고 응답했고요, 특히 20대는 63.5퍼센트 그리고 30대는 54.9퍼센트로 절반 이상이 제사를 폐지하는 것에 동의했어요.",
+            "turn_id": "BK22014347-9",
+            "utterance_id": "BK22014347.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "차례상을 간소화하거나, 아예 폐지하는 게 요즘의 명절 변화로군요. 오늘도 많은 이야기 들려주셔서 감사합니다.",
+            "turn_id": "BK22014347-10",
+            "utterance_id": "BK22014347.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 명절증후군 없는 즐거운 한가위 되세요.",
+            "turn_id": "BK22014347-10",
+            "utterance_id": "BK22014347.20"
+        }
+    ]
+}

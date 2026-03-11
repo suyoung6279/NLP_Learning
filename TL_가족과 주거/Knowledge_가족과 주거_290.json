@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015030",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015030",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "날이 점점 추워지니까 강아지를 어떻게 관리해 줘야 할지 궁금한 것들이 많아. 그래서 그런데 겨울철에 강아지들이 잘 걸리는 질병 같은 것이 있을까?",
+            "turn_id": "BK22015030-1",
+            "utterance_id": "BK22015030.1"
+        },
+        {
+            "reference_date": "2022-01-04",
+            "reference_text": [
+                {
+                    "value": "날이 추우면 강아지도 감기에 걸릴 위험이 높아진다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "강아지 감기는 ‘개 인플루엔자’라고 부른다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "공기로 전파되거나, 가볍게 접촉만 해도 감염되기 때문에 주의가 필요하다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ikunkang.com/news/articleView.html?idxno=35126",
+            "search_query": "강아지 감기",
+            "terminate": false,
+            "text": "날이 추워지면 강아지들도 감기에 걸릴 수 있어. 개 인플루엔자라고 하는 강아지 감기는 공기로 전파되거나 접촉만 가볍게 해도 감염이 될 수 있는 질환이야.",
+            "turn_id": "BK22015030-1",
+            "utterance_id": "BK22015030.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사람 감기처럼 강아지 감기도 쉽게 전염될 수 있구나. 그럼, 어떻게 해야 감기를 예방할 수 있어?",
+            "turn_id": "BK22015030-2",
+            "utterance_id": "BK22015030.3"
+        },
+        {
+            "reference_date": "2022-09-20",
+            "reference_text": [
+                {
+                    "value": "감기를 예방하는 가장 좋은 방법은 예방 접종으로 감염 위험을 차단하는 것이다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 집안의 온도를 26~27도, 습도는 50~60% 정도로 유지해 외부 환경 변화를 최소화하고, 하루에 한 번씩 환기를 시켜 집안을 쾌적한 환경으로 만들어주는 것이 좋다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000733622",
+            "search_query": "강아지 감기 예방",
+            "terminate": false,
+            "text": "가장 좋은 방법은 예방 접종을 하는 거야. 그리고, 실외와 차이가 너무 크지 않게 실내 온도를 26~27도, 습도는 50~60%로 유지하는 것이 좋고, 환기도 하루에 한 번은 해줘야 해.",
+            "turn_id": "BK22015030-2",
+            "utterance_id": "BK22015030.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "병원에 가서 감기 예방 접종을 해야겠구나. 또, 겨울철에 강아지가 쉽게 걸리는 질환은 뭐가 있어?",
+            "turn_id": "BK22015030-3",
+            "utterance_id": "BK22015030.5"
+        },
+        {
+            "reference_date": "2020-12-08",
+            "reference_text": [
+                {
+                    "value": "피부질환도 조심해야 한다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "겨울의 공기는 건조한 탓에 강아지가 평소보다 몸을 자주 긁고 핥기 때문이다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "심하면 피부가 짓무르거나 상처가 날 수도 있다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ikunkang.com/news/articleView.html?idxno=32837",
+            "search_query": "겨울철 강아지 피부 질환",
+            "terminate": false,
+            "text": "겨울에는 건조한 공기 때문에 강아지가 몸을 자주 긁고 핥아서 피부 질환이 나타날 수 있어. 피부 질환이 심하면 피부가 짓무르고 상처가 생길 수도 있어.",
+            "turn_id": "BK22015030-3",
+            "utterance_id": "BK22015030.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지도 공기가 건조하면 피부질환이 생기는구나. 그러면, 겨울철에 어떻게 피부를 관리해 줘야 해?",
+            "turn_id": "BK22015030-4",
+            "utterance_id": "BK22015030.7"
+        },
+        {
+            "reference_date": "2020-12-08",
+            "reference_text": [
+                {
+                    "value": "평소보다 강아지의 몸에 비듬이나 각질이 많다면 반려동물 전용 보습제를 사용하면 좋다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "목욕은 너무 자주 하지 않도록 한다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ikunkang.com/news/articleView.html?idxno=32837",
+            "search_query": "겨울철 강아지 피부 관리",
+            "terminate": false,
+            "text": "평상시보다 강아지 피부에 비듬이나 각질이 많이 생겼다면 전용 보습제를 사용하는 것이 좋고, 목욕을 너무 자주 하는 것은 좋지 않아.",
+            "turn_id": "BK22015030-4",
+            "utterance_id": "BK22015030.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지 전용 보습제가 따로 있구나. 강아지가 겨울철에는 비만이 되기 쉽다는데 그건 왜 그래?",
+            "turn_id": "BK22015030-5",
+            "utterance_id": "BK22015030.9"
+        },
+        {
+            "reference_date": "2020-01-31",
+            "reference_text": [
+                {
+                    "value": "겨울철에는 대부분 산책 부족으로 운동량이 감소하기 때문에 비만이 되기 쉬워 체중을 수시로 체크해야 한다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202001311030244498",
+            "search_query": "겨울철 강아지 비만",
+            "terminate": false,
+            "text": "겨울철에는 대부분 산책 부족으로 활동량이 줄어들어서 체중이 늘어나게 되는 거야. 그래서, 겨울철에는 수시로 체중을 체크해 주는 것이 좋아.",
+            "turn_id": "BK22015030-5",
+            "utterance_id": "BK22015030.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무래도 추워지니 산책을 덜 해서 체중이 늘어날 수 있겠네. 그러면, 비만을 어떻게 하면 막을 수 있을까?",
+            "turn_id": "BK22015030-6",
+            "utterance_id": "BK22015030.11"
+        },
+        {
+            "reference_date": "2020-01-30",
+            "reference_text": [
+                {
+                    "value": "개들의 비만을 막기 위해서는 음식 조절이 필수이다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "칼로리가 낮은 사료를 선택해야 하며 간식은 가급적 급여하지 않는 것이 좋다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "개들은 햇볕이 잘 드는 공원 등지에서 규칙적으로 산책하는 방법이 가장 좋다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://kpenews.com/View.aspx?No=665824",
+            "search_query": "겨울철 강아지 비만 예방",
+            "terminate": false,
+            "text": "강아지의 체중 증가를 막기 위해서는 음식을 조절해 주는 것이 필요해. 사료는 칼로리가 낮은 것을 선택하고 간식은 되도록 주지 않는 것이 좋아. 그리고, 규칙적으로 햇볕이 잘 드는 공원으로 산책을 나가는 것이 제일 좋은 방법이야.",
+            "turn_id": "BK22015030-6",
+            "utterance_id": "BK22015030.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "따뜻한 시간에 산책을 시키는 것이 가장 좋은 방법이겠구나. 친구네 강아지는 집에 주로 있으니까 겨울에도 털을 짧게 미용하던데 그래도 괜찮은 거야?",
+            "turn_id": "BK22015030-7",
+            "utterance_id": "BK22015030.13"
+        },
+        {
+            "reference_date": "2018-03-02",
+            "reference_text": [
+                {
+                    "value": "집 안에서 키운다며 겨울철에도 반려견의 털을 짧게 깎는 보호자들이 많은데, 이런 경우 반려견이 추위에 스트레스를 쉽게 받을 수 있으므로 체온 보호를 위해 가벼운 옷을 입혀주는 것이 좋습니다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nongmin.com/plan/PLN/SRS/284573/view",
+            "search_query": "겨울철 반려견 체온보호",
+            "terminate": false,
+            "text": "겨울철에 집에서 키우니까 털을 짧게 깎기도 하는데, 이런 경우 추위에 스트레스를 쉽게 받을 수 있어서 가벼운 옷을 입혀 체온을 보호할 수 있게 해주는 것이 좋아.",
+            "turn_id": "BK22015030-7",
+            "utterance_id": "BK22015030.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지도 체온 보호를 위해 옷을 입히는 것이 좋구나. 또, 겨울철에 강아지에게 신경 써줘야 할 것은 뭐가 있어?",
+            "turn_id": "BK22015030-8",
+            "utterance_id": "BK22015030.15"
+        },
+        {
+            "reference_date": "2020-12-07",
+            "reference_text": [
+                {
+                    "value": "추운 날씨 탓에 수분 섭취를 기피해서 겨울철에도 강아지은 여름처럼 탈수가 일어날 수 있다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "추워서 물을 잘 먹지 않는 반려견인 경우에는 수분 섭취를 늘릴 수 있도록 야채 끓인 물이나 삶은 야채를 사료와 곁들여 먹이는 것도 좋은 방법이고 따뜻한 물을 공급하는 것도 좋은 방법이다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.daejonilbo.com/news/articleView.html?idxno=1450225",
+            "search_query": "겨울철 반려견 수분 섭취",
+            "terminate": false,
+            "text": "겨울철에 수분을 덜 섭취해서 탈수가 일어나는 강아지들이 있어. 혹시 추워서 강아지가 물을 잘 먹지 않는다면 채소를 끓인 물이나 삶은 채소를 사료와 같이 주거나 따뜻한 물을 주는 것도 좋은 방법이야.",
+            "turn_id": "BK22015030-8",
+            "utterance_id": "BK22015030.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "겨울철에도 강아지에게 탈수가 일어날 수 있구나. 겨울철에 강아지에게 신경써줘야 할 것들이 많네.",
+            "turn_id": "BK22015030-9",
+            "utterance_id": "BK22015030.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지들이 건강하게 겨울을 지내려면 관리해 줘야 할 부분이 많지.",
+            "turn_id": "BK22015030-9",
+            "utterance_id": "BK22015030.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 오늘 네 덕에 많은 것을 알게 되었어, 고마워.",
+            "turn_id": "BK22015030-10",
+            "utterance_id": "BK22015030.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "고맙긴, 언제든지 궁금한 것 물어봐. 우리는 다음에 보자, 안녕.",
+            "turn_id": "BK22015030-10",
+            "utterance_id": "BK22015030.20"
+        }
+    ]
+}

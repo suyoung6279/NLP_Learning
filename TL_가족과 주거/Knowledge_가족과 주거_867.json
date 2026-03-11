@@ -1,0 +1,380 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003189",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003189",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "며칠 전에 정말 큰일 날 뻔했어요. 얼마나 놀랐는지 몰라요.",
+            "turn_id": "BK22003189-1",
+            "utterance_id": "BK22003189.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "무슨 일 있었길래 그러세요?",
+            "turn_id": "BK22003189-1",
+            "utterance_id": "BK22003189.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 아기가 사탕을 먹다가 그대로 삼켜버린 거에요. 너무 놀라서 등을 두드려서 사탕을 꺼내긴 했는데, 다른 아기들도 이런 일이 자주 일어나나요?",
+            "turn_id": "BK22003189-2",
+            "utterance_id": "BK22003189.3"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "소방청은 지난해 영유아 생활안전사고 1만 6327건 중 1590건(9.7％)이 기도·식도 내 이물질 사고로, 보호자의 각별한 주의가 필요하다고 4일 당부했다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.seoul.co.kr/news/newsView.php?id=20220704500099&wlog_tag3=naver",
+            "search_query": "영유아 목막힘 사고",
+            "terminate": false,
+            "text": "어휴, 많이 놀라셨겠어요. 그럼요, 지난해 영유아에게 발생한 생활안전사고 11만 6327건 중 9.7퍼센트 정도인 1590건이 기도나 식도에 이물질이 걸린 사고여서 소방청에서 보호자의 각별한 주의가 필요하다고 했을 정도예요.",
+            "turn_id": "BK22003189-2",
+            "utterance_id": "BK22003189.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다른 아기들도 많이 삼키는군요. 엄마들 진짜 많이 놀라겠어요. 이번에는 다행히 금방 빠졌지만, 혹시라도 또 뭔가를 삼켜서 목이 막혔는데 등을 두드려도 안 빠진다면 어떻게 해야 할까요?",
+            "turn_id": "BK22003189-3",
+            "utterance_id": "BK22003189.5"
+        },
+        {
+            "reference_date": "2022-07-18",
+            "reference_text": [
+                {
+                    "value": "아이가 갑자기 호흡하기 힘들어하고 기침하며, 안색이 창백하고 혀 또는 입 안이 파란빛이 돈다면 즉시 응급실을 찾아야 한다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 이물질이 목에 걸려 긴급한 상태라면 119에 신고를 한 뒤 복부 밀어내기 응급처치법인 하임리히법을 시도해야 한다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000717598",
+            "search_query": "영유아 질식 응급처리",
+            "terminate": false,
+            "text": "일단은 아기의 상태를 먼저 보세요. 아기가 갑자기 숨쉬기 힘들어하고 기침을 하면서, 얼굴빛이 창백해지고 혀나 입 안이 푸르스름하게 변해있다면 질식의 징조이기 때문에 바로 응급실로 달려가야 해요. 그런데 응급실에 갈 시간조차 없는 긴급한 상태라면 일단은 119에 신고하고, 복부를 밀어내는 응급처치인 하임리히법을 시도해봐야 해요.",
+            "turn_id": "BK22003189-3",
+            "utterance_id": "BK22003189.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하임리히법 단어는 들어봤는데 정확히 어떻게 하는지 몰라요.",
+            "turn_id": "BK22003189-4",
+            "utterance_id": "BK22003189.7"
+        },
+        {
+            "reference_date": "2022-06-21",
+            "reference_text": [
+                {
+                    "value": "말을 할 수 없거나 숨쉬기 힘들어하는 등 괴로움을 호소하는 경우, 기도 폐쇄로 판단하고 바로 하임리히법을 시작한다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "환자의 등 뒤에 서서 한 손은 주먹을 쥐고 한 손은 위에 겹친 후 배를 감싼다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "주먹 쥔 손을 배꼽과 명치 사이에 두고 배를 위로 쓸어 올리듯 강하게 밀어 올려야 한다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/06/21/2022062101526.html",
+            "search_query": "하임리히법",
+            "terminate": false,
+            "text": "설명해 드릴게요. 우선 아까 말씀드린 것처럼 숨쉬기 힘들어하거나 말을 잘 못하고 괴로움을 표현하는 경우엔 기도 폐쇄로 판단하고 하임리히법을 진행해요. 환자의 등 뒤로 가서 한 손으로는 주먹을 쥔 뒤 다른 한 손을 그 위에 겹치는 형태로 등 뒤에서 환자의 배를 감싸요. 그리고 주먹 쥔 손의 위치는 배꼽과 명치 사이로 하고, 배를 위로 쓸어올리듯이 세게 밀어서 올리면 돼요.",
+            "turn_id": "BK22003189-4",
+            "utterance_id": "BK22003189.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아주 어렵지는 않네요. 혹시 하임리히법을 하면서 주의할 점이 있을까요?",
+            "turn_id": "BK22003189-5",
+            "utterance_id": "BK22003189.9"
+        },
+        {
+            "reference_date": "2014-02-26",
+            "reference_text": [
+                {
+                    "value": "하임리히법은 자칫 환자의 내부 장기를 손상시킬 위험이 있으므로 유아에게 실시할 경우 각별히 주의해야 한다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newspim.com/news/view/20140226000608",
+            "search_query": "하임리히법 주의사항",
+            "terminate": false,
+            "text": "잘못하면 하임리히법을 받는 사람의 장기가 손상될 수 있어요. 때문에 아이에게 하임리히법을 실시할 경우 조심해야 하죠.",
+            "turn_id": "BK22003189-5",
+            "utterance_id": "BK22003189.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하긴, 아이들은 작고 여려서 어른처럼 우악스럽게 하면 다칠 수 있겠네요. 그럼 1살 이전의 어린 아기들의 경우에는 목에 뭐가 걸리면 어떻게 해줘야 하나요?",
+            "turn_id": "BK22003189-6",
+            "utterance_id": "BK22003189.11"
+        },
+        {
+            "reference_date": "2022-06-16",
+            "reference_text": [
+                {
+                    "value": "아울러 1세 미만의 영아의 경우, 간의 크기가 상대적으로 커서 손상의 위험이 높으므로 복부 압박 대신 등 두드리기와 가슴 압박을 반복해 이물질을 제거해야 합니다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2022061615205941531",
+            "search_query": "영아 하임리히법",
+            "terminate": false,
+            "text": "1세 미만의 아기의 경우엔 몸에서 간의 크기가 상대적으로 크기 때문에 일반적인 하임리히법을 진행하면 장기에 손상이 올 수 있어요. 그래서 복부를 압박하는 방법 대신에 등을 두드리고 가슴을 압박하는 식으로 진행하면서 목에 걸린 이물질을 제거해줘야 하죠.",
+            "turn_id": "BK22003189-6",
+            "utterance_id": "BK22003189.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 잘 알아둬야겠어요. 그런데 하임리히법의 원리가 뭐길래 목에 걸린 이물질을 빼게 해주는 건가요?",
+            "turn_id": "BK22003189-7",
+            "utterance_id": "BK22003189.13"
+        },
+        {
+            "reference_date": "2020-04-20",
+            "reference_text": [
+                {
+                    "value": "하임리히법은 복부를 밀칠 때 발생하는 압력에 의해 폐 속에 있는 공기가 몸 밖으로 뿜어져 나가면서 이물질을 움직이게 하는 원리다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://fpn119.co.kr/135052",
+            "search_query": "하임리히법 원리",
+            "terminate": false,
+            "text": "배를 압박할 때 발생하는 압력으로 폐 속에 있는 공기를 몸 밖으로 내보내면서 중간에 껴있는 이물질을 밀어내는 원리에요.",
+            "turn_id": "BK22003189-7",
+            "utterance_id": "BK22003189.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그런 원리군요. 뭔가 이해가 가요. 앞으로 잘 기억해뒀다가 혹시라도 또 사탕이나 다른 게 걸리게 되면 써먹어야겠네요.",
+            "turn_id": "BK22003189-8",
+            "utterance_id": "BK22003189.15"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 유용하게 잘 쓸 수 있을 거에요.",
+            "turn_id": "BK22003189-8",
+            "utterance_id": "BK22003189.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게요. 에휴, 사실 목에만 안 걸리면 사탕 같은 건 몸속에서 녹으니까 크게 걱정이 안 되는데 혹시라도 건전지 같은걸 삼킬까 봐 걱정이에요. 예전에 티비에서 본 건데, 작은 단추같이 생긴 전지를 아기가 삼켰는데 속에서 부식되면서 안 좋은 일이 일어났다고 하더라고요.",
+            "turn_id": "BK22003189-9",
+            "utterance_id": "BK22003189.17"
+        },
+        {
+            "reference_date": "2015-04-09",
+            "reference_text": [
+                {
+                    "value": "이 전지가 몸속으로 들어가면 침과 전류가 만나 화학 반응을 일으켜 체내 화상 등을 입을 수 있다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한국소비자원이 단추형 전지를 삼켰을 때의 장기 손상 정도를 알아보기 위해 돼지 식도를 이용해 실험한 결과 전지가 2시간 이상 식도에 머무르면 화상, 장기 천공 등이 시작되는 것으로 나타났다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20150409/70600147/1",
+            "search_query": "아기 전지 삼킴",
+            "terminate": false,
+            "text": "맞아요. 전지를 삼켜서 몸속으로 들어가게 되면 침과 전류가 만나서 화학반응을 일으키고, 이로 인해서 몸속에서 화상을 입을 수 있어요. 실제로 한국소비자원에서 단추형 전지를 삼킬 때 장기가 얼마나 손상되나 알아보는 실험을 진행한 적이 있어요. 돼지 식도를 이용해서 실험했는데, 2시간 이상 식도에 전지가 머무른 경우 화상이나 장기에 구멍이 뚫리는 장기 천공의 결과를 보였죠.",
+            "turn_id": "BK22003189-9",
+            "utterance_id": "BK22003189.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어우, 저희 아기에게 그런 일이 일어난다고 생각하면 정말 끔찍하네요. 아기들이 전지를 삼키는 사고가 자주 일어나는 편인가요?",
+            "turn_id": "BK22003189-10",
+            "utterance_id": "BK22003189.19"
+        },
+        {
+            "reference_date": "2021-12-02",
+            "reference_text": [
+                {
+                    "value": "소비자원에 따르면 최근 4년 7개월간 소비자위해감시시스템(CISS)에 254건의 단추형 전지 삼킴 사고가 접수됐다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 중 0~1세 사고가 166건(65.4%)로 가장 많았고 2~3세 52건(20.5%), 4~6세 27건(10.6%) 순으로 많이 발생했다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.idsn.co.kr/news/articleView.html?idxno=59516",
+            "search_query": "단추형 전지 삼킴사고",
+            "terminate": false,
+            "text": "생각보다 많이 일어나요. 소비자원에 따르면 소비자위해감시시스템에 접수된 사고 중, 단추형 전지를 삼켰다고 접수된 신고가 4년 7개월 동안 254건이나 돼요. 그중에서도 0살에서 1살에게 일어난 사고가 65.4퍼센트인 166건으로 가장 많았고, 2살에서 3살이 20.5퍼센트인 52건, 그리고 4살에서 6세 사이가 10.6퍼센트인 27건 순이였어요.",
+            "turn_id": "BK22003189-10",
+            "utterance_id": "BK22003189.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뭐가 위험한지 판단하기 어렵고, 무조건 입으로 가져가는 나이대일수록 삼킴사고가 많이 일어나네요. 아기가 어느 정도 클 때까지는 눈 떼지 말고 항상 조심해야겠어요.",
+            "turn_id": "BK22003189-11",
+            "utterance_id": "BK22003189.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시기상 그럴 수밖에 없는 것 같아요. 삼킴사고는 부모가 조심할 수밖에 없죠.",
+            "turn_id": "BK22003189-11",
+            "utterance_id": "BK22003189.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얘기 들으니 정신이 번쩍 들어요. 건전지나 단추형 전지는 최대한 아기 손에 닿지 않는 곳에 보관할게요.",
+            "turn_id": "BK22003189-12",
+            "utterance_id": "BK22003189.23"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 그렇게 하시는 게 좋을 것 같아요. 최대한 아기 손에 안 닿게끔 하시고, 혹시나 더 궁금한 거 있으면 언제든 물어보세요.",
+            "turn_id": "BK22003189-12",
+            "utterance_id": "BK22003189.24"
+        }
+    ]
+}

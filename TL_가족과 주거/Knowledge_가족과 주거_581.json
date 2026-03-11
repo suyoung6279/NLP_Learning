@@ -1,0 +1,371 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015801",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015801",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 최근에 임신을 하게 됐어요. 엄마가 된다는 생각에 기쁘기도 하고 설레기도 하지만 불쑥 찾아오는 신체의 변화 때문에 힘드네요.",
+            "turn_id": "BK22015801-1",
+            "utterance_id": "BK22015801.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 임신 축하드려요. 엄마가 되시는군요. 예쁜 아기를 만나 볼 생각에 행복한 마음도 드시겠지만, 임신과 출산으로 인한 신체 변화 때문에 여자에게는 참 힘든 과정이기도 하죠.",
+            "turn_id": "BK22015801-1",
+            "utterance_id": "BK22015801.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신을 하고 난 요즈음 몸에 변화가 참 많이 찾아와서 적응이 안되더라고요. 게다가 지인이 임신중독증으로 고생했다는 얘기를 듣고 나니까 더 걱정되는데요. 임신중독증이 정확히 어떤 질병인 거죠?",
+            "turn_id": "BK22015801-2",
+            "utterance_id": "BK22015801.3"
+        },
+        {
+            "reference_date": "2017-10-27",
+            "reference_text": [
+                {
+                    "value": "임신중독증이란 정확한 원인 없이 혈압이 상승하고 부종이 나타나며 소변에서 단백뇨가 나오는 증상을 말한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이외에 두통, 어지러움, 시력장애를 동반하기도 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sportsseoul.com/news/read/564237",
+            "search_query": "임신중독증이란",
+            "terminate": false,
+            "text": "임신중독증이 걱정되시나 봐요. 임신중독증이란 정확한 이유가 없이 혈압이 올라가고 부종이 나타나며 소변에서 단백뇨가 검출되는 증상을 말해요. 이외에 시력장애, 두통, 어지러움 등이 동반해서 나타나기도 하고요.",
+            "turn_id": "BK22015801-2",
+            "utterance_id": "BK22015801.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시력장애까지 나타날 수 있다고 하시니까 더 걱정이 되네요. 혹시 임신중독증이 나타나면 임신부에게 어떤 영향을 미치는지 알 수 있을까요?",
+            "turn_id": "BK22015801-3",
+            "utterance_id": "BK22015801.5"
+        },
+        {
+            "reference_date": "2022-05-22",
+            "reference_text": [
+                {
+                    "value": "임신중독증은 가장 많은 임신부 사망 원인 중 하나다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "임신중독증이 심하면 산모에게 폐부종, 뇌출혈, 간과 신장 부전, 혈액 응고 이상 등의 증상이 나타나고 사망에까지 이를 수 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또 태반과 태아로의 혈류공급장애가 생겨 태아의 성장 부전이 나타나며 심한 경우 태아 사망의 원인이 되기도 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20220522_0001880279&cID=13105&pID=13200",
+            "search_query": "임신중독증",
+            "terminate": false,
+            "text": "일단 임신중독증은 임신부의 사망 원인 중에서 차지하는 비율이 제일 높아요. 게다가 심한 임식중독증인 경우에는 임신부에게 간과 신장 부전, 폐부종, 뇌출혈, 혈액 응고 이상 등의 증상이 나타나며 사망에까지 이르는 경우도 있죠. 또한 산모에게만 영향을 미치는 게 아니라 태반과 태아로의 혈류 공급의 장애가 생길 수도 있어서 태아의 성장 부전이 나타날 수도 있으며 심한 경우 태아가 사망하는 원인이 되기도 해요.",
+            "turn_id": "BK22015801-3",
+            "utterance_id": "BK22015801.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신부와 태아가 사망할 수 있다니 정말 심각한 문제네요. 전 지인을 통해서 임신중독증을 처음 알았거든요. 임신중독증으로 사망하는 태아와 임신부가 얼마나 되는지도 알려주실 수 있나요?",
+            "turn_id": "BK22015801-4",
+            "utterance_id": "BK22015801.7"
+        },
+        {
+            "reference_date": "2018-05-23",
+            "reference_text": [
+                {
+                    "value": "임신중독증으로 인해 사망하는 전 세계 임산부 는 연간 76,000명, 태아는 연간 50만명에 달해 세계 모성보건단체들은 지난 해 최초로 매년 5월 22일을 세계 임신중독증의 날로 제정하고 임신중독증 위험성을 알리고 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "작년 한 해만 국내 약 1만명의 임신부가 임신중독증으로 진단받았으며, 보건복지부 통계(2017년 12월)에 따르면 국내 고위험 임산부가 증가하면서 중증 임신중독증 환자는 연 평균 24%의 증가율을 보이고 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yakup.com/news/index.html?mode=view&cat=14&nid=218414",
+            "search_query": "임신중독증 사망",
+            "terminate": false,
+            "text": "일단 임신중독증 때문에 사망에 이르는 전 세계 임산부는 연간 76,000명이며 태아는 연간 50만명에 육박하죠. 그래서 세계 모성 보건 단체들은 임신중독증이 얼마나 위험한지 알리기 위해서 2017년에 매년 5월 22일을 세계 임신중독증의 날로 제정했어요. 국내 기준으로는 2017년에 약 1만명의 임신부가 임신중독증을 진단받았고요. 또한 국내에 고위험 임산부가 늘어나고 있는 추세인데 중증 임신중독증 환자는 연평균 24%의 증가율이 나타나고 있는 것을 보건복지부 통계를 통해서 알 수 있어요.",
+            "turn_id": "BK22015801-4",
+            "utterance_id": "BK22015801.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 임신중독증으로 인한 사망자도 많고 진단받은 임산부도 많군요. 그렇다면 이렇게 위험한 임신중독증의 원인은 무엇인지도 알려주실 수 있나요?",
+            "turn_id": "BK22015801-5",
+            "utterance_id": "BK22015801.9"
+        },
+        {
+            "reference_date": "2021-06-03",
+            "reference_text": [
+                {
+                    "value": "임신중독증 발생 원인은 태반 형성 부전, 혈관 기능 장애, 산화스트레스, 면역학적 요인 등 여러 가지 원인이 제시되고 있지만 아직까지 정확한 발생 원인 및 발병 기전이 밝혀져 있지 않다.",
+                    "value_time": "2022-10-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "섭취하는 음식과도 명확한 연관관계는 없으며 유전적인 요소가 있다고 제시된 연구 결과가 일부 있기는 하지만 유전되는 질환은 아니다.",
+                    "value_time": "2022-10-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.inews365.com/news/article.html?no=669140",
+            "search_query": "임신중독증 원인",
+            "terminate": false,
+            "text": "태반 형성 부전, 산화스트레스, 혈관 기능 장애, 면역학적 요인 등 여러 가지 요소가 임신중독증의 원인으로 제시되고 있지만 아직까지 발생 원인 및 발병 기전은 정확하게 밝혀지지 못했어요. 음식 섭취와도 확실한 연관 관계는 없으며 유전적인 요소가 있다고 제시된 연구 결과가 일부 존재하기는 하지만 유전되는 질환은 아니거든요.",
+            "turn_id": "BK22015801-5",
+            "utterance_id": "BK22015801.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아직 원인이 정확하게 밝혀지지 않았다니 정말 안타깝네요. 그런데 방금 임신중독증 고위험군이라는 말을 하셨는데 주로 어떤 사람들이 임신중독증 고위험군에 속하나요?",
+            "turn_id": "BK22015801-6",
+            "utterance_id": "BK22015801.11"
+        },
+        {
+            "reference_date": "2022-05-21",
+            "reference_text": [
+                {
+                    "value": "임신중독증 환자의 약 78%는 30~40대 산모로 집계됐다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고령 산모는 각별히 주의해야 한다는 의미다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "△만성 고혈압 △만성 콩팥질환 △항인지질항체증후군 △당뇨 △비만 △혈전성향증 △다태임신 △수면 무호흡증후군 △폐부종 △임신중독증 병력 등의 위험요소가 있는 경우도 임신중독증 고위험군으로, 질환 발생 가능성을 예측하고 대비하는 것이 좋다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/2661ZXMIJ9",
+            "search_query": "임신중독증 고령 산모",
+            "terminate": false,
+            "text": "임신중독증 환자의 78%가 30~40대 산모인 것으로 집계됐어요. 고령 산모는 특별히 주의를 기울여야 한다는 의미죠. 또한 다태임신 , 수면 무호흡증후군, 폐부종, 만성 고혈압, 만성 콩팥질환, 항인지질항체증후군 , 혈전성향증 , 당뇨, 비만, 임신중독증 병력 등의 위험 요소를 가지고 있는 경우 임신중독증 고위험군에 속해요. 그러므로 질환 발생의 가능성을 조기에 예측하고 대비해 두는 게 좋아요.",
+            "turn_id": "BK22015801-6",
+            "utterance_id": "BK22015801.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 30대 초반이어서 더 불안하네요. 아, 그런데 방금 조기에 예측하고 대비하는 게 좋다고 하셨는데 자신이 임신중독증이라는 것을 알 수 있는 증상이 있을까요? 앞서 알려주신 두통, 어지러움, 시력 장애 등으로 미리 알아채기는 어려울 것 같아서요.",
+            "turn_id": "BK22015801-7",
+            "utterance_id": "BK22015801.13"
+        },
+        {
+            "reference_date": "2022-05-30",
+            "reference_text": [
+                {
+                    "value": "임신중독증을 의심해볼 수 있는 증상으로는 ◆지속적인 심한 두통 ◆1주일에 1㎏ 이상 급격한 체중 증가 ◆갑작스러운 시력 저하 ◆갈비뼈 바로 아래쪽 배(상복부)의 극심한 통증 ◆얼굴·손·발의 부종 등이 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 정기검사에서 이러한 증상 없이 혈압 상승과 함께 단백뇨 소견으로 발견되는 경우도 많다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.cctimes.kr/news/articleView.html?idxno=706404",
+            "search_query": "임신중독증 증상",
+            "terminate": false,
+            "text": "음, 아무래도 두통이나 어지러움만으로 자신이 임신중독증이라는 것을 알아채기는 힘들죠. 그 이외에도 임신중독증인지 의심해볼 수 있는 증상으로는 1주일에 1㎏ 이상 체중이 급격하게 올라가거나 갈비뼈 바로 아래쪽 배의 극심한 통증을 느끼는 경우가 있고요. 또한 얼굴, 손, 발의 부종 등의 증상도 있죠. 하지만 이러한 증상이 없었는데도 정기 검사에서 혈압 상승과 같이 단백뇨 소견으로 발견되는 사례도 많아요.",
+            "turn_id": "BK22015801-7",
+            "utterance_id": "BK22015801.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "증상이 없었는데도 나타나는 경우도 있다니 정말 무섭네요. 혹시 임신중독증을 미리 예방하는 방법도 있나요?",
+            "turn_id": "BK22015801-8",
+            "utterance_id": "BK22015801.15"
+        },
+        {
+            "reference_date": "2016-11-07",
+            "reference_text": [
+                {
+                    "value": "임신중독증을 예방하기 위해선 임신 14주 전 선별검사를 통해 고위험 여부를 확인하면 위험율을 상당히 낮출 수 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "녹십자의료재단 이상곤 부원장은 \"당뇨, BMI지수, 혈압 등 산모의 과거력 외 평균 동맥압, 혈액검사 등을 종합 검사하면 임신중독증 검출이 약 80% 가능하다\"고 말했다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2016/11/04/2016110401454.html",
+            "search_query": "임신중독증 예방",
+            "terminate": false,
+            "text": "아무래도 걸리기 전에 예방하는 게 최고죠. 임신 14주 전에 선별검사를 받아서 고위험 여부를 알아보면 위험률이 상당히 떨어져서 임신중독증 예방에 도움을 주죠. 혈압, BMI 지수, 당뇨 등 산모의 과거력 외 평균 동맥압, 혈액 검사 등을 종합적으로 검사하면 임신중독증 검출이 약 80% 가능하니 미리 검사를 받아보시는 게 좋을 거예요.",
+            "turn_id": "BK22015801-8",
+            "utterance_id": "BK22015801.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 미리 검사를 받아봐야겠네요. 아, 그런데 만약에 임신중독증이 나타난다면 어떤 치료를 통해서 극복할 수 있나요? 아까 원인도 정확히 밝혀지지 않았다고 하셨는데 설마 치료법까지 없는 건 아니겠죠?",
+            "turn_id": "BK22015801-9",
+            "utterance_id": "BK22015801.17"
+        },
+        {
+            "reference_date": "2021-06-03",
+            "reference_text": [
+                {
+                    "value": "임신중독증의 궁극적인 치료법은 분만이지만, 임신중독증이라고 해서 무조건 바로 분만을 하는 것은 아니며 산모 상태 및 태아가 몇 주인지가 중요한 고려 대상이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "태아 폐성숙의 완성이 34주 이후이기 때문에 임신중독증이 34주 이전에 진단이 되면 일단 항고혈압약제, 황산마그네슘 등을 투여하면서 임신을 유지해볼 수 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 태아 상태가 안 좋거나, 산모 혈압이 조절되지 않으면서 간이나 콩팥 등의 손상이 오는 경우는 주수에 상관없이 분만을 해야 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "임신중독증으로 인해 발생된 증상은 대부분 분만 후 호전이 된다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.inews365.com/news/article.html?no=669140",
+            "search_query": "임신중독증 치료법",
+            "terminate": false,
+            "text": "궁극적으로 임신중독증을 치료하는 방법은 분만이에요. 하지만 임신중독증이 나타난 임신부라고 해서 무조건 바로 분만을 하게 되는 것이 아니라 산모의 상태와 태아가 몇 주인지를 보고 고려해서 결정이 돼요. 태아의 폐성숙이 34주 이후에 완성되기 때문에 34주 이전에 임신중독증을 진단받으면 일단 항고혈압약제, 황산마그네슘 등의 투여를 통해 임신을 유지 해 볼 수는 있는데요. 만약에 태아의 상태가 좋지 않은 편이거나 산모의 혈압이 조절되지 않아서 간이나 콩팥 등이 손상을 입는 경우라면 주수에 관련하지 않고 분만을 진행해야 해요. 임신중독증 때문에 나타난 증상은 분만을 하고 나면 대부분 호전이 돼요.",
+            "turn_id": "BK22015801-9",
+            "utterance_id": "BK22015801.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "치료하는 방법이 분만이라니 임신중독증이 이렇게 심각한 문제라는 것을 이제 알았네요. 이렇게 친절하게 임신중독증에 대해 알려주셔서 감사해요. 미리 예방해 볼 수 있게 노력해봐야겠어요.",
+            "turn_id": "BK22015801-10",
+            "utterance_id": "BK22015801.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "이 정도로 뭘요. 또 궁금하신 게 생기시면 주저 말고 물어봐 주세요. 건강하게 건강한 아기 낳으시기를 기도할게요.",
+            "turn_id": "BK22015801-10",
+            "utterance_id": "BK22015801.20"
+        }
+    ]
+}

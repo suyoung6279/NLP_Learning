@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22017014",
+        "name": "2022 한국어 블렌더봇 데이터 BK22017014",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번에 집을 전체 리모델링하려고 하는데, 나무 바닥재 선택이 고민이에요.",
+            "turn_id": "BK22017014-1",
+            "utterance_id": "BK22017014.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "바닥 마루에도 다양한 종류가 있어 잘 따져보시고 구매하셔야 해요.",
+            "turn_id": "BK22017014-1",
+            "utterance_id": "BK22017014.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네. 옛날에는 그냥 비닐 소재의 장판도 많았던 것 같은데, 요즘은 왜 나무 마루가 대세가 된 걸까요?",
+            "turn_id": "BK22017014-2",
+            "utterance_id": "BK22017014.3"
+        },
+        {
+            "reference_date": "41736.0",
+            "reference_text": [
+                {
+                    "value": "마루가 이처럼 인기를 끌게 된 것은 천연자원인 '나무'를 원료로 했다는 데 이유가 있다.",
+                    "value_time": "44835.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "2000년대 초중반 우리사회를 강타했던 '웰빙'열풍으로 목재를 쓴 인테리어 아이템이 각광받게 됐고, 당연히 플라스틱의 일종인 PVC를 사용한 장판대신 마루를 선택하는 소비자가 늘어나게 됐다.",
+                    "value_time": "44835.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2014040610590421417&outlink=1&ref=https%3A%2F%2Fsearch.naver.com",
+            "search_query": "바닥 마루",
+            "terminate": false,
+            "text": "바닥재로 나무 마루가 인기를 얻은 건 마루의 원료인 나무가 천연자원이라는 점 때문이에요. 2000년대 초중반 크게 유행했던 웰빙 트렌드에 목재를 사용한 인테리어가 주목받게 되면서, 그동안 사용해왔던 PVC 장판 대신 마루가 인기를 끌게 된 거죠.",
+            "turn_id": "BK22017014-2",
+            "utterance_id": "BK22017014.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "친환경으로 주목받은 소재라면, 나무 마루는 무엇을 골라도 다 몸에 좋다고 봐도 되는 건가요?",
+            "turn_id": "BK22017014-3",
+            "utterance_id": "BK22017014.5"
+        },
+        {
+            "reference_date": "41736.0",
+            "reference_text": [
+                {
+                    "value": "그렇지만 마루는 다 친환경적이고 장판이라고 몸에 나쁜 건 아니다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "마루도 종류가 다양한 만큼 100% 목재를 사용해 만드는 건 아니고, 시공 시 본드를 사용하는 경우도 많다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2014040610590421417&outlink=1&ref=https%3A%2F%2Fsearch.naver.com",
+            "search_query": "바닥 마루 친환경",
+            "terminate": false,
+            "text": "그렇게 볼 수는 없어요. 마루라고 해서 다 친환경도 아니고, 장판이라고 다 몸에 나쁜 것도 아니죠. 마루에도 종류가 다양해서 전부 나무로 만들어지진 않아요. 또 시공하면서 본드가 사용되는 경우도 많죠.",
+            "turn_id": "BK22017014-3",
+            "utterance_id": "BK22017014.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 그중에 어떤 게 나에게 맞는지 잘 따져서 찾아야겠군요. 나무 마루에는 어떤 종류가 있나요?",
+            "turn_id": "BK22017014-4",
+            "utterance_id": "BK22017014.7"
+        },
+        {
+            "reference_date": "44766.0",
+            "reference_text": [
+                {
+                    "value": "바닥재로 가장 많이 사용하는 마루의 종류에는 원목마루, 온돌(합판)마루, 강마루, 강화마루 등이 있습니다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "원목마루는 합판 위에 1~3mm의 원목을 붙인 것으로, 자재비만 평당 약 30만원 정도입니다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://mustnews.co.kr/View.aspx?No=2476814",
+            "search_query": "바닥재 종류",
+            "terminate": false,
+            "text": "주로 사용되는 건 원목마루, 온돌마루, 강마루, 강화마루 등이에요. 그 중 원목 마루는 1~3mm의 얇은 원목을 합판 위에 붙인 건데요, 자재비만 평당 대략 30만 원가량이에요.",
+            "turn_id": "BK22017014-4",
+            "utterance_id": "BK22017014.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "원목이라고 해서 나무를 통으로 사용한 줄 알았는데 그건 아니네요. 어떤 특징이 있나요?",
+            "turn_id": "BK22017014-5",
+            "utterance_id": "BK22017014.9"
+        },
+        {
+            "reference_date": "44766.0",
+            "reference_text": [
+                {
+                    "value": "보행감과 촉감이 우수한 장점과 함께, 상대적으로 흠집이 잘 생기는 편이지만 샌딩을 통해 새것처럼 사용 가능합니다.",
+                    "value_time": "44835.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 원목이므로 열이나 습기에 약하고 난방효율이 떨어지며. 주기적으로 왁스를 사용해 주어야 오래 사용할 수 있는 단점이 있습니다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://mustnews.co.kr/View.aspx?No=2476814",
+            "search_query": "원목마루",
+            "terminate": false,
+            "text": "원목마루는 보행 감과 촉감이 좋다는 게 장점이에요. 흠집이 다소 잘 나는 편이긴 하지만, 샌딩을 하면 다시 새것처럼 사용할 수 있죠. 단점으로는 원목 특성상 습기에 약하다는 점, 난방 효율이 낮다는 점, 정기적으로 왁스 칠을 해야 오래 유지된다는 점 등이 있어요.",
+            "turn_id": "BK22017014-5",
+            "utterance_id": "BK22017014.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유지 관리가 다소 까다로운 편이군요. 그럼 강화마루는 어떤 마루인가요?",
+            "turn_id": "BK22017014-6",
+            "utterance_id": "BK22017014.11"
+        },
+        {
+            "reference_date": "43235.0",
+            "reference_text": [
+                {
+                    "value": "강화마루는 MDF(medium density fiberboard, 중질 섬유판)나 HDF(high density fiberboard, 고밀도 섬유판) 위에 시트지를 붙인 마루고, 강마루는 합판 위에 시트지를 붙인 마루다.",
+                    "value_time": "44839.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고강도 코팅이 된 시트지를 붙였기 때문에 스크래치나 충격에 의해 쉽게 긁히거나 찍히지 않는다.",
+                    "value_time": "44839.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://woodplanet.co.kr/news/view/1065594846215684?dt=m",
+            "search_query": "마루종류 강화마루",
+            "terminate": false,
+            "text": "강화마루는 MDF나 HDF 위에 강도 높은 코팅이 되어있는 시트지를 부착한 마루로 충격이나 스크래치에 강해 찍힘과 긁힘이 잘 생기지 않아요.",
+            "turn_id": "BK22017014-6",
+            "utterance_id": "BK22017014.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강화마루의 표면은 나무가 아니라 합성수지로군요. 그럼 그다음으로 온돌마루는 어떤 마루인가요?",
+            "turn_id": "BK22017014-7",
+            "utterance_id": "BK22017014.13"
+        },
+        {
+            "reference_date": "43959.0",
+            "reference_text": [
+                {
+                    "value": "합판(온돌)마루는 나무를 여러 겹으로 붙인 합판표면에 원목을 얇게 슬라이스한 무늬목을 접착한 제품으로, 나무 무늬의 선명한 질감이 살아있어 장판이나 강화마루보다 심미성이 뛰어나다.",
+                    "value_time": "44835.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "바닥난방에 의한 열에 뒤틀림이 적고 원목마루보다 시공이 간편한 편이나, 흠집이 잘 나고 습기에 취약한 단점이 있다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yeongnam.com/web/view.php?key=20200508010000064",
+            "search_query": "온돌마루",
+            "terminate": false,
+            "text": "온돌마루는 다른 말로 합판마루라고도 해요. 나무를 여러 겹 쌓아 붙인 합판 표면에 얇은 무늬목을 덧댄 제품이죠. 선명한 나무 무늬와 질감 덕분에 장판, 강화마루보다 심미성이 좋아요. 또 온돌 난방을 해도 열에 의한 뒤틀림이 적다는 점, 원목 마루에 비해 시공이 쉽다는 것도 장점이죠. 하지만 흠집이 나기 쉽고 습기에 약하다는 단점이 있어요.",
+            "turn_id": "BK22017014-7",
+            "utterance_id": "BK22017014.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다음으로는 강마루가 궁금하네요. 강화마루랑 이름이 비슷하긴 한데, 강마루는 어떤 마루인가요?",
+            "turn_id": "BK22017014-8",
+            "utterance_id": "BK22017014.15"
+        },
+        {
+            "reference_date": "43573.0",
+            "reference_text": [
+                {
+                    "value": "강마루는 합판용 목재를 얇게 켜서 가로세로로 엇갈리게 만든 다음 원목무늬의 멜라닌 필름을 입혀 만든 마루로 이 역시 외부 충격에 강하다.",
+                    "value_time": "44835.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "디자인이 다양하고 적당한 쿠션감이 있으며 바닥면에 접착제를 사용해 열 전도율도 좋다.",
+                    "value_time": "44835.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 상대적으로 질감이 떨어지고 습기에 취약하다.",
+                    "value_time": "44835.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.it-b.co.kr/news/articleView.html?idxno=29804",
+            "search_query": "강마루",
+            "terminate": false,
+            "text": "강마루는 합판 목재를 얇게 슬라이스 해서 가로세로로 엇갈리게 쌓은 다음, 그 위에 원목 무늬의 멜라민 소재 필름을 씌운 마루예요. 디자인이 다양하다는 점, 쿠션감이 좋다는 점, 외부 충격에 강하다는 장점이 있죠. 또 바닥에 접착 시공을 하기 때문에 열전도율도 좋은 편이에요. 하지만 다른 소재에 비해 질감이 다소 좋지 않고 습기에 약하다는 단점이 있어요.",
+            "turn_id": "BK22017014-8",
+            "utterance_id": "BK22017014.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무래도 나무라는 소재 특성상 습기에 취약하다는 공통점이 있네요. 지금까지 많은 종류의 나무 바닥재를 살펴봤는데, 어떤 기준으로 고르면 좋을지 정리해주실 수 있을까요?",
+            "turn_id": "BK22017014-9",
+            "utterance_id": "BK22017014.17"
+        },
+        {
+            "reference_date": "41736.0",
+            "reference_text": [
+                {
+                    "value": "마루선택을 위한 가이드라인을 한 줄 요약하자면 저렴하고 실용적인 것을 원한다면 강화마루나 강마루, 다소 비싸지만 디자인을 원한다면 원목마루, 온돌(합판)마루로 고르면 된다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2014040610590421417&outlink=1&ref=https%3A%2F%2Fsearch.naver.com",
+            "search_query": "마루 선택",
+            "terminate": false,
+            "text": "그럼요. 합리적인 가격과 실용성을 우선시한다면 강화마루나 강마루를 선택하시면 되고요, 다소 비싸도 심미성을 추구한다면 원목마루나 온돌마루를 선택하시면 돼요.",
+            "turn_id": "BK22017014-9",
+            "utterance_id": "BK22017014.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나무 바닥재 종류에 대한 특징을 상세하게 설명해 주셔서 감사해요. 덕분에 선택이 훨씬 수월해졌어요.",
+            "turn_id": "BK22017014-10",
+            "utterance_id": "BK22017014.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되어 기쁘네요. 혹시 다른 바닥재도 궁금하시다거나, 나무 바닥재에 대해 또 모르는 것이 있다면 얼마든지 질문해 주세요.",
+            "turn_id": "BK22017014-10",
+            "utterance_id": "BK22017014.20"
+        }
+    ]
+}

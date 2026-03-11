@@ -1,0 +1,402 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.4,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.4,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014646",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014646",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너 혹시 강아지가 비만인지 아닌지 어떻게 확인하는지 알아? 아는 언니가 어제 우리 집 강아지를 보더니 비만이라고 하더라고. 우리 식구들이 보기에는 그렇지 않은데.",
+            "turn_id": "BK22014646-1",
+            "utterance_id": "BK22014646.1"
+        },
+        {
+            "reference_date": "2022-07-07",
+            "reference_text": [
+                {
+                    "value": "지난 2021년 농촌진흥청 발표에 따르면, 반려견의 몸무게를 측정했을 때 동일한 종과 신장인 개체 평균 몸무게의 20%를 초과하면 비만이다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "실생활에서 ‘눈바디’로 더 쉽게 알아볼 수도 있다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려동물의 신체 모양 등을 토대로 하는 신체충실지수(BCS : Body Condition Score)다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1404468/%ec%9c%84%eb%93%9c%ed%8e%ab-%ed%86%b5%ed%86%b5%ed%95%98%ea%b3%a0-%ea%b7%80%ec%97%ac%ec%9a%b4-%eb%8c%95%eb%8c%95%ec%9d%b4-%ec%95%8c%ea%b3%a0-%eb%b3%b4%eb%8b%88-%eb%b9%84%eb%a7%8c/",
+            "search_query": "강아지 비만 확인",
+            "terminate": false,
+            "text": "2021년 농촌진흥청 발표에 따르면 반려견 비만은 반려견의 몸무게를 다른 개체들과 비교를 해봐야 알 수 있어. 너희 강아지와 동일한 종이면서 동일한 신장을 가진 개체들의 평균 몸무게를 20퍼센트 초과하는 경우에 비만에 해당하거든. 실생활에서는 신체충실지수라는 걸 통해서도 알 수 있는데, 이건 반려동물의 신체 모양 등을 눈으로 확인해서 판단하는 거야.",
+            "turn_id": "BK22014646-1",
+            "utterance_id": "BK22014646.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 그 신체충실지수로 체크하는 법 좀 알려줘.",
+            "turn_id": "BK22014646-2",
+            "utterance_id": "BK22014646.3"
+        },
+        {
+            "reference_date": "2022-07-07",
+            "reference_text": [
+                {
+                    "value": "첫 번째로 갈비뼈가 잘 느껴지는가를 체크한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려견이 서있을 때 양손을 펼쳐 흉곽을 가볍게 감싼다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "힘을 주거나 찾지 않아도 갈비뼈가 자연스럽게 만져진다면 정상, 찾거나 손에 힘을 줘 감쌀 때 느껴진다면 비만이다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다음으로 반려견의 옆태를 확인한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "마지막으로 반려견을 위에서 내려다보자.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1404468/%ec%9c%84%eb%93%9c%ed%8e%ab-%ed%86%b5%ed%86%b5%ed%95%98%ea%b3%a0-%ea%b7%80%ec%97%ac%ec%9a%b4-%eb%8c%95%eb%8c%95%ec%9d%b4-%ec%95%8c%ea%b3%a0-%eb%b3%b4%eb%8b%88-%eb%b9%84%eb%a7%8c/",
+            "search_query": "강아지 신체충실지수",
+            "terminate": false,
+            "text": "3가지를 체크해 보면 되는데 바로 갈비뼈와 옆태, 윗모습 등이야. 먼저 갈비뼈를 통해 확인하는 방법은 반려견이 서 있는 상태에서 흉곽을 두 손으로 가볍게 감싸보면 돼. 이때 힘을 준다거나 찾으려는 노력 없이도 갈비뼈가 만져지면 정상이고, 그렇지 않고 힘을 줘서 감싸거나 따로 찾아야만 갈비뼈가 만져진다면 비만에 해당해.",
+            "turn_id": "BK22014646-2",
+            "utterance_id": "BK22014646.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "갈비뼈가 그냥 만져지는 게 정상이라니, 의외네. 그 정도면 마른 게 아닌가 싶은데. 옆태로는 어떻게 확인하는 거야?",
+            "turn_id": "BK22014646-3",
+            "utterance_id": "BK22014646.5"
+        },
+        {
+            "reference_date": "2022-07-07",
+            "reference_text": [
+                {
+                    "value": "가슴과 배의 높이를 봤을 때 배보다 가슴이 더 튀어나와 있어야 한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사람 복부비만이 옆에서 보았을 때 툭 튀어나온 배로 티 나는 것처럼 반려견도 마찬가지다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사람보다 더 엄격한 기준으로 반려견은 배와 가슴이 일자로 이어졌을 때도 비만일 가능성이 높고 복부가 가슴보다 튀어나온 정도가 심할수록 비만 정도가 심한 것이다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1404468/%ec%9c%84%eb%93%9c%ed%8e%ab-%ed%86%b5%ed%86%b5%ed%95%98%ea%b3%a0-%ea%b7%80%ec%97%ac%ec%9a%b4-%eb%8c%95%eb%8c%95%ec%9d%b4-%ec%95%8c%ea%b3%a0-%eb%b3%b4%eb%8b%88-%eb%b9%84%eb%a7%8c/",
+            "search_query": "강아지 신체충실지수 옆태",
+            "terminate": false,
+            "text": "사람도 옆에서 봤을 때 배가 튀어나와 있으면 복부 미만이잖아. 강아지도 마찬가지라서 가슴과 배의 높이를 살폈을 때 배가 더 튀어나와 있으면 비만이야. 많이 튀어나와 있을수록 비만도가 높은 거고. 그렇다고 해서 배가 가슴보다 더 튀어나와야만 비만인 건 아니고 강아지의 경우에는 가슴과 복부가 일자로 이어지는 정도만 돼도 비만일 확률이 높아.",
+            "turn_id": "BK22014646-3",
+            "utterance_id": "BK22014646.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이 기준으로 하면 우리 강아지 비만일 가능성이 높겠는데? 옆모습을 봤을 때 배가 가슴보다 더 들어가 있지는 않으니까. 윗모습으로 확인하는 건 어떻게 하는 거야?",
+            "turn_id": "BK22014646-4",
+            "utterance_id": "BK22014646.7"
+        },
+        {
+            "reference_date": "2022-06-09",
+            "reference_text": [
+                {
+                    "value": "반려동물을 위에서 내려다보았을 때, 흉곽의 두께보다 허리의 두께가 얇은지 확인해 보세요.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "건강한 몸무게일 경우 흉곽과 허리, 엉덩이로 이어지는 모양이 모래시계와 같은 형태를 띠고 있을 거예요.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만약 흉곽이나 엉덩이에 비해 허리가 가늘지 않다면 비만일 수 있습니다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202206081413233279",
+            "search_query": "강아지 신체충실지수 윗모습",
+            "terminate": false,
+            "text": "강아지를 위에서 내려다봤을 때 허리가 흉곽보다 얇아 보이는지를 확인하면 돼. 정상 체중일 경우 흉곽이나 엉덩이에 비해 허리가 가늘기 때문에 모래시계와 같은 체형이 나타나는데 만약 허리가 흉곽이나 엉덩이보다 가늘지 않으면 비만일 가능성이 있어.",
+            "turn_id": "BK22014646-4",
+            "utterance_id": "BK22014646.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "모래시계 형태가 정상이란 말이야? 우리 애는 이렇지 않은데. 근데 솔직히 우리 강아지가 비만이면 다른 강아지들도 대부분 비만이라는 건데 강아지는 비만 비율이 어느 정도나 돼?",
+            "turn_id": "BK22014646-5",
+            "utterance_id": "BK22014646.9"
+        },
+        {
+            "reference_date": "2022-08-28",
+            "reference_text": [
+                {
+                    "value": "미국반려동물비만예방협회(POPA)에 따르면 2017년 미국 개의 56%, 고양이의 60%가 과체중 상태인 것으로 알려졌다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아직 우리나라에서는 정확한 통계가 없지만 2013년 발표된 한 논문에 따르면 표본조사 결과 반려견의 40%가 과체중과 비만이었다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01252966632431912&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "강아지 비만 비율",
+            "terminate": false,
+            "text": "미국 반려동물 비만예방협회에 따르면 2017년을 기준으로 했을 때 미국 개의 56퍼센트가 과체중이었어. 우리나라의 경우 정확한 통계자료가 없는 상태고. 하지만 2013년에 발표된 한 논문 속 표본조사 결과에 따르면 반려견의 40퍼센트가 과체중이나 비만이었어.",
+            "turn_id": "BK22014646-5",
+            "utterance_id": "BK22014646.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "절반 정도나 되는구나. 꽤 많네. 근데 강아지도 비만이면 사람과 마찬가지로 건강이 안 좋을 텐데 어떤 문제들이 생길 수 있지?",
+            "turn_id": "BK22014646-6",
+            "utterance_id": "BK22014646.11"
+        },
+        {
+            "reference_date": "2019-06-11",
+            "reference_text": [
+                {
+                    "value": "반려동물 비만이 유발하는 질환은 사람 비만과 유사하다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고혈압·고지혈증 등 심혈관질환, 신장질환, 당뇨 등 내분비계질환, 디스크질환, 관절염 등을 일으킨다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "비만은 다양한 질병을 일으킬 뿐 아니라 기존 질환의 진행을 가속화 해 수명을 단축하기 때문이다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.k-health.com/news/articleView.html?idxno=44296",
+            "search_query": "강아지 비만 문제점",
+            "terminate": false,
+            "text": "비만한 강아지는 고혈압, 고지혈증 등의 심혈관질환과 신장질환, 당뇨 등의 내분비계 질환, 그리고 디스크 질환, 관절염 등을 겪을 수 있어. 사람에게 비만이 있을 때 나타나는 질환과 비슷한 것들을 강아지들도 겪게 되는 거지. 문제는 비만이 이렇게 여러 질병을 유발하는 데서 그치는 게 아니라 기존 질환을 보다 빨리 악화시켜서 수명을 단축하는데도 영향을 미친다는 거야.",
+            "turn_id": "BK22014646-6",
+            "utterance_id": "BK22014646.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비만이 수명에까지 영향을 미친다니 충격이네. 수명이 얼마나 단축된다는 거야?",
+            "turn_id": "BK22014646-7",
+            "utterance_id": "BK22014646.13"
+        },
+        {
+            "reference_date": "2020-11-21",
+            "reference_text": [
+                {
+                    "value": "당뇨병, 하부요로계 질환 및 관절염과 같은 병을 유발할 수 있으며 기대수명을 2.5년까지 단축시킬 수 있다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 같은 이유로 세계소동물수의사회(WSAVA), 유럽반려동물수의사연합(FECAVA), 영국소동물수의사회(BSAVA) 등 수의학 전문기관에서는 비만을 ‘질병’으로 인정한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://skyedaily.com/news/news_view.html?ID=116167",
+            "search_query": "강아지 비만 수명",
+            "terminate": false,
+            "text": "비만을 가지고 있으면 기대수명이 2.5년까지 더 짧아질 수 있어.세계소동물수의사회, 유럽반려동물수의사연합, 영국소동물수의사회 등의 수의학 전문기관에서는 비만을 하나의 질병으로 간주하고 있는데 바로 이러한 점과 당뇨병, 관절염, 하부 요로계 질환 등과 같은 병을 발생시킬 수 있다는 점 때문이야.",
+            "turn_id": "BK22014646-7",
+            "utterance_id": "BK22014646.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지한테 2.5년이면 꽤 긴 시간인데 비만이 진짜 무서운 거구나. 더군다나 우리 애도 비만일 가능성이 70퍼센트 이상은 되는 것 같은데 심해지지 않게 관리를 해줘야겠다. 그러려면 원인을 알아야 할 것 같은데 강아지 비만은 뭣 때문일까?",
+            "turn_id": "BK22014646-8",
+            "utterance_id": "BK22014646.15"
+        },
+        {
+            "reference_date": "2019-01-28",
+            "reference_text": [
+                {
+                    "value": "대한동물약국협회에서는 강아지 비만의 원인을 운동 부족, 고열량 사료와 간식, 열량이 높은 사람음식으로 꼽았다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "집에서 키우는 강아지들은 먹이가 풍부한 것에 비해 실내 활동 위주로 움직이기 때문에 활동량이 적다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그래서 이들이 흡수하는 에너지 대부분이 지방으로 축적된다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://snaptime.edaily.co.kr/2019/01/%ec%9a%b0%eb%a6%ac-%ea%b0%9c%ea%b0%80-%eb%b9%84%eb%a7%8c%ec%9d%b4%eb%9d%bc%ea%b3%a0/",
+            "search_query": "강아지 비만 원인",
+            "terminate": false,
+            "text": "대한동물약국협회에 따르면 운동 부족과 고열량의 사료와 간식, 열량이 높은 사람 음식 등이 강아지 비만의 원인이야. 반려견들은 먹을 것이 풍족한 환경에서 살지만 주로 실내에서 생활하기 때문에 활동량이 적은 편이잖아. 그래서 흡수한 에너지의 대부분이 지방으로 쌓이게 되는 거지.",
+            "turn_id": "BK22014646-8",
+            "utterance_id": "BK22014646.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 사료를 열량이 낮은 걸로 바꾸고 간식은 가끔만 주고 산책 시간을 늘려야겠다. 사람 음식은 원래 안 먹여서 해당 사항이 없거든.",
+            "turn_id": "BK22014646-9",
+            "utterance_id": "BK22014646.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 어쨌든 지금부터라도 신경 써서 관리해 주면 설사 비만이 맞다고 하더라도 나아질 거야.",
+            "turn_id": "BK22014646-9",
+            "utterance_id": "BK22014646.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 꼭 그렇게 돼야 해. 난 우리 강아지가 아프지 않고 장수하다가 갔으면 하거든. 여하튼 말 나온 김에 난 가서 강아지 사료부터 알아봐야겠다.",
+            "turn_id": "BK22014646-10",
+            "utterance_id": "BK22014646.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 그럼 잘 가고 다음 주에 보자.",
+            "turn_id": "BK22014646-10",
+            "utterance_id": "BK22014646.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 다음 주에 봐.",
+            "turn_id": "BK22014646-11",
+            "utterance_id": "BK22014646.21"
+        }
+    ]
+}

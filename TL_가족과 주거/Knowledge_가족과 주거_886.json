@@ -1,0 +1,321 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003491",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003491",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_nhn_voter0007"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 남편과 혼인 관계를 유지하고 싶지 않아졌어요.",
+            "turn_id": "BK22003491-1",
+            "utterance_id": "BK22003491.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이고, 그럼 이혼하실 생각이세요?",
+            "turn_id": "BK22003491-1",
+            "utterance_id": "BK22003491.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러고 싶긴 하지만, 이혼하려면 재판을 해야 하지 않나요? 그럼 골치 아파질 거 같은데요.",
+            "turn_id": "BK22003491-2",
+            "utterance_id": "BK22003491.3"
+        },
+        {
+            "reference_date": "2022-04-20",
+            "reference_text": [
+                {
+                    "value": "이혼(離婚, 문화어: 리혼, 영어: divorce)은 부부가 합의 또는 재판에 의하여 혼인 관계를 인위적으로 소멸(취소)시키는 행위이다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%B4%ED%98%BC",
+            "search_query": "이혼",
+            "terminate": false,
+            "text": "아무래도 합의나 재판을 통해서 혼인 관계를 소멸시키는 거니까, 꽤 골치 아프긴 하죠.",
+            "turn_id": "BK22003491-2",
+            "utterance_id": "BK22003491.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 그런데요, 이혼도 종류가 있는 걸로 아는데, 어떤 게 있나요?",
+            "turn_id": "BK22003491-3",
+            "utterance_id": "BK22003491.5"
+        },
+        {
+            "reference_date": "2022-04-20",
+            "reference_text": [
+                {
+                    "value": "2021년 현재, 민법상 이혼에는 '협의상 이혼'과 '재판상 이혼(조정 이혼, 소송 이혼)'의 두 가지가 있다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%B4%ED%98%BC",
+            "search_query": "민법상 이혼",
+            "terminate": false,
+            "text": "민법상 이혼에는 협의상 이혼과 재판상 이혼의 두 가지가 있어요. 어떤 걸로 알아보고 계신가요?",
+            "turn_id": "BK22003491-3",
+            "utterance_id": "BK22003491.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아직 알아보고 있는 중인데, 혹시 이혼 숙려제도라는 게 있나요?",
+            "turn_id": "BK22003491-4",
+            "utterance_id": "BK22003491.7"
+        },
+        {
+            "reference_date": "2022-04-20",
+            "reference_text": [
+                {
+                    "value": "이혼숙려제도는 '협의상 이혼'에만 해당된다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%B4%ED%98%BC",
+            "search_query": "이혼숙려제도",
+            "terminate": false,
+            "text": "네, 이혼 숙려 제도라는 것이 있는데 이 제도는 협의상 이혼에만 해당돼요.",
+            "turn_id": "BK22003491-4",
+            "utterance_id": "BK22003491.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 협의상 이혼은 서로가 협의되어야만 이혼이 가능하단 거죠?",
+            "turn_id": "BK22003491-5",
+            "utterance_id": "BK22003491.9"
+        },
+        {
+            "reference_date": "2022-04-20",
+            "reference_text": [
+                {
+                    "value": "부부는 당사자가 서로 협의하여서 이혼할 수 있다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "(민법 제834조) 협의 이혼은 당사자 양쪽에 모두 이혼할 의사가 있어서 이혼의 합의를 한 후 이루어지는 것이므로 어느 한쪽의 의사만으로는 이혼할 수 없으며, 부부 외에 제3자의 의사에 의해서도 이루어질 수 없다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%B4%ED%98%BC",
+            "search_query": "협의상 이혼",
+            "terminate": false,
+            "text": "부부 당사자가 서로 협의해서 이혼을 해야 해요. 제 3자의 의사나 한쪽의 의사로는 협의 이혼이 이루어질 수 없어요.",
+            "turn_id": "BK22003491-5",
+            "utterance_id": "BK22003491.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "둘이 협의를 하려면 양육권 때문에 협의가 잘 안 될 텐데 걱정이네요. 공동 양육은 안 되는 거죠?",
+            "turn_id": "BK22003491-6",
+            "utterance_id": "BK22003491.11"
+        },
+        {
+            "reference_date": "2022-04-20",
+            "reference_text": [
+                {
+                    "value": "부모가 이혼한 후 그들의 자녀를 공동으로 양육할 수는 없으므로 구법에서는 양육에 관한 협의가 없는 때에는 부에게 양육권이 귀속되었으나 개정된 친족법에서는 당사자간의 협의에 의하되 협의가 되지 않거나 불능인 때는 당사자의 청구로 가정법원이 자(子)의 연령, 부모의 재산 정도 기타 사정을 참작하여 양육에 필요한 사항을 정하고 언제든지 그 사항을 변경 또는 다른 적당한 처분을 할 수 있도록 하고, 자를 직접 양육하지 아니하는 부모 중 일방에 대하여는 면접교섭권(面接交涉權)을 신설하였다(제837조의 2).",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%B4%ED%98%BC",
+            "search_query": "이혼 자녀 양육",
+            "terminate": false,
+            "text": "공동 양육은 안 되고, 협의가 안 되어 있을 시에 양육권은 아이의 연령과 부모의 재산 등 여러 가지를 포함해서 고려하고 법원에서 정해줘요. 그리고 양육하지 않는 부모에게는 면접교섭권을 주고 있어요.",
+            "turn_id": "BK22003491-6",
+            "utterance_id": "BK22003491.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "복잡하네요. 아, 그리고 위자료에 대해서도 궁금한 게 있어요. 배우자에게 위자료를 청구할 수 있나요?",
+            "turn_id": "BK22003491-7",
+            "utterance_id": "BK22003491.13"
+        },
+        {
+            "reference_date": "2022-04-20",
+            "reference_text": [
+                {
+                    "value": "이혼하는 경우에는 그 이혼을 하게 된 것에 책임이 있는 배우자(유책배우자)에게 이혼으로 인한 정신적 고통(예를 들어 배우자의 혼인 파탄 행위 그 자체와 그에 따른 충격, 불명예 등)에 대한 배상, 즉 위자료를 청구할 수 있다",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%B4%ED%98%BC",
+            "search_query": "이혼 위자료",
+            "terminate": false,
+            "text": "이혼에 책임이 있는 유책배우자에게 이혼으로 인한 정신적 고통에 대한 배상인 위자료를 청구할 수 있어요.",
+            "turn_id": "BK22003491-7",
+            "utterance_id": "BK22003491.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼, 재산분할과 위자료는 별개죠?",
+            "turn_id": "BK22003491-8",
+            "utterance_id": "BK22003491.15"
+        },
+        {
+            "reference_date": "2022-04-20",
+            "reference_text": [
+                {
+                    "value": "재산분할은 위자료와 다른 개념이다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "'위자료'는 부부 일방의 잘못으로 이혼하게 되었을 때 피해자의 정신적 고통에 대해 위로하는 것을 목적으로 하지만, '재산분할'은 혼인 중 부부가 공동으로 모은 재산에 대해 본인의 기여도에 따른 상환을 목적으로 한다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%B4%ED%98%BC",
+            "search_query": "이혼 재산분할",
+            "terminate": false,
+            "text": "네, 재산분할과 위자료는 다른 개념이에요. 재산분할은 부부가 공동으로 모은 재산에 대해 본인의 기여도에 따른 상환을 목적으로 하기 때문이에요.",
+            "turn_id": "BK22003491-8",
+            "utterance_id": "BK22003491.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 유책배우자도 저에게 재산분할을 요구할 수 있나요?",
+            "turn_id": "BK22003491-9",
+            "utterance_id": "BK22003491.17"
+        },
+        {
+            "reference_date": "2022-04-20",
+            "reference_text": [
+                {
+                    "value": "따라서, 유책배우자도 혼인기간 중에 재산의 증식·유지에 대한 기여에 따라 재산분할을 요구할 수 있다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%B4%ED%98%BC",
+            "search_query": "이혼 재산분할 유책배우자",
+            "terminate": false,
+            "text": "네, 유책배우자도 혼인 기간 중에 재산증식이나 유지에 대한 기여에 따라서 재산분할을 요구할 수 있어요.",
+            "turn_id": "BK22003491-9",
+            "utterance_id": "BK22003491.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유책배우자면서 재산분할도 한다니 정말 괘씸하겠네요. 좋은 변호사를 구해야 하겠어요.",
+            "turn_id": "BK22003491-10",
+            "utterance_id": "BK22003491.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "쉽지 않은 결정이시겠지만, 좋은 결과가 있길 바라요. 그럼 들어가세요.",
+            "turn_id": "BK22003491-10",
+            "utterance_id": "BK22003491.20"
+        }
+    ]
+}

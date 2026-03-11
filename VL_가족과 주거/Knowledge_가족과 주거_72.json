@@ -1,0 +1,437 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22017514",
+        "name": "2022 한국어 블렌더봇 데이터 BK22017514",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번에 시바견을 입양 받아서 키우기로 했어요. 처음으로 강아지를 키울 생각에 설레네요. 혹시 시바견에 대해서 잘 아세요?",
+            "turn_id": "BK22017514-1",
+            "utterance_id": "BK22017514.1"
+        },
+        {
+            "reference_date": "44817.0",
+            "reference_text": [
+                {
+                    "value": "시바견(일본어: 柴犬, しばいぬ)은 일본 고유의 견종이다.",
+                    "value_time": "44834.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일본에서 천연기념물로 지정된 7개의 일본 견종(현재는 6종)의 하나로, 1936년 12월 16일에 지정되었다.",
+                    "value_time": "44834.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "엄살이 많다.",
+                    "value_time": "44834.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8B%9C%EB%B0%94%EA%B2%AC",
+            "search_query": "시바견",
+            "terminate": false,
+            "text": "네, 일본 개잖아요. 일본에선 천연기념물로 지정된 견종 중 하나이기도 하고요. 엄살이 많은 개로 유명한데, 괜찮으시겠어요?",
+            "turn_id": "BK22017514-1",
+            "utterance_id": "BK22017514.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아직까진 개한테 별 탈이 없어서 엄살 부리는 걸 보질 못했네요. 엄살이 많다니까 나중에 병원 가면 큰일 날 것 같긴 해요. 다칠 일 없게 조심해야죠.",
+            "turn_id": "BK22017514-2",
+            "utterance_id": "BK22017514.3"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 특히 개가 먹으면 위험한 음식도 여러 종류가 있으니 조심하세요.",
+            "turn_id": "BK22017514-2",
+            "utterance_id": "BK22017514.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 개가 먹으면 안 되는 음식 중에서 대표적으로 어떤 게 있는지 알려주실 수 있나요?",
+            "turn_id": "BK22017514-3",
+            "utterance_id": "BK22017514.5"
+        },
+        {
+            "reference_date": "44481.0",
+            "reference_text": [
+                {
+                    "value": "초콜릿은 개가 먹으면 안 되는 대표적인 음식이다.",
+                    "value_time": "44834.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "초콜릿의 카페인 성분은 개의 신경계를 흥분시켜 발작을 일으키고, 혼수상태에 이르게 할 수 있다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "초콜릿을 먹자마자 증상이 나타나지 않을 수도 있지만, 24시간 이내에 죽음으로 이어질 수 있을 만큼 위험하다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/10/12/2021101201405.html",
+            "search_query": "반려견 위험한 음식",
+            "terminate": false,
+            "text": "대표적인 음식으로는 초콜릿이 있어요. 초콜릿에 들어간 카페인 성분이 개를 혼수상태에 빠지게 만들고 발작을 일으키게 하거든요. 개를 죽음까지 갈 수 있게 하는 치명적인 음식이니 주지도 말고 근처에 두어서도 안 돼요.",
+            "turn_id": "BK22017514-3",
+            "utterance_id": "BK22017514.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이런, 그런 얘길 들으니 너무 무섭네요. 그럼 반대로 개한테 어떤 음식을 먹여야 건강하게 키울 수 있을까요?",
+            "turn_id": "BK22017514-4",
+            "utterance_id": "BK22017514.7"
+        },
+        {
+            "reference_date": "44721.0",
+            "reference_text": [
+                {
+                    "value": "나이에 따라 우리 몸이 요구하는 영양소가 있듯이 반려견에게도 생애주기별 필요한 영양소들이 있다.",
+                    "value_time": "44834.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "◇성견= 이 시기에는 ‘잘 먹고 잘 놀기’가 기본이다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사람과 마찬가지로 육류든 생선이든 채소든 골고루 먹이는 것이 좋다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "◇노견= 나이가 들면 쇠약해지는 몸의 면역력이나 효소 반응을 정상으로 유지하려면 비타민과 미네랄을 적극적으로 섭취해야 한다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "비타민C가 풍부한 채소나 과일을 섭취하면 백내장을 예방할 수 있다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.knnews.co.kr/news/articleView.php?idxno=1378568",
+            "search_query": "반려견 건강 음식",
+            "terminate": false,
+            "text": "반려견도 사람처럼 나이대별로 필요한 영양소가 다 달라요. 그래서 성견일 때는 잘 먹고 잘 노는 것이 중요하기 때문에 육류, 채소, 생선을 골고루 먹이는 게 좋아요. 노견의 경우에는 면역력이나 효소 반응을 건강하게 유지하기 위해서 미네랄과 비타민을 잘 챙겨 먹여야 하고요. 백내장 예방을 위해 비타민C가 풍부한 채소나 과일을 먹이면 도움이 돼요.",
+            "turn_id": "BK22017514-4",
+            "utterance_id": "BK22017514.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좋은 정보 고마워요! 또 건강 관련으로 궁금한 게 있는데, 시바견을 키울 때 주의해야 할 질병이 있나요?",
+            "turn_id": "BK22017514-5",
+            "utterance_id": "BK22017514.9"
+        },
+        {
+            "reference_date": "44705.0",
+            "reference_text": [
+                {
+                    "value": "다만, 녹내장이나 백내장 그리고 슬개골 탈구가 생기는 경우가 많다고 합니다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한, 시바견은 피부가 약하다고 해요.",
+                    "value_time": "44834.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "특히, 알레르기로 인한 아토피 피부염이 생기는 경우가 많다고 하니 주의해야 합니다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/117877/",
+            "search_query": "시바견 질병",
+            "terminate": false,
+            "text": "시바견을 키울 때 주의해야 할 주요 질병으로 녹내장, 백내장, 슬개골 탈구가 있어요. 또 시바견은 피부가 약해요. 그래서 알레르기로 아토피 피부염이 일어날 경우가 많아요. 아프지 않게 잘 관리해주셔야 해요.",
+            "turn_id": "BK22017514-5",
+            "utterance_id": "BK22017514.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 여러 가지 배우고 가네요. 이것저것 신경 쓸 게 많은 것 같아요.",
+            "turn_id": "BK22017514-6",
+            "utterance_id": "BK22017514.11"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무래도 그럴 수밖에 없겠죠. 한 생명을 책임지는 일이니깐요. 그래도 개를 키우면 일상에 행복과 즐거움이 많아질 것 같은데, 어떠세요?",
+            "turn_id": "BK22017514-6",
+            "utterance_id": "BK22017514.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 개를 키우니까 예전보다 활기차게 변한 느낌이에요. 개와 같이 있다 보면 안정감이 느껴져요. 특히 개를 만지면 기분이 좋던데 여기에 어떤 과학적 이유가 있는 걸까요?",
+            "turn_id": "BK22017514-7",
+            "utterance_id": "BK22017514.13"
+        },
+        {
+            "reference_date": "44631.0",
+            "reference_text": [
+                {
+                    "value": "연구팀은 환자들이 치료견을 쓰다듬는 행동이 진통제 역할을 하는 옥시토신을 방출하고 스트레스 호르몬인 코르티솔을 억제시키는 것으로 분석했다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/03/10/2022031001929.html",
+            "search_query": "반려견 옥시토신",
+            "terminate": false,
+            "text": "아, 그건 제가 잘 알아요. 개를 쓰다듬으면 진통제 역할을 하는 옥시토신이 나오며 스트레스 호르몬인 코르티솔의 분비를 막아주거든요.",
+            "turn_id": "BK22017514-7",
+            "utterance_id": "BK22017514.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 어쩐지 개를 만질 때마다 기분이 좋아진다 싶었어요.",
+            "turn_id": "BK22017514-8",
+            "utterance_id": "BK22017514.15"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 그래요. 아침에 개랑 산책할 때마다 일상에 활력이 생기는 느낌이에요.",
+            "turn_id": "BK22017514-8",
+            "utterance_id": "BK22017514.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 조만간 첫 산책을 나가야 하는데, 궁금한 게 있어요. 혹시 목줄 길이에도 제한이 있나요?",
+            "turn_id": "BK22017514-9",
+            "utterance_id": "BK22017514.17"
+        },
+        {
+            "reference_date": "44726.0",
+            "reference_text": [
+                {
+                    "value": "동물보호법 시행규칙에 따르면 반려견 보호자는 생후 3개월이 지난 반려견과 외출할 때 반드시 2m 이내의 목줄 또는 가슴줄을 채우거나 이동장치를 사용해야 한다.",
+                    "value_time": "44838.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://biz.chosun.com/topics/topics_social/2022/06/14/2IHTK5LUQZAQ5HEQAAFKTY76LQ/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+            "search_query": "반려견 목줄 길이",
+            "terminate": false,
+            "text": "동물보호법에 따라서 생후 3개월이 넘은 반려견과 외출 시 반려견의 목줄 및 가슴줄은 2m 이내로 유지해주셔야 해요.",
+            "turn_id": "BK22017514-9",
+            "utterance_id": "BK22017514.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 좋은 정보 알려주셔서 정말로 감사해요.",
+            "turn_id": "BK22017514-10",
+            "utterance_id": "BK22017514.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "별말씀을요, 강아지 산책은 자주 시켜주세요.",
+            "turn_id": "BK22017514-10",
+            "utterance_id": "BK22017514.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 저 궁금한 게 또 있어요. 최근에 바쁜 일이 생겨서 개와 놀아줄 시간이 마땅치 않은데, 혹시 집에만 두고 놀아주는 시간도 적어지면 개 건강에 안 좋을까요?",
+            "turn_id": "BK22017514-11",
+            "utterance_id": "BK22017514.21"
+        },
+        {
+            "reference_date": "44805.0",
+            "reference_text": [
+                {
+                    "value": "최근 미국 워싱턴대 연구팀이 '개 노화 프로젝트'에 등록된 반려견 1만5019마리를 분석한 결과를 발표했다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "같은 품종, 활동 수준, 살균 정도가 같은 전제하에 비활동적인 개는 활동적인 개보다 개 치매에 걸릴 가능성이 거의 7배 더 높았다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://weekly.chosun.com/news/articleView.html?idxno=21809",
+            "search_query": "반려견 산책 치매",
+            "terminate": false,
+            "text": "거기에 대해 말해보자면, 비활동적인 개가 활동적인 개보다 치매에 걸릴 가능성이 7배 높다는 미국 워싱턴대 연구팀의 연구 결과가 있어요. 연구팀에서 개 노화 프로젝트의 1만 5,019마리의 반려견을 대상으로 분석한 결과에요. 그러니 개와 활동적인 시간을 많이 보내는 게 좋아요.",
+            "turn_id": "BK22017514-11",
+            "utterance_id": "BK22017514.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 시간 날 때마다 자주 놀아주고 산책도 가고 그래야겠네요. 반려견과 놀러 가기 좋은 장소가 있을까요?",
+            "turn_id": "BK22017514-12",
+            "utterance_id": "BK22017514.23"
+        },
+        {
+            "reference_date": "44747.0",
+            "reference_text": [
+                {
+                    "value": "한국관광공사는 27일 '반려견 동반 여행'을 테마로 '7월 추천 가볼 만한 곳'을 선정했다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "공사의 추천 여행지는 ▲오산반려동물테마파크(경기 오산) ▲인천대공원 반려견놀이터(인천 남동구) ▲춘천 강아지숲(강원 춘천) ▲의성펫월드(경북 의성) ▲임실 오수의견관광지(전북 임실) ▲장흥 국립천관산자연휴양림(전남 장흥) 등 6곳이다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20220627_0001921331&cID=10701&pID=10700",
+            "search_query": "반려견 테마파크",
+            "terminate": false,
+            "text": "2022년 6월 27일에 한국관광공사에서 반려견 동반 여행이란 테마로 추천 여행지를 선정했는데, 혹시 관심 있으면 가보시는 거 어때요? 오산반려동물테마파크, 인천대공원 반려견놀이터, 춘천 강아지숲, 의성펫월드, 임실 오수의견관광지, 장흥 국립천관산자연휴양림 이렇게 여섯 군데가 있어요.",
+            "turn_id": "BK22017514-12",
+            "utterance_id": "BK22017514.24"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고마워요, 언제 한번 가봐야겠네요.",
+            "turn_id": "BK22017514-13",
+            "utterance_id": "BK22017514.25"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 그럼 좋은 하루 되세요.",
+            "turn_id": "BK22017514-13",
+            "utterance_id": "BK22017514.26"
+        }
+    ]
+}

@@ -1,0 +1,322 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016471",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016471",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0012"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이 초등학교 입학을 앞두고 고민이 많아요. 획일화된 교육 속에서 경쟁시키기보다는 아이의 개성을 살려주는 교육을 하고 싶어서 대안학교에 대해 알아보고 있어요.",
+            "turn_id": "BK22016471-1",
+            "utterance_id": "BK22016471.1"
+        },
+        {
+            "reference_date": "2022-09-18",
+            "reference_text": [
+                {
+                    "value": "대안학교(代案學校, 영어: alternative school)는 종래의 학교교육의 문제점을 보완하고자 학습자 중심의 자율적인 프로그램인 대안교육을 실천하는 학교다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%EC%95%88%ED%95%99%EA%B5%90",
+            "search_query": "대안학교",
+            "terminate": false,
+            "text": "대안학교는 기존 정규 학교 교육의 문제점 보완을 위해 학생 중심이 되는 교육 프로그램을 자율적으로 운영해요. 획일화된 교육을 원치 않는다면 자율적인 교육과정이 특징인 대안학교 진학도 고려해볼 수 있겠네요.",
+            "turn_id": "BK22016471-1",
+            "utterance_id": "BK22016471.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대안학교에 가면 학력 인정이 되나요?",
+            "turn_id": "BK22016471-2",
+            "utterance_id": "BK22016471.3"
+        },
+        {
+            "reference_date": "2022-08-15",
+            "reference_text": [
+                {
+                    "value": "국공립 대안학교와 설립인가를 받은 대안학교를 졸업한 경우 초등학교·중학교·고등학교 졸업 학력이 인정됩니다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=746&ccfNo=4&cciNo=1&cnpClsNo=1",
+            "search_query": "대안학교 학력인정",
+            "terminate": false,
+            "text": "국공립 대안학교와 인가형 대안학교에 한해서 초, 중, 고등학교 졸업 학력이 인정돼요.",
+            "turn_id": "BK22016471-2",
+            "utterance_id": "BK22016471.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "학력 인정이 안 되는 대안학교도 있나요?",
+            "turn_id": "BK22016471-3",
+            "utterance_id": "BK22016471.5"
+        },
+        {
+            "reference_date": "2022-08-15",
+            "reference_text": [
+                {
+                    "value": "그러나 미인가 대안학교를 이수할 경우 국가로부터 학력인증은 받을 수 없고, 학력취득이 필요한 경우, 검정고시 제도를 활용할 수 있습니다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=746&ccfNo=4&cciNo=1&cnpClsNo=1",
+            "search_query": "위탁형 대안학교 학력인증",
+            "terminate": false,
+            "text": "네, 안타깝게도 미인가형 대안학교는 학력인정이 되지 않기 때문에 학력 인정을 위해 검정고시에 응시해야 해요.",
+            "turn_id": "BK22016471-3",
+            "utterance_id": "BK22016471.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어린이라면 누구나 초등과정 검정고시에 응시할 수 있나요?",
+            "turn_id": "BK22016471-4",
+            "utterance_id": "BK22016471.7"
+        },
+        {
+            "reference_date": "2022-06-10",
+            "reference_text": [
+                {
+                    "value": "초졸 검정고시 응시자격은 2011년 1월 1일 이전 출생자이어야 하며, 공고일 기준으로 초등학교에서 2022년 6월 10일 전(前) 정원 외 관리자로 돼 있어야 응시할 수 있다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newsjeju.net/news/articleView.html?idxno=379553",
+            "search_query": "초등과정 검정고시 자격",
+            "terminate": false,
+            "text": "조건이 있어요. 2022년을 기준으로 2011년 1월 1일 이전 출생자에 한해서 응시할 수 있으며, 공고를 한 날짜를 기준으로 2022년 6월 10일 전 정원 외 관리자로 초등학교에 되어 있어야 해요.",
+            "turn_id": "BK22016471-4",
+            "utterance_id": "BK22016471.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비인가 대안학교에 보내게 되면 아이가 검정고시 준비를 해야 한다는 부담이 있네요. 너무 불리해 보이는데 비인가 대안학교가 갖는 장점도 있을까요?",
+            "turn_id": "BK22016471-5",
+            "utterance_id": "BK22016471.9"
+        },
+        {
+            "reference_date": "2022-09-18",
+            "reference_text": [
+                {
+                    "value": "교육부의 지원을 받지 않는 대신, 교육과정에서부터 학제까지 완전 자율로 운영된다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%EC%95%88%ED%95%99%EA%B5%90",
+            "search_query": "학력 미인정 대안학교",
+            "terminate": false,
+            "text": "비인가형 대안학교는 교육부의 지원을 받지 않기 때문에 교육과정부터 학제까지 완전히 학교의 자율에 맡겨진다는 차별점이 있어요.",
+            "turn_id": "BK22016471-5",
+            "utterance_id": "BK22016471.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자율적인 교육과정 자체가 장점이라는 말씀이시군요. 비인가형 대안학교가 교육청의 인가를 받지 않는 이유를 좀 더 알고 싶습니다.",
+            "turn_id": "BK22016471-6",
+            "utterance_id": "BK22016471.11"
+        },
+        {
+            "reference_date": "2021-12-01",
+            "reference_text": [
+                {
+                    "value": "교육청 인가를 받으려면 물적조건으로 운동장과 담보가 설정되지 않은 건물을 보유하고 있어야 하고, 교사의 70%가 교원자격증 소지자여야 한다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/national/national-general/article/202112011048001",
+            "search_query": "교육청 대안학교 인가기준",
+            "terminate": false,
+            "text": "대안학교가 교육청의 인가를 받기 위해서는 규격화된 조건에 어느 정도 부합해야 해요. 교사의 70%가 교원자격증 소지자여야 하고, 운동장과 담보가 설정되지 않은 건물 보유 등의 물적 기준도 충족해야 해요.",
+            "turn_id": "BK22016471-6",
+            "utterance_id": "BK22016471.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "현실적인 조건과 인가 기준 간의 괴리가 있군요. 그런 부분 때문에 아이들이 학교에 다니고서도 검정고시를 봐야 한다니 안타까워요. 혹시 위탁형 대안학교는 누구나 다닐 수 있나요?",
+            "turn_id": "BK22016471-7",
+            "utterance_id": "BK22016471.13"
+        },
+        {
+            "reference_date": "2022-08-15",
+            "reference_text": [
+                {
+                    "value": "정규 초등학교·중학교 또는 고등학교에 학적이 있는 학생만 위탁이 가능하기 때문에 위탁형 대안학교를 희망하는 학생은 퇴학이나 자퇴를 한 학생은 지원할 수 없으며, 정규 학교 중퇴자는 재입학이나 편입학을 통해 학적을 회복한 후에만 위탁형 대안학교에 들어갈 수 있습니다(서울특별시교육청 대안교육지원센터 홈페이지 참조).",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=746&ccfNo=4&cciNo=1&cnpClsNo=1",
+            "search_query": "위탁형 대안학교 지원자격",
+            "terminate": false,
+            "text": "대안교육 위탁교육기관에는 정규학교에 학적이 있는 학생만 위탁 신청할 수 있어요. 퇴학이나 자퇴로 학적이 없는 학생이 위탁형 대안학교에 다니려면 우선 재입학, 편입학을 통해 학적을 회복해야 해요.",
+            "turn_id": "BK22016471-7",
+            "utterance_id": "BK22016471.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대안학교가 많지 않아서 대안학교 진학을 선택하게 되면 학교 가까운 곳으로 이사를 하게 될 것 같은데, 대안학교 때문에 이사하는 경우가 많을까요?",
+            "turn_id": "BK22016471-8",
+            "utterance_id": "BK22016471.15"
+        },
+        {
+            "reference_date": "2014-09-06",
+            "reference_text": [
+                {
+                    "value": "국토연구원이 2012년 주민 375명을 대상으로 한 설문조사에서 성미산에 이주한 동기에 대해 절반 가까운 주민들이 자녀 교육·육아(44.5%)라고 답했다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/national/national-general/article/201409052009275",
+            "search_query": "대안학교 이주 마을",
+            "terminate": false,
+            "text": "네, 대안학교 통학을 위해 이사하는 학부모들도 많아요. 일례로 2012년 375명의 성미산 마을 주민들이 응답한 국토연구원 조사에 따르면, 설문한 마을 주민 중 절반 정도가 자녀 교육과 육아를 위해 이주했다는 통계도 있어요.",
+            "turn_id": "BK22016471-8",
+            "utterance_id": "BK22016471.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 대안학교 보내는 학부모들끼리 관계도 돈독한 편이겠어요.",
+            "turn_id": "BK22016471-9",
+            "utterance_id": "BK22016471.17"
+        },
+        {
+            "reference_date": "2014-09-06",
+            "reference_text": [
+                {
+                    "value": "공동육아가 대안교육과 공동소비로 확장되면서 성미산 주민들에게 ‘이웃’은 ‘비슷한 사고와 가치관으로 엮이는 관계’(64.7%)로 정의된다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "10여개 마을기업도 아이를 키우면서 생긴 것이다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/national/national-general/article/201409052009275",
+            "search_query": "성미산마을 주민 공동체",
+            "terminate": false,
+            "text": "대안학교의 경우 대안교육과 공동 소비로 공동교육이 확대되며 비슷한 가치관을 가진 학부모들이 어울리면서 긴밀한 이웃 관계를 형성하게 돼요. 앞서 언급한 성미산 마을의 경우 마을 주민들이 10개 정도의 마을 기업을 설립했을 정도예요.",
+            "turn_id": "BK22016471-9",
+            "utterance_id": "BK22016471.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자세히 설명해주셔서 감사해요. 대안학교 진학에 대해 막연한 고민만 하고 있었는데, 어렴풋이 감이 잡히는 것 같아요. 도움이 많이 되었어요.",
+            "turn_id": "BK22016471-10",
+            "utterance_id": "BK22016471.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 다행입니다. 아이와 가정을 위해 좋은 선택해 주시길 바랍니다.",
+            "turn_id": "BK22016471-10",
+            "utterance_id": "BK22016471.20"
+        }
+    ]
+}

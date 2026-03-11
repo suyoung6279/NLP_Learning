@@ -1,0 +1,360 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22000881",
+        "name": "2022 한국어 블렌더봇 데이터 BK22000881",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "올해 안으로 이사를 가야 할 거 같네요. 근데 이사를 직접 혼자 준비해 본 적은 없어서 걱정이에요.",
+            "turn_id": "BK22000881-1",
+            "utterance_id": "BK22000881.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이사를 가실 거라면 이사 업체부터 알아보셔야겠네요",
+            "turn_id": "BK22000881-1",
+            "utterance_id": "BK22000881.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이사 업체를 알아볼 때 그냥 이사 비용이 저렴한 업체로 정하는 게 좋겠죠?",
+            "turn_id": "BK22000881-2",
+            "utterance_id": "BK22000881.3"
+        },
+        {
+            "reference_date": "2022-06-08",
+            "reference_text": [
+                {
+                    "value": "이사업체를 이용해 이사를 하는 경우 허가받은 이사업체인지 꼭 확인하는 것이 좋습니다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=60288",
+            "search_query": "이사 업체",
+            "terminate": false,
+            "text": "아니요. 이사업체 알아보실 때는 그 업체가 허가를 받은 업체인지 확인하는 것이 좋아요.",
+            "turn_id": "BK22000881-2",
+            "utterance_id": "BK22000881.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 이사업체를 알아볼 때 그 이사업체의 허가 유무는 어디서 확인을 하죠?",
+            "turn_id": "BK22000881-3",
+            "utterance_id": "BK22000881.5"
+        },
+        {
+            "reference_date": "2022-06-08",
+            "reference_text": [
+                {
+                    "value": "전국화물자동차운송주선사업연합회 홈페이지에서 허가받은 이사업체인지 확인할 수 있습니다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=60288",
+            "search_query": "이사 업체",
+            "terminate": false,
+            "text": "전국화물자동차 운송주선사업연합회 홈페이지에서 허가 여부를 알아볼 수 있어요.",
+            "turn_id": "BK22000881-3",
+            "utterance_id": "BK22000881.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "업체 선정할 때 알려주신 대로 허가 여부를 확인해야겠네요. 허가받은 업체 중에 이사 비용이 저렴한 곳으로 알아봐야겠어요.",
+            "turn_id": "BK22000881-4",
+            "utterance_id": "BK22000881.7"
+        },
+        {
+            "reference_date": "2019-05-15",
+            "reference_text": [
+                {
+                    "value": "또한 이사의 경우 에어컨이나 tv벽걸이 설치, 사다리차, 물품가격 등에 따라 비용이 달라지기 때문에 옵션비용을 추가할 수 있다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.cctvnews.co.kr/news/articleView.html?idxno=117046",
+            "search_query": "이사 비용 견적",
+            "terminate": false,
+            "text": "이사 비용은 에어컨이나 tv벽걸이 설치, 사다리차, 물품가격 등에 따라 비용이 달라지기도 하고 옵션 비용 또한 추가할 수 있어요.",
+            "turn_id": "BK22000881-4",
+            "utterance_id": "BK22000881.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비용이 결정되는 요소가 많네요. 이사업체도 정말 많던데 어떤 곳을 선정해야 할지는 모르겠어요.",
+            "turn_id": "BK22000881-5",
+            "utterance_id": "BK22000881.9"
+        },
+        {
+            "reference_date": "2022-01-26",
+            "reference_text": [
+                {
+                    "value": "이사업체를 잘 고르는 가장 쉽고, 확실한 방법은 여러 업체와 방문견적을 진행해서 내 이사조건에 맞는지, 비용은 합리적인지 또 개별요청사항을 잘 이행해줄 수 있는지 비교해보는 것이다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://view.asiae.co.kr/article/2022012610443837776",
+            "search_query": "이사 업체 비교",
+            "terminate": false,
+            "text": "여러 업체와 방문견적을 먼저 진행하시고, 내 이사 조건에 맞는지와 비용은 합리적인지, 개별 요청 또한 잘 이행해 줄 수 있는지를 비교해 보고 결정해 보시는 게 좋습니다.",
+            "turn_id": "BK22000881-5",
+            "utterance_id": "BK22000881.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아직 시간이 많으니 여유로이 알아봐야겠어요.",
+            "turn_id": "BK22000881-6",
+            "utterance_id": "BK22000881.11"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 내년 초로 이사계획이 연장되는 건 아니시죠?",
+            "turn_id": "BK22000881-6",
+            "utterance_id": "BK22000881.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럴 일 없겠지만 변수가 생기면 내년 초로 연장이 될 수도 있는데 어떤 거 때문에 그러시죠?",
+            "turn_id": "BK22000881-7",
+            "utterance_id": "BK22000881.13"
+        },
+        {
+            "reference_date": "2022-01-26",
+            "reference_text": [
+                {
+                    "value": "위매치다이사 측은 이사업체 예약률이 높은 시간대와 요일을 피하고, 1월~3월은 전통적인 이사 성수기라 이사업체 예약이 어려우니 이사날짜 28일 이전에는 이사업체 방문견적을 신청해야 시간에 쫓기지 않고 복수이상의 업체를 비교할 수 있다고 덧붙였다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://view.asiae.co.kr/article/2022012610443837776",
+            "search_query": "이사 업체 예약",
+            "terminate": false,
+            "text": "1월부터 3월이 이사 성수기라 예약이 몰려요. 만약 내년 초로 이사 계획이 늦춰진다면, 이사 날짜 28일 이전까지는 이사업체 방문견적을 신청해 놔야 여유 있게 이사 업체를 비교할 수 있어요.",
+            "turn_id": "BK22000881-7",
+            "utterance_id": "BK22000881.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "막 다급하게 예약하는 거 싫어하는데, 그렇다면 되도록 올해에 이사를 가야겠네요. 물론 예약이 몰리는 주말 말고 평일에 하려고요.",
+            "turn_id": "BK22000881-8",
+            "utterance_id": "BK22000881.15"
+        },
+        {
+            "reference_date": "2017-03-25",
+            "reference_text": [
+                {
+                    "value": "주말보다 평일에 이사해야 비용면에서 유리하다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ggilbo.com/news/articleView.html?idxno=357642",
+            "search_query": "이사 날짜 선정",
+            "terminate": false,
+            "text": "그렇다면 이사 비용은 더 저렴하게 하실 수 있으시겠네요. 주말 보다 평일에 이사하는 게 비용이 대체적으로 저렴해요.",
+            "turn_id": "BK22000881-8",
+            "utterance_id": "BK22000881.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그건 몰랐네요. 그 밖에 이사할 때 미리 준비해야 할 것도 있나요?",
+            "turn_id": "BK22000881-9",
+            "utterance_id": "BK22000881.17"
+        },
+        {
+            "reference_date": "2017-03-25",
+            "reference_text": [
+                {
+                    "value": "기존에 살고있던 집 가스요금, 전기, 가스료, 관리비 등 비용을 지불해야할 일이 있다면 정산을 해야한다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아파트의 경우 관리실에 들러 정산 요청하면 편리하다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ggilbo.com/news/articleView.html?idxno=357642",
+            "search_query": "이사 체크",
+            "terminate": false,
+            "text": "이사 가기 전에 기존에 살았던 집 가스 요금이나 전기비 등을 납부하셔야죠. 만약 아파트에 사신다면 관리실에 가서 정산 요청하면 편해요.",
+            "turn_id": "BK22000881-9",
+            "utterance_id": "BK22000881.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이사에 대해 평소 아무것도 몰랐는데 덕분에 많은 정보를 얻게 되네요.",
+            "turn_id": "BK22000881-10",
+            "utterance_id": "BK22000881.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아마 이사 하실때가 오면 제가 오늘 알려드린 정보 잊어버리실 수도 있을 거예요.",
+            "turn_id": "BK22000881-10",
+            "utterance_id": "BK22000881.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 집에 가서 알려주신 내용 메모해 놓으려고요.",
+            "turn_id": "BK22000881-11",
+            "utterance_id": "BK22000881.21"
+        },
+        {
+            "reference_date": "2019-02-22",
+            "reference_text": [
+                {
+                    "value": "이사 당일날 약속과 다른 서비스가 제공되거나, 가전가구 분실 및 파손이 될 경우도 있고 추가금도 발생하는 경우가 적지않아서 이사브랜드를 신중히 골라야 되는 이유가 된다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.cctvnews.co.kr/news/articleView.html?idxno=105565",
+            "search_query": "이사 팁",
+            "terminate": false,
+            "text": "마지막으로 메모할 거 하나 더 알려드리자면, 나중에 업체를 결정하고 이사 당일 약속과 다른 서비스가 제공되거나, 이사 물품이 없어지거나, 파손이 되는 경우도 있어요. 그리고 미처 생각치 못한 부분으로 추가금이 발생하는 경우도 있으니 미리 참고 해주세요.",
+            "turn_id": "BK22000881-11",
+            "utterance_id": "BK22000881.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네 오늘 많은 걸 알려주셔서 감사해요. 이사 시기가 오면 그때 한 번 더 연락드려도 되나요?",
+            "turn_id": "BK22000881-12",
+            "utterance_id": "BK22000881.23"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네 언제든지 편하게 연락 주세요.",
+            "turn_id": "BK22000881-12",
+            "utterance_id": "BK22000881.24"
+        }
+    ]
+}

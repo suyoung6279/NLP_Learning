@@ -1,0 +1,311 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015148",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015148",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번에 아버지께서 종합부동산세가 많이 나왔다고 하시던데, 재산세 같은 건가?",
+            "turn_id": "BK22015148-1",
+            "utterance_id": "BK22015148.1"
+        },
+        {
+            "reference_date": "2022-04-26",
+            "reference_text": [
+                {
+                    "value": "종합부동산세(綜合不動産稅, 간단히 종부세)는 대한민국에서 국세청이 일정한 기준을 초과하는 토지 및 주택의 소유자에 대해 부과하는 세금 또는 그 제도를 말한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A2%85%ED%95%A9%EB%B6%80%EB%8F%99%EC%82%B0%EC%84%B8",
+            "search_query": "종합부동산세",
+            "terminate": false,
+            "text": "맞아, 재산세 종류지. 더 정확히 말해서 종합부동산세란 국세청이 일정한 기준을 초과하는 토지 및 주택의 소유자에게 부과하는 세금 또는 그 제도를 말해.",
+            "turn_id": "BK22015148-1",
+            "utterance_id": "BK22015148.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 종합부동산세를 내야 하는 기준은 어떻게 되는데?",
+            "turn_id": "BK22015148-2",
+            "utterance_id": "BK22015148.3"
+        },
+        {
+            "reference_date": "2022-09-15",
+            "reference_text": [
+                {
+                    "value": "현행 법상 공시가격 합산액 기준 6억원을 초과하는 다주택자이거나 11억원이 초과하는 1주택자가 종부세 대상자다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.naeil.com/news_view/?id_art=435560",
+            "search_query": "기준",
+            "terminate": false,
+            "text": "현재는 공시가격 합산액 기준 6억원을 초과하는 다주택자이거나 11억원이 초과하는 1주택자가 종합부동산세 대상자야.",
+            "turn_id": "BK22015148-2",
+            "utterance_id": "BK22015148.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요새는 집값이 하도 올라서 종합부동산세 대상자가 늘었겠다. 공시지가는 언제 결정되는 거야?",
+            "turn_id": "BK22015148-3",
+            "utterance_id": "BK22015148.5"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "공시지가의 가격 산정 기준일은 원칙적으로 당해년도 1월 1일부터 가격 산정이 시작되는데, 대한민국 국토교통부장관은 공시 기준일을 변경할 수 있다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%B5%EC%8B%9C%EC%A7%80%EA%B0%80",
+            "search_query": "공시지가",
+            "terminate": false,
+            "text": "공시지가는 원칙적으로 당해년도 1월 1일부터 산정이 시작되는데 국토교통부장관은 공시기준일을 변경할 수 있어.",
+            "turn_id": "BK22015148-3",
+            "utterance_id": "BK22015148.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "공시지가는 보통 연초에 산정하는 거구나, 그런데 아버지가 매도할 생각도 좀 하시는 것 같아. 갖고 있으면 세금만 많이 낸다고 생각하셔서. 팔 때도 세금 내지 않아?",
+            "turn_id": "BK22015148-4",
+            "utterance_id": "BK22015148.7"
+        },
+        {
+            "reference_date": "2022-06-24",
+            "reference_text": [
+                {
+                    "value": "양도소득세(讓渡所得稅, 영어: capital gains tax, CGT)는 토지나 건물 등의 자산을 유상으로 양도함으로써 얻는 소득에 부과하는 조세 즉, 자산의 양도로 인한 자본이익에 대한 세금을 말한다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%96%91%EB%8F%84%EC%86%8C%EB%93%9D%EC%84%B8",
+            "search_query": "양도소득세",
+            "terminate": false,
+            "text": "응, 양도소득세라는게 있어. 토지나 건물 등의 자산을 유상으로 양도할 때 얻는 소득에 부과하는 세금이야.",
+            "turn_id": "BK22015148-4",
+            "utterance_id": "BK22015148.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집을 팔 때 시세 차익이 생기면 좋기는 한데 세금이 많이 나오면 그것도 재고해 볼 일이네. 양도소득세는 언제 생겨난 거야?",
+            "turn_id": "BK22015148-5",
+            "utterance_id": "BK22015148.9"
+        },
+        {
+            "reference_date": "2020-09-10",
+            "reference_text": [
+                {
+                    "value": "1967년 정부는 '부동산투기억제세'를 창설했으나 실효가 없자, 1975.1.1 이를 폐지하고 양도소득세를 신설하였다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=6411106&cid=42094&categoryId=42094",
+            "search_query": "부동산투기억제세",
+            "terminate": false,
+            "text": "정부는 1967년 부동산투기억제세를 만들었다가 효과가 없자, 1975년 1월 1일에 이를 폐지하고 양도소득세를 신설했어.",
+            "turn_id": "BK22015148-5",
+            "utterance_id": "BK22015148.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그럼 세율은 어떻게 정해지는 거야?",
+            "turn_id": "BK22015148-6",
+            "utterance_id": "BK22015148.11"
+        },
+        {
+            "reference_date": "2014-01-05",
+            "reference_text": [
+                {
+                    "value": "2014년 이후에 양도하는 주택의 보유기간이 1년 미만이면 40%, 1년 이상이면 6~38%의 세율을 적용한다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=2271250&cid=51281&categoryId=51282",
+            "search_query": "양도시기",
+            "terminate": false,
+            "text": "2014년 이후에 양도하는 경우에는 주택 보유기간이 1년 미만이면 40%, 1년 이상이면 6~38%의 세율을 적용해.",
+            "turn_id": "BK22015148-6",
+            "utterance_id": "BK22015148.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 최근 몇 년간 부동산 가격이 많이 올라서 양도 소득세도 많이 늘었겠는데?",
+            "turn_id": "BK22015148-7",
+            "utterance_id": "BK22015148.13"
+        },
+        {
+            "reference_date": "2021-11-03",
+            "reference_text": [
+                {
+                    "value": "지난달 12일 기획재정부가 발표한 ‘월간 재정동향 및 이슈'에 따르면 지난 8월까지 부동산 거래에서 발생한 양도소득세가 지난해 같은 기간보다 무려 10조3,000억원이나 늘어났다고 한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.socialfocus.co.kr/news/articleView.html?idxno=11158",
+            "search_query": "양도 소득세",
+            "terminate": false,
+            "text": "작년 10월 기준으로 기획재정부 발표에 따르면 2021년 8월까지 부동산 거래에서 발생한 양도소득세가 2020년보다 무려 10조3,000억원이나 늘었다고 해.",
+            "turn_id": "BK22015148-7",
+            "utterance_id": "BK22015148.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그만큼 부동산 투기 열풍도 뜨거웠지.",
+            "turn_id": "BK22015148-8",
+            "utterance_id": "BK22015148.15"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그랬지, 반면에 대출받아 아파트 샀다가 손해 본 사람도 있지.",
+            "turn_id": "BK22015148-8",
+            "utterance_id": "BK22015148.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게, 그리고 매매계약할 때 근저당권 설정도 확인해야 하지 않아?",
+            "turn_id": "BK22015148-9",
+            "utterance_id": "BK22015148.17"
+        },
+        {
+            "reference_date": "2022-02-23",
+            "reference_text": [
+                {
+                    "value": "부동산의 매매계약에 있어서 특별한 약정이 없는 한 매수인은 그 부동산에 설정된 근저당권설정등기가 있어 완전한 소유권이전을 받지 못할 우려가 있으면 그 근저당권의 말소등기가 될 때까지 그 등기상의 담보한도금액에 상당한 대금지급을 거절할 수 있다.",
+                    "value_time": "2022-10-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A7%A4%EB%A7%A4",
+            "search_query": "근저당권",
+            "terminate": false,
+            "text": "맞아, 매수하려는 부동산에 설정된 근저당권설정등기로 인해 소유권 이전에 제한이 생길 우려가 있다면 근저당권의 등기가 말소되기까지 등기상 담보금액에 상당한 대금 지급을 거절할 수도 있지.",
+            "turn_id": "BK22015148-9",
+            "utterance_id": "BK22015148.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "덕분에 중요한 걸 알았네, 아버지께 신중하게 고려하시라고 말씀드려야겠어. 정말 고마워!",
+            "turn_id": "BK22015148-10",
+            "utterance_id": "BK22015148.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 아버지랑 잘 상의해봐.",
+            "turn_id": "BK22015148-10",
+            "utterance_id": "BK22015148.20"
+        }
+    ]
+}

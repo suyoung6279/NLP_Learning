@@ -1,0 +1,327 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002554",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002554",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전 옆집 부부가 이혼했는데, 황혼이혼이라고 하더라고요. 요즘은 황혼이혼 많이 하나 봐요.",
+            "turn_id": "BK22002554-1",
+            "utterance_id": "BK22002554.1"
+        },
+        {
+            "reference_date": "2022-03-18",
+            "reference_text": [
+                {
+                    "value": "황혼 이혼이 빠르게 늘면서 전체 이혼 중 30년 이상 결혼생활 끝에 결별을 택한 비율이 최근 10년 새 10%포인트 넘게 증가했다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/economy/view/2022/03/248159/",
+            "search_query": "이혼이유 통계",
+            "terminate": false,
+            "text": "황혼이혼은 30년 이상 결혼생활 끝에 결별을 선택하는 걸 말하는데요. 전체 이혼 중 그 비율이 최근 10년간 10포인트 넘게 늘었어요.",
+            "turn_id": "BK22002554-1",
+            "utterance_id": "BK22002554.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 황혼이혼이 많이 늘었군요. 혹시 젊은 층도 이혼율이 높은가요?",
+            "turn_id": "BK22002554-2",
+            "utterance_id": "BK22002554.3"
+        },
+        {
+            "reference_date": "2022-03-17",
+            "reference_text": [
+                {
+                    "value": "통계청이 17일 발표한 `2021년 혼인·이혼통계'를 보면 지난해 이혼은 10만2000건으로 전년보다 4.5%(5000건) 감소했다",
+                    "value_time": "2022-07-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.cctimes.kr/news/articleView.html?idxno=696915",
+            "search_query": "국내이혼율",
+            "terminate": false,
+            "text": "그나마 다행인 건 전체적인 이혼율은 감소했다는 건데요. 통계청의 발표를 인용해 보면 2021년 기준으로 이혼은 10만2000건으로 전년보다 5000건이 줄었어요.",
+            "turn_id": "BK22002554-2",
+            "utterance_id": "BK22002554.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "감소했다고 해도 여전히 많은 수가 이혼하네요.",
+            "turn_id": "BK22002554-3",
+            "utterance_id": "BK22002554.5"
+        },
+        {
+            "reference_date": "2022-03-17",
+            "reference_text": [
+                {
+                    "value": "해당연령 인구 1000명당 이혼건수인 연령별 이혼율은 남자는 40대 후반이 7.4건, 여자는 40대 초반이 7.8건으로 가장 높게 나타났다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.delighti.co.kr/news/articleView.html?idxno=34485",
+            "search_query": "연령별 이혼율",
+            "terminate": false,
+            "text": "그렇죠, 생각보다 많은 사람이 이혼을 결정하죠. 40대 기준으로 보면, 남자는 40대 후반, 여자는 40대 초반에 많이 해요.",
+            "turn_id": "BK22002554-3",
+            "utterance_id": "BK22002554.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 결혼하는 사람들은 줄지 않았나요?",
+            "turn_id": "BK22002554-4",
+            "utterance_id": "BK22002554.7"
+        },
+        {
+            "reference_date": "2022-06-24",
+            "reference_text": [
+                {
+                    "value": "출산의 선행지표인 혼인 건수는 19만3000건으로, 역대 처음으로 20만 건 밑으로 떨어졌다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25081742",
+            "search_query": "혼인 건수",
+            "terminate": false,
+            "text": "역시 잘 알고 계시네요. 혼인 건수는 19만3000건으로 지금까지 최초로 20만건 밑으로 떨어졌어요.",
+            "turn_id": "BK22002554-4",
+            "utterance_id": "BK22002554.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 이혼 사유는 외도가 많은가요?",
+            "turn_id": "BK22002554-5",
+            "utterance_id": "BK22002554.9"
+        },
+        {
+            "reference_date": "2022-06-13",
+            "reference_text": [
+                {
+                    "value": "주된 이혼 사유로는 배우자의 외도와 경제적 문제, 성경 차이 등이 원인으로 분석 됐다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.beopbo.com/news/articleView.html?idxno=310170",
+            "search_query": "이혼사유통계",
+            "terminate": false,
+            "text": "이혼 사유로 제일 높은 건 아무래도 외도와 경제적인 문제예요. 그리고 성격 차이도 있지요.",
+            "turn_id": "BK22002554-5",
+            "utterance_id": "BK22002554.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이런 이유로 이혼하면 가슴 아플 거 같아요. 그런데 최근 간통죄는 폐지되지 않았나요?",
+            "turn_id": "BK22002554-6",
+            "utterance_id": "BK22002554.11"
+        },
+        {
+            "reference_date": "2022-06-29",
+            "reference_text": [
+                {
+                    "value": "2015년 2월 간통죄가 폐지된 후로는 형사처벌이 불가능하게 되었지만 여전히 배우자의 부정행위는 부도덕한 행위로 인식되어 민사상의 위자료 청구를 통해 상간자 및 배우자에게 법적 조치를 취할 수 있다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ccnews.lawissue.co.kr/view.php?ud=2022062913025663826cf2d78c68_12",
+            "search_query": "상간녀 위자료 청구소송",
+            "terminate": false,
+            "text": "지난 15년 2월에 폐지되었지요. 그래서 간통이 형사처벌은 어려워요. 하지만 부정행위에 대해서는 민사로 위자료 청구를 할 수 있답니다",
+            "turn_id": "BK22002554-6",
+            "utterance_id": "BK22002554.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이런 경우 위자료는 어느 정도 받아요?",
+            "turn_id": "BK22002554-7",
+            "utterance_id": "BK22002554.13"
+        },
+        {
+            "reference_date": "2022-06-30",
+            "reference_text": [
+                {
+                    "value": "상간자 소송에서 승소 시 받을 수 있는 위자료는 케이스마다 다르지만 통상 1000만원에서 3000만원 선이며, 불법행위에 의해 발생한 정신적 손해에 대한 개념이므로 불륜 기간, 정도, 상간자의 태도 등 여러 가지 사항을 고려하여 법원이 위자료 액수를 결정한다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.beyondpost.co.kr/view.php?ud=202206280822201576cf2d78c68_30",
+            "search_query": "외도 이혼",
+            "terminate": false,
+            "text": "케이스마다 다르지만, 일반적으로 천만 원에서 삼천만 원 선이에요. 아무래도 정신적 손해에 대해 청구하는 거라 여러 조건을 고려해 액수가 나온답니다.",
+            "turn_id": "BK22002554-7",
+            "utterance_id": "BK22002554.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 금액이 높지는 않네요. 그럼 재산분할에 대해서는 어때요?",
+            "turn_id": "BK22002554-8",
+            "utterance_id": "BK22002554.15"
+        },
+        {
+            "reference_date": "2022-06-17",
+            "reference_text": [
+                {
+                    "value": "남혜진 창원 해정법률사무소 변호사는 “재산분할은 부부가 결혼 생활 가운데 공동으로 형성한 재산에 대하여 기여도에 따라 나누는 것을 뜻한다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 과정에서 재산 명의가 누구인지는 관계 있지 않으며 그 재산을 관리하는 데 각자 어떤 기여를 얼마나 했는지가 중요하다",
+                    "value_time": "2022-07-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=105814",
+            "search_query": "이혼 재산분할",
+            "terminate": false,
+            "text": "재산분할은 부부가 결혼 생활 중에 공동으로 형성한 재산에 대해 기여도에 따라 나누는 것인데요. 이 과정에서는 그 재산을 관리하는 데 기여를 얼마나 했는지가 중요해요.",
+            "turn_id": "BK22002554-8",
+            "utterance_id": "BK22002554.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 정말 복잡한 게 이혼이네요.",
+            "turn_id": "BK22002554-9",
+            "utterance_id": "BK22002554.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 그런데 그게 그렇게 어려운 일인 것 같아요.",
+            "turn_id": "BK22002554-9",
+            "utterance_id": "BK22002554.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얘기를 듣다 보니 우리 부부의 일상도 한 번쯤 점검해 봐야 할 것 같아요.",
+            "turn_id": "BK22002554-10",
+            "utterance_id": "BK22002554.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 가끔 한 번씩 확인하는 게 중요한 것 같아요. 그럼 저는 이만 다음 약속이 있어서요.",
+            "turn_id": "BK22002554-10",
+            "utterance_id": "BK22002554.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래요, 다음에 우리 또 만나요.",
+            "turn_id": "BK22002554-11",
+            "utterance_id": "BK22002554.21"
+        }
+    ]
+}

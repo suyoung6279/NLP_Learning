@@ -1,0 +1,385 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003219",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003219",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘은 결혼해도 아이를 잘 안 낳으려고 하잖아. 그래서 최근 자녀계획에 대한 사람들의 인식 변화가 궁금한데 아는 거 있어?",
+            "turn_id": "BK22003219-1",
+            "utterance_id": "BK22003219.1"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "3일 통계청의 'KOSTAT 통계플러스' 여름호에 실린 '국민들이 희망하는 출산이 이뤄지고 있을까' 보고서에 따르면 우리나라 국민은 자녀 2명 정도가 이상적이라고 느끼지만, 실제로 낳는 자녀수는 점점 줄어드는 것으로 확인됐습니다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newsis.com/view/?id=NISX20220629_0001925052",
+            "search_query": "자녀계획",
+            "terminate": false,
+            "text": "지난 3일 KOSTAT 통계플러스 여름호에 국민이 희망하는 출산이 이뤄지고 있을까라는 주제로 보고서가 실렸었어. 이 보고서의 내용을 보면, 우리나라 국민이 이상적이라고 생각하는 자녀의 수는 두 명이지만 실제로 출산하는 자녀는 점점 줄어들고 있다는 걸 알 수 있지.",
+            "turn_id": "BK22003219-1",
+            "utterance_id": "BK22003219.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 2명을 이상적이라고 생각하는 건 과거에 비해서 많이 줄어든 건가?",
+            "turn_id": "BK22003219-2",
+            "utterance_id": "BK22003219.3"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "국민이 느끼는 이상적인 자녀수는 1974년 3.3명에서 1982년 2.6명, 2018년 2.1명으로 줄었으나 여전히 2명대를 유지했습니다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newsis.com/view/?id=NISX20220629_0001925052",
+            "search_query": "자녀계획 추세",
+            "terminate": false,
+            "text": "국민이 이상적이라고 생각하는 자녀의 수는 1974년에 3.3명이었고 1982년엔 2.6명, 2018년엔 2.1명으로 줄어들고 있지만 여전히 2명대는 유지하고 있지.",
+            "turn_id": "BK22003219-2",
+            "utterance_id": "BK22003219.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데도 주변에 보면 아이가 둘 이상 있는 집보다는 하나거나 아예 없는 집이 더 많은 것 같은데, 최근 우리나라 출산율은 어떻게 되지?",
+            "turn_id": "BK22003219-3",
+            "utterance_id": "BK22003219.5"
+        },
+        {
+            "reference_date": "2022-06-26",
+            "reference_text": [
+                {
+                    "value": "우리나라 연간 합계 출산율은 2018년(0.98명), 2019년(0.92명), 2020년(0.84명), 2021년(0.81명) 4년 연속 1명을 밑도는 실정이다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kukinews.com/newsView/kuk202206230137",
+            "search_query": "우리나라 출산율",
+            "terminate": false,
+            "text": "우리나라 연간 합계 출산율을 보면 2018년에 0.98명, 2019년에 0.92명이었고 2020년 0.84명, 2021년에는 0.81명으로 4년 연속으로 1명이 채 안 되는 것으로 나오고 있어.",
+            "turn_id": "BK22003219-3",
+            "utterance_id": "BK22003219.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 요즘 자꾸 저출산이라는 말이 나오는 거구나. 그런데 저출산이라고 정할 수 있는 기준은 어떻게 돼?",
+            "turn_id": "BK22003219-4",
+            "utterance_id": "BK22003219.7"
+        },
+        {
+            "reference_date": "2022-06-24",
+            "reference_text": [
+                {
+                    "value": "저출산이란 여성이 평생 출산하는 자녀의 숫자(이를 합계출산율이라고 합니다)가 인구 대체 수준인 2.1명보다 낮은 현상을 의미합니다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/Society/article/all/20220623/114086286/1",
+            "search_query": "저출산 기준",
+            "terminate": false,
+            "text": "여성이 평생 출산하는 자녀의 수를 합계 출산율이라고 하는데, 이것이 인구 대체 수준인 2.1명 이하인 경우를 말해.",
+            "turn_id": "BK22003219-4",
+            "utterance_id": "BK22003219.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 우리나라는 심각한 저출산이구나. 이렇게 되면 어떤 문제가 발생하게 되는 거야?",
+            "turn_id": "BK22003219-5",
+            "utterance_id": "BK22003219.9"
+        },
+        {
+            "reference_date": "2022-06-24",
+            "reference_text": [
+                {
+                    "value": "저출산이 가져올 문제는 다양합니다만 크게 두 가지로 요약해 볼 수 있습니다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "저출산은 보통 고령화와 함께 발생합니다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "노인 인구를 부양하기 위한 복지 및 의료 등 각종 사회적 비용의 증가는 인구가 감소하는 젊은 세대에게 큰 부담이 됩니다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/Society/article/all/20220623/114086286/1",
+            "search_query": "저출산 문제",
+            "terminate": false,
+            "text": "저출산으로 인한 문제는 다양하지만 크게 두 가지로 나눠볼 수 있어. 먼저 저출산은 고령화와 함께 발생하는데, 노인 인구를 부양하기 위해서 복지나 의료와 같은 사회적 비용이 증가하면 그것이 젊은 세대에게는 큰 부담이 되는 거지.",
+            "turn_id": "BK22003219-5",
+            "utterance_id": "BK22003219.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 또 한 가지 문제는 뭐야?",
+            "turn_id": "BK22003219-6",
+            "utterance_id": "BK22003219.11"
+        },
+        {
+            "reference_date": "2022-06-24",
+            "reference_text": [
+                {
+                    "value": "두 번째는 경제의 위축입니다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "경제는 생산과 소비가 순환하며 발전하게 됩니다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 저출산으로 총인구가 감소하면 생산과 소비도 감소하여 경제가 위축되는 결과를 가져옵니다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/Society/article/all/20220623/114086286/1",
+            "search_query": "저출산 문제점",
+            "terminate": false,
+            "text": "경제가 위축되는 게 두 번째 문제야. 경제는 생산과 소비가 순환하면서 발전하는 건데, 출산이 줄어 총 인구 수가 감소하게 되면 생산과 소비도 같이 감소하게 되니까, 그래서 결과적으로는 경제도 위축되는 거야.",
+            "turn_id": "BK22003219-6",
+            "utterance_id": "BK22003219.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인구가 줄면 확실히 생산과 소비 인구가 줄게 되니 그렇겠구나. 그럼 정부에서는 이 문제에 대해서 어떻게 대응하겠다는 반응인지 궁금한데?",
+            "turn_id": "BK22003219-7",
+            "utterance_id": "BK22003219.13"
+        },
+        {
+            "reference_date": "2022-06-24",
+            "reference_text": [
+                {
+                    "value": "저출산·고령화 문제를 해결하기 위해 출범한 인구위기대응 태스크포스(TF)가 활동을 시작했다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "TF는 부모급여 도입 등 인센티브를 강화해 저출산 흐름을 완화해 나가겠다는 방침이다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisajournal.com/news/articleView.html?idxno=241109",
+            "search_query": "저출산 대응 방안",
+            "terminate": false,
+            "text": "저출산 고령화 문제를 해결하기 위해서 인구 위기 대응 태스크포스가 출범해서 활동을 시작했어. 이른바 TF라고 하는데, 저출산의 기조를 완화하기 위해서 부모 급여를 도입하는 등의 인센티브를 강화할 예정이야.",
+            "turn_id": "BK22003219-7",
+            "utterance_id": "BK22003219.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 근데 부모 급여라는 말은 처음 듣는데, 이건 구체적으로 어떤 정책을 말하는 거야?",
+            "turn_id": "BK22003219-8",
+            "utterance_id": "BK22003219.15"
+        },
+        {
+            "reference_date": "2022-06-16",
+            "reference_text": [
+                {
+                    "value": "정부는 우선 소득과 무관하게 아이를 낳기만 하면 무조건 현금을 주는 '부모급여'를 내년부터 도입하기로 했다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "내년엔 만 0세인 아동의 부모에겐 월 70만원, 만 1세 아동의 부모에 대해선 35만원을 지급한다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2024년엔 각각 100만원과 50만원으로 지급액을 확대할 계획이다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/economy/article/202206165312i",
+            "search_query": "부모급여",
+            "terminate": false,
+            "text": "소득과 무관하게 아이를 낳으면 무조건 현금을 주는 거야. 내년부터 도입되면 만 0세 아동의 부모는 월 70만 원, 만 1세 아동의 부모는 35만 원을 받을 수 있게 돼. 2024년엔 이를 각각 100만 원과 50만 원으로 늘릴 계획이고.",
+            "turn_id": "BK22003219-8",
+            "utterance_id": "BK22003219.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 어쩌다 우리나라가 이렇게까지 저출산 국가가 된 거지? 그 이유도 궁금해.",
+            "turn_id": "BK22003219-9",
+            "utterance_id": "BK22003219.17"
+        },
+        {
+            "reference_date": "2022-02-24",
+            "reference_text": [
+                {
+                    "value": "치솟는 부동산 가격과 과도한 사교육 비용, 여성 경력 단절 우려 등으로 인해 젊은 세대가 결혼과 출산을 꺼리고 있고, 고도성장 이후 삶에 대한 가치관도 변해 결혼하고 아이 낳는 것보다 나의 삶이 더 중요한 세상이 됐다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220224090300022",
+            "search_query": "저출산 원인",
+            "terminate": false,
+            "text": "부동산 가격은 치솟고 사교육 비용은 과도한데다, 여성의 경력 단절에 대한 우려와 같은 이유로 젊은 세대가 결혼과 출산을 꺼리고 있잖아. 게다가 삶의 가치관도 변해서 결혼해서 아이를 낳는 것보다는 내 삶을 더 중요하게 여기는 세상이 되었으니까.",
+            "turn_id": "BK22003219-9",
+            "utterance_id": "BK22003219.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시대가 변하면서 여러 문제가 생겼구나. 점차 이 문제가 해결돼가면 좋겠다.",
+            "turn_id": "BK22003219-10",
+            "utterance_id": "BK22003219.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우선은 결혼하고 아이 키우기 좋은 환경이 만들어져야 하겠지.",
+            "turn_id": "BK22003219-10",
+            "utterance_id": "BK22003219.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 나 같아도 아이 둘은 낳고 싶지만, 현실적으로 생각하면 망설여지니까.",
+            "turn_id": "BK22003219-11",
+            "utterance_id": "BK22003219.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "앞으로 정책이 잘 만들어져서 생각대로 꼭 예쁜 아이 둘 낳길 바랄게.",
+            "turn_id": "BK22003219-11",
+            "utterance_id": "BK22003219.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "글쎄, 그렇게 되려나. 아무튼 오늘 많은 걸 알려줘서 고마워. 다음에 또 보자.",
+            "turn_id": "BK22003219-12",
+            "utterance_id": "BK22003219.23"
+        }
+    ]
+}

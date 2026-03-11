@@ -1,0 +1,357 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016046",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016046",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이혼 후에 아이를 혼자 키우는 게 제가 상상하고 각오했던 것보다 더 힘드네요. 요즘 한부모 가정에 대한 제도를 찾아보고 있는데 조금 어려워서요. 도움을 좀 주실 수 있을까요?",
+            "turn_id": "BK22016046-1",
+            "utterance_id": "BK22016046.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼요. 제가 아는 것들은 최대한 쉽게 설명해드리고 지원받을 수 있는 부분은 뭐가 있는지 같이 알아봐 드릴게요. 어떤 부분이 궁금하신가요?",
+            "turn_id": "BK22016046-1",
+            "utterance_id": "BK22016046.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "먼저 아이를 돌보는 일은 누가 도와줬으면 좋겠어요. 한부모 가정 아이가 어린이집에 들어갈 때 우선순위를 받을 수 있나요?",
+            "turn_id": "BK22016046-2",
+            "utterance_id": "BK22016046.3"
+        },
+        {
+            "reference_date": "2020-10-12",
+            "reference_text": [
+                {
+                    "value": "기존 어린이집 우선 입소 대상은 다자녀, 맞벌이, 한부모 가정 등의 자녀로만 한정되어 있었습니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.korea.kr/news/visualNewsView.do?newsId=148878646",
+            "search_query": "한부모가정 어린이집 우선순위",
+            "terminate": false,
+            "text": "네. 어린이집의 우선 입소 대상은 다자녀, 맞벌이, 한부모 가정 등의 자녀로 한정되어있어요.",
+            "turn_id": "BK22016046-2",
+            "utterance_id": "BK22016046.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일을 해야 하니 아이 돌봄 문제가 제일 걱정이었거든요. 아이 돌봄 관련해서 좀 더 도움받을 수 있는 제도가 있는지도 궁금해요.",
+            "turn_id": "BK22016046-3",
+            "utterance_id": "BK22016046.5"
+        },
+        {
+            "reference_date": "2022-03-15",
+            "reference_text": [
+                {
+                    "value": "아이돌봄 서비스는 만 3개월~만 12세 이하 아동이 있는 가운데 아이를 돌보기 어려운 맞벌이 부부, 한부모 가정 등에 아이돌보미가 찾아가는 방문 돌봄 서비스로, 소득수준에 따라 정부와 지자체가 이용료의 일부를 지원한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mediahub.seoul.go.kr/archives/2004022",
+            "search_query": "한부모가정 돌봄서비스",
+            "terminate": false,
+            "text": "아이돌봄 서비스가 있어요. 만 3개월부터 만 12세 이하 아동이 있는 가정 중 돌봄이 힘든 맞벌이 부부나 한부모 가정 등에 아이돌보미가 직접 방문해서 서비스를 제공하죠. 소득수준에 따라서 정부와 지자체에서 이용료 일부를 지원해줘요.",
+            "turn_id": "BK22016046-3",
+            "utterance_id": "BK22016046.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집으로 직접 방문을 와준다니 진짜 좋네요. 혹시 서울에 거주 중이어도 지원받을 수 있나요? 이용료는 어느 정도인지 궁금해요.",
+            "turn_id": "BK22016046-4",
+            "utterance_id": "BK22016046.7"
+        },
+        {
+            "reference_date": "2022-03-16",
+            "reference_text": [
+                {
+                    "value": "아이를 돌보기 어려운 맞벌이 부부와 한부모 가정 등을 위한 서울시 ‘아이돌봄 서비스’ 지원이 한시적으로 확대된다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "중위소득이 150%를 넘는 고소득층도 시간당 6300원대만 내면 아이돌봄 서비스를 이용할 수 있다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/local/Seoul/article/202203152216005",
+            "search_query": "한부모가정 돌봄서비스 소득기준",
+            "terminate": false,
+            "text": "네. 서울시에서는 육아가 어려운 맞벌이 부부나 한부모 가정 등을 위해 아이돌봄 서비스 지원을 한시적으로 늘렸어요. 그래서 중위소득이 150%를 넘는 고소득층의 가구에서도 시간당 6300원대만 지불하면 아이돌봄 서비스 이용이 가능해졌죠.",
+            "turn_id": "BK22016046-4",
+            "utterance_id": "BK22016046.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여러 가지 제도들이 있으니 좋네요. 아이돌봄 서비스는 정해진 시간에만 이용할 수 있는 건가요?",
+            "turn_id": "BK22016046-5",
+            "utterance_id": "BK22016046.9"
+        },
+        {
+            "reference_date": "2021-01-19",
+            "reference_text": [
+                {
+                    "value": "서비스 이용 시간은 평일 오전 8시부터 오후 4시까지이며, 이용가정은 연간 정부 지원시간(840시간 한도)와 별도로 추가해 아이돌봄서비스를 이용할 수 있다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/society/society_general/979382.html",
+            "search_query": "아이돌봄서비스 이용시간",
+            "terminate": false,
+            "text": "아이돌봄 서비스를 이용할 수 있는 시간은 평일 오전 8시부터 오후 4시까지예요. 이용가정은 1년에 정부에서 지원하는 840시간과 별도로 추가해서 아이돌봄서비스를 이용할 수 있고요.",
+            "turn_id": "BK22016046-5",
+            "utterance_id": "BK22016046.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시간도 꽤 넉넉하네요. 혹시 야간이나 급한 일이 생겼을 때도 신청해서 이용할 수 있는 건가요?",
+            "turn_id": "BK22016046-6",
+            "utterance_id": "BK22016046.11"
+        },
+        {
+            "reference_date": "2021-01-19",
+            "reference_text": [
+                {
+                    "value": "또 올해부터는 야간·주말 등 긴급상황에서 돌봄서비스가 필요한 경우 아이돌봄 모바일 앱으로 신청해 ‘일시연계서비스’를 이용할 수 있게 된다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/society/society_general/979382.html",
+            "search_query": "아이돌봄서비스 야간 긴급",
+            "terminate": false,
+            "text": "네. 작년부터 야간이나 주말 등 긴급한 상황에서 돌봄서비스가 필요한 경우 아이돌봄 모바일 앱을 통해 신청하면 일시연계서비스를 이용할 수 있게 되었어요.",
+            "turn_id": "BK22016046-6",
+            "utterance_id": "BK22016046.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "갑작스럽게 급한 일이 생기면 정말 난감했었는데 탄탄하게 잘 만들어진 정책이라는 생각이 드네요. 신청은 어떻게 할 수 있나요?",
+            "turn_id": "BK22016046-7",
+            "utterance_id": "BK22016046.13"
+        },
+        {
+            "reference_date": "2021-01-02",
+            "reference_text": [
+                {
+                    "value": "우선 인근 주민센터에서 소득판정을 받아 이용자 유형을 정하는 일이 필요하다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "소득 판정시 재직증명서와 급여명세서 등 소득증빙서류 등이 있어야 한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아이돌봄서비스 홈페이지 가입은 기본.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "로그인 후 이용자가 필요한 요일과 시간에 따라 신청하면 거주 지역에 사는 아이돌보미들과 매칭해준다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/society/view/2021/01/2883/",
+            "search_query": "아이돌봄서비스 이용방법",
+            "terminate": false,
+            "text": "먼저 집 근처 주민센터에서 소득판정을 받아 사용자 유형을 정해야 해요. 소득 판정을 받을 때 재직증명서, 급여명세서 등 소득증빙서류를 갖추고 가셔야 하고요. 아이돌봄서비스 홈페이지에 회원 가입을 하신 후 로그인해 부모님이 필요한 요일과 시간에 따라 신청을 하면 거주하는 지역에 있는 아이돌보미들과 매칭이 될 거예요.",
+            "turn_id": "BK22016046-7",
+            "utterance_id": "BK22016046.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "먼저 소득 판정을 받아야 하는군요. 서류 준비를 해봐야겠어요. 보통 아이들 지원은 국민행복카드로 지급받는데 아이돌봄서비스도 마찬가지인가요?",
+            "turn_id": "BK22016046-8",
+            "utterance_id": "BK22016046.15"
+        },
+        {
+            "reference_date": "2022-07-16",
+            "reference_text": [
+                {
+                    "value": "아이돌봄서비스를 이용하기 위해서는 국민행복카드가 필요.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이미 국민행복카드를 보유하고 있는 경우 기존 카드로 서비스를 이용할 수 있다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gukjenews.com/news/articleView.html?idxno=2509745",
+            "search_query": "아이돌봄서비스 국민행복카드 발급",
+            "terminate": false,
+            "text": "네, 맞아요. 아이돌봄서비스를 사용하기 위해서는 국민행복카드가 필요한데요, 이미 가지고 있는 경우라면 기존에 쓰던 카드로 신청할 수 있어요.",
+            "turn_id": "BK22016046-8",
+            "utterance_id": "BK22016046.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 저는 가지고 있던 카드를 계속 사용하면 되겠네요. 혹시 양육비에 대해서도 지원받을 수 있는 것이 있을까요?",
+            "turn_id": "BK22016046-9",
+            "utterance_id": "BK22016046.17"
+        },
+        {
+            "reference_date": "2022-02-18",
+            "reference_text": [
+                {
+                    "value": "1. 만 18세 미만 자녀를 둔 저소득(기준중위소득 52% 이하) 한부모가족 아동양육비를 지원합니다!",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": " 자녀 1인당 아동양육비 월 20만 원",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": " 자녀가 만 6~18세 미만일 경우 월 5만 원 추가, 총 25만 원 지원",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.korea.kr/news/visualNewsView.do?newsId=148899094",
+            "search_query": "한부모가정 지원금",
+            "terminate": false,
+            "text": "만 18세 미만의 자녀가 있고 기준중위소득 52% 이하의 한부모가족이라면 아동 양육비를 지원받을 수 있어요. 자녀 1명당 아동양육비는 한 달 20만원씩 받을 수 있는데, 만약 자녀가 만 6세~18세 미만인 경우 한 달에 5만원이 추가되어 총 25만원을 지원받게 돼요.",
+            "turn_id": "BK22016046-9",
+            "utterance_id": "BK22016046.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "갑자기 소득이 줄어 많이 힘들었는데 희망적인 이야기네요. 돌봄서비스에 양육비까지 도움을 많이 받을 수 있을 것 같아요. 알려줘서 정말 고마워요!",
+            "turn_id": "BK22016046-10",
+            "utterance_id": "BK22016046.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혼자 아이를 돌보는 게 쉽지 않을 텐데 정책들 유용하게 이용하시며 지내시기를 바랄게요. 그럼 조심이 들어가시고 다음에 또 봐요.",
+            "turn_id": "BK22016046-10",
+            "utterance_id": "BK22016046.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 틈틈이 새로운 정책이 나오는지도 살펴봐야겠어요. 그럼 다시 만날 때까지 건강히 지내시고 또 만나요.",
+            "turn_id": "BK22016046-11",
+            "utterance_id": "BK22016046.21"
+        }
+    ]
+}

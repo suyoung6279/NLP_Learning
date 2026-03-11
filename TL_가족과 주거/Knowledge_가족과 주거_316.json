@@ -1,0 +1,401 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015095",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015095",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전 굉장히 충격적인 소식을 들었어요. 친구가 유산을 했다고 하더라구요. 그런데 친구는 임신기간 동안 업무량이 많아 야근을 너무 많이 한 게 유산의 주 원인인 것 같다고 자책하던데 야근을 많이 하는 게 유산과 관련이 있나요?",
+            "turn_id": "BK22015095-1",
+            "utterance_id": "BK22015095.1"
+        },
+        {
+            "reference_date": "2019-03-27",
+            "reference_text": [
+                {
+                    "value": "연구 결과, 야간 근무 횟수에 비례하여 유산 위험은 증가했다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "임신 8~22주 사이에 주 2회 이상 야간 근무를 한 여성은 그렇지 않은 여성에 비해 유산 위험이 32% 더 높았다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20190327069000009",
+            "search_query": "야근과 유산의 관련성",
+            "terminate": false,
+            "text": "맞아요, 연구 결과 유산의 위험성은 야근 횟수에 비례하여 증가했어요. 임신 8주에서 22주 사이에 주 2회 이상 야근을 한 임산부의 경우 그렇지 않은 임산부보다 유산 위험이 32%가량 더 높았어요.",
+            "turn_id": "BK22015095-1",
+            "utterance_id": "BK22015095.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "야근을 많이 할수록 정말 유산확률이 높아지는 거네요. 그럼 유산은 보통 임신 기간 어느 시기에 가장 많이 발생하나요?",
+            "turn_id": "BK22015095-2",
+            "utterance_id": "BK22015095.3"
+        },
+        {
+            "reference_date": "2022-09-21",
+            "reference_text": [
+                {
+                    "value": "유산이 가장 빈번하게 일어나는 시기는 임신 2~3개월경이며 전체 유산의 70~80% 정도가 이때 일어난다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=107938",
+            "search_query": "유산시기",
+            "terminate": false,
+            "text": "보통 임신 2~3개월경이 전체 유산의 70~80% 정도가 발생하는 시기에요.",
+            "turn_id": "BK22015095-2",
+            "utterance_id": "BK22015095.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 친구도 임신 3개월쯤 유산됐다고 하더라구요. 그리고 유산을 하면 출산했을 때만큼 조리를 잘 해줘야 한다고 하던데 유산 후 관리가 중요한 이유는 무엇인가요?",
+            "turn_id": "BK22015095-3",
+            "utterance_id": "BK22015095.5"
+        },
+        {
+            "reference_date": "2022-03-10",
+            "reference_text": [
+                {
+                    "value": "하지만 유산은 출산 과정과 흡사하며, 출산 못지않게 여성의 몸에 정신적, 신체적 충격을 줍니다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 때문에 제대로 조리하지 않으면 우울감, 산후풍 및 여성질환이 발생할 수 있습니다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1회 이상 자연유산을 경험하면 자연유산 재발 확률이 높아집니다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "더불어 여러 번 유산하면 이후 임신 시 유산율이 올라가기 때문에 유산 방지를 위해서도 유산 후 조리는 필수 중의 필수입니다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000676583",
+            "search_query": "유산 후 관리 중요성",
+            "terminate": false,
+            "text": "유산은 출산 과정과 비슷하기 때문에 출산을 한 것에 못지않게 여성은 몸에 정신적, 신체적으로 충격을 받을 수 있고 이에 따라 조리를 제대로 하지 않을 시엔 우울감이나 산후풍 등의 여성질환 또한 발병할 수 있어요. 그뿐만 아니라 1회 이상 자연유산을 하게 되면 자연유산의 재발 확률이 높아지기 때문에 유산 방지를 위해서라도 유산 후 몸조리를 잘 해주는 것이 정말 중요해요.",
+            "turn_id": "BK22015095-3",
+            "utterance_id": "BK22015095.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유산을 하게 되면 유산율이 증가하게 된다는 점은 정말 충격이네요. 그럼 유산 후 몸조리는 어떻게 해주는 것이 좋은가요?",
+            "turn_id": "BK22015095-4",
+            "utterance_id": "BK22015095.7"
+        },
+        {
+            "reference_date": "2016-11-14",
+            "reference_text": [
+                {
+                    "value": "우선, 유산 후 첫 주는 절대적으로 안정을 취해야 하는 시기입니다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이후에도 2~3주간은 무리하지 않도록 합니다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "출산 후 산후조리원에 2~3주 정도 있게 되는 것과 마찬가지로 유산 후에도 그 정도의 안정은 필수적입니다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "찬물목욕이나 입욕 역시 2~3주동안은 피해야 하며, 따뜻한 물로 샤워 정도만 합니다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "유산 후에는 음식을 따로 가려서 드실 필요는 없고, 잘 드시는 것이 중요한데, 그중에서도 단백질, 무기질, 칼슘, 비타민 등의 영양이 풍부한 식사가 필요하며, 차가운 음식은 피하는 것이 좋습니다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000172951",
+            "search_query": "유산 후 관리법",
+            "terminate": false,
+            "text": "보통 출산 후 산후조리원에 2주~3주 정도 머무르는 것처럼 유산을 했을 때도 그 정도의 기간 안정을 취해줘야 하는데요. 따라서 유산 후 첫 주에는 절대적 안정이 필요한 시기이고 그 후 2~3주 동안은 무리를 하지 않는 것이 좋아요. 또한 찬물 목욕이나 입욕도 2~3주 정도는 하지 않는 것이 좋고 따뜻한 물에 샤워하는 정도가 적당해요. 음식은 따로 가려 드실 필요는 없지만 단백질, 무기질, 칼슘이나 비타민 등의 영양이 풍부한 식사를 위주로 해주시고 되도록 차가운 음식은 드시지 않는 게 좋습니다.",
+            "turn_id": "BK22015095-4",
+            "utterance_id": "BK22015095.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 유산도 출산만큼 몸 관리를 잘 해줘야 할 것 같아요. 그런데 병원에서 친구한테 습관성 유산이 되지 않도록 조심하라고 했다고 하더라고요. 습관성 유산이라는 건 어떤 건가요?",
+            "turn_id": "BK22015095-5",
+            "utterance_id": "BK22015095.9"
+        },
+        {
+            "reference_date": "2018-07-02",
+            "reference_text": [
+                {
+                    "value": "임신 20주 이전에 3회 이상 연속으로 자연유산을 한 경우 습관성 유산이라 칭하는데 약 1%의 여성에게 발병한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "최근에는 2번의 연속적인 유산도 엄격하게 습관성으로 간주하기에 유산이 한 번이라도 발생한 경우에는 적극적인 유산의 원인 치료와 관리가 필요하다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=66412",
+            "search_query": "습관성 유산이란",
+            "terminate": false,
+            "text": "습관성 유산이란 임신 20주 이전에 3회 이상 연속적으로 자연유산을 하는 경우를 말하는데요. 요즘은 연속 2번 유산을 하는 것 또한 습관성 유산으로 간주하고 있기 때문에 단 한 번이라도 유산했을 경우에는 적극적으로 유산의 원인 치료 및 관리를 해주는 것이 좋아요.",
+            "turn_id": "BK22015095-5",
+            "utterance_id": "BK22015095.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 정말 습관성 유산이 되지 않도록 관리를 잘 해줘야겠네요. 그럼 습관성 유산의 원인은 무엇인가요?",
+            "turn_id": "BK22015095-6",
+            "utterance_id": "BK22015095.11"
+        },
+        {
+            "reference_date": "2016-11-02",
+            "reference_text": [
+                {
+                    "value": "잘 알려진 대표적 습관성 유산의 원인은 유전적 요인, 해부학적 요인, 내분비적 요인, 면역학적 요인 등이 있습니다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "유전적인 요인으로 인한 유산 중에서는 태아의 염색체 이상이 50% 정도의 비중으로 나타나고 있고, 해부학적인 요인으로는 자궁내막유착증이나 자궁경관무력증 등 자궁 자체의 문제들이 대부분이라고 할 수 있습니다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "내분비적 요인 중 대표적인 것이 황체기 결함입니다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "임신 기간 동안 자궁벽을 유지시키는 황체호르몬이 충분히 분비되지 않거나, 자궁으로 충분히 전달되지 않은 경우, 혹은 황체호르몬을 이용하는 과정에서 장애가 생긴 것입니다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000169281",
+            "search_query": "습관성 유산의 원인",
+            "terminate": false,
+            "text": "습관성 유산의 대표적 원인으로는 유전적, 해부학적, 내분비적 요인을 들 수 있는데요. 유전적 요인의 50% 정도는 태아의 염색체 이상으로 나타나고, 해부학적 요인의 대부분은 자궁 내막 유착증 등의 자궁 자체 문제들로 인해 발생해요. 내분비적 요인은 황체기 결합 문제가 대표적인데 이는 임신 기간 동안 자궁벽을 유지해주는 황체호르몬의 분비가 원활하지 않거나 자궁으로 전달하는 과정이 원활하지 않은 등의 기능에 문제가 생기는 경우를 말해요.",
+            "turn_id": "BK22015095-6",
+            "utterance_id": "BK22015095.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 다양한 원인이 있었네요. 그럼 유산을 예방하기 위해서는 임신초기에 몸 관리를 어떻게 하는 것이 좋을까요?",
+            "turn_id": "BK22015095-7",
+            "utterance_id": "BK22015095.13"
+        },
+        {
+            "reference_date": "2019-05-06",
+            "reference_text": [
+                {
+                    "value": "임신 초기에 자주 하는 실수는 아기의 몫까지 챙겨 먹어야 한다는 생각에 무조건 많이 먹으려 한다는 것이다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "음식은 평상시와 다름없이 골고루 섭취하고, 양보다는 식사의 질에 더 신경 쓰는 것이 좋다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "태아의 원활한 세포 분열 및 기관 형성을 돕기 위해 고기나 생선, 달걀, 두부 등 양질의 단백질을 섭취하고, 매일 1회 정도 과일을 먹는 것이 좋다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 임신 후 첫 4주 동안에는 태아의 신경관이 완성되는데, 이 시기에 엽산이 부족할 경우 신경관 결함을 가진 아이가 태어나기 쉽고 유산의 위험도 커진다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "임신 한 달 전부터 12주까지는 매일 400~800㎍의 엽산제를 복용하는 것이 좋다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000461308",
+            "search_query": "유산 예방 방법",
+            "terminate": false,
+            "text": "임신 초기에는 아기의 몫까지 먹어야 한다고 생각해서 일단 많이 먹으려고 하는 실수를 많이 하는 데 중요한 것은 음식의 양이 아닌 질에 신경을 써줘야 한다는 점이에요. 태아의 세포 분열 및 기관 형성을 원활하게 하기 위해서는 고기나 생선 등의 양질의 단백질을 잘 섭취해주시고, 매일 과일을 1번씩 먹어주는 게 좋습니다. 특히 임신 후 첫 4주 동안 태아의 신경관이 완성되는데 이때 엽산이 부족하면 신경관 결함을 가진 아이가 태어날 확률이 높고 유산의 위험성 또한 커지기 때문에 임신 한 달 전부터 임신 12주까지는 매일 400~800마이크로그램의 엽산제를 드시는 게 좋습니다.",
+            "turn_id": "BK22015095-7",
+            "utterance_id": "BK22015095.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "많이 먹는 것보다는 영양가 있는 식단이 중요하다는 말이 와닿네요. 그럼 유산 후에 얼마큼의 시간이 지나야 다시 임신이 가능할까요?",
+            "turn_id": "BK22015095-8",
+            "utterance_id": "BK22015095.15"
+        },
+        {
+            "reference_date": "2018-01-18",
+            "reference_text": [
+                {
+                    "value": "한편 유산 후 다음 정상 생리를 하면 임신하는 데는 보통 지장이 없다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 자궁 내막 손상 정도를 미리 알기 어려우므로 2~3달 동안 정상 생리를 통해 자궁 내막을 키운 후 임신하는 것도 좋다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "특히 과거 유산 후 생리량이 줄어든 사람이라면 2~3달을 쉰 후에 임신을 시도하는 것이 좋다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2018/01/18/2018011801348.html",
+            "search_query": "유산 후 임신 시기",
+            "terminate": false,
+            "text": "보통 유산 이후 정상적으로 생리를 하게 되면 임신을 하는 데는 문제가 없어요. 하지만 자궁 내막의 손상 정도를 미리 알기가 어렵기 때문에 2달~3달 정도는 정상 생리를 통해서 자궁 내막을 회복한 후 임신하는 것이 좋아요. 특히 과거에 유산한 이후 생리량이 줄어들었다면 2달~3달 정도는 충분히 쉬고 나서 이후에 임신을 시도하는 것이 좋습니다.",
+            "turn_id": "BK22015095-8",
+            "utterance_id": "BK22015095.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일단 2~3달 정도 몸을 충분히 회복하고 나서 다시 임신을 시도하는 것이 좋겠네요. 오늘 정말 유용한 정보 많이 알려주셔서 너무 감사해요.",
+            "turn_id": "BK22015095-9",
+            "utterance_id": "BK22015095.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아니에요, 제가 드린 정보가 도움이 됐다면 좋겠네요. 혹시 더 궁금한 건 없으신가요?",
+            "turn_id": "BK22015095-9",
+            "utterance_id": "BK22015095.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "더 궁금한 건 많지만 이만 들어가 봐야 할 것 같아요. 오늘 알려주신 내용은 친구에게 잘 전달할게요.",
+            "turn_id": "BK22015095-10",
+            "utterance_id": "BK22015095.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네 그럼 궁금한 게 있으면 언제든 질문 주세요. 그럼 저도 이만 들어가 보겠습니다.",
+            "turn_id": "BK22015095-10",
+            "utterance_id": "BK22015095.20"
+        }
+    ]
+}

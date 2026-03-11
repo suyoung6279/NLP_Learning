@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015427",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015427",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 아들이 연어 요리를 먹고 싶다고 하는데 저는 연어에 대해 잘 몰라서요, 연어로 할 수 있는 요리에는 어떤게 있나요?",
+            "turn_id": "BK22015427-1",
+            "utterance_id": "BK22015427.1"
+        },
+        {
+            "reference_date": "2022-08-13",
+            "reference_text": [
+                {
+                    "value": "연어회, 초밥, 생연어 등은 주로 냉장연어가 사용되고, 구이, 캔, 훈제, 피자, 파스타 등은 주로 냉동연어를 사용한다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%B0%EC%96%B4",
+            "search_query": "연어",
+            "terminate": false,
+            "text": "아드님이 연어 요리를 먹고 싶어 하는군요. 연어 요리로는 냉장연어로 만드는 생연어, 초밥, 연어회 등이 있고 냉동연어는 구이, 파스타, 훈제, 캔 등에 사용 할 수 있답니다.",
+            "turn_id": "BK22015427-1",
+            "utterance_id": "BK22015427.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "연어 요리가 굉장히 많네요. 아들에게 다양한 요리를 해줄 수 있는 좋은 식재료군요. 그런데 연어의 색깔은 왜 붉은건가요?",
+            "turn_id": "BK22015427-2",
+            "utterance_id": "BK22015427.3"
+        },
+        {
+            "reference_date": "2022-08-13",
+            "reference_text": [
+                {
+                    "value": "연어는 분류상으로는 흰살 생선에 해당되지만 몸이 붉은 경우가 많은데, 이는 연어가 주 먹이로 크릴 등의 갑각류를 먹으면서 갑각류의 붉은 색소가 몸에 배이기 때문이다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%B0%EC%96%B4",
+            "search_query": "연어가 살이 붉은 이유",
+            "terminate": false,
+            "text": "연어는 갑각류나 크릴 등을 먹는데 갑각류의 붉은 색소 때문에 몸에 붉은 색소가 배여요. 따라서 연어의 색깔이 붉은거죠.",
+            "turn_id": "BK22015427-2",
+            "utterance_id": "BK22015427.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 색깔이 붉었던거군요. 그런데 제가 연어의 속살밖에 본 적이 없어서 그런데 외형이 어떤지 설명 해주실 수 있나요?",
+            "turn_id": "BK22015427-3",
+            "utterance_id": "BK22015427.5"
+        },
+        {
+            "reference_date": "2022-08-13",
+            "reference_text": [
+                {
+                    "value": "몸은 비교적 가늘고 위아래로 납작하다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "머리는 원뿔 형태이며, 주둥이가 약간 뾰족하게 나와있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%B0%EC%96%B4",
+            "search_query": "연어 생김새",
+            "terminate": false,
+            "text": "연어의 외형은 주둥이가 뾰족하게 나와있고 머리는 원뿔형태에요. 그리고 위 아래로 납작하며 몸은 가늘죠.",
+            "turn_id": "BK22015427-3",
+            "utterance_id": "BK22015427.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "연어의 외형이 그렇게 생겼군요. 그런데 연어가 바다에서 살다가 다시 민물로 돌아 간다던데 그 이유가 뭐에요?",
+            "turn_id": "BK22015427-4",
+            "utterance_id": "BK22015427.7"
+        },
+        {
+            "reference_date": "2022-08-13",
+            "reference_text": [
+                {
+                    "value": "연어는 민물에서 태어난 뒤 바다로 나가 일생의 대부분을 보내고, 다시 민물로 돌아와 산란한다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%B0%EC%96%B4",
+            "search_query": "연어 산란",
+            "terminate": false,
+            "text": "연어가 태어나는 곳은 민물인데 바다에서 대부분의 일생을 보내다가 민물로 돌아오는 이유는 산란을 위해서 예요.",
+            "turn_id": "BK22015427-4",
+            "utterance_id": "BK22015427.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산란을 위해서 다시 돌아오다니 신기하네요. 그럼 연어가 산란하는 시기는 언제인가요?",
+            "turn_id": "BK22015427-5",
+            "utterance_id": "BK22015427.9"
+        },
+        {
+            "reference_date": "2022-08-13",
+            "reference_text": [
+                {
+                    "value": "여름이나 가을에 산란하는데, 바다에서 여러 달 동안 수천km나 헤엄쳐서 산란지인 강 상류에 도착한다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%B0%EC%96%B4",
+            "search_query": "연어 산란 시기",
+            "terminate": false,
+            "text": "산란 시기는 가을이나 여름인데 여러 달 동안 바다에서 수천 km를 헤엄쳐 강 상류에 도착해 산란해요.",
+            "turn_id": "BK22015427-5",
+            "utterance_id": "BK22015427.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수천 km를 헤엄쳐 오다니 대단하네요. 그러면 산란 하는 방법은 어떻게 되나요?",
+            "turn_id": "BK22015427-6",
+            "utterance_id": "BK22015427.11"
+        },
+        {
+            "reference_date": "2022-08-13",
+            "reference_text": [
+                {
+                    "value": "산란지에 도착한 암컷은 수심이 얕고 물결이 잔잔하게 이는 자갈밭에 구멍을 판다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "암컷이 구멍에 알을 낳으면, 수컷이 그 위에 정자를 뿌려 수정시킨다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "산란을 끝낸 암수는 지쳐서 모두 죽는다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%B0%EC%96%B4",
+            "search_query": "연어 산란 방법",
+            "terminate": false,
+            "text": "산란하는 방법으로는 물결이 잔잔하고 수심이 얕은 자갈밭에 구멍을 내서 구멍에 암컷이 알을 낳고 그 위에 수컷이 정자를 뿌려 수정시켜요. 그리고 암수는 산란을 끝내고 모두 지쳐서 죽는답니다.",
+            "turn_id": "BK22015427-6",
+            "utterance_id": "BK22015427.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "모두 죽는다니 그렇다면 연어의 모든 종이 다 그렇게 죽는거에요?",
+            "turn_id": "BK22015427-7",
+            "utterance_id": "BK22015427.13"
+        },
+        {
+            "reference_date": "2022-08-13",
+            "reference_text": [
+                {
+                    "value": "단, 알을 한번 낳고 죽는 종류는 태평양 연어로, 노르웨이 등에 분포하는 대서양 연어는 산란을 끝내도 죽지 않고 이후에 다시 산란하기도 한다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%B0%EC%96%B4",
+            "search_query": "연어 종류",
+            "terminate": false,
+            "text": "태평양 연어만 알을 한번 낳고 죽어요. 노르웨이 같은 곳의 대서양 연어는 산란 이후에도 죽지 않고 그 이후 또 산란하기도 해요.",
+            "turn_id": "BK22015427-7",
+            "utterance_id": "BK22015427.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "죽지 않고 계속 살아 산란하는 연어도 있어 다행이네요. 그런데 아들이 연어의 알도 먹어보고 싶다고 하더라구요. 먹어도 되는건가요?",
+            "turn_id": "BK22015427-8",
+            "utterance_id": "BK22015427.15"
+        },
+        {
+            "reference_date": "2022-08-13",
+            "reference_text": [
+                {
+                    "value": "연어 성체를 요리로 사용하기도 하지만, 연어 알 역시 식재료로 사용된다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "씹히는 식감과 특유의 풍미 때문에 선호하는 사람들이 있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%B0%EC%96%B4",
+            "search_query": "연어 알 식재료",
+            "terminate": false,
+            "text": "연어의 알은 식재료로 사용 할 수 있어요. 그리고 특유의 풍미와 씹히는 식감 덕분에 선호하는 사람이 많답니다.",
+            "turn_id": "BK22015427-8",
+            "utterance_id": "BK22015427.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "연어의 알도 먹을 수 있는 거군요. 아들에게 연어 요리와 연어 알로 요리를 만들어 줘야겠어요!",
+            "turn_id": "BK22015427-9",
+            "utterance_id": "BK22015427.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "연어 요리와 연어 알 요리라니 아들이 굉장히 좋아하시겠네요.",
+            "turn_id": "BK22015427-9",
+            "utterance_id": "BK22015427.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전문가님 덕분에 해줄 수 있는걸요. 정보 감사하고 아들과 맛있는 저녁 해먹을게요. 또 봐요!",
+            "turn_id": "BK22015427-10",
+            "utterance_id": "BK22015427.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아들과 맛있게 식사하시고 궁금한 점 있으면 또 연락주세요!",
+            "turn_id": "BK22015427-10",
+            "utterance_id": "BK22015427.20"
+        }
+    ]
+}

@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008045",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008045",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 강아지들이 걸리는 슬개골 탈구라는 질환이 궁금해서 그런데 알려주실 수 있을까요?",
+            "turn_id": "BK22008045-1",
+            "utterance_id": "BK22008045.1"
+        },
+        {
+            "reference_date": "2022-08-22",
+            "reference_text": [
+                {
+                    "value": "슬개골탈구는 대퇴골 활차구의 깊이가 변형되거나 낮아 슬개골이 제대로 고정되지 못하고 탈출하는 질환을 말한다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.jeonmae.co.kr/news/articleView.html?idxno=910311",
+            "search_query": "슬개골탈구",
+            "terminate": false,
+            "text": "네, 물론이죠. 슬개골 탈구는 대퇴골 활차구의 깊이가 바뀐다거나 낮기 때문에 슬개골이 제대로 고정되지 않고 빠지는 증상을 말해요.",
+            "turn_id": "BK22008045-1",
+            "utterance_id": "BK22008045.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이고, 탈구라길래 정말 자리에서 뼈가 이탈되는 건가 했는데 맞군요. 그런데 이런 증상이 발생하는 이유는 뭔가요?",
+            "turn_id": "BK22008045-2",
+            "utterance_id": "BK22008045.3"
+        },
+        {
+            "reference_date": "2022-07-20",
+            "reference_text": [
+                {
+                    "value": "슬개골 탈구의 원인은 다리뼈 모양 변형의 선천적인 원인도 있지만 그 외에 정상구조를 갖고 태어났지만 후천적인 사고나 과체중 등으로 탈구가 일어나는 경우도 있다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mdtoday.co.kr/news/view/1065602022251141",
+            "search_query": "슬개골탈구 다리뼈 변형",
+            "terminate": false,
+            "text": "다양한 이유가 있는데 우선 선천적으로 다리뼈 모양이 변형되어 발생하는 경우가 있어요. 또 사고라든지 과체중과 같은 후천적인 원인으로 나타나는 경우도 있고요.",
+            "turn_id": "BK22008045-2",
+            "utterance_id": "BK22008045.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "앗, 선천적이라고 말씀하시니 생각이 난 건데 제 친구가 제가 키우게 된 강아지 품종을 보더니 슬개골 탈구가 나타날 수 있는 품종이라고 조심하라고 했거든요. 혹시 슬개골 탈구가 잘 발생하는 견종이 따로 있는 건가요?",
+            "turn_id": "BK22008045-3",
+            "utterance_id": "BK22008045.5"
+        },
+        {
+            "reference_date": "2020-07-20",
+            "reference_text": [
+                {
+                    "value": "슬개골이 호발하는 소형견 품종으로는 대표적으로 말티즈, 요크셔 테리어, 푸들, 비숑, 치와와, 포메라니언 등 사실상 국내에서 볼 수 있는 대부분의 소형견이 해당된다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.daejonilbo.com/news/articleView.html?idxno=1431616",
+            "search_query": "슬개골탈구 품종",
+            "terminate": false,
+            "text": "네, 맞아요. 말티즈나, 요크셔테리어, 푸들, 비숑, 치와와, 포메라니언과 같은 품종들에서 나타나기 쉽거든요.",
+            "turn_id": "BK22008045-3",
+            "utterance_id": "BK22008045.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이고, 제가 키우게 된 강아지는 비숑이거든요. 사실 제가 키우고 싶어서 키우는 건 아니고 친척분이 떠밀듯이 주고 간 아이라 정보를 너무 몰랐네요. 그런데 슬개골 탈구가 발생하면 어떻게 알 수 있을까요?",
+            "turn_id": "BK22008045-4",
+            "utterance_id": "BK22008045.7"
+        },
+        {
+            "reference_date": "2020-07-20",
+            "reference_text": [
+                {
+                    "value": "첫째, 뒷다리 한쪽을 들고 깽깽이걸음을 한다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "둘째, 걸을 때 뒷모습을 보면 다리 모양이 O자형이다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또 아이를 품에 안아 올린다거나 할때 무릎에서 `딱. 딱` 거리는 염발감이 발생한다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.daejonilbo.com/news/articleView.html?idxno=1431616",
+            "search_query": "슬개골탈구 깽깽이걸음",
+            "terminate": false,
+            "text": "보통 뒷다리 한쪽을 들고 절름거린다거나 강아지가 걷는 모습을 뒤에서 봤을 때 O자형이라면 의심해보셔야 해요. 또 강아지를 들어 올릴 때 딱딱거리는 소리가 날 수도 있고요.",
+            "turn_id": "BK22008045-4",
+            "utterance_id": "BK22008045.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 말씀해주신 사항들을 잘 기억해두고 항상 잘 관찰해봐야겠어요. 그러면 슬개골 탈구는 어떻게 치료하나요?",
+            "turn_id": "BK22008045-5",
+            "utterance_id": "BK22008045.9"
+        },
+        {
+            "reference_date": "2017-05-18",
+            "reference_text": [
+                {
+                    "value": "슬개골탈구는 정도에 따라 4단계로 구분한다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1단계는 일반적으로 수술하지 않지만 나이와 임상증상발현여부에 따라 2단계 이상부터는 수술이 필요할 수 있다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.khan.co.kr/bizlife/sk_index.html?art_id=201705161747004&sec_id=561801&pt=nv",
+            "search_query": "슬개골탈구 2단계 수술",
+            "terminate": false,
+            "text": "슬개골 탈구는 일반적으로 4단계로 구분하는데 1단계는 보통 수술을 하지 않지만 2단계부터는 나이나 임상증상 발현 여부를 따져보고 수술을 하는 경우도 있어요.",
+            "turn_id": "BK22008045-5",
+            "utterance_id": "BK22008045.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 작은 아이들이 수술할 걸 생각하면 마음이 아프네요. 보통 수술방법은 어떻게 되나요?",
+            "turn_id": "BK22008045-6",
+            "utterance_id": "BK22008045.11"
+        },
+        {
+            "reference_date": "2017-05-18",
+            "reference_text": [
+                {
+                    "value": "수술방법은 ‘활차구성형술’ ‘경골조면변위술’ ‘대퇴직근이동술’ ‘근막겹침술’ ‘내측관절낭이완술’ 등 다양하며 최상의 결과를 위해 여러 가지 수술법이 함께 적용된다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.khan.co.kr/bizlife/sk_index.html?art_id=201705161747004&sec_id=561801&pt=nv",
+            "search_query": "슬개골탈구 수술법",
+            "terminate": false,
+            "text": "활차구성형술, 경골조면변위술, 대퇴직근이동술, 근막겹침술, 내측관절낭이완술과 같은 다양한 수술법을 종합적으로 이용해 수술해요.",
+            "turn_id": "BK22008045-6",
+            "utterance_id": "BK22008045.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여러 가지의 수술법을 적용해 수술하는군요. 그럼 강아지들도 사람과 같이 재활훈련을 해야 하나요?",
+            "turn_id": "BK22008045-7",
+            "utterance_id": "BK22008045.13"
+        },
+        {
+            "reference_date": "2019-05-04",
+            "reference_text": [
+                {
+                    "value": "레이저치료, 신경근전기자극치료, 수중런닝머신, 운동재활치료 등과 같은 여러 가지처방을 통증과 염증을 가라앉히면서 기능성을 다시 정상적인 모습으로 회복을 시켜주는 것이 중요하다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.siminilbo.co.kr/news/articleView.html?idxno=626293",
+            "search_query": "슬개골탈구 신경근전기자극치료",
+            "terminate": false,
+            "text": "네, 맞아요. 레이저 치료라든지 신경근 전기자극 치료, 수중 러닝머신, 운동재활치료 등을 통해 통증과 염증을 잠재우면서 기능을 정상적으로 회복할 수 있도록 해줘야 해요.",
+            "turn_id": "BK22008045-7",
+            "utterance_id": "BK22008045.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아팠던 만큼 많은 정성이 필요하네요. 운동재활치료라면 산책하는 것도 슬개골 탈구 수술 후에 좋을 것 같은데 맞나요?",
+            "turn_id": "BK22008045-8",
+            "utterance_id": "BK22008045.15"
+        },
+        {
+            "reference_date": "2022-08-22",
+            "reference_text": [
+                {
+                    "value": "단, 30분 이상 산책하거나 계단을 오르내리는 등의 과도한 활동은 오히려 부정적인 영향을 줄 수 있어 삼가야 한다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.jeonmae.co.kr/news/articleView.html?idxno=910311",
+            "search_query": "슬개골탈구 30분 산책",
+            "terminate": false,
+            "text": "네, 다만 30분 이상 산책하는 것은 좋지 않아요. 과도하게 움직이면 오히려 악역향을 끼칠 수 있거든요.",
+            "turn_id": "BK22008045-8",
+            "utterance_id": "BK22008045.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 짧은 시간이니 신경 써야겠네요. 휴, 제가 잘 돌봐줄 수 있을지 정말 걱정이 많네요.",
+            "turn_id": "BK22008045-9",
+            "utterance_id": "BK22008045.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저한테 이렇게 꼼꼼하게 물어보시는 걸 보면 잘 돌보실 수 있을 거예요.",
+            "turn_id": "BK22008045-9",
+            "utterance_id": "BK22008045.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "위로 정말 감사해요. 오늘 덕분에 한시름 놓았어요. 제가 질문이 많았는데 친절하게 알려주셔서 정말 감사해요.",
+            "turn_id": "BK22008045-10",
+            "utterance_id": "BK22008045.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 됐다니 정말 다행이네요. 혹시 또 궁금한 게 있으시면 메시지 하세요.",
+            "turn_id": "BK22008045-10",
+            "utterance_id": "BK22008045.20"
+        }
+    ]
+}

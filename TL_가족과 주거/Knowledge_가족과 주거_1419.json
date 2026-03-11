@@ -1,0 +1,349 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009257",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009257",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "결혼하고 나니까 호칭을 몰라서 스트레스 너무 받는 거 있지. 혹시 호칭에 대해서 좀 아니?",
+            "turn_id": "BK22009257-1",
+            "utterance_id": "BK22009257.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어떤 부분을 힘들어하는 거야? 내가 도움 줄 수 있는 부분이 있다면 알려줄게.",
+            "turn_id": "BK22009257-1",
+            "utterance_id": "BK22009257.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시부모님 부르는 건 알겠는데 남편한테 누나랑 동생 둘이 있거든. 남편 누나한테랑 남편 여동생한테 내가 써야 하는 호칭은 뭐야?",
+            "turn_id": "BK22009257-2",
+            "utterance_id": "BK22009257.3"
+        },
+        {
+            "reference_date": "2011-01-29",
+            "reference_text": [
+                {
+                    "value": "남편의 누나는 '형님', 여동생은 '아가씨, 아씨, 애기씨'로 부르는데 남편 누나 또는 여동생의 남편은 '~서방님, 고모부'로 부른다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/003/0003667761?sid=102",
+            "search_query": "남편의 누나 부를 때",
+            "terminate": false,
+            "text": "남편에게 여동생이 있다면 아가씨라고 부르면 되고, 남편의 누나에게는 형님이라고 부르면 돼.",
+            "turn_id": "BK22009257-2",
+            "utterance_id": "BK22009257.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그냥 형님이라고 부르면 되는 거구나. 남동생도 있는데 남편 남동생한테는 뭐라고 불러야 하는 거야?",
+            "turn_id": "BK22009257-3",
+            "utterance_id": "BK22009257.5"
+        },
+        {
+            "reference_date": "2021-02-26",
+            "reference_text": [
+                {
+                    "value": "남편 남동생은 결혼 전에는 도련님이고, 결혼 후에 높여 부를 땐 서방님이라 부른다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.domin.co.kr/news/articleView.html?idxno=1330536",
+            "search_query": "남편 남동생 호칭",
+            "terminate": false,
+            "text": "결혼을 아직 안 했다면 도련님이라고 부르고 결혼했다면 서방님이라고 부르는 거야.",
+            "turn_id": "BK22009257-3",
+            "utterance_id": "BK22009257.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "서방님이라고 부르는거 라고? 남편한테 부르는 게 서방님이라고 알고 있는데 나만 헷갈리는 거니?",
+            "turn_id": "BK22009257-4",
+            "utterance_id": "BK22009257.7"
+        },
+        {
+            "reference_date": "2014-03-25",
+            "reference_text": [
+                {
+                    "value": "결혼한 여자의 친정 어른은 여자의 남편을 ‘서방’이라고 부르고, 아내가 남편의 결혼한 남동생을 부를 때도 ‘님’ 자를 붙여 같은 호칭을 사용한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "서방이 결혼한 남자를 통칭하는 표현이라는 건 어렴풋이 알 것 같은데 모두 같은 호칭을 쓰니 그 구분이 헷갈리게 마련이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=19787",
+            "search_query": "남편 남동생 서방님 남편 서방님",
+            "terminate": false,
+            "text": "구분이 헷갈리기 마련이야. 결혼한 여자의 친정 어른은 여자의 남편을 서방이라고 부르는 건데 아내가 남편의 결혼한 남동생을 부를 때도 님자를 붙여서 같은 호칭을 쓰는 거야. 서방이 결혼한 남자를 말하는 건 어렴풋이 알 것 같은데 모두 같은 호칭을 쓰니까.",
+            "turn_id": "BK22009257-4",
+            "utterance_id": "BK22009257.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이래서 호칭은 정말 어렵다 어려워. 남편 남동생은 이미 우리보다 먼저 결혼했거든. 그럼 그 남동생 아내는 내가 뭐라고 불러야 맞는 거야?",
+            "turn_id": "BK22009257-5",
+            "utterance_id": "BK22009257.9"
+        },
+        {
+            "reference_date": "2019-09-12",
+            "reference_text": [
+                {
+                    "value": "남편 남동생의 아내는 동서다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.kbs.co.kr/news/view.do?ncd=4281837&ref=A",
+            "search_query": "남편 남동생 아내 호칭",
+            "terminate": false,
+            "text": "동서라는 말이 남편 남동생의 아내를 부르는 말이야.",
+            "turn_id": "BK22009257-5",
+            "utterance_id": "BK22009257.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동서라고 불러야 하는구나. 그럼 동서가 나를 부를 때에는 뭐라고 부르는 거야?",
+            "turn_id": "BK22009257-6",
+            "utterance_id": "BK22009257.11"
+        },
+        {
+            "reference_date": "2019-01-16",
+            "reference_text": [
+                {
+                    "value": "그러나 며느리 사이의 관계말로 동서에 대해서는 남편 형의 아내에 대한 호칭은 ‘형님’이고 전통적으로 며느리 사이의 동서지간은 남편의 나이 순서에 따라 서열이 정해져, 윗동서의 나이가 적더라도 ‘형님’으로 호칭하고 존댓말을 쓰는 것이 남편의 형을 예우하는 것이라고 하였다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/201901151028076065",
+            "search_query": "남편 형의 아내 호칭",
+            "terminate": false,
+            "text": "남편 형의 아내에 대한 호칭은 형님이야. 전통적으로 며느리 사이의 동서지간은 남편 나이 순서에 따라 서열이 정해져서 윗동서 나이가 더 어려도 형님이라고 부르고 존댓말을 쓰는 게 남편의 형을 예우하는 거라고 했어.",
+            "turn_id": "BK22009257-6",
+            "utterance_id": "BK22009257.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 동서도 나한테 형님이라고 불러야하고 나는 남편 누나한테 형님이라고 불러야하네. 정말 너무 헷갈려 죽겠다. 며느리라는 말도 아직 어색한데 대체 무슨 뜻이야?",
+            "turn_id": "BK22009257-7",
+            "utterance_id": "BK22009257.13"
+        },
+        {
+            "reference_date": "2019-06-22",
+            "reference_text": [
+                {
+                    "value": "결혼한 아들의 아내를 이르는 말인 며느리는 '기생한다'는 뜻의 '며늘'과 '아이'가 합쳐진 말이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "'내 아들에 딸려 기생하는 존재'라는 의미라고 한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.idjnews.kr/news/articleView.html?idxno=73888",
+            "search_query": "며느리 어원",
+            "terminate": false,
+            "text": "그 의미는 내 아들에 딸려 기생하는 존재라는 건데, 결혼한 아들의 아내를 말하는 며느리는 기생한다라는 뜻의 며늘과 아이가 합쳐진 말이거든.",
+            "turn_id": "BK22009257-7",
+            "utterance_id": "BK22009257.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "예쁜 말인 줄 알았는데 뜻은 그렇게 좋은 건 아닌 거 같네. 결혼하고 나니 모르는 호칭들이 많아서 힘들어. 그럼 시댁은 무슨 뜻이야?",
+            "turn_id": "BK22009257-8",
+            "utterance_id": "BK22009257.15"
+        },
+        {
+            "reference_date": "2021-09-06",
+            "reference_text": [
+                {
+                    "value": "시나 새는 ‘새롭다’의 뿌리인데 ‘시댁’은 새로 시집가서 이루는 집이라는 뜻으로 시댁이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kgnews.co.kr/news/article.html?no=665571",
+            "search_query": "시댁 말의 뜻",
+            "terminate": false,
+            "text": "새로 시집가서 이루는 집이라는 의미를 가지고 있어. 시나 새는 새롭다의 뿌리이거든.",
+            "turn_id": "BK22009257-8",
+            "utterance_id": "BK22009257.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 그래서 시댁이라고 부르는 거구나 아직 어색해서 입에 잘 안 붙어. 남편은 장모님이랑 어머님이랑 뭐라고 부를까 고민하고 있던데 장모님은 무슨 뜻이야?",
+            "turn_id": "BK22009257-9",
+            "utterance_id": "BK22009257.17"
+        },
+        {
+            "reference_date": "2018-02-16",
+            "reference_text": [
+                {
+                    "value": "아내는 결혼 후 남편의 부모가 아버지와 어머니가 되는 반면, 남편이 아내의 부모를 부르는 장인과 장모는 '어른'과 '어른 여자'의 뜻으로 그저 '어른'의 의미에 그친다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2018021216580226574",
+            "search_query": "장모님 어원",
+            "terminate": false,
+            "text": "장인과 장모는 어른과 어른 여자라는 뜻이라서 그냥 어른이라는 의미만 있어.",
+            "turn_id": "BK22009257-9",
+            "utterance_id": "BK22009257.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 어머님이라고 부르는 게 더 좋을 거 같네. 나 여동생이 하나 있는데 남편은 동생한테 뭐라고 부르는 거야?",
+            "turn_id": "BK22009257-10",
+            "utterance_id": "BK22009257.19"
+        },
+        {
+            "reference_date": "2011-01-29",
+            "reference_text": [
+                {
+                    "value": "아내의 언니나 여동생은 '처형', '처제'로 부른다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/003/0003667761?sid=102",
+            "search_query": "아내의 여동생 호칭",
+            "terminate": false,
+            "text": "아내의 언니는 처형이라고 부르고 여동생은 처제라고 부르면 돼.",
+            "turn_id": "BK22009257-10",
+            "utterance_id": "BK22009257.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알려줘서 너무 고마웠어. 결혼하고 처음 다 같은 자리에 모일 예정이라서 호칭을 알아두고 가야 할 거 같은데 덕분에 진짜 이제 다 배웠다.",
+            "turn_id": "BK22009257-11",
+            "utterance_id": "BK22009257.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "다 같이 모일 자리에 가는구나. 아니야, 나도 도움이 될 수 있어서 좋았어.",
+            "turn_id": "BK22009257-11",
+            "utterance_id": "BK22009257.22"
+        }
+    ]
+}

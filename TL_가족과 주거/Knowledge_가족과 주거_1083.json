@@ -1,0 +1,357 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006865",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006865",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아직은 내가 초보 집사여서 모르는 것이 너무 많아. 몇 가지 너에게 고양이에 대해 궁금한 것 물어볼게. 고양이가 스스로 물을 잘 안 마신다고 하던데 왜 그런 거야?",
+            "turn_id": "BK22006865-1",
+            "utterance_id": "BK22006865.1"
+        },
+        {
+            "reference_date": "2019-07-22",
+            "reference_text": [
+                {
+                    "value": "고양이는 사막에서 살던 동물인지라, 습성상 따로 물을 챙겨 마시지 않는다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "실제로 야생 고양이는 쥐나 작은 새 등을 잡아먹는 것만으로도 그 이상의 수분 섭취 없이 충분히 살아갈 수 있다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://weekly.donga.com/3/all/11/1794665/1",
+            "search_query": "고양이 물",
+            "terminate": false,
+            "text": "고양이는 원래 사막에서 살던 동물이어서 따로 물을 챙겨 마시지 않는 습성이 있어. 야생 고양이들은 쥐나 작은 새를 잡아먹는 것만으로도 수분 섭취가 돼서 따로 수분 섭취를 하지 않아도 될 정도야.",
+            "turn_id": "BK22006865-1",
+            "utterance_id": "BK22006865.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이가 사막에서 살던 동물이었구나. 근데 야생 고양이와 달리 집고양이들은 수분 섭취가 부족하면 문제가 생긴다면서?",
+            "turn_id": "BK22006865-2",
+            "utterance_id": "BK22006865.3"
+        },
+        {
+            "reference_date": "2022-07-28",
+            "reference_text": [
+                {
+                    "value": "체내 수분량이 부족하면 체내 혈액 순환량이 줄어드는데, 이로 인해 장기가 손상될 수 있다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "충분한 수분을 섭취하지 못하면 탈수 위험이 높아져 목숨을 위협할 수도 있다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/07/666651/",
+            "search_query": "고양이 수분 부족",
+            "terminate": false,
+            "text": "응, 몸속의 수분량이 부족하게 되면 혈액 순환이 줄어들면서 장기가 손상될 수 있어. 그리고, 수분이 부족하면 탈수로 인해 목숨이 위협받을 수도 있어.",
+            "turn_id": "BK22006865-2",
+            "utterance_id": "BK22006865.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이들에게 꼭 수분을 섭취하게 해 줘야겠구나. 물을 잘 안 먹는 고양이들에게 어떻게 하면 물을 마시게 할 수 있을까?",
+            "turn_id": "BK22006865-3",
+            "utterance_id": "BK22006865.5"
+        },
+        {
+            "reference_date": "2020-12-10",
+            "reference_text": [
+                {
+                    "value": "고양이는 신선한 물을 좋아하기 때문에 그릇은 항상 청결하게 해야 한다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수염이 그릇에 닿는 것을 싫어한다면 입구가 넓은 그릇은 준비하면 된다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.withinnews.co.kr/news/view.html?section=1&category=161&item=&no=23622",
+            "search_query": "고양이 물 섭취방법",
+            "terminate": false,
+            "text": "고양이는 신선한 물을 좋아해서 항상 깨끗한 물그릇에 물을 줘야 해. 그리고, 수염이 그릇에 닿는 것을 싫어하는 고양이면 입구가 넓은 물그릇을 준비해야 해.",
+            "turn_id": "BK22006865-3",
+            "utterance_id": "BK22006865.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 고양이도 수염이 그릇에 닿는 것을 너무 싫어하는 데 넓은 그릇으로 바꿔줘야겠구나. 또 물을 먹이는 다른 방법들이 있을까?",
+            "turn_id": "BK22006865-4",
+            "utterance_id": "BK22006865.7"
+        },
+        {
+            "reference_date": "2019-12-10",
+            "reference_text": [
+                {
+                    "value": "고양이의 경우 보통 잠자리와 화장실에서 밥그릇과 물그릇을 멀리 떨어뜨려 놓는 것이 섭취량을 늘려 주는데 도움을 줍니다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "일반적으로 개와 고양이가 가장 선호하는 물의 온도는 약 15°C이지만 이 역시도 아이들마다 차이가 있으므로 다양한 온도를 시도해 보는 것이 좋습니다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.notepet.co.kr/news/article/article_view/?idx=17654&groupCode=AB400AD916",
+            "search_query": "고양이 수분 섭취",
+            "terminate": false,
+            "text": "잠자리와 화장실에서 밥그릇과 물그릇을 멀리 떨어뜨려 놓으면 물의 섭취량이 늘 수 있어. 그리고 고양이가 일반적으로 좋아하는 물의 온도가 15도이니 참고하면 좋아. 하지만, 이것도 고양이마다 다를 수 있으니 다양한 온도를 시도해 보면서 좋아하는 물의 온도를 찾는 것도 방법이야.",
+            "turn_id": "BK22006865-4",
+            "utterance_id": "BK22006865.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "물의 온도까지 신경 써줘야 하는구나. 근데 강아지는 양치해 줘야 하는 건 알았는데 고양이도 양치가 필요하다던데 맞아?",
+            "turn_id": "BK22006865-5",
+            "utterance_id": "BK22006865.9"
+        },
+        {
+            "reference_date": "2021-10-22",
+            "reference_text": [
+                {
+                    "value": "사실 강아지에 비해 고양이는 입 안이 알칼리성이라 충치균이 증식하기 어렵고 상대적으로 충치가 덜 생기기도 한다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 꼭 충치가 아니더라도 치주질환이 생길 경우 세균이 반려동물의 몸 속까지 퍼져 다양한 질병을 일으킬 수 있기 때문에 평소 구강관리를 세심하게 해주는 것이 좋다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.segyebiz.com/newsView/20211022510144?OutUrl=naver",
+            "search_query": "고양이 치아관리",
+            "terminate": false,
+            "text": "고양이는 강아지와 비교하면 입안이 알칼리성이라 충치균이 증식하기 어렵고 충치가 덜 생기기는 해. 하지만, 치주 질환이 생길 수 있어서 고양이도 구강 관리를 해줘야 해. 치주 질환이 생기면 몸속까지 다양한 질병을 생길 수 있거든.",
+            "turn_id": "BK22006865-5",
+            "utterance_id": "BK22006865.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이도 양치를 해줘야 하는 거구나. 고양이는 언제부터 양치를 시작하면 돼?",
+            "turn_id": "BK22006865-6",
+            "utterance_id": "BK22006865.11"
+        },
+        {
+            "reference_date": "2020-10-13",
+            "reference_text": [
+                {
+                    "value": "고양이가 양치를 시작하는 시기는 대략 유치가 영구치로 바뀌는 생후 4-5개월부터 칫솔, 치약과 익숙해지는 훈련을 시작해주면 좋다고 한다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=131491",
+            "search_query": "고양이 양치질",
+            "terminate": false,
+            "text": "유치가 영구치로 바뀌는 생후 4에서 5개월부터 칫솔과 치약에 익숙해지는 훈련을 시작하면 돼.",
+            "turn_id": "BK22006865-6",
+            "utterance_id": "BK22006865.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일찍부터 양치 연습을 시켜야 하는구나. 양치는 어떤 방법으로 시켜야 해?",
+            "turn_id": "BK22006865-7",
+            "utterance_id": "BK22006865.13"
+        },
+        {
+            "reference_date": "2021-05-21",
+            "reference_text": [
+                {
+                    "value": "치아의 위아래를 전체적으로 쓸듯이 닦아주면 된다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "잇몸과 치아의 경계 부위, 어금니 틈 등 치석이 많이 생기는 부위를 위주로 적당한 자극과 함께 닦아주면 된다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4306305",
+            "search_query": "고양이 양치방법",
+            "terminate": false,
+            "text": "치아의 위아래를 쓸듯이 닦고, 잇몸과 치아의 경계 부위나 어금니 틈, 치석이 많이 생길 염려가 있는 곳을 적당한 자극을 주어 닦으면 돼.",
+            "turn_id": "BK22006865-7",
+            "utterance_id": "BK22006865.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사람 양치 방법과 비슷하구나. 근데 고양이 중에 이를 닦으면 토하는 경우가 있다는데 왜 그런 거야?",
+            "turn_id": "BK22006865-8",
+            "utterance_id": "BK22006865.15"
+        },
+        {
+            "reference_date": "2021-10-23",
+            "reference_text": [
+                {
+                    "value": "보통 양치 후 구토·설사하는 고양이는 자일리톨, 소르비톨, 보존제(이산화타이타늄)에 의해 증상이 나타난 것일 수 있다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "물론 고양이 치약에 들어있는 자일리톨, 소르비톨 용량이 과하지는 않지만 장이 예민한 고양이라면 구토, 설사가 충분히 나타날 수 있다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=56166",
+            "search_query": "고양이 양치 구토",
+            "terminate": false,
+            "text": "일반적으로 양치를 한 후 고양이가 토하거나 설사하는 이유는 자일리톨, 소르비톨, 보존제인 이산화타이타늄 때문이야. 고양이 치약에 들어 있는 자일리톨이나 소르비톨 양은 많지 않지만, 고양이가 장이 예민한 경우라면 구토나 설사의 증상이 나타날 수 있어.",
+            "turn_id": "BK22006865-8",
+            "utterance_id": "BK22006865.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "양치가 문제가 아니라 고양이 치약의 성분 때문에 토를 하는 거구나. 근데 고양이가 입을 벌리지 않아서 양치가 힘들다면 다른 대안이 있을까?",
+            "turn_id": "BK22006865-9",
+            "utterance_id": "BK22006865.17"
+        },
+        {
+            "reference_date": "2019-04-08",
+            "reference_text": [
+                {
+                    "value": "양치가 힘들다면 물에 타 먹이는 가글 제품이 있다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "물에 타 고양이에게 먹이면 치태가 생기는 원인 가운데 하나인 구강 내 세균이 줄어 치태가 억제된다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://weekly.donga.com/3/all/11/1691523/1",
+            "search_query": "고양이 구강 보조제",
+            "terminate": false,
+            "text": "물에 타서 먹는 가글 제품을 사용하는 방법이 있어. 물에 타서 먹이면 구강 세균이 줄어들어 치태 생성을 억제해 주거든.",
+            "turn_id": "BK22006865-9",
+            "utterance_id": "BK22006865.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 집 고양이도 양치를 잘 하지 않으려고 하는데 고양이 가글을 사야겠어. 고양이 키우면서 궁금한 것들이 많았는데 알려줘서 고마워.",
+            "turn_id": "BK22006865-10",
+            "utterance_id": "BK22006865.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "언제든지 궁금한 것 있으면 물어봐. 우리는 다음에 보자, 안녕.",
+            "turn_id": "BK22006865-10",
+            "utterance_id": "BK22006865.20"
+        }
+    ]
+}

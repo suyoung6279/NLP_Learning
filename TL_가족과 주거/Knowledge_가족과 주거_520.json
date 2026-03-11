@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015641",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015641",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "친구네 강아지가 전십자인대파열 증상 때문에 치료를 받고 있다고 하더라고요. 저는 처음 들어보는 병인데 흔한 병인가요?",
+            "turn_id": "BK22015641-1",
+            "utterance_id": "BK22015641.1"
+        },
+        {
+            "reference_date": "2022-10-08",
+            "reference_text": [
+                {
+                    "value": "전십자인대파열은 슬개골탈구 다음으로 많이 발생하는 무릎관절 질환이다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61501",
+            "search_query": "반려견 전십자인대파열",
+            "terminate": false,
+            "text": "네, 전십자인대파열은 슬개골 탈구 다음으로 발생빈도가 높은 무릎관절 질병이에요.",
+            "turn_id": "BK22015641-1",
+            "utterance_id": "BK22015641.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "슬개골 탈구와는 다르게 처음 들어보는 병이라고 생각했는데 꽤 흔한 질병이군요. 그런데 전십자인대는 어떤 부위인가요?",
+            "turn_id": "BK22015641-2",
+            "utterance_id": "BK22015641.3"
+        },
+        {
+            "reference_date": "2022-10-08",
+            "reference_text": [
+                {
+                    "value": "십자인대는 허벅지뼈와 정강이뼈를 연결하는 인대로 전십자인대와 후십자인대로 이뤄져 있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61501",
+            "search_query": "반려견 십자인대",
+            "terminate": false,
+            "text": "네, 십자인대에 대해 알려드려야 전십자인대를 설명드리기 쉬우니 우선 십자인대에 대해 알려드릴게요. 십자인대는 허벅지뼈와 정강이뼈 사이를 잇는 인대예요. 그리고 이 인대를 전십자인대와 후십자인대로 나눠 구분하죠.",
+            "turn_id": "BK22015641-2",
+            "utterance_id": "BK22015641.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "허벅지뼈와 정강이뼈를 잇는 역할을 한다면 꽤 큰 역할을 할 것 같은데 어떤 역할을 하나요?",
+            "turn_id": "BK22015641-3",
+            "utterance_id": "BK22015641.5"
+        },
+        {
+            "reference_date": "2022-10-08",
+            "reference_text": [
+                {
+                    "value": "전십자인대는 무릎관절이 좌우로 흔들리는 것을 막고 정강이뼈가 앞쪽으로 밀리지 않도록 잡아준다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 전십자인대가 파열되면 무릎관절이 어긋나고 정강이뼈가 지나치게 움직이게 된다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61501",
+            "search_query": "반려견 전십자인대 정강이뼈",
+            "terminate": false,
+            "text": "네, 전십자인대는 무릎관절이 좌우로 흔들리지 않도록 하고 정강이뼈가 앞쪽으로 밀리는 것을 막는 역할을 해요. 때문에 전십자인대가 파열되면 무릎관절이 뒤틀리고 정강이뼈가 고정되지 않죠.",
+            "turn_id": "BK22015641-3",
+            "utterance_id": "BK22015641.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지들이 고통이 클 것 같아요. 그럼 전십자인대가 파열된 경우 어떤 증상을 보이나요?",
+            "turn_id": "BK22015641-4",
+            "utterance_id": "BK22015641.7"
+        },
+        {
+            "reference_date": "2022-10-08",
+            "reference_text": [
+                {
+                    "value": "다리에 체중을 싣지 못하고 다리를 절면서 걷거나 아예 한쪽 다리를 들고 걸어 다니기도 한다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "시간이 지날수록 다리근육이 위축되면서 점점 더 걷기 힘들어지고 통증 또한 심해진다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61501",
+            "search_query": "반려견 전십자인대 파열 다리",
+            "terminate": false,
+            "text": "다리에 체중을 싣지 못해 다리를 절뚝이며 걷는다든지 아예 한쪽 다리를 들고 깽깽이걸음으로 걷기도 해요. 또 시간이 지남에 따라 다리 근육이 쪼그라들면서 더 걷기 힘들고 통증이 심해지죠.",
+            "turn_id": "BK22015641-4",
+            "utterance_id": "BK22015641.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이고, 정말 얼마나 아플까요. 그런데 전십자인대가 파열되는 원인은 뭔가요?",
+            "turn_id": "BK22015641-5",
+            "utterance_id": "BK22015641.9"
+        },
+        {
+            "reference_date": "2022-10-08",
+            "reference_text": [
+                {
+                    "value": "전십자인대는 낙상, 교통사고처럼 큰 충격을 받는 것뿐 아니라 비만, 노령성 퇴행 등의 다양한 원인으로 인해 파열될 수 있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 슬개골탈구가 심각하다면 전십자인대가 파열되기도 해 슬개골탈구와 전십자인대파열을 함께 진단받는 일도 있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61501",
+            "search_query": "반려견 전십자인대 파열 낙상",
+            "terminate": false,
+            "text": "전십자인대가 파열되는 데에는 다양한 이유가 있지만 우선 낙상, 교통사고와 같이 큰 충격을 받은 경우나 비만이나 노화에 따른 퇴행 때문에 파열돼요. 또 슬개골 탈구가 심한 경우도 전십자인대가 파열될 수 있기 때문에 함께 진단받는 경우도 있죠.",
+            "turn_id": "BK22015641-5",
+            "utterance_id": "BK22015641.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "꽤 다양한 원인에 의해 전십자인대가 파열되는군요. 그럼 치료를 할 수 있긴 한가요?",
+            "turn_id": "BK22015641-6",
+            "utterance_id": "BK22015641.11"
+        },
+        {
+            "reference_date": "2022-10-08",
+            "reference_text": [
+                {
+                    "value": "전십자인대가 부분적으로 파열됐다면 약물을 사용한 내과적 치료를 하게 된다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 완전히 파열됐다면 근육이 위축되거나 퇴행성관절염으로 진행되기 전에 수술하는 것이 좋다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61501",
+            "search_query": "반려견 전십자인대 파열 내과적 치료",
+            "terminate": false,
+            "text": "네, 물론이죠. 정도에 따라 다르지만, 부분적으로 파열된 경우는 약물을 통해 내과적인 치료를 해요. 다만 완벽히 파열된 경우라면 근육이 쪼그라들거나 퇴행성관절염으로 번지기 전에 수술을 권장하고요.",
+            "turn_id": "BK22015641-6",
+            "utterance_id": "BK22015641.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수술을 해야 하는 경우도 있군요. 그럼 어떤 수술을 통해 전십자인대 수술을 하나요?",
+            "turn_id": "BK22015641-7",
+            "utterance_id": "BK22015641.13"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "십자인대 파열의 대표적인 수술법으로는 CTWO, CBLO, TPLO, TTA, 관절낭외 인공인대교정술 등이 존재하며, 파열의 정도와 반려견의 나이, 질환, 몸무게 등을 고려해 알맞은 수술법을 선택하는 것이 필요하다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mdtoday.co.kr/news/view/1065593723363110",
+            "search_query": "반려견 십자인대파열 수술법",
+            "terminate": false,
+            "text": "보통 파열의 정도와 반려견의 나이, 질환, 몸무게와 같이 다양한 사항을 고려해 수술을 진행하는데 대표적인 수술법으로는 CTWO, CBLO, TTA, 관절낭외 인공인대 교정술 등이 있어요.",
+            "turn_id": "BK22015641-7",
+            "utterance_id": "BK22015641.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 정말 다양한 수술법이 존재하네요. 그런데 전십자인대파열은 치료 후 후유증 같은 게 없을까요?",
+            "turn_id": "BK22015641-8",
+            "utterance_id": "BK22015641.15"
+        },
+        {
+            "reference_date": "2022-10-08",
+            "reference_text": [
+                {
+                    "value": "전십자인대파열은 초기에 치료하면 예후가 좋은 편으로 수술 후에도 보호자가 잘 관리해준다면 반려견이 다시 예전처럼 뛰어다닐 수 있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61501",
+            "search_query": "반려견 전십자인대 파열 예후",
+            "terminate": false,
+            "text": "네, 초기에 치료하는 경우라면 전십자인대파열도 예후가 좋은 편이에요. 때문에 수술 후에도 견주가 잘 관리해준다면 강아지도 예전처럼 건강하게 뛰어다닐 수 있죠.",
+            "turn_id": "BK22015641-8",
+            "utterance_id": "BK22015641.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "휴, 정말 불행 중 다행이네요. 친구네 강아지도 빨리 나으면 좋겠어요. 오늘 전십자인대파열에 대해 알려주셔서 정말 감사해요.",
+            "turn_id": "BK22015641-9",
+            "utterance_id": "BK22015641.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도움이 될 수 있어서 정말 다행이에요. 그럼 궁금한 점 생기시면 또 연락 주세요.",
+            "turn_id": "BK22015641-9",
+            "utterance_id": "BK22015641.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 항상 도움 주셔서 정말 감사합니다. 그럼 조심해서 들어가세요.",
+            "turn_id": "BK22015641-10",
+            "utterance_id": "BK22015641.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 궁금이님도 조심히 들어가세요.",
+            "turn_id": "BK22015641-10",
+            "utterance_id": "BK22015641.20"
+        }
+    ]
+}

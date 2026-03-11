@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009313",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009313",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내년 설날에 할머니 댁에서 다들 모이기로 했어. 명절에 고속도로 통행료 안 내도 된다고 들었었는데 내 친척 동생은 아니라고 하더라? 뭐가 맞는 말이야?",
+            "turn_id": "BK22009313-1",
+            "utterance_id": "BK22009313.1"
+        },
+        {
+            "reference_date": "2022-08-31",
+            "reference_text": [
+                {
+                    "value": "명절 고속도로 통행료 면제 정책은 고향을 찾는 국민의 부담을 줄임과 동시에 경제활성화를 꾀하기 위해 2017년 관련법(유료도로법 시행령 개정안) 통과 후 매년 설날과 추석에 시행돼 왔다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 코로나 확산 우려로 지난 2020년 추석부터 이를 중단했다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이번 추석연휴 기간 통행료가 면제되면 사실상 코로나 시국 이후 첫 면제가 된다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.nextdaily.co.kr/news/articleView.html?idxno=209317",
+            "search_query": "설날 통행료",
+            "terminate": false,
+            "text": "코로나가 확산하는걸 우려해서 지난 2020년 추석부터 명절 고속도로 통행료 면제 정책을 중단했었는데, 2022년 추석 연휴부터 다시 면제가 시작되었어. 2017년에 유료도로법 시행령 개정안이 통과된 이후로 매년 설날과 추석에는 명절 고속도로 통행료 면제 정책이 시행돼 왔었지.",
+            "turn_id": "BK22009313-1",
+            "utterance_id": "BK22009313.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 잠깐 멈췄다가 다시 시행된다는 거라서 헷갈렸다 보다. 그런데 왜 어르신들은 설날 보고 신정이나 구정이라는 말도 쓰잖아? 그건 무슨 뜻이야?",
+            "turn_id": "BK22009313-2",
+            "utterance_id": "BK22009313.3"
+        },
+        {
+            "reference_date": "2019-12-31",
+            "reference_text": [
+                {
+                    "value": "한편 신정(新正)과 구정(舊正)의 차이점은 양력설을 '신정', 음력설을 '구정'이라 부른다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etoday.co.kr/news/view/1840136",
+            "search_query": "신정 뜻",
+            "terminate": false,
+            "text": "아, 그건 음력설을 구정이라고 부르는 거고, 양력설을 신정이라고 부르는 거야.",
+            "turn_id": "BK22009313-2",
+            "utterance_id": "BK22009313.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 우리가 알고 있는 연휴는 구정 설인 거구나. 할머니 댁에서 모이면 다 같이 아침 일찍 떡국 먹기로 했는데, 설날에 떡국을 먹는 이유를 뭘까?",
+            "turn_id": "BK22009313-3",
+            "utterance_id": "BK22009313.5"
+        },
+        {
+            "reference_date": "2022-01-30",
+            "reference_text": [
+                {
+                    "value": "설날 아침에 떡국을 먹는 이유는 하얀색의 떡과 국물로 지난해 안 좋았던 일을 하얗게 잊고 새롭게 시작한다는 의미를 지닌다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하얀색 가래떡을 길게 뽑는 이유는 장수와 집안의 번창을 의미한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "가래떡을 둥글게 써는 이유는 옛날 화폐인 엽전의 모양과 같도록 해 운세와 재복이 한 해 동안 계속 이어지기를 바라는 마음에서다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lecturernews.com/news/articleView.html?idxno=88499",
+            "search_query": "떡국먹는이유",
+            "terminate": false,
+            "text": "하얀색의 떡과 국물로 지난해 안 좋았던 일을 하얗게 잊고 새롭게 시작한다는 뜻을 담고서 설날 아침에 떡국을 먹는 거야. 장수와 집안의 번창을 바라면서 하얀색 가래떡을 길게 뽑는거고, 한 해 동안 재물복과 운세가 이어지기를 바라는 마음을 담아 옛날 화폐였던 엽전 모양처럼 가래떡을 둥글게 써는 거야.",
+            "turn_id": "BK22009313-3",
+            "utterance_id": "BK22009313.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "떡국이 그런 의미를 가지고 있구나. 떡을 별로 안 좋아해서 먹기 싫었는데 그래도 설날엔 한 그릇 먹어야겠는걸. 설날은 언제부터 내려오는 명절인 건지 궁금하다.",
+            "turn_id": "BK22009313-4",
+            "utterance_id": "BK22009313.7"
+        },
+        {
+            "reference_date": "2022-02-01",
+            "reference_text": [
+                {
+                    "value": "우리나라에서 설에 관련한 기록은 삼국시대부터 찾아 볼 수 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "삼국사기에는 백제에서는 261년에 설맞이 행사를 하였으며, 신라에서는 651년 정월 초하룻날에 왕이 조원전에 나와 백관들의 새해 축하를 받았는데 이때부터 왕에게 새해를 축하하는 의례가 시작되었다고 쓰여 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lecturernews.com/news/articleView.html?idxno=88555",
+            "search_query": "설날의 유래",
+            "terminate": false,
+            "text": "백제에서는 261년에 설맞이 행사를 했다고 하고, 신라에서는 651년 정월 초하룻날에 왕이 조원전에 나와서 백관들에게 새해 축하를 받았는데 이때부터 왕에게 새해를 축하하는 의례가 시작되었다고 삼국사기에 쓰여있어. 우리나라에서 설에 대한 기록을 삼국시대부터 찾아볼 수 있는 거지.",
+            "turn_id": "BK22009313-4",
+            "utterance_id": "BK22009313.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "삼국시대 때부터 쓰여있었다니 오래되긴 했네. 설날에 하는 전통적인 풍속들은 뭐가 있어?",
+            "turn_id": "BK22009313-5",
+            "utterance_id": "BK22009313.9"
+        },
+        {
+            "reference_date": "2022-02-01",
+            "reference_text": [
+                {
+                    "value": "설날의 세시풍속으로는 차례, 세배, 설빔, 덕담, 문안비, 설 그림, 복조리 걸기, 야광 귀 쫓기, 청 참, 윷놀이, 널뛰기, 머리카락 태우기 등이 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lecturernews.com/news/articleView.html?idxno=88555",
+            "search_query": "설날 풍속",
+            "terminate": false,
+            "text": "차례나 세배 그리고 설빔, 덕담, 윷놀이, 널뛰기 등 설날의 세시풍속은 여러 가지가 있지.",
+            "turn_id": "BK22009313-5",
+            "utterance_id": "BK22009313.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "윷놀이 잊고 있었네. 윷놀이 진짜 재미있는데 이번에 모이면 하자고 해야겠다. 그런데 설날이라는 이름이 가진 뜻은 뭔지 혹시 알려줄 수 있어?",
+            "turn_id": "BK22009313-6",
+            "utterance_id": "BK22009313.11"
+        },
+        {
+            "reference_date": "2020-01-23",
+            "reference_text": [
+                {
+                    "value": "낯설고 생경함이 한 해가 시작되는 첫 날, 그래서 이 날을 ‘설다’는 뜻으로 ‘설날’이라고 했다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.korea.kr/news/contributePolicyView.do?newsId=148868532&call_from=naver_news",
+            "search_query": "설날 뜻",
+            "terminate": false,
+            "text": "설날은 설다라는 의미로 설날이라고 하는 거야. 낯설고 생경한 한 해가 시작되는 첫날이라는 뜻이야.",
+            "turn_id": "BK22009313-6",
+            "utterance_id": "BK22009313.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 설날이라고 하는구나. 오랜만에 할머니 할아버지 만나는 거라서 세배도 해야 하는데, 여자가 세배하는 법 좀 알려줄래? 오랜만에 하려니 디테일한 부분이 생각이 안 나네.",
+            "turn_id": "BK22009313-7",
+            "utterance_id": "BK22009313.13"
+        },
+        {
+            "reference_date": "2021-02-12",
+            "reference_text": [
+                {
+                    "value": "여자는 오른손이 위로 가게 공수하고 손을 어깨 높이까지 올린 후 왼쪽 무릎, 오른쪽 무릎 순으로 가지런히 꿇은 다음 엉덩이를 내려앉는다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "윗몸을 45도쯤 앞으로 굽힌 다음 잠시 머물렀다 윗몸을 일으키고, 오른쪽 무릎을 세워 일어선다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "절이 끝난 다음 가볍게 묵례한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sporbiz.co.kr/news/articleView.html?idxno=511187",
+            "search_query": "설날 여자세배방법",
+            "terminate": false,
+            "text": "세배할 때 여자는 오른손이 위로 가게 손을 모으고 손을 어깨높이까지 올린 다음에 왼쪽 무릎 그리고 오른쪽 무릎 순으로 가지런히 꿇고 엉덩이를 내려. 그다음 윗몸을 45도쯤 앞으로 굽히고 잠시 있다 윗몸과 오른쪽 무릎을 차례로 세워서 일어서고 가볍게 묵례하면 돼.",
+            "turn_id": "BK22009313-7",
+            "utterance_id": "BK22009313.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오른손이 위로 가게 하는 거였지. 이번에 초등학교 친척 동생들도 온다고 하더라고. 나 취업하고 처음 모이는 거라서 세뱃돈 좀 주고 싶은데, 초등학생들은 세뱃돈으로 얼마 정도 주면 적당할까?",
+            "turn_id": "BK22009313-8",
+            "utterance_id": "BK22009313.15"
+        },
+        {
+            "reference_date": "2022-02-01",
+            "reference_text": [
+                {
+                    "value": "여론조사 기관인 한국갤럽이 2018년 1월 23~25일 전국 성인 1,004명에게 설날 세뱃돈에 대해 질문한 결과 초등학생 세뱃돈은 '1만 원'이 적당하다는 의견이 가장 많았다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.economytalk.kr/news/articleView.html?idxno=219268",
+            "search_query": "설날 세뱃돈",
+            "terminate": false,
+            "text": "성인 1,004명한테 설날에 초등학생 세뱃돈에 대해서 질문한 결과로는 1만원이 적당하다는 의견이 제일 많았어. 2018년 1월 23일에서 25일까지 여론조사 기관인 한국갤럽에서 조사한 결과야.",
+            "turn_id": "BK22009313-8",
+            "utterance_id": "BK22009313.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아직 저학년이니까 그 정도로 줘도 될 것 같네. 나도 만 원씩 줄 거 준비해야겠다.",
+            "turn_id": "BK22009313-9",
+            "utterance_id": "BK22009313.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "취업했다고 세뱃돈도 챙겨주고 정말 멋지다. 친척 동생들도 엄청나게 좋아할 것 같아.",
+            "turn_id": "BK22009313-9",
+            "utterance_id": "BK22009313.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럴까? 코로나 때문에 오랜만에 만나는 거라서 나도 너무 설날이 기다려져. 나 이제 내일 출근하려면 쉬어야겠다.",
+            "turn_id": "BK22009313-10",
+            "utterance_id": "BK22009313.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "오랜만에 가족들이 모이는 거라니 정말 즐거운 명절이 될 것 같아. 오늘도 고생 많았어. 푹 쉬고 또 연락줘!",
+            "turn_id": "BK22009313-10",
+            "utterance_id": "BK22009313.20"
+        }
+    ]
+}

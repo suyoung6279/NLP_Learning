@@ -1,0 +1,327 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22000397",
+        "name": "2022 한국어 블렌더봇 데이터 BK22000397",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 아내 임신중독증 판정을 받았어. 계속 배가 아프다고 하고, 손발도 퉁퉁 부어서 옆에서 보는데 너무 안쓰러워.",
+            "turn_id": "BK22000397-1",
+            "utterance_id": "BK22000397.1"
+        },
+        {
+            "reference_date": "2022-05-30",
+            "reference_text": [
+                {
+                    "value": "임신중독증을 의심해볼 수 있는 증상으로는 ◆지속적인 심한 두통 ◆1주일에 1㎏ 이상 급격한 체중 증가 ◆갑작스러운 시력 저하 ◆갈비뼈 바로 아래쪽 배(상복부)의 극심한 통증 ◆얼굴·손·발의 부종 등이 있다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.cctimes.kr/news/articleView.html?idxno=706404",
+            "search_query": "임신중독증",
+            "terminate": false,
+            "text": "아, 임신중독증에 걸리셨구나. 임신중독증 증상이 심한 두통, 급격한 체중 증가, 시력 저하, 상복부 통증, 얼굴, 손, 발의 부종인데 증상이 많이 심각하셔?",
+            "turn_id": "BK22000397-1",
+            "utterance_id": "BK22000397.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 생각보다 심각한 것 같아서 너무 걱정돼 죽겠다. 근데 임신중독증 증상은 많이 들어봤는데, 임신중독증이 정확히 뭐지?",
+            "turn_id": "BK22000397-2",
+            "utterance_id": "BK22000397.3"
+        },
+        {
+            "reference_date": "2022-05-30",
+            "reference_text": [
+                {
+                    "value": "임신중독증(전자간증)은 임신과 합병된 고혈압성 질환을 말한다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.cctimes.kr/news/articleView.html?idxno=706404",
+            "search_query": "임신중독증 고혈압",
+            "terminate": false,
+            "text": "임신과 합쳐진 고혈압성 질환이라고 생각하면 돼.",
+            "turn_id": "BK22000397-2",
+            "utterance_id": "BK22000397.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고혈압성 질환이었구나. 아내가 임신 전부터도 고혈압 증상이 좀 있긴 했어.",
+            "turn_id": "BK22000397-3",
+            "utterance_id": "BK22000397.5"
+        },
+        {
+            "reference_date": "2022-05-30",
+            "reference_text": [
+                {
+                    "value": "임신 전부터 고혈압이 있거나 임신 후 갑작스럽게 고혈압(140/90mmHg)이 생긴 경우 조심해야 한다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "혈압 상승과 소변에서 단백이 검출되는 증상이 나타난다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.cctimes.kr/news/articleView.html?idxno=706404",
+            "search_query": "임신중독증 단백뇨",
+            "terminate": false,
+            "text": "아, 원래 고혈압 증상이 좀 있으셨구나. 임신 전부터 고혈압이 있거나 임신 후에 갑자기 고혈압이 생기면 더 조심해야 하거든. 임신중독증 걸리면 혈압도 상승하고 단백뇨 증상도 있는데, 단백뇨도 심한 편이야?",
+            "turn_id": "BK22000397-3",
+            "utterance_id": "BK22000397.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 의사선생님이 단백뇨도 좀 심한 편이라고 하시더라고. 근데 임신중독증이 원래 흔한 병이야?",
+            "turn_id": "BK22000397-4",
+            "utterance_id": "BK22000397.7"
+        },
+        {
+            "reference_date": "2022-03-07",
+            "reference_text": [
+                {
+                    "value": "임신중독증은 전 세계 임신부들 가운데 2~8%에 영향을 미친다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%84%EC%8B%A0%EC%A4%91%EB%8F%85%EC%A6%9D",
+            "search_query": "임신중독증 %",
+            "terminate": false,
+            "text": "전 세계 임신부 중에서 2퍼센트에서 8퍼센트 정도 영향이 있어.",
+            "turn_id": "BK22000397-4",
+            "utterance_id": "BK22000397.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "8퍼센트면 그래도 생각보다 꽤 많이 걸리는 것 같은데, 치료 잘 하면 크게 문제 되고 그러진 않겠지?",
+            "turn_id": "BK22000397-5",
+            "utterance_id": "BK22000397.9"
+        },
+        {
+            "reference_date": "2022-05-30",
+            "reference_text": [
+                {
+                    "value": "임신중독증은 가장 많은 임신부 사망 원인 중 하나다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.cctimes.kr/news/articleView.html?idxno=706404",
+            "search_query": "임신중독증 사망",
+            "terminate": false,
+            "text": "그렇게 안심할 순 없어. 가장 많은 임신부 사망 원인 중 하나가 임신중독증이야.",
+            "turn_id": "BK22000397-5",
+            "utterance_id": "BK22000397.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이게 죽을 수도 있는 병이었어? 그렇게 들으니까 더 불안하잖아. 심해지면 어떤 증상이 나타나?",
+            "turn_id": "BK22000397-6",
+            "utterance_id": "BK22000397.11"
+        },
+        {
+            "reference_date": "2022-05-30",
+            "reference_text": [
+                {
+                    "value": "임신중독증이 심하면 산모에게 폐부종, 뇌출혈, 간과 신장 부전, 혈액 응고 이상 등의 증상이 나타나고 사망에까지 이를 수 있다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.cctimes.kr/news/articleView.html?idxno=706404",
+            "search_query": "임신중독증 증상",
+            "terminate": false,
+            "text": "심해지면 폐부종, 뇌출혈, 간이랑 신장 부전, 혈액 응고 증상 등이 나타날 수 있고, 아까 말한 대로 사망에까지 이를 수도 있어.",
+            "turn_id": "BK22000397-6",
+            "utterance_id": "BK22000397.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다행히 아직 그런 증상은 없고 그냥 부종만 심해. 그래도 너무 불안하네. 아기한테는 영향 없는 거겠지?",
+            "turn_id": "BK22000397-7",
+            "utterance_id": "BK22000397.13"
+        },
+        {
+            "reference_date": "2022-05-30",
+            "reference_text": [
+                {
+                    "value": "또 태반과 태아로의 혈류공급장애가 생겨 태아의 성장 부전이 나타나며 심한 경우 태아 사망의 원인이 되기도 한다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.cctimes.kr/news/articleView.html?idxno=706404",
+            "search_query": "임신중독증 태아",
+            "terminate": false,
+            "text": "아기한테도 영향이 있지. 태반과 태아로의 혈류 공급에 장애가 생겨서 아기도 성장 부전이 나타나. 그리고 심하면 아기도 사망할 수도 있고.",
+            "turn_id": "BK22000397-7",
+            "utterance_id": "BK22000397.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 어떻게 해야 하지. 어떻게 해야 치료할 수 있어?",
+            "turn_id": "BK22000397-8",
+            "utterance_id": "BK22000397.15"
+        },
+        {
+            "reference_date": "2021-09-08",
+            "reference_text": [
+                {
+                    "value": "임신 말기라면 아기와 산모에게 위험하므로 조속한 분만을 해야 하며, 진통이 없다면 유도 분만이나 제왕절개술을 시도하게 된다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mkhealth.co.kr/news/articleView.html?idxno=54789",
+            "search_query": "임신중독증 치료",
+            "terminate": false,
+            "text": "임신중독증이 아기와 산모 둘 다에게 위험하니까, 임신 말기면 빨리 분만을 하는 게 가장 중요해. 진통이 없으면 유도 분만이나 제왕절개를 하는 게 좋지.",
+            "turn_id": "BK22000397-8",
+            "utterance_id": "BK22000397.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 의사선생님이 그렇게 빨리 제왕절개 날짜를 잡았구나. 우리는 진통이 오면 자연분만할 생각도 있었는데, 예정일이 좀 남았는데도 제왕절개를 그냥 하는 게 좋겠다고 하시더라고.",
+            "turn_id": "BK22000397-9",
+            "utterance_id": "BK22000397.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그랬구나, 제왕절개 수술 날짜가 언제야?",
+            "turn_id": "BK22000397-9",
+            "utterance_id": "BK22000397.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다음 주 수요일에 수술하기로 했어.",
+            "turn_id": "BK22000397-10",
+            "utterance_id": "BK22000397.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 무사히 출산하길 바랄게. 출산하고 나면 연락해 줘. 내가 과일바구니 들고 병문안 갈게.",
+            "turn_id": "BK22000397-10",
+            "utterance_id": "BK22000397.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 부모님 다음으로 너한테 연락할게. 오늘 이것저것 알려줘서 고마워.",
+            "turn_id": "BK22000397-11",
+            "utterance_id": "BK22000397.21"
+        }
+    ]
+}

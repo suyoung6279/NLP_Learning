@@ -1,0 +1,386 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.5,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.6,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009221",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009221",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0001"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아침저녁으로는 쌀쌀한데 한낮에는 아직도 햇볕이 뜨겁고 덥네요.",
+            "turn_id": "BK22009221-1",
+            "utterance_id": "BK22009221.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 일교차가 너무 커서 옷 챙겨 입기도 애매하고 컨디션 관리도 힘드네요.",
+            "turn_id": "BK22009221-1",
+            "utterance_id": "BK22009221.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여름 내내 강아지들이 더위 때문에 너무 힘들어해서 얼른 낮에도 시원해졌으면 좋겠어요. 그런데 전부터 궁금했던 건데 개는 털 때문에 많이 더워 보이잖아요. 그럼 실제로도 더위를 많이 타나요?",
+            "turn_id": "BK22009221-2",
+            "utterance_id": "BK22009221.3"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "개는 사람보다 체온이 2도 정도 높은 반면, 땀샘이 없고 털로 온몸이 덮여져 있어 몸의 열이 바깥으로 빠져나가기 어렵다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그렇기 때문에 더운 날씨에 취약하다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000726851",
+            "search_query": "반려견 더위 타는 이유",
+            "terminate": false,
+            "text": "네, 맞아요. 개의 체온은 사람보다 2도쯤 높아요. 그런데다가 온몸이 털로 뒤덮여 있고 땀샘도 없기 때문에 몸의 열을 외부로 발산시키기 어려워서 더위에 약할 수밖에 없는 것이죠.",
+            "turn_id": "BK22009221-2",
+            "utterance_id": "BK22009221.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "개의 체온이 사람보다 더 높다는 건 처음 알았어요. 그럼 더운 여름철에는 털을 완전히 밀어주면 강아지들이 여름을 조금이라도 수월하게 날 수 있나요?",
+            "turn_id": "BK22009221-3",
+            "utterance_id": "BK22009221.5"
+        },
+        {
+            "reference_date": "2022-07-21",
+            "reference_text": [
+                {
+                    "value": "털은 보온 효과와 동시에 자외선 차단의 역할도 있기 때문에 털 길이가 과도하게 짧아지면 피부가 자외선에 직접적으로 노출돼 체온도 올라갈 뿐만 아니라 피부병의 위험도 높아진다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "반려견의 털을 3cm 이하로 자르는 건 추천하지 않는다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2022072018484491086",
+            "search_query": "반려견 털 적정 길이",
+            "terminate": false,
+            "text": "개의 털은 몸을 따뜻하게 하는 효과도 있지만 자외선을 차단하는 역할도 담당하기 때문에 지나치게 털을 짧게 자르면 자외선에 직접적으로 개의 피부가 노출되어 체온이 상승하게 되고 동시에 피부병에 걸릴 위험도 높아져요. 따라서 털을 자르더라도 3cm 이하로는 자르지 않는 게 좋아요.",
+            "turn_id": "BK22009221-3",
+            "utterance_id": "BK22009221.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 명심할게요. 그럼 강아지가 더위 때문에 힘들어하면 어떤 방법으로 도와줄 수 있을까요?",
+            "turn_id": "BK22009221-4",
+            "utterance_id": "BK22009221.7"
+        },
+        {
+            "reference_date": "2022-07-21",
+            "reference_text": [
+                {
+                    "value": "여름철 반려견의 체온을 낮추고 싶다면 쿨매트를 사용하거나 물에 얼린 생수병을 수건에 감싸 반려견이 자주 누워있는 공간에다 두는 것이 좋다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "외출 시에는 물에 적셔 입힐 수 있는 쿨링 베스트를 입혀주는 것도 방법이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2022072018484491086",
+            "search_query": "여름 반려견 체온 조절",
+            "terminate": false,
+            "text": "하절기에 반려견의 체온을 떨어뜨리려면 쿨매트를 깔거나 생수병에 물을 담아 얼린 다음 수건으로 감싸서 반려견이 주로 누워 있는 자리에 놓아두면 좋아요. 그리고 외출을 할 때는 쿨링 베스트를 물에 적신 후 입히는 것도 좋은 방법이고요.",
+            "turn_id": "BK22009221-4",
+            "utterance_id": "BK22009221.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어요. 그런데 저희 강아지는 실외 배변을 해서 매일 산책을 해야 하는데 더운 여름 산책할 때 조심해야 하는 점이 있으면 알려 주세요.",
+            "turn_id": "BK22009221-5",
+            "utterance_id": "BK22009221.9"
+        },
+        {
+            "reference_date": "2022-07-21",
+            "reference_text": [
+                {
+                    "value": "여름철에는 한낮의 산책은 피해야 한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "해가 지더라도 아스팔트 바닥에 남아있는 잔열로 인해 화상과 피부염의 위험이 있으니 잔디나 흙바닥을 골라 산책하자.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려견용 신발을 신겨 주는 것도 좋다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2022072018484491086",
+            "search_query": "여름 반려견 산책",
+            "terminate": false,
+            "text": "여름에는 한낮에 반려견과 산책하는 것은 피해야 하고 해가 진 이후라고 하더라도 아스팔트 지면에는 잔열이 남아 있어 화상을 입거나 피부염에 걸릴 위험이 있으므로 잔디나 흙바닥을 선택해서 산책해 주세요. 반려견 전용 신발을 신겨서 산책하는 것도 좋은 방법이고요.",
+            "turn_id": "BK22009221-5",
+            "utterance_id": "BK22009221.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "해가 졌다고 해도 방심하면 안 되겠군요. 그런데 사람은 너무 더우면 열사병에 걸리기도 하잖아요. 강아지들도 사람처럼 열사병에 걸릴 수도 있나요?",
+            "turn_id": "BK22009221-6",
+            "utterance_id": "BK22009221.11"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "일반적으로 반려견의 체온이 41도가 넘어가면 열사병으로 규정한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "적절한 조치를 취하지 않아 고체온 상태가 10~20분 정도 유지되면 의식이 저하되고 뇌와 주요 장기가 심하게 손상되어 생명을 잃을 수 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 외에도 탈수, 전해질불균형, 고혈압 등의 질환으로 발전할 수 있기 때문에 여름철에는 반려견의 상태를 더 유의깊게 살펴야 한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000726851",
+            "search_query": "반려견 열사병",
+            "terminate": false,
+            "text": "네, 반려견도 열사병에 걸릴 수 있는데 보통 반려견의 체온이 41도 이상일 때 열사병이라고 말해요. 이런 상황에서 적절하게 대처하지 못한 채 10~20분 가량 고체온인 상태가 지속되면 의식 저하와 함께 뇌를 비롯한 주요 장기에 심각한 손상을 입게 되어 생명이 위험할 수도 있어요. 또한 탈수, 전해질불균형, 고혈압과 같은 질환이 유발될 수도 있으므로 특히 여름철에는 반려견의 컨디션을 더욱 유심히 챙길 필요가 있죠.",
+            "turn_id": "BK22009221-6",
+            "utterance_id": "BK22009221.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "열사병은 정말 무섭네요. 만약 강아지가 열사병에 걸리면 어떤 증상이 나타나나요?",
+            "turn_id": "BK22009221-7",
+            "utterance_id": "BK22009221.13"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "열사병 초기에는 반려견의 맥박이 빨라지고, 입 점막의 색깔이 선홍빛을 띤다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "구토나 설사, 경련 등의 증상을 보일 수도 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "체온이 높아질수록 반려견은 헉헉거리며 빠르게 호흡하고, 과호흡이 지속되면 불안증과 탈수, 흥분 상태가 되어 열사병을 가속화시킨다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000726851",
+            "search_query": "반려견 열사병 증상",
+            "terminate": false,
+            "text": "열사병의 초기 증상은 맥박이 빨라지고 입의 점막이 선홍빛 색깔을 띠는 것이에요. 그리고 구토, 설사, 경련과 같은 증상이 나타날 수도 있고요. 반려견은 체온이 상승할수록 호흡이 빨라져서 헉헉거리게 되고 이러한 과호흡이 계속되면 불안증을 비롯해 탈수, 흥분 상태가 되면서 열사병이 더욱 빠르게 악화되는 것이죠.",
+            "turn_id": "BK22009221-7",
+            "utterance_id": "BK22009221.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "초기 증상을 잘 기억해 둬야겠어요. 그럼 강아지가 말씀해 주신 것과 같은 증상을 보인다면 어떻게 조치하는 게 좋을까요?",
+            "turn_id": "BK22009221-8",
+            "utterance_id": "BK22009221.15"
+        },
+        {
+            "reference_date": "2018-07-19",
+            "reference_text": [
+                {
+                    "value": "반려견이 이상 징후를 보인다면 즉시 시원하고 그늘진 곳으로 옮기자.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그리고 털과 피부에 시원한 물을 뿌리고 선풍기 등으로 체온을 떨어트려 줘야 한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이때 얼음이나 얼음물을 사용하다가 저체온 등 역효과를 볼 수 있으니 주의하자.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만약 증상이 완화됐다고 하더라도 반려견과 병원을 꼭 가보는 게 좋다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그만큼 열사병은 반려견의 건강에 치명적이기 때문에 전문가와의 상담은 필수다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mhns.co.kr/news/articleView.html?idxno=147696",
+            "search_query": "반려견 열사병 처치",
+            "terminate": false,
+            "text": "반려견에게서 이상 징후를 발견하면 바로 시원한 응달로 옮긴 다음 시원한 물을 털과 피부에 뿌리고 선풍기 등을 이용해 체온이 내려가도록 해야 해요. 시원한 물이 아닌 얼음이나 얼음물을 쓰면 저체온과 같은 역효과가 나타날 수도 있으니 조심하시고요. 그리고 증상이 나아졌더라도 반려견에게 열사병은 매우 위험하므로 반려견을 병원에 데려가 전문가에게 상담을 받아야 한다는 것도 기억해 주세요.",
+            "turn_id": "BK22009221-8",
+            "utterance_id": "BK22009221.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 알겠어요. 그런데 혹시 특히 더위에 취약하거나 열사병에 걸리기 쉬운 견종이 따로 있나요?",
+            "turn_id": "BK22009221-9",
+            "utterance_id": "BK22009221.17"
+        },
+        {
+            "reference_date": "2018-07-19",
+            "reference_text": [
+                {
+                    "value": "※ 검은 털, 갈색 털을 가진 반려견은 털이 햇빛을 흡수하기 때문에 더위를 더 심하게 탈 수 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반면 털이 밝거나 적은 반려동물은 햇빛에 화상을 입을 수도 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "※ 체지방이 많아 열을 잘 발산하지 못하는 비만견, 퍼그나 불독처럼 납작한 코, 두껍고 긴 털, 호흡기 질환이나 심한 질환을 앓는 반려견이라면 열사병이 발병하기 더 쉽다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mhns.co.kr/news/articleView.html?idxno=147696",
+            "search_query": "더위에 취약한 반려견",
+            "terminate": false,
+            "text": "네, 털 색깔에 따라 차이가 있는데 털이 햇빛을 흡수하는 검은 털 혹은 갈색 털의 반려견은 더 심하게 더위를 탈 수 있고 반대로 밝은색의 털을 가졌거나 털의 양이 적은 반려견은 햇빛에 의해 화상을 입을 위험이 있어요. 그리고 많은 체지방 때문에 열 발산이 원활하지 않은 비만견, 퍼그나 불독처럼 납작한 코나 두껍고 긴 털을 가진 반려견, 호흡기 질환을 가지고 있거나 심각한 질환을 앓고 있는 반려견 등은 열사병에 걸릴 확률이 더 높고요.",
+            "turn_id": "BK22009221-9",
+            "utterance_id": "BK22009221.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 자세히 설명해 주셔서 감사해요. 평소에 궁금했던 게 다 해결되었어요.",
+            "turn_id": "BK22009221-10",
+            "utterance_id": "BK22009221.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 다행이네요. 앞으로도 궁금한 게 있으면 편하게 물어보세요.",
+            "turn_id": "BK22009221-10",
+            "utterance_id": "BK22009221.20"
+        }
+    ]
+}

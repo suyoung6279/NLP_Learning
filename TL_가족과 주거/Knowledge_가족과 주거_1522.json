@@ -1,0 +1,381 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011649",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011649",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 얼마 전에 출산을 했는데 아기를 키우는 것이 이렇게 힘든 일인 줄 몰랐어요. 하나부터 열까지 아는 것이 없어서 처음 겪는 상황이 나타날 때마다 긴장하게 되요. 지금은 모든 것이 궁금한 것 투성이에요.",
+            "turn_id": "BK22011649-1",
+            "utterance_id": "BK22011649.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "처음에는 누구나 똑같이 경험하면서 배우니까 너무 스트레스 받지 마세요. 제가 아이 셋 엄마다 보니 많은 도움을 줄 수 있을 것 같은데 궁금한 것이 있으면 다 물어보세요.",
+            "turn_id": "BK22011649-1",
+            "utterance_id": "BK22011649.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 정말 감사합니다. 궁금한게 한 두개가 아니었거든요. 저희 아이가 지금 얼굴에 황달이 약간 보이는 것 같은데 혹시 간에 이상이 있는 걸까요?",
+            "turn_id": "BK22011649-2",
+            "utterance_id": "BK22011649.3"
+        },
+        {
+            "reference_date": "2017-11-29",
+            "reference_text": [
+                {
+                    "value": "신생아 황달 정상신생아의 60~80%에서 나타날 만큼 매우 흔하며 생후 3~5일경에 생겼다가, 출생 후 간의 빌리루빈 제거능력이 급속하게 향상되면서 보통 1주일 이내에 사라지게 된다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000314429",
+            "search_query": "신생아 황달",
+            "terminate": false,
+            "text": "신생아의 황달은 정상으로 보통 신생아의 60~80퍼센트에서 발생할 만큼 흔한 증상이에요. 보통 태어난 지 3~5일쯤에 생겼다가 이후 간에서 빌리루빈을 내보내는 기능이 급속도로 좋아지면서 생후 일주일이 지나면 사라져요.",
+            "turn_id": "BK22011649-2",
+            "utterance_id": "BK22011649.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 태어난지 아직 일주일이 안되서 조금 더 지켜봐야겠네요. 그리고 추가로 아이가 어제 녹색변을 보더라구요. 혹시 문제가 있는 것 아닐까요?",
+            "turn_id": "BK22011649-3",
+            "utterance_id": "BK22011649.5"
+        },
+        {
+            "reference_date": "2017-10-20",
+            "reference_text": [
+                {
+                    "value": "초록색 = 모유수유하는 아기에서는 진한 녹색변을 자주 볼 수 있다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 녹색 변은 짧게 짧게 자주 먹는 아기에게 많은데 이는 탄수화물 함량이 높은 전유만 먹어 나타나는 증상이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "모유를 충분한 시간 동안 먹으면 지방이 많이 함유된 후유를 먹을 수 있는데, 후유의 지방은 아기에게 포함감을 줄 뿐만 아니라 두뇌발달을 돕고, 체중을 늘리는 데도 효과적이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000300009",
+            "search_query": "아기 녹색변",
+            "terminate": false,
+            "text": "보통 녹색변은 모유수유를 하는 아기한테서 많이 나타나요. 특히 짧은 시간 자주 모유를 먹는 아기에게 많이 나타나는데 그 이유는 탄수화물이 많은 전유만 먹기 때문이에요. 모유를 충분한 시간 동안 먹으면 지방이 풍부한 후유를 먹을 수 있는데 후유에 들어있는 지방은 아기에게 포만감도 주고 두뇌 발달도 도와줘요. 그리고 몸무게가 느는 데도 영향을 주죠.",
+            "turn_id": "BK22011649-3",
+            "utterance_id": "BK22011649.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "모유를 조금씩만 먹어서 생긴 거라니 다행이에요. 앞으로는 충분한 시간 동안 주도록 노력해봐야겠어요. 아, 그리고 저희 아이가 혈뇨 비슷하게 주황색 소변을 봤던데 혹시 문제가 있는 건가요?",
+            "turn_id": "BK22011649-4",
+            "utterance_id": "BK22011649.7"
+        },
+        {
+            "reference_date": "2019-08-23",
+            "reference_text": [
+                {
+                    "value": "어느 날 아기의 기저귀를 봤는데 붉은색 또는 주황색 착색이 보인다면 대부분 요산뇨입니다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "요산뇨는 아기가 탈수 증상이 있을 때 흔하게 나타납니다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이때에도 소변검사를 통해 혈뇨 유무 및 기타 질환 여부를 반드시 감별해야 합니다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=77495",
+            "search_query": "아기 혈뇨",
+            "terminate": false,
+            "text": "보통 기저귀에 빨간색이나 주황색으로 착색된 소변이 보인다면 대부분 요산뇨에요. 이는 아기한테 탈수 증상이 있을 때 흔히 볼 수 있는데 혹시 모르니 소변 검사를 통해 혈뇨인지 아닌지 또 기타 질환이 있는지 반드시 확인하는 것이 좋아요.",
+            "turn_id": "BK22011649-4",
+            "utterance_id": "BK22011649.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 혹시 모르니 소변검사는 해보는 것이 좋겠네요. 아, 그리고 혹시 아기 목욕은 어떻게 시켜 주는 것이 좋은지 알려주실 수 있나요? 지금은 배꼽 주변부만 닦아주고 있는데 탯줄이 떨어지고 나면 목욕을 시켜줘야 해서 또 걱정이네요.",
+            "turn_id": "BK22011649-5",
+            "utterance_id": "BK22011649.9"
+        },
+        {
+            "reference_date": "2017-09-04",
+            "reference_text": [
+                {
+                    "value": "첫째, 목욕은 10분 이내로 마무리 하는 것이 좋다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "신생아는 면역력이 약한 편이기 때문에 장시간 목욕을 진행하는 것보다 단시간 내에 끝내는 것이 좋다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "셋째, 목욕을 마친 후에 곧바로 전신을 닦아준다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "넷째, 피부장벽 강화에 필요한 로션을 발라준다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.cctvnews.co.kr/news/articleView.html?idxno=71327",
+            "search_query": "아기 목욕",
+            "terminate": false,
+            "text": "아기들은 면역력이 약하기 때문에 오랜 시간 목욕을 하는 것보다는 짧은 시간 내에 끝내는 것이 좋은데 보통 10분 이내를 추천해요. 그리고 목욕이 끝나면 바로 몸을 닦아주고 피부 장벽을 보호하기 위해 로션을 발라주면 돼요.",
+            "turn_id": "BK22011649-5",
+            "utterance_id": "BK22011649.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잘 적어두도록 할게요. 아, 그리고 저희 아이가 어제부터 자꾸 코가 막히는 것 같은데 어떻게 하면 코막힘을 좀 줄일 수 있을까요? 휴지로 닦아주고 있는데 아기가 많이 답답해 보여서요.",
+            "turn_id": "BK22011649-6",
+            "utterance_id": "BK22011649.11"
+        },
+        {
+            "reference_date": "2013-05-21",
+            "reference_text": [
+                {
+                    "value": "코막힘에 가장 효과적인 방법은 습도를 조절해주는 것이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가습기를 사용하여 실내 습도를 높여주고, 생리식염수를 코에 떨어뜨려 코점막의 건조함을 방지해준다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한, 코 흡입기 등으로 이물질을 부드럽게 제거해 주면 도움이 된다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000004905",
+            "search_query": "아이 코막힘",
+            "terminate": false,
+            "text": "아기들이 코가 막혔을 때 가장 효과적인 방법은 습도를 조절해 주는 거예요. 보통 가습기를 이용해서 실내에 습도를 높이고 생리 식염수를 코에 넣어주는 것으로 점막이 건조해지는 것을 막을 수 있어요. 또한 코 흡입기를 이용해서 이물질을 부드럽게 빼주면 코막힘을 막는데 큰 도움이 되죠.",
+            "turn_id": "BK22011649-6",
+            "utterance_id": "BK22011649.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요! 안그래도 친구가 코막힘을 제대로 해결하지 않으면 중이염이 올 수 있다고 해서 걱정이었거든요. 아기들이 중이염이 잘 걸린다던데 정말인가요?",
+            "turn_id": "BK22011649-7",
+            "utterance_id": "BK22011649.13"
+        },
+        {
+            "reference_date": "2014-05-09",
+            "reference_text": [
+                {
+                    "value": "중이염은 아기가 가장 흔히 걸리는 질환 중 하나이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "귀의 고막 안쪽인 ‘중이(中耳)’ 부분에 염증이 생기는 것으로 대부분 비염이나 감기의 합병증으로 생긴다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000002629",
+            "search_query": "아기 중이염",
+            "terminate": false,
+            "text": "맞아요. 귀 속 고막 안쪽에 있는 중이 부분에 염증이 생기는 중이염은 아기가 제일 잘 걸리는 질환 중 하나에요. 대부분 감기나 비염으로 인해서 발생하게 되죠.",
+            "turn_id": "BK22011649-7",
+            "utterance_id": "BK22011649.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "중이염을 막으려면 코막힘을 잘 조절해줘야겠네요. 아기들은 정말 잠시도 눈을 뗄 수가 없는 것 같아요. 아, 그리고 또 궁금한 부분이 있는데 아기들이 누워서 자는 시간이 많다보니 뒤통수가 납작해지는 것을 예방하려면 두상 교정 베개를 쓰는 것이 좋다던데 사는 것이 좋을까요?",
+            "turn_id": "BK22011649-8",
+            "utterance_id": "BK22011649.15"
+        },
+        {
+            "reference_date": "2021-12-24",
+            "reference_text": [
+                {
+                    "value": "아기는 적어도 생후 18개월까지는 똑바로 눕혀 재워야 한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "바닥이 너무 푹신해도 안 되고, 주변에 쿠션이나 봉제 인형도 두지 말아야 한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자칫 입과 코가 막혀 위험한 상황에 처할 수 있기 때문이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1372367/%ec%95%84%ea%b8%b0%ec%9a%a9-%eb%91%90%ec%83%81-%ea%b5%90%ec%a0%95-%eb%b2%a0%ea%b0%9c-%ed%95%84%ec%9a%94%ed%95%a0%ea%b9%8c/",
+            "search_query": "두상교정베개",
+            "terminate": false,
+            "text": "추천하지 않아요. 아기는 적어도 태어난 후 18개월이 지날때 까지는 똑바로 눕혀서 재워야하는데 이 때 바닥이 너무 푹신하면 안되고 주변에 쿠션이나 인형 같은 것도 두지 않는 것이 좋거든요. 잘못하면 입이랑 코가 막히면서 위험할 수 있어요.",
+            "turn_id": "BK22011649-8",
+            "utterance_id": "BK22011649.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 베개는 따로 안사야겠군요. 마지막으로 질문이 있는데 저희 남편이 아기 다리를 늘려주는 쭉쭉이를 많이 하면 키가 많이 큰다고해서 자주 해주고 있는데 혹시 괜찮은가요?",
+            "turn_id": "BK22011649-9",
+            "utterance_id": "BK22011649.17"
+        },
+        {
+            "reference_date": "2022-05-25",
+            "reference_text": [
+                {
+                    "value": "아기 다리가 길고 예뻐지길 바라는 마음에서 발목을 잡고 쭉쭉 늘려주는 '쭉쭉이'를 많이 한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 쭉쭉이는 효과가 없고, 너무 세게 하면 고관절 탈구까지 발생할 수 있다고 하니 주의하자.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다리 모양이 구부러진 상태에서 살짝 일자로 주무르듯 펴주는 것은 괜찮지만, 억지로 펴면 아기의 뼈에 무리가 갈 수 있다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202205251391o",
+            "search_query": "아기 쭉쭉이",
+            "terminate": false,
+            "text": "보통 아기 다리가 길어지고 예뻐졌으면 해서 발목을 잡고 늘리는 쭉쭉이를 많이 하는데 이는 효과가 없어요. 게다가 힘조절을 못하면 고관절 탈구까지 생길 수 있기 때문에 주의가 필요하죠. 아기의 다리가 구부러진 상태에서 살짝만 일자로 주물러 주듯이 펴는 것은 괜찮지만 억지로 펴주는 행위는 아기의 뼈에 무리가 올 수 있어요.",
+            "turn_id": "BK22011649-9",
+            "utterance_id": "BK22011649.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "쭉쭉이는 오늘부터 금지해야겠네요. 오늘 이렇게나 많이 알려주셔서 너무 감사드려요. 제가 다음 주에 밥 한번 살게요.",
+            "turn_id": "BK22011649-10",
+            "utterance_id": "BK22011649.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "앞으로도 모르는 것이 있으면 언제든 주저말고 연락 해요. 다음 주에 만나면 저희 아이가 신생아 때 입었던 옷들 가지고 갈게요.",
+            "turn_id": "BK22011649-10",
+            "utterance_id": "BK22011649.20"
+        }
+    ]
+}

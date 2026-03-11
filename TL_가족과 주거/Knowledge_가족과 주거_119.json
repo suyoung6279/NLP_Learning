@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013763",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013763",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아들이 학교를 자퇴하고 검정고시를 보겠다고 하는데 검정고시에 대해 잘 아세요?",
+            "turn_id": "BK22013763-1",
+            "utterance_id": "BK22013763.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 검정고시에 대해서는 잘 알고 있습니다.",
+            "turn_id": "BK22013763-1",
+            "utterance_id": "BK22013763.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잘됐네요, 검정고시가 어떻게 시작됐는지 알고 싶은데 검정고시의 실시 계기에 대해 알려주세요.",
+            "turn_id": "BK22013763-2",
+            "utterance_id": "BK22013763.3"
+        },
+        {
+            "reference_date": "44737.0",
+            "reference_text": [
+                {
+                    "value": "대한민국에서의 검정고시의 시작은 광복 직후 대학입학자격검정고시(현 고등학교 졸업학력 검정고시)를 실시한 것이 효시를 이룬다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "당시 독학하는 사람은 대학에 진학할 기회가 없었으므로 그들에게 진학의 기회와 문호를 개방하기 위하여 연 2회 문교부에서 대학입학자격검정고시중앙위원회를 두고 서울대학교를 포함한 9개 대학에 대학입학자격검정고시대학교위원회를 두어 실시했다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EA%B2%80%EC%A0%95%EA%B3%A0%EC%8B%9C",
+            "search_query": "검정고시",
+            "terminate": false,
+            "text": "우리나라의 검정고시 제도는 일제강점기에서 독립한 직후 대학입학자격검정고시를 치른 게 그 시작입니다. 독학하던 사람은 대학 진학의 기회가 없었기에 학교에 들어갈 기회를 제공하고 문호를 개방하려는 뜻이었죠. 연 2회 문교부에 대학입학자격검정고시중앙위원회를 만들고 서울대학교 등 9개 대학에는 검정고시 대학교 위원회를 두어 시험을 치렀습니다.",
+            "turn_id": "BK22013763-2",
+            "utterance_id": "BK22013763.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "독립 직후부터 존재했으면 역사가 오래된 제도네요. 혹시 검정고시 시험 과목이 어떻게 되는지 아세요?",
+            "turn_id": "BK22013763-3",
+            "utterance_id": "BK22013763.5"
+        },
+        {
+            "reference_date": "44596.0",
+            "reference_text": [
+                {
+                    "value": "중졸 과목은 국어, 수학, 영어, 사회, 과학 필수 5과목과 선택 1과목으로 모두 6과목이고, 올해 선택 과목에 정보를 추가했다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고졸 과목은 국어, 수학, 영어, 사회, 과학, 한국사 필수 6과목과 선택 1과목으로 모두 7과목이다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/003/0010980946?sid=102",
+            "search_query": "검정고시 과목",
+            "terminate": false,
+            "text": "고졸 과목은 모두 7과목으로 이뤄졌는데요, 국어와 영어, 수학, 과학, 사회, 한국사 등 필수 과목 6개와 1개의 선택과목으로 구성됩니다. 중졸 시험의 경우 국어와 영어, 수학, 과학, 사회 등 필수 5과목과 선택 1과목으로 총 6과목으로 구성됩니다. 2022년 중졸 검정고시 선택과목에 정보를 추가했고요.",
+            "turn_id": "BK22013763-3",
+            "utterance_id": "BK22013763.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "중졸은 모두 6과목이고 고졸은 7과목이군요. 그러면 고졸 검정고시의 합격 요건에 대해서도 알고 싶은데요. 몇 점을 통과해야 합격하나요?",
+            "turn_id": "BK22013763-4",
+            "utterance_id": "BK22013763.7"
+        },
+        {
+            "reference_date": "44737.0",
+            "reference_text": [
+                {
+                    "value": "필수 6과목과 선택 1과목의 평균이 60점이 넘으면 합격이며 고등학교 졸업과 동일한 자격을 인정받게 된다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만약 평균이 60점이 넘지 않을 경우 7과목 중 60점이 넘은 과목에 한해 과목합격이 된다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "과목합격이 된 과목의 경우 추후 실시되는 검정고시 응시시 해당 과목에 한하여 과목 응시 면제를 신청할 수 있다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EA%B2%80%EC%A0%95%EA%B3%A0%EC%8B%9C",
+            "search_query": "검정고시 합격 점수",
+            "terminate": false,
+            "text": "필수 6과목과 선택 1과목에서 평균 60점을 넘으면 합격으로 고등학교를 졸업한 것과 같은 자격을 인정받습니다. 평균 60점이 안 되면 총 7과목 중 60점을 넘은 과목만 합격입니다. 추후 검정고시에 다시 응시할 때 이미 합격한 과목에 대해선 응시 면제 신청이 가능합니다.",
+            "turn_id": "BK22013763-4",
+            "utterance_id": "BK22013763.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "합격한 과목에 대해선 다시 응시를 안 해도 되니 부담을 덜 수 있겠네요. 또 한 가지 궁금한 게 있는데 만약 합격해도 시험 성적이 좋지 않으면 재응시가 가능한가요?",
+            "turn_id": "BK22013763-5",
+            "utterance_id": "BK22013763.9"
+        },
+        {
+            "reference_date": "42586.0",
+            "reference_text": [
+                {
+                    "value": "전국 각 시도 교육청에서는 10대들의 재응시 비중이 높아지면서 만학도와 고학생 등의 합격률이 줄어들자 재응시를 한때 금지하기도 했지만 2012년 헌법재판소의 위헌 결정으로 다시 재응시가 가능해졌다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/011/0002866415?sid=102",
+            "search_query": "검정고시 재응시",
+            "terminate": false,
+            "text": "과거 10대들의 검정고시 재응시 비중이 올라가면서 고학생이나 만학도의 합격률이 낮아지자 각 시도 교육청이 재응시를 금지하기도 했었는데요. 2012년 헌법재판소가 위헌 결정을 내리면서 검정고시 재응시가 가능하게 됐습니다.",
+            "turn_id": "BK22013763-5",
+            "utterance_id": "BK22013763.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "검정고시에 합격해도 재응시가 가능하군요. 혹시 검정고시 역대 최고령 합격자는 몇 살이었는지 아세요?",
+            "turn_id": "BK22013763-6",
+            "utterance_id": "BK22013763.11"
+        },
+        {
+            "reference_date": "42134.0",
+            "reference_text": [
+                {
+                    "value": "올해 고등학교 졸업 검정고시에서 아흔을 바라보는 88세의 이종암(사진) 할아버지가 합격했다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "역대 최고령 합격자다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "서울시교육청은 2015년도 제1회 초·중·고등학교 졸업학력 인정 검정고시에서 이 할아버지가 고졸 시험에 응시해 합격했다고 10일 밝혔다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/022/0002830480?sid=102",
+            "search_query": "검정고시 최고령",
+            "terminate": false,
+            "text": "2015년 5월 10일, 서울시교육청에 따르면 88세의 이종암 할아버지가 2015년도 제1회 고등학교 졸업 학력 인정 검정고시에 합격해 역대 최고령 합격자 기록을 세웠습니다.",
+            "turn_id": "BK22013763-6",
+            "utterance_id": "BK22013763.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "88세에 고졸 검정고시에 합격하다니 대단한 분이네요. 그런데 검정고시는 최소 몇 살부터 응시할 수 있나요?",
+            "turn_id": "BK22013763-7",
+            "utterance_id": "BK22013763.13"
+        },
+        {
+            "reference_date": "44737.0",
+            "reference_text": [
+                {
+                    "value": "만 11세 이상인 자로서 초등학교 교육과정을 이수하지 아니한 자 중 초등학교 또는 동급의 특수학교에 재학하지 아니하는자 (대한민국 전 지역에서 2015년 8월 실시 예정인 제2회 시험부터 응시연령을 만12세 → 만11세로 하향조정되었음.)[8][9][10]",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EA%B2%80%EC%A0%95%EA%B3%A0%EC%8B%9C",
+            "search_query": "검정고시 응시 연령",
+            "terminate": false,
+            "text": "초등학교 졸업 학력 인정 검정고시의 경우 만 11세 이상으로 초등학교 교육과정을 이수하지 아니한 사람 중 초등학교나 동급의 특수학교에 재학 중이지 않은 사람이 응시대상입니다. 원래 응시 연령은 만 12세 이상이었으나 2015년 8월에 실시한 제2회 시험부터 만 11세로 낮췄습니다.",
+            "turn_id": "BK22013763-7",
+            "utterance_id": "BK22013763.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "만 11살 때부터 초졸 검정고시 지원이 가능하군요. 또 한 가지 궁금한 게 있는데 고졸 검정고시에 합격한 학생도 대학교 입학 수시 지원이 가능한가요? 요즘엔 워낙 대입에 수시 비중이 높아서요.",
+            "turn_id": "BK22013763-8",
+            "utterance_id": "BK22013763.15"
+        },
+        {
+            "reference_date": "43517.0",
+            "reference_text": [
+                {
+                    "value": "2017년 12월, 헌법재판소는 검정고시 출신의 대입 수시 지원 제한 규정을 위헌으로 결정한 바 있는데, 이후 검정고시 출신자는 검정고시 출신자에 한한 별도 전형이 아니라 일반 수험생과 동일하게 학생부종합전형으로 지원해도 별도의 불이익을 받지 않게 됐다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://edu.donga.com/?p=article&ps=view&at_no=20190221103733225820",
+            "search_query": "검정고시 수시 지원",
+            "terminate": false,
+            "text": "네, 가능합니다. 헌법재판소가 2017년 12월에 검정고시 출신 지원자에게 대입 수시 지원을 제한한 규정을 위헌으로 결정했어요. 이에 따라 검정고시 출신 역시 별도 전형 대신 일반 학생들과 동일한 학생부종합전형을 통해 지원이 가능하고 별도의 불이익도 없습니다.",
+            "turn_id": "BK22013763-8",
+            "utterance_id": "BK22013763.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마지막으로 하나만 더 여쭤볼게요. 아들의 미국 학교 진학도 함께 알아보고 있는데, 미국도 검정고시와 같은 시험이 있나요?",
+            "turn_id": "BK22013763-9",
+            "utterance_id": "BK22013763.17"
+        },
+        {
+            "reference_date": "43845.0",
+            "reference_text": [
+                {
+                    "value": "GED는 General Educational Development의 약자로, 한국의 검정고시와 같은 역할을 하는 ‘미국 검정고시’라고 널리 알려져 있다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "위키피디아에 따르면, 1942년 미군교육원에서 고등학교 수준에 비슷한 시험 세트를 만들어달라고 미국 교육 협회에 요청하였고, 이 시험은 당시 고등학교 졸업 이전에 입대한 군 관계자들이나 제대 군인들의 지식을 파악하는데 사용되던 시험이다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://edu.donga.com/?p=article&ps=view&at_no=20200115180810146677",
+            "search_query": "미국 검정고시",
+            "terminate": false,
+            "text": "이른바 미국 검정고시로 불리는 GED라는 시험이 있어요. GED는 General Educational Development의 약자로 우리의 검정고시와 같은 역할을 하는데요, 위키피디아에 따르면 미군교육원에서 1942년에 고교 수준과 유사한 시험 세트를 미국 교육협회에 요청한 게 그 효시입니다. 고교 졸업 이전에 군에 입대한 사람들이나 제대 군인들의 지식 파악용으로 사용한 시험이었죠.",
+            "turn_id": "BK22013763-9",
+            "utterance_id": "BK22013763.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "검정고시에 대해 막연하게만 알고 있었는데 자세히 알려주셔서 고맙습니다.",
+            "turn_id": "BK22013763-10",
+            "utterance_id": "BK22013763.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "언제든 아무거나 궁금한 게 있으면 말씀해 주세요.",
+            "turn_id": "BK22013763-10",
+            "utterance_id": "BK22013763.20"
+        }
+    ]
+}

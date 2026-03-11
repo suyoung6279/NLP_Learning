@@ -1,0 +1,382 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003080",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003080",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0011"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그동안 열심히 일해서 모은 돈으로 드디어 생애 처음으로 집을 사려고 알아보는 중인데요, 집 종류와 구분들이 너무 다양해서 어떤 집을 사야 할지 고민이네요.",
+            "turn_id": "BK22003080-1",
+            "utterance_id": "BK22003080.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 그 분야 관련해서는 잘 알고 있으니 궁금한 게 있으면 물어보세요. 답변해 드릴게요.",
+            "turn_id": "BK22003080-1",
+            "utterance_id": "BK22003080.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 이것저것 좀 여쭤볼게요. 전원에서 단독 주택에 사는 게 사람들의 로망이잖아요. 단독 주택의 장단점에는 어떤 게 있나요?",
+            "turn_id": "BK22003080-2",
+            "utterance_id": "BK22003080.3"
+        },
+        {
+            "reference_date": "2022-04-03",
+            "reference_text": [
+                {
+                    "value": "전용 뜰과 독립된 출입문이 있어 가족 단위의 독립된 생활이 보장되고, 개인의 취향에 맞게 주거 계획을 세울 수 있는 장점이 있다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 집합 주택에 비하여 유지 및 관리 비용이 많이 들고, 토지 이용 면에서 효율적이지 못하다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A7%91",
+            "search_query": "단독 주택",
+            "terminate": false,
+            "text": "단독 주택의 장점으로는 전용으로 사용할 수 있는 뜰과 출입문이 있어 독립된 생활이 보장되고, 개인의 취향을 반영해서 주거 계획을 세울 수 있다는 점이 있고요, 단점으로는 다른 유형의 주택에 비해 주택을 유지하고 관리하는 데 비용이 많이 들고, 토지 이용을 효율적으로 하지 못한다는 점이 있어요.",
+            "turn_id": "BK22003080-2",
+            "utterance_id": "BK22003080.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집과 뜰을 잘 관리할 수 있고, 경제적 여유가 있는 사람들한테 좋겠네요. 아, 그리고 헷갈렸던 게 있는데, 다가구 주택과 다세대 주택은 같은 말인가요?",
+            "turn_id": "BK22003080-3",
+            "utterance_id": "BK22003080.5"
+        },
+        {
+            "reference_date": "2020-12-24",
+            "reference_text": [
+                {
+                    "value": "다가구 주택은 건축법상 단독주택으로 분류되기 때문에 구분소유가 불가능하며 단독주택내에 여러 세대가 공동으로 거주하고 있지만 공동주택에는 해당하지 않는다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다세대주택은 건축법상 공동주택으로 분류되기 때문에 구분소유가 가능하다는 점이 다가구 주택과 가장 큰 차이점이다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.daejonilbo.com/news/articleView.html?idxno=1452612",
+            "search_query": "다가구 다세대 차이",
+            "terminate": false,
+            "text": "다가구 주택은 건축법상으로 단독 주택으로 분류되는데요, 단독 주택 내에 여러 세대가 공동으로 거주하는 형식이지만 구분소유가 불가능하고 공동 주택에는 해당하지 않아요. 반면에 다세대 주택은 건축법상 공동 주택으로 분류돼서 세대별로 구분소유가 가능해요.",
+            "turn_id": "BK22003080-3",
+            "utterance_id": "BK22003080.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "말이 비슷하지 전혀 다른 거였네요. 그럼 매매하거나 처분할 때 차이도 있겠네요?",
+            "turn_id": "BK22003080-4",
+            "utterance_id": "BK22003080.7"
+        },
+        {
+            "reference_date": "2021-09-25",
+            "reference_text": [
+                {
+                    "value": "다가구주택의 경우 단독주택이므로 양도할 때 1주택으로 계산된다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 건물과 건물과 일정 범위 내에 있는 부수 토지 전체에 비과세 혜택이 적용된다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반면 다세대주택은 공동주택이므로 모든 가구를 주택으로 간주한다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 일괄 양도할 경우 전체 가구 중 1곳만 비과세 혜택을 받을 수 있다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://cm.asiae.co.kr/article/2021092515162805563",
+            "search_query": "다가구 다세대 세법",
+            "terminate": false,
+            "text": "다가구 주택의 경우 양도할 때 1주택으로 계산되기 때문에 세법상 건물과 건물 일정 범위 내에 있는 부수 토지 전체에 비과세 혜택이 적용돼요. 반면에 다세대 주택은 공동주택에 해당해서 모든 가구를 주택으로 간주하므로 일괄 양도할 경우에 전체 가구 중 1곳만 비과세 혜택을 받을 수 있어요.",
+            "turn_id": "BK22003080-4",
+            "utterance_id": "BK22003080.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 세법상으로 엄청 큰 차이가 있었네요. 아파트는 다가구 주택에 해당하나요?",
+            "turn_id": "BK22003080-5",
+            "utterance_id": "BK22003080.9"
+        },
+        {
+            "reference_date": "2020-06-20",
+            "reference_text": [
+                {
+                    "value": "크게 볼 때 다가구주택은 단독주택, 다세대주택과 연립주택은 공동주택입니다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "단독주택이라는 말은 주인이 한 명이라는 뜻이지요.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "공동주택은 구분등기가 가능합니다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "호실마다 소유권이 나뉘어 있습니다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "참고로 아파트는 5층 이상 공동주택을 말한답니다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etoday.co.kr/news/view/1908478",
+            "search_query": "다가구 주택 공동 주택 차이",
+            "terminate": false,
+            "text": "크게 볼 때 다가구 주택은 건물 전체의 주인이 한 명인 단독 주택에 해당하고, 다세대 주택과 연립 주택은 공동 주택에 해당하는데 아파트는 5층 이상 공동 주택을 말해요. 공동 주택은 호실마다 소유권을 나눠서 구분등기가 가능하죠.",
+            "turn_id": "BK22003080-5",
+            "utterance_id": "BK22003080.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아파트는 각호마다 소유주가 다르기 때문에 공동 주택에 해당하는 거군요. 요즘에 타운하우스도 인기던데, 타운하우스는 어떤 집인가요?",
+            "turn_id": "BK22003080-6",
+            "utterance_id": "BK22003080.11"
+        },
+        {
+            "reference_date": "2022-02-02",
+            "reference_text": [
+                {
+                    "value": "타운하우스(Townhouse)는 공동 주택의 종류의 하나이다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "2개 이상의 주택을 1채에 붙어 지은 것으로, 각 주택이 벽을 공통으로, 별도로 외부에 출입구를 가지고 있는 주택을 말한다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%80%EC%9A%B4%ED%95%98%EC%9A%B0%EC%8A%A4",
+            "search_query": "타운하우스",
+            "terminate": false,
+            "text": "타운하우스는 2개 이상의 주택을 건물 1채에 붙여 지은 건데, 각 주택이 벽을 공유하고 별도로 외부에 출입구를 가지고 있는 공동 주택의 한 종류예요.",
+            "turn_id": "BK22003080-6",
+            "utterance_id": "BK22003080.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어떤 장점이 있길래 사람들이 그렇게 선호하는 거예요?",
+            "turn_id": "BK22003080-7",
+            "utterance_id": "BK22003080.13"
+        },
+        {
+            "reference_date": "2022-06-30",
+            "reference_text": [
+                {
+                    "value": "타운하우스는 2~3층 규모의 주택이 아파트 단지처럼 모여 있는 형태로 이루어져 있으며, 마당과 정원, 테라스 등 단독주택의 장점과 주차, 보안‧관리 커뮤니티 등 아파트의 장점을 모두 모아놓은 주거상품으로 평가받고 있다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://tfmedia.co.kr/news/article.html?no=126583",
+            "search_query": "타운하우스 장점",
+            "terminate": false,
+            "text": "타운하우스는 2에서3층 규모의 주택이 아파트 단지처럼 모여 있는 형태라서 마당과 정원, 테라스 등 단독 주택의 장점과 주차, 보안, 관리, 커뮤니티 등 아파트의 장점을 모두 갖고 있답니다.",
+            "turn_id": "BK22003080-7",
+            "utterance_id": "BK22003080.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일반 아파트 생활보다 더 여유로운 생활이 가능하겠네요. 타운하우스 단점은 어떤 게 있어요?",
+            "turn_id": "BK22003080-8",
+            "utterance_id": "BK22003080.15"
+        },
+        {
+            "reference_date": "2022-04-04",
+            "reference_text": [
+                {
+                    "value": "도심 중심이 아닌 외곽 또는 도심과 떨어진 지역에 타운하우스가 들어서는 점도 약점으로 꼽히고 있습니다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "주택과 주택이 하나의 구분된 벽을 두고 붙어 있는 형태로 구성돼 있어 '옆간 소음'이 발생할 여지가 있는 점도 타운하우스가 해결해야 할 문제점으로 꼽을 수 있습니다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://inthenews.co.kr/mobile/article.html?no=45190",
+            "search_query": "타운하우스 단점",
+            "terminate": false,
+            "text": "일단 타운하우스의 단점은 도시 중심이 아닌 외곽이나 도심과 떨어진 지역에 들어서서 도심 접근성이 떨어진다는 점이 있어요. 그리고 옆집과 벽을 두고 붙어 있는 특성상 옆 간 소음이 발생할 여지가 있다는 점도 단점이에요.",
+            "turn_id": "BK22003080-8",
+            "utterance_id": "BK22003080.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도심과 떨어져 있으면 인프라 시설이 부족할 수도 있겠네요. 한 가지만 더 물어볼게요. 주상복합 아파트는 정확히 어떤 형태를 이야기하는 거예요?",
+            "turn_id": "BK22003080-9",
+            "utterance_id": "BK22003080.17"
+        },
+        {
+            "reference_date": "2021-07-26",
+            "reference_text": [
+                {
+                    "value": "주상복합은 주거와 상업 공간이 공존하는 게 특징이다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "오피스 등 상업 공간이 저층부에, 주거 전용공간이 고층부에 들어선다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/realestate/article/2021071892341",
+            "search_query": "주상복합아파트 특징",
+            "terminate": false,
+            "text": "주상복합 아파트는 주거와 상업 공간이 공존하는 아파트인데, 오피스나 상가 등의 상업 공간이 저층부에 위치해 있고, 고층부에는 주거 전용공간이 있는 형태예요.",
+            "turn_id": "BK22003080-9",
+            "utterance_id": "BK22003080.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한 건물에 주거와 상업 공간이 같이 있으면 생활하기가 너무 편하겠네요. 전 사실 전원주택에 살아보고 싶은 생각이 있었는데 다른 집들의 장단점을 들어보니 어느 정도 전원생활의 느낌도 나면서 관리와 생활은 편리한 타운하우스 쪽에 관심이 가네요.",
+            "turn_id": "BK22003080-10",
+            "utterance_id": "BK22003080.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘엔 단지 내 인프라 구축도 잘 돼 있고 도심 가까이 들어서 있는 타운하우스도 많이 있어서 생활하기 좋으실 거예요. 여러 가지 잘 고려해 보시고, 꼭 마음에 드는 집으로 첫 집을 구입하시길 바랄게요.",
+            "turn_id": "BK22003080-10",
+            "utterance_id": "BK22003080.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 정보들 알려주셔서 감사합니다.",
+            "turn_id": "BK22003080-11",
+            "utterance_id": "BK22003080.21"
+        }
+    ]
+}

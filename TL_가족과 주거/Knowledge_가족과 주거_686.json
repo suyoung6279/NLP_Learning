@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016051",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016051",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아내가 벌서 임신 39주가 되었어요. 너무 떨리고 궁금한 점도 많아요.",
+            "turn_id": "BK22016051-1",
+            "utterance_id": "BK22016051.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 어떤 점들이 궁금하세요?",
+            "turn_id": "BK22016051-1",
+            "utterance_id": "BK22016051.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 먼저 아기의 크기는 어느정도 되나요?",
+            "turn_id": "BK22016051-2",
+            "utterance_id": "BK22016051.3"
+        },
+        {
+            "reference_date": "2015-09-21",
+            "reference_text": [
+                {
+                    "value": "태아의 키는 약 50cm, 체중은 약 3,000g, 머리둘레는 약 34cm로 성장했네요.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108518",
+            "search_query": "임신 39주 태아 크기",
+            "terminate": false,
+            "text": "39주 아기의 키는 약 40cm정도고, 무게는 약 3kg 정도, 머리 둘레는 약 34cm 정도로 자라요.",
+            "turn_id": "BK22016051-2",
+            "utterance_id": "BK22016051.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 정말 많이 컸네요. 그럼 발달은 어느정도 되었나요?",
+            "turn_id": "BK22016051-3",
+            "utterance_id": "BK22016051.5"
+        },
+        {
+            "reference_date": "2015-09-21",
+            "reference_text": [
+                {
+                    "value": "피부는 핑크빛으로 윤기가 있으며 태지도 그리 많지 않습니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "빛, 소리, 냄새, 촉감에 반응할 수 있습니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "눈썹도 분명하게 보이며 사지를 활발하게 움직이고 배뇨, 배변도 하게 됩니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108518",
+            "search_query": "임신 39주 태아 특징",
+            "terminate": false,
+            "text": "피부는 핑크빛으로 윤기가 돌고 태지도 그리 많지 않은 상태에요. 빛이나 소리, 냄새, 촉각에 반응하고 눈썹도 분명하게 보이며 사지를 활발하게 움직이고 배뇨와 배변도 해요.",
+            "turn_id": "BK22016051-3",
+            "utterance_id": "BK22016051.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 임신 39주차 엄마의 몸 상태는 어떤가요?",
+            "turn_id": "BK22016051-4",
+            "utterance_id": "BK22016051.7"
+        },
+        {
+            "reference_date": "2015-09-21",
+            "reference_text": [
+                {
+                    "value": "태아가 커짐에 따라 뱃가죽은 더욱 팽팽하게 퍼져 배꼽의 패인 부분이 드러나지 않게 됩니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108518",
+            "search_query": "임신 39주 엄마의 증상",
+            "terminate": false,
+            "text": "임신 39주차가 되면 태아가 많이 커지면서 뱃가죽은 더욱 팽팽하게 당겨지고 배꼽의 패인 부분이 보이지 않게 돼요.",
+            "turn_id": "BK22016051-4",
+            "utterance_id": "BK22016051.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가끔 배가 당기는 증상이 있다고 하던데 문제가 있는 건 아니겠죠? 정상적인 증상인가요?",
+            "turn_id": "BK22016051-5",
+            "utterance_id": "BK22016051.9"
+        },
+        {
+            "reference_date": "2015-09-21",
+            "reference_text": [
+                {
+                    "value": "출산이 가까워지면 배가 당기는 증상이 빈번해지나 진통이 시작된 것은 아니니 출산을 위한 예행연습이라 생각하시고 진통이 불규칙적이라면 걱정할 필요가 없습니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108518",
+            "search_query": "임신 39주 배가 당기는 증상",
+            "terminate": false,
+            "text": "네, 출산이 가까워지면서 배가 당기는 증상이 자주 있을 수 있지만 진통은 아니니 진통이 불규칙적이라면 너무 걱정하지 마세요. 출산을 위한 예행연습이라고 생각하시면 돼요.",
+            "turn_id": "BK22016051-5",
+            "utterance_id": "BK22016051.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "치골쪽 통증도 심하다고 하던데, 치골쪽은 왜 통증이 생기는 건가요?",
+            "turn_id": "BK22016051-6",
+            "utterance_id": "BK22016051.11"
+        },
+        {
+            "reference_date": "2015-09-21",
+            "reference_text": [
+                {
+                    "value": "A: 임신부의 몸에서는 아기가 산도를 쉽게 통과할 수 있도록 '리락신'이라는 호르몬이 분비되는데, 이 호르몬 때문에 결합부가 느슨해지게 되고 태아의 머리가 이 부위를 압박하며 통증이 느껴지게 됩니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108518",
+            "search_query": "임신 39주 치골 쪽 통증",
+            "terminate": false,
+            "text": "임산부의 몸에는 아기가 산도를 쉽게 빠져나갈 수 있도록 리락신 이라는 호르몬이 분비되는데 이 호르몬으로 인해 결합부가 느슨해져요. 또 이 부위를 태아의 머리가 압박하기 때문에 통증이 느껴지는 거예요.",
+            "turn_id": "BK22016051-6",
+            "utterance_id": "BK22016051.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아내가 많이 힘들어하던데 통증을 줄이는 방법은 없나요?",
+            "turn_id": "BK22016051-7",
+            "utterance_id": "BK22016051.13"
+        },
+        {
+            "reference_date": "2015-09-21",
+            "reference_text": [
+                {
+                    "value": "치골의 통증이 느껴질 때 심즈 체위로 눕거나, 따뜻한 물에 몸을 담그거나 오래 앉아있거나 오래 서 있지 않도록 합니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "양손과 무릎을 바닥에 대고 일명 '고양이 자세'를 자주 취하면 통증의 완화에 도움이 됩니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108518",
+            "search_query": "치골의 통증이 느껴질 때",
+            "terminate": false,
+            "text": "치골 통증이 있을 때에는 심즈 체위로 눕거나, 따뜻한 물에 몸을 담그거나 오래 앉아있거나 서 있지 않도록 하는 게 좋아요. 또, 고양이 자세라고 들어 보신 적 있으시죠? 양손과 무릎을 바닥에 대는 고양이 자세를 자주 하면 치골 통증을 줄일 수 있어요.",
+            "turn_id": "BK22016051-7",
+            "utterance_id": "BK22016051.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 아내에게 꼭 알려줘야겠네요. 그리고 출산을 앞두고 많이 불안한지 잠도 잘 못 자고 많이 초조해하던데, 어떻게 하면 안정을 시킬 수 있을까요?",
+            "turn_id": "BK22016051-8",
+            "utterance_id": "BK22016051.15"
+        },
+        {
+            "reference_date": "2015-09-21",
+            "reference_text": [
+                {
+                    "value": "불안감 때문에 악몽을 꾸거나 숙면을 취하기 어려워지는데 이럴 때일수록 곧 만나게 될 아기를 생각하며 마음을 느긋하게 가져봅니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "선배 엄마들의 출산 체험담을 들으면 기분이 한결 안정되는 것을 느낄 수 있을 것입니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108518",
+            "search_query": "임신 39주 느긋한 마음 갖기",
+            "terminate": false,
+            "text": "네, 출산이 다가오면서 불안감 때문에 악몽을 꾸거나 잠을 잘 못 잘수 있어요. 이럴 때일수록 마음을 느긋하게 가져야 해요. 주변에 출산을 경험한 분들이 계신다면 선배 엄마들에게 출산 경험담을 들어보세요. 기분이 한결 안정될 수 있어요.",
+            "turn_id": "BK22016051-8",
+            "utterance_id": "BK22016051.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 출산까지 아내가 안정할 수 있었으면 좋겠네요. 참, 곧 예정일인데, 혹시 예정일이 다 되도록 아이가 나올 생각을 안한다면 어떻게 해야 하나요? 큰 문제인가요?",
+            "turn_id": "BK22016051-9",
+            "utterance_id": "BK22016051.17"
+        },
+        {
+            "reference_date": "2019-10-21",
+            "reference_text": [
+                {
+                    "value": "임신 39주를 넘어 출산예정일이 다 되도록 이슬도 없고 가진통도 없으면 뭔가 잘못된 것 아닌가 하는 생각이 들지도 모른다.",
+                    "value_time": "2022-10-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 괜찮다.",
+                    "value_time": "2022-10-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "출산예정일 또는 그 전에 아기를 낳아야 한다는 법은 없다.",
+                    "value_time": "2022-10-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 첫째 아기의 경우 늦게 태어날 확률은 약 16%다.",
+                    "value_time": "2022-10-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=79084",
+            "search_query": "임신 39주 출산예정일",
+            "terminate": false,
+            "text": "임신 39주를 넘어 출산 예정일이 다 되도록 이슬이나 가진통이 없다고 하더라도 괜찮아요. 출산 예정일이나 또는 그 전에 아기를 꼭 낳아야 하는 건 아니거든요. 특히 첫째 아기인 경우엔 출산 예정일보다 늦게 태어날 확률이 16%나 돼요.",
+            "turn_id": "BK22016051-9",
+            "utterance_id": "BK22016051.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 너무 걱정만 하지 말고 아내와 느긋하게 기다려봐야겠네요. 오늘 좋은 정보 정말 감사드려요.",
+            "turn_id": "BK22016051-10",
+            "utterance_id": "BK22016051.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요, 도움이 되셨다니 다행이네요. 또 궁금한 점 있으시면 언제든지 물어보세요.",
+            "turn_id": "BK22016051-10",
+            "utterance_id": "BK22016051.20"
+        }
+    ]
+}

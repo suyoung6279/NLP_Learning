@@ -1,0 +1,361 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22017674",
+        "name": "2022 한국어 블렌더봇 데이터 BK22017674",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "부모님 선물로 홍삼을 사드리려고 하는데 제품이 많아서 고르기가 어렵네. 홍삼을 달이는 방식도 다양하던데 어떤 방식의 제품을 고르는 것이 좋아?",
+            "turn_id": "BK22017674-1",
+            "utterance_id": "BK22017674.1"
+        },
+        {
+            "reference_date": "2017-05-04",
+            "reference_text": [
+                {
+                    "value": "일반적인 홍삼 제품은 물에 달여 진액을 추출하는 전통 방식으로 만들어진다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 방식을 사용하면 물에 녹지 않는 영양성분은 홍삼부산물로 남아 홍삼의 전체 영양분 중 47.8%만이 추출된다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 전체식으로 제조한 홍삼의 경우, 이러한 불용성 부산물까지 모두 갈아 홍삼에 담긴 영양소를 온전히 추출해낼 수 있다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.kmib.co.kr/article/view.asp?arcid=0011445271&code=61171811&cp=nv",
+            "search_query": "홍삼 분쇄 방식",
+            "terminate": false,
+            "text": "부모님 선물로 홍삼을 생각하고 있구나. 홍삼 제품은 일반적으로 물에 달여서 진액을 추출하는 방식으로 생산되는데 이 방법은 물에 녹지 않는 성분들이 부산물로 남게 돼. 그렇게 되면 홍삼의 영양분 중에 47.8%만 추출되는 것이니 되도록 전체식으로 제조한 홍삼을 선택하는 것이 좋아. 전체식으로 제조한 홍삼은 부산물까지 모두 간 방식이라서 홍삼의 영양소가 모두 들어 있거든.",
+            "turn_id": "BK22017674-1",
+            "utterance_id": "BK22017674.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전체식으로 제조한 것인지 꼭 확인해야겠구나. 근데 홍삼 제품을 살 때는 부성분을 확인해야 한다는데 왜 그래?",
+            "turn_id": "BK22017674-2",
+            "utterance_id": "BK22017674.3"
+        },
+        {
+            "reference_date": "2022-05-04",
+            "reference_text": [
+                {
+                    "value": "'부성분' 역시 중요하게 살펴야 한다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2004년 한국식품영양과학회 자료에 따르면 한국인 10명 중 4명의 몸에는 진세노사이드를 해리(분해, 흡수)시킬 수 있는 효소가 존재하지 않는 것으로 나타났다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 경우 아무리 홍삼 건강기능식품을 먹어도 효능을 얻을 수 없다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이를 해결하기 위해 각 업체마다 홍삼을 발효시키거나 부성분을 첨가하게 됐다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.apnews.kr/news/articleView.html?idxno=3001988",
+            "search_query": "홍삼 부성분",
+            "terminate": false,
+            "text": "맞아, 부성분을 확인하고 홍삼을 구매하는 것이 좋아. 2004년도 한국 식품 영양과학회 자료에는 한국인 10명 중 4명의 몸에는 진세노사이드를 흡수하고 분해하는 효소가 없는 것으로 나와 있어. 홍삼을 먹어도 효능을 얻을 수 없는 경우가 많아서, 업체마다 홍삼을 발효시키거나 부성분을 첨가하고 있어.",
+            "turn_id": "BK22017674-2",
+            "utterance_id": "BK22017674.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 홍삼을 구입할 때는 부성분을 확인하라고 하는 거구나. 그러면, 그 부성분들은 뭐야?",
+            "turn_id": "BK22017674-3",
+            "utterance_id": "BK22017674.5"
+        },
+        {
+            "reference_date": "2022-05-04",
+            "reference_text": [
+                {
+                    "value": "표기는 발효 홍삼, 뉴트리오스 홍삼 등 제각각이나 '밀전분유래 난소화성 말토덱스트린’이 정식 원료명이다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.apnews.kr/news/articleView.html?idxno=3001988",
+            "search_query": "홍삼 부성분 표기",
+            "terminate": false,
+            "text": "정식 원료명은 밀전분유래 난소화성 말토덱스트린인데, 표기는 발효 홍삼, 뉴트리오 홍삼 등으로 표기해.",
+            "turn_id": "BK22017674-3",
+            "utterance_id": "BK22017674.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어, 부성분을 꼭 확인하고 구입할게. 근데, 홍삼 제품의 원산지도 확인하라고 하던데 그건 왜 그래?",
+            "turn_id": "BK22017674-4",
+            "utterance_id": "BK22017674.7"
+        },
+        {
+            "reference_date": "2021-03-31",
+            "reference_text": [
+                {
+                    "value": "한편 일부 발효홍삼 제품의 경우 비용 절감을 위해 저가의 수입산 원료를 쓰기도 한다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 경우 품질과 안전성을 보장할 수 없으므로, 발효삼을 구매할 땐 반드시 원산지를 살피는 것이 추천된다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sportsseoul.com/news/read/1028625?ref=naver",
+            "search_query": "홍삼 원산지",
+            "terminate": false,
+            "text": "일부 발효 홍삼제품 중에는 비용을 줄이기 위해 저가 수입산 원료를 사용하는 경우가 있어. 이런 경우에는 안전성과 품질을 보장하기 어려우니 원산지를 확인하는 것이 중요해.",
+            "turn_id": "BK22017674-4",
+            "utterance_id": "BK22017674.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나는 홍삼 원산지는 당연히 우리나라인 줄 알았는데 아닐 수도 있구나. 근데, 발효 홍삼을 구매하는 것이 좋다고 추천받았는데 어떤 것을 사는 것이 좋아?",
+            "turn_id": "BK22017674-5",
+            "utterance_id": "BK22017674.9"
+        },
+        {
+            "reference_date": "2021-03-31",
+            "reference_text": [
+                {
+                    "value": "따라서 홍삼을 구매할 땐 체내 흡수가 용이한 형태로 전환을 마친 발효홍삼 제품을 선택하는 것이 추천된다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 시중엔 발효 과정을 제대로 거치지 않은 엉터리 홍삼진액 제품도 많으므로, 반드시 사포닌의 최종대사물질인 컴파운드케이 수치를 확인하는 것이 바람직하다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sportsseoul.com/news/read/1028625?ref=naver",
+            "search_query": "발효 홍삼",
+            "terminate": false,
+            "text": "맞아, 홍삼 제품을 구입할 때는 체내 흡수가 좋은 발효 홍삼제품이 좋은데, 시중에는 발효 과정을 제대로 거치지 않은 것들도 많아. 그래서, 사포닌의 최종 대사물질인 컴파운드케이 수치를 보고 선택하는 것이 좋아.",
+            "turn_id": "BK22017674-5",
+            "utterance_id": "BK22017674.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "컴파운드케이 수치도 확인해야 할 것 중에 하나구나. 그리고, 제품 패키지를 보면 고형분 함량이 쓰여 있는데 그건 뭐야?",
+            "turn_id": "BK22017674-6",
+            "utterance_id": "BK22017674.11"
+        },
+        {
+            "reference_date": "2016-06-08",
+            "reference_text": [
+                {
+                    "value": "고형분 : '고형분'이란 제품 전체에서 수분을 제외한 질량을 말하는데 보통 백분율로 표기한다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "동일 분량 제품이라면 고형분 비율이 높을수록 홍삼 함유량이 많다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.chosun.com/news/ntype.htm?id=201606090100070030004760&servicedate=20160608",
+            "search_query": "홍삼 고형분",
+            "terminate": false,
+            "text": "고형분은 제품 전체에서 수분을 뺀 질량을 백분율로 표시하는 거야. 고형분 비율이 높은 제품을 선택하면 홍삼 함량이 많은 제품을 선택할 수 있어.",
+            "turn_id": "BK22017674-6",
+            "utterance_id": "BK22017674.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고형분 비율이 높을수록 홍삼 함유량이 높은 거구나. 그런데 홍삼 제품 중에 품질이 의심스러운 제품들도 있던데 어떤 걸 확인하면 안전한 제품을 구매할 수 있을까?",
+            "turn_id": "BK22017674-7",
+            "utterance_id": "BK22017674.13"
+        },
+        {
+            "reference_date": "2020-04-24",
+            "reference_text": [
+                {
+                    "value": "홍삼 품질에 의심스러운 마음이 든다면 건강기능식품 인증마크가 있는지도 따져보면 좋다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "건강기능식품 인증마크는 식약처의 검증 절차를 통과한 제품에 부여되는 것으로, 해당 마크가 있다면 품질을 믿어도 된다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.businesskorea.co.kr/news/articleView.html?idxno=44778",
+            "search_query": "홍삼 건강기능식품마크",
+            "terminate": false,
+            "text": "의심스러운 마음이 든다면 건강기능식품 인증 마크가 있는 제품으로 구매하는 것도 좋은 방법이야. 식약처의 검증 절차를 통과한 제품에 부착되는 마크여서 품질을 신뢰해도 되거든.",
+            "turn_id": "BK22017674-7",
+            "utterance_id": "BK22017674.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "건강기능식품 인증 마크가 있는 제품으로 선택하는 것이 좋겠구나. 근데, 홍삼 제품에도 첨가물을 넣기도 한다는데 왜 넣는 거야?",
+            "turn_id": "BK22017674-8",
+            "utterance_id": "BK22017674.15"
+        },
+        {
+            "reference_date": "2020-04-24",
+            "reference_text": [
+                {
+                    "value": "좋은 홍삼 제품을 먹기 위해선 첨가물 여부도 꼼꼼하게 살펴볼 필요가 있다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "홍삼 특유의 쓴 맛을 중화하거나 걸쭉한 식감을 살리기 위해 감미료ㆍ이산화규소ㆍ증점제 등을 넣은 제품은 장기간 섭취하면 부작용이 생길 우려가 있기 때문이다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.businesskorea.co.kr/news/articleView.html?idxno=44778",
+            "search_query": "홍삼 첨가물",
+            "terminate": false,
+            "text": "첨가물도 잘 살펴야 하는데, 홍삼의 쓴맛을 줄이고 걸쭉한 식감을 살리려고 감미료, 이산화규소, 증점제 같은 것을 넣어. 이것들은 장기간 섭취하면 부작용이 생길 수 있으니 주의해야 해.",
+            "turn_id": "BK22017674-8",
+            "utterance_id": "BK22017674.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "첨가물이 들어가면 건강에 좋지 않겠네. 부모님 사드리는 거니 꼼꼼하게 비교해 봐야겠어.",
+            "turn_id": "BK22017674-9",
+            "utterance_id": "BK22017674.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 꼼꼼하게 비교해 보고 선택하도록 해.",
+            "turn_id": "BK22017674-9",
+            "utterance_id": "BK22017674.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 고마워, 우리는 다음에 보자.",
+            "turn_id": "BK22017674-10",
+            "utterance_id": "BK22017674.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "잘 가고 다음에 보자, 안녕.",
+            "turn_id": "BK22017674-10",
+            "utterance_id": "BK22017674.20"
+        }
+    ]
+}

@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002894",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002894",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0036"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "욕실 리모델링을 하고 싶은데 요즘 건식 욕실로 하는 사람이 많다고 하더라고요. 건식 욕실이 어떤 형태를 말하는 건가요?",
+            "turn_id": "BK22002894-1",
+            "utterance_id": "BK22002894.1"
+        },
+        {
+            "reference_date": "2018-03-15",
+            "reference_text": [
+                {
+                    "value": "이런 습식 욕실의 단점 때문에 습기를 최소화한 건식 욕실이 최근 떠오르고 있다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "건식 욕실은 파티션이나 샤워부스 등을 설치해 몸을 씻는 공간과 간단한 세수 및 용변 공간을 분리한 욕실을 말한다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/specialsection/esc_section/836128.html",
+            "search_query": "건식 욕실",
+            "terminate": false,
+            "text": "건식 욕실은 몸을 씻는 공간에 칸막이나 샤워부스 등을 설치해서 간단한 세수나 용변을 보는 공간과 분리해서 습기를 최소화한 욕실을 말해요.",
+            "turn_id": "BK22002894-1",
+            "utterance_id": "BK22002894.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "건식 욕실은 그럼 일반 욕실보다 곰팡이나 물때 같은 게 잘 생기지 않겠네요. 건식 욕실의 단점은 뭐가 있어요?",
+            "turn_id": "BK22002894-2",
+            "utterance_id": "BK22002894.3"
+        },
+        {
+            "reference_date": "2019-03-02",
+            "reference_text": [
+                {
+                    "value": "청소도 더 자주 해야 한다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "바닥이나 집기에 물이 튀면 닦아내야 한다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/realestate/article/201902267458e",
+            "search_query": "건식 욕실 단점",
+            "terminate": false,
+            "text": "건식을 유지하기 위해서 바닥이나 집기에 물이 튀면 닦아내야 하고, 청소도 더 자주 해야 한다는 단점이 있어요.",
+            "turn_id": "BK22002894-2",
+            "utterance_id": "BK22002894.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 기존 욕실의 곰팡이, 물때 청소보다는 나을 것 같아서 저도 건식 욕실로 리모델링해야겠어요.",
+            "turn_id": "BK22002894-3",
+            "utterance_id": "BK22002894.5"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "건식으로 리모델링해놓으면 호텔 욕실 느낌도 나고, 욕실에서 휴식도 취할 수 있어서 좋을 거예요.",
+            "turn_id": "BK22002894-3",
+            "utterance_id": "BK22002894.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하는 김에 변기에 비데도 설치하려고요. 여태 비데 없이 지내와서 비데에 대해 잘 모르는데, 있으면 확실히 좋은가요?",
+            "turn_id": "BK22002894-4",
+            "utterance_id": "BK22002894.7"
+        },
+        {
+            "reference_date": "2022-07-11",
+            "reference_text": [
+                {
+                    "value": "비데는 용변 후 휴지로 항문을 닦는 것보다 물로 씻어내기 때문에 잔여물이 남지 않아 효과적이라는 장점이 있습니다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailypop.kr/news/articleView.html?idxno=61234",
+            "search_query": "비데 장점",
+            "terminate": false,
+            "text": "비데는 용변을 보고 난 후에 물로 씻어내기 때문에 휴지로 처리하는 것보다 잔여물도 남지 않고 좋아요.",
+            "turn_id": "BK22002894-4",
+            "utterance_id": "BK22002894.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "위생적이어서 좋네요. 근데 저희 식구 중에 며칠 전에 치질수술 한 사람이 있는데 비데 사용해도 될까요?",
+            "turn_id": "BK22002894-5",
+            "utterance_id": "BK22002894.9"
+        },
+        {
+            "reference_date": "2021-05-12",
+            "reference_text": [
+                {
+                    "value": "비데의 물줄기가 항문 안쪽의 상처에 자극을 주어 출혈이나 통증을 유발하는 경우도 있다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 치질 수술 후 2주 정도 지나 상처가 어느 정도 아물면, 그때 사용하는 것이 좋다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000602561",
+            "search_query": "치질 비데",
+            "terminate": false,
+            "text": "비데에서 나오는 물줄기가 항문 상처에 자극을 주면 출혈이 생기거나 통증을 발생시키는 경우도 있어서, 치질 수술하신 분은 수술한 지 2주 정도 지나 상처가 어느 정도 아물면 사용하는 게 좋아요.",
+            "turn_id": "BK22002894-5",
+            "utterance_id": "BK22002894.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수술해도 상처가 아물면 쓸 수 있다니, 리모델링하면서 비데도 설치해야겠네요. 욕조는 편백나무 욕조를 하고 싶은데 어떤 것 같아요?",
+            "turn_id": "BK22002894-6",
+            "utterance_id": "BK22002894.11"
+        },
+        {
+            "reference_date": "2022-01-25",
+            "reference_text": [
+                {
+                    "value": "편백나무는 물이 닿으면 천연 항균 물질인 피톤치드와 히노끼치올 성분이 나오며 특유의 은은한 향이 퍼져 마치 숲 속에서 산림욕 하는 듯한 느낌을 선사하고 긴장과 피로 해소에 한층 더 도움을 준다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mobile.newsis.com/view.html?ar_id=NISX20220125_0001736217",
+            "search_query": "편백나무 욕조",
+            "terminate": false,
+            "text": "편백나무는 물이 닿으면 천연 항균 물질인 피톤치드와 히노끼치올 성분이 나오고, 은은한 향이 퍼지는 특징이 있어서 편백나무 욕조 좋죠. 편백나무 욕조를 쓰면 숲속에서 산림욕을 하는 듯한 느낌도 선사해주고, 긴장과 피로를 해소하는 데도 큰 도움을 줘요.",
+            "turn_id": "BK22002894-6",
+            "utterance_id": "BK22002894.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 건식, 비데 설치, 편백나무 욕조 설치로 가닥 잡고 리모델링 업체에 맡겨야겠네요. 업체를 선정할 때 주의해야 할 점이 있을까요?",
+            "turn_id": "BK22002894-7",
+            "utterance_id": "BK22002894.13"
+        },
+        {
+            "reference_date": "2021-12-20",
+            "reference_text": [
+                {
+                    "value": "고객이 원하는 바를 명확히 이해하고 구현해 내는 능력은 좋은 인테리어 업체의 기준이 된다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ikld.kr/news/articleView.html?idxno=246349",
+            "search_query": "리모델링 업체 주의점",
+            "terminate": false,
+            "text": "고객이 원하는 것을 정확히 이해하고, 구현해 낼 수 있는 능력이 충분한 업체로 잘 선정해야 해요.",
+            "turn_id": "BK22002894-7",
+            "utterance_id": "BK22002894.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제 요구사항을 잘 이해하고 실현해 줄 업체로 골라야겠군요. 또 어떤 점을 유의해야 할까요?",
+            "turn_id": "BK22002894-8",
+            "utterance_id": "BK22002894.15"
+        },
+        {
+            "reference_date": "2021-12-27",
+            "reference_text": [
+                {
+                    "value": "리모델링에 있어 무엇보다 중요한 것은 사후관리다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 때문에 계약서 작성 시 공사 후 에프터 서비스(AS) 보증 기간을 확인하는 것도 잊지 말아야 한다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/22VGG5G4Z0",
+            "search_query": "리모델링 사후관리",
+            "terminate": false,
+            "text": "리모델링에 있어서 가장 중요한 것은 사후관리예요. 그래서 계약서를 작성할 때 공사 후 AS 보증 기간을 꼼꼼히 확인하고 작성해야 해요.",
+            "turn_id": "BK22002894-8",
+            "utterance_id": "BK22002894.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고려해야 할 게 많네요. 제가 과연 좋은 업체를 선정할 수 있을지 걱정이 앞서네요.",
+            "turn_id": "BK22002894-9",
+            "utterance_id": "BK22002894.17"
+        },
+        {
+            "reference_date": "2018-11-13",
+            "reference_text": [
+                {
+                    "value": "중개 서비스를 이용하는 것도 방법이다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "검증된 파트너스 업체를 다량 보유한 중개 서비스 회사에서 고객요청에 적합한 업체를 선정해준다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/realestate/article/201811127315e",
+            "search_query": "리모델링 업체 선정 중개 서비스",
+            "terminate": false,
+            "text": "직접 고르시기 어려우시면 중개 서비스를 이용하는 방법도 있어요. 검증된 파트너스 리모델링 업체를 다량 보유한 중개 서비스 회사가 적합한 업체를 선정해 줄 거예요.",
+            "turn_id": "BK22002894-9",
+            "utterance_id": "BK22002894.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 그런 서비스가 있으면 이용해야겠네요. 리모델링을 하긴 하고 싶은데 모르는 게 많아 고민이었는데, 알려주셔서 감사합니다.",
+            "turn_id": "BK22002894-10",
+            "utterance_id": "BK22002894.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아니에요. 좋은 업체 소개받아서 욕실 리모델링 예쁘게 잘하시고, 다 끝나면 구경 한 번 시켜주세요.",
+            "turn_id": "BK22002894-10",
+            "utterance_id": "BK22002894.20"
+        }
+    ]
+}

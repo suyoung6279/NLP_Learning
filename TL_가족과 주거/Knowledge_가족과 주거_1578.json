@@ -1,0 +1,358 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22000114",
+        "name": "2022 한국어 블렌더봇 데이터 BK22000114",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_insvoter1"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이제 슬슬 출산 준비를 해야 할 것 같은데 어떤 아기용품들이 필요한 걸까요?",
+            "turn_id": "BK22000114-1",
+            "utterance_id": "BK22000114.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이를 만난다는 건 정말 기쁜 일이죠. 새 생명을 키워야 하니 준비할 것도 많고요. 출산 가방은 챙겨두셨나요?",
+            "turn_id": "BK22000114-1",
+            "utterance_id": "BK22000114.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네. 언제 병원에 가게 될지 모르니까 벌써부터 한가득 챙겨두었어요.",
+            "turn_id": "BK22000114-2",
+            "utterance_id": "BK22000114.3"
+        },
+        {
+            "reference_date": "2017-05-04",
+            "reference_text": [
+                {
+                    "value": "출산 후 일주일이 지나면 자궁내막이 탈락하면서 임신 부산물인 '오로'가 배출된다.",
+                    "value_time": "2022-06-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "약 4~6주 동안 붉은 혈흔과 함께 노란색을 분비물이 나오는데 이를 대비해 산모용 패드를 준비해야 한다.",
+                    "value_time": "2022-06-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=201705046582o",
+            "search_query": "출산가방",
+            "terminate": false,
+            "text": "잘하셨어요. 출산하고 일주일이 지나면 자궁내막이 탈락하면서 오로가 배출돼요. 개인의 차이가 있지만 보통 4주에서 6주까지 혈흔과 함께 분비물이 나오니 산모용 패드를 넉넉히 준비하는 게 좋아요.",
+            "turn_id": "BK22000114-2",
+            "utterance_id": "BK22000114.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오로는 언제까지 나오는 걸까요? 임부 속옷도 챙겨두었는데 얼마나 가져가야 할지 모르겠어요.",
+            "turn_id": "BK22000114-3",
+            "utterance_id": "BK22000114.5"
+        },
+        {
+            "reference_date": "2022-05-04",
+            "reference_text": [
+                {
+                    "value": "오로도 출산 후 2~3주 정도 자궁에서 분비된다.",
+                    "value_time": "2022-06-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "시간이 지나면서 오로의 분비가 점차 줄어들고 멈추는데, 산후 오로가 멈추지 않고 계속 분비된다면 이는 자궁이 제대로 회복되지 않아 나타나기 때문에 치료가 필요하다.",
+                    "value_time": "2022-06-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mdtoday.co.kr/news/view/1065604736461849",
+            "search_query": "출산 후 오로 기간",
+            "terminate": false,
+            "text": "오로는 출산 후 2주에서 3주 정도 나오게 돼요. 시간이 흐르며 점차 줄어들고 멈출 건데 계속 나온다면 회복이 잘 안된다는 뜻으로 치료가 필요하니 알아두세요.",
+            "turn_id": "BK22000114-3",
+            "utterance_id": "BK22000114.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어요. 임신 초기에는 마냥 기쁘고 설렜는데 점점 두렵기도 하고 무섭기도 해요.",
+            "turn_id": "BK22000114-4",
+            "utterance_id": "BK22000114.7"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럴 수 있어요. 그럴 때는 예쁜 아기용품들을 준비하면서 마음을 달래보세요. 무서운 마음이 기쁜 마음으로 바뀔 거에요.",
+            "turn_id": "BK22000114-4",
+            "utterance_id": "BK22000114.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네. 그렇게 할게요. 요즘 아기 침대를 구매해야 하나 말아야 하나 고민이 많은데, 사람들마다 의견도 다르니 혼란스럽기만 해요.",
+            "turn_id": "BK22000114-5",
+            "utterance_id": "BK22000114.9"
+        },
+        {
+            "reference_date": "2021-06-24",
+            "reference_text": [
+                {
+                    "value": "이러한 고충을 덜어주기 위해 쥬니웰은 아기침대부터 바운서, 유축기까지 다양한 유아용품 대여 서비스를 선보인다.",
+                    "value_time": "2022-06-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아기침대의 경우 100% 천연원목 침대로 30,000원부터 대여할 수 있어 몇 십만 원이 넘는 구매비용을 절약할 수 있다.",
+                    "value_time": "2022-06-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.audioht.co.kr/news/articleView.html?idxno=15746",
+            "search_query": "아기침대 대여",
+            "terminate": false,
+            "text": "아기가 잘 적응할지 알 수 없어서 구매가 더 망설여지죠. 아기침대부터 바운서, 유축기까지 다양한 유아용품들을 대여해주는 업체가 있으니 걱정마세요. 아기침대 같은 경우 100퍼센트 천연원목 침대를 3만원부터 대여할 수 있으니 부담을 덜 수 있을 거예요.",
+            "turn_id": "BK22000114-5",
+            "utterance_id": "BK22000114.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안 그래도 출산 준비를 하면서 부담이 컸는데 대여 서비스가 있다니 좋네요. 그런데 꼭 구매 해야 하는 유아용품도 있을까요?",
+            "turn_id": "BK22000114-6",
+            "utterance_id": "BK22000114.11"
+        },
+        {
+            "reference_date": "2017-06-12",
+            "reference_text": [
+                {
+                    "value": "각종 예방접종과 건강검진을 위해 외출이 잦은 신생아에게 카시트는 선택이 아닌 필수 육아 아이템이다.",
+                    "value_time": "2022-06-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://edu.donga.com/?p=article&ps=view&at_no=20170612111929939303",
+            "search_query": "출산준비물 리스트",
+            "terminate": false,
+            "text": "예방접종부터 검진을 위해 신생아들도 외출이 잦아요. 그래서 카시트는 선택이 아닌 필수에요.",
+            "turn_id": "BK22000114-6",
+            "utterance_id": "BK22000114.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "카시트 중요하다고 들었어요. 신생아가 사용해야 하는 것이니까 바구니용 카시트가 좋겠죠?",
+            "turn_id": "BK22000114-7",
+            "utterance_id": "BK22000114.13"
+        },
+        {
+            "reference_date": "2022-02-08",
+            "reference_text": [
+                {
+                    "value": "흔히 베이비 카시트라고도 불리며 일반적으로 체중 10kg 또는 13kg 미만, 신장 40~70cm 또는 40~85cm 정도의 신생아 또는 영유아용 뒤보기 전용 카시트이다.",
+                    "value_time": "2022-06-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "전방 충돌 시 아이에게 가해지는 부담을 완화하기 위해 후방으로 장착한다.",
+                    "value_time": "2022-06-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=157411",
+            "search_query": "신생아 바구니카시트",
+            "terminate": false,
+            "text": "네. 베이비 카시트라고도 부르는데 10킬로그램 미만의 신생아나 영유아용으로 사용되는 뒤보기 전용 카시트에요. 만약 전방 충돌 상황이 생기면 아이에게 전해지는 부담을 덜어주기 위해 후방으로 장착하는 특징이 있어요.",
+            "turn_id": "BK22000114-7",
+            "utterance_id": "BK22000114.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 아이는 하루가 다르게 자라니 오래 쓰지 못한다고 들었는데 얼마나 쓸 수 있을까요?",
+            "turn_id": "BK22000114-8",
+            "utterance_id": "BK22000114.15"
+        },
+        {
+            "reference_date": "2019-11-19",
+            "reference_text": [
+                {
+                    "value": "최근 유럽과 미국의 소아과 학회에서는 아기가 카시트 뒤보기를 할 경우, 앞 보기보다 5배 이상 안전하다는 연구를 바탕으로 뒤보기를 최소 2년 사용할 것은 권장하고 이에 대한 의무 제도를 적용하고 있습니다.",
+                    "value_time": "2022-06-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=79865",
+            "search_query": "바구니카시트 언제까지",
+            "terminate": false,
+            "text": "카시트 뒤보기가 앞보기보다 5배 이상 안전하다는 연구 결과가 있어서 최근 유럽과 미국의 소아과 학회에서는 최소 2년 정도 뒤보기 카시트 사용을 권장하고 있어요. 의무제도도 적용되고 있고요.",
+            "turn_id": "BK22000114-8",
+            "utterance_id": "BK22000114.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안전을 위해서 2년은 뒤보기 카시트 사용을 권장하는군요. 생각보다 기간이 길어서 마음 편히 구매할 수 있을 것 같아요.",
+            "turn_id": "BK22000114-9",
+            "utterance_id": "BK22000114.17"
+        },
+        {
+            "reference_date": "2014-01-07",
+            "reference_text": [
+                {
+                    "value": "외부 충격이 아닌 신체 면역력이 약한 영유아의 몸에 지속적으로 닿는 제품은 인체에 무해한 친환경 소재를 활용한 제품을 사용하는 것이 좋다.",
+                    "value_time": "2022-06-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/business/view/2014/01/34610/",
+            "search_query": "카시트 안전성 검증",
+            "terminate": false,
+            "text": "아기의 안전을 위해 사용하는 제품인 만큼 인체에 무해한 친환경 소재를 사용했는지도 확인해 보세요. 외부 충격도 중요하지만 면역력이 약한 아기의 몸에 지속적으로 닿는 부분이니까요.",
+            "turn_id": "BK22000114-9",
+            "utterance_id": "BK22000114.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 할게요. 어떤 소재를 골라야 마음 놓고 쓸 수 있을까요?",
+            "turn_id": "BK22000114-10",
+            "utterance_id": "BK22000114.19"
+        },
+        {
+            "reference_date": "2022-04-13",
+            "reference_text": [
+                {
+                    "value": "이에 따라 카시트 위생 관리는 필수적이며 되도록 자주 시트를 분리해 세탁하는 것을 권장한다.",
+                    "value_time": "2022-06-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 그 과정이 시간과 물리적으로 번거롭기에 보다 위생적으로 카시트를 관리할 수 있는 향균 소재 카시트를 추천한다.",
+                    "value_time": "2022-06-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://idsn.co.kr/news/view/1065590245759864",
+            "search_query": "카시트 소재",
+            "terminate": false,
+            "text": "카시트를 구매하실 때 항균 소재를 사용했는지 확인해보세요. 사용하면서 위생 관리는 필수라는 것 아시죠? 자주 시트를 분리해서 세탁하시면 아기도 엄마도 편하실 거예요.",
+            "turn_id": "BK22000114-10",
+            "utterance_id": "BK22000114.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "필요한 게 많아서 정신이 없었는데 우선순위가 정리된 것 같아요. 우왕좌왕하지 말고 천천히 준비해봐야겠어요.",
+            "turn_id": "BK22000114-11",
+            "utterance_id": "BK22000114.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "요즘은 배송 시스템이 워낙 잘 되어있어서 출산 후에 필요한 것들을 구매하더라도 늦지 않으니 여유를 가지고 무사히 출산하시기 바랄게요. 다음에 봐요.",
+            "turn_id": "BK22000114-11",
+            "utterance_id": "BK22000114.22"
+        }
+    ]
+}

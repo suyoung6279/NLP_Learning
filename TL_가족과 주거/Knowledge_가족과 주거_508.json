@@ -1,0 +1,347 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015597",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015597",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 3.8,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번에 집 인테리어 좀 제대로 해볼 예정이야. 인테리어 용으로 집에 둘 그림을 좀 사볼까 하는데, 미술품은 어디서 살 수 있어?",
+            "turn_id": "BK22015597-1",
+            "utterance_id": "BK22015597.1"
+        },
+        {
+            "reference_date": "2022-03-04",
+            "reference_text": [
+                {
+                    "value": "미술품을 사고파는 경로는 작가 본인, 화랑, 아트페어, 경매장(옥션) 등 다양하다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://woman.chosun.com/news/articleView.html?idxno=95215",
+            "search_query": "미술품 구매",
+            "terminate": false,
+            "text": "작가에게 직접 살 수도 있고, 화랑, 아트페어, 경매장 등 다양한 곳에서 살 수 있어.",
+            "turn_id": "BK22015597-1",
+            "utterance_id": "BK22015597.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "작가랑 직접거래할 수도 있구나. 주변에 경매를 하는 사람이 많긴 하던데, 미술품 경매시장 규모는 어느 정도야?",
+            "turn_id": "BK22015597-2",
+            "utterance_id": "BK22015597.3"
+        },
+        {
+            "reference_date": "2022-03-04",
+            "reference_text": [
+                {
+                    "value": "최근 미술품 경매시장이 호황을 누리고 있는 가운데 예술경영지원센터가 집계한 한국 미술시장 규모는 1조원 돌파를 목전에 두고 있는 것으로 알려졌다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://woman.chosun.com/news/articleView.html?idxno=95215",
+            "search_query": "미술품 경매",
+            "terminate": false,
+            "text": "요즘 미술품 경매시장이 흥하고 있지. 예술경영지원센터가 한국 미술시장 규모를 집계한 바에 따르면, 곧 1조원 돌파할 거야.",
+            "turn_id": "BK22015597-2",
+            "utterance_id": "BK22015597.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1조원이라니 정말 어마어마한 액수네. 입문자도 참가할 수 있는 미술품 시장 같은 게 없을까?",
+            "turn_id": "BK22015597-3",
+            "utterance_id": "BK22015597.5"
+        },
+        {
+            "reference_date": "2022-10-06",
+            "reference_text": [
+                {
+                    "value": "세종문화재단(대표이사 김종률)은 10월 7일부터 9일까지 정부세종컨벤션센터에서 '그림 사기 좋은 날'이라는 부제로 '2022 세종미술시장'을 개최한다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "작품 가격대는 10만원부터 1천만 원 이상까지 다양하게 분포돼 있어 전문컬렉터뿐만 아니라 미술시장 입문자도 부담 없이 구매가 가능하다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.goodmorningcc.com/news/articleView.html?idxno=277479",
+            "search_query": "미술경매 입문",
+            "terminate": false,
+            "text": "있어! 정부세종컨벤션센터에서 지난 10월 7일부터 9일까지 세종미술시장을 개최했거든. 부제는 그림 사기 좋은 날이었는데, 작품의 가격대가 10만원부터 1천만 원 이상까지 분배돼있어서 입문자부터 전문컬렉터까지 구매할 수 있었지.",
+            "turn_id": "BK22015597-3",
+            "utterance_id": "BK22015597.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 가격대가 정말 다양하네. 그림을 살 때 어떤 점을 주의하면 될까?",
+            "turn_id": "BK22015597-4",
+            "utterance_id": "BK22015597.7"
+        },
+        {
+            "reference_date": "2022-06-19",
+            "reference_text": [
+                {
+                    "value": "그림을 볼 때 작가의 전시 이력을 살펴보는 것도 좋겠다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "작업과 경력이 탄탄할수록 그림을 구입하는 데 리스크를 줄일 수 있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://woman.chosun.com/news/articleView.html?idxno=96324",
+            "search_query": "그림 구매 주의점",
+            "terminate": false,
+            "text": "작가의 전시 이력을 알아보는 게 좋아. 작업과 경력이 탄탄하면 그림을 살 때 위험요소를 줄일 수 있거든.",
+            "turn_id": "BK22015597-4",
+            "utterance_id": "BK22015597.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어느 정도 활동한 사람의 작품을 사야겠구나. 그럼 인테리어로 어떤 그림이 좋을까?",
+            "turn_id": "BK22015597-5",
+            "utterance_id": "BK22015597.9"
+        },
+        {
+            "reference_date": "2021-12-29",
+            "reference_text": [
+                {
+                    "value": "추상화나 기하학적 무늬보다는 꽃, 풍경, 과일 등 자연 요소가 좋다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "풍경화는 심신 안정, 사과는 재물복, 해바라기는 풍요와 번창, 잉어는 부부의 애정, 연꽃은 행운을 상징한다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://woman.chosun.com/news/articleView.html?idxno=92960",
+            "search_query": "인테리어 그림",
+            "terminate": false,
+            "text": "자연요소 예를 들어, 꽃, 풍경, 과일 등 그림이 좋아. 특히 풍경화는 심신 안정, 과일 중에서 사과는 재물복, 꽃 중에서 해바라기는 풍요와 번창을 상징해.",
+            "turn_id": "BK22015597-5",
+            "utterance_id": "BK22015597.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소재에도 다 뜻이 있구나. 그림 말고 집에 포인트를 줄 수 있는 게 또 뭐가 있을까?",
+            "turn_id": "BK22015597-6",
+            "utterance_id": "BK22015597.11"
+        },
+        {
+            "reference_date": "2021-12-29",
+            "reference_text": [
+                {
+                    "value": "편안한 공간을 주 목적으로 하되 컬러나 장식품을 이용해 생기를 불어넣을 수 있도록 장치를 해둔다면 안락하지만 밋밋하지 않은 집을 만들 수 있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "공간의 한쪽 벽면에 노란색이나 오렌지 계열의 포인트 벽지나 소품을 배치하면 좋다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://woman.chosun.com/news/articleView.html?idxno=92960",
+            "search_query": "인테리어 포인트",
+            "terminate": false,
+            "text": "컬러나 소품으로 생기를 불어넣을 수 있지! 한쪽 벽면을 노란색이나 오렌지 계열의 포인트 벽지로 칠하거나 아니면 같은 색의 소품을 배치하면 좋아.",
+            "turn_id": "BK22015597-6",
+            "utterance_id": "BK22015597.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오렌지 컬러라, 확실히 밋밋한 집도 생기가 돌 것 같아. 요즘 인테리어 컨셉 중에서 플랜테리어라는 말이 있던데, 그건 무슨 뜻이야?",
+            "turn_id": "BK22015597-7",
+            "utterance_id": "BK22015597.13"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "첫째는 인테리어에 식물을 적극 활용하는 ‘플랜테리어(planterior)’의 증가다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "단조로운 공간에 식물을 배치해 장식 효과와 공기청정 효과를 도모하는 플랜테리어는 반짝이는 유행을 넘어 트렌드로 자리 잡았다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.esquirekorea.co.kr/article/70485",
+            "search_query": "플랜테리어",
+            "terminate": false,
+            "text": "인테리어에 식물을 활용한다는 단어야. 식물을 배치하면서 장식은 물론, 공기 청정 효과까지 잡는 플랜테리어가 트렌드지.",
+            "turn_id": "BK22015597-7",
+            "utterance_id": "BK22015597.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "식물한테 공기 청정 효과가 있는 줄은 몰랐어. 집에서 키우기 쉬운 식물로 어떤 게 있어?",
+            "turn_id": "BK22015597-8",
+            "utterance_id": "BK22015597.15"
+        },
+        {
+            "reference_date": "2022-09-01",
+            "reference_text": [
+                {
+                    "value": "금전수(zamioculcas)와 같은 식물은 물을 자주 주지 않아도 되기 때문에 관리가 수월하다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 잎이 눕거나 퍼지지 않고 그늘에서도 잘 자라는 산세베리아(mother-in-law’s tongue)도 관리가 쉬운 식물 중 하나다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1416940/%ec%8b%9c%eb%93%a0-%ec%8b%9d%eb%ac%bc-%ea%b3%81%ec%97%90-%eb%91%90%eb%a9%b4-%ec%8a%a4%ed%8a%b8%eb%a0%88%ec%8a%a4-%eb%8d%94-%eb%b0%9b%eb%8a%94%eb%8b%a4-%ec%97%b0%ea%b5%ac/",
+            "search_query": "키우기 쉬운 식물",
+            "terminate": false,
+            "text": "금전수는 물을 자주 주지 않아도 되니까 좀 키우기 쉬운 편이야. 산세베리아도 잎이 눕거나 퍼지지 않는데다 그늘에서도 잘 자라서 난이도가 낮지.",
+            "turn_id": "BK22015597-8",
+            "utterance_id": "BK22015597.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자주 깜빡하는 나한테는 금전수가 잘 맞을 것 같아. 좀 더 인테리어를 공부해보고 싶은데, 인테리어 박람회 같은 게 있을까?",
+            "turn_id": "BK22015597-9",
+            "utterance_id": "BK22015597.17"
+        },
+        {
+            "reference_date": "2022-10-04",
+            "reference_text": [
+                {
+                    "value": "박람회 전문기업 동아전람이 주최하는 '제34회 동아 홈&리빙페어' '제20회 동아 가구·인테리어박람회' '제2회 서울 주방 및 가전엑스포'가 10월 6일부터 9일까지 aT센터(서울 서초구 양재동 신분당선 양재시민의숲역)에서 개최된다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/business/view/2022/10/871668/",
+            "search_query": "인테리어 박람회",
+            "terminate": false,
+            "text": "물론 있지. 지난 10월 6일부터 9일까지 제34회 동아 홈앤 리빙페어, 제20회 동아 가구 인테리어박람회, 제2회 서울 주방 및 가전엑스포가 개최됐어. 주최자는 동아전람이라고, 박람회 전문기업이고 위치는 서울 서초구 양재동 신분당선 양재시민의숲역이었지.",
+            "turn_id": "BK22015597-9",
+            "utterance_id": "BK22015597.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "벌써 지나갔네, 아쉽다. 그래도 덕분에 이것저것 배웠어. 난 그만 가봐야하는데, 다음에 인테리어하면 집들이 초대할게.",
+            "turn_id": "BK22015597-10",
+            "utterance_id": "BK22015597.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 꼭 초대해줘. 조심히 가고 나중에 또 보자!",
+            "turn_id": "BK22015597-10",
+            "utterance_id": "BK22015597.20"
+        }
+    ]
+}

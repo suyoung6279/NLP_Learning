@@ -1,0 +1,405 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014932",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014932",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0017"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조카가 농구를 시작해서 그런지 언니가 만나기만 하면 농구 얘기를 하는데 농구에 무지해서 잘못 알아 듣겠더라고요.",
+            "turn_id": "BK22014932-1",
+            "utterance_id": "BK22014932.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조카가 하는 운동이니까 언니야 관심이 많을 수밖에 없죠.",
+            "turn_id": "BK22014932-1",
+            "utterance_id": "BK22014932.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러니까요, 언니랑 대화 맞장구라도 치려면 저도 농구에 대해서 좀 알아두려고 하는데, 혹시 농구가 어떻게 시작된 운동인지 아세요?",
+            "turn_id": "BK22014932-2",
+            "utterance_id": "BK22014932.3"
+        },
+        {
+            "reference_date": "2021-04-15",
+            "reference_text": [
+                {
+                    "value": "농구는 1891년 메사추세츠 스프링필드 YMCA 체육학교에서 근무하던 캐나다인 교사 제임스 네이스미스(1861-1939)가 겨울철 동안 학생들에게 가르칠만한 실내운동을 생각해낸데서 비롯됐다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.maniareport.com/view.php?ud=2021041504024519125e8e941087_19",
+            "search_query": "농구 시작",
+            "terminate": false,
+            "text": "농구는 1891년에 제임스 네이스미스라는 사람에 의해서 창안되었어요. 그는 메사추세츠 스프링필드 YMCA 체육학교에 근무하던 캐나다인 교사로, 학생들에게 겨울철 실내운동으로 가르칠만한 것을 생각하다가 고안해내게 된 거에요.",
+            "turn_id": "BK22014932-2",
+            "utterance_id": "BK22014932.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "농구는 자연스럽게 행해지다가 정착된 게 아니고, 체육학교 교사에 의해서 경기 자체가 창안 된 거군요. 네이스미스가 창안한 최초의 농구 경기 모습은 어땠어요?",
+            "turn_id": "BK22014932-3",
+            "utterance_id": "BK22014932.5"
+        },
+        {
+            "reference_date": "2019-11-04",
+            "reference_text": [
+                {
+                    "value": "네이스미스가 창안한 최초의 농구는 양쪽 팀에 아홉 명씩 하던 방식이었으며 실제로 복숭아 바구니를 실내 벽 높은 곳에 달아 놓고 그 바구니에 정해진 시간에 많이 넣은 팀이 이기는 경기였다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "게다가 공이 바구니에 들어가면 사다리를 놓고 올라가 꺼내어 다시 경기를 속개하는 방식이어서 경기의 맥이 끊이는 일이 잦았다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.koreadaily.com/2019/11/04/society/opinion/7746912.html",
+            "search_query": "네이스미스가 창안한 최초의 농구",
+            "terminate": false,
+            "text": "네이스미스가 창안한 최초의 농구는 실제로 실내 벽 높은 곳에 복숭아 바구니를 달아 놓고 정해진 시간 안에 바구니에 공을 많이 넣은 팀이 이기는 것으로, 양쪽 팀에 아홉 명씩이 참가하던 방식이었어요. 그런데, 바구니에 공이 들어가면 사다리를 타고 올라가서 공을 꺼내 다시 경기를 빠르게 이어 나가야 해서 경기의 흐름이 끊어지는 일이 많았죠.",
+            "turn_id": "BK22014932-3",
+            "utterance_id": "BK22014932.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오히려 운동회날 오재미 던지기랑 비슷한 것 같고 지금의 농구와는 사뭇 다른 모습이네요. 약간 우스꽝스러운 경기 방식인 농구가 어떻게 미국 내에서 대중화되기 시작한 거에요?",
+            "turn_id": "BK22014932-4",
+            "utterance_id": "BK22014932.7"
+        },
+        {
+            "reference_date": "2019-11-04",
+            "reference_text": [
+                {
+                    "value": "점차 바구니를 개량하고, 바구니 밑에 구멍을 만드는 아이디어가 나타났으며, 링에 그물을 매다는 아이디어로 발전하였다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "농구가 YMCA 중심으로 창안되었고, 주로 실내에서 운동을 주로 하는 YMCA의 특성상 농구 경기는 자연스럽게 YMCA의 간판 스포츠였다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "전국적인 YMCA 조직에 의해 농구가 퍼지기 시작했으며 농구의 규칙도 점점 개량 발전하기 시작했다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.koreadaily.com/2019/11/04/society/opinion/7746912.html",
+            "search_query": "농구 YMCA",
+            "terminate": false,
+            "text": "점점 바구니를 개량하고 바구니 밑에 구멍을 뚫거나, 링에 그물을 매다는 식으로 변모하기 시작했어요. YMCA 중심으로 창안된 농구는 주로 실내 운동을 하는 YMCA 특성과 맞아떨어졌고 자연스럽게 YMCA의 간판 스포츠로 자리매김 하면서 전국적인 조직에 의해서 퍼지기 시작했어요. 그러면서 농구의 규칙도 점점 변화 발전하게 되었어요.",
+            "turn_id": "BK22014932-4",
+            "utterance_id": "BK22014932.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "경기 운영 방식이나 도구들이 점차 발전하면서 YMCA 조직을 타고 대중화되기 시작했군요. 혹시 우리나라에 농구가 전파된 것도 YMCA와 어떤 관계가 있나요?",
+            "turn_id": "BK22014932-5",
+            "utterance_id": "BK22014932.9"
+        },
+        {
+            "reference_date": "2021-04-15",
+            "reference_text": [
+                {
+                    "value": "한국에 농구가 처음 소개된 것은 1907년 봄 황성기독교청년회(YMCA) 초대 총무이자 미국인 선교사인 길레트(P.Gillett：한국명 吉禮泰)에 의해서이다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1916년 3월 25일 미국인 반하트가 기독청년회 간사로 부임하면서부터 본격적인 보급이 이루어졌다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.maniareport.com/view.php?ud=2021041504024519125e8e941087_19",
+            "search_query": "한국 농구 YMCA",
+            "terminate": false,
+            "text": "관계가 있어요. 농구가 한국에 처음으로 소개된 것은 1907년 봄 미국인 선교사이면서 황성 YMCA 초대 총무인 길레트에 의해서였거든요. 이후 미국인 반하트가 1916년 3월 25일에 YMCA 간사로 부임하면서 농구 보급이 본격적으로 이루어졌어요.",
+            "turn_id": "BK22014932-5",
+            "utterance_id": "BK22014932.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "YMCA에 의해서 미국뿐 아니라 우리나라에도 농구가 전파되었군요. 세계인들이 즐기는 스포츠가 되면 올림픽 종목에 채택되는 것 같던데, 혹시 농구가 올림픽에 입성하게 된 내용에 대해서도 아세요?",
+            "turn_id": "BK22014932-6",
+            "utterance_id": "BK22014932.11"
+        },
+        {
+            "reference_date": "2019-11-04",
+            "reference_text": [
+                {
+                    "value": "1903년 제3회 세인트루이스 올림픽 때 시범경기로 채택될 정도로 농구가 세계적으로 전파되었으며, 세월이 흘러 1936년 베를린 올림픽에서는 올림픽 정식 종목으로 채택되었다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1976년 몬트리올 올림픽에서는 여자 농구도 올림픽 정식 종목이 되었다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.koreadaily.com/2019/11/04/society/opinion/7746912.html",
+            "search_query": "농구 올림픽 종목",
+            "terminate": false,
+            "text": "농구가 세계적으로 전파된 것을 입증하듯 1903년 제 3회 세인트루이스 올림픽에서 시범경기로 채택되었죠. 이후 시간이 흐른 뒤 올림픽 정식 종목으로 채택된 것은 1936년 베를린 올림픽에서였어요. 여자 농구가 올림픽 정식 종목이 된 것은 1976년 몬트리올 올림픽부터고요.",
+            "turn_id": "BK22014932-6",
+            "utterance_id": "BK22014932.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "농구가 꽤 오래전부터 올림픽 종목이 되었군요. 우리나라의 농구 역사도 꽤 긴데, 농구라는 이름은 어떻게 지어졌는지는 전혀 모르겠어요. 혹시 농구 이름에 대한 유래에 대해서 아세요?",
+            "turn_id": "BK22014932-7",
+            "utterance_id": "BK22014932.13"
+        },
+        {
+            "reference_date": "2021-04-15",
+            "reference_text": [
+                {
+                    "value": "농구(籠球)는 영어 ‘바스켓볼(Basketball)’을 번역한 일본식 한자어이다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "농구라는 단어는 ‘대바구니 농(籠)’과 ‘공 구(球)’가 합쳐진 말이다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대바구니 공이라는 뜻이다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.maniareport.com/view.php?ud=2021041504024519125e8e941087_19",
+            "search_query": "농구 이름",
+            "terminate": false,
+            "text": "농구는 Basketball 영어를 일본식 한자어로 번역한 이름이에요. 농은 대바구니를 뜻하고 구는 공을 뜻하는 말이 합쳐져서 즉 대바구니 공이라는 의미를 갖고 있죠.",
+            "turn_id": "BK22014932-7",
+            "utterance_id": "BK22014932.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "영어를 그냥 그대로 직역한 거라서 맞는 말이긴 한데 농이 한자로 대바구니를 의미하는지는 처음 알았어요.",
+            "turn_id": "BK22014932-8",
+            "utterance_id": "BK22014932.15"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한자를 자주 사용하지 않으니까 모를 수도 있죠.",
+            "turn_id": "BK22014932-8",
+            "utterance_id": "BK22014932.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한자에는 제가 좀 약해요. 덕분에 농구에 대한 역사나 유래는 이제 언니보다도 더 많이 알 것 같은데, 농구 실전에 대해서 좀 더 알고 싶어요. 농구 선수가 맡는 포지션에는 어떤 게 있는지 좀 알려주세요.",
+            "turn_id": "BK22014932-9",
+            "utterance_id": "BK22014932.17"
+        },
+        {
+            "reference_date": "2022-02-04",
+            "reference_text": [
+                {
+                    "value": "농구의 포지션(Basketball positions)은 크게 가드, 포워드, 센터로 나뉜다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "더 세부적으로는, 포인트 가드, 슈팅 가드, 스몰 포워드, 파워 포워드, 그리고 센터 등 다섯 종류의 포지션으로 나뉜다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%86%8D%EA%B5%AC%EC%9D%98_%ED%8F%AC%EC%A7%80%EC%85%98",
+            "search_query": "농구 포지션",
+            "terminate": false,
+            "text": "농구에는 크게 가드와 포워드, 센터 3가지의 포지션이 있어요. 이 포지션은 다시 5가지로 세분화되는데, 가드는 포인트가드와 슈팅가드로 나뉘고, 포워드는 파워 포워드와 스몰 포워드로, 나머지 센터 포지션이 있죠.",
+            "turn_id": "BK22014932-9",
+            "utterance_id": "BK22014932.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "5가지의 포지션이 있군요. 조카가 스몰 포워드라고 한 것 같은데 혹시 스몰 포워드는 어떤 역할을 해요?",
+            "turn_id": "BK22014932-10",
+            "utterance_id": "BK22014932.19"
+        },
+        {
+            "reference_date": "2022-02-07",
+            "reference_text": [
+                {
+                    "value": "스몰 포워드(영어: Small forward, SF)는 농구의 포지션 중 하나이다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "코트 내에서 점수를 내는 것을 주된 역할로 한다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "외곽에서 슛을 하며, 속공과 리바운드 싸움에도 참여할 수 있는 올라운드 능력이 요구된다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8A%A4%EB%AA%B0_%ED%8F%AC%EC%9B%8C%EB%93%9C",
+            "search_query": "스몰 포워드",
+            "terminate": false,
+            "text": "농구의 포지션 중 하나인 스몰 포워드가 하는 역할은 코트 안에서 득점을 내는 것이 주된 임무에요. 속공은 물론이고 외곽에서 슛을 하며, 리바운드 싸움에도 참여해야 할 정도로 다방면의 능력이 요구되는 포지션이죠.",
+            "turn_id": "BK22014932-10",
+            "utterance_id": "BK22014932.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 스몰이라는 이름 때문에 역할이 적은 건 줄 알았는 데 꽤 중요한 역할을 하네요.",
+            "turn_id": "BK22014932-11",
+            "utterance_id": "BK22014932.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "언니에게 조카가 아주 중요한 역할을 한다고 얘기해 주면 좋아하겠네요.",
+            "turn_id": "BK22014932-11",
+            "utterance_id": "BK22014932.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게요, 얘기하다 보니 시간이 벌써 갈 시간이 되었네요. 저 먼저 일어나 볼게요. 다음에 또 뵈어요.",
+            "turn_id": "BK22014932-12",
+            "utterance_id": "BK22014932.23"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 조심히 가시고 다음에 또 뵈어요.",
+            "turn_id": "BK22014932-12",
+            "utterance_id": "BK22014932.24"
+        }
+    ]
+}

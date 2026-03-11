@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015715",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015715",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안녕하세요, 정말 오랜만에 뵙네요. 지난번에 사 준 커피 잘 마셨어요.",
+            "turn_id": "BK22015715-1",
+            "utterance_id": "BK22015715.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 정말 오랜만이네요. 만나서 반가워요. 집에 강아지도 잘 있죠? 지난번에 보니까 사람을 엄청 좋아해서 너무 예쁘더라고요.",
+            "turn_id": "BK22015715-1",
+            "utterance_id": "BK22015715.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 아주 잘 지내고 있어요. 그나저나, 제가 오늘 뵙자고 한 이유는요, 제 남편이 우리 강아지도 슬슬 나이가 찼으니 만성신부전 검사를 해야겠다고 하더라고요. 도대체 만성신부전이 뭔가요?",
+            "turn_id": "BK22015715-2",
+            "utterance_id": "BK22015715.3"
+        },
+        {
+            "reference_date": "2022-08-28",
+            "reference_text": [
+                {
+                    "value": "오랜 시간에 걸쳐서 신장이 망가지는 질병을 만성신부전이라고 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.k-health.com/news/articleView.html?idxno=60873",
+            "search_query": "만성신부전",
+            "terminate": false,
+            "text": "네, 만성신부전은 긴 시간에 걸쳐서 신장이 망가지는 질병을 말해요.",
+            "turn_id": "BK22015715-2",
+            "utterance_id": "BK22015715.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신장이 망가지는 병이요? 제 눈엔 아직 건강해 보이는데 살짝 두렵네요. 그런데 나이가 찬 거랑 이 병이랑 무슨 상관이에요?",
+            "turn_id": "BK22015715-3",
+            "utterance_id": "BK22015715.5"
+        },
+        {
+            "reference_date": "2022-08-28",
+            "reference_text": [
+                {
+                    "value": "만성신부전은 나이 든 강아지와 고양이에서 발병률이 가장 높은 질병 중 하나인데 이 질병은 사실 나이가 어릴 때부터 시작된다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 오랜 시간 축적되면서 증상이 발생하기 때문에 강아지나 고양이가 노령이 돼고 나서야 비로소 병이 존재했음을 알게 된다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.k-health.com/news/articleView.html?idxno=60873",
+            "search_query": "강아지 만성신부전",
+            "terminate": false,
+            "text": "아아, 남편분이 그렇게 말씀하신 이유가 있어요. 만성신부전은 보통 나이 든 강아지와 고양이에서 발병률이 가장 높은 질병 중 하나인데, 이 질병은 사실 나이가 어릴 때부터 시작되긴 하거든요? 하지만 오랜 시간 축적되면서 증상이 발생하기 때문에 강아지나 고양이가 노령이 되고 나서야 비로소 병이 존재했음을 알게 되니까 미리 검사를 받는 게 좋죠.",
+            "turn_id": "BK22015715-3",
+            "utterance_id": "BK22015715.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "노령이 되고 나서야 발견이 가능한 질병이라서 제 남편이 그렇게 말한 거군요. 그런데 제가 전혀 감이 안 오는데 신장이 어떤 기능을 하는 건가요? 신장이 망가지는 병이라고 하셨는데 신장이 뭐 하는 장기기관인지도 모르겠어요.",
+            "turn_id": "BK22015715-4",
+            "utterance_id": "BK22015715.7"
+        },
+        {
+            "reference_date": "2022-08-28",
+            "reference_text": [
+                {
+                    "value": "신장은 대사산물을 배출하고 몸의 수분과 전해질의 균형을 유지하는 기능을 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또 호르몬 조절이나 혈압에도 관여한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "신체를 유지하는 데 중요한 여러 역할을 하기 때문에 기능이 떨어지면 식욕저하, 체중감소, 다음다뇨(물을 자주 마시고 소변을 자주 보는 증상), 구토, 설사, 고혈압 등 다양하고 다소 심각한 증상들이 나타난다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.k-health.com/news/articleView.html?idxno=60873",
+            "search_query": "신장 기능",
+            "terminate": false,
+            "text": "신장은 대사산물을 배출하고 몸의 수분과 전해질의 균형을 유지하는 기능을 하는 기관이에요. 그리고 호르몬 조절이나 혈압에도 관여하죠. 따라서 신체를 유지하는 데 중요한 여러 역할을 하기 때문에 기능이 떨어지면 식욕저하, 체중감소, 다음다뇨, 구토, 설사, 고혈압 등 다양하고 꽤 심각한 증상들이 나타나기 때문에 아주 중요한 신체기관 중 하나에요.",
+            "turn_id": "BK22015715-4",
+            "utterance_id": "BK22015715.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 설명을 들으니까 갑자기 걱정이 되기 시작했어요. 그런데 신장에 이상이 가도 자연적으로 치료될 수는 없는 건가요? 보통은 잘 먹고 잘 재우면 금방 낫잖아요.",
+            "turn_id": "BK22015715-5",
+            "utterance_id": "BK22015715.9"
+        },
+        {
+            "reference_date": "2022-08-28",
+            "reference_text": [
+                {
+                    "value": "더 큰 문제는 신장의 경우 망가지기 시작하면 회복되기 어렵다는 점이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "결국 사람과 마찬가지로 강아지나 고양이도 망가진 신장을 고칠 수 있는 치료방법이 없다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 현재 신장의 기능을 최대한 유지하기 위해 신장의 부담을 덜어주는 방법을 선택해야 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.k-health.com/news/articleView.html?idxno=60873",
+            "search_query": "신장 망가짐",
+            "terminate": false,
+            "text": "안타깝게도 그렇지 않아요. 신장의 경우 망가지기 시작하면 회복되기가 어려워요. 사람과 마찬가지로 강아지도 망가진 신장을 고칠 수 있는 치료방법이 없답니다. 그래서 현재 신장의 기능을 최대한 유지하려면 신장의 부담을 덜어주는 방법을 선택할 수밖에 없어요.",
+            "turn_id": "BK22015715-5",
+            "utterance_id": "BK22015715.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아니, 자연치유도 안 되는데 발병률까지 높은 건가요? 도대체 이 만성신부전은 왜 걸리는 건가요?",
+            "turn_id": "BK22015715-6",
+            "utterance_id": "BK22015715.11"
+        },
+        {
+            "reference_date": "2022-08-28",
+            "reference_text": [
+                {
+                    "value": "당연히 원인은 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "바로 신장이 고장 날 만큼 일을 많이 했기 때문이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.k-health.com/news/articleView.html?idxno=60873",
+            "search_query": "신장 고장",
+            "terminate": false,
+            "text": "원인은 바로 신장이 고장 날 만큼 일을 많이 했기 때문이에요.",
+            "turn_id": "BK22015715-6",
+            "utterance_id": "BK22015715.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아니, 저는 제 강아지한테 일을 시킨 적이 없는데요? 무슨 일을 많이 했다는 건가요?",
+            "turn_id": "BK22015715-7",
+            "utterance_id": "BK22015715.13"
+        },
+        {
+            "reference_date": "2022-08-28",
+            "reference_text": [
+                {
+                    "value": "신장의 기능은 대사산물을 배출하는 것이라고 했다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "즉 먹는 음식을 소화한 후 대사과정을 거치고 배출하는 일을 하는데 특히 고단백질 음식이나 염분이 높은 음식을 배출할 때 더 많이 일한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고단백질이나 염분이 높은 음식은 신장에 부담을 가중하는 셈이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.k-health.com/news/articleView.html?idxno=60873",
+            "search_query": "신장 대사산물 배출",
+            "terminate": false,
+            "text": "하하, 노동할 때 그 일이라는 뜻이 아니에요. 신장의 기능은 대사산물을 배출하는 것인데요, 즉 먹은 음식을 소화한 후 대사과정을 거치고 배출하는 일을 하는데 특히 고단백질 음식이나 염분이 높은 음식을 배출할 때 더 일을 많이 해요. 고단백질이나 염분이 높은 음식은 신장에 부담을 가중하는 셈이죠.",
+            "turn_id": "BK22015715-7",
+            "utterance_id": "BK22015715.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 이제 좀 이해가 가네요. 그런데 만약에 동물 병원에서 제 강아지가 만성신부전이라고 했을 때, 증상이 좀 좋아지면 병원에 주기적으로 안 데려가도 되나요? 동물 병원이 비싸서 그런지 자주 가는데 부담스럽더라고요.",
+            "turn_id": "BK22015715-8",
+            "utterance_id": "BK22015715.15"
+        },
+        {
+            "reference_date": "2022-08-28",
+            "reference_text": [
+                {
+                    "value": "이 방법은 결국 평생 진행돼야 하며 중간에 중단하면 사라졌던 증상들은 금방 재발한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.k-health.com/news/articleView.html?idxno=60873",
+            "search_query": "만성신부전 재발",
+            "terminate": false,
+            "text": "아쉽지만, 그래선 안 돼요. 만약 만성신부전이 맞는데 중간에 증상들이 사라졌다고 치료를 중단하면 금방 재발할 수 있기 때문에 지속적으로 치료해야 해요.",
+            "turn_id": "BK22015715-8",
+            "utterance_id": "BK22015715.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 강아지한테는 돈을 아끼면 안 되겠네요. 그래도 만성신부전이 아닐 수도 있으니까, 최소한 예방하려면 어떻게 하면 좋을까요?",
+            "turn_id": "BK22015715-9",
+            "utterance_id": "BK22015715.17"
+        },
+        {
+            "reference_date": "2022-08-28",
+            "reference_text": [
+                {
+                    "value": "결국 강아지와 고양이가 신장기능을 오랫동안 잘 유지하기 위해서는 신장이 일을 많이 하지 않도록 보호해주면 되는 것이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "강아지와 고양이에게 어릴 때부터 신장에 부담을 가중하는 음식을 주지 않는다면 최대한 신장을 보호해 나이 들어서도 기능이 떨어지지 않고 삶의 질을 잘 유지할 수 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.k-health.com/news/articleView.html?idxno=60873",
+            "search_query": "만성신부전 예방",
+            "terminate": false,
+            "text": "네, 강아지가 신장기능을 오랫동안 잘 유지하기 위해서는 아까 말씀드린 것처럼 신장이 일을 많이 하지 않도록 보호해주면 돼요. 강아지에게 신장에 부담을 가중하는 음식을 주지 않는다면 나이 들어서도 기능이 떨어지지 않고 삶의 질을 잘 유지할 수 있어요.",
+            "turn_id": "BK22015715-9",
+            "utterance_id": "BK22015715.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그러면 일단 사료부터 저염식으로 바꾸고 고기도 조금 줄여야겠어요. 오늘도 유익한 정보 정말 고마워요. 이번엔 제가 커피 살게요.",
+            "turn_id": "BK22015715-10",
+            "utterance_id": "BK22015715.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "검사 결과가 꼭 만성신부전이 아니었으면 좋겠어요. 그럼 요 앞 카페로 가시죠.",
+            "turn_id": "BK22015715-10",
+            "utterance_id": "BK22015715.20"
+        }
+    ]
+}

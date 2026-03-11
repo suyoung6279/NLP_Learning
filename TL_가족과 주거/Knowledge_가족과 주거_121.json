@@ -1,0 +1,391 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013805",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013805",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "몇 달 후 온 가족이 이사 갈 아파트 리모델링 공사를 하려고 하는데 인테리어 관련해 물어도 되나요?",
+            "turn_id": "BK22013805-1",
+            "utterance_id": "BK22013805.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뭐든 궁금한 게 있으시면 말씀하세요.",
+            "turn_id": "BK22013805-1",
+            "utterance_id": "BK22013805.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "거실 바닥에 마루를 시공하려고 하는데 강화마루의 특징과 장단점에 대해 알고 싶습니다.",
+            "turn_id": "BK22013805-2",
+            "utterance_id": "BK22013805.3"
+        },
+        {
+            "reference_date": "41256.0",
+            "reference_text": [
+                {
+                    "value": "이 중 강화마루는 고밀도 목질 섬유판(HDF) 등에 나무 패턴의 특수 코팅을 입혀 강도를 높인 것이 특징이지요.",
+                    "value_time": "44825.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일단 원목이 아니다보니 물건을 떨어뜨려도 흠집이 잘 안 나고 홈을 맞춰서 끼우는 식으로 시공합니다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "본드로 붙이지 않다보니 수축 팽창이 심한 편이고 공간을 띄워 시공하기 때문에 층간 소음도 다소 있습니다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/020/0002388471?sid=101",
+            "search_query": "강화마루",
+            "terminate": false,
+            "text": "고밀도 목질 섬유판, 이른바 HDF 등에 나무 무늬의 특수 코팅을 입힌 뒤 강도를 높인 게 강화마루인데요. 강화마루는 홈을 맞춰 끼우는 방식으로 시공하는데, 원목이 아니라 물건을 떨어뜨려도 흠집이 쉽게 나지 않습니다. 다만 본드로 접착시키지 않아 팽창과 수축이 많고 공간을 띄워 시공하는 만큼 다소 층간 소음도 있습니다.",
+            "turn_id": "BK22013805-2",
+            "utterance_id": "BK22013805.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강화마루는 장단점이 명확한 거 같네요. 그러면 강마루의 경우 어떤 특징이 있고 강화마루와 어떤 차이가 있나요?",
+            "turn_id": "BK22013805-3",
+            "utterance_id": "BK22013805.5"
+        },
+        {
+            "reference_date": "41256.0",
+            "reference_text": [
+                {
+                    "value": "이런 단점을 보완한 것이 강마루입니다.",
+                    "value_time": "44825.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "HDF가 아니라 합판에 특수 표면층을 입혔습니다.",
+                    "value_time": "44825.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "본드 시공을 해 열전도가 더 잘되고 강화마루와 달리 소음이나 수축, 팽창도 덜한 편이지요.",
+                    "value_time": "44825.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/020/0002388471?sid=101",
+            "search_query": "강마루 강화마루",
+            "terminate": false,
+            "text": "강화마루의 단점을 보완해 나온 게 강마루인데요. HDF 대신 합판에 특수 표면층을 입혔습니다. 본드로 시공해 열전도가 더 잘되는 편이고 강화마루 대비 소음이나 팽창, 수축도 덜합니다.",
+            "turn_id": "BK22013805-3",
+            "utterance_id": "BK22013805.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강화마루보다는 강마루가 더 나아 보이네요. 혹시 온돌마루는 어떤 특징이 있나요? 공사를 알아보니 상대적으로 강마루나 강화마루보다 가격이 비싸서요.",
+            "turn_id": "BK22013805-4",
+            "utterance_id": "BK22013805.7"
+        },
+        {
+            "reference_date": "41256.0",
+            "reference_text": [
+                {
+                    "value": "이런 아쉬움 때문에 뒤이어 나타난 제품이 바로 온돌마루(합판마루)입니다.",
+                    "value_time": "44825.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "합판에다가 0.5mm 정도 두께의 얇은 무늬목을 입힌 제품이죠.",
+                    "value_time": "44825.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "질감이 자연스럽고 수분이나 열에 의한 변형이 적은 것이 특징이에요.",
+                    "value_time": "44825.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "무늬목이 얇게 입혀져 있어 긁히거나 찍혀서 생기는 흠집을 피할 수 없습니다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/020/0002388471?sid=101",
+            "search_query": "온돌마루",
+            "terminate": false,
+            "text": "합판에 0.5밀리미터의 얇은 두께의 무늬목을 입힌 게 온돌마루입니다. 열이나 수분으로 인한 변형이 적고 질감이 자연스럽다는 특징이 있습니다. 다만 무늬목이 얇게 입혀져 있는 만큼 긁히거나 찍혀서 흠집이 발생하는 것을 피하기 어렵습니다.",
+            "turn_id": "BK22013805-4",
+            "utterance_id": "BK22013805.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "바닥에 대해 알려주셔서 고맙습니다. 벽지 종류도 바닥만큼 다양하던데 실크 벽지는 어떤 특징이 있나요? 다른 벽지에 비해 가격대가 높아서요.",
+            "turn_id": "BK22013805-5",
+            "utterance_id": "BK22013805.9"
+        },
+        {
+            "reference_date": "43376.0",
+            "reference_text": [
+                {
+                    "value": "실크 벽지는 내구성이 강해서 오랫동안 사용할 수 있습니다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이물질 제거도 쉽습니다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "여러 장점 때문에 일반적으로 많이 사용됩니다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "시공 과정에서 '이음매 맞댐 시공'을 할 줄 아는 전문 시공자가 필요하기 때문에 인건비도 합지 시공에 비해 비쌉니다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 표면이 플라스틱 재질은 PVC 성분으로 되어 있어서 수분 조절이 어렵고 피부와 기관지에 좋지 않을 수 있습니다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/015/0004019995?sid=101",
+            "search_query": "실크 벽지",
+            "terminate": false,
+            "text": "실크 벽지는 이물질 제거가 쉽고 내구성도 강해 오랫동안 사용 가능한데요. 이런 장점 덕분에 통상 많이 쓰입니다. 다만 시공할 때 이음매 맞댐 시공이 가능한 전문 시공자가 필요해 인건비가 비싼 편입니다. 표면이 플라스틱 재질이 PVC 성분이어서 피부와 기관지에 좋지 않을 수 있고 수분 조절이 어렵다는 단점이 있습니다.",
+            "turn_id": "BK22013805-5",
+            "utterance_id": "BK22013805.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "벽지 업체에서 합지벽지도 시공 가능하다고 하는데, 합지벽지 중 광폭과 소폭의 차이에 대해 알고 싶습니다.",
+            "turn_id": "BK22013805-6",
+            "utterance_id": "BK22013805.11"
+        },
+        {
+            "reference_date": "43585.0",
+            "reference_text": [
+                {
+                    "value": "이 중 합지벽지는 다시 소폭과 광폭으로 나뉘는데, 소폭은 벽지의 폭(W)이 53cm로 좁고, 광폭은 93cm로 넓은 편이다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "최근 광폭 합지가 실크벽지의 폭과 동일한 106cm로 나오는 경우도 많아 광폭 합지로 시공할 계획이라면 106cm를 추천한다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/037/0000026482?sid=103",
+            "search_query": "합지벽지 광폭 소폭",
+            "terminate": false,
+            "text": "합지벽지는 광폭과 소폭으로 나눌 수 있는데요. 광폭은 벽지의 폭이 93센티미터인데 반해, 소폭은 53센티미터로 좁은 편입니다. 최근에는 광폭 합지의 폭이 실크 벽지와 같은 106센티미터로 제조되는 경우도 많아 광폭 합지 시공 시 106센티미터를 추천하기도 합니다.",
+            "turn_id": "BK22013805-6",
+            "utterance_id": "BK22013805.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아파트 인테리어 공사를 할 때 발코니 확장 공사를 하려고 생각 중인데요. 혹시 별도의 행정 절차를 거쳐야 하나요?",
+            "turn_id": "BK22013805-7",
+            "utterance_id": "BK22013805.13"
+        },
+        {
+            "reference_date": "43654.0",
+            "reference_text": [
+                {
+                    "value": "만약 ‘발코니 확장 공사’가 포함돼 있다면 반드시 관할 구청에 행위허가 신청을 해야 한다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "해당 아파트 동 절반 이상의 동의서, 비내력벽 철거 사유서, 발코니 전후 평면도 등을 준비해 접수한다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지방자치단체에 따라 요구하는 서류들이 조금씩 다르므로 미리 확인할 것.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/037/0000026675?sid=103",
+            "search_query": "발코니 확장 절차",
+            "terminate": false,
+            "text": "집을 고칠 때 발코니 확장 공사를 하려 한다면 반드시 관할 구청에 행위허가 신청을 해야 합니다. 해당 아파트 동 절반 이상이 동의한 동의서, 발코니 전후 평면도, 비내력벽 철거 사유서 등을 접수해야 합니다. 지방자치단체에 따라 필요한 서류가 상이할 수 있으니 사전 확인이 필요합니다.",
+            "turn_id": "BK22013805-7",
+            "utterance_id": "BK22013805.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인테리어 공사 시 소음이 발생한다고 관리사무소에서 공사 동의서를 받으라고 하던데, 몇 가구의 동의서를 받아야 하는 건가요?",
+            "turn_id": "BK22013805-8",
+            "utterance_id": "BK22013805.15"
+        },
+        {
+            "reference_date": "43654.0",
+            "reference_text": [
+                {
+                    "value": "△입주자 공사 동의서는 해당 동의 절반 이상으로부터 받아야 하지만, 구청 신고 서류가 아니라면 아파트 관리사무소의 재량에 따라 해당 층과 아래층, 위층 등 3개 층 정도만 받아도 된다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/037/0000026675?sid=103",
+            "search_query": "공사 동의서 관리사무소",
+            "terminate": false,
+            "text": "해당 동의 절반 이상으로부터 입주자 공사 동의서를 받아야 하는데요. 구청 신고 서류가 아닌 경우 아파트 관리사무소 재량에 따릅니다. 통상 해당 층과 위층, 아래층 등 3개 층 정도만 동의를 받으면 됩니다.",
+            "turn_id": "BK22013805-8",
+            "utterance_id": "BK22013805.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마지막으로 한 가지만 더 물어볼게요. 인테리어 업체에서 알파룸을 만들 거냐고 물어보던데, 알파룸은 어떤 용도로 사용하는 공간인가요?",
+            "turn_id": "BK22013805-9",
+            "utterance_id": "BK22013805.17"
+        },
+        {
+            "reference_date": "42210.0",
+            "reference_text": [
+                {
+                    "value": "알파룸은 아파트 평면을 설계할 때 자투리로 남는 애매한 공간을 다양한 용도로 활용할 수 있도록 만든 것을 말한다.",
+                    "value_time": "44825.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "‘플러스(+) 알파’ 같은 공간이라는 뜻을 갖고 있다.",
+                    "value_time": "44825.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "예를 들어 방과 거실, 주방 거실을 배치하다보면 방과 방 사이나 주방과 거실 사이에 애매하게 남는 공간이 있는데 이곳을 차 마시는 공간이나 아이들 공부 공간, 드레스룸 같은 곳으로 활용할 수 있게 한 것이다.",
+                    "value_time": "44825.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/018/0003309910?sid=101",
+            "search_query": "알파룸",
+            "terminate": false,
+            "text": "아파트 평면 설계 시 남는 애매한 자투리 공간을 다용도로 활용하려고 만든 것을 의미하는데요. 플러스 알파 공간이라는 뜻을 지니고 있습니다. 거실과 방, 주방 배치 시 사이사이 애매하게 남는 공간을 아이들 공부방이나 드레스룸, 차 마시는 공간 등으로 쓸 수 있게 하는 겁니다.",
+            "turn_id": "BK22013805-9",
+            "utterance_id": "BK22013805.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인테리어 공사에 대해 많이 알려주셔서 고맙습니다.",
+            "turn_id": "BK22013805-10",
+            "utterance_id": "BK22013805.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "언제든 궁금한 게 있으면 물어보세요.",
+            "turn_id": "BK22013805-10",
+            "utterance_id": "BK22013805.20"
+        }
+    ]
+}

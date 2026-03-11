@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015786",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015786",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신 초기에 입덧 때문에 힘들었는데, 입덧이 끝나니 두통이 생겨서 너무 힘들어요. 잘 먹고 잘 자는데 왜 두통이 생기는 걸까요?",
+            "turn_id": "BK22015786-1",
+            "utterance_id": "BK22015786.1"
+        },
+        {
+            "reference_date": "2020-02-27",
+            "reference_text": [
+                {
+                    "value": "관자놀이가 조이는 듯한 느낌이 들거나 뒷목을 짓누르는 듯한 증상이 나타나는데, 정확한 원인은 아직 밝혀지지 않았지만, 임신으로 인해 변화한 호르몬의 영향일 가능성이 크다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 밖에도 자세가 좋지 않거나 수면 부족, 카페인 중단 등으로도 발생할 수 있으며 부종이나 입덧으로 인해 앞머리나 옆머리가 흔들리는 것처럼 아플 수 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000497121",
+            "search_query": "임신 중 두통",
+            "terminate": false,
+            "text": "임신 중 두통은 뒷목을 누르는 느낌과 관자놀이가 조이는 것 같은 증상으로 나타나는데요. 임신으로 발생한 호르몬 변화 때문일 가능성이 크지만 정확한 원인은 아직까지 밝혀지지 않았어요. 이뿐 아니라 자세가 바르지 않거나 수면 부족, 카페인 중단으로 인하여 두통이 발생할 수 있고 부종 및 입덧 때문에 앞, 옆머리가 흔들리는 것처럼 아프게 느껴질 수도 있답니다.",
+            "turn_id": "BK22015786-1",
+            "utterance_id": "BK22015786.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그럼 임신 중 두통은 언제쯤 사라지게 될까요?",
+            "turn_id": "BK22015786-2",
+            "utterance_id": "BK22015786.3"
+        },
+        {
+            "reference_date": "2020-02-27",
+            "reference_text": [
+                {
+                    "value": "임신으로 발생하는 두통은 대부분 임신 중기에 들어서면서 자연스럽게 사라진다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "임신 중 발생하는 두통은 비정상적인 반응이 아니므로 큰 걱정은 하지 않아도 된다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만약 중기 이후에도 두통이 지속한다면 정신적인 스트레스가, 임신 후기에 지속한다면 병적인 두통을 의심할 수 있으므로 병원을 찾아 전문의의 진료를 받아보는 것이 좋다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000497121",
+            "search_query": "임신 중 두통 중기",
+            "terminate": false,
+            "text": "임신 중 두통은 비정상적인 반응이 아니고 중기에 들어서면 자연스럽게 증상이 사라지게 되니 크게 걱정할 필요는 없어요. 다만 중기 이후에도 두통이 계속 되고 정신적인 스트레스가 후기까지 지속된다면 병적인 두통일 수 있기 때문에 그때는 병원에 가서 전문의의 진료를 받아 보셔야 해요.",
+            "turn_id": "BK22015786-2",
+            "utterance_id": "BK22015786.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일단 자연스레 사라질 때까지 기다려 볼게요. 검색해보니 임신중독증일 때도 두통이 생길 수 있다던데, 임신 중독증이라면 두통 이외에 어떤 증상이 생기는 건가요?",
+            "turn_id": "BK22015786-3",
+            "utterance_id": "BK22015786.5"
+        },
+        {
+            "reference_date": "2021-08-29",
+            "reference_text": [
+                {
+                    "value": "임신중독증의 주요 증상은 심한 부종, 임산부의 혈압 상승(140/90mmHg 이상) 및 단백뇨 증상이 두드러지고 심각한 두통, 흐릿한 시야 또는 번쩍임, 상복부 통증, 구토 등이며 증상이 나타나면 반드시 전문의 치료를 받아야 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongdo.co.kr/web/view.php?key=20210825010005313",
+            "search_query": "임산부 두통 임신중독증",
+            "terminate": false,
+            "text": "임신중독증이라면 심한 부종과 혈압 상승, 단백뇨와 심한 두통, 흐릿한 시야 혹은 번쩍임, 상복부 통증 및 구토 등의 증상이 나타나요. 이때는 지체할 것 없이 바로 전문의의 치료를 받아야 한답니다.",
+            "turn_id": "BK22015786-3",
+            "utterance_id": "BK22015786.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전 두통 이외에 다른 증상은 없는데, 임신중독증 걱정은 하지 않아도 되겠네요. 그런데 아무리 머리가 아파도 두통약은 안 먹는 게 좋겠죠?",
+            "turn_id": "BK22015786-4",
+            "utterance_id": "BK22015786.7"
+        },
+        {
+            "reference_date": "2020-02-27",
+            "reference_text": [
+                {
+                    "value": "지속해서 생기는 두통을 참는 것은 오히려 스트레스를 유발하므로 약의 도움을 받는 것이 낫다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "임신 중 두통약을 복용하면 ‘태아에게 나쁜 영향을 미치지는 않을까?’ 하고 걱정하는 경우가 많지만, 임산부가 먹어도 안전한 약을 선택한 뒤, 정확한 용법과 용량을 지킨다면 태아와 임산부의 건강 모두 지킬 수 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000497121",
+            "search_query": "임신 중 두통약",
+            "terminate": false,
+            "text": "지속적인 두통을 참는 것은 스트레스가 될 수 있으니 약의 도움을 받는 것도 좋아요. 임신 중 두통약 복용은 태아에게 안 좋은 영향이 있을 거라 걱정하기도 하지만, 임산부가 먹어도 되는 약을 정확한 용법과 용량을 지켜 먹는다면 임산부와 태아 모두에게 아무런 문제가 없답니다.",
+            "turn_id": "BK22015786-4",
+            "utterance_id": "BK22015786.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "약을 먹어도 문제가 없는 거구나, 그럼 약국에 가서 어떤 약을 달라고 하면 될까요?",
+            "turn_id": "BK22015786-5",
+            "utterance_id": "BK22015786.9"
+        },
+        {
+            "reference_date": "2020-02-27",
+            "reference_text": [
+                {
+                    "value": "해열진통제 중 임산부가 복용해도 안전한 성분으로는 ‘아세트아미노펜’으로, 권장량의 아세트아미노펜을 섭취했을 때는 유산이나 태아의 결함에 영향을 끼치지 않는다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "미국 식품의약처(FDA)에서 권고하는 아세트아미노펜의 하루 최대 복용 가능 용량은 4,000mg이며, 단 다른 약물에도 많이 함유되어 있기 때문에 복용 전 의사나 약사에게 상담받을 것을 권한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000497121",
+            "search_query": "임신 중 두통약 아세트아미노펜",
+            "terminate": false,
+            "text": "임산부가 복용해도 안전한 해열진통제 성분으로는 아세트아미노펜이 있어요. 미국 식품의약처인 FDA에서는 아세트아미노펜 하루 최대 복용 가능 용량을 4,000mg로 권고하고 있는데요. 권장량의 아세트아미노펜을 복용했을 때는 유산이나 태아의 결함에 영향이 없으니 걱정하지 않으셔도 돼요. 다만 이 성분은 다른 약물에도 많이 들어 있기 때문에 복용하기 전 의사나 약사에게 상담을 꼭 받아 주셔야 한답니다.",
+            "turn_id": "BK22015786-5",
+            "utterance_id": "BK22015786.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어요. 두통이 시작되면 머리가 조이는 느낌이 나는데 이 증상에 좋은 지압법 같은 건 없을까요?",
+            "turn_id": "BK22015786-6",
+            "utterance_id": "BK22015786.11"
+        },
+        {
+            "reference_date": "2017-04-03",
+            "reference_text": [
+                {
+                    "value": "일반적으로 임신부가 경험하는 가장 흔한 두통으로는 긴장성 두통과 편두통이 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "긴장성 두통은 머리 양측이 조이는 듯하거나 뒷머리나 뒷목을 짓누르는 듯한 증상을 호소한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "보통 임신 일삼분기까지 많이 발생하며 목 뒤쪽에 차가운 찜질을 하거나 이마에 두통이 발생할 경우 관자놀이를 마사지 해주면 도움이 된다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jemin.com/news/articleView.html?idxno=441177",
+            "search_query": "임산부 긴장성두통 마사지",
+            "terminate": false,
+            "text": "임산부에게 나타나는 두통은 보통 긴장성 두통과 편두통이 있는데요. 머리가 조이는 느낌과 뒷목, 뒷머리를 짓누르는 증상이 나타나는 것은 긴장성 두통이에요. 이런 경우에는 목 뒤쪽을 차갑게 찜질해 주거나 이마 쪽 두통 발생 시 관자놀이 마사지를 해 주면 두통이 완화된답니다.",
+            "turn_id": "BK22015786-6",
+            "utterance_id": "BK22015786.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘부터 마사지와 찜질을 꼭 해볼게요. 임신 사실을 알고 나서 바로 커피를 끊었는데요. 카페인을 마시면 두통이 조금 나아지지 않을까 하는 생각이 드는데 어떤가요?",
+            "turn_id": "BK22015786-7",
+            "utterance_id": "BK22015786.13"
+        },
+        {
+            "reference_date": "2019-08-12",
+            "reference_text": [
+                {
+                    "value": "강 원장은 “아세트아미노펜 계열의 진통제도 두통에 일시적으로 도움이 될 수는 있지만, 충분한 수면시간을 가지도록 노력하고 피곤하고 졸릴 때는 잠시 낮잠을 자는 것도 좋은 방법이며 규칙적인 운동이 도움이 된다”고 말하며 “커피를 즐겨 마시다가 임신 후 카페인 섭취를 끊은 경우라면 선호하는 커피 한 잔 정도는 마시는 것 또한 도움이 될 수 있다”고 조언했다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000474246",
+            "search_query": "임산부 두통 커피",
+            "terminate": false,
+            "text": "임신 전 커피를 즐겨 마시던 산모가 임신 후 커피를 끊은 경우라면 좋아하는 커피 한잔 정도는 마시는 것도 두통 완화에 도움이 될 수 있어요.",
+            "turn_id": "BK22015786-7",
+            "utterance_id": "BK22015786.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 연하게 한 잔만 마셔볼게요. 입덧이 끝나서 이것저것 잘 챙겨 먹고 있기는 한데, 어떤 음식을 먹어야 두통에 도움이 될까요?",
+            "turn_id": "BK22015786-8",
+            "utterance_id": "BK22015786.15"
+        },
+        {
+            "reference_date": "2020-02-27",
+            "reference_text": [
+                {
+                    "value": "식사를 거르는 등 영양상태가 불균형해지면 대뇌에 필요한 에너지가 부족해져 두통으로 이어지기 쉽다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 임신 기간에는 되도록 공복을 피해야 두통이 생기지 않는다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "균형 있는 영양을 섭취할 수 있도록 노력하고 신선한 과일과 채소, 양질의 단백질을 충분히 섭취한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000497121",
+            "search_query": "임신 중 두통 영양 섭취",
+            "terminate": false,
+            "text": "식사를 하지 않아 영양상태가 불균형해지면 대뇌에서 필요로 하는 에너지가 부족해지므로 두통이 생길 수 있어요. 특히나 임신 중에는 되도록 공복이 없어야 두통이 생기지 않는답니다. 그러므로 균형 잡힌 영양을 섭취 할 수 있도록 챙겨 먹고, 신선한 과일과 채소, 양질의 단백질을 섭취 할 수 있도록 노력해야 해요.",
+            "turn_id": "BK22015786-8",
+            "utterance_id": "BK22015786.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "골고루 잘 챙겨 먹으면 두통도 어느새 좋아지겠죠? 하루빨리 두통에서 벗어나고 싶어요.",
+            "turn_id": "BK22015786-9",
+            "utterance_id": "BK22015786.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼요. 잘 쉬고 잘 먹고 가벼운 운동까지 해 주시면 분명 도움이 될 거예요.",
+            "turn_id": "BK22015786-9",
+            "utterance_id": "BK22015786.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "말씀하신 대로 오늘부터 당장 실행에 옮겨볼게요. 전 그럼 산책하러 나가볼게요. 오늘 시간 내주셔서 감사해요.",
+            "turn_id": "BK22015786-10",
+            "utterance_id": "BK22015786.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요. 오늘 날씨도 좋은데 따스한 햇빛 받으며 천천히 산책해 보시길 바랄게요. 그럼 건강 잘 챙기시고 다음에 또 봬요.",
+            "turn_id": "BK22015786-10",
+            "utterance_id": "BK22015786.20"
+        }
+    ]
+}

@@ -1,0 +1,347 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015596",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015596",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제사를 지내는 법을 한 번도 배워본 적이 없는데, 요즘 궁금해지더라. 차례상에 올리는 지방에 관해서 정해진 규칙 같은 게 있어?",
+            "turn_id": "BK22015596-1",
+            "utterance_id": "BK22015596.1"
+        },
+        {
+            "reference_date": "2022-09-10",
+            "reference_text": [
+                {
+                    "value": "명절 차례상에 올리는 지방은 폭 5~6cm, 길이 20~22cm가량의 종이에 한자로 쓰면 된다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "원칙은 한자로 쓰는 것이지만 최근에는 한글로 적는 경우도 많아지고 있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.cbci.co.kr/news/articleView.html?idxno=432663",
+            "search_query": "차례상 지방 종이",
+            "terminate": false,
+            "text": "우선, 종이의 폭은 5cm에서 6cm, 길이는 20cm에서 22cm 정도여야 하고, 거기에 한자로 쓰면 돼. 하지만 요즘은 한글로 적는 경우도 많아.",
+            "turn_id": "BK22015596-1",
+            "utterance_id": "BK22015596.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 요즘에는 한글로 많이 쓰는 구나. 그럼 지방에는 뭘 써야 하는 거야?",
+            "turn_id": "BK22015596-2",
+            "utterance_id": "BK22015596.3"
+        },
+        {
+            "reference_date": "2022-09-10",
+            "reference_text": [
+                {
+                    "value": "지방에는 고인을 모신다는 뜻의 '나타날 현(顯)'자를 맨 위에 쓴다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이어 제사를 지내는 사람(제주)과의 관계, 조상의 직위, 이름을 적고 마지막에 신위(神位)를 적는다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.cbci.co.kr/news/articleView.html?idxno=432663",
+            "search_query": "지방쓰는 법",
+            "terminate": false,
+            "text": "나타날 현자를 맨 위에 써. 고인을 모신다는 뜻으로 말이야. 그 후에는 제주와의 관계, 조상의 직위와 이름을 쓰고 마지막으로 신위를 쓰면 돼.",
+            "turn_id": "BK22015596-2",
+            "utterance_id": "BK22015596.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "용어가 다 낯설어. 그럼 제사의 마지막 절차는 뭐야?",
+            "turn_id": "BK22015596-3",
+            "utterance_id": "BK22015596.5"
+        },
+        {
+            "reference_date": "2022-09-07",
+            "reference_text": [
+                {
+                    "value": "신위를 원래의 자리로 모시며 지방은 태운다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "제례음식을 제상에서 내린다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "자손들이 음식을 나누어 먹으며 조상의 유덕(遺德)을 기린다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ksmnews.co.kr/default/index_view_page.php?idx=393637&part_idx=243",
+            "search_query": "제사 절차",
+            "terminate": false,
+            "text": "신위를 원래 자리로 옮긴 뒤, 지방을 태워. 그리고 제사상에서 음식을 내린 다음에 자손들이 음식을 나누어 먹으면 끝이야.",
+            "turn_id": "BK22015596-3",
+            "utterance_id": "BK22015596.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마지막이 음식을 나눠 먹는 거구나. 그럼 제사상에 올라가는 음식은 어떤 규칙으로 놓으면 돼?",
+            "turn_id": "BK22015596-4",
+            "utterance_id": "BK22015596.7"
+        },
+        {
+            "reference_date": "2022-10-03",
+            "reference_text": [
+                {
+                    "value": "보통 5열로 상을 차리는데, 신위가 있는 쪽을 1열로 보면, 1열은 식사류인 밥, 국 등이 오르고, 2열은 제사상의 주요리가 되는 구이, 전 등이 오르고, 3열에는 그다음 될 만한 부요리인 탕 등이 올라가며, 4열에는 나물, 김치, 포 등 밑반찬류, 5열에는 과일과 과자 등 후식에 해당하는 것들이 올라간다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lecturernews.com/news/articleView.html?idxno=108473",
+            "search_query": "제사 상차림",
+            "terminate": false,
+            "text": "보통 상차림은 5열이야. 신위와 가장 가까운 쪽을 1열로 할 때, 1열은 밥과 국을 포함한 식사류, 2열은 구이나 전 같은 주요리, 3열은 부요리라고 할 수 있는 탕 등이 올라가고, 4열에는 밑반찬, 5열은 후식을 올리면 돼.",
+            "turn_id": "BK22015596-4",
+            "utterance_id": "BK22015596.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "듣기만 해도 복잡하네. 왼쪽, 오른쪽 같은 방향이나 색깔도 중요하다고 들었는데, 정말 그런 규칙도 있어?",
+            "turn_id": "BK22015596-5",
+            "utterance_id": "BK22015596.9"
+        },
+        {
+            "reference_date": "2022-09-10",
+            "reference_text": [
+                {
+                    "value": "마지막으로 5열은 ‘조율이시’로 왼쪽부터 대추, 밤, 배, 곶감 순서를 지켜 놓고, ‘홍동백서’로 붉은 과일은 동쪽, 흰 과일은 서쪽에 놓는다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news2day.co.kr/article/20220908500198",
+            "search_query": "제사 상차림",
+            "terminate": false,
+            "text": "5열에 그런 규칙이 있어. 조율이시라고 해서 왼쪽부터 대추, 밤, 배, 곶감을 놓아야 해. 또, 붉은 과일은 동쪽, 흰 과일은 서쪽에 놓아야 하는데, 이게 홍동백서라는 거야.",
+            "turn_id": "BK22015596-5",
+            "utterance_id": "BK22015596.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조율이시, 홍동백서, 이것만 기억해두면 될까. 혹시 제사상에 올리면 안되는 음식도 있어?",
+            "turn_id": "BK22015596-6",
+            "utterance_id": "BK22015596.11"
+        },
+        {
+            "reference_date": "2022-09-10",
+            "reference_text": [
+                {
+                    "value": "예로부터 삼치나 갈치, 꽁치 등 이름이 ‘치’자로 끝나는 생선은 흔하다 해서 차례상에 올리지 않는다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "과일 중에는 복숭아와 같이 털이 있는 건 올리지 않고, 차례 음식에는 향신료를 사용하지 않는다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news2day.co.kr/article/20220908500198",
+            "search_query": "제사 음식 금지",
+            "terminate": false,
+            "text": "몇 가지 있어. 치자로 끝나는 생선, 예를 들어 삼치, 갈치, 꽁치 같은 건 흔하다는 이유로 차례상에 올리지 않아. 또, 털이 있는 과일도 올리지 않고, 향신료를 쓰면 안 돼.",
+            "turn_id": "BK22015596-6",
+            "utterance_id": "BK22015596.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "흔한 생선은 안 된다니, 귀한 음식만 올려야 되나 보네. 그런데 왜 복숭아는 차례상에 올리면 안 되는 거야?",
+            "turn_id": "BK22015596-7",
+            "utterance_id": "BK22015596.13"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "복숭아가 귀신을 쫒는 힘이 있다는 점 때문에 제사상에 올리면 안된다는 설이 있지만 이는 중국에서 유래한 도교적 풍습 때문이다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ccdailynews.com/news/articleView.html?idxno=2149858",
+            "search_query": "차례상 복숭아",
+            "terminate": false,
+            "text": "복숭아가 귀신을 쫒는다는 설 때문인데, 사실 그건 중국에서 들어온 도교적 풍습이야.",
+            "turn_id": "BK22015596-7",
+            "utterance_id": "BK22015596.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 속설이 있는 줄은 처음 알았어, 재밌네. 그럼 제사는 보통 몇 시에 지내?",
+            "turn_id": "BK22015596-8",
+            "utterance_id": "BK22015596.15"
+        },
+        {
+            "reference_date": "2022-10-03",
+            "reference_text": [
+                {
+                    "value": "기제사는 전통적으로는 조상이 돌아가신 날의 첫 새벽(새벽 0시 직후)에 지냈다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "차례의 경우 명절의 오전 시간에 지내는 것이 보통이다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lecturernews.com/news/articleView.html?idxno=108473",
+            "search_query": "제사 시간",
+            "terminate": false,
+            "text": "전통적으로 기제사는 새벽 0시 직후에 지냈고, 차례는 대부분 명절 오전에 지내.",
+            "turn_id": "BK22015596-8",
+            "utterance_id": "BK22015596.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "새벽에 지냈다니, 정말 대단한 정성인 것 같아. 그래도 요즘은 시대에 맞게 제사를 간소화하는 추세라던데, 실제로 그래?",
+            "turn_id": "BK22015596-9",
+            "utterance_id": "BK22015596.17"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "오늘(5일) 성균관은 전을 부치느라 더는 고생하지 말라는 것과 음식 가짓수는 최대 9개면 족하다는 방안을 전했습니다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1004725247",
+            "search_query": "제사상 간소화",
+            "terminate": false,
+            "text": "맞아, 지난 9월 5일 성균관은 음식 가짓수가 9개면 충분하다는 방안을 전했어. 음식을 만드느라 고생할 필요가 없다는 뜻도 함께 말이야.",
+            "turn_id": "BK22015596-9",
+            "utterance_id": "BK22015596.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "절대 바뀌지 않을 것 같던 제사 문화도 변하는구나. 오늘 덕분에 이것저것 많이 알게 됐어. 난 그만 가봐야 하는데, 다음에 만나서 더 얘기하자.",
+            "turn_id": "BK22015596-10",
+            "utterance_id": "BK22015596.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 됐다면 다행이네. 나중에 만나서 더 얘기해보자, 잘 가!",
+            "turn_id": "BK22015596-10",
+            "utterance_id": "BK22015596.20"
+        }
+    ]
+}

@@ -1,0 +1,343 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22017842",
+        "name": "2022 한국어 블렌더봇 데이터 BK22017842",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이가 태어난 지 엊그제 같은데 벌써 이가 나려고 하는 것 같아요.",
+            "turn_id": "BK22017842-1",
+            "utterance_id": "BK22017842.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아기들이 쑥쑥 자라는 거 보면 정말 예쁘고 신기하죠.",
+            "turn_id": "BK22017842-1",
+            "utterance_id": "BK22017842.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 신기해요. 그나저나 이가 나기 전에 유아용 칫솔 사놔야 하는데 혹시 추천할만한 제품 있으세요?",
+            "turn_id": "BK22017842-2",
+            "utterance_id": "BK22017842.3"
+        },
+        {
+            "reference_date": "2022-07-07",
+            "reference_text": [
+                {
+                    "value": "동아제약의 파트너사인 조르단 코리아는 친환경 유아용 칫솔 ‘그린클린 베이비’를 출시했다고 밝혔다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이번에 선보인 그린클린 베이비는 0~2세용 칫솔 ‘조르단 스텝1’의 친환경 버전이다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.babytimes.co.kr/news/articleView.html?idxno=58714",
+            "search_query": "조르단 유아용 칫솔",
+            "terminate": false,
+            "text": "아직 갓난아이니까 0~2세를 위한 그린클린 베이비 유아용 칫솔이 괜찮겠네요. 그린클린 베이비 제품은 조르단 스텝1의 친환경 버전으로 동아제약의 파트너 회사인 조르단 코리아에서 내놓은 제품이에요.",
+            "turn_id": "BK22017842-2",
+            "utterance_id": "BK22017842.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 완전 유아 전용 제품이군요. 그린클린의 바탕이 된다는 스텝1은 어떤 제품인지 궁금하네요.",
+            "turn_id": "BK22017842-3",
+            "utterance_id": "BK22017842.5"
+        },
+        {
+            "reference_date": "2022-07-06",
+            "reference_text": [
+                {
+                    "value": "조르단 스텝1은 부드러운 칫솔모와 치발기 형태 손잡이가 특징이며 닐슨 소매지수 서비스를 통해 한국 온·오프라인 시장의 어린이 칫솔 카테고리에 대해 지난 2020년 10월부터 2021년 9월까지 닐슨 IQ코리아가 조사한 PCV(Product Class Value)기준 국내 어린이 칫솔 판매 부분 1위로, 국민 어린이 칫솔로 불리며 사랑받고 있다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.youthdaily.co.kr/news/article.html?no=105030",
+            "search_query": "조르단 스텝1 특징",
+            "terminate": false,
+            "text": "조르단 스텝1은 손잡이가 치발기 형태로 되어 있고, 부드러운 칫솔모를 사용하는 게 특징인 제품이에요. 닐슨 IQ코리아가 지난 2020년 10월부터 2021년 9월까지 PCV기준으로 시행한 조사에서 스텝1이 한국 온라인, 오프라인 시장의 어린이 칫솔 카테고리에서 국내 어린이 칫솔 판매 부분 1위를 했어요. 그 정도로 대중화된 제품이죠.",
+            "turn_id": "BK22017842-3",
+            "utterance_id": "BK22017842.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이미 어린이 칫솔로 대중화되어 있는 제품에 친환경적 요소를 입힌 건가 보네요. 이번에 그린클린 제품에 추가된 친환경적 요소들은 구체적으로 어떤 것들이 있어요?",
+            "turn_id": "BK22017842-4",
+            "utterance_id": "BK22017842.7"
+        },
+        {
+            "reference_date": "2022-07-07",
+            "reference_text": [
+                {
+                    "value": "그린클린 베이비는 조르단 스텝 1의 제품력을 유지하면서 재생 플라스틱 핸들과 피마자 오일에서 추출한 BIO-BASED(친환경 식물성) 칫솔모, 재생용지로 만들어진 포장재로 지속 가능한 환경까지 생각했다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.babytimes.co.kr/news/articleView.html?idxno=58714",
+            "search_query": "조르단 그린클린 베이비 환경",
+            "terminate": false,
+            "text": "그린클린 베이비는 조르단 스텝 1의 품질을 변함없이 유지하면서 친환경적 요소들을 추가했는데 칫솔모를 피마자 오일에서 추출한 친환경 식물성으로 제조하고 핸들은 재생 플라스틱으로 만들었어요. 거기에, 포장재들은 재생 용지로 만들어서 지속 가능한 환경까지 생각한 제품이에요.",
+            "turn_id": "BK22017842-4",
+            "utterance_id": "BK22017842.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "칫솔모와 핸들, 포장재까지 환경을 많이 고려해서 제작했군요. 회사에서는 환경에 좋은 재료를 사용했다고 할 수 있지만 모두 그대로 믿을 수는 없잖아요. 그린클린 베이비가 어린이가 사용해도 안전한 제품인지 공인된 증명 같은 게 있나요?",
+            "turn_id": "BK22017842-5",
+            "utterance_id": "BK22017842.9"
+        },
+        {
+            "reference_date": "2022-07-07",
+            "reference_text": [
+                {
+                    "value": "또한, 어린이 제품 안전 특별법에 따라 인체에 무해한 제품임을 입증하는 국가통합인증마크(KC)를 획득했다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.babytimes.co.kr/news/articleView.html?idxno=58714",
+            "search_query": "조르단 그린클린 베이비 국가통합인증마크",
+            "terminate": false,
+            "text": "그렇죠, 안전성을 회사에서 말한 그대로 믿기는 어렵지요. 그린클린 베이비 제품은 KC라는 국가통합인증마크를 획득했어요. 이 마크는 어린이 제품 안전 특별법에 따라서 인체에 무해한 제품임을 입증하는 표시에요.",
+            "turn_id": "BK22017842-5",
+            "utterance_id": "BK22017842.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나라에서 인증하는 마크를 받았으니 어느 정도 안심은 되겠네요. 그런데, 2세가 넘어간 뒤에 사용할 수 있는 어린이 칫솔도 조르단에 있나요?",
+            "turn_id": "BK22017842-6",
+            "utterance_id": "BK22017842.11"
+        },
+        {
+            "reference_date": "2021-08-23",
+            "reference_text": [
+                {
+                    "value": "영유아용 칫솔 스텝라인은 0~2세용 ‘스텝1’, 3~5세용 ‘스텝2’, 6~9세용 ‘스텝3’로 구성됐다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "3가지 제품 모두 칫솔모 가운데 색깔 표식을 통해 영유아 시기별 적정 치약 사용량을 알 수 있다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.viva100.com/main/view.php?key=20210823010005897",
+            "search_query": "조르단 스텝 칫솔",
+            "terminate": false,
+            "text": "그럼요, 어린이용 칫솔은 3가지 스텝 라인으로 구성되어 있어요. 스텝1은 0~2세의 영유아용 칫솔이고, 스텝2는 3~5세를 위한 제품군, 스텝3은 6~9세를 대상으로 하고 있어요. 3가지 제품 모두 영유아 시기별로 치약 양이 얼마큼 적정한지 칫솔모 가운데에 색깔로 표식을 해 놨어요.",
+            "turn_id": "BK22017842-6",
+            "utterance_id": "BK22017842.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "2세 이후 어린이 칫솔 라인이 있어서 익숙하게 다음 단계로 넘어갈 수 있겠어요. 치약을 너무 많이 하면 안 되니까 표식을 해놓았다니 아이디어가 좋네요. 혹시 조르단에서 어린이용 치약도 나오는지 궁금하네요.",
+            "turn_id": "BK22017842-7",
+            "utterance_id": "BK22017842.13"
+        },
+        {
+            "reference_date": "2019-08-22",
+            "reference_text": [
+                {
+                    "value": "이번 선보인 조르단 어린이 치약은 아이의 성장 단계별 치아 특성을 고려해 '조르단 스텝1(딸기향)', '조르단 스텝2(포도향)' 2가지 종류로 구성됐다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/242669",
+            "search_query": "조르단 코리아 어린이 치약",
+            "terminate": false,
+            "text": "조르단에는 어린이 치약도 있어요. 치약은 2가지 종류로 구성되어 있는데 딸기향의 조르단 스텝1과 포도향의 조르단 스텝2에요. 제품들은 아이의 성장 시기별로 나타나는 치아의 특성을 고려해서 만들어졌어요.",
+            "turn_id": "BK22017842-7",
+            "utterance_id": "BK22017842.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "치약도 2단계로 나누어져 있군요? 먼저 사용하게 될 스텝1의 특징에 대해서 좀 더 설명해주실래요?",
+            "turn_id": "BK22017842-8",
+            "utterance_id": "BK22017842.15"
+        },
+        {
+            "reference_date": "2019-08-22",
+            "reference_text": [
+                {
+                    "value": "조르단 스텝1은 충치 예방에 효과가 있는 불소 성분이 500ppm 들어 있으며, 양치 후 스스로 치약을 뱉을 수 있는 5세 이하 아이에게 사용을 권장한다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/242669",
+            "search_query": "조르단 스텝1 치약",
+            "terminate": false,
+            "text": "조르단 스텝1은 양치질 한 뒤에 아이 스스로 치약을 뱉을 수 있는 5세 이하의 아이에게 적합해요. 불소 성분이 500ppm 포함되어 있어서 아이의 충치를 예방하는데 효과가 있어요.",
+            "turn_id": "BK22017842-8",
+            "utterance_id": "BK22017842.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "치약을 뱉을 수 있을 능력이 되어야 비로서 치약 사용을 하는 게 좋군요. 조르단 스텝2 치약은 또 어떤 특징이 있는지 궁금해요.",
+            "turn_id": "BK22017842-9",
+            "utterance_id": "BK22017842.17"
+        },
+        {
+            "reference_date": "2019-08-22",
+            "reference_text": [
+                {
+                    "value": "조르단 스텝2는 6세 이상 어린이가 사용하기에 좋으며 불소 1000ppm이 함유돼 있다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/242669",
+            "search_query": "조르단 스텝2 치약",
+            "terminate": false,
+            "text": "조르단 스텝2에는 불소가 1000ppm 포함되어 있고 6세를 넘긴 어린이가 사용하는 게 좋아요.",
+            "turn_id": "BK22017842-9",
+            "utterance_id": "BK22017842.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스텝2에는 불소가 2배나 더 들어가는군요. 아이가 금방 자라나는 것 같은데 단계별로 있는 칫솔과 치약 정보 알려주어서 감사해요.",
+            "turn_id": "BK22017842-10",
+            "utterance_id": "BK22017842.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "감사는요, 아이 성장에 따라서 적정한 것 잘 선택해서 관리 잘해 주세요.",
+            "turn_id": "BK22017842-10",
+            "utterance_id": "BK22017842.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래야죠, 제가 아이 때문에 먼저 일어나 봐야 할 것 같아요. 다음에 뵐게요.",
+            "turn_id": "BK22017842-11",
+            "utterance_id": "BK22017842.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 조심히 가시고 다음에 뵈어요.",
+            "turn_id": "BK22017842-11",
+            "utterance_id": "BK22017842.22"
+        }
+    ]
+}

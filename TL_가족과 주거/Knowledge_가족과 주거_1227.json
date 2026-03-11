@@ -1,0 +1,381 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008095",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008095",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 이번에 이사를 하려고 하는데 뭐부터 준비해야 할지 모르겠어요. 아직 이사 날짜도 못 정했거든요. 혹시 좀 도와주실 수 있을까요?",
+            "turn_id": "BK22008095-1",
+            "utterance_id": "BK22008095.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼요! 저도 대학 시절부터 자취를 하느라 이사를 많이 다녀서 이제는 베테랑이에요. 어떤 부분이 가장 궁금하신가요?",
+            "turn_id": "BK22008095-1",
+            "utterance_id": "BK22008095.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이사하려고 이삿짐 업체를 알아보고 있는데 포장이사인지 반 포장이사인지 일반이사인지 선택해야 하더라구요. 차이가 뭔지 알려주세요.",
+            "turn_id": "BK22008095-2",
+            "utterance_id": "BK22008095.3"
+        },
+        {
+            "reference_date": "2020-03-12",
+            "reference_text": [
+                {
+                    "value": "포장이사란 짐을 싸는 것 부터 시작해 짐 풀기, 운송, 청소까지 업체에 모두 맡기는 것이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "반포장이사는 큰 짐은 업체에 맡기고 작은 짐은 고객이 직접 포장하는 이사 방식이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "한편 일반이사는 업체에 맡기지 않고 본인이 직접 짐을 싸고 정리까지 맡기는 방법이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 짐이 별로 없거나 혼자 사는 사람, 직접 짐을 포장하고 정리해도 괜찮은 사람들이 많이 선택하는 방식이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=256595",
+            "search_query": "포장이사와 일반이사 차이",
+            "terminate": false,
+            "text": "포장이사는 처음 짐을 싸는 것부터 이사할 집에 짐을 옮기고 짐을 풀고 정리하는 것까지 업체에서 다 해주는 것을 말해요. 두 번째로 반 포장 이사는 큰 짐들은 업체에서 다 처리해주고 작은 짐들은 본인이 직접 포장하고 정리하는 방식이에요. 마지막으로 일반이사는 본인이 직접 모든 짐을 포장해서 정리하고 업체는 운송만 해주기 때문에 혼자 사는 사람이나 짐이 별로 없는 사람, 그리고 직접 짐을 포장하고 정리하는 것이 좋은 사람들이 선택하죠.",
+            "turn_id": "BK22008095-2",
+            "utterance_id": "BK22008095.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요! 그럼 포장이사로 이삿짐센터를 예약해야겠어요. 그런데 예상 비용이 날짜에 따라 천차만별인데 왜 이렇게 차이가 나는 건가요?",
+            "turn_id": "BK22008095-3",
+            "utterance_id": "BK22008095.5"
+        },
+        {
+            "reference_date": "2014-10-24",
+            "reference_text": [
+                {
+                    "value": "▶ 이사 수요가 많은 이사날짜는 피한다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "손 없는 날이나 주말에는 이사수요는 많고 공급은 부족하다 보니 이삿짐센터에서 부르는 게 값이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이러한 손 없는 날에는 30%이상 더 비용을 추가하는 업체들도 많다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyeonggi.com/852130",
+            "search_query": "이삿짐센터 비용",
+            "terminate": false,
+            "text": "쉽게 말해서 수요가 많은 날은 비용이 비싸진다고 보면 돼요. 손 없는 날이나 주말 같은 경우는 수요는 많은데 공급이 부족하기 때문에 부르는 게 값이 되는 거죠. 이런 손 없는 날에는 비용을 30퍼센트 이상 추가하는 업체도 많아요. 그래서 수요가 많은 이사 날짜는 피하는 것이 좋아요.",
+            "turn_id": "BK22008095-3",
+            "utterance_id": "BK22008095.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비싼 날은 전부 수요가 많은 날이었군요. 참고해서 날짜를 고르도록 할게요. 그런데 혹시 이사비용은 선불로 지불하는 건가요?",
+            "turn_id": "BK22008095-4",
+            "utterance_id": "BK22008095.7"
+        },
+        {
+            "reference_date": "2019-04-19",
+            "reference_text": [
+                {
+                    "value": "이사비용은 선불보다는 후불로 선택 하는게 좋다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아직 비용을 지불한 상태가 아니기 때문에 만족 할 때 까지 성실히 포장이사서비스를 진행하기 때문이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "선불로 잔금을 내면 무책임한 서비스를 제공할 수도 있으니 후불로 잔금을 지불 하는게 좋다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongdo.co.kr/web/view.php?key=20190419001328015",
+            "search_query": "이사비용 선불",
+            "terminate": false,
+            "text": "이사비용을 지불할 때는 선불보다는 후불로 지불하시는 것을 추천해요. 그러면 아직 비용을 못 받았기 때문에 만족할 때까지 성실하게 이사 서비스를 제공해 주거든요. 만약 선불로 잔금을 다 지불하면 업체는 무책임하게 서비스를 제공할 수도 있어요.",
+            "turn_id": "BK22008095-4",
+            "utterance_id": "BK22008095.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "무조건 후불로 지불해야하겠군요. 아 그리고 새집으로 이사 가기 전에 입주 청소를 맡기려고 하는데 언제쯤으로 예약하는 것이 좋을까요?",
+            "turn_id": "BK22008095-5",
+            "utterance_id": "BK22008095.9"
+        },
+        {
+            "reference_date": "2022-03-17",
+            "reference_text": [
+                {
+                    "value": "입주청소가 필요하다고 판단된다면 이사 2~3일 전에 입주청소를 마칠 수 있도록 한다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "간혹 하루 만에 락스 냄새 등이 안 빠지는 경우가 있기 때문에 이틀 정도의 시간을 두는 게 좋다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=58533",
+            "search_query": "입주청소",
+            "terminate": false,
+            "text": "입주 청소를 한다면 이사 가기 2~3일 전에는 청소가 끝날 수 있도록 예약하는 것이 좋아요. 간혹 하루 만에 락스 냄새 등이 안 빠지는 경우가 있어서 여유 있게 이틀 정도는 시간을 두는 게 좋거든요.",
+            "turn_id": "BK22008095-5",
+            "utterance_id": "BK22008095.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요! 그리고 이사할 때 벽걸이 에어컨 설치는 오래 기다려야 한다고 해서 그냥 창문형 에어컨을 사서 설치하려고 하거든요. 창문형 에어컨 괜찮은가요?",
+            "turn_id": "BK22008095-6",
+            "utterance_id": "BK22008095.11"
+        },
+        {
+            "reference_date": "2022-07-08",
+            "reference_text": [
+                {
+                    "value": "창문형 에어컨은 실내기와 실외기가 붙어있어 벽을 뚫어(타공) 실외기를 연결하기 어려운 집도 적절한 크기의 창문만 있다면 간편하게 설치할 수 있어 인기다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "개인이 직접 설치하기도 쉬워 이사가 잦아도 설치에 대한 부담이 덜한 편이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 소음이 일반 에어컨보다 심해 이웃들의 항의가 잇따르면서 '벽간 소음' 얘기까지 나오고 있다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "창문형 에어컨은 소음이 크고 후면에서 높은 온도의 열기를 방출해 이웃에게 피해를 줄 수 있다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ggilbo.com/news/articleView.html?idxno=921537",
+            "search_query": "창문형 에어컨",
+            "terminate": false,
+            "text": "실내기와 실외기가 붙어있는 창문형 에어컨은 벽을 뚫을 필요가 없기 때문에 적당한 크기의 창문만 있으면 간편하게 설치가 가능하죠. 설치가 쉽기 때문에 이사를 많이 하더라도 설치에 대한 부담은 덜해요. 하지만 일반 에어컨에 비해 소음이 심해서 이웃들의 민원이 많은 편이고, 에어컨 뒷면에서 높은 온도의 열기를 방출하기 때문에 이웃들이 불편해할 수 있어요.",
+            "turn_id": "BK22008095-6",
+            "utterance_id": "BK22008095.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 오래 기다리더라도 그냥 벽걸이 에어컨으로 설치해야겠어요. 아 그리고 제가 이사 가면서 버려야 할 가구들이 좀 많은데 가구는 어떻게 버려야 하나요?",
+            "turn_id": "BK22008095-7",
+            "utterance_id": "BK22008095.13"
+        },
+        {
+            "reference_date": "2021-03-02",
+            "reference_text": [
+                {
+                    "value": "대형폐기물은 배출 전 배출자의 주소, 성명, 폐기물 명, 수량, 규격 등을 동 주민센터 또는 구 홈페이지에 배출 신고하고 집 앞에 납부 필증(스티커)을 붙여서 버려야 한다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongdo.co.kr/web/view.php?key=20210302010000733",
+            "search_query": "가구 폐기 스티커",
+            "terminate": false,
+            "text": "가구와 같은 대형폐기물은 배출하기 전에 배출자의 주소와 이름, 버리는 제품명, 수량과 규격 등을 주민센터나 구 홈페이지에 신고하고 납부 필증 스티커를 붙여서 집 앞에 버려야 해요.",
+            "turn_id": "BK22008095-7",
+            "utterance_id": "BK22008095.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 전자제품도 똑같이 스티커를 사서 붙인 다음에 버리면 될까요? 전자제품도 안 쓰는 것이 좀 있어서 버리고 가야 하거든요.",
+            "turn_id": "BK22008095-8",
+            "utterance_id": "BK22008095.15"
+        },
+        {
+            "reference_date": "2020-04-23",
+            "reference_text": [
+                {
+                    "value": "전자제품의 경우 상태가 좋은 것은 중고거래를 활용해 판매할 수도 있지만, 다시 쓰기 어려울 정도로 노후화된 것은 환경부의 ‘폐가전 무료 수거 서비스’를 이용하면 수수료 없이 처분할 수 있다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "'폐가전 방문수거 배출예약시스템 홈페이지’에서 ‘수거 예약하기’를 클릭하거나, 콜센터 전화 상담을 통해 신청할 수 있다",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.viva100.com/main/view.php?key=20200419010006540",
+            "search_query": "이사 전자제품 처분",
+            "terminate": false,
+            "text": "전자제품들은 상태가 좋다면 중고 거래를 이용해서 판매하는 것도 하나의 방법이죠. 하지만 오래되거나 낡았다면 환경부에서 하는 폐가전 무료 수거 서비스를 이용하면 돼요. 홈페이지에서 수거 예약하기를 클릭하거나 콜센터에 전화로 신청할 수 있는데 이를 이용하면 수수료 없이 처분할 수 있어요.",
+            "turn_id": "BK22008095-8",
+            "utterance_id": "BK22008095.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요! 마지막으로 이사 가기 전에 미리 챙겨야 할 부분들이 있을까요? 이삿짐센터랑 입주 전 청소, 에어컨 설치나 가구 버리는 건 정리가 됐는데 제가 놓친 게 있나 해서요.",
+            "turn_id": "BK22008095-9",
+            "utterance_id": "BK22008095.17"
+        },
+        {
+            "reference_date": "2020-03-12",
+            "reference_text": [
+                {
+                    "value": "기존에 사용하던 정수기나 TV, 인터넷, 우편물 등은 이사할 곳으로 주소를 이전하고, 이전 설치 신청을 해두는 것이 좋다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "신청 당일 바로 설치가 가능하지 않기 때문에 미리 설치 신청을 하고, 이사 당일로 설치 일정을 잡는 것이 현명하다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한, 도시가스, 수도요금, 전기요금은 이사 당일 정산을 하는 경우가 대부분이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=307420",
+            "search_query": "이사 준비 체크리스트",
+            "terminate": false,
+            "text": "기존에 쓰고 있던 정수기나 tv, 인터넷이나 우편물 등은 이사할 곳으로 주소를 미리 이전해두고 이전 설치 신청을 해놓는 것이 좋아요. 신청 당일날 바로 설치가 불가능하기 때문에 미리 설치 신청을 해야 하고 바로 쓸 수 있게 이사 당일로 설치 일정을 잡는 것이 좋아요. 그리고 도시가스나 수도 요금, 전기요금은 이사 당일에 정산을 하고 오면 돼요.",
+            "turn_id": "BK22008095-9",
+            "utterance_id": "BK22008095.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와 이사 가기 전에 챙겨야 할 것들이 생각보다 많았네요. 오늘 많은 정보 주셔서 정말 감사합니다.",
+            "turn_id": "BK22008095-10",
+            "utterance_id": "BK22008095.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아니에요. 이사에 대해서는 전문가나 다름없으니 준비하시다가 모르는 것이 생기면 언제든 연락주세요. 조심히 들어가세요.",
+            "turn_id": "BK22008095-10",
+            "utterance_id": "BK22008095.20"
+        }
+    ]
+}

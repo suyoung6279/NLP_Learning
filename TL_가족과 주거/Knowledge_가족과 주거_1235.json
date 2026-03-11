@@ -1,0 +1,355 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008144",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008144",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "서울시에서 청년들을 위해 새로운 주거 관련 정책을 발표했다고 하던데 무슨 내용인가요?",
+            "turn_id": "BK22008144-1",
+            "utterance_id": "BK22008144.1"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "서울시는 광역 지자체 최초로 '청년 이사비 지원사업'을 시작하며 올해 이사한 청년 약 5천명에게 이사비를 지원한다고 5일 밝혔다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220904019400004?input=1195m",
+            "search_query": "서울 이사지원",
+            "terminate": false,
+            "text": "올해 이사한 청년 약 5천명에게 이사비를 지원하는 청년 이사비 지원 사업을 광역 지자체 최초로 서울시에서 시작한다고 지난 5일에 발표했어요.",
+            "turn_id": "BK22008144-1",
+            "utterance_id": "BK22008144.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "서울시에서 이사비를 지원해주다니 좋네요. 근데 왜 이런 정책을 만든 건가요?",
+            "turn_id": "BK22008144-2",
+            "utterance_id": "BK22008144.3"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "상대적으로 주거환경이 열악하면서도 이사 빈도가 높은 청년들의 부담을 덜어주기 위한 방안이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.bizwatch.co.kr/article/real_estate/2022/09/05/0007",
+            "search_query": "서울 이사빈도 청년",
+            "terminate": false,
+            "text": "이 방안은 상대적으로 주거환경이 열악하면서도 이사 빈도가 높은 청년들의 부담을 덜어주기 위해서 만들어졌어요.",
+            "turn_id": "BK22008144-2",
+            "utterance_id": "BK22008144.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 아까 5천명에게 지원한다고 하셨는데 얼마의 금액을 지원하는 건가요?",
+            "turn_id": "BK22008144-3",
+            "utterance_id": "BK22008144.5"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "서울시가 저소득 무주택 청년 5,000명에게 최대 40만 원의 이사비를 지원한다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이사비는 차량 대여비와 운반비, 포장비 등 실제 이사에 소요된 비용이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2022090514390003206?did=NA",
+            "search_query": "서울 40만원 이사비",
+            "terminate": false,
+            "text": "서울시에서는 최대 40만원의 차량 대여비, 운반비 등의 이사비를 5천명의 저소득 무주택 청년에게 지원하기로 했어요.",
+            "turn_id": "BK22008144-3",
+            "utterance_id": "BK22008144.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "40만원이면 생각보다 큰 금액을 지원해주네요. 근데 5천명보다 지원자가 많을 경우에는 어떻게 지원자를 선발하나요?",
+            "turn_id": "BK22008144-4",
+            "utterance_id": "BK22008144.7"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "시는 연령․소득․거주 요건 등을 충족하는 신청자가 계획한 인원을 초과할 경우 사회적 약자와 주거취약계층 청년을 우선 선정하고, 이후 소득수준이 낮은 순으로 선정할 계획이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newspim.com/news/view/20220905000187",
+            "search_query": "서울 이사비 우선선발",
+            "terminate": false,
+            "text": "만약 자격 요건을 충족하는 신청자가 5천명을 초과할 경우에는 주거취약계층과 사회적 약자를 우선 선발한 후에 소득수준이 낮은 순으로 선정할 계획이라고 밝혔어요.",
+            "turn_id": "BK22008144-4",
+            "utterance_id": "BK22008144.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사회적 약자와 소득수준을 고려해서 우선순위를 선발하는군요. 그럼 이사비 지원 정책의 지원 대상은 어떻게 되나요?",
+            "turn_id": "BK22008144-5",
+            "utterance_id": "BK22008144.9"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "신청대상은 올해 1월 1일 이후 서울시로 전입하거나 서울시 내에서 이사한 만 19∼39세(주민등록등본상 출생연도 1982∼2003년) 청년 가구입니다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.kbs.co.kr/news/view.do?ncd=5549213&ref=A",
+            "search_query": "서울 이사비 지원 신청대상",
+            "terminate": false,
+            "text": "서울시 내에서 이사했거나 올해 1월 1일 이후에 서울시로 전입한 만 19세에서 39세 청년 가구가 신청 대상이에요.",
+            "turn_id": "BK22008144-5",
+            "utterance_id": "BK22008144.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 이런 정책에는 소득 기준이랑 거주에 대한 조건도 있던데 이사비 지원정책에는 없는 건가요?",
+            "turn_id": "BK22008144-6",
+            "utterance_id": "BK22008144.11"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "기준 중위소득 120% 이하, 무주택 청년 세대주·임차인이 대상이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 밖에도 임차보증금 5000만원 이하, 월세 40만원 이하의 건물에 거주해야 접수가 가능하다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202209050949496284",
+            "search_query": "이사비지원 소득조건",
+            "terminate": false,
+            "text": "아니에요. 접수가 가능하게 하려면 기준 중위소득 120% 이하이고 무주택 세대주거나 임차인 청년, 임차보증금 5천만원 이하와 월세 40만원 이하의 건물에 거주한다는 조건을 만족해야 해요.",
+            "turn_id": "BK22008144-6",
+            "utterance_id": "BK22008144.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "월세 40만원 이하인 사람들만 가능하다면 아쉽지만 저는 불가능하겠네요.",
+            "turn_id": "BK22008144-7",
+            "utterance_id": "BK22008144.13"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "이번 지원사업에는 월세가 40만원이 넘더라도 주택임대차보호법에 따른 전월세 환산율 3.75%를 적용한 전세금 환산액과 월세액을 합산한 금액이 55만원 이하인 경우에도 신청할 수 있다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/area/capital/1057518.html",
+            "search_query": "월세 40만원 넘으면 이사비 지원",
+            "terminate": false,
+            "text": "월세 40만원이 넘어도 신청할 수 있는데 그 방법을 알려드릴 거예요. 주택임대차보호법에 따른 전월세 환산율을 3.75퍼센트를 적용한 전월세 환산액과 월세액을 합산했을 때 금액이 55만원 이하라면 월세 40만원이 넘어도 신청할 수 있어요.",
+            "turn_id": "BK22008144-7",
+            "utterance_id": "BK22008144.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전월세 환산액 계산해봐야겠네요. 말씀해주신 조건들 말고도 신청 대상에서 제외되는 조건이 있나요?",
+            "turn_id": "BK22008144-8",
+            "utterance_id": "BK22008144.15"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "주택을 보유하거나 올해 1월 1일 이후 서울시 전입 및 서울시 내에서 이사 후 다른 기관에서 이사비 지원을 받은 경우나 부모 소유 건물에 임차한 경우, 국민기초생활수급자로 주거급여를 받은 청년 등은 제외된다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://go.seoul.co.kr/news/newsView.php?id=20220906012047&wlog_tag3=naver",
+            "search_query": "이사비 지원 불가 대상",
+            "terminate": false,
+            "text": "제외되는 조건으로는 올해 1월 1일 이후에 서울시에 전입 혹은 서울시 내에서 이사 후에 다른 기관에서 이사비 지원을 받은 경우. 주택 소유자, 국민기초생활 수급자로 주거급여를 받은 청년 등이 있어요.",
+            "turn_id": "BK22008144-8",
+            "utterance_id": "BK22008144.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "주거급여를 받은 자도 제외되는군요. 그럼 이사비 지원은 아닌데 제가 얼마 전에 전세보증금 반환 보증료 지원을 받았는데 이런 경우에는 신청할 수 있는 건가요?",
+            "turn_id": "BK22008144-9",
+            "utterance_id": "BK22008144.17"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "그러나 국민기초생활수급자로 생계·의료·교육 급여 수급자는 신청 가능하며, 서울시 청년수당·청년월세, 청년 전세보증금반환보증료 지원을 받은 청년은 신청할 수 있다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatoday.co.kr/view.php?key=20220905010002395",
+            "search_query": "청년월세 서울이사지원",
+            "terminate": false,
+            "text": "청년 전세보증금반환보증료 지원받은 청년은 신청할 수 있어요. 이 밖에도 나라에서 지원금을 받았지만 신청이 가능한 자는 국민기초생활수급자로 생계, 의료, 교육 급여 수급자, 서울시 청년수당 수령자 등이 있어요.",
+            "turn_id": "BK22008144-9",
+            "utterance_id": "BK22008144.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 저는 전월세 환산액과 월세액을 합산했을 때 55만원만 넘지 않으면 가능하겠네요. 신청은 어디에서 할 수 있나요?",
+            "turn_id": "BK22008144-10",
+            "utterance_id": "BK22008144.19"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "오는 6일~26일 3주간 ‘청년몽땅정보통’을 통해서 온라인 신청을 받아 11월에 지원대상을 선정·발표하고, 12월까지 이사비를 지원한다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=02210726632457168&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "청년몽땅정보통 이사지원",
+            "terminate": false,
+            "text": "신청은 청년몽땅정보통에서 이번 달 6일에서 26일까지 지원할 수 있어요. 그리고 11월에 지원대상을 선정해 발표하고 12월까지 이사비를 지급할 예정이에요.",
+            "turn_id": "BK22008144-10",
+            "utterance_id": "BK22008144.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이미 신청받고 있겠군요. 덕분에 좋은 정보 알게 되었네요.",
+            "turn_id": "BK22008144-11",
+            "utterance_id": "BK22008144.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "언제든지 필요한 정보나 궁금한 점이 있으면 연락해주세요. 안녕히 계세요.",
+            "turn_id": "BK22008144-11",
+            "utterance_id": "BK22008144.22"
+        }
+    ]
+}

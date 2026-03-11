@@ -1,0 +1,398 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014557",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014557",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0010"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "추석 차례상은 기본적으로 과일, 고기, 생선 등으로 가까운 곳에서 쉽게 구할 수 있는 음식재료가 자연스레 쓰여질 것 같아요.",
+            "turn_id": "BK22014557-1",
+            "utterance_id": "BK22014557.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 그래서 지역별로 차례에 올리는 음식이 다릅니다.",
+            "turn_id": "BK22014557-1",
+            "utterance_id": "BK22014557.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지역마다 특색있는 차례상에 대해 알려주세요.",
+            "turn_id": "BK22014557-2",
+            "utterance_id": "BK22014557.3"
+        },
+        {
+            "reference_date": "44809.0",
+            "reference_text": [
+                {
+                    "value": "서울을 중심으로 한 수도권 지역은 상대적으로 해산물이 덜 쓰인다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 보관이 쉬운 건어물이 차례상에 자주 오른다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nongmin.com/nature/NAT/FOD/362385/view",
+            "search_query": "수도권 차례상",
+            "terminate": false,
+            "text": "서울을 중심으로 한 수도권은 다른 지방에 비해 해산물이 덜 올라가요. 대신 보관이 쉬운 건어물이 자주 올라갑니다.",
+            "turn_id": "BK22014557-2",
+            "utterance_id": "BK22014557.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어떤 건어물이 차례상에 올라가나요?",
+            "turn_id": "BK22014557-3",
+            "utterance_id": "BK22014557.5"
+        },
+        {
+            "reference_date": "44809.0",
+            "reference_text": [
+                {
+                    "value": "통북어가 올라가는 이유는 간단하다. 명태는 머리가 크고 알을 많이 낳는 생선으로 정평이 나 있다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그래서 다산과 풍요를 상징한다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nongmin.com/nature/NAT/FOD/362385/view",
+            "search_query": "차례상 명태",
+            "terminate": false,
+            "text": "머리가 크고 알을 많이 낳는 생선으로 알려진 통북어가 차례상에 올라갑니다. 알을 많이 낳는다는 것은 풍요와 다산의 상징이니까요.",
+            "turn_id": "BK22014557-3",
+            "utterance_id": "BK22014557.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 집에도 통북어가 빠지지 않고 올라가요. 강원도쪽은 어떨지 궁금해요.",
+            "turn_id": "BK22014557-4",
+            "utterance_id": "BK22014557.7"
+        },
+        {
+            "reference_date": "44592.0",
+            "reference_text": [
+                {
+                    "value": "강원도는 산지가 많아 감자, 고구마, 나물을 활용한 음식들이 많다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "메밀전·감자전을 비롯해 무와 배추로 만든 적을 올리기도 한다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "버섯류의 부침이나 전을 주로 놓았으며 송이버섯은 소적으로 구워 제사를 지내기도 한다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "바다와 가까운 동해와 강릉 지역의 차레상은 명태포와 생선전을 주로 놓는다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongboo.com/news/articleView.html?idxno=363524027",
+            "search_query": "강원도 차례상",
+            "terminate": false,
+            "text": "강원도는 산간지대가 많아 감자, 고구마, 나물을 이용한 음식이 많습니다. 메밀전과 감자전, 무전, 배추전을 올리기도 하고, 버섯류의 부침이나 적도 올립니다. 바다와 가까운 동해와 강릉 지역은 명태포와 생선전을 차례상에 올립니다.",
+            "turn_id": "BK22014557-4",
+            "utterance_id": "BK22014557.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "충청도는 내륙이라 어떨지 궁금해요.",
+            "turn_id": "BK22014557-5",
+            "utterance_id": "BK22014557.9"
+        },
+        {
+            "reference_date": "44592.0",
+            "reference_text": [
+                {
+                    "value": "충청도는 인접 지역이 많아 다양한 제물을 올린다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "내륙지역은 배추전, 무적 등을 올리기도 하며 호남과 인접한 지역은 낙지, 말린 홍어, 서대묵, 병어, 가자미 등을 올린다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "경북과 가까운 곳은 건어물 종류를 차례상에 올리기도 하는데, 대구포·상어포·오징어·가오리포·피문어 등이 놓여졌다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongboo.com/news/articleView.html?idxno=363524027",
+            "search_query": "충청도 차례상",
+            "terminate": false,
+            "text": "충청도는 인접 지역이 많아 다양한 음식을 올려요. 내륙지역은 배추전, 무적 등을, 호남과 인접한 지역은 낙지, 말린 홍어, 서대묵, 가자미, 병어 등을, 경북과 가까운 곳은 건어물을 차례상에 올립니다.",
+            "turn_id": "BK22014557-5",
+            "utterance_id": "BK22014557.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 고향이 충청도인데 매번 닭이 차례상에 올라와요. 닭을 올리는 이유가 있나요?",
+            "turn_id": "BK22014557-6",
+            "utterance_id": "BK22014557.11"
+        },
+        {
+            "reference_date": "44809.0",
+            "reference_text": [
+                {
+                    "value": "◆충청, 윤기 뽐내는 ‘닭 한마리’=닭은 새벽을 깨우는 가축이다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그래서인지 선조들은 밝은 기운을 전해주는 상서로운 동물로 여겼다.",
+                    "value_time": "44823.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "충청도에서는 푹 삶은 닭 한마리가 차례상에서 중요한 위치를 차지한다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nongmin.com/nature/NAT/FOD/362385/view",
+            "search_query": "충청도 차례상",
+            "terminate": false,
+            "text": "충청도에서는 닭이 새벽을 깨워 밝은 기운을 전해주는 상서로운 동물이라고 여겨 푹 삶은 닭 한 마리를 제사상에 올립니다.",
+            "turn_id": "BK22014557-6",
+            "utterance_id": "BK22014557.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 이유가 있었군요. 그렇다면 전라도 지역 차례상은 어떨까요?",
+            "turn_id": "BK22014557-7",
+            "utterance_id": "BK22014557.13"
+        },
+        {
+            "reference_date": "44592.0",
+            "reference_text": [
+                {
+                    "value": "전라도는 기본적인 차례상에 홍어를 더하는 것으로 알려져 있다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 외에 가자미, 홍어, 병어 등이 올라가며 낙지나 꼬막 등을 올리기도 한다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongboo.com/news/articleView.html?idxno=363524027",
+            "search_query": "전라도 차례상",
+            "terminate": false,
+            "text": "전라도는 기본적으로 홍어가 차례상에 올라갑니다. 그 외에 가자미, 병어, 낙지, 꼬막 등을 올리기도 합니다.",
+            "turn_id": "BK22014557-7",
+            "utterance_id": "BK22014557.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "홍어가 올라간다니 매우 이색적입니다.",
+            "turn_id": "BK22014557-8",
+            "utterance_id": "BK22014557.15"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "말씀대로 우리나라 차례상은 지역색이 강하게 나타납니다.",
+            "turn_id": "BK22014557-8",
+            "utterance_id": "BK22014557.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 경상도는 어떨지 궁금해요.",
+            "turn_id": "BK22014557-9",
+            "utterance_id": "BK22014557.17"
+        },
+        {
+            "reference_date": "44592.0",
+            "reference_text": [
+                {
+                    "value": "경남은 해산물을 제사상에 주로 올린다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "생선을 올리거나 조개 등 어패류를 올리기도 한다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "경북은 참상어사를 구워 적으로 놓는다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongboo.com/news/articleView.html?idxno=363524027",
+            "search_query": "경상도 차례상",
+            "terminate": false,
+            "text": "경북은 구운 참상어사를 적으로 올리고, 경남은 해산물을 주로 차례상에 올리는데 생선이나 어패류가 올라가기도 합니다.",
+            "turn_id": "BK22014557-9",
+            "utterance_id": "BK22014557.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제주도는 다른 지역과 많이 다를 것 같은데 어떤가요?",
+            "turn_id": "BK22014557-10",
+            "utterance_id": "BK22014557.19"
+        },
+        {
+            "reference_date": "44592.0",
+            "reference_text": [
+                {
+                    "value": "육지와 떨어져 있는 제주도는 타지에서는 나지 않는 특산물이 많다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "옥돔, 전복 등을 차례상에 올리기도 하고 최근에는 파인애플, 귤 등 과일을 올리는 경우도 있다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongboo.com/news/articleView.html?idxno=363524027",
+            "search_query": "제주도 차례상",
+            "terminate": false,
+            "text": "제주도는 제주도에서 많이 나는 옥돔, 전복 등을 차례상에 올리고, 최근에는 파인애플, 귤 등을 올리는 경우도 있습니다.",
+            "turn_id": "BK22014557-10",
+            "utterance_id": "BK22014557.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전국의 차례상을 정보 유익했어요.",
+            "turn_id": "BK22014557-11",
+            "utterance_id": "BK22014557.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되셨다니 저도 기쁩니다.",
+            "turn_id": "BK22014557-11",
+            "utterance_id": "BK22014557.22"
+        }
+    ]
+}

@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018926",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018926",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 강아지 친구랑 오늘 같이 산책하기로 했는데, 그 친구가 피부병에 걸려서 못 나온다는 거야. 말라세지아 피부병이라는데 뭔지 알고 있어?",
+            "turn_id": "BK22018926-1",
+            "utterance_id": "BK22018926.1"
+        },
+        {
+            "reference_date": "44714.0",
+            "reference_text": [
+                {
+                    "value": "여름이 오면 기승하는 말라세지아 피부병은 말라세지아균(Malassezia pachydermatis) 원인이 되어 발생하는 피부질환이다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "말라세지아균은 눈사람 모양의 병균으로, 반려견의 피부에 살고 있다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "반려견이 건강할 때는 큰 문제가 되자 않지만, 환경이 습해지고 알레르기나 면역력 저하 등 모종의 이유로 균이 증식하면 피부에 문제를 일으킨다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000703309",
+            "search_query": "반려견 말라세지아 피부병",
+            "terminate": false,
+            "text": "말라세지아 피부병은 여름 때면 기승을 부리는 말라세지아균이 발단돼서 생기는 피부병이야. 말라세지아균은 개의 피부에 사는 눈사람 모양의 균이야. 개가 튼튼할 때는 심한 문제가 안 되지만, 면역력 저하, 알레르기, 환경이 습해지는 등 모종의 이유로 균이 늘어나면 피부에 말썽을 일으켜.",
+            "turn_id": "BK22018926-1",
+            "utterance_id": "BK22018926.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "원래 가지고 있는 균이구나. 면역이 약해지면 발현한다니 신기한데. 말라세지아 피부병은 개의 어느 부위에 잘 생겨?",
+            "turn_id": "BK22018926-2",
+            "utterance_id": "BK22018926.3"
+        },
+        {
+            "reference_date": "44714.0",
+            "reference_text": [
+                {
+                    "value": "주로 귀, 겨드랑이, 사타구나, 항문 주변, 발가락 사이 등 피부가 접히고 피지가 많이 분비되지 않으며 습해지기 쉬운 곳에 자주 발생한다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000703309",
+            "search_query": "반려견 말라세지아피부병 부위",
+            "terminate": false,
+            "text": "대부분 발가락 사이, 귀, 겨드랑이, 항문 주변, 사타구니 등 습해지기 쉬운 곳, 피지가 잔뜩 분비되지 않고, 피부가 접힌 곳에 잘 발병해.",
+            "turn_id": "BK22018926-2",
+            "utterance_id": "BK22018926.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 강아지도 피부가 접힌 부분을 체크해봐야겠다. 처음 들어보는 피부병이라 잘 알아 놔야겠어.",
+            "turn_id": "BK22018926-3",
+            "utterance_id": "BK22018926.5"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "예방을 위해서도 잘 알아 두는 게 좋지.",
+            "turn_id": "BK22018926-3",
+            "utterance_id": "BK22018926.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "피부병 걸린 강아지 친구는 푸들이던데. 이 피부병도 발생이 잘되는 견종이 있을까?",
+            "turn_id": "BK22018926-4",
+            "utterance_id": "BK22018926.7"
+        },
+        {
+            "reference_date": "44714.0",
+            "reference_text": [
+                {
+                    "value": "특히 코카 스파니엘, 푸들, 닥스훈트, 저먼 셰퍼드, 몰티즈 등의 품종은 말라세지아 피부병에 취약하다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한, 암컷보다 수컷에게서 말라세지아 피부병이 더 잘 나타난다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000703309",
+            "search_query": "반려견 말라세지아피부병 품종",
+            "terminate": false,
+            "text": "유난히 푸들, 몰티즈, 코카 스파니엘, 저먼 셰퍼드, 닥스훈트 등의 견종이 말라세지아 피부병에 약해. 또 수컷이 암컷에 비해 말라세지아 피부병이 더 잘 발생해.",
+            "turn_id": "BK22018926-4",
+            "utterance_id": "BK22018926.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 종에 따라 약한 애들이 있구나. 우리 강아지가 푸들 수컷인데 조심해야겠다. 말라세지아 피부병의 증상이 어떤 게 있어?",
+            "turn_id": "BK22018926-5",
+            "utterance_id": "BK22018926.9"
+        },
+        {
+            "reference_date": "44714.0",
+            "reference_text": [
+                {
+                    "value": "말라세지아 피부병이 발생하면 간지럽고 각질이 많아지며, 피부가 붉어진다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이외에도 병변에서 불쾌한 냄새가 난다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000703309",
+            "search_query": "반려견 말라세지아 피부병 발생",
+            "terminate": false,
+            "text": "말라세지아 피부병이 생기면 각질이 많아지고, 간지럽고, 피부가 붉어져. 그밖에 병변에서 거북한 냄새가 나.",
+            "turn_id": "BK22018926-5",
+            "utterance_id": "BK22018926.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 치료 시기를 놓쳐서 만성으로 진행되면 어떻게 돼?",
+            "turn_id": "BK22018926-6",
+            "utterance_id": "BK22018926.11"
+        },
+        {
+            "reference_date": "44714.0",
+            "reference_text": [
+                {
+                    "value": "만성화로 진행될 경우 병변이 검은색으로 침착되고 코끼리 피부처럼 두꺼워지고 거친 잔주름이 생기는 태선화가 나타난다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이러한 경우 치료를 해도 원래 피부로 돌아오기 힘들다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000703309",
+            "search_query": "반려견 말라세지아 피부병 만성화",
+            "terminate": false,
+            "text": "만성화로 발전될 경우 코끼리 피부처럼 두꺼워지고. 병변이 검게 침착되고, 거친 잔주름이 발생하는 태선화가 나타나. 이 경우 치료해도 본래 피부로 되돌아오기 어려워.",
+            "turn_id": "BK22018926-6",
+            "utterance_id": "BK22018926.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "치료가 늦으면 원래 피부로 돌아오기 어렵다니 무섭네. 말라세지아 피부병은 어떻게 치료해?",
+            "turn_id": "BK22018926-7",
+            "utterance_id": "BK22018926.13"
+        },
+        {
+            "reference_date": "44714.0",
+            "reference_text": [
+                {
+                    "value": "다행히도 적절한 치료를 받으면 말라세지아 피부병은 치료 결과가 좋은 질환이다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "치료 과정 또한 간단하다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "항균성 샴푸와 소독약, 연고 등으로 병변이 나타난 곳을 국소적으로 치료하면 1~2주 안에 질환이 눈에 띄게 호전된다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000703309",
+            "search_query": "반려견 말라세지아피부병 치료",
+            "terminate": false,
+            "text": "다행히도 말라세지아 피부병은 적합한 치료를 받으면 치료 결과가 좋은 병이야. 치료 과정도 단순한데 소독약, 연고, 항균성 샴푸 등으로 병변이 발생한 곳을 국소적으로 치유하면 1주에서 2주 안에 병이 눈에 띄게 나아져.",
+            "turn_id": "BK22018926-7",
+            "utterance_id": "BK22018926.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "치료가 어려운 병은 아니구나. 증상이 보이면 빨리 병원에서 치료받는 게 좋겠다. 말라세지아 피부병을 예방하는 방법도 있을까?",
+            "turn_id": "BK22018926-8",
+            "utterance_id": "BK22018926.15"
+        },
+        {
+            "reference_date": "44714.0",
+            "reference_text": [
+                {
+                    "value": "예방법은 반려견을 목욕시키거나 수영 후에 귀 세정제로 귀 청소를 깨끗하게 해주고 온몸의 물기를 잘 제거해 주면 된다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 말라세지아 균이 좋아하는 발가락 사이나 겨드랑이 등 피부가 접히고 습한 곳을 꼼꼼히 말려주는 것이 중요하다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000703309",
+            "search_query": "반려견 말라세지아피부병 예방법",
+            "terminate": false,
+            "text": "예방법은 수영한 이후나 개를 목욕시킨 후에 귀 세정제로 귀 청소를 깔끔하게 해주고, 전신의 물기를 잘 없애주면 돼. 말라세지아 균이 유난히 좋아하는 겨드랑이나 발가락 사이 등 습하고 피부가 접히는 곳을 세밀히 건조하는 것이 중요해.",
+            "turn_id": "BK22018926-8",
+            "utterance_id": "BK22018926.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "꼼꼼히 말리다 보면 피부가 건조해질 텐데. 피부가 건조하지 않게 말려주는 방법도 있을까?",
+            "turn_id": "BK22018926-9",
+            "utterance_id": "BK22018926.17"
+        },
+        {
+            "reference_date": "44714.0",
+            "reference_text": [
+                {
+                    "value": "조심해야 할 점은 드라이기의 따뜻한 바람을 너무 오래 쐬면 반려견의 피부가 건조해질 수 있다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 마른 수건 등으로 물기를 짜내고 미풍으로 말려주는 것이 좋다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000703309",
+            "search_query": "반려견 말라세지아균",
+            "terminate": false,
+            "text": "맞아, 드라이기의 뜨거운 바람을 매우 오래도록 쐬면 개의 피부가 메말라질 수 있어서 주의해야 해. 그래서 마른 수건 등으로 물기를 닦고 미풍으로 건조하는 것이 좋아.",
+            "turn_id": "BK22018926-9",
+            "utterance_id": "BK22018926.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그동안 따뜻한 바람에 말려줬는데 앞으로는 미풍으로 말려줘야겠다. 내일 강아지 수영장 가는 데 같이 갈래?",
+            "turn_id": "BK22018926-10",
+            "utterance_id": "BK22018926.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋지, 같이 가자. 집은 너무 더워. 빨리 덥고 습한 여름이 지나갔으면 좋겠다.",
+            "turn_id": "BK22018926-10",
+            "utterance_id": "BK22018926.20"
+        }
+    ]
+}

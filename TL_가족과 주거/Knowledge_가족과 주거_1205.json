@@ -1,0 +1,372 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007961",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007961",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내 친구 이번에 쌍둥이를 임신했대. 친구 아버지가 쌍둥이신데 이것도 유전인가?",
+            "turn_id": "BK22007961-1",
+            "utterance_id": "BK22007961.1"
+        },
+        {
+            "reference_date": "2022-05-09",
+            "reference_text": [
+                {
+                    "value": "쌍둥이 임신은 어느 정도 가족력이 있다고 보고 있으나 현실적으로 어느 대에 영향을 받아 쌍둥이가 태어날지는 추측할 수 없다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이런 가족력보다는 결혼 및 초산 연령이 늦어짐에 따라 자연임신보다는 보조생식술을 이용하는 경우가 많아지고 있는데 이 영향을 받아 쌍둥이의 탄생 비율이 높아지고 있는 실정이다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.beopbo.com/news/articleView.html?idxno=309276",
+            "search_query": "쌍둥이 유전",
+            "terminate": false,
+            "text": "쌍둥이 임신은 가족력이 어느 정도 반영된 거라고 볼 수도 있는데 사실 어느 대에 영향을 받아서 태어나는 건지 추측하기는 어려워. 오히려 가족력보다 보조생식술의 영향으로 쌍둥이가 태어나는 비율이 높아지는 거라고 할 수 있어.",
+            "turn_id": "BK22007961-1",
+            "utterance_id": "BK22007961.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "보조생식술이라면 난임 시술 얘기하는 거지? 난임 시술을 받으면 쌍둥이 임신 확률이 높아?",
+            "turn_id": "BK22007961-2",
+            "utterance_id": "BK22007961.3"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "지난해 태어난 아이 100명 중 5명은 쌍둥이인 것으로 나타났다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 역대 최대치로, 출산연령이 높아지면서 다태아 출산 확률이 높은 시험관 등 난임시술을 받는 부부가 많아진 영향으로 분석됐다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.seoul.co.kr/news/newsView.php?id=20220830006027&wlog_tag3=naver",
+            "search_query": "난임 쌍둥이",
+            "terminate": false,
+            "text": "그렇지, 2021년에 출생아 100명 중에 5명이 쌍둥이였거든. 이 수치는 역대 최대치인데 출산연령이 높아지니까 시험관 등의 난임 시술을 받는 부부가 많아서 그런 거라고 볼 수 있어. 시험관이 다태아 출산 확률이 높은 시술이거든.",
+            "turn_id": "BK22007961-2",
+            "utterance_id": "BK22007961.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시험관 시술이 쌍둥이 출산 가능성이 높구나. 그렇다면 한 해에 태어나는 쌍둥이는 몇 명이나 돼?",
+            "turn_id": "BK22007961-3",
+            "utterance_id": "BK22007961.5"
+        },
+        {
+            "reference_date": "2022-08-29",
+            "reference_text": [
+                {
+                    "value": "29일 통계청 출생통계에 따르면, 지난해 출생아 26만400명 중 다태아는 1만4천명으로 5.4%였다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다태아 중 쌍태아(두쌍둥이)가 1만3천600명으로 전체 출생아의 5.2%였다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "삼태아(세쌍둥이) 이상은 500명으로 전체 출생아의 0.2%였다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.goodnews1.com/news/articleView.html?idxno=412040",
+            "search_query": "쌍둥이 통계",
+            "terminate": false,
+            "text": "2021년에 26만 400명의 아이가 태어났는데 그중에 다태아는 5.4%인 1만 4천 명이었어. 1만 4천 명 중에 쌍태아 그러니까 두 쌍둥이는 1만 3천600명이었고, 세쌍둥이 이상은 500명이었는데 이는 2021년 출생아의 0.2%에 해당돼.",
+            "turn_id": "BK22007961-3",
+            "utterance_id": "BK22007961.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한 해에 태어나는 쌍둥이가 진짜 많구나. 내 친구 아버지는 이란성 쌍둥이라고 하셨는데 일란성과 이란성은 어떻게 다른 거야?",
+            "turn_id": "BK22007961-4",
+            "utterance_id": "BK22007961.7"
+        },
+        {
+            "reference_date": "2020-09-13",
+            "reference_text": [
+                {
+                    "value": "일란성은 난자 1개와 정자 1개가 만나 수정란이 반으로 쪼개지며 하나의 수정란이 2개가 된다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "때문에 얼굴, 행동, 성격까지 비슷하다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반면 이란성 쌍둥이는 2개의 난자와 2개의 정자가 만나 만들어지기 때문에 얼굴과 성격, 성별까지도 다르다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ggilbo.com/news/articleView.html?idxno=795247",
+            "search_query": "일란성 이란성",
+            "terminate": false,
+            "text": "이란성 쌍둥이는 난자 2개와 정자 2개가 만나서 만들어지는 거라 외모며 성격, 성별까지도 다를 수 있어. 반대로 일란성 쌍둥이는 1개의 난자와 1개의 정자가 만나서 하나의 수정란이 된 후 쪼개져서 2개로 나누어지는 거야. 그러니까 외모, 성격, 행동까지 비슷한 거고.",
+            "turn_id": "BK22007961-4",
+            "utterance_id": "BK22007961.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "쌍둥이라도 외모가 닮지 않은 경우가 있던데 이란성이라서 그랬나 보구나. 내 친구는 벌써부터 자연분만할 수 있을지 걱정하던데 내가 TV에서 보니까 네쌍둥이도 자연분만 가능하다고 했거든. 그러니 쌍둥이도 가능하지 않을까?",
+            "turn_id": "BK22007961-5",
+            "utterance_id": "BK22007961.9"
+        },
+        {
+            "reference_date": "2022-09-08",
+            "reference_text": [
+                {
+                    "value": "지난달 24일, 자연분만으로 네 쌍둥이가 태어나 전국 곳곳에서 축하 물결이 이어지고 있다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "제왕절개 수술로 다섯 쌍둥이가 태어난 적은 있지만, 자연분만을 통해 네 쌍둥이를 낳은 것은 국내에서 처음이다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.wikitree.co.kr/articles/787795",
+            "search_query": "네쌍둥이 다섯쌍둥이",
+            "terminate": false,
+            "text": "가능하지, 2022년 8월 24일에 네쌍둥이를 자연분만으로 출산한 산모가 있었거든. 다섯 쌍둥이를 제왕절개로 출산한 적은 있었는데 자연분만으로 4명의 쌍둥이를 낳은 건 국내 최초였어.",
+            "turn_id": "BK22007961-5",
+            "utterance_id": "BK22007961.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "근데 4명을 자연분만하다니 정말 대단하다. 그래도 생일이 같으니까 4명의 아이들의 생일파티를 한 번에 할 수 있어서 좋겠다. 난 우리 애들 각자 생일 챙겨주기 힘들거든.",
+            "turn_id": "BK22007961-6",
+            "utterance_id": "BK22007961.11"
+        },
+        {
+            "reference_date": "2022-01-03",
+            "reference_text": [
+                {
+                    "value": "미국에서 쌍둥이가 2022년 첫날 자정을 기준으로 15분 차이로 각각 태어나면서 출생일은 물론 출생연도까지 다른 쌍둥이 남매가 탄생했다고 2일(현지시간) 미국 피플지 등 외신이 보도했다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "미국 캘리포니아주 나티비다드 메디컬 센터에 따르면, 이 쌍둥이의 첫째 알프레도 안토니오 트루히요는 1월1일 자정 15분 전에 태어났으며, 둘째 아일린 욜란다 트루히요는 정확히 새해 자정에 태어났다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이로 인해 첫째 알프레도의 생일은 2021년 12월 31일이고, 둘째 아일린의 생일은 2022년 1월 1일이 됐다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25037856",
+            "search_query": "생일이 다른 쌍둥이",
+            "terminate": false,
+            "text": "쌍둥이라고 해도 생일이 다른 날일 수 있어. 실제로 2022년 1월 1일 자정을 기준으로 15분 차이로 태어난 쌍둥이 남매가 미국에서 탄생했었거든. 쌍둥이 중 첫째는 1월 1일 자정 15분 전에 태어났는데 둘째의 경우는 딱 1월 1일 자정에 태어났어. 그래서 2021년 12월 31일이 첫째의 생일, 2022년 1월 1일이 둘째의 생일이 되었잖아.",
+            "turn_id": "BK22007961-6",
+            "utterance_id": "BK22007961.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우와, 쌍둥이의 생일이 다르다니 너무 신기하다. 설마 아빠가 다른 쌍둥이도 존재하는 건 아니지?",
+            "turn_id": "BK22007961-7",
+            "utterance_id": "BK22007961.13"
+        },
+        {
+            "reference_date": "2022-09-08",
+            "reference_text": [
+                {
+                    "value": "지난 1997년 발표된 논문에서도 쌍둥이 친자확인 사례 1만3000건 중 단 1건에서 아버지가 다른 쌍둥이가 확인됐다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/world/view/2022/09/797960/",
+            "search_query": "아빠가 다른 쌍둥이",
+            "terminate": false,
+            "text": "1997년에 발표된 논문에서 아버지가 다른 쌍둥이의 사례가 보고된 적 있었어. 쌍둥이 친자확인 사례 1만 3000건 중에 단 1건이었지만 말이야.",
+            "turn_id": "BK22007961-7",
+            "utterance_id": "BK22007961.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세상에, 쌍둥이인데 아빠가 다를 수 있다니 믿기지 않을 만큼 신기하다.",
+            "turn_id": "BK22007961-8",
+            "utterance_id": "BK22007961.15"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 쌍둥이 탄생만큼이나 신기한 일들이 많은 것 같아.",
+            "turn_id": "BK22007961-8",
+            "utterance_id": "BK22007961.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 쌍둥이가 키울 땐 두 배로 힘들겠지만 나중에 열 배의 행복을 줄 거라고 생각해. 근데 쌍둥이 출산하면 육아휴직은 얼마나 할 수 있어?",
+            "turn_id": "BK22007961-9",
+            "utterance_id": "BK22007961.17"
+        },
+        {
+            "reference_date": "2021-12-03",
+            "reference_text": [
+                {
+                    "value": "우선 휴가의 경우 우선지원 대상기업은 최대 90일, 쌍둥이는 120일 사용 가능하며 대규모 기업은 최대 30일, 쌍둥이는 45일 사용할 수 있다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "‘우선지원 대상기업’은 상시 근로자 수가 일정 기준 이하의 기업으로 일반적으로 중소기업을 말한다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.womentimes.co.kr/news/articleView.html?idxno=54559",
+            "search_query": "쌍둥이 육아휴직제도",
+            "terminate": false,
+            "text": "본인이 근무하는 직장의 규모에 따라 휴가 일수가 조금씩 달라. 우선 지원 대상 기업은 일반적으로 중소기업을 말하는데 휴가를 최대 90일, 쌍둥이의 경우는 120일을 주게 되어있어. 그리고 대규모 기업의 경우는 최대 30일, 쌍둥이는 45일의 휴가를 사용할 수 있어.",
+            "turn_id": "BK22007961-9",
+            "utterance_id": "BK22007961.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "중소기업과 대규모 기업의 휴가 일수가 다르구나. 아무튼 내 친구가 몸조심해서 건강한 출산을 했으면 좋겠다.",
+            "turn_id": "BK22007961-10",
+            "utterance_id": "BK22007961.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 친구가 건강하게 출산할 수 있도록 함께 응원해 주자.",
+            "turn_id": "BK22007961-10",
+            "utterance_id": "BK22007961.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋아, 나는 그만 애들 재우러 가볼게. 다음에 또 대화 나누도록 하자, 안녕.",
+            "turn_id": "BK22007961-11",
+            "utterance_id": "BK22007961.21"
+        }
+    ]
+}

@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016167",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016167",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_nhn_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지를 여러 마리 기르는 친구가 제가 강아지를 기를 예정이라고 말하니 동물등록을 해야 한다고 하더라고요. 혹시 동물등록제가 생긴 이유는 뭔가요?",
+            "turn_id": "BK22016167-1",
+            "utterance_id": "BK22016167.1"
+        },
+        {
+            "reference_date": "2022-09-16",
+            "reference_text": [
+                {
+                    "value": "'동물등록제'는 동물의 보호, 유실·유기 방지, 질병의 관리, 공중위생상의 위해 방지 등을 위해 '동물보호법'에 따라 2008년에 도입됐다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatoday.co.kr/view.php?key=20220914010007640",
+            "search_query": "동물등록제",
+            "terminate": false,
+            "text": "네, 동물등록제는 동물의 보호와 유실, 유기를 방지하고 질병 관리, 공중위생상의 위해를 방지하기 위해 도입된 제도예요. 그나저나 강아지를 키우기로 결심하셨군요?",
+            "turn_id": "BK22016167-1",
+            "utterance_id": "BK22016167.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 가족들이 워낙 반대해서 못 키울 줄 알았는데 최근에 할머니를 모시게 되면서 너무 적적하실까 봐 키우게 됐어요. 그런데 동물등록제는 그냥 강아지를 키운다는 정보만 등록이 되는 건가요?",
+            "turn_id": "BK22016167-2",
+            "utterance_id": "BK22016167.3"
+        },
+        {
+            "reference_date": "2022-09-16",
+            "reference_text": [
+                {
+                    "value": "동물등록의 관리정보를 통해 소유자 성명·주민등록번호·전화번호·주소 등 소유자 정보와 동물의 등록번호·이름·품종·털 색깔·성별·중성화 여부·출생일 등을 파악할 수 있다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatoday.co.kr/view.php?key=20220914010007640",
+            "search_query": "동물등록 관리정보",
+            "terminate": false,
+            "text": "아뇨, 동물등록 시 소유자의 이름과 주민등록번호, 전화번호, 주소와 같은 소유자의 정보와 강아지의 등록번호, 이름, 품종, 털 색깔, 성별, 중성화 여부, 출생일까지도 관리 정보에 기록이 되고 있어요.",
+            "turn_id": "BK22016167-2",
+            "utterance_id": "BK22016167.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상당히 꼼꼼하게 기록을 하네요. 그래서 강아지를 잃어버려도 찾을 수 있는 거군요. 그런데 동물등록제는 어떤 동물이든 등록해야 하는 건가요?",
+            "turn_id": "BK22016167-3",
+            "utterance_id": "BK22016167.5"
+        },
+        {
+            "reference_date": "2022-09-16",
+            "reference_text": [
+                {
+                    "value": "'동물등록제'는 2개월령 이상 개 중 주택·준주택에서 기르는 개, 이밖에 장소에서 반려 목적으로 기르는 개를 대상으로 한다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatoday.co.kr/view.php?key=20220914010007640",
+            "search_query": "동물등록 반려견",
+            "terminate": false,
+            "text": "아뇨, 동물등록제는 2개월이 넘은 개를 대상으로 해요. 주택, 준주택 내에서 키우거나 그 밖의 장소에서 키우더라도 개를 반려 목적으로 기른다면 모두 대상이 되죠.",
+            "turn_id": "BK22016167-3",
+            "utterance_id": "BK22016167.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "2개월 이상이면 강아지 때도 등록이 되는 거군요? 그런데 등록하는 방식도 여러 개 같더라고요. 혹시 어떤 방식이 있는 건가요?",
+            "turn_id": "BK22016167-4",
+            "utterance_id": "BK22016167.7"
+        },
+        {
+            "reference_date": "2022-09-16",
+            "reference_text": [
+                {
+                    "value": "2개월령에 도달 또는 취득 후 30일 이내 개에게 무선전자식별장치를 체내(목덜미)에 삽입하는 내장형 방식 또는 목걸이 등으로 부착하는 외장형 방식 중 선택해 등록할 수 있다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이와 관련 무선전자식별장치를 동물 몸속에 삽입하는 내장형 등록 시 반드시 동물병원을 방문해야 한다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "단 무선전자식별장치를 외부에 부착하는 외장형의 경우 비대면으로 구매해 등록할 수 있다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatoday.co.kr/view.php?key=20220914010007640",
+            "search_query": "동물등록 무선전자식별장치",
+            "terminate": false,
+            "text": "무선전자식별장치를 목덜미에 삽입하는 내장형 방식과 목걸이와 같은 방식으로 부착하는 외장형 방식 두 가지가 있어요. 내장형 방식은 무선전자식별장치를 몸속에 넣는 만큼 무조건 동물병원에 방문해야 하고 외장형의 경우는 외부에 부착하는 방법이기 때문에 비대면으로도 구매해 등록할 수 있죠.",
+            "turn_id": "BK22016167-4",
+            "utterance_id": "BK22016167.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "꽤 복잡해 보였는데 두 가지가 다였군요? 그러면 비용이 발생하는지도 궁금해요.",
+            "turn_id": "BK22016167-5",
+            "utterance_id": "BK22016167.9"
+        },
+        {
+            "reference_date": "2022-09-16",
+            "reference_text": [
+                {
+                    "value": "동물등록 수수료는 최초 등록 시 내장형은 1만원, 외장형은 3000원이다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "단 내·외장형 무선식별장치 구매 금액은 별도이다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatoday.co.kr/view.php?key=20220914010007640",
+            "search_query": "동물등록 비용",
+            "terminate": false,
+            "text": "네, 등록 수수료와 무선식별장치 구매금액이 발생해요. 등록에 드는 비용만 말씀드리자면 내장형은 1만 원이고 외장형은 3천 원이니 참고하세요.",
+            "turn_id": "BK22016167-5",
+            "utterance_id": "BK22016167.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내장형이 동물병원까지 가야 하는 만큼 비용이 조금 더 비싸네요. 그럼 등록은 동물병원에서만 할 수 있는 건가요?",
+            "turn_id": "BK22016167-6",
+            "utterance_id": "BK22016167.11"
+        },
+        {
+            "reference_date": "2022-09-16",
+            "reference_text": [
+                {
+                    "value": "처음 동물을 등록 할 때 직접 시·군·구청을 방문하거나 동물병원, 펫숍, 동물보호센터 등 동물등록대행자를 통해 등록 할 수 있다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatoday.co.kr/view.php?key=20220914010007640",
+            "search_query": "동물등록 동물병원",
+            "terminate": false,
+            "text": "아뇨, 처음 동물을 등록할 때는 동물병원 말고도 시, 군, 구청을 방문하시거나 펫숍, 동물보호센터 등의 동물등록대행자를 통해 하실 수 있어요.",
+            "turn_id": "BK22016167-6",
+            "utterance_id": "BK22016167.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 다양한 곳에서 신청이 가능하군요? 그런데 한번 등록하고 나면 제 정보가 바뀌거나 혹은 장치를 잃어버린다거나 해도 다시 등록은 안 해도 되는 건가요?",
+            "turn_id": "BK22016167-7",
+            "utterance_id": "BK22016167.13"
+        },
+        {
+            "reference_date": "2022-09-16",
+            "reference_text": [
+                {
+                    "value": "소유자가 바뀐 경우, 소유자의 성명·주소·전화번호가 변경된 경우, 등록동물이 죽은 경우, 잃어버린 동물을 다시 찾은 경우, 무선식별장치의 분실, 파손으로 인한 재발급이 필요한 경우 등의 변경 신고의 기한은 30일 이내이다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatoday.co.kr/view.php?key=20220914010007640",
+            "search_query": "동물등록 정보변경",
+            "terminate": false,
+            "text": "아뇨, 소유자의 정보가 바뀐 경우나 무선식별장치가 망가지거나 잃어버리게 되어 재발급이 필요해 바꾼 경우라면 30일 이내에 다시 신고하셔야 해요.",
+            "turn_id": "BK22016167-7",
+            "utterance_id": "BK22016167.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 아무래도 같은 장치가 아니니 등록을 하는 게 맞군요. 그런데 이렇게 정보가 변경된 경우는 처음 등록할 때처럼 직접 방문해야만 정보를 수정할 수 있나요?",
+            "turn_id": "BK22016167-8",
+            "utterance_id": "BK22016167.15"
+        },
+        {
+            "reference_date": "2022-09-16",
+            "reference_text": [
+                {
+                    "value": "이와 관련 주소·전화번호 등 소유자 정보 또는 동물의 유실·사망 등 동물등록정보를 변경할 때는 대면·비대면 방식으로 신고할 수 있다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatoday.co.kr/view.php?key=20220914010007640",
+            "search_query": "동물등록 정보변경 비대면",
+            "terminate": false,
+            "text": "아뇨, 물론 대면 방식으로도 신고가 가능하지만 주소, 전화번호 같은 소유자 정보나 동물등록정보 변경은 비대면 방식으로도 신고가 가능하답니다.",
+            "turn_id": "BK22016167-8",
+            "utterance_id": "BK22016167.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 정보 변경은 비대면으로도 가능하다니 좋네요. 오늘 이렇게 동물등록제에 대해 알려주셔서 감사해요. 처음부터 어떻게 해야 하는지 답답했거든요.",
+            "turn_id": "BK22016167-9",
+            "utterance_id": "BK22016167.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도움이 됐다니 정말 다행이에요. 그럼 강아지 키우시면서 궁금한 게 생기시면 또 연락 주세요.",
+            "turn_id": "BK22016167-9",
+            "utterance_id": "BK22016167.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이고, 이렇게 도움을 주신 것도 감사한데 또 세심하게 챙겨주시다니 정말 항상 감사하네요. 그럼 다음에 또 연락드릴게요.",
+            "turn_id": "BK22016167-10",
+            "utterance_id": "BK22016167.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 그럼 오늘 조심해서 들어가세요.",
+            "turn_id": "BK22016167-10",
+            "utterance_id": "BK22016167.20"
+        }
+    ]
+}

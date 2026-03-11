@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014945",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014945",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저 뭐 좀 여쭤봐도 될까요? 저희 부모님께서 귀농하시게 돼서 저 혼자 지낼 집을 알아봐야 하는데 모아 둔 돈도 없고 막막하기만 해서요.",
+            "turn_id": "BK22014945-1",
+            "utterance_id": "BK22014945.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 고민이 많겠네요. 뭐든 궁금한 게 있으면 물어보세요.",
+            "turn_id": "BK22014945-1",
+            "utterance_id": "BK22014945.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 감사해요. 제가 듣기로는 LH에서 임대할 수 있는 집이 있다고 하던데 맞나요?",
+            "turn_id": "BK22014945-2",
+            "utterance_id": "BK22014945.3"
+        },
+        {
+            "reference_date": "2021-10-23",
+            "reference_text": [
+                {
+                    "value": "LH가 공급하는 임대주택은 크게 영구임대와 국민임대, 행복주택으로 나뉩니다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 주택들은 임대주택이라는 큰 틀 안에서 무주택자에게 공급한다는 공통점이 있지만, 주택 형태와 입주 자격 등에 차이가 있습니다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.shinailbo.co.kr/news/articleView.html?idxno=1474201",
+            "search_query": "LH 임대주택",
+            "terminate": false,
+            "text": "네, 맞아요. LH에서 영구임대, 국민임대, 행복주택 등의 임대주택을 공급하고 있어요. LH에서 공급하는 임대주택은 모두 무주택자를 대상으로 하지만, 유형에 따라 주택의 형태와 입주 자격 등은 각각 달라요.",
+            "turn_id": "BK22014945-2",
+            "utterance_id": "BK22014945.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그럼 하나씩 좀 알려 주실래요? 먼저 영구임대는 어떤 사람들을 대상으로 하나요?",
+            "turn_id": "BK22014945-3",
+            "utterance_id": "BK22014945.5"
+        },
+        {
+            "reference_date": "2021-10-23",
+            "reference_text": [
+                {
+                    "value": "우선, 영구임대주택은 전용면적 40㎡ 이하로 건설되며, 임대료는 시중 시세의 30% 수준으로 책정됩니다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "생계·의료급여 수급자와 국가유공자, 일본군위안부 피해자 등 사회 보호 계층에게 우선 공급됩니다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.shinailbo.co.kr/news/articleView.html?idxno=1474201",
+            "search_query": "영구임대주택",
+            "terminate": false,
+            "text": "영구임대주택은 생계급여 및 의료급여 수급자, 국가유공자, 일본군위안부 피해자와 같은 사회 보호 계층이 우선 공급 대상이에요. 전용면적 40제곱미터 이하로 지어지고 시중 시세 대비 30% 정도의 임대료가 부과되죠.",
+            "turn_id": "BK22014945-3",
+            "utterance_id": "BK22014945.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 일단 말씀하신 공급 대상자 중에는 해당 사항이 없네요. 혹시 영구임대주택 입주를 위한 또 다른 조건은 없나요? 혹시 모르니 미리 알아 두려고요.",
+            "turn_id": "BK22014945-4",
+            "utterance_id": "BK22014945.7"
+        },
+        {
+            "reference_date": "2021-10-23",
+            "reference_text": [
+                {
+                    "value": "입주자 모집 공고일 기준 무주택세대 구성원 중 총자산가액 2억1500만원 이하와 자동차가액 3496만원 이하 등 자격을 충족하면 신청할 수 있습니다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.shinailbo.co.kr/news/articleView.html?idxno=1474201",
+            "search_query": "영구임대주택 신청 조건",
+            "terminate": false,
+            "text": "보유 자산과 자동차 가액 조건이 있어요. 입주자 모집 공고일을 기준으로 무주택세대 구성원이면서 총자산 가액이 2억1500만 원 이하이고 자동차 가액이 3496만 원 이하일 경우 신청이 가능해요.",
+            "turn_id": "BK22014945-4",
+            "utterance_id": "BK22014945.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어요, 그리고 국민임대라는 게 있다고 하셨죠? 국민임대를 신청할 수 있는 사람은 누구인가요?",
+            "turn_id": "BK22014945-5",
+            "utterance_id": "BK22014945.9"
+        },
+        {
+            "reference_date": "2021-10-23",
+            "reference_text": [
+                {
+                    "value": "전용면적 60㎡ 이하로 지어지는 국민임대주택은 입주자 모집공고일 기준 성년자인 무주택세대 구성원에게 공급됩니다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "65세 이상 직계존속을 1년 이상 부양한 자와 장애인, 장기복무제대군인 등에는 우선 공급 자격이 주어집니다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.shinailbo.co.kr/news/articleView.html?idxno=1474201",
+            "search_query": "국민임대주택",
+            "terminate": false,
+            "text": "국민임대주택은 입주자 모집공고일을 기준으로 성인인 무주택세대 구성원을 대상으로 공급돼요. 전용면적 60제곱미터 이하로 건설되고 65세 이상인 직계존속을 1년 이상 부양한 경우 혹은 장애인, 장기복무제대군인 등일 때 우선적으로 공급 자격을 얻을 수 있어요.",
+            "turn_id": "BK22014945-5",
+            "utterance_id": "BK22014945.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 공급 대상에 \t해당하긴 하네요. 국민임대도 영구임대처럼 보유 자산 기준이 따로 있나요?",
+            "turn_id": "BK22014945-6",
+            "utterance_id": "BK22014945.11"
+        },
+        {
+            "reference_date": "2022-09-15",
+            "reference_text": [
+                {
+                    "value": "국민임대주택은 무주택 세대 구성원이면서 소득·자산이 일정 기준 이하인 사람이 입주할 수 있다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전년도 월 평균소득의 70%(3인 가구 기준 449만2996원) 이하, 총자산 3억2500만원, 자동차 가액 3557만원 이하여야 한다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mstoday.co.kr/news/articleView.html?idxno=80177",
+            "search_query": "국민임대주택 신청 조건",
+            "terminate": false,
+            "text": "네, 국민임대주택에 입주할 수 있는 대상은 무주택 세대 구성원 중 일정 기준 이하의 소득과 자산을 가진 사람이에요. 먼저 소득은 전년도 월 평균소득 대비 70% 이하여야 하고 총자산은 3억2500만 원 이하, 자동차 가액은 3557만원 이하여야 입주 가능하죠.",
+            "turn_id": "BK22014945-6",
+            "utterance_id": "BK22014945.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 제 정확한 월 평균소득을 몰라서 다시 확인해 볼 필요가 있겠네요. 마지막으로 행복주택에 대해서도 알려 주세요. 입주 대상은 누구인가요?",
+            "turn_id": "BK22014945-7",
+            "utterance_id": "BK22014945.13"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "행복주택은 소득·자산 기준 등을 충족한 대학생과 청년, 신혼부부 등에게 LH가 주변 시세 대비 60~80% 수준으로 공급하는 임대주택이다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.shinailbo.co.kr/news/articleView.html?idxno=1570531",
+            "search_query": "행복주택",
+            "terminate": false,
+            "text": "행복주택은 소득과 자산이 일정 기준 이하인 대학생, 청년, 신혼부부 등을 대상으로 공급되는 임대주택이에요. 임대료는 주변 시세의 60~80% 수준으로 책정되고요.",
+            "turn_id": "BK22014945-7",
+            "utterance_id": "BK22014945.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "설명을 들어 보니 행복주택은 저에게도 가능성이 있는 임대주택인 것 같네요. 구체적인 자산 기준은 어떻게 되나요?",
+            "turn_id": "BK22014945-8",
+            "utterance_id": "BK22014945.15"
+        },
+        {
+            "reference_date": "2021-10-23",
+            "reference_text": [
+                {
+                    "value": "대학생 계층의 경우 총자산 7200만원 이하를 갖고, 자동차를 소유하지 않아야 합니다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "청년 계층은 총자산 2억5400만원 이하와 자동차가액 3496만원을 충족해야 하죠.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "신혼부부와, 한 부모 가구, 고령자, 산단 근로자는 자산 기준은 총자산 2억9200만원 이하와 자동차가액 3496만원 이하입니다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.shinailbo.co.kr/news/articleView.html?idxno=1474201",
+            "search_query": "행복주택 신청 조건",
+            "terminate": false,
+            "text": "먼저 대학생 계층은 총자산이 7200만 원 이하이면서 자동차를 가지고 있지 않아야 해요. 다음으로 청년 계층의 경우는 총자산이 2억5400만 원 이하이면서 자동차 가액이 3496만 원 이하여야 하고요. 그리고 신혼부부, 한 부모 가구, 고령자, 산단 근로자 등은 총자산이 2억9200만 원 이하면서 자동차 가액이 3496만 원 이하여야 행복주택에 입주할 수 있어요.",
+            "turn_id": "BK22014945-8",
+            "utterance_id": "BK22014945.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이런 조건이면 저도 신청 가능할 것 같은데 자격이 되는지 확인해 볼 방법은 없나요?",
+            "turn_id": "BK22014945-9",
+            "utterance_id": "BK22014945.17"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "청약 신청 이전 LH 청약센터 또는 마이홈포털의 '행복주택 자가진단' 메뉴를 활용하면 행복주택 입주 자격 충족 여부를 미리 확인할 수 있다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.shinailbo.co.kr/news/articleView.html?idxno=1570531",
+            "search_query": "행복주택 자격 확인",
+            "terminate": false,
+            "text": "LH 청약센터나 마이홈 포털에 접속하면 행복주택 자가 진단 메뉴를 활용할 수 있어요. 이 기능을 이용해 행복주택에 입주할 수 있는 자격을 갖추고 있는지 사전에 확인이 가능해요.",
+            "turn_id": "BK22014945-9",
+            "utterance_id": "BK22014945.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 유용한 정보네요. 여러모로 자세히 알려 주셔서 감사해요. 정말 큰 도움이 되었어요.",
+            "turn_id": "BK22014945-10",
+            "utterance_id": "BK22014945.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요, 더 궁금한 게 있으면 언제든 말씀하세요.",
+            "turn_id": "BK22014945-10",
+            "utterance_id": "BK22014945.20"
+        }
+    ]
+}

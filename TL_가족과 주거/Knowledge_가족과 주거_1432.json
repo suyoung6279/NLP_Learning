@@ -1,0 +1,342 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009304",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009304",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엄마가 설날을 신정, 구정이라고 부르시던데 왜 그런 거예요?",
+            "turn_id": "BK22009304-1",
+            "utterance_id": "BK22009304.1"
+        },
+        {
+            "reference_date": "2021-12-26",
+            "reference_text": [
+                {
+                    "value": "신정은 양력 1월 1일로 새해의 첫날을 뜻하며 구정은 음력 1월 1일이며 설날로도 불린다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gukjenews.com/news/articleView.html?idxno=2376186",
+            "search_query": "신정 구정",
+            "terminate": false,
+            "text": "양력 1월 1일인 새해 첫날이 신정이고 음력 1월 1일을 구정이라고 부르는 거예요.",
+            "turn_id": "BK22009304-1",
+            "utterance_id": "BK22009304.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "양력 설, 음력 설의 이름이었군요. 설날이라는 이름은 어떻게 붙여진 건가요?",
+            "turn_id": "BK22009304-2",
+            "utterance_id": "BK22009304.3"
+        },
+        {
+            "reference_date": "2021-02-07",
+            "reference_text": [
+                {
+                    "value": "먼저 설날 어원의 유래는 몇 가지가 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "첫째, ‘설다, 낯설다’의 ‘설’에서 처음 맞이하는 ‘낯설은 날’로 비롯한다는 설이 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "둘째, ‘서럽다’는 뜻의 ‘섧다’에서 왔다고 하여 한 해가 지남으로써 점차 늙어가는 처지를 서글퍼하는 데서 비롯한다는 설도 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "마지막으로 ‘삼가다’라는 뜻을 지닌 ‘사리다’의 ‘살’에서 비롯했다는 설도 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.namdonews.com/news/articleView.html?idxno=598049",
+            "search_query": "설의 유래",
+            "terminate": false,
+            "text": "설날 어원의 유래는 세 가지가 있는데요. 낯설다, 설다의 설에서 처음 맞이하는 낯선 날이라는 뜻, 두 번째는 한 해가 지나면서 늙어가는 처지를 서러워하는 섧다에서 비롯했다는 설이 있어요. 세번째는 사리다의 살에서 유래되어 삼가다라는 뜻을 지니게 되었다는 설도 있죠.",
+            "turn_id": "BK22009304-2",
+            "utterance_id": "BK22009304.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "설의 유래가 생각보다 많군요. 설날은 언제부터 공휴일로 지정된 건가요?",
+            "turn_id": "BK22009304-3",
+            "utterance_id": "BK22009304.5"
+        },
+        {
+            "reference_date": "2022-09-08",
+            "reference_text": [
+                {
+                    "value": "대한민국에서는 1985년부터 1988년까지 음력설을 공휴일로 하였고, 1989년부터 설날을 3일 연휴(음력 12월 말일부터 음력 1월 2일까지)로 하고 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%84%A4%EB%82%A0_(%ED%95%9C%EA%B5%AD)",
+            "search_query": "설날 (한국)",
+            "terminate": false,
+            "text": "1985년부터 1988년까지는 음력설을 공휴일로 했었고 음력 12월 말일부터 음력 1월 2일까지 3일간 설날 연휴가 된 건 1989년부터예요.",
+            "turn_id": "BK22009304-3",
+            "utterance_id": "BK22009304.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "3일 연휴를 보내게 된 건 1989년부터였군요. 그럼 사람들이 떡국을 먹기 시작한 건 언제부터인가요?",
+            "turn_id": "BK22009304-4",
+            "utterance_id": "BK22009304.7"
+        },
+        {
+            "reference_date": "2013-02-07",
+            "reference_text": [
+                {
+                    "value": "떡국은 언제부터 먹었는지 흰떡의 역사를 문헌으로 확인하기는 어려우나 벼농사를 짓고 시루와 돌확을 사용했던 시기가 기원전 4∼5세기경인 것으로 비춰볼때 이 시기부터 흰떡이 만들어졌을 것으로 추정된다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.asiae.co.kr/news/view.htm?idxno=2013020710202306490",
+            "search_query": "떡국",
+            "terminate": false,
+            "text": "떡국을 언제 먹기 시작한 건지 흰떡의 역사를 문헌으로 확인하기는 어려워요. 그렇지만 기원전 4~5세기경에 벼농사를 짓고 시루와 돌확을 사용했던 걸로 봐서 흰떡을 이 시기부터 만들지 않았을까 추정하고 있어요.",
+            "turn_id": "BK22009304-4",
+            "utterance_id": "BK22009304.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "흰떡을 기원전 4~5세기부터 먹었다니 정말 오래되었네요. 그렇다면 설날에 떡국을 먹기 시작한건 언제부터예요?",
+            "turn_id": "BK22009304-5",
+            "utterance_id": "BK22009304.9"
+        },
+        {
+            "reference_date": "2021-02-09",
+            "reference_text": [
+                {
+                    "value": "최남선 『조선상식문답』에서 설날에 떡국을 먹는 풍속은 매우 오래된 것으로 상고시대의 신년 제사 때 먹던 음복 음식에서 유래된 것이라고 하였다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lecturernews.com/news/articleView.html?idxno=60973",
+            "search_query": "떡국의 유래",
+            "terminate": false,
+            "text": "설날에 떡국을 먹는 풍습은 매우 오래되었는데요. 상고시대의 신년 제사 때 먹던 음복 음식에서 유래된 것이라고 최남선의 조선상식문답에 기록되어 있어요.",
+            "turn_id": "BK22009304-5",
+            "utterance_id": "BK22009304.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "설날에 떡국 먹던 건 조선시대에도 행해지던 풍습이었네요. 그런데 떡국은 왜 긴 떡이 아니라 둥글게 썬 떡을 넣는 건가요?",
+            "turn_id": "BK22009304-6",
+            "utterance_id": "BK22009304.11"
+        },
+        {
+            "reference_date": "2021-02-09",
+            "reference_text": [
+                {
+                    "value": "흰 가래떡을 길게 뽑는 이유는 가래떡처럼 길게 장수하라는 의미가 숨겨져 있으며, 가래떡을 둥글게 썰어 떡국을 하는 이유는 옛날의 화폐(엽전)가 둥글기에 돈이 많이 들어와 부자가 되게 해달라는 의미가 담겨 있단다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jbnews.com/news/articleView.html?idxno=1326577",
+            "search_query": "설날 떡국",
+            "terminate": false,
+            "text": "떡국을 둥글게 썰게 된 건 과거 화폐인 엽전이 둥근 모양이라 그래요. 돈이 많이 들어와 부자가 되었으면 하는 마음이 담긴 거죠.",
+            "turn_id": "BK22009304-6",
+            "utterance_id": "BK22009304.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "떡국떡이 둥근 건 부자가 되고 싶은 마음을 담은 거군요. 설날 차례상 올릴 때 지킬 원칙이 있다던데 그건 뭔가요?",
+            "turn_id": "BK22009304-7",
+            "utterance_id": "BK22009304.13"
+        },
+        {
+            "reference_date": "2022-01-31",
+            "reference_text": [
+                {
+                    "value": "차례상을 차리는 원칙에는 붉은 과일은 동쪽, 흰빛의 것은 서쪽에 늘어놓는 홍동백서가 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "면은 서쪽 떡과 빵은 동쪽 麪西餠東(면서병동), 물고기는 동쪽 육고기는 서쪽 魚東肉西(어동육서), 棗栗梨柹(조율이시), 左脯右醯(좌포우혜) 등도 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.g-enews.com/ko-kr/news/article/news_all/2022013119482613564a01bf698f_1/article.html?md=20220131224046_U",
+            "search_query": "설날 차례상",
+            "terminate": false,
+            "text": "차례상을 차릴 때는 동쪽에 물고기 서쪽에 육고기를 놓는다는 어동육서, 동쪽에 붉은 과일 서쪽에는 흰빛의 음식을 놓는다는 홍동백서라는 게 있어요.",
+            "turn_id": "BK22009304-7",
+            "utterance_id": "BK22009304.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 홍동백서는 들어본 적 있는데 뜻은 처음 알았네요. 근데 설날에 세뱃돈 주고받는 풍습은 어디서 유래된 거예요?",
+            "turn_id": "BK22009304-8",
+            "utterance_id": "BK22009304.15"
+        },
+        {
+            "reference_date": "2015-02-18",
+            "reference_text": [
+                {
+                    "value": "세뱃돈은 중국에서부터 시작된 것으로 알려져 있습니다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "중국에서는 정월 초하루, 즉 설날이 되면 전통적으로 결혼하지 않은 자식에게 '돈을 많이 벌라'는 뜻으로 행운과 악한 기운을 쫓는다는 붉은 색의 봉투에 돈을 넣어 주는 풍습이 있습니다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=15944",
+            "search_query": "설날 세뱃돈 유래",
+            "terminate": false,
+            "text": "세뱃돈을 주는 풍습은 중국으로부터 전해진 것으로 알려져 있어요. 중국에서는 정월 초하루가 되면 자식 중 결혼 안 한 사람에게 붉은 색 봉투에 돈을 넣어 주는 풍습이 있는데요. 앞으로 돈을 많이 벌라는 뜻을 담아서 주는 거예요.",
+            "turn_id": "BK22009304-8",
+            "utterance_id": "BK22009304.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "중국으로부터 세뱃돈 문화가 전해졌군요. 근데 왜 붉은색 봉투에 넣어주는 건가요?",
+            "turn_id": "BK22009304-9",
+            "utterance_id": "BK22009304.17"
+        },
+        {
+            "reference_date": "2020-02-12",
+            "reference_text": [
+                {
+                    "value": "'홍빠오'라는 붉은 색 봉투에 약간의 돈을 넣어 나쁜 기운을 쫓고 돈을 많이 벌라는 의미로 주었다고 한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jbnews.com/news/articleView.html?idxno=1278485",
+            "search_query": "중국 세뱃돈 붉은 봉투",
+            "terminate": false,
+            "text": "붉은 봉투에 넣어주는 건 악한 기운을 쫓아낸다고 생각하기 때문이에요.",
+            "turn_id": "BK22009304-9",
+            "utterance_id": "BK22009304.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "붉은 봉투에도 의미가 있군요. 오늘도 많은 정보 알려주셔서 감사해요. 전 친구와 약속이 있어서 그만 가볼게요.",
+            "turn_id": "BK22009304-10",
+            "utterance_id": "BK22009304.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "친구와 즐거운 시간 보내고 다음에 또 대화 나눠요, 안녕히 가세요.",
+            "turn_id": "BK22009304-10",
+            "utterance_id": "BK22009304.20"
+        }
+    ]
+}

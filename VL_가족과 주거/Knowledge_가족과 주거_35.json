@@ -1,0 +1,371 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22017016",
+        "name": "2022 한국어 블렌더봇 데이터 BK22017016",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0007"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집을 리모델링 하면서 조명을 전면 교체하려고 하는데, 밝기나 디자인 같은 게 너무 다양하네요.",
+            "turn_id": "BK22017016-1",
+            "utterance_id": "BK22017016.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조명도 공간별 적재적소가 있으니, 고민이 많이 되시겠어요.",
+            "turn_id": "BK22017016-1",
+            "utterance_id": "BK22017016.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 조명을 선택할 땐 우선 무엇을 고려해야 할까요?",
+            "turn_id": "BK22017016-2",
+            "utterance_id": "BK22017016.3"
+        },
+        {
+            "reference_date": "44106.0",
+            "reference_text": [
+                {
+                    "value": "첫 번째로 확인해야 할 것은 전구 소켓 규격이다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "돌려 끼우는 일반적인 형태의 전구의 경우 전구 포장에 E14, E17, E26, E27, E39 같은 표시가 있는데 이는 소켓 지름을 뜻한다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "램프만 바꾼다면 동일한 소켓 모양을 고른 후 이에 맞는 제품으로 갈아 끼우면 된다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ddaily.co.kr/news/article/?no=202559",
+            "search_query": "조명 구매 방법",
+            "terminate": false,
+            "text": "우선 제일 먼저 확인하셔야 할 건 전구를 끼울 소켓의 규격이에요. 일반적으로 돌려서 끼우는 방식의 전구는 전구의 포장지에 E14, E17, E26 등의 소켓 지름이 표기되어 있어요. 조명의 전구만 교체할 거라면 소켓 모양이 일치하는 걸 골라 갈아 끼우기만 하면 돼요.",
+            "turn_id": "BK22017016-2",
+            "utterance_id": "BK22017016.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 조명의 모양만 보느라 제일 중요한 걸 잊고 있었네요. 또 조명을 고를 때 어떤 요소를 고려해야 하나요?",
+            "turn_id": "BK22017016-3",
+            "utterance_id": "BK22017016.5"
+        },
+        {
+            "reference_date": "44106.0",
+            "reference_text": [
+                {
+                    "value": "공간에 따라 조명 색을 택하는 방법도 달라진다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 켈빈(K)이라는 단위로 표시된다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "켈빈 값이 낮을수록 따뜻한 느낌의 색(주황색)을 띠고, 켈빈 값이 높을수록 차가운 느낌의 색(파란색)을 띤다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "더 쉽게 색온도를 확인할 수 있는 방법은 주광색, 주백색, 전구색 표시다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ddaily.co.kr/news/article/?no=202559",
+            "search_query": "조명 색",
+            "terminate": false,
+            "text": "공간별로 배치하는 조명의 색도 달라지게 되는데요, 조명의 색을 표시할 땐 켈빈이라는 단위를 사용해요. 켈빈 값이 낮을수록 주황빛에 가까워져 따뜻한 느낌이 들고, 높아지면 푸른빛에 가까워져 차가운 느낌이 들죠. 간편하게 조명의 색을 확인하려면 주광색, 주백색, 전구색 표기를 확인하면 돼요.",
+            "turn_id": "BK22017016-3",
+            "utterance_id": "BK22017016.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 조명에도 트렌드가 있을 텐데, 요즘 조명은 어떻게 쓰는 게 유행인가요?",
+            "turn_id": "BK22017016-4",
+            "utterance_id": "BK22017016.7"
+        },
+        {
+            "reference_date": "44797.0",
+            "reference_text": [
+                {
+                    "value": "근래엔 직접조명보단, 간접조명과 함께 밝지만 은은한 조명을 선호하는 경향이 강합니다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 거실에선 TV 시청에 방해가 될 수 있는 눈부심을 방지하기 위해, 간접조명을 사용하는 사례가 많아졌습니다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://mustnews.co.kr/View.aspx?No=2510347",
+            "search_query": "간접조명 경향",
+            "terminate": false,
+            "text": "요즘은 간접조명처럼 은은하면서도 밝은 조명이 직접조명보다 인기가 많은 편이에요. 특히 거실에서는 TV를 시청할 때 눈부심이 방해가 될 수 있어 간접조명을 설치하는 경우가 많아졌어요.",
+            "turn_id": "BK22017016-4",
+            "utterance_id": "BK22017016.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "거실에는 간접조명을 쓰는 게 좋군요. 주방 같은 경우는 어떤 조명을 쓰면 좋을까요?",
+            "turn_id": "BK22017016-5",
+            "utterance_id": "BK22017016.9"
+        },
+        {
+            "reference_date": "44797.0",
+            "reference_text": [
+                {
+                    "value": "한편 주방은 작업이 중요시 되는 공간이므로, 전체조명과 함께 작업대 위 작업등을 추가로 설치하는 것을 권장합니다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "작업대는 밝은 조명을 사용하고, 식탁 쪽은 식욕을 부르는 적당한 조도의 전구색 컬러가 비추는 것이 이상적입니다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://mustnews.co.kr/View.aspx?No=2510347",
+            "search_query": "간접조명 경향",
+            "terminate": false,
+            "text": "주방에서는 작업을 해야 하기 때문에 기본적인 전체조명 외에도 작업대 위에 작업등을 따로 설치해주는 게 좋아요. 작업대 쪽에는 밝은 조명을, 식탁 쪽에는 식욕을 돋우는 적절한 밝기의 전구색 조명을 사용하시는 게 좋아요.",
+            "turn_id": "BK22017016-5",
+            "utterance_id": "BK22017016.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "식탁 조명은 어떤 디자인으로 몇 개를 설치하면 좋을까요?",
+            "turn_id": "BK22017016-6",
+            "utterance_id": "BK22017016.11"
+        },
+        {
+            "reference_date": "43052.0",
+            "reference_text": [
+                {
+                    "value": "식탁 위에 팬던트 조명을 달면 먹는 공간과 음식이 돋보이는 효과가 있다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "식탁의 크기에따라 설치될 조명의 개수가 정해지는데, 4인용 식탁에는 1~2등을, 6인용 식탁에는 2~3등을, 8인용 이상의 식탁에는 3등 이상을 추천한다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/201711111108001020",
+            "search_query": "식탁 조명",
+            "terminate": false,
+            "text": "식탁 위에는 펜던트 조명을 고려해 보세요. 펜던트 조명을 식탁 위에 달면 공간은 물론이고 음식까지 돋보일 수 있거든요. 그리고 조명의 개수는 식탁의 크기를 기준으로 정하시면 돼요. 보통 4인용 식탁이라면 1~2등을 사용하시면 되고요, 6인용에는 2~3등, 8인용 이상에는 3등 이상의 조명이 좋아요.",
+            "turn_id": "BK22017016-6",
+            "utterance_id": "BK22017016.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "식탁의 크기에 따라서 등의 개수가 달라지는군요. 침실에는 조명을 어떻게 설치하는 게 좋을까요?",
+            "turn_id": "BK22017016-7",
+            "utterance_id": "BK22017016.13"
+        },
+        {
+            "reference_date": "44816.0",
+            "reference_text": [
+                {
+                    "value": "침실은 긴장을 풀어주고 편안하게 쉴 수 있도록 조명 역시 안락하고 부드러운 조도 위주의 조명으로 선택하자.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "블루 라이트가 많은 조명은 수면 주기와 연관된 멜라토닌 호르몬 생성에 장애를 주므로 색온도가 낮은 백열등 전구를 침실 조명으로 권장하는 편이다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://woman.chosun.com/news/articleView.html?idxno=102141",
+            "search_query": "침실 조명",
+            "terminate": false,
+            "text": "침실은 편안한 휴식을 취할 수 있도록 조명도 아늑하고 부드러운 밝기를 선택하는 게 좋아요. 블루라이트가 많이 나오는 조명은 수면 주기에 영향을 미치는 멜라토닌 생성을 저해하기 때문에, 침실에는 낮은 색온도의 백열등 전구가 좋아요.",
+            "turn_id": "BK22017016-7",
+            "utterance_id": "BK22017016.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 반대로 긴장하고 집중해야 하는 서재에는 어떤 조명을 써야 하나요?",
+            "turn_id": "BK22017016-8",
+            "utterance_id": "BK22017016.15"
+        },
+        {
+            "reference_date": "44034.0",
+            "reference_text": [
+                {
+                    "value": "장시간 공부를 해야 하는 학생의 공부방이나 서재의 조명은 전체 조명등과 부분 조명등을 둘 다 설치하는 것이 좋다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "즉 어깨 뒤쪽으로는 형광등 불빛이 오게 하고 책상 앞에는 스탠드를 설치하는 것이 좋다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ikunkang.com/news/articleView.html?idxno=31920",
+            "search_query": "서재 조명",
+            "terminate": false,
+            "text": "장시간 공부를 하는 공부방이나 서재의 경우에는 전체 조명과 부분 조명을 함께 사용하시는 게 좋아요. 형광등 불빛은 어깨 뒤에서 비추도록 하고, 책상 앞쪽에는 스탠드를 두는 게 좋죠.",
+            "turn_id": "BK22017016-8",
+            "utterance_id": "BK22017016.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이제 공간별로 조명을 어떻게 설치해야 할지 조금 감이 오는 것 같네요. 조명을 구매할 때 특별히 주의해야 할 점이 있을까요?",
+            "turn_id": "BK22017016-9",
+            "utterance_id": "BK22017016.17"
+        },
+        {
+            "reference_date": "44106.0",
+            "reference_text": [
+                {
+                    "value": "저품질 조명은 수명이 짧거나 LED 램프가 계속 깜빡거리는 ‘플리커 현상’, 눈부심이 심한 ‘글레어현상’이 생기기도 한다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 빛의 밝기가 계속 달라지는 플리커 현상에 노출되면 두통, 피곤함, 어지럼증, 시력 저하 등 원인이 될 수 있다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 때문에 LED 조명 구입 후 점등해 플리커 및 글레어 현상이 발생하는지 확인하는게 중요하다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ddaily.co.kr/news/article/?no=202559",
+            "search_query": "플리커 현상",
+            "terminate": false,
+            "text": "품질이 떨어지는 조명은 수명이 짧을 수 있고, LED 램프가 끊임없이 깜빡이는 플리커 현상이 나타나기도 해요. 또 심하게 눈이 부시는 글레어 현상이 있을 수도 있죠. 특히 밝기가 끊임없이 달라지는 플리커 현상이 지속되는 경우 두통이나 피곤함, 시력 저하를 유발할 수 있어 주의가 필요해요. 그래서 LED 조명을 구입한 뒤에는 직접 조명을 켜보고 플리커 현상이나 글레어 현상이 있는지 체크해봐야 해요.",
+            "turn_id": "BK22017016-9",
+            "utterance_id": "BK22017016.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조명을 고르는 데 많은 참고가 될 것 같아요. 자세하게 설명해주셔서 감사해요.",
+            "turn_id": "BK22017016-10",
+            "utterance_id": "BK22017016.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "조명 선택에 있어 또 고민되시는 게 있다면 언제든 찾아와 주세요.",
+            "turn_id": "BK22017016-10",
+            "utterance_id": "BK22017016.20"
+        }
+    ]
+}

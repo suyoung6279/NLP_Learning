@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.3,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.5,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013286",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013286",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 3.8,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사촌 동생이 수시 준비 중이라 도움을 달라고 하는데, 바뀐 입시제도를 몰라 걱정이에요.",
+            "turn_id": "BK22013286-1",
+            "utterance_id": "BK22013286.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어떤 게 궁금하시길래 그러시나요?",
+            "turn_id": "BK22013286-1",
+            "utterance_id": "BK22013286.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 대한민국 수시 모집 제도도 1차와 2차에 나눠서 진행하고 있나요?",
+            "turn_id": "BK22013286-2",
+            "utterance_id": "BK22013286.3"
+        },
+        {
+            "reference_date": "44630.0",
+            "reference_text": [
+                {
+                    "value": "수시 모집은 본고사가 폐지된 1997학년도부터 실시되었다.",
+                    "value_time": "44803.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "크게 1차와 2차로 나뉘어 있으며, 1차는 대학수학능력시험 이전에, 2차는 대학수학능력시험 이후에 실시한다.",
+                    "value_time": "44803.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EB%8C%80%ED%95%99_%EC%9E%85%EC%8B%9C_%EC%A0%9C%EB%8F%84",
+            "search_query": "입시 제도",
+            "terminate": false,
+            "text": "네, 1997학년도부터 본고사가 폐지되면서 수시 모집이 실시되었는데요. 1차와 2차로 나눠서 진행되면서 1차는 대학수학능력시험 전에, 2차는 이후에 실시하고 있어요.",
+            "turn_id": "BK22013286-2",
+            "utterance_id": "BK22013286.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1차 수시 모집 제도 중, 학생부종합전형은 어떤 전형이에요?",
+            "turn_id": "BK22013286-3",
+            "utterance_id": "BK22013286.5"
+        },
+        {
+            "reference_date": "44777.0",
+            "reference_text": [
+                {
+                    "value": "학생부종합전형의 서류평가는 학교생활기록부(일부대학은 자기소개서 포함)를 중심으로 학생이 대학 입학 후 학업 수행에 적합한 역량을 갖추고 있는지에 대해 학교별로 평가요소 및 기준을 정해 종합적으로 평가한다.",
+                    "value_time": "44803.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dhnews.co.kr/news/articleView.html?idxno=205939",
+            "search_query": "학생부종합전형",
+            "terminate": false,
+            "text": "학생부종합전형의 서류평가 전형은 학교생활기록부를 통해 지원자가 대학에 들어와서 학업을 수행하는 데 적합한 역량을 갖췄는지 학교별로 기준을 정해 평가하는 전형이에요.",
+            "turn_id": "BK22013286-3",
+            "utterance_id": "BK22013286.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그렇다면 학생부종합전형의 절차는 어떻게 되나요?",
+            "turn_id": "BK22013286-4",
+            "utterance_id": "BK22013286.7"
+        },
+        {
+            "reference_date": "44802.0",
+            "reference_text": [
+                {
+                    "value": "학생부종합 전형에서는 보통 서류로 일정 배수를 선발한 뒤 2단계에서 면접을 실시해 1단계 성적과 합산해서 합격자를 선발하는데, 전형 요소가 동일하더라도 학생부 교과 성적 반영 유무나 면접 고사 반영 비율, 수능 최저학력기준 설정 유무 등에 따라 유불리가 달라지게 된다.",
+                    "value_time": "44803.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.imaeil.com/page/view/2022082114554152798",
+            "search_query": "학생부종합전형 단계",
+            "terminate": false,
+            "text": "학생부종합전형의 경우, 1단계 서류에서 일정 배수로 선발을 한 다음, 2단계 면접을 통해 1단계 점수와 합산을 해서 합격자를 선발해요. 다만, 전형이 똑같더라도 교과 성적을 반영하는지 여부나 면접 반영 비율, 수능 최저학력기준 등에 따라서 유불리가 달라져요.",
+            "turn_id": "BK22013286-4",
+            "utterance_id": "BK22013286.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 수시 모집은 자기소개서 작성이 필수인가요?",
+            "turn_id": "BK22013286-5",
+            "utterance_id": "BK22013286.9"
+        },
+        {
+            "reference_date": "44659.0",
+            "reference_text": [
+                {
+                    "value": "2022학년도에 자기소개서 문항이 축소되고, 자기소개서를 폐지하는 대학이 증가했습니다.",
+                    "value_time": "44803.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2023학년도 자기소개서 문항은 대교협 공통 2문항, 대학 자율문항 1문항으로 지난해와 동일합니다.",
+                    "value_time": "44803.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/economy/view/2022/04/315819/",
+            "search_query": "수시 자기소개서",
+            "terminate": false,
+            "text": "2022학년도의 경우 자기소개서의 문항이 줄어든데다 자기소개서 자체를 폐지한 대학도 늘어났어요. 2023학년도 자소서의 문항은 대교협 공통 문항이 2개, 대학교 자율 문항이 1개라 지난해와 똑같아요.",
+            "turn_id": "BK22013286-5",
+            "utterance_id": "BK22013286.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그렇다면 학생부종합전형과 학생부교과전형은 어떤 차이가 있어요?",
+            "turn_id": "BK22013286-6",
+            "utterance_id": "BK22013286.11"
+        },
+        {
+            "reference_date": "42310.0",
+            "reference_text": [
+                {
+                    "value": "‘학생부 교과전형’은 교과 중심으로 평가하는 전형이고, 2007년부터 도입된 ‘학생부 종합전형’은 입학사정관 등이 참여해 학생부 비교과를 중심으로 교과 성적, 자기소개서·추천서·면접 등을 통해 학생을 종합 평가하는 전형으로 예전의 입학사정관 전형을 말한다.",
+                    "value_time": "44803.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/society/schooling/678806.html",
+            "search_query": "학생부교과전형",
+            "terminate": false,
+            "text": "2007년부터 시작된 학생부종합전형은 입학사정관의 참여로 교과 성적, 자기소개서, 면접 등을 통해서 지원자를 종합적으로 평가하는 예전의 입학사정관 전형이라면 학생부교과전형은 교과를 중심으로 평가하는 전형이라는 차이가 있어요.",
+            "turn_id": "BK22013286-6",
+            "utterance_id": "BK22013286.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 이외에 또 다른 전형도 있나요?",
+            "turn_id": "BK22013286-7",
+            "utterance_id": "BK22013286.13"
+        },
+        {
+            "reference_date": "44546.0",
+            "reference_text": [
+                {
+                    "value": "2010년 처음으로 수시에 도입된 재직자전형은 수시 학생부종합전형의 한 유형으로 특성화고 혹은 마이스터고를 졸업한 학생이 3년 이상 재직 시(남성의 경우 의무복무 기간 포함) 지원 자격이 주어진다.",
+                    "value_time": "44803.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002795562",
+            "search_query": "재직자전형",
+            "terminate": false,
+            "text": "재직자 전형의 경우 2010년 처음으로 수시 제도로 도입이 된 학생부종합전형의 한 유형인데요. 특성화고나 마이스터고를 졸업한 지원자가 3년 이상 재직을 한 경우 지원 자격이 주어져요.",
+            "turn_id": "BK22013286-7",
+            "utterance_id": "BK22013286.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 특성화고와 마이스터고 졸업 여부에 따라 전형의 차이가 있나요?",
+            "turn_id": "BK22013286-8",
+            "utterance_id": "BK22013286.15"
+        },
+        {
+            "reference_date": "44504.0",
+            "reference_text": [
+                {
+                    "value": "특성화고의 경우, 졸업 이후 '특성화고 전형'으로 바로 대학에 지원이 가능하지만, 마이스터고는 3년 직업 활동을 한 후에만 재직자 전형으로 대학 지원이 가능하다.",
+                    "value_time": "44803.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.edupolnews.com/news/articleView.html?idxno=13827",
+            "search_query": "특성화고전형",
+            "terminate": false,
+            "text": "네, 특성화고 졸업생의 경우 특성화고 전형으로 졸업 후 바로 지원을 할 수 있지만, 마이스터고 졸업자의 경우에는 3년 동안 직업 활동을 해야지만 재직자 전형으로 지원할 수 있어요.",
+            "turn_id": "BK22013286-8",
+            "utterance_id": "BK22013286.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 저는 논술 전형으로 대학에 갔는데 요즘에도 논술을 보나요?",
+            "turn_id": "BK22013286-9",
+            "utterance_id": "BK22013286.17"
+        },
+        {
+            "reference_date": "44761.0",
+            "reference_text": [
+                {
+                    "value": "논술전형은 수시전형 가운데 낮은 내신으로도 상위권 대학에 지원할 수 있는 거의 유일한 전형이다.",
+                    "value_time": "44803.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 때문에 생기부 경쟁력은 높지 않지만 논술과 수능 경쟁력이 높은 학생들이 주로 지원한다.",
+                    "value_time": "44803.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.edujin.co.kr/news/articleView.html?idxno=39331",
+            "search_query": "수시 논술전형",
+            "terminate": false,
+            "text": "네, 수시 논술전형의 경우 수시 모집 제도 중 낮은 내신이어도 상위권 대학에 지원할 수 있는 거의 유일한 제도라 할 수 있죠. 생활기록부의 경쟁력이 높은 편은 아니지만, 논술 그리고 수능 경쟁력이 높은 지원자들이 주로 선택해요.",
+            "turn_id": "BK22013286-9",
+            "utterance_id": "BK22013286.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여러 제도 중, 어떤 제도가 잘 맞는지 사촌 동생에게 설명해 줘야겠어요.",
+            "turn_id": "BK22013286-10",
+            "utterance_id": "BK22013286.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 수시 합격으로 꼭 좋은 결과가 있길 바랄게요.",
+            "turn_id": "BK22013286-10",
+            "utterance_id": "BK22013286.20"
+        }
+    ]
+}

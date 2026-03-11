@@ -1,0 +1,411 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018452",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018452",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0018"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "친한 친구가 난임 치료를 받는 중인데 생각보다 힘든 것 같아. 나도 임신 준비 전에 난임에 대해 공부를 좀 해두는 게 좋겠다는 생각이 들더라고. 어떤 상태를 난임이라고 하는 거야?",
+            "turn_id": "BK22018452-1",
+            "utterance_id": "BK22018452.1"
+        },
+        {
+            "reference_date": "44834.0",
+            "reference_text": [
+                {
+                    "value": "피임을 하지 않고 정상적으로 관계를 가짐에도 불구하고 1년 내로 임신이 되지 않는 것을 '난임'이라고 한다.",
+                    "value_time": "44844.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.rapportian.com/news/articleView.html?idxno=152144",
+            "search_query": "난임이란",
+            "terminate": false,
+            "text": "난임은 피임하지 않고 정상적인 관계를 가짐에도 1년 내로 임신이 되지 않는 상태를 가리켜요.",
+            "turn_id": "BK22018452-1",
+            "utterance_id": "BK22018452.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "불임이랑 난임은 서로 다른 건가?",
+            "turn_id": "BK22018452-2",
+            "utterance_id": "BK22018452.3"
+        },
+        {
+            "reference_date": "44166.0",
+            "reference_text": [
+                {
+                    "value": "불임은 피임을 하지 않은 정상적인 부부 관계에도 불구하고, 1년 이내에 임신이 되지 않는 상태를 말한다.",
+                    "value_time": "44844.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "불임과 난임의 차이는 임신을 할 수 없는 이유가 정확한지 그렇지 않은지 정도로 구분된다.",
+                    "value_time": "44844.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mdtoday.co.kr/mdtoday/index.html?no=407531",
+            "search_query": "불임과 난임의 차이",
+            "terminate": false,
+            "text": "불임 역시 피임하지 않은 정상적인 부부 관계에도 1년 이내 임신이 되지 않는 상태를 말해요. 다만 불임과 난임의 차이는 임신이 되지 않는 이유가 정확한지 그렇지 않은지를 기준으로 구분돼요.",
+            "turn_id": "BK22018452-2",
+            "utterance_id": "BK22018452.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "원인 유무에 차이가 있었구나. 그럼 난임의 원인은 뭐가 있어?",
+            "turn_id": "BK22018452-3",
+            "utterance_id": "BK22018452.5"
+        },
+        {
+            "reference_date": "44824.0",
+            "reference_text": [
+                {
+                    "value": "하지만 실제 검사를 해보면 매우 다양한 원인으로 인해 난임이 초래될 수 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "남성에게 원인이 있다면 호르몬 이상이나 선천적/후천적 무고환증, 고환염, 선천적/후천적 무정자증, 클라인펠터 증후군 심지어 간경화마저도 난임을 유발할 수 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "여성은 난소 기능이 저하되어 있거나 다낭성 난소 증후군, 배란 장애, 감염, 전신 질환, 자궁내막증 등이 주요 원인이다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=107870",
+            "search_query": "난임 원인",
+            "terminate": false,
+            "text": "난임의 원인은 매우 다양해요. 남성에게 원인이 있다면 호르몬 이상, 선천적 또는 후천적 무고환증이나 무정자증, 고환염, 클라인펠터 증후군과 간경화도 난임의 원인이 되지요. 여성의 경우는 난소 기능이 저하되어 있거나 다낭성 난소 증후군, 배란 장애, 감염, 전신 질환, 자궁내막증이 등이 난임의 주요 원인이에요.",
+            "turn_id": "BK22018452-3",
+            "utterance_id": "BK22018452.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 다양한 원인이 있구나. 그럼 난임 진단받고 나면 치료는 어떻게 진행이 돼?",
+            "turn_id": "BK22018452-4",
+            "utterance_id": "BK22018452.7"
+        },
+        {
+            "reference_date": "44468.0",
+            "reference_text": [
+                {
+                    "value": "대표적인 치료법으로는 배란 유도, 인공수정, 체외수정, 약물치료 등이 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "건국대병원 산부인과 이지영 교수는 “인공수정은 여성에게 남편의 정자에 대한 항체가 있거나 정자 수· 운동성이 부족한 경우, 원인을 알 수 없는 경우 시행한다”며 “남편의 정자를 미리 처리해 여성의 배란기에 맞춰 자궁 속으로 직접 주입한다”고 말했다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "인공수정 시 필요에 따라 미리 배란유도제를 사용하기도 한다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/09/29/2021092901419.html",
+            "search_query": "난임 치료",
+            "terminate": false,
+            "text": "대표적인 난임 치료법으로는 배란 유도, 인공수정, 체외수정, 약물치료 등이 있어요. 먼저, 인공수정은 여성에게 남편의 정자에 대한 항체가 있거나 정자의 수나 운동성이 부족한 경우 또는 원인을 알 수 없는 경우 시행해요. 남편의 정자를 여성의 배란기에 맞춰 자궁 속에 직접 주입하는 방법으로 필요에 따라 미리 배란유도제를 사용하기도 해요.",
+            "turn_id": "BK22018452-4",
+            "utterance_id": "BK22018452.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인공 수정할 때 배란유도제를 사용하기도 하는구나. 그럼 체외 수정은 어떻게 하는 거야?",
+            "turn_id": "BK22018452-5",
+            "utterance_id": "BK22018452.9"
+        },
+        {
+            "reference_date": "44468.0",
+            "reference_text": [
+                {
+                    "value": "체외수정은 남성에게 원인이 있는 난임이거나 여성 나팔관 폐쇄·유착 등이 원인인 난임, 자궁내막증, 인공 수정에 여러 번 실패한 경우 등에 시도한다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "체외수정은 시험관 아기로도 불리는데, 여성에게 과배란 유도를 해 여러 개 난자를 채취한 뒤, 남성의 몸에서 얻은 정자와 함께 자궁 밖에서 수정시킨다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/09/29/2021092901419.html",
+            "search_query": "난임 치료 체외수정",
+            "terminate": false,
+            "text": "시험관 아기라고도 하는 체외수정은 남성에게 원인이 있는 난임이나 여성의 나팔관에 폐쇄, 유착 등이 있을 때, 자궁내막증이 있거나 인공수정을 시도했으나 여러 번 실패한 경우 시도하는 방법이에요. 여성에게 과배란 유도를 해 난자를 여러 개 채취한 뒤, 남성의 몸에서 체취한 정자와 함께 자궁 밖에서 수정시키는 방법이죠.",
+            "turn_id": "BK22018452-5",
+            "utterance_id": "BK22018452.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 요즘엔 결혼연령이 늦어지다 보니까 난임 치료받는 부부들도 늘고 있다는 걸 본 것 같아. 실제로는 어느 정도야?",
+            "turn_id": "BK22018452-6",
+            "utterance_id": "BK22018452.11"
+        },
+        {
+            "reference_date": "44841.0",
+            "reference_text": [
+                {
+                    "value": "건강보험심사평가원에 따르면 국내 난임시술(보조생식술) 환자는 최근 5년간(2017년~2021년) 1만2569명에서 14만3999명으로 약 11.5배 늘었다.",
+                    "value_time": "44844.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.bokuennews.com/news/article.html?no=221398",
+            "search_query": "난임 통계",
+            "terminate": false,
+            "text": "건강보험심사평가원에 따르면 국내 난임 시술 환자는 2017년부터 2021년까지 5년간 1만 2,569명에서 14만 3,999명으로 약 11.5배 늘어났다고 해요.",
+            "turn_id": "BK22018452-6",
+            "utterance_id": "BK22018452.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "난임시술 환자가 11.5배나 증가했다고? 와, 내 생각보다 많은 사람이 난임 치료받고 있구나.",
+            "turn_id": "BK22018452-7",
+            "utterance_id": "BK22018452.13"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 그만큼 난임 치료 기술도 점점 발전하고 있어요.",
+            "turn_id": "BK22018452-7",
+            "utterance_id": "BK22018452.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "애초에 난임을 예방할 수 있는 방법은 없는 걸까?",
+            "turn_id": "BK22018452-8",
+            "utterance_id": "BK22018452.15"
+        },
+        {
+            "reference_date": "44739.0",
+            "reference_text": [
+                {
+                    "value": "세화병원 유지희 부원장은 “난소 기능이 떨어지는 것은 자연스러운 노화 현상이지만, 결혼 및 출산 연령 증가와 그에 따른 난소 기능 저하로 난임을 겪는 사례가 많아지고 있다”면서 “미혼 여성이라도 정기적 검사로 난소 기능을 미리 파악하면 난임 문제를 예방할 수 있다. 간단한 혈액검사로도 파악할 수 있으니, 난소 건강을 미리 체크하기 바란다”고 말했다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0700&key=20220628.22016005574",
+            "search_query": "난임 예방",
+            "terminate": false,
+            "text": "난임을 겪는 사례 중 결혼 및 출산 연령이 높아짐에 따라 난소 기능이 저하되어 난임을 겪는 경우가 증가하고 있어요. 미혼 여성이라도 정기적으로 난소 검사를 받고 난소 기능을 파악하면 난임 문제를 예방할 수 있어요. 난소 기능은 간단한 혈액 검사로도 확인할 수 있으니까 미리미리 체크해 보는 것이 좋아요.",
+            "turn_id": "BK22018452-8",
+            "utterance_id": "BK22018452.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 잘 먹고 운동하는 것이 건강을 지키는 지름길이구나. 그런데 요즘 저출산이 문제라고 하잖아. 거기에 난임 부부도 늘어나는 추세인데, 이에 대한 정부 지원책은 뭔가 없어?",
+            "turn_id": "BK22018452-9",
+            "utterance_id": "BK22018452.17"
+        },
+        {
+            "reference_date": "44769.0",
+            "reference_text": [
+                {
+                    "value": "현재 정부는 법적 혼인상태에 있거나, 신청일 기준 1년 이상 사실상 혼인관계를 유지했다고 확인된 난임부부를 대상으로 시술비와 비급여 3종(배아동결비, 유산방지제, 착상보조제)을 지원하고 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아울러 부부 중 최소 한 명은 주민등록이 되어있는 대한민국 국적 소유자이면서, 부부 모두 건강보험 가입 및 보험료 고지 여부가 확인되어야 한다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지원 대상에 속하는 부부의 소득 기준 및 지원 범위는 지방자치단체마다 상이하기 때문에 확인할 필요가 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.imaeil.com/page/view/2022072214354946437",
+            "search_query": "난임 정부지원",
+            "terminate": false,
+            "text": "난임 부부는 시술비와 세 가지 비급여 항목에 대한 지원을 받을 수 있어요. 이 비급여 항목은 배아 동결비, 유산방지제, 착상 보조제예요. 신청할 수 있는 조건은 법적 혼인 상태에 있거나, 신청일 기준 1년 이상 사실상 혼인 관계를 유지했다고 확인된 경우, 부부 중 최소한 한 명은 주민등록이 되어 있는 대한민국 국적자이면서, 부부 모두 건강보험 가입 및 보험료 고지 여부가 확인되어야 해요. 지원 대상에 속하는 부부의 소득 기준 및 지원 범위는 지방자치단체마다 다르기 때문에 따로 확인해 볼 필요가 있어요.",
+            "turn_id": "BK22018452-9",
+            "utterance_id": "BK22018452.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "난임 병원을 선택하는 것도 중요할 것 같아. 좋은 난임 병원을 찾는 꿀팁 같은 게 있을까?",
+            "turn_id": "BK22018452-10",
+            "utterance_id": "BK22018452.19"
+        },
+        {
+            "reference_date": "44556.0",
+            "reference_text": [
+                {
+                    "value": "우리 지역 좋은 병원 찾기'는 의료 질 평가 결과를 기반으로 지역 주민이 믿고 이용할 수 있는 의료기관의 정보를 제공하는 서비스이다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "‘좋은 병원’의 기준은 심평원의 요양 급여 적정성 평가 결과 1등급이나 양호 기관으로 선정된 곳이다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "‘우리 지역 좋은 병원 찾기’는 심평원 홈페이지(www.hira.or.kr)에 접속해 의료정보→지역의료정보 경로로 시/도, 시/군/구, 읍/면/동 선택 후 확인할 수 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisamagazine.co.kr/news/articleView.html?idxno=420633",
+            "search_query": "난임 병원 찾기",
+            "terminate": false,
+            "text": "의료 질 평가 결과를 토대로 지역 주민이 신뢰하고 이용할 수 있는 의료기관 정보를 제공하는 우리 지역 좋은 병원 찾기라는 서비스가 있어요. 심평원 요양 급여 적정성 평가 결과 1등급이나 양호 기관으로 선정된 곳들이죠. 심평원 홈페이지에 접속해서 의료정보, 지역 의료정보로 들어가면 사용할 수 있어요.",
+            "turn_id": "BK22018452-10",
+            "utterance_id": "BK22018452.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나는 결혼만 하면 임신은 자연적으로 되는 건 줄 알았는데 임신이 참 쉬운 일이 아닌 것 같아.",
+            "turn_id": "BK22018452-11",
+            "utterance_id": "BK22018452.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아기는 하늘이 내려주는 것이라는 말도 있잖아요.",
+            "turn_id": "BK22018452-11",
+            "utterance_id": "BK22018452.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 난임 원인이나 치료, 병원을 찾는 방법도 알았으니 혹시라도 난임 진단을 받게 되면 당황하지 않고 차분하게 준비할 수 있을 것 같아.",
+            "turn_id": "BK22018452-12",
+            "utterance_id": "BK22018452.23"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "규칙적인 식습관과 적당한 운동으로 건강을 유지하는 것도 잊지 마시고요!",
+            "turn_id": "BK22018452-12",
+            "utterance_id": "BK22018452.24"
+        }
+    ]
+}

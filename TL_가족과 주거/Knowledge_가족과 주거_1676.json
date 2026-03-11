@@ -1,0 +1,327 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012118",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012118",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0010"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "궁금한 게 있는데 자연분만이 아기한테 왜 좋은 건가요?",
+            "turn_id": "BK22012118-1",
+            "utterance_id": "BK22012118.1"
+        },
+        {
+            "reference_date": "42096.0",
+            "reference_text": [
+                {
+                    "value": "좁은 산도를 빠져나오면서 태아의 가슴은 눌리게 되고 이로 인해 기관지 속의 분비물이 말끔히 흘러 나와 폐호흡이 원활해진다.",
+                    "value_time": "44768.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=29676",
+            "search_query": "자연분만 좋은점",
+            "terminate": false,
+            "text": "아기를 자연분만하게 되면 아기가 엄마의 좁은 산도를 빠져나오게 돼요. 그러면서 아기의 가슴이 눌리는데 이때 기관지 속의 분비물 등이 깨끗하게 흘러 나와 폐호흡이 원활해져요.",
+            "turn_id": "BK22012118-1",
+            "utterance_id": "BK22012118.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아기가 산도를 빠져나온다는 게 이해가 안 돼요. 산도가 뭔가요?",
+            "turn_id": "BK22012118-2",
+            "utterance_id": "BK22012118.3"
+        },
+        {
+            "reference_date": "44765.0",
+            "reference_text": [
+                {
+                    "value": "자궁경부와 질을 합쳐 산도(産道)라고 한다.",
+                    "value_time": "44768.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%88%98%EC%86%8C_%EC%9D%B4%EC%98%A8_%EB%86%8D%EB%8F%84_%EC%A7%80%EC%88%98",
+            "search_query": "산도",
+            "terminate": false,
+            "text": "산도란 여성의 자궁에 있는 자궁경부와 질을 합쳐서 산도라고 말해요.",
+            "turn_id": "BK22012118-2",
+            "utterance_id": "BK22012118.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 자궁경부의 위치는 어느 쪽에 있는 건데요?",
+            "turn_id": "BK22012118-3",
+            "utterance_id": "BK22012118.5"
+        },
+        {
+            "reference_date": "44671.0",
+            "reference_text": [
+                {
+                    "value": "자궁경부(子宮頸部)는 자궁의 아래쪽에 위치한 좁은 부분으로 질의 상부와 연결되어 있다.",
+                    "value_time": "44768.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%EA%B6%81%EA%B2%BD%EB%B6%80",
+            "search_query": "자궁경부",
+            "terminate": false,
+            "text": "자궁의 아래에 위치한 좁은 부분인데요, 질의 위쪽 부분과 연결이 되어 있어요.",
+            "turn_id": "BK22012118-3",
+            "utterance_id": "BK22012118.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 제가 임신, 출산 경험이 없고 주변에서 그냥 주워들은 것뿐이라 무지하네요. 근데 저희 사촌 언니 보니까 자연분만할 때 회음부 절개했다는데 정말 절개를 하나요?",
+            "turn_id": "BK22012118-4",
+            "utterance_id": "BK22012118.7"
+        },
+        {
+            "reference_date": "44279.0",
+            "reference_text": [
+                {
+                    "value": "회음부절개는 분만 시 회음부가 불규칙하게 찢어지거나 항문손상을 예방하기 위해서다.",
+                    "value_time": "44768.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/life/health/article/202103241728002",
+            "search_query": "자연분만 회음부",
+            "terminate": false,
+            "text": "네, 맞아요. 분만 시 회음부가 규칙적이지 않게 찢어지거나 항문 손상까지 올 수 있기 때문에 이를 예방하기 위해서 회음부절개를 진행하고 있어요.",
+            "turn_id": "BK22012118-4",
+            "utterance_id": "BK22012118.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "절개라니, 정말 무서울 것 같아요. 저는 절대 자연분만 못할 것 같아요. 그럼 자연분만을 하면 바로 퇴원이 가능한가요?",
+            "turn_id": "BK22012118-5",
+            "utterance_id": "BK22012118.9"
+        },
+        {
+            "reference_date": "41362.0",
+            "reference_text": [
+                {
+                    "value": "평균 입원기간이 6.8일인 제왕절개에 비해 회복이 빠른 자연분만의 입원기간은 3.3일이어서 입원비 부담도 덜하다.",
+                    "value_time": "44768.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.chosun.com/news/ntype.htm?id=201303290100206030016615&servicedate=20130329",
+            "search_query": "자연분만 입원기간",
+            "terminate": false,
+            "text": "제왕절개의 평균 입원일수는 6.8일이며 자연분만은 회복이 빨라 평균 3.3일 정도 입원하면 돼요. 그러다 보니 입원비 부담도 조금 줄어들어요.",
+            "turn_id": "BK22012118-5",
+            "utterance_id": "BK22012118.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그런 차이가 있었군요. 그러면 제왕절개는 어떨 때 진행하는 건가요?",
+            "turn_id": "BK22012118-6",
+            "utterance_id": "BK22012118.11"
+        },
+        {
+            "reference_date": "44617.0",
+            "reference_text": [
+                {
+                    "value": "이 수술은 질을 통한 출산이 산모나 태아의 생명에 위협을 가할 때 시술하는데, 산모의 요청에 따라 이루어지기도 한다.",
+                    "value_time": "44768.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%9C%EC%99%95_%EC%A0%88%EA%B0%9C",
+            "search_query": "제왕 절개",
+            "terminate": false,
+            "text": "산모나 태아에게 생명에 위협이 있을 때 진행해요. 하지만 산모의 요구에 따라 제왕절개를 진행하기도 하죠.",
+            "turn_id": "BK22012118-6",
+            "utterance_id": "BK22012118.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자연분만이나 제왕절개나 둘 다 무섭긴 하겠어요. 그럼 출산은 보통 아기가 얼마큼 컸을 때 진행하나요?",
+            "turn_id": "BK22012118-7",
+            "utterance_id": "BK22012118.13"
+        },
+        {
+            "reference_date": "44644.0",
+            "reference_text": [
+                {
+                    "value": "사람의 출산은 대부분 임신 후 37주 ~ 42주 사이에 이루어진다.",
+                    "value_time": "44768.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "산모가 임신 37주가 되기 전에 아이를 낳는 것을 조산(早産)이라고 하고, 42주가 지나서 아이를 낳는 것은 과숙 분만(過熟分娩)이라고 한다.",
+                    "value_time": "44768.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B6%84%EB%A7%8C",
+            "search_query": "분만",
+            "terminate": false,
+            "text": "아이의 크기보다는 임신 후 37주에서 42주 사이에 출산하게 되는데요, 만약 37주가 되지 않았는데 출산하면 조산이라고 하고 42주가 지나서 출산하면 과숙 분만이라고 해요.",
+            "turn_id": "BK22012118-7",
+            "utterance_id": "BK22012118.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조산은 들어봤는데 과숙분만은 처음 들어봐요.",
+            "turn_id": "BK22012118-8",
+            "utterance_id": "BK22012118.15"
+        },
+        {
+            "reference_date": "44613.0",
+            "reference_text": [
+                {
+                    "value": "일반적으로 42주를 초과해 임신을 지속할 경우에는 그렇지 않은 경우에 비해서 태아의 사망률이 높아진다.",
+                    "value_time": "44768.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%BC%EC%88%99_%EB%B6%84%EB%A7%8C",
+            "search_query": "과숙 분만",
+            "terminate": false,
+            "text": "과숙분만도 위험해요. 왜냐하면 42주가 넘어가면 태아의 사망률이 높아지기 때문이죠.",
+            "turn_id": "BK22012118-8",
+            "utterance_id": "BK22012118.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 42주가 됐는데 아이가 나오지 않으면 어떻게 하나요?",
+            "turn_id": "BK22012118-9",
+            "utterance_id": "BK22012118.17"
+        },
+        {
+            "reference_date": "43797.0",
+            "reference_text": [
+                {
+                    "value": "우리나라는 대개 임신 38주, 늦어도 41주에 유도분만을 시행한다.",
+                    "value_time": "44768.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "영국에서는 의료상의 문제가 없는 한 임신 42주가 됐을 때 유도분만을 결정하지만, 우리나라는 출산예정일 이전에 유도분만을 권유받는 경우가 많다.",
+                    "value_time": "44768.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=80130",
+            "search_query": "유도분만 시기",
+            "terminate": false,
+            "text": "영국에서는 의료문제가 없으면 42주에 유도분만을 결정하지만, 우리나라에서는 유도분만을 출산예정일 이전 38주에서 늦어도 41주 사이에 권유하거나 시행할 때가 많아요.",
+            "turn_id": "BK22012118-9",
+            "utterance_id": "BK22012118.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 나라마다 기준이 또 다른가 보네요. 어느 게 정답이라고 할 순 없을 것 같아요.",
+            "turn_id": "BK22012118-10",
+            "utterance_id": "BK22012118.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "맞아요, 그때그때 제일 나은 선택을 하는 게 가장 좋죠. 아, 전화가 오네요. 받고 올게요.",
+            "turn_id": "BK22012118-10",
+            "utterance_id": "BK22012118.20"
+        }
+    ]
+}

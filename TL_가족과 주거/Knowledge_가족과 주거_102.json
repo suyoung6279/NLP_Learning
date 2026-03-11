@@ -1,0 +1,396 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001108",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001108",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 3.8,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0029"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 집 앞에 화단에 얼마 전부터 아기고양이가 혼자 있어요. 어미가 버리고 간 거 같은데, 어떻게 도와줘야 하나요?",
+            "turn_id": "BK22001108-1",
+            "utterance_id": "BK22001108.1"
+        },
+        {
+            "reference_date": "2022-05-17",
+            "reference_text": [
+                {
+                    "value": "아기고양이가 털이 깨끗하고 눈곱이 없고 코가 분홍색이라면 어미고양이가 돌보는 중일 확률이 높다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=59378",
+            "search_query": "아기고양이 눈곱",
+            "terminate": false,
+            "text": "아기고양이 상태가 털이 깨끗하고 눈곱이 없나요? 아마 그렇다면 어미가 돌보고 있는 고양이일 거예요.",
+            "turn_id": "BK22001108-1",
+            "utterance_id": "BK22001108.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아니요. 아기고양이가 지금 눈을 제대로 못 뜨고 기침도 하고 있어요. 이틀 지켜봤는데, 어미는 나타나지 않고요.",
+            "turn_id": "BK22001108-2",
+            "utterance_id": "BK22001108.3"
+        },
+        {
+            "reference_date": "2022-05-17",
+            "reference_text": [
+                {
+                    "value": "만약 아기고양이가 12시간이 넘게 홀로 방치되어 있다면 대부분은 어미고양이가 돌아오지는 않는다고 판단할 수 있다",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "단, 아기고양이에게 사고 흔적이나 상처가 있는 등 건강상태가 위급해 보인다면 오랜 시간 지켜보는 것보다는 빠르게 구조 후 동물병원으로 내원해 치료를 시작해야 한다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=59378",
+            "search_query": "아기고양이 구조 주의사항",
+            "terminate": false,
+            "text": "12시간이 넘게 홀로 방치된 거군요. 그럼 어미고양이가 돌아오지 않는 게 맞는 거 같아요. 건강상태가 안 좋아 보이면 바로 병원으로 데리고가서 치료를 받아야 해요.",
+            "turn_id": "BK22001108-2",
+            "utterance_id": "BK22001108.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요 너무 가여워요. 어미가 버린거라니. 아기고양이 눈꼽이 많이 끼고, 기침을 하는데 왜 그럴까요?",
+            "turn_id": "BK22001108-3",
+            "utterance_id": "BK22001108.5"
+        },
+        {
+            "reference_date": "2022-01-17",
+            "reference_text": [
+                {
+                    "value": "최근 날씨가 급격히 추워지면서 반려동물도 면역력이 약해지고 체력이 떨어져 계절성질환에 걸리기 쉽다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "필자의 동물병원에도 이런 환자가 늘었다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그중에서 눈질환과 호흡기증상이 있는 고양이가 유난히 많아졌다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 ‘고양이 허피스1형감염증’일 가능성이 높다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=57680",
+            "search_query": "아기고양이 눈꼽",
+            "terminate": false,
+            "text": "아기고양이는 면역력이 약해서 요즘처럼 추워진 날씨에 눈질환과 호흡기 증상이 많이 생기는데, 고양이 허피스1형 감염증일 가능성이 높아요.",
+            "turn_id": "BK22001108-3",
+            "utterance_id": "BK22001108.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사람의 감기와 같은 거군요? 말도 못 하고 얼마나 아플까요, 바로 병원에 데리고 가야겠어요.",
+            "turn_id": "BK22001108-4",
+            "utterance_id": "BK22001108.7"
+        },
+        {
+            "reference_date": "2022-01-17",
+            "reference_text": [
+                {
+                    "value": "고양이 허피스감염증은 대개 소독하고 항생제성분의 안약을 점안하고 호흡기증상이 있을 땐 경구약 및 흡입치료를 하면 좋아지는 경우가 많다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=57680",
+            "search_query": "고양이허피스",
+            "terminate": false,
+            "text": "병원에서 검사 먼저 받아보고 고양이 허피스감염증이 맞다면, 소독하고 항생제 성분 안약을 넣어주면 돼요. 만약 호흡기 증상이 동반될 경우 호흡기치료도 받으면 더욱 호전될 거예요. 너무 걱정하지마세요.",
+            "turn_id": "BK22001108-4",
+            "utterance_id": "BK22001108.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 감사합니다. 한번도 반려동물을 키워본 적이 없어서 모르는 거 투성이에요. 얼른 치료해서 제가 잘 키우려고요.",
+            "turn_id": "BK22001108-5",
+            "utterance_id": "BK22001108.9"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좋은 생각하셨어요. 아기고양이도 이렇게 좋은 주인을 만나서 분명 기쁠 거예요.",
+            "turn_id": "BK22001108-5",
+            "utterance_id": "BK22001108.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럴까요? 어서 빨리 건강히 나아야 할 텐데 걱정입니다. 혹시 고양이 키우는 데 있어서 주의사항이 있을까요?",
+            "turn_id": "BK22001108-6",
+            "utterance_id": "BK22001108.11"
+        },
+        {
+            "reference_date": "2016-09-29",
+            "reference_text": [
+                {
+                    "value": "생활상이 강아지와 많이 다른데, 고양이는 강아지와 달리 모래 화장실이 따로 필요하다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고양이는 본능적으로 스스로 배변을 가리는 동물인 만큼, 모래를 마련해주는 것이 필요하다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://star.mbn.co.kr/view.php?no=682963&year=2016&refer=portal",
+            "search_query": "고양이키울때 주의사항",
+            "terminate": false,
+            "text": "고양이는 본능적으로 스스로 배변을 가려요. 그래서 고양이 전용 모래화장실을 마련해 줘야 해요. 강아지와 많이 다르죠.",
+            "turn_id": "BK22001108-6",
+            "utterance_id": "BK22001108.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말요? 그건 처음 알았어요. 그런 걸 안 가르쳐줘도 본능적으로 안다니 너무 신기한 거 같아요.",
+            "turn_id": "BK22001108-7",
+            "utterance_id": "BK22001108.13"
+        },
+        {
+            "reference_date": "2020-10-19",
+            "reference_text": [
+                {
+                    "value": "두 번째로 길냥이를 실내로 들이셨다면 굉장히 빠르게 중성화 수술을 하시기를 권장합니다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://science.ytn.co.kr/program/program_view.php?s_mcd=0082&s_hcd=0018&key=202010191644158520",
+            "search_query": "고양이 주의사항",
+            "terminate": false,
+            "text": "그렇죠? 똑똑한 동물입니다. 그리고 의사선생님과 상의 후 빨리 중성화 수술을 시켜주셔야 해요.",
+            "turn_id": "BK22001108-7",
+            "utterance_id": "BK22001108.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "중성화 수술은 필수인가요? 왜 꼭 중성화 수술을 해야하는건가요?",
+            "turn_id": "BK22001108-8",
+            "utterance_id": "BK22001108.15"
+        },
+        {
+            "reference_date": "2022-06-03",
+            "reference_text": [
+                {
+                    "value": "앞서 설명했듯이 중성화를 하면 여러 가지 질환을 예방할 수 있다는 이점이 따른다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 고양이의 경우 중성화 없이 발정기를 맞이할 경우 밤새 울거나 식음을 전폐하는 등 신체적인 부분뿐만 아니라 정신적으로도 많이 힘들어하는 경향을 보인다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.beopbo.com/news/articleView.html?idxno=309920",
+            "search_query": "고양이중성화",
+            "terminate": false,
+            "text": "중성화를 하면 여러 가지 질환을 예방할 수 있는 이점이 있어요. 특히 고양이의 경우 중성화 없이 발정기를 맞이하면 밤새 울고 식음을 전폐하기도 해요.",
+            "turn_id": "BK22001108-8",
+            "utterance_id": "BK22001108.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이가 밤새 울면 주변 이웃에 민원이 들어올 수 있으니 중성화 수술은 필수네요.",
+            "turn_id": "BK22001108-9",
+            "utterance_id": "BK22001108.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 반려동물과 보호자가 서로 행복하게 지낼 수 있는 필수 사항이죠.",
+            "turn_id": "BK22001108-9",
+            "utterance_id": "BK22001108.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 반려동물을 키우는데 주의해야 할 사항이 많네요. 혹시 아기들과 고양이를 함께 키우면 아이에게 안 좋을까요?",
+            "turn_id": "BK22001108-10",
+            "utterance_id": "BK22001108.19"
+        },
+        {
+            "reference_date": "2022-04-27",
+            "reference_text": [
+                {
+                    "value": "동물단체 아메리칸 휴메인에 따르면, 고양이를 키우는 가정에서 자란 아이는 배변함을 청소하고 밥을 주면서 책임감을 기를 수 있다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "동물을 쓰다듬고 달래면서 공감과 상냥함 같은 사회성도 기른다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.notepet.co.kr/news/article/article_view/?idx=25441&groupCode=AB130AD130",
+            "search_query": "아기와고양이함께",
+            "terminate": false,
+            "text": "아니요, 좋은 점이 많아요. 고양이를 키우는 가정에서 자란 아이는 고양이 화장실 청소와 밥을 챙겨주면서 책임감을 기를 수 있어요. 또 쓰다듬고, 공감하면서 사회성도 기를수 있구요.",
+            "turn_id": "BK22001108-10",
+            "utterance_id": "BK22001108.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 정말다행이네요. 제가 임신중이라 아기와 함께 키울수 있을지 걱정했는데 다행입니다.",
+            "turn_id": "BK22001108-11",
+            "utterance_id": "BK22001108.21"
+        },
+        {
+            "reference_date": "2017-08-08",
+            "reference_text": [
+                {
+                    "value": "발달심리학자 '장피아제'는 성장기 아이들과 동물의 교감은 다른사람과의 관계에 대한 개념을 형성하는데 큰 도움이 된다고 밝힌바 있다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/115521",
+            "search_query": "고양이 아기 정서",
+            "terminate": false,
+            "text": "네, 걱정 안 하셔도 됩니다. 장피아제라는 심리학자는 성장기 아이들이 동물과 교감함으로써 다른 사람과의 관계에 대한 개념을 형성하는 데 도움이 된다고 밝힌 바 있어요. 그만큼 사회성 발달에도 도움이 된다는 거죠.",
+            "turn_id": "BK22001108-11",
+            "utterance_id": "BK22001108.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여러모로 좋은 점이 많네요. 어서 빨리 고양이 데리고 병원 가야겠어요. 고양이와 함께할 수 있게 많은 도움 주셔서 감사합니다.",
+            "turn_id": "BK22001108-12",
+            "utterance_id": "BK22001108.23"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "앞으로도 궁금한 게 있으시면 연락주세요. 좋은 집사님이 되실 거예요.",
+            "turn_id": "BK22001108-12",
+            "utterance_id": "BK22001108.24"
+        }
+    ]
+}

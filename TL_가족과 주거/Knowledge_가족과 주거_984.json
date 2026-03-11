@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005192",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005192",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0036"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이가 곧 만 3세가 되는데 어린이집을 보낼지 유치원을 보낼지 고민이에요.",
+            "turn_id": "BK22005192-1",
+            "utterance_id": "BK22005192.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 아이가 벌써 기관에 갈 나이가 됐다니 시간이 참 빠르네요.",
+            "turn_id": "BK22005192-1",
+            "utterance_id": "BK22005192.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게요. 이제 어린이집과 유치원 중에 선택을 해야 하는데 두 기관은 어떤 차이가 있는 거예요?",
+            "turn_id": "BK22005192-2",
+            "utterance_id": "BK22005192.3"
+        },
+        {
+            "reference_date": "2022-05-31",
+            "reference_text": [
+                {
+                    "value": "30일 교육부 등에 따르면 과거 유치원은 ‘교육’, 어린이집은 ‘보육’에 방점이 찍혔다는 인식이 컸지만, 이런 격차를 줄이기 위해 2012년 누리과정(만 3∼5세 유아에게 공통으로 제공하는 교육·보육 과정)이 도입됐다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 결과 현재 어린이집과 유치원의 교육과정 자체는 큰 차이가 없다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220530518101?OutUrl=naver",
+            "search_query": "어린이집 유치원 차이",
+            "terminate": false,
+            "text": "교육부 등에서 30일에 밝혔는데 과거에는 유치원은 교육을 중점으로 두고, 어린이집은 보육을 중심으로 운영된다는 생각이 컸어요. 하지만 2012년에 만 3세에서 5세의 유아가 공통으로 제공받는 보육과정인 누리과정이 생기면서 지금의 어린이집과 유치원의 교육 과정에는 커다란 차이가 없다는 거죠.",
+            "turn_id": "BK22005192-2",
+            "utterance_id": "BK22005192.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 두 기관에 큰 차이가 없군요. 하지만 두 기관에 다니는 시간이 다르다고 하던데요. 유치원은 하루에 얼마나 수업을 하는 거예요?",
+            "turn_id": "BK22005192-3",
+            "utterance_id": "BK22005192.5"
+        },
+        {
+            "reference_date": "2022-05-31",
+            "reference_text": [
+                {
+                    "value": "유치원은 하루 5시간가량 수업하는 반일제가 기본이고, 수업 일수도 정해져 있다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한 해 수업 일수 180일을 채우면 원장 재량으로 쉬는 것이 가능해 어린이집보다 방학이 긴 편이다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220530518101?OutUrl=naver",
+            "search_query": "유치원 보육시간",
+            "terminate": false,
+            "text": "네, 유치원은 하루에 5시간 정도 수업을 하는 반일제가 평균이고, 수업 일수도 정해져 있어요. 한 해 수업 일수가 180일로 그 시간을 모두 채우면 원장의 판단에 따라 쉴 수 있어서 어린이집보다는 방학이 긴 편이에요.",
+            "turn_id": "BK22005192-3",
+            "utterance_id": "BK22005192.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그러면 어린이집은 아이를 낮에만 맡아주고 공휴일에는 돌봐주지 않나요?",
+            "turn_id": "BK22005192-4",
+            "utterance_id": "BK22005192.7"
+        },
+        {
+            "reference_date": "2022-05-31",
+            "reference_text": [
+                {
+                    "value": "반면 어린이집은 원칙적으로는 공휴일을 제외하고 연중무휴로 운영되고, 야간보육도 가능하다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220530518101?OutUrl=naver",
+            "search_query": "어린이집 보육시간",
+            "terminate": false,
+            "text": "어린이집의 경우 원칙적으로 공휴일 말고는 연중무휴로 운영되고, 밤에도 보육이 가능한 시설이에요.",
+            "turn_id": "BK22005192-4",
+            "utterance_id": "BK22005192.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 어린이집과 유치원은 비슷하면서도 약간 다른 시설이군요. 들어가는 방법도 다르다고 들었는데 유치원은 어떻게 들어갈 수 있어요?",
+            "turn_id": "BK22005192-5",
+            "utterance_id": "BK22005192.9"
+        },
+        {
+            "reference_date": "2022-05-31",
+            "reference_text": [
+                {
+                    "value": "유치원 입소 신청은 매년 11월 교육부의 앱 ‘처음학교로’에서 원하는 유치원 3곳을 골라 지원하면 추첨하는 방식이다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "유치원마다 우선 선발 요건이 있고, 모든 희망 유치원 추첨에서 탈락하면 추가 모집 기간을 활용하는 등 대학 입시와 비슷하게 진행된다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220530518101?OutUrl=naver",
+            "search_query": "유치원 입소방법",
+            "terminate": false,
+            "text": "유치원은 매해 11월에 교육부 앱인 처음학교로에서 지망하는 유치원 3곳을 선택해서 지원하면 추첨하는 방식으로 입소할 수 있어요. 각 유치원마다 우선 선발 조건이 있어요. 만약 3곳의 희망 유치원 추첨에서 떨어지게 되면 추가 모집 기간이 있어서 꼭 대학 입시 같은 방식으로 진행되는 게 특징이죠.",
+            "turn_id": "BK22005192-5",
+            "utterance_id": "BK22005192.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말요? 유치원은 수업일수가 정해져 있는 것도 그렇고 입소 방식도 대학입시와 닮아서 신기하네요. 그러면 어린이집은 어떻게 들어갈 수 있어요?",
+            "turn_id": "BK22005192-6",
+            "utterance_id": "BK22005192.11"
+        },
+        {
+            "reference_date": "2022-05-31",
+            "reference_text": [
+                {
+                    "value": "어린이집은 보건복지부의 ‘아이사랑’ 애플리케이션(앱)에서 원하는 3곳에 상시 입소 신청을 할 수 있다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "입소 원아는 맞벌이·다둥이 여부 등에 따라 점수를 부여받고, 점수가 높은 순으로 입소가 결정된다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220530518101?OutUrl=naver",
+            "search_query": "어린이집 입소방법",
+            "terminate": false,
+            "text": "어린이집에 들어가려면 보건복지부의 아이 사랑 앱에서 지망하는 3곳을 선택해서 상시 입소 신청을 하면 돼요. 입소 여부는 부모님이 맞벌이이거나 자녀가 많은 지에 따라 점수를 부여받고 점수가 높은 순서로 들어갈 수 있어요.",
+            "turn_id": "BK22005192-6",
+            "utterance_id": "BK22005192.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 어린이집은 맞벌이 부부거나 다둥이 집에게는 좀 더 높은 점수를 받을 수 있어서 좋은 거네요. 그러면 유치원과 어린이집의 비용은 차이가 있나요?",
+            "turn_id": "BK22005192-7",
+            "utterance_id": "BK22005192.13"
+        },
+        {
+            "reference_date": "2018-10-27",
+            "reference_text": [
+                {
+                    "value": "어린이집은 정부의 보육료 지원 외 ‘특별활동비’를 걷는다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 비용은 지역이나 어린이집마다 다르지만 대개 10만~15만원 선이다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "유치원은 정부 지원금 외 학부모로부터 원비와 함께 특별활동비와 교재비, 체험활동비 등을 받는다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "영어, 국어 과학 등 아이의 특별활동 선택에 따라 비용이 달라지기는 하나 어린이집보다는 비싼 것이 대부분이다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01653126619377184&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "어린이집 유치원 비용 차이",
+            "terminate": false,
+            "text": "네, 어린이집은 정부가 지원하는 보육료 말고 특별활동비를 받아요. 지역이나 어린이집에 따라 다르긴 하지만 평균 10만 원에서 15만 원 선이에요. 유치원의 경우에는 정부 지원금 말고도 학부모가 원비와 함께 특별활동비와 교재비, 체험활동비를 내야 해요. 아이가 영어, 국어, 과학 등 어떤 특별활동을 하느냐에 따라 비용이 달라져서 어린이집보다는 비용이 비싼 편이에요.",
+            "turn_id": "BK22005192-7",
+            "utterance_id": "BK22005192.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 유치원이 조금 더 비싼 거였네요. 그런데 유치원 중에 거의 돈을 내지 않고 다닐 수 있다는 유치원이 있던데 그건 뭔가요?",
+            "turn_id": "BK22005192-8",
+            "utterance_id": "BK22005192.15"
+        },
+        {
+            "reference_date": "2021-11-29",
+            "reference_text": [
+                {
+                    "value": "국공립유치원에 다니는 원아는 방과 후 과정 비용을 포함해 월 평균 5000원을 낸다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=100440",
+            "search_query": "국공립 유치원 무료",
+            "terminate": false,
+            "text": "아, 국공립 유치원은 아이가 방과 후 과정을 다니는 비용을 낸다고 해도 월평균 5천 원밖에 내지 않아요. 사립 유치원과 비교해서는 정말 저렴한 편이죠.",
+            "turn_id": "BK22005192-8",
+            "utterance_id": "BK22005192.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 국공립 유치원은 엄청 경쟁이 세겠네요. 그래도 전 뭐니 뭐니 해도 특히 선생님이 괜찮았으면 하는데 어린이집과 유치원 선생님의 자격은 차이가 있나요?",
+            "turn_id": "BK22005192-9",
+            "utterance_id": "BK22005192.17"
+        },
+        {
+            "reference_date": "2022-07-29",
+            "reference_text": [
+                {
+                    "value": "우선 어린이집은 전문대 뿐 아니라 평생교육시설 등에서 ‘학점이수’만 하면 교사로 근무할 수 있으나 유치원 교사는 3·4년제 유아교육과를 졸업해야 자격이 주어진다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://view.asiae.co.kr/article/2022072915384138117",
+            "search_query": "어린이집 유치원 교사 자격 차이",
+            "terminate": false,
+            "text": "맞아요. 어린이집 교사는 전문대 말고도 평생교육 시설에서 학점 이수를 하면 교사로 일할 수 있어요. 하지만 유치원 교사는 3년제나 4년제의 유아교육과를 졸업해야 교사 자격 취득이 가능해요.",
+            "turn_id": "BK22005192-9",
+            "utterance_id": "BK22005192.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 선생님의 자격 기준도 조금씩 다르네요. 그동안 어린이집과 유치원의 차이를 잘 몰랐는데 오늘 잘 알게 돼서 선택이 쉬워졌어요.",
+            "turn_id": "BK22005192-10",
+            "utterance_id": "BK22005192.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 아이와 집안 상황에 맞춰서 잘 선택하시길 바랄게요. 오늘 이야기 즐거웠어요. 그럼 다음에 봐요.",
+            "turn_id": "BK22005192-10",
+            "utterance_id": "BK22005192.20"
+        }
+    ]
+}

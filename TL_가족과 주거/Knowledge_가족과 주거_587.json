@@ -1,0 +1,366 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.6,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015816",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015816",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 3.6,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0046"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "주변에서 강아지가 걸릴 수 있는 병 중에 담낭점액종이 심각한 질환이니 조심해야 한다고 하더라고요. 담낭점액종이란 무엇인가요?",
+            "turn_id": "BK22015816-1",
+            "utterance_id": "BK22015816.1"
+        },
+        {
+            "reference_date": "2022-07-22",
+            "reference_text": [
+                {
+                    "value": "담낭은 간에 둘러싸여 있는 장기로 간에서 생성된 담즙을 담는 주머니 역할을 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "담낭에 보관된 담즙은 주로 지방을 소화하는 역할을 하며 담관을 통해 십이지장으로 분비된다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "담낭점액종(gallbladder mucocele)은 담낭 내 고체에 가까운 끈적한 점액이 쌓이는 질환이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "담낭점액층에 있는 분비샘이 과증식해 비정상적으로 두꺼운 점액이 쌓이면서 발생한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60312",
+            "search_query": "담낭점액종",
+            "terminate": false,
+            "text": "담낭은 간에 둘러져 싸여 있는 장기로 간에서 만들어진 담즙을 담는 주머니 역할을 해요. 담낭에 담겨진 담즙은 대부분 지방을 소화하는 역할을 하며 담관을 통해 십이지장으로 분비되죠. 담낭점액종은 담낭 내 고체와 유사한 끈적한 점액이 누적되는 질환이에요. 원인으로는 담낭 점액층에 있는 분비샘이 과증식해 비정상적으로 두꺼운 점액이 누적되면서 발병하죠.",
+            "turn_id": "BK22015816-1",
+            "utterance_id": "BK22015816.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그렇다면 담낭점액종의 증상은 뭔가요?",
+            "turn_id": "BK22015816-2",
+            "utterance_id": "BK22015816.3"
+        },
+        {
+            "reference_date": "2021-12-29",
+            "reference_text": [
+                {
+                    "value": "초기증상으로 복부 불편감, 식욕부진 등의 증상을 보이기도 하나 단순한 소화기증상으로 보여 그냥 넘어가기 쉽다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "담낭점액종으로 담낭확장이 심해지면 황달, 극심한 복통, 구토, 설사 등의 증상이 뚜렷하게 확인된다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=57340",
+            "search_query": "담낭점액종 증상",
+            "terminate": false,
+            "text": "담낭점액종의 초기증상으로 복부 불편감, 식욕부진 등의 소화기증상을 보여요. 그런데 담낭점액종으로 담낭확장이 심해지면 황달, 극심한 복통, 구토, 설사 등의 증상을 확실하게 볼 수 있죠.",
+            "turn_id": "BK22015816-2",
+            "utterance_id": "BK22015816.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "담낭점액종이 담낭확장을 불러일으키는군요. 그럼 담낭확장이 심해지면 어떤 증세를 보이게 되나요?",
+            "turn_id": "BK22015816-3",
+            "utterance_id": "BK22015816.5"
+        },
+        {
+            "reference_date": "2022-07-22",
+            "reference_text": [
+                {
+                    "value": "점액은 담관으로 빠져나가지 못하고 폐색을 일으키게 되고 점차 담낭이 커지면서 최악에는 담낭파열이 발생하게 된다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "담낭파열 시 소화액이 복강 내로 누출되면서 심각한 복막염에 이어 전신 패혈증을 유발하게 되고 높은 확률로 사망에 이르게 된다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60312",
+            "search_query": "담낭파열",
+            "terminate": false,
+            "text": "담낭이 확장되면 최악에는 담낭파열을 일으키게 돼요. 담낭파열 시 소화액이 복강 내로 배출되면서 심각한 복막염과 전신 패혈증을 발생시키게 되고 큰 확률로 죽음에 이르게 돼요.",
+            "turn_id": "BK22015816-3",
+            "utterance_id": "BK22015816.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "담낭점액종이 아닌지 늘 살펴봐야겠네요. 그런데 담낭점액종은 어떻게 진단할 수 있나요?",
+            "turn_id": "BK22015816-4",
+            "utterance_id": "BK22015816.7"
+        },
+        {
+            "reference_date": "2022-07-22",
+            "reference_text": [
+                {
+                    "value": "담낭점액종은 무증상일 때가 많고 혈액검사만으로는 진단할 수 없다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "초음파검사를 통해 진단하는데 담낭 크기가 커져 있고 정상적으로 검게 보여야 하는 담낭 내부가 키위모양으로 보이는 것이 특징이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "담관의 폐색이 확인되면 담낭점액종 외에도 담낭염, 담석, 종양 등을 감별해야 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60312",
+            "search_query": "담낭정액종 진단",
+            "terminate": false,
+            "text": "담낭점액종은 증상이 없을 때가 많고 혈액검사만으로는 진단할 수 없어요. 초음파검사를 통해 진단하게 되는데 담낭 사이즈가 커져 있고 정상적으로 까맣게 보여야 하는 담낭 안쪽이 키위 모양으로 보이는 것으로 이를 알 수 있어요. 만약 담관이 막힌 것이 발견되면 담낭점액종 외에도 담낭염, 담석, 종양 등을 식별해야 해요.",
+            "turn_id": "BK22015816-4",
+            "utterance_id": "BK22015816.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그러면 담낭점액종이 의심된다면 어떤 치료를 받게 되나요?",
+            "turn_id": "BK22015816-5",
+            "utterance_id": "BK22015816.9"
+        },
+        {
+            "reference_date": "2022-07-22",
+            "reference_text": [
+                {
+                    "value": "초음파에서 담낭점액종이 의심된다고 무조건 수술하지는 않는다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "담관의 폐색 여부와 담낭의 확장 정도, 초음파 소견, 황달과 주변 복막염 여부 등을 종합해 치료 방향을 결정한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "담낭파열의 위험이 적은 초기라면 내과적으로 약물을 복용하고 저지방식이를 하며 주기적인 검진이 추천된다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60312",
+            "search_query": "담낭정액종 치료방향",
+            "terminate": false,
+            "text": "일단 초음파에서 담낭점액종이 의심된다고 무조건 수술하지는 않아요. 담관이 막혔는지 여부와 담낭의 확장 수준, 초음파 소견, 황달과 주변 복막염 여부 등을 전반적으로 고려해 치료 방향을 결정해요. 담낭파열의 가능성이 적은 초기라면 내과적으로 약물을 먹게 되고 저지방식이를 하며 정기적인 검진을 권장하죠.",
+            "turn_id": "BK22015816-5",
+            "utterance_id": "BK22015816.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "담낭파열이 적은 경우 내과적으로 치료가 가능하군요. 그렇다면 만약 담낭파열의 가능성이 큰 경우는 어떻게 하나요?",
+            "turn_id": "BK22015816-6",
+            "utterance_id": "BK22015816.11"
+        },
+        {
+            "reference_date": "2022-07-22",
+            "reference_text": [
+                {
+                    "value": "하지만 파열 발생 시 매우 치명적인 질환이기 때문에 중등도 이상의 담낭점액종이 확인된다면 완전 폐색이 아니더라도 수술에 대해 적극적으로 고려해야 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "담낭을 제거하는 담낭절제술을 실시할 때 담낭질환이 있는 환자는 간질환을 동반하는 일이 많아 이상소견이 있다면 간생검도 함께 받는 것을 추천한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60312",
+            "search_query": "담낭정액종수술",
+            "terminate": false,
+            "text": "담낭점액종은 파열이 생길 경우 생명을 위협하는 질환이기 때문에 중등도 이상의 담낭점액종으로 진단받게 된다면 담관이 막히지 않았더라도 수술을 적극적으로 생각해 보아야 해요. 또한 담낭을 없애는 담낭절제술을 받을 때 담낭질환이 있는 환자는 간질환을 가지고 있는 경우가 많기 때문에 이상소견이 있다면 간생검도 같이 받는 것이 좋아요.",
+            "turn_id": "BK22015816-6",
+            "utterance_id": "BK22015816.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그런데 담낭절제술을 받게 되면 담낭이 사라지는 건데 그래도 살아가는 데 지장이 없나요?",
+            "turn_id": "BK22015816-7",
+            "utterance_id": "BK22015816.13"
+        },
+        {
+            "reference_date": "2022-07-22",
+            "reference_text": [
+                {
+                    "value": "담낭절제술을 받는 반려동물 보호자의 가장 큰 궁금증은 담낭이 없어도 괜찮은지다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다행히 저장소가 없더라도 간에서 십이지장으로 가는 통로가 남아있어 살아가는 데는 문제가 없다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60312",
+            "search_query": "담낭절제술 십이지장",
+            "terminate": false,
+            "text": "네, 담낭절제술을 받는 반려동물 보호자들이 가장 궁금하게 여기는 점이기도 한데, 다행히 저장소인 담낭이 없더라도 간에서 십이지장으로 이어지는 통로가 남아있어 살아가는 데는 문제가 없어요.",
+            "turn_id": "BK22015816-7",
+            "utterance_id": "BK22015816.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다행이네요, 그러면 담낭절제술 후에 집에서는 어떻게 관리해주어야 하나요?",
+            "turn_id": "BK22015816-8",
+            "utterance_id": "BK22015816.15"
+        },
+        {
+            "reference_date": "2021-12-29",
+            "reference_text": [
+                {
+                    "value": "수술 후, 설사 등 소화기증상을 보일 가능성이 있어 평소에 과식하지 않도록 해주고 저지방식이 위주의 식단으로 관리해주면 이후에도 건강한 삶을 유지할 수 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=57340",
+            "search_query": "담낭절제술 관리",
+            "terminate": false,
+            "text": "수술 후, 설사 등 소화기증상을 보일 확률이 있기 때문에 평소에 과식하지 않게 해주고 저지방식이 중심의 식단으로 케어해주면 이후에도 건강하게 살 수 있어요.",
+            "turn_id": "BK22015816-8",
+            "utterance_id": "BK22015816.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수술 이후에는 식단 관리만 해주면 크게 문제가 되지 않는다니 다행이네요.",
+            "turn_id": "BK22015816-9",
+            "utterance_id": "BK22015816.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 그래도 꾸준히 건강검진을 받게 하는 걸 추천해 드려요.",
+            "turn_id": "BK22015816-9",
+            "utterance_id": "BK22015816.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼요, 오늘 유용한 정보 알려주셔서 감사했어요. 저는 이만 들어가 볼게요.",
+            "turn_id": "BK22015816-10",
+            "utterance_id": "BK22015816.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 시간이 늦었는데 조심히 들어가세요.",
+            "turn_id": "BK22015816-10",
+            "utterance_id": "BK22015816.20"
+        }
+    ]
+}

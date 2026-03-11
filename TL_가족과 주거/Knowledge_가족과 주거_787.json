@@ -1,0 +1,332 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002056",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002056",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0036"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나 이번에 아기 발달검사 다녀왔는데, 자폐 스펙트럼이 의심된다고 하더라고. 우리 아기 자폐증인 거야? 혹시 이거에 대해서 잘 아니?",
+            "turn_id": "BK22002056-1",
+            "utterance_id": "BK22002056.1"
+        },
+        {
+            "reference_date": "2022-04-30",
+            "reference_text": [
+                {
+                    "value": "자폐 스펙트럼 또는 자폐 스펙트럼 장애(Autism Spectrum Disorders, ASD)는 자폐증/자폐 장애를 비롯하여 자폐증의 진단기준은 충족하지 않으나 전체 또는 일부 특징이 비슷한 여러 증후군을 모은 개념이다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%ED%8F%90_%EC%8A%A4%ED%8E%99%ED%8A%B8%EB%9F%BC",
+            "search_query": "자폐 스펙트럼 장애",
+            "terminate": false,
+            "text": "자폐 스펙트럼이랑 자폐증은 좀 다른데, 자폐 스펙트럼이 좀 더 포괄적인 개념이야. 꼭 자폐증 증상에 100퍼센트 충족되는 건 아니어도, 일부 비슷한 특징을 보이는 증후군을 아울러 말하는 거거든.",
+            "turn_id": "BK22002056-1",
+            "utterance_id": "BK22002056.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대체, 왜 우리 아이한테 이런 일이 생긴 거지. 이게 자주 발병하는 병이야?",
+            "turn_id": "BK22002056-2",
+            "utterance_id": "BK22002056.3"
+        },
+        {
+            "reference_date": "2022-04-30",
+            "reference_text": [
+                {
+                    "value": "전체 인구의 1% 정도가 자폐 스펙트럼에 속하는 것으로 추정되며, 남성의 경우가 여성보다 4배 이상 흔하다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%ED%8F%90_%EC%8A%A4%ED%8E%99%ED%8A%B8%EB%9F%BC",
+            "search_query": "자폐 스펙트럼 남성",
+            "terminate": false,
+            "text": "전 세계의 1퍼센트 정도가 자폐 스펙트럼을 가지고 있고, 남자가 여자보단 4배 정도 더 많아.",
+            "turn_id": "BK22002056-2",
+            "utterance_id": "BK22002056.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1퍼센트면 그렇게 흔한 건 아니잖아. 우리 아이 어떡하지? 이것도 장애인으로 분류되는 거야?",
+            "turn_id": "BK22002056-3",
+            "utterance_id": "BK22002056.5"
+        },
+        {
+            "reference_date": "2022-04-30",
+            "reference_text": [
+                {
+                    "value": "장애인복지법에서는 자폐성 장애를 장애로 인정하므로, 자폐 스펙트럼 장애도 자폐성 장애인으로 장애인등록이 가능하다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%ED%8F%90_%EC%8A%A4%ED%8E%99%ED%8A%B8%EB%9F%BC",
+            "search_query": "자폐 스펙트럼 장애인",
+            "terminate": false,
+            "text": "장애인복지법에서는 자폐 스펙트럼도 장애인으로 등록이 가능하긴 해. 자폐성 장애 범주 안에 있어서, 인정이 되거든.",
+            "turn_id": "BK22002056-3",
+            "utterance_id": "BK22002056.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "믿을 수가 없어, 우리 애가 장애인이라니. 자폐 스펙트럼이 어떤 증상이 있길래, 우리 아이를 그렇게 진단한 거지?",
+            "turn_id": "BK22002056-4",
+            "utterance_id": "BK22002056.7"
+        },
+        {
+            "reference_date": "2021-11-27",
+            "reference_text": [
+                {
+                    "value": "아이에게서 눈맞춤이나 호명반응 등 감각기능의 문제가 나타났다면, 자폐스펙트럼의 증상을 알리는 신호일 수도 있다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=100418",
+            "search_query": "자폐 스펙트럼 눈맞춤",
+            "terminate": false,
+            "text": "혹시 아기가 부르면 잘 쳐다보고, 눈도 잘 맞추는 편이야? 이게 자폐 스펙트럼의 가장 기본적인 신호거든.",
+            "turn_id": "BK22002056-4",
+            "utterance_id": "BK22002056.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "애가 불러도 잘 안 쳐다보긴 했어. 나는 그래서 그냥 아직 자기 이름을 못 알아듣는 건 줄 알았지.",
+            "turn_id": "BK22002056-5",
+            "utterance_id": "BK22002056.9"
+        },
+        {
+            "reference_date": "2021-11-27",
+            "reference_text": [
+                {
+                    "value": "자폐스펙트럼 장애를 가진 아동은 의사소통 및 사회적 상호작용에 질적인 결함을 보인다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "관심과 활동의 종류가 제한되고, 반복적인 행동을 보이는 특징이 있다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=100418",
+            "search_query": "자폐 스펙트럼 상호작용",
+            "terminate": false,
+            "text": "원래 자폐 스펙트럼을 가진 아이들이 의사소통이랑 상호작용이 잘 안되거든. 그리고 관심을 보이는 것도 굉장히 제한적이고, 반복적인 행동을 좋아해.",
+            "turn_id": "BK22002056-5",
+            "utterance_id": "BK22002056.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 애한테 보이는 모습이랑 비슷하네. 나는 그냥 언어발달이 좀 느린 줄 알았는데, 지금 생각해 보면 의사소통 자체가 잘 안됐던 것 같아.",
+            "turn_id": "BK22002056-6",
+            "utterance_id": "BK22002056.11"
+        },
+        {
+            "reference_date": "2021-11-27",
+            "reference_text": [
+                {
+                    "value": "또한, 시각, 청각 등 특정 감각에 과민한 반응을 보인다거나 반대로 둔감한 반응을 보이는 등 감각 기능과 감각 처리 과정에 어려움을 보이는데 이러한 어려움은 언어 및 상호작용 발달에 제한을 가져올 수 있어 주의 깊게 살펴봐야 한다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=100418",
+            "search_query": "자폐 스펙트럼 과민한 반응",
+            "terminate": false,
+            "text": "그리고 혹시 시각, 청각, 후각 등등 특정한 감정에 과민한 반응을 보인 적은 없어? 아니면 반대로 너무 둔한 반응을 보인다든지. 자폐 스펙트럼 증상이 있는 아이들은 감각 기능과 감각 처리에 어려움을 느끼기 때문에, 언어발달이나 상호작용이 좀 느려. 그래서 보호자가 유심히 살피고 관찰해야 해.",
+            "turn_id": "BK22002056-6",
+            "utterance_id": "BK22002056.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그것도 우리 아이 증상이랑 좀 비슷한 것 같아. 이거 완치는 가능한 거야?",
+            "turn_id": "BK22002056-7",
+            "utterance_id": "BK22002056.13"
+        },
+        {
+            "reference_date": "2022-04-30",
+            "reference_text": [
+                {
+                    "value": "자폐 스펙트럼 장애의 명확한 치료법은 없으나 아스퍼거 증후군은 경우에 따라 사회적 경험을 쌓으며 증상이 완화되기도 한다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자폐 스펙트럼의 관리는 완치보다는 증상 완화와 삶의 질 개선에 중점을 둔다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%ED%8F%90_%EC%8A%A4%ED%8E%99%ED%8A%B8%EB%9F%BC",
+            "search_query": "자폐 스펙트럼 치료",
+            "terminate": false,
+            "text": "사실 자폐 스펙트럼에 명확한 치료 방법은 없어. 그래서 완치보다는 증상 완화를 목표로 하는 편 이지. 아스퍼거 증후군의 경우 사회적 경험을 쌓으면 증상이 완화되기도 하고.",
+            "turn_id": "BK22002056-7",
+            "utterance_id": "BK22002056.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "결국 완치는 어렵다는 거구나. 그래도 증상 완화를 최대한 목표로 해서 치료를 시작해야겠네.",
+            "turn_id": "BK22002056-8",
+            "utterance_id": "BK22002056.15"
+        },
+        {
+            "reference_date": "2022-07-18",
+            "reference_text": [
+                {
+                    "value": "자폐스펙트럼 장애는 조기에 발견해 치료할수록 예후가 좋다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20220712_0001939589&cID=10201&pID=10200",
+            "search_query": "자폐 스펙트럼 조기",
+            "terminate": false,
+            "text": "응, 자폐 스펙트럼의 경우 빨리 알고 조기에 치료를 시작할수록, 증상이 좋아질 확률이 높아.",
+            "turn_id": "BK22002056-8",
+            "utterance_id": "BK22002056.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 의사 선생님도 얼른 치료기관을 알아보라고 했구나.",
+            "turn_id": "BK22002056-9",
+            "utterance_id": "BK22002056.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 초기에 조치를 취할수록 아이의 긍정적인 예후를 기대할 수 있으니까.",
+            "turn_id": "BK22002056-9",
+            "utterance_id": "BK22002056.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어, 그럼 얼른 알아보고 예약 먼저 해야겠다.",
+            "turn_id": "BK22002056-10",
+            "utterance_id": "BK22002056.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 내가 아는 분 중에 관련 기관을 운영하시는 분이 있어. 내가 그분 소개해 줄게.",
+            "turn_id": "BK22002056-10",
+            "utterance_id": "BK22002056.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 아는 사람이면 아무래도 더 신경 써주시겠지. 고마워, 연락처 전달해 주면 연락해 볼게.",
+            "turn_id": "BK22002056-11",
+            "utterance_id": "BK22002056.21"
+        }
+    ]
+}

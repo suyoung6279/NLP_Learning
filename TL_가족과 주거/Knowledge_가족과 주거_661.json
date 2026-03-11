@@ -1,0 +1,391 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016000",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016000",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 이번에 임신을 하게 돼서 궁금한 것이 너무 많네요. 그런데 친구들 중에서도 제가 첫 임신이라서 물어볼 곳도 마땅치 않아요. 혹시 출산 경험이 있으시면 저 좀 도와주실 수 있나요?",
+            "turn_id": "BK22016000-1",
+            "utterance_id": "BK22016000.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 축하해요! 저도 이렇게 보여도 벌써 아이가 셋이라 물어보시면 아는 한도 내에서 잘 알려 드릴게요. 어떤 부분이 궁금하신가요?",
+            "turn_id": "BK22016000-1",
+            "utterance_id": "BK22016000.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너무 감사드려요. 혹시 임신 테스트기는 언제 사용하는 것이 정확한지 아시나요? 제가 몇번이나 테스트해보고 결국 임신인 것을 알게 되긴 했는데 시기를 못 맞춰서인지 초반 검사에는 계속 한 줄로 떴었거든요.",
+            "turn_id": "BK22016000-2",
+            "utterance_id": "BK22016000.3"
+        },
+        {
+            "reference_date": "2020-10-09",
+            "reference_text": [
+                {
+                    "value": "임신테스트기 사용 시기는 수정 후 10~14일 뒤부터다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "수정 후 10~14일 이전에는 소변으로 나오는 임신 호르몬이 매우 적어 임신테스트기에 오류로 나올 확률이 높기 때문이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "임신테스트기 사용법은 임신 호르몬이 농축된 아침 첫 소변으로 검사해야 높은 임신테스트기 정확도로 검사할 수 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=803766",
+            "search_query": "임신 테스트기 사용시기",
+            "terminate": false,
+            "text": "임신테스트기는 보통 수정 후 10~14일 이후에 보는 것이 좋아요. 그 이전에는 소변으로 나오는 임신 호르몬이 매우 적기 때문에 임신 테스트기에 오류로 나올 확률이 높거든요. 그리고 추가로 알려드리자면 임신테스트기는 임신 호르몬이 농축된 아침 첫 소변으로 검사하는 것이 정확도가 높아요.",
+            "turn_id": "BK22016000-2",
+            "utterance_id": "BK22016000.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좋은 정보 감사드려요. 제가 너무 마음이 앞서서 빨리해서 그런 것 같네요. 아, 그리고 제가 주수 계산이 정말 헷갈리는데 주수는 언제를 기준으로 세는 것인지 알려주실 수 있나요?",
+            "turn_id": "BK22016000-3",
+            "utterance_id": "BK22016000.5"
+        },
+        {
+            "reference_date": "2022-07-31",
+            "reference_text": [
+                {
+                    "value": "임신은 생리 첫날부터 40주를 기본으로 합니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "계산을 할 때는 생리의 첫날을 1일로 계산하는 방법을 주로 사용합니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "예를 들어, 1월 1일이 첫 생리날이었다면 여기에 9개월 하고 7일을 더해 예정일을 10월 8일로 계산하게 됩니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000720688",
+            "search_query": "임신 주수 계산",
+            "terminate": false,
+            "text": "임신 주수는 보통 생리 첫날부터 40주가 기본인데 계산을 할 때는 주로 마지막 생리를 했던 첫날을 1일로 계산해요. 예를 들어서 1월 1일에 첫 생리를 했다면 여기에 9개월에 7일을 더해서 계산하면 10월 8일이 예정일이 되는 거죠.",
+            "turn_id": "BK22016000-3",
+            "utterance_id": "BK22016000.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 저는 임신 테스트기로 확인된 날 기준인 줄 알았어요. 아, 그리고 궁금한 것이 있는데 임산부도 독감 백신을 맞아야 한다는 소리를 들어서 임산부도 독감 주사를 맞아도 되는지 궁금해요.",
+            "turn_id": "BK22016000-4",
+            "utterance_id": "BK22016000.7"
+        },
+        {
+            "reference_date": "2021-02-04",
+            "reference_text": [
+                {
+                    "value": "면역력이 약해져있는 임신부는 감기, 독감과 같은 호흡기질환에 걸리기 쉽기 때문에 각별히 주의해야 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "독감은 자연유산, 조기분만, 저체중 출산 등 여러 합병증을 유발할 수 있으므로 백신을 접종하는 것이 좋다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "조 교수는 “임신부가 백신을 접종하면 임신 기간 동안 임신부를 보호할 수 있는 것은 물론, 태아도 출생 이후 6개월까지 독감 예방 효과가 있다”라고 말했다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kukinews.com/newsView/kuk202102030207",
+            "search_query": "임산부 독감 백신",
+            "terminate": false,
+            "text": "독감에 걸리면 자연유산이나 조기분만, 저체중아 출산 등 다양한 합병증이 생길 수 있기 때문에 백신을 맞는 것이 좋아요. 임산부가 백신을 맞으면 임신기간 동안 임산부를 지켜줄 뿐 아니라 태아도 출생 이후 6개월까지는 독감 예방 효과가 있거든요. 그리고 면역력이 약한 상태인 임산부는 감기나 독감과 같은 호흡기 질환에 잘 걸리기 때문에 특히 주의를 기울여야 하죠.",
+            "turn_id": "BK22016000-4",
+            "utterance_id": "BK22016000.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "괜히 고민했네요. 아, 그리고 벌써부터 걱정이 되긴 하는데 혹시 입덧은 언제부터 시작되나요? 혹시 안 겪고 넘어가는 임산부들도 있나요?",
+            "turn_id": "BK22016000-5",
+            "utterance_id": "BK22016000.9"
+        },
+        {
+            "reference_date": "2022-08-11",
+            "reference_text": [
+                {
+                    "value": "전체 임신부의 70~85%가 입덧을 겪는다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "편차는 있지만 임신 4~8주 경부터 메스꺼움, 헛구역질, 가벼운 구토 등의 증상을 경험하고 16주 경까지 지속되는 경우가 대부분이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/269R9STD6N",
+            "search_query": "임신 입덧 시기",
+            "terminate": false,
+            "text": "보통 전체 임산부의 70~85% 정도가 입덧을 경험하는데 기간에 차이가 있긴 하지만 임신 4~8주 경부터 메스꺼움이나 헛구역질, 가벼운 구토 등의 증상을 보여요. 그리고 대부분은 임신 16주 경까지 이어지죠.",
+            "turn_id": "BK22016000-5",
+            "utterance_id": "BK22016000.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 음식을 워낙 안 가리는 편이라 입덧이 시작되면 어떨지 벌써부터 걱정이네요. 아, 그리고 임신을 하면 병원을 몇 주마다 가야 하는지 알려주실 수 있나요?",
+            "turn_id": "BK22016000-6",
+            "utterance_id": "BK22016000.11"
+        },
+        {
+            "reference_date": "2021-11-12",
+            "reference_text": [
+                {
+                    "value": "임신부와 태아 상태에 따라 병원을 자주 갈 수도 있고 가끔 갈 수도 있지만, 보통은 첫 방문 이후 임신 28주까지는 약 4주 간격으로 병원을 방문한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 다음 28주부터 36주까지는 2주 간격, 마지막 한 달간은 1주 간격으로 간다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/culture-life/culture_general/2021/11/12/U7AEBQDDRJAYXG3VQO5RHSNUHQ/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "search_query": "임신 검사 시기",
+            "terminate": false,
+            "text": "임산부나 태아 상태에 따라 다르긴 하지만 보통은 처음 다녀온 후 임신 28주까지는 약 4주 간격으로 병원에 가고 28주에서 36주까지는 2주 간격, 그리고 마지막 한 달간은 1주 간격으로 병원에 가면 돼요.",
+            "turn_id": "BK22016000-6",
+            "utterance_id": "BK22016000.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잘 적어둬야겠네요. 아, 그리고 친구가 영양제를 선물해준다고 하는데 임산부에게 좋은 영양제는 어떤 것이 있을까요?",
+            "turn_id": "BK22016000-7",
+            "utterance_id": "BK22016000.13"
+        },
+        {
+            "reference_date": "2022-10-06",
+            "reference_text": [
+                {
+                    "value": "그러나 임신 중에도 꼭 챙겨 먹어야 할 필수 영양제들이 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대표적으로 엽산, 철분, 비타민 D, 오메가-3 지방산 등이 꼽히는데, 그 중에서도 오메가3는 임산부는 물론 태아에게도 매우 중요한 필수지방산으로 알려져 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "오메가3는 불포화지방산의 한 종류로 체내에서 자체적으로 합성이 이뤄지지 않아 음식을 통해 보충해줘야 하는 영양소다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "오메가3의 주성분인 EPA와 DHA는 태아의 두뇌와 시각 발달을 돕고 임신부의 조산과 산후우울증을 예방하는 역할을 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000738016",
+            "search_query": "임산부 영양제",
+            "terminate": false,
+            "text": "그러면 오메가3도 좋을 것 같아요. 임산부들이 꼭 챙겨 먹어야 하는 필수 영양제에는 엽산, 철분, 비타민 D, 오메가3 지방산 등이 있는데 그중에서도 오메가3는 임산부는 물론 태아에게도 매우 중요한 필수 지방산이거든요. 오메가3의 주성분인 EPA와 DHA는 아기 두뇌와 눈의 발달을 도와주고 임산부의 조산 위험과 산후 우울증을 예방해주기 때문이에요. 하지만 불포화지방산의 종류인 이 오메가3는 몸 안에서 자체 합성이 안되기 때문에 음식을 통해서 보충할 수밖에 없어요.",
+            "turn_id": "BK22016000-7",
+            "utterance_id": "BK22016000.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 그럼 친구한테 오메가3도 슬쩍 말해봐야겠네요. 아, 그리고 임신을 하면 당뇨가 올 수도 있다고 들었는데 임신성 당뇨에 걸리면 아이에게도 안좋나요? 언제 검사를 받는 건지도 궁금해요.",
+            "turn_id": "BK22016000-8",
+            "utterance_id": "BK22016000.15"
+        },
+        {
+            "reference_date": "2022-10-05",
+            "reference_text": [
+                {
+                    "value": "임신 24~28주가 되면 반드시 받아야 할 검사가 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "바로 ‘임신성 당뇨’ 검사다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "산모가 임신성 당뇨인 경우에는 산모와 아이 모두에게 위험하므로 평소 생활 관리를 해야 하고, 혈당 조절이 잘 안된다면 인슐린 치료를 해야 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000737782",
+            "search_query": "임신성 당뇨",
+            "terminate": false,
+            "text": "그렇죠. 보통 임신 24~28주가 되면 임신성 당뇨 검사를 꼭 받아야 하는데 만약 산모가 임신성 당뇨라면 산모와 아이 모두 위험해져요. 그래서 평소에 관리도 잘 해줘야 하고 혹시나 혈당 관리가 안 된다면 인슐린 치료도 필요하죠.",
+            "turn_id": "BK22016000-8",
+            "utterance_id": "BK22016000.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신성 당뇨가 오지 않도록 평소 관리를 잘해야겠네요. 아, 그리고 마지막으로 임신하면 튼살이 생긴다는데 이 튼살은 왜 생기는 건지 아시나요? 관리를 어떻게 해줘야 하는지도 궁금해요.",
+            "turn_id": "BK22016000-9",
+            "utterance_id": "BK22016000.17"
+        },
+        {
+            "reference_date": "2022-01-22",
+            "reference_text": [
+                {
+                    "value": "피부가 물결 모양으로 갈라지는 듯한 튼살은 팽창선조라고 불리는 피부질환 중 하나이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "주로 급격한 체중 증가, 임신 등으로 팔, 허벅지, 복부 부위의 피부가 얇게 갈라지는 증상으로써 진피층의 콜라겐이 파괴되는 것이 원인이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보통 초기에는 붉은 색선이나 띠를 두른 것처럼 나타나지만 시간이 지나면서 점차 흰색으로 바뀐다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "특히 튼살은 한 번 생기면 잘 사라지지 않고 오래될수록 치료가 어렵기 때문에 평소 적정 체중을 유지하고 충분한 수분 섭취와 함께 보습 크림을 꾸준히 바르는 등 예방을 위해 노력을 기울이는 것이 좋다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.stardailynews.co.kr/news/articleView.html?idxno=315110",
+            "search_query": "임신 튼살",
+            "terminate": false,
+            "text": "튼살은 주로 급격히 체중이 늘거나 임신 등으로 인해 팔이나 허벅지, 배 등의 피부가 물결모양으로 얇게 갈라지는 것으로 진피층의 콜라겐이 파괴되서 생기는 팽창선조로 불리는 피부질환 중 하나에요. 보통 초기에는 붉은 색의 띠를 두른 것처럼 보이지만 시간이 지나면서 점점 흰색으로 변하는데 한번 생기면 잘 없어지지 않아요. 그리고 시간이 지날수록 치료하기가 어려워지기 때문에 충분한 물을 마시고 보습크림을 발라주는 등의 방법으로 미리 예방해주는 것이 좋아요.",
+            "turn_id": "BK22016000-9",
+            "utterance_id": "BK22016000.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "튼살 관리도 같이 해줘야겠네요. 임신을 하면 신경 써야 할 부분이 정말 많은 것 같아요. 오늘 진짜 초보 임산부인 저한테 많은 정보를 주셔서 너무 감사드려요.",
+            "turn_id": "BK22016000-10",
+            "utterance_id": "BK22016000.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 다행이에요. 가까이 사니 궁금한 것이 생기면 언제든 물어보세요. 그럼 저는 오후 일정이 있어서 다음에 또 만나요.",
+            "turn_id": "BK22016000-10",
+            "utterance_id": "BK22016000.20"
+        }
+    ]
+}

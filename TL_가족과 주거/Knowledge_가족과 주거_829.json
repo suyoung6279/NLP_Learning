@@ -1,0 +1,352 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002719",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002719",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 우리 집 애들 키가 안 자라는 것 같아서 걱정되네.",
+            "turn_id": "BK22002719-1",
+            "utterance_id": "BK22002719.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "애들은 성장 시기가 다 달라서 갑자기 확 크기도 하더라. 너무 걱정하지 마.",
+            "turn_id": "BK22002719-1",
+            "utterance_id": "BK22002719.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 자꾸 걱정이 돼. 내 키가 너무 작아서 우리 애들한테 영향이 갈 것 같은데, 키는 유전될 수 있지?",
+            "turn_id": "BK22002719-2",
+            "utterance_id": "BK22002719.3"
+        },
+        {
+            "reference_date": "2022-06-24",
+            "reference_text": [
+                {
+                    "value": "아이들 키에 대한 유전의 영향은 의견이 분분하지만, 결코 무시할 수 없다는 결론이다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01223446632365000&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "아이 키 유전",
+            "terminate": false,
+            "text": "맞아, 아이들 키에 대한 유전의 영향은 의견이 갈라지지만, 결코 무시할 수 없어.",
+            "turn_id": "BK22002719-2",
+            "utterance_id": "BK22002719.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유전적인 영향을 무시할 수 없다니 정말 걱정이다. 그럼 대충 얼마나 되려나. 혹시 아이 예상키를 계산할 수 있을까?",
+            "turn_id": "BK22002719-3",
+            "utterance_id": "BK22002719.5"
+        },
+        {
+            "reference_date": "2022-06-24",
+            "reference_text": [
+                {
+                    "value": "실제로 아이의 예상키를 계산할 때도 유전적인 통계로 환산하는 MPH(Mid parental height)로 보는 경우가 많은데, 남아의 경우 아버지와 어머니 키를 더해 평균을 낸 뒤 6.5cm를 더하고, 여아는 6.5를 빼서 환산하는 방법이 있다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01223446632365000&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "아이 예상키 계산",
+            "terminate": false,
+            "text": "유전적인 통계로 환산하는 MPH로 확인할 수 있어. 남자 아이의 경우, 아버지와 어머니 키를 더해 평균을 낸 다음 6.5센티미터를 더하고, 여자 아이는 6.5센티미터를 빼서 계산하는 방법이야.",
+            "turn_id": "BK22002719-3",
+            "utterance_id": "BK22002719.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 이 방법대로 계산해 보니 아이한테 너무 미안하네. 이 방법은 오차가 없어?",
+            "turn_id": "BK22002719-4",
+            "utterance_id": "BK22002719.7"
+        },
+        {
+            "reference_date": "2022-06-24",
+            "reference_text": [
+                {
+                    "value": "수치는 통계상으로 보는 예측키이며 ±5cm 정도의 오차가 있다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 아이의 키를 예측해 볼 때 오차 범위로 넓게 생각해 주는 것이 좋다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01223446632365000&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "아이 예상키 계산",
+            "terminate": false,
+            "text": "5센티미터의 아래 위로 오차 범위가 있으니 넓게 생각하는 게 좋아. 이 수치는 통계상으로 알 수 있는 예상 키니까 아이한테 벌써 미안해하지 말고.",
+            "turn_id": "BK22002719-4",
+            "utterance_id": "BK22002719.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 아직 모르는 일이야. 혹시 아이들 성장판은 언제 닫히는지 알아?",
+            "turn_id": "BK22002719-5",
+            "utterance_id": "BK22002719.9"
+        },
+        {
+            "reference_date": "2015-05-27",
+            "reference_text": [
+                {
+                    "value": "성장판이 닫히는 시기는 개인 및 성장판의 위치에 따라 차이가 있다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 일반적으로 만14~15세 사이에 성장판이 닫히기 시작하여 만19~20세경 성장이 끝나게 되며, 남자보다 여자에서 1~2세 먼저 성장이 끝나게 된다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000102413",
+            "search_query": "성장판 닫히는 시기",
+            "terminate": false,
+            "text": "아이들의 성장판 닫히는 시기는 개인 및 성장판의 위치에 따라 다를 수 있어. 그렇지만 거의 만 14세에서 15세 사이에 성장판이 닫히기 시작해서 만 19세에서 20세 경에 성장이 끝나게 돼. 그리고 남자보다 여자가 1세에서 2세 먼저 성장이 끝나게 되지.",
+            "turn_id": "BK22002719-5",
+            "utterance_id": "BK22002719.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그럼 성장판 검사는 언제 하는 게 적절할까?",
+            "turn_id": "BK22002719-6",
+            "utterance_id": "BK22002719.11"
+        },
+        {
+            "reference_date": "2019-08-02",
+            "reference_text": [
+                {
+                    "value": "성장판 검사 시기는 여아는 9살, 남자는 11살 정도가 적당하다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "성장판 검사 후 문제가 있을 시에는 치료를 받아야 한다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=312438",
+            "search_query": "성장판 검사 시기",
+            "terminate": false,
+            "text": "여자 아이는 9세, 남자는 11세 정도에 검사하는 게 좋아. 성장판 검사 후 문제가 있다면 치료가 시작되어야 해.",
+            "turn_id": "BK22002719-6",
+            "utterance_id": "BK22002719.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 적절한 시기에 검사 한번 해봐야겠다. 요즘은 아이들이 성장호르몬 주사도 많이 맞던데, 성장호르몬 주사는 주로 어떤 아이들이 맞기 시작한 거야?",
+            "turn_id": "BK22002719-7",
+            "utterance_id": "BK22002719.13"
+        },
+        {
+            "reference_date": "2022-05-04",
+            "reference_text": [
+                {
+                    "value": "성장호르몬 치료는 성장호르몬 결핍이 있는 '저신장' 아이를 대상으로 키를 크게 하는 목적에서 투여를 시작한 게 시초입니다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "의학적으로 저신장증은 성별·나이의 소아·청소년 가운데 같은 성별의 또래 100명 중 3번째 이내로 작은 경우입니다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://jhealthmedia.joins.com/article/article_view.asp?pno=25367",
+            "search_query": "성장호르몬 주사 치료",
+            "terminate": false,
+            "text": "성장호르몬 주사는 성장호르몬 결핍이 있는 저신장 아이를 대상으로 투여를 시작했어. 저신장증은 의학적으로 성별, 나이, 소아, 청소년 가운데 같은 성별의 또래 100명 중 3번째 이내로 작은 경우를 말하니까 참고해.",
+            "turn_id": "BK22002719-7",
+            "utterance_id": "BK22002719.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 우리 애는 저신장증에 해당 되겠구나. 혹시 성장호르몬 주사를 맞게 되면 부작용은 있어?",
+            "turn_id": "BK22002719-8",
+            "utterance_id": "BK22002719.15"
+        },
+        {
+            "reference_date": "2022-05-04",
+            "reference_text": [
+                {
+                    "value": "가장 흔한 부작용은 수분 저류로 인한 말초 부종 증상으로, 손·발·얼굴이 부으며 치료 대상자의 5~10%에서 나타납니다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://jhealthmedia.joins.com/article/article_view.asp?pno=25367",
+            "search_query": "성장호르몬 치료 부작용",
+            "terminate": false,
+            "text": "응, 있을 수 있어. 수분 저류로 인한 말초 부종 증상이 가장 흔한 부작용이야. 치료 대상자의 5퍼센트에서 10퍼센트 정도가 손, 발, 얼굴에 부종이 발생하지.",
+            "turn_id": "BK22002719-8",
+            "utterance_id": "BK22002719.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "에휴, 부작용이 있을 수 있다니 상담받기도 전에 무작정 겁나네. 혹시 성장호르몬 주사는 의료보험이 적용될까?",
+            "turn_id": "BK22002719-9",
+            "utterance_id": "BK22002719.17"
+        },
+        {
+            "reference_date": "2022-05-04",
+            "reference_text": [
+                {
+                    "value": "3~4세까지도 저신장이 지속하면 소아내분비 전문의의 진료가 가능한 성장클리닉에 방문해 진료를 받아볼 필요가 있습니다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "성장호르몬 주사 치료는 건강보험 적용 대상이 따로 있습니다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "의학적으로 성장호르몬 주사 치료가 필요한 경우에 한해서입니다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://jhealthmedia.joins.com/article/article_view.asp?pno=25367",
+            "search_query": "성장호르몬 주사 보험적용",
+            "terminate": false,
+            "text": "우선 저신장증이 의심되면 소아내분비 전문의의 진료가 가능한 성장클리닉에 방문해서 진료를 받아봐. 의학적으로 성장호르몬 주사 치료가 필요한 경우에 한해서 건강보험 적용이 가능할 수 있어.",
+            "turn_id": "BK22002719-9",
+            "utterance_id": "BK22002719.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "보험적용이 될 수 있다니 부담이 좀 덜 되겠다. 하여간 오늘 좋은 정보 너무 고마워. 요즘 문득 우리 애들이 또래보다 작게 느껴져서 걱정이 되더라고.",
+            "turn_id": "BK22002719-10",
+            "utterance_id": "BK22002719.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 우리 아이 때문에 이용해본 적 있는데 요즘은 성장 클리닉 너무 잘 돼있더라고. 그러니가 너무 걱정하지마.",
+            "turn_id": "BK22002719-10",
+            "utterance_id": "BK22002719.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 고마워, 네가 있어서 정말 심적으로 든든하다. 얼른 병원부터 알아봐야겠어. 상담받게 되면 다시 연락할게!",
+            "turn_id": "BK22002719-11",
+            "utterance_id": "BK22002719.21"
+        }
+    ]
+}

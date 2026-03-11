@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015421",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015421",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0029"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지 배변 훈련을 시켜야 하는데, 훈련은 언제부터 시작하는 것이 좋아?",
+            "turn_id": "BK22015421-1",
+            "utterance_id": "BK22015421.1"
+        },
+        {
+            "reference_date": "2020-03-24",
+            "reference_text": [
+                {
+                    "value": "강아지는 종류와 크기마다 조금씩 다르기는 하지만 보통 14주 후에 훈련을 시작하는 것이 좋다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보통 그때까지는 괄약근과 대장 근육이 잘 발달하지 않아서 배변을 참는데 어려워서 훈련이 쉽지 않지만, 14주가 지나면 어느정도 대소변을 가리는 데 훈련을 할 수 있는 상황이 된다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=122585",
+            "search_query": "강아지 배변훈련 시기",
+            "terminate": false,
+            "text": "종류와 크기별로 약간 다르지만 보통 생후 14주 이후에 배변 훈련을 시작하면 돼. 그전까지는 괄약근과 대장 근육이 미숙해서 배변을 잘 참지 못해 훈련이 어렵지만, 14주가 지나면 대소변을 가리는 것이 가능해지거든.",
+            "turn_id": "BK22015421-1",
+            "utterance_id": "BK22015421.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "14주 이후부터 배변 훈련을 시작하면 되는구나. 그럼, 배변 훈련하는 데에는 어느 정도의 시간이 걸릴까?",
+            "turn_id": "BK22015421-2",
+            "utterance_id": "BK22015421.3"
+        },
+        {
+            "reference_date": "2020-03-24",
+            "reference_text": [
+                {
+                    "value": "배변훈련을 해서 어렵지 않게 되는 경우도 있지만 그렇지 않은 경우도 있다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러니 1주~2주 정도를 잡으면 된다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "물론 강아지에 따라서 한달 이상이 걸리기도 한다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=122585",
+            "search_query": "강아지 배변 훈련 기간",
+            "terminate": false,
+            "text": "배변 훈련이 쉽게 되는 경우도 있지만 그렇지 않은 경우도 있어. 보통은 1~2주 걸리지만, 한 달 이상 걸리는 경우도 있어.",
+            "turn_id": "BK22015421-2",
+            "utterance_id": "BK22015421.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지마다 배변 훈련 속도도 다르겠구나. 그러면, 보통 강아지 화장실 위치를 어디로 하는 것이 좋아?",
+            "turn_id": "BK22015421-3",
+            "utterance_id": "BK22015421.5"
+        },
+        {
+            "reference_date": "2018-06-02",
+            "reference_text": [
+                {
+                    "value": "화장실의 위치는 식사하고 잠자는 공간과 거리를 두고 집안 곳곳에 여러 장의 배변패드를 놓고 강아지가 편안해 하는 화장실 장소를 선택할 수 있도록 하는 것이 좋다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://view.asiae.co.kr/news/view.htm?idxno=2018060116155830026",
+            "search_query": "강아지 배변 장소",
+            "terminate": false,
+            "text": "먹고 자는 공간과는 거리를 두고, 곳곳에 배변패드 여러 장을 깔아둬서 강아지가 편한 위치를 화장실로 선택하게 하는 것이 좋아.",
+            "turn_id": "BK22015421-3",
+            "utterance_id": "BK22015421.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "먹고 자는 장소와는 분리되게 하는 것이 좋구나. 배변 훈련을 하면서 강아지가 실수를 덜 하게 하는 방법은 뭐가 있어?",
+            "turn_id": "BK22015421-4",
+            "utterance_id": "BK22015421.7"
+        },
+        {
+            "reference_date": "2018-06-02",
+            "reference_text": [
+                {
+                    "value": "강아지가 배변을 보기 전 어떤 행동을 하는지 파악하면 엉뚱한 곳에 실수하는 것도 줄일 수 있다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "강아지는 대소변을 보기 전 주변 냄새를 맡는 행동을 보이거나 엉거주춤한 자세를 취하는 경우가 많다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "강아지의 행동을 파악해 엉뚱한 곳에 배변을 보려 할 경우 가볍게 안아 화장실에서 볼일을 볼 수 있도록 도와주면 된다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://view.asiae.co.kr/news/view.htm?idxno=2018060116155830026",
+            "search_query": "강아지 배변 훈련 방법",
+            "terminate": false,
+            "text": "배변을 보기 전에 하는 행동을 파악하면 실수를 줄일 수 있어. 보통 강아지는 대소변을 보기 전에 주변의 냄새를 맡거나 엉거주춤한 자세를 보이거든. 이때 엉뚱한 곳에서 배변을 보려고 하면 안아서 정해진 곳에서 배변할 수 있게 해주면 돼.",
+            "turn_id": "BK22015421-4",
+            "utterance_id": "BK22015421.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지들은 배변하기 전에 하는 행동들이 있구나. 그러면, 보통 언제 주로 배변해?",
+            "turn_id": "BK22015421-5",
+            "utterance_id": "BK22015421.9"
+        },
+        {
+            "reference_date": "2016-11-20",
+            "reference_text": [
+                {
+                    "value": "대부분의 강아지들은 식사 직후나 물을 마신 직후 1~10분 사이에 배변을 한다는 것을 알고 있으면 큰 도움이 됩니다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20161120000224",
+            "search_query": "강아지 배변 시간",
+            "terminate": false,
+            "text": "밥을 먹고 난 직후나 물을 마신 직후 1~10 사이에 배변하기 때문에 이때 행동을 관찰하면 도움이 될 거야.",
+            "turn_id": "BK22015421-5",
+            "utterance_id": "BK22015421.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "물이나 사료를 먹으면 배변을 할 수 있다는 거구나. 그러면 배변패드는 언제 갈아주는 것이 좋아?",
+            "turn_id": "BK22015421-6",
+            "utterance_id": "BK22015421.11"
+        },
+        {
+            "reference_date": "2018-06-07",
+            "reference_text": [
+                {
+                    "value": "배변패드는 대소변을 본 후 즉시 교체해줘야 한다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "후각이 예민한 강아지는 배변패드가 축축하고 냄새 나면 엉뚱한 곳에 용변을 볼 수 있으므로 정기적으로 패드를 교체해주는 것이 중요하다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "패드를 자주 교체해주기 어렵다면 소변 흡수율이 빠르고 탈취 효과가 뛰어난 배변패드를 이용하는 것도 좋은 방법이다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20180607004086?OutUrl=naver",
+            "search_query": "강아지 배변훈련 패드교체",
+            "terminate": false,
+            "text": "대소변을 본 배변패드를 바로 갈아줘야 해. 강아지들은 후각이 예민해서 배변패드가 축축하거나 냄새가 나면 다른 곳에 용변을 볼 수 있거든. 정기적으로 배변패드를 교체해 주거나, 여의치 않다면 흡수율이 빠르고 탈취 효과가 뛰어난 패드를 이용하는 것이 좋아.",
+            "turn_id": "BK22015421-6",
+            "utterance_id": "BK22015421.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "배변패드를 잘 갈아줘야 실수를 줄일 수 있구나. 혹시, 강아지가 실수했을 때에는 어떻게 해야 해?",
+            "turn_id": "BK22015421-7",
+            "utterance_id": "BK22015421.13"
+        },
+        {
+            "reference_date": "2017-11-29",
+            "reference_text": [
+                {
+                    "value": "따라서 지적하거나 혼내지 않고 그냥 배설물을 치우고, 배설물 냄새가 남아있지 않도록 깨끗하게 해줍니다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ggilbo.com/news/articleView.html?idxno=424973",
+            "search_query": "강아지 배변 실수",
+            "terminate": false,
+            "text": "지적하거나 혼내면 안 되고 배설물을 그냥 치우고, 배설물 냄새를 제거해 줘야 해.",
+            "turn_id": "BK22015421-7",
+            "utterance_id": "BK22015421.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "배변 실수를 해도 강아지를 혼내면 안 되는구나. 그럼, 배변을 잘했을 때는 어떻게 해?",
+            "turn_id": "BK22015421-8",
+            "utterance_id": "BK22015421.15"
+        },
+        {
+            "reference_date": "2016-11-20",
+            "reference_text": [
+                {
+                    "value": "또 바르게 배변했을 때에는 과하다 싶을 정도로 칭찬과 간식 등 보상을 줘 강아지 스스로 배변이 '즐거운 놀이'로 기억되게 해야 합니다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20161120000224",
+            "search_query": "강아지 배변 훈련 팁",
+            "terminate": false,
+            "text": "바르게 배변했을 때에는 과한 칭찬과 간식으로 보상해 줘야 해. 그래서, 배변은 즐거운 놀이처럼 인식하게 하면 좋아.",
+            "turn_id": "BK22015421-8",
+            "utterance_id": "BK22015421.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잘했으면 칭찬과 간식을 주면 되는구나. 강아지 배변 훈련에 대해 궁금했는데 알려줘서 고마워.",
+            "turn_id": "BK22015421-9",
+            "utterance_id": "BK22015421.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "배변 훈련하다가 궁금한 것이 생기면 또 물어봐.",
+            "turn_id": "BK22015421-9",
+            "utterance_id": "BK22015421.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어, 우리는 내일 또 보자.",
+            "turn_id": "BK22015421-10",
+            "utterance_id": "BK22015421.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 내일 또 보자, 안녕.",
+            "turn_id": "BK22015421-10",
+            "utterance_id": "BK22015421.20"
+        }
+    ]
+}

@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014584",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014584",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전에 시부모님께서 장기간 여행을 가셔서 집에 고양이를 맡기셨어.",
+            "turn_id": "BK22014584-1",
+            "utterance_id": "BK22014584.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 시부모님께서 키우시던 고양이인가 보네.",
+            "turn_id": "BK22014584-1",
+            "utterance_id": "BK22014584.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 시부모님께서 반려묘를 키우고 계셨거든. 혹시 러시안블루라고 아니?",
+            "turn_id": "BK22014584-2",
+            "utterance_id": "BK22014584.3"
+        },
+        {
+            "reference_date": "44735.0",
+            "reference_text": [
+                {
+                    "value": "‘러시안 블루’는 수줍음이 있지만 사람의 감정을 잘 살펴 민감하게 반응하고 교감하는 대표적 개냥이다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/06/550798/",
+            "search_query": "러시안블루",
+            "terminate": false,
+            "text": "그럼 알고 있지. 러시안블루는 수줍음은 있는 편이지만 사람의 감정을 잘 살펴 반응하고 교감하는 대표적인 개냥이잖아.",
+            "turn_id": "BK22014584-2",
+            "utterance_id": "BK22014584.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아. 고양이라 도도할 줄 알았는데 생각보다 사람을 잘 따르더라고. 그런데 고양이 원래 털이 많이 빠지니?",
+            "turn_id": "BK22014584-3",
+            "utterance_id": "BK22014584.5"
+        },
+        {
+            "reference_date": "43361.0",
+            "reference_text": [
+                {
+                    "value": "고양이는 사계 내내 털이 잘 빠지고 계절이 바뀔 시 더욱더 심해진다.",
+                    "value_time": "44826.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "혀로 자신의 털을 핥는 ‘그루밍’을 자주하는 고양이일 수록 털이 덜 빠진다.",
+                    "value_time": "44826.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.khan.co.kr/bizlife/sk_index.html?art_id=201808291808003&sec_id=650101&pt=nv",
+            "search_query": "고양이 털 빠짐",
+            "terminate": false,
+            "text": "응, 맞아. 고양이는 사계절 내내 털이 잘 빠지는 동물인데, 계절이 바뀔 때 더 심해지곤 해. 그런데 혀로 본인의 털을 핥는 그루밍을 많이 하는 고양이일수록 털이 덜 빠져.",
+            "turn_id": "BK22014584-3",
+            "utterance_id": "BK22014584.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이는 왜 털을 핥는 그루밍을 하는 거야?",
+            "turn_id": "BK22014584-4",
+            "utterance_id": "BK22014584.7"
+        },
+        {
+            "reference_date": "44784.0",
+            "reference_text": [
+                {
+                    "value": "털을 꼼꼼히 구석구석 핥아 죽은 털을 빼내고 남은 털을 가지런히 정돈한다.",
+                    "value_time": "44826.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그루밍을 하는 동안 뇌에서 엔도르핀이 분비되어 마음이 진정되고 편안한 상태를 유지한다.",
+                    "value_time": "44826.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/08/707847/",
+            "search_query": "고양이 그루밍하는 이유",
+            "terminate": false,
+            "text": "털을 꼼꼼하게 구석구석 핥아서 죽은 털은 빼고 남은 털을 정돈하는 거야. 그리고 그루밍하는 동안에 뇌에서 엔도르핀이 분비되어서 마음이 진정되어 편안하게 유지하도록 해줘.",
+            "turn_id": "BK22014584-4",
+            "utterance_id": "BK22014584.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그루밍을 잘못하게 되면 고양이가 위험하다는 걸 봤는데 이유가 뭐야?",
+            "turn_id": "BK22014584-5",
+            "utterance_id": "BK22014584.9"
+        },
+        {
+            "reference_date": "43651.0",
+            "reference_text": [
+                {
+                    "value": "그루밍 때문에 고양이의 몸속에 들어간 털은 보통 분변으로 조금씩 배출된다.",
+                    "value_time": "44826.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "헤어볼은 배설되지 못하고 소화기관에 덩어리져 있던 털들인데, 구토를 통해 세상 밖으로 나온다.",
+                    "value_time": "44826.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "잦은 구토는 고양이의 몸에 무리를 줘 위장의 조임근이나 식도 점막에 손상을 입힐 수 있기 때문이다.",
+                    "value_time": "44826.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "헤어볼의 또 다른 문제는 체내에 오랫동안 쌓일 경우 더 큰 위험을 초래할 수 있다는 것이다.",
+                    "value_time": "44826.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nongmin.com/plan/PLN/SRS/313107/view",
+            "search_query": "고양이 그루밍 위험",
+            "terminate": false,
+            "text": "그루밍하다가 고양이 몸속으로 털이 들어가는데 보통은 분변으로 배출되고 소화기관에 덩어리로 남아있는 털인 헤어볼은 구토로 밖으로 나오게 돼. 그런데 잦은 구토는 고양이 위장 조임근이나 식도 점막에 손상을 줄 수 있어 위험해. 그리고 체내에 오랜 시간 털이 쌓여 있는 경우는 더 큰 위험이 발생할 수 있어.",
+            "turn_id": "BK22014584-5",
+            "utterance_id": "BK22014584.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 헤어볼을 예방하려면 어떻게 해야 해?",
+            "turn_id": "BK22014584-6",
+            "utterance_id": "BK22014584.11"
+        },
+        {
+            "reference_date": "44784.0",
+            "reference_text": [
+                {
+                    "value": "헤어볼을 예방하려면 평소 꾸준히 빗질을 해 죽은 털을 과도하게 삼키지 않게 하는 것이 최선이다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 섬유소가 풍부한 식품을 급여하면 장 내 털을 배출하는 데 도움이 된다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/08/707847/",
+            "search_query": "헤어볼 예방",
+            "terminate": false,
+            "text": "헤어볼 예방을 위해서는 평소에 빗질을 잘 해줘서 죽은 털을 과하게 삼키지 않도록 해야 해. 그리고 섬유소 풍부한 식품을 주면 장내에 털 배출에 도움이 돼.",
+            "turn_id": "BK22014584-6",
+            "utterance_id": "BK22014584.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이 털 관리를 위해 어떻게 빗질을 해주면 좋을까?",
+            "turn_id": "BK22014584-7",
+            "utterance_id": "BK22014584.13"
+        },
+        {
+            "reference_date": "43286.0",
+            "reference_text": [
+                {
+                    "value": "머리부터 몸통 전체를 한 번에 빗기려고 하지 말고 부위별로 부드럽게 빗질해 준다.",
+                    "value_time": "44826.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.notepet.co.kr/news/article/article_view/?idx=12604&groupCode=AB110AD110",
+            "search_query": "고양이 털 관리",
+            "terminate": false,
+            "text": "털은 머리와 몸통을 전체로 한 번에 빗질하려고 하지 말고 부위별로 따로따로 부드럽게 해주는 것이 좋아.",
+            "turn_id": "BK22014584-7",
+            "utterance_id": "BK22014584.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "털이 많이 빠지다 보니 흩날리는 고양이 털 때문에 털 알레르기 있는 사람들도 많다고 하는데 어떻게 예방할 수 있어?",
+            "turn_id": "BK22014584-8",
+            "utterance_id": "BK22014584.15"
+        },
+        {
+            "reference_date": "42154.0",
+            "reference_text": [
+                {
+                    "value": "고양이에 의한 알레르기는 ‘고양이털 알레르기’라고 알려졌으나 사실 직접적인 원인을 ‘털’이라고 보기는 어렵다.",
+                    "value_time": "44826.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "알레르기를 유발하는 원인은 고양이의 털, 피부조직, 소변, 피 등에 포함된 특정 단백질 성분이다.",
+                    "value_time": "44826.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고양이 알레르기에 의한 피해를 줄이려면 털 관리에 많은 신경을 써야 한다.",
+                    "value_time": "44826.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://biz.heraldcorp.com/view.php?ud=201505302343063661240_1",
+            "search_query": "고양이 털알레르기",
+            "terminate": false,
+            "text": "고양이털 알레르기는 사실 털이 직접적인 원인은 아니야. 알레르기 원인은 털 뿐만 아니라 피부조직이나 소변, 피 모두가 포함된 특정한 단백질 성분 때문이거든. 그렇지만 고양이 알레르기로 인한 피해를 줄이려면 털 관리에 신경을 많이 써야 해.",
+            "turn_id": "BK22014584-8",
+            "utterance_id": "BK22014584.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 평소 집 청소도 꼼꼼히 잘해야겠다. 털 청소 잘하는 방법 아니?",
+            "turn_id": "BK22014584-9",
+            "utterance_id": "BK22014584.17"
+        },
+        {
+            "reference_date": "43907.0",
+            "reference_text": [
+                {
+                    "value": "진공청소기를 이용해 자주 청소해주는 것이 가장 이상적인 방법이며, 옷이나 이부자리에 붙은 털은 테이프를 이용해 떼어내거나 털제거용 롤러로 훑어내면 된다.",
+                    "value_time": "44826.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "만약 테이프로도 잘 떨어지지 않을 때에는 면으로 된 천이나 종이수건에 물을 조금 적셔서 천천히 쓸어내는 것도 한 방법이 될 수 있다.",
+                    "value_time": "44826.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=122281",
+            "search_query": "고양이 털 청소",
+            "terminate": false,
+            "text": "진공청소기를 이용해서 자주 청소하는 것이 가장 좋고, 옷과 이불에 붙은 털은 테이프로 정리하거나 털제거 롤러를 이용하면 돼. 혹시 테이프로 잘 떨어지지 않는다면 천이나 종이수건에 물을 적셔서 천천히 쓸어내는 것도 좋은 방법이야.",
+            "turn_id": "BK22014584-9",
+            "utterance_id": "BK22014584.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 덕분에 고양이 털에 대해서 많이 알게 되었어. 고양이는 처음이라 막막했거든.",
+            "turn_id": "BK22014584-10",
+            "utterance_id": "BK22014584.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아마 고양이 매력에 빠지게 될걸? 잘 돌보고 행복한 시간 되길 바랄게.",
+            "turn_id": "BK22014584-10",
+            "utterance_id": "BK22014584.20"
+        }
+    ]
+}

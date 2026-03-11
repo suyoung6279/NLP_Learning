@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008657",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008657",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이의 학교 친구들을 보니 같은 나이가 맞나 싶을 정도로 다들 키가 크더라구요. 요즘 아이들 평균 신장이 꽤 커진 것 같은데 맞나요?",
+            "turn_id": "BK22008657-1",
+            "utterance_id": "BK22008657.1"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "교육부가 발표한 2020년 10만명 넘는 학생들을 대상으로 한 건강검사 표본 통계를 분석한 결과에 따르면, 고3 남학생의 경우 평균 키는 2018년보다 0.2cm 커졌으며, 여학생은 0.3cm 커졌다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mdtoday.co.kr/news/view/1065599919540120",
+            "search_query": "아이 키 평균",
+            "terminate": false,
+            "text": "교육부에서 2020년 10만 명 이상의 학생을 상대로 진행한 건강 검사 표본 통계를 보면, 고 3 남학생 평균 키는 2018년도 보다 0.2cm 커졌고 여학생은 0.3 cm가 더 커졌다는 분석 결과가 나왔어요.",
+            "turn_id": "BK22008657-1",
+            "utterance_id": "BK22008657.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 커진게 맞네요. 키는 유전인가요 아님 노력으로 더 클 수 있는건가요?",
+            "turn_id": "BK22008657-2",
+            "utterance_id": "BK22008657.3"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "아이의 최종 신장에 영향을 주는 것은 유전이 23%에 불과하여 77%의 후천적 노력으로 개선이 가능하기 때문에 성장 부진 원인을 조기에 발견하고 치료하는 것이 중요하다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://edu.donga.com/?p=article&ps=view&at_no=20220830131508163518",
+            "search_query": "아이 신장 유전",
+            "terminate": false,
+            "text": "아이의 최종 키에 영향을 주는 것은 유전이 23%이며 나머지 77%는 후천적인 노력에 의하여 개선이 가능해요.",
+            "turn_id": "BK22008657-2",
+            "utterance_id": "BK22008657.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유전요소가 더 많을거라 생각했는데 의외네요. 그런데 어떤 방법으로 최종 예상 키를 알 수 있는건가요?",
+            "turn_id": "BK22008657-3",
+            "utterance_id": "BK22008657.5"
+        },
+        {
+            "reference_date": "2022-09-03",
+            "reference_text": [
+                {
+                    "value": "아이가 성인이 되었을 때 최종적으로 얼마만큼 클지 올바로 예측하기 위해서는, 뼈나이는 물론 호르몬 수치, 사춘기 진행 정도 등 여러 지표를 종합적으로 참고해야 한다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01092246632456512&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "아이 키 예측",
+            "terminate": false,
+            "text": "아이의 최종 키를 예측하려면 뼈 나이 뿐만 아니라 호르몬 수치와 사춘기 진행정도 등 여러 가지 지표를 모두 참고해야 해요.",
+            "turn_id": "BK22008657-3",
+            "utterance_id": "BK22008657.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뼈나이가 성장에 가장 중요한 요인인줄 알았는데 다른 부분도 확인해야 하는 이유가 뭘까요?",
+            "turn_id": "BK22008657-4",
+            "utterance_id": "BK22008657.7"
+        },
+        {
+            "reference_date": "2022-09-03",
+            "reference_text": [
+                {
+                    "value": "키 성장에 있어 뼈나이보다는 사춘기 시작 시점이 중요한 셈이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "키 성장은 보통 사춘기가 지나면 성장 속도가 크게 둔화하며 2~3년 안에 성장판을 닫고 멈춘다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01092246632456512&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "아이 뼈나이 사춘기",
+            "terminate": false,
+            "text": "키 성장에 있어서 뼈나이보다는 오히려 사춘기 시작점이 중요하답니다. 사춘기가 지나면 키 성장 속도가 크게 둔화하여 2, 3년 안에 성장판이 닫히고 키 성장이 멈추거든요.",
+            "turn_id": "BK22008657-4",
+            "utterance_id": "BK22008657.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사춘기가 빨리 오지 않도록 관리해야겠군요. 아이 키를 키워주고 싶을 때 어떤 음식이 도움이 될까요?",
+            "turn_id": "BK22008657-5",
+            "utterance_id": "BK22008657.9"
+        },
+        {
+            "reference_date": "2022-09-14",
+            "reference_text": [
+                {
+                    "value": "양질의 영양소를 골고루 섭취해야 하며, 식사 시간도 규칙적으로 해야 한다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 음식을 먹더라도 인스턴트 음식이나 패스트푸드, 탄산음료 등과 같이, 영양소는 적고 당분과 염분이 많이 지나치게 많은 음식으로 배를 채우면 비만을 비롯한 다양한 대사 질환을 쉽게 유발할 수 있다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "비만 또한 성조숙증을 유발하는 등, 키 성장에 큰 방해 요소로 작용함을 잊어서는 안 된다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.econovill.com/news/articleView.html?idxno=589458",
+            "search_query": "아이 키 성장음식",
+            "terminate": false,
+            "text": "규칙적으로 양질의 영양소를 고루고루 섭취해야 해요. 특히 인스턴트나 탄산음료, 패스트푸드는 영양소는 적고 당분 염분이 지나치게 많기 때문에 비만과 같은 대사질환을 유발할 수 있어요. 비만으로 인하여 성조숙증이 생긴다면 키 성장에 큰 방해요소가 되기 때문에 주의를 하셔야 해요.",
+            "turn_id": "BK22008657-5",
+            "utterance_id": "BK22008657.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "몸에 좋은 음식은 역시 키를 키우는데도 좋은거네요. 잠은 많이 자는게 좋은거죠?",
+            "turn_id": "BK22008657-6",
+            "utterance_id": "BK22008657.11"
+        },
+        {
+            "reference_date": "2022-09-14",
+            "reference_text": [
+                {
+                    "value": "수면은 잘 먹는 것과 함께 아이의 성장에서 가장 중요한 요소이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "성장 호르몬은 수면 중에 많은 양이 분비되며, 보통 밤 10시에서 새벽 2시 사이에 가장 많이 분비되는 것으로 알려져 있다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수면의 질을 높이기 위해서는 잠들기 최소 2시간 전에는 음식을 먹지 않는 것이 좋다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.econovill.com/news/articleView.html?idxno=589458",
+            "search_query": "아이 키 수면",
+            "terminate": false,
+            "text": "잘 먹는 것 만큼이나 수면을 잘 하는 것도 중요해요. 성장호르몬이 밤 10시에서 새벽 2시까지 가장 많이 분비가 되거든요. 수면의 질을 높이려면 잠들기 2시간 전에는 음식을 먹지 않아야 해요.",
+            "turn_id": "BK22008657-6",
+            "utterance_id": "BK22008657.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 잘자야 쑥쑥 잘크는거네요. 그럼 성장판을 자극 할 수 있는 운동 종류는 뭐가 있을까요?",
+            "turn_id": "BK22008657-7",
+            "utterance_id": "BK22008657.13"
+        },
+        {
+            "reference_date": "2022-09-14",
+            "reference_text": [
+                {
+                    "value": "가볍게 걷기, 줄넘기, 축구, 농구, 수영 등 아이가 흥미를 갖는 운동을 선택하는 것이 좋다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "무엇보다 운동을 하면 성장판 자극으로 키 성장에도 도움이 된다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.econovill.com/news/articleView.html?idxno=589458",
+            "search_query": "아이 키 운동",
+            "terminate": false,
+            "text": "운동은 성장판이 자극되어 키 성장에 도움이 되는데요. 가볍게 걷거나 농구, 수영, 줄넘기, 축구 등 아이가 좋아하는 종목으로 선택해 주시면 돼요.",
+            "turn_id": "BK22008657-7",
+            "utterance_id": "BK22008657.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 공부하느라 앉아 있는 시간이 많은데 앉은 자세도 키 크는 것과 연관이 있나요?",
+            "turn_id": "BK22008657-8",
+            "utterance_id": "BK22008657.15"
+        },
+        {
+            "reference_date": "2022-09-14",
+            "reference_text": [
+                {
+                    "value": "바른 자세를 유지하는 것은 한창 자라고 있는 아이들에게 더욱 중요하다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "성장기에 어쩔 수 없이 많은 시간을 의자에 앉아 공부를 해야만 하는 우리나라 특성상, 잘못된 자세로 인한 신체 불균형과 체형 변화의 문제가 유발될 가능성이 크다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "목, 어깨, 허리 등의 통증뿐만 아니라, 척추측만증, 거북목증후군과 같은 질환으로 연결되어 성장에 악영향을 줄 수 있으므로 주의가 필요하다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.econovill.com/news/articleView.html?idxno=589458",
+            "search_query": "아이 키 바른자세",
+            "terminate": false,
+            "text": "성장하는 아이들에게 바른 자세를 유지하는 것은 매우 중요하답니다. 많은 시간을 의자에 앉아 있다 보니 잘못된 자세로 인하여 체형이 변하거나 신체불균형과 같은 문제가 생길 수 있거든요. 나쁜 자세는 목과 어깨, 허리에 통증을 유발할 뿐 아니라 척추측만증, 거북목증후군과 같은 질환까지 초래해 성장에 악영향을 줄 수 있어요.",
+            "turn_id": "BK22008657-8",
+            "utterance_id": "BK22008657.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 자세도 중요한거였네요. 관리 잘해서 평균 이상의 키를 가질수 있으면 좋겠어요.",
+            "turn_id": "BK22008657-9",
+            "utterance_id": "BK22008657.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 알려드린대로 아이의 생활습관을 잡아주시면 도움이 될거에요.",
+            "turn_id": "BK22008657-9",
+            "utterance_id": "BK22008657.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네. 많은 도움 주셔서 감사해요. 아이가 잘 자고 잘 먹을 수 있도록 옆에서 챙겨줘야겠어요.",
+            "turn_id": "BK22008657-10",
+            "utterance_id": "BK22008657.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "오늘 대화가 도움이 되었다니 뿌듯하네요. 그럼 다음에 또 이야기 나눠요. 안녕히 가세요.",
+            "turn_id": "BK22008657-10",
+            "utterance_id": "BK22008657.20"
+        }
+    ]
+}

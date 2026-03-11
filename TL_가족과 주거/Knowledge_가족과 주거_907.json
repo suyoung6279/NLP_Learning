@@ -1,0 +1,321 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003778",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003778",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아내가 출산 후에 우울해하는데, 저까지 같이 우울해져서 걱정이에요. 저라도 기운 내야 도와줄 수가 있는데 말이죠.",
+            "turn_id": "BK22003778-1",
+            "utterance_id": "BK22003778.1"
+        },
+        {
+            "reference_date": "2022-07-11",
+            "reference_text": [
+                {
+                    "value": "부부의 최대 3% 이상이 산전. 산후 우울증을 함께 겪는다는 새로운 연구 결과가 나왔다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220711055400009?input=1195m",
+            "search_query": "부부 산후우울증",
+            "terminate": false,
+            "text": "산후우울증을 함께 겪고 있는 것일 수 있어요. 부부 중 최대 3퍼센트 이상이 산후 우울증을 함께 경험한다는 연구 결과가 있거든요.",
+            "turn_id": "BK22003778-1",
+            "utterance_id": "BK22003778.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런가 봐요. 출산 전까지는 괜찮았는데, 이유가 뭘까요?",
+            "turn_id": "BK22003778-2",
+            "utterance_id": "BK22003778.3"
+        },
+        {
+            "reference_date": "2021-11-25",
+            "reference_text": [
+                {
+                    "value": "산후 우울증은 단일한 원인보다는 생물학적, 심리적, 사회적 요소가 서로 얽혀서 발생한다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.psychiatricnews.net/news/articleView.html?idxno=32120",
+            "search_query": "산후우울증 원인",
+            "terminate": false,
+            "text": "정확한 하나의 원인이 있다기보다는, 생물학적이나 심리적, 사회적인 요인들이 서로 연관되어 발생해요.",
+            "turn_id": "BK22003778-2",
+            "utterance_id": "BK22003778.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그렇다면 제가 어떻게 도움을 줄 수 있을까요?",
+            "turn_id": "BK22003778-3",
+            "utterance_id": "BK22003778.5"
+        },
+        {
+            "reference_date": "2022-04-19",
+            "reference_text": [
+                {
+                    "value": "한편, 정서적인 지지를 받을 수 있는 상대와 시간을 보내고 스트레스를 받지 않을 만한 환경을 조성하는 게 중요하다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만약 정신과 치료를 받고 있는 산모라면 정신과 전문의와의 상담을 통해 적절한 임신과 치료계획을 논의하는 것이 좋다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/04/18/2022041801335.html",
+            "search_query": "산후우울증 도움",
+            "terminate": false,
+            "text": "산모가 정서적으로 의지할 수 있는 상대와 시간을 보낼 수 있도록 해주시고, 평소에 주변을 스트레스가 없는 환경으로 조성하도록 해주시는 게 중요해요. 그리고 정신과적인 치료가 필요한 경우라면 전문의와 상담도 하시고 치료에 대한 계획도 충분히 논의할 수 있도록 해주세요.",
+            "turn_id": "BK22003778-3",
+            "utterance_id": "BK22003778.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그럼 저는 아내가 편안하고 안정감을 느낄 수 있도록 아내와 아이를 위한 시간을 늘려야겠어요. 쉬운 곳에 답이 있었네요.",
+            "turn_id": "BK22003778-4",
+            "utterance_id": "BK22003778.7"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 사랑으로 극복 못 할 건 없죠.",
+            "turn_id": "BK22003778-4",
+            "utterance_id": "BK22003778.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아내가 건강하게 우울감을 이겨냈으면 좋겠어요, 혹시 산후 우울증에 좋은 영양제라든가 뭐 없을까요?",
+            "turn_id": "BK22003778-5",
+            "utterance_id": "BK22003778.9"
+        },
+        {
+            "reference_date": "2022-02-23",
+            "reference_text": [
+                {
+                    "value": "이 밖에도 비타민 D는 산모 임신성 당뇨, 세균성 질증, 산후 우울증 위험을 감소시킨다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000673048",
+            "search_query": "산후우울증 비타민D",
+            "terminate": false,
+            "text": "비타민D 영양제가 있어요. 비타민D가 산모의 임신성 당뇨나 세균성 질증뿐만 아니라 산후 우울증의 위험도 감소시켜주거든요. 분명 도움이 될 거예요.",
+            "turn_id": "BK22003778-5",
+            "utterance_id": "BK22003778.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그거 먹으면서 같이 산책도 좀 해야겠어요. 햇볕도 좀 쐬게.",
+            "turn_id": "BK22003778-6",
+            "utterance_id": "BK22003778.11"
+        },
+        {
+            "reference_date": "2022-06-09",
+            "reference_text": [
+                {
+                    "value": "햇빛을 받으며 산책이나 운동을 하면 몸도 마음도 건강해진다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지치고 피곤하다는 이유로 집에만 머무르면 육체와 정신이 더 무기력해지면서 산후 우울증이 악화할 수 있다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000705405",
+            "search_query": "산후 우울증 햇빛",
+            "terminate": false,
+            "text": "잘 생각하셨어요. 집에만 있으면 더 무기력해지고 산후 우울증이 악화될 수 있으니까요, 산책이나 운동을 하면서 햇빛을 받으면 육체적으로나 정식적으로나 건강해지실 거예요.",
+            "turn_id": "BK22003778-6",
+            "utterance_id": "BK22003778.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 좋아요. 할 수 있는 건 다 해주고 싶어요. 또 도움되는 게 있다면 알려주세요.",
+            "turn_id": "BK22003778-7",
+            "utterance_id": "BK22003778.13"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "미국의사협회 정신의학회지(JAMA Psychiatry)에서는 오메가3가 수면장애, 불안 증후군, 무기력감, 성욕감퇴, 자살 충동 등 다양한 우울증 핵심 증상에 효과를 보인다고 보고했으며, 네이처(Nature)지에서도 오메가3가 산후 우울증 증상을 크게 개선한다는 메타분석 결과가 기재된 적 있다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000713768",
+            "search_query": "산후우울증 오메가3",
+            "terminate": false,
+            "text": "남편분도 함께 드셨으면 좋겠다는 게 있는데요, 오메가3 영양제예요. 오메가3는 우울증의 핵심 증상들을 개선하는 데에 효과를 보이고, 산후 우울증도 크게 개선할 수 있으니까요, 한 번 드셔 보시길 추천해 드려요.",
+            "turn_id": "BK22003778-7",
+            "utterance_id": "BK22003778.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "감사해요, 그거면 도움이 될 것 같아요. 근데 병원을 가 볼 필요는 없는 거겠죠?",
+            "turn_id": "BK22003778-8",
+            "utterance_id": "BK22003778.15"
+        },
+        {
+            "reference_date": "2020-10-26",
+            "reference_text": [
+                {
+                    "value": "우울증 극복방법에 있어 가장 중요한 것은 초기증상이 의심될 때 바로 우울증 자가진단테스트를 통해 점검하고 증상이 더 심해져 고착화되기 전에 적합한 치료를 받는 일이다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=89524",
+            "search_query": "산후우울증 극복법",
+            "terminate": false,
+            "text": "우울증을 극복하기 위해서 가장 중요한 일은 증상이 고착화되기 전에 알맞은 치료를 받는 거예요. 그러니까 초기에 증상이 의심되신다면 바로 자가진단테스트를 통해 점검하고 병원을 방문해 보는 게 좋아요.",
+            "turn_id": "BK22003778-8",
+            "utterance_id": "BK22003778.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 그게 좋겠네요. 그런데 자가진단은 어떻게 하면 돼요?",
+            "turn_id": "BK22003778-9",
+            "utterance_id": "BK22003778.17"
+        },
+        {
+            "reference_date": "2022-06-09",
+            "reference_text": [
+                {
+                    "value": "병원에 방문하기 전에 산후 우울증을 자가 진단하고 싶다면 에딘버러 산후우울 검사(EDPS, 한국어판)을 통해 자가 진단을 시행할 수 있다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000705405",
+            "search_query": "산후우울증 자가진단",
+            "terminate": false,
+            "text": "집에서 에딘버러 산후우울 검사라는 것을 먼저 시행해 보시면 돼요.",
+            "turn_id": "BK22003778-9",
+            "utterance_id": "BK22003778.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 더 간단하네요. 오늘 좋은 정보들 정말 감사합니다. 덕분에 아내와 더 건강하게 지낼 수 있겠어요.",
+            "turn_id": "BK22003778-10",
+            "utterance_id": "BK22003778.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그럼 정말 다행이네요, 도움이 될 수 있어 기뻐요. 도움이 필요하시면 언제든 또 문의 주세요.",
+            "turn_id": "BK22003778-10",
+            "utterance_id": "BK22003778.20"
+        }
+    ]
+}

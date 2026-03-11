@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018061",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018061",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "날씨 너무 더워졌어. 요즘 더워서 산책 엄두도 안 나고 집에만 있는데도 우리 집 강아지는 뻗어 있네.",
+            "turn_id": "BK22018061-1",
+            "utterance_id": "BK22018061.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "밖에 나가면 정말 숨 막히더라. 날씨가 더워서 강아지도 더위를 먹겠어.",
+            "turn_id": "BK22018061-1",
+            "utterance_id": "BK22018061.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "건강 잘 챙겨줘야 하는데, 개들은 체온 조절을 할 수 없나?",
+            "turn_id": "BK22018061-2",
+            "utterance_id": "BK22018061.3"
+        },
+        {
+            "reference_date": "44763.0",
+            "reference_text": [
+                {
+                    "value": "무더운 날씨, 높은 습도, 장맛비까지. 야외활동마저 힘든 날씨에 반려견들은 쉽게 지치거나 무기력증을 보인다.",
+                    "value_time": "44844.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "특히 온몸이 털로 뒤덮인 반려견은 땀샘이 혀와 발바닥에만 있어 체온조절도 쉽지 않다.",
+                    "value_time": "44844.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2022072018484491086",
+            "search_query": "반려견 무기력증",
+            "terminate": false,
+            "text": "전신이 털로 덮인 개는 땀샘이 발바닥과 혀에만 있어서 체온조절이 쉽지 않아. 높은 습도, 무더운 날씨, 장맛비까지, 야외활동마저 힘든 날씨에 개들은 무기력증을 보이거나 쉽게 지쳐.",
+            "turn_id": "BK22018061-2",
+            "utterance_id": "BK22018061.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금 엄청나게 지친 것 같아. 체온조절을 해주려면 어떻게 하는 게 좋을까?",
+            "turn_id": "BK22018061-3",
+            "utterance_id": "BK22018061.5"
+        },
+        {
+            "reference_date": "44763.0",
+            "reference_text": [
+                {
+                    "value": "여름철 반려견의 체온을 낮추고 싶다면 쿨매트를 사용하거나 물에 얼린 생수병을 수건에 감싸 반려견이 자주 누워있는 공간에다 두는 것이 좋다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2022072018484491086",
+            "search_query": "여름철 반려견 체온",
+            "terminate": false,
+            "text": "여름철 개의 체온을 내리고 싶으면 물을 얼린 생수병을 수건에 감싸 개가 자주 누워있는 곳에 두거나 쿨매트를 쓰는 게 좋아.",
+            "turn_id": "BK22018061-3",
+            "utterance_id": "BK22018061.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼린 생수통 있는데 바로 해줘야겠다. 털도 짧게 잘라주면 시원할까 싶어서 샵에 가서 털을 밀어 달라고 했는데, 너무 밀면 안 좋다고 말리더라고. 털을 짧게 자르는 게 왜 안 좋은 거야?",
+            "turn_id": "BK22018061-4",
+            "utterance_id": "BK22018061.7"
+        },
+        {
+            "reference_date": "44763.0",
+            "reference_text": [
+                {
+                    "value": "털은 보온 효과와 동시에 자외선 차단의 역할도 있기 때문에 털 길이가 과도하게 짧아지면 피부가 자외선에 직접적으로 노출돼 체온도 올라갈 뿐만 아니라 피부병의 위험도 높아진다.",
+                    "value_time": "44844.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "반려견의 털을 3cm 이하로 자르는 건 추천하지 않는다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2022072018484491086",
+            "search_query": "반려견 여름철 털",
+            "terminate": false,
+            "text": "개의 털을 3cm 이하로 자르는 건 좋지 않아. 털은 자외선 차단의 역할과 동시에 보온 효과도 있어서 털 길이가 심하게 짧아지면 피부가 자외선에 바로 노출돼 피부병에 걸리기 쉽고 체온도 올라가.",
+            "turn_id": "BK22018061-4",
+            "utterance_id": "BK22018061.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너무 밀어도 안 좋구나. 적당한 길이로 미용해줘야겠다. 외출 시 더위를 덜 타게 하는 아이템은 없을까?",
+            "turn_id": "BK22018061-5",
+            "utterance_id": "BK22018061.9"
+        },
+        {
+            "reference_date": "44763.0",
+            "reference_text": [
+                {
+                    "value": "외출 시에는 물에 적셔 입힐 수 있는 쿨링 베스트를 입혀주는 것도 방법이다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2022072018484491086",
+            "search_query": "반려견 여름철 쿨링베스트",
+            "terminate": false,
+            "text": "외출 할 때는 쿨링 베스트를 입혀주는 것도 방법이야. 물에 적셔 입힐 수 있어.",
+            "turn_id": "BK22018061-5",
+            "utterance_id": "BK22018061.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "쿨링 베스트 찾아봐야겠다. 해가 뜨거워서 산책로 아스팔트도 뜨겁더라. 강아지가 맨발로 걸으면 너무 뜨거울 것 같은데, 신발을 신겨야 할까?",
+            "turn_id": "BK22018061-6",
+            "utterance_id": "BK22018061.11"
+        },
+        {
+            "reference_date": "44763.0",
+            "reference_text": [
+                {
+                    "value": "해가 지더라도 아스팔트 바닥에 남아있는 잔열로 인해 화상과 피부염의 위험이 있으니 잔디나 흙바닥을 골라 산책하자.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려견용 신발을 신겨 주는 것도 좋다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2022072018484491086",
+            "search_query": "여름 반려견 산책 신발",
+            "terminate": false,
+            "text": "개 신발을 신겨 주는 게 좋아. 해가 져도 아스팔트 바닥에 잔열이 남아있어서, 피부염과 화상의 위험이 있으니 흙바닥이나 잔디를 골라 산책해봐.",
+            "turn_id": "BK22018061-6",
+            "utterance_id": "BK22018061.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "옆에 천이 있어서 그런지 산책로에 모기도 엄청나게 많아졌어. 우리 강아지도 물리지 않을까 걱정되는데 반려견용 모기 기피제가 따로 있을까?",
+            "turn_id": "BK22018061-7",
+            "utterance_id": "BK22018061.13"
+        },
+        {
+            "reference_date": "44763.0",
+            "reference_text": [
+                {
+                    "value": "또 여름에는 진드기, 모기, 해충 등이 많아 해충기피제도 필수다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "해충기피제는 복용하는 제품, 착용하는 제품, 뿌리는 제품 등 다양하게 있어 반려견에 맞게 구매하면 된다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2022072018484491086",
+            "search_query": "여름 반려견 해충",
+            "terminate": false,
+            "text": "해충기피제는 뿌리는 제품, 착용하는 제품, 복용하는 제품 등 다양하게 있어서 개에 맞게 사면 돼. 여름에는 모기, 진드기, 해충 등이 많아서 해충기피제는 필수야.",
+            "turn_id": "BK22018061-7",
+            "utterance_id": "BK22018061.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산책이 끝나고 집에 돌아오면 강아지를 어떻게 케어해줘야 할까?",
+            "turn_id": "BK22018061-8",
+            "utterance_id": "BK22018061.15"
+        },
+        {
+            "reference_date": "44763.0",
+            "reference_text": [
+                {
+                    "value": "뜨거운 바닥을 걸으면 발바닥에 있는 수분이 모두 날아가고, 화상과 건조증을 유발한다.",
+                    "value_time": "44853.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "심할 경우 발바닥이 갈라지기도 하니 산책 후 발을 깨끗이 씻긴 후 보습제를 발라주자.",
+                    "value_time": "44853.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2022072018484491086",
+            "search_query": "여름 반려견 발 보습",
+            "terminate": false,
+            "text": "뜨거운 바닥을 거닐면 발바닥에 있는 수분이 다 사라지고, 건조증과 화상을 일으켜. 심하면 발바닥이 찢어지기도 하니까, 산책 후에는 발을 깔끔히 씻긴 후 보습제를 발라줘.",
+            "turn_id": "BK22018061-8",
+            "utterance_id": "BK22018061.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여름에는 수분이 부족하잖아. 물을 마시게 하는 방법은 없을까?",
+            "turn_id": "BK22018061-9",
+            "utterance_id": "BK22018061.17"
+        },
+        {
+            "reference_date": "44763.0",
+            "reference_text": [
+                {
+                    "value": "무엇보다 체내 수분을 많이 빼앗기는 여름에는 평소보다 많은 음수량이 요구된다.",
+                    "value_time": "44844.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 반려견에게 물을 억지로 먹일 수 없는 만큼 음식을 섭취할 때 자연스레 음수량을 늘려 주자.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사료를 물에 불려서 주거나 화식(자연식-생식에서 가열을 한 조리음식)을 급여하는 것도 좋다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2022072018484491086",
+            "search_query": "여름 반려견 음수량",
+            "terminate": false,
+            "text": "체내 수분을 많이 뺏기는 여름에는 평상시보다 많은 음수량이 필요해. 하지만 개한테 억지로 물을 먹일 수 없기 때문에, 식품을 섭취할 때 자연히 음수량을 늘려줘. 화식을 먹이거나 사료를 물에 불려서 주는 것도 좋아.",
+            "turn_id": "BK22018061-9",
+            "utterance_id": "BK22018061.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사료는 불려주면 잘 안 먹으니까 화식으로 보양죽을 만들어 봐야겠다.",
+            "turn_id": "BK22018061-10",
+            "utterance_id": "BK22018061.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 보양식으로 건강관리 잘해줘. 빨리 시원한 가을이 왔으면 좋겠다.",
+            "turn_id": "BK22018061-10",
+            "utterance_id": "BK22018061.20"
+        }
+    ]
+}

@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015857",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015857",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아내가 벌써 임신 34주가 되었어요. 출산 시기가 가까워지니 걱정도 많고 아직 궁금한 것도 너무 많아요.",
+            "turn_id": "BK22015857-1",
+            "utterance_id": "BK22015857.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 어떤 점들이 궁금하세요?",
+            "turn_id": "BK22015857-1",
+            "utterance_id": "BK22015857.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 먼저 34주 태아의 크기는 어느 정도 되나요?",
+            "turn_id": "BK22015857-2",
+            "utterance_id": "BK22015857.3"
+        },
+        {
+            "reference_date": "2017-03-02",
+            "reference_text": [
+                {
+                    "value": "이제 아기의 키는 45cm, 체중은 2150g 정도가 됩니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ksmnews.co.kr/default/index_view_page.php?idx=168583&part_idx=197",
+            "search_query": "임신 34주 태아 크기",
+            "terminate": false,
+            "text": "아기의 크기는 약 45cm 정도, 무게는 2150g 정도예요.",
+            "turn_id": "BK22015857-2",
+            "utterance_id": "BK22015857.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 크네요. 그럼 이 시기의 아이는 어떤 특징들이 있나요?",
+            "turn_id": "BK22015857-3",
+            "utterance_id": "BK22015857.5"
+        },
+        {
+            "reference_date": "2015-09-18",
+            "reference_text": [
+                {
+                    "value": "태아는 외부 자극에 대해서는 몸으로 반응합니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "감각기관이 꽤 발달해 자극에 적극적으로 반응하는 힘이 생기는데 가끔 아기가 웃고 있거나 화를 내는 듯한 표정의 변화가 느껴지기도 합니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108382",
+            "search_query": "임신 34주 태아 특징",
+            "terminate": false,
+            "text": "네, 34주의 태아는 감각기관이 많이 발달해서 외부 자극에 몸으로 적극적으로 반응하고 가끔 웃거나 화내는 표정 변화도 느낄 수 있어요.",
+            "turn_id": "BK22015857-3",
+            "utterance_id": "BK22015857.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 정말 신기해요. 그럼 지금 아내의 몸 상태는 어떤가요?",
+            "turn_id": "BK22015857-4",
+            "utterance_id": "BK22015857.7"
+        },
+        {
+            "reference_date": "2015-09-18",
+            "reference_text": [
+                {
+                    "value": "요통이 심해지고 엉덩이와 골반이 아파요.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "다리에 쥐가 나거나 통증이 생길 수 있고 수면 중 다리에 경련이 오기도 합니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "색소침착이 심해져 흑색 선이 눈에 띄게 진해져요.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108382",
+            "search_query": "임신 34주 엄마의 특징",
+            "terminate": false,
+            "text": "요통이 심해지고 엉덩이와 골반이 아플 수 있어요. 다리에 쥐가 나거나 통증이 생길 수 있으며 경련이 오기도 하죠. 또 색소침착이 심해져 흑색 선이 점점 진해질 거예요.",
+            "turn_id": "BK22015857-4",
+            "utterance_id": "BK22015857.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아내가 참 고생이 많네요. 이제 곧 출산이 가까워져 오는데 태아는 아래쪽으로 언제쯤 내려오나요?",
+            "turn_id": "BK22015857-5",
+            "utterance_id": "BK22015857.9"
+        },
+        {
+            "reference_date": "2017-03-02",
+            "reference_text": [
+                {
+                    "value": "지금쯤이면 아기 머리의 옆 직경은 엄마의 골반 내경보다 커져서 두개골이 유연하지 않으면 빠져나올 수가 없습니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "서서히 아기 머리는 골반으로 내려오면서 자신의 머리뼈를 겹쳐 머리 크기를 줄이고, 엄마의 골반도 서서히 벌려서 위치를 조절할 수 있습니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ksmnews.co.kr/default/index_view_page.php?idx=168583&part_idx=197",
+            "search_query": "임신 34주 아기 두개골",
+            "terminate": false,
+            "text": "이제 서서히 아기 머리가 골반 쪽으로 내려오기 시작해요. 현재 아기 머리의 크기는 엄마의 골반보다 더 커서 두개골이 유연하지 않으면 빠져나올 수가 없기 때문에 자기 머리뼈를 겹쳐 머리 크기를 줄이고 엄마의 골반도 점점 벌려서 위치를 조절하고 있는 상태예요.",
+            "turn_id": "BK22015857-5",
+            "utterance_id": "BK22015857.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아기 머리가 골반 쪽으로 내려온다고요? 혹시 아기 머리가 밑으로 내려오지 않는다면 문제가 있는 건가요? 어떤 검사를 받아야 하나요?",
+            "turn_id": "BK22015857-6",
+            "utterance_id": "BK22015857.11"
+        },
+        {
+            "reference_date": "2015-09-18",
+            "reference_text": [
+                {
+                    "value": "다양한 자세를 취했던 태아가 임신 후기에 접어들면서 자궁 입구 쪽으로 머리를 돌려 출산 전까지 고정된 자세, 즉 두위(頭位)를 취하게 됩니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지면 반대로 어떤 태아는 뒤집히지 않고 그냥 머리를 위쪽으로 하는 역아(逆兒) 혹은 둔위(臀位), 골반 위(骨盤位)를 취할 경우, 다태임신이나 양수과다증, 전치태반, 자궁근종이 있진 않은 지 점검해봐야 합니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108382",
+            "search_query": "임신 34주 태아 위치 확인",
+            "terminate": false,
+            "text": "네, 임신 후기에 들어서면서 아기는 머리를 돌려 자궁 입구 쪽으로 내려오는 두위 자세를 취하게 되는데 가끔 뒤집히지 않은 역아, 혹은 둔위, 골반 위를 취하고 있을 경우 다태임신이나 양수과다증, 전치태반, 자궁근종이 있지는 않은 지 검사를 해 보는 게 좋아요.",
+            "turn_id": "BK22015857-6",
+            "utterance_id": "BK22015857.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 출산 시 알고 있으면 좋은 호흡 방법이 있다던데 뭔지 아시나요?",
+            "turn_id": "BK22015857-7",
+            "utterance_id": "BK22015857.13"
+        },
+        {
+            "reference_date": "2015-09-18",
+            "reference_text": [
+                {
+                    "value": "소프롤로지 호흡법이나 라마즈 호흡법 또는 임신부 체조를 익히며 분만에 대한 공포를 가라앉히고 좋은 생각과 명상에 잠기는 생활을 실천한다면 더할 나위가 없습니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108382",
+            "search_query": "임신 34주 호흡법",
+            "terminate": false,
+            "text": "네, 소프롤로지 호흡법이나 라마즈 호흡법을 익혀 두면 출산 시 도움이 될 수 있어요. 또 좋은 생각과 명상에 잠기는 생활을 함께한다면 더 좋아요.",
+            "turn_id": "BK22015857-7",
+            "utterance_id": "BK22015857.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 마음을 안정시킬 수 있도록 함께 명상도 하고 호흡법도 배워봐야겠네요. 출산이 얼마 남지 않으니 정말 걱정이 많아요. 병원에 미리 문의해야 할 것들은 뭐가 있을까요?",
+            "turn_id": "BK22015857-8",
+            "utterance_id": "BK22015857.15"
+        },
+        {
+            "reference_date": "2015-09-18",
+            "reference_text": [
+                {
+                    "value": "출산이 한 달 남짓 남았네요.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "병원의 분만실을 미리 둘러볼 수 있는지 문의해보세요.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108382",
+            "search_query": "임신 34주 입원준비",
+            "terminate": false,
+            "text": "이제 출산이 한 달 정도 남았는데 병원에 문의해서 분만실을 미리 둘러볼 수 있는지 알아보세요.",
+            "turn_id": "BK22015857-8",
+            "utterance_id": "BK22015857.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안 그래도 병원에 문의해 봤는데, 요즘 코로나로 인해 출입이 어렵다고 해요. 다른 방법이 없을까요?",
+            "turn_id": "BK22015857-9",
+            "utterance_id": "BK22015857.17"
+        },
+        {
+            "reference_date": "2015-09-18",
+            "reference_text": [
+                {
+                    "value": "만약 분만실 출입이 어렵다면 웹사이트나 블로그 등에 올라온 사진이 있는지 찾아보면 산 당일에 훨씬 편안한 마음으로 들어갈 수 있을 거예요",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "분만이 시작될 수 있으니 입원절차 등 보호자와 함께 자세히 알아보세요.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108382",
+            "search_query": "임신 34주 입원준비",
+            "terminate": false,
+            "text": "분만실 출입이 어렵다면 병원 홈페이지나 블로그를 통해 사진을 찾아볼 수 있어요. 사진으로 미리 봐두면 출산 당일에 훨씬 편한 마음으로 들어갈 수 있어요. 언제 분만이 시작될지 모르니 아내분과 함께 입원 절차 등 미리 알아보세요.",
+            "turn_id": "BK22015857-9",
+            "utterance_id": "BK22015857.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 방법이 있었군요. 좋은 정보 감사해요. 오늘 알려주신 내용들 덕분에 많은 도움이 되었어요.",
+            "turn_id": "BK22015857-10",
+            "utterance_id": "BK22015857.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되셨다니 정말 다행이네요. 또 궁금한 점 있으시면 언제든지 물어보세요.",
+            "turn_id": "BK22015857-10",
+            "utterance_id": "BK22015857.20"
+        }
+    ]
+}

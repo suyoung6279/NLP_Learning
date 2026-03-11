@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015588",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015588",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0046"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "본가에서 키우는 저희 강아지가 외이염에 걸렸다고 하더라고요. 집을 나와있으니 너무 걱정만 되는데 혹시 외이염이 발생하는 원인은 뭔가요?",
+            "turn_id": "BK22015588-1",
+            "utterance_id": "BK22015588.1"
+        },
+        {
+            "reference_date": "2021-03-16",
+            "reference_text": [
+                {
+                    "value": "외이염은 세균, 곰팡이, 진드기, 알레르기 등 다양한 원인에 의해 나타날 수 있고 여러 가지 복합적인 원인에 의해 나타날 수 있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=52814",
+            "search_query": "반려견 외이염",
+            "terminate": false,
+            "text": "아이고, 걱정이 많으시겠어요. 외이염의 원인으로는 세균이나 곰팡이 감염, 진드기, 알레르기 등의 다양한 원인이 있어요. 또 하나의 문제만이 아닌 복합적인 요인으로 인해 나타나기도 하죠.",
+            "turn_id": "BK22015588-1",
+            "utterance_id": "BK22015588.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 다양한 요인으로 인해 외이염이 생기는군요. 그런데 귀에 생긴 병인 건 알겠는데 외이도는 어떤 부위인 건가요?",
+            "turn_id": "BK22015588-2",
+            "utterance_id": "BK22015588.3"
+        },
+        {
+            "reference_date": "2021-03-16",
+            "reference_text": [
+                {
+                    "value": "강아지 귀는 이개, 외이도, 중이, 내이로 나눠볼 수 있는데 그중 귓바퀴에서 고막까지의 부분을 외이도라 칭한다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=52814",
+            "search_query": "반려견 외이도 귓바퀴",
+            "terminate": false,
+            "text": "네, 우선 강아지의 귀는 이개, 외이도, 중이, 내이로 나눠지는데 외이도는 귓바퀴에서부터 고막까지를 말해요.",
+            "turn_id": "BK22015588-2",
+            "utterance_id": "BK22015588.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "꽤 많은 부분을 외이도라고 부르는군요. 그런데 사람의 경우 중이염은 자주 들어봤어도 외이염은 잘 들어보지 못했거든요. 원래 강아지에게는 외이염이 흔한 편인가요?",
+            "turn_id": "BK22015588-3",
+            "utterance_id": "BK22015588.5"
+        },
+        {
+            "reference_date": "2021-03-16",
+            "reference_text": [
+                {
+                    "value": "평평한 사람의 외이도와는 다르게 강아지의 외이도는 L자 모양으로 꺾여 있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이런 구조로 강아지의 귀는 통기성이 떨어지고 세균과 곰팡이가 증식하기 좋은 환경이 만들어진다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=52814",
+            "search_query": "반려견 외이도 모양",
+            "terminate": false,
+            "text": "네, 사람과 강아지의 외이도 구조가 다르다 보니 나타나는 차이예요. 사람의 외이도는 평평한데 반해 강아지는 L자 모양으로 꺾여 있거든요. 때문에 통기성이 떨어져 세균과 곰팡이가 번식하기 좋은 거죠.",
+            "turn_id": "BK22015588-3",
+            "utterance_id": "BK22015588.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "구조적으로 사람과 차이가 있군요. 그럼 외이염이 생기면 어떤 증상이 나타나나요?",
+            "turn_id": "BK22015588-4",
+            "utterance_id": "BK22015588.7"
+        },
+        {
+            "reference_date": "2021-03-16",
+            "reference_text": [
+                {
+                    "value": "외이염이 생기면 ▲귀를 자꾸 털음 ▲발로 귀를 심하게 긁음 ▲귀를 바닥에 비빔 ▲귀가 빨갛고 부음 ▲귀에서 냄새가 남 ▲귀에서 진한 색깔의 분비물이 나옴 등의 증상이 나타난다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=52814",
+            "search_query": "반려견 외이염 증상",
+            "terminate": false,
+            "text": "네, 외이염의 증상으로는 귀를 자꾸 털거나 발로 귀를 심하게 긁기도 하고 귀에서 냄새가 나거나 진한 색의 분비물이 나오는 등의 증상이 있어요.",
+            "turn_id": "BK22015588-4",
+            "utterance_id": "BK22015588.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이고, 정말 다양한 증상이 있네요. 그럼 저런 증상을 보이게 되면 진단은 어떻게 받을 수 있나요?",
+            "turn_id": "BK22015588-5",
+            "utterance_id": "BK22015588.9"
+        },
+        {
+            "reference_date": "2022-09-30",
+            "reference_text": [
+                {
+                    "value": "동물병원에서는 검이경을 통해 귀 내부의 상태를 육안으로 살펴보고 현미경 도말검사를 통해 세균, 곰팡이 등 감염이 발생했는지 평가한다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61387",
+            "search_query": "반려견 외이염",
+            "terminate": false,
+            "text": "검이경을 통해서 귀 내부의 상태를 육안으로 검진하고 현미경을 통해서 도말검사를 하기도 해요. 도말검사로 세균이나 곰팡이등을 통해 감염이 생겼는지를 살펴보죠.",
+            "turn_id": "BK22015588-5",
+            "utterance_id": "BK22015588.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상당히 꼼꼼하게 살펴서 병을 진단하네요. 그럼 외이염 치료는 어떻게 이뤄지나요?",
+            "turn_id": "BK22015588-6",
+            "utterance_id": "BK22015588.11"
+        },
+        {
+            "reference_date": "2021-11-19",
+            "reference_text": [
+                {
+                    "value": "감염이 심하지 않거나 반려견이 국소치료에 대한 순응도가 좋다면 전신적인 경구약 처방보다는 감염체에 적절한 소독제제와 연고제제를 먼저 사용해 관리하는 것이 좋다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 감염이 매우 심하거나 환자가 국소치료를 잘하지 못한다면 경구약 처방을 실시해야만 한다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=56587",
+            "search_query": "반려견 외이염 국소치료",
+            "terminate": false,
+            "text": "정도에 따라 다르지만 우선 감염이 심하지 않거나 반려견이 국소치료에 거부감이 크지 않다면 감염체에 적절한 소독 제제와 연고제를 먼저 상용해 관리하도록 해요. 다만 감염이 매우 심하거나 국소치료에 거부감이 크다면 경구약을 먹여야만 하죠.",
+            "turn_id": "BK22015588-6",
+            "utterance_id": "BK22015588.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 강아지는 약 먹는 걸 몹시 싫어하는데 국소치료를 잘 견뎌내면 좋겠네요. 그런데 치료 효과는 좋은 편인가요?",
+            "turn_id": "BK22015588-7",
+            "utterance_id": "BK22015588.13"
+        },
+        {
+            "reference_date": "2021-11-19",
+            "reference_text": [
+                {
+                    "value": "적절한 약물을 찾아 사용하면 대부분 환자에서 치료효과는 좋은 편이다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "(치료된 후에는 재발하지 않게 주 1~2회 정도 귀 소독을 하면서 관리해야 한다.)",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=56587",
+            "search_query": "반려견 외이염 귀 소독",
+            "terminate": false,
+            "text": "네, 알맞은 약물을 찾아 사용하면 대부분 치료 효과가 좋은 편이에요. 다만 완치가 되고도 재발하지 않도록 주 1회에서 2회 정도는 귀 소독을 꾸준히 해줘야 하죠.",
+            "turn_id": "BK22015588-7",
+            "utterance_id": "BK22015588.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 치료 후에도 재발하지 않도록 신경 써줘야 하는군요. 그런데 약물을 통해서도 치료가 안 되는 경우가 있나요?",
+            "turn_id": "BK22015588-8",
+            "utterance_id": "BK22015588.15"
+        },
+        {
+            "reference_date": "2021-11-19",
+            "reference_text": [
+                {
+                    "value": "하지만 이러한 약물 처방에 반응이 좋지 않으면 감염체 배양 및 항생제 감수성 검사를 실시해 적절한 치료제를 찾아야 한다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=56587",
+            "search_query": "반려견 외이염 항생제 감수성 검사",
+            "terminate": false,
+            "text": "네, 맞아요. 약물처방에 반응이 좋지 않은 경우도 있거든요. 이런 경우는 감염체 배양 및 항생제 감수성 검사를 통해 알맞은 치료제를 찾아야 해요.",
+            "turn_id": "BK22015588-8",
+            "utterance_id": "BK22015588.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "약물에 반응이 안 좋으면 다른 검사를 더 해야 한다니 힘들겠어요. 오늘 강아지 외이염에 대해 알려주셔서 감사해요. 덕분에 막연히 걱정할 때에 비해서 마음이 편해졌어요.",
+            "turn_id": "BK22015588-9",
+            "utterance_id": "BK22015588.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마음이 편해지셔서 정말 다행이에요. 그럼 또 도움이 필요하시면 연락 주세요.",
+            "turn_id": "BK22015588-9",
+            "utterance_id": "BK22015588.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 다음에 또 연락 드리도록 할게요. 그럼 살펴 들어가세요.",
+            "turn_id": "BK22015588-10",
+            "utterance_id": "BK22015588.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 궁금이님도 조심히 들어가세요.",
+            "turn_id": "BK22015588-10",
+            "utterance_id": "BK22015588.20"
+        }
+    ]
+}

@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22017390",
+        "name": "2022 한국어 블렌더봇 데이터 BK22017390",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동생이 강아지를 입양했는데 엄청 귀엽더라고요.",
+            "turn_id": "BK22017390-1",
+            "utterance_id": "BK22017390.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동생이 어떤 종류의 강아지를 입양하셨나요?",
+            "turn_id": "BK22017390-1",
+            "utterance_id": "BK22017390.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "말티푸라고 처음 들어보는 종류인데, 무슨 종류인가요?",
+            "turn_id": "BK22017390-2",
+            "utterance_id": "BK22017390.3"
+        },
+        {
+            "reference_date": "44273.0",
+            "reference_text": [
+                {
+                    "value": "하이브리드 견종은 서로 다른 견종의 특성(업자의 주장에 따르면 ‘장점’)을 모두 가진 견종이다.",
+                    "value_time": "44830.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "폼피츠는 포메라니안과 스피츠, 말티푸는 몰티즈(말티즈)와 푸들, 몰키는 몰티즈와 요키(요크셔테리어)가 각각 섞인 견종이다.",
+                    "value_time": "44830.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kgmaeil.net/news/articleView.html?idxno=263996",
+            "search_query": "말티푸",
+            "terminate": false,
+            "text": "말티푸란 말티즈와 푸들이 섞인 견종인데요, 이 외에도 포메라니안과 스피츠가 섞인 폼피츠 등 이렇게 서로 다른 견종의 특성을 모두 가진 견종을 하이브리드 견종이라 부르죠.",
+            "turn_id": "BK22017390-2",
+            "utterance_id": "BK22017390.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하이브리드 견종이 뭔데요? 그냥 혈통 없는 잡종 아닌가요?",
+            "turn_id": "BK22017390-3",
+            "utterance_id": "BK22017390.5"
+        },
+        {
+            "reference_date": "42258.0",
+            "reference_text": [
+                {
+                    "value": "하지만 최근에 불리는 하이브리드견은 각 견종의 장점을 결합하려는 계획에 의해 태어난 것으로 디자이너독이라고 불리기도 하며, 엄마, 아빠 개의 혈통이 확실한 개들을 말한다.",
+                    "value_time": "44830.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/201509111499980044",
+            "search_query": "하이브리드 견종",
+            "terminate": false,
+            "text": "아니요, 하이브리드 견종은 각 견종의 장점만을 결합해 태어나 엄마, 아빠 개의 혈통이 확실한 개들이에요.",
+            "turn_id": "BK22017390-3",
+            "utterance_id": "BK22017390.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇게 태어난 하이브리드 견종은 건강상의 문제점은 없나요?",
+            "turn_id": "BK22017390-4",
+            "utterance_id": "BK22017390.7"
+        },
+        {
+            "reference_date": "44112.0",
+            "reference_text": [
+                {
+                    "value": "서로 다른 두 품종의 견종이 교배해서 태어난 강아지 믹스견은 혈통 있는 강아지들보다 더 똑똑하고 유전적 결함이 적어 건강한 편이다.",
+                    "value_time": "44830.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/307076",
+            "search_query": "하이브리드 견종 건강",
+            "terminate": false,
+            "text": "순종인 다른 강아지들보다 더 뛰어나고 유전적 결함이 적어 건강한 편이에요.",
+            "turn_id": "BK22017390-4",
+            "utterance_id": "BK22017390.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 순종보다 더 비쌀것 같은데, 이런 하이브리드 견종은 얼마에 팔리나요?",
+            "turn_id": "BK22017390-5",
+            "utterance_id": "BK22017390.9"
+        },
+        {
+            "reference_date": "42435.0",
+            "reference_text": [
+                {
+                    "value": "예를 들어, 코카푸는 코커스패니얼처럼 귀여운 외모지만 푸들처럼 털이 빠지지 않는다고 한다. 푸들이 털이 빠지지 않는 품종이니 푸들과 다른 품종을 혼합해 더 나은 품종으로 개량된 새로운 품종이란 말이다.",
+                    "value_time": "44830.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "심지어 이렇게 디자인된 하이브리드 도그는 몇백만원에 팔리기도 한다는 말에 놀랐다.",
+                    "value_time": "44830.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/society/society_general/733448.html#ace05Ky",
+            "search_query": "하이브리드 견종 가격",
+            "terminate": false,
+            "text": "예를 들어, 코카푸는 귀여운 외모의 코커스패니얼과 털이 빠지지 않는 푸들의 하이브리드 견인데, 그렇게 더 나은 품종으로 개량되었기 때문에 하이브리드 견종은 많게는 몇백만 원에 팔리기도 하죠.",
+            "turn_id": "BK22017390-5",
+            "utterance_id": "BK22017390.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너무 비싸서 못 사겠네요, 혹시 반려견을 입양할 수 있는 방법에는 어떤 것이 있나요?",
+            "turn_id": "BK22017390-6",
+            "utterance_id": "BK22017390.11"
+        },
+        {
+            "reference_date": "44738.0",
+            "reference_text": [
+                {
+                    "value": "1. 동물보호소에서 낸 공고를 보고 지원한다.",
+                    "value_time": "44830.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2. 카라나 동물자유연대 등 대형 동물보호단체에서 입양한다.",
+                    "value_time": "44830.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "3. 온라인 커뮤니티·SNS 등으로 활동 중인 소규모 동물 단체(또는 개인 구조자)를 통해 입양.",
+                    "value_time": "44830.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/267E99OYF7",
+            "search_query": "반려견 입양",
+            "terminate": false,
+            "text": "우선 동물보호소에서 낸 공고를 보고 지원할 수 있고, 대형 동물보호단체에서도 입양할 수 있죠. 또 온라인 커뮤니티나 SNS 등에서 소규모 동물 단체와 개인 구조자를 통해 입양할 수도 있어요.",
+            "turn_id": "BK22017390-6",
+            "utterance_id": "BK22017390.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좋은 방법들이네요. 혹시 반려견을 키우게 되면 양육비는 어느 정도 될까요?",
+            "turn_id": "BK22017390-7",
+            "utterance_id": "BK22017390.13"
+        },
+        {
+            "reference_date": "44567.0",
+            "reference_text": [
+                {
+                    "value": "반려동물을 기르는 경우 반려견은 평균 1.19마리, 반려묘는 1.46마리를 양육하는 것으로 조사됐다.",
+                    "value_time": "44830.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "농림축산식품부는 6일 이런 내용의 '2021년 동물보호에 대한 국민의식조사' 결과를 발표했다.",
+                    "value_time": "44830.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "반려동물 한 마리당 월평균 양육비는 12만3천500원이다.",
+                    "value_time": "44830.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/business/view/2022/01/16101/",
+            "search_query": "반려견 양육비",
+            "terminate": false,
+            "text": "농림축산식품부가 발표한 2021년 동물보호에 대한 국민의식조사에 의하면 반려견은 평균 1.19마리를 키우는데, 반려동물 통틀어서 월평균 12만 3천500원 정도의 양육비가 드는 것으로 조사됐어요.",
+            "turn_id": "BK22017390-7",
+            "utterance_id": "BK22017390.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "양육비 중에서 주로 살펴봐야 할 품목이 있을까요?",
+            "turn_id": "BK22017390-8",
+            "utterance_id": "BK22017390.15"
+        },
+        {
+            "reference_date": "44819.0",
+            "reference_text": [
+                {
+                    "value": "그중에서도 반려동물의 건강과 삶의 질을 좌우하는 주식(主食)인 ‘사료’는 깐깐하게 따져볼 필요가 있다.",
+                    "value_time": "44830.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2022091418380345194",
+            "search_query": "반려견 주의사항",
+            "terminate": false,
+            "text": "특히 주식인 사료를 꼼꼼히 따져봐야 하는데, 반려동물의 건강과 삶의 질이 결정되기 때문이에요.",
+            "turn_id": "BK22017390-8",
+            "utterance_id": "BK22017390.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 반려견을 키우는데 또 도움이 되는 제품들이 있을까요?",
+            "turn_id": "BK22017390-9",
+            "utterance_id": "BK22017390.17"
+        },
+        {
+            "reference_date": "44752.0",
+            "reference_text": [
+                {
+                    "value": "1인가구 증가와 고령화의 가속화 속에 반려동물을 키우는 사람이 증가하면서 반려동물용 공기청정기·욕조·모발건조기·사료급여기 등 이른바 ‘펫가전(반려동물용 가전)’ 시장이 뜨고 있다.",
+                    "value_time": "44830.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/economy/market-trend/article/202207101206001?www",
+            "search_query": "반려견 키우기",
+            "terminate": false,
+            "text": "반려동물용 가전제품인 공기청정기, 욕조, 모발건조기, 사료급여기 등이 있어요. 이른바 펫가전이라고 하며 고령화가 빨라지고 1인 가구가 늘어나면서 펫가전 시장이 확대되고 있죠.",
+            "turn_id": "BK22017390-9",
+            "utterance_id": "BK22017390.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려견을 키우는데 도움이 되는 것들이 많네요.",
+            "turn_id": "BK22017390-10",
+            "utterance_id": "BK22017390.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 그럼 반려견 잘 키우세요.",
+            "turn_id": "BK22017390-10",
+            "utterance_id": "BK22017390.20"
+        }
+    ]
+}

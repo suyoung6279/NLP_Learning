@@ -1,0 +1,321 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009077",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009077",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이를 키우면 시기별로 예방접종을 해야 하잖아요. 종류가 꽤 많던데 돌 전까지 맞아야 하는 접종이 몇 가지나 되나요?",
+            "turn_id": "BK22009077-1",
+            "utterance_id": "BK22009077.1"
+        },
+        {
+            "reference_date": "2019-01-16",
+            "reference_text": [
+                {
+                    "value": "아기가 태어나서 첫돌 전까지 접종 가능한 백신의 종류는 대략 10가지(접종 횟수 최대 약20회)에 이른다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=71154",
+            "search_query": "영아 예방접종 횟수",
+            "terminate": false,
+            "text": "아기가 돌 전까지 접종할 수 있는 백신은 약 10가지에요.",
+            "turn_id": "BK22009077-1",
+            "utterance_id": "BK22009077.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1년 동안 맞는 예방접종이 꽤 많네요. 그럼 초등학교 입학 전후에 맞아야 하는 예방 접종은 어떤 것이 있나요?",
+            "turn_id": "BK22009077-2",
+            "utterance_id": "BK22009077.3"
+        },
+        {
+            "reference_date": "2022-02-24",
+            "reference_text": [
+                {
+                    "value": "초등학교 입학을 앞두고 있거나 현재 초등학생인 아이들의 경우 DTaP(디프테리아, 파상풍, 백일해), 폴리오(소아마비), MMR(홍역, 유행성이하선염, 풍진), 일본뇌염 예방접종을 실시하는 것이 바람직하다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jemin.com/news/articleView.html?idxno=732455",
+            "search_query": "입학 전 예방접종",
+            "terminate": false,
+            "text": "초등학교 입학 전후에는 폴리오, MMR, DTaP, 일본뇌염 예방접종을 해 주셔야 해요.",
+            "turn_id": "BK22009077-2",
+            "utterance_id": "BK22009077.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "MMR은 처음 들어보는데 어떤 질병을 예방하기 위해 맞는 예방주사인가요?",
+            "turn_id": "BK22009077-3",
+            "utterance_id": "BK22009077.5"
+        },
+        {
+            "reference_date": "2019-02-08",
+            "reference_text": [
+                {
+                    "value": "홍역은 MMR이란 백신으로 예방하는데, 볼거리와 풍진까지 예방할 수 있다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.rapportian.com/news/articleView.html?idxno=115904",
+            "search_query": "홍역 MMR",
+            "terminate": false,
+            "text": "MMR은 홍역, 볼거리, 풍진을 예방하기 위한 백신이랍니다.",
+            "turn_id": "BK22009077-3",
+            "utterance_id": "BK22009077.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "홍역을 예방하는 백신이 MMR이었군요. 그럼 MMR은 몇차까지 접종해야 효과를 볼 수 있는 건가요?",
+            "turn_id": "BK22009077-4",
+            "utterance_id": "BK22009077.7"
+        },
+        {
+            "reference_date": "2019-02-08",
+            "reference_text": [
+                {
+                    "value": "생후 12~15개월에 한 번, 그리고 4~6세 사이에 추가로 접종해 총 2회 접종하는 것이 기본이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.rapportian.com/news/articleView.html?idxno=115904",
+            "search_query": "홍역 MMR",
+            "terminate": false,
+            "text": "12개월에서 15개월에 1차, 4세에서 6세 사이에 추가 접종하여 총 두 번 접종해 주시면 돼요.",
+            "turn_id": "BK22009077-4",
+            "utterance_id": "BK22009077.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "2차까지 접종을 마쳐야 하는 거군요. 그럼 DTaP는 어떤 질병을 예방하는 접종인가요?",
+            "turn_id": "BK22009077-5",
+            "utterance_id": "BK22009077.9"
+        },
+        {
+            "reference_date": "2020-09-04",
+            "reference_text": [
+                {
+                    "value": "DTaP, Tdap는 디프테리아, 파상풍, 백일해 예방을 위해 접종하는 백신이고, Td는 디프테리아, 파상풍 예방을 위해 접종하는 백신입니다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kpanews.co.kr/article/show.asp?idx=215718&category=H",
+            "search_query": "DTaP",
+            "terminate": false,
+            "text": "DTaP는 디프테리아, 파상풍, 백일해 예방을 위해 접종하는 백신을 말해요.",
+            "turn_id": "BK22009077-5",
+            "utterance_id": "BK22009077.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이 백신으로 3가지 질병을 예방할 수 있는 거네요. 이 예방 접종은 몇번을 맞아야 하나요?",
+            "turn_id": "BK22009077-6",
+            "utterance_id": "BK22009077.11"
+        },
+        {
+            "reference_date": "2022-04-26",
+            "reference_text": [
+                {
+                    "value": "이중 DTap 백신은 시간이 지날수록 항체값이 떨어져 여러 차례 접종이 필요한 백신 중 하나입니다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기초 3차례, 추가 2차례 접종을 완료해야 합니다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://jhealthmedia.joins.com/article/article_view.asp?pno=25324",
+            "search_query": "DTaP 여러 차례 접종",
+            "terminate": false,
+            "text": "DTaP는 기본 3회, 추가로 2회 접종을 해야 해요. 이 백신은 시간이 경과할수록 항체가 떨어져 여러 번 접종을 해야 하는 백신 종류 중 하나랍니다.",
+            "turn_id": "BK22009077-6",
+            "utterance_id": "BK22009077.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어요. 그런데 초등학생이 지나서도 맞아야 하는 접종이 있다고 하더라구요. 어떤 종류가 있나요?",
+            "turn_id": "BK22009077-7",
+            "utterance_id": "BK22009077.13"
+        },
+        {
+            "reference_date": "2022-06-25",
+            "reference_text": [
+                {
+                    "value": "목포시 보건소 관계자는 “일본뇌염 예방접종 대상이 되는 생후 12개월에서 만 12세 아동은 표준 접종일정에 맞춰 예방접종을 완료하기를 당부드린다”고 밝혔다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisamagazine.co.kr/news/articleView.html?idxno=451253",
+            "search_query": "일본뇌염 예방접종",
+            "terminate": false,
+            "text": "만 12세 아이라면 표준 접종 일정에 맞추어 일본뇌염 예방접종을 해야 해요.",
+            "turn_id": "BK22009077-7",
+            "utterance_id": "BK22009077.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그런데 만약 바빠서 예방 접종 시기를 놓쳤다면 어떻게 하는 것이 좋은가요?",
+            "turn_id": "BK22009077-8",
+            "utterance_id": "BK22009077.15"
+        },
+        {
+            "reference_date": "2022-04-26",
+            "reference_text": [
+                {
+                    "value": "늦었지만 지금이라도 누락한 예방접종은 가급적 맞는 것을 권합니다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "불완전 접종인 채로 지내면 예방 효과가 떨어져 감염병에 걸릴 수 있습니다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://jhealthmedia.joins.com/article/article_view.asp?pno=25324",
+            "search_query": "예방접종 시기 놓치면",
+            "terminate": false,
+            "text": "늦더라도 누락된 접종은 되도록 맞는 것을 권해 드려요. 접종을 완전히 맞지 않은 채로 지내면 예방 효과가 떨어지면서 감염병에 걸릴 확률이 높아지거든요.",
+            "turn_id": "BK22009077-8",
+            "utterance_id": "BK22009077.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 시기별로 맞춰야 할 예방접종 종류가 많아서 다 기억하기가 어렵더라고요.",
+            "turn_id": "BK22009077-9",
+            "utterance_id": "BK22009077.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 그럴 땐 따로 기록해 두어서 잊지 않고 접종할 수 있도록 하면 돼요.",
+            "turn_id": "BK22009077-9",
+            "utterance_id": "BK22009077.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래야겠네요. 오늘 아이 예방 접종에 관하여 많은 것을 알려주셔서 감사했어요.",
+            "turn_id": "BK22009077-10",
+            "utterance_id": "BK22009077.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요. 바쁘시겠지만 예방접종 시기 꼼꼼히 체크하셔서 건강하기 아이 키우시길 바랄게요. 그럼 안녕히 가세요.",
+            "turn_id": "BK22009077-10",
+            "utterance_id": "BK22009077.20"
+        }
+    ]
+}

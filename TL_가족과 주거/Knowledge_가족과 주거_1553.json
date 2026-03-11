@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011725",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011725",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 외국에 오래 있어서 잘 모르는데 어린이날이라고 조카가 선물 받고 싶어 했어요. 부모가 아닌 삼촌인 제가 줘도 되나요?",
+            "turn_id": "BK22011725-1",
+            "utterance_id": "BK22011725.1"
+        },
+        {
+            "reference_date": "2022-06-03",
+            "reference_text": [
+                {
+                    "value": "이 날에는 특별히 부모들이 어린이들과 함께 시간을 보내거나, 어린이가 평소에 가지고 싶어 했던 물건 등을 선물해 주기도 한다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%96%B4%EB%A6%B0%EC%9D%B4%EB%82%A0",
+            "search_query": "어린이날",
+            "terminate": false,
+            "text": "그럼요, 어린이날에는 평소에 가지고 싶어 했던 물건 등을 어린이에게 선물해 주기도 하고 특별히 부모들이 어린이들과 함께 시간을 보내기도 하는 날이기도 하거든요.",
+            "turn_id": "BK22011725-1",
+            "utterance_id": "BK22011725.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그냥 하는 소리인 줄 알았는데 선물을 하나 보내줘야겠네요. 어린이날이 정확히 며칠이죠?",
+            "turn_id": "BK22011725-2",
+            "utterance_id": "BK22011725.3"
+        },
+        {
+            "reference_date": "2022-05-05",
+            "reference_text": [
+                {
+                    "value": "그러나 일제 강점기를 맞으면서 1937년 금지됐다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1945년 후 광복 이후 어린이날은 5월5일로 정해 행사를 해왔다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220504517502?OutUrl=naver",
+            "search_query": "어린이날 날짜",
+            "terminate": false,
+            "text": "어린이날은 1937년에 일제강점기를 맞이면서 금지되었다가 1945년에 광복되면서 5월 5일로 지정되어 지금까지 이어져 오고 있어요.",
+            "turn_id": "BK22011725-2",
+            "utterance_id": "BK22011725.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 5월 5일을 기억해야겠네요. 그런데 어린이날은 누가 만든 거예요?",
+            "turn_id": "BK22011725-3",
+            "utterance_id": "BK22011725.5"
+        },
+        {
+            "reference_date": "2022-05-05",
+            "reference_text": [
+                {
+                    "value": "어린이날은 소파 방정환(方定煥·1899∼1931)이 1922년 5월 1일 천도교소년회 창립 1주년 기념을 맞아 '어린이의 날'을 제정한 것에서 유래했다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=53902",
+            "search_query": "어린이날 만든사람",
+            "terminate": false,
+            "text": "소파 방정환 선생님께서 만들었는데요, 1922년 5월 1일 천도교 소년회 창립 1주년 기념에서 어린이의 날을 제정한 것에서 유래 되었죠.",
+            "turn_id": "BK22011725-3",
+            "utterance_id": "BK22011725.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 유래가 된 거군요. 우리나라의 어린이날이 제 예상보다 훨씬 일찍 만들어진 거 같은데 역사적으로는 어떤 편이에요?",
+            "turn_id": "BK22011725-4",
+            "utterance_id": "BK22011725.7"
+        },
+        {
+            "reference_date": "2022-05-02",
+            "reference_text": [
+                {
+                    "value": "1922년 우리나라의 어린이날 제정은 세계적으로도 매우 앞선 것이었다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "어린이운동, 아동인권신장 등의 개념은 제1차 세계대전 이후 폐허 속에 고통받는 어린이들이 많았던 1920년대 들어서야 처음 도입되고 알려지기 시작했는데 차상찬 선생 등이 주도한 어린이운동은 서양과 일본의 관련 활동 수준을 훨씬 넘어섰다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kado.net/news/articleView.html?idxno=1124485",
+            "search_query": "어린이날 역사",
+            "terminate": false,
+            "text": "제1차 세계대전 이후 폐허 속에 고통받는 어린이들이 많았던 1920년대에 들어서서 어린이 운동, 아동 인권신장 개념이 도입되어 알려지기 시작했는데 1922년 우리나라의 어린이날 제정과 차상찬선생이 주도한 어린이 운동은 세계적으로 매우 앞서나간 거예요.",
+            "turn_id": "BK22011725-4",
+            "utterance_id": "BK22011725.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시대를 앞서갔다니 역시 멋지네요. 어린이날은 지금 공휴일인 거로 알고 있는데 처음부터 공휴일이었나요?",
+            "turn_id": "BK22011725-5",
+            "utterance_id": "BK22011725.9"
+        },
+        {
+            "reference_date": "2022-05-05",
+            "reference_text": [
+                {
+                    "value": "1973년 3월 '어린이날'이 법정 기념일이 되었고, 1975년 1월, 어린이날이 법정 공휴일로 지정되었다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newspim.com/news/view/20220505000031",
+            "search_query": "어린이날 공휴일 지정",
+            "terminate": false,
+            "text": "아니 그렇지는 않아요. 1973년 3월에 어린이날은 법정 기념일이 되었는데요, 법정 공휴일로 지정된 건 1975년 1월이랍니다.",
+            "turn_id": "BK22011725-5",
+            "utterance_id": "BK22011725.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "처음부터 법정공휴일이였던 건 아니네요. 1923년부터 어린이날이 치러졌다면 혹시 지금 북한에도 어린이날이 있나요?",
+            "turn_id": "BK22011725-6",
+            "utterance_id": "BK22011725.11"
+        },
+        {
+            "reference_date": "2018-05-04",
+            "reference_text": [
+                {
+                    "value": "5월5일 어린이날은 보통 1923년 소파 방정환 선생이 만든 것으로 알려져 남북한 공통의 날로 인식되는 경우가 많지만 북한은 5월5일이 아니라 6월1일을 어린이날로 기념한다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.asiae.co.kr/news/view.htm?idxno=2018050415313899918",
+            "search_query": "북한 어린이날",
+            "terminate": false,
+            "text": "북한의 어린이날을 5월 5일이 아닌 6월 1일로 기념해요. 5월 5일 어린이날은 보통 1923년에 소파 방정환 선생이 만든 것으로 알려져있어서 남북한 공통의 날로 알고 있는 경우가 많지만 다르답니다.",
+            "turn_id": "BK22011725-6",
+            "utterance_id": "BK22011725.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 저 같은 생각을 하는 사람들이 꽤 있나 봐요. 저도 분단 이전에 만들어진 날이라서 공통될 거라고 생각했거든요. 그럼 북한의 어린이날도 공휴일인가요?",
+            "turn_id": "BK22011725-7",
+            "utterance_id": "BK22011725.13"
+        },
+        {
+            "reference_date": "2022-05-05",
+            "reference_text": [
+                {
+                    "value": "북한은 국제아동절을 국가 공휴일로 지정하진 않았지만 1950년부터 이날을 기념해오고 있다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "매년 국제아동절엔 평양에서 당·정 간부들 참석 하에 어린이를 위한 행사가 열린다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4670809",
+            "search_query": "북한 어린이날 공휴일",
+            "terminate": false,
+            "text": "북한은 1950년부터 매년 국제아동절이라고 평양에서 당, 정 간부들이 참석해 어린이를 위한 행사를 열고 있는데 국가공휴일로 지정하지는 않았어요.",
+            "turn_id": "BK22011725-7",
+            "utterance_id": "BK22011725.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이름도 그렇고 약간의 차이가 있긴 하네요. 어린이날은 어떤 의미로 만든 날일까요?",
+            "turn_id": "BK22011725-8",
+            "utterance_id": "BK22011725.15"
+        },
+        {
+            "reference_date": "2022-05-05",
+            "reference_text": [
+                {
+                    "value": "어린이날은 모든 어린이가 차별 없이 인간으로서의 존엄성을 지닌 민주시민으로서 바르고, 아름답고, 씩씩하게 자라는 것을 고취하기 위해 만든 기념일이다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ksmnews.co.kr/default/index_view_page.php?idx=377944&part_idx=238",
+            "search_query": "어린이날 만든 의미",
+            "terminate": false,
+            "text": "모든 어린이가 차별 없이 인간으로서의 존엄성을 가진 민주시민으로 바르고, 아름답고, 씩씩하게 자라는 것을 바라며 만든 기념일이 바로 어린이날이에요.",
+            "turn_id": "BK22011725-8",
+            "utterance_id": "BK22011725.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마냥 쉬는 날이라고 생각하고 있었는데 의미 있는 날이네요. 저 이제 조카 선물 사러 다녀와야겠어요.",
+            "turn_id": "BK22011725-9",
+            "utterance_id": "BK22011725.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좋아하는 로봇을 사주신다고 하셨죠? 장난감 가게로 가실 예정이세요?",
+            "turn_id": "BK22011725-9",
+            "utterance_id": "BK22011725.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 요즘에 대형마트 안에 장난감매장도 거의 같이 있으니까 근처 대형마트 가보려고 해요. 저 그럼 다녀올게요.",
+            "turn_id": "BK22011725-10",
+            "utterance_id": "BK22011725.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "맞아요, 요즘 마트 안에서도 장난감 많이 팔더라고요. 조심히 다녀오세요.",
+            "turn_id": "BK22011725-10",
+            "utterance_id": "BK22011725.20"
+        }
+    ]
+}

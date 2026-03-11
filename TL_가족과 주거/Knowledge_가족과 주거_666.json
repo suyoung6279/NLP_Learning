@@ -1,0 +1,361 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016015",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016015",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이 셋을 키우고 계신 걸 보니 너무 부러워요. 저도 아이를 갖고 싶어서 열심히 노력하는 중인데 부끄러운 얘기지만 나이가 있어서 그런지 1년이 넘도록 아이가 잘 안 생기네요. 1년이 넘어가면 난임이라고들 하던데 걱정이네요.",
+            "turn_id": "BK22016015-1",
+            "utterance_id": "BK22016015.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럴 수 있어요. 요즘은 특히나 난임으로 고생하고 있는 사람이 많다고들 하잖아요. 저도 저희 언니 때문에 난임에 대해서 많이 알아봤는데 걱정되시면 난임 클리닉에 한번 가보는 것은 어떠세요?",
+            "turn_id": "BK22016015-1",
+            "utterance_id": "BK22016015.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래야할까 봐요. 저는 스스로 제가 난임일 수 있다고는 상상도 못해봤는데 시부모님도 그렇고 주변에서 다들 걱정하시더라구요. 혹시 난임의 기준이 어떻게 되는지 아시나요?",
+            "turn_id": "BK22016015-2",
+            "utterance_id": "BK22016015.3"
+        },
+        {
+            "reference_date": "2022-09-21",
+            "reference_text": [
+                {
+                    "value": "가임기 여성의 약 15%가 난임을 겪는다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "난임이란 피임 없이 정상적인 부부관계를 했음에도 1년 이상 임신이 되지 않는 상태를 말한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여성 난임은 다양한 원인으로 발생할 수 있는데, 대표적인 것이 ‘자궁∙난소와 관련된 질환’이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000733913",
+            "search_query": "난임",
+            "terminate": false,
+            "text": "난임은 피임을 하지 않고 정상적인 부부관계를 했음에도 불구하고 1년 이상 임신이 안되는 것을 말하는데 가임기 여성의 약 15퍼센트 정도가 난임으로 고생하고 있어요. 이러한 난임에는 여러가지 이유가 있는데 그 중 자궁이나 난소에 질환이 있는 경우가 대표적이에요.",
+            "turn_id": "BK22016015-2",
+            "utterance_id": "BK22016015.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 제가 어렸을 때 다낭성 난소 증후군으로 진단 받은 적이 있는데 혹시 난임에 영향이 있을까요? 지켜보자고 하셔서 그 이후로는 병원에 간 적이 없는데 갑자기 걱정이 되네요.",
+            "turn_id": "BK22016015-3",
+            "utterance_id": "BK22016015.5"
+        },
+        {
+            "reference_date": "2022-07-07",
+            "reference_text": [
+                {
+                    "value": "다낭성난소증후군은 대표적인 생리불순 증상이 나타나는 자궁 질환 중 하나로, 가임기 여성의 10~15%에서 발생하는 비교적 흔한 질환이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다낭성난소증후군이 건강에 직접적인 악영향을 미치는 것은 아니지만, 치료하지 않고 방치할 경우 배란장애로 인해 난임으로 이어질 수 있어 임신을 계획하고 있는 가임기 여성이라면 의심되는 증상이 있다면 검사를 받아보아야 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mdtoday.co.kr/news/view/1065600103745488",
+            "search_query": "다낭성 난소증후군",
+            "terminate": false,
+            "text": "그럴 수 있어요. 다낭성난소증후군은 생리불순을 야기하는 자궁질환 중 하나니까요. 직접적으로 건강에 영향을 미치지는 않지만 방치할 경우에는 배란장애로 인해 난임으로 이어질 수 있죠. 그래서 임신을 계획중이라면 다시 검사를 받아보는 것이 좋아요. 이 질환은 가임기 여성의 10~15퍼센트에서 나타나는 비교적 흔한 질환이거든요.",
+            "turn_id": "BK22016015-3",
+            "utterance_id": "BK22016015.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 다시 병원에 가서 진료를 받아봐야겠네요. 혹시 다낭성난소증후군 외에 난임을 유발하는 다른 질환에는 어떤 것이 있을까요? 막상 병원에 가려니 걱정되네요.",
+            "turn_id": "BK22016015-4",
+            "utterance_id": "BK22016015.7"
+        },
+        {
+            "reference_date": "2022-10-13",
+            "reference_text": [
+                {
+                    "value": "극심한 생리통, 과도한 생리량, 부정기적인 하혈 심지어 난임의 원인이라고도 알려진 자궁근종.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자궁근종은 초음파 검사로 비교적 쉽게 진단된다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.getnews.co.kr/news/articleView.html?idxno=602040",
+            "search_query": "난임 원인",
+            "terminate": false,
+            "text": "대표적으로 자궁근종이 있어요. 초음파 검사만으로도 비교적 쉽게 진단할 수 있는데 생리통이 심하거나 생리량이 많고 부정 출혈이 있다면 의심할 수 있죠.",
+            "turn_id": "BK22016015-4",
+            "utterance_id": "BK22016015.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 병원에서 진단을 한번 받아봐야겠네요. 그리고 제가 만약의 경우를 대비해서 알아보고 싶은데 혹시 시험관 시술은 어떤 시술인지 아시나요?",
+            "turn_id": "BK22016015-5",
+            "utterance_id": "BK22016015.9"
+        },
+        {
+            "reference_date": "2022-08-18",
+            "reference_text": [
+                {
+                    "value": "시험관아기 시술의 정식 명칭은 체외수정시술로, 난자와 정자를 체외에서 수정시켜 2~5일 배양한 후 배양된 배아를 자궁 내로 이식하는 시술이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "시험관아기 시술은 크게 과배란 유도, 난자 채취, 정자 채취, 수정 및 배양, 배아 이식의 순서로 진행된다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mdtoday.co.kr/news/view/1065602246613974",
+            "search_query": "시험관시술",
+            "terminate": false,
+            "text": "정식 명칭은 체외수정시술인 시험관시술은 먼저 과배란을 유도해서 난자와 정자를 채취한 후 이를 체외에서 수정시켜서 2~5일 정도 배양한 후에 배아를 자궁 안에 이식하는 과정으로 이뤄지는 시술이에요.",
+            "turn_id": "BK22016015-5",
+            "utterance_id": "BK22016015.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 체외 수정을 하는 방법이었군요. 과배란을 유도하는 거면 왠지 부작용도 있을 것 같은데 혹시 어떤 부작용이 있는지 아시나요?",
+            "turn_id": "BK22016015-6",
+            "utterance_id": "BK22016015.11"
+        },
+        {
+            "reference_date": "2020-07-02",
+            "reference_text": [
+                {
+                    "value": "시험관 아기 시술 시 일반적으로 많이 사용하는 과배란제에는 ‘클로미펜’이 있습니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아직 이 약물에 의한 부작용 발생 확률은 낮다고 보고되고 있으나 드물게 난소 과자극 증후군을 겪는 경우도 있어 주의가 필요합니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "난소 과자극 증후군은 과배란으로 인해 난소가 심한 자극을 받아 과도하게 비대해진 증상으로 난소가 과하게 커지고 이에 따라 복수가 차며 심한 복통이 생기는 것이 특징입니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "난소 과자극 증후군은 산모 나이가 많거나, 난소 기능이 저하된 경우, 다낭성 난소 증후군을 가지고 있는 경우, 평균 체중 이하인 경우 주로 나타납니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000521821",
+            "search_query": "시험관시술 부작용",
+            "terminate": false,
+            "text": "시험관 시술 부작용으로는 난소 과자극 증후군이 있어요. 과배란을 유도할 때 많이 사용하는 클로미펜은 부작용 발생 확률이 낮다고 알려지긴 했지만 드물게 난소 과자극 증후군을 유발할 수 있어요. 이 질환은 과배란으로 인해 난소가 자극을 많이 받아 과도하게 커지면서 복수가 차고 심한 복통이 생기는 것이 특징이에요. 보통 산모가 나이가 많거나 난소 기능이 저하된 경우, 다낭성 난소 증후군이 있는 경우 등에서 주로 발병해요.",
+            "turn_id": "BK22016015-6",
+            "utterance_id": "BK22016015.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 저는 위험군에 속하겠네요. 남편이랑 상의를 해봐야겠어요. 아, 그리고 혹시 국가에서 주는 난임치료휴가는 며칠인지 아시나요?",
+            "turn_id": "BK22016015-7",
+            "utterance_id": "BK22016015.13"
+        },
+        {
+            "reference_date": "2022-01-21",
+            "reference_text": [
+                {
+                    "value": "‘남녀고용평등과 일·가정 양립 지원에 관한 법률’에 따르면 난임치료 휴가는 연간 3일밖에 사용하지 못하고, 최초 1일만 유급이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.womentimes.co.kr/news/articleView.html?idxno=55011",
+            "search_query": "난임 치료 휴가",
+            "terminate": false,
+            "text": "연간 3일이에요. 남녀고용평등과 일, 가정 양립지원에 관한 법률에서 난임치료를 위한 휴가는 일년에 3일 사용할 수 있고 최초 하루만 유급 휴가라고 되어 있죠.",
+            "turn_id": "BK22016015-7",
+            "utterance_id": "BK22016015.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 너무 짧네요. 그냥 연차를 이용해야겠네요. 아, 그리고 듣기론 난임치료비를 국가에서 지원해주기도 한다던데 지원 기준을 혹시 아시나요?",
+            "turn_id": "BK22016015-8",
+            "utterance_id": "BK22016015.15"
+        },
+        {
+            "reference_date": "2021-12-12",
+            "reference_text": [
+                {
+                    "value": "정부의 난임 시술비를 지원받으려면 소득 기준 중위 180%(세전 2인 가구 556만 원) 이하여야 합니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://shindonga.donga.com/3/all/13/3073585/1",
+            "search_query": "난임치료비 지원대상",
+            "terminate": false,
+            "text": "정부에서 제공하는 난임 시술비를 지원 받으려면 소득 수준이 중위 180퍼센트 즉, 2인 가구 세전 금액 기준으로 556만원 이하여야 해요.",
+            "turn_id": "BK22016015-8",
+            "utterance_id": "BK22016015.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 지원받기 어렵겠네요. 좀 더 지원 범위가 늘어나면 좋을텐데 말이에요. 아, 그럼 마지막으로 제가 난임 치료를 시작할 것 같은데 먹으면 좋은 영양제 같은 것이 있을까요?",
+            "turn_id": "BK22016015-9",
+            "utterance_id": "BK22016015.17"
+        },
+        {
+            "reference_date": "2022-10-07",
+            "reference_text": [
+                {
+                    "value": "임신을 계획 중이라면 최소 3개월 전부터 엽산 400㎍ 이상을 복용하는 것이 도움이 된다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "비타민 B의 일종인 엽산은 태아의 뇌 발달을 돕고 신경관 결손을 예방하는데 식품을 통해 충분히 섭취되지 않는다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "영양제로 복용해야 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthinnews.co.kr/news/articleView.html?idxno=32898",
+            "search_query": "난임 영양제",
+            "terminate": false,
+            "text": "임신 준비를 위해 최소 3개월 전부터 비타민 B의 일종인 엽산을 400마이크로그램 이상 복용하면 좋아요. 이 엽산은 태아의 뇌 발달을 도와주고 신경관 결손을 예방해주는데 음식을 통해서 충분하게 섭취하기 어렵기 때문에 영양제를 통해 섭취해야 하죠.",
+            "turn_id": "BK22016015-9",
+            "utterance_id": "BK22016015.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엽산은 미리 챙겨먹어야겠네요. 요즘 임신이 안되는 것 때문에 스트레스가 많았는데 방법이 있다는 것을 알고 나니 마음이 좀 편해지네요. 오늘 너무 잘 알려주셔서 감사합니다.",
+            "turn_id": "BK22016015-10",
+            "utterance_id": "BK22016015.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 다행이네요. 너무 스트레스 받지 마시고 부디 꼭 임신에 성공하시기를 바랄게요. 그럼 저는 오후 일정이 있어 먼저 가보겠습니다.",
+            "turn_id": "BK22016015-10",
+            "utterance_id": "BK22016015.20"
+        }
+    ]
+}

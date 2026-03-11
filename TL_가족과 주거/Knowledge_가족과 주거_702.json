@@ -1,0 +1,384 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001749",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001749",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집에 혹시 어린이 해열제 남는 거 있으세요?",
+            "turn_id": "BK22001749-1",
+            "utterance_id": "BK22001749.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "해열제는 늘 상비약으로 가지고 있죠. 가족 중 열나는 사람이 있나요?",
+            "turn_id": "BK22001749-1",
+            "utterance_id": "BK22001749.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 저희 둘째가 며칠 전부터 콧물이 나길래 지켜보고 있었는데 오늘 갑자기 체온을 재보니 37.9도네요. 꼭 38도 넘어야 해열제를 먹일 수 있나요?",
+            "turn_id": "BK22001749-2",
+            "utterance_id": "BK22001749.3"
+        },
+        {
+            "reference_date": "2022-03-29",
+            "reference_text": [
+                {
+                    "value": "보통 해열진통제는 아이가 38도 이상의 고열이 날 때 사용하길 권장한다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 해열제는 반드시 38도를 넘긴 다음 사용해야만 하는 약은 아니다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/03/28/2022032801982.html",
+            "search_query": "어린이 해열제 38도",
+            "terminate": false,
+            "text": "에고, 고열로 오르면 안되는데 걱정되시겠어요. 보통 해열진통제는 아이가 38도 이상의 고열일 때 사용하는 것을 권장하지만 반드시 38도를 넘긴 다음 사용할 수 있는 약은 아니에요. 저는 아이가 유난히 더 힘들어 할 때 해열진통제로서 먹이고 있어요.",
+            "turn_id": "BK22001749-2",
+            "utterance_id": "BK22001749.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "먹여도 된다니 다행이네요. 저희 아이가 어렸을 때 열성경련 경험도 있고 지금 무척 힘들어하니 우선 먹여야겠네요. 그때 정말 무서웠거든요.",
+            "turn_id": "BK22001749-3",
+            "utterance_id": "BK22001749.5"
+        },
+        {
+            "reference_date": "2021-09-02",
+            "reference_text": [
+                {
+                    "value": "다른 신경학적 기저질환이 없는 건강한 소아에게 단순열성경련을 보일 경우 뇌전증으로 이행할 확률은 약 1%로 매우 적다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.inews365.com/news/article.html?no=680654",
+            "search_query": "열성경련",
+            "terminate": false,
+            "text": "아이의 열성경련을 처음 보니까 얼마나 놀라셨겠어요. 다른 신경학적 기저질환이 없는 건강한 소아에게 단순열성경련이 생긴다면 뇌전증으로 이행할 확률은 약 1퍼센트로 매우 적으니 너무 큰 걱정은 안 하셔도 돼요.",
+            "turn_id": "BK22001749-3",
+            "utterance_id": "BK22001749.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이 키우는 게 정말 쉬운 일이 아니네요. 열날 때마다 겁부터 나서 알람 맞추고 밤새 보초 서는 것도 너무 힘들어요. 열날 때 알람해주는 편리한 앱 같은 거 없을까요?",
+            "turn_id": "BK22001749-4",
+            "utterance_id": "BK22001749.7"
+        },
+        {
+            "reference_date": "2016-02-18",
+            "reference_text": [
+                {
+                    "value": "‘열나요’는 세계 최초로 열이 날 때 어떻게 엄마가 행동해야 할지 알려주는 애플리케이션이다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아이 체온 입력에 따라 해열제 용량, 복용 간격을 권고해준다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "체온 측정 시간에 알람도 울려주며 해열제 하루 허용량, 아이 수분 섭취 필요량도 관리할 수 있다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=37361",
+            "search_query": "열나요 어플",
+            "terminate": false,
+            "text": "아, 제가 강력 추천하고 싶은 앱이 있어요. 열이 날 때 엄마가 어떻게 행동해야 할지 알려주는 열나요 앱을 추천해요. 아이 체온 입력에 따라 해열제 용량, 복용 간격도 알려주고, 체온 측정 시간도 알람으로 알려줘서 해열제 하루 허용량, 아이 수분 섭취 필요량도 관리할 수 있어요. 저도 아이가 열이 나기 시작하면 무조건 열나요 어플에 제일 먼저 기록하고 있어요.",
+            "turn_id": "BK22001749-4",
+            "utterance_id": "BK22001749.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 매번 수기로 써서 체크했는데 이제는 어플을 이용해야겠네요.",
+            "turn_id": "BK22001749-5",
+            "utterance_id": "BK22001749.9"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아직도 이 어플을 모르셨군요. 진짜 전문의가 만든 어플이라서 더 믿음이 가는 어플이에요.",
+            "turn_id": "BK22001749-5",
+            "utterance_id": "BK22001749.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우와, 그렇군요. 유용한 어플을 알게 되서 든든하긴 한데 저 사실 아직 어린이 해열제 성분 종류도 헷갈리더라고요. 저에게 자세히 설명 좀 해줄 수 있나요?",
+            "turn_id": "BK22001749-6",
+            "utterance_id": "BK22001749.11"
+        },
+        {
+            "reference_date": "2022-03-26",
+            "reference_text": [
+                {
+                    "value": "소아에게 사용할 수 있는 해열진통제는 아세트아미노펜, 이부프로펜, 덱시부프로펜이 있다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "박근미 약사는 \"소아 청소년의 경우, 해열제가 필요한 상황에서 아세트아미노펜 복용이 우선으로 권고된다\"고 밝혔다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/03/25/2022032501821.html",
+            "search_query": "어린이 해열제 성분 종류",
+            "terminate": false,
+            "text": "저도 처음엔 엄청 헷갈렸는데 성분에 대한 공부를 미리 해두니 지금은 걱정없네요. 소아에게 사용할 수 있는 해열제 성분은 아세트아미노펜, 이부프로펜, 덱시부프로펜이 있어요. 그중에서도 소아 청소년에게는 아세트아미노펜 복용이 우선적으로 권고되고 있어요. 혹시 지금 어떤 성분의 해열제를 갖고 계세요?",
+            "turn_id": "BK22001749-6",
+            "utterance_id": "BK22001749.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금은 아세트아미노펜 해열제만 갖고 있어서 다른 계열의 해열제가 있으신지 여쭈려고 연락드렸어요. 열이 안 떨어지면 교차 복용 해야 될 것 같아서요. 교차복용은 어떻게 해야 될까요?",
+            "turn_id": "BK22001749-7",
+            "utterance_id": "BK22001749.13"
+        },
+        {
+            "reference_date": "2020-11-09",
+            "reference_text": [
+                {
+                    "value": "교차복용의 간격은 통상 2시간입니다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "같은 계열의 해열제는 4~6시간 혹은 6~8시간 간격으로 복용하는데요, 다른 계열의 해열제는 2시간 간격으로 복용할 수 있습니다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "앞서 언급했듯 부루펜계열과 맥시부펜 계열은 교차복용 금지라는 사실을 반드시 명심해야 합니다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/1ZABCNDZSG",
+            "search_query": "어린이 해열제 교차복용",
+            "terminate": false,
+            "text": "저는 종류별로 갖고 있으니 급하시면 제가 나눠드릴게요. 그 전에 교차복용 방법부터 얼른 익히세요. 교차복용은 통상적으로 2시간 간격으로 해야해요. 같은 계열의 해열제는 4시간에서 6시간 혹은 6시간에서 8시간 간격으로 복용해야 하는데 다른 계열의 해열제는 2시간 간격으로 복용할 수 있는 것이죠. 또 부루펜 계열과 맥시부펜 계열은 교차 복용 금지니까 꼭 기억해두세요.",
+            "turn_id": "BK22001749-7",
+            "utterance_id": "BK22001749.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이래서 성분별로 해열제를 구비해두어야 하네요. 지난번 코로나 대유행일 때도 약국에 어린이 해열제가 없어서 난리였잖아요. 가을에 코로나가 재유행한다고 예상하던데 만약 어린이 해열제가 품절되면 그때 성인약도 먹어도 될까요?",
+            "turn_id": "BK22001749-8",
+            "utterance_id": "BK22001749.15"
+        },
+        {
+            "reference_date": "2022-04-02",
+            "reference_text": [
+                {
+                    "value": "병원약학교육연구원 병원약학분과협의회 소아약료 박근미 분과장(서울아산병원 소아전문약사)은 \"해열진통제로 흔히 복용하는 아세트아미노펜, 이부프로펜 등은 소아용과 성인용 약품의 주요 성분은 같다\"고 밝혔다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "박 약사는 \"보통 12세 이상의 체중 40kg 이상의 소아는 성인용 약품을 그대로 복용할 수 있으나, 그 이하의 소아가 성인용 약물을 복용하기 위해서는 소아의 연령과 체중에 맞는 용량으로 정제를 분할하거나 가루약으로 조제해야 한다\"고 말했다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/04/01/2022040101825.html",
+            "search_query": "어린이 해열제 대신 성인약",
+            "terminate": false,
+            "text": "해열진통제 소아용과 성인용의 주요 성분은 같아서 성인용으로도 복용이 가능해요. 다만, 보통 12세 이상의 체중 40킬로그램 이상의 소아는 성인용 약품을 그대로 복용할 수 있지만 그 이하의 소아가 성인용 약물을 복용하기 위해서는 연령과 체중에 맞는 용량으로 정제를 분할하거나 가루약으로 조제해야 가능해요. 저라면 어떻게 해서든 소아용을 찾아서 먹일 것 같은데 만일을 위해서 알아두면 좋아요.",
+            "turn_id": "BK22001749-8",
+            "utterance_id": "BK22001749.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 비상상황이 생길 수도 있으니 알아둘게요! 지금도 저희 아이 열이 펄펄나는데 대체 해열제 효과는 언제부터 나타날까요?",
+            "turn_id": "BK22001749-9",
+            "utterance_id": "BK22001749.17"
+        },
+        {
+            "reference_date": "2022-03-24",
+            "reference_text": [
+                {
+                    "value": "압구정스타약국 이보현 약사는 “해열제 복용 후 30분에서 수시간 후 효과가 나타날 수 있다”며 “조급한 마음에 해열제를 더 먹이거나 다른 해열제를 복용시키면 매우 위험하다”고 설명했다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=58679",
+            "search_query": "해열제 효과 시간",
+            "terminate": false,
+            "text": "해열제 먹인지 얼마 안 되지 않았나요? 해열제 먹이고 30분에서 수시간 후에 열이 점차 떨어질 수 있어요. 엄마 마음이 급해서 해열제를 더 먹이고 다른 해열제로 교차복용시키면 매우 위험할 수 있으니까 복용법을 꼭 지키세요.",
+            "turn_id": "BK22001749-9",
+            "utterance_id": "BK22001749.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "열성경련이 또 나타날까봐 겁이 나서 체온계로 자주 체크하게 되네요. 차라리 미온수 마사지라도 하는 게 좋을까요?",
+            "turn_id": "BK22001749-10",
+            "utterance_id": "BK22001749.19"
+        },
+        {
+            "reference_date": "2022-06-01",
+            "reference_text": [
+                {
+                    "value": "열이 날 때 곧바로 미온수 마사지를 하면 아기가 보챌 수 있고, 오한으로 오히려 체온이 안 떨어져 아이만 힘들게 할 수 있다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 해열제를 먹이고 1시간 정도 후에도 열이 높으면 그때 미온수 마사지를 하는 것이 좋다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.imaeil.com/page/view/2022053021324599498",
+            "search_query": "미온수 마사지",
+            "terminate": false,
+            "text": "미온수 마사지는 상황에 맞게 해야 해요. 열이 날 때 바로 미온수 마사지를 하면 아이가 보챌 수도 있고, 오한으로 오히려 아이가 힘들어 할 수도 있고요. 해열제를 먹이고 1시간 정도 후에도 열이 높으면 그때 미온수 마사지를 하는 것이 좋으니 좀 더 지켜보는 게 어때요?",
+            "turn_id": "BK22001749-10",
+            "utterance_id": "BK22001749.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 지켜볼게요! 아이가 정말 오랜만에 열이 나다 보니 제가 조급해진 것 같네요. 알려주신 정보들 덕분에 이번에는 대처를 잘할 수 있을 것 같아요.",
+            "turn_id": "BK22001749-11",
+            "utterance_id": "BK22001749.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이가 열이 나면 엄마는 마음이 급해지죠. 저도 매번 그러는 걸요. 저희 집에 모든 종류의 해열제가 있으니 필요하시면 새벽이라도 연락 주세요!",
+            "turn_id": "BK22001749-11",
+            "utterance_id": "BK22001749.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "정말 감사합니다, 아이 경과 지켜보다가 혹시 연락 드릴 일이 생기면 다시 연락 드릴게요!",
+            "turn_id": "BK22001749-12",
+            "utterance_id": "BK22001749.23"
+        }
+    ]
+}

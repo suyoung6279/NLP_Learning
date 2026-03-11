@@ -1,0 +1,368 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014509",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014509",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지난주에 강아지 한 마리를 입양했어. 비숑 프리제라는 종인데 생후 6개월 된 강아지야.",
+            "turn_id": "BK22014509-1",
+            "utterance_id": "BK22014509.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 나도 비숑 프리제 너무 귀엽더라.",
+            "turn_id": "BK22014509-1",
+            "utterance_id": "BK22014509.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너무 귀엽고 애교도 많고 진짜 성격이 좋아. 털 많이 빠질까 봐 걱정했는데 생각보다 많이 안 빠지더라고. 혹시 강아지마다 털 빠지는 정도가 다른가?",
+            "turn_id": "BK22014509-2",
+            "utterance_id": "BK22014509.3"
+        },
+        {
+            "reference_date": "42492.0",
+            "reference_text": [
+                {
+                    "value": "만일 털 빠짐에 예민하다면 장모종인 시추와 몰티즈, 슈나우저나 곱슬거리는 털을 가진 푸들, 비숑프리제를 추천한다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "단모종이 털이 잘 빠지지 않을 것 같지만 털갈이를 할 때마다 털이 빠진다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/201605021430639377",
+            "search_query": "견종마다 다른 털 빠짐",
+            "terminate": false,
+            "text": "단모종이 털이 잘 안 빠질 거 같지만, 털갈이할 때마다 털이 빠지니 만약 털 빠짐에 예민하다면 시추와 몰티즈, 슈나우저나 곱슬곱슬한 털을 가진 푸들, 비숑 프리제 같은 장모종이 더 좋은 선택이 될 수 있어.",
+            "turn_id": "BK22014509-2",
+            "utterance_id": "BK22014509.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "곱슬곱슬한 털은 가진 강아지들이 털 빠짐이 적긴 한데 털 엉킴은 심할 거 같아. 푸들이나 비숑 프리제나 말이야. 빗질을 자주 해주면 괜찮을까?",
+            "turn_id": "BK22014509-3",
+            "utterance_id": "BK22014509.5"
+        },
+        {
+            "reference_date": "43543.0",
+            "reference_text": [
+                {
+                    "value": "매일 빗질을 해 주는 것도 건강관리에 도움이 된다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "빗질은 피부의 신진대사를 촉진시켜 주고 이물질이나 빠진 털을 제거해준다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "털의 재생을 활성화시켜주고 뭉침을 방지해 피부병도 예방되며 피부의 이상도 조기에 발견할 수 있게 된다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?3575232",
+            "search_query": "강아지 빗질",
+            "terminate": false,
+            "text": "응, 빗질을 매일 해주면 피부의 신진대사가 촉진되고 털에 묻은 이물질이나 빠진 상태로 붙어있는 털을 제거할 수 있어. 그리고 털의 재생을 활성화해주고 털이 뭉치는 것을 막아줘서 피부병이 생기는 것도 예방해줘. 피부의 이상도 빨리 발견할 수 있으니 건강관리에 많은 도움이 되지.",
+            "turn_id": "BK22014509-3",
+            "utterance_id": "BK22014509.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "빗질을 매일 해주도록 해야겠네. 목욕도 해줘야 하는데 적당한 주기는 얼마 만에 한 번씩이야?",
+            "turn_id": "BK22014509-4",
+            "utterance_id": "BK22014509.7"
+        },
+        {
+            "reference_date": "44730.0",
+            "reference_text": [
+                {
+                    "value": "강아지는 일반적으로 2~3주에 한 번 목욕하는 것이 적당합니다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 최소 3개월에 한 번은 꼭 하는 것이 좋습니다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202206171725499427",
+            "search_query": "강아지 목욕주기",
+            "terminate": false,
+            "text": "적어도 3개월에 한 번씩은 꼭 해주는 것이 좋고 일반적으로는 2~3주에 한 번 목욕하는 것이 적당해.",
+            "turn_id": "BK22014509-4",
+            "utterance_id": "BK22014509.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "목욕할 때 항문낭도 짜주라고 하던데 항문낭이 뭐야?",
+            "turn_id": "BK22014509-5",
+            "utterance_id": "BK22014509.9"
+        },
+        {
+            "reference_date": "44690.0",
+            "reference_text": [
+                {
+                    "value": "항문낭은 반려동물이 서로를 식별하는 냄새 나는 액체를 만드는 곳이다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=59260",
+            "search_query": "항문낭이란",
+            "terminate": false,
+            "text": "반려동물이 서로를 식별하기 위해 냄새나는 액체를 만드는 곳이 항문낭이야.",
+            "turn_id": "BK22014509-5",
+            "utterance_id": "BK22014509.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "항문낭은 꼭 짜주어야 하는 거야?",
+            "turn_id": "BK22014509-6",
+            "utterance_id": "BK22014509.11"
+        },
+        {
+            "reference_date": "44690.0",
+            "reference_text": [
+                {
+                    "value": "항문낭은 염증예방을 위해 보호자가 2주에 1회 목욕할 때 짜주는 것이 좋다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그런데 너무 자주 세게 짜는 것도 항문낭염 발생의 원인이 되니 유의한다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=59260",
+            "search_query": "항문낭",
+            "terminate": false,
+            "text": "너무 자주 세게 짜주면 항문낭염 발생의 원인이 되니 조심하고 보호자가 2주에 1회 목욕할 때 짜주는 것이 염증 예방을 위해 좋아.",
+            "turn_id": "BK22014509-6",
+            "utterance_id": "BK22014509.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "염증 예방을 위해서 꼭 짜주어야겠군. 항문낭은 어떻게 짜는 거야?",
+            "turn_id": "BK22014509-7",
+            "utterance_id": "BK22014509.13"
+        },
+        {
+            "reference_date": "44114.0",
+            "reference_text": [
+                {
+                    "value": "올바른 항문낭을 짜는 방법은 꼬리를 들고 엄지와 검지로 항문주변을 시계 4시, 8시 방향으로 마사지하듯 힘을 살짝 줘 올렸다 내렸다를 반복해 눌러주면 된다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202010081704564287",
+            "search_query": "항문낭 짜는 방법",
+            "terminate": false,
+            "text": "꼬리를 들고 엄지와 검지로 항문 주변을 시계 4시, 8시 방향으로 마사지하듯이 힘을 살짝 줘서 올렸다 내리기를 반복해서 눌러주는 것이 올바르게 항문낭을 짜는 방법이야.",
+            "turn_id": "BK22014509-7",
+            "utterance_id": "BK22014509.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번에 목욕시킬 때 한 번 짜봐야겠어. 처음이라 어렵겠지만 말이야.",
+            "turn_id": "BK22014509-8",
+            "utterance_id": "BK22014509.15"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뭐든 처음은 어렵지만 하다 보면 익숙해질 거야.",
+            "turn_id": "BK22014509-8",
+            "utterance_id": "BK22014509.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알려준 대로 짜 볼게. 강아지가 6개월이라 기본 접종은 돼서 왔는데 강아지 기본예방접종과 해마다 접종해야 하는 건 뭐가 있을까?",
+            "turn_id": "BK22014509-9",
+            "utterance_id": "BK22014509.17"
+        },
+        {
+            "reference_date": "44800.0",
+            "reference_text": [
+                {
+                    "value": "강아지 예방접종 중 기본 접종으로 불리는 종합백신(DHPPL)은 홍역과 전염성 간염, 파보 바이러스(장염), 파라 인플루엔자(Parainfluenza), 렙토스피라증(Leptospirasis)을 예방하는 백신이다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "생후 6~8주 사이에 첫 접종을 시작해서 2~3주 간격으로 총 5회 접종하고 매년 1회 추가 접종해야 한다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1416014/%ec%9c%84%eb%93%9c%ed%8e%ab-%ea%b0%95%ec%95%84%ec%a7%80%ec%9d%98-%ea%b1%b4%ea%b0%95-%ec%a7%80%ed%82%a4%ea%b8%b0-%ec%b2%ab%ea%b1%b8%ec%9d%8c%ec%9d%80-%ec%98%88%eb%b0%a9%ec%a0%91%ec%a2%85/",
+            "search_query": "강아지 필수접종",
+            "terminate": false,
+            "text": "강아지 예방접종은 생후 6~8주 사이에 첫 접종을 시작하고 2~3주 간격으로 총 5회를 접종해야 해. 그리고 매년 1회 추가 접종해야 하고. 기본 접종으로는 종합 백신이 있는데 이것은 홍역과 전염성 간염, 파보 바이러스, 파라 인플루엔자, 렙토스피라증을 예방하는 백신이야.",
+            "turn_id": "BK22014509-9",
+            "utterance_id": "BK22014509.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 강아지 유치원에 보내고 있는데 혹시 강아지가 많이 있는 장소에서 감염되는 병도 있을까?",
+            "turn_id": "BK22014509-10",
+            "utterance_id": "BK22014509.19"
+        },
+        {
+            "reference_date": "44800.0",
+            "reference_text": [
+                {
+                    "value": "강아지들도 단체 생활을 하다 보면 더욱 쉽게 질병에 노출되는데, 특히 켄넬코프에 쉽게 걸린다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고열과 기침 호흡기 증상을 동반하며 증상이 심하면 폐렴으로 발전할 수 있어 예방과 초기 치료가 중요하다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1416014/%ec%9c%84%eb%93%9c%ed%8e%ab-%ea%b0%95%ec%95%84%ec%a7%80%ec%9d%98-%ea%b1%b4%ea%b0%95-%ec%a7%80%ed%82%a4%ea%b8%b0-%ec%b2%ab%ea%b1%b8%ec%9d%8c%ec%9d%80-%ec%98%88%eb%b0%a9%ec%a0%91%ec%a2%85/",
+            "search_query": "강아지 단체활동과 감염",
+            "terminate": false,
+            "text": "켄넬코프라고 고열에 기침과 같은 호흡기 증상을 동반하는 병에 쉽게 잘 걸려. 여러 마리가 같이 생활하다 보면 아무래도 질병에 쉽게 노출되는데 특히 이병은 심하면 폐렴으로 갈 수도 있으니 예방에 신경 쓰고 증상이 있다면 초기 치료를 잘해야 해.",
+            "turn_id": "BK22014509-10",
+            "utterance_id": "BK22014509.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려견을 가족이라 생각하고 끝까지 책임감 있게 잘 돌봐야겠어.",
+            "turn_id": "BK22014509-11",
+            "utterance_id": "BK22014509.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "귀여운 강아지와 행복하고 즐겁게 생활하길 바라.",
+            "turn_id": "BK22014509-11",
+            "utterance_id": "BK22014509.22"
+        }
+    ]
+}

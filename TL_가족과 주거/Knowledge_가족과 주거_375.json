@@ -1,0 +1,358 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015239",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015239",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0046"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "키우는 강아지 교배를 시켜주고 싶은데 이 부분에 대해서 모르는 부분이 너무 많네요. 저희 강아지는 암컷인데 적절한 교배시기가 있을까요?",
+            "turn_id": "BK22015239-1",
+            "utterance_id": "BK22015239.1"
+        },
+        {
+            "reference_date": "2019-09-01",
+            "reference_text": [
+                {
+                    "value": "암캐가 가장 건강하게 출산할 수 있는 시기는 생후 2년에서 5년 사이입니다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=30831",
+            "search_query": "강아지 교배시기",
+            "terminate": false,
+            "text": "암컷 강아지의 경우 제일 건강하게 새끼를 낳을 수 있는 시기가 생후 2~5년 정도로 보고 있어요.",
+            "turn_id": "BK22015239-1",
+            "utterance_id": "BK22015239.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 암컷 강아지들은 생리를 일찍 하길래 교배시기도 좀 이른 줄 알았어요. 강아지들의 첫 생리도 종마다 시기가 다른가요?",
+            "turn_id": "BK22015239-2",
+            "utterance_id": "BK22015239.3"
+        },
+        {
+            "reference_date": "2020-09-03",
+            "reference_text": [
+                {
+                    "value": "강아지는 생후 6개월~1년 사이에 생리를 시작한다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "강아지마다 신체 조건, 성장 환경이 달라 시작 시기는 차이를 보일 수 있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/bstoday/view.php?code=2020090218035293804",
+            "search_query": "강아지 생리 시기",
+            "terminate": false,
+            "text": "종마다 시기가 다르기보다는 신체 조건이나 성장 환경에 따라 시작 시기에 차이를 보여요. 보통 생후 6개월에서 1년 사이에 시작하죠.",
+            "turn_id": "BK22015239-2",
+            "utterance_id": "BK22015239.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사람처럼 강아지들도 차이가 나는군요. 그럼 강아지 생리 주기는 어떻게 되나요?",
+            "turn_id": "BK22015239-3",
+            "utterance_id": "BK22015239.5"
+        },
+        {
+            "reference_date": "2020-09-03",
+            "reference_text": [
+                {
+                    "value": "강아지는 평균 1년에 2번, 6개월에 1번씩 2~3주간 생리를 한다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "생리 기간에는 생식기가 눈에 띄게 부어오르고, 유선의 크기가 증가하며, 생식기에 피가 맺힌다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 생리하기 전 정서적으로 불안해하거나 예민한 모습을 보이기도 한다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/bstoday/view.php?code=2020090218035293804",
+            "search_query": "강아지 생리주기",
+            "terminate": false,
+            "text": "강아지는 일반적으로 1년에 두 번, 6개월에 한 번씩 2~3주 정도 생리해요. 이 기간에는 생식기가 눈으로 관찰할 수 있을 만큼 붓고, 유선의 크기도 커지면서 생식기에 피가 맺히는 형태를 띠어요. 또 생리 전에는 심리적으로 불안해할 수 있고 예민해진 모습을 보이기도 해요.",
+            "turn_id": "BK22015239-3",
+            "utterance_id": "BK22015239.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신기해요. 그럼 혹시 강아지들도 사람처럼 생리통을 느끼기도 하나요?",
+            "turn_id": "BK22015239-4",
+            "utterance_id": "BK22015239.7"
+        },
+        {
+            "reference_date": "2021-05-01",
+            "reference_text": [
+                {
+                    "value": "강아지도 사람처럼 생리통을 겪는다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "중성화 수술을 하면, 강아지의 생리통 고통을 덜어줄 수 있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://playplus.co.kr/webapp/news.php?m=v&p=4&no=2528&nid=c5",
+            "search_query": "강아지도 생리통",
+            "terminate": false,
+            "text": "네. 강아지들도 사람과 같이 생리통을 경험해요. 그래서 고통을 덜어주기 위해 중성화수술을 하기도 하죠.",
+            "turn_id": "BK22015239-4",
+            "utterance_id": "BK22015239.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "중성화수술을 왜 해야 하나 궁금했었는데 그런 이유도 있군요. 저희는 일단 교배를 한 번 시켜주고 그 후에 다시 생각해보려고 해요. 교배를 시켜주려면 동물병원으로 가는 게 좋을까요?",
+            "turn_id": "BK22015239-5",
+            "utterance_id": "BK22015239.9"
+        },
+        {
+            "reference_date": "2015-12-20",
+            "reference_text": [
+                {
+                    "value": "주변에 마땅한 짝이나 전문가가 없다면 동물병원이나 애견숍을 통하면 된다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 곳들은 전문적으로 수컷 종견을 관리해 주는 이들과 연결이 돼 있는 경우가 많다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.notepet.co.kr/news/article/article_view/?idx=1242",
+            "search_query": "강아지 교배 동물병원",
+            "terminate": false,
+            "text": "주변에 괜찮은 짝을 구할 수 없거나 전문가를 모른다면 동물병원이나 펫샵을 통해 진행하시면 돼요. 동물병원과 펫샵은 수컷 종견을 전문적으로 관리하는 사람들과 알고 지내는 경우가 많으니까요.",
+            "turn_id": "BK22015239-5",
+            "utterance_id": "BK22015239.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동물병원에서 진행할 수 있다니 다행이네요. 혹시 교배를 시도하기 전 준비해야 할 것들이 있을까요?",
+            "turn_id": "BK22015239-6",
+            "utterance_id": "BK22015239.11"
+        },
+        {
+            "reference_date": "2017-09-14",
+            "reference_text": [
+                {
+                    "value": "또 임신기간의 예방접종은 새끼를 위험하게 할 수 있어 교배 전 접종을 마쳐야합니다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.k-health.com/news/articleView.html?idxno=31347",
+            "search_query": "강아지 임신 예방접종",
+            "terminate": false,
+            "text": "임신했을 때 예방접종을 하면 새끼에게 악영향을 끼칠 수 있으니 교배하기 전 접종을 마치는 것이 좋아요.",
+            "turn_id": "BK22015239-6",
+            "utterance_id": "BK22015239.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "못 맞춘 예방접종이 있는지 체크해봐야겠네요. 강아지가 꼭 맞아야 하는 예방접종은 뭐가 있나요?",
+            "turn_id": "BK22015239-7",
+            "utterance_id": "BK22015239.13"
+        },
+        {
+            "reference_date": "2022-08-27",
+            "reference_text": [
+                {
+                    "value": "강아지 예방접종 중 기본 접종으로 불리는 종합백신(DHPPL)은 홍역과 전염성 간염, 파보 바이러스(장염), 파라 인플루엔자(Parainfluenza), 렙토스피라증(Leptospirasis)을 예방하는 백신이다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "생후 6~8주 사이에 첫 접종을 시작해서 2~3주 간격으로 총 5회 접종하고 매년 1회 추가 접종해야 한다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1416014/%EC%9C%84%EB%93%9C%ED%8E%AB-%EA%B0%95%EC%95%84%EC%A7%80%EC%9D%98-%EA%B1%B4%EA%B0%95-%EC%A7%80%ED%82%A4%EA%B8%B0-%EC%B2%AB%EA%B1%B8%EC%9D%8C%EC%9D%80-%EC%98%88%EB%B0%A9%EC%A0%91%EC%A2%85/",
+            "search_query": "강아지 필수 예방접종",
+            "terminate": false,
+            "text": "강아지 예방접종 중에서 가장 기본적인 건 종합 백신이에요. 홍역, 전염성 간염, 장염을 일으키는 파보 바이러스, 파라 인플루엔자, 렙토스피라증을 예방하는 효과를 가지고 있어요. 첫 접종은 생후 6~8주 정도이고 이후 2~3주 간격으로 총 다섯번 접종하게 돼요. 또 배년 한 번씩은 추가로 접종해야 하니 확인해보세요.",
+            "turn_id": "BK22015239-7",
+            "utterance_id": "BK22015239.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 확인해볼게요. 그리고 강아지 교배는 계속 시켜주면 좋지 않다고 하는데 어느 정도가 적당할까요?",
+            "turn_id": "BK22015239-8",
+            "utterance_id": "BK22015239.15"
+        },
+        {
+            "reference_date": "2016-10-15",
+            "reference_text": [
+                {
+                    "value": "미국 26개 주에선 주법으로 어미개 임신 횟수를 일생에 5번으로 제한하기도 하죠.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.realfoods.co.kr/view.php?ud=20161014000779",
+            "search_query": "강아지 임신 횟수",
+            "terminate": false,
+            "text": "미국의 26개 주에서는 주법으로 강아지의 임신 횟수를 총 5번으로 제한하기도 하니 참고해 결정하시면 돼요.",
+            "turn_id": "BK22015239-8",
+            "utterance_id": "BK22015239.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 만약 강아지 교배에 성공해 임신한다면 모두 자연분만 하게 되나요? 제왕절개를 하는지도 궁금해요.",
+            "turn_id": "BK22015239-9",
+            "utterance_id": "BK22015239.17"
+        },
+        {
+            "reference_date": "2018-08-22",
+            "reference_text": [
+                {
+                    "value": "이 때문에 출산을 앞둔 강아지라면 정기적으로 동물병원에서 난산의 위험성은 없는지, 제왕절개가 예상되는 상황인지 미리 검사하고 준비하는 것이 좋다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=37477",
+            "search_query": "강아지 난산 제왕절개",
+            "terminate": false,
+            "text": "네. 제왕절개를 해야 하는 상황이 생길 수 있어요. 강아지의 출산일이 가까워지면 주기적으로 동물병원에 방문해 난산이 될 확률은 얼마나 되는지, 제왕절개를 해야 하는 상황이 생길 수 있는지에 대해 미리 검진하고 준비하는 것이 좋아요.",
+            "turn_id": "BK22015239-9",
+            "utterance_id": "BK22015239.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이것저것 준비할 것들이 꽤 많은 것 같아요. 강아지에게 의견을 물을 수 없으니 신중하게 생각하고 결정해야겠죠?",
+            "turn_id": "BK22015239-10",
+            "utterance_id": "BK22015239.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 섣부르게 결정하지 마시고 천천히 시간을 들여 동물병원에도 의견을 들어보고 결정하세요. 다음에 만나면 어떤 결정을 하셨는지 이야기해주세요.",
+            "turn_id": "BK22015239-10",
+            "utterance_id": "BK22015239.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "알겠어요. 오늘 덕분에 도움도 많이 되고 몰랐던 사실도 알게 됐네요. 마음의 결정을 하면 이야기하러 다시 올게요~.",
+            "turn_id": "BK22015239-11",
+            "utterance_id": "BK22015239.21"
+        }
+    ]
+}

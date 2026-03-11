@@ -1,0 +1,343 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006096",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006096",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 뉴스에 다문화 학생들이랑 관련된 내용이 많이 나오더라.",
+            "turn_id": "BK22006096-1",
+            "utterance_id": "BK22006096.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 특히 나는 다문화 가족 친구가 있어서 관련된 내용을 더 관심 있게 보고 있어.",
+            "turn_id": "BK22006096-1",
+            "utterance_id": "BK22006096.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 한국에 사는 다문화 학생들은 얼마나 돼?",
+            "turn_id": "BK22006096-2",
+            "utterance_id": "BK22006096.3"
+        },
+        {
+            "reference_date": "2022-03-11",
+            "reference_text": [
+                {
+                    "value": "통계청에 따르면 학령기 다문화 학생은 2016년 9만9천여 명을 시작으로 매년 1만 명 이상 증가해 2021년에는 역대 최다인 16만여 명으로 불어났다.",
+                    "value_time": "2022-08-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220225145600371",
+            "search_query": "다문화 학생",
+            "terminate": false,
+            "text": "통계청에서는 초등학교 의무 교육이 필요한 시기의 다문화 학생이 2016년에는 9만 9천여 명이었고, 매해 1만 명 넘게 늘어나서 2021년에는 16만여 명으로 지금까지 제일 많다고 보고 있어.",
+            "turn_id": "BK22006096-2",
+            "utterance_id": "BK22006096.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다문화 학생들이 점점 늘어나고 있구나. 그러면 이 학생들이 자라면서 겪는 어려움은 뭐가 있어?",
+            "turn_id": "BK22006096-3",
+            "utterance_id": "BK22006096.5"
+        },
+        {
+            "reference_date": "2022-03-11",
+            "reference_text": [
+                {
+                    "value": "이처럼 다문화 아이들은 성장하는 과정에서 학교와 사회 곳곳에서 여전히 편견과 차별에 시달리는 경우가 적지 않다.",
+                    "value_time": "2022-08-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220225145600371",
+            "search_query": "다문화 차별",
+            "terminate": false,
+            "text": "다문화 아이들이 자라면서 사회, 학교 등 여기저기서 아직도 남아있는 차별이랑 편견을 겪는 상황이 빈번해.",
+            "turn_id": "BK22006096-3",
+            "utterance_id": "BK22006096.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그러면 다문화 학생들은 학교에 다니는 게 쉽지 않겠어. 학업을 그만두는 경우도 많나?",
+            "turn_id": "BK22006096-4",
+            "utterance_id": "BK22006096.7"
+        },
+        {
+            "reference_date": "2022-02-25",
+            "reference_text": [
+                {
+                    "value": "부모 중 한쪽이 외국 출신인 학령기(7~18세) 다문화 청소년 중 교내 차별 등으로 학교에 적응하지 못하고 학업을 중단하는 학생이 한 해에 5000여 명에 이르는 것으로 나타나 충격이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kgnews.co.kr/news/article.html?no=690675",
+            "search_query": "다문화 학교",
+            "terminate": false,
+            "text": "맞아, 실제로 엄마, 아빠 중 한 명이 외국 출신인 다문화 청소년들 중에서 학교에서의 차별 때문에 적응하지 못하고 학교를 그만두는 학생들이 일 년에 5000명에 이를 정도야.",
+            "turn_id": "BK22006096-4",
+            "utterance_id": "BK22006096.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "관련 대책이 하루빨리 만들어져야겠다. 그나저나 중도 입국한 학생들도 많다고 들었는데, 그런 학생들은 얼마나 돼?",
+            "turn_id": "BK22006096-5",
+            "utterance_id": "BK22006096.9"
+        },
+        {
+            "reference_date": "2022-08-12",
+            "reference_text": [
+                {
+                    "value": "여성가족부(2015) 다문화가정 실태조사에서 중도입국청소년을 3만 2330명으로 추정하고 있고, 법무부(2019) 통계는 1만 1000여 명으로, 교육부(2020) 교육기본통계에서는 9151명으로 집계하고 있다.",
+                    "value_time": "2022-08-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.incheonin.com/news/articleView.html?idxno=89911",
+            "search_query": "다문화 중도입국",
+            "terminate": false,
+            "text": "2015년 여성가족부가 시행한 다문화가정 실태조사에는 중도 입국 청소년이 3만 2330명 정도 있다고 보고 있고, 2019년 법무부에서 나온 통계는 1만 1000여 명, 2020년 교육부의 교육기본통계에서는 9151명으로 보고 있어.",
+            "turn_id": "BK22006096-5",
+            "utterance_id": "BK22006096.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그러면 한국 사람들은 다문화에 대해서 어떻게 생각해?",
+            "turn_id": "BK22006096-6",
+            "utterance_id": "BK22006096.11"
+        },
+        {
+            "reference_date": "2022-04-08",
+            "reference_text": [
+                {
+                    "value": "‘다문화 수용성’은 2018년 71.22점에서 2021년 71.39점으로 높아졌다.",
+                    "value_time": "2022-08-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "응답자 90% 이상이 다문화학생과 같은 반이나 친구가 되는 것에 ‘불편하지 않다’고 응답했다.",
+                    "value_time": "2022-08-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/national/national-general/article/202204080600005#c2b",
+            "search_query": "다문화 수용성",
+            "terminate": false,
+            "text": "다문화 수용성을 살펴보면 2021년에 71.39점이 나왔는데, 이건 2018년 71.22점에서 증가한 수치야. 설문에 답한 사람 중에서 90%가 넘는 사람이 다문화 학생이랑 친구를 하거나 같은 반에 들어가는 게 불편하지 않다고 답을 하기도 했어.",
+            "turn_id": "BK22006096-6",
+            "utterance_id": "BK22006096.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수용성이 조금 증가한 상황이구나. 그러면 정부는 구체적으로 어떤 정책을 추진하고 있어?",
+            "turn_id": "BK22006096-7",
+            "utterance_id": "BK22006096.13"
+        },
+        {
+            "reference_date": "2022-02-04",
+            "reference_text": [
+                {
+                    "value": "정부가 학령기 다문화 아동·청소년이 동등한 출발선을 보장받을 수 있도록 환경을 조성하고, 이들이 가진 다양성과 재능을 개발해 미래 인재로 양성하기 위한 지원방안 등을 추진하기로 했다.",
+                    "value_time": "2022-08-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.korea.kr/news/policyNewsView.do?newsId=148898695",
+            "search_query": "다문화 정부",
+            "terminate": false,
+            "text": "정부가 초등학교 의무 교육이 필요한 시기의 다문화 아동과 청소년들이 같은 출발선에서 설 수 있는 여건을 만들어주고, 이들의 여러가지 재능과 다양성을 발전시켜서 장차 인재로 키우기 위해 필요한 정책을 추진하려고 하고 있어.",
+            "turn_id": "BK22006096-7",
+            "utterance_id": "BK22006096.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그리고 다문화가족 참여 회의라는 것도 들어봤는데, 어떤 거야?",
+            "turn_id": "BK22006096-8",
+            "utterance_id": "BK22006096.15"
+        },
+        {
+            "reference_date": "2021-06-21",
+            "reference_text": [
+                {
+                    "value": "「다문화가족 참여회의」는 정책수요자의 목소리를 시의 적절하게 담아 정책의 실효성을 높이기 위해 운영하고 있으며, 결혼이민자와 그 자녀, 배우자 등을 위원으로 지역별·출신국가별로 고르게 구성되어 있다.",
+                    "value_time": "2022-08-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.enbnews.org/news/articleView.html?idxno=25404",
+            "search_query": "다문화가족 참여회의",
+            "terminate": false,
+            "text": "다문화가족 참여 회의는 정책이 필요한 사람들의 요구를 사정에 맞게 잘 반영해서 정책의 효과성을 증가시키기 위해 열리고 있고, 결혼이민자랑 이 사람들의 배우자, 자녀를 위원으로 뽑아. 또 출신 국가나 지역별로 균등하게 참여하고 있어.",
+            "turn_id": "BK22006096-8",
+            "utterance_id": "BK22006096.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 정책이 필요한 사람들의 이야기를 듣기 위해서 운영되고 있구나. 그런데 한국에서 시행되는 정책들에 문제점은 없어?",
+            "turn_id": "BK22006096-9",
+            "utterance_id": "BK22006096.17"
+        },
+        {
+            "reference_date": "2022-02-10",
+            "reference_text": [
+                {
+                    "value": "다문화가정에 한국 정착을 돕기위해 추진 중인 동화정책은 많은 문제점을 야기하고 있다.",
+                    "value_time": "2022-08-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 다문화가정의 모국어가 점차 잊혀져가고 있는 상황에서 다문화가정의 2세들에게 부모의 문화를 물려줄 수 있는 우리의 교육환경은 턱없이 부족한 현실이다.",
+                    "value_time": "2022-08-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.jjan.kr/article/20220210580320",
+            "search_query": "다문화 정책",
+            "terminate": false,
+            "text": "사실 한국에 잘 정착하도록 다문화 가정들을 지원하기 위해 시도 중인 동화정책이 여러 가지 한계를 보여. 그리고 다문화 가정의 모국어가 점점 기억에서 사라지는 현실에서 다문화 가정의 2세들이 부모의 문화를 이어받을 수 있는 한국의 교육 인프라는 충분히 갖춰지지 않은 상태야.",
+            "turn_id": "BK22006096-9",
+            "utterance_id": "BK22006096.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아직 여러가지 부족한 점이 있구나.",
+            "turn_id": "BK22006096-10",
+            "utterance_id": "BK22006096.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 그래서 다양한 정책들이 추진되고 있는 거 같아.",
+            "turn_id": "BK22006096-10",
+            "utterance_id": "BK22006096.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고마워, 덕분에 오늘 다문화와 관련된 내용들에 대해 많이 알게 됐어.",
+            "turn_id": "BK22006096-11",
+            "utterance_id": "BK22006096.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 정말 다행이야. 집에 조심히 가고 다음에 보자.",
+            "turn_id": "BK22006096-11",
+            "utterance_id": "BK22006096.22"
+        }
+    ]
+}

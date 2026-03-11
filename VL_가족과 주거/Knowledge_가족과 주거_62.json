@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22017422",
+        "name": "2022 한국어 블렌더봇 데이터 BK22017422",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이가 커가면서 알아봐야 할 부분이 정말 많아서 요즘 고민이 많아요.",
+            "turn_id": "BK22017422-1",
+            "utterance_id": "BK22017422.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무래도 아이가 크면 고민도 많아지죠. 요즘은 어떤 고민이 있으세요?",
+            "turn_id": "BK22017422-1",
+            "utterance_id": "BK22017422.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내년에 아이를 지금 다니고 있는 어린이집에 계속 보낼지 유치원을 보낼지 고민이 되어서요. 어린이집과 유치원이 큰 차이가 있을까요?",
+            "turn_id": "BK22017422-2",
+            "utterance_id": "BK22017422.3"
+        },
+        {
+            "reference_date": "43511.0",
+            "reference_text": [
+                {
+                    "value": "어린이집과 유치원의 가장 큰 차이점은 아이의 입학 가능한 ‘연령’인데, 어린이집은 0세부터 7세까지, 유치원은 5세에서 7세까지 다닐 수 있다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 어린이집은 보건복지부 소속으로 보육교사 자격증을, 유치원은 교육부 소속으로 유치원 정교사 자격증을 취득하며, 보통 어린이집보다는 유치원의 시설 규모가 큰 편이다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=201902154017o",
+            "search_query": "유치원과 어린이집 차이점",
+            "terminate": false,
+            "text": "어린이집과 유치원은 가장 큰 차이는 입학 연령이예요. 어린이집은 0세부터 7세까지 다닐 수 있고 유치원은 5세부터 7세까지 가능합니다. 그리고 어린이집은 보건복지부 관할로 교사가 보육교사 자격증을 취득해야 하며 유치원은 교육부 관할로 유치원 정교사 자격증을 취득해야 합니다.",
+            "turn_id": "BK22017422-2",
+            "utterance_id": "BK22017422.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 차이가 있군요. 그럼 유치원에 입학하려면 어떻게 신청해야 하죠?",
+            "turn_id": "BK22017422-3",
+            "utterance_id": "BK22017422.5"
+        },
+        {
+            "reference_date": "44712.0",
+            "reference_text": [
+                {
+                    "value": "유치원 입소 신청은 매년 11월 교육부의 앱 ‘처음학교로’에서 원하는 유치원 3곳을 골라 지원하면 추첨하는 방식이다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "유치원마다 우선 선발 요건이 있고, 모든 희망 유치원 추첨에서 탈락하면 추가 모집 기간을 활용하는 등 대학 입시와 비슷하게 진행된다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220530518101?OutUrl=naver",
+            "search_query": "유치원 입소 방법",
+            "terminate": false,
+            "text": "유치원은 매년 11월에 처음학교로라는 앱에서 가고 싶은 유치원 세 곳을 지원하면 추첨을 통해 합격자를 결정합니다. 유치원마다 먼저 선발하는 요건이 있기 때문에 세 군데 모두 탈락할 수도 있는데 그런 경우에는 추가 모집 기간을 활용하면 돼요.",
+            "turn_id": "BK22017422-3",
+            "utterance_id": "BK22017422.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유치원도 종류가 많던데 어떤 유치원이 있죠?",
+            "turn_id": "BK22017422-4",
+            "utterance_id": "BK22017422.7"
+        },
+        {
+            "reference_date": "44756.0",
+            "reference_text": [
+                {
+                    "value": "“유치원은 설립 및 경영 주체에 따라 △국립 △공립 △사립으로 구분한다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지방자치단체가 설립한 공립 가운데 규모가 작은 경우에는 초등학교 병설로 함께 있을 수 있다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지난해 4월 기준으로 국립 3곳, 공립 5058곳, 사립 3598곳이 있다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220714/114441375/1",
+            "search_query": "유치원 종류",
+            "terminate": false,
+            "text": "유치원은 국립, 공립, 사립으로 구분하는데 지방자치단체에서 설립한 공립 유치원 중 규모가 작다면 초등학교 병설 유치원으로 함께 있기도 해요. 2021년 4월 기준으로 국립유치원은 3곳이고, 공립유치원은 5058곳, 사립유치원은 3598곳이 있어요.",
+            "turn_id": "BK22017422-4",
+            "utterance_id": "BK22017422.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 유치원도 어린이집처럼 보육료 지원이 되나요?",
+            "turn_id": "BK22017422-5",
+            "utterance_id": "BK22017422.9"
+        },
+        {
+            "reference_date": "44188.0",
+            "reference_text": [
+                {
+                    "value": "이를위해 2021학년도부터 유아 한 명에 대해 국공립유치원은 월 8만 원, 사립유치원과 어린이집은 월 26만 원의 유아학비와 보육료를 지원한다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nocutnews.co.kr/news/54697755",
+            "search_query": "유치원 보육료",
+            "terminate": false,
+            "text": "2021년부터 유아 한 명 기준으로 국공립유치원은 월 8만원 지원이 되고, 사립유치원은 월 26만원의 보육료가 지원돼요.",
+            "turn_id": "BK22017422-5",
+            "utterance_id": "BK22017422.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 유치원은 정부에서 지원이 되는 금액 외에 발생하는 비용은 없나요?",
+            "turn_id": "BK22017422-6",
+            "utterance_id": "BK22017422.11"
+        },
+        {
+            "reference_date": "44838.0",
+            "reference_text": [
+                {
+                    "value": "학부모부담금은 유특회계(유아교육지원특별회계법)를 통한 정부지원금을 제외한 금액으로 원아 1인당 소요돼 학부모에게 고지하는 월 금액이다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "통상 교육과정비, 방과후과정비, 특성화활동비 등이 포함된다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20221004000086",
+            "search_query": "유치원 학부모부담금",
+            "terminate": false,
+            "text": "정부지원금을 제외하고 교육과정비나 방과후과정비 또는 특성화활동비 등으로 소요되는 금액인 학부모 부담금이 있어요. 학부모부담금은 원아 1인당 월마다 고지하는 금액입니다.",
+            "turn_id": "BK22017422-6",
+            "utterance_id": "BK22017422.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 학부모 부담금은 대체로 얼마나 발생 되죠?",
+            "turn_id": "BK22017422-7",
+            "utterance_id": "BK22017422.13"
+        },
+        {
+            "reference_date": "44838.0",
+            "reference_text": [
+                {
+                    "value": "4일 국회 교육위원회 소속 김영호 더불어민주당 의원이 교육부로부터 받은 자료에 따르면 올해 4월 기준 전국 17개 시도 유치원 원비 중 학부모 부담금 평균은 국·공립유치원 7694원, 사립유치원 16만7880원이었다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사립유치원의 학부모부담금이 국·공립유치원의 21.81배에 달했다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20221004000086",
+            "search_query": "유치원 학부모부담금",
+            "terminate": false,
+            "text": "사립 유치원이 국공립유치원에 비해 더 많이 발생하는데 2022년 4월 기준으로 전국 유치원 학부모 평균 부담금은 국,공립유치원은 7694원, 사립유치원은 16만7880원이었어요. 사립유치원의 학부모부담금이 국,공립 유치원의 21.81배 입니다.",
+            "turn_id": "BK22017422-7",
+            "utterance_id": "BK22017422.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "확실히 사립 유치원이 비용이 더 많이 드는군요. 그런데 요즘 영어유치원도 많이 보내던데 영어유치원은 유치원 종류에 왜 포함이 안 되어 있죠?",
+            "turn_id": "BK22017422-8",
+            "utterance_id": "BK22017422.15"
+        },
+        {
+            "reference_date": "44011.0",
+            "reference_text": [
+                {
+                    "value": "영어유치원의 법률상 정확한 명칭은 유아 대상 영어학원이다(놀이학교도 마찬가지 유아 대상 학원이다).",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "영어유치원은 학원의 설립·운영 및 과외교습에 관한 법률(학원법)의 적용을 받는다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그럼에도 영어유치원이라는 법률상 존재하지 않는 명칭이 통용되고 있다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://weekly.khan.co.kr/khnm.html?mode=view&code=115&artid=202006191523151&pt=nv",
+            "search_query": "영어유치원 유치원 차이",
+            "terminate": false,
+            "text": "사실 영어유치원은 법률상으로 존재하지 않는 명칭이에요. 정확한 명칭은 유아 대상 영어학원이죠. 그래서 영어유치원이라 불리지만 학원법의 적용을 받아요.",
+            "turn_id": "BK22017422-8",
+            "utterance_id": "BK22017422.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그럼 영어유치원이라 불리는 유아 영어 학원의 비용은 대략 얼마예요?",
+            "turn_id": "BK22017422-9",
+            "utterance_id": "BK22017422.17"
+        },
+        {
+            "reference_date": "44818.0",
+            "reference_text": [
+                {
+                    "value": "14일 국회 교육위원회 소속 민형배 무소속 의원이 교육부로부터 제출받은 자료에 따르면 올해 6월말 기준 전국 유아 대상 영어학원은 총 745개로 그중 월 학원비가 100만원 이상인 곳이 443개(59.46%)로 나타났다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "월 학원비별 유아 영어학원 수를 보면 △100만원 미만 302개 △100만원 이상 407개 △200만원 이상 34개 △300만원 이상 2개로 집계됐다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/4801808",
+            "search_query": "영어유치원 비용",
+            "terminate": false,
+            "text": "2022년 6월 말 기준으로 전국 유아 대상 영어학원은 745개인데 학원비별로 나누어보면 100만원 미만은 302개, 100만원 이상은 407개, 200만원 이상은 34개, 300만원 이상은 2개예요. 월 학원비가 100만원 이상인 유치원이 443곳으로 59.46%였습니다.",
+            "turn_id": "BK22017422-9",
+            "utterance_id": "BK22017422.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "300만원 이상인 곳도 있다니 놀랍네요. 알려주신 유치원 정보를 가지고 잘 고민해 볼게요.",
+            "turn_id": "BK22017422-10",
+            "utterance_id": "BK22017422.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "국공립유치원, 사립유치원, 일명 영어유치원 모두 장단점이 있으니 한번 잘 고민해보세요.",
+            "turn_id": "BK22017422-10",
+            "utterance_id": "BK22017422.20"
+        }
+    ]
+}

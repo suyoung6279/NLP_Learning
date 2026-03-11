@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015159",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015159",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이가 밤에 자다 깨서 칭얼거리길래 안아줬는데, 몸이 조금 뜨겁더라고요. 열이 나는 건가 싶어서 체온을 재보니 38.1도가 나왔어요. 아이는 어른보다 기초 체온이 높다고 듣긴 했는데 38.1도면 열이 있는 거 맞나요?",
+            "turn_id": "BK22015159-1",
+            "utterance_id": "BK22015159.1"
+        },
+        {
+            "reference_date": "2020-10-03",
+            "reference_text": [
+                {
+                    "value": "돌 이전 아기는 37.5도 이하가 정상체온이다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "돌 이후 아이는 37.2도다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "열이 난다고 느끼는 발열의 기준은 오전 37.2도, 오후 37.7도 이상이다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/life/article/202009292958i",
+            "search_query": "아이 정상 체온",
+            "terminate": false,
+            "text": "만약 돌이 지나지 않은 아기라면 37.5도 이하가 정상체온이고, 돌이 지난 아기라면 37.2도가 정상체온이니, 38.1도라면 열이 있는 거 맞아요. 발열의 기준은 오전이라면 37.2도, 오후라면 37.7도 이상이에요.",
+            "turn_id": "BK22015159-1",
+            "utterance_id": "BK22015159.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 열이 있는 거 맞네요. 열이 나는 건 처음이라 당황스러운데, 응급실에 가야 할까요?",
+            "turn_id": "BK22015159-2",
+            "utterance_id": "BK22015159.3"
+        },
+        {
+            "reference_date": "2016-12-13",
+            "reference_text": [
+                {
+                    "value": "만 2세 미만의 아이들이 특히 한밤중에 응급실을 많이 찾는데, 열이 난다고 무조건 응급실에 가기보다 아이의 상황을 지켜보고 집에서 적절한 조치를 취하는 편이 낫다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "응급실을 찾기 전 119에 전화해 응급 상담을 받거나 일단 집에서 아이의 상태를 지켜보고 꼭 필요할 때 찾아가 적절한 치료를 받는 것이 더 나을 수 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=201612131183o",
+            "search_query": "아이 열 응급실",
+            "terminate": false,
+            "text": "만 2세 이하의 영유아들은 한밤중에 응급실을 찾는 경우가 많은데요. 열이 있다고 해서 무조건 응급실에 가는 것 보다는 꼭 필요할 때 가는 것이 좋아요. 응급실에 가기 전 119를 통해 응급 상담을 받거나 아이의 상태를 지켜보고 적절한 조치를 취하는 것이 더 나을 수 있어요.",
+            "turn_id": "BK22015159-2",
+            "utterance_id": "BK22015159.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어요. 먼저 집에서 열 내리는 방법을 총 동원해 봐야겠네요. 열을 떨어뜨리려면 먼저 어떤 것부터 해야 할까요?",
+            "turn_id": "BK22015159-3",
+            "utterance_id": "BK22015159.5"
+        },
+        {
+            "reference_date": "2017-05-10",
+            "reference_text": [
+                {
+                    "value": "먼저 체온을 체크한 뒤 38℃ 이상 열이 난다면 해열제를 이용해서 아이의 열을 떨어뜨려야 한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "해열제는 성분에 따라 타이레놀과 부루펜 계열 두 가지 해열제로 나눈다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "타이레놀은 생후 4개월부터 복용할 수 있고 부루펜은 생후 6개월부터 복용할 수 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=201705108703o",
+            "search_query": "아이 열 해열제 복용",
+            "terminate": false,
+            "text": "38도 이상의 체온이라면 해열제를 복용해서 열을 떨어뜨려야 해요. 해열제는 타이레놀 계열과 부루펜 계열로 나뉘는데, 타이레놀은 생후 4개월부터, 부루펜은 생후 6개월부터 복용할 수 있답니다.",
+            "turn_id": "BK22015159-3",
+            "utterance_id": "BK22015159.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "해열제를 미리 사다둔 게 있어서 다행이에요. 그럼 만약 해열제를 먹였는데도 열이 안 떨어지면 어떻게 하죠?",
+            "turn_id": "BK22015159-4",
+            "utterance_id": "BK22015159.7"
+        },
+        {
+            "reference_date": "2017-05-10",
+            "reference_text": [
+                {
+                    "value": "한가지 해열제로 열이 떨어지지 않는다면 교차 복용해야 하는데 약을 먹은 후 2시간 이상 지켜보는 것이 안전하다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만약 2시간이 지나도록 열이 떨어지지 않는다면 다른 계열의 해열제를 교차 복용한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=201705108703o",
+            "search_query": "아이 열 해열제 교차복용",
+            "terminate": false,
+            "text": "해열제를 먹였는데도 열이 떨어지지 않는다면 교차복용을 해야 해요. 해열제를 먹이고 2시간을 지켜본 후 그래도 열이 떨어지지 않는다면 먹였던 해열제와 다른 계열의 해열제를 먹도록 해 주시면 돼요.",
+            "turn_id": "BK22015159-4",
+            "utterance_id": "BK22015159.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다른 종류의 해열제는 없는데 큰일이네요. 열이 안 떨어지면 사러 나가야겠어요. 지금 아이 몸이 뜨거운데 옷은 벗겨 놓는 게 좋을까요?",
+            "turn_id": "BK22015159-5",
+            "utterance_id": "BK22015159.9"
+        },
+        {
+            "reference_date": "2022-01-21",
+            "reference_text": [
+                {
+                    "value": "옷은 너무 두껍지 않게 얇은 옷을 입히고 오한이 날 때는 얇은 이불로 덮어주세요.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/culture-life/culture_general/2022/01/21/54Z6UMW3I5AHLGQT5A3PULMNMI/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "search_query": "아이 열날때 옷",
+            "terminate": false,
+            "text": "열이 날 때는 옷을 너무 두껍지 않게 얇은 옷으로 갈아입혀 주세요. 만약 아이가 열은 많이 나는데 추워하는 오한 증상을 보인다면, 그때는 얇은 이불을 덮어 주시는게 좋아요.",
+            "turn_id": "BK22015159-5",
+            "utterance_id": "BK22015159.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "당장 얇은 옷으로 갈아입혀야겠네요. 그런데 저 어릴 적 열 날 때 엄마가 수건으로 몸을 다 닦아주셨던 걸로 기억하는데, 그렇게 해도 될까요?",
+            "turn_id": "BK22015159-6",
+            "utterance_id": "BK22015159.11"
+        },
+        {
+            "reference_date": "2022-01-21",
+            "reference_text": [
+                {
+                    "value": "예전엔 열이 날 때 미지근한 물에 목욕을 시키거나 수건에 미온수를 적셔 아이 몸을 닦아주도록 했는데 이제는 이를 권장하지 않아요.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "찬물로 마사지하면 혈관이 수축돼 아이 체온이 더 올라가고 오한으로 힘들어할 수 있기 때문이에요.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/culture-life/culture_general/2022/01/21/54Z6UMW3I5AHLGQT5A3PULMNMI/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "search_query": "아이 열날때 미온수 마사지",
+            "terminate": false,
+            "text": "옛날에는 열나는 아이를 미지근한 물로 목욕 시키거나 수건에 미온수를 적셔서 몸을 닦아주기도 했지만, 요즘에는 이러한 미온수 마사지를 권장하지 않아요. 찬물로 마사지를 하게 되면 오히려 혈관이 수축하면서 체온이 더 올라가고 오한으로 아이가 더 힘들어할 수 있답니다.",
+            "turn_id": "BK22015159-6",
+            "utterance_id": "BK22015159.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 오히려 열이 더 날 수 있군요. 그럼 해열제 먹이는 것 말고 제가 해줄 수 있는 게 뭐가 있을까요?",
+            "turn_id": "BK22015159-7",
+            "utterance_id": "BK22015159.13"
+        },
+        {
+            "reference_date": "2022-01-21",
+            "reference_text": [
+                {
+                    "value": "아이 열이 났을 때 가장 중요한 것은 물을 먹도록 하는 거예요.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "열이 나면 체온이 1도 올라갈 때마다 기초대사율이 10~12% 증가하고 호흡이 빨라지기 때문에 탈수가 잘 올 수 있기 때문입니다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/culture-life/culture_general/2022/01/21/54Z6UMW3I5AHLGQT5A3PULMNMI/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "search_query": "아이 열날때 물 탈수",
+            "terminate": false,
+            "text": "아이가 열이 날 때 가장 중요한 건 충분한 물을 섭취할 수 있도록 하는 거예요. 열이 나서 체온이 1도씩 올라갈 때마다 기초대사율은 10~12% 정도 증가하는데, 그러면서 호흡이 빨라져 탈수가 올 수 있답니다.",
+            "turn_id": "BK22015159-7",
+            "utterance_id": "BK22015159.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각해보니 그렇겠네요. 수시로 물을 줘야겠어요. 그런데 해열제 먹고 아이가 잠이 들었는데, 다음 해열제 먹일 때 일부러 깨워서 먹여야 하는 건가요?",
+            "turn_id": "BK22015159-8",
+            "utterance_id": "BK22015159.15"
+        },
+        {
+            "reference_date": "2019-09-16",
+            "reference_text": [
+                {
+                    "value": "보통 체온이 38.3°C 이상일 경우 해열제를 복용하라고 권고하지만, 열이 나도 보채지 않는다면 굳이 잘 자는 아이를 깨워서 해열제를 먹일 필요는 없습니다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=78209",
+            "search_query": "아이 열날때 깨워서",
+            "terminate": false,
+            "text": "체온이 38.3도 이상일 때 해열제를 복용하도록 권장하고 있지만, 크게 보채지 않는다면 굳이 잘 자고 있는 아이를 깨워서 해열제를 복용시킬 필요는 없어요.",
+            "turn_id": "BK22015159-8",
+            "utterance_id": "BK22015159.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 너무 걱정돼요. 아이가 열나는 게 가장 무서운 것 같아요.",
+            "turn_id": "BK22015159-9",
+            "utterance_id": "BK22015159.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럴 수 있죠. 특히 어릴수록 고열은 위험하다 보니 충분히 걱정하실만 해요.",
+            "turn_id": "BK22015159-9",
+            "utterance_id": "BK22015159.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 대화를 하고 나니 마음이 조금은 편해졌어요. 알려주신 대로 열심히 아이 케어 해볼게요. 다음에 또 이야기 나눠요.",
+            "turn_id": "BK22015159-10",
+            "utterance_id": "BK22015159.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아이가 빨리 나았으면 하는 바람이네요. 그럼 다음에 만나요.",
+            "turn_id": "BK22015159-10",
+            "utterance_id": "BK22015159.20"
+        }
+    ]
+}

@@ -1,0 +1,381 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.5,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.5,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009019",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009019",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0036"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0026"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 강아지가 아무래도 분리불안이 있는 것 같아요. 제가 외출만 하면 저희 개가 짖어서 옆집에서 항의가 들어왔지 뭐예요.",
+            "turn_id": "BK22009019-1",
+            "utterance_id": "BK22009019.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 옆집에서 항의까지 들어왔다면 정말 심각한 상황이네요. 강아지가 분리불안이 심한 것 같아서 걱정이시겠어요.",
+            "turn_id": "BK22009019-1",
+            "utterance_id": "BK22009019.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 그런데 저희 개 처럼 짖는 거 말고도 강아지 분리불안 증상으로 어떤 게 있어요?",
+            "turn_id": "BK22009019-2",
+            "utterance_id": "BK22009019.3"
+        },
+        {
+            "reference_date": "2016-03-24",
+            "reference_text": [
+                {
+                    "value": "분리불안을 겪는 강아지들은 보호자와 분리시, 불안한 모습, 침의 과다분비, 구토, 설사,식욕상실, 요지부동 등의 증상을 가지고 있다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/201603240821546377",
+            "search_query": "강아지 분리불안 증상",
+            "terminate": false,
+            "text": "분리불안이 있는 반려견들은 보호자가 자리를 비우면 여러 증상을 나타내요. 불안한 모습을 보이기도 하고, 침을 과하게 흘려요, 또한 구토, 설사, 식욕상실, 요지부동 등의 증상을 보여요.",
+            "turn_id": "BK22009019-2",
+            "utterance_id": "BK22009019.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 반려견이 분리불안을 겪게 되면 증상이 정말 다양하네요. 그런데 강아지가 분리불안을 겪는 원인은 뭔가요?",
+            "turn_id": "BK22009019-3",
+            "utterance_id": "BK22009019.5"
+        },
+        {
+            "reference_date": "2015-04-29",
+            "reference_text": [
+                {
+                    "value": "분리불안 증상이 나타나는 원인은 크게 두 가지로 나눌 수 있는데 하나는 ‘공포’이며 다른 하나는 ‘지루함’이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "많은 분리불안이 공포에 기인한다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려견은 사회적인 동물로, 소속된 무리와 함께 있어야 생존에 필요한 안전과 먹이를 보장받는다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그런데 무리에서 떨어져 혼자 남겨지게 되면 생존에 대한 확신을 잃고 과도한 불안감에 시달리게 되는 것이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/201504291672967540",
+            "search_query": "강아지 분리불안 원인",
+            "terminate": false,
+            "text": "반려견이 분리불안을 겪는 이유는 크게 공포와 지루함 때문이에요. 특히 분리불안은 공포로 인한 경우인데요. 반려견은 사회적인 동물이라 무리와 함께 있을 때 살아가는 데 중요한 안전과 먹이를 보장받아요. 하지만 보호자가 외출로 자리를 비우면 혼자 남겨지게 돼서 생존에 대한 과한 불안에 시달리게 돼요.",
+            "turn_id": "BK22009019-3",
+            "utterance_id": "BK22009019.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 반려견의 특성상 분리불안은 있을 수밖에 없겠네요. 그러면 강아지는 한시도 주인과 떨어져 있을 수 없는 건가요? 혼자 얼마 정도 있을 수 있는 거예요?",
+            "turn_id": "BK22009019-4",
+            "utterance_id": "BK22009019.7"
+        },
+        {
+            "reference_date": "2020-06-30",
+            "reference_text": [
+                {
+                    "value": "동물행동학에 따르면 성견은 하루에 4~6시간, 강아지는 하루에 2시간 정도까지 혼자 두어도 무리가 없다고 한다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=126678",
+            "search_query": "강아지 주인과 얼마나 떨어져",
+            "terminate": false,
+            "text": "반려견은 한시도 주인과 떨어져 있을 수 없는 건 아니고요. 동물행동학에 의하면 성견은 하루에 4시간에서 6시간 혼자 있는 게 가능해요. 반면에 강아지는 하루에 2시간 정도만 무리 없이 혼자 있을 수 있어요.",
+            "turn_id": "BK22009019-4",
+            "utterance_id": "BK22009019.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 성견과 강아지가 혼자 있을 수 있는 시간이 조금 다르군요. 그러면 반려견의 분리불안을 극복하려면 어떻게 해야 해요?",
+            "turn_id": "BK22009019-5",
+            "utterance_id": "BK22009019.9"
+        },
+        {
+            "reference_date": "2016-01-15",
+            "reference_text": [
+                {
+                    "value": "강아지 분리불안 극복 방법은 공포에 기인한 분리불안 증상이 나타나지 않도록 하는 것이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "즉 '보호자가 꼭 돌아온다'는 확신을 강아지에게 심어주는 것이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "강아지를 입양한 이후 매일 여러 차례 1~2분 정도 문 밖으로 나갔다가 돌아오기를 반복하는 것이 하나의 방법이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://star.mbn.co.kr/view.php?no=39825&year=2016&refer=portal",
+            "search_query": "강아지 분리불안 극복 방법",
+            "terminate": false,
+            "text": "반려견이 분리불안을 극복하게 하는 방법은 공포로 인한 분리불안 증상이 나타나지 않게 해줘야 해요. 주인이 꼭 돌아온다는 확신을 심어주는 게 중요한데요. 매일 여러 차례 1분에서 2분 정도 집 밖으로 나갔다가 돌아오기를 반복하는 훈련을 해보시는 것도 좋아요.",
+            "turn_id": "BK22009019-5",
+            "utterance_id": "BK22009019.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 방법도 있었군요. 특히 강아지가 외출 전에 스트레스를 많이 받을 것 같은데 외출 전에는 어떻게 하는 게 좋을까요?",
+            "turn_id": "BK22009019-6",
+            "utterance_id": "BK22009019.11"
+        },
+        {
+            "reference_date": "2020-06-30",
+            "reference_text": [
+                {
+                    "value": "때문에 집에서 나가는 길에 과도하게 강아지를 만지면서 이야기 한다거나 강아지가 외롭다고 느낄 수 있게 하는 행동 등은 하지 않는 것이 좋다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지나치게 관심을 받고 사랑을 받은 강아지는 더욱 더 주인의 빈자리를 참기 힘들어 한다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=126678",
+            "search_query": "강아지 분리불안 외출 전",
+            "terminate": false,
+            "text": "집에서 나가는 길에 강아지가 안쓰러워서 과도하게 만지면서 이야기를 하는 건 오히려 반려견이 외롭다고 느낄 수 있는 행동이에요. 그러니 과도한 관심을 하지 않는 게 중요해요. 너무 많은 사랑을 받으면 강아지는 더욱 보호자가 없는 걸 참기 힘들어하게 돼요.",
+            "turn_id": "BK22009019-6",
+            "utterance_id": "BK22009019.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 제가 무심코 외출 전에 많이 쓰다듬어줬었는데 고쳐야겠어요. 그런데 분리불안을 해소해 주려면 노즈워크란 것을 해주면 좋다고 하던데 그게 뭔가요?",
+            "turn_id": "BK22009019-7",
+            "utterance_id": "BK22009019.13"
+        },
+        {
+            "reference_date": "2018-12-10",
+            "reference_text": [
+                {
+                    "value": "강아지는 노즈워크 훈련을 통하여 분리불안, 스트레스 해소 등 다양한 효과를 얻을 수 있다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "실내에서 할 수 있는 노즈워크 훈련 중 가장 좋은 훈련은 패트병 노즈워크, 박스노즈워크 훈련이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "패트병에 작은 구멍을 뚫어 간식이 나올 수 있게 해준 후 패트병 안에 다양한 식물을 넣어주어 실내에서도 자연의 냄새를 맡게 해 주면서 간식을 찾아 먹는 방법이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "박스노즈워크는 A4크기의 박스 안에 다양한 식물을 넣어준 후 주기적으로 간식을 뿌려주어 강아지가 실내에서도 놀면서 후각을 사용할 수 있게 해 줄 수 있다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etoday.co.kr/news/view/1697684",
+            "search_query": "강아지 분리불안 노즈워크",
+            "terminate": false,
+            "text": "아, 노즈워크는 반려견의 분리불안과 스트레스 해소를 해줄 수 있는 훈련이에요. 특히 페트병 노즈워크와 박스 노즈워크는 집안에서 하면서 가장 좋은 훈련인데요. 페트병 노즈워크는 페트병에 작은 구멍을 내서 간식이 나오게 해준 후에 페트병 속에 여러 식물을 넣어둠으로 집 안에서도 자연의 냄새를 맡게 하면서 간식을 찾게 하는 훈련이에요. 또한 박스 노즈워크는 A4 크기의 박스 속에 여러 식물을 넣은 후 주기적으로 간식을 두면 반려견이 집 안에서 놀면서도 후각을 이용하게 할 수 있어서 좋아요.",
+            "turn_id": "BK22009019-7",
+            "utterance_id": "BK22009019.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 한 번도 안 해본 방법인데 저희 강아지가 엄청 재밌어 할 훈련이네요. 그런데 언뜻 듣기에 강아지에게 노즈워크 훈련이 중요하다는데 이유가 뭔가요?",
+            "turn_id": "BK22009019-8",
+            "utterance_id": "BK22009019.15"
+        },
+        {
+            "reference_date": "2021-01-05",
+            "reference_text": [
+                {
+                    "value": "개의 뇌 크기는 인간의 10% 수준이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 뇌에서 냄새를 관장하는 후각신경구는 개가 인간에 비해 40배 이상 크다고 알려져 있다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그만큼 개의 후각 능력은 탁월하다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그럼에도 불구하고 가정에서 생활하는 개의 경우는 이 타고난 후각을 마음껏 발휘하지 못한다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이러한 수동적인 식사에서 벗어나 반려견의 본능적 후각을 활용할 수 있는 계기를 마련해주는 훈련이 바로 노즈워크다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=134720",
+            "search_query": "강아지 노즈워크 중요",
+            "terminate": false,
+            "text": "개의 뇌 크기는 우리 사람보다 10퍼센트 수준이지만 냄새를 관리하는 후각신경구는 인간보다 40배 이상 커요. 개의 후각 능력은 정말 훌륭한 편이지만 집안에서 생활하다 보면 타고난 후각을 제대로 사용하지 못해요. 그런데 노즈워크는 반려견의 본능적 후각을 이용할 수 있는 훈련이니 개의 입장에서는 본능적인 욕구 해소가 되고 스트레스가 줄어드니 중요할 수밖에 없어요.",
+            "turn_id": "BK22009019-8",
+            "utterance_id": "BK22009019.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 그렇겠네요. 노즈워크 훈련은 저희 반려견을 위해서라도 꼭 해봐야겠어요. 분리불안에는 산책이 좋다고 하던데 사실인가요?",
+            "turn_id": "BK22009019-9",
+            "utterance_id": "BK22009019.17"
+        },
+        {
+            "reference_date": "2016-08-16",
+            "reference_text": [
+                {
+                    "value": "산책은 반려견의 스트레스를 줄여주며 혼자 남는 것에 대한 외로움과 불안감을 덜어줄 수 있다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "산책으로 반려견에게 필요한 활동량이 미리 충족되기 때문에 조급하거나 흥분되는 상태에서 벗어나 편안한 마음으로 주인을 기다릴 수 있게 된다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dt.co.kr/contents.html?article_no=2016081602109923809015",
+            "search_query": "강아지 분리불안 해소 산책",
+            "terminate": false,
+            "text": "네, 산책을 해주면 반려견이 스트레스가 줄고 혼자 있을 때의 외로움이나 불안감을 줄여줄 수 있어요. 그리고 산책하면 반려견의 활동량이 미리 해소돼서 보호자를 기다릴 때 조급함이나 흥분 상태 대신에 편안하게 시간을 보내는 데 도움이 돼요.",
+            "turn_id": "BK22009019-9",
+            "utterance_id": "BK22009019.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 원래도 산책을 시켜주긴 하는데 외출 전에 산책을 시켜주는 게 좋겠어요. 분리불안 때문에 걱정이 많았는데 여러 가지 방법을 알려주셔서 감사해요. 다음에 저희 개 보러 집에 한번 놀러 오세요.",
+            "turn_id": "BK22009019-10",
+            "utterance_id": "BK22009019.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 반려견이 좋아하는 간식 알려주시면 사 갈게요. 분리불안 극복 훈련 차근차근 잘 해보시길 바랄게요. 그럼 다음에 또 봐요.",
+            "turn_id": "BK22009019-10",
+            "utterance_id": "BK22009019.20"
+        }
+    ]
+}

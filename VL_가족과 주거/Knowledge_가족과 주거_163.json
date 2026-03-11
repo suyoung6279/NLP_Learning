@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018348",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018348",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근에 난임 시술이 얼마나 늘어났는지와 그 이유가 궁금해요.",
+            "turn_id": "BK22018348-1",
+            "utterance_id": "BK22018348.1"
+        },
+        {
+            "reference_date": "44842.0",
+            "reference_text": [
+                {
+                    "value": "건강보험심사평가원에 따르면 국내 난임시술(보조생식술) 환자는 최근 5년간(2017년~2021년) 1만2569명에서 14만3999명으로 약 11.5배 늘었다.",
+                    "value_time": "44844.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여러 사회·경제적 요인으로 결혼 연령이 높아지면서 고령 임신 비율이 늘었기 때문이다.",
+                    "value_time": "44844.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "국내 35세 이상 고령 임신 비율은 40%에 육박한다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kfdn.co.kr/sub_read.html?uid=58801",
+            "search_query": "난임",
+            "terminate": false,
+            "text": "결혼 연령이 올라가면서 현재 국내에서 고령 임신에 해당하는 35세 이상의 임신이 약 40% 정도로 고령 임신이 증가했기 때문에 난임 시술 또한 증가했습니다. 최근 5년간 난임 시술 환자가 1만2569명에서 14만3999명으로 대략 11.5배가 증가한 것으로 건강보험심사평가원은 밝혔습니다.",
+            "turn_id": "BK22018348-1",
+            "utterance_id": "BK22018348.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 많이 늘어난 줄 몰랐어요, 그렇다면 난임 시술은 어떤 것들이 있나요?",
+            "turn_id": "BK22018348-2",
+            "utterance_id": "BK22018348.3"
+        },
+        {
+            "reference_date": "43908.0",
+            "reference_text": [
+                {
+                    "value": "일반적으로 보조생식술은 크게 인공수정과 체외수정(시험관아기시술)으로 나눌 수 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "인공수정의 성공률은 약 12~15% 정도로 보고되고 있으며 시험관아기시술은 30% 내외로 알려져 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.rapportian.com/news/articleView.html?idxno=124117",
+            "search_query": "난임시술",
+            "terminate": false,
+            "text": "보조생식술로는 성공률이 약 30% 정도되는 시험관아기시술인 체외수정과 성공률이 약 12에서 15% 정도인 인공수정이 있습니다.",
+            "turn_id": "BK22018348-2",
+            "utterance_id": "BK22018348.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그럼 난임의 원인에 대해 알 수 있을까요?",
+            "turn_id": "BK22018348-3",
+            "utterance_id": "BK22018348.5"
+        },
+        {
+            "reference_date": "44768.0",
+            "reference_text": [
+                {
+                    "value": "난임의 원인을 살펴보면, 여성의 경우 자궁질환이나 배란장애, 난관요인, 자궁요인, 난소기능 저하가 난임의 주요 원인으로 작용하고 남성의 경우에는 정자형성장애, 정자 이동과정의 장애, 부부관계의 기능성 장애 등을 들 수 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.bosa.co.kr/news/articleView.html?idxno=2177999",
+            "search_query": "난임 원인",
+            "terminate": false,
+            "text": "먼저 남성의 경우는 부부관계의 기능성 장애와 정자형성장애, 정자 이동과정의 장애를 들 수 있고 여성의 경우에는 자궁과 관련된 질환, 배란장애, 난소기능 약화, 자궁과 난관의 원인들로 인해 난임이 발생할 수 있습니다.",
+            "turn_id": "BK22018348-3",
+            "utterance_id": "BK22018348.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이런 원인들로 난임이 생기는군요, 그럼 난임 시술을 받고 태어난 아이들은 어느 정도 있나요?",
+            "turn_id": "BK22018348-4",
+            "utterance_id": "BK22018348.7"
+        },
+        {
+            "reference_date": "44821.0",
+            "reference_text": [
+                {
+                    "value": "보건복지부에 따르면 지난해 출생아 수 26만500명 중 8.1%인 2만1219명이 정부의 난임 시술비 지원을 받았다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "신생아 12명 중 1명 꼴이다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 정부 지원을 받은 출생아를 대상으로 한 것이기에 지원 기준 소득 이상을 버는 난임 부부들이 지원을 받지 않고 낳은 아이는 이보다 많을 것으로 추정된다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25102303",
+            "search_query": "난임 신생아",
+            "terminate": false,
+            "text": "2021년에 태어난 신생아 12명 중 1명에 해당하는 2만1219명이 난임 시술비 지원을 통해 출산되었다고 보건복지부는 밝혔습니다. 이는 2021년 전체 신생아 26만 500명 중 8.1%에 해당하는 수치입니다. 또한 이는 난임 시술 정부 지원 대상에 해당하는 소득 기준을 충족한 이들에 해당하기 때문에 기준 소득 이상 수입이 있는 난임 부부들의 아이들까지 포함하면 더욱 많은 아이들이 난임 시술로 태어났을 것으로 예측됩니다.",
+            "turn_id": "BK22018348-4",
+            "utterance_id": "BK22018348.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 현재 난임 시술 지원은 구체적으로 어떤 이들에게 해당되나요?",
+            "turn_id": "BK22018348-5",
+            "utterance_id": "BK22018348.9"
+        },
+        {
+            "reference_date": "44747.0",
+            "reference_text": [
+                {
+                    "value": "1년 이상 피임을 하지 않고도 자연 임신이 되지 않는 난임 여성이 늘면서 정부는 2017년부터 난임 시술에 건강보험을 적용했고, 현재 ‘기준중위소득 180% 이하’(2인 가구 합산 소득 586만8000원)인 가정에 대해 지방자치단체에서 추가 지원을 하고 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/national/welfare-medical/2022/07/05/H5ZDSSLL3FATVHM4JHJZ25UU7A/?utm_source=daum&utm_medium=referral&utm_campaign=daum-news",
+            "search_query": "난임 시술 지원",
+            "terminate": false,
+            "text": "난임 시술이 건강보험에서 적용된 것은 2017년부터였으며 기준중위소득 180%이하에 해당하는 가정에 지방자치단체가 부가적 지원을 하고 있습니다.",
+            "turn_id": "BK22018348-5",
+            "utterance_id": "BK22018348.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "건강보험이 적용되는 데에는 제한이 없는 건가요?",
+            "turn_id": "BK22018348-6",
+            "utterance_id": "BK22018348.11"
+        },
+        {
+            "reference_date": "44747.0",
+            "reference_text": [
+                {
+                    "value": "그러나 최대 9회까지만 건강보험을 적용받을 수 있고, 그 이후엔 시술비를 본인이 부담해야 한다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/national/welfare-medical/2022/07/05/H5ZDSSLL3FATVHM4JHJZ25UU7A/?utm_source=daum&utm_medium=referral&utm_campaign=daum-news",
+            "search_query": "건강보험 난임",
+            "terminate": false,
+            "text": "현재 난임 시술에 적용되는 건강보험은 9번까지 혜택을 받을 수 있고 그 이후에는 각자가 시술비를 부담해야합니다.",
+            "turn_id": "BK22018348-6",
+            "utterance_id": "BK22018348.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 어느 정도의 예산이 투입된거라고 볼 수 있나요?",
+            "turn_id": "BK22018348-7",
+            "utterance_id": "BK22018348.13"
+        },
+        {
+            "reference_date": "44747.0",
+            "reference_text": [
+                {
+                    "value": "건강보험심사평가원 집계를 보면 지난해 난임 시술에 들어간 건강보험 급여는 2178억원으로, 아동 수당 총예산(약 2조4039억원)의 10분의 1에 불과하다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/national/welfare-medical/2022/07/05/H5ZDSSLL3FATVHM4JHJZ25UU7A/?utm_source=daum&utm_medium=referral&utm_campaign=daum-news",
+            "search_query": "건강보험 난임 예산",
+            "terminate": false,
+            "text": "2021년 기준으로 난임 시술을 지원하는데 투입된 건강보험 급여는 2178억 원 정도로 이는 약 2조 4039억 원인 아동 수당 총예산의 10분의 1정도에 해당합니다.",
+            "turn_id": "BK22018348-7",
+            "utterance_id": "BK22018348.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그러면 기업에서 휴직관련 어떤 지원들이 이루어지고 있나요?",
+            "turn_id": "BK22018348-8",
+            "utterance_id": "BK22018348.15"
+        },
+        {
+            "reference_date": "44823.0",
+            "reference_text": [
+                {
+                    "value": "현대백화점 신세계인터내셔널 BGF리테일 등 여러 기업에서 난임 치료 목적의 휴가 및 휴직 사용을 허가한다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "CJ그룹은 난임시술을 받는 여성 임직원에게 매번 1주일씩, 연 최대 6회까지 난임 휴가를 추가로 준다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/economy/article/2022091879491",
+            "search_query": "난임 휴직",
+            "terminate": false,
+            "text": "난임과 관련해서 여러 기업에서 치료를 위한 휴가와 휴직 사용을 허가하고 있으며 씨제이그룹의 경우 난임시술을 받는 여성 임직원에게 매번 1주일씩, 연 최대 6회까지 난임 휴가를 추가로 제공하고 있습니다.",
+            "turn_id": "BK22018348-8",
+            "utterance_id": "BK22018348.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "난임 치료를 위한 혜택들이 많이 확대되면 좋을 것 같아요, 정보 감사합니다.",
+            "turn_id": "BK22018348-9",
+            "utterance_id": "BK22018348.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 출산과 관련된 다른 궁금한 점들도 편히 물어보세요.",
+            "turn_id": "BK22018348-9",
+            "utterance_id": "BK22018348.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "앞으로 임신과 출산에 대한 정보들을 물어볼게요.",
+            "turn_id": "BK22018348-10",
+            "utterance_id": "BK22018348.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 그럼 다음에 또 열심히 답해드릴게요.",
+            "turn_id": "BK22018348-10",
+            "utterance_id": "BK22018348.20"
+        }
+    ]
+}

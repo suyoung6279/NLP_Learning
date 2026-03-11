@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012207",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012207",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0028"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 강아지 산책에 나갔다가 목줄을 놓쳐서 강아지를 잃어버릴 뻔했어. 금세 발견하긴 했지만, 정말 십년감수했어.",
+            "turn_id": "BK22012207-1",
+            "utterance_id": "BK22012207.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 다시 찾았다니까 정말 다행이야!",
+            "turn_id": "BK22012207-1",
+            "utterance_id": "BK22012207.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 강아지가 워낙 천방지축이라 또 없어질까 봐 걱정인데, 좋은 방법이 없을까?",
+            "turn_id": "BK22012207-2",
+            "utterance_id": "BK22012207.3"
+        },
+        {
+            "reference_date": "44735.0",
+            "reference_text": [
+                {
+                    "value": "동물등록제는 2014년 1월 1일부터 농림부에서 전국에 의무 시행 중인 제도로, 등록대상 동물의 소유자는 동물의 보호와 유실·기 방지 등을 위해 가까운 시·군·구청에 동물등록을 해야 한다.",
+                    "value_time": "44795.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=02027046632364672&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "반려동물 등록",
+            "terminate": false,
+            "text": "반려견 실종 예방을 위해 2014년 1월 1일부터 동물등록제가 시행되고 있어. 동물등록제는 농림축산식품부에서 전국적으로 시행하고 있는 의무적인 제도인데, 등록 대상인 동물의 주인들이 동물을 보호하고 유실이나 유기를 막기 위해 등록하는 거야. 가까운 시청이나 군청, 구청에서 할 수 있어.",
+            "turn_id": "BK22012207-2",
+            "utterance_id": "BK22012207.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 제도가 있는지 전혀 몰랐어. 그러면 언제부터 등록해야 되는 거야?",
+            "turn_id": "BK22012207-3",
+            "utterance_id": "BK22012207.5"
+        },
+        {
+            "reference_date": "44378.0",
+            "reference_text": [
+                {
+                    "value": "동물등록제에 따라 반려동물로 기르는 개는 2개월령이 되는 날부터 30일 이내에 지자체에 등록해야 하며, 희망 시 2개월령 이하인 경우에도 등록할 수 있다.",
+                    "value_time": "44795.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=5782732&cid=43667&categoryId=43667",
+            "search_query": "동물등록제",
+            "terminate": false,
+            "text": "반려견이 2개월이 된 날부터 30일이 지나기 전에 지자체에 등록해야 돼. 만약 원한다면 2개월이 되지 않았어도 등록할 수 있어.",
+            "turn_id": "BK22012207-3",
+            "utterance_id": "BK22012207.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 강아지는 벌써 6개월인데, 등록 시기가 한참 지났네. 등록을 안 했다고 불이익이 있지는 않겠지?",
+            "turn_id": "BK22012207-4",
+            "utterance_id": "BK22012207.7"
+        },
+        {
+            "reference_date": "44738.0",
+            "reference_text": [
+                {
+                    "value": "동물등록을 하지 않으면 100만원 이하, 변경된 등록정보를 신고하지 않은 경우 50만원 이하 과태료가 각각 부과된다.",
+                    "value_time": "44795.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자진신고 기간 신규로 등록하거나 기존에 등록된 정보를 변경하면 미등록이나 변경신고 지연에 따른 과태료가 면제된다.",
+                    "value_time": "44795.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sisa-news.com/news/article.html?no=203286",
+            "search_query": "동물등록 과태료",
+            "terminate": false,
+            "text": "동물등록을 안 한 사람에게는 100만원 이하의 과태료가 부과돼. 등록정보가 변경됐는데 신고하지 않았을 때도 50만원 이하 과태료를 내야 해. 대신에 자진신고 기간에 새로 등록하거나 기존 등록 정보 변경을 신고하면, 과태료를 면제받을 수 있어.",
+            "turn_id": "BK22012207-4",
+            "utterance_id": "BK22012207.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "과태료는 내기 싫으니까 자진신고 기간이 언제인지 알아봐야겠어. 그런데 동물등록을 하면 관리를 받게 되는 거야?",
+            "turn_id": "BK22012207-5",
+            "utterance_id": "BK22012207.9"
+        },
+        {
+            "reference_date": "43892.0",
+            "reference_text": [
+                {
+                    "value": "동물등록을 하면 각 동물에 15자리 고유번호가 부여되며 동물보호관리시스템에서 소유자의 이름, 주소, 연락처 등 인적사항과 함께 동물의 이름, 성별, 품종, 연령 등의 정보를 관리하게 된다.",
+                    "value_time": "44795.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.finomy.com/news/articleView.html?idxno=75704",
+            "search_query": "동물등록 관리시스템",
+            "terminate": false,
+            "text": "동물등록을 한 동물은 15자리의 고유번호를 받게 돼. 그리고 동물보호 관리시스템에 따라서 이름, 주소, 연락처와 같은 소유자의 인적 사항은 물론이고, 동물의 정보도 관리하게 되어있어. 동물의 정보에는 이름, 성별을 비롯해서 품종과 연령도 포함이야.",
+            "turn_id": "BK22012207-5",
+            "utterance_id": "BK22012207.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그냥 정보만 등록하고 신고하면 되는 거야? 다른 과정 없이?",
+            "turn_id": "BK22012207-6",
+            "utterance_id": "BK22012207.11"
+        },
+        {
+            "reference_date": "44395.0",
+            "reference_text": [
+                {
+                    "value": "동물등록은 내장형 방식과 외장형 방식 중 선택할 수 있다.",
+                    "value_time": "44795.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "내장형 방식은 무선전자개체식별장치(마이크로칩)을 체내에 삽입(주사)하는 방식으로 분실 및 훼손 우려가 없다.",
+                    "value_time": "44795.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "외장형 방식은 목걸이 등 형태로 부착하는 방식이다.",
+                    "value_time": "44795.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.kmib.co.kr/article/view.asp?arcid=0016066339&code=61121111&cp=nv",
+            "search_query": "동물등록방법",
+            "terminate": false,
+            "text": "그건 아니야. 동물등록을 할 때, 내장형 방식과 외장형 방식 중 하나를 고르게 되어있어. 내장형 방식은 마이크로칩이라고 하는 무선 전자 개체식별장치를 동물의 몸에 삽입하는 것인데 분실되거나 훼손될 위험이 없어. 그리고 외장형 방식은 목걸이처럼 몸에 따로 부착하는 형식이야.",
+            "turn_id": "BK22012207-6",
+            "utterance_id": "BK22012207.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어떤 방식을 선택할지 고민해봐야겠다. 이렇게 동물등록을 하면 잃어버리는 강아지가 줄어들겠다.",
+            "turn_id": "BK22012207-7",
+            "utterance_id": "BK22012207.13"
+        },
+        {
+            "reference_date": "44309.0",
+            "reference_text": [
+                {
+                    "value": "동물보호센터에서 동물의 주인을 찾아준 경우가 동물등록제가 처음으로 시행된 2014년 1만581마리에서 2019년 1만6407마리로 늘었다는 점이다.",
+                    "value_time": "44795.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatoday.co.kr/view.php?key=20210422010013803",
+            "search_query": "동물등록제 효과",
+            "terminate": false,
+            "text": "실제로 동물등록제가 2014년에 시행된 이후로 동물보호센터에서 실종 동물의 주인을 찾아준 경우가 늘어났어. 2014년에는 1만 581마리였는데, 2019년에는 1만 6,407마리가 주인을 찾아갔거든.",
+            "turn_id": "BK22012207-7",
+            "utterance_id": "BK22012207.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동물등록제를 하는 효과가 있구나. 나도 꼭 등록할래! 그런데 우리 집에는 고양이도 있는데 고양이도 동물 등록할 수 있어?",
+            "turn_id": "BK22012207-8",
+            "utterance_id": "BK22012207.15"
+        },
+        {
+            "reference_date": "44791.0",
+            "reference_text": [
+                {
+                    "value": "현재 국내에 등록된 동물은 2021년 말 기준 278만 마리다.",
+                    "value_time": "44795.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "우리나라는 강아지만 동물등록 의무 대상이기 때문에 이중 강아지가 99.9% 이상을 차지한다.",
+                    "value_time": "44795.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고양이는 원하면 등록해준다.",
+                    "value_time": "44795.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://weekly.chosun.com/news/articleView.html?idxno=21624",
+            "search_query": "고양이 동물등록",
+            "terminate": false,
+            "text": "2021년 말 기준으로 우리나라에 등록된 동물은 278만 마리인데, 이 중에 99.9퍼센트 이상이 강아지야. 우리나라는 강아지만 의무적으로 동물등록을 해야 하기 때문이야. 그래도 원할 시에 고양이도 동물등록을 할 수 있어.",
+            "turn_id": "BK22012207-8",
+            "utterance_id": "BK22012207.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다행이다. 고양이는 산책을 하지는 않지만 그래도 불안할 때가 있거든. 고양이도 강아지랑 등록 방식은 똑같아?",
+            "turn_id": "BK22012207-9",
+            "utterance_id": "BK22012207.17"
+        },
+        {
+            "reference_date": "44588.0",
+            "reference_text": [
+                {
+                    "value": "반려견에 비해 활동이 활발한 반려묘 특성상 목걸이 훼손·탈착이 빈번할 수 있어 외장형이 아닌 내장형 방식으로만 등록할 수 있다.",
+                    "value_time": "44795.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=02978246632201984&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "반려묘 동물등록 방식",
+            "terminate": false,
+            "text": "고양이는 강아지에 비해 활동량이 많기 때문에 몸에 부착하는 목걸이는 훼손될 수도 있고 떨어지는 경우가 많아. 그래서 외장형은 불가능하고 내장형으로만 등록할 수 있어.",
+            "turn_id": "BK22012207-9",
+            "utterance_id": "BK22012207.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내일 시청에 가서 강아지와 고양이 등록을 모두 해야겠다.",
+            "turn_id": "BK22012207-10",
+            "utterance_id": "BK22012207.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋은 생각이야. 동물등록은 의무이기도 하지만, 해놓고 나면 마음이 편할 거야.",
+            "turn_id": "BK22012207-10",
+            "utterance_id": "BK22012207.20"
+        }
+    ]
+}

@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013067",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013067",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "친구가 개를 키우면 초콜릿을 조심하라고 하더라고요. 왜 개에게는 초콜릿을 먹이면 안 되나요?",
+            "turn_id": "BK22013067-1",
+            "utterance_id": "BK22013067.1"
+        },
+        {
+            "reference_date": "42848.0",
+            "reference_text": [
+                {
+                    "value": "초콜릿 원료인 카카오 열매의 씨에는 강아지가 분해하지 못하는 '테오브로민'이 들어 있습니다.",
+                    "value_time": "44787.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.sbs.co.kr/news/endPage.do?news_id=N1004159342",
+            "search_query": "강아지 초콜릿",
+            "terminate": false,
+            "text": "초콜릿은 카카오 열매로 만드는데요. 이 카카오 열매의 씨에는 테오브로민이라는 성분이 함유되어 있어 개들의 몸속에서 분해가 되지 않습니다.",
+            "turn_id": "BK22013067-1",
+            "utterance_id": "BK22013067.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "테오브로민 성분이라고요? 만약에 테오브로민이 개의 몸속으로 들어가면 어떤 일이 발생하나요?",
+            "turn_id": "BK22013067-2",
+            "utterance_id": "BK22013067.3"
+        },
+        {
+            "reference_date": "42848.0",
+            "reference_text": [
+                {
+                    "value": "초기에는 구토, 설사, 잦은 소변 등의 증상이 나타나지만 이후 심장부정맥, 내부출혈, 경련, 혼수상태에 이를 수도 있습니다.",
+                    "value_time": "44787.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.sbs.co.kr/news/endPage.do?news_id=N1004159342",
+            "search_query": "강아지 초콜릿 증상",
+            "terminate": false,
+            "text": "토하거나, 설사하거나, 소변을 자주 누는 것과 같은 초기 증상이 나타나고요. 시간이 지나면 심장부정맥, 내부 출혈, 경련, 혼수상태까지 겪을 수 있습니다.",
+            "turn_id": "BK22013067-2",
+            "utterance_id": "BK22013067.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 되게 위험해질 수 있군요. 그러면 만약에 키우는 개가 초콜릿을 먹으면 어떻게 대처해야 하나요?",
+            "turn_id": "BK22013067-3",
+            "utterance_id": "BK22013067.5"
+        },
+        {
+            "reference_date": "42837.0",
+            "reference_text": [
+                {
+                    "value": "만약 고양이나 강아지 등 반려동물이 초콜릿을 먹었을 경우 빨리 가까운 동물병원을 찾는 것이 좋다.",
+                    "value_time": "44787.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/newsRead.php?ArtNo=100703",
+            "search_query": "강아지 초콜릿 먹었을 경우",
+            "terminate": false,
+            "text": "집에서 키우는 개나 고양이가 초콜릿을 섭취했다면, 즉각 근처에 있는 동물병원으로 데려가야 합니다.",
+            "turn_id": "BK22013067-3",
+            "utterance_id": "BK22013067.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "개 키우는 사람들이 개들한테 영양식으로 우유도 자주 주잖아요. 그런데 우유가 개들한테 안 좋다고 들었거든요. 맞나요?",
+            "turn_id": "BK22013067-4",
+            "utterance_id": "BK22013067.7"
+        },
+        {
+            "reference_date": "42328.0",
+            "reference_text": [
+                {
+                    "value": "우유를 좋아하는 강아지들도 많지만 강아지들에게는 기본적으로 유당을 분해하지 못하기 때문에 이로 인하여 구토, 설사, 배탈을 일으킬 수 있다.",
+                    "value_time": "44787.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://biz.heraldcorp.com/view.php?ud=201511201153023940606_8",
+            "search_query": "강아지 유당",
+            "terminate": false,
+            "text": "우유를 좋아하는 개들도 흔히 볼 수가 있는데요. 하지만 개들은 원래 체내에서 유당이 분해되지 않습니다. 따라서 구토하거나, 설사를 일으키거나 배탈이 날 수도 있어요.",
+            "turn_id": "BK22013067-4",
+            "utterance_id": "BK22013067.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 우유가 오히려 개들한테 안 좋군요. 그러면 왜 개들은 양파를 먹으면 안 되나요?",
+            "turn_id": "BK22013067-5",
+            "utterance_id": "BK22013067.9"
+        },
+        {
+            "reference_date": "43700.0",
+            "reference_text": [
+                {
+                    "value": "강아지가 양파를 섭취했을 때 주로 나타나는 문제는 혈액 속의 적혈구가 파괴돼 빈혈이 일어난다는 것이다.",
+                    "value_time": "44787.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.k-health.com/news/articleView.html?idxno=45200",
+            "search_query": "강아지 양파 적혈구",
+            "terminate": false,
+            "text": "개가 양파를 먹게 되면 혈액 속의 적혈구가 파괴되는 일이 흔한데요. 그러면 개에게 빈혈이 생기게 됩니다.",
+            "turn_id": "BK22013067-5",
+            "utterance_id": "BK22013067.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "적혈구 파괴라니 듣기만 해도 무시무시하네요. 양파를 먹은 개는 어떻게 치료하나요?",
+            "turn_id": "BK22013067-6",
+            "utterance_id": "BK22013067.11"
+        },
+        {
+            "reference_date": "43700.0",
+            "reference_text": [
+                {
+                    "value": "양파 중독에 대한 특별한 해독제가 없다 보니, 양파를 먹은 지 두 시간 이내라면 최대한 많은 양을 구토시켜야 한다.",
+                    "value_time": "44787.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그리고 나타나는 임상 증상에 대한 대증치료가 들어가야 한다.",
+                    "value_time": "44787.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.k-health.com/news/articleView.html?idxno=45200",
+            "search_query": "강아지 양파 중독",
+            "terminate": false,
+            "text": "양파 중독된 상태를 해결하는 해독제가 별도로 있지 않아요. 그래서 양파를 섭취하고 나서 두 시간이 지나지 않은 경우라면 가급적 먹은 양파를 많이 토하게 해야 하고요. 그 후 개에게 발생하는 증상에 맞게 대응하는 방식으로 치료해줘야 합니다.",
+            "turn_id": "BK22013067-6",
+            "utterance_id": "BK22013067.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어휴, 절대로 개에게 양파를 먹이면 안 되겠군요. 제가 듣기로는 개가 포도를 먹으면 죽는다던데, 사실인가요?",
+            "turn_id": "BK22013067-7",
+            "utterance_id": "BK22013067.13"
+        },
+        {
+            "reference_date": "44411.0",
+            "reference_text": [
+                {
+                    "value": "하지만 강아지가 포도를 먹게 되면 포도가 가지고 있는 독성에 의해 신장에 이상이 생기고 급성 신부전이 발생할 수 있다.",
+                    "value_time": "44787.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 반려견이 포도를 조금만 먹었으니 괜찮다고 방심하지 말고 빠르게 동물병원에서 응급처치를 받아야 한다.",
+                    "value_time": "44787.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.k-health.com/news/articleView.html?idxno=54861",
+            "search_query": "강아지 포도 이상",
+            "terminate": false,
+            "text": "개가 포도를 섭취하게 되면, 포도의 독성이 개의 신장에 문제를 일으키게 됩니다. 그래서 급성 신부전증이 생길 수가 있고요. 만약 키우는 개가 조금이라도 포도를 먹었다면 마음 놓고 있지 말고 즉시 동물병원에 가서 응급치료를 해줘야 합니다.",
+            "turn_id": "BK22013067-7",
+            "utterance_id": "BK22013067.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "포도를 먹을 때 키우는 개 근처에 있으면 안 되겠군요. 그건 그렇고 개들에게 동물 뼈를 주는 건 괜찮나요?",
+            "turn_id": "BK22013067-8",
+            "utterance_id": "BK22013067.15"
+        },
+        {
+            "reference_date": "44013.0",
+            "reference_text": [
+                {
+                    "value": "삶거나 익힌 뼈는 잘 부서진다.",
+                    "value_time": "44787.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 뼛조각이 목에 걸리면 질식을 일으킬 수 있고, 장에 들어가서도 소화기관에 구멍을 낼 수 있어 특히 위험하다.",
+                    "value_time": "44787.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.wikitree.co.kr/articles/547873",
+            "search_query": "강아지 뼛조각",
+            "terminate": false,
+            "text": "그렇지 않습니다. 삶거나 익힌 뼈는 쉽게 부러지게 되는데, 개 목에 뼛조각이 걸리면 숨이 막힐 수 있고요. 장으로 넘어가더라도 소화기관에 천공을 일으킬 수 있기 때문에 매우 위험합니다.",
+            "turn_id": "BK22013067-8",
+            "utterance_id": "BK22013067.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 개들이 뼈다귀를 뜯고 있는 건 만화 속에서나 가능한 일이군요.",
+            "turn_id": "BK22013067-9",
+            "utterance_id": "BK22013067.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 실제로는 매우 위험한 행동이죠.",
+            "turn_id": "BK22013067-9",
+            "utterance_id": "BK22013067.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "주변에 개를 키우는 친구들에게 말해줘야겠어요. 그러면 조심히 잘 들어가세요!",
+            "turn_id": "BK22013067-10",
+            "utterance_id": "BK22013067.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 조심히 잘 들어가세요!",
+            "turn_id": "BK22013067-10",
+            "utterance_id": "BK22013067.20"
+        }
+    ]
+}

@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015194",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015194",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0017"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금 전셋집에 살고 있는데 전세금을 올려 달라고 해서 이사를 해야 해요. 이율이 높아서 월세로 갈까 고민 중인데 월세도 많이 오른 것 같더라고요. 월세가 평균 얼마나 올랐나요?",
+            "turn_id": "BK22015194-1",
+            "utterance_id": "BK22015194.1"
+        },
+        {
+            "reference_date": "2022-10-06",
+            "reference_text": [
+                {
+                    "value": "높아진 금융 부담에 매매시장과 전세시장이 급속도로 위축되는 반면, 월세 수요는 큰 폭으로 증가하며 월세가격도 치솟았다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "8월 수도권 아파트 월세가격지수는 105.08로, 전월(104.7)보다 0.38포인트 상승하며 역대 최고치를 기록 중이다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailian.co.kr/news/view/1159381/?sc=Naver",
+            "search_query": "월세 가격 상승",
+            "terminate": false,
+            "text": "매매와 전세시장이 위축됐지만 월세 수요가 늘어나 가격도 많이 올랐어요. 8월 수도권 아파트 월세가격지수는 105.08로 7월의 104.7보다 상승해서 역대 최고치를 기록했죠.",
+            "turn_id": "BK22015194-1",
+            "utterance_id": "BK22015194.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역대 최고치의 상승을 기록하고 있군요. 그럼 이자가 조금 높더라도 전세를 가는 게 나을 수도 있겠네요. 요즘엔 전세 사기가 많다고 하던데 진짜인가요?",
+            "turn_id": "BK22015194-2",
+            "utterance_id": "BK22015194.3"
+        },
+        {
+            "reference_date": "2022-10-06",
+            "reference_text": [
+                {
+                    "value": "전세 사기가 전 사회적인 공포로 확산되고 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "서울 서부지역 다세대(빌라) 갭투자 전세 사기부터 최근에는 인천 미추홀구 아파트·오피스텔이 통째로 경매에 넘어가는 전세 사기 사건까지, 피해 규모와 양상이 확대되고 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전세 사기가 ‘누구나 당할 수 있는 공포’로 번진 것은 어떤 임차인(세입자)도 임대인(집주인)의 재산 상황, 보유 주택 수, 위험 정도를 알 수 없기 때문이다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisain.co.kr/news/articleView.html?idxno=48523",
+            "search_query": "전세 사기",
+            "terminate": false,
+            "text": "맞아요. 전세 사기가 빈번해 전 사회적인 공포가 되고 있죠. 서울 서부지역의 갭투자 전세 사기부터 인천 미추홀구의 전세 사기 사건까지 규모가 커지고 있어요. 세입자가 집주인의 재산 상황과 보유 주택 수, 위험 정도를 알 수 없기 때문에 누구나 당할 수 있는 거죠.",
+            "turn_id": "BK22015194-2",
+            "utterance_id": "BK22015194.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전세도 사기 사건이 정말 많군요. 그럼 국가에서 하는 임대주택 같은데를 가야 하나 고민이네요. 임대주택의 종류는 어떤 게 있나요?",
+            "turn_id": "BK22015194-3",
+            "utterance_id": "BK22015194.5"
+        },
+        {
+            "reference_date": "2021-06-27",
+            "reference_text": [
+                {
+                    "value": "공공임대주택은 취약계층의 생활안정과 주거수준 향상을 위해 시세보다 저렴한 조건에 제공하는 주택으로 요건을 충족하면 장기간 안정적으로 거주할 수 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "종류별로는 영구임대·국민임대와 행복주택, 매입·전세임대가 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newspim.com/news/view/20210625000976",
+            "search_query": "임대주택 종류",
+            "terminate": false,
+            "text": "공공임대주택은 영구임대, 국민임대, 행복주택, 매입이나 전세임대의 종류가 있어요. 취약계층의 생활안정과 주거수준 향상을 위해서 시세보다 저렴하게 살 수 있죠.",
+            "turn_id": "BK22015194-3",
+            "utterance_id": "BK22015194.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임대주택도 종류가 정말 많군요. 매입 임대주택은 제가 집을 사는 건가요?",
+            "turn_id": "BK22015194-4",
+            "utterance_id": "BK22015194.7"
+        },
+        {
+            "reference_date": "2022-10-04",
+            "reference_text": [
+                {
+                    "value": "청년형 매입임대주택은 다세대·다가구·오피스텔 등 기존주택을 매입해 시중 시세보다 저렴한 임대료로 무주택 청년에게 공급하는 정책이다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newsworks.co.kr/news/articleView.html?idxno=610899",
+            "search_query": "매입 임대주택이란",
+            "terminate": false,
+            "text": "아니요, 청년형 매입임대주택은 기존주택을 매입해서 시중 가격보다 저렴하게 무주택 청년에게 공급하는 제도예요.",
+            "turn_id": "BK22015194-4",
+            "utterance_id": "BK22015194.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "국가가 주택을 매입에서 싸게 임대 공급을 해주는 걸 매입임대주택이라고 하는군요. 매입임대주택의 자격 조건은 있나요?",
+            "turn_id": "BK22015194-5",
+            "utterance_id": "BK22015194.9"
+        },
+        {
+            "reference_date": "2022-10-04",
+            "reference_text": [
+                {
+                    "value": "입주자격은 무주택자 중 미혼인 청년으로 대학생, 취업준비생, 만19세 이상 만39세 이하 중 하나에 해당하면 청년으로 인정된다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "소득기준은 본인의 소득이 385만4536원 이하(3순위 기준)이면 신청 가능하다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newsworks.co.kr/news/articleView.html?idxno=610899",
+            "search_query": "매입 임대주택이란",
+            "terminate": false,
+            "text": "무주택자 미혼 청년 중 대학생, 취업준비생, 만 19세 이상 만 39세 이하 중 하나에 속하면 청년으로 인정돼요. 소득이 385만 4536원 이하면 신청이 가능하고요.",
+            "turn_id": "BK22015194-5",
+            "utterance_id": "BK22015194.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "미혼만 가능하네요. 저는 작년에 결혼했는데 기혼들을 위한 임대주택은 없나요?",
+            "turn_id": "BK22015194-6",
+            "utterance_id": "BK22015194.11"
+        },
+        {
+            "reference_date": "2022-09-21",
+            "reference_text": [
+                {
+                    "value": "신혼부부 매입임대주택은 ▲다가구 주택 등에서 시세 30~40%로 거주할 수 있는 Ⅰ유형(1541가구) ▲아파트·오피스텔 등에서 시세 60~80%로 거주할 수 있는 Ⅱ유형(970가구)으로 공급된다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "신청자격은 결혼 7년 이내의 신혼부부와 예비신혼부부 외에도 만 6세 이하 자녀를 양육하는 가구 및 일반 혼인가구(신혼Ⅱ)에게도 주어진다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20220921_0002020818&cID=10401&pID=10400",
+            "search_query": "신혼부부 임대주택",
+            "terminate": false,
+            "text": "신혼부부 매입임대주택이 있어요. 다가구주택에서 거주하는 I유형과 아파트나 오피스텔에서 거주할 수 있는 II유형이 있어요. 결혼 7년 이내의 신혼부부와 예비부부, 만 6세 이하 자녀를 양육하는 가구 및 일반 혼인가구도 신청할 수 있어요.",
+            "turn_id": "BK22015194-6",
+            "utterance_id": "BK22015194.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다행히 신혼부부를 위한 임대주택도 있군요. 일정 기간 살고 나서 제가 집을 살 수 있는 임대주택도 있다던데 그건 어떤 건지 알고 싶어요.",
+            "turn_id": "BK22015194-7",
+            "utterance_id": "BK22015194.13"
+        },
+        {
+            "reference_date": "2022-10-04",
+            "reference_text": [
+                {
+                    "value": "다만 일정기간 거주 후 분양전환이 되는 공공임대와 달리 국민임대, 행복주택은 분양전환이 되지 않는 대신 청약통장이 소멸되지 않기 때문에 거주 중 다른 주택 청약을 하는 것은 퇴거사유에만 해당될 뿐 불법은 아니다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/economy/real_estate/article/202210031013001",
+            "search_query": "분양전환 공공임대란",
+            "terminate": false,
+            "text": "일정 기간 살다가 집을 분양받을 수 있는 건 공공임대 주택 이에요. 국민임대와 행복주택은 분양전환이 되지 않죠.",
+            "turn_id": "BK22015194-7",
+            "utterance_id": "BK22015194.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임대로 살다가 살던 집을 구매할 수 있는 건 공공임대군요. 종류가 너무 많아서 헷갈리네요. 그럼 공공임대는 청약통장이 소멸되는 건가요?",
+            "turn_id": "BK22015194-8",
+            "utterance_id": "BK22015194.15"
+        },
+        {
+            "reference_date": "2019-01-20",
+            "reference_text": [
+                {
+                    "value": "10년 공공임대주택의 경우 당첨과 함께 청약통장이 소멸된다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 5년간 재당첨이 금지되며, 우선 분양권을 얻기 위해서는 임대기간인 10년간 무주택 자격을 유지해야 한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.inews365.com/news/article.html?no=566729",
+            "search_query": "공공임대 청약통장 소멸",
+            "terminate": false,
+            "text": "네, 10년 공공임대주택은 당첨되면 청약통장이 소멸돼요. 그리고 5년 동안 재당첨이 금지되고 임대기간 10년동안 무주택을 유지해야 우선 분양권을 얻을 수 있어요.",
+            "turn_id": "BK22015194-8",
+            "utterance_id": "BK22015194.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 매입할 집을 청약통장을 통해 당첨하고 10년간만 저렴하게 임대하는 거네요. 머리를 잘 써야겠어요.",
+            "turn_id": "BK22015194-9",
+            "utterance_id": "BK22015194.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임대주택의 종류가 많다 보니 조건에 맞는 제도를 찾아서 신청하는 게 중요해요.",
+            "turn_id": "BK22015194-9",
+            "utterance_id": "BK22015194.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 덕분에 오늘 임대주택에 대해 자세히 알게 되었네요. 다음에 또 이야기 나눠요.",
+            "turn_id": "BK22015194-10",
+            "utterance_id": "BK22015194.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 다행이네요. 또 궁금한 게 있으시면 언제든지 말씀해 주세요. 다음에 또 이야기 나눠요.",
+            "turn_id": "BK22015194-10",
+            "utterance_id": "BK22015194.20"
+        }
+    ]
+}

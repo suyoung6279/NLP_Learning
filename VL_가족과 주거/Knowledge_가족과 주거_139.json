@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018110",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018110",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0036"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0019"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "곧 아이가 태어나는데 첫 아이라서 아직 아무것도 모르겠어. 국가에서 필수로 지정한 예방접종이 있다는데 이게 뭐야?",
+            "turn_id": "BK22018110-1",
+            "utterance_id": "BK22018110.1"
+        },
+        {
+            "reference_date": "44740.0",
+            "reference_text": [
+                {
+                    "value": "정부는 신생아를 비롯한 영유아의 예방접종률을 높이기 위해 국가에서 권장하는 예방접종 즉, 국가필수예방접종 대상을 지정하고 이에 대한 접종비용을 지원하는 국가예방접종 지원사업을 실시하고 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만 12세 이하의 모든 어린이에게 무료로 지원되는 백신은 결핵(BCG) 외에도 B형간염, 디프테리아, 파상풍, 백일해, 폴리오, 사람유두종바이러스, 인플루엔자 등에 대한 백신으로, 총 17종이다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000692787",
+            "search_query": "영유아 국가필수예방접종",
+            "terminate": false,
+            "text": "정부가 실시하는 국가 예방접종 지원사업 말하는 거지? 이 사업의 목적은 영유아의 예방 접종률을 높이는 건데, 만 12세 이하의 아이에게 총 17종의 백신을 지원해. 지원되는 백신의 종류는 결핵, B형간염, 디프테리아, 백일해 등이 있어.",
+            "turn_id": "BK22018110-1",
+            "utterance_id": "BK22018110.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 17개라니 정말 많다. 그중에서 가장 먼저 맞아야 하는 주사는 어떤 거야?",
+            "turn_id": "BK22018110-2",
+            "utterance_id": "BK22018110.3"
+        },
+        {
+            "reference_date": "44523.0",
+            "reference_text": [
+                {
+                    "value": "가장 먼저 접종해야 하는 ‘1번 백신’은 생후 1개월이 지나기 전에 맞아야 하는 ‘결핵(BCG)’과 ‘B형간염(HepB)’이다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/society/article/2021111916061",
+            "search_query": "영유아 예방접종 가장 먼저",
+            "terminate": false,
+            "text": "결핵 주사와 B형간염 주사인데, 이건 아이가 태어난 지 1달이 안 됐을 때 접종해야 해.",
+            "turn_id": "BK22018110-2",
+            "utterance_id": "BK22018110.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 주사는 어디서 맞을 수 있어?",
+            "turn_id": "BK22018110-3",
+            "utterance_id": "BK22018110.5"
+        },
+        {
+            "reference_date": "43546.0",
+            "reference_text": [
+                {
+                    "value": "만 12세 이하 아동(2006년 1월 1일 이후 출생자)은 17종의 예방접종(BCG, B형간염, DTaP, 소아마비, 뇌수막염, 폐렴구균, 일본뇌염, 사람유두종바이러스 등)을 전국의 보건소 또는 지정의료기관에서 무료로 접종받을 수 있으며, 지정의료기관은 ‘예방접종도우미’ 사이트에서 조회가 가능하다.",
+                    "value_time": "44850.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.siminilbo.co.kr/news/articleView.html?idxno=615226",
+            "search_query": "국가필수예방접종 보건소",
+            "terminate": false,
+            "text": "접종 기관은 전국에 있는 보건소나 국가에서 지정한 의료기관이야. 지정의료기관은 예방접종도우미라는 사이트에서 찾아볼 수 있어.",
+            "turn_id": "BK22018110-3",
+            "utterance_id": "BK22018110.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "국가에서 지정했다는 예방주사 17종은 가격이 어떻게 돼?",
+            "turn_id": "BK22018110-4",
+            "utterance_id": "BK22018110.7"
+        },
+        {
+            "reference_date": "43671.0",
+            "reference_text": [
+                {
+                    "value": "※ BCG접종의 경우 국가지원 백신인 피내용백신과 국가지원 백신이 아닌 ,경피용백신 접종을 모두 포함",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우리나라의 높은 접종률 유지 요인으로는 2014년부터 만 12세 이하 어린이 대상으로 필수예방접종 백신의 무료접종(보건소, 의료기관 실시)에 대한 국가지원, 적기접종 알림 및 접종 지연 안내를 위한 보호자 개별 문자(메시지) 발송, 초등학교·중학교 입학 시 접종력 확인 등 접종률 관리 강화 등이 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://medicalworldnews.co.kr/news/view.php?idx=1510931750",
+            "search_query": "국가필수예방접종 무료",
+            "terminate": false,
+            "text": "2014년부터 국가 필수예방접종은 모두 무료로 접종할 수 있어. 다만, 결핵 주사인 BCG는 피내용 백신, 경피용 백신 2가지가 있는데 이 중 피내용 백신만 국가에서 지원해줘.",
+            "turn_id": "BK22018110-4",
+            "utterance_id": "BK22018110.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 무료라니 정말 좋다. 아이가 주사를 맞으러 갈 때 내가 챙겨가야 하는 건 어떤 게 있어?",
+            "turn_id": "BK22018110-5",
+            "utterance_id": "BK22018110.9"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "접종 내역이 적혀있는 아기 수첩을 가지고 가면 돼.",
+            "turn_id": "BK22018110-5",
+            "utterance_id": "BK22018110.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 항상 잘 챙겨가야겠다. 백신 종류가 17개라고 했는데, 그럼 내가 아이를 데리고 17번만 주사를 맞으러 가면 되는 거야?",
+            "turn_id": "BK22018110-6",
+            "utterance_id": "BK22018110.11"
+        },
+        {
+            "reference_date": "43635.0",
+            "reference_text": [
+                {
+                    "value": "생백신은 살아있는 바이러스의 독성을 약화시키는 방식으로 만들어 면역력이 오래 유지되는 반면, 사백신은 죽은 바이러스의 일부를 이용해 만들기 때문에 생백신과 동등한 예방효과를 나타나기 위해 여러 차례 접종이 필요하다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2019/06/18/2019061801923.html",
+            "search_query": "국가필수예방접종 1회",
+            "terminate": false,
+            "text": "백신이 생백신인지 혹은 사백신인지에 따라 접종 횟수가 달라져. 생백신은 살아있는 바이러스를 주입하기 때문에 면역력이 오래 유지되지만, 사백신은 죽은 바이러스를 활용해서 만든 백신이기 때문에 여러 번 접종이 필요해.",
+            "turn_id": "BK22018110-6",
+            "utterance_id": "BK22018110.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "병원을 굉장히 자주 가야겠구나. 주사 맞는 횟수를 줄일 방법은 없을까?",
+            "turn_id": "BK22018110-7",
+            "utterance_id": "BK22018110.13"
+        },
+        {
+            "reference_date": "44526.0",
+            "reference_text": [
+                {
+                    "value": "한 번의 접종으로 다양한 감염 질환을 예방할 수 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "접종해야 할 백신 종류가 많은 영유아 예방 접종에 많이 활용된다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "영유아 대상 혼합 백신은 DTaP(디프테리아·파상풍·백일해)와 MMR(홍역·유행성 이하선염·풍진)이 대표적이다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "DTaP 혼합 백신은 4가, 5가 두 종류가 국가 필수 예방 접종으로 지정돼 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "5가 혼합 백신을 접종하면 기존 단독 백신 접종 시 최대 9회에 이르는 접종 횟수를 3회로 줄일 수 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/economy/view/2021/1099055",
+            "search_query": "혼합백신",
+            "terminate": false,
+            "text": "혼합백신은 어때? 혼합백신은 다양한 질병의 백신을 한 번의 접종으로 예방할 수 있어서 영유아의 예방 접종에 유용해. 대표적인 혼합백신의 예로는 디프테리아, 파상풍, 백일해의 백신이 합쳐진 DTaP와 홍역, 유행성 이하선염, 풍진의 백신이 합쳐진 MMR이 있어. 우리나라의 국가 필수예방접종에 지정된 DTaP 혼합 백신은 4가와 5가야. 기존에 개별적으로 백신 주사를 맞으면 최대 9번 맞아야 했는데 5가를 접종하면 3회만 접종하면 돼.",
+            "turn_id": "BK22018110-7",
+            "utterance_id": "BK22018110.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 좋은데? 그런데 내가 깜빡해서 필수예방접종 주사가 누락될까 봐 걱정돼. 누락하지 않을 좋은 방법이 없을까?",
+            "turn_id": "BK22018110-8",
+            "utterance_id": "BK22018110.15"
+        },
+        {
+            "reference_date": "44677.0",
+            "reference_text": [
+                {
+                    "value": "아이가 언제 어떤 백신을 접종해야 하는지 헷갈린다면 캘린더 형식의 표준 예방접종 일정표를 살펴보면 한눈에 대략적인 접종 일정을 가늠할 수 있습니다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "질병관리청에서 운영하는 예방접종도우미(nip.kdca.go.kr)에서도 개인별 백신 접종 내역 등을 확인할 수 있습니다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://jhealthmedia.joins.com/article/article_view.asp?pno=25324",
+            "search_query": "예방접종도우미",
+            "terminate": false,
+            "text": "달력 형식의 표준 예방접종 일정표를 참고하면 아이의 접종 일정을 한눈에 볼 수 있어서 덜 헷갈릴 거야. 아이가 어떤 주사를 맞았는지 보고 싶다면 질병관리청이 운영하는 예방접종도우미 사이트에서 확인하면 돼.",
+            "turn_id": "BK22018110-8",
+            "utterance_id": "BK22018110.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고마워, 참고할게. 주사마다 맞는 시기가 다른 것 같은데 정해진 시기는 꼭 지켜야 하는 거야?",
+            "turn_id": "BK22018110-9",
+            "utterance_id": "BK22018110.17"
+        },
+        {
+            "reference_date": "44722.0",
+            "reference_text": [
+                {
+                    "value": "특히, 태어난 지 얼마 안 되는 영유아, 등교와 수학여행 등 집단생활을 맞이하는 청소년, 외부 활동이 잦은 성인과 면역력이 저하된 고령층 등 적기에 권장되는 예방접종을 마치는 것을 권고하고 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "영유아를 비롯해 갓 태어난 신생아는 몸을 방어할 수 있는 면역력이 아직 충분하지 안기 때문에 예방접종을 통한 면역 항체를 형성에 감염병에 대한 방어능력을 갖춰야 한다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yakup.com/news/index.html?mode=view&cat=12&nid=270400",
+            "search_query": "예방접종 적기",
+            "terminate": false,
+            "text": "태어난 지 얼마 되지 않는 영유아의 예방접종에서 중요한 점은 적기에 접종하는 거야. 태어난 지 얼마되지 않는 영유아의 면역력은 스스로 몸을 방어할 수 있을 만큼 충분하지 않아서 적기에 예방접종을 통해 질병에 대한 면역 항체를 길러야 해.",
+            "turn_id": "BK22018110-9",
+            "utterance_id": "BK22018110.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 아이가 태어난 후에도 해야 할 일이 산더미구나. 내가 잘 해낼 수 있을지 걱정된다.",
+            "turn_id": "BK22018110-10",
+            "utterance_id": "BK22018110.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "분명 잘 할 수 있을 거야. 너무 걱정하지 말고 순산하길 바랄게!",
+            "turn_id": "BK22018110-10",
+            "utterance_id": "BK22018110.20"
+        }
+    ]
+}

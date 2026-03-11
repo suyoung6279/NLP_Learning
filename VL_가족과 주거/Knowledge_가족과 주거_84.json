@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22017799",
+        "name": "2022 한국어 블렌더봇 데이터 BK22017799",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0018"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전부터 중학생 첫째가 버스를 타고 학원에 다니기 시작했거든요. 교통카드 잔액을 미리미리 충전하라고 여러 번 얘기했는데 자꾸 깜빡하더니 어제는 교통카드 잔액이 부족해서 난감했나 봐요.",
+            "turn_id": "BK22017799-1",
+            "utterance_id": "BK22017799.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 상황이면 어른들도 당황하는데 아이가 많이 놀랐겠어요. 버스는 문제없이 탔다고 하던가요?",
+            "turn_id": "BK22017799-1",
+            "utterance_id": "BK22017799.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 다행히 현금을 가지고 있어서 현금을 내고 탔대요. 혹시 이런 경우에 쓰라고 제 신용카드를 하나 줄까 하는데 자녀가 제 명의로 된 신용카드를 사용해도 괜찮나요?",
+            "turn_id": "BK22017799-2",
+            "utterance_id": "BK22017799.3"
+        },
+        {
+            "reference_date": "2021-04-30",
+            "reference_text": [
+                {
+                    "value": "여신전문금융업법에 따르면 체크카드와 신용카드는 가족을 포함한 그 누구에게도 양도할 수 없다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "편리하다는 이유로 자신의 카드를 자녀에게 주는 부모들이 많지만 주의할 필요가 있다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nongmin.com/news/NEWS/ECO/FNC/337460/view",
+            "search_query": "체크카드와 신용카드 가족 양도",
+            "terminate": false,
+            "text": "체크카드와 신용카드는 여신전문금융업법에 따라 가족은 물론 그 누구에게도 양도할 수 없어요. 편의를 위해 자녀에게 자신의 카드를 주는 경우가 많지만, 주의할 필요가 있는 것이죠.",
+            "turn_id": "BK22017799-2",
+            "utterance_id": "BK22017799.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 미리 여쭤보길 잘했네요. 그럼 미성년자는 신용카드를 만들 수 없으니 후불 교통카드도 사용할 수 없는 거죠?",
+            "turn_id": "BK22017799-3",
+            "utterance_id": "BK22017799.5"
+        },
+        {
+            "reference_date": "2020-04-23",
+            "reference_text": [
+                {
+                    "value": "오는 27일부터 만 18세 미만 청소년도 '후불교통카드' 발급이 가능해진다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "금융당국은 대중교통 이용이 많은 만 18세 미만 청소년이 대중교통 이용시 매번 교통카드를 충전해야하는 불편을 해소하기 위해 카드사와 교통인프라사업자와 협의를 통해 월 5만 원 한도로 후불교통카드 발급이 가능하도록 제도 개선이 이뤄졌다고 밝혔다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.consumernews.co.kr/news/articleView.html?idxno=604312",
+            "search_query": "청소년 후불교통카드 발급",
+            "terminate": false,
+            "text": "그렇지 않아요. 2020년 4월 27일부터 만 18세 미만의 청소년도 후불 교통카드 발급할 수 있었거든요. 대중교통을 자주 이용하는 만 18세 미만의 청소년이 대중교통을 이용하기 위해 교통카드를 번번이 충전해야 하는 불편을 없애기 위해 금융당국에서 카드사 및 교통 인프라 사업자와 협의하여, 한 달에 5만 원까지 사용할 수 있는 후불 교통카드를 발급하도록 제도를 개선한 것이죠.",
+            "turn_id": "BK22017799-3",
+            "utterance_id": "BK22017799.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 진작 더 알아볼 걸 그랬네요. 아이에게 바로 발급해 주고 싶은데 발급하려면 어떻게 하면 돼요?",
+            "turn_id": "BK22017799-4",
+            "utterance_id": "BK22017799.7"
+        },
+        {
+            "reference_date": "2020-04-23",
+            "reference_text": [
+                {
+                    "value": "발급 신청을 하려면 청소년 본인이 법정대리인과 함께 전국 시중은행 또는 카드사 영업점을 방문해 신청하거나 일부 카드사는 대표전화 통화 등을 통해 청소년 후불교통카드 발급 신청을 할 수 있다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.consumernews.co.kr/news/articleView.html?idxno=604312",
+            "search_query": "청소년 후불교통카드 발급 신청",
+            "terminate": false,
+            "text": "청소년 본인과 법정대리인이 함께 전국에 위치한 시중은행이나 카드사의 영업점을 방문해서 신청하면 돼요. 일부 카드사의 경우 대표 번호에 전화를 걸어 청소년 후불 교통카드의 발급을 신청하는 것도 가능하고요.",
+            "turn_id": "BK22017799-4",
+            "utterance_id": "BK22017799.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 후불 기능이 있다는 건 신용카드라는 의미인가요? 미성년자는 신용카드를 만들 수 없다고 알고 있는데 아닌가요?",
+            "turn_id": "BK22017799-5",
+            "utterance_id": "BK22017799.9"
+        },
+        {
+            "reference_date": "2020-04-23",
+            "reference_text": [
+                {
+                    "value": "청소년 후불교통결제 기능은 '체크카드'에 추가된다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 여신전문금융업법상 신용카드는 만 19세 이상 성인만 발급이 가능하기 때문이다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 때문에 일반 체크카드와 달리 후불 기능이 있는 점을 고려해 후불교통카드 발급 신청시 카드 발급신청서와 본인확인 서류 외에도 법정 대리인의 동의가 필요하다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.consumernews.co.kr/news/articleView.html?idxno=604312",
+            "search_query": "청소년 체크카드 후불교통 기능 추가",
+            "terminate": false,
+            "text": "알고 계시는 대로 신용카드는 여신전문금융업법상 만 19세 이상인 성인만 발급할 수 있어요. 따라서 청소년 후불 교통 결제 기능은 신용카드가 아닌 체크카드에 추가되죠. 그렇지만 일반 체크카드에는 없는 후불 기능이 탑재되기 때문에 후불 교통카드의 발급을 신청하려면 카드 발급신청서, 본인확인 서류뿐만 아니라 법정 대리인의 동의가 필요한 것이고요.",
+            "turn_id": "BK22017799-5",
+            "utterance_id": "BK22017799.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 체크카드에 후불 교통카드 기능만 추가된다는 말씀이군요. 그런데 조금 전에 한도는 한 달에 5만 원이라고 하셨죠? 혹시 한도가 초과하여 대중교통을 타지 못하는 일이 생길까 봐 걱정인데, 한도를 더 늘릴 수는 없나요?",
+            "turn_id": "BK22017799-6",
+            "utterance_id": "BK22017799.11"
+        },
+        {
+            "reference_date": "2020-04-23",
+            "reference_text": [
+                {
+                    "value": "이용한도는 청소년들의 대중교통 이용 수준과 미상환 가능성 등을 고려해 원칙적으로 월 5만 원으로 설정하고 일부 카드사는 청소년이 별도 신청을 통해 결제일 이전에 이미 사용한 5만 원을 출금계좌를 통해 먼저 정산하고 기존 결제일가지 추가로 5만 원 이용은 가능하다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.consumernews.co.kr/news/articleView.html?idxno=604312",
+            "search_query": "청소년 후불교통카드 한도",
+            "terminate": false,
+            "text": "10만 원까지 한도 상향이 가능해요. 청소년들의 대중교통 이용 현황과 미상환에 대한 위험성 등을 반영해서 이용 한도는 원칙적으로 월 5만 원으로 정해져 있지만 일부 카드사의 경우 청소년이 따로 신청할 경우 결제일이 돌아오기 전에 출금 계좌를 통해 먼저 사용한 5만 원을 사전 정산하면 기존의 결제일까지 5만 원을 추가로 이용하는 게 가능하거든요.",
+            "turn_id": "BK22017799-6",
+            "utterance_id": "BK22017799.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 조금 안심이네요. 그럼 미성년자일 때 사용하던 기능이니 성인이 되면 더 이상 해당 카드를 후불 교통카드로 사용할 수 없는 건가요?",
+            "turn_id": "BK22017799-7",
+            "utterance_id": "BK22017799.13"
+        },
+        {
+            "reference_date": "2020-04-23",
+            "reference_text": [
+                {
+                    "value": "연령별 권종 구분을 위해 가입 시 생년월일 정보를 카드에 추가 입력하기 때문에 차후 성년이 될 경우 자동으로 성인요금이 적용돼 카드 재발급 없이 그대로 사용할 수 있다는 점도 특징 중 하나다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.consumernews.co.kr/news/articleView.html?idxno=604312",
+            "search_query": "청소년 후불교통카드 성년 이후 교체 발급",
+            "terminate": false,
+            "text": "아니에요, 연령에 따라 권종을 구분하기 위해 카드에 가입할 때 출생일 정보를 추가로 입력하므로 만약 성년을 맞이한다면 별도의 절차 없이 자동으로 성인 요금으로 변경되어 적용되기 때문에 카드를 다시 만들지 않아도 그대로 사용할 수 있어요.",
+            "turn_id": "BK22017799-7",
+            "utterance_id": "BK22017799.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 편리하네요. 그런데 정작 중요한 걸 확인 안 했네요. 일단 체크카드가 있어야 후불교통 기능을 쓸 수 있는 건데 중학교 1학년인 아이에게 체크카드를 만들어 줄 수 있는 건가요?",
+            "turn_id": "BK22017799-8",
+            "utterance_id": "BK22017799.15"
+        },
+        {
+            "reference_date": "2019-02-15",
+            "reference_text": [
+                {
+                    "value": "우선 체크카드 발급 연령은 만 12세부터다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "작년에 금융당국이 '카드 이용 관련 국민불편 해소방안'을 발표하면서 체크카드 발급 연령을 만 14세에서 만 12세로 낮췄다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "즉 이제는 중학교 1학년만 돼도 체크카드를 만들 수 있다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20190215114225160",
+            "search_query": "체크카드 발급 연령",
+            "terminate": false,
+            "text": "네, 만 12세부터 체크카드를 발급받을 수 있으니 중학교 1학년이면 체크카드를 만들 수 있어요. 예전에는 만 14세부터 발급할 수 있었는데 2018년부터 발급 연령이 만 12세로 낮아졌거든요.",
+            "turn_id": "BK22017799-8",
+            "utterance_id": "BK22017799.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그럼 우선 체크카드부터 만들어야겠네요. 체크카드를 발급받으려면 어떤 서류를 준비해야 하나요?",
+            "turn_id": "BK22017799-9",
+            "utterance_id": "BK22017799.17"
+        },
+        {
+            "reference_date": "2019-02-15",
+            "reference_text": [
+                {
+                    "value": "체크카드를 만들 때는 기본적으로 본인의 여권, 학생증, 청소년증 등 신분증과 기본증명서, 가족관계증명서 등이 필요하다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "모든 증명서류는 발급일로부터 3개월 이내여야 한다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "단, 만 12~13세의 경우 부모 등 법정대리인의 동의가 반드시 필요하기 때문에 반드시 보호자와 동행해야 하며, 체크카드를 만들려는 미성년자의 기본 인적사항을 증명할 수 있는 서류와 보호자임을 증명하는 서류도 준비해야 한다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20190215114225160",
+            "search_query": "청소년 체크카드 발급 필요 서류",
+            "terminate": false,
+            "text": "우선 여권, 학생증, 청소년증과 같은 발급 신청자 본인의 신분증과 기본증명서, 가족관계증명서 등이 기본적으로 필요해요. 모든 증명서류는 발급일로부터 3개월이 지나지 않은 것만 인정된다는 것도 꼭 기억하시고요. 그리고 만 12~13세의 청소년이 체크카드를 발급받으려면 반드시 부모 등 법정대리인이 동의해야 하므로 꼭 보호자와 함께 가야 해요. 마지막으로 체크카드를 발급받고자 하는 미성년자의 기본 인적 사항에 대한 증빙 서류와 보호자라는 것을 증명하는 서류도 함께 준비해야 한다는 것도 잊지 마세요.",
+            "turn_id": "BK22017799-9",
+            "utterance_id": "BK22017799.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 알려주신 대로 꼼꼼하게 챙겨서 아이에게 체크카드를 발급해 줄게요. 자세히 알려 주셔서 감사해요. 정말 큰 도움이 되었어요.",
+            "turn_id": "BK22017799-10",
+            "utterance_id": "BK22017799.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 기쁘네요. 앞으로도 궁금한 게 있으면 언제든 물어보세요.",
+            "turn_id": "BK22017799-10",
+            "utterance_id": "BK22017799.20"
+        }
+    ]
+}

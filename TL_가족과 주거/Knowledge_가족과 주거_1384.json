@@ -1,0 +1,366 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009155",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009155",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0018"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "화장실 인테리어를 새로 하려고 하는데 습식으로 할지 건식으로 할지 고민이야. 습식과 건식에 대해 자세히 알아보고 고민해 봐야 할 것 같은데, 설명 좀 해 줄래?",
+            "turn_id": "BK22009155-1",
+            "utterance_id": "BK22009155.1"
+        },
+        {
+            "reference_date": "2017-05-06",
+            "reference_text": [
+                {
+                    "value": "습식 욕실은 한마디로 '물 사용이 쉬운 욕실'을 말한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "샤워기와 세면대, 배변공간을 따로 구분하지 않고 한 곳에 모아두고 쓰는 형태로 이뤄졌다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 벽과 바닥이 늘 물에 젖어 있기 때문에 곰팡이 등 세균이 번식하기 쉽다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "때문에 최소 일주일에 한번은 청소를 해줘야 한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2017050414122794840&outlink=1&ref=https%3A%2F%2Fsearch.naver.com",
+            "search_query": "습식욕실",
+            "terminate": false,
+            "text": "화장실 인테리어 때문에 고민이 많구나. 먼저 습식욕실에 대해 설명해 주면 물 사용이 쉬운 화장실이 습식이야. 샤워기와 세면대, 배변 공간을 별도로 구별하지 않고 한곳에 모여 있는 형태야. 그래서, 벽과 바닥이 물어 늘 젖어 있어서 곰팡이나 세균이 번식하기 쉬우니 최소한 일주일에 한 번씩 청소를 해야 해.",
+            "turn_id": "BK22009155-1",
+            "utterance_id": "BK22009155.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금 화장실이 습식인데 습기 때문에 힘들어. 그럼, 건식 욕실은 어떤 욕실이야?",
+            "turn_id": "BK22009155-2",
+            "utterance_id": "BK22009155.3"
+        },
+        {
+            "reference_date": "2017-05-06",
+            "reference_text": [
+                {
+                    "value": "건식 욕실은 '물기 없는 욕실'로 요약할 수 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "욕실 바닥의 배수구를 없애고 욕실 입구서부터 세면대까지 카페트나 마루 등을 깔아 슬리퍼 없이 맨발로 다닐 수 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "샤워는 배수시설이 시공된 별도의 샤워부스에서만 할 수 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2017050414122794840&outlink=1&ref=https%3A%2F%2Fsearch.naver.com",
+            "search_query": "건식욕실",
+            "terminate": false,
+            "text": "건식 욕실은 말 그대로 물 없는 욕실이지. 욕실 바닥에 있는 배수구를 없애고 바닥에 카펫이나 마루를 깔아서 맨발로 다닐 수 있게 한 거야. 샤워는 샤워부스가 설치된 공간에서만 가능하고.",
+            "turn_id": "BK22009155-2",
+            "utterance_id": "BK22009155.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "건식 욕실은 공간이 구별되었다는 특징이 있구나. 건식 욕실을 하면 좋은 점은 뭐야?",
+            "turn_id": "BK22009155-3",
+            "utterance_id": "BK22009155.5"
+        },
+        {
+            "reference_date": "2018-03-15",
+            "reference_text": [
+                {
+                    "value": "건식 욕실의 가장 큰 장점은 물에 노출되는 면적이 작아 습기가 차지 않는다는 점이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "때문에 곰팡이 등 세균 번식의 위험이 적다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "타일에 발생하기 쉬운 곰팡이 물때는 물론이고, 습도가 높은 한여름에 샤워를 해도 끈적임이 적다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/specialsection/esc_section/836128.html",
+            "search_query": "건식욕실 장점",
+            "terminate": false,
+            "text": "가장 큰 장점은 물에 노출되는 면적이 적으니 습기가 차지 않아 곰팡이나 세균 번식의 우려가 적다는 거야. 또, 타일에 잘 생기는 곰팡이 물 때도 적게 생기고, 습도가 높은 날 샤워를 해도 덜 끈적여.",
+            "turn_id": "BK22009155-3",
+            "utterance_id": "BK22009155.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "물때가 덜 생기면 청소도 용이하겠네. 또, 건식 욕실의 좋은 점이 더 있어?",
+            "turn_id": "BK22009155-4",
+            "utterance_id": "BK22009155.7"
+        },
+        {
+            "reference_date": "2018-03-15",
+            "reference_text": [
+                {
+                    "value": "어린아이가 있거나 노년층이 있는 가구의 경우 바닥 미끄러짐 사고 등의 안전사고 예방에도 도움이 된다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/specialsection/esc_section/836128.html",
+            "search_query": "건식욕실 장점",
+            "terminate": false,
+            "text": "응, 물기가 덜 있으니 어린아이나 노인이 바닥에서 미끄러지는 등의 안전사고도 예방할 수 있다는 장점도 있어.",
+            "turn_id": "BK22009155-4",
+            "utterance_id": "BK22009155.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "화장실이 덜 미끄러워서 사고의 위험도 줄겠네. 만약 건식으로 욕실을 바꾼다면 파우더룸도 욕실로 옮길까 하는데 어떨 것 같아?",
+            "turn_id": "BK22009155-5",
+            "utterance_id": "BK22009155.9"
+        },
+        {
+            "reference_date": "2014-10-23",
+            "reference_text": [
+                {
+                    "value": "건식욕실을 파우더 룸으로 만드는 것도 좋은 방법이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "세면대를 설치하지 않고 화장대로 공간을 연출하면 모던한 느낌의 파우더 룸이 완성된다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/201408191509424038?t=y",
+            "search_query": "건식욕실 활용",
+            "terminate": false,
+            "text": "건식 욕실을 파우더룸으로 활용한다는 것은 좋은 생각이야. 세면대를 설치하지 않고 화장대 공간을 만든다면 모던한 느낌이 들 거야.",
+            "turn_id": "BK22009155-5",
+            "utterance_id": "BK22009155.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "모던한 느낌의 건식 욕실도 좋겠다. 근데, 건식 욕실의 단점은 어떤 것이 있어?",
+            "turn_id": "BK22009155-6",
+            "utterance_id": "BK22009155.11"
+        },
+        {
+            "reference_date": "2020-05-09",
+            "reference_text": [
+                {
+                    "value": "다만 바닥에 배수구가 없고, 인테리어 시 물에 약한 나무 소재 등을 사용하기도 하는 만큼 이용 시 물이 튀지 않도록 주의를 기울여야 합니다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "물이 튀면 빠르게 닦아야 하고, 물청소도 어렵습니다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20200508133728081",
+            "search_query": "건식욕실 단점",
+            "terminate": false,
+            "text": "바닥에 배수구가 없고 나무 소재 등을 인테리어에 사용하는 경우가 있어서 물이 튀지 않도록 주의해야 해. 혹시 물이 튀면 빠르게 닦아야 하고, 물청소가 어렵다는 단점도 있어.",
+            "turn_id": "BK22009155-6",
+            "utterance_id": "BK22009155.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "건식 욕실은 물청소가 어려운 것이 가장 큰 단점인 거 같아. 그럼, 건식으로 욕실을 사용하는 경우 어떻게 사용해야 해?",
+            "turn_id": "BK22009155-7",
+            "utterance_id": "BK22009155.13"
+        },
+        {
+            "reference_date": "2019-04-29",
+            "reference_text": [
+                {
+                    "value": "이것은 건식욕실 사용 시 주의사항과도 같은데, 오래가는 건실욕실을 만들기 위해서는 샤워기와 세면기 사용 후 바닥에 떨어진 물기를 빨리 제거해야 한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "원목마루로 바닥을 마감한 욕실이라면 더더욱 세심한 관리가 필요하다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.woodkorea.co.kr/news/articleView.html?idxno=30911",
+            "search_query": "건식욕실 관리",
+            "terminate": false,
+            "text": "건식 욕실을 잘 사용하려면 샤워기와 세면기를 사용한 후에 바닥의 물기를 빠르게 제거해야 하고, 바닥이 원목 마루에 욕실이라면 더 세심하게 관리해 줘야 해.",
+            "turn_id": "BK22009155-7",
+            "utterance_id": "BK22009155.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "건식 욕실을 사용하려면 물기를 제거해 주는 것이 제일 중요하구나. 장단점 때문에 둘 중 어느 것이 더 좋을지 고민이 되는데 해결 방법이 없을까?",
+            "turn_id": "BK22009155-8",
+            "utterance_id": "BK22009155.15"
+        },
+        {
+            "reference_date": "2018-09-16",
+            "reference_text": [
+                {
+                    "value": "외국처럼 100% 건식으로 짓는 욕실이 부담스럽다면 건습식 혼합형 화장실로 리모델링해 보세요.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "샤워 공간을 투명 슬라이딩 도어나 샤워 부스, 샤워 커튼으로 분리하면 건식과 습식 화장실의 장점을 동시에 취할 수 있겠죠.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://realty.chosun.com/site/data/html_dir/2018/09/14/2018091402507.html?utm_source=naver&utm_medium=original&utm_campaign=realty",
+            "search_query": "건식, 습식 혼합형 욕실",
+            "terminate": false,
+            "text": "만약 100% 건식으로 바꾸는 것이 어려울 것 같으면 혼합형으로 리모델링하는 것도 방법이야. 샤워 공간을 슬라이딩 도어나 샤워부스, 샤워 커튼으로 구분해서 사용한다면 건식과 습식의 장단점을 고르게 활용할 수 있을 거야.",
+            "turn_id": "BK22009155-8",
+            "utterance_id": "BK22009155.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "건 습식 혼합형으로 욕실을 사용하는 거 좋은 방법이네.",
+            "turn_id": "BK22009155-9",
+            "utterance_id": "BK22009155.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "물청소의 깔끔함과 건식의 편리함까지 다 같이 누릴 수 있어.",
+            "turn_id": "BK22009155-9",
+            "utterance_id": "BK22009155.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "욕실 인테리어 때문에 고민이 많았는데 덕분에 좋은 정보 얻었어.",
+            "turn_id": "BK22009155-10",
+            "utterance_id": "BK22009155.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "언제든지 궁금한 건 물어보고, 우리는 다음에 만나자, 안녕.",
+            "turn_id": "BK22009155-10",
+            "utterance_id": "BK22009155.20"
+        }
+    ]
+}

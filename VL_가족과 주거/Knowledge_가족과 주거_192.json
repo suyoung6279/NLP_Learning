@@ -1,0 +1,357 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018903",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018903",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘에 가족이 아닌데도 같이 사는 사람들이 정말 많아졌어요?",
+            "turn_id": "BK22018903-1",
+            "utterance_id": "BK22018903.1"
+        },
+        {
+            "reference_date": "44845.0",
+            "reference_text": [
+                {
+                    "value": "지난해 통계청 인구총조사에선 결혼을 하지 않은 연인이나 친구끼리 거주하는 비친족 가구가 1년 전보다 11.6% 증가한 47만여가구에 달했다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/culture/book/article/202210111132001",
+            "search_query": "인구총조사",
+            "terminate": false,
+            "text": "네, 2021년 통계청에서 실시한 인구총조사에서는 혼인신고를 하지 않은 연인이나, 친구와 같이 살고 있는 등의 비친족 가구가 1년 전보다 11.6퍼센트가 증가했어요. 47만여 가구가 비친족 상태로 이루어져 있어요.",
+            "turn_id": "BK22018903-1",
+            "utterance_id": "BK22018903.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 수치적으로도 정말 많이 늘었네요. 사람들의 인식도 많이 바뀌었을 것 같아요.",
+            "turn_id": "BK22018903-2",
+            "utterance_id": "BK22018903.3"
+        },
+        {
+            "reference_date": "44845.0",
+            "reference_text": [
+                {
+                    "value": "2020년 여가부 조사 결과 응답자 70%는 ‘혼인·혈연 관계가 아니어도 생계와 주거를 공유하면 가족’이라고 답했다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/culture/book/article/202210111132001",
+            "search_query": "인구총조사 가족",
+            "terminate": false,
+            "text": "네, 맞아요. 2020년도에 여성가족부에서는 설문조사를 진행했어요. 응답자의 70퍼센트가 결혼 또는 혈연으로 이루어진 관계가 아니어도 주거와 생계를 함께하면 가족이라고 답했어요.",
+            "turn_id": "BK22018903-2",
+            "utterance_id": "BK22018903.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 높은 수치인데요. 그렇다면 가족과 관련된 법률도 변화하고 있나요?",
+            "turn_id": "BK22018903-3",
+            "utterance_id": "BK22018903.5"
+        },
+        {
+            "reference_date": "44845.0",
+            "reference_text": [
+                {
+                    "value": "지난해 여성가족부는 비혼 동거 커플 등 혼인이나 혈연 관계로 묶이지 않은 관계도 법률상 ‘가족’으로 인정하는 내용의 4차 건강가정기본계획(2021~2025)을 발표했다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가족을 ‘혈연·혼인·입양으로 이뤄진 단위’로 협소하게 정의하는 법 조항을 삭제하고 가족형태에 따른 차별을 금지하겠다는 취지였다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/culture/book/article/202210111132001",
+            "search_query": "건강가정기본계획",
+            "terminate": false,
+            "text": "2021년에 여성가족부는 가족을 혈연이나 혼인 또는 입양으로 이루어진 단위라고 협소하게 정의하고 있는 법 조항을 삭제하고, 가족 형태에 따른 차별을 금지하기 위해 제4차 건강가정기본계획을 발표했어요. 비혼 상태의 동거 커플과 같이 결혼이나 혈연으로 묶이지 않은 형태의 관계도 법적인 가족으로 인정하는 내용을 담고 있었죠.",
+            "turn_id": "BK22018903-3",
+            "utterance_id": "BK22018903.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그런데 혹시 제4차 건강가정기본계획에 변화가 있었나요?",
+            "turn_id": "BK22018903-4",
+            "utterance_id": "BK22018903.7"
+        },
+        {
+            "reference_date": "44845.0",
+            "reference_text": [
+                {
+                    "value": "지난달 여가부는 4차 건강가정기본계획을 폐기하겠다는 뜻을 밝혔다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "“국가의 보호·지원 대상을 법에서 규정할 필요가 있다”는 이유였다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/culture/book/article/202210111132001",
+            "search_query": "건강가정기본계획",
+            "terminate": false,
+            "text": "네, 여성가족부에서는 국가가 보호하거나 지원할 대상을 법에서 규정할 필요가 있다는 근거를 들어 4차 건강가정기본계획을 22년 9월에 폐기하고자 한다는 의사를 표현했어요.",
+            "turn_id": "BK22018903-4",
+            "utterance_id": "BK22018903.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 다시 기존의 가족 정의로 돌아가서, 혼인이나 혈연, 입양으로 이루어진 가족 단위에 대해서만 국가가 보호, 지원한다는 건가요?",
+            "turn_id": "BK22018903-5",
+            "utterance_id": "BK22018903.9"
+        },
+        {
+            "reference_date": "44845.0",
+            "reference_text": [
+                {
+                    "value": "현재의 가족제도는 차별을 만들어낸다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한부모 가족, 성소수자 가족, 비혼 가족이 차별받는다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/culture/book/article/202210111132001",
+            "search_query": "건강가정기본계획 가족제도",
+            "terminate": false,
+            "text": "네, 그렇다보니 현재의 가족제도는 차별의 소지가 있어요. 한부모 가족이나 성소수자 가족, 또 비혼 가족이 차별받게 되죠.",
+            "turn_id": "BK22018903-5",
+            "utterance_id": "BK22018903.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 그러한 가족들은 어떤 차별을 받고 있어요?",
+            "turn_id": "BK22018903-6",
+            "utterance_id": "BK22018903.11"
+        },
+        {
+            "reference_date": "44845.0",
+            "reference_text": [
+                {
+                    "value": "한부모 가족의 소득은 전체 가구 월소득의 절반 수준이며, 모자(母子) 가구는 한부모 가족 월소득의 절반 수준이다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "성소수자들은 원가족과의 불화로 지원 없이 일찍 ‘독립’하는 경우가 많은데, 이는 고립과 빈곤으로 이어진다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/culture/book/article/202210111132001",
+            "search_query": "한부모 가족 차별",
+            "terminate": false,
+            "text": "전체 가구 월소득과 비교했을 때, 한부모 가족의 소득은 거의 절반 수준이에요. 그 중에서도 모자 가구의 소득은 한부모 가족의 월소득의 절반 수준이고요. 성소수자 가족들은 원가족과 불화를 겪는 경우가 많아요. 그로 인해 불화를 겪어서 일찍 독립하게 되는데, 이때 고립과 빈곤을 겪게 되죠.",
+            "turn_id": "BK22018903-6",
+            "utterance_id": "BK22018903.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고립과 빈곤이라니, 정말 마음 아픈 단어네요. 고독사라는 말도 생각나고요. 우리나라에 고립 상황에 놓인 사람들이 많은가요?",
+            "turn_id": "BK22018903-7",
+            "utterance_id": "BK22018903.13"
+        },
+        {
+            "reference_date": "44845.0",
+            "reference_text": [
+                {
+                    "value": "‘고립’ 또한 심각한 문제다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "곤란한 일이 있을 때 도움을 요청할 지지체계가 없는 국내 고립인구의 비율은 2019년 기준 21.7%로 경제협력개발기구(OECD) 회원국 중에서 가장 높은 수준이다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/culture/book/article/202210111132001",
+            "search_query": "고립 가족",
+            "terminate": false,
+            "text": "네, 고립 상황은 곤란하거나 힘든 일이 있을 때 도움을 구할 지지체계가 없다는 의미예요. 우리나라의 고립인구 비율은 2019년을 기준으로 21.7퍼센트에 달해요. OECD 회원국 가운데 최고 수준이죠.",
+            "turn_id": "BK22018903-7",
+            "utterance_id": "BK22018903.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 우리나라의 1인 가구 비중이 늘어나서 그런 걸까요?",
+            "turn_id": "BK22018903-8",
+            "utterance_id": "BK22018903.15"
+        },
+        {
+            "reference_date": "44845.0",
+            "reference_text": [
+                {
+                    "value": "1인 가구 비율이 56.6%로 가장 높은 스웨덴은 고립지수가 6.6%다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아이슬란드의 고립지수는 1.8%인데, 아이슬란드의 혼외출생 신생아 비율은 69.9%에 이른다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "김 대표는 “고립의 원인은 비혼이나 1인 가구 증가가 아니다. 어떤 사회가 시민들 사이의 유대를 가능하게 만드는가를 고민해야 한다”고 강조한다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/culture/book/article/202210111132001",
+            "search_query": "가족 구성권",
+            "terminate": false,
+            "text": "고립의 원인을 비혼이나 1인 가구가 늘어나서 그렇다고 보는 것은 어려워요. 인구 중 56.6퍼센트가 1인 가구로 구성되어 있는 스웨덴은 고립지수가 6.6퍼센트예요. 그리고 아이슬란드의 혼인 이외의 상태에서 태어난 신생아 비율은 69.9퍼센트에 달하는데, 고립 지수는 1.8퍼센트 정도이죠. 사람들 간 유대 관계를 가능하게 하는 사회란 어떤 사회인지 고민해 봐야 하죠.",
+            "turn_id": "BK22018903-8",
+            "utterance_id": "BK22018903.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 어떤 사회가 되어야 사람들 사이에 유대를 쌓아 나갈 수 있을까요?",
+            "turn_id": "BK22018903-9",
+            "utterance_id": "BK22018903.17"
+        },
+        {
+            "reference_date": "44845.0",
+            "reference_text": [
+                {
+                    "value": "김 대표는 차별금지법, 생활동반자법 등의 도입과 함께 사회의 지원과 돌봄 체계를 재구성해야 한다고 말한다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "“정부가 ‘이런 관계를 맺으면 이걸 줄게’ 방식이 아니라 보편적인 주거 정책을 펴고, 일자리 정책을 펴면 좋겠어요. 일자리와 주거, 돌봄을 국가가 지원하면 그 안에서 사람들이 자율적으로 관계를 형성하고, 미래 세대와의 유대(출생)를 계획할 수 있을 거라 생각합니다.”",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/culture/book/article/202210111132001",
+            "search_query": "고립 인구",
+            "terminate": false,
+            "text": "가족구성권연구소의 김순남대표는 차별금지법, 생활동반자법이 도입과 같이 사회적인 지원과 돌봄 체계를 다시금 정비해야 하는것은 물론 보편적으로 지원 가능한 주거 정책이나 일자리 정책이 마련된다면, 그 속에서 사람들이 자율적으로 관계를 쌓아 나감과 동시에 미래 세대와의 유대, 즉 출생 계획 등을 세워 나갈 수 있을 거라고 했죠.",
+            "turn_id": "BK22018903-9",
+            "utterance_id": "BK22018903.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 가족 구성권에 대한 새로운 시각이 트인 것 같아요.",
+            "turn_id": "BK22018903-10",
+            "utterance_id": "BK22018903.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 앞으로도 가족 구성권에 계속 관심을 가져 주세요.",
+            "turn_id": "BK22018903-10",
+            "utterance_id": "BK22018903.20"
+        }
+    ]
+}

@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012677",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012677",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0030"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "친구네 강아지가 심장 사상충에 걸렸데. 심장 사상충은 어떤 거야?",
+            "turn_id": "BK22012677-1",
+            "utterance_id": "BK22012677.1"
+        },
+        {
+            "reference_date": "44765.0",
+            "reference_text": [
+                {
+                    "value": "심장사상충(心臟絲狀蟲)은 학명으로 Dirofilaria immitis라고 하며, 모기를 매개로 하여 전염되는 회충이다.",
+                    "value_time": "44784.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8B%AC%EC%9E%A5%EC%82%AC%EC%83%81%EC%B6%A9",
+            "search_query": "심장사상충",
+            "terminate": false,
+            "text": "심장 사상충에 걸렸구나. 모기를 통해서 회충이 전염되는 것을 심장 사상충이라고 말해.",
+            "turn_id": "BK22012677-1",
+            "utterance_id": "BK22012677.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어떻게 회충이 몸속으로 들어갈 수 있는 거야?",
+            "turn_id": "BK22012677-2",
+            "utterance_id": "BK22012677.3"
+        },
+        {
+            "reference_date": "44776.0",
+            "reference_text": [
+                {
+                    "value": "감염은 모기의 몸속에 숨어있던 심장사상충 유충이 반려동물의 혈류로 들어가면서 발생한다.",
+                    "value_time": "44784.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "유충은 6개월 안에 성충으로 자라 폐동맥이나 심장에 정착하게 된다.",
+                    "value_time": "44784.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/life/article/202208018269i",
+            "search_query": "심장사상충 감염",
+            "terminate": false,
+            "text": "심장 사상충 유충이 모기 몸 안에 감춰져 있다가 동물의 혈액 속으로 침투하게 되면서 감염이 일어나게 되는데, 감염이 되면 6개월 이내로 유충이 성충으로 자라게 되어 심장이나 폐동맥에 기생하게 돼.",
+            "turn_id": "BK22012677-2",
+            "utterance_id": "BK22012677.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너무 무섭다. 심장 사상충에 걸리게 되면 어떤 증상이 나타나게 돼?",
+            "turn_id": "BK22012677-3",
+            "utterance_id": "BK22012677.5"
+        },
+        {
+            "reference_date": "44630.0",
+            "reference_text": [
+                {
+                    "value": "감염 초기엔 특별한 증상이 나타나지 않는다.",
+                    "value_time": "44784.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "감염이 진행되며 체중이 점점 감소하고 기력 저하, 복수와 심부전, 쇼크 등이 나타난다.",
+                    "value_time": "44784.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1384520/",
+            "search_query": "심장사상충 증상",
+            "terminate": false,
+            "text": "심장 사상충에 감염된 초기에는 별다른 증상이 나타나지 않는데 점차 감염 상태가 진행되면 기운이 없거나 체중 감소, 쇼크 및 복수가 차고 심장 기능을 상실하게 돼.",
+            "turn_id": "BK22012677-3",
+            "utterance_id": "BK22012677.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 더 위험하구나. 혹시 심하면 죽을 수도 있어?",
+            "turn_id": "BK22012677-4",
+            "utterance_id": "BK22012677.7"
+        },
+        {
+            "reference_date": "43415.0",
+            "reference_text": [
+                {
+                    "value": "모기에게 물린 강아지가 심장사상충에 감염되면 호흡곤란, 폐색전증 증상을 보이게 된다.",
+                    "value_time": "44784.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "합병증을 유발하기도 해서 심하면 생명을 잃을 수 있다.",
+                    "value_time": "44784.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?3473858",
+            "search_query": "심장사상충 사망",
+            "terminate": false,
+            "text": "맞아. 심장 사상충에 감염된 강아지는 폐의 혈관이 막히기도 하고 다른 질병들도 생기게 되기 때문에 감염된 정도가 심하면 사망할 수도 있어.",
+            "turn_id": "BK22012677-4",
+            "utterance_id": "BK22012677.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생명까지 앗아 갈 수 있다니 정말 위험하다. 심장 사상충에 걸리지 않으려면 어떻게 해야 해?",
+            "turn_id": "BK22012677-5",
+            "utterance_id": "BK22012677.9"
+        },
+        {
+            "reference_date": "44324.0",
+            "reference_text": [
+                {
+                    "value": "심장사상충 약은 1년 내내 주기적으로 먹여야 한다.",
+                    "value_time": "44784.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/05/07/2021050701800.html",
+            "search_query": "심장사상충 약",
+            "terminate": false,
+            "text": "심장 사상충 약을 먹이면 되는데 1년 동안 계속 일정한 간격을 두고 꾸준히 복용시켜야 해.",
+            "turn_id": "BK22012677-5",
+            "utterance_id": "BK22012677.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일정한 간격이라면 얼마에 한 번씩 약을 먹여야 하는 거야?",
+            "turn_id": "BK22012677-6",
+            "utterance_id": "BK22012677.11"
+        },
+        {
+            "reference_date": "44776.0",
+            "reference_text": [
+                {
+                    "value": "반려견에게 한 달에 한 번씩 꼬박꼬박 심장사상충약을 먹이는 게 가장 좋은 예방책이다.",
+                    "value_time": "44784.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "약을 매달 먹였어도 일 년에 한 번은 병원에 데려가 심장사상충 검사를 받는 게 좋다.",
+                    "value_time": "44784.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/life/article/202208018269i",
+            "search_query": "심장사상충약 매달",
+            "terminate": false,
+            "text": "심장 사상충 약을 한 달에 1번은 먹여야 예방 효과가 좋아. 또한 매달 약을 복용시켰어도 일 년에 1번 정도는 심장 사상충 검사를 받아 보는 게 좋아.",
+            "turn_id": "BK22012677-6",
+            "utterance_id": "BK22012677.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 그럼 비교적 모기가 없는 겨울에는 구충제나 심장 사상충 약을 안 먹여도 되는 거야?",
+            "turn_id": "BK22012677-7",
+            "utterance_id": "BK22012677.13"
+        },
+        {
+            "reference_date": "43887.0",
+            "reference_text": [
+                {
+                    "value": "또한, 모기가 많은 여름에만 구충제를 사용하면 된다고 생각하는 경우가 있는데, 겨울에도 모기가 발견될 뿐만 아니라 다양한 기생충들이 활동하는 만큼 1년 내내 빠트리지 않고 구충제를 복용하는 것이 중요하다.",
+                    "value_time": "44784.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/1YZ2N5AORT",
+            "search_query": "구충제 겨울 복용",
+            "terminate": false,
+            "text": "여름에 모기가 많아서 그때만 구충제를 복용시켜야 된다는 건 잘못된 생각이야. 모기는 겨울에도 있고, 모기뿐만 아니라 여러 가지 기생충이 활동하기 때문에 1년 동안 구충제를 잊지 말고 복용시키는 게 좋거든.",
+            "turn_id": "BK22012677-7",
+            "utterance_id": "BK22012677.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "겨울에도 약을 꼭 먹여줘야 하는구나. 그런데 심장 사상충에 걸렸는지 진단은 어떻게 하게 돼?",
+            "turn_id": "BK22012677-8",
+            "utterance_id": "BK22012677.15"
+        },
+        {
+            "reference_date": "44263.0",
+            "reference_text": [
+                {
+                    "value": "혈액검사를 통해 심장사상충 성충에 대한 항원이 있는지를 검사하는 것이 보통이다.",
+                    "value_time": "44784.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 x-ray를 통해 폐동맥이나 오른쪽 심장의 비대가 관찰될 경우 심장사상충을 의심할 수 있다.",
+                    "value_time": "44784.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://topclass.chosun.com/news/articleView.html?idxno=10736",
+            "search_query": "심장사상충 검사",
+            "terminate": false,
+            "text": "일반적으로 피를 뽑아서 심장 사상충 성충 항원 여부를 검사하는데, 엑스레이를 찍어서 우측 심장이나 폐동맥이 커졌다면 심장 사상충 감염을 고려해 볼 수 있어.",
+            "turn_id": "BK22012677-8",
+            "utterance_id": "BK22012677.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 요즘 날이 더워서 모기가 많은데 강아지 키우는 사람들은 잊지 말고 강아지에게 꼭 약을 먹여줘야겠네.",
+            "turn_id": "BK22012677-9",
+            "utterance_id": "BK22012677.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아. 아까도 말했지만 계절 상관없이 매달 먹이는 게 가장 좋아.",
+            "turn_id": "BK22012677-9",
+            "utterance_id": "BK22012677.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "친구한테도 매달 심장 사상충 약을 꼭 복용시키라고 말해줘야겠다. 우선 강아지 상태가 어떤지 물어봐야겠어.",
+            "turn_id": "BK22012677-10",
+            "utterance_id": "BK22012677.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "친구네 강아지가 심각한 상태가 아니었으면 좋겠다. 친구한테 연락하고 괜찮은지 말해줘.",
+            "turn_id": "BK22012677-10",
+            "utterance_id": "BK22012677.20"
+        }
+    ]
+}

@@ -1,0 +1,347 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011610",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011610",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지 눈 주변에 눈물 자국은 왜 나는 건가요? 분명 저희 강아지 눈물은 투명색인 것 같은데, 붉게 자국이 남는 게 이상해서요.",
+            "turn_id": "BK22011610-1",
+            "utterance_id": "BK22011610.1"
+        },
+        {
+            "reference_date": "2022-02-07",
+            "reference_text": [
+                {
+                    "value": "눈물에는 철을 함유한 포르피린이 들어있다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "포르피린은 햇빛을 받고 공기와 접촉하면 갈색으로 변한다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=57950",
+            "search_query": "반려견 눈물 자국",
+            "terminate": false,
+            "text": "눈물에는 철 성분이 들어있는 포르피린이 있는데 포르피린이 햇빛을 받고 공기와 접촉하면 갈색으로 변하는 거예요.",
+            "turn_id": "BK22011610-1",
+            "utterance_id": "BK22011610.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "포르피린이라는 성분이 그렇게 색을 변화시키는군요. 사실 저희 강아지가 갑자기 눈물 자국이 심해져서 궁금하더라고요. 부쩍 눈물을 많이 흘리는 것 같은데 이렇게 갑자기 눈물양이 늘어난 이유는 뭘까요?",
+            "turn_id": "BK22011610-2",
+            "utterance_id": "BK22011610.3"
+        },
+        {
+            "reference_date": "2022-06-11",
+            "reference_text": [
+                {
+                    "value": "▶긴장 또는 사료?…원인은 다양=사람의 긴장성 땀처럼 강아지들도 낯선 사람이나 환경을 만나면 긴장해 평소보다 침이나 눈물을 많이 흘리게 된다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20220609000889",
+            "search_query": "반려견 긴장 눈물",
+            "terminate": false,
+            "text": "눈물양이 증가하는 원인은 다양해요. 우선 사람들이 긴장하면 땀을 흘리는 것처럼 낯선 사람이나 환경을 접하게 되면 긴장해서 평소에 비해 침이나 눈물을 많이 흘리게 되거든요.",
+            "turn_id": "BK22011610-2",
+            "utterance_id": "BK22011610.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "흠, 딱히 낯선 환경을 접하지는 않아서 그건 아닌 것 같아요. 그러면 또 어떤 이유가 있을까요?",
+            "turn_id": "BK22011610-3",
+            "utterance_id": "BK22011610.5"
+        },
+        {
+            "reference_date": "2022-02-07",
+            "reference_text": [
+                {
+                    "value": "눈물은 눈 안쪽의 눈물점으로 들어가 눈물관을 타고 흘러 코로 빠져나간다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그런데 눈물점이 너무 작거나, 결막염으로 눈물점이 막혔거나, 비루관이 막혔다면 눈물이 눈 밑으로 흐르면서 눈물자국이 생기게 되는 것이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=57950",
+            "search_query": "반려견 눈물 눈물관",
+            "terminate": false,
+            "text": "눈물점이 너무 작다거나 결막염으로 인해 눈물점이 막혔다거나 비루관이 막힌 경우일 수도 있어요. 원래라면 눈물은 눈 안쪽의 눈물점으로 들어가서 눈물관을 타고 코로 빠져나가야 하거든요.",
+            "turn_id": "BK22011610-3",
+            "utterance_id": "BK22011610.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이런 경우라면 강아지들도 정말 괴롭겠어요. 그럼 혹시 강아지들도 사람처럼 속눈썹 때문에 눈물이 날 수 있나요?",
+            "turn_id": "BK22011610-4",
+            "utterance_id": "BK22011610.7"
+        },
+        {
+            "reference_date": "2022-02-07",
+            "reference_text": [
+                {
+                    "value": "또 속눈썹이 잘못 나거나 안쪽으로 말려 눈을 찌르거나, 식이 알레르기, 스트레스 등으로 인해 눈물이 많아져도 유루증이 나타날 수 있다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=57950",
+            "search_query": "반려견 눈물 속눈썹",
+            "terminate": false,
+            "text": "네, 맞아요. 속눈썹이 잘 못난다거나 안쪽으로 말려서 눈을 찔러서 유루증이 나타날 수 있거든요.",
+            "turn_id": "BK22011610-4",
+            "utterance_id": "BK22011610.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이고, 강아지들도 사람이랑 비슷하네요. 그럼 혹시 눈물양이 늘어나는 다른 이유가 또 있을까요?",
+            "turn_id": "BK22011610-5",
+            "utterance_id": "BK22011610.9"
+        },
+        {
+            "reference_date": "2022-06-11",
+            "reference_text": [
+                {
+                    "value": "또한 비타민A 부족도 눈물량이 많아지는 이유일 수 있다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 밖에 새로운 사료나 음식을 먹고 난 뒤 눈물량이 늘었다면 알레르기를 일으키는 성분이 들어 있을 수 있다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20220609000889",
+            "search_query": "반려견 사료 알레르기 눈물",
+            "terminate": false,
+            "text": "네, 비타민 A가 부족할 수도 있고 알레르기를 유발하는 성분이 들어간 새로운 사료나 음식을 먹은 경우에도 눈물양이 늘어났을 수 있어요.",
+            "turn_id": "BK22011610-5",
+            "utterance_id": "BK22011610.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 정말 다양한 원인으로 눈물양이 늘어날 수 있군요? 그럼 눈물 자국은 닦아도 괜찮은가요?",
+            "turn_id": "BK22011610-6",
+            "utterance_id": "BK22011610.11"
+        },
+        {
+            "reference_date": "2022-06-11",
+            "reference_text": [
+                {
+                    "value": "이때는 마른 수건이나 물티슈 등으로 눈 밑 살에 자극이 안 되게 살살 닦아주는 것이 좋다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자칫 손으로 닦아주거나 착색된 털을 떼내면 짓무름이 생길 수 있어 주의해야 한다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 일회용 세정식염수나 인공눈물을 면봉이나 솜에 묻혀 자극이 최대한 덜 가게 닦아주는 것도 괜찮다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20220609000889",
+            "search_query": "반려견 눈물 물티슈",
+            "terminate": false,
+            "text": "네, 닦아줘도 돼요. 다만 마른 수건이나 물티슈를 이용해 눈 밑의 피부가 자극되지 않도록 살살 닦아 주셔야 해요. 혹시 손으로 닦는다거나 착색이 된 털을 떼어내면 짓무름이 발생할 수 있기 때문에 조심하셔야 하고요. 또 일회용 세정 식염수나 인공눈물을 면봉이나 솜에 묻혀 최대한 자극이 적도록 닦아주는 것도 괜찮고요.",
+            "turn_id": "BK22011610-6",
+            "utterance_id": "BK22011610.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 닦아줘도 되는군요. 그럼 아까 눈썹이 눈을 찌르는 것이 원인일 수도 있다고 하셨는데, 이런 털은 정리해 줘도 되나요?",
+            "turn_id": "BK22011610-7",
+            "utterance_id": "BK22011610.13"
+        },
+        {
+            "reference_date": "2022-06-11",
+            "reference_text": [
+                {
+                    "value": "또 눈을 찌르는 털이나 눈썹 등 주변 털을 잘라 깨끗이 정리해주면 좋다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20220609000889",
+            "search_query": "반려견 눈물 털 정리",
+            "terminate": false,
+            "text": "네, 말씀하신 것처럼 눈을 찌르는 털과 눈썹과 같이 주변 털을 잘라서 깨끗하게 정리해주는 것도 도움이 돼요.",
+            "turn_id": "BK22011610-7",
+            "utterance_id": "BK22011610.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 아이는 눈썹이 긴 편은 아닌데 그래도 혹시 모르니 조만간 미용을 맡겨봐야겠네요. 그럼 음식에 의한 알레르기가 원인이라면 어떻게 대처해야 하나요?",
+            "turn_id": "BK22011610-8",
+            "utterance_id": "BK22011610.15"
+        },
+        {
+            "reference_date": "2022-06-11",
+            "reference_text": [
+                {
+                    "value": "사료나 음식에 의한 알레르기가 원인이라면 착색료나 방부제가 포함되지 않은 사료를 선택하는 것이 도움이 되며, 저알레르기 사료나 알레르기 유발 음식이 들어 있지 않나 세심히 살펴야 한다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20220609000889",
+            "search_query": "반려견 눈물 알레르기",
+            "terminate": false,
+            "text": "사료나 음식이 알레르기를 유발해 발생하는 것이라면 착색료나 방부제가 들어가 있지 않은 사료를 고르시는 것이 좋아요. 알레르기를 유발하는 음식이 포함되어있지는 않은지 꼼꼼히 살펴봐야 하는 거죠.",
+            "turn_id": "BK22011610-8",
+            "utterance_id": "BK22011610.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 아무래도 음식에 의해 발생한 경우가 가장 까다로울 것 같네요. 그런데 눈 주변을 자주 닦아줘도 계속해서 눈물 자국이 남는 경우라면 어떻게 해야 하나요?",
+            "turn_id": "BK22011610-9",
+            "utterance_id": "BK22011610.17"
+        },
+        {
+            "reference_date": "2022-06-11",
+            "reference_text": [
+                {
+                    "value": "또 자주 닦아줬는데도 개선되지 않는다면 전문 수의사와 상담을 통해 개선점을 찾아야 한다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "안질환 및 각막 이상 등 다른 이유일 수 있기 때문이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20220609000889",
+            "search_query": "반려견 눈물 수의사",
+            "terminate": false,
+            "text": "자주 닦아줬는데도 나아지지 않는다면 수의사와 상담하며 개선점을 찾아야 해요. 앞서 말한 다른 이유가 아닌 안질환이나 각막 이상 등의 다른 요인에 의해 일어날 수 있기 때문이에요.",
+            "turn_id": "BK22011610-9",
+            "utterance_id": "BK22011610.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 병원을 방문하는 것이 좋겠네요. 오늘 강아지 눈물에 대해 알려주셔서 정말 감사해요. 저는 먼저 들어가 볼게요.",
+            "turn_id": "BK22011610-10",
+            "utterance_id": "BK22011610.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 됐다니 정말 다행이에요. 그럼 궁금한 점이 생기시면 연락하세요. 다음에 또 봬요.",
+            "turn_id": "BK22011610-10",
+            "utterance_id": "BK22011610.20"
+        }
+    ]
+}

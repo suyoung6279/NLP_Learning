@@ -1,0 +1,396 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016160",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016160",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번에 저희 동생이 결혼하는데, 결혼 선물로 무선 청소기를 하나 사줄까 하거든요. 삼성과 LG 무선 청소기 중 하나를 구입하려는데, 어떤 제품이 더 저렴하죠?",
+            "turn_id": "BK22016160-1",
+            "utterance_id": "BK22016160.1"
+        },
+        {
+            "reference_date": "2021-06-02",
+            "reference_text": [
+                {
+                    "value": "청소기와 올인원타워, 각종 액세서리를 포함한 LG오브제컬렉션 청소기 풀패키지의 가격은 150만원대다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "같은 조건일 때 삼성 비스포크 제트는 130만원 후반대다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "비스포크 제트의 경우 구성품을 줄이면 80만원대에도 구매할 수 있지만, LG오브제컬렉션은 최저 구성품으로 구매해도 130만원대다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.bizwatch.co.kr/article/industry/2021/06/01/0024",
+            "search_query": "LG오브제 컬렉션 삼성 비스포크제트 가격",
+            "terminate": false,
+            "text": "LG오브제컬렉션 청소기 풀 패키지는 150만원대인데요. 여기에는 청소기, 올인원 타워, 각종 액세서리가 포함되어 있어요. 동일 조건에서 삼성 비스포크 제트는 130만원 후반대이고 여기서 구성품을 줄이면 80만원대가 되지만 LG오브제컬렉션은 최저 구성품이라도 130만원대에요.",
+            "turn_id": "BK22016160-1",
+            "utterance_id": "BK22016160.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "삼성 비스포크 제트가 더 저렴하군요. 저도 집에서 무선 청소기를 사용 중인데 예전에 나온 제품이라 그런지 먼지를 직접 털어야 하거든요. 이 두 가지 제품도 그런가요?",
+            "turn_id": "BK22016160-2",
+            "utterance_id": "BK22016160.3"
+        },
+        {
+            "reference_date": "2021-06-02",
+            "reference_text": [
+                {
+                    "value": "LG오브제컬렉션의 경우 청소기를 올인원타워에 거치한 후 위쪽 조작부에서 먼지비움 시작 버튼을 누르면 먼지통을 비워준다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "약 1분 내외로 작동하고 중간에 멈춤은 불가능하다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "먼지가 다 빨려 나간 뒤에는 뚜껑이 자동으로 닫힌다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "삼성전자 청정스테이션은 먼지 비움 기능을 버튼을 눌러 사용하는 것은 같지만, 사용 중간에도 먼지 비움 기능을 멈출 수 있다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "먼지를 비운 다음에는 뚜껑이 자동으로 닫히지 않는다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.bizwatch.co.kr/article/industry/2021/06/01/0024",
+            "search_query": "LG오브제 컬렉션 삼성 비스포크제트 먼지 비우기",
+            "terminate": false,
+            "text": "LG전자의 올인원타워, 삼성전자의 청정스테이션은 둘 다 먼지를 비워주는 기능이 있어요. LG오브제컬렉션은 청소기를 올인원타워에 거치한 다음 먼지 비움 시작 버튼을 누르면 먼지 통을 비워준답니다. 약 1분간 작동하며 중간 멈춤은 불가능해요. 먼지가 빨려 나간 후에는 자동으로 뚜껑이 닫히지만 삼성 청정스테이션은 뚜껑이 자동으로 닫히지는 않아요. 삼성 제품도 LG 제품과 마찬가지로 먼지 비움 버튼을 눌러 사용하는 것은 동일하지만 도중에도 먼지 비움 기능을 멈출 수 있다는 것이 차이점이랍니다.",
+            "turn_id": "BK22016160-2",
+            "utterance_id": "BK22016160.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "둘 다 자동으로 먼지 비움은 가능한 거네요. 근데 LG 청소기는 청소기를 거치해서 먼지 통을 비우는 방식이면, 삼성 청소기도 꼭 거치해야만 먼지 비움이 가능한가요?",
+            "turn_id": "BK22016160-3",
+            "utterance_id": "BK22016160.5"
+        },
+        {
+            "reference_date": "2021-06-01",
+            "reference_text": [
+                {
+                    "value": "청정스테이션을 독립적으로 사용할 수도 있다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "청소기를 꽂지 않고도 먼지 비움 기능이 작동된다는 얘기다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "브러시에 붙은 먼지를 흡입하거나 작은 쓰레기를 바로 흡입할 때도 사용할 수 있도록 하기 위해서란다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.bizwatch.co.kr/article/industry/2021/06/01/0002",
+            "search_query": "삼성 비스포크제트 청정스테이션 독립 사용",
+            "terminate": false,
+            "text": "아니에요. 삼성의 청정스테이션 기능은 청소기를 꽂지 않고도 먼지 비움이 가능해 독립적으로 사용 가능하답니다. 브러시에 묻어 있는 먼지를 흡입하거나 작은 쓰레기를 흡입할 때 사용할 수 있도록 고안된 기능이에요.",
+            "turn_id": "BK22016160-3",
+            "utterance_id": "BK22016160.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "두 제품이 이 부분은 다르군요. 요즘은 가전이 다들 예쁘게 나오던데, 두 제품 디자인은 어떻게 다른가요?",
+            "turn_id": "BK22016160-4",
+            "utterance_id": "BK22016160.7"
+        },
+        {
+            "reference_date": "2021-06-02",
+            "reference_text": [
+                {
+                    "value": "디자인의 차이는 극명하다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "LG전자의 올인원타워는 사각의 각진 디자인이고, 청정스테이션은 원통형이다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "취향에 따라 골라잡는 맛이 있을 것으로 보인다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.bizwatch.co.kr/article/industry/2021/06/01/0024",
+            "search_query": "LG오브제 컬렉션 삼성 비스포크제트 디자인",
+            "terminate": false,
+            "text": "두 제품의 디자인 차이가 꽤 크다 보니 구매자의 취향에 따라서 선택하는 재미를 느낄 수 있을 거예요. LG전자의 올인원타워는 사각형의 각진 디자인이며, 청정스테이션은 원통형으로 되어 있거든요.",
+            "turn_id": "BK22016160-4",
+            "utterance_id": "BK22016160.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사각형은 세련돼 보이고 원통형은 부드러운 느낌이 들 것 같아요. 액세서리 보관할 수 있는 보관대는 두 제품 모두 제공하는 건가요?",
+            "turn_id": "BK22016160-5",
+            "utterance_id": "BK22016160.9"
+        },
+        {
+            "reference_date": "2021-06-02",
+            "reference_text": [
+                {
+                    "value": "LG전자 오브제컬렉션 올인원타워는 먼지통과 청소기 거치대, 충전기가 하나로 합쳐져 있다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그뿐 아니라 청소기에 사용하는 액세서리를 보관하는 기능도 한다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "삼성전자는 청소기와 청정스테이션과 별도로 액세서리 크래들(보관대)을 제공한다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "여러 종류의 브러시를 한번에 꽂아 보관할 수 있지만 보관을 별도로 해야하는 점은 다소 번잡하다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.bizwatch.co.kr/article/industry/2021/06/01/0024",
+            "search_query": "LG오브제 컬렉션 삼성 비스포크제트 보관대",
+            "terminate": false,
+            "text": "LG전자 오브제컬렉션은 먼지 통, 청소기 거치대, 충전기가 올인원타워에 하나로 합쳐져 있는 형태인데, 청소기 액세서리도 여기에 함께 보관하게 된답니다. 삼성은 청소기, 청정스테이션과 별도로 액세서리는 크래들이라고 하는 보관대에 꽂아두는 방식이에요. 여러 브러시를 한 곳에 꽂아 보관할 수 있지만 별도로 보관을 해야 하므로 번잡하게 느껴질 수 있어요.",
+            "turn_id": "BK22016160-5",
+            "utterance_id": "BK22016160.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "보관대가 따로 있는 게 좋은지, 안에 한꺼번에 넣는 게 좋은지 고민해봐야겠네요. 두 제품 모두 물걸레 청소기능도 있나요?",
+            "turn_id": "BK22016160-6",
+            "utterance_id": "BK22016160.11"
+        },
+        {
+            "reference_date": "2021-06-02",
+            "reference_text": [
+                {
+                    "value": "LG오브제컬렉션 청소기는 물걸레 흡입구만 있으면 먼지 흡입과 걸레질을 한 번에 끝낼 수 있다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자동 물 공급 시스템이 적용돼 있어 청소하는 동안 물걸레가 마르지 않도록 촉촉하게 유지해준다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "비스포크 제트는 물걸레 브러시에 자동 공급 시스템 대신 물분사 기능이 추가됐다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": " 버튼을 누르면 청소기 헤드 앞부분에서 물이 분사된다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.bizwatch.co.kr/article/industry/2021/06/01/0024",
+            "search_query": "LG오브제 컬렉션 삼성 비스포크제트 물걸레 청소",
+            "terminate": false,
+            "text": "두 제품 모두 물걸레 청소 기능이 있어요. LG오브제컬렉션 청소기는 물걸레 흡입구만 있으면 먼지 흡입, 걸레질을 한 번에 마무리 할 수 있어요. 자동으로 물 공급이 되기 때문에 청소하는 동안에도 물걸레가 촉촉하게 유지돼요. 비스포크 제트는 자동 물 공급 시스템 대신 물 분사 기능이 추가되어 있는데요. 플러스 버튼을 누르면 청소기의 헤드 앞부분에서 물이 분사되는 방식이랍니다.",
+            "turn_id": "BK22016160-6",
+            "utterance_id": "BK22016160.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 삼성 비스포크제트도 LG오브제 컬렉션 청소기처럼 먼지 흡입하면서 걸레질도 함께 할 수 있는 건가요?",
+            "turn_id": "BK22016160-7",
+            "utterance_id": "BK22016160.13"
+        },
+        {
+            "reference_date": "2021-06-02",
+            "reference_text": [
+                {
+                    "value": "물걸레 브러시를 사용할 때는 먼지 흡입이 불가능하다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "물기를 머금은 먼지가 청소기 내부로 유입돼 곰팡이가 생길 염려를 덜었다는 것이 삼성전자 측 주장이다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.bizwatch.co.kr/article/industry/2021/06/01/0024",
+            "search_query": "삼성 비스포크제트 물걸레 먼지흡입",
+            "terminate": false,
+            "text": "그렇지는 않아요. 물걸레 브러시를 사용하면서 동시에 먼지 흡입은 불가능하답니다. 삼성전자 측에서는 물기가 있는 먼지가 청소기 안으로 유입이 되면 곰팡이가 생길 수 있기 때문에 이를 방지하고자 먼지 흡입이 동시에 되지 않도록 만들었다고 주장하고 있어요.",
+            "turn_id": "BK22016160-7",
+            "utterance_id": "BK22016160.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 LG 제품은 내부에 곰팡이가 생길 가능성이 있다는 말인가요?",
+            "turn_id": "BK22016160-8",
+            "utterance_id": "BK22016160.15"
+        },
+        {
+            "reference_date": "2021-06-02",
+            "reference_text": [
+                {
+                    "value": "다만 삼성 측의 이런 설명을 불편해 하는 LG전자 측은 \"물걸레 흡입구를 끼우고 제품을 작동한 뒤 + 버튼을 눌러야 먼지 흡입이 된다\"며 \"물걸레 단독으로도 사용이 가능한데다 자동으로 걸레포의 수분 상태를 조정해주기 때문에 곰팡이 우려는 없다\"고 강조했다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.bizwatch.co.kr/article/industry/2021/06/01/0024",
+            "search_query": "LG오브제 컬렉션 물걸레 곰팡이",
+            "terminate": false,
+            "text": "LG전자 측에서는 물걸레 흡입구를 끼워서 제품을 작동시킨 뒤 플러스 버튼을 눌러야만 먼지 흡입이 되기 때문에 물걸레만 단독으로도 사용이 가능하다는 의견이에요. 거기다 걸레 포의 수분 상태를 자동으로 조정해 주는 기능이 있으므로 곰팡이에 대한 우려는 없다고 강조하고 있어요.",
+            "turn_id": "BK22016160-8",
+            "utterance_id": "BK22016160.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 두 제품의 스펙과 장단점에 대해 알고 나니까 더 고르기가 힘들어진 것 같아요.",
+            "turn_id": "BK22016160-9",
+            "utterance_id": "BK22016160.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어떤 기준으로 무선 청소기를 구입할지 그 기준을 먼저 명확하게 정한다면 선택이 조금 쉬워질 거예요.",
+            "turn_id": "BK22016160-9",
+            "utterance_id": "BK22016160.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇겠네요. 제가 쓰는 거라면 이렇게까지 고민 안 했을 것 같은데, 선물 할 거라 더 고민되는 거 있죠. 그럼 저는 더 생각해봐야겠네요, 많은 정보 공유해 주셔서 감사해요.",
+            "turn_id": "BK22016160-10",
+            "utterance_id": "BK22016160.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요. 어떤 제품을 선택하든지 간에 고심해서 고른 거라면 받는 사람은 분명 행복해 할 거예요. 그럼 다음에 또 대화 나눠요.",
+            "turn_id": "BK22016160-10",
+            "utterance_id": "BK22016160.20"
+        }
+    ]
+}

@@ -1,0 +1,376 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22017705",
+        "name": "2022 한국어 블렌더봇 데이터 BK22017705",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 아이 유치원에서 학부모 모임이 있어서 다녀왔는데 아이 명의로 주식을 사 주었다는 부모님들이 많더라고요.",
+            "turn_id": "BK22017705-1",
+            "utterance_id": "BK22017705.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 요즘은 예금이나 적금보다 주식 같은 투자 상품을 선호하는 분들이 많은 것 같아요.",
+            "turn_id": "BK22017705-1",
+            "utterance_id": "BK22017705.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런가요? 저는 어제 모인 분들이 특이한 건가 싶어서 여쭤보고 싶었거든요. 실제로 아이들 명의로 주식 계좌를 가지고 있는 경우가 많아졌나요?",
+            "turn_id": "BK22017705-2",
+            "utterance_id": "BK22017705.3"
+        },
+        {
+            "reference_date": "2021-07-23",
+            "reference_text": [
+                {
+                    "value": "22일 금융투자 업계에 따르면 지난달 말 현재 10개 증권사(미래에셋대우 NH투자 한국투자 삼성 KB 키움 대신 유안타증권 신한금융투자 하나금융투자)의 미성년자 주식 계좌는 총 116만2605개로 집계됐다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지난해 말(68만2278개)보다 70.4% 급증한 규모다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20210723/108102381/1",
+            "search_query": "미성년자 주식 계좌 수",
+            "terminate": false,
+            "text": "네, 제가 실제 통계 결과를 알려 드릴게요. 2021년 6월 말 기준 미래에셋대우, NH투자, 한국투자, 삼성, KB 등 10개 증권사에 개설된 미성년자의 주식 계좌는 총 116만2605개로 68만2278개였던 2020년 말과 비교했을 때 70.4%의 증가율을 기록한 바 있어요.",
+            "turn_id": "BK22017705-2",
+            "utterance_id": "BK22017705.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "6개월만에 70% 이상 증가하다니 정말 많이 늘었네요. 그런데 계좌만 만들어 놓고 실제 투자로는 이어지지 않은 경우가 많지 않나요? 주식 계좌의 잔고도 비슷하게 증가했는지 궁금해요.",
+            "turn_id": "BK22017705-3",
+            "utterance_id": "BK22017705.5"
+        },
+        {
+            "reference_date": "2022-05-04",
+            "reference_text": [
+                {
+                    "value": "미성년 고객 계좌의 주식잔고 규모는 2019년 1274억에서 올 4월 말 기준 6186억으로 385.7% 늘었다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "같은 기간 30~40대의 주식잔고 증가율 역시 189.7% 증가했지만, 자녀 계좌의 증가율이 부모 세대를 크게 웃돌았다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://view.asiae.co.kr/article/2022050415574567289",
+            "search_query": "미성년자 주식 잔고",
+            "terminate": false,
+            "text": "미성년자 명의 주식 계좌의 잔고 규모는 2019년에 1274억이었던 것이 2022년 4월 말에는 6186억으로 늘어서 385.7%의 증가율을 보였어요. 같은 기간에 30~40대의 주식 잔고가 189.7% 증가한 것과 비교해 보면 자녀 계좌 잔고의 증가율이 부모 세대를 크게 앞섰음을 알 수 있죠.",
+            "turn_id": "BK22017705-3",
+            "utterance_id": "BK22017705.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "계좌의 수 뿐만 아니라 잔고도 많이 늘었군요. 그럼 수익률은 어떤가요? 주식은 손해를 볼 수도 있으니 수익률도 궁금하네요.",
+            "turn_id": "BK22017705-4",
+            "utterance_id": "BK22017705.7"
+        },
+        {
+            "reference_date": "2022-05-04",
+            "reference_text": [
+                {
+                    "value": "지난해 초부터 올해 1분기까지 미성년 계좌의 주식 수익률은 1.51%다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "같은 기간 30~40대 수익률은 -0.64%를 기록했다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "종목 선정보다 자녀 계좌의 특성상 단타 매매가 적고 장기투자의 성격이 강한 점에서 차이가 난 것으로 분석된다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://view.asiae.co.kr/article/2022050415574567289",
+            "search_query": "미성년 주식 계좌 수익률",
+            "terminate": false,
+            "text": "2021년 초부터 2022년 1분기까지 통계를 내 보면 미성년 계좌의 주식은 1.51%의 수익률을 기록했어요. 반면에 30~40대의 수익률은 같은 기간에 -0.64%를 기록했죠. 이와 같은 차이는 자녀의 계좌라는 특성상 단타 매매보다는 장기 투자를 선호하는 경향이 반영된 결과라고 볼 수 있어요.",
+            "turn_id": "BK22017705-4",
+            "utterance_id": "BK22017705.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 장기 투자라는 측면에서 보면 아이 명의로 주식을 사 두는 것도 나쁘지 않겠어요. 저는 얼마 전에 비대면으로 주식 계좌를 만들었는데 아이의 주식 계좌도 비대면으로 개설할 수 있나요?",
+            "turn_id": "BK22017705-5",
+            "utterance_id": "BK22017705.9"
+        },
+        {
+            "reference_date": "2022-07-18",
+            "reference_text": [
+                {
+                    "value": "만14세 이상 미성년자는 일정한 한도 내에서 부모의 동의를 받지 않고도 비대면으로 은행 계좌를 개설할 수 있지만, 주식 계좌는 불가능하다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "미성년자가 증권 계좌를 만들기 위해선 직접 증권사 영업점에 방문해야 한다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etoday.co.kr/news/view/2154683",
+            "search_query": "미성년자 증권 계좌 만드는 방법",
+            "terminate": false,
+            "text": "아니요, 미성년자 명의의 증권 계좌를 개설하려면 증권사 영업점에 직접 방문해야 해요. 은행 계좌의 경우 만 14세가 지난 미성년자는 부모의 동의가 없어도 일정한 한도 내에서 비대면으로 계좌를 만들 수 있지만 주식 계좌는 불가능하거든요.",
+            "turn_id": "BK22017705-5",
+            "utterance_id": "BK22017705.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 아이 대신 제가 증권사에 방문해서 만드는 것은 가능하죠? 그럴 경우 어떤 서류가 필요한지 알려 주시겠어요?",
+            "turn_id": "BK22017705-6",
+            "utterance_id": "BK22017705.11"
+        },
+        {
+            "reference_date": "2021-02-17",
+            "reference_text": [
+                {
+                    "value": "미성년 자녀 이름으로 증권 계좌를 만들기 위해선 3개월 이내에 발급받은 자녀의 주민등록초본과, 가족관계입증서류, 법정대리인(부모)의 신분증, 거래인감(도장) 등을 지참해야 한다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대리인 신분증은 주민등록증과 운전면허증, 여권 모두 가능하지만 여권에는 거주지 정보가 담겨있지 않아 따로 거주지를 입증할 수 있는 서류가 필요하다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.cstimes.com/news/articleView.html?idxno=450902",
+            "search_query": "미성년자 증권 계좌 개설 시 필요 서류",
+            "terminate": false,
+            "text": "네, 증권사를 방문할 때 지참해야 하는 서류를 알려 드릴게요. 미성년 자녀의 명의로 증권 계좌를 개설하려면 3개월 이내에 발급한 자녀의 주민등록초본, 가족관계입증서류, 법정대리인인 부모의 신분증, 거래인감 등이 필요해요. 이 중에서 대리인 신분증의 경우 주민등록증과 운전면허증뿐만 아니라 여권도 가능하지만, 여권으로는 거주지에 대한 정보를 확인할 수 없기 때문에 거주지를 입증하기 위한 서류를 따로 준비해서 지참해야 하죠.",
+            "turn_id": "BK22017705-6",
+            "utterance_id": "BK22017705.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 자세한 설명 감사해요. 아이의 주식 계좌를 개설하는 절차는 제 계좌를 만드는 것과 다른 점이 있나요? 그리고 계좌를 만든 다음 주식을 구매하려면 어떤 절차가 필요한지도 설명해 주세요.",
+            "turn_id": "BK22017705-7",
+            "utterance_id": "BK22017705.13"
+        },
+        {
+            "reference_date": "2020-09-20",
+            "reference_text": [
+                {
+                    "value": "증권사에 가서는 성인이 주식 계좌를 만들 때처럼 부모가 고객등록 신청서, 금융거래목적확인서, 투자자정보확인서 분석과 같은 서류를 작성하면 된다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "주식 계좌를 개설하고 난 뒤 증권사 홈페이지에 회원가입하고 공인인증서를 발급받으면 거래를 위한 사전 준비가 끝난다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이후 홈트레이딩시스템(HTS)이나 모바일트레이딩시스템(MTS)에 로그인해 주식을 매매할 수 있다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/economy/finance/article/202009202217015",
+            "search_query": "미성년자 증권 계좌 개설 절차",
+            "terminate": false,
+            "text": "아니에요, 성인의 주식 계좌 개설과 동일하게 증권사를 방문해서 아이 대신 부모가 고객 등록 신청서, 금융거래목적확인서, 투자자정보확인서 분석 등의 서류를 작성하면 돼요. 주식 계좌를 만들었다면 증권사 홈페이지에 접속해서 회원가입을 한 다음 공인인증서까지 발급받으면 주식 거래의 사전 준비가 완료되는 것이죠. 이후에 주식 매매를 원할 때 홈트레이딩시스템 혹은 모바일트레이딩시스템에 로그인하고 주문하면 돼요.",
+            "turn_id": "BK22017705-7",
+            "utterance_id": "BK22017705.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 잘 알겠어요. 그런데 부모의 돈으로 아이에게 주식을 사 주면 증여세를 내야 한다고 들었는데 맞나요? 증여세는 제가 따로 신고를 해야 하는지도 궁금해요.",
+            "turn_id": "BK22017705-8",
+            "utterance_id": "BK22017705.15"
+        },
+        {
+            "reference_date": "2020-09-20",
+            "reference_text": [
+                {
+                    "value": "부모가 자녀 계좌에 돈을 입금하고 주식을 사주는 것 역시 증여에 해당한다는 점도 유념해야 한다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "증권 계좌 개설 후 돈을 입금할 때 잊지 말고, 늦어도 3개월 안에는 증여 신고를 해야 한다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "증여세 신고는 세무서나 국세청 홈택스를 통해 증여일이 속하는 달의 말일부터 3개월 이내에 하면 된다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "증여일이 9월20일이라면 신고기한은 12월31일까지다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/economy/finance/article/202009202217015",
+            "search_query": "미성년 자녀의 주식 매수에 대한 증여세",
+            "terminate": false,
+            "text": "네, 알고 계시는 대로 부모가 자녀 명의로 된 계좌에 돈을 이체하고 주식을 매수하는 것도 증여에 해당하기 때문에 증권 계좌 개설한 다음 돈을 입금했다면 늦어도 3개월이 지나기 전에는 증여 신고를 해야 해요. 세무서 혹은 국세청 홈택스를 이용해 증여세를 신고할 수 있는데 증여일이 포함되는 달의 말일을 기준으로 3개월 안에 신고하면 되므로 만약 9월 20일에 증여했다면 12월 31일이 신고 기한이 되는 것이에요.",
+            "turn_id": "BK22017705-8",
+            "utterance_id": "BK22017705.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "명심할게요. 그럼 증여 신고를 하게 되면 증여세도 내야 하는 건가요? 일정 금액까지는 비과세라고 하던데 비과세 기준이 얼마인지 알려 주세요.",
+            "turn_id": "BK22017705-9",
+            "utterance_id": "BK22017705.17"
+        },
+        {
+            "reference_date": "2020-09-20",
+            "reference_text": [
+                {
+                    "value": "미성년 자녀 계좌에 대한 증여세는 ‘10년마다 2000만원 비과세’다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "10년마다 2000만원 한도를 적용받기 때문에 다시 증여하려면 10년이 지나야 비과세를 적용받을 수 있다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "증여 시점으로부터 소급해 과거 10년 동안 지급액을 체크해봐야 한다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/economy/finance/article/202009202217015",
+            "search_query": "미성년 자녀에 대한 증여세 비과세 한도",
+            "terminate": false,
+            "text": "미성년 자녀의 계좌에 입금한 돈에 대한 증여세는 10년간 2000만 원까지 비과세돼요. 10년 동안의 한도가 2000만 원이므로 추가로 증여할 경우 10년이 경과해야 비과세를 적용받을 수 있는 것이죠. 따라서 증여를 하는 때로부터 과거 10년 동안 증여한 액수를 소급해서 확인해 볼 필요가 있어요.",
+            "turn_id": "BK22017705-9",
+            "utterance_id": "BK22017705.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 이번 기회에 아이의 계좌를 정리해 봐야겠어요. 여러모로 자세히 알려 주셔서 감사해요. 정말 많은 도움이 되었어요.",
+            "turn_id": "BK22017705-10",
+            "utterance_id": "BK22017705.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 다행이네요. 나중에라도 더 궁금한 게 있으면 편하게 연락하세요.",
+            "turn_id": "BK22017705-10",
+            "utterance_id": "BK22017705.20"
+        }
+    ]
+}

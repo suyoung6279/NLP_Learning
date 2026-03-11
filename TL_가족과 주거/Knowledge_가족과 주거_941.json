@@ -1,0 +1,327 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004274",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004274",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 언니가 이번에 딸을 출산했어요.",
+            "turn_id": "BK22004274-1",
+            "utterance_id": "BK22004274.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 정말 축하드려요. 그럼 예쁜 조카가 생기신 거예요?",
+            "turn_id": "BK22004274-1",
+            "utterance_id": "BK22004274.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하하, 네 맞아요. 그런데 언니랑 형부가 키가 작은 편이라 벌써 아기 키를 걱정하더라고요. 아기에게도 작은 키가 유전될까요?",
+            "turn_id": "BK22004274-2",
+            "utterance_id": "BK22004274.3"
+        },
+        {
+            "reference_date": "2021-12-20",
+            "reference_text": [
+                {
+                    "value": "키성장에 영향을 미치는 유전적 요인은 20~30%이며, 후천적 요인은 70~80% 정도인 것으로 알려져 있다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=100961",
+            "search_query": "키 성장 유전",
+            "terminate": false,
+            "text": "아기 키에 있어서 유전적 요인은 20퍼센트에서 30퍼센트밖에 안 돼요. 오히려 후천적 요인이 70퍼센트에서 80퍼센트죠.",
+            "turn_id": "BK22004274-2",
+            "utterance_id": "BK22004274.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런가요? 그런데 보통 엄마랑 아빠가 크면 아기도 키가 크게 자라잖아요. 그래서 걱정하는 것 같은데 아직 이르긴 하죠.",
+            "turn_id": "BK22004274-3",
+            "utterance_id": "BK22004274.5"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "부모들이 의외로 아이 키에 대해서 걱정을 많이 하더라고요. 저희 옆집 아이도 키가 유독 작아서 그 집 엄마, 아빠가 걱정하던데요.",
+            "turn_id": "BK22004274-3",
+            "utterance_id": "BK22004274.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가끔 유독 키가 작은 아이들이 있죠. 그런데 그런 아이들은 질환으로도 분류할 수 있나요?",
+            "turn_id": "BK22004274-4",
+            "utterance_id": "BK22004274.7"
+        },
+        {
+            "reference_date": "2022-07-25",
+            "reference_text": [
+                {
+                    "value": "반면, 같은 또래 어린이 중에서 키가 100명 중 뒤에서 3번째 미만이거나, 또래 어린이 평균 키보다 10㎝ 넘게 작으면 저신장증이다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2022072311250003021",
+            "search_query": "저신장증",
+            "terminate": false,
+            "text": "또래 친구들 평균 키보다 10cm 넘게 작거나 또래 친구들 100명 중에 뒤에서 3번째 미만인 아이들은 저신장증이라고 해요.",
+            "turn_id": "BK22004274-4",
+            "utterance_id": "BK22004274.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 아이들은 따로 치료받게 되나요? 저 어렸을 때는 키 크는 한약 먹는 친구들이 가끔 있었던 것 같아요.",
+            "turn_id": "BK22004274-5",
+            "utterance_id": "BK22004274.9"
+        },
+        {
+            "reference_date": "2022-07-26",
+            "reference_text": [
+                {
+                    "value": "일반적으로 성장호르몬 주사를 맞으면 골 연령으로 산정한 예측 키보다 5~7cm 정도 더 클 수 있다고 본다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.canceranswer.co.kr/news/articleView.html?idxno=4548",
+            "search_query": "성장호르몬 주사",
+            "terminate": false,
+            "text": "성장호르몬 주사를 맞을 수 있죠. 성장호르몬 주사를 맞으면 예측했던 키보다 5cm에서 7cm 정도 더 자랄 수 있어요.",
+            "turn_id": "BK22004274-5",
+            "utterance_id": "BK22004274.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "성장호르몬 주사를 맞으면 모든 아이가 키가 크는 건가요? 그럼 작지 않은 아이들도 키가 더 크고 싶을 때 호르몬 주사를 맞으면 되겠네요?",
+            "turn_id": "BK22004274-6",
+            "utterance_id": "BK22004274.11"
+        },
+        {
+            "reference_date": "2022-07-22",
+            "reference_text": [
+                {
+                    "value": "호르몬 주사는 성장호르몬 분비가 부족한 아이들에게는 효과가 있지만 호르몬 수치가 정상이며 키가 정상 범위인 아이들에게는 효과가 크지 않다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4750944",
+            "search_query": "저신장증 호르몬 주사",
+            "terminate": false,
+            "text": "그건 아니에요. 호르몬 주사는 성장호르몬 분비가 부족한 아이들에게는 효과가 있지만 정상 범위의 키를 가지면서 정상적인 호르몬 수치를 가진 아이들에게는 효과가 크지 않아요.",
+            "turn_id": "BK22004274-6",
+            "utterance_id": "BK22004274.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 단순히 키가 작은 건지 성장 호르몬 분비가 부족해서 키가 작은 건지 어떻게 알 수 있나요?",
+            "turn_id": "BK22004274-7",
+            "utterance_id": "BK22004274.13"
+        },
+        {
+            "reference_date": "2022-07-23",
+            "reference_text": [
+                {
+                    "value": "첫째는 왼쪽 손목의 X-선 촬영을 통해 성장판 검사를 하는 것이고 두 번째는 혈액 검사를 통해 성장호르몬 결핍을 알아보는 방법이다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.koreadaily.com/2022/07/23/society/generalsociety/20220723130040501.html",
+            "search_query": "저신장증 진단 기준",
+            "terminate": false,
+            "text": "두 가지 검사를 통해서 알 수 있어요. 왼쪽 손목에 X선 촬영해서 성장판 검사를 할 수 있고, 혈액 검사를 해서 성장호르몬 결핍을 확인할 수 있어요.",
+            "turn_id": "BK22004274-7",
+            "utterance_id": "BK22004274.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그런데 성장 호르몬 주사를 맞는 시기는 언제쯤이에요?",
+            "turn_id": "BK22004274-8",
+            "utterance_id": "BK22004274.15"
+        },
+        {
+            "reference_date": "2021-03-02",
+            "reference_text": [
+                {
+                    "value": "여자 아이의 경우 초경 전 만 11∼12세, 남자 아이는 만 12∼13세 전에 받아야 효과를 볼 수 있다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/02/26/2021022601686.html",
+            "search_query": "저신장증 호르몬주사 시기",
+            "terminate": false,
+            "text": "딸이라고 하셨죠? 여자아이들은 초경 전 만 11세에서 12세 정도에 맞아야 효과가 좋아요. 남자아이의 경우는 만 12세에서 13세 사이에 맞아야 좋고요.",
+            "turn_id": "BK22004274-8",
+            "utterance_id": "BK22004274.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다행히도 성장호르몬 분비를 걱정하려면 아직 10년은 더 남았네요. 호르몬 주사에 부작용은 없겠죠?",
+            "turn_id": "BK22004274-9",
+            "utterance_id": "BK22004274.17"
+        },
+        {
+            "reference_date": "2021-07-14",
+            "reference_text": [
+                {
+                    "value": "성장호르몬 치료는 특이한 부작용은 없는 것으로 알려져 있지만, 간혹 급격한 성장으로 인한 부작용이 나타날 수 있으므로 주치의와의 충분한 상담을 통해 진행하는 것이 매우 중요합니다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://biz.heraldcorp.com/view.php?ud=20210714000211",
+            "search_query": "성장호르몬 주사",
+            "terminate": false,
+            "text": "네. 아직 부작용은 없는 걸로 알려져 있어요. 그런데 가끔 키가 갑자기 자라면서 생기는 부작용이 있을 수 있으니 성장호르몬 주사를 맞게 되면 주치의와 충분히 상담하는 게 중요해요.",
+            "turn_id": "BK22004274-9",
+            "utterance_id": "BK22004274.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "별다른 부작용이 없다니 그건 다행이네요. 혹시 호르몬 주사 말고 키 크는데 중요한 습관 같은 게 있을까요?",
+            "turn_id": "BK22004274-10",
+            "utterance_id": "BK22004274.19"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "균형 잡힌 1일 3식을 섭취하고, 주 2~3회 30분 정도의 가벼운 운동을 습관화하도록 한다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "저녁 10시에서 새벽 2시까지 깊게 잠들 수 있도록 일찍 잠자리에 들어 일찍 일어나야 하겠다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01184086632399768&mediaCodeNo=257",
+            "search_query": "키 성장",
+            "terminate": false,
+            "text": "아직 걱정하기엔 멀었지만 매일 3끼 균형 잡힌 식사, 일주일에 두세번씩 30분 정도의 간단한 운동, 저녁 10시부터 새벽 2시에는 숙면하기 정도의 생활 습관이 키 크는 데 중요하니 언니에게 잘 전달해주세요.",
+            "turn_id": "BK22004274-10",
+            "utterance_id": "BK22004274.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "언니가 호들갑이 심한 성격이라 말해주면 좋아할 거예요. 오늘 좋은 정보 고마워요. 그럼 다음에 뵐게요.",
+            "turn_id": "BK22004274-11",
+            "utterance_id": "BK22004274.21"
+        }
+    ]
+}

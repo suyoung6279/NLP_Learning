@@ -1,0 +1,378 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22017086",
+        "name": "2022 한국어 블렌더봇 데이터 BK22017086",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번에 저희 고양이가 아파서 수술하게 됐어요.",
+            "turn_id": "BK22017086-1",
+            "utterance_id": "BK22017086.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼른 회복되어야 할 텐데 걱정이네요.",
+            "turn_id": "BK22017086-1",
+            "utterance_id": "BK22017086.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 수술 비용이 많이 나오더라고요. 반려동물에 대한 의료비나 지출이 만만치 않아요. 반려동물에 대한 지출이 평균 얼마 정도나 되나요?",
+            "turn_id": "BK22017086-2",
+            "utterance_id": "BK22017086.3"
+        },
+        {
+            "reference_date": "44568.0",
+            "reference_text": [
+                {
+                    "value": "반려동물 한 마리당 월평균 양육비는 12.35만원이었다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려견은 14.97만원, 반려묘는 12.57만원이었는데 그중 병원비로 각각 5.21만원, 4.15만원을 사용한다고 응답했다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailyvet.co.kr/news/policy/159008",
+            "search_query": "반려동물 비용 통계",
+            "terminate": false,
+            "text": "반려동물 한 마리당 월평균 드는 양육비는 12.35만 원이고, 반려견은 14.97만 원, 반려묘는 12.57만 원 정도예요. 그중에 병원비로 쓰이는 비용은 반려견 5.21만 원 반려묘 4.15만 원 정도가 사용되고 있죠.",
+            "turn_id": "BK22017086-2",
+            "utterance_id": "BK22017086.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 많은 돈을 반려동물 의료비에 지출하고 있네요. 반려묘들은 어떤 질병에 자주 걸리는지 알 수 있을까요? 저도 더욱 신경 써서 저희 고양이를 케어하려고요.",
+            "turn_id": "BK22017086-3",
+            "utterance_id": "BK22017086.5"
+        },
+        {
+            "reference_date": "41865.0",
+            "reference_text": [
+                {
+                    "value": "고양이 전문병원에서 발표한 고양이 10대 질병 자료에 따르면 상부호흡기 질환과 범백혈구감소증과 같은 전염성 질병이 가장 많고 피부사상균증, 원충감염증, 고양이 전염성 복막염, 고양이 하부요로기계 질환, 급/만성 신부전, 자궁축농증(잠복고환), 고양이비대성심근병증(HCM), 급/만성 췌장염, 치과질환으로 고양이 치아 흡수성 병변(구내염을 동반하는 하는 경우 더욱 중증)이 그 뒤를 이었다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://magazine.hankyung.com/business/article/202102234505b",
+            "search_query": "고양이 잘 걸리는 질병",
+            "terminate": false,
+            "text": "고양이들은 상부호흡기 질환과 범백혈구감소증과 같은 전염성 질병에 가장 많이 걸립니다. 그 다음으로 고양이가 자주 걸리는 질병에 피부사상균증, 원충감염증, 고양이 전염성 복막염, 고양이 하부요로기계 질환이 있습니다. 또한 급/만성 신부전, 자궁축농증, 고양이비대성심근병증, 급/만성 췌장염과 같은 질병들에도 걸리기 쉽습니다. 고양이 치아 흡수성 병변 또한 고양이들이 자주 걸리는 치과질환이니 꾸준한 케어가 필요합니다.",
+            "turn_id": "BK22017086-3",
+            "utterance_id": "BK22017086.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려동물 의료비를 부담을 줄이기 위한 펫 보험이 있다고 들었는데 정작 주위에 펫 보험을 사용하는 사람들을 본 적은 거의 없는 것 같아요.",
+            "turn_id": "BK22017086-4",
+            "utterance_id": "BK22017086.7"
+        },
+        {
+            "reference_date": "44015.0",
+            "reference_text": [
+                {
+                    "value": "하지만 국내 반려동물이 1000만 마리 이상으로 추산되는 점을 고려할 때 펫보험 가입률은 전체의 0.25%대에 머문다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "4000마리 중 1마리 꼴로 겨우 보험에 가입했다는 의미다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2020070219483687887",
+            "search_query": "펫보험 이용자 수",
+            "terminate": false,
+            "text": "맞아요, 국내 반려동물의 수가 1000만 마리 이상으로 집계되는 반면 펫 보험 가입률은 전체의 0.25% 밖에 되지 않아요. 4000마리 중 1마리 꼴로 보험에 가입했한것과 마찬가지인 만큼 이용자 수가 적다는 거죠.",
+            "turn_id": "BK22017086-4",
+            "utterance_id": "BK22017086.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 적은 사람이 이용하고 있군요, 그 이유는 뭔가요?",
+            "turn_id": "BK22017086-5",
+            "utterance_id": "BK22017086.9"
+        },
+        {
+            "reference_date": "44795.0",
+            "reference_text": [
+                {
+                    "value": "가입률이 저조한 가장 큰 원인은 체감 혜택이 적기 때문이다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "현재 국내 펫보험은 개와 고양이만 가입할 수 있다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보장되는 질병 범위가 제한적이고, 반려동물의 나이나 병원 방문 이력 등에 따라 가입에 제약이 있다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 월 납입액이 3만원~8만원대여서 소비자 입장에선 받는 혜택에 비해 보험료가 비싸다고 느끼는 것으로 나타났다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kongje.or.kr/news/articleView.html?idxno=2344",
+            "search_query": "펫보험 가입율",
+            "terminate": false,
+            "text": "가입율이 낮은 가장 큰 이유는 소비자가 월 3만 원~8만 원대를 납입하지만 지출에 비해 받는 혜택이 낮다고 느끼기 때문이에요. 또한 현재 국내 펫 보험은 개와 고양이만 가입이 가능해요. 또한 보장되는 질병 범위가 한정적이며 반려동물의 연령이나 병원 방문 이력 등에 따라 가입에 제한이 있어서 가입률이 낮을 수밖에 없어요.",
+            "turn_id": "BK22017086-5",
+            "utterance_id": "BK22017086.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "펫 보험의 혜택이 좋다면 꼭 사용하고 싶은데, 보험사에서는 왜 적은 혜택과 가입 및 보장에 제한을 두나요?",
+            "turn_id": "BK22017086-6",
+            "utterance_id": "BK22017086.11"
+        },
+        {
+            "reference_date": "44795.0",
+            "reference_text": [
+                {
+                    "value": "1999년 동물의료 수가제가 폐지된 이후 보험료 산출 근거로 활용할 데이터가 없고, 동물병원비가 제각각이라 보험사가 진료비를 추산하기 어렵다보니 보수적으로 상품을 설계할 수 밖에 없다는 것이다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kongje.or.kr/news/articleView.html?idxno=2344",
+            "search_query": "펫보험 문제",
+            "terminate": false,
+            "text": "1999년 동물 의료 수가제가 폐지되면서 보험사에서 보험료 계산에 활용할 데이터가 많이 없고, 동물병원비가 천차만별이라 보험사가 진료비를 계산하기 어렵다 보니 상품 설계를 보수적으로 할 수밖에 없는 현실이에요.",
+            "turn_id": "BK22017086-6",
+            "utterance_id": "BK22017086.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "보험사 입장도 어느 정도 이해가 되네요, 그렇다면 외국의 펫 보험 가입률은 어떤가요?",
+            "turn_id": "BK22017086-7",
+            "utterance_id": "BK22017086.13"
+        },
+        {
+            "reference_date": "44744.0",
+            "reference_text": [
+                {
+                    "value": "스웨덴은 현재 펫보험 가입률이 40% 이상이다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "영국도 펫보험 가입률이 25%에 달한다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "미국도 펫보험 시장이 성장세다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가입률도 10%대로 지속적으로 오르고 있다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.nate.com/view/20200702n33981",
+            "search_query": "외국 펫보험 가입률",
+            "terminate": false,
+            "text": "40% 이상의 독보적인 펫 보험 가입률을 보이는 스웨덴, 25%의 영국, 그리고 미국의 가입율도 10%대로 지속적으로 오르고 있어요. 우리나라보다 훨씬 높죠?",
+            "turn_id": "BK22017086-7",
+            "utterance_id": "BK22017086.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말이군요! 어떻게 우리나라의 가입률보다 훨씬 높은 가입률을 보여줄 수 있는 건가요?",
+            "turn_id": "BK22017086-8",
+            "utterance_id": "BK22017086.15"
+        },
+        {
+            "reference_date": "44782.0",
+            "reference_text": [
+                {
+                    "value": "심준원 반려동물보험연구소 소장 겸 펫핀스 대표는 “펫보험이 활성화된 나라에는 표준진료체계가 마련돼있다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "병원마다 편차가 있긴 하지만 합리적인 수준의 차이”라며 “우리나라에는 표준진료체계가 없다 보니 병원마다 진료비 편차가 크고, 이는 곧 보험 활성화가 안 되는 결과로 이어진다”고 지적했다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.babytimes.co.kr/news/articleView.html?idxno=59534",
+            "search_query": "펫보험 활성화",
+            "terminate": false,
+            "text": "펫 보험이 활성화된 나라들은 표준진료체계가 마련돼있는데, 병원마다 차이가 있긴 하지만 합리적인 수준의 차이일 뿐이에요. 반면에 우리나라에는 표준진료 체계가 없다 보니 병원마다 진료비의 차이가 크고 이로 인해 보험 활성화가 잘 되지 않아요.",
+            "turn_id": "BK22017086-8",
+            "utterance_id": "BK22017086.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라도 펫 보험이 더욱 활성화돼서 반려동물을 위한 의료 혜택이 더욱 많아졌으면 좋겠어요. 정부에서도 이를 위해 노력하고 있나요?",
+            "turn_id": "BK22017086-9",
+            "utterance_id": "BK22017086.17"
+        },
+        {
+            "reference_date": "44698.0",
+            "reference_text": [
+                {
+                    "value": "이에 정부는 동물 생체 정보를 활용한 반려동물 등록제를 도입하기 위해 올해 동물보호법 개정을 추진하고. 반려인과 반려견 모두 함께 가입하고 보장받을 수 있는 보험 상품 출시도 허용할 계획이다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news2day.co.kr/article/20220517500011",
+            "search_query": "정부 펫보험 활성화",
+            "terminate": false,
+            "text": "그럼요, 정부는 동물 생체 정보를 이용한 반려동물 등록제를 적용하기 위해서 올해 동물보호법 개정을 진행하고 있어요. 또한 반려인과 반려견 모두 함께 가입하고 보장받을 수 있는 보험 상품 출시 허용도 계획하고 있어요. 좋은 소식이죠?",
+            "turn_id": "BK22017086-9",
+            "utterance_id": "BK22017086.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러네요, 저도 꾸준히 펫 보험에 관심 가지고 여러 상품들도 자세히 알아봐야겠어요.",
+            "turn_id": "BK22017086-10",
+            "utterance_id": "BK22017086.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좋아요, 혹시 더 궁금한 내용은 없나요?",
+            "turn_id": "BK22017086-10",
+            "utterance_id": "BK22017086.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "많은 정보 알려주셔서 충분해요, 너무 감사해요!",
+            "turn_id": "BK22017086-11",
+            "utterance_id": "BK22017086.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저도 대화 나눌 수 있어서 즐거웠어요.",
+            "turn_id": "BK22017086-11",
+            "utterance_id": "BK22017086.22"
+        }
+    ]
+}

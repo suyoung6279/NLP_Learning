@@ -1,0 +1,352 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018009",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018009",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0021"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "만 3세인 아이를 교육기관에 보내려고 해요. 나이가 어린데 유치원이 아닌 어린이집에만 입학할 수 있나요?",
+            "turn_id": "BK22018009-1",
+            "utterance_id": "BK22018009.1"
+        },
+        {
+            "reference_date": "2021-11-04",
+            "reference_text": [
+                {
+                    "value": "유치원은 국립, 공립, 사립 관계없이 모두 만 3세 아동부터 초등학교 취학 전 아이들을 대상으로 한다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "어린이집은 기관마다 차이가 있기는 하지만, 0세부터 만 6세 미만의 미취학 아동이라면 나이에 상관없이 입학할 수 있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.edupolnews.com/news/articleView.html?idxno=13881",
+            "search_query": "어린이집 유치원 입학 나이",
+            "terminate": false,
+            "text": "어린이집은 0세부터 만 6세미만까지, 유치원은 국립, 공립, 사립 관계없이 만 3세부터 초등학교 취학 전 아이까지 다닐 수 있어요. 어린이집 이용 연령은 기관마다 차이가 있을 수 있으니 개별 어린이집에 확인해보셔야 해요.",
+            "turn_id": "BK22018009-1",
+            "utterance_id": "BK22018009.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어린이집은 보육 기관이고 유치원은 교육기관이라는 이야기를 들었는데 교육과정에 차이가 있는 건가요?",
+            "turn_id": "BK22018009-2",
+            "utterance_id": "BK22018009.3"
+        },
+        {
+            "reference_date": "2022-05-31",
+            "reference_text": [
+                {
+                    "value": "30일 교육부 등에 따르면 과거 유치원은 ‘교육’, 어린이집은 ‘보육’에 방점이 찍혔다는 인식이 컸지만, 이런 격차를 줄이기 위해 2012년 누리과정(만 3∼5세 유아에게 공통으로 제공하는 교육·보육 과정)이 도입됐다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 결과 현재 어린이집과 유치원의 교육과정 자체는 큰 차이가 없다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220530518101?OutUrl=naver",
+            "search_query": "어린이집 보육 유치원 교육",
+            "terminate": false,
+            "text": "이미 교육부에서 2012년에 누리과정을 도입해 유아 교육, 보육 과정을 통일했기 때문에 어린이집과 유치원의 교육과정에는 큰 차이가 없어요.",
+            "turn_id": "BK22018009-2",
+            "utterance_id": "BK22018009.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞벌이 가정인데 부부가 둘 다 야근이 잦은 편이에요. 어린이집과 유치원 중 방학이 짧고 늦게까지 아이를 맡길 수 있는 곳은 어디인가요?",
+            "turn_id": "BK22018009-3",
+            "utterance_id": "BK22018009.5"
+        },
+        {
+            "reference_date": "2022-05-31",
+            "reference_text": [
+                {
+                    "value": "그 결과 현재 어린이집과 유치원의 교육과정 자체는 큰 차이가 없다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 결과 현재 어린이집과 유치원의 교육과정 자체는 큰 차이가 없다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반면 어린이집은 원칙적으로는 공휴일을 제외하고 연중무휴로 운영되고, 야간보육도 가능하다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220530518101?OutUrl=naver",
+            "search_query": "유치원 어린이집 방학 수업일수",
+            "terminate": false,
+            "text": "유치원은 한 해 수업 일수 180일을 충족하면 그 외의 수업일수는 원장 재량이기 때문에 어린이집보다 방학이 길어요. 유치원은 반일제를 기본으로 하루 5시간 정도 수업하지만, 어린이집은 야간보육이 가능하고 공휴일 제외 연중무휴로 운영하는 것이 원칙이에요.",
+            "turn_id": "BK22018009-3",
+            "utterance_id": "BK22018009.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유치원 교육비는 국가에서 지원해주나요?",
+            "turn_id": "BK22018009-4",
+            "utterance_id": "BK22018009.7"
+        },
+        {
+            "reference_date": "2022-08-15",
+            "reference_text": [
+                {
+                    "value": "초등학교 취학 직전 3년의 유아교육은 무상으로 하며, 무상교육은 만 3세 이상인 유아로서 유치원에서 교육부장관과 보건복지부장관이 협의하여 정하는 공통의 교육·보육과정(이하 '공통과정'이라 함)을 제공받는 유아를 대상으로 합니다(「유아교육법」 제24조제1항 및 「유아교육법 시행령」 제29조제1항제1호).",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=631&ccfNo=2&cciNo=3&cnpClsNo=1&search_put=%EC%9C%A0%EC%B9%98%EC%9B%90",
+            "search_query": "유아교육 무상",
+            "terminate": false,
+            "text": "유아교육법 제24조제1항 및 유아교육법 시행령 제29조제1항제1호에 따라 만 3세 이상인 유아가 초등학교 취학 직전 3년간 유치원에서 받는 유아교육은 무상으로 운영하고 있어요.",
+            "turn_id": "BK22018009-4",
+            "utterance_id": "BK22018009.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어린이집에 다니는 경우에는 보육료 지원 대상이 아닌가요?",
+            "turn_id": "BK22018009-5",
+            "utterance_id": "BK22018009.9"
+        },
+        {
+            "reference_date": "2022-06-15",
+            "reference_text": [
+                {
+                    "value": "만 0~5세 영유아가 어린이집을 이용하는 경우에는 소득수준에 관계없이 보육료를 지원받을 수 있습니다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://easylaw.go.kr/CSP/OnhunqueansInfoRetrieve.laf?onhunqnaAstSeq=89&onhunqueSeq=4425",
+            "search_query": "어린이집 보육료 지원",
+            "terminate": false,
+            "text": "아뇨, 어린이집에 다니는 만 0세에서 5세까지의 영유아에 대해서도 소득수준과 무관하게 보육료를 지원하고 있어요.",
+            "turn_id": "BK22018009-5",
+            "utterance_id": "BK22018009.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 엄마들은 미술 놀이 학교나 영어유치원도 많이 보내던데 놀이학교와 영어유치원은 유치원과 어린이집 중 어디에 해당하나요?",
+            "turn_id": "BK22018009-6",
+            "utterance_id": "BK22018009.11"
+        },
+        {
+            "reference_date": "2022-08-15",
+            "reference_text": [
+                {
+                    "value": "놀이학교 및 영어유치원은 그 명칭이 학교나 유치원이긴 하지만 사인(私人)이 영유아를 대상으로 영어, 수학, 과학, 미술, 음악 등을 교습하기 위해 설립한 곳이므로 학교가 아닌 학원으로서 「학원의 설립·운영 및 과외교습에 관한 법률」의 적용을 받습니다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=631&ccfNo=1&cciNo=1&cnpClsNo=1",
+            "search_query": "놀이학교 영어유치원",
+            "terminate": false,
+            "text": "영어유치원이나 놀이학교는 영유아를 대상으로 영어, 수학, 과학, 미술, 음악 등을 교습하기 위해 만든 곳이기 때문에 학교가 아닌 학원에 해당해요. 즉, 미술 놀이 학교 또는 영어유치원처럼 학교나 유치원이라는 이름이 붙었더라도 학원의 설립·운영 및 과외교습에 관한 법률이 적용돼요.",
+            "turn_id": "BK22018009-6",
+            "utterance_id": "BK22018009.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혼자 아이를 돌보고 있는데 긴급한 사정이 있을 때 아이를 돌봐줄 사람이 없어요. 어린이집을 다니지 않는 아이를 저 대신 몇시간만 돌봐주는 서비스가 있나요?",
+            "turn_id": "BK22018009-7",
+            "utterance_id": "BK22018009.13"
+        },
+        {
+            "reference_date": "2022-08-15",
+            "reference_text": [
+                {
+                    "value": "어린이집이나 유치원을 다니지 않는 생후 6개월 이상의 영유아는 필요한 경우 시간제보육 서비스를 받을 수 있습니다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "시간제보육 서비스는 임신육아종합포털 아이사랑 홈페이지(www.childcare.go.kr )-어린이집 -시간제보육사업에서 아동등록 및 예약 후 이용 가능합니다",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "임신육아종합포털 시간제보육 대표전화(☎ 1661-9361)를 통해 시간제 보육 서비스 예약 및 문의하실 수 있습니다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=626&ccfNo=3&cciNo=6&cnpClsNo=1&menuType=onhunqna&search_put=유치원",
+            "search_query": "시간제보육 긴급 서비스",
+            "terminate": false,
+            "text": "네. 생후 6개월 이상의 영유아라면 어린이집이나 유치원에 다니지 않아도 시간제 보육 서비스 이용 대상이에요. 임신육아종합포털 아이사랑 홈페이지에서 아동 정보를 등록한 뒤 홈페이지나 대표번호를 통해 시간제 보육 서비스를 예약할 수 있어요.",
+            "turn_id": "BK22018009-7",
+            "utterance_id": "BK22018009.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집에서 돌보던 아이를 기관에 보내려니 걱정이 돼요. 어린이집과 유치원에 있는 교사들은 어떤 자격증을 가지고 있는 분들인가요?",
+            "turn_id": "BK22018009-8",
+            "utterance_id": "BK22018009.15"
+        },
+        {
+            "reference_date": "2021-11-04",
+            "reference_text": [
+                {
+                    "value": "어린이집 교사는 보건복지부가 발행하는 '보육교사 자격증'이 있을 경우 지원할 수 있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "유치원 교사는 '유치원 정교사 자격증'을 취득한 경우에만 지원할 수 있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.edupolnews.com/news/articleView.html?idxno=13881",
+            "search_query": "어린이집 유치원 교사 자격증",
+            "terminate": false,
+            "text": "유치원 교사는 유치원 정교사 자격증을, 어린이집 교사는 보건복지부에서 발행한 보육교사 자격증을 취득한 사람으로 제한하고 있어요.",
+            "turn_id": "BK22018009-8",
+            "utterance_id": "BK22018009.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아동학대 전력이 있는 교사가 우리 아이를 맡게 되면 어떡하죠?",
+            "turn_id": "BK22018009-9",
+            "utterance_id": "BK22018009.17"
+        },
+        {
+            "reference_date": "2022-08-15",
+            "reference_text": [
+                {
+                    "value": "아동학대관련범죄전력자는 그 형 또는 치료감호의 전부 또는 일부의 집행이 종료(종료된 것으로 보는 경우를 포함)되거나 집행을 받지 않기로 확정된 후 10년까지의 기간 동안 아동관련기관을 운영하거나 아동관련기관에 취업 또는 사실상 노무를 제공할 수 없습니다(규제「아동복지법」 제29조의3제1항).",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1125&ccfNo=4&cciNo=1&cnpClsNo=2&search_put=%EC%95%84%EB%8F%99%ED%95%99%EB%8C%80%20%EC%B2%98%EB%B2%8C%20",
+            "search_query": "아동학대 전력자 아동관련기관 취업",
+            "terminate": false,
+            "text": "아동복지법 제29조의 3제1항에 따라 아동학대 관련 범죄 전력자는 형 집행 후 또는 집행을 받지 않기로 된 후 10년간 아동 관련기관에서 일할 수 없게 되어있어요.",
+            "turn_id": "BK22018009-9",
+            "utterance_id": "BK22018009.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이를 기관에 보낼 때가 되니까 괜히 걱정이 늘어나는 것 같아요. 좋은 선생님 만나서 잘 생활할 수 있겠죠?",
+            "turn_id": "BK22018009-10",
+            "utterance_id": "BK22018009.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그럼요, 너무 걱정하지 마세요. 아이를 위해 좋은 기관 선택하시길 바랄게요.",
+            "turn_id": "BK22018009-10",
+            "utterance_id": "BK22018009.20"
+        }
+    ]
+}

@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015444",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015444",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0018"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "돈을 모아서 독립하고 싶은데 집값이 너무 비싸서 고민이야.",
+            "turn_id": "BK22015444-1",
+            "utterance_id": "BK22015444.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 그래서 나는 요즘 임대주택을 알아보고 있어.",
+            "turn_id": "BK22015444-1",
+            "utterance_id": "BK22015444.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 국민임대주택 알아보라고 추천받았는데, 혹시 이게 어떤 건지 알아?",
+            "turn_id": "BK22015444-2",
+            "utterance_id": "BK22015444.3"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "국민임대주택은 지자체나 한국토지주택공사 등에서, 일정 소득수준 이하의 저소득층을 배려해 시행하는 장기임대 주택으로, 공공임대주택과 달리 분양전환이 되지 않는다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B5%AD%EB%AF%BC%EC%9E%84%EB%8C%80%EC%A3%BC%ED%83%9D",
+            "search_query": "국민임대주택",
+            "terminate": false,
+            "text": "물론이지, 국민임대주택은 한국토지주택공사나 지자체가 일정 소득수준 이하의 저소득층을 위해서 운영하는 장기임대 주택인데, 공공임대주택이랑 다르게 분양전환이 불가능하다는 점이 있어.",
+            "turn_id": "BK22015444-2",
+            "utterance_id": "BK22015444.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 거구나, 그러면 국민임대주택에 들어가려면 어떤 조건이 필요해?",
+            "turn_id": "BK22015444-3",
+            "utterance_id": "BK22015444.5"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "입주를 원하는 가구의 세대주나 주민등록상 가족 전원이 무주택자여야 한다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "국민임대주택은 집 없는 서민을 위한 정책인만큼, 이 조건을 충족하지 못하면 입주할 수 없다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B5%AD%EB%AF%BC%EC%9E%84%EB%8C%80%EC%A3%BC%ED%83%9D",
+            "search_query": "국민임대주택 조건",
+            "terminate": false,
+            "text": "국민임대주택에 들어가려면 세대주나 세대 구성원들이 모두 주민등록상 집이 없는 사람이어야 해. 이 국민임대주택이라는게 무주택자인 일반 사람들을 위한 정책이어서 이 조건에서 벗어나면 안 돼.",
+            "turn_id": "BK22015444-3",
+            "utterance_id": "BK22015444.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내가 독립하면 무주택자니까 가능할 수도 있겠다. 그리고 생각해보니 매입임대라는 걸 신문에서 본 적이 있는데, 이건 뭐야?",
+            "turn_id": "BK22015444-4",
+            "utterance_id": "BK22015444.7"
+        },
+        {
+            "reference_date": "2022-09-15",
+            "reference_text": [
+                {
+                    "value": "매입임대는 LH가 이미 지어지거나 지을 예정인 다가구주택 등 민간주택을 매입해 저소득층과 청년 및 신혼부부 등에게 저렴하게 임대하는 형태다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "입주를 원하는 사람이 전용면적 85㎡ 이하이면서 건물사용승인일이 3년 이내인 주택을 선정해 LH에 입주 신청을 하면 된다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mstoday.co.kr/news/articleView.html?idxno=80177",
+            "search_query": "매입임대주택",
+            "terminate": false,
+            "text": "아, 매입임대는 LH가 이미 완공되었거나 완공될 예정인 다가구주택 같은 민간주택을 사들여서 저소득층, 청년, 신혼부부한테 저렴하게 빌려주는 거야. 여기에 들어가려면 전용면적 85제곱미터 이하고, 건물 사용승인일이 3년 이내인 집을 골라서 LH에 입주 신청을 하면 돼.",
+            "turn_id": "BK22015444-4",
+            "utterance_id": "BK22015444.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 신청할 수 있는지 알아봐야겠다. 그리고 또 어떤 임대주택이 있어?",
+            "turn_id": "BK22015444-5",
+            "utterance_id": "BK22015444.9"
+        },
+        {
+            "reference_date": "2022-09-15",
+            "reference_text": [
+                {
+                    "value": "영구임대주택은 저소득층의 주거안정을 위해 공급되는 임대주택으로 시세의 30% 수준 임대료로 입주가 가능하다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자산 소득 기준은 없지만 기초생활수급자, 국가유공자, 한부모가족 등 세대구성원 모두 무주택자여야 입주자격이 생긴다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mstoday.co.kr/news/articleView.html?idxno=80177",
+            "search_query": "영구임대주택",
+            "terminate": false,
+            "text": "영구임대주택이라고 저소득층의 주거안정을 위해서 시행되는 임대주택이 있는데 시장가격의 30퍼센트 정도의 임대료로 거주할 수 있어. 그리고 자산 소득 기준이 없는 대신에 기초생활수급자, 국가유공자, 한부모가족 등 식구들이 모두 집이 없어야 들어갈 수 있는 자격이 생겨.",
+            "turn_id": "BK22015444-5",
+            "utterance_id": "BK22015444.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 다양한 제도가 있구나. 그나저나 내 친구는 행복주택을 신청했다고 했는데, 이것도 임대주택 중 하나야?",
+            "turn_id": "BK22015444-6",
+            "utterance_id": "BK22015444.11"
+        },
+        {
+            "reference_date": "2022-09-15",
+            "reference_text": [
+                {
+                    "value": "행복주택은 대학생, 사회초년생, 신혼부부 등 젊은 층의 주거안정을 목적으로 공급하는 공공 임대주택이다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "입주자격은 전년도 월 평균소득의 100%(3인 가구 기준 620만8934원) 이하, 대학생은 자동차를 소유하지 않고 총자산이 8600만원 이하여야 한다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mstoday.co.kr/news/articleView.html?idxno=80177",
+            "search_query": "행복주택",
+            "terminate": false,
+            "text": "응, 행복주택은 대학생, 사회초년생, 신혼부부같이 젊은 사람들의 주거 안정을 위해서 시행하는 공공 임대주택이야. 들어갈 수 있는 자격은 그 전해의 월 평균소득의 100퍼센트 이하, 대학생은 자동차가 없고 가지고 있는 자산이 8600만원 이하여야 하지.",
+            "turn_id": "BK22015444-6",
+            "utterance_id": "BK22015444.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 거였구나, 친구가 엄청 알아보고 신청했다고 하더라고. 그나저나 민간임대주택이라는 것도 있다던데, 어떤 것들이 있어?",
+            "turn_id": "BK22015444-7",
+            "utterance_id": "BK22015444.13"
+        },
+        {
+            "reference_date": "2022-03-05",
+            "reference_text": [
+                {
+                    "value": "먼저 민간건설임대주택은 임대사업자(민간건설사 등)가 임대를 목적으로 건설한 주택을 말하고, 민간매입임대주택은 임대사업자가 매매 등으로 소유권을 취득해 임대하는 주택을 말합니다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/003/0011044041?sid=101",
+            "search_query": "민간임대주택",
+            "terminate": false,
+            "text": "먼저 민간건설임대주택이 있는데 이건 임대사업자가 빌려주기 위해서 만든 집이고, 민간매입임대주택이라는 것도 있는데 임대사업자가 사들여서 소유권을 확보한 다음에 빌려주는 집이 있어.",
+            "turn_id": "BK22015444-7",
+            "utterance_id": "BK22015444.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이런 것들도 한번 알아봐야겠다. 그런데 말이야 내가 자주 이사할 형편이 안 되는데, 오랫동안 살 수 있는 임대주택도 있을까?",
+            "turn_id": "BK22015444-8",
+            "utterance_id": "BK22015444.15"
+        },
+        {
+            "reference_date": "2022-08-16",
+            "reference_text": [
+                {
+                    "value": "반면 공공지원 민간임대주택의 경우 적게는 8년간 길게는 10년 동안 장기거주가 가능한데다 시세 대비 저렴한 임대료로 공급된다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "임대료 상승률도 연 5%로 제한돼 거주 안정성도 높다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fntimes.com/html/view.php?ud=2022081522324289415e6e69892f_18",
+            "search_query": "공공지원 민간임대주택",
+            "terminate": false,
+            "text": "그러면 공공지원 민간임대주택이라는 걸 알아봐. 이 집들은 최소 8년에서 길게는 10년 동안 살 수 있고, 시장 가격보다 저렴한 임대료로 살 수 있어. 그리고 임대료 상승률도 매해 5퍼센트로 제한이 되어 있어서 안정적으로 살 수 있지.",
+            "turn_id": "BK22015444-8",
+            "utterance_id": "BK22015444.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우와, 여기서 살 수 있으면 좋겠다. 그런데 이런 민간임대주택 경쟁률이 높다고 들었는데, 왜 그런 거야?",
+            "turn_id": "BK22015444-9",
+            "utterance_id": "BK22015444.17"
+        },
+        {
+            "reference_date": "2022-03-05",
+            "reference_text": [
+                {
+                    "value": "이처럼 민간임대주택의 경쟁률이 높은 이유는 청약문턱이 낮기 때문입니다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만19세 이상이면 청약통장 없이도 누구나 접수가 가능하고, 추첨제로 진행되기 때문에 가점이 낮아도 도전할 수 있습니다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/003/0011044041?sid=101",
+            "search_query": "민간임대주택 경쟁률",
+            "terminate": false,
+            "text": "민간임대주택의 경쟁률이 높은 원인은 청약을 할 수 있는 조건이 까다롭지 않아서야. 청약통장을 가지고 있지 않아도 만 19세 이상이면 누구나 신청할 수 있고, 추첨해서 뽑기 때문에 가점이 높지 않아도 해볼 만하지.",
+            "turn_id": "BK22015444-9",
+            "utterance_id": "BK22015444.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 일단 나도 여러 가지를 알아보고 빨리 신청해 봐야겠다. 덕분에 집 때문에 고민이 많았는데 한시름 놓게 됐어. 혹시 궁금한 게 또 생기면 연락할게!",
+            "turn_id": "BK22015444-10",
+            "utterance_id": "BK22015444.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 정말 다행이야. 집에 조심히 가고 다음에 보자.",
+            "turn_id": "BK22015444-10",
+            "utterance_id": "BK22015444.20"
+        }
+    ]
+}

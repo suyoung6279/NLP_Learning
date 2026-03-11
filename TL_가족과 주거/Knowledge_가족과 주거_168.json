@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014587",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014587",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이제 결혼한 지도 3년이 지나서 임신 준비를 해볼까 해.",
+            "turn_id": "BK22014587-1",
+            "utterance_id": "BK22014587.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 임신을 계획하고 있구나.",
+            "turn_id": "BK22014587-1",
+            "utterance_id": "BK22014587.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 그런데 어떻게 준비해야 할지 막막해. 제일 먼저 준비해야 할 일은 무엇일까?",
+            "turn_id": "BK22014587-2",
+            "utterance_id": "BK22014587.3"
+        },
+        {
+            "reference_date": "43050.0",
+            "reference_text": [
+                {
+                    "value": "임신을 계획한다면 내 몸이 임신을 해도 되는 건강한 몸인지, 병은 없는지 산부인과를 내원해 산전검사를 받는다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=51542",
+            "search_query": "임신 준비 산전검사",
+            "terminate": false,
+            "text": "임신을 계획하고 있다면 내 몸이 임신을 해도 되는 건강한 몸인가, 다른 병은 없는가에 대해서 산점검사를 받아야 해.",
+            "turn_id": "BK22014587-2",
+            "utterance_id": "BK22014587.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 혹시 여자만 검사를 받으면 되니? 아니면 남자도 함께 검사를 받아야 해?",
+            "turn_id": "BK22014587-3",
+            "utterance_id": "BK22014587.5"
+        },
+        {
+            "reference_date": "44818.0",
+            "reference_text": [
+                {
+                    "value": "남성도 함께 산전 검사를 진행해야 한다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "남성은 혈액이나 소변으로 검사한다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이때 성병인 매독, 에이즈, 요도염, 전립선, 신장 기능, 간 기능 등의 질병을 확인하게 된다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=107733",
+            "search_query": "남성 임신 준비",
+            "terminate": false,
+            "text": "응, 남자도 함께 산전 검사를 받아야 해. 남자는 혈액과 소변으로 검사하는데, 매독이나 에이즈, 요도염, 전립선과 신장의 기능, 간 기능에 대한 질병이 있는지 확인할 수 있어.",
+            "turn_id": "BK22014587-3",
+            "utterance_id": "BK22014587.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이런 검사는 어디서 받을 수 있어? 무료로 받을 수 있는 곳이 있을까?",
+            "turn_id": "BK22014587-4",
+            "utterance_id": "BK22014587.7"
+        },
+        {
+            "reference_date": "44202.0",
+            "reference_text": [
+                {
+                    "value": "일부 보건소에서는 임신을 준비하는 이들을 위한 '산전검사'를 진행한다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보건소에 따라 무료인 곳도 있고 저렴하지만 비용을 받는 경우도 있으니 미리 확인해 보는 것이 좋다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/318891",
+            "search_query": "무료 산전검사",
+            "terminate": false,
+            "text": "일부 보건소에서는 임신 준비를 하는 사람들을 위해서 산전검사를 무료로 진행하고 있어. 보건소에 따라서 저렴하긴 하지만 비용을 받는 곳도 있으니까 미리 확인하는 것이 좋아.",
+            "turn_id": "BK22014587-4",
+            "utterance_id": "BK22014587.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 따로 임신 전에 챙겨 먹어야 할 영양제가 있을까?",
+            "turn_id": "BK22014587-5",
+            "utterance_id": "BK22014587.9"
+        },
+        {
+            "reference_date": "44074.0",
+            "reference_text": [
+                {
+                    "value": "엽산은 임신 초기뿐만 아니라 임신을 준비하는 여성과 남성 모두에게 권장하는 영양소입니다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2020082109040005764?did=NA",
+            "search_query": "산전 보조제 섭취",
+            "terminate": false,
+            "text": "응, 엽산은 임신 초기뿐 아니라 임신을 준비하고 있는 여자와 남자 모두에게도 권장되는 영양제야.",
+            "turn_id": "BK22014587-5",
+            "utterance_id": "BK22014587.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 지금부터 잘 챙겨 먹어야겠다. 그 밖에 또 다른 관리해야 할 부분이 있을까?",
+            "turn_id": "BK22014587-6",
+            "utterance_id": "BK22014587.11"
+        },
+        {
+            "reference_date": "44299.0",
+            "reference_text": [
+                {
+                    "value": "건강한 임신 준비를 위해 무엇보다 우선시 되는 건 체중 관리다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "흡연은 산모도, 남편도 절대금물이다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://jhealthmedia.joins.com/article/article_view.asp?pno=23546",
+            "search_query": "산전 관리",
+            "terminate": false,
+            "text": "건강한 임신을 하기 위해서는 체중 관리가 우선시 되어야 해. 그리고 흡연은 금물이니 금연하는 것이 좋아.",
+            "turn_id": "BK22014587-6",
+            "utterance_id": "BK22014587.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 내가 따로 먹고 있는 약이 있는데, 혹시 임신 준비할 때 섭취에 주의해야 하는 약이 있을까?",
+            "turn_id": "BK22014587-7",
+            "utterance_id": "BK22014587.13"
+        },
+        {
+            "reference_date": "41289.0",
+            "reference_text": [
+                {
+                    "value": "여드름 치료제인 로아큐탄을 복용하고 있다면 임신 1개월 전에는 끊어야 한다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "두 개 안면기형과 심장기형, 흉선 등에 영향을 주며 지능 저하와도 관련이 있다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고혈압 약물 중 일부는 태아의 저혈압을 유발하므로, 임신을 준비하는 단계부터 주치의와 상담을 하고 안전한 약물로 바꾸는 것이 좋다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.idomin.com/news/articleView.html?idxno=402436",
+            "search_query": "산전 주의약물",
+            "terminate": false,
+            "text": "로아큐탄이라는 여드름 치료제를 복용 중이라면 임신 1개월 전에 끊어야 해. 안면기형, 두 개 심장기형, 흉선에 영향을 주고 지능 저하에도 관련 있어. 그리고 고혈압 약 중에 태아 저혈압을 유발하는 약물이 있어서 임신 준비 단계부터 주치의 상담을 통해 안전한 약으로 바꾸는 게 좋아.",
+            "turn_id": "BK22014587-7",
+            "utterance_id": "BK22014587.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다행이 내가 먹는 약은 없네. 그런데 나는 나이가 많아서 조금 걱정이 되. 고령산모를 위험군으로 보던데 고령산모 나이는 통상 몇 살부터야?",
+            "turn_id": "BK22014587-8",
+            "utterance_id": "BK22014587.15"
+        },
+        {
+            "reference_date": "44432.0",
+            "reference_text": [
+                {
+                    "value": "국내에서는 통상적으로 35세 이상 산모를 고령산모, 고위험임신군으로 분류하고 있다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mdtoday.co.kr/mdtoday/index.html?no=428263",
+            "search_query": "고령산모 연령",
+            "terminate": false,
+            "text": "우리나라에서는 통상 35세 이상을 고령 산모로 고위험 임신 군으로 분류하고 있어.",
+            "turn_id": "BK22014587-8",
+            "utterance_id": "BK22014587.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "특별히 고위험 임신 군으로 신경 써야 할 부분이 있을까?",
+            "turn_id": "BK22014587-9",
+            "utterance_id": "BK22014587.17"
+        },
+        {
+            "reference_date": "44302.0",
+            "reference_text": [
+                {
+                    "value": "고령 임신에 해당한다면 먼저 고혈압, 당뇨 등의 만성질환 검사가 필수다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 당뇨는 기형아 발생은 물론 유산 위험을 높일 수 있기 때문에 임신 전에 반드시 잘 조절해야 한다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202104151730461963",
+            "search_query": "고령임신 준비",
+            "terminate": false,
+            "text": "고령 임신이라면 고혈압이나 당뇨 같은 만성질환 검사는 필수야. 특히 당뇨는 기형아 발생이나 유산 위험성을 높이기 때문에 임신 전에 반드시 조절해야 해.",
+            "turn_id": "BK22014587-9",
+            "utterance_id": "BK22014587.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 좋은 정보 고마워. 준비하는 기간에 잘 챙겨봐야겠어.",
+            "turn_id": "BK22014587-10",
+            "utterance_id": "BK22014587.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "잘 준비하고, 좋은 소식 기다릴게.",
+            "turn_id": "BK22014587-10",
+            "utterance_id": "BK22014587.20"
+        }
+    ]
+}

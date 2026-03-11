@@ -1,0 +1,390 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.6,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008903",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008903",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 3.8,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 아이가 차멀미가 너무 심해서 매번 차를 탈 때마다 많이 힘들어해요. 도대체 차멀미는 왜 하는 건가요?",
+            "turn_id": "BK22008903-1",
+            "utterance_id": "BK22008903.1"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "멀미는 뇌에 전달되는 시각 신호와 내이(內耳)의 전정기관 신호가 일치하지 않을 때 나타내는 증상으로 알려져 있다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/4798657",
+            "search_query": "멀미하는 이유",
+            "terminate": false,
+            "text": "멀미는 뇌에 전달되는 시각 신호와 내이의 전정기관 신호가 서로 맞지 않을 때 나타나요.",
+            "turn_id": "BK22008903-1",
+            "utterance_id": "BK22008903.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한 마디로 감각의 불일치 때문에 생기는 거군요. 차에 타고 있는 상황을 예시로 자세히 설명해주실 수 있을까요?",
+            "turn_id": "BK22008903-2",
+            "utterance_id": "BK22008903.3"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "움직이는 차에 타고 있으면 시각은 고정돼 있는 반면, 균형감각을 뇌에 전달하는 전정기관은 불규칙한 가속도를 느끼며 고정되지 않아 이 감각들이 서로 충돌하는 것이다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "구토나 어지러움, 두통 등이 발생하는 이유다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/4798657",
+            "search_query": "멀미하는 이유",
+            "terminate": false,
+            "text": "네, 움직이는 차에 타고 있을 때 시선은 고정되어 있지만 균형감각을 뇌에 전달하는 전정기관은 규칙적이지 않은 가속도를 느끼게 돼요. 이 둘의 감각이 일치하지 않기 때문에 구토나 어지러움, 두통 같은 멀미 증상이 발생하는 거예요.",
+            "turn_id": "BK22008903-2",
+            "utterance_id": "BK22008903.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 아이가 멀미해서 그런지 차만 타면 잠을 자요. 잠을 자는 것도 멀미 증상의 일종인가요?",
+            "turn_id": "BK22008903-3",
+            "utterance_id": "BK22008903.5"
+        },
+        {
+            "reference_date": "2022-08-27",
+            "reference_text": [
+                {
+                    "value": "멀미도 잠을 유발한다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "실제로 잠을 자면 멀미가 조금 덜해진다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/08/26/2022082601646.html",
+            "search_query": "멀미 잠 유발",
+            "terminate": false,
+            "text": "네, 맞아요. 멀미가 잠을 유발하기도 해요. 또, 실제로 잠을 자면 멀미가 조금 가라앉기도 해요.",
+            "turn_id": "BK22008903-3",
+            "utterance_id": "BK22008903.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 차라리 잠을 자는 게 도움이 되겠네요. 가끔 차 안에서 잠을 안 자고 핸드폰을 볼 때도 있긴 한데, 혹시 핸드폰을 보면 멀미가 더 심해질 수도 있나요?",
+            "turn_id": "BK22008903-4",
+            "utterance_id": "BK22008903.7"
+        },
+        {
+            "reference_date": "2022-08-27",
+            "reference_text": [
+                {
+                    "value": "반면, 독서, 핸드폰 보기 등 멈춰서서 한 곳에 집중하는 동작을 할수록 움직이고 있다는 전정기관의 신호와 반대돼 멀미가 더 심해질 수 있다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/08/26/2022082601646.html",
+            "search_query": "멀미 독서 핸드폰 보기",
+            "terminate": false,
+            "text": "네, 차 안에서 독서나 핸드폰을 보는 등 멈춰서서 한 곳에 집중하는 동작을 할수록 계속 움직이는 전정기관의 신호와 반대가 되어 멀미가 더 심해질 수 있어요.",
+            "turn_id": "BK22008903-4",
+            "utterance_id": "BK22008903.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 차 안에서 핸드폰을 못 하게 해야겠네요. 그래도 멀미가 심하다면 멀미약을 먹여야 할까요?",
+            "turn_id": "BK22008903-5",
+            "utterance_id": "BK22008903.9"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "멀미 치료제는 대체로 일반의약품으로 약국에서 구매가 가능하고, 약사의 복약지도를 받아야 한다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 만큼 성분 사용에 주의가 필요하다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/4798657",
+            "search_query": "멀미 치료제",
+            "terminate": false,
+            "text": "멀미약을 구입하는 것도 방법이긴 하지만 약사의 복약 지도를 받을 수 있는 약국에서 구매가 가능해요. 그만큼 성분을 잘 알고 먹어야 할 만큼 주의가 필요해요.",
+            "turn_id": "BK22008903-5",
+            "utterance_id": "BK22008903.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 그럼 멀미약 종류는 어떤 것들이 있나요?",
+            "turn_id": "BK22008903-6",
+            "utterance_id": "BK22008903.11"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "유명 제품으로는 귀 밑에 붙이는 '키미테패취(키미테, 성분 스코폴라민)'가 있다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "성분인 스코폴라민은 몸에 흡수되면 중추신경계의 신경전달물질인 아세틸콜린 작용을 억제, 전정기관으로부터 신호전달이 줄어 멀미 증상을 예방하는 것으로 알려졌다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/4798657",
+            "search_query": "멀미 키미테패취",
+            "terminate": false,
+            "text": "먼저 귀밑에 붙이는 멀미약이 유명하죠. 스코폴라민이라는 성분이 몸에 흡수되면서 중추신경계의 신경전달 물질인 아세틸콜린 작용을 억제하고 전정기관으로부터 신호 전달을 줄여줘서 멀미가 생기는 걸 막아주는 거예요.",
+            "turn_id": "BK22008903-6",
+            "utterance_id": "BK22008903.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 귀에 붙이는 멀미약! 많이 들어봤는데, 어떻게 사용하는 건가요?",
+            "turn_id": "BK22008903-7",
+            "utterance_id": "BK22008903.13"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "키미테는 성인이 승차 전 최소 4시간 전, 귀 뒤의 털이 없는 건조한 피부 표면에 1회 1매를 부착하면 된다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "약 성분이 눈에 들어가면 안 되기 때문에 반드시 제품 부착 후 손을 씻어야 한다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "제품을 떼어낸 뒤에도 부착 부위와 손을 비누로 깨끗이 씻어야 한다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/4798657",
+            "search_query": "키미테 1회 1매 부착",
+            "terminate": false,
+            "text": "차를 타기 전 4시간 전에 귀 뒤 건조한 피부 표면에 1회 1매를 붙이기만 하면 돼요. 단, 약 성분이 눈에 들어가면 위험하기 때문에 부착한 후와 떼어낸 후에 꼭 손을 깨끗이 씻어야 해요.",
+            "turn_id": "BK22008903-7",
+            "utterance_id": "BK22008903.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 혹시 손을 씻는 것 외에 다른 주의 사항은 없나요?",
+            "turn_id": "BK22008903-8",
+            "utterance_id": "BK22008903.15"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "다만 임부, 수유부, 7세 이하의 영∙유아, 서맥 환자 등은 복용해선 안 된다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/4798657",
+            "search_query": "키미테 임부 수유부",
+            "terminate": false,
+            "text": "음, 임산부나 수유부, 또는 7세 이하의 영유아나 서맥 환자들은 키미테패취를 사용하면 안 돼요.",
+            "turn_id": "BK22008903-8",
+            "utterance_id": "BK22008903.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 그럼 붙이는 거 말고 먹는 건 어떤 게 있나요?",
+            "turn_id": "BK22008903-9",
+            "utterance_id": "BK22008903.17"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "간편히 마시는 약으로 '토스롱'이 있다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1998년 4월 17일 허가된 이 약의 성분은 키미테정과 같은 스코폴라민과 디멘히드리네이트가 있고, 니코틴산아미드, 카페인무수물, 피리독신염산염이 추가된다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/4798657",
+            "search_query": "멀미 토스롱",
+            "terminate": false,
+            "text": "간편히 마시는 약으로는 토스롱이 있어요. 1998년 4월 17일 허가된 약으로 성분은 스코폴라민과 디멘히드리네이트가 있고, 여기에 니코틴산아미드와 카페인무수물, 피리독신염산염이 추가됐어요.",
+            "turn_id": "BK22008903-9",
+            "utterance_id": "BK22008903.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 이 토스롱은 어떻게 복용하면 되나요?",
+            "turn_id": "BK22008903-10",
+            "utterance_id": "BK22008903.19"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "멀미 예방을 위해 승차 30분 전에 1회 복용하면 되고, 추가 복용을 할 경우에는 4시간 이상 간격을 둔다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1일 복용횟수는 2회를 한도로 한다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 수유부나 만 3세 미만의 영∙유아는 복용해선 안 된다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/4798657",
+            "search_query": "멀미 예방 토스롱",
+            "terminate": false,
+            "text": "차에 타기 30분 전에 1회 복용하면 되는데 추가로 더 마실 때는 4시간 이상 텀을 두고 마셔야 해요. 또 하루에 2회까지만 마시고, 수유부나 만 3세 미만의 영유아는 마시면 안돼요.",
+            "turn_id": "BK22008903-10",
+            "utterance_id": "BK22008903.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 어떤 걸 선택할지 잘 고민해봐야겠어요. 오늘 좋은 정보 알려주셔서 너무 감사해요.",
+            "turn_id": "BK22008903-11",
+            "utterance_id": "BK22008903.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요, 또 궁금한 점 있으면 언제든지 물어보세요.",
+            "turn_id": "BK22008903-11",
+            "utterance_id": "BK22008903.22"
+        }
+    ]
+}

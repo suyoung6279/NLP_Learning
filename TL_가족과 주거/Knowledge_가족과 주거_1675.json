@@ -1,0 +1,342 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012103",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012103",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0018"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "언니네 강아지가 새끼를 낳아서 한 마리 데리고 왔는데 강아지 예방접종은 해야 할 필요가 있나요?",
+            "turn_id": "BK22012103-1",
+            "utterance_id": "BK22012103.1"
+        },
+        {
+            "reference_date": "43431.0",
+            "reference_text": [
+                {
+                    "value": "사람과 마찬가지로 반려동물의 경우 예방 접종이 반드시 필요하다.",
+                    "value_time": "44755.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "특히 막 태어난 강아지의 경우 신생아와 비슷해, 취약한 면역력을 가지고 있다.",
+                    "value_time": "44755.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=58488",
+            "search_query": "강아지 예방접종 필요한 이유",
+            "terminate": false,
+            "text": "강아지 너무 귀여울 것 같네요. 네, 당연합니다. 새끼 강아지는 신생아와 같이 면역력이 굉장히 약하기 때문에 예방접종은 꼭 필요합니다.",
+            "turn_id": "BK22012103-1",
+            "utterance_id": "BK22012103.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사람보다 면역력이 좋을 줄 알았는데 새끼 때는 다 똑같군요. 그러면 접종 시기는 언제가 좋은가요?",
+            "turn_id": "BK22012103-2",
+            "utterance_id": "BK22012103.3"
+        },
+        {
+            "reference_date": "43390.0",
+            "reference_text": [
+                {
+                    "value": "특히 강아지가 태어나고 생후 6주에서 8주의 시기는 예방 접종 최적의 시기다.",
+                    "value_time": "44755.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.e2news.com/news/articleView.html?idxno=203322",
+            "search_query": "강아지 예방접종 시기",
+            "terminate": false,
+            "text": "강아지의 예방접종을 하기 가장 좋은 시기는 태어나서 6주에서 8주 사이입니다.",
+            "turn_id": "BK22012103-2",
+            "utterance_id": "BK22012103.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "예방접종을 한 번만 해주면 되는 건가요?",
+            "turn_id": "BK22012103-3",
+            "utterance_id": "BK22012103.5"
+        },
+        {
+            "reference_date": "44734.0",
+            "reference_text": [
+                {
+                    "value": "강아지 종합백신 5종(DHPPL)은 최초 1회 접종 후 2주 간격으로 총 5차례에 나누어 실시합니다.",
+                    "value_time": "44755.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202206221550122844",
+            "search_query": "강아지 예방접종 종류",
+            "terminate": false,
+            "text": "아닙니다. 강아지의 예방접종은 태어나서 6주에서 8주 사이에 해주셔야 하는데 종합 백신 5종을 첫 번째 접종 후 2주 간격으로 5회에 나눠서 맞추시면 됩니다.",
+            "turn_id": "BK22012103-3",
+            "utterance_id": "BK22012103.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "예방접종을 다섯번이나 맞춰야 하나요?",
+            "turn_id": "BK22012103-4",
+            "utterance_id": "BK22012103.7"
+        },
+        {
+            "reference_date": "42851.0",
+            "reference_text": [
+                {
+                    "value": "그리고 생후 14주까지 2주 간격으로 종합백신과 함께 코로나장염·켄넬코프·인플루엔자 등을 접종합니다.",
+                    "value_time": "44755.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nongmin.com/plan/PLN/SRS/10245/view",
+            "search_query": "강아지 예방접종 주사",
+            "terminate": false,
+            "text": "네, 맞습니다. 태어나고 14주까지 종합 백신과 코로나 장염, 켄넬코프 등을 2주 간격으로 접종을 하셔야 합니다.",
+            "turn_id": "BK22012103-4",
+            "utterance_id": "BK22012103.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지 키우는 일은 보통이 아니네요. 그럼 강아지 목욕은 언제부터 해주는 게 좋은가요?",
+            "turn_id": "BK22012103-5",
+            "utterance_id": "BK22012103.9"
+        },
+        {
+            "reference_date": "44730.0",
+            "reference_text": [
+                {
+                    "value": "아직 어린 강아지는 스스로 체온을 조절하는 데 능숙하지 않습니다.",
+                    "value_time": "44755.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "때문에 100일이 지났거나 종합 백신 접종을 한 날부터 최소 일주일이 지난 후 목욕을 시키는 것이 좋습니다.",
+                    "value_time": "44755.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202206171725499427",
+            "search_query": "강아지 목욕",
+            "terminate": false,
+            "text": "너무 어린 강아지는 체온을 스스로 조절하기 어렵기 때문에 가급적 피해주시는 것이 좋아 생후 100일 이후 목욕을 시켜 주시는 것이 가장 좋습니다. 만약에 예방접종을 하고 온 날이라면 일주일 뒤에 시켜주시는 것이 바람직합니다.",
+            "turn_id": "BK22012103-5",
+            "utterance_id": "BK22012103.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엉덩이에 똥이 묻어 있어서 목욕해 주려고 했는데 안 되겠네요.",
+            "turn_id": "BK22012103-6",
+            "utterance_id": "BK22012103.11"
+        },
+        {
+            "reference_date": "44730.0",
+            "reference_text": [
+                {
+                    "value": "아직 100일이 지나지 않았지만, 털이나 피부가 심하게 오염되었다면 천을 따뜻한 물에 적셔 오염된 부분을 닦아주세요.",
+                    "value_time": "44755.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "물을 최소한으로 사용하되 샴푸는 사용하지 않는 것이 좋습니다.",
+                    "value_time": "44755.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202206171725499427",
+            "search_query": "강아지 목욕",
+            "terminate": false,
+            "text": "100일 전에 오염물이 묻으면 천을 따뜻한 물에 적셔 해당 부위에 닦아 주셔도 됩니다. 이때 주의해야 할 사항은 샴푸는 사용하지 않는 것이 좋습니다.",
+            "turn_id": "BK22012103-6",
+            "utterance_id": "BK22012103.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 닦아줘야겠네요. 그러면 접종을 다 마친 뒤에 산책을 나가려고 하는데 산책 시 주의 사항 있나요?",
+            "turn_id": "BK22012103-7",
+            "utterance_id": "BK22012103.13"
+        },
+        {
+            "reference_date": "44389.0",
+            "reference_text": [
+                {
+                    "value": "여름철은 반려동물에게 심장사상충과 진드기, 이, 벼룩 등 외부 기생충 위협이 커지는 시기다.",
+                    "value_time": "44755.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20210711_0001508657&cID=13001&pID=13000",
+            "search_query": "심장사상충 외부기생충",
+            "terminate": false,
+            "text": "더운 여름철에는 심장사상충과 외부기생충에 특히 조심하셔야 합니다.",
+            "turn_id": "BK22012103-7",
+            "utterance_id": "BK22012103.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "심장사상충에 걸리면 어떻게 되나요?",
+            "turn_id": "BK22012103-8",
+            "utterance_id": "BK22012103.15"
+        },
+        {
+            "reference_date": "44745.0",
+            "reference_text": [
+                {
+                    "value": "심장사상충(心臟絲狀蟲)은 학명으로 Dirofilaria immitis라고 하며, 모기를 매개로 하여 전염되는 회충이다.",
+                    "value_time": "44755.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 기생충은 심장사상충이라고 불리지만, 성충은 심장 뿐만아니라, 폐동맥에도 존재하며, 폐혈관과 폐조직에 손상을 주어 동물의 건강에 큰 영향을 끼친다",
+                    "value_time": "44755.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8B%AC%EC%9E%A5%EC%82%AC%EC%83%81%EC%B6%A9",
+            "search_query": "심장사상충",
+            "terminate": false,
+            "text": "심장사상충은 모기를 매개체로 전염이 되는데 감염이 되면 우리 강아지의 폐혈관과 폐 조직, 심장 등에 심각한 손상을 입게 됩니다.",
+            "turn_id": "BK22012103-8",
+            "utterance_id": "BK22012103.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여름에 산책시키기 너무 무서울 것 같아요.",
+            "turn_id": "BK22012103-9",
+            "utterance_id": "BK22012103.17"
+        },
+        {
+            "reference_date": "44324.0",
+            "reference_text": [
+                {
+                    "value": "심장사상충 약은 1년 내내 주기적으로 먹여야 한다.",
+                    "value_time": "44755.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "심장사상충 약은 생후 8주부터 1회 복용하고 나서, 보통 한 달에 한 번 복용해야 한다.",
+                    "value_time": "44755.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/05/07/2021050701800.html",
+            "search_query": "심장사상충 주기",
+            "terminate": false,
+            "text": "심장 사상충 약은 여름에만 먹이는 것이 아니라 태어나고 8주부터 시작하여 봄, 여름, 가을, 겨울 1년 내내 한 달 주기로 먹여야 합니다.",
+            "turn_id": "BK22012103-9",
+            "utterance_id": "BK22012103.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지 하나 데려왔을 뿐인데 아이를 키우는 것 같이 신경 써야 할 것이 많네요. 알려주셔서 너무너무 감사해요. 다음에 또 궁금한 게 생기면 여쭤볼게요.",
+            "turn_id": "BK22012103-10",
+            "utterance_id": "BK22012103.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 언제든지 편하게 말씀해주시면 제가 알고 있는 선에서 최대한 알려드리도록 하겠습니다. 나중에 강아지 보러 한번 놀러 가도록 할게요.",
+            "turn_id": "BK22012103-10",
+            "utterance_id": "BK22012103.20"
+        }
+    ]
+}

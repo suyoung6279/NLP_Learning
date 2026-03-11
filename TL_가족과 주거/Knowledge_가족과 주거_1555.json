@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011727",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011727",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이가 고양이를 너무 좋아해요. 내년쯤엔 고양이를 분양받아 볼까 하는데, 요즘 고양이를 반려동물로 많이 키우나요?",
+            "turn_id": "BK22011727-1",
+            "utterance_id": "BK22011727.1"
+        },
+        {
+            "reference_date": "2022-05-12",
+            "reference_text": [
+                {
+                    "value": "고양이를 키우는 인구가 늘고 있다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2020년 인구총조사에 따르면 고양이를 키우는 가구가 57만 천여 가구에 이른다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000697072",
+            "search_query": "고양이 키우는 가구",
+            "terminate": false,
+            "text": "고양이를 반려동물을 키우는 인구는 점점 늘어나고 있는데요. 2020년에 실시한 인구총조사에 의하면 고양이를 반려동물을 키우는 가구가 57만 1000여 가구에 이르는 것으로 알려졌어요.",
+            "turn_id": "BK22011727-1",
+            "utterance_id": "BK22011727.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "주변에 고양이를 키우는 집이 없어서 몰랐는데 반려동물로 고양이를 꽤 많이 키우고 있네요. 고양이 종류는 몇 가지나 되죠?",
+            "turn_id": "BK22011727-2",
+            "utterance_id": "BK22011727.3"
+        },
+        {
+            "reference_date": "2022-08-08",
+            "reference_text": [
+                {
+                    "value": "고양이의 종류는 대략 50종이 넘는 것으로 알려졌다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=987236",
+            "search_query": "고양이의 종류",
+            "terminate": false,
+            "text": "고양이 종류는 약 50종 이상이랍니다.",
+            "turn_id": "BK22011727-2",
+            "utterance_id": "BK22011727.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "50종이요? 제가 아는 건 대략 5종밖에 안되는 것 같아요. 그런데 고양이는 보통 몇 년까지 살 수 있나요?",
+            "turn_id": "BK22011727-3",
+            "utterance_id": "BK22011727.5"
+        },
+        {
+            "reference_date": "2022-05-12",
+            "reference_text": [
+                {
+                    "value": "실내에서만 생활하는 고양이의 평균 수명은 약 14년으로, 실외에서만 지내는 고양이에 비해 평균 수명이 2~5년 더 길다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000697072",
+            "search_query": "고양이 평균 수명",
+            "terminate": false,
+            "text": "실내 생활을 한 고양이는 평균 14년 정도 살 수 있는데요. 실외 생활만 한 고양이에 비해서 2~5년 정도 더 길다고 보시면 돼요.",
+            "turn_id": "BK22011727-3",
+            "utterance_id": "BK22011727.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 집은 마당이 있어서 마당에서 키울까 했는데, 밖에서 키우는 것과 안에서 키우는 것 중 어떤 것이 고양이에게 더 좋은 건가요?",
+            "turn_id": "BK22011727-4",
+            "utterance_id": "BK22011727.7"
+        },
+        {
+            "reference_date": "2022-05-12",
+            "reference_text": [
+                {
+                    "value": "고양이가 오래 살길 바란다면 실내에서 키우는 것이 좋다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "야외에서 자라는 고양이는 사고나 싸움 등 여러 위험에 처할 가능성이 있고 매 끼니 정해진 대로 먹기 힘들기 때문.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고양이를 부상이나 감염으로부터 보호하기 위해서는 실내에서 키우는 것이 좋다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000697072",
+            "search_query": "고양이 야외 실내",
+            "terminate": false,
+            "text": "고양이가 부상, 감염되는 것을 피하고 오래 사는 것을 원한다면 실내에서 키우는 게 좋아요. 실외에서 자란 고양이는 사고나 싸움과 같은 여러 위험에 노출될 가능성이 있고 정해진 대로 매끼를 먹는 것도 힘들거든요.",
+            "turn_id": "BK22011727-4",
+            "utterance_id": "BK22011727.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집 마당에서 키운다고 해도 위험할 수 있는 거군요. 고양이는 강아지보다 외로움을 덜 탄다고 하던데, 혼자 있는 시간이 길어도 문제없을까요?",
+            "turn_id": "BK22011727-5",
+            "utterance_id": "BK22011727.9"
+        },
+        {
+            "reference_date": "2022-05-12",
+            "reference_text": [
+                {
+                    "value": "고양이가 개에 비해 사람의 손길을 덜 구하는 것은 사실이지만, 혼자 두어도 괜찮은 것은 아니다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고양이도 분리불안을 경험할 수 있기 때문.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "강아지처럼 적극적으로 표현하지 않을 뿐, 고양이도 가족과의 안정적인 생활을 갈망한다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000697072",
+            "search_query": "고양이 혼자두어도",
+            "terminate": false,
+            "text": "개와 비교했을 때 고양이가 사람의 손길을 덜 구하는 건 맞지만 분리불안을 겪을 수 있기 때문에 혼자 두는 것은 추천해 드리지 않아요. 고양이는 강아지처럼 적극적인 표현을 안 할 뿐이지 가족과의 안정된 일상생활을 원한답니다.",
+            "turn_id": "BK22011727-5",
+            "utterance_id": "BK22011727.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "표현하지 않는다고 해서 외로움을 잘 견딘다고 생각하면 안 되는 거네요. 그런데 고양이도 개만큼이나 집에서 사고를 많이 친다던데, 고양이도 개처럼 소파나 벽지를 훼손시키기도 하나요?",
+            "turn_id": "BK22011727-6",
+            "utterance_id": "BK22011727.11"
+        },
+        {
+            "reference_date": "2022-05-12",
+            "reference_text": [
+                {
+                    "value": "그런데 고양이가 긁는 것은 발톱을 좋은 상태로 유지하고 자신의 영역과 감정을 표시하는 자연스러운 행동이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고양이가 소파와 같은 가구나 벽지를 긁는 습관 때문에 힘들어하는 사람이 많다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 이를 억지로 막을 수는 없다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000697072",
+            "search_query": "고양이 가구 소파",
+            "terminate": false,
+            "text": "소파나 가구, 벽지를 긁어놓아 힘들어하는 사람들이 많은데요. 고양이가 자꾸 긁는 것은 발톱을 좋은 상태로 만들고 영역과 감정을 표현하는 것이므로 억지로 막을 수는 없어요.",
+            "turn_id": "BK22011727-6",
+            "utterance_id": "BK22011727.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이가 긁는 게 어쩔 수 없는 행동이라면 집에 소파를 없애야 한다는 건가요?",
+            "turn_id": "BK22011727-7",
+            "utterance_id": "BK22011727.13"
+        },
+        {
+            "reference_date": "2022-05-12",
+            "reference_text": [
+                {
+                    "value": "가구가 긁히는 것을 막고 싶다면, 고양이가 가구 대신 긁을 수 있는 스크래칭 기둥을 사용해볼 것을 제안한다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "장난감이나 간식 등을 활용해 고양이를 훈련시키면 고양이는 소파 대신에 스크래칭 기둥을 긁을 것이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000697072",
+            "search_query": "고양이 스크래칭 기둥",
+            "terminate": false,
+            "text": "가구 긁힘을 막으려면 가구 대신 고양이가 긁을 수 있는 스크래칭 기둥을 두는 것을 추천드려요. 소파가 아닌 스크래치 기둥을 긁게 하려면 장난감이나 간식 등을 사용해서 훈련을 시키면 된답니다.",
+            "turn_id": "BK22011727-7",
+            "utterance_id": "BK22011727.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스크래칭 기둥이라는 걸 설치하면 문제가 해결되는 거네요. 그나마 해결 방법이 있어서 다행이에요. 고양이를 키울 때 드는 비용은 어느 정도인가요?",
+            "turn_id": "BK22011727-8",
+            "utterance_id": "BK22011727.15"
+        },
+        {
+            "reference_date": "2022-01-11",
+            "reference_text": [
+                {
+                    "value": "반려묘 1마리당 월평균 양육 비용(병원비 포함)은 12.57만원이었으며, 그중 병원비는 4.15만원이었다(약 30%).",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailyvet.co.kr/news/policy/159172",
+            "search_query": "고양이 월평균 양육 비용",
+            "terminate": false,
+            "text": "고양이 한 마리의 양육비는 병원비 포함하여 한 달에 12.57만원이에요. 이 중 병원비는 4.15만원으로 전체의 약 30%에 해당한답니다.",
+            "turn_id": "BK22011727-8",
+            "utterance_id": "BK22011727.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "병원비가 생각보다 많이 드네요. 한 달에 10만원 이상은 고양이를 위해 써야 한다니 고양이를 키우려면 생활비를 아껴 써야겠어요.",
+            "turn_id": "BK22011727-9",
+            "utterance_id": "BK22011727.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려동물을 키우는 것은 아이를 키우는 것만큼의 관심과 노력, 비용이 필요하답니다.",
+            "turn_id": "BK22011727-9",
+            "utterance_id": "BK22011727.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 오늘 한 번 더 깨닫게 되는 것 같네요. 고양이 입양에 대해 고민이 많았는데 알려주신 정보 덕분에 결정이 쉬워질 것 같아요.",
+            "turn_id": "BK22011727-10",
+            "utterance_id": "BK22011727.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저도 정보를 공유할 수 있어서 좋았어요. 안녕히 가시고 다음에 또 이야기 나눠요.",
+            "turn_id": "BK22011727-10",
+            "utterance_id": "BK22011727.20"
+        }
+    ]
+}

@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018307",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018307",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "원룸 자취방이 너무 좁고 답답해서 걱정이에요.",
+            "turn_id": "BK22018307-1",
+            "utterance_id": "BK22018307.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잘못된 인테리어로 방이 더욱 좁아 보이는 것일 수도 있죠.",
+            "turn_id": "BK22018307-1",
+            "utterance_id": "BK22018307.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러고 보니 제가 워낙 배치나 정돈에는 젬병이라, 공간 활용을 잘 못하고 있는 것 같기도 해요. 집이 좁아 보이는 인테리어 요인으로는 어떤 것이 있을까요?",
+            "turn_id": "BK22018307-2",
+            "utterance_id": "BK22018307.3"
+        },
+        {
+            "reference_date": "42258.0",
+            "reference_text": [
+                {
+                    "value": "좁은 공간에 많은 가구를 두려다 보니 책상이나 책장 등으로 창문을 조금씩 가리는 경우가 있다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 이 역시 집을 더 좁아 보이게 하니 지양할 것.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "꼭 햇빛이 쏟아져 들어오는 남향이 아니더라도 창문을 가리면 빛이 가려지기 때문에 집이 더 어둡고 답답해 보일 우려가 있다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.g-enews.com/ko-kr/news/article/news_all/201509111547560785678_1/article.html?md=20150911161514_U",
+            "search_query": "좁은 원룸 창문",
+            "terminate": false,
+            "text": "혹시 좁은 공간에 너무 많은 가구를 배치한 나머지, 책상이나 책장 등에 창문이 가려지진 않았는지 확인해보세요. 그런 요소에서 방이 더욱 좁아 보이거든요. 꼭 남향집이 아니더라도, 창문을 가리면 그만큼 빛이 들어오지 않기 때문에 집이 더 침침하고 답답해 보일 수 있어요.",
+            "turn_id": "BK22018307-2",
+            "utterance_id": "BK22018307.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금 큰 책장이 거의 완전히 창을 가리고 있긴 해요. 책이 많아서 어쩔 수 없었는데, 그 때문에 집이 답답해 보일 수 있겠네요. 또 어떤 요소가 집을 좁아 보이게 하나요?",
+            "turn_id": "BK22018307-3",
+            "utterance_id": "BK22018307.5"
+        },
+        {
+            "reference_date": "42258.0",
+            "reference_text": [
+                {
+                    "value": "처음 해보는 인테리어에 무조건 예쁘고 화려한 침대를 고르는 것은 큰 실수가 될 수도 있다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "화려한 헤드가 달린 침대의 경우 디자인 자체는 멋스러울 수 있으나 좁은 공간이 더욱 답답해 보이는 요소로 작용한다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.g-enews.com/ko-kr/news/article/news_all/201509111547560785678_1/article.html?md=20150911161514_U",
+            "search_query": "좁은 원룸 침대",
+            "terminate": false,
+            "text": "혹시 처음 해보는 인테리어에 설레서 화려하고 예쁜 침대를 구매하셨다면, 그 때문에 방이 더 답답해 보일 수도 있어요. 침대의 헤드가 화려하면 침대의 디자인 자체는 멋져 보일 수 있어도, 가뜩이나 좁은 공간이 더욱 좁아 보이는 원인이 되기도 해요.",
+            "turn_id": "BK22018307-3",
+            "utterance_id": "BK22018307.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 처음 사는 침대라고 헤드가 화려한 걸 고르긴 했죠. 헤드를 제거하거나 침대를 바꿔야겠네요. 그럼 원룸을 넓어 보이게 할 수 있는 방법으로는 뭐가 있을까요?",
+            "turn_id": "BK22018307-4",
+            "utterance_id": "BK22018307.7"
+        },
+        {
+            "reference_date": "44607.0",
+            "reference_text": [
+                {
+                    "value": "이때 생각해야 할 3가지 포인트는 ▲높이가 낮은 가구를 선택할 것 ▲연한 톤으로 통일할 것 ▲커다란 거울을 놓아둘 것 입니다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailypop.kr/news/articleView.html?idxno=57910",
+            "search_query": "원룸 넓어보이게 하는 방법",
+            "terminate": false,
+            "text": "원룸을 넓어 보이게 하고 싶을 때 기억해주시면 좋은 포인트가 세 가지 있어요. 먼저 가구를 선택할 땐 높이가 낮은 가구를 고를 것, 두 번째는 인테리어 색상을 연한 톤으로 맞출 것, 마지막은 방에 큰 거울을 놓는 것이에요.",
+            "turn_id": "BK22018307-4",
+            "utterance_id": "BK22018307.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하나같이 지금까지 생각도 못 해본 것들뿐이네요. 가구의 높이는 방의 넓이에 어떤 영향을 미치나요?",
+            "turn_id": "BK22018307-5",
+            "utterance_id": "BK22018307.9"
+        },
+        {
+            "reference_date": "44607.0",
+            "reference_text": [
+                {
+                    "value": "높이가 높지 않은 가구를 선택하면 여백이 생겨 방이 넓어 보일 수 있습니다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "옷이나 책장 같은 수납가구는 되도록 시선보다 높이가 낮을 것을 고르세요.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailypop.kr/news/articleView.html?idxno=57910",
+            "search_query": "원룸 낮은 가구",
+            "terminate": false,
+            "text": "높이가 낮은 가구를 배치함으로써 여백을 확보해 방이 넓어 보이는 효과를 줄 수 있어요. 옷장, 책장 등의 수납 가구도 가급적 시선보다 낮은 높이의 가구를 고르는 게 좋아요.",
+            "turn_id": "BK22018307-5",
+            "utterance_id": "BK22018307.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 또 연한 톤으로 색상을 맞추라고 하셨는데, 그렇게 하면 왜 방이 넓어 보이나요?",
+            "turn_id": "BK22018307-6",
+            "utterance_id": "BK22018307.11"
+        },
+        {
+            "reference_date": "44607.0",
+            "reference_text": [
+                {
+                    "value": "가구나 잡화를 흰색이나 베이지색 등 연한 톤으로 맞추면 방이 밝아져서 넓어보입니다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "바닥이 연갈색톤이라면 흰색이나 베이지색 등 밝은 색 러그를 깔아서 진한 색깔의 영역을 줄여주는 것이 좋습니다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailypop.kr/news/articleView.html?idxno=57910",
+            "search_query": "원룸 연한 톤 맞추기",
+            "terminate": false,
+            "text": "가구 또는 소품을 베이지색 등의 연한 톤으로 통일시키면 방 자체가 밝아지는 효과가 있어요. 그에 따라 방이 더 넓어 보이는 거죠. 만약 방바닥의 색이 연갈색이라면, 흰색이나 베이지색 같은 밝은 계열의 러그를 깔아 색이 진한 영역을 최대한 줄여주는 게 좋아요.",
+            "turn_id": "BK22018307-6",
+            "utterance_id": "BK22018307.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제 책장은 창문을 가리는 데다가 키도 크고, 진한 갈색이기까지 하니 이 책장만 바꿔도 제 방 분위기가 많이 바뀔 것 같아요. 또 거울 얘기도 하셨는데, 거울은 어떤 도움이 되나요?",
+            "turn_id": "BK22018307-7",
+            "utterance_id": "BK22018307.13"
+        },
+        {
+            "reference_date": "44607.0",
+            "reference_text": [
+                {
+                    "value": "작은 방이 좁아 보이는 원인 중 하나는 깊이감이 없다는 것입니다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "깊이감이 없다는 문제를 해결하는 가장 좋은 방법은 커다란 거울을 놓아 두는 것입니다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "거울의 반사로 인해 착시 효과로 공간에 깊이감이 생겨 방이 넓어보입니다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailypop.kr/news/articleView.html?idxno=57910",
+            "search_query": "원룸 거울 깊이감",
+            "terminate": false,
+            "text": "작은 방이 더욱 좁아 보이는 원인으로는 깊이감의 부족을 꼽을 수 있는데요, 이 문제를 해결하기 위한 제일 좋은 방법이 바로 큰 거울을 배치하는 거예요. 거울의 반사로 깊이감이 더해지는 착시 효과가 일어나 방이 더 넓어 보이는 거죠.",
+            "turn_id": "BK22018307-7",
+            "utterance_id": "BK22018307.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "방이 워낙 좁아서 소품을 더 사는 건 안 좋다고 생각했는데, 전신거울을 한번 놔볼게요. 혹시 이 밖에도 공간의 효율을 높일 수 있는 방법이 있을까요?",
+            "turn_id": "BK22018307-8",
+            "utterance_id": "BK22018307.15"
+        },
+        {
+            "reference_date": "43186.0",
+            "reference_text": [
+                {
+                    "value": "수납공간을 최대한 수직으로 분할하면 공간을 합리적으로 사용할 수 있다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대표적인 공간의 수직 분할은 2층 침대로 위층은 침대로 쓰고 아래층은 책상이나 수납공간 등으로 활용하는 방법이 있다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=78897",
+            "search_query": "원룸 수직 분할",
+            "terminate": false,
+            "text": "가급적 수납공간을 수직으로 분할해 주시면 공간의 효율을 더욱 높일 수 있어요. 공간 수직 분할의 예시로는 대표적으로 2층 침대를 들 수 있는데요, 아래층은 책상이나 수납공간으로 활용하고, 위층은 침대로 사용하는 식이죠.",
+            "turn_id": "BK22018307-8",
+            "utterance_id": "BK22018307.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그것도 좋은 생각이네요. 그리고 또 어떤 방법이 있을까요?",
+            "turn_id": "BK22018307-9",
+            "utterance_id": "BK22018307.17"
+        },
+        {
+            "reference_date": "43626.0",
+            "reference_text": [
+                {
+                    "value": "원룸 인테리어 시 자투리 공간을 틈틈이 활용하는 것도 중요하다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "문 위쪽, 창문 등 꾸미기 다소 애매모호한 틈새 공간에 선반 등을 활용해 수납 공간으로 이용하는 것을 추천한다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=227186",
+            "search_query": "원룸 자투리 공간",
+            "terminate": false,
+            "text": "원룸을 꾸밀 때, 틈틈이 생기는 자투리 공간을 활용해 주시는 것도 중요해요. 창문이나 문 위쪽처럼 꾸미기 애매한 자투리 공간에 선반 같은 것을 놓고 수납공간으로 활용하시면 좋아요.",
+            "turn_id": "BK22018307-9",
+            "utterance_id": "BK22018307.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘부터 대대적으로 방을 바꿔봐야겠어요. 제가 편하게 쉴 수 있는 만큼 업무 효율도 높아지겠죠. 방이 넓어 보일 수 있는 인테리어 꿀팁들을 알려주셔서 감사해요.",
+            "turn_id": "BK22018307-10",
+            "utterance_id": "BK22018307.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "궁금이님의 인테리어 성공을 응원할게요.",
+            "turn_id": "BK22018307-10",
+            "utterance_id": "BK22018307.20"
+        }
+    ]
+}

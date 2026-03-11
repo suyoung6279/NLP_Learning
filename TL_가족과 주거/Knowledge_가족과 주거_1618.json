@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.5,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011865",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011865",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_nhn_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "직장동료가 조금 있으면 부부의 날이라고 와이프 선물 준비했냐고 물어보던데 진짜 부부의 날이 있어?",
+            "turn_id": "BK22011865-1",
+            "utterance_id": "BK22011865.1"
+        },
+        {
+            "reference_date": "2022-02-06",
+            "reference_text": [
+                {
+                    "value": "부부의 날은 5월 21일이다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "여성가족부 주관으로 건전한 가족문화의 정착과 가족해체 예방을 위한 행사를 개최하는 대한민국의 기념일이다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B6%80%EB%B6%80%EC%9D%98_%EB%82%A0",
+            "search_query": "부부의 날",
+            "terminate": false,
+            "text": "그럼 있지, 건전한 가족문화의 정착과 가족해체 예방을 위한 행사를 여성가족부의 주관으로 개최하는 우리나라 5월 21일 기념일이야.",
+            "turn_id": "BK22011865-1",
+            "utterance_id": "BK22011865.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와 진짜 부부의 날이 있구나. 나 어릴 때는 없었던 거 같은데 언제부터 만들어진 기념일인 거야?",
+            "turn_id": "BK22011865-2",
+            "utterance_id": "BK22011865.3"
+        },
+        {
+            "reference_date": "2022-05-19",
+            "reference_text": [
+                {
+                    "value": "부부의날은 1995년 5월 21일 경남 창원에서 목회하고 있는 어떤 목사 부부에 의해 처음 시작된 것으로 전해져 온다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러다가 2003년 12월 18일 민간단체인 ‘부부의 날 위원회’가 국회에 요청한 ‘부부의 날 국가 기념일 제정을 위한 청원’이 본회의에서 결의되면서 2007년부터 매년 5월 21일을 부부의 날로 기념하고 있다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.viva100.com/main/view.php?key=20220520010004031",
+            "search_query": "부부의날 기념일지정",
+            "terminate": false,
+            "text": "2003년 12월 18일에 민간단체인 부부의 날 위원회가 국회에 요청한 부부의 날 국가 기념일 제정을 위한 청원이 결의되면서 2007년부터 매년 5월 21일을 부부의 날로 기념하고 있어. 처음 시작된 건 1995년 5월 21일에 경남 창원에서 목회하고 있는 어떤 목사 부부에 의해서라고 전해져오고 있어.",
+            "turn_id": "BK22011865-2",
+            "utterance_id": "BK22011865.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "목사 부부에 의해서 시작되었다니 어떤 목사인지 너무 궁금하다. 처음에 왜 이런 날을 만들어야겠다는 생각을 한 걸까?",
+            "turn_id": "BK22011865-3",
+            "utterance_id": "BK22011865.5"
+        },
+        {
+            "reference_date": "2022-02-06",
+            "reference_text": [
+                {
+                    "value": "첫 주창자인 권재도 목사는 1995년 어린이날 “우리 엄마·아빠가 함께 사는 게 소원이에요”라는 한 어린이의 TV 인터뷰를 보며 충격을 받아 ‘부부의 날’ 운동을 시작했다고 한다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B6%80%EB%B6%80%EC%9D%98_%EB%82%A0",
+            "search_query": "부부의날",
+            "terminate": false,
+            "text": "한 어린이가 1995년 어린이날에 우리 엄마아빠가 함께 사는 게 소원이라고 말한 TV 인터뷰를 보며 충격을 받은 권재도 목사가 부부의 날 운동을 시작한 거야.",
+            "turn_id": "BK22011865-3",
+            "utterance_id": "BK22011865.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엄청 오래전부터 시작한 운동이구나. 그런데 날짜는 왜 5월 21일로 정한 거야?",
+            "turn_id": "BK22011865-4",
+            "utterance_id": "BK22011865.7"
+        },
+        {
+            "reference_date": "2022-05-17",
+            "reference_text": [
+                {
+                    "value": "5월 21일에는 가정의 달인 '5월에 둘(2)이 하나(1)가 된다'는 뜻이 들어 있다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.kmib.co.kr/article/view.asp?arcid=0017087532&code=61221111&cp=nv",
+            "search_query": "부부의 날 날짜",
+            "terminate": false,
+            "text": "가정의 달이 5월이잖아. 그래서 5월에 둘이 하나가 된다는 뜻을 담아 5월 21일로 정한 거야.",
+            "turn_id": "BK22011865-4",
+            "utterance_id": "BK22011865.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "또 그런 달콤한 뜻이 숨어있었구나. 그럼 부부의날은 공휴일로 지정된 거야?",
+            "turn_id": "BK22011865-5",
+            "utterance_id": "BK22011865.9"
+        },
+        {
+            "reference_date": "2019-05-21",
+            "reference_text": [
+                {
+                    "value": "부부의 날은 법정기념일이나 공휴일은 아니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newsinside.kr/news/articleView.html?idxno=719251",
+            "search_query": "부부의 날 공휴일지정",
+            "terminate": false,
+            "text": "부부의날은 공휴일은 아니지만 법정기념일로 지정되어 있어.",
+            "turn_id": "BK22011865-5",
+            "utterance_id": "BK22011865.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "공휴일이었으면 더 좋았을 텐데 아쉽다. 그나저나 우리나라 지금 결혼율도 낮을 텐데 부부의 날이 의미가 있을까 싶기도 해. 주변에 보면 점점 더 결혼 안 하려고 하던데 맞지?",
+            "turn_id": "BK22011865-6",
+            "utterance_id": "BK22011865.11"
+        },
+        {
+            "reference_date": "2022-03-17",
+            "reference_text": [
+                {
+                    "value": "지난해 혼인건수가 통계작성 이례 처음으로 20만명을 밑돌았다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "결혼 적령인구 감소 및 결혼에 대한 가치관의 변화, 코로나19 변이 확산 등 '3중고'를 겪고 있기 때문이다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newspim.com/news/view/20220316000923",
+            "search_query": "결혼율",
+            "terminate": false,
+            "text": "맞아, 결혼적령 인구가 감소하고 결혼에 대한 가치관이 변하는데 코로나19까지 삼중고를 겪어서 2021년에는 통계작성 이래 처음으로 혼인 건수가 20만명을 밑돌았어.",
+            "turn_id": "BK22011865-6",
+            "utterance_id": "BK22011865.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "통계 작성 이래 처음이라니 진짜 다들 안 하려고 하나 봐. 결혼하면 좋은 점도 많은데 이걸 모르는 사람들이 많은 거 같아. 우리 와이프는 항상 부창부수라는 말을 많이 해주는데 정확히 무슨 뜻이야?",
+            "turn_id": "BK22011865-7",
+            "utterance_id": "BK22011865.13"
+        },
+        {
+            "reference_date": "2022-09-19",
+            "reference_text": [
+                {
+                    "value": "'부창부수'라는 말이 있다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "남편이 어떤 일을 하면 아내는 그 일을 도와가며 서로 협동하고 화합하는 부부를 뜻한다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.obsnews.co.kr/news/articleView.html?idxno=1366741",
+            "search_query": "부창부수라는 말",
+            "terminate": false,
+            "text": "남편이 어떤 일을 하면 아내는 그 일을 도와가면서 서로 협동하고 화합하는 부부를 뜻하는 말이 부창부수라는 말이야.",
+            "turn_id": "BK22011865-7",
+            "utterance_id": "BK22011865.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 역시 우리 와이프가 최고다. 부부의 날에 꼭 잊지 말고 선물 해 줘야지. 그런데 백년해로하라는 말을 어른들이 많이 쓰던데 백년동안 살라는 걸까, 정확한 뜻은 뭐야?",
+            "turn_id": "BK22011865-8",
+            "utterance_id": "BK22011865.15"
+        },
+        {
+            "reference_date": "2002-11-21",
+            "reference_text": [
+                {
+                    "value": "漢字(한자)에서 ‘百’은 숫자 ‘100’을 뜻하기도 하지만 쓰임을 보면‘많다’는 뜻을 나타낼 때가 더 많다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 ‘百年’이라면 ‘오랜 세월’, ‘영원히’라는 뜻이 더 강하다",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "偕老가 ‘함께 늙는다’는 뜻이므로 百年偕老는 ‘영원토록 함께 늙어가면서 사이좋게 살자’는 뜻이 되겠다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/020/0000163092?sid=103",
+            "search_query": "백년해로 뜻",
+            "terminate": false,
+            "text": "백년해로는 영원토록 함께 늙어가면서 사이좋게 살자는 뜻이야. 한자 백은 숫자 백을 나타내기도 하지만 많다는 뜻을 나타낼 때가 더 많거든. 그래서 백년이 오랜 세월이나 영원히라는 뜻이고 해로는 함께 늙는다는 뜻이야.",
+            "turn_id": "BK22011865-8",
+            "utterance_id": "BK22011865.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 뜻이 있구나. 와이프한테 백년해로하자고 편지도 써줘야겠다.",
+            "turn_id": "BK22011865-9",
+            "utterance_id": "BK22011865.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "부부 금실이 엄청 좋아 보인다. 결혼생활이 너무 행복해 보이는걸.",
+            "turn_id": "BK22011865-9",
+            "utterance_id": "BK22011865.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아직 신혼이라서 그런지 마냥 좋기만 하네. 좋은 말 해줘서 고마워.",
+            "turn_id": "BK22011865-10",
+            "utterance_id": "BK22011865.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "지금의 신혼 같은 마음이 오래오래 지속되기를 진심으로 기원할게.",
+            "turn_id": "BK22011865-10",
+            "utterance_id": "BK22011865.20"
+        }
+    ]
+}

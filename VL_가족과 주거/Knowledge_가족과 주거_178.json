@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018557",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018557",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안녕, 우리 집 마당에 2주 전부터 새로운 길냥이 가족이 생겼어. 생각만해도 너무 기뻐. 그런데 내가 고양이에 대해 잘 몰라서 걱정이야, 넌 잘 아니?",
+            "turn_id": "BK22018557-1",
+            "utterance_id": "BK22018557.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 무엇이든 물어봐. 나는 고양이에 대한 기본적인 정보를 잘 알고 있어!",
+            "turn_id": "BK22018557-1",
+            "utterance_id": "BK22018557.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집 앞 길가에 있던 길냥이 가족인데 혹시 중성화 수술은 언제 해줘야 하는지 아니?",
+            "turn_id": "BK22018557-2",
+            "utterance_id": "BK22018557.3"
+        },
+        {
+            "reference_date": "44832.0",
+            "reference_text": [
+                {
+                    "value": "농림부 고시에 따르면 중성화의 대상이 되는 고양이는 몸무게 2㎏이상의 길고양이입니다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "중성화 시기는 연중 내내 할 수 있을 때 시행하는 것이 좋습니다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/animalpeople/companion_animal/1060524.html",
+            "search_query": "길냥이 중성화",
+            "terminate": false,
+            "text": "길냥이 몸무게가 2kg 이상이면 시행 할 수 있어. 그리고 중성화 시기는 특정한 시기가 정해져 있지 않고, 해 줄 수 있을 때 하는 것이 좋아.",
+            "turn_id": "BK22018557-2",
+            "utterance_id": "BK22018557.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 그러면 고양이는 우유를 잘 먹는 거로 알고 있는데, 특식으로 우유를 줘도 될까?",
+            "turn_id": "BK22018557-3",
+            "utterance_id": "BK22018557.5"
+        },
+        {
+            "reference_date": "44005.0",
+            "reference_text": [
+                {
+                    "value": "사람이 먹는 우유와 치즈에는 고양이가 소화할 수 없는 락토스 성분이 함유되어 있을 수 있다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 성분은 소화불량이나 설사를 유발할 수 있기 때문에 고양이에게 먹이는 것은 좋지 않다.",
+                    "value_time": "44848.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=126677",
+            "search_query": "고양이 사람 우유",
+            "terminate": false,
+            "text": "아니, 사실은 그렇지 않아. 우유에는 락토스 성분이 함유되어 있어서 고양이가 우유를 먹으면 소화불량을 유발하거나 설사를 할 수 있어.",
+            "turn_id": "BK22018557-3",
+            "utterance_id": "BK22018557.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 생선은 어때? 익히지 않은 날 것을 줘도 될까?",
+            "turn_id": "BK22018557-4",
+            "utterance_id": "BK22018557.7"
+        },
+        {
+            "reference_date": "43355.0",
+            "reference_text": [
+                {
+                    "value": "날생선의 경우 각종 세균으로 인해 심각한 질병을 유발할 수 있어 고양이에게 금기의 음식이다.",
+                    "value_time": "44846.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.khan.co.kr/bizlife/sk_index.html?art_id=201809121836003&sec_id=650101&pt=nv",
+            "search_query": "반려묘 먹이 생선",
+            "terminate": false,
+            "text": "아니, 날생선도 고양이에게 건강한 음식은 아니야. 세균 때문에 병에 걸릴 수 있으니 완전히 익혀서 줘야 해.",
+            "turn_id": "BK22018557-4",
+            "utterance_id": "BK22018557.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내가 먹이에 대해 오해한 것이 많았네. 그러면 고양이에게 사람이 먹는 음식 말고, 줄 수 있는 것이 있을까?",
+            "turn_id": "BK22018557-5",
+            "utterance_id": "BK22018557.9"
+        },
+        {
+            "reference_date": "43075.0",
+            "reference_text": [
+                {
+                    "value": "고양이의 주식은 크게 건사료와 통조림으로 나뉩니다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "통조림은 고양이에게 특식, 별식입니다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/1OOR0GY5LW",
+            "search_query": "고양이는 무엇을 먹을까",
+            "terminate": false,
+            "text": "고양이에게 사람 음식을 주는 것보다 주식으로 건사료를 주는 게 좋아. 그리고, 가끔 특식으로 통조림을 줄 수 있어.",
+            "turn_id": "BK22018557-5",
+            "utterance_id": "BK22018557.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사료와 통조림을 꼭 구비해야겠구나. 우리 집에 남은 강아지 사료가 있는데, 혹시 이것을 먹이는 것은 어떠니?",
+            "turn_id": "BK22018557-6",
+            "utterance_id": "BK22018557.11"
+        },
+        {
+            "reference_date": "43496.0",
+            "reference_text": [
+                {
+                    "value": "따라서 일반적인 사료에는 개와 고양이에게 필요한 영양소가 대부분 포함되어 있지만 잡식성인 개의 사료에는 타우린보다는 탄수화물의 비중이 높다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 고양이가 개의 사료를 섭취하는 것은 한두 번 정도는 괜찮지만 장기적으로 섭취했을 때에는 타우린 및 단백질 결핍으로 인한 문제가 생길 수 있고, 탄수화물의 과잉 섭취로 인해 고혈당 문제가 발생할 수 도 있으니 주의해야 한다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=96380",
+            "search_query": "개의 사료 고양이가 먹어도 괜찮을까",
+            "terminate": false,
+            "text": "고양이가 개의 사료를 장기적으로 먹는다면 타우린 및 단백질 결핍이 일어날 수 있어. 왜냐하면 잡식성인 개의 사료에는 타우린보다 탄수화물의 비중이 높기 때문이야. 그리고 고양이가 탄수화물을 많이 섭취하게 되면 고혈당이 될 수 있으니 개의 사료는 되도록 안 먹는 것이 좋아.",
+            "turn_id": "BK22018557-6",
+            "utterance_id": "BK22018557.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇구나. 우리 집 마당 길냥이들이 어미와 새끼4마리인데, 새끼들이 생후 한달정도 됬다고 들었어. 혹시 줘야하는 주식이 따로 있을까?",
+            "turn_id": "BK22018557-7",
+            "utterance_id": "BK22018557.13"
+        },
+        {
+            "reference_date": "44503.0",
+            "reference_text": [
+                {
+                    "value": "생후 4주부터 12주까지는 모유로 받은 선천적 면역력의 감소와 자가 항체의 생성이 교차하는 ‘면역 공백기’가 발생하는 시기로 ▲면역력 발달에 도움을 주는 비타민 C, 비타민 E 또는 베타카로틴, 베타글루칸과 같은 영양소가 함유된 사료를 먹이는 것이 좋다.",
+                    "value_time": "44848.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "성견이나 성묘에게 생후 1년 미만의 반려동물이 먹는 고열량 사료를 그대로 급여할 경우 쉽게 과체중이 될 위험이 있기 때문에 ‘어덜트’ 전용 사료를 통한 ▲적절한 열량 공급이 필수이다.",
+                    "value_time": "44848.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=55287",
+            "search_query": "생애주기별 사료",
+            "terminate": false,
+            "text": "응, 생후 4주부터 12주 사이의 새끼들에게는 면역력에 도움을 주는 비타민C와 비타민E가 포함된 필수영양소를 고루 갖춘 사료를 먹이는 것이 좋아. 반면에, 다 자란 성묘에는 어덜트 전용 사료를 먹이는 것이 좋아. 만약, 새끼들이 먹는 사료를 같이 먹인다면 과체중이 될 위험이 있으니 조심해야 해.",
+            "turn_id": "BK22018557-7",
+            "utterance_id": "BK22018557.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이제, 가을이 돼서 쌀쌀해질 것 같은데, 우리 집 고양이들이 아프지 않았으면 좋겠어. 혹시, 지금 필요한 예방접종은 뭐가 있을까?",
+            "turn_id": "BK22018557-8",
+            "utterance_id": "BK22018557.15"
+        },
+        {
+            "reference_date": "44846.0",
+            "reference_text": [
+                {
+                    "value": "서울시는 15일부터 29일까지 반려동물인 개와 고양이를 대상으로 '광견병 예방접종 지원 사업'을 실시한다고 12일 밝혔다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "광견병은 감염된 동물로부터 물리거나 할퀸 상처를 통해 동물과 사람에게 감염되는 인수공통감염병으로 치사율이 높은 위험한 질병이지만, 예방접종을 통해 예방이 가능하므로 매년 1회 예방접종하는 것이 중요하다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/4829345",
+            "search_query": "가을철 고양이 예방접종",
+            "terminate": false,
+            "text": "지금 서울시에서는 2022년 10월 15일부터 29일까지 개와 고양이를 대상으로 광견병 예방접종을 하고 있어. 광견병은 치사율이 높은 위험한 질병이고, 동물과 사람에게도 전염되기 때문에 꼭 맞는 것을 추천해. 매년 1회만 맞추면 예방이 가능하거든.",
+            "turn_id": "BK22018557-8",
+            "utterance_id": "BK22018557.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "빨리 병원을 다녀와야겠다. 참, 2주 전에도 병원을 다녀오긴 했는데, 이번엔 고양이들이 이동장에 잘 들어가려고 하지 않았어. 어떻게 하는 것이 좋을까?",
+            "turn_id": "BK22018557-9",
+            "utterance_id": "BK22018557.17"
+        },
+        {
+            "reference_date": "42368.0",
+            "reference_text": [
+                {
+                    "value": "동물병원에 갈 때만 이동장을 사용하는 일이 없도록 하며 잠시 집 앞에 외출할 때에 고양이를 이동장에 넣어 함께 다녀오는 것도 이동장 적응훈련에 도움이 된다.",
+                    "value_time": "44848.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/201512301170267365",
+            "search_query": "고양이 이동장에 익숙하게 하는 법",
+            "terminate": false,
+            "text": "이동장이 친숙해질 수 있도록 병원에 갈 때만 이용하지 말고, 다른 곳을 갈 때도 이용하면 금세 적응훈련이 될 거야.",
+            "turn_id": "BK22018557-9",
+            "utterance_id": "BK22018557.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "훈련이 필요하겠구나. 정말 고마워. 덕분에 새로운 고양이 가족들과 함께 행복하게 살 수 있을 것 같아.",
+            "turn_id": "BK22018557-10",
+            "utterance_id": "BK22018557.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별거 아니야. 고양이에 대해서 언제든 물어봐, 최대한 자세히 설명해줄게. 반려묘와 행복한 시간 보내.",
+            "turn_id": "BK22018557-10",
+            "utterance_id": "BK22018557.20"
+        }
+    ]
+}

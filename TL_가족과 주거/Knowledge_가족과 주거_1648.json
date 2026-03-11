@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011951",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011951",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "곧 육아 휴직이 끝나서 출근해야 하는데 수유가 제일 걱정이야. 모유 수유를 줄이고 분유와 혼합수유를 하려고 하는 데 뭐부터 준비하면 좋을까?",
+            "turn_id": "BK22011951-1",
+            "utterance_id": "BK22011951.1"
+        },
+        {
+            "reference_date": "2021-08-27",
+            "reference_text": [
+                {
+                    "value": "젖만 먹던 아기는 젖병으로 먹는 연습도 해야 한다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "처음에는 아기가 젖병을 빠는 것을 어색해할 수 있으므로 출근하기 최소 2주전부터는 젖병 빠는 연습을 하도록 한다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202108273864o",
+            "search_query": "젖병 훈련",
+            "terminate": false,
+            "text": "벌써 육아휴직이 끝나고 출근할 때가 되었구나. 모유만 먹던 아기는 젖병으로 먹는 연습부터 해야 해. 아기가 처음에는 젖병 빠는 것을 어색해할 수 있어서 출근 2주 전부터는 준비해야 해.",
+            "turn_id": "BK22011951-1",
+            "utterance_id": "BK22011951.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "젖병 빠는 연습부터 시켜야겠구나. 근데 젖병의 소재도 다양한 것 같은데 어떤 것들이 있어?",
+            "turn_id": "BK22011951-2",
+            "utterance_id": "BK22011951.3"
+        },
+        {
+            "reference_date": "2017-03-21",
+            "reference_text": [
+                {
+                    "value": "젖병은 열에 강하고 흠집이 생길 염려가 적은 유리, 고온에서도 변형되거나 환경호르몬 유출 가능성이 낮은 PP, 미국 FDA에서도 인체에 안전한 소재로 승인한 바 있는 PES, 가볍고 내구성이 좋은 PPSU 등 다양한 소재로 만들어진다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=45826",
+            "search_query": "젖병 재질 종류",
+            "terminate": false,
+            "text": "젖병은 다양한 소재로 만들어지고 있어. 유리로 만든 젖병은 열에 강하고 흠집이 덜 생기고, PP 재질은 환경호르몬이 나오거나 높은 온도에서 변형될 염려가 적어. 또, PES는 미국 FDA에서 인체에 안전하다고 승인받은 소재이고, PPSU는 내구성도 좋고 가볍다는 장점이 있는 소재야.",
+            "turn_id": "BK22011951-2",
+            "utterance_id": "BK22011951.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소재마다 다 특징이 다르구나. 그러면 소재를 보고 젖병을 고를 때 제일 중요하게 확인해야 할 것은 뭐야?",
+            "turn_id": "BK22011951-3",
+            "utterance_id": "BK22011951.5"
+        },
+        {
+            "reference_date": "2017-03-21",
+            "reference_text": [
+                {
+                    "value": "젖병을 고를 때는 각 소재의 장단점을 살펴보고 선택하되, 'BPA free'라고 명시된 제품을 골라야 한다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "인체에 들어가면 면역체계 등 내분비계의 정상적인 기능을 방해하고, 특히 어린이의 몸에 흡수되면 성조숙증, 행동장애 등 부작용이 나타날 수 있다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=45826",
+            "search_query": "젖병 고를 때 주의점",
+            "terminate": false,
+            "text": "소재의 장단점을 확인하고 구매하는 것도 중요하지만, BPA free라고 쓰여있는 있는 제품을 구매하도록 해. BPA는 몸에서 면역체계 같은 내분비계의 기능을 방해하고, 특히 어린아이들에게는 성조숙증, 행동장애 같은 문제를 일으킬 수 있어.",
+            "turn_id": "BK22011951-3",
+            "utterance_id": "BK22011951.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어, BPA free라고 쓰여있는 있는 걸로 고를게. 근데, 젖병을 사용하는 아이들이 모유 수유하는 아이들보다 배가 아픈 경우가 많던데 그건 왜 그래?",
+            "turn_id": "BK22011951-4",
+            "utterance_id": "BK22011951.7"
+        },
+        {
+            "reference_date": "2017-05-16",
+            "reference_text": [
+                {
+                    "value": "젖병을 사용하면 배앓이를 하는 아이들이 적지 않다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "때문에 젖병은 공기순환이 원활하게 되어 배앓이를 방지하는 기능이 있는 것을 선택하는 것이 좋다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아기 배앓이는 젖병 사용 시 공기 순환이 되지 않아 공기를 삼키면서 발생한다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.betanews.net/article/694239",
+            "search_query": "젖병 배앓이 방지 기능",
+            "terminate": false,
+            "text": "젖병을 사용하면서 배앓이를 하는 아기들이 제법 있어. 그 이유는 젖병을 사용하면 공기 순환이 안되는데 이때 그 공기를 아기가 삼키면서 발생하는 거야. 그래서, 젖병을 선택할 때에는 공기 순환이 되는 배앓이 방지 기능이 있는 걸 선택해야 해.",
+            "turn_id": "BK22011951-4",
+            "utterance_id": "BK22011951.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "배앓이 방지 기능이 있는 젖병이 있구나. 그리고, 젖병 크기도 다양하던데 어떤 걸 사면 되는 거야?",
+            "turn_id": "BK22011951-5",
+            "utterance_id": "BK22011951.9"
+        },
+        {
+            "reference_date": "2014-06-23",
+            "reference_text": [
+                {
+                    "value": "1개월 미만의 아기에게는 125ml정도의 소형 젖병을, 1개월 이후의 아기들은 260ml의 중형부터 시작해서 330ml의 대형 젖병을 주로 사용한다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=21931",
+            "search_query": "젖병 사이즈",
+            "terminate": false,
+            "text": "보통 생후 1개월이 되지 않은 신생아는 125밀리리터의 소형 젖병을 사용하고, 그 이후에는 중형인 260밀리리터에서 대형인 3300밀리리터의 젖병을 사용해.",
+            "turn_id": "BK22011951-5",
+            "utterance_id": "BK22011951.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 아이는 260이나 330밀리리터 젖병을 구매하면 되겠구나. 그리고, 외출할 때 젖병은 무겁고 짐이 되는데 좀 손쉬운 방법은 없을까?",
+            "turn_id": "BK22011951-6",
+            "utterance_id": "BK22011951.11"
+        },
+        {
+            "reference_date": "2019-03-18",
+            "reference_text": [
+                {
+                    "value": "일회용 젖병은 밑이 뚫린 젖병에 일회용 비닐을 끼워넣고 분유를 타는 방식인데요.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한 번 수유가 끝나면 일회용 비닐을 새 것으로 갈아끼우고 젖꼭지도 깨끗한 것으로 교체해 다음에도 수유를 할 수 있게 하는 것입니다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20190302000296?OutUrl=naver",
+            "search_query": "일회용 젖병",
+            "terminate": false,
+            "text": "외출할 때에 일회용 젖병을 사용하면 돼. 일회용 젖병은 뚫려 있는 밑 부분으로 일회용 비닐을 끼워서 분유를 타면 되는 방식이야. 아기가 다 먹으면 그 일회용 비닐과 젖꼭지도 깨끗한 것으로 교체해서 사용하면 돼.",
+            "turn_id": "BK22011951-6",
+            "utterance_id": "BK22011951.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "외출해서는 일회용 젖병을 사용하는 게 편리하겠다. 그리고, 젖꼭지는 어떤 걸 고르면 돼?",
+            "turn_id": "BK22011951-7",
+            "utterance_id": "BK22011951.13"
+        },
+        {
+            "reference_date": "2022-08-16",
+            "reference_text": [
+                {
+                    "value": "이와 반대로 좋은 젖꼭지는 부드럽고 유연하여 아기의 혀와 턱 운동을 원활하게 도와준다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그리고 둘레가 넓은 모양이 좋다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아기의 입과 밀착이 되어 공기 유입을 막기 때문에 배앓이를 예방할 수 있다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=168649",
+            "search_query": "젖꼭지 고르기",
+            "terminate": false,
+            "text": "부드럽고 유연한 젖꼭지를 골라야 아기가 혀와 턱의 운동을 수월하게 할 수 있어. 그리고, 둘레가 넓은 젖꼭지는 아기 입과 밀착돼서 공기 유입을 막아줘 배앓이를 방지하는 효과가 있어.",
+            "turn_id": "BK22011951-7",
+            "utterance_id": "BK22011951.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "젖꼭지도 잘 보고 골라야겠구나. 근데 아이가 젖꼭지를 잘 물지 걱정이 되는데 좋은 방법이 있을까?",
+            "turn_id": "BK22011951-8",
+            "utterance_id": "BK22011951.15"
+        },
+        {
+            "reference_date": "2014-06-23",
+            "reference_text": [
+                {
+                    "value": "모유와 분유를 혼합 수유하는 아이의 경우, 엄마의 젖꼭지를 닮은 디자인을 선택하면 아이의 유두 혼동을 줄여 준다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=21931",
+            "search_query": "젖꼭지 선택",
+            "terminate": false,
+            "text": "모유와 분유를 혼합해서 수유해야 하는 경우에는 젖꼭지를 구매할 때 엄마의 젖꼭지 모양을 닮은 것을 선택하면 유두 혼란을 줄일 수 있어.",
+            "turn_id": "BK22011951-8",
+            "utterance_id": "BK22011951.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혼란을 줄일 수 있는 방법도 있구나.",
+            "turn_id": "BK22011951-9",
+            "utterance_id": "BK22011951.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "처음에 젖병 훈련시키는 것이 어려울 수도 있는데, 혹시 도움이 필요하면 언제든지 이야기해.",
+            "turn_id": "BK22011951-9",
+            "utterance_id": "BK22011951.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고마워, 네가 있어서 든든하다.",
+            "turn_id": "BK22011951-10",
+            "utterance_id": "BK22011951.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "고맙긴, 우리는 다음에 보자, 안녕.",
+            "turn_id": "BK22011951-10",
+            "utterance_id": "BK22011951.20"
+        }
+    ]
+}

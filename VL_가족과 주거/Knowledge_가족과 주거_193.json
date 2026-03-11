@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018907",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018907",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0029"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "올 가을에는 반려동물인 강아지와 함께 기차 여행을 가려고 계획하고 있어요.",
+            "turn_id": "BK22018907-1",
+            "utterance_id": "BK22018907.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 정말 부럽네요. 저도 강아지와 함께 여행가고 싶어요.",
+            "turn_id": "BK22018907-1",
+            "utterance_id": "BK22018907.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 KTX를 탈 때, 강아지 좌석을 따로 구매해야 하나요?",
+            "turn_id": "BK22018907-2",
+            "utterance_id": "BK22018907.3"
+        },
+        {
+            "reference_date": "44788.0",
+            "reference_text": [
+                {
+                    "value": "KTX는 반려동물을 이동장에 넣어서 탑승할 경우 이를 위한 자리를 예매할 수 있습니다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "KTX와 SRT의 가장 큰 차이점은 반려동물용 좌석을 따로 구매할 수 있는지에 대한 여부입니다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/life/article/202208153164i",
+            "search_query": "멍냥이 기차여행",
+            "terminate": false,
+            "text": "강아지는 이동장에 넣고, KTX에서는 좌석을 구매해야 해요. 탑승할 때 반려동물용 좌석을 예매할 수 있는 지에 대한 여부를 두고 KTX와 SRT는 차이를 보이고 있어요.",
+            "turn_id": "BK22018907-2",
+            "utterance_id": "BK22018907.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "KTX를 탈 때, 반려동물의 승차권 가격은 얼마인가요?",
+            "turn_id": "BK22018907-3",
+            "utterance_id": "BK22018907.5"
+        },
+        {
+            "reference_date": "44788.0",
+            "reference_text": [
+                {
+                    "value": "단, 반려동물 좌석은 할인 상품 대상에 해당하지 않기 때문에 승차권을 성인용으로 구매해야 합니다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/life/article/202208153164i",
+            "search_query": "멍냥이 기차 좌석 승차권",
+            "terminate": false,
+            "text": "반려동물의 좌석은 할인 대상이 아니에요. 그렇기 때문에 승차권을 성인 가격으로 사야 하죠.",
+            "turn_id": "BK22018907-3",
+            "utterance_id": "BK22018907.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "만약 아동 가격으로 좌석을 구매하면 어떻게 되나요?",
+            "turn_id": "BK22018907-4",
+            "utterance_id": "BK22018907.7"
+        },
+        {
+            "reference_date": "44788.0",
+            "reference_text": [
+                {
+                    "value": "반려동물을 동반유아석으로 표를 끊었다가 적발된다면 부정 승차권 사용으로 기준운임의 10배(1000%)에 해당하는 금액을 내야 합니다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/life/article/202208153164i",
+            "search_query": "멍냥이 기차 좌석",
+            "terminate": false,
+            "text": "유아석으로 구매했다가 적발되는 경우에는 부정 승차권 사용으로 인해 기준운임의 10배에 달하는 금액을 부과해야 해요.",
+            "turn_id": "BK22018907-4",
+            "utterance_id": "BK22018907.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 꼭 성인 요금을 낼 수 있도록 유의해야 겠어요. 그러면 SRT를 탈 때에는 강아지 좌석을 구매해야 하나요?",
+            "turn_id": "BK22018907-5",
+            "utterance_id": "BK22018907.9"
+        },
+        {
+            "reference_date": "44788.0",
+            "reference_text": [
+                {
+                    "value": "SRT는 휴대품을 위한 자리 예매를 허용하지 않기에 반려동물 좌석을 따로 구매할 수 없습니다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "두 열차 모두 반려동물을 ‘휴대품’으로 규정하고 있는데요.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/life/article/202208153164i",
+            "search_query": "SRT 반려동물 승차 규정",
+            "terminate": false,
+            "text": "SRT와 KTX는 반려동물을 휴대품으로 지칭하고 있어요. 그런데 SRT는 휴대품을 위해 좌석을 구매하는 것을 허용하지 않아요. 따라서 반려동물용 좌석은 구매가 불가능합니다.",
+            "turn_id": "BK22018907-5",
+            "utterance_id": "BK22018907.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "앗, 그렇다면 강아지와 함께 SRT를 타려면 어떻게 해야 하죠?",
+            "turn_id": "BK22018907-6",
+            "utterance_id": "BK22018907.11"
+        },
+        {
+            "reference_date": "44788.0",
+            "reference_text": [
+                {
+                    "value": "‘SR 여객운송약관 제20조’에 따르면 반려동물을 가방 또는 이동장에 넣어 보이지 않도록 해야 합니다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/life/article/202208153164i",
+            "search_query": "SRT 반려동물 승차 이동장",
+            "terminate": false,
+            "text": "SRT의 SR 여객운송약관 제20조에 따라서 반려동물을 이동장이나 가방에 넣어서 보이지 않게 하면 함께 탑승이 가능해요.",
+            "turn_id": "BK22018907-6",
+            "utterance_id": "BK22018907.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좌석을 구매하지 않아도 된다니, 저는 좋은데요. 그런데 가방에 넣은 반려동물은 빈 통로에 놓아 두어도 괜찮을까요?",
+            "turn_id": "BK22018907-7",
+            "utterance_id": "BK22018907.13"
+        },
+        {
+            "reference_date": "44788.0",
+            "reference_text": [
+                {
+                    "value": "또한 다른 승객들의 통행에 방해가 되기에 통로에 두는 것도 허용하지 않습니다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려동물과 동반 여행을 떠날 경우 발아래 두거나 무릎 위에 둬야 합니다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/life/article/202208153164i",
+            "search_query": "SRT 반려동물 승차",
+            "terminate": false,
+            "text": "다른 승객들이 지나다니는데 불편을 줄 수 있기 때문에, 통로에 놓는 것은 허용되지 않고 있어요.대신 발 아래쪽이나 무릎 위에 두면 돼요.",
+            "turn_id": "BK22018907-7",
+            "utterance_id": "BK22018907.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇게 하면 되겠네요. 그런데 기차를 탈 수 있는 반려동물의 크기 제한이 있나요?",
+            "turn_id": "BK22018907-8",
+            "utterance_id": "BK22018907.15"
+        },
+        {
+            "reference_date": "44788.0",
+            "reference_text": [
+                {
+                    "value": "KTX와 SRT 모두 개, 고양이, 새 등 반려동물의 크기, 무게에 따라 탑승을 제한하고 있습니다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "KTX의 경우 ‘무게 10kg 이내, 길이 100cm 이내’ 반려동물을 운반용기(이동장)에 넣어 탑승하도록 하고 있습니다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "SRT는 규정이 조금 더 엄격합니다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "‘길이 60cm 이내’ 작은 반려동물만 탑승이 가능하고 반려동물과 이동장을 합친 무게가 10kg을 초과할 수 없습니다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/life/article/202208153164i",
+            "search_query": "KTX 반려동물 승차 규정",
+            "terminate": false,
+            "text": "네, KTX와 SRT는 둘 다 반려동물의 무게와 사이즈에 따라 탑승 제한을 하고 있어요. KTX는 10kg 이내, 그리고 100cm 미만의 반려동물을 이동장에 넣는다면 탑승이 가능해요. 그리고 SRT는 길이 60cm 이내의 작은 반려동물만 탑승할 수 있으며, 반려동물과 이동장을 합산한 무게가 10kg 미만이어야 해요.",
+            "turn_id": "BK22018907-8",
+            "utterance_id": "BK22018907.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 소형견만 기차를 탈 수 있겠어요. 그런데 시각장애 안내견은 그런 제한 없이 당연히 탑승할 수 있겠죠?",
+            "turn_id": "BK22018907-9",
+            "utterance_id": "BK22018907.17"
+        },
+        {
+            "reference_date": "44788.0",
+            "reference_text": [
+                {
+                    "value": "시각‧청각‧지체 장애인 보조견은 탑승하는 장애인의 원활한 대중교통 이용을 위해 이동장이 없어도 동반 승차가 가능합니다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/life/article/202208153164i",
+            "search_query": "장애인 보조견 KTX 승차",
+            "terminate": false,
+            "text": "네, 맞습니다. 시각장애인 뿐만 아니라 청각, 지체 장애인의 보조견은 장애인이 원활하게 대중교통으로 이동할 수 있도록 별도의 이동장이 없어도 함께 탑승이 가능합니다.",
+            "turn_id": "BK22018907-9",
+            "utterance_id": "BK22018907.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "설명해 주신 내용을 참고해서, 저희 강아지와 함께 하는 기차여행 계획을 잘 세워보려고요.",
+            "turn_id": "BK22018907-10",
+            "utterance_id": "BK22018907.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 반려동물과 함께 즐거운 여행이 되었으면 좋겠습니다.",
+            "turn_id": "BK22018907-10",
+            "utterance_id": "BK22018907.20"
+        }
+    ]
+}

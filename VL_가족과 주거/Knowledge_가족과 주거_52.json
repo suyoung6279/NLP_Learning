@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22017250",
+        "name": "2022 한국어 블렌더봇 데이터 BK22017250",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지가 외출할 때마다 제가 올 때까지 울어서 여간 곤란한 게 아니에요.",
+            "turn_id": "BK22017250-1",
+            "utterance_id": "BK22017250.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려견이 분리불안이 있으면 견주들이 힘들어하더라고요.",
+            "turn_id": "BK22017250-1",
+            "utterance_id": "BK22017250.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지인들 강아지는 혼자 집에 잘 있다고 하는데 우리 집 강아지는 제가 외출하면 자꾸 울고 짖고 해서 걱정이에요. 특히 짖으면 이웃들에게도 죄송하고요. 분리불안이 생기는 원인이 뭘까요?",
+            "turn_id": "BK22017250-2",
+            "utterance_id": "BK22017250.3"
+        },
+        {
+            "reference_date": "42123.0",
+            "reference_text": [
+                {
+                    "value": "분리불안 증상이 나타나는 원인은 크게 두 가지로 나눌 수 있는데 하나는 ‘공포’이며 다른 하나는 ‘지루함’이다.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그런데 무리에서 떨어져 혼자 남겨지게 되면 생존에 대한 확신을 잃고 과도한 불안감에 시달리게 되는 것이다.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/201504291672967540",
+            "search_query": "강아지 분리불안 원인",
+            "terminate": false,
+            "text": "분리불안의 원인은 공포와 지루함으로 크게 나눌 수 있는데, 무리에서 떨어져 혼자 남겨졌을 때 느끼던 생존에 대한 두려움과 불안감을 느끼게 되는 거예요.",
+            "turn_id": "BK22017250-2",
+            "utterance_id": "BK22017250.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 강아지는 보통 제가 없을 때 짖어대는데 분리불안 증상으로 이것 외에 어떤 것이 있나요?",
+            "turn_id": "BK22017250-3",
+            "utterance_id": "BK22017250.5"
+        },
+        {
+            "reference_date": "42895.0",
+            "reference_text": [
+                {
+                    "value": "분리불안을 느끼는 반려견은 견주와 떨어질 때 안절부절 못하는 증상이나 구토, 설사를 한다거나 멈추지 않는 하울링, 짖음 증상, 침 과다분비, 식욕상실, 요지부동자세, 배변장애 등의 증상을 보인다.",
+                    "value_time": "44829.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "정도가 심할 경우에는 견주가 외출하기 전부터 공격성을 보이거나 집안 기물을 파손하고, 창문이나 문을 발톱이 빠질 때까지 긁기도 한다.",
+                    "value_time": "44829.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=20103",
+            "search_query": "강아지 분리불안 증상",
+            "terminate": false,
+            "text": "반려견이 견주와 떨어질 때 어찌할 줄 몰라 하거나 구토, 설사, 끝나지 않는 하울링 등의 증상을 보이기도 하는데요, 침을 많이 흘리고 식욕상실, 배변 장애, 같은 자세로 움직이지 않거나 배변 실수를 하는 등 다양한 증상으로 불안을 표현해요. 특히 분리불안 증상이 아주 심하면 견주가 외출하기 전부터 공격성을 보이거나 물건을 망가뜨리고, 발톱이 빠질 때까지 문이나 창문을 긁기도 해요.",
+            "turn_id": "BK22017250-3",
+            "utterance_id": "BK22017250.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "증상이 저렇게까지 심할 수도 있다니 놀랍고 걱정스럽네요. 분리불안을 극복시키는 훈련과정은 무엇인가요?",
+            "turn_id": "BK22017250-4",
+            "utterance_id": "BK22017250.7"
+        },
+        {
+            "reference_date": "42895.0",
+            "reference_text": [
+                {
+                    "value": "강아지 분리불안 훈련은 견주가 외출할 때 얌전히 보호자를 기다릴 수 있도록 진행하는 것이다.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려인이 외출 후에 반드시 돌아온다는 것을 인지시켜 줄 수 있도록 실시하며, 외출이 반려견의 생명을 위협하는 상황이 아니라는 것을 터득할 수 있도록 하는 과정이다.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=20103",
+            "search_query": "강아지 분리불안",
+            "terminate": false,
+            "text": "견주가 외출 후에 꼭 다시 돌아온다는 것과 견주의 외출로 혼자 남겨진 것이 자신의 생명을 위협하는 상황이 아니라는 것을 반려견이 알 수 있게 하기 위해 보호자를 기다릴 수 있도록 하는 훈련을 해요.",
+            "turn_id": "BK22017250-4",
+            "utterance_id": "BK22017250.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 강아지의 품종에 따라 분리불안이 더 심한 품종이 있을까요?",
+            "turn_id": "BK22017250-5",
+            "utterance_id": "BK22017250.9"
+        },
+        {
+            "reference_date": "44036.0",
+            "reference_text": [
+                {
+                    "value": "분리불안의 발병 위험과 관련하여 성별이나 품종에 대한 눈에 띄는 차이는 없다.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "활동력이 많은 품종이더라도 충분한 운동과 환경풍부화가 이루어지지 못한다면, 활동력이 적은 품종보다 분리불안 발생 확률이 높을 수 있다.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mkhealth.co.kr/news/articleView.html?idxno=46713",
+            "search_query": "강아지 분리불안 품종",
+            "terminate": false,
+            "text": "분리불안은 품종이나 성별과는 큰 관계가 없어요. 활동력이 아무리 왕성한 품종이라도 운동을 충분히 하지 못해 에너지 방출이 안 되거나 환경 풍부화가 안 되어 있다면 활동력이 적은 품종보다도 분리불안이 생길 확률이 더 높을 수 있답니다.",
+            "turn_id": "BK22017250-5",
+            "utterance_id": "BK22017250.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지를 집에 두고 외출 후 귀가했을 때 혼자 있던 강아지가 흥분해서 저에게 달려올 때는 저도 모르게 같이 격하게 인사를 하는데 이런 행동은 강아지에게 어떤 영향을 미칠까요?",
+            "turn_id": "BK22017250-6",
+            "utterance_id": "BK22017250.11"
+        },
+        {
+            "reference_date": "44036.0",
+            "reference_text": [
+                {
+                    "value": "또한 홀로 있을 반려견에 마음이 아파 외출하기 전후 과장된 인사나 과도하게 반겨주는 행위를 하는 견주가 많다.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 이것이 오히려 반려견의 감정을 증폭시키는 경우가 있다.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mkhealth.co.kr/news/articleView.html?idxno=46713",
+            "search_query": "강아지 분리불안",
+            "terminate": false,
+            "text": "집에 혼자 남겨진 반려견이 안쓰러운 마음에 외출 직후 견주의 과한 인사나 격하게 반겨주는 행동은 오히려 반려견의 감정을 증폭시키는 요인이 돼요.",
+            "turn_id": "BK22017250-6",
+            "utterance_id": "BK22017250.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지를 두고 외출할 때 노즈 워크 안에 강아지가 평소 좋아하는 간식을 넣어주고 가는데 이런 것도 분리불안을 해소할 방법이 될 수 있을까요?",
+            "turn_id": "BK22017250-7",
+            "utterance_id": "BK22017250.13"
+        },
+        {
+            "reference_date": "43396.0",
+            "reference_text": [
+                {
+                    "value": "노즈워크란 강아지의 뛰어난 후각적 감성을 더욱 이끌어내는 놀이이자 훈련 방법으로 후각 감성이 뛰어난 강아지의 분리불안과 외로움을 해소하는 데 효과적이다.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20181023000472",
+            "search_query": "강아지 분리불안 노즈워크",
+            "terminate": false,
+            "text": "네, 노즈 워크는 반려견의 분리불안은 물론 견주의 빈자리로 인한 외로움을 해소해 주는 데 효과적이에요. 후각이 뛰어난 반려견에게 후각적 감성을 더 많이 끌어낼 수 있는 놀이이면서 훈련 방법이죠.",
+            "turn_id": "BK22017250-7",
+            "utterance_id": "BK22017250.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "외출하기 전에 산책시키는 방법은 어떨까요? 산책 후에 제가 잠시 집을 비워 봤는데 카메라로 보니 별 반응 없이 그냥 자더라고요.",
+            "turn_id": "BK22017250-8",
+            "utterance_id": "BK22017250.15"
+        },
+        {
+            "reference_date": "43816.0",
+            "reference_text": [
+                {
+                    "value": "개는 근육의 움직임이 활발하고 심장이 벅찰 정도로 뛰어다니는 등 활동량이 많을 때 체내에서 건강한 호르몬이 분비되며 정서적으로 편안해진다.",
+                    "value_time": "44829.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "정서적 불안감을 완화시키는 가장 효과적인 처방은 피곤할 정도로 산책이나 운동을 시켜주는 것임을 명심하자.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.imaeil.com/page/view/2019121709303002191",
+            "search_query": "강아지 산책",
+            "terminate": false,
+            "text": "반려견을 피곤할 정도로 산책시키거나 운동을 시키는 것은 정서적 불안감을 줄여주는데 가장 큰 효과가 있어요. 개는 근육의 움직임이 많아 숨을 헐떡일 정도로 뛰는 등 활동량이 많을 때 몸 안에 좋은 호르몬이 분비되면서 정서적으로 안정을 찾거든요.",
+            "turn_id": "BK22017250-8",
+            "utterance_id": "BK22017250.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 피곤할 만큼 산책을 많이 시켜야겠군요. 분리불안증이 아주 심한 강아지에겐 약 처방을 하기도 한다는데 분리불안을 완화하는 약도 있나요?",
+            "turn_id": "BK22017250-9",
+            "utterance_id": "BK22017250.17"
+        },
+        {
+            "reference_date": "43816.0",
+            "reference_text": [
+                {
+                    "value": "이미 분리불안이 심하여 이물을 섭식하거나 자해 등의 위험이 있는 개에게는 신경안정제를 처방하기도 한다.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "신경안정제 처방은 신경의 민감도를 완화시키는 효과는 즉각적이지만 근본적인 해결책이 되진 못한다.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.imaeil.com/page/view/2019121709303002191",
+            "search_query": "개 분리불안 신경안정제",
+            "terminate": false,
+            "text": "네, 분리불안이 심해 이물을 먹거나 자해 같은 위험한 행동을 하는 개에게는 신경안정제를 처방하기는 해요. 하지만 이는 신경의 민감도를 경감시키는 즉각적인 효과는 볼 수 있지만 임시적일 뿐 분리불안증 치료의 근본적 해결책은 안 되죠",
+            "turn_id": "BK22017250-9",
+            "utterance_id": "BK22017250.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산책과 운동이 정말 중요한 것 같군요. 1일 1 산책을 꼭 실천해야겠어요.",
+            "turn_id": "BK22017250-10",
+            "utterance_id": "BK22017250.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "소중한 반려견과 행복한 날들 보내시길 바랍니다.",
+            "turn_id": "BK22017250-10",
+            "utterance_id": "BK22017250.20"
+        }
+    ]
+}

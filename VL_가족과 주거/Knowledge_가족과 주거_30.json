@@ -1,0 +1,361 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016941",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016941",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 3개월 전에 아이를 출산했는데요. 아이를 보면 예쁘기도 하지만 왠지 우울하고 무기력해지기도 해요. 이게 무슨 증상일까요?",
+            "turn_id": "BK22016941-1",
+            "utterance_id": "BK22016941.1"
+        },
+        {
+            "reference_date": "44336.0",
+            "reference_text": [
+                {
+                    "value": "산후우울감과 산후우울증은 비슷해 보이지만, 증상과 정도에 차이가 있어 치료를 위해서는 이 둘을 정확하게 구별하는 것이 중요하다.",
+                    "value_time": "44835.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "산후우울감은 분만 후 대개 2~4일 후에 발생하고, 3~5일째 가장 심하다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가장 약한 우울증답게 길게는 2주에서 짧게는 몇 시간 정도만 지속된다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "산후우울증은 산후우울감과 비슷하지만, 좀 더 늦게 발병하고 증상이 더 심한 형태로 나타난다.",
+                    "value_time": "44835.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "산후우울증은 분만 후 3~6개월이 되면 발생한다. 출산한 산모의 10~15% 정도가 산후우울증을 경험한다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000603863",
+            "search_query": "산후우울증 산후우울감",
+            "terminate": false,
+            "text": "말씀 들어보니 산후우울감 또는 산후우울증일 가능성이 있어요. 이 둘은 증상과 정도에 따라 다른 점이 있어 치료하려면 정확하게 구별하는 것이 필요해요. 산후우울감은 출산 후 보통 2에서 4일이 지나고 발생하고, 3에서 5일째에 가장 심해져요. 가장 약한 우울증이라 몇 시간에서 2주 정도만 지속돼요, 반면 산후우울증은 출산 후 3에서 6개월 지나고 발생하고, 증상이 좀 더 심한 형태로 나타나요. 출산한 여성의 약 10에서 15퍼센트가 산후우울증을 겪어요.",
+            "turn_id": "BK22016941-1",
+            "utterance_id": "BK22016941.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 차이가 있군요. 산후우울감을 겪는 산모의 비율은 얼마나 될까요?",
+            "turn_id": "BK22016941-2",
+            "utterance_id": "BK22016941.3"
+        },
+        {
+            "reference_date": "44834.0",
+            "reference_text": [
+                {
+                    "value": "한편 2020년에 출산한 산모 3,127명을 대상으로 한 보건복지부 통계에 따르면 52.6%가 산후우울감을 경험했으며, 산후우울 위험군은 42.7%로 나타났다.",
+                    "value_time": "44835.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "2019년에는 전체 산모 중 50.3%가 산후우울감을 경험했다고 답했다.",
+                    "value_time": "44835.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/119/0002644308?cds=news_edit",
+            "search_query": "산후우울감 비율",
+            "terminate": false,
+            "text": "보건복지부 2020년에 출산한 산모 3,127명을 대상으로 조사 한 결과에 따르면 52.6퍼센트가 산후우울감을 겪었고, 산후우울 위험군은 42.7퍼센트로 집계되었어요. 2019년에는 모든 산모 중 50.3퍼센트가 산후우울감을 겪었다고 응답했고요.",
+            "turn_id": "BK22016941-2",
+            "utterance_id": "BK22016941.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 출산한 지 좀 지나서 산후우울증 같은데 산후우울증 증세에 대해 알려주실 수 있나요?",
+            "turn_id": "BK22016941-3",
+            "utterance_id": "BK22016941.5"
+        },
+        {
+            "reference_date": "44802.0",
+            "reference_text": [
+                {
+                    "value": "산후우울증이 동반하는 증세로는 수면 부족을 비롯하여 부모됨 혹은 유아 양육에 대한 불안감, 자아정체감 위기, 삶에 대한 상실감, 낭만적이고 성적 매력이 있는 배우자가 충분한 도움을 주지 못하는 것에 대한 불안감 등이 있다.",
+                    "value_time": "44835.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.m.wikipedia.org/wiki/%EC%82%B0%ED%9B%84%EC%9A%B0%EC%9A%B8%EC%A6%9D",
+            "search_query": "산후우울증 증세",
+            "terminate": false,
+            "text": "산후우울증의 증세로는 수면 부족, 부모 된 것 또는 자녀 양육에 대한 불안감, 남편이 기대에 못 미치는 도움을 주는 것에 대한 불안감, 자아 정체감의 위기, 자기 삶을 잃어버린 것 같은 느낌 등이 있어요.",
+            "turn_id": "BK22016941-3",
+            "utterance_id": "BK22016941.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "증상 중 대다수를 제가 겪고 있어요. 혹시 산후우울증으로 인해 자살 충동을 느끼는 사람도 많나요?",
+            "turn_id": "BK22016941-4",
+            "utterance_id": "BK22016941.7"
+        },
+        {
+            "reference_date": "44388.0",
+            "reference_text": [
+                {
+                    "value": "실제로 인구보건복지협회가 2015년 전국 20~40대 기혼 여성 1106명을 대상으로 실시한 ‘4차 저출산 인식 설문조사’에 따르면 응답자의 33.7%는 산후우울증으로 자살 충동을 느낀 적이 있다고 응답했다.",
+                    "value_time": "44835.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "실제로 극단적인 선택을 시도했다는 비율은 2%로 조사됐다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.seoul.co.kr/news/newsView.php?id=20210711500031",
+            "search_query": "산후우울증 자살 충동",
+            "terminate": false,
+            "text": "인구보건복지협회가 2015년 전 지역 20에서 40대 결혼한 여성 1,106명을 대상으로 실시한 4차 저출산 인식 설문조사에 의하면 응답자의 33.7퍼센트는 산후우울증으로 자살하고 싶은 욕구를 느낀 적이 있다고 대답했어요. 실제로 자살을 시도했다는 비율은 2퍼센트로 나타났고요.",
+            "turn_id": "BK22016941-4",
+            "utterance_id": "BK22016941.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 33.7퍼센트라니 생각보다 많은 수치네요. 그럼 산후우울증 치료는 어떻게 하는 것이 좋을까요?",
+            "turn_id": "BK22016941-5",
+            "utterance_id": "BK22016941.9"
+        },
+        {
+            "reference_date": "43787.0",
+            "reference_text": [
+                {
+                    "value": "출산 후 우울을 느끼는 시기는 수유 기간과 겹쳐 항우울제 등 약물치료가 권장되지 않는다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 정도가 심해 양육과 일상생활에 문제가 생기고 극단적 선택을 생각할 정도로 심하면 전문가와 상의해 약물치료 등 정신건강의학과 치료를 받아야 한다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 주변 가족들의 영향을 많이 받을 수 있기 때문에 가족들의 문제가 없는지도 살핀다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대개는 외래 치료를 통해서 낫지만, 타인이나 본인의 안전을 위협하는 행동을 할 가능성이 있거나, 일상생활을 전혀 할 수 없으면 입원 치료를 고려한다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2019/11/18/2019111802277.html",
+            "search_query": "산후우울증 치료",
+            "terminate": false,
+            "text": "산후우울증을 느끼는 시기는 아이에게 젖을 먹이는 기간과 겹쳐 약물치료가 권장되지는 않지만, 우울증 정도가 심각하여 아이 양육과 일상 생활하는 것이 곤란하고 자살을 생각할 정도라면 전문가와 상의해 약물치료를 받는 것이 좋아요. 특히 가족들의 영향을 많이 받을 수 있기 때문에 가족 간 관계에 문제가 없는지도 관심을 기울이고요. 보통 외래 치료를 통해서 증상이 나아지지만, 본인이나 다른 사람의 안전을 위협하는 행동을 할 여지가 있거나, 일상생활을 전혀 할 수 없으면 입원하여 치료받는 것을 생각해봐야 해요",
+            "turn_id": "BK22016941-5",
+            "utterance_id": "BK22016941.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "심각하면 약물치료와 입원 치료도 받는군요. 우울증이 완치된다고 하더라도 다음번 출산할 때 재발하기도 하겠죠?",
+            "turn_id": "BK22016941-6",
+            "utterance_id": "BK22016941.11"
+        },
+        {
+            "reference_date": "43787.0",
+            "reference_text": [
+                {
+                    "value": "그러나 이전에 산후우울증을 경험한 사람은 다시 출산을 할 경우 우울증에 걸릴 위험률이 50~80%로 높아진다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=02968406622687032",
+            "search_query": "산후우울증 재발",
+            "terminate": false,
+            "text": "이전에 산후우울증을 겪은 여성이 다시 출산할 경우에는 우울증에 걸릴 위험률이 50에서 80퍼센트로 증가해요.",
+            "turn_id": "BK22016941-6",
+            "utterance_id": "BK22016941.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 제 생각이 맞았네요. 혹시 산후우울증에도 가족력의 영향이 있을까요?",
+            "turn_id": "BK22016941-7",
+            "utterance_id": "BK22016941.13"
+        },
+        {
+            "reference_date": "44792.0",
+            "reference_text": [
+                {
+                    "value": "정신질환 가족력이 있는 경우 그렇지 않은 여성보다 산후 우울증을 겪을 위험이 2배 정도 높은 것으로 나타났다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202208194150o#_enliple",
+            "search_query": "산후우울증 가족력",
+            "terminate": false,
+            "text": "가족 중 정신질환 내력이 있는 경우 그렇지 않은 여성보다 산후 우울증에 걸릴 위험이 약 두 배 높은 것으로 나타났어요.",
+            "turn_id": "BK22016941-7",
+            "utterance_id": "BK22016941.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정신질환 가족력이 있으면 발병률이 두 배나 높군요. 남성이 산후우울증을 겪는 경우도 있나요?",
+            "turn_id": "BK22016941-8",
+            "utterance_id": "BK22016941.15"
+        },
+        {
+            "reference_date": "42783.0",
+            "reference_text": [
+                {
+                    "value": "미국의사협회 정신의학저널(JAMA Psychiatry)에 실린 논문이 임신 중이거나 아기를 출산한지 얼마 안 된 아내를 둔 뉴질랜드 남성 3532명을 대상으로 한 우울증 연구내용을 담았다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "해당 논문에 따르면 남성의 2.3%는 아내의 임신 후기 꽤 심각한 우울증후군에 시달리고 있었다. 또 아기가 태어난 지 9달 지난 시점 그 비율은 4.3%로 올라갔다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1222018/%EB%82%A8%EC%84%B1%EB%8F%84-%EC%82%B0%ED%9B%84-%EC%9A%B0%EC%9A%B8%EC%A6%9D-%EA%B2%AA%EB%8A%94%EB%8B%A4/",
+            "search_query": "남성 산후우울증",
+            "terminate": false,
+            "text": "미국 의사협회 정신의학저널에 임신 중이거나 출산일이 얼마 지나지 않은 아내를 둔 뉴질랜드 남편 3,532명을 대상으로 우울증 연구를 한 논문이 실렸는데요. 이 논문에 따르면 아내의 임신 후기 상당히 심각한 우울증후군에 시달리고 있는 남편의 비율은 2.3퍼센트였고요. 아기가 태어난 지 아홉 달이 지난 후에 이 비율은 4.3퍼센트로 증가했어요.",
+            "turn_id": "BK22016941-8",
+            "utterance_id": "BK22016941.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "남편들이 우울증을 겪기도 하는군요. 제가 너무 우울하다 보니 남편 생각은 미처 못했네요.",
+            "turn_id": "BK22016941-9",
+            "utterance_id": "BK22016941.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "남편들이 임신 출산을 직접 경험하지는 않지만, 그 과정들을 아내와 함께 경험하긴 하니까요.",
+            "turn_id": "BK22016941-9",
+            "utterance_id": "BK22016941.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 맞아요. 오늘 설명해주신 내용을 참고하여 우울증 극복을 위해 노력해 볼게요. 좋은 정보 감사합니다.",
+            "turn_id": "BK22016941-10",
+            "utterance_id": "BK22016941.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "먼저 병원에 방문하여 정확한 진단을 받아보시길 권해 드려요. 하루빨리 건강 회복하시고, 아이도 건강하게 잘 자라길 바랄게요.",
+            "turn_id": "BK22016941-10",
+            "utterance_id": "BK22016941.20"
+        }
+    ]
+}

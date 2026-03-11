@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018962",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018962",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0021"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 여기 오다가 털이 곱슬곱슬하고 사람만 한 큰 개를 보고 깜짝 놀랐는데, 주인 말로는 푸들이라고 하더라고요.",
+            "turn_id": "BK22018962-1",
+            "utterance_id": "BK22018962.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아마도 스탠더드 푸들을 보셨겠군요.",
+            "turn_id": "BK22018962-1",
+            "utterance_id": "BK22018962.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스탠더드 푸들이라고요? 원래 푸들이 그렇게 몸집이 큰 견종인가요?",
+            "turn_id": "BK22018962-2",
+            "utterance_id": "BK22018962.3"
+        },
+        {
+            "reference_date": "44783.0",
+            "reference_text": [
+                {
+                    "value": "기존의 푸들은 20~30kg 사이의 큰 덩치를 자랑하는 대형견입니다.",
+                    "value_time": "44846.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "푸들의 원형인 스탠다드 푸들은 키(체고) 38cm 이상, 몸무게는 20~32kg 정도의 대형견으로 푸들 종류 중 체격이 가장 커요.",
+                    "value_time": "44846.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/130636/",
+            "search_query": "스탠다드 푸들 체격",
+            "terminate": false,
+            "text": "네, 그렇습니다. 기존에 푸들은 체중이 20에서 30킬로그램 사이가 나가며 커다란 몸집을 자랑하는 대형견입니다. 푸들의 원래 형태인 스탠더드 푸들은 체고가 38센티미터 이상에, 체중은 20에서 32킬로그램 정도 나가는 대형견이며, 푸들 종류 가운데에서 몸집이 제일 큽니다.",
+            "turn_id": "BK22018962-2",
+            "utterance_id": "BK22018962.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 원래 푸들이 대형견이었군요. 그러면 푸들의 다른 종류들로는 어떤 게 있나요?",
+            "turn_id": "BK22018962-3",
+            "utterance_id": "BK22018962.5"
+        },
+        {
+            "reference_date": "44783.0",
+            "reference_text": [
+                {
+                    "value": "미니어쳐 푸들은 키(체고)는 25~38cm 정도이며 몸무게는 5~9kg 정도의 중소형견입니다.",
+                    "value_time": "44846.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "토이 푸들은 키(체고)는 25cm 이하, 몸무게는 2~3kg 정도의 소형견입니다.",
+                    "value_time": "44846.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/130636/",
+            "search_query": "푸들 종류 크기별 구분",
+            "terminate": false,
+            "text": "미니어처 푸들과 토이 푸들이 있습니다. 미니어처 푸들은 체고가 25에서 38센티미터 정도이고, 체중은 5에서 9킬로그램 수준의 중소형견이고요. 토이 푸들은 체고가 25센티미터 이하이고, 체중이 2에서 3킬로그램 정도 나가는 소형견입니다.",
+            "turn_id": "BK22018962-3",
+            "utterance_id": "BK22018962.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 지금껏 마주쳤던 푸들은 죄다 작았는데, 토이 푸들 종이었겠군요. 푸들이라는 이름은 어떻게 유래하게 된 건가요?",
+            "turn_id": "BK22018962-4",
+            "utterance_id": "BK22018962.7"
+        },
+        {
+            "reference_date": "44783.0",
+            "reference_text": [
+                {
+                    "value": "푸들은 과거 사람을 도와 물새 사냥을 돕던 수렵견(사냥개의 일종)이었습니다.",
+                    "value_time": "44846.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "푸들이 물새를 향해 달려가 놀라게 만들어 하늘로 날아오르게 만들고, 사냥꾼이 총으로 날아 오른 물새를 쏘면 물새를 회수해 오는 역할을 했죠.",
+                    "value_time": "44846.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이때, 물속에서 첨벙거리는 모습으로 인해 독일어로 ‘물에 뛰어들어 첨벙첨벙 수영하다’라는 뜻의 ‘푸덜(Pudel)’이라는 단어에서 유래해 ‘푸들(Poodle)’이라는 이름이 갖게 되었습니다.",
+                    "value_time": "44846.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/130636/",
+            "search_query": "푸덜 유래 푸들",
+            "terminate": false,
+            "text": "옛날에 푸들은 인간이 물새를 사냥하는 것을 돕던 수렵견이었는데요. 푸들이 물새를 향해 뛰어가 물새가 놀라 하늘로 날아오르면 사냥꾼이 총으로 날아오른 물새를 쏘고, 푸들은 물새를 물어오는 역할을 했죠. 이때, 물속에서 푸들이 첨벙거리는 모습 때문에 독일어로 물에 뛰어들어 첨벙첨벙 헤엄친다는 뜻을 가진 푸덜이라는 단어에서 푸들이라는 명칭이 유래하게 되었죠.",
+            "turn_id": "BK22018962-4",
+            "utterance_id": "BK22018962.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "푸들이 원래 사냥개였다는 점이 놀랍네요. 푸들의 성격은 어떤 편인가요?",
+            "turn_id": "BK22018962-5",
+            "utterance_id": "BK22018962.9"
+        },
+        {
+            "reference_date": "44629.0",
+            "reference_text": [
+                {
+                    "value": "주인의 감정을 굉장히 많이 공유해서, 노인들에게는 남은 인생을 함께하자는 의미의 개로 많은 사랑을 받는다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "푸들은 매우 지능적이고 활기차고 사교적인 품종으로 알려져 있다.",
+                    "value_time": "44846.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%91%B8%EB%93%A4",
+            "search_query": "푸들",
+            "terminate": false,
+            "text": "푸들은 머리가 아주 좋고 활기차며 사교적인 개로 알려져 있는데요. 보호자의 감정을 아주 많이 공유해서, 노인에게는 여생을 함께하는 의미의 견종으로 인기를 얻고 있습니다.",
+            "turn_id": "BK22018962-5",
+            "utterance_id": "BK22018962.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사람과 잘 어울리는 성격이겠군요. 그렇다면 털 빠짐은 어떤 수준인가요?",
+            "turn_id": "BK22018962-6",
+            "utterance_id": "BK22018962.11"
+        },
+        {
+            "reference_date": "43788.0",
+            "reference_text": [
+                {
+                    "value": "한편 푸들은 털갈이가 없고 다른 견종보다 털빠짐이 덜해 관리에 용이하다.",
+                    "value_time": "44846.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/255695",
+            "search_query": "푸들 털빠짐",
+            "terminate": false,
+            "text": "푸들은 털갈이하지 않고, 다른 개보다 털이 덜 빠져서 관리하기가 편해요.",
+            "turn_id": "BK22018962-6",
+            "utterance_id": "BK22018962.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "털이 덜 빠진다니 아파트에서도 키울 법하겠군요. 그러면 털은 특별히 관리를 안 해줘도 되는 건가요?",
+            "turn_id": "BK22018962-7",
+            "utterance_id": "BK22018962.13"
+        },
+        {
+            "reference_date": "44629.0",
+            "reference_text": [
+                {
+                    "value": "털이 자주 엉키기 때문에 하루에 1회 이상 빗질은 필수이며, 털 빠짐이 적다.",
+                    "value_time": "44846.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "털이 빨리 자라기 때문에 미용도 자주 해주어야 한다.",
+                    "value_time": "44846.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%91%B8%EB%93%A4",
+            "search_query": "푸들 하루 1회 빗질",
+            "terminate": false,
+            "text": "그렇지는 않습니다. 털이 빈번하게 엉키기 때문에 하루에 한 번 이상 빗질을 해주셔야 합니다. 또 털이 자라는 속도가 빠르기 때문에, 미용도 자주 시켜줘야 해요.",
+            "turn_id": "BK22018962-7",
+            "utterance_id": "BK22018962.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "털이 적게 빠지는 대신 자주 엉키는 모양이군요. 그러면 털 관리를 위해 목욕은 얼마나 자주 시켜줘야 하나요?",
+            "turn_id": "BK22018962-8",
+            "utterance_id": "BK22018962.15"
+        },
+        {
+            "reference_date": "44580.0",
+            "reference_text": [
+                {
+                    "value": "털을 적절하게 유지하려면 2~3주마다 목욕을 시켜줘야 한다.",
+                    "value_time": "44856.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://yahopet.co.kr/3152",
+            "search_query": "푸들 목욕",
+            "terminate": false,
+            "text": "2주에서 3주에 한 번씩 시켜주셔야, 털이 적절하게 유지됩니다.",
+            "turn_id": "BK22018962-8",
+            "utterance_id": "BK22018962.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마지막으로 푸들을 키우면서 유의해야 할 점이 있다면 좀 알려주세요.",
+            "turn_id": "BK22018962-9",
+            "utterance_id": "BK22018962.17"
+        },
+        {
+            "reference_date": "44629.0",
+            "reference_text": [
+                {
+                    "value": "푸들은 활동적인 성향으로 산책을 많이 나가야 한다.",
+                    "value_time": "44846.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또 푸들은 주인을 굉장히 따르기 때문에 주인 외의 사람을 잘 대할 수 있는 사회성 교육이 필요하다.",
+                    "value_time": "44846.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%91%B8%EB%93%A4",
+            "search_query": "푸들 교육 산책",
+            "terminate": false,
+            "text": "푸들은 활달한 성향을 보이고 있기 때문에, 산책을 자주 나가야 합니다. 또 푸들은 보호자를 몹시 따르기 때문에, 보호자 외의 인간과 잘 어울릴 수 있도록 사회성도 교육으로 키워줘야 하고요.",
+            "turn_id": "BK22018962-9",
+            "utterance_id": "BK22018962.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어휴, 이제 커다란 푸들을 지나가다 만나도 당황하지 않겠네요. 오늘도 덕분에 유익하고 알찬 시간이었습니다. 그러면 안녕히 계세요.",
+            "turn_id": "BK22018962-10",
+            "utterance_id": "BK22018962.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 다음에 또 뵙겠습니다.",
+            "turn_id": "BK22018962-10",
+            "utterance_id": "BK22018962.20"
+        }
+    ]
+}

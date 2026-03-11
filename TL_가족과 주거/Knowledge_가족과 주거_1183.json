@@ -1,0 +1,411 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007760",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007760",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0028"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 이혼을 준비하고 있는데 혼자서 준비하려고 하니 뭐부터 해야 할지 막막하네요. 좀 도와주실 수 있나요?",
+            "turn_id": "BK22007760-1",
+            "utterance_id": "BK22007760.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최선을 다해 도와드릴게요! 제가 이혼전문 변호사라 이 분야에서는 전문가입니다. 어떤 사유로 이혼하려고 하시나요?",
+            "turn_id": "BK22007760-1",
+            "utterance_id": "BK22007760.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "남편이 외도를 하고 있다는 증거를 제가 발견했거든요. 너무 손이 떨려서 어떻게 해야할 지 모르겠어요. 상간녀도 따로 고소하고 싶은데 이혼을 먼저 하지 않아도 처벌할 수 있는 방법이 있나요?",
+            "turn_id": "BK22007760-2",
+            "utterance_id": "BK22007760.3"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "간통죄가 폐지된 후로 부정행위를 저지른 배우자와 그 상대인 상간자를 형사처벌할 방법은 사라졌다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 배우자를 상대로 한 이혼소송과는 별개로 배우자의 파트너인 상간녀, 상간남을 상대로 위자료청구소송(민사소송)을 제기할 수는 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "평온한 부부관계를 파탄나게 만들었으니 그에 대한 책임을 묻는 소송이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailysecu.com/news/articleView.html?idxno=139516",
+            "search_query": "외도 이혼",
+            "terminate": false,
+            "text": "그럼요! 간통죄가 폐지되면서 불륜을 저지른 남편과 상간녀를 형사 처벌할 수는 없지만 상간녀를 상대로 위자료를 청구할 수 있어요. 부부관계를 파탄나게 만들었으니 이에 대한 책임을 물을 수 있는거죠. 이건 남편을 상대로 한 이혼 소송과는 별개에요.",
+            "turn_id": "BK22007760-2",
+            "utterance_id": "BK22007760.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너무 다행이에요. 남편과는 이혼 소송 없이 협의 이혼으로 하고 싶은데 협의 이혼을 하게 되면 기간이 얼마나 걸릴까요?",
+            "turn_id": "BK22007760-3",
+            "utterance_id": "BK22007760.5"
+        },
+        {
+            "reference_date": "2022-09-07",
+            "reference_text": [
+                {
+                    "value": "협의 이혼은 별다른 쟁점이 없는 한 가장 신속하고 간편하게 진행될 수 있는 절차이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자녀가 없거나 성년 자녀가 있는 경우에는 협의이혼신청서 접수 후 숙려기간 1개월이 지난 뒤, 미성년 자녀가 있는 경우에는 신청서 접수 후 3개월이 지나면 이혼이 성립되나 자녀의 양육과 재산분할, 위자료 문제에서 다툼이 있거나 상대방이 이혼을 원치 않는다면 소송을 통한 판결을 받아야 한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.job-post.co.kr/news/articleView.html?idxno=60592",
+            "search_query": "협의 이혼",
+            "terminate": false,
+            "text": "협의 이혼을 하게 되면 별다른 문제가 없는 한 가장 빨리 이혼이 성립될 수 있어요. 만약 아이가 없거나 성인이라면 신청서 접수 후 숙려기간 1개월이 지나면 이혼이 성립되고, 아이가 미성년자인 경우라면 신청서 접수 후 3개월이 지나면 성립되죠. 하지만 아이의 양육권에 관한 문제나 재산분할, 위자료에서 다툼이 생기거나 남편분이 이혼을 원치 않는다면 소송을 통해 판결을 받아야 해요.",
+            "turn_id": "BK22007760-3",
+            "utterance_id": "BK22007760.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 소송을 해야 할 수도 있겠군요. 소송은 시간이 많이 걸리겠죠? 협의 이혼이 아니라면 소송 밖에 방법이 없나요?",
+            "turn_id": "BK22007760-4",
+            "utterance_id": "BK22007760.7"
+        },
+        {
+            "reference_date": "2022-08-26",
+            "reference_text": [
+                {
+                    "value": "가장 확실한 방법이지만 다툴 부분이 많을 경우 오랜 시간이 소요돼 정신적으로도 육체적으로도 더 많은 에너지와 비용을 소모할 수밖에 없다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만약 이혼의 의사가 합치되고 일부 합의가 되지 않는 부분이 있다면 조정이혼을 고려해볼 수 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "조정이혼은 공개재판이 아닌 법원 안에서 비공개 조정을 통해 이혼을 진행하는 이혼절차다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "조정이혼을 신청하면 가정법원에서는 부부의 의견을 충분히 들은 뒤 여러가지 사정을 종합적으로 수렴하여 분쟁요소를 조정한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailysecu.com/news/articleView.html?idxno=139307",
+            "search_query": "이혼 소송",
+            "terminate": false,
+            "text": "소송은 가장 확실한 방법이긴 하지만 분쟁 요소가 많다면 시간이 오래 걸리기 때문에 육체적, 정신적으로 정말 힘들고 비용도 많이 들어요. 그래서 두 분간 이혼의사가 합의 되고 일부 합의되지 않은 다른 부분이 있는 거라면 조정이혼을 고려해보는 것이 좋아요. 조정이혼은 소송처럼 공개재판을 하는 것이 아니라 법원 안에서 비공개 조정을 통해 이혼하는 방법이거든요. 신청 하면 가정 법원에서 두 분의 의견을 충분히 듣고 주변 사정을 종합적으로 고려해서 다툼이 있는 부분을 조정해 줄 거에요.",
+            "turn_id": "BK22007760-4",
+            "utterance_id": "BK22007760.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 저는 다른 것은 몰라도 양육권만큼은 절대 포기할 수 없어요. 불륜을 저지른 남편에게 아이를 맡길 수는 없으니 제가 양육권을 가져오는 건 당연히 가능하겠죠?",
+            "turn_id": "BK22007760-5",
+            "utterance_id": "BK22007760.9"
+        },
+        {
+            "reference_date": "2022-09-01",
+            "reference_text": [
+                {
+                    "value": "재판부는 양육권자를 지정할 때 자녀의 복리를 가장 우선적으로 고려하기 때문에 가정폭력 등 특별한 사유가 아니라면 유책배우자라는 이유만으로 양육권자 지정에서 배제되지 않는다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 양육권을 갖고 싶다면 가사조사 및 소송 단계에서 그 동안 자녀를 키울 때 자신이 얼마나 많이 기여했으며 이를 통해 자녀와의 유대감이 얼마나 돈독하게 형성되었는가 하는 점을 집중적으로 피력해야 한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 이혼 후 자녀를 양육하는 데 드는 비용을 어떻게 충당하고 누가 보조양육을 도와줄 것인지미래의 양육 계획을 꼼꼼하게 세워 재판부에 전달해야 한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://kids.donga.com/?ptype=article&no=20220901133611694307",
+            "search_query": "양육권",
+            "terminate": false,
+            "text": "재판부가 양육권자를 정할 때는 자녀의 복리를 가장 우선적으로 고려해요. 그래서 가정 폭력 같은 특별 사유가 없다면 단순 유책 배우자라는 이유만으로는 양육권자 지정에서 배제되지 않죠. 그래서 양육권을 가져오려면 소송 단계나 가정 조사단계에서 내가 얼마나 아이를 키우는데 기여했는지, 얼마 만큼의 유대감을 가지고 있는 지를 집중적으로 어필해야 하죠. 또한 이혼 후에 어떻게 양육비를 충당하고 누가 아이를 같이 돌봐줄 수 있는 지에 대한 계획을 꼼꼼하게 세워서 재판부에 전달해줘야 해요.",
+            "turn_id": "BK22007760-5",
+            "utterance_id": "BK22007760.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "당연히 아이를 데리고 올 수 있을 줄 알았는데 유책배우자에게도 기회를 준다니 좀 충격적이에요. 제가 양육권을 가져오면 그 사람한테 양육비는 당연히 받을 수 있는 거죠? 지금 직장을 그만 두고 쉬고 있는 상태라 너무 걱정되네요.",
+            "turn_id": "BK22007760-6",
+            "utterance_id": "BK22007760.11"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "이혼을 했든 안했든 부모는 미성년 자녀를 양육할 책임이 있고 양육비도 부모가 공동으로 부담하여야 한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 이혼 이후 아이를 양육하지 않는 비양육자는 자신의 소득이 아무리 적다해도 전배우자인 양육자에게 적정한 양육비를 지급할 의무가 있다",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자녀에 대한 양육비 지급의무는 자녀가 만 19세가 될 때까지 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mediafine.co.kr/news/articleView.html?idxno=20211",
+            "search_query": "양육비",
+            "terminate": false,
+            "text": "이혼을 했는지 여부와는 관계 없이 부모라면 미성년자인 아이를 양육할 책임이 있어요, 물론 양육비도 공동 부담을 해야 하죠. 그래서 이혼 후에 양육권을 가져오게 되면 전 배우자는 아무리 소득이 적다고 해도 아이가 만 19세가 될 때까지 적정한 양육비를 지급할 의무가 있어요.",
+            "turn_id": "BK22007760-6",
+            "utterance_id": "BK22007760.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다행이에요. 제가 양육권을 가져오면 남편에게 우리 아이는 절대 보여주지 않을 거에요. 그래도 되죠?",
+            "turn_id": "BK22007760-7",
+            "utterance_id": "BK22007760.13"
+        },
+        {
+            "reference_date": "2022-09-03",
+            "reference_text": [
+                {
+                    "value": "이혼을 하더라도, 부모와 자녀까지 이별해야 하는 건 아니다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우리 민법은 비양육권자인 부모와 자녀가 만날 수 있도록 한 권리인 '면접 교섭권'을 인정하고 있다(제837조의2 제1항).",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "법원은 자녀가 부모를 만나길 원하지 않는 경우 등 자녀의 복리를 고려해, 당사자의 청구 또는 직권에 의해 그 행사를 제한하거나 배제할 수 있다(민법 제837조의2 제3항).",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://lawtalknews.co.kr/article/XQ1IS4TA5JWJ",
+            "search_query": "면접 교섭권",
+            "terminate": false,
+            "text": "그건 어려워요. 이혼을 하더라도 부모와 자식까지 멀어지는 건 아니거든요. 민법에서는 비양육권자인 부모가 아이와 만날 수 있도록 해주는 면접 교섭권을 인정하고 있어요. 하지만 아이가 그 분을 만나길 원하지 않는다면 자녀의 복리를 고려해서 면접교섭권을 제한하거나 배제할 수 있죠. 물론 이는 자녀의 청구가 있거나 법원의 직권에 의해서만 가능해요.",
+            "turn_id": "BK22007760-7",
+            "utterance_id": "BK22007760.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 제게 유리한 부분이 좀 더 많을 줄 알았는데 꼭 그런 것만도 아니었네요. 그럼 재산분할은 제대로 받을 수 있는 거죠?",
+            "turn_id": "BK22007760-8",
+            "utterance_id": "BK22007760.15"
+        },
+        {
+            "reference_date": "2022-09-03",
+            "reference_text": [
+                {
+                    "value": "이혼 재산분할의 대상이 되는 것으로는 예금과 부동산, 자동차, 퇴직금, 연금 등이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "재산 뿐만 아니라 가정을 위해 발생한 채무도 포함되는데, 예를 들어 같이 살 집을 마련하기 위해 대출받은 돈 등이 재산분할의 대상이 될 수 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "재산분할의 비율은 기여도에 따라 달라진다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "재산을 형성하는데 얼마만큼의 기여를 했느냐가 중요한 포인트다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 기여도는 반드시 직접적인 소득만 포함되는 것은 아니라, 경제활동을 하지 않은 전업주부라 하더라도 가사 노동, 육아 참여도 등을 기여도로 인정받을 수 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=107569",
+            "search_query": "재산분할",
+            "terminate": false,
+            "text": "재산 분할은 예금이나 부동산, 자동차등의 재산 뿐만 아니라 같이 사는 집을 마련하기 위해 받은 대출금과 같은 가정에서 발생한 채무도 포함 돼요. 재산 분할은 재산을 형성하는데 얼마 만큼의 기여를 했는 지에 따른 기여도에 따라 비율이 달라지는데 이 기여도는 직접적인 소득만 포함되는 것이 아니에요. 별도로 경제 활동을 하지 않고 집에서 집안일을 했거나 아이를 돌보는 등 전업주부로 살았어도 기여도를 인정받을 수 있죠.",
+            "turn_id": "BK22007760-8",
+            "utterance_id": "BK22007760.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다행이군요. 재산분할 말고도 위자료도 받아야 할 것 같은데 최대한 많이 받을 수 있으려면 어떻게 해야 할까요? 아직 남편은 모르는 상태에요.",
+            "turn_id": "BK22007760-9",
+            "utterance_id": "BK22007760.17"
+        },
+        {
+            "reference_date": "2022-08-22",
+            "reference_text": [
+                {
+                    "value": "위자료 액수를 높일 수 있는 요소로는 기간, 태도, 기혼 여부를 미리 알았는지가 중요하다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이를 다각도로 입증할 수 있어야 위자료 액수를 높일 수 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 증거를 모을 경우 합법적인 경로로 습득하는게 좋다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "불법으로 이를 모을 경우 모으는 과정에서 벌어진 범법 행위에 대해 책임을 져야 하기 때문이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이렇게 되면 위자료를 아무리 높게 받는다고 하더라도 형사처벌을 받을 위기에 처하는 만큼 오히려 난감한 상황이 될 수 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jeonmin.co.kr/news/articleView.html?idxno=361958",
+            "search_query": "위자료",
+            "terminate": false,
+            "text": "위자료 받는 액수를 높이려면 불륜 기간이나 상대방의 태도, 그리고 상간녀가 기혼여부를 미리 알았는지가 중요해요. 이를 입증할 수 있어야만 위자료를 높일 수 있기 때문에 남편이 모르는 상태라면 증거를 모아두는 것이 좋아요. 하지만 절대 불법적인 방법으로 습득하면 안되요. 불법으로 얻으면 위자료를 아무리 높게 받는다고 하더라도 자료를 얻는 동안 벌어진 범법행위에 대해 책임을 지고, 형사처벌을 받을 수 있는 상황에 처하기 때문에 추천하지 않아요.",
+            "turn_id": "BK22007760-9",
+            "utterance_id": "BK22007760.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 지금부터 몰래 증거를 모아볼게요. 오늘 상담 정말 감사드려요. 제가 좀 더 생각해보고 준비가 되면 바로 연락 드릴게요.",
+            "turn_id": "BK22007760-10",
+            "utterance_id": "BK22007760.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네! 무엇보다 너무 스트레스 받지 않도록 주의하세요. 추후 증거자료가 다 모이고 마음의 준비가 끝나면 다시 뵐게요.",
+            "turn_id": "BK22007760-10",
+            "utterance_id": "BK22007760.20"
+        }
+    ]
+}

@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015164",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015164",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "출산일이 곧 다가오고 있어서 설레기도 하고 걱정되기도 해. 근데, 준비하다 보니 궁금한 점이 몇 가지 있어서 너에게 물어볼게. 출산 후 언제까지를 신생아라고 부르는 거야?",
+            "turn_id": "BK22015164-1",
+            "utterance_id": "BK22015164.1"
+        },
+        {
+            "reference_date": "2015-12-08",
+            "reference_text": [
+                {
+                    "value": "탄생시기부터 생후 4주까지를 신생아기라고 표현한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한 달 정도밖에 되지 않는 신생아기를 이렇게 따로 분류하는 이유는 아기가 매우 혼란스러운 시기이기 때문이다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=35974",
+            "search_query": "신생아기",
+            "terminate": false,
+            "text": "이제 곧 출산이라 여러 가지 준비 중이구나. 신생아기는 생후 4주까지를 이야기하는 거야. 신생아기를 이렇게 분류하는 이유는 아기에게 매우 혼란스러운 시기이기 때문이야.",
+            "turn_id": "BK22015164-1",
+            "utterance_id": "BK22015164.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 신생아기에는 정말 많은 일들이 있을 것 같아. 그러면, 아기가 있기 적합한 온도와 습도는 어느 정도야?",
+            "turn_id": "BK22015164-2",
+            "utterance_id": "BK22015164.3"
+        },
+        {
+            "reference_date": "2015-12-08",
+            "reference_text": [
+                {
+                    "value": "아기는 생각보다 낮은 온도를 좋아하는데 온도는 20~22도, 습도는 50~60%가 신생아에게 최적의 환경이다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=35974",
+            "search_query": "신생아에 알맞는 온도, 습도",
+            "terminate": false,
+            "text": "온도는 20~22도, 습도는 50~60%인 상태가 신생아에게 좋은 환경이야.",
+            "turn_id": "BK22015164-2",
+            "utterance_id": "BK22015164.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신생아에게 알맞은 온도는 생각보다 낮구나. 그리고, 목욕을 시키는 것도 걱정되는데, 얼마에 한 번씩 시키는 것이 좋아?",
+            "turn_id": "BK22015164-3",
+            "utterance_id": "BK22015164.5"
+        },
+        {
+            "reference_date": "2016-08-02",
+            "reference_text": [
+                {
+                    "value": "목욕은 아기의 몸과 마음을 안정시키고 혈액순환을 도와주는 것으로, 1일 1회 5~10분 정도가 적당하다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.rapportian.com/news/articleView.html?idxno=27988",
+            "search_query": "신생아 목욕",
+            "terminate": false,
+            "text": "목욕을 시키는 것이 조심스럽겠지만, 목욕은 아기의 몸과 마음을 안정시키고 혈액순환을 도와주는 역할을 해. 목욕은 하루에 한 번, 5~10분 정도로 하는 것이 좋아.",
+            "turn_id": "BK22015164-3",
+            "utterance_id": "BK22015164.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "짧게 하루에 한 번 목욕을 시키면 되는구나. 혹시 분유를 먹여야 될지도 몰라서 그러는데, 아기 자세를 어떻게 하고 수유해야 하는지 알려 줄래?",
+            "turn_id": "BK22015164-4",
+            "utterance_id": "BK22015164.7"
+        },
+        {
+            "reference_date": "2016-08-02",
+            "reference_text": [
+                {
+                    "value": "조제유를 먹일 때에는 기도에 흡인되지 않도록 아기의 상체를 약간 세운 상태로 안고, 팔 안쪽부위로 아기의 머리를 받쳐준다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수유가 끝나면 반드시 트림을 시켜주고, 30분~60분 정도 고개를 옆으로 돌려 눕혀주는 것이 안전하다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.rapportian.com/news/articleView.html?idxno=27988",
+            "search_query": "신생아 분유 수유",
+            "terminate": false,
+            "text": "분유를 먹일 때 아기의 자세는 분유가 기도에 들어가지 않도록 약간 상체를 세워서 안고, 팔 안쪽으로 아기 머리를 받쳐주면 돼. 수유가 끝나면 꼭 트림을 시키고, 수유 후에는 30~60분 정도는 고개를 옆으로 돌려 누워있도록 하는 것이 안전해.",
+            "turn_id": "BK22015164-4",
+            "utterance_id": "BK22015164.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "분유가 역류되지 않게 하는 것이 제일 중요 하구나. 그리고, 신생아는 배앓이를 하기도 한다는데 왜 그런 거야?",
+            "turn_id": "BK22015164-5",
+            "utterance_id": "BK22015164.9"
+        },
+        {
+            "reference_date": "2022-01-27",
+            "reference_text": [
+                {
+                    "value": "‘영아산통’이라고도 불리는 배앓이는 생후 100일 이전의 신생아에게 일시적으로 나타나는 증상으로 아기가 밤에 잠을 자다가 깨어나 심하게 울고 보챌 때 의심해 볼 수 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 증상은 아직 위와 장이 성숙하지 못한 상태의 아이의 상태에서 유단백 성분이 복부 팽만감이나 통증을 일으키기도 하고, 배가 너무 고프거나 부를 때 또 변비가 심할 때, 스트레스를 받았을 때 등 다양한 원인으로 인해 발생한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=156780",
+            "search_query": "영아산통 원인",
+            "terminate": false,
+            "text": "생후 100일 이전의 아기에게 나타나는 증상인 배앓이는 영아산통이라고 부르기도 하는데, 아기가 밤에 자다가 일어나서 심하게 울고 보챌 때 의심해 볼 수 있어. 영아산통이 나타나는 이유는 위와 장이 성숙하지 못한 상태에서 유단백 성분이 복부팽만이나 통증을 일으킨 경우나, 배가 너무 고프거나 부를 때, 심한 변비일 때, 스트레스를 받았을 때 같은 경우야.",
+            "turn_id": "BK22015164-5",
+            "utterance_id": "BK22015164.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "배앓이를 한다면 아기가 너무 힘들 것 같아. 그렇게 영아산통이 나타나면 어떻게 해주는 것이 좋아?",
+            "turn_id": "BK22015164-6",
+            "utterance_id": "BK22015164.11"
+        },
+        {
+            "reference_date": "2022-01-27",
+            "reference_text": [
+                {
+                    "value": "근본적으로 아이들이 배앓이로 고통 받는 이유는 장이나 위의 미성숙한 발달로 인 해 발생하는 것이기 때문에 해당 부분을 따뜻하게 마사지 해주면 도움이 될 수 있으며 마지막으로 부드럽고 푹신한 포대기나 담요로 아기를 감싸주는 것이 좋다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=156780",
+            "search_query": "신생아 배앓이 줄이는 방법",
+            "terminate": false,
+            "text": "장이나 위가 있는 부분을 따뜻하게 마사지해 주고, 부드럽고 푹신한 담요나 포대기로 아기를 감싸주면 도움이 돼.",
+            "turn_id": "BK22015164-6",
+            "utterance_id": "BK22015164.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "배앓이가 나타나지 않았으면 좋겠지만, 혹시 증세가 나타난다면 그렇게 해 줄게. 그리고, 아기의 변을 보면 건강 상태를 알 수 있다던데 어떻게 판단하면 돼?",
+            "turn_id": "BK22015164-7",
+            "utterance_id": "BK22015164.13"
+        },
+        {
+            "reference_date": "2022-03-17",
+            "reference_text": [
+                {
+                    "value": "아기들은 건강 상태에 따라 대변의 모양과 색이 달라진다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "변의 색깔은 먹은 음식과 장운동, 철분의 농도 그리고 담즙 분비 정도에 따라 달라진다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아기의 변이 검은색이나 회색, 적색이라면 반드시 바로 병원을 찾아야 하고 녹색을 띈다면 탈이 났다는 뜻일 수 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=158962",
+            "search_query": "신생아 변",
+            "terminate": false,
+            "text": "맞아, 아기의 변 상태를 보면 건강 상태를 알 수 있어. 색깔을 보고 먹은 음식, 장운동, 철분의 농도, 담즙 분비 상태까지 파악할 수 있거든. 혹시 아기 변이 검은색, 회색, 적색인 경우에는 바로 병원으로 가야 하고, 녹색일 경우에는 뭔가 문제가 있다는 뜻이야.",
+            "turn_id": "BK22015164-7",
+            "utterance_id": "BK22015164.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아기 변색을 보고도 건강 상태를 파악할 수 있구나. 태어난 지 얼마 안 된 친구 아기가 하얗게 각질이 벗겨지던데, 그건 왜 그런 거야?",
+            "turn_id": "BK22015164-8",
+            "utterance_id": "BK22015164.15"
+        },
+        {
+            "reference_date": "2021-04-16",
+            "reference_text": [
+                {
+                    "value": "신생아는 엄마 배 속에 있을 때 양수 안에 있었기 때문에 태어난 후 수일 내에 피부가 각질처럼 하얗게 일어날 수 있습니다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자연스러운 현상이기 때문에 심하지 않다면 그냥 둬도 됩니다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "증상이 심하면 베이비오일이나 로션 등을 바르는 게 좋아요.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/culture-life/culture_general/2021/04/16/T7ESGBU2MBBLPMVOV6PULQKS6Q/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "search_query": "신생아 각질",
+            "terminate": false,
+            "text": "아기는 엄마 배 속에서는 양수 안에 있었기 때문에 출생 후 각질처럼 피부가 일어나기도 해. 자연스러운 현상이니 그냥 두면 돼. 혹시 각질이 심하게 벗겨지는 것 같으면 베이비오일이나 로션을 발라주면 도움이 돼.",
+            "turn_id": "BK22015164-8",
+            "utterance_id": "BK22015164.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "각질이 벗겨지는 것은 자연스러운 현상이구나. 고마워, 신생아에 대해 많은 것을 알게 되었어.",
+            "turn_id": "BK22015164-9",
+            "utterance_id": "BK22015164.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고맙긴, 궁금한 건 언제든지 물어봐.",
+            "turn_id": "BK22015164-9",
+            "utterance_id": "BK22015164.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 우리는 다음에 보자.",
+            "turn_id": "BK22015164-10",
+            "utterance_id": "BK22015164.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "출산 준비 잘하고, 안녕.",
+            "turn_id": "BK22015164-10",
+            "utterance_id": "BK22015164.20"
+        }
+    ]
+}

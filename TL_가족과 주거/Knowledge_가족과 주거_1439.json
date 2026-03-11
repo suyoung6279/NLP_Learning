@@ -1,0 +1,395 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009324",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009324",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0031"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 아이가 어린이집에서 올바른 칫솔법을 배워 왔어요. 칫솔질을 하는 거에도 방법이 있다는 거 알고 계시나요?",
+            "turn_id": "BK22009324-1",
+            "utterance_id": "BK22009324.1"
+        },
+        {
+            "reference_date": "2022-09-22",
+            "reference_text": [
+                {
+                    "value": "치아를 오래 건강하게 유지하려면 규칙적으로 이를 닦는 것만큼 올바른 방법으로 닦는 것도 중요하다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "잘못된 습관을 갖고 있으면 매일 양치를 해도 효과가 떨어질 수 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/09/21/2022092102322.html",
+            "search_query": "칫솔질 올바른 방법",
+            "terminate": false,
+            "text": "네, 치아를 올바른 방법으로 잘 닦아주면 건강하게 오랫동안 유지할 수 있어요. 하지만 잘못된 방법으로 양치하면 오히려 치아 건강에 안 좋을 수도 있어요.",
+            "turn_id": "BK22009324-1",
+            "utterance_id": "BK22009324.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 그렇다고 하더라고요. 아이가 배웠다고는 하는데, 잘 기억을 못하는 것 같아요. 제가 다시 배워서 앞으로는 바른 칫솔법을 알려주려 하는데, 올바른 양치법은 어떻게 하는 건지 알려주실 수 있나요?",
+            "turn_id": "BK22009324-2",
+            "utterance_id": "BK22009324.3"
+        },
+        {
+            "reference_date": "2022-09-22",
+            "reference_text": [
+                {
+                    "value": "치아 건강을 위해서는 칫솔질 후 입을 잘 헹궈야 한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "귀찮거나 바쁘다는 이유로 입을 충분히 헹구지 않으면 치아에 치약 속 ‘계면활성제’가 남을 수 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/09/21/2022092102322.html",
+            "search_query": "치아 건강 칫솔질",
+            "terminate": false,
+            "text": "네, 치아를 건강하게 유지하기 위해서는 양치 후 입을 잘 헹구는 게 중요해요. 깨끗하게 충분히 헹구지 않으면 치약 속에 들어있는 계면활성제가 치아에 남아있을 수 있거든요.",
+            "turn_id": "BK22009324-2",
+            "utterance_id": "BK22009324.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "계면활성제요? 계면활성제가 뭐길래 치아에 남아있으면 안 된다는 건가요?",
+            "turn_id": "BK22009324-3",
+            "utterance_id": "BK22009324.5"
+        },
+        {
+            "reference_date": "2022-09-22",
+            "reference_text": [
+                {
+                    "value": "치약에 기본 성분으로 들어가는 계면활성제는 치아에 묻은 기름기 성분 이물질(유지성 유기물)을 제거하는 역할을 한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "계면활성제가 입안에 오래 남아 있을 경우 치아 착색이 발생하거나 입 안이 건조해질 가능성도 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/09/21/2022092102322.html",
+            "search_query": "치약 계면활성제",
+            "terminate": false,
+            "text": "계면활성제는 치약의 기본 성분이에요. 치아에 묻은 기름기 성분의 이물질을 제거하는 역할을 하는데, 이 계면활성제가 치아에 계속 남아있게 되면 치아 착색이 생기거나 입 안이 건조해질 수 있어요.",
+            "turn_id": "BK22009324-3",
+            "utterance_id": "BK22009324.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 깨끗하게 문지르는 것뿐만 아니라 헹구는 것도 제가 직접 도와줘야겠네요. 그럼 깨끗하게 제거하려면 어떻게 헹궈야 좋은가요?",
+            "turn_id": "BK22009324-4",
+            "utterance_id": "BK22009324.7"
+        },
+        {
+            "reference_date": "2022-09-22",
+            "reference_text": [
+                {
+                    "value": "치약에 들어간 계면활성제와 여러 첨가제를 제거하려면 5~6회 정도 헹구는 게 좋다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/09/21/2022092102322.html",
+            "search_query": "치약 계면활성제 여러 첨가제",
+            "terminate": false,
+            "text": "치약 안에 들어있는 계면활성제와 여러 첨가제를 깨끗하게 씻어내려면 5회에서 6회 정도 헹구는 게 좋아요.",
+            "turn_id": "BK22009324-4",
+            "utterance_id": "BK22009324.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그리고 저는 아이 양치질시킬 때 칫솔에 치약을 짠 뒤 물을 묻혀 닦거든요. 이런 행동이 좋지 않다고 하던데, 왜 그런 거죠?",
+            "turn_id": "BK22009324-5",
+            "utterance_id": "BK22009324.9"
+        },
+        {
+            "reference_date": "2022-09-22",
+            "reference_text": [
+                {
+                    "value": "치약을 짠 뒤 물을 묻혀 닦는 사람이 많다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 이 같은 행동은 치약의 세정력을 떨어뜨릴 수 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/09/21/2022092102322.html",
+            "search_query": "치약 물을 묻혀 닦으면",
+            "terminate": false,
+            "text": "네, 치약을 짠 뒤 물을 묻혀 닦게 되면 치약의 세정력이 떨어질 수 있어요.",
+            "turn_id": "BK22009324-5",
+            "utterance_id": "BK22009324.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "물을 묻힌다고 치약의 세정력이 왜 떨어지죠?",
+            "turn_id": "BK22009324-6",
+            "utterance_id": "BK22009324.11"
+        },
+        {
+            "reference_date": "2022-09-22",
+            "reference_text": [
+                {
+                    "value": "치약에 물이 닿으면 치약의 핵심 성분인 연마제가 희석돼 농도가 낮아지기 때문이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/09/21/2022092102322.html",
+            "search_query": "치약 물이 닿으면 연마제 희석",
+            "terminate": false,
+            "text": "치약의 핵심 성분은 연마제라는 성분이에요. 이 성분에 물이 닿으면 희석이 되어서 농도가 낮아지게 되거든요.",
+            "turn_id": "BK22009324-6",
+            "utterance_id": "BK22009324.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 그런데 연마제라는 성분은 어떤 역할을 하기에 희석이 되면 안 된다고 하는 건가요?",
+            "turn_id": "BK22009324-7",
+            "utterance_id": "BK22009324.13"
+        },
+        {
+            "reference_date": "2022-09-22",
+            "reference_text": [
+                {
+                    "value": "연마제는 치아에 붙어 있는 충치 유발 세균과 음식물 찌꺼기가 침착된 치석 등을 제거해 세척 효과를 높여준다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "치아 표면인 법랑질을 소량 마모시켜 치아 광택을 유지하는 것도 연마제의 역할 중 하나다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/09/21/2022092102322.html",
+            "search_query": "연마제 역할",
+            "terminate": false,
+            "text": "네, 연마제는 충치를 발생시키는 세균과 음식물 찌꺼기가 침착된 치석 등을 제거해서 세척 효과를 높여주고 치아 표면의 법랑질을 살짝 마모시켜 치아에서 광이 나게 해주기도 해요.",
+            "turn_id": "BK22009324-7",
+            "utterance_id": "BK22009324.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 앞으로 아이 양치시킬 때 치약에 물을 묻혀 닦는 버릇을 고쳐야겠네요. 참, 그리고 저는 좀 단단한 칫솔로 닦는 걸 좋아해요. 그래서 아이도 칫솔은 좀 단단한 걸 쓰는 편인데 이런 습관은 어떤가요?",
+            "turn_id": "BK22009324-8",
+            "utterance_id": "BK22009324.15"
+        },
+        {
+            "reference_date": "2022-09-22",
+            "reference_text": [
+                {
+                    "value": "치아 건강을 위해서는 뻣뻣한 칫솔로 치아를 강하게 닦는 행동 역시 삼가야 한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "간혹 개운한 느낌을 받기 위해 칫솔모가 뻣뻣한 칫솔로 강하게 문지르기도 하는데, 이 같은 방법으로 양치하면 치아와 잇몸을 효과적으로 닦을 수 없으며 오히려 치아나 치아와 잇몸 사이가 마모될 수 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/09/21/2022092102322.html",
+            "search_query": "치아 건강 뻣뻣한 칫소",
+            "terminate": false,
+            "text": "음, 뻣뻣한 칫솔로 치아를 강하게 닦는 것도 좋지 않아요. 개운한 느낌이 들 수는 있겠지만 이 같은 방법으로 양치하면 치아와 잇몸을 깨끗하게 닦을 수 없어요. 오히려 치아나 치아의 잇몸 사이가 닳을 수 있죠.",
+            "turn_id": "BK22009324-8",
+            "utterance_id": "BK22009324.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "칫솔로 양치한다고 치아가 닳는다는 말인가요? 단단한 치아가요?",
+            "turn_id": "BK22009324-9",
+            "utterance_id": "BK22009324.17"
+        },
+        {
+            "reference_date": "2022-09-22",
+            "reference_text": [
+                {
+                    "value": "치아 표면은 단단한 법랑질로 이뤄져 있고 안쪽은 부드러운 상아질, 내부 신경조직으로 구성됐다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "법랑질은 외부자극으로부터 상아질과 신경조직을 보호하는데, 강한 칫솔질로 인해 이 부분이 깎여나가면 상아질이 노출돼 외부자극이 신경조직으로 쉽게 전달된다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "찬물을 마신 후, 또는 별다른 원인 없이 치아가 자주 시리다면 이미 마모된 상태일 수도 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/09/21/2022092102322.html",
+            "search_query": "치아 법랑질 상아질 내부 신경조직",
+            "terminate": false,
+            "text": "네, 맞아요. 치아의 표면은 단단한 법랑질로 이루어져 있죠. 이 법랑질이 안쪽의 부드러운 상아질과 내부 신경조직을 감싸고 있는데 뻣뻣한 칫솔로 칫솔질을 세게 한다면 법랑질이 깎여나가게 되고, 상아질이 노출돼 외부 자극이 신경조직으로 쉽게 전달돼요. 이러한 상태가 되면 찬물을 마실 때 치아가 시리거나 하는 통증을 느낄 수 있어요.",
+            "turn_id": "BK22009324-9",
+            "utterance_id": "BK22009324.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 제가 여러모로 양치하는 습관이 잘못되어 있었네요. 일단 아이 칫솔부터 부드러운 모로 바꿔야겠어요. 혹시 칫솔을 고르는 방법도 따로 있나요?",
+            "turn_id": "BK22009324-10",
+            "utterance_id": "BK22009324.19"
+        },
+        {
+            "reference_date": "2022-09-22",
+            "reference_text": [
+                {
+                    "value": "이 같은 문제를 막으려면 부드러운 칫솔을 사용하는 것이 좋다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "끝이 뾰족한 미세모를 선택하는 것도 방법이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "칫솔 머리 크기는 치아 두 개를 넘기지 않는 정도가 적당하다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/09/21/2022092102322.html",
+            "search_query": "부드러운 칫솔 끝이 뾰족한 미세모",
+            "terminate": false,
+            "text": "네, 부드러운 칫솔이나 끝이 뾰족한 미세모를 선택하는 게 좋고 칫솔 머리 크기는 치아 두 개를 넘기지 않는 정도가 적당해요.",
+            "turn_id": "BK22009324-10",
+            "utterance_id": "BK22009324.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 당장 칫솔을 새로 구입해서 오늘부터라도 올바른 방법으로 아이에게 양치질하도록 알려줘야겠어요. 좋은 정보 감사드려요.",
+            "turn_id": "BK22009324-11",
+            "utterance_id": "BK22009324.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 도움이 되셨다니 정말 다행이네요. 또 궁금한 점 있으면 언제든지 물어보세요.",
+            "turn_id": "BK22009324-11",
+            "utterance_id": "BK22009324.22"
+        }
+    ]
+}

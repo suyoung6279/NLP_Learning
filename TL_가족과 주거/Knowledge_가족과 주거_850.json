@@ -1,0 +1,347 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002949",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002949",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 이번에 강아지를 입양하려고 하는데 가장 마음에 드는 강아지가 비숑 프리제더라고요. 비숑이 어느 나라에서 온 강아지인가요? 그리고 어떤 특징이 있죠?",
+            "turn_id": "BK22002949-1",
+            "utterance_id": "BK22002949.1"
+        },
+        {
+            "reference_date": "2022-05-17",
+            "reference_text": [
+                {
+                    "value": "주로 흰색의 곱슬거리는 털을 가진 프랑스와 벨기에 그리고 스위스 원산의 개로서, 곱슬한 털이 자라면서 얼굴이 동그란 형태가 되는 것이 특징이다.",
+                    "value_time": "2022-07-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "솜사탕처럼 생긴 곱슬거리는 털과 귀여운 외모 속에는 근육질 몸이 있어 아주 건강한 편이다.",
+                    "value_time": "2022-07-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B9%84%EC%88%91_%ED%94%84%EB%A6%AC%EC%A0%9C",
+            "search_query": "비숑 프리제",
+            "terminate": false,
+            "text": "비숑 프리제는 프랑스와 벨기에, 스위스에서 온 강아지예요. 대체로 솜사탕처럼 곱슬거리는 흰색 털을 가지고 있는데, 이 털이 자라면서 얼굴이 동그란 모양이 되는 게 특징이랍니다. 정말 귀여운 외모이지만, 몸은 사실 건강한 근육질이라는 반전 매력도 가지고 있죠.",
+            "turn_id": "BK22002949-1",
+            "utterance_id": "BK22002949.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "보기만 해도 정말 귀여운 강아지더라고요. 비숑이라는 어감이 프랑스어 같은 느낌이 들긴 하였는데 정말 프랑스에서 온 강아지가 맞군요! 프랑스어로 비숑이라는 단어가 어떤 뜻을 가진 말이죠?",
+            "turn_id": "BK22002949-2",
+            "utterance_id": "BK22002949.3"
+        },
+        {
+            "reference_date": "2022-05-17",
+            "reference_text": [
+                {
+                    "value": "중세기 불어로 비숑(프랑스어: bichon)은 \"작고 긴 털을 가진 개\"를 의미한다.",
+                    "value_time": "2022-07-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B9%84%EC%88%91_%ED%94%84%EB%A6%AC%EC%A0%9C",
+            "search_query": "비숑 프리제 의미",
+            "terminate": false,
+            "text": "비숑은 작고 긴 털을 가진 개를 의미하는 중세의 프랑스어예요. 외모와 딱 어울리는 이름이죠?",
+            "turn_id": "BK22002949-2",
+            "utterance_id": "BK22002949.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 의미를 가진 프랑스어였군요. 제가 예전에 다른 강아지를 한번 키워봤는데 성격이 되게 활발하더라고요. 비숑은 기본적으로 어떤 성격을 가진 견종이죠?",
+            "turn_id": "BK22002949-3",
+            "utterance_id": "BK22002949.5"
+        },
+        {
+            "reference_date": "2022-05-17",
+            "reference_text": [
+                {
+                    "value": "견종의 성격은 독립심이 강하며 세심하고 활발하다고 알려져있으나, 모든 강아지가 그러하듯 개별적으로 다양한 성격을 가진 것으로 보인다.",
+                    "value_time": "2022-07-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B9%84%EC%88%91_%ED%94%84%EB%A6%AC%EC%A0%9C",
+            "search_query": "비숑 프리제 성격",
+            "terminate": false,
+            "text": "보편적으로 비숑은 독립심이 강한 성격이에요. 그리고 세심한 면도 있고 굉장히 활발한 성격을 가지고 있지만 모든 강아지가 같은 성격을 가지고 있지 않듯이 강아지들마다 성격이 조금씩은 다를 수 있어요.",
+            "turn_id": "BK22002949-3",
+            "utterance_id": "BK22002949.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 어떤 특성을 가진 강아지인지는 알고 입양을 해야 할 것 같아서 물어봤어요. 그런데 제가 곱슬한 털을 가진 강아지는 키워보지 않았는데 털 관리하기가 많이 힘들까요?",
+            "turn_id": "BK22002949-4",
+            "utterance_id": "BK22002949.7"
+        },
+        {
+            "reference_date": "2021-07-13",
+            "reference_text": [
+                {
+                    "value": "비숑 털은 가늘고 곱슬거려 엉키기 쉽기 때문에 관리가 아주 중요합니다.",
+                    "value_time": "2022-07-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "엉킨 털을 풀지 않으면, 강아지 피부에 공기가 통하지 않아 박테리아 감염, 피부병에 걸릴 수 있어요.",
+                    "value_time": "2022-07-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가능하면 털이 뭉치지 않도록, 최소 1주일에 3번 이상은 빗어줄 수 있도록 합시다.",
+                    "value_time": "2022-07-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/105381/",
+            "search_query": "비숑 털 관리",
+            "terminate": false,
+            "text": "털이 곱슬거리기도 하지만, 비숑은 특히 털이 가는 편이라서 엉키기 쉽거든요. 그래서 관리가 아주 중요하니 자주 빗어주는 게 좋아요. 엉킨 털을 풀어 주지 않으면 피부에 공기가 통하지 않게 되고, 그러면 박테리아에 감염되거나 피부병에 걸릴 수 있거든요. 최소한 일주일에 세 번 이상은 빗어주면서 엉키지 않도록 잘 관리하셔야 해요.",
+            "turn_id": "BK22002949-4",
+            "utterance_id": "BK22002949.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일주일에 세 번 이상, 자신 있어요! 예전에 키웠던 강아지는 너무 일찍 세상을 떠나서 마음이 정말 아팠는데 비숑은 보통 수명이 어느 정도 되나요?",
+            "turn_id": "BK22002949-5",
+            "utterance_id": "BK22002949.9"
+        },
+        {
+            "reference_date": "2022-01-14",
+            "reference_text": [
+                {
+                    "value": "비숑 프리제 평균 연령은 14~15세입니다.",
+                    "value_time": "2022-07-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 모든 개의 평균 수명인 10~13년보다 몇 년 더 긴 것입니다.",
+                    "value_time": "2022-07-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "영국에서는 기록상 가장 오래된 비숑 프리즈가 17세 이상을 살았습니다",
+                    "value_time": "2022-07-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://animalkdo.com/ko/%eb%b9%84%ec%88%91-%ed%94%84%eb%a6%ac%ec%a0%9c%ec%9d%98-%ec%88%98%eb%aa%85/",
+            "search_query": "비숑 프리제 수명",
+            "terminate": false,
+            "text": "비숑은 평균적으로 14년에서 15년 정도 살아요. 모든 개의 평균 수명이 10년에서 13년인 걸 감안하면 다른 개들보다 몇 년 더 살 수 있어요. 영국에서는 17세 이상을 살았던 비숑 프리제가 기록되어 있답니다.",
+            "turn_id": "BK22002949-5",
+            "utterance_id": "BK22002949.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요! 지금 입양하려는 강아지가 태어난 지 얼마 안 되어서 나중에 몸무게 관리도 어떻게 시켜야 할지 모르겠는데 평균적으로 비숑의 몸무게가 어느 정도 나오죠?",
+            "turn_id": "BK22002949-6",
+            "utterance_id": "BK22002949.11"
+        },
+        {
+            "reference_date": "2022-05-17",
+            "reference_text": [
+                {
+                    "value": "표준 체중은 5.4kg~8.2kg이며, 보통 도그쇼에는 암컷은 5kg대, 수컷은 6kg대가 많이 나오는 편이다.",
+                    "value_time": "2022-07-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B9%84%EC%88%91_%ED%94%84%EB%A6%AC%EC%A0%9C",
+            "search_query": "비숑 프리제 체중",
+            "terminate": false,
+            "text": "보통 도그쇼에 나오는 비숑들은 암컷은 5킬로 정도 나오고 수컷은 6킬로 정도 대가 많이 나오지만 평균적으로 표준 체중은 5.4킬로에서 8.4킬로까지가 정상 범위에 들어가요.",
+            "turn_id": "BK22002949-6",
+            "utterance_id": "BK22002949.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 평균 몸무게가 얼마 안 되는 것 같네요. 몸무게 유지를 잘 시키려면 산책도 자주 다녀야겠어요!",
+            "turn_id": "BK22002949-7",
+            "utterance_id": "BK22002949.13"
+        },
+        {
+            "reference_date": "2022-05-17",
+            "reference_text": [
+                {
+                    "value": "비숑 프리제를 입양하려면 비숑 프리제의 활발함을 감당할 수 있는 엄청난 체력의 소유자여야 한다.",
+                    "value_time": "2022-07-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B9%84%EC%88%91_%ED%94%84%EB%A6%AC%EC%A0%9C",
+            "search_query": "비숑 프리제 체력",
+            "terminate": false,
+            "text": "그럼요, 비숑을 키우려면 산책이 정말 중요한 부분이죠. 왜냐하면 비숑은 엄청난 활발함을 자랑하기 때문에 견주분의 체력도 굉장히 좋아야 산책도 자주 시켜줄 수 있으니까요.",
+            "turn_id": "BK22002949-7",
+            "utterance_id": "BK22002949.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비숑을 입양하기 전에 저도 체력을 어느 정도 길러야겠는걸요. 직전에 키우던 강아지가 유전병으로 인해서 항상 아팠던 기억이 있는데 비숑도 유전병이 있는 종인가요?",
+            "turn_id": "BK22002949-8",
+            "utterance_id": "BK22002949.15"
+        },
+        {
+            "reference_date": "2022-05-17",
+            "reference_text": [
+                {
+                    "value": "유전병과 잘 걸리는 병도 거의 없어 초보 견주들에게 안성맞춤이다.",
+                    "value_time": "2022-07-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B9%84%EC%88%91_%ED%94%84%EB%A6%AC%EC%A0%9C",
+            "search_query": "비숑 프리제 유전병",
+            "terminate": false,
+            "text": "아뇨, 초보 견주들에게도 비숑이 많이 추천될 만큼 비숑은 유전병도 거의 없고 병도 잘 걸리지 않는 강아지예요.",
+            "turn_id": "BK22002949-8",
+            "utterance_id": "BK22002949.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그것참 좋은 소식인 것 같아요. 유전병으로 아파하는 강아지 모습을 보니 제 마음도 정말 아프더라고요.",
+            "turn_id": "BK22002949-9",
+            "utterance_id": "BK22002949.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 강아지를 키워 보신 경험이 있기 때문에 강아지가 병에 걸리더라도 어떻게 대처해야 할지는 다 알고 계시니 다행인 것 같아요.",
+            "turn_id": "BK22002949-9",
+            "utterance_id": "BK22002949.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 강아지를 처음 키울 때는 어떻게 해야 할지 막막하였는데 초보 견주분들이 강아지를 입양하기 전에 강아지에 대한 충분한 지식을 쌓고 강아지를 입양하면 강아지도 덜 힘들고 견주분들도 빠르게 대처하여 당황하지 않고 힘도 덜 들 것 같아요.",
+            "turn_id": "BK22002949-10",
+            "utterance_id": "BK22002949.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저 또한 같은 생각이에요! 강아지가 귀엽다는 이유만으로 입양을 선택하고 키우기 힘들다는 이유로 파양을 하는 경우가 굉장히 많더라고요. 강아지를 입양하기 전 자신이 강아지를 키울 준비는 되어 있는지, 강아지에 대한 지식이 얼마나 있는지에 대해 충분한 시간을 가지고 생각을 하고 입양하면 더욱 성숙한 반려견 문화가 자리 잡을 수 있을 거예요.",
+            "turn_id": "BK22002949-10",
+            "utterance_id": "BK22002949.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저도 비숑을 키워보지는 않았기 때문에 비숑에 대해 좀 알아야 할 것 같아 전문가님께 조언을 구했는데 제가 궁금했던 점이 모두 해결되어서 다행이에요! 나중에 제가 비숑을 입양하면 연락드릴 테니 한번 보러 오세요!",
+            "turn_id": "BK22002949-11",
+            "utterance_id": "BK22002949.21"
+        }
+    ]
+}

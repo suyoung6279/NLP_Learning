@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.6,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018927",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018927",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0010"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "날씨가 많이 추워졌어. 어제 산책 나갔다가 깜짝 놀랐어. 가을인데 겨울 날씨 같아.",
+            "turn_id": "BK22018927-1",
+            "utterance_id": "BK22018927.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 날씨가 부쩍 추워졌지.",
+            "turn_id": "BK22018927-1",
+            "utterance_id": "BK22018927.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지 따뜻한 옷 꺼내놔야겠다. 날씨가 추워지니까 난 금방 감기 걸릴것 같은데. 강아지는 감기에 안걸릴까?",
+            "turn_id": "BK22018927-2",
+            "utterance_id": "BK22018927.3"
+        },
+        {
+            "reference_date": "44470.0",
+            "reference_text": [
+                {
+                    "value": "환절기에 자주 걸리는 계절성 독감은 사람과 동물을 가리지 않는다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "반려동물도 환절기에는 인플루엔자에 쉽게 감염된다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000638517",
+            "search_query": "강아지 계절성 독감",
+            "terminate": false,
+            "text": "환절기에 잘 걸리는 계절성 독감은 동물과 사람을 구별하지 않아. 환절기엔 개들도 독감에 수두룩하게 감염돼.",
+            "turn_id": "BK22018927-2",
+            "utterance_id": "BK22018927.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지들도 많이 걸리는구나. 강아지들끼리 만났을 때 전염성이 있을까?",
+            "turn_id": "BK22018927-3",
+            "utterance_id": "BK22018927.5"
+        },
+        {
+            "reference_date": "44470.0",
+            "reference_text": [
+                {
+                    "value": "강아지 독감이 위험한 가장 큰 이유는 다른 강아지에게 쉽게 전염이 된다는 사실이다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "실제로, 애견카페나 애견미용실과 같이 다른 강아지들과 함께 모여 있을 수밖에 없는 공간에서 감염되는 사례가 자주 발견된다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000638517",
+            "search_query": "강아지 독감 위험한 이유",
+            "terminate": false,
+            "text": "강아지 독감이 위험한 가장 큰 이유는 다른 강아지한테 손쉽게 감염된다는 사실이야. 실제로, 애견미용실이나 애견카페 같이 다른 강아지들과 같이 뭉쳐 있을 수밖에 없는 장소에서 전염되는 경우가 빈번히 발견돼.",
+            "turn_id": "BK22018927-3",
+            "utterance_id": "BK22018927.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사람과 똑같은 형태의 비말 전염이야? 강아지들은 같이 모였을때 어떤 경로로 전염이 돼?",
+            "turn_id": "BK22018927-4",
+            "utterance_id": "BK22018927.7"
+        },
+        {
+            "reference_date": "44470.0",
+            "reference_text": [
+                {
+                    "value": "보통 재채기, 기침과 같은 비말감염을 통해서 전염되며 바이러스가 강아지들이 사용하는 그릇, 장난감에 남아 있을 수 있기 때문에 강아지 독감을 예방하기 위해서는 평소에 위생을 철저히 하는 것이 좋다",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000638517",
+            "search_query": "강아지 독감 비말감염",
+            "terminate": false,
+            "text": "보통 기침이나 재채기와 같은 비말감염을 통해 감염되며, 인플루엔자가 강아지들이 쓰는 장난감, 그릇에 남아 있을 수 있어. 강아지 독감을 방지하기 위해서는 평상시에 위생을 철저히 하는게 좋아.",
+            "turn_id": "BK22018927-4",
+            "utterance_id": "BK22018927.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비말 전염이면 감염이 쉽겠다. 바이러스에 걸렸을때 치사율은 어떻게 돼?",
+            "turn_id": "BK22018927-5",
+            "utterance_id": "BK22018927.9"
+        },
+        {
+            "reference_date": "44470.0",
+            "reference_text": [
+                {
+                    "value": "일반적으로 치사율이 5~10%로 높지 않다고는 하나, 노령견이나 이미 다른 질병에 걸린 강아지들의 경우 강아지 독감 바이러스에 노출되면 2차 세균감염이 발생하고, 최악의 경우 사망에 이를 수 있기 때문에 각별히 주의를 해야 한다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이러한 경우 치사율이 50% 수준까지 증가한다",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000638517",
+            "search_query": "강아지 독감바이러스 치사율",
+            "terminate": false,
+            "text": "통상적으로 치사율이 5%에서 10%로 높지 않아. 하지만 앞서 다른 병에 걸린 강아지나 노견인 경우, 치사율이 50% 수준까지 늘어나. 강아지 독감 바이러스에 노출되면 2차 세균감염이 일어나고, 가장 나쁜경우 죽음에 이를 수 있어서 특히 조심 해야 해.",
+            "turn_id": "BK22018927-5",
+            "utterance_id": "BK22018927.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "노령견이나 아픈 강아지들은 특히 조심해야겠다. 강아지 독감바이러스에 걸리면 초기 증상은 어떤게 있어?",
+            "turn_id": "BK22018927-6",
+            "utterance_id": "BK22018927.11"
+        },
+        {
+            "reference_date": "44470.0",
+            "reference_text": [
+                {
+                    "value": "감염 초기에는 '기침'과 '거품토' 또는 '캑캑'거리는 소리와 함께 발열, 콧물 등의 증상을 보이는데, 만약 이러한 증상들이 2~3일 이상 지속된다면 바로 동물 병원에 내원하여 검사 및 치료를 받아야 한다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000638517",
+            "search_query": "강아지 독감 감염초기증상",
+            "terminate": false,
+            "text": "감염 초기에는 거품토, 기침, 캑캑 거리는 소리와 같이 콧물과 발열 등의 증세를 보여. 만일 이런 증세들이 2일에서 3일 이상 계속되면 즉시 동물 병원에 내원하여 검사하고 치료를 받아야 해.",
+            "turn_id": "BK22018927-6",
+            "utterance_id": "BK22018927.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사람 감기 증세랑 비슷하다. 독감에 걸렸는데 치료를 받지 하지 않으면 어떻게 돼?",
+            "turn_id": "BK22018927-7",
+            "utterance_id": "BK22018927.13"
+        },
+        {
+            "reference_date": "44470.0",
+            "reference_text": [
+                {
+                    "value": "특별한 조치 없이 방치하면, 2차 세균감염이 발생하고 고열, 화농성 콧물, 기력저하, 호흡곤란 등의 증상을 보인다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000638517",
+            "search_query": "강아지 독감 방치",
+            "terminate": false,
+            "text": "특별한 조치 없이 방치하면, 2차 세균감염이 생기고 기력저하, 고열, 호흡곤란, 화농성 콧물 등의 증세를 보여.",
+            "turn_id": "BK22018927-7",
+            "utterance_id": "BK22018927.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "독감에 걸리면 어떻게 치료해?",
+            "turn_id": "BK22018927-8",
+            "utterance_id": "BK22018927.15"
+        },
+        {
+            "reference_date": "44470.0",
+            "reference_text": [
+                {
+                    "value": "반려견이 강아지 독감에 걸렸다면, 동물 병원에서 수의사가 처방해 주는 항생제, 항바이러스제 등의 약물치료와 함께 집에서 보호자가 영양공급, 수분 공급과 함께 충분한 휴식을 취할 수 있도록 신경 써야 한다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000638517",
+            "search_query": "강아지 독감 처방",
+            "terminate": false,
+            "text": "강아지가 독감에 걸렸다면, 동물 병원에서 의사가 처방한 항바이러스제, 항생제 등의 약물치료를 해. 집에선 충분한 휴식을 취할 수 있도록 하고, 보호자가 수분 공급, 영양공급을 함께 신경 써야해.",
+            "turn_id": "BK22018927-8",
+            "utterance_id": "BK22018927.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 아프지 않게 예방하는게 제일 좋겠다. 강아지 독감을 예방하기 위해선 뭘해야해?",
+            "turn_id": "BK22018927-9",
+            "utterance_id": "BK22018927.17"
+        },
+        {
+            "reference_date": "44470.0",
+            "reference_text": [
+                {
+                    "value": "전문가들은 강아지 독감을 예방하기 위해 가장 좋은 방법은 예방접종이라고 말하며, 일반적으로 10주 이상의 강아지에게 2주 간격으로 2회 접종 후 매년 1회씩 예방접종을 받기를 권장한다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000638517",
+            "search_query": "강아지 독감 예방",
+            "terminate": false,
+            "text": "통상적으로 10주 이상의 강아지한테, 2주 간격으로 2회 접종 후, 매해 1회씩 예방접종을 받기를 권장해. 전문가들은 강아지 독감을 방지하기위해 제일 좋은 방법은 예방접종이라고 말했어.",
+            "turn_id": "BK22018927-9",
+            "utterance_id": "BK22018927.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "독감 예방 접종은 미리 맞아놨어. 면역력이 중요하니까 좋아지게 영양식 만들어서 먹여줘야겠다.",
+            "turn_id": "BK22018927-10",
+            "utterance_id": "BK22018927.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "접종은 예방이 100% 되는건 아니니까, 평상시 체력관리랑 영양보충을 충분히 해줘서 면역력을 유지시켜줘.",
+            "turn_id": "BK22018927-10",
+            "utterance_id": "BK22018927.20"
+        }
+    ]
+}

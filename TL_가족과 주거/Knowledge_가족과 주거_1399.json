@@ -1,0 +1,386 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009210",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009210",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일주일 뒤가 출산 예정일이에요. 드디어 아이를 만날 수 있다니 설레요.",
+            "turn_id": "BK22009210-1",
+            "utterance_id": "BK22009210.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "축하드려요, 저도 그 기분 잘 알아요. 아이를 만난다는 기쁨은 무엇과도 바꿀 수 없죠.",
+            "turn_id": "BK22009210-1",
+            "utterance_id": "BK22009210.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 그것과 별개로 출산하고 나서 산후조리를 어떻게 해야 할지 몰라 막막하네요. 산후조리법 잘 아시면 좀 알려주시겠어요?",
+            "turn_id": "BK22009210-2",
+            "utterance_id": "BK22009210.3"
+        },
+        {
+            "reference_date": "2018-10-25",
+            "reference_text": [
+                {
+                    "value": "둘째, 산후풍 예방을 위해서는 차가운 기운을 막는 것이 중요하다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 실내라 하더라도 가급적 긴 팔, 긴 바지를 입어 몸에 바람이 들지 않도록 해야 한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "날씨가 추울 때는 바람을 쐬게 되는 외출은 가급적 삼가는 것이 좋다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 식습관도 중요한데 냉장고에 있던 찬 음식, 음료는 자제하고 물도 찬 물보다는 미지근한 물을 섭취하는 것이 좋다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.cancerline.co.kr/html/20058.html",
+            "search_query": "산후풍 예방",
+            "terminate": false,
+            "text": "물론이에요, 일단 산후풍을 막기 위해 찬 기운을 쐬지 않는 것이 필요해요. 따라서 실내라 하더라도 가급적 긴 팔, 긴 바지를 착용해 몸에 바람이 들지 않도록 해야 해요. 날씨가 추울 때는 바람을 쐬게 되는 외출은 가급적 자제하는 것이 좋아요. 또한 식습관도 중요한데 냉장고에 있던 찬 음식, 찬 음료와 물을 가급적 먹지 말고 물도 미지근한 물을 마시는 것이 좋아요.",
+            "turn_id": "BK22009210-2",
+            "utterance_id": "BK22009210.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "차가운 기운을 막고 찬 식품도 자제해야 한다면 반대로 땀을 빼는 게 좋을까요?",
+            "turn_id": "BK22009210-3",
+            "utterance_id": "BK22009210.5"
+        },
+        {
+            "reference_date": "2014-05-29",
+            "reference_text": [
+                {
+                    "value": "후에 노폐물이나 부기를 빨리 빼기 위해 땀을 일부러 내는 것도 잘못된 방법입니다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한의학적으로 땀은 우리 몸을 구성하는 진액에 해당하는데, 땀을 흘리는 것이 좋을 때도 있지만 기본적으로 땀을 많이 흘릴 경우 기운이 소모된다고 봅니다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러므로 산후 조리를 할 때도 지나치게 더운 환경을 조성해서 일부로 땀을 빼는 것은 바람직한 방법이 아닙니다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=21476",
+            "search_query": "산후조리 땀",
+            "terminate": false,
+            "text": "아니요, 노폐물이나 부기를 빠르게 빼기 위해 땀을 일부러 흘리는 것도 잘못된 방법이에요. 한의학적으로 땀은 우리 몸을 구성하는 진액인데, 땀을 빼는 것이 좋을 때도 있지만 기본적으로 땀을 지나치게 흘리는 경우 기운이 소모돼요. 그러므로 산후조리를 할 때도 심하게 더운 환경을 만들어서 굳이 땀을 흘리는 것은 좋은 방법이 아니에요.",
+            "turn_id": "BK22009210-3",
+            "utterance_id": "BK22009210.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "옷을 적당히 입고 적정한 환경을 유지해야 하겠네요. 그러면 어느 정도로 온도와 습도를 조절해야 할까요?",
+            "turn_id": "BK22009210-4",
+            "utterance_id": "BK22009210.7"
+        },
+        {
+            "reference_date": "2014-05-29",
+            "reference_text": [
+                {
+                    "value": "산모에게 적당한 실내 온도는 보통 22℃ 정도인데 일괄적으로 맞추기 보다는 땀이 약간 나는 정도의 온도를 유지하는 것이 좋습니다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "습도도 밤에 잠을 잘 때 산모가 마른 기침을 하지 않도록 40~60% 정도의 적당한 습도를 유지하는 것이 좋고, 그래야 쾌적한 환경 속에서 건강한 산후 조리를 할 수 있습니다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=21476",
+            "search_query": "산모 실내 온도 습도",
+            "terminate": false,
+            "text": "산모에게 적절한 실내 온도는 보통 22도 정도인데 일괄적으로 세팅하기보다는 땀이 약간 나는 정도의 온도로 조절하는 것이 좋아요. 습도도 밤에 잠잘 때 산모가 마른기침을 하지 않도록 40~60퍼센트 정도의 적절한 습도로 맞춰주는 것이 좋아요.",
+            "turn_id": "BK22009210-4",
+            "utterance_id": "BK22009210.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 근데 제가 임신하면서 20kg이나 쪘거든요. 출산 후에 바로 다이어트를 해도 될까요?",
+            "turn_id": "BK22009210-5",
+            "utterance_id": "BK22009210.9"
+        },
+        {
+            "reference_date": "2018-10-25",
+            "reference_text": [
+                {
+                    "value": "첫째, 임신으로 인해 늘어난 체중과 몸매에 대한 스트레스가 심해진 나머지 출산 직후 다이어트를 시작하는 산모들이 많다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 출산 후에는 무엇보다도 건강회복이 우선이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "무리하게 약해진 관절을 사용해 운동을 하거나 무리한 신체활동은 자제해야 한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.cancerline.co.kr/html/20058.html",
+            "search_query": "출산 다이어트",
+            "terminate": false,
+            "text": "아니요, 궁금이님처럼 임신으로 인해 찐 살에 대한 스트레스가 심해진 나머지 출산 직후 다이어트를 하는 산모들이 많아요. 그런데 출산 후에는 다른 것보다 건강회복이 첫 번째에요. 심하게 약해진 관절을 이용해 운동하거나 무리한 신체활동은 하지 않는 게 좋아요.",
+            "turn_id": "BK22009210-5",
+            "utterance_id": "BK22009210.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다이어트는 아무래도 좀 격렬한 운동이 필요하니 미뤄야겠네요. 그럼 조금씩 걸어주는 건 도움이 되나요?",
+            "turn_id": "BK22009210-6",
+            "utterance_id": "BK22009210.11"
+        },
+        {
+            "reference_date": "2020-11-25",
+            "reference_text": [
+                {
+                    "value": "출산 후에는 천천히 걸어주는 것이 회복에 도움을 준다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "산후 걷기는 방광과 장의 기능을 빠르게 회복시킬 수 있고, 가스 배출에 도움을 줄 수 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "제왕절개는 수술 직후 보행이 어렵지만 자연분만의 경우 빠르면 분만 당일부터 걸을 수 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "걸을 때는 보호자의 부축을 받는 것이 좋다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202011250672o",
+            "search_query": "산후 걷기",
+            "terminate": false,
+            "text": "네, 출산 후에는 천천히 걷는 것이 회복하는 데 도움이 돼요. 산후 걷기는 방광과 장의 기능을 빨리 복원시킬 수 있고, 가스 배출에 도움이 돼요. 제왕절개는 수술 직후 보행이 힘들지만, 자연분만의 경우 빠르면 분만 당일부터 걸어 다닐 수 있어요. 걸을 때는 보호자의 도움을 받는 것이 좋고요.",
+            "turn_id": "BK22009210-6",
+            "utterance_id": "BK22009210.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "분만 후에 회복할 겸 상황 봐서 천천히 걸어 다녀야겠네요. 그런데 지인에게서 들었는데 좌욕이 산후조리에 좋다던데 맞나요?",
+            "turn_id": "BK22009210-7",
+            "utterance_id": "BK22009210.13"
+        },
+        {
+            "reference_date": "2014-05-29",
+            "reference_text": [
+                {
+                    "value": "좌욕도 산후에 상처를 빨리 회복시키는 데 효과적인데, 하루 2회 정도 깨끗한 물로 좌욕을 해주면 도움이 됩니다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "깨끗하게 소독한 대야에 끓인 물을 데지 않을 정도로 식힌 후 그 위에 앉아서 좌욕을 해주면 되는데, 여름철에는 회음 절개 부위가 감염될 위험이 크기 때문에 주의해야 합니다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "좌욕 후에는 물기가 남아 있지 않도록 완전히 말려주어야 합니다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=21476",
+            "search_query": "산후조리 좌욕",
+            "terminate": false,
+            "text": "네, 맞아요. 좌욕도 산후에 상처를 빠르게 회복시키는 데 도움을 주는데, 하루 2회 정도 깨끗한 물로 좌욕을 해주면 좋아요. 깨끗하게 살균한 대야에 끓인 물을 데이지 않을 정도로 식힌 후 그 위에 앉아서 좌욕을 해주면 되는데, 여름철에는 회음 절개 부위가 감염될 가능성이 크기 때문에 조심해야 해요. 좌욕 후에는 물기가 남아 있지 않도록 충분히 말려주어야 해요.",
+            "turn_id": "BK22009210-7",
+            "utterance_id": "BK22009210.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좌욕도 신경 써서 해봐야겠네요. 근데 잘 자는 것도 산후조리에 큰 도움을 준다던데, 2~3시간에 한 번씩 깨는 아이를 두고 자는 시간을 어떻게 확보할 수 있을까요?",
+            "turn_id": "BK22009210-8",
+            "utterance_id": "BK22009210.15"
+        },
+        {
+            "reference_date": "2020-11-25",
+            "reference_text": [
+                {
+                    "value": "출산 후 빠른 회복을 위해서는 잠을 충분히 자야 한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아기가 잘 때 함께 자면서 잠을 보충하고, 초반 2개월 정도는 가족이나 지인의 도움을 받으며 수면 시간을 충분히 확보하는 것이 좋다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202011250672o",
+            "search_query": "산후조리 수면시간",
+            "terminate": false,
+            "text": "맞아요, 출산 후 빠른 회복을 위해서는 충분히 잠을 자야 해요. 아기가 잘 때 같이 자면서 부족한 잠을 채우고, 초반 2개월 정도는 가족이나 지인의 도움을 받으며 수면 시간을 잘 확보하는 것이 좋아요.",
+            "turn_id": "BK22009210-8",
+            "utterance_id": "BK22009210.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그런데 혹시 산후조리에 도움이 되는 음식도 있나요?",
+            "turn_id": "BK22009210-9",
+            "utterance_id": "BK22009210.17"
+        },
+        {
+            "reference_date": "2014-05-29",
+            "reference_text": [
+                {
+                    "value": "지방은 적고 단백질이 풍부한 음식을 섭취하는 것이 좋고 생선, 육류, 우유, 계란, 콩, 녹황색 채소 등을 충분히 섭취하면 산후조리에 도움이 됩니다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "모유 수유를 위해 짜지 않게 조리된 미역국 등 국물이 있는 음식을 먹는 것도 좋습니다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=21476",
+            "search_query": "산후조리 음식",
+            "terminate": false,
+            "text": "네, 지방은 적고 단백질이 많이 든 음식을 먹는 것이 좋고 생선, 육류, 우유, 계란, 콩, 녹황색 채소 등을 충분히 섭취하면 산후조리에 도움이 돼요. 모유수유를 위해 짜지 않은 미역국 등 국물이 있는 음식을 섭취하는 것도 좋아요.",
+            "turn_id": "BK22009210-9",
+            "utterance_id": "BK22009210.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고단백 음식을 챙겨 먹어야겠네요. 오늘 많은 정보 주셔서 감사했어요.",
+            "turn_id": "BK22009210-10",
+            "utterance_id": "BK22009210.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "뭘요, 궁금한 게 있으시면 언제든 또 물어보셔도 돼요. 그럼 순산하시고 또 봬요.",
+            "turn_id": "BK22009210-10",
+            "utterance_id": "BK22009210.20"
+        }
+    ]
+}

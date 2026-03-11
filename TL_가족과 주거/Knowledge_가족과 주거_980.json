@@ -1,0 +1,368 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005008",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005008",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 3.6,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "코로나 이후 재택근무를 자주 하게 됐어요.",
+            "turn_id": "BK22005008-1",
+            "utterance_id": "BK22005008.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "코로나 이후 집에서 많이 지내게 되고 참 많은 게 바뀌었죠.",
+            "turn_id": "BK22005008-1",
+            "utterance_id": "BK22005008.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "코로나 이후 집에 많이 머물게 되면서 나타난 사회적 현상이 있을까요?",
+            "turn_id": "BK22005008-2",
+            "utterance_id": "BK22005008.3"
+        },
+        {
+            "reference_date": "2022-06-14",
+            "reference_text": [
+                {
+                    "value": "코로나 이후 고용 쇼크로 인해 직장을 잃은 남성들의 가정폭력 행위가 증가했다는 분석 결과가 나왔다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "폭력이 발생한 주요 원인으로는 가부장적인 사고방식이 지목됐다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한국가정법률상담소(소장 곽배희)는 2021년 한 해 동안 가정폭력범죄의처벌등에관한특례법에 의해 서울가정법원 등으로부터 상담위탁 보호처분 결정을 받고 위탁된 가정폭력행위자 346명에 대한 상담 통계를 분석, 발표했다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.womennews.co.kr/news/articleView.html?idxno=224574",
+            "search_query": "코로나 이후 가정폭력",
+            "terminate": false,
+            "text": "코로나 이후 직장을 잃은 남성들의 가부장적인 사고방식으로 가정폭력 행위가 증가하기도 했어요. 한국가정법률상담소에서 가정폭력행위자 346명의 상담 통계를 분석, 발표했거든요. 이 346명은 2021년 동안 가정폭력범죄의처벌등에관한특례법에 의해 가정법원으로부터 상담 위탁 보호처분 결정을 받고 위탁된 가정폭력행위자들이에요.",
+            "turn_id": "BK22005008-2",
+            "utterance_id": "BK22005008.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가정폭력이 증가하면 상담도 많이 받으러 올 텐데 이때 폭력 행위자는 보통 남성인가요?",
+            "turn_id": "BK22005008-3",
+            "utterance_id": "BK22005008.5"
+        },
+        {
+            "reference_date": "2022-06-14",
+            "reference_text": [
+                {
+                    "value": "분석 결과 남성이 266명(76.9%), 여성이 80명(23.1%)을 차지해 남성 행위자가 절대적으로 많았다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "여성 행위자 80명 중 71명(88.8%)은 피해자와 부부관계인 것으로 나타났다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.womennews.co.kr/news/articleView.html?idxno=224574",
+            "search_query": "코로나 이후 가정폭력 상담수",
+            "terminate": false,
+            "text": "가정폭력 행위자가 남성이 266명으로 76.9퍼센트, 여성이 88명 23.1퍼센트로 남성이 절대적으로 많았고요. 여성 행위자 중 71명, 88.8퍼센트가 피해자와 부부관계였어요.",
+            "turn_id": "BK22005008-3",
+            "utterance_id": "BK22005008.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "남성에 의한 가정 폭력이 더 많이 일어나네요. 코로나가 실제로 가정폭력 증가에 영향을 미쳤나요?",
+            "turn_id": "BK22005008-4",
+            "utterance_id": "BK22005008.7"
+        },
+        {
+            "reference_date": "2022-06-14",
+            "reference_text": [
+                {
+                    "value": "코로나로 인한 고용 쇼크가 가정폭력 증가에 영향을 미친 것으로 나타나기도 했다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "무직인 경우 2021년 조사된 14.7%가 코로나19 이전인 2019년 6.2%와 비교했을 때 그 비율이 2.4배 증가했고, 코로나 팬데믹 첫해인 2020년 11%와 비교했을 때도 1.3배 증가했다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.womennews.co.kr/news/articleView.html?idxno=224574",
+            "search_query": "가정폭력 무직 비율 증가",
+            "terminate": false,
+            "text": "코로나19 직전인 2019년 무직인 비율이 6.2퍼센트, 2021년에선 14.7퍼센트로 비율이 2.4배 증가했고요. 코로나가 발생한 첫해인 2020년엔 11퍼센트였으니 1.3배 증가했어요. 코로나로 인한 고용 쇼크가 가정폭력에 영향을 미친 거죠.",
+            "turn_id": "BK22005008-4",
+            "utterance_id": "BK22005008.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 무직인 비율의 증가와 함께 가정 폭력이 증가했네요. 코로나19로 인한 어떤 파생 효과가 가정폭력으로 이어졌을까요?",
+            "turn_id": "BK22005008-5",
+            "utterance_id": "BK22005008.9"
+        },
+        {
+            "reference_date": "2022-05-24",
+            "reference_text": [
+                {
+                    "value": "이러한 가정폭력 상담 증가 추세는 '코로나19'가 크게 영향을 미친 것으로 보인다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사회적 거리두기로 인한 외부활동 제약과 재택근무 등으로 가족과 함께 집에 머무는 시간이 늘면서 갈등상황에 많이 노출됐기 때문이다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.inews365.com/news/article.html?no=715948",
+            "search_query": "코로나 이후 가정폭력 증가 이유",
+            "terminate": false,
+            "text": "코로나19 이후 가정폭력 상담이 증가 추세를 보였는데 사회적 거리두기로 인해서 외부로 나가지 않고 재택근무를 하면서 가족들과 함께 지내는 시간이 늘면서 갈등 상황에 많이 노출됐기 때문이라고 봐요.",
+            "turn_id": "BK22005008-5",
+            "utterance_id": "BK22005008.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가족과 같이 보내서 즐거운 사람도 있겠지만 갈등도 많이 생기는 경우도 있겠네요. 그럼 가족과 같이 보내는 시간이 많은 것 외에는 어떤 원인으로 증가했을까요?",
+            "turn_id": "BK22005008-6",
+            "utterance_id": "BK22005008.11"
+        },
+        {
+            "reference_date": "2020-10-07",
+            "reference_text": [
+                {
+                    "value": "가정폭력의 증가 요인으로는 코로나19로 인한 실업과 소득 감소를 들 수 있으며, 음주 후 스트레스를 폭력으로 푸는 경우도 많다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.civicnews.com/news/articleView.html?idxno=29877",
+            "search_query": "코로나 이후 가정폭력 증가 이유",
+            "terminate": false,
+            "text": "코로나19로 직장을 잃거나 소득이 줄었고 음주 후 폭력으로 스트레스를 푸는 경우도 생긴 거죠.",
+            "turn_id": "BK22005008-6",
+            "utterance_id": "BK22005008.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다고 가족한테 폭력으로 스트레스를 푼다니 참 안됐네요. 가정폭력 신고를 해서 경찰이 신고하면 어떤 조치가 이루어지죠?",
+            "turn_id": "BK22005008-7",
+            "utterance_id": "BK22005008.13"
+        },
+        {
+            "reference_date": "2022-02-11",
+            "reference_text": [
+                {
+                    "value": "가정폭력 신고를 받고 출동한 경찰은 '가정폭력범죄의 처벌 등에 관한 특례법'에 따라 가해자와 피해자를 분리하는 응급조치를 한다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 폭력행위 재발 시 임시조치를 신청할 수 있다고 가해자에게 통보한다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newspim.com/news/view/20220211000410",
+            "search_query": "가정폭력 경찰 신고 후 조치",
+            "terminate": false,
+            "text": "가정폭력범죄의 처벌 등에 관한 특례법에 따라 가정폭력 신고를 받고 출동한 경찰은 우선 가해자와 피해자를 분리하는 응급조치를 취하고요. 경찰은 가해자에게 폭력행위가 또다시 일어난다면 임시 조치를 할 수 있다고 통보해요.",
+            "turn_id": "BK22005008-7",
+            "utterance_id": "BK22005008.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임시 조치가 이루어진 거면 정말 심각한 상황이네요. 가정폭력 신고로 인해 임시 조치가 이루어지면 어떤 조치가 취해지나요?",
+            "turn_id": "BK22005008-8",
+            "utterance_id": "BK22005008.15"
+        },
+        {
+            "reference_date": "2022-02-11",
+            "reference_text": [
+                {
+                    "value": "임시조치는 ▲피해자 집 또는 방에서 퇴거 등 격리(1호) ▲피해자 주거·직장으로부터 100m 접근 금지(2호) ▲휴대전화 등 전기통신을 이용한 피해자 접근 금지(3호) 등이다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newspim.com/news/view/20220211000410",
+            "search_query": "가정폭력 임시조치",
+            "terminate": false,
+            "text": "임시조치 1호는 피해자 집 또는 방에서 퇴거 등과 같은 격리를 하고요. 2호는 피해자의 주거나 직장으로부터 100m 접근 금지가 이루어져요. 이게 더 심해져서 3호가 발동되면 휴대전화 등 전기통신을 이용해서 피해자한테 접근하는 것조차 금지돼요.",
+            "turn_id": "BK22005008-8",
+            "utterance_id": "BK22005008.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임시조치 3호까지 이루어졌다는 건 정말 위험한 상황이네요. 이 절차는 바로 진행이 되는 건가요?",
+            "turn_id": "BK22005008-9",
+            "utterance_id": "BK22005008.17"
+        },
+        {
+            "reference_date": "2022-02-11",
+            "reference_text": [
+                {
+                    "value": "경찰은 실제로 가정폭력이 재발할 우려가 있으면 검찰에 임시조치를 신청하고, 검찰이 이를 법원에 청구한다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만약 상황이 긴박해 법원의 임시조치 결정을 받을 수 없을 때는 경찰이 긴급임시조치를 내린다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newspim.com/news/view/20220211000410",
+            "search_query": "가정폭력 긴급임시조치",
+            "terminate": false,
+            "text": "경찰이 가정폭력이 재발할 우려가 있으면 검찰에 임시 조치를 신청하고 검찰이 법원에 청구하는 단계를 거쳐요. 긴박한 상황이어서 법원의 임시 조치 결정을 기다릴 수 없을 때는 경찰이 긴급임시조치를 결정할 수 있고요.",
+            "turn_id": "BK22005008-9",
+            "utterance_id": "BK22005008.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가족끼리 폭력의 위험 수위도 높아진다니 너무 끔찍한 이야기네요.",
+            "turn_id": "BK22005008-10",
+            "utterance_id": "BK22005008.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너무 끔찍하고 속상하지만 곳곳에서 많이 일어나고 있죠.",
+            "turn_id": "BK22005008-10",
+            "utterance_id": "BK22005008.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "코로나 이후 증가했다니 더욱더 마음 아프네요. 점심시간이 다 끝나가네요. 퇴근 시간에 로비에서 봐요.",
+            "turn_id": "BK22005008-11",
+            "utterance_id": "BK22005008.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "식곤증 이겨내고 오후 근무 잘합시다. 저는 이만 제 자리로 가 볼게요.",
+            "turn_id": "BK22005008-11",
+            "utterance_id": "BK22005008.22"
+        }
+    ]
+}

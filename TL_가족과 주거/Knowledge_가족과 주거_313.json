@@ -1,0 +1,376 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001390",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001390",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번에 서울 본사로 발령 날 것 같아서 집 알아보고 있어요.",
+            "turn_id": "BK22001390-1",
+            "utterance_id": "BK22001390.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "본사 발령이라니, 정말 축하해요. 이제 집 알아보느라고 힘드시겠어요.",
+            "turn_id": "BK22001390-1",
+            "utterance_id": "BK22001390.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "힘드네요. 회사 출퇴근 편한 곳은 너무 비싸고 저렴한 곳은 교통이 너무 안좋더라고요.",
+            "turn_id": "BK22001390-2",
+            "utterance_id": "BK22001390.3"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 서울시 역세권 청년주택도 알아봤어요?",
+            "turn_id": "BK22001390-2",
+            "utterance_id": "BK22001390.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역세권 청년주택, 그런 게 있어요?",
+            "turn_id": "BK22001390-3",
+            "utterance_id": "BK22001390.5"
+        },
+        {
+            "reference_date": "2022-05-23",
+            "reference_text": [
+                {
+                    "value": "역세권 청년주택은 만 19~39세 청년과 신혼부부에게 대중교통이 편리한 역세권에 시세보다 저렴한 임대료로 양질의 임대주택(공공‧민간)을 제공하는 사업이다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=60126",
+            "search_query": "서울시 역세권 청년주택",
+            "terminate": false,
+            "text": "네, 역세권 청년주택은 만 19세에서 만39세 사이의 청년과 신혼부부에게 대중교통이 편리한 역세권에 시세보다 저렴한 임대료로 임대주택을 제공해주는거에요.",
+            "turn_id": "BK22001390-3",
+            "utterance_id": "BK22001390.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "교통은 진짜 편하겠네요, 임대료 수준은 어느 정도에요?",
+            "turn_id": "BK22001390-4",
+            "utterance_id": "BK22001390.7"
+        },
+        {
+            "reference_date": "2022-06-23",
+            "reference_text": [
+                {
+                    "value": "공공임대의 경우에는 '주변 시세 대비 30% 수준'에서 임대료가 책정된다. 문제는 임대물량의 대부분을 차지 하는 '민간임대'다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "민간임대의 경우 특별공급과 일반공급은 각각 주변시세 대비 85%, 95% 이하 수준으로 임대료가 책정된다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.youthdaily.co.kr/news/article.html?no=103577",
+            "search_query": "서울시 역세권 청년주택 임대료",
+            "terminate": false,
+            "text": "임대료는 공공임대와 민간 임대에 따라서 많이 달라요. 공공임대는 주변 시세 대비 30퍼센트 수준인데, 임대물량의 대부분인 민간 임대는 특별공급은 85퍼센트, 일반공급은 95퍼센트에요.",
+            "turn_id": "BK22001390-4",
+            "utterance_id": "BK22001390.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "주변시세 85퍼센트 이상이면 민간임대는 저렴하게 느껴지지는 않네요. 물량 적어도 공공임대가 저렴한데. 조건이 까다롭겠죠?",
+            "turn_id": "BK22001390-5",
+            "utterance_id": "BK22001390.9"
+        },
+        {
+            "reference_date": "2022-05-19",
+            "reference_text": [
+                {
+                    "value": "서울시는 역세권 청년주택 중 공공주택 입주자의 소득 기준을 본인과 부모를 합산해 도시근로자 가구원수별 가구당 월평균 소득의 100% 이하인 자로 변경한다고 19일 밝혔다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/629/0000150265?sid=102",
+            "search_query": "역세권 청년주택 공공임대 조건",
+            "terminate": false,
+            "text": "조건이 좀 까다롭긴 해요. 공공주택에 신청하려면 소득기준을 본인과 부모를 합산해서 도시근로자 가구원수별 가구당 월평균 소득의 100퍼센트 이하 조건이어야해요.",
+            "turn_id": "BK22001390-5",
+            "utterance_id": "BK22001390.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소득 조건이 있군요. 우리 가족은 부모님과 동생 4인인데, 월평균 소득 100퍼센트면 소득이 얼마정도예요?",
+            "turn_id": "BK22001390-6",
+            "utterance_id": "BK22001390.11"
+        },
+        {
+            "reference_date": "2022-05-23",
+            "reference_text": [
+                {
+                    "value": "변경된 기준에 따르면 올해 도시근로자 가구원수별 가구당 소득기준(100%)은 2022년 기준으로 1인가구는 약 321만 원, 4인가구는 약 720만 원이다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=60126",
+            "search_query": "2022 도시근로자 가구당 월평균소득",
+            "terminate": false,
+            "text": "소득 조건으로 보는, 도시근로자 가구원수별 가구당 소득기준은 매 해 변경되는데, 이번 2022년에는 1인 가구는 321만원, 4인 가구면 약 720만원이예요.",
+            "turn_id": "BK22001390-6",
+            "utterance_id": "BK22001390.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소득조건은 어느 정도 맞을것 같네요. 면적은 어느 정도 되요?",
+            "turn_id": "BK22001390-7",
+            "utterance_id": "BK22001390.13"
+        },
+        {
+            "reference_date": "2022-06-23",
+            "reference_text": [
+                {
+                    "value": "실제로 지난 2020년 1월 1일부로 시행된 '서울특별시 역세권 청년주택 건립 및 운영기준 8차 개정안'에 따르면, \"1인 청년주택의경우 전용면적 14㎡~20㎡내외, 신혼부부주택의 경우 30㎡~40㎡내외에서 자유롭게 계획할 수 있다\"고 명시돼 있다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.youthdaily.co.kr/news/article.html?no=103577",
+            "search_query": "서울시 역세권 청년주택 면적",
+            "terminate": false,
+            "text": "2020년 1월 1일에 시행된 것은 1인 청년주택의 경우 전용면적 14제곱미터에서 20제곱미터 내외, 신혼부부 주택의 경우 30제곱미터에서 40제곱미터로 되어 있어요.",
+            "turn_id": "BK22001390-7",
+            "utterance_id": "BK22001390.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알아보니 원룸들 면적이 다들 작기는 하더라고요. 그래도, 민간임대는 월세가 싼것도 아닌데, 면적이라도 일반 주택에 비해서 좀 넓어야 매력이 있을 것 같은대요.",
+            "turn_id": "BK22001390-8",
+            "utterance_id": "BK22001390.15"
+        },
+        {
+            "reference_date": "2022-06-23",
+            "reference_text": [
+                {
+                    "value": "이에 서울시는 10차 개정안(2021년 10월 1일부 시행)을 통해 각 세대원 규모별 전용면적을 한 차례 더 늘리도록 했다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "당시 서울시는 \"전용면적 20㎡~60㎡내외에서 다음의 건설 규모를 따라야 하며 2인 이상 세대는 2룸을 원칙으로 한다\"며 \"실사용면적 25㎡이상(셰어형포함), 2인이상 세대는 실사용면적 45㎡이상\"이어야 한다는 보완된 건립 기준을 제시했다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.youthdaily.co.kr/news/article.html?no=103577",
+            "search_query": "서울시 역세권 청년주택 면적",
+            "terminate": false,
+            "text": "안 그래도 그런 지적이 많아서, 서울시에서는 2021년 10월 1일부터는 전용면적을 한 차례 늘리기는 했어요. 전용면적은 20제곱미터에서 60제곱미터 사이로 하고, 2인 이상 세대는 45제곱미터 이상으로 기준을 제시했죠.",
+            "turn_id": "BK22001390-8",
+            "utterance_id": "BK22001390.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조금씩이라도 면적이 늘어나면 훨씬 쾌적할것 같아요. 그런데, 들어가려면 수량은 좀 많이 있나요?",
+            "turn_id": "BK22001390-9",
+            "utterance_id": "BK22001390.17"
+        },
+        {
+            "reference_date": "2022-06-25",
+            "reference_text": [
+                {
+                    "value": "25일 서울시 역세권 청년주택 공급현황 및 계획에 따르면 서울 역세권 청년주택은 올해 말까지 42개소, 1만5426호(공공임대 3116 민간임대 1만2311)를 공급할 예정이다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 중 29개소(공공 1975 민간 7648)가 현재 완공돼 청년들의 주거 안정에 기여하고 있다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.youthdaily.co.kr/news/article.html?no=103460",
+            "search_query": "서울시 역세권 청년주택 현황",
+            "terminate": false,
+            "text": "현재까지로는 수량이 아주 많지는 않아요. 25일 발표한거로는, 29개가 완공되어 있어요. 그중에 공공이 1975세대고, 민간이 7648세대에요. 올해 연말까지 42개소 1만 5426호를 지을 계획인데, 그중 공공임대가 3116 민간임대가 1만 2311호예요.",
+            "turn_id": "BK22001390-9",
+            "utterance_id": "BK22001390.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아직 많이 지어진 상태는 아니군요. 그나마 완공된 지역은 어디 어디인지 알 수 있을까요?",
+            "turn_id": "BK22001390-10",
+            "utterance_id": "BK22001390.19"
+        },
+        {
+            "reference_date": "2022-06-25",
+            "reference_text": [
+                {
+                    "value": "이를 구별로 살펴보면 ▲강서구 6곳, ▲마포구 3곳, ▲광진구 2곳, ▲도봉구 2곳, 중량구 2곳, ▲서대문구 1곳, ▲성동구 1곳, ▲종로구 1곳, ▲동작구 1곳, ▲동대문구 1곳, ▲용산구 1곳, ▲서초구 1곳, ▲영등포구 1곳, ▲강동구 1곳,▲노원구 1곳, ▲강남구 1곳, ▲은평구 1곳, ▲관악구 1곳 등이 완공된 상태다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.youthdaily.co.kr/news/article.html?no=103460",
+            "search_query": "서울시 역세권 청년주택 완공",
+            "terminate": false,
+            "text": "현재까지 완공된 곳은 29곳인데, 강서구가 6곳으로 가장 많고, 마포구 3곳, 광진구, 도봉구, 중량구가 2곳, 서대문구, 성동구, 종로구, 동작구, 동대문구, 용산구 , 서초구, 영등포구, 강동구,노원구, 강남구, 은평구, 관악구가 모두 1곳 이지만 현재 진행중인 곳들이 있으니 적은 곳들도 더 많이 늘어날거예요.",
+            "turn_id": "BK22001390-10",
+            "utterance_id": "BK22001390.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "현재 완공된 것은, 강서구에 가장 많이 있군요. 생각보다 골고루 한 곳이라도 있어서 다행이네요. 자격 등 조건 맞으면 신청은 어디서 해요?",
+            "turn_id": "BK22001390-11",
+            "utterance_id": "BK22001390.21"
+        },
+        {
+            "reference_date": "2019-12-04",
+            "reference_text": [
+                {
+                    "value": "역세권 청년주택 신청방법은 서울시 홈페이지에서 구체적인 소득기준 확인, 입주자(대상자) 모집 공고 신청한다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=758434",
+            "search_query": "서울시 역세권 청년주택 신청방법",
+            "terminate": false,
+            "text": "신청하려면, 서울시 홈페이지에서 구체적인 소득 기준 확인하고, 입주자 모집공고를 보고 원하는 곳의 모집공고에 신청하는 거예요.",
+            "turn_id": "BK22001390-11",
+            "utterance_id": "BK22001390.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "원하는 곳 공공임대에 되면 좋겠네요. 오늘 많은 정보 주셔서 정말 감사해요.",
+            "turn_id": "BK22001390-12",
+            "utterance_id": "BK22001390.23"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "원하는 곳 되길 저도 바랄게요, 행운을 빌어요.",
+            "turn_id": "BK22001390-12",
+            "utterance_id": "BK22001390.24"
+        }
+    ]
+}

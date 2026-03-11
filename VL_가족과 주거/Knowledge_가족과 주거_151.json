@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018204",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018204",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0029"
+            },
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려동물 관련된 자격증을 취득하면 좋을 거 같아서 알아보고 있어. 혹시 펫 케어 시장 규모가 어느 정도인지 아니?",
+            "turn_id": "BK22018204-1",
+            "utterance_id": "BK22018204.1"
+        },
+        {
+            "reference_date": "44844.0",
+            "reference_text": [
+                {
+                    "value": "한국무역협회 국제무역통상연구원이 1월 펴낸 보고서 ‘성장하는 펫케어 산업 최신 트렌드와 우리 기업의 글로벌 경쟁력 강화 방안’에 따르면 국내 펫케어 시장 규모는 2017년 14억8000만 달러(약 2조836억 원)에서 2020년 17억9000만 달러(약 2조5000억 원)로 커졌고 2026년엔 27억9000만 달러(약 3조9000억 원)까지 성장할 전망이다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://weekly.donga.com/3/all/11/3683548/1",
+            "search_query": "국내 펫케어 시장 규모",
+            "terminate": false,
+            "text": "한국무역협회 국제무역 통상연구원이 2022년 1월 펴낸 보고서인 성장하는 펫 케어 산업 최신 트렌드와 우리 기업의 글로벌 경쟁력 강화 방안에 따르면 국내 펫 케어 시장 규모가 2017년에는 14억 8,000만 달러, 2020년에는 17억 9,000만 달러 2026년 성장 전망으로는 27억 9,000만 달러야.",
+            "turn_id": "BK22018204-1",
+            "utterance_id": "BK22018204.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "펫 케어 시장이 점점 성장할 전망이라고 하니, 좀 더 적극적으로 반려동물 자격증을 알아봐야겠어.",
+            "turn_id": "BK22018204-2",
+            "utterance_id": "BK22018204.3"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동물을 사랑한다면 반려동물 관련 자격증 취득이 너에게 딱 맞는 직업이 될 수 있을 거야.",
+            "turn_id": "BK22018204-2",
+            "utterance_id": "BK22018204.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려동물 미용사 자격증을 가장 먼저 생각하고 있거든. 취득하고 하는 업무에 대해서 알려줄래?",
+            "turn_id": "BK22018204-3",
+            "utterance_id": "BK22018204.5"
+        },
+        {
+            "reference_date": "44537.0",
+            "reference_text": [
+                {
+                    "value": "동물미용사는 반려동물의 위생과 아름다움을 위해 개체별 특성에 맞는 미용 방법으로 모발 관리, 스타일링 작업, 고객과 기자재 관리 업무 등을 하는 직업이다.",
+                    "value_time": "44844.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/society/schooling/1022160.html",
+            "search_query": "동물 미용사",
+            "terminate": false,
+            "text": "반려동물의 아름다움뿐만 아니라 위생을 위해 반려동물의 각 특성에 맞춰 모발 관리, 스타일링, 기자재 및 고객관리 업무를 해.",
+            "turn_id": "BK22018204-3",
+            "utterance_id": "BK22018204.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려동물 미용사 자격증을 취득할 수 있는 기관이 많던데, 어떤 곳들이 있어?",
+            "turn_id": "BK22018204-4",
+            "utterance_id": "BK22018204.7"
+        },
+        {
+            "reference_date": "44727.0",
+            "reference_text": [
+                {
+                    "value": "반려동물 미용 자격증은 발급 기관에 따라 ▲한국애견협회의 ‘반려견스타일리스트’ ▲한국애견연맹의 ‘애견미용사’ ▲한국반려동물산업진흥원의 ‘펫뷰티션’ 등이 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이중 반려견스타일리스트는 국내 반려동물 자격증 가운데 유일하게 국가 공인 민간자격증으로 등록돼 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailypop.kr/news/articleView.html?idxno=60573",
+            "search_query": "반려동물 미용사 발급기관",
+            "terminate": false,
+            "text": "한국애견협회의 반려견 스타일리스트, 한국애견연맹의 애견미용사, 한국 반려 동물산업진흥원의 펫뷰티션 등 발급기관에 따라서 반려동물 미용 자격증이 있고, 유일한 국가 공인 민간자격증은 반려견 스타일리스트야.",
+            "turn_id": "BK22018204-4",
+            "utterance_id": "BK22018204.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려동물 미용사도 관련 과를 나와야 한다든지 하는 시험 응시 자격이 있니?",
+            "turn_id": "BK22018204-5",
+            "utterance_id": "BK22018204.9"
+        },
+        {
+            "reference_date": "44727.0",
+            "reference_text": [
+                {
+                    "value": "시험 응시 조건은 연령과 학력에는 별다른 제한을 두고 있지 않으나 자격증 종류와 검정 등급에 따라 실무경력이 필요한 경우도 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "시험은 대부분 필기시험과 실기시험을 거치게 된다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자격증 종류에 따라 필기시험 이후 직무교육을 요하는 경우도 있으니 응시 전 확인하는 것이 좋다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailypop.kr/news/articleView.html?idxno=60573",
+            "search_query": "반려동물 미용사 시험 응시 조건",
+            "terminate": false,
+            "text": "학력이나 연령 등 시험응시 조건에 제한은 없어. 하지만 검정 등급이나, 자격증이 어떤 종류냐에 따라 실무경력이 요구되는 곳이 있어. 대부분 시험은 필기와 실기시험을 거치고 자격증 종류에 따라서 필기시험을 본 후 직무교육을 받아야 하는 것도 있으니 응시하기 전에 확인해 보는 게 좋아.",
+            "turn_id": "BK22018204-5",
+            "utterance_id": "BK22018204.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나는 관련 과를 나오지 않아 응시 조건이 없다는 게 너무 마음이 놓이네. 혹시 반려동물 행동 교정 자격증에는 어떤 게 있어?",
+            "turn_id": "BK22018204-6",
+            "utterance_id": "BK22018204.11"
+        },
+        {
+            "reference_date": "44727.0",
+            "reference_text": [
+                {
+                    "value": "반려동물 행동교정 자격증은 ▲한국애견협회 ‘반려견지도사’ ▲한국애견연맹 ‘훈련사’ ▲한국반려동물산업진흥원 ‘반려동물행동교정사’ 등이 가장 대표적이다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "관련 자격증 대부분이 반려견을 기반으로 하는 가운데 반려묘 행동지도 관련 자격증으로는 한국반려동물 상담센터의 ‘고양이행동상담사’도 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailypop.kr/news/articleView.html?idxno=60573",
+            "search_query": "반려동물 행동교정 자격증",
+            "terminate": false,
+            "text": "한국애견협회 반려견 지도사, 한국애견연맹의 훈련사, 한국 반려 동물산업진흥원의 반려동물행동교정사 등이 가장 대표적인 반려동물 행동 교정 자격증이야. 대부분 자격증이 반려견을 대상으로 하지만 한국 반려동물 상담센터의 고양이 행동 상담사는 반려묘에 대한 행동 지도 자격이야.",
+            "turn_id": "BK22018204-6",
+            "utterance_id": "BK22018204.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시험에 통과한 후에는 어디에서 일할 수 있어?",
+            "turn_id": "BK22018204-7",
+            "utterance_id": "BK22018204.13"
+        },
+        {
+            "reference_date": "44727.0",
+            "reference_text": [
+                {
+                    "value": "자격증 취득 후에는 훈련사로서는 물론 보호자 교육, 상담센터, 애견센터 등 다양한 공간에서 활동을 할 수 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailypop.kr/news/articleView.html?idxno=60573",
+            "search_query": "반려동물 행동교정 자격증 활동",
+            "terminate": false,
+            "text": "자격증을 취득하고서 훈련사로 활동하거나, 보호자의 교육을 할 수도 있고 상담센터, 애견센터 등으로 다양한 활동이 가능해.",
+            "turn_id": "BK22018204-7",
+            "utterance_id": "BK22018204.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 반려견을 키우다 보면 반려견이 먹는 사료에 대해서 민감하게 따져봐. 이런 반려견 식품과 관련된 자격증도 있어?",
+            "turn_id": "BK22018204-8",
+            "utterance_id": "BK22018204.15"
+        },
+        {
+            "reference_date": "44727.0",
+            "reference_text": [
+                {
+                    "value": "관련 자격증으로는 ▲한국반려동물산업진흥원의 ‘반려동물식품관리사’ ▲한국펫푸드교육개발원의 ‘펫푸드마스터’ ▲한국건강한반려동물협회의 ‘펫푸드스타일리스트’ 등이 꼽힌다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자격증 취득 후에는 수제 간식 전문점이나 펫 베이커리 등을 창업하거나 전문 강사로 활동할 수 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailypop.kr/news/articleView.html?idxno=60573",
+            "search_query": "반려동물 식품 자격증",
+            "terminate": false,
+            "text": "한국 반려 동물산업진흥원의 반려동물 식품 관리사, 한국 펫푸드 교육개발원의 펫푸드 마스터, 한국 건강한 반려동물협회의 펫 푸드스타일리스트 등이 관련 자격증이야. 취득 후 수제 간식 전문점이나 펫 베이커리 등을 을 창업할 수도 있고, 전문적인 강사로도 활동이 가능해.",
+            "turn_id": "BK22018204-8",
+            "utterance_id": "BK22018204.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상상하고 싶지 않지만, 반려견이 죽었을 때가 가장 힘들 거 같아. 이와 관련한 반려견 장례에 관련한 자격증도 있어?",
+            "turn_id": "BK22018204-9",
+            "utterance_id": "BK22018204.17"
+        },
+        {
+            "reference_date": "44727.0",
+            "reference_text": [
+                {
+                    "value": "국내 반려동물장례지도사 자격증은 반려동물산업진흥원, 한국동물장례협회, 한국반려동물관리협회 등에서 발급하고 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자격증을 취득한 후에는 반려동물 장례 시설 및 기관에서 활동할 수 있는 것은 물론, 펫로스 상담사로서의 역할도 수행할 수 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailypop.kr/news/articleView.html?idxno=60573",
+            "search_query": "반려동물장례",
+            "terminate": false,
+            "text": "국내에서는 반려동물 산업진흥원, 한국 동물장례협회, 한국 반려동물 관리협회 등에서 발급하고 있는 반려동물 장례지도사 자격증이 있어. 자격증을 취득하면 반려동물 장례시설이나 펫로스 상담사로 활동이 가능해.",
+            "turn_id": "BK22018204-9",
+            "utterance_id": "BK22018204.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려동물 관련한 자격증에 대해서 많이 알려줘서 고마워. 네가 알려준 정보로 진로를 고민해 봐야겠어.",
+            "turn_id": "BK22018204-10",
+            "utterance_id": "BK22018204.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "너의 도전을 항상 응원하고 있을게. 언제든지 궁금한 게 있으면 나에게 물어봐.",
+            "turn_id": "BK22018204-10",
+            "utterance_id": "BK22018204.20"
+        }
+    ]
+}

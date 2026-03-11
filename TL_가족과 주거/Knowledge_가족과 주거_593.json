@@ -1,0 +1,431 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015837",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015837",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "출산 준비 중이에요. 구입하거나 물려받은 신생아 용품들을 보니 이제 정말 출산이 얼마 남지 않았구나 하는 느낌이 들어요.",
+            "turn_id": "BK22015837-1",
+            "utterance_id": "BK22015837.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "많이 설레기도 하고 긴장도 되시겠어요. 그럼 준비는 거의 끝난 건가요?",
+            "turn_id": "BK22015837-1",
+            "utterance_id": "BK22015837.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아니요, 물품만 겨우 준비했을 뿐이에요. 아직 신생아 돌보기 준비는 많이 모자라서 궁금한 게 많은데 좀 가르쳐주실 수 있나요? 신생아의 모유 수유는 얼마나 자주 해야 하나요?",
+            "turn_id": "BK22015837-2",
+            "utterance_id": "BK22015837.3"
+        },
+        {
+            "reference_date": "2016-10-20",
+            "reference_text": [
+                {
+                    "value": "신생아의 모유 수유 횟수는 1시간 30분~3시간 기간을 두고 배고플 때마다 자주 먹인다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "밤중 수유 간격은 최대 4시간으로 4시간이 지나면 깨워서 먹이도록 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수유 시간은 최대 30분으로 번갈아 가면서 15분씩 물린다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "신생아는 위와 식도를 연결하는 근육이 미숙하고 일직선으로 연결되어 있기 때문에 분유나 젖을 먹은 뒤 잘 게워낸다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러므로 수유 후에는 반드시 트림을 시킨 후 소화가 될 때까지 안아 주는 것이 좋다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=201610200134o",
+            "search_query": "신생아 돌보기 수유 수유량",
+            "terminate": false,
+            "text": "1시간 30분에서 3시간 간격을 두고 배고플 때마다 자주 먹이세요. 수유 시간은 최대 30분, 15분씩 번갈아 가면서 젖을 물리도록 해요. 밤중에는 최대 4시간의 차이를 두고 먹이고, 4시간이 지났다면 깨워서 먹이세요. 그리고 수유 후에는 반드시 트림시키고 소화가 될 때까지 안고 있는 것이 좋은데, 신생아의 위와 식도는 일직선으로 연결되어 있고, 연결 근육이 미숙하기 때문에 젖이나 분유를 먹은 후 잘 토하기 때문이에요.",
+            "turn_id": "BK22015837-2",
+            "utterance_id": "BK22015837.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 신생아에게는 기저귀 발진도 많이 생긴다고 하던데 어떻게 예방하면 좋은가요?",
+            "turn_id": "BK22015837-3",
+            "utterance_id": "BK22015837.5"
+        },
+        {
+            "reference_date": "2018-07-05",
+            "reference_text": [
+                {
+                    "value": "젖은 기저귀를 장시간 채워둘 경우, 대소변에 들어 있는 암모니아가 아기 피부에 손상을 줘 피부를 짓무르고 붉게 만들기 때문에 대소변 직후 기저귀를 되도록 빨리 갈아주는 것이 중요하다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대소변을 본 직후 아이 엉덩이를 씻어줄 때는 피부가 마찰되어 자극 받지 않도록 물티슈보다는 흐르는 물에 깨끗이 씻겨줄 것을 권장한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "바디워시나 비누 등을 사용해 엉덩이를 씻길 시, 비눗기가 남지 않도록 신경 써야 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기저귀를 채울 시에는 기저귀를 찬 부위에 공기가 잘 통하도록 꽉 조이기보다는 통기성을 위해 느슨하게 채운다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=201807051942o",
+            "search_query": "신생아 기저귀 발진 예방",
+            "terminate": false,
+            "text": "대소변에 있는 암모니아로 인해 피부 손상이 오지 않도록, 대소변 직후 기저귀를 가능한 한 빨리 갈아주는 것이 중요해요. 또 아이 엉덩이를 씻어줄 때는 피부 마찰로 자극받지 않도록 물티슈를 쓰기보다 흐르는 물에 깨끗이 씻어주는 것이 좋으며, 비누나 바디워시를 사용하는 경우에는 비눗기가 남아 있지 않도록 주의를 기울여야 해요. 또 기저귀를 찬 부위에 공기가 잘 통하도록 기저귀를 느슨하게 채워주세요.",
+            "turn_id": "BK22015837-3",
+            "utterance_id": "BK22015837.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좋은 팁 감사해요. 신생아에게는 황달이 많이 생긴다고 하던데, 신생아 황달은 어떤 병인가요?",
+            "turn_id": "BK22015837-4",
+            "utterance_id": "BK22015837.7"
+        },
+        {
+            "reference_date": "2022-04-20",
+            "reference_text": [
+                {
+                    "value": "그중에서 신생아 황달은 정상 신생아의 60~80%에서 나타날 만큼 흔한 질환이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "신생아 황달이란 신생아의 피부와 눈 흰자위의 색이 노란색을 띠는 것을 말한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "황달은 아기의 핏속에 빌리루빈이라는 담황색 담즙 색소가 많아져 생기는 것이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아기의 간이 효과적으로 빌리루빈을 제거하기까지 며칠이 걸리므로 아기들은 대부분 출생 후 첫수일 간 황달이 생긴다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000689756",
+            "search_query": "신생아 황달",
+            "terminate": false,
+            "text": "신생아 황달은 아기의 핏속에 빌리루빈이라는 담황색 담즙 색소가 많아져서 생기는 것으로, 신생아의 피부와 눈 흰자위의 색이 노란색을 띠게 되죠. 60-80%의 정상 신생아가 황달을 보일 만큼 흔한 질환이에요. 아기의 간이 빌리루빈을 효과적으로 제거하는 데는 며칠이 소요되기 때문에, 보통 아기들은 출생 후 첫수일 간 황달이 나타나요.",
+            "turn_id": "BK22015837-4",
+            "utterance_id": "BK22015837.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신생아의 황달은 크게 염려하지 않아도 되는군요. 하지만 신생아 황달에서 따로 검사가 필요한 경우라면 언제일까요?",
+            "turn_id": "BK22015837-5",
+            "utterance_id": "BK22015837.9"
+        },
+        {
+            "reference_date": "2022-04-20",
+            "reference_text": [
+                {
+                    "value": "병리적 황달은 신경학적 장애를 초래할 수 있기에, 원인 질환을 정확하게 진단하고 치료하는 것이 필요하다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "생후 24시간이 되지 않은 아기에게 황달이 생기거나 황달이 2주 이상 지속된다면 반드시 빌리루빈 수치를 검사해야 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아기 피부의 노란끼가 심해지거나, 아기의 배와 양 팔다리가 노란 경우, 황달이 있는 아기가 보채거나 젖이나 분유를 잘 먹지 않는다면 내원해 검사받는 것이 좋다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000689756",
+            "search_query": "신생아 황달 검사",
+            "terminate": false,
+            "text": "생후 24시간이 되지 않은 아기가 황달 증세를 보이거나 2주 이상 황달이 지속된다면 반드시 검사를 해서 빌리루빈 수치를 확인해야 해요. 또 아기 피부의 노란끼가 심해지거나, 아기의 배, 양 팔다리가 노란 경우, 황달인 아기가 보채거나 젖이나 분유를 잘 먹지 않는 경우도 검사받는 것이 좋아요. 병리적 황달은 신경학적 장애를 일으킬 수 있기 때문에, 원인 질환에 대한 정확한 진단과 치료가 꼭 필요해요.",
+            "turn_id": "BK22015837-5",
+            "utterance_id": "BK22015837.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 신생아 황달에서 검사가 필요한 경우에 대해 잘 기억해두어야겠어요. 태열은 어떻게 관리하면 좋은가요?",
+            "turn_id": "BK22015837-6",
+            "utterance_id": "BK22015837.11"
+        },
+        {
+            "reference_date": "2018-01-16",
+            "reference_text": [
+                {
+                    "value": "특히, 태열의 경우 모체로부터 받은 열이 생후 1-2개월쯤 나타나기 시작하는데, 신생아 좁쌀 여드름 증상과 동반 된 붉어진 피부가 호전과 악화를 반복할 수 있기도하며, 심하면 아기아토피로 진행 될 수 있기 때문에 건조한 피부가 계속 되지 않도록 목욕부터 보습까지 수분을 잃지 않도록 신생아크림이나 보습크림을 통한 보습관리가 중요하다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.cctvnews.co.kr/news/articleView.html?idxno=77260",
+            "search_query": "신생아 태열 관리",
+            "terminate": false,
+            "text": "태열의 경우는 목욕부터 보습까지 수분 손실이 없도록 신생아 크림이나 보습 크림을 통한 보습 관리로 건조한 피부가 지속되지 않도록 하는 것이 중요해요. 생후 1-2개월 사이에 엄마로부터 받은 열이 나타나면서, 신생아 좁쌀 여드름과 피부가 붉어지는 증상 등을 보이고, 증상의 호전과 악화가 반복되기도 하며 심한 경우 아기 아토피로 진행될 수 있기 때문이죠.",
+            "turn_id": "BK22015837-6",
+            "utterance_id": "BK22015837.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "보습 관리가 중요하군요. 신생아 배꼽 관리는 어떻게 해야 하나요? 매일 소독해야 할까요?",
+            "turn_id": "BK22015837-7",
+            "utterance_id": "BK22015837.13"
+        },
+        {
+            "reference_date": "2012-11-02",
+            "reference_text": [
+                {
+                    "value": "A> 배꼽은 특별히 매일 소독할 필요가 없으며, 말라 떨어질 때까지 깨끗하고 건조하게만 유지하면 됩니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "떨어질 때가 되면 피가 살짝 묻어날 수도 있으나 이는 정상적인 과정입니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 지속적인 출혈이 있을 경우 즉시 병원을 찾아야 합니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "탯줄감염은 흔하지 않으나 탯줄에서 안 좋은 냄새가 나거나 노란 분비물이 보일 경우, 혹은 배꼽 주변의 피부가 붉게 보일 경우, 탯줄이나 주변 피부를 만질 때 아기가 유독 운다면 감염이 의심됨으로 바로 병원을 찾아야 합니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "탯줄은 늦어도 생후 2개월까지는 떨어져야 하고, 2개월이 넘도록 떨어지지 않는다면 정밀검사가 필요합니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/086/0002131084?sid=102",
+            "search_query": "초보맘 신생아 돌보기 배꼽",
+            "terminate": false,
+            "text": "아니요, 특별히 매일 소독할 필요는 없어요. 말라 떨어질 때까지 깨끗하고 건조하게만 유지하면 되고, 떨어질 때가 되면 피가 살짝 묻어나기도 하지만 그건 정상적인 거예요. 하지만 출혈이 계속된다면 즉시 내원해 진료를 받아야 해요. 또 흔하지는 않지만, 탯줄에서 안 좋은 냄새가 나거나 노란 분비물이 관찰되는 경우, 또 탯줄이나 주변의 피부를 만질 때 아기가 유독 운다면, 혹은 배꼽 주변의 피부가 붉게 보이는 경우에는 감염이 의심되기 때문에, 바로 병원을 방문해야 해요. 탯줄은 최대 생후 2개월까지는 떨어져야 하고, 만약 2개월이 넘도록 떨어지지 않는 경우라면 정밀검사를 받아야 해요.",
+            "turn_id": "BK22015837-7",
+            "utterance_id": "BK22015837.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어요. 아기의 배꼽이 불룩 튀어나와 있다고 보이는 경우에는 어떻게 하면 좋은가요?",
+            "turn_id": "BK22015837-8",
+            "utterance_id": "BK22015837.15"
+        },
+        {
+            "reference_date": "2012-11-02",
+            "reference_text": [
+                {
+                    "value": "A> 아기의 배꼽이 불룩 튀어나왔다면 제대탈장을 의심해 볼 수 있습니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "제대 탈장일 경우 배꼽 부분이 불룩 튀어나와 보이고, 웃거나 기침을 하거나, 울거나 변을 볼 때 더 두드러집니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "제대 탈장은 영유아의 10%에서 관찰되는 흔한 소견입니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 미숙아일 경우 그 빈도는 더 높습니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "제대 탈장은 아프지 않고 생후 1년 내에 85%가 제자리로 들어가고 근육이 그 자리를 메우게 됩니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/086/0002131084?sid=102",
+            "search_query": "초보맘 신생아 돌보기 배꼽",
+            "terminate": false,
+            "text": "제대 탈장을 의심해볼 수 있어요. 제대 탈장의 경우에는 배꼽 부분이 불룩 튀어나와 보이고, 웃거나 기침을 하는 경우, 혹은 울거나 변을 볼 때 더 두드러지게 관찰됩니다. 하지만 제대 탈장은 아프지 않고 생후 1년 내에 85%가 제자리로 들어가며 그 자리를 근육이 메우게 되지요. 영유아의 10%에서 볼 수 있는 흔한 소견이며, 미숙아의 경우는 더 자주 관찰되죠.",
+            "turn_id": "BK22015837-8",
+            "utterance_id": "BK22015837.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아픈 것은 아니군요. 그러면 신생아가 너무 심하게 울거나 밤새 혹은 온종일 보챈다면, 어떻게 보아야 할까요?",
+            "turn_id": "BK22015837-9",
+            "utterance_id": "BK22015837.17"
+        },
+        {
+            "reference_date": "2012-11-02",
+            "reference_text": [
+                {
+                    "value": "A> 아기가 보채는 것 이상으로 울음이 심해지거나 밤새, 혹은 낮 동안 온종일 보챈다면 영아산통일 수 있습니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "생후 2~4주 사이 아기들의 20%가 영아산통을 경험합니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하루 종일 울고 초저녁에는 더 심해집니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "왜 이런 현상이 나타나는지 아직 정확하게 밝혀지지는 않았습니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 아기의 신경계가 아직 덜 자라 자극에 특별히 민감하거나 아기의 신경조절 능력이 떨어져 나타나는 것으로 추정하고 있습니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/086/0002131084?sid=102",
+            "search_query": "초보맘 신생아 돌보기 영아산통",
+            "terminate": false,
+            "text": "보채는 것 이상으로 울음이 심하고, 온종일 혹은 밤새도록 보채는 경우, 하루 종일 울고 초저녁에는 더 심해진다면 영아산통일 수 있어요. 생후 2-4주 사이 아기들의 20%가 영아산통을 겪지만, 정확한 이유는 아직 알지 못해요. 아기의 신경계가 아직 미숙하기 때문에 자극에 특별히 민감하거나 아기의 신경 조절 능력이 떨어져 이런 증상이 나타나는 것으로 보고 있어요.",
+            "turn_id": "BK22015837-9",
+            "utterance_id": "BK22015837.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 신생아 돌보기에 대해 알려주셔서 감사해요. 많은 도움이 되었어요. 다음에도 또 알려주세요, 또 만나요.",
+            "turn_id": "BK22015837-10",
+            "utterance_id": "BK22015837.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 출산 준비할 것이 참 많지요? 예쁜 아가 만날 날이 머지않았으니 힘내세요. 신생아 돌보기도 잘 할 수 있을 거예요. 다음에 만나요.",
+            "turn_id": "BK22015837-10",
+            "utterance_id": "BK22015837.20"
+        }
+    ]
+}

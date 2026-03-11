@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015867",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015867",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "친구네 고양이가 세동이염에 걸렸다고 걱정이 많더라고요. 저는 처음 들어보는 질환인데 세동이염은 어떤 질환인가요?",
+            "turn_id": "BK22015867-1",
+            "utterance_id": "BK22015867.1"
+        },
+        {
+            "reference_date": "2022-09-07",
+            "reference_text": [
+                {
+                    "value": "고양이에서 간, 췌장, 장 등 여러 장기에 동시적인 염증이 진단될 때가 있는데 이를 ‘세동이염(Triaditis)’이라 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61044",
+            "search_query": "고양이 세동이염",
+            "terminate": false,
+            "text": "고양이의 간이나 췌장, 장과 같은 여러 장기에서 동시적인 염증을 보일 때 세동이염이라고 불러요. 그나저나 친구분 걱정이 많으시겠어요.",
+            "turn_id": "BK22015867-1",
+            "utterance_id": "BK22015867.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 정말 못 본 사이 핼쑥해졌더라고요. 그런데 세동이염은 무슨 뜻인가요? 생소한 병이다 보니 이름도 낯서네요.",
+            "turn_id": "BK22015867-2",
+            "utterance_id": "BK22015867.3"
+        },
+        {
+            "reference_date": "2022-09-07",
+            "reference_text": [
+                {
+                    "value": "세 개를 의미하는 Triad에 염증을 의미하는 접미어 -itis가 만나 붙여진 명칭인데 이는 병명이라기보단 3가지 질환을 묶어 부르는 용어다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61044",
+            "search_query": "세동이염 명칭",
+            "terminate": false,
+            "text": "세동이염은 세 개를 의미하는 Triad에 염증을 뜻하는 접미어인 itis를 붙여 만들어진 이름인데 사실 병의 이름이라기보다는 세 가지 질환을 묶어서 부르는 용어에 가까워요.",
+            "turn_id": "BK22015867-2",
+            "utterance_id": "BK22015867.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그래서 여러 장기에서 염증이 진단될 때 세동이염이라고 부르는 거군요. 그런데 저는 강아지를 키워서 반려동물과 관련된 웬만한 질병은 잘 알고 있는 편인데 너무 생소한 병이거든요. 원래 고양이가 더 걸리기 쉬운 병인가요?",
+            "turn_id": "BK22015867-3",
+            "utterance_id": "BK22015867.5"
+        },
+        {
+            "reference_date": "2022-09-07",
+            "reference_text": [
+                {
+                    "value": "세동이염은 개보다 고양이에서 흔히 발생한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 해부학 구조 때문이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61044",
+            "search_query": "세동이염 고양이",
+            "terminate": false,
+            "text": "네, 맞아요. 세동이염은 해부학 구조 때문에 개보다 고양이가 더 걸리기 쉬운 질환이에요.",
+            "turn_id": "BK22015867-3",
+            "utterance_id": "BK22015867.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "해부학 구조 때문에 생기는 차이군요. 그런데 어떤 차이가 있어서 고양이한테서 발생하기 쉬운 질병인 건가요?",
+            "turn_id": "BK22015867-4",
+            "utterance_id": "BK22015867.7"
+        },
+        {
+            "reference_date": "2022-09-07",
+            "reference_text": [
+                {
+                    "value": "췌장관과 담관이 따로 십이지장으로 연결되는 개와는 달리 고양이에서는 췌장관이 십이지장으로 들어가기 전에 담관과 만나기 때문이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 고양이의 십이지장에는 개보다 약 100배 많은 세균이 있어 어떠한 문제로 십이지장 소화액의 역류가 발생하면 췌장과 간담도로 상행하기 쉽다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61044",
+            "search_query": "세동이염 췌장관",
+            "terminate": false,
+            "text": "네, 우선 개의 경우 췌장관과 담관이 별도로 십이지장으로 연결되는 모양새인데 고양이는 췌장관이 십이지장에 연결되기 전에 담관을 먼저 만나는 구조이기 때문이에요. 또 개와 고양이는 십이지장에 있는 세균도 차이가 있는데 일반적으로 고양이가 개보다 100배나 많은 세균을 가지고 있거든요. 때문에 십이지장 소화액이 역류하는 경우 췌장과 간담도로 올라가기도 쉬워요.",
+            "turn_id": "BK22015867-4",
+            "utterance_id": "BK22015867.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소화기관이 정말 꽤 다른 모양새를 하고 있네요. 그럼 세동이염은 어떤 증상을 보이나요?",
+            "turn_id": "BK22015867-5",
+            "utterance_id": "BK22015867.9"
+        },
+        {
+            "reference_date": "2022-09-07",
+            "reference_text": [
+                {
+                    "value": "세동이염의 주된 임상증상은 구토, 식욕저하, 무기력, 탈수, 발열 등과 같은 비특이적인 증상이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "간질환이나 췌장염에 의한 담즙정체로 황달도 나타날 수 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61044",
+            "search_query": "세동이염 탈수",
+            "terminate": false,
+            "text": "보통 세동이염의 증상으로는 구토, 식욕저하, 무기력, 탈수, 발열과 같이 그리 특이하지 않은 증상들을 보여요. 또 간질환이나 췌장염으로 인해 담즙 정체가 생겨 황달이 나타나는 경우도 있죠.",
+            "turn_id": "BK22015867-5",
+            "utterance_id": "BK22015867.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 그리 특이한 증상을 보이지 않는다면 세동이염을 어떻게 진단할 수 있는지 궁금해요.",
+            "turn_id": "BK22015867-6",
+            "utterance_id": "BK22015867.11"
+        },
+        {
+            "reference_date": "2022-09-07",
+            "reference_text": [
+                {
+                    "value": "진단은 기본적으로 혈구검사, 생화학검사, 요검사, fPL과 같은 임상병리검사와 방사선, 초음파와 같은 영상검사가 필요하다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61044",
+            "search_query": "고양이 세동이염 진단",
+            "terminate": false,
+            "text": "네, 보통 혈구검사와 생화학검사, 요검사, fPL과 같은 임상병리검사와 방사선, 초음파와 같은 영상검사를 통해 진단을 할 수 있어요.",
+            "turn_id": "BK22015867-6",
+            "utterance_id": "BK22015867.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 다양한 검사를 받아야 진단을 받을 수 있군요. 그럼 세동이염의 치료는 어떻게 이뤄지나요?",
+            "turn_id": "BK22015867-7",
+            "utterance_id": "BK22015867.13"
+        },
+        {
+            "reference_date": "2022-09-07",
+            "reference_text": [
+                {
+                    "value": "치료는 항생제요법과 간의 산화손상과 염증을 억제하는 처치 외에 수액, 영양요법이 매우 중요하다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61044",
+            "search_query": "고양이 세동이염 치료",
+            "terminate": false,
+            "text": "네, 항생제 요법과 간의 산화손상과 염증을 막기 위한 처치를 해요. 또 이외에도 수액과 영양요법이 몹시 중요하죠.",
+            "turn_id": "BK22015867-7",
+            "utterance_id": "BK22015867.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여러 장기에서 염증을 보이는 만큼 치료도 어려워 보이네요. 그럼 세동이염은 치료를 받고 나서는 건강해질 수 있는 건가요?",
+            "turn_id": "BK22015867-8",
+            "utterance_id": "BK22015867.15"
+        },
+        {
+            "reference_date": "2022-09-07",
+            "reference_text": [
+                {
+                    "value": "예후는 다양하고 주로 간질환의 원인이나 심각도에 따라 달라진다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대부분 회복되더라도 췌장염과 염증성장질환에 대한 장기적 관리가 필요하다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61044",
+            "search_query": "고양이 세동이염 예후",
+            "terminate": false,
+            "text": "음, 예후에 대해 말씀드리기가 어려운 게 이 질환은 예후가 정말 다양한 질환이에요. 특히 간질환의 원인이나 깊이에 따라 달라지거든요. 또 회복이 된다고 하더라도 췌장염과 염증성 장 질환은 꾸준히 관리해야 하고요.",
+            "turn_id": "BK22015867-8",
+            "utterance_id": "BK22015867.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이고, 증세가 좋아지더라도 꾸준히 관리해줘야 하는 질환이군요. 친구가 정말 힘들겠어요. 오늘 이렇게 세동이염에 대해 알려주셔서 정말 감사해요.",
+            "turn_id": "BK22015867-9",
+            "utterance_id": "BK22015867.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이고, 궁금이님이 이렇게 걱정해주시는 걸 보니 친구분이 든든하겠어요.",
+            "turn_id": "BK22015867-9",
+            "utterance_id": "BK22015867.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아녜요, 사실 모르는 병이라 의례적으로 위로만 하고 넘어갔는 데 정말 미안해지네요. 이따 꼭 연락해서 응원도 하고 걱정도 함께 해줘야겠어요. 그럼 조심히 들어가세요.",
+            "turn_id": "BK22015867-10",
+            "utterance_id": "BK22015867.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "에구, 그렇게까지 생각해주시다니 친구분께 정말 큰 도움이 될 거예요. 네, 그럼 궁금이님도 조심히 들어가세요.",
+            "turn_id": "BK22015867-10",
+            "utterance_id": "BK22015867.20"
+        }
+    ]
+}

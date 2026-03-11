@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018390",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018390",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0018"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘은 연인끼리 데이트 통장을 만들어 소비를 관리하는 경우가 많아졌어요.",
+            "turn_id": "BK22018390-1",
+            "utterance_id": "BK22018390.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 애인과 데이트 통장을 만들어 쓰고 있는데 장점도 있고 단점도 있는 것 같아요.",
+            "turn_id": "BK22018390-1",
+            "utterance_id": "BK22018390.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전문가님도 데이트 통장을 쓰시는군요. 기본적으로 데이트 통장은 어떻게 사용하나요?",
+            "turn_id": "BK22018390-2",
+            "utterance_id": "BK22018390.3"
+        },
+        {
+            "reference_date": "43731.0",
+            "reference_text": [
+                {
+                    "value": "데이트 통장을 만든 두 사람은 함께 정한 날에 맞춰 한 통장에 식비, 문화생활비 등 데이트할 때 쓰일 비용을 입금한다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "같은 금액을 입금할 수도 있으며, 소득이 높은 사람이 더 부담하는 경우도 많다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=500437",
+            "search_query": "데이트 통장",
+            "terminate": false,
+            "text": "연인끼리 데이트 통장을 만들었으면 협의한 날에 맞춰 하나의 계좌에 문화생활비나 식비 등 데이트에 쓸 비용을 입금해요. 이때 같은 금액을 넣을 수도 있고, 소득이 많은 쪽이 조금 더 내기도 해요.",
+            "turn_id": "BK22018390-2",
+            "utterance_id": "BK22018390.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 데이트 통장을 용도에 따라 분리해서 쓸 수도 있을까요?",
+            "turn_id": "BK22018390-3",
+            "utterance_id": "BK22018390.5"
+        },
+        {
+            "reference_date": "44689.0",
+            "reference_text": [
+                {
+                    "value": "뿐만 아니라 목적성이 있는 데이트 통장도 개설 가능하다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하나는 평소 데이트를 할 때 쓰는 용도, 다른 하나는 여행 시에만 사용하는 용도로도 만들 수 있다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "목적이 분명한 데이트 통장은 서로에게 경제적 부담을 덜어내면서 데이트를 이어갈 수 있는 올바른 방법 중 하나다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gqkorea.co.kr/2022/05/08/%eb%8d%b0%ec%9d%b4%ed%8a%b8%ed%95%98%eb%a9%b4%ec%84%9c-%eb%8f%88%ec%9d%84-%ec%95%84%eb%82%84-%ec%88%98-%ec%9e%88%eb%8a%94-%ea%b7%bc%eb%b3%b8%ec%a0%81%ec%9d%b8-%eb%b0%a9%eb%b2%95-5/?utm_source=naver&utm_medium=partnership",
+            "search_query": "데이트 통장 목적",
+            "terminate": false,
+            "text": "그럼요, 데이트 통장을 목적성에 따라 만들어서, 하나는 평소 데이트에서 쓰는 용도로 또 하나는 여행할 때만 쓰는 용도로 만들 수 있어요. 이렇게 목적이 분명한 데이트 통장을 만들면 서로의 경제적 부담을 감소시킬 수 있어 좋아요.",
+            "turn_id": "BK22018390-3",
+            "utterance_id": "BK22018390.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그러면 실제로 얼마나 많은 커플이 데이트 통장을 사용하나요?",
+            "turn_id": "BK22018390-4",
+            "utterance_id": "BK22018390.7"
+        },
+        {
+            "reference_date": "44001.0",
+            "reference_text": [
+                {
+                    "value": "결혼정보회사 듀오(대표 박수경)가 5월 4일부터 5월 14일까지 미혼남녀 총 431명(남 212명, 여 219명)을 대상으로 ‘데이트 통장’에 대한 설문 조사를 실시했다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "결혼정보회사 듀오 설문 결과, 미혼남녀 53.8%는 연인과 데이트 통장을 만들어 본 적이 있었다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.thepublic.kr/news/view/1065579367252349",
+            "search_query": "데이트통장 설문 조사",
+            "terminate": false,
+            "text": "결혼정보회사 듀오에서 2020년 5월 4일부터 14일까지 미혼인 남녀 431명을 대상으로 데이트 통장에 대해 설문조사를 한 결과, 53.8퍼센트가 애인과 데이트 통장을 만든 경험이 있다고 응답했어요.",
+            "turn_id": "BK22018390-4",
+            "utterance_id": "BK22018390.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 많은 커플들이 데이트 통장을 사용한 이력이 있네요. 그럼 성별에 따라 데이트 통장을 만든 이유도 알 수 있을까요?",
+            "turn_id": "BK22018390-5",
+            "utterance_id": "BK22018390.9"
+        },
+        {
+            "reference_date": "44000.0",
+            "reference_text": [
+                {
+                    "value": "남성은 주로 ‘연인과 특별한 일(여행, 기념일 등)에 사용하기 위해서’(38.2%) 데이트 통장을 만들었다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반면, 여성은 ‘데이트 비용 절약’(38.8%)이 가장 큰 이유였으며, ‘공평한 데이트 비용’ (33.3%)과 ‘특별한 일에 사용하기 위해서’(19.2%)가 그 뒤를 이었다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.khan.co.kr/bizlife/sk_index.html?art_id=202006182238003&sec_id=560101&pt=nv",
+            "search_query": "데이트 통장 이유",
+            "terminate": false,
+            "text": "남성의 경우 38.2퍼센트가 연인과 여행이나 기념일 등 특별한 일에 쓰기 위해 데이트 통장을 개설했다고 응답한 반면, 여성의 경우 38.8퍼센트가 데이트 비용을 아끼는 게 가장 큰 이유였어요. 그 뒤로 33.3퍼센트는 공평한 데이트 비용, 19.2퍼센트는 특별한 일에 쓰기 위해서라고 응답했어요.",
+            "turn_id": "BK22018390-5",
+            "utterance_id": "BK22018390.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반면에 데이트 통장을 만들지 않는 이유로는 무엇이 있을까요?",
+            "turn_id": "BK22018390-6",
+            "utterance_id": "BK22018390.11"
+        },
+        {
+            "reference_date": "44000.0",
+            "reference_text": [
+                {
+                    "value": "반대로 데이트 통장을 만들지 않는다고 답한 이들은 그 이유로 △연인 사이에 계산적인 느낌이 들어서(45.2%) △필요성을 못 느껴서(23.2%) △헤어질 때 통장 정리에 대한 불편함(14.2%) 등을 택했다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatoday.co.kr/view.php?key=20200618010011491",
+            "search_query": "데이트 통장 반대",
+            "terminate": false,
+            "text": "우선 45.2퍼센트가 연인 사이에 계산적인 느낌이 들어서 데이트 통장을 만들지 않는다고 응답했어요. 또 23.2퍼센트는 데이트 통장의 필요를 못 느껴서, 그리고 14.2퍼센트는 사귀다 헤어질 때 통장을 정리하는 게 불편하다는 점을 꼽았어요.",
+            "turn_id": "BK22018390-6",
+            "utterance_id": "BK22018390.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 관점으로도 볼 수 있겠군요. 혹시 데이트 통장을 사용하는 커플의 관계에 대해서 연구한 결과가 있을까요?",
+            "turn_id": "BK22018390-7",
+            "utterance_id": "BK22018390.13"
+        },
+        {
+            "reference_date": "44655.0",
+            "reference_text": [
+                {
+                    "value": "데이트 통장과 같이 공동 계좌를 가지고 돈을 함께 공유하는 커플은 더 좋은 관계를 유지하고 헤어질 확률도 더 낮다는 연구 결과가 나왔다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "미국 코넬대학교 SC 존슨 경영대학원(Samuel Curtis Johnson Graduate School of Management) 에밀리 가빈스키 부교수가 주도한 이번 연구에서는 재정을 공유하는 커플은 보다 긍정적이고 안정적인 상호작용을 한다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1390033/%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ed%86%b5%ec%9e%a5-%ec%93%b0%eb%8a%94-%ec%bb%a4%ed%94%8c%ec%9d%b4-%eb%8d%94-%ec%98%a4%eb%9e%98%ea%b0%84%eb%8b%a4-%ec%97%b0%ea%b5%ac/",
+            "search_query": "데이트 통장 커플",
+            "terminate": false,
+            "text": "네, 미국 코넬대학교 SC 존슨 경영대학원 에밀리 가빈스키 부교수가 관련 연구를 진행했는데, 이 연구에 의하면 데이트 통장 등 공동 계좌로 돈을 관리하는 커플이 더 오랫동안 좋은 관계를 맺고, 헤어지는 비율도 낮아요. 재정을 공유할 때 더욱 안정적이고 긍정적인 상호작용을 한다는 내용이에요.",
+            "turn_id": "BK22018390-7",
+            "utterance_id": "BK22018390.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 저도 데이트 통장을 만들어볼까 하는데, 데이트 통장용으로 나온 금융 상품은 무엇이 있나요?",
+            "turn_id": "BK22018390-8",
+            "utterance_id": "BK22018390.15"
+        },
+        {
+            "reference_date": "43790.0",
+            "reference_text": [
+                {
+                    "value": "젊은 금융소비자들이 즐겨찾는 데이트통장은 인터넷전문은행 한국카카오은행(카카오뱅크)의 모임통장이다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "시중은행이 내놓은 데이트통장으로는 KB국민은행의 ‘KB짝꿍통장’이 있다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "신한은행은 2011년 커플 전용 통장인 ‘두근두근 커플 적금·정기예금’을 선보였지만 지난해부터 판매를 중단했다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.seoul.co.kr/news/newsView.php?id=20191121022002&wlog_tag3=naver",
+            "search_query": "데이트통장 상품",
+            "terminate": false,
+            "text": "젊은 소비자들이 많이 찾는 데이트통장으로는 카뱅의 모임통장이 있어요. 또 시중은행에서 낸 상품으로는 KB국민은행의 KB짝꿍통장이 있어요. 한편 2011년 신한은행에서 커플 전용 통장인 두근두근 커플 적금, 정기예금을 내놨지만 2018년부터 판매가 중단됐어요.",
+            "turn_id": "BK22018390-8",
+            "utterance_id": "BK22018390.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 몰라 여쭤보는데, 만약 헤어진 뒤에 데이트 통장에 남은 돈을 전 연인의 허락 없이 사용한다면 횡령죄에 해당하나요?",
+            "turn_id": "BK22018390-9",
+            "utterance_id": "BK22018390.17"
+        },
+        {
+            "reference_date": "44261.0",
+            "reference_text": [
+                {
+                    "value": "판례는 타인으로부터 용도나 목적이 제한된 자금을 보관하며 사용하는 사람이 제한된 용도 이외의 목적으로 자금을 사용하는 것은 사용행위 자체로서 불법영득의 의사를 실현한 것이 돼서 횡령죄가 된다고 보고 있다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "데이트 통장 또는 커플 통장에 입금된 돈은 ‘데이트 비용’이라는 사용 용도와 목적이 명확하게 지정된 자금이다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=138133",
+            "search_query": "데이트통장 횡령",
+            "terminate": false,
+            "text": "데이트 통장에 입금된 돈은 데이트 비용이라는 사용 목적과 용도가 분명하게 정해진 돈이에요. 판례에 따르면 다른 사람으로부터 목적이나 용도가 지정된 자금을 보관, 사용하는 사람이 지정된 용도 이외의 목적으로 자금을 쓴다면 사용행위 자체로서 불법영득의 의사를 나타낸 것이 되어서 횡령죄가 될 수 있어요.",
+            "turn_id": "BK22018390-9",
+            "utterance_id": "BK22018390.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 데이트 통장을 운용할 때 유의해야겠네요.",
+            "turn_id": "BK22018390-10",
+            "utterance_id": "BK22018390.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 데이트 통장으로 연인과 합리적인 소비하시길 바랄게요.",
+            "turn_id": "BK22018390-10",
+            "utterance_id": "BK22018390.20"
+        }
+    ]
+}

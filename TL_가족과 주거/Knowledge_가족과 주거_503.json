@@ -1,0 +1,361 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.6,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015581",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015581",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어디서 들었는데 고양이의 나이를 사람 나이로 변환하는 방법이 있다고 하더라고요. 제가 키우는 고양이가 10살이거든요. 고양이가 10살이면 사람 나이로는 몇 살 정도인가요?",
+            "turn_id": "BK22015581-1",
+            "utterance_id": "BK22015581.1"
+        },
+        {
+            "reference_date": "2021-09-10",
+            "reference_text": [
+                {
+                    "value": "일본 낙농학원대학 동물약교육연구센터에 따르면 고양이는 두 살이 채 되지 않은 시점에 성묘가 된다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그만큼 성장 속도가 빠르다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "급격한 성장 탓에 생후 두 살 전에는 정확한 환산이 어렵다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대신 2세는 인간 나이 24세로 보고 2세 이후 나이는 (고양이 나이-2)×4+24를 하면 환산 나이를 가늠할 수 있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://lady.khan.co.kr/khlady.html?mode=view&artid=202109101344001&code=11",
+            "search_query": "고양이 나이 계산법",
+            "terminate": false,
+            "text": "일본 낙농학원 대학 동물 약 교육연구센터에 의하면 고양이는 두 살이 되기 전에 성묘가 돼요. 그만큼 성장하는 속도가 빠르죠. 빠른 성장 때문에 생후 두 살 전에는 정확한 나이 변환이 쉽지 않죠. 대신 2살은 사람 나이 24세로 간주하고 2세 이후 나이는 고양이 나이에서 2를 빼고 4를 곱한 뒤 24를 더하면 환산 나이를 예상할 수 있어요. 계산법을 적용하면 궁금이님의 고양이는 56살이에요.",
+            "turn_id": "BK22015581-1",
+            "utterance_id": "BK22015581.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그런데 고양이가 나이가 많아져서 그런가? 몸 여기저기 혹이 생기곤 했는데, 요즘은 눈꺼풀 혹이 자주 생기네요. 이게 다 나이가 들어서 그런가요?",
+            "turn_id": "BK22015581-2",
+            "utterance_id": "BK22015581.3"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "반려동물 눈꺼풀에 작은 혹 같은 물체가 생겼다면서 동물병원을 방문하는 보호자들이 있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보통 이러한 증상으로 오는 경우 대체로 나이가 많은 편이다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려동물은 나이가 들면서 몸 여기저기에 크고 작은 혹이 생길 수 있기 때문이다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60900",
+            "search_query": "반려동물 혹",
+            "terminate": false,
+            "text": "네, 반려동물 눈꺼풀에 작은 혹 처럼 생긴 물체가 있다면서 동물병원을 찾는 보호자들이 있어요. 보통 이런 증상으로 오는 경우 주로 반려묘의 나이가 많은 편이에요. 반려묘는 나이가 들면서 몸 이곳저곳에 크고 작은 혹이 생길 수 있기 때문이에요.",
+            "turn_id": "BK22015581-2",
+            "utterance_id": "BK22015581.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나이가 들면서 생기는 혹이군요. 그런데 이 혹이 다래끼가 맞나요? 생길 때마다 다래끼 치료를 받았는데, 재발하고 있거든요.",
+            "turn_id": "BK22015581-3",
+            "utterance_id": "BK22015581.5"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "보호자는 눈꺼풀에 생긴 혹을 단순히 ‘다래끼’라고 말하는 경우가 많지만 사실 다래끼는 눈꺼풀에 생기는 염증을 뜻하는 말로 종양과는 다르다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "만일 다래끼인 줄 알고 치료했지만 낫지 않고 계속 재발한다면 종양일 확률이 높다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "종양으로 다래끼가 나타나기도 하지만 다래끼 없이 종양만 나타날 때도 있으니 제대로 구분하는 것이 중요하다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60900",
+            "search_query": "다래끼 종양",
+            "terminate": false,
+            "text": "궁금이님의 고양이처럼 다래끼인줄 알고 치료 받았지만 낫지 않고 재발한다면 종양일 가능성이 커요. 눈꺼풀에 생긴 혹을 단순하게 다래끼라고 말하는 보호자가 많지만 사실 다래끼는 눈꺼풀에 생기는 염증을 의미하는 말로 종양과는 달라요. 종양으로 인해 다래끼가 발생하기도 하지만 다래끼 없이 종양만 생길 때도 있으니 바르게 구별하는 것이 중요해요.",
+            "turn_id": "BK22015581-3",
+            "utterance_id": "BK22015581.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "종양일 수도 있다니 충격적인데요. 그런데 종양은 어떻게 생기는건가요?",
+            "turn_id": "BK22015581-4",
+            "utterance_id": "BK22015581.7"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "눈꺼풀종양은 강아지나 고양이 모두에게 나타나는 종양으로 눈 주변의 세포가 종양으로 변해 처음에는 작은 혹처럼 보이다 시간이 지날수록 점점 커진다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "강아지에서는 마이봄샘종, 유두종, 조직구종, 흑색종이 주로 발생하고 고양이에서는 편평세포암종이 흔하게 발생한다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60900",
+            "search_query": "눈꺼풀종양",
+            "terminate": false,
+            "text": "눈꺼풀종양은 눈 주변의 세포가 종양으로 바뀌어서 맨 처음에는 조그만 혹처럼 보였다가 시간이 지날수록 점점 커져요. 고양이는 종양 중에 편평세포암종이 흔하게 발병하죠.",
+            "turn_id": "BK22015581-4",
+            "utterance_id": "BK22015581.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이에게 흔하게 발생하는 게 편평세포암종이라고 하셨는데, 이 종양은 악성인가요 양성인가요?",
+            "turn_id": "BK22015581-5",
+            "utterance_id": "BK22015581.9"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "그중에서도 편평세포암종은 대표적인 악성 피부종양 중 하나로 고양이에게 발생하는 눈꺼풀종양은 악성일 때가 많다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60900",
+            "search_query": "편평세포암종",
+            "terminate": false,
+            "text": "편평세포암종은 대표적인 악성 피부종양이에요. 고양이에게 생기는 눈꺼풀종양은 악성일 때가 많아요.",
+            "turn_id": "BK22015581-5",
+            "utterance_id": "BK22015581.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 저희 집 고양이도 악성 종양일까요?",
+            "turn_id": "BK22015581-6",
+            "utterance_id": "BK22015581.11"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "하지만 반드시 해당 종류의 종양이 생기는 것은 아니니 정확한 종양의 종류나 악성 또는 양성인지 확인하기 위해서는 조직검사가 필요하다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60900",
+            "search_query": "종양의 종류 양성 악성",
+            "terminate": false,
+            "text": "종양이 생긴다고 해서 반드시 편평세포암종이 발생하는 것은 아니니 정확한 종양의 종류나 악성 또는 양성인지 확인하기 위해서는 조직검사를 받아봐야 해요.",
+            "turn_id": "BK22015581-6",
+            "utterance_id": "BK22015581.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그런데 종양이 발생하면 어떤 증상이 나타나나요?",
+            "turn_id": "BK22015581-7",
+            "utterance_id": "BK22015581.13"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "눈꺼풀에 종양이 생기면 눈꺼풀이 부어오르고 눈곱이 자주 끼거나 충혈이 발생할 수 있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "게다가 종양 크기가 점점 커지면 이물감도 심해지고 계속 반려동물의 눈을 자극해 이차적인 염증이나 손상이 생길 수 있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60900",
+            "search_query": "종양 눈곱 충혈",
+            "terminate": false,
+            "text": "눈꺼풀에 종양이 발생하면 눈꺼풀이 부어오르고 눈곱이 빈번히 끼거나 충혈이 생길 수 있어요. 거기다 종양 사이즈가 조금씩 커지면 이물감도 심해지고 계속 반려묘의 눈을 자극해 이차적인 염증이나 손상이 발생할 수 있어요.",
+            "turn_id": "BK22015581-7",
+            "utterance_id": "BK22015581.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "종양의 크기가 더 커지기 전에 빨리 조치를 취해야겠군요. 그런데 종양을 없애는 수술의 시기를 놓치게 되면 어떻게 되나요?",
+            "turn_id": "BK22015581-8",
+            "utterance_id": "BK22015581.15"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "만일 종양 제거 시기를 놓쳐 너무 커지면 종양을 제거한 후 눈꺼풀을 재건하는 난도가 높은 수술을 해야 할 수 있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 안구까지 전이되면 적출까지 이어질 수 있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60900",
+            "search_query": "눈꺼풀 재건 안구 적출",
+            "terminate": false,
+            "text": "만일 종양 제거의 적당한 때를 놓쳐 종양이 너무 커지면 종양을 없앤 후에 눈꺼풀을 재건하는 난도 높은 수술을 진행해야 할 수 있어요. 또 안구까지 전이되면 적출까지도 이어질 수 있어요.",
+            "turn_id": "BK22015581-8",
+            "utterance_id": "BK22015581.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 안 그래도 조만간 건강검진으로 동물병원에 데려갈 예정이었는데 날짜를 당겨서 내일 방문해봐야겠어요.",
+            "turn_id": "BK22015581-9",
+            "utterance_id": "BK22015581.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 가능한 빨리 정확한 진단과 치료를 받는 것이 좋으니까요.",
+            "turn_id": "BK22015581-9",
+            "utterance_id": "BK22015581.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 좋은 정보 알려주셔서 감사합니다. 모르는 게 있으면 또 여쭤봐도 될까요?",
+            "turn_id": "BK22015581-10",
+            "utterance_id": "BK22015581.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 물론이죠. 저도 이제 들어가 봐야겠네요. 시간이 늦었는데 궁금이님도 조심히 들어가세요.",
+            "turn_id": "BK22015581-10",
+            "utterance_id": "BK22015581.20"
+        }
+    ]
+}

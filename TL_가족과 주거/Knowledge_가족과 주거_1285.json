@@ -1,0 +1,401 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008574",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008574",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어젯밤에 어머니가 갑자기 길에서 유기견을 데리고 오셨어요. 주인도 없는 거 같고 일단 저희 집에서 키우게 됐어요.",
+            "turn_id": "BK22008574-1",
+            "utterance_id": "BK22008574.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 갑자기 반려견을 키우게 되셔서 당황스러우시겠어요. 하지만 유기견을 키우시다니 대단하시네요.",
+            "turn_id": "BK22008574-1",
+            "utterance_id": "BK22008574.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 처음에 어색했는데 보면 볼수록 귀엽더라고요. 새로 사료를 사 가려고 하는데 알아보니 사료 종류가 참 많아서 어렵네요. 반려견은 어떤 사료를 먹이는 게 좋나요?",
+            "turn_id": "BK22008574-2",
+            "utterance_id": "BK22008574.3"
+        },
+        {
+            "reference_date": "2017-07-07",
+            "reference_text": [
+                {
+                    "value": "최근 판매되고 있는 사료는 유기농, 휴먼그레이드, 홀리스틱, 슈퍼프리미엄, 프리미엄, 보통사료 등으로 구분됩니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "결론적으로 말하면 먹여본 후 구토, 설사가 없고 반려견의 피부와 털에 윤기가 있다면 딱 맞는 사료입니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 이같은 '사료 등급'은 어떻게 만들어졌는지조차 알 수 없는 객관적이지 않은 기준입니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.asiae.co.kr/news/view.htm?idxno=2017070715265307194",
+            "search_query": "반려견 사료 고르는 팁",
+            "terminate": false,
+            "text": "시중에 판매되는 사료는 유기농, 휴먼그레이드, 홀리스틱, 슈퍼프리미엄, 프리미엄, 보통사료로 나뉘죠. 그런데 객관적이지 않은 기준으로 나뉜 사료 등급이라 어떤 방식으로 사료가 만들어졌는지 알 수 없어요. 그러니 반려견에게 사료를 먹여 보신 후에 구토나 설사가 없는지 보시면 돼요. 그리고 반려견의 털과 피부에 윤기가 흐른다면 딱 맞는 사료에요.",
+            "turn_id": "BK22008574-2",
+            "utterance_id": "BK22008574.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일단 먹여보고 반려견에게 맞는 사료인지 확인하는 게 가장 좋은 거네요. 그런데 사료에도 습식 사료라는 게 있던데 그건 어떤 사료인가요?",
+            "turn_id": "BK22008574-3",
+            "utterance_id": "BK22008574.5"
+        },
+        {
+            "reference_date": "2022-05-26",
+            "reference_text": [
+                {
+                    "value": "습식 사료는 수분을 다량 함유해 식감이 부드럽습니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이빨과 턱뼈가 약한 강아지, 혹은 노령견이 무리 없이 섭취할 수 있습니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "칼로리가 낮아 체중 조절이 필요한 반려견에게도 좋은 대안이 됩니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202205260859291935",
+            "search_query": "반려견 습식사료",
+            "terminate": false,
+            "text": "수분을 많이 포함해 식감이 부드러운 사료가 습식 사료에요. 습식 사료는 이빨과 턱뼈가 약한 강아지나 나이가 많은 반려견이 부담 없이 먹기 좋아요. 또한 칼로리가 낮아서 살을 빼야 하는 반려견에게 도움이 돼요.",
+            "turn_id": "BK22008574-3",
+            "utterance_id": "BK22008574.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그러면 건식 사료는 흔히 생각하는 딱딱한 사료가 건식 사료인 거죠? 건식 사료는 어떤 특징이 있어요?",
+            "turn_id": "BK22008574-4",
+            "utterance_id": "BK22008574.7"
+        },
+        {
+            "reference_date": "2022-05-26",
+            "reference_text": [
+                {
+                    "value": "수분 함량은 적지만 유통기한이 길어 오래 보관할 수 있고, 비교적 간편하고 깔끔하게 급여할 수 있습니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "건식 사료는 습식 사료에 비해 단단하지만 치석을 제거하는 데 도움을 줄 수 있습니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202205260859291935",
+            "search_query": "반려견 건식사료",
+            "terminate": false,
+            "text": "맞아요. 건식 사료는 수분이 적게 포함된 사료에요. 하지만 유통기한이 길어서 오래 보관할 수 있는 것이 장점이에요. 그리고 급여가 편하고 깔끔해서 좋아요. 물론 건식 사료는 습식 사료보다는 딱딱한 형태지만 반려견의 치석을 제거하는 데 도움을 줘요.",
+            "turn_id": "BK22008574-4",
+            "utterance_id": "BK22008574.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 상황에 맞춰 고르면 되겠네요. 그런데 반려견 사료는 보면 모양이 다양하던데 왜 그러는 거예요?",
+            "turn_id": "BK22008574-5",
+            "utterance_id": "BK22008574.9"
+        },
+        {
+            "reference_date": "2022-09-04",
+            "reference_text": [
+                {
+                    "value": "사료의 물리적 크기와 모양이 이처럼 다양한 이유는 뭘까요?",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "견종마다 구강 구조와 먹이 습성이 다르기 때문입니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "말티즈는 턱이 짧아 사료를 집어먹기 어려워하는 반면, 식탐이 많은 리트리버는 사료를 통째로 삼키다 소화불량에 시달리는 경우가 많습니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "각자의 문제를 해결하려면 다른 모양의 사료를 제공해야 하죠.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.kmib.co.kr/article/view.asp?arcid=0017434906&code=61171811&cp=nv",
+            "search_query": "반려견 사료 모양",
+            "terminate": false,
+            "text": "아, 반려견 사료의 모양과 크기가 다양한 이유는 견종마다 입의 구조와 먹는 습관이 달라서예요. 예를 들어 말티즈는 견종의 구강 구조상 턱이 짧아서 사료를 집는 게 어려워요. 하지만 리트리버는 식탐이 많아서 사료를 통째로 삼켜서 소화불량에 걸리는 경우가 많아요. 그래서 견종마다 겪는 문제가 생기지 않게 하기 위해 각자 다른 모양의 사료를 만드는 거예요.",
+            "turn_id": "BK22008574-5",
+            "utterance_id": "BK22008574.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 반려견 사료 속에 과학이 숨어있네요. 저희 개는 시추인데 그러면 사료 모양을 어떤 걸로 선택해야 할까요? 동그란 모양의 사료를 일단 주긴 줬거든요.",
+            "turn_id": "BK22008574-6",
+            "utterance_id": "BK22008574.11"
+        },
+        {
+            "reference_date": "2022-09-04",
+            "reference_text": [
+                {
+                    "value": "반면에 시츄, 말티즈, 불독 같은 단두종들은 이런 사료를 쉽게 먹지 못합니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "턱이 짧고 뭉툭해서 앞니로 사료를 한알 한알 집어먹어야 하는데, 동그란 사료는 미끄러워 이빨로 집기 어렵습니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그래서 단두종의 사료는 한 귀퉁이를 집어물기 편한 계단형 혹은 초승달 모양으로 제작됩니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.kmib.co.kr/article/view.asp?arcid=0017434906&code=61171811&cp=nv",
+            "search_query": "시츄 사료 모양",
+            "terminate": false,
+            "text": "시추와 같은 단두종들의 경우에는 구강 구조상 턱이 짧고 뭉툭해요. 그래서 앞니로 사료를 하나씩 집어먹어야 하는데 동그란 사료는 미끄럽기 때문에 앞니로 집기가 어려워요. 시추와 같은 단두종은 계단형 모양이나 초승달 모양의 사료를 주시면 사료의 한 귀퉁이를 집어 물기 편하니 반려견에게 좋을 거예요.",
+            "turn_id": "BK22008574-6",
+            "utterance_id": "BK22008574.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 전 그것도 모르고 동그란 사료를 줬는데 어쩌죠. 오늘 바로 사료를 바꿔줘야겠네요. 그런데 사료는 어떻게 보관하면 좋아요?",
+            "turn_id": "BK22008574-7",
+            "utterance_id": "BK22008574.13"
+        },
+        {
+            "reference_date": "2022-09-11",
+            "reference_text": [
+                {
+                    "value": "따라서 펫엠디는 반려동물의 건식사료를 보관할 경우 개봉하지 않았다면 ▲섭씨 26도 이하에서 보관할 것을 권합니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만약 개봉했다면 ▲사료봉지 입구를 집게 등 도구로 단단히 잠그고 ▲냉장고 냉장칸에 넣어두거나 냉장고를 이용하기 어렵다면 습도와 온도가 일정한 상온에 보관해야 합니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "먹고 남은 습식사료는 어떻게 해야 할까요?",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "비닐봉지 혹은 별도의 용기에 밀봉해 냉장 보관하는 것이 바람직합니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.kmib.co.kr/article/view.asp?arcid=0017453179&code=61171811&cp=nv",
+            "search_query": "반려견 사료 보관",
+            "terminate": false,
+            "text": "음, 뜯지 않은 건식 사료라면 섭씨 26도 이하에서 보관하시면 돼요. 한번 뜯은 사료라면 사료 입구를 집게 등의 도구로 완벽히 잠근 후에 냉장고에 넣어두시면 좋아요. 만약 냉장 보관이 어려우면 습도와 온도가 일정한 상온에 두시면 돼요. 습식 사료의 경우 먹이고 남았다면 비닐봉지나 별도의 용기에 밀봉해서 냉장 보관하세요.",
+            "turn_id": "BK22008574-7",
+            "utterance_id": "BK22008574.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려견 사료도 냉장 보관을 시켜야 한다는 건 처음 알았네요. 또 궁금한 게 하나 있는데요. 친구에게 듣기에 명절 같은 때는 강아지와 오랜 시간 이동해야 하니 사료를 바꿔준다고 하던데 정말 그렇게 해야 하나요?",
+            "turn_id": "BK22008574-8",
+            "utterance_id": "BK22008574.15"
+        },
+        {
+            "reference_date": "2022-09-10",
+            "reference_text": [
+                {
+                    "value": "명절엔 반려동물의 사료도 신경 써야 한다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "장시간 이동을 해야 한다면, 출발 6∼8시간 전에 미리 사료를 먹이는 것이 좋다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이동 직전에 사료를 먹이면 구토나 소화불량이 발생할 수 있다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "어쩔 수 없이 사료를 줘야 한다면 건식사료보다는 습식사료나 소화에 부담이 없는 채소 위주의 간식류를 조금만 먹이는 것이 좋다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/09/07/2022090701999.html",
+            "search_query": "명절 반려견 사료",
+            "terminate": false,
+            "text": "아무래도 명절엔 오랜 시간 이동을 해야 하니 반려견의 사료에 신경을 쓰셔야 해요. 출발 6시간에서 8시간 전에 반려견에게 미리 사료를 먹이시면 좋아요. 만약 출발 직전에 사료를 먹이면 반려견이 구토나 소화불량을 겪을 수 있어요. 상황상 사료를 줘야 할 때는 건식 사료보다 습식 사료를 주시는 게 좋고요. 소화할 때 부담이 덜한 채소 위주의 간식을 조금 먹이시는 게 좋아요.",
+            "turn_id": "BK22008574-8",
+            "utterance_id": "BK22008574.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 명절 같은 때는 이동이 힘드니 반려견에게 사료를 먹일 때도 신경을 잘 써야 하는 거군요. 그런데 평소에 반려견에게 사료를 먹일 때는 얼마나 먹여야 하나요? 규정 같은 게 있으면 좋을 텐데요.",
+            "turn_id": "BK22008574-9",
+            "utterance_id": "BK22008574.17"
+        },
+        {
+            "reference_date": "2021-11-11",
+            "reference_text": [
+                {
+                    "value": "국립축산과학원 홈페이지에서는 반려동물이 하루에 섭취해야 할 에너지 요구량을 일러준다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "‘반려견 사료 열량 계산기’에 들어가 반려견 정보(품종, 성장 단계, 현재 체중)를 입력한다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다음으로 급여 중인 사료 정보(수분 함량, 조단백질, 조지방, 조섬유, 조회분)를 입력하면 영양 진단 결과가 나온다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2021/11/1066111/",
+            "search_query": "반려견 사료 급여 양",
+            "terminate": false,
+            "text": "반려견에게 사료를 줄 때 도움 되는 서비스가 있어요. 국립축산과학원 홈페이지에 접속하면 반려동물의 하루 섭취 에너지 요구량을 알 수 있어요. 먼저 반려견 사료 열량 계산기에 반려견 정보인 품종, 성장 단계, 현재 체중을 입력하시고요. 이후 먹이는 사료 정보인 수분 함량, 조단백질, 조지방, 조섬유, 조회분을 넣으면 영양 진단 결과가 나와서 간편해요.",
+            "turn_id": "BK22008574-9",
+            "utterance_id": "BK22008574.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와~ 그런 서비스가 있는 줄 몰랐네요. 저희 개 맞춤형으로 계산해 주니 더 믿음직하네요. 오늘 정말 유용한 정보 알려주셔서 감사해요.",
+            "turn_id": "BK22008574-10",
+            "utterance_id": "BK22008574.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아니에요. 반려견 사료 잘 선택하셔서 구입하셨으면 좋겠네요. 그럼 다음에 또 만나서 얘기 나눠요.",
+            "turn_id": "BK22008574-10",
+            "utterance_id": "BK22008574.20"
+        }
+    ]
+}

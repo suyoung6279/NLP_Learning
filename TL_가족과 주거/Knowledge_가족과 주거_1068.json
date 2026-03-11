@@ -1,0 +1,439 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22000469",
+        "name": "2022 한국어 블렌더봇 데이터 BK22000469",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0012"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머니가 외로워하셔서 고양이를 키워볼까 해요. 고양이 품종이 다양하던데 성격이 순하고 온화한 종을 키우고 싶어요.",
+            "turn_id": "BK22000469-1",
+            "utterance_id": "BK22000469.1"
+        },
+        {
+            "reference_date": "2019-04-14",
+            "reference_text": [
+                {
+                    "value": "애묘인들에게 인기가 많은 페르시안은 얼굴이 납작하고 눈은 크며 부드러운 털을 갖고 있습니다.",
+                    "value_time": "2022-05-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "귀여운 외모와 조용한 성격 때문에 ‘고양이계의 귀부인’으로 불리기도 하죠.",
+                    "value_time": "2022-05-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "주인을 잘 따라 고양이를 처음 접하는 사람들이 키우기 적당한 품종입니다.",
+                    "value_time": "2022-05-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nongmin.com/plan/PLN/SRS/310389/view",
+            "search_query": "고양이 품종 종류",
+            "terminate": false,
+            "text": "고양이계의 귀부인이라 불리는 페르시안 고양이를 추천하고 싶네요. 귀여운 외모와 조용한 성격이라 고양이를 처음 접하는 사람들이 키우기 적당한 품종이에요.",
+            "turn_id": "BK22000469-1",
+            "utterance_id": "BK22000469.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조용한 성격이라니 어머니가 키우시기 딱인것 같네요. 페르시안 고양이는 이름이 참 특이한데, 어떤 고양이인가요?",
+            "turn_id": "BK22000469-2",
+            "utterance_id": "BK22000469.3"
+        },
+        {
+            "reference_date": "2022-05-30",
+            "reference_text": [
+                {
+                    "value": "18세기 초 유럽에 처음 전해졌는데 확실한 기원이 알려져 있지 않다.",
+                    "value_time": "2022-05-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이란의 옛 나라인 페르시아 제국의 상형문자에 나타난 것에 의하면 사막을 이동하며 무역을 하던 캐러밴들이 무역상품에 긴 털을 가진 고양이가 포함되어 있었고 고양이의 기원지에 따라 이름을 ‘페르시안’이라 불렀다.",
+                    "value_time": "2022-05-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "몸 전체에 가늘고 긴 털이 풍성하고 흰색, 검은색, 회색 등 털 색깔이 다양하지만 흰색이 가장 유명하고 털이 잘 빠진다.",
+                    "value_time": "2022-05-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8E%98%EB%A5%B4%EC%8B%9C%EC%95%88",
+            "search_query": "페르시안",
+            "terminate": false,
+            "text": "페르시안이라고 하니 페르시아 제국이 떠올랐는데 꽤 관련이 깊더라고요. 페르시안 고양이는 18세기 초 유럽에 처음 전해진 고양이인데 사막을 이동하며 무역을 하던 캐러밴들이 무역상품에 긴 털을 가진 고양이를 보고 기원지에 따라 페르시안이라고 부르면서 붙여진 이름이에요. 페르시안은 흰색과 검은색 회색 의 털 색깔을 가졌고, 몸 전체에 긴 털이 풍성해서 꼭 푹신푹신한 쿠션이 연상돼요.",
+            "turn_id": "BK22000469-2",
+            "utterance_id": "BK22000469.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "페르시안은 이름도 멋진데 긴 털이 풍성하다니 정말 멋지겠어요. 그런데 털이 길면 관리가 엄청 힘든거 아닐까 걱정이네요.",
+            "turn_id": "BK22000469-3",
+            "utterance_id": "BK22000469.5"
+        },
+        {
+            "reference_date": "2015-03-26",
+            "reference_text": [
+                {
+                    "value": "털이 엉키거나 빠지는 것을 막기 위해 매일 일정한 시간을 할애해 빗질을 해줘야 합니다.",
+                    "value_time": "2022-05-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "성묘가 된 이후 털갈이를 할 때는 물론이고, 덥고 습한 여름철에도 몸의 열때문에 더 빠지는 경우도 흔하니 1년 내내 신경을 써야 합니다.",
+                    "value_time": "2022-05-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20150326000053",
+            "search_query": "장모종 관리",
+            "terminate": false,
+            "text": "장모종은 털이 엉키거나 빠지는 것을 막기 위해 매일 일정한 시간을 들여 빗질을 해줘야 해요. 털갈이 할 때는 물론이고 더운 여름철에도 몸의 열 때문에 털이 더 빠질수 있으니 1년 내내 신경을 써야 하는건 맞아요.",
+            "turn_id": "BK22000469-3",
+            "utterance_id": "BK22000469.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "털 문제는 더 고민해봐야겠어요. 고양이는 산책을 안한다고 하던데 진짜 산책을 안 시켜도 괜찮은건가요?",
+            "turn_id": "BK22000469-4",
+            "utterance_id": "BK22000469.7"
+        },
+        {
+            "reference_date": "2018-11-26",
+            "reference_text": [
+                {
+                    "value": "고양이들은 사냥하는 것을 좋아하기 때문에 이리저리 움직이고, 소리가 나는 것을 좋아한다.",
+                    "value_time": "2022-05-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그래서 고양이 전용 장난감으로 '장난감 낚싯대'가 있다.",
+                    "value_time": "2022-05-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이런 식으로 고양이를 놀아주는 것은 개를 산책시켜주는 것과 같다.",
+                    "value_time": "2022-05-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mhns.co.kr/news/articleView.html?idxno=155022",
+            "search_query": "고양이 산책 안 시키는",
+            "terminate": false,
+            "text": "고양이들은 사냥하는 것을 좋아해서 이리저리 움직이고 소리 나는 것을 좋아해요. 고양이 전용 장난감인 장난감 낚싯대로 놀아주면 개를 산책시켜주는 것과 같은 효과가 있어요.",
+            "turn_id": "BK22000469-4",
+            "utterance_id": "BK22000469.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이의 사냥 본능을 일깨워주는 놀이라 벌써부터 재밌네요. 고양이가 산책을 안가면 실내에서 배변을 하는건데, 화장실은 어떻게 만들어주면 되나요?",
+            "turn_id": "BK22000469-5",
+            "utterance_id": "BK22000469.9"
+        },
+        {
+            "reference_date": "2020-03-12",
+            "reference_text": [
+                {
+                    "value": "고양이 화장실은 크게 하우스, 평판, 변기, 훈련용으로 4가지로 분류된다.",
+                    "value_time": "2022-05-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고양이 화장실에 넣는 모래는 5cm 이상 채워주고, 청소는 최소한 하루에 1번 씩 한다.",
+                    "value_time": "2022-05-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "청소방법은 배변을 치우고 모래를 보충한다.",
+                    "value_time": "2022-05-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고양이는 냄새에 예민하게 반응함으로 향수나 방향제를 사용하지 않는다.",
+                    "value_time": "2022-05-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=323966",
+            "search_query": "고양이 화장실 만들기",
+            "terminate": false,
+            "text": "고양이는 하우스, 평판, 변기, 훈련용 4가지의 화장실이 있어서 화장실 종류가 가장 많은 동물일거에요. 고양이 화장실을 만드는 방법은 아주 간단한데요. 모래를 5cm 이상 채워주고, 최소한 하루에 한 번씩 청소해주면 돼요. 배변을 치우고 모래를 보충하는 방식이라 청소 법도 간단하고 어렵지 않아요. 대신 고양이는 냄새에 예민하기 때문에 방향제와 향수는 사용하지 말아야 해요.",
+            "turn_id": "BK22000469-5",
+            "utterance_id": "BK22000469.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, TV에서 삽으로 변을 치우는 걸 본것도 같네요. 청소 방법은 생각보다 간단하네요. 고양이에게 또 필요한 용품은 뭐가 있나요?",
+            "turn_id": "BK22000469-6",
+            "utterance_id": "BK22000469.11"
+        },
+        {
+            "reference_date": "2020-03-12",
+            "reference_text": [
+                {
+                    "value": "캣타워는 수직으로 뻗은 고양이의 휴식공간 및 놀이공간이다.",
+                    "value_time": "2022-05-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "캣타워에서 고양이들은 근육을 키우고, 스트레스 등을 해소한다.",
+                    "value_time": "2022-05-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "180cm 이상 높은 캣타워를 추천하며 창가에 두는 편이 좋다.",
+                    "value_time": "2022-05-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=323966",
+            "search_query": "새내기 집사",
+            "terminate": false,
+            "text": "고양이의 휴식공간과 놀이공간 확보를 위해 캣타워 준비가 필요해요. 고양이가 근육을 키우고 스트레스를 해소하는 곳이기에 180cm 이상 높은 캣타워를 추천해요. 고양이가 캣타워에서 노는 모습을 본적 있어요? 엄청 귀엽고 숨어있는 고양이를 찾는것도 재미더라고요. 캣타워는 창가에 두는게 좋으니 집안 공간을 확보하는것도 잊지 말아요.",
+            "turn_id": "BK22000469-6",
+            "utterance_id": "BK22000469.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "캣타워를 놓을 공간을 마련해봐야겠어요. 캣타워가 있으면 고양이는 개처럼 소파를 물어뜯거나 그러진 않겠어요?",
+            "turn_id": "BK22000469-7",
+            "utterance_id": "BK22000469.13"
+        },
+        {
+            "reference_date": "2019-04-14",
+            "reference_text": [
+                {
+                    "value": "고양이는 자주 발톱을 긁는 행위를 한다.",
+                    "value_time": "2022-05-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이런 행위를 스크래칭이라고 부른다.",
+                    "value_time": "2022-05-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "스크래칭만을 위한 공간이 따로 없으면 집안 곳곳에 스크래칭을 해 가구 등을 망가뜨리는 경우도 있다.",
+                    "value_time": "2022-05-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "스크레쳐는 박스 같은 것으로 만들 수도 있고 굵은 줄을 기둥 등에 감아주는 것도 좋은 스크레쳐다.",
+                    "value_time": "2022-05-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=155840",
+            "search_query": "고양이 스크레쳐",
+            "terminate": false,
+            "text": "길을 가다 보면 나무에 발톱을 긁는 고양이를 본 적 있죠? 고양이는 발톱을 긁는 행동을 하는데 이 행동을 스크래칭이라고 해요. 고양이는 스크래칭을 못하면 집안 가구를 망가뜨릴수 있으니 스크래쳐가 꼭 필요해요. 스크래쳐 구입도 좋지만 간단하게 박스나 굵은 줄을 기둥에 감아 주는것도 좋아요.",
+            "turn_id": "BK22000469-7",
+            "utterance_id": "BK22000469.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이도 필요한 물품이 참 다양하네요. 그러면 제일 중요한게 밥인데 고양이 사료를 사다 먹이면 될까요?",
+            "turn_id": "BK22000469-8",
+            "utterance_id": "BK22000469.15"
+        },
+        {
+            "reference_date": "2022-05-27",
+            "reference_text": [
+                {
+                    "value": "고양이 사료는 노케스템(NOCHESTEM) 표시가 있으면 더욱 안전하다.",
+                    "value_time": "2022-05-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "노케스템은 ‘No Chemical System’의 약자로, 화학성분을 일절 사용하지 않았음을 의미한다.",
+                    "value_time": "2022-05-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "즉 고양이 사료 제조 과정에서 보관 및 유통기간을 늘리는 보존제부터 생산성 향상을 돕는 화학부형제, 맛을 내는 첨가물 등이 모두 배제돼 화학성분으로 인한 부작용 걱정이 없다.",
+                    "value_time": "2022-05-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.segyebiz.com/newsView/20220527513531?OutUrl=naver",
+            "search_query": "고양이 사료",
+            "terminate": false,
+            "text": "고양이는 전용 사료를 먹이는게 가장 쉽죠. 사료 살 때 노케스템 표시가 있는지 확인해 보세요. 화학성분을 전혀 안쓰는 사료라는 뜻이거든요. 유통기한을 늘리려고 보존제나, 화학부형제도 넣지 않고, 맛을 내려고 넣는 첨가물도 다 뺀거니 부작용 걱정없이 안전해요.",
+            "turn_id": "BK22000469-8",
+            "utterance_id": "BK22000469.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 노케스템 표시가 있는 사료 꼭 기억할게요. 막상 고양이를 입양하려니 어디서 데려와야 할지 막막하네요. 펫샵 말고 유기동물 입양을 할까 싶은데 어떻게 하면 될까요?",
+            "turn_id": "BK22000469-9",
+            "utterance_id": "BK22000469.17"
+        },
+        {
+            "reference_date": "2022-05-20",
+            "reference_text": [
+                {
+                    "value": "첫 번째는 동물보호단체를 통해 구조된 동물들의 입양이다.",
+                    "value_time": "2022-05-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "동물보호단체에서 구조되어 보호 중인 동물의 입양을 원할 경우 관련 단체 홈페이지 또는 SNS 계정을 통해 입양 문의 또는 상담이 가능하며 이후 입양 절차를 밟을 수 있다.",
+                    "value_time": "2022-05-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "두 번째는 동물보호 관리 시스템을 통한 입양이다.",
+                    "value_time": "2022-05-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "동물보호 관리 시스템(APMS)는 농림축산식품부가 유기 동물 관리에서 동물등록에 이르기까지 동물보호 업무 전반을 통합적으로 관리하기 위해 각 시도(시군구)의 동물보호 업무 담당 부서와 연계하여 운영하는 시스템이다.",
+                    "value_time": "2022-05-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthinnews.co.kr/news/articleView.html?idxno=30153",
+            "search_query": "고양이 입양 방법",
+            "terminate": false,
+            "text": "유기동물을 입양하려 하다니 대단한 생각이에요. 입양을 하려면 동물 보호단체 홈페이지나 SNS 계정에서 문의나 상담을 밟는 방법도 있어요. 아니면 동물보호 관리 시스템을 통해서도 할 수 있어요. 농림축산식품부가 동물보호 업무를 통합적으로 관리하기 위해 각 시도의 동물 보호 업무 담당 부서와 연계해서 운영하니 한 번 상담 받아 봐요.",
+            "turn_id": "BK22000469-9",
+            "utterance_id": "BK22000469.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "입양 전에 인터넷으로 확인할수 있으니 편리하네요. 오늘 한번 홈페이지에 들어가서 살펴봐야겠어요.",
+            "turn_id": "BK22000469-10",
+            "utterance_id": "BK22000469.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 동물의 사진과 기본 정보를 볼수 있으니 꼼꼼하게 확인하고 상담받아보도록 해요.",
+            "turn_id": "BK22000469-10",
+            "utterance_id": "BK22000469.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래요. 다음에 반려묘 입양 후에 집에 한번 초대할게요.",
+            "turn_id": "BK22000469-11",
+            "utterance_id": "BK22000469.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋아요. 반려묘 잘 입양하고, 다음에는 집에서 또 만나요.",
+            "turn_id": "BK22000469-11",
+            "utterance_id": "BK22000469.22"
+        }
+    ]
+}

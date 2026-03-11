@@ -1,0 +1,362 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007545",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007545",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "점점 출산이 가까워지면서 제왕절개를 할지, 자연분만을 할지 고민이 많이 돼요. 자연분만은 너무 무섭고 겁나는데 좋은 점은 뭐가 있을까요?",
+            "turn_id": "BK22007545-1",
+            "utterance_id": "BK22007545.1"
+        },
+        {
+            "reference_date": "2021-02-02",
+            "reference_text": [
+                {
+                    "value": "자연분만을 하는 경우 장점은 출혈이 적고 회복이 빠르다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 산욕기 감염이 적고 출혈, 산욕기감염, 혈전증, 폐혈전증, 양수색전증, 비뇨기계 손상등의 합병증이 제왕절개분만에 비해 적으며 모유수유를 좀 더 성공적으로 시도할 수 있다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.segyebiz.com/newsView/20210202513487",
+            "search_query": "자연분만 장점",
+            "terminate": false,
+            "text": "자연분만의 경우 출혈이 적고 빠른 회복이 장점이라 할 수 있어요. 또 산욕기 감염 확률도 낮고 출혈, 산욕기감염, 혈전증, 폐혈전증, 양수색전증, 비뇨기계손상 등 여러가지 합병증의 발병확률이 제왕절개분만과 비교해 낮고 모유수유의 성공 확률도 조금 더 높은 편이에요.",
+            "turn_id": "BK22007545-1",
+            "utterance_id": "BK22007545.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "보통은 아기에게 좋다고들 하던데 산모 입장에서도 좋은 점이 많네요. 요즘은 무통 주사 덕분에 자연분만도 많이 힘들지 않다고 하던데, 무통 주사가 뭔가요?",
+            "turn_id": "BK22007545-2",
+            "utterance_id": "BK22007545.3"
+        },
+        {
+            "reference_date": "2018-10-02",
+            "reference_text": [
+                {
+                    "value": "이는 척수 신경막 사이에 가느다란 관을 넣고 진통제를 투여하는 ‘무통 주사’를 놓는 방법으로 하반신의 감각 신경만 마취시키기 때문에 출산 과정을 대부분 느낄 수 있고 마지막 힘주기도 할 수 있다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000436300",
+            "search_query": "자연분만 무통주사",
+            "terminate": false,
+            "text": "무통 주사는 척수 신경막 사이에 가는 관을 넣고 그곳으로 진통제를 투여하는 방법이에요. 하반신의 감각 신경만 마취하는 거라 출산 과정을 대부분 느끼고 마지막에 힘주기도 가능해요.",
+            "turn_id": "BK22007545-2",
+            "utterance_id": "BK22007545.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "진통제를 투여하는 거군요. 그럼 태아에게는 안 좋은 영향을 끼친다거나 그렇지는 않나요?",
+            "turn_id": "BK22007545-3",
+            "utterance_id": "BK22007545.5"
+        },
+        {
+            "reference_date": "2020-07-21",
+            "reference_text": [
+                {
+                    "value": "분명한 점은 무통주사가 경막외마취로 이뤄지기 때문에 아기에게 부정적인 영향을 미치지 않는다는 것이다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sentv.co.kr/sendoc/view/576551",
+            "search_query": "자연분만 무통주사 태아 영향",
+            "terminate": false,
+            "text": "네. 무통 주사는 경막외마취로 진행되기 때문에 태아에게 안 좋은 영향을 주지는 않아요.",
+            "turn_id": "BK22007545-3",
+            "utterance_id": "BK22007545.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마음이 한결 가벼워지네요. 혹시 무통 주사를 못 맞거나 피해야 하는 산모도 있을까요?",
+            "turn_id": "BK22007545-4",
+            "utterance_id": "BK22007545.7"
+        },
+        {
+            "reference_date": "2013-03-12",
+            "reference_text": [
+                {
+                    "value": "무통분만 자체가 혈압을 떨어뜨리는 만큼 저혈압환자나 혈소판 수치가 낮아 출혈소인이 큰 사람은 무통분만을 받기 어렵다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 척추부위에 염증이 있거나 척추수술을 받은 경우도 주의해야 한다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "마취제에 과민반응을 보이는 산모도 전문의와 충분히 상담해야 한다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/life/health/article/201303121511552?www",
+            "search_query": "자연분만 무통주사 피해야하는 산모",
+            "terminate": false,
+            "text": "무통분만은 그 자체로 혈압을 떨어뜨리는 효과가 있어요. 그래서 저혈압 산모나 혈소판 수치가 낮아 출혈에 대한 위험이 높은 산모는 무통분만이 어려워요. 또 척추에 염증이 있거나 척추수술 경험이 있다면 주의가 필요하고, 마취제 과민반응이 있는 경우 전문의와 충분한 상담을 해봐야 해요.",
+            "turn_id": "BK22007545-4",
+            "utterance_id": "BK22007545.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하고 싶다고 모두가 할 수 있는 건 아니군요. 그럼 반대로 무통분만을 추천하는 산모도 있을까요?",
+            "turn_id": "BK22007545-5",
+            "utterance_id": "BK22007545.9"
+        },
+        {
+            "reference_date": "2013-03-12",
+            "reference_text": [
+                {
+                    "value": "반면 고혈압 산모에게는 오히려 무통분만이 추천된다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "심장이 약하거나 폐에 이상이 있는 산모, 임신중독증으로 태반기능이 떨어진 산모, 쌍둥이를 출산하는 산모에게도 무통분만은 큰 도움이 된다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=1109",
+            "search_query": "무통분만 추천 산모",
+            "terminate": false,
+            "text": "고혈압이 있는 산모에게는 무통분만을 추천해요. 심장이 약하거나 폐에 문제가 있는 경우, 임신중독증으로 인해 태반 기능이 낮아진 경우, 쌍둥이를 출산하는 경우에도 무통분만은 큰 도움이 돼요.",
+            "turn_id": "BK22007545-5",
+            "utterance_id": "BK22007545.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도움이 된다니까 용기가 나는 것 같아요. 저는 자연분만할 때 회음부 절개도 너무 무서운데 이건 꼭 해야 하는 건가요?",
+            "turn_id": "BK22007545-6",
+            "utterance_id": "BK22007545.11"
+        },
+        {
+            "reference_date": "2014-07-04",
+            "reference_text": [
+                {
+                    "value": "회음부가 잘 이완되고 아이 머리가 잘 나오는 등 문제가 없으면 회음부를 절개하지 않아도 된다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 △ 회음부가 타이트 해 잘 이완되지 않거나 △ 아이 머리가 끼어 있거나 △ 산모의 힘이 너무 약하거나 △ 분만 직전 심박동이 떨어지거나 불안정한 경우 태아를 보호하기 위해 회음부 절개를 한다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 산도를 확보해 태아를 보호하기 위함이다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.babytimes.co.kr/news/articleView.html?idxno=3974",
+            "search_query": "자연분만 회음부절개 필요성",
+            "terminate": false,
+            "text": "꼭 그렇지는 않아요. 회음부 이완이 잘 되고 태아 머리가 잘 나오는 등 문제가 발생하지 않는다면 회음부 절개는 안 할 수 있어요. 다만 회음부가 너무 타이트해서 잘 이완되지 않는 경우, 태아 머리가 산도에 낀 경우, 산모의 힘이 부족한 경우, 출산 직전 심장박동이 떨어지거나 불안정한 경우에는 태아 보호 목적으로 회음부 절개를 하게 돼요. 산도를 충분히 확보해 아기를 보호하기 위함이에요.",
+            "turn_id": "BK22007545-6",
+            "utterance_id": "BK22007545.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상황에 따라 안 하는 경우도 있군요. 만약 회음부 절개를 하게 된다면 며칠 정도 통증이 있을까요?",
+            "turn_id": "BK22007545-7",
+            "utterance_id": "BK22007545.13"
+        },
+        {
+            "reference_date": "2021-10-20",
+            "reference_text": [
+                {
+                    "value": "회음 절개 후 2~3일 간은 걷거나 앉는 것이 거북할 정도로 회음 부위가 아프고 땅기는 듯한 통증이 생긴다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "3~4일 정도 지나면 부기가 빠지고 상처가 벌어지지 않게 되며 통증이 줄어드는 것이 느껴진다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202110201081o",
+            "search_query": "자연분만 회음부절개",
+            "terminate": false,
+            "text": "회음부 절개를 했다면 2~3일 정도는 걷고 앉는 것이 힘들 만큼 그 부위가 아프고 당기는 듯한 통증이 있어요. 하지만 3~4일 정도가 지나면 부기가 빠지고 상처가 아물면서 통증이 줄어드는 것을 느낄 수 있죠.",
+            "turn_id": "BK22007545-7",
+            "utterance_id": "BK22007545.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 금방 괜찮아지네요. 민감한 부위이다 보니까 관리를 잘 해줘야 할 것 같은데 관리 방법이 따로 있나요?",
+            "turn_id": "BK22007545-8",
+            "utterance_id": "BK22007545.15"
+        },
+        {
+            "reference_date": "2021-12-10",
+            "reference_text": [
+                {
+                    "value": "회음부 회복을 위해서는 따뜻한 물에 좌욕을 해주는 것이 좋다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "좌욕은 혈액순환을 좋게 해주기 때문에 회음부 절개 부위에 염증이 생기는 것을 예방해주고 통증을 가라앉혀 준다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202112109862o&cid=3001",
+            "search_query": "자연분만 회음부절개 관리",
+            "terminate": false,
+            "text": "회복을 잘 하기 위해서는 따뜻한 물을 이용해 좌욕을 해주면 좋아요. 좌욕을 하면 혈액순환이 원활해져서 절개한 부위에 염증이 생기는 것을 방지해주고 통증도 완화시킬 수 있어요.",
+            "turn_id": "BK22007545-8",
+            "utterance_id": "BK22007545.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 그동안 너무 무섭게만 생각했었나 봐요. 쭉 설명을 들으니 마음이 편해져요. 그런데 자연분만은 내가 하고 싶다고 해서 다 되는 건 아닌 것 같은데 제왕절개가 필요한 순간은 언제인가요?",
+            "turn_id": "BK22007545-9",
+            "utterance_id": "BK22007545.17"
+        },
+        {
+            "reference_date": "2021-03-25",
+            "reference_text": [
+                {
+                    "value": "제왕절개는 원칙적으로 자연분만이 불가능한 경우 시행한다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대표적으로 ▲제왕절개수술 또는 자궁근종제거수술 등 자궁근육층 수술경험이 있는 경우 ▲태아위치 이상 ▲전치태반(태아가 나오는 자궁입구를 태반이 막고 있는 상태) ▲난산으로 분만이 어려운 경우 ▲태아곤란증(태아가 산소공급을 받지 못해 뇌손상, 호흡곤란 등을 겪는 현상) 등이다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.k-health.com/news/articleView.html?idxno=52959",
+            "search_query": "제왕절개 해야하는 산모",
+            "terminate": false,
+            "text": "원칙적으로는 자연분만이 불가한 경우 제왕절개를 하게 돼요. 제왕절개수술 혹은 자궁근종 제거 수술 등 자궁근육층에 수술을 받은 이력이 있는 경우, 태아의 위치가 좋지 않은 경우, 태아가 나오는 자궁 입구를 태반이 가로막고 있는 전치태반인 경우, 난산으로 인해 출산이 힘든 경우, 태아가 산소공급을 원활히 받지 못해 뇌 손상이나 호흡곤란과 같은 태아곤란증이 있는 경우가 대표적이에요.",
+            "turn_id": "BK22007545-9",
+            "utterance_id": "BK22007545.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자연분만을 고집해도 결국 제왕절개로 가는 경우가 종종 있으니 저도 너무 이걸로 할까, 저걸로 할까 고민하고 지레 겁먹지 말아야겠어요.",
+            "turn_id": "BK22007545-10",
+            "utterance_id": "BK22007545.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "맞아요. 출산은 부모님 마음대로 안 되는 것 같아요. 열 달 소중히 건강하게 잘 품는 것에만 집중하시고 너무 무서워 마세요. 다음엔 출산 후에나 만날 수 있겠네요. 순산하시고 다음엔 아기랑 같이 봐요!",
+            "turn_id": "BK22007545-10",
+            "utterance_id": "BK22007545.20"
+        }
+    ]
+}

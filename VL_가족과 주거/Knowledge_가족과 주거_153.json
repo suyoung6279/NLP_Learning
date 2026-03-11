@@ -1,0 +1,371 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018269",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018269",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0019"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 개물림 사고에 대한 뉴스를 너무 자주 접하게 되는 것 같아요.",
+            "turn_id": "BK22018269-1",
+            "utterance_id": "BK22018269.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 맞아요. 저도 기사를 볼 때마다 너무 안타까워요.",
+            "turn_id": "BK22018269-1",
+            "utterance_id": "BK22018269.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "특히 노인이나 어린이 같은 노약자들이 주로 피해자가 되는 거 같아서 더 걱정이에요. 개물림 사고가 실제로도 그렇게 많이 일어나는 편인가요?",
+            "turn_id": "BK22018269-2",
+            "utterance_id": "BK22018269.3"
+        },
+        {
+            "reference_date": "44827.0",
+            "reference_text": [
+                {
+                    "value": "20년 기준 소방청이 집계한 통계에 따르면 지난 5년간 개물림 사고로 병원으로 이송된 건수는 1만여 건에 달할 정도로 빈번하게 발생하고 있으며, 2016년부터는 한 해 2000건 이상 꾸준히 신고됐다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.huffingtonpost.kr/news/articleView.html?idxno=202306",
+            "search_query": "개물림 사고",
+            "terminate": false,
+            "text": "2020년에 소방청이 조사한 통계에 의하면, 지난 5년 동안 개물림 사고로 인해 병원으로 옮겨진 건수가 1만여 건에 이를 정도로 자주 일어나는 사고예요. 특히 2016년부터는 한 해 2,000건 이상의 개물림 사고가 신고되고 있죠.",
+            "turn_id": "BK22018269-2",
+            "utterance_id": "BK22018269.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사람을 문 개는 그 뒤에 어떻게 되나요? 안락사된다고 들었는데 정말인가요?",
+            "turn_id": "BK22018269-3",
+            "utterance_id": "BK22018269.5"
+        },
+        {
+            "reference_date": "44838.0",
+            "reference_text": [
+                {
+                    "value": "개물림 사고가 발생하면 현재는 주인 의사에 따라 사고견을 안락사함으로써 문제를 일단락하고 있다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 반려동물을 키우는 인구가 늘고, 동물의 권리를 중시하는 기조가 확산되면서 안락사 반대의 목소리도 커지고 있다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한편 정부는 개물림 사고견의 공격성 정도를 평가해 안락사 여부를 결정하는 '기질평가제'를 오는 2024년 도입한다고 발표했다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202210041827362178",
+            "search_query": "개물림 사고 안락사",
+            "terminate": false,
+            "text": "네, 지금으로서는 개물림 사고가 발생했을 경우 견주의 의사에 따라 사고견을 안락사하는 방식으로 문제를 마무리 짓고 있긴 하지만 반려동물을 키우는 사람들의 수가 많아지고, 동물권을 중시하는 분위기가 퍼지면서 사고견의 안락사를 반대하는 주장도 점점 늘어나고 있죠. 정부에서는 2024년에 사람을 문 사고견의 공격성 정도를 평가 후 안락사 여부를 결정짓는 기질평가제를 도입할 예정이라고 밝혔어요.",
+            "turn_id": "BK22018269-3",
+            "utterance_id": "BK22018269.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "개물림 사고를 일으킨 견주에 대한 법적 처벌을 어떻게 되나요?",
+            "turn_id": "BK22018269-4",
+            "utterance_id": "BK22018269.7"
+        },
+        {
+            "reference_date": "44757.0",
+            "reference_text": [
+                {
+                    "value": "이렇게 개물림 사고로 사람이 다치는 경우 통상 과실치상죄가 적용된다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우리 형법은 과실(過失·실수)로 사람을 다치게 한 자를 500만원 이하의 벌금 등으로 처벌하고 있다(제266조).",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://lawtalknews.co.kr/article/6PF7W3FGU8UJ",
+            "search_query": "개물림 사고 법적 처벌",
+            "terminate": false,
+            "text": "개가 사람을 물어서 다치게 되는 경우에는 보통 과실치상죄가 적용되고, 형법 제266조에 의해 과실로 사람을 다치게 한 경우는 500만원 이하의 벌금 등의 처벌이 내려지죠.",
+            "turn_id": "BK22018269-4",
+            "utterance_id": "BK22018269.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "개물림 사고는 심한 경우 사람이 죽기도 하는데 벌금형은 조금 약한 것 같네요. 반려동물과 외출할 때 입마개를 씌우는 건 의무가 아닌 건가요?",
+            "turn_id": "BK22018269-5",
+            "utterance_id": "BK22018269.9"
+        },
+        {
+            "reference_date": "44749.0",
+            "reference_text": [
+                {
+                    "value": "동물보호법상 반려동물의 목줄 착용과 맹견의 입마개 착용 등이 의무화돼 피해를 예방하도록 돼 있지만 일부 반려인이 이를 지키지 않는 데다, 단속인원도 턱없이 부족한 실정이어서 모든 신고를 단속하는 것은 어려운 상황이다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kwnews.co.kr/page/view/2021070600000000069",
+            "search_query": "반려동물 입마개 의무 착용",
+            "terminate": false,
+            "text": "동물보호법에 의하면 피해 예방을 위해 반려동물의 목줄 착용 및 맹견의 입마개 착용과 같은 것들이 의무화되어있긴 해요. 그러나 실상은 이를 지키는 반려인이 거의 없고 인원 부족 등으로 인해 단속에도 어려움이 많아 신고가 들어온다고 해도 일일이 처리를 하지 못하고 있는 상황이죠.",
+            "turn_id": "BK22018269-5",
+            "utterance_id": "BK22018269.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맹견만 입마개 의무 착용이라고 하셨는데 맹견은 어떤 견종들을 말하는 건가요?",
+            "turn_id": "BK22018269-6",
+            "utterance_id": "BK22018269.11"
+        },
+        {
+            "reference_date": "44783.0",
+            "reference_text": [
+                {
+                    "value": "2024년 4월 27일부터는 맹견을 수입하거나 키우려면 시·도지사의 허가를 받아야 한다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수컷과 암컷 모두 중성화 수술을 받는 것이 필수 조건이다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "현행법상 맹견은 도사견, 아메리칸 핏불테리어, 아메리칸 스태퍼드셔 테리어, 스태퍼드셔 불테리어, 로트바일러 등 5종이다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/economy/economy_general/2022/08/10/AHVAK6JZENDH7PRTQAHQ7RWTUM",
+            "search_query": "맹견 5종",
+            "terminate": false,
+            "text": "현행법에 의해 맹견으로 지정된 견종은 도사견, 아메리칸 핏불 테리어, 아메리칸 스태퍼드셔 테리어, 스태퍼드셔 불테리어, 로트바일러 등의 5종을 가리켜요. 2024년 4월 27일을 기준으로 맹견을 수입 및 사육하는 경우 반드시 시장 및 도지사의 허가를 받아야 하고, 암수 구별 없이 무조건 중성화 수술을 필수로 받아야 한답니다.",
+            "turn_id": "BK22018269-6",
+            "utterance_id": "BK22018269.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "말씀하신 견종 중에 도사견이나 핏불테리어, 로트바일러 등은 꽤 익숙하네요. 각 견종들에 대해 궁금한데, 먼저 도사견에 대해 알려주세요.",
+            "turn_id": "BK22018269-7",
+            "utterance_id": "BK22018269.13"
+        },
+        {
+            "reference_date": "44798.0",
+            "reference_text": [
+                {
+                    "value": "도사견(일본어: 土佐犬) 또는 도사투견(일본어: 土佐闘犬)은 일본의 개화기 무렵부터 투견이 융성한 시코쿠 도사 번에서 지방 고유 품종인 시코쿠 견(四国犬)과 마에다 견(前田犬), 올드 잉글리쉬 불도그, 마스티프, 불독, 불테리어, 세인트 버나드, 그레이트 데인 등의 교미로 생겨난 개의 품종이다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "영국, 프랑스, 독일 등에서 도사 투견 등 투견을 위험 견종으로 지정해 규제하고 있다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8F%84%EC%82%AC%EA%B2%AC",
+            "search_query": "도사견",
+            "terminate": false,
+            "text": "도사견은 도사투견이라고도 하는데, 개화기 무렵 일본에 시코쿠 지방에서 만들어진 품종이에요. 시코쿠 지방은 투견으로 유명한 곳으로 시코쿠의 도사 번의 고유 품종인 시코쿠 견과 마에다 견, 올드 잉글리쉬 불도그, 마스티프, 불독, 불테리어, 세인트 버나드, 그레이트 데인 등을 섞어서 만들어진 것이 도사견이죠. 영국과 프랑스 및 독일 등과 같은 나라들도 도사 투견 등의 투견을 위험 견종으로 정하여 단속 중에 있어요.",
+            "turn_id": "BK22018269-7",
+            "utterance_id": "BK22018269.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도사견을 만들기 위해 섞인 다양한 견종들의 이름만 들어도 무시무시한데요. 그럼 핏불 테리어는 어떤 견종이죠?",
+            "turn_id": "BK22018269-8",
+            "utterance_id": "BK22018269.15"
+        },
+        {
+            "reference_date": "44845.0",
+            "reference_text": [
+                {
+                    "value": "핏불 테리어(pitbull terrier)는 영국의 불도그와 테리어를 교배해 만든 투견이다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "원산지는 미국이며, 조용하고 차분한 성격이지만 한 번 물면 절대 놓지 않고 목표물에 대한 집착이 매우 강하다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기본적으로 사람에게 치명적인 중.대형견이며 그중에서도 성질이 매우 흉폭하고 겁없이 달려들고 절대로 놓지 않기 때문에 굉장히 위험한 맹견이다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "통계상 개들 중에서도 가장 공격적이고 사람을 가장 많이 죽이는 견종이다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%8F%EB%B6%88_%ED%85%8C%EB%A6%AC%EC%96%B4",
+            "search_query": "핏불 테리어",
+            "terminate": false,
+            "text": "핏불 테리어의 원산지는 미국으로 영국의 불도그와 테리어의 교배종이에요. 평소 성격은 조용하고 차분하지만 한 번 문 것은 절대 놓는 법이 없고 목표물에 엄청난 집착을 보여요. 근본적으로 사람에게 위험한 중, 대형견의 일종이며 그중에서도 매우 사납고 주저 없이 달려든 후에 절대 놔주지 않기 때문에 아주 위험한 맹견이죠. 통계에 의하면 여러 견종 중에서도 제일 공격적이고, 핏불 테리어에 의해 사망한 사람의 수가 가장 많다고 해요.",
+            "turn_id": "BK22018269-8",
+            "utterance_id": "BK22018269.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "개를 잘 다루지 못하는 사람이라면 함부로 키우면 안 되는 견종인 거 같네요. 마지막으로 로트바일러에 대해 알려주세요.",
+            "turn_id": "BK22018269-9",
+            "utterance_id": "BK22018269.17"
+        },
+        {
+            "reference_date": "44828.0",
+            "reference_text": [
+                {
+                    "value": "로트와일러(독일어: Rottweiler /ˈʀɔtvaɪ̯lɐ/[*])는 목양견, 번견으로 쓰이는 독일산 개이다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "수컷의 체중이 최대 59 킬로그램에 육박하는 대형견이다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "로트바일러는 독일식 발음을 그대로 따와서 만든 것이다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대한민국 법제상 동물보호법 시행규칙 제12조에 따라 도사견, 핏불 테리어 등과 함께 맹견으로 지정되어 나이가 3개월을 넘어가면 목줄과 입마개를 의무적으로 착용하여야 한다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A1%9C%ED%8A%B8%EB%B0%94%EC%9D%BC%EB%9F%AC",
+            "search_query": "로트바일러",
+            "terminate": false,
+            "text": "독일을 원산지로 하는 로트바일러는 수컷의 경우 체중이 최대 59킬로그램에 달하는 대형견이며, 목양견과 번견으로 쓰이는 경우가 많아요. 로트바일러는 로트와일러의 독일식 발음이고요. 우리나라 법의 동물보호법 시행규칙 제12조에 의거하여 도사견, 핏불 테리어 등과 같이 맹견으로 지정되어있고, 3개월령 이상의 로트와일러는 무조건 목줄과 입마개를 필수 착용해야 하죠.",
+            "turn_id": "BK22018269-9",
+            "utterance_id": "BK22018269.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일상에서 사람과 반려동물이 공존하는 문화도 좋지만 인명 사고 예방을 위해서는 견주들이 많은 것들을 주의해야 할 것 같아요.",
+            "turn_id": "BK22018269-10",
+            "utterance_id": "BK22018269.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 맞아요. 특히 맹견을 키우는 견주들의 배려가 필요하다고 생각해요.",
+            "turn_id": "BK22018269-10",
+            "utterance_id": "BK22018269.20"
+        }
+    ]
+}

@@ -1,0 +1,364 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22000398",
+        "name": "2022 한국어 블렌더봇 데이터 BK22000398",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 와이프 이번 달에 만삭 접어들었어.",
+            "turn_id": "BK22000398-1",
+            "utterance_id": "BK22000398.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 그럼 곧 아기와도 만날 수 있겠네. 아들이라고 했었나, 딸이라고 했었나?",
+            "turn_id": "BK22000398-1",
+            "utterance_id": "BK22000398.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "딸이야. 이왕이면 나 말고 예쁜 엄마 닮았으면 좋겠어.",
+            "turn_id": "BK22000398-2",
+            "utterance_id": "BK22000398.3"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "참 부럽다, 아주 깨가 쏟아지는구나.",
+            "turn_id": "BK22000398-2",
+            "utterance_id": "BK22000398.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아직 신혼이잖냐. 근데 아기와 만나는 건 좋은데, 출산이 다가오니까 또 막 걱정되고 불안하고 그런다. 지금 설렘 반 걱정 반이야, 보통 언제쯤 나오지?",
+            "turn_id": "BK22000398-3",
+            "utterance_id": "BK22000398.5"
+        },
+        {
+            "reference_date": "2022-03-24",
+            "reference_text": [
+                {
+                    "value": "사람의 출산은 대부분 임신 후 37주 ~ 42주 사이에 이루어진다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "산모의 약 80%는 임신 후 38주 ~ 41주 사이에 분만하는데, 이는 포유류 중에서는 소의 임신기간과 거의 같다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B6%84%EB%A7%8C",
+            "search_query": "출산 시기",
+            "terminate": false,
+            "text": "보통 37주에서 42주 사이에 출산을 하는데, 그 중 한 80퍼센트는 38주에서 41주 사이에 분만을 해.",
+            "turn_id": "BK22000398-3",
+            "utterance_id": "BK22000398.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그래서 의사선생님이 이제 조산 위험은 벗어났다고 했구나. 지난주가 37주 차였거든.",
+            "turn_id": "BK22000398-4",
+            "utterance_id": "BK22000398.7"
+        },
+        {
+            "reference_date": "2022-03-24",
+            "reference_text": [
+                {
+                    "value": "산모가 임신 37주가 되기 전에 아이를 낳는 것을 조산(早産)이라고 하고, 42주가 지나서 아이를 낳는 것은 과숙 분만(過熟分娩)이라고 한다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B6%84%EB%A7%8C",
+            "search_query": "조산",
+            "terminate": false,
+            "text": "응, 37주 전에 낳으면 조산이고, 42주 넘어서 낳으면 과숙 분만이거든.",
+            "turn_id": "BK22000398-4",
+            "utterance_id": "BK22000398.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "과숙 분만이라는 것도 있어?",
+            "turn_id": "BK22000398-5",
+            "utterance_id": "BK22000398.9"
+        },
+        {
+            "reference_date": "2022-02-21",
+            "reference_text": [
+                {
+                    "value": "과숙 분만(過熟分娩, 영어: Postmature birth) 또는 과숙 임신(過熟姙娠, 영어: Postterm pregnancy)이란 임신 후 42주가 지나서 분만하거나, 임신 후 42주가 지나서도 임신 상태가 유지되는 것을 말한다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%BC%EC%88%99_%EB%B6%84%EB%A7%8C",
+            "search_query": "과숙 분만",
+            "terminate": false,
+            "text": "그럼 있고말고. 과숙 분만은 과숙 임신이라고도 하는데, 42주를 넘겨서 분만하거나, 42주가 지나도 계속 임신 상태인 걸 말해.",
+            "turn_id": "BK22000398-5",
+            "utterance_id": "BK22000398.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "42주를 넘기면 과숙 분만이라고 하는구나. 넘어가면 문제 생기는 게 있어?",
+            "turn_id": "BK22000398-6",
+            "utterance_id": "BK22000398.11"
+        },
+        {
+            "reference_date": "2022-02-21",
+            "reference_text": [
+                {
+                    "value": "일반적으로 42주를 초과해 임신을 지속할 경우에는 그렇지 않은 경우에 비해서 태아의 사망률이 높아진다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사망률이 높아지는 원인으로는 임신성 고혈압, 아이 머리와 골반의 불균형으로 인한 난산(難産), 태아 기형 등이 있다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%BC%EC%88%99_%EB%B6%84%EB%A7%8C",
+            "search_query": "과숙 분만 태아",
+            "terminate": false,
+            "text": "보통 42주를 넘어서 임신을 지속하면 태아의 사망률이 높아져. 임신성 고혈압이나 아이 머리와 골반 불균형으로 난산이 되거나 태아 기형 등이 발생할 수 있거든.",
+            "turn_id": "BK22000398-6",
+            "utterance_id": "BK22000398.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 일찍 태어나는 것도 위험하지만 늦게 태어나는 것도 위험하구나.",
+            "turn_id": "BK22000398-7",
+            "utterance_id": "BK22000398.13"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 셈이지. 그런데 분만은 어떤 방법으로 진행하기로 결정했어?",
+            "turn_id": "BK22000398-7",
+            "utterance_id": "BK22000398.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리는 자연 분만 생각하고 있는데.",
+            "turn_id": "BK22000398-8",
+            "utterance_id": "BK22000398.15"
+        },
+        {
+            "reference_date": "2022-03-24",
+            "reference_text": [
+                {
+                    "value": "분만일이 되면 임산부는 자궁의 수축을 느끼게 된다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "자궁의 수축은 점차 빨라지고 강도가 세져 진통을 수반하게 된다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "분만이 임박하게 되면 시간당 6회 이상의 진통이 찾아오고 자궁경부가 열린다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B6%84%EB%A7%8C",
+            "search_query": "출산 진통",
+            "terminate": false,
+            "text": "아, 자연 분만하기로 결정했구나. 분만 일이 되면 자궁의 수축이 느껴질 텐데, 점점 빨라지고 강도가 세져서 진통도 느낄 거야. 분만이 임박하면 시간당 6회 이상의 진통이 느껴지고, 자궁경부도 열리니까 아내분이 진통을 느끼기 시작하면 네가 옆에서 상태를 잘 살펴봐.",
+            "turn_id": "BK22000398-8",
+            "utterance_id": "BK22000398.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 그래야겠지. 아무래도 분만 당일이 되면 진통 때문에 와이프는 정신이 없을 테니까.",
+            "turn_id": "BK22000398-9",
+            "utterance_id": "BK22000398.17"
+        },
+        {
+            "reference_date": "2022-03-24",
+            "reference_text": [
+                {
+                    "value": "경산부는 약 6시간에서 1시간 10분, 초산부는 12시간에서 2시간 20분정도 걸린다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B6%84%EB%A7%8C",
+            "search_query": "출산 시간",
+            "terminate": false,
+            "text": "아이 나오는데 초산부는 2시간 20분에서 12시간 정도 걸리고, 경산부는 1시간 10분에서 6시간까지 걸려. 첫 출산이니 오래 걸릴 거야. 니가 옆에서 응원 많이 해줘.",
+            "turn_id": "BK22000398-9",
+            "utterance_id": "BK22000398.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최대 12시간이라니 우리 와이프 고생 많이 하겠다.",
+            "turn_id": "BK22000398-10",
+            "utterance_id": "BK22000398.19"
+        },
+        {
+            "reference_date": "2022-03-24",
+            "reference_text": [
+                {
+                    "value": "최근 산모의 고통을 덜기 위해 시도되고 있는 여러 가지 분만 방식 중 하나로, 물 속에서 아이를 낳는 방식이다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B6%84%EB%A7%8C",
+            "search_query": "수중 분만",
+            "terminate": false,
+            "text": "요즘에는 산모의 고통을 덜기 위해 물속에서 아이를 낳는 방식도 있어. 그런 건 생각 안 해봤어?",
+            "turn_id": "BK22000398-10",
+            "utterance_id": "BK22000398.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 난산이 되면 제왕 절개할 생각도 있어서, 그냥 병원에서 낳기로 했어. 그래서 그냥 일반적인 분만으로 진행하려고.",
+            "turn_id": "BK22000398-11",
+            "utterance_id": "BK22000398.21"
+        },
+        {
+            "reference_date": "2022-06-20",
+            "reference_text": [
+                {
+                    "value": "반면 동양계 여성의 골반은 타원형의 좁은 구조를 가지고 있어 아이를 낳을 때에 비교적 신체의 변형으로 인한 무리가 간다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EC%9D%98_%EC%82%B0%ED%9B%84%EC%A1%B0%EB%A6%AC",
+            "search_query": "한국의 산후조리",
+            "terminate": false,
+            "text": "그래, 출산하고 나면 고생한 만큼 푹 쉬게 해드려. 동양인은 골반이 타원형이고 좁은 구조라서 출산을 하고 나면, 서양인이랑 비교해서 신체변형이 많이 돼서 무리가 가거든.",
+            "turn_id": "BK22000398-11",
+            "utterance_id": "BK22000398.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 내가 옆에서 푹 쉴 수 있도록 잘 챙겨야지. 아무튼 무사히 출산하고 나면 연락할게.",
+            "turn_id": "BK22000398-12",
+            "utterance_id": "BK22000398.23"
+        }
+    ]
+}

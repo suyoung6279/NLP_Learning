@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012307",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012307",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이가 이제 두 살인데 감기 증상이 있어서 병원에 갔더니 소아 폐렴이라고 하네요. 소아 폐렴이 뭔가요?",
+            "turn_id": "BK22012307-1",
+            "utterance_id": "BK22012307.1"
+        },
+        {
+            "reference_date": "44620.0",
+            "reference_text": [
+                {
+                    "value": "소아 폐렴은 폐포 등에 염증이 발생해 기침, 가래, 가쁜 호흡, 발열, 흉통 등의 다양한 증상을 유발하는 질환인데 감기와 그 증상이 비슷해 감기로 오인하기도 한다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=102937",
+            "search_query": "소아 폐렴",
+            "terminate": false,
+            "text": "소아 폐렴은 폐포 등에 염증이 생겨서 기침이나 가래, 가쁜 호흡, 발열, 흉통 등의 증상을 유발하는 질병이에요. 감기와 증상이 유사해서 감기로 착각하기 쉽죠.",
+            "turn_id": "BK22012307-1",
+            "utterance_id": "BK22012307.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "계속 기침을 하고 열이 나길래 심한 감기인 줄 알았어요. 소아 폐렴과 감기 증상의 차이점이 있나요?",
+            "turn_id": "BK22012307-2",
+            "utterance_id": "BK22012307.3"
+        },
+        {
+            "reference_date": "44616.0",
+            "reference_text": [
+                {
+                    "value": "폐렴은 감기보다 기침을 심하게 해 잠을 설칠 정도며 3~4일 이상 고열이 지속되고 호흡수가 증가하고 끙끙거리는 신음소리를 낸다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "숨을 들이마실 때 갈비뼈 사이와 갈비뼈 아래쪽이 들어가는 흉곽함몰 증상을 보인다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "음식 섭취량이 현저히 줄어들고, 몸이 처지는 증상이 나타나기도 한다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.viva100.com/main/view.php?key=20220224010006117",
+            "search_query": "소아 폐렴 감기 차이점",
+            "terminate": false,
+            "text": "소아 폐렴은 아이가 잠을 설칠 정도로 기침을 심하게 하고 3일에서 4일 이상 고열이 나며 호흡수가 증가한다는 게 감기와의 차이점이에요. 숨을 들이마실 때 갈비뼈 사이와 갈비뼈 아래쪽이 들어가는 흉곽함몰 증상이 나타나고 평소보다 음식을 훨씬 적게 먹고 몸이 처지는 증상이 나타나기도 합니다.",
+            "turn_id": "BK22012307-2",
+            "utterance_id": "BK22012307.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "평소보다 밥을 잘 안 먹어서 입맛이 없는 줄 알았는데 폐렴 증상 중 하나였군요. 소아 폐렴은 왜 걸리는 건가요?",
+            "turn_id": "BK22012307-3",
+            "utterance_id": "BK22012307.5"
+        },
+        {
+            "reference_date": "44514.0",
+            "reference_text": [
+                {
+                    "value": "보통 소아 폐렴은 RS바이러스, 아데노바이러스, 인플루엔자 바이러스 등 다양한 호흡기 바이러스에 감염돼 발생된다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "폐구균, 마이코플라즈마 등 세균이 원인이 되기도 한다.",
+                    "value_time": "44819.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20211113_0001650047&cID=10201&pID=10200",
+            "search_query": "소아 폐렴 원인",
+            "terminate": false,
+            "text": "소아 폐렴은 호흡기 바이러스에 의해 발생하는 경우가 많아요. RS바이러스나 아데노바이러스, 인플루엔자 바이러스가 주 원인이고 마이코플라즈마균이나 폐구균 등의 세균에 의해 발생하는 경우도 있어요.",
+            "turn_id": "BK22012307-3",
+            "utterance_id": "BK22012307.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소아 폐렴에 걸리면 주로 어떤 증상들이 나타나나요?",
+            "turn_id": "BK22012307-4",
+            "utterance_id": "BK22012307.7"
+        },
+        {
+            "reference_date": "44620.0",
+            "reference_text": [
+                {
+                    "value": "폐렴에 걸리면 감기에 걸렸을 때보다 기침을 심하게 하는데 이로 인해 아이가 잠을 설치거나 구토를 하는 경우도 있다.",
+                    "value_time": "44819.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고열도 4일 이상 지속되고 분당 호흡수도 60회 이상으로 빨라질 수 있으며 숨쉴 때마다 불편해할 수 있다.",
+                    "value_time": "44819.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아이에 따라서는 경련이나 설사 같은 증상이 나타나기도 하고, 식욕부진이 동반되는 경우도 있다.",
+                    "value_time": "44819.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=102937",
+            "search_query": "소아 폐렴 증상",
+            "terminate": false,
+            "text": "감기보다 기침을 심하게 하기 때문에 잠을 설치거나 구토를 하기도 합니다. 4일 이상 고열이 지속되고 분당 호흡수도 60회 이상으로 빨라질 수 있어서 숨쉬는게 불편할 수 있어요. 경우에 따라 경련이나 설사, 식욕부진이 동반되기도 하구요.",
+            "turn_id": "BK22012307-4",
+            "utterance_id": "BK22012307.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어서 치료를 해야겠네요. 소아 폐렴 치료는 어떻게 진행되나요?",
+            "turn_id": "BK22012307-5",
+            "utterance_id": "BK22012307.9"
+        },
+        {
+            "reference_date": "43419.0",
+            "reference_text": [
+                {
+                    "value": "바이러스 폐렴은 충분한 수분 및 영양 공급, 휴식, 기침·가래 등 호흡기증상 완화제, 항바이러스제 처방 등 보조요법으로 치료한다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "세균성 폐렴엔 항생제를 처방한다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.viva100.com/main/view.php?key=20181114010005014",
+            "search_query": "소아 폐렴 치료",
+            "terminate": false,
+            "text": "바이러스 폐렴은 기침, 가래 등 호흡기 증상 완화제나 항바이러스제를 사용해서 치료를 하는 동시에 충분한 수분 및 영양 공급, 휴식을 취해야 합니다. 세균성 폐렴은 항생제를 투여해서 치료를 하구요.",
+            "turn_id": "BK22012307-5",
+            "utterance_id": "BK22012307.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 혹시 소아 폐렴 관련한 합병증도 있나요?",
+            "turn_id": "BK22012307-6",
+            "utterance_id": "BK22012307.11"
+        },
+        {
+            "reference_date": "44154.0",
+            "reference_text": [
+                {
+                    "value": "소아 폐렴을 방치하게 되면 늑막염이나 뇌수막염 같이 치명적인 합병증이 발생할 수 있다.",
+                    "value_time": "44819.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 부모의 세심한 관찰이 필요하며 평소와 다른 증세를 호소한다면 즉시 병원을 방문해 적절한 치료를 받아야 한다.",
+                    "value_time": "44819.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.tfmedia.co.kr/news/article.html?no=95536",
+            "search_query": "소아 폐렴 합병증",
+            "terminate": false,
+            "text": "소아 폐렴의 치료 시기를 놓치면 늑막염이나 뇌수막염 등의 심각한 합병증이 올 수 있어요. 아이가 평소와 다른 증상을 보인다면 즉시 병원 치료를 받아야 하니 부모님의 세심한 관찰이 필요합니다.",
+            "turn_id": "BK22012307-6",
+            "utterance_id": "BK22012307.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "폐렴이 다 나으면 평소에도 관리를 잘 해주고 싶은데 소아 폐렴을 예방하려면 어떤 예방접종을 해야 하는지도 궁금해요.",
+            "turn_id": "BK22012307-7",
+            "utterance_id": "BK22012307.13"
+        },
+        {
+            "reference_date": "44515.0",
+            "reference_text": [
+                {
+                    "value": "폐렴과 직접적인 연관이 있는 폐렴구균, 뇌수막염, 독감 등의 예방 접종을 정해진 시기에 맞는 것도 도움이 된다.",
+                    "value_time": "44819.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20211115502401?OutUrl=naver",
+            "search_query": "소아 폐렴 예방접종",
+            "terminate": false,
+            "text": "정해진 시기에 폐렴과 연관이 높은 폐렴구균, 뇌수막염, 독감 등의 예방접종을 하는 것이 폐렴 예방에 도움이 됩니다.",
+            "turn_id": "BK22012307-7",
+            "utterance_id": "BK22012307.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일상생활에서 소아 폐렴을 예방할 수 있는 방법도 있나요?",
+            "turn_id": "BK22012307-8",
+            "utterance_id": "BK22012307.15"
+        },
+        {
+            "reference_date": "44390.0",
+            "reference_text": [
+                {
+                    "value": "소아 폐렴은 대부분이 감염성 질환이기에 유행하는 계절에 사람 많은 곳이나 환기가 잘 되지 않는 곳을 피하고, 얼굴과 입을 만지지 않고, 손을 잘 씻는 것이 중요합니다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=6507694&cid=51004&categoryId=51004",
+            "search_query": "소아 폐렴 예방",
+            "terminate": false,
+            "text": "네, 소아 폐렴은 대부분 감염에 의해 발생하기 때문에 폐렴이 유행하는 시기에 사람이 많거나 환기가 잘 되지 않는 곳은 피하는 것이 좋아요. 오염된 손으로 얼굴과 입을 만지지 않고 손을 잘 씻는 것도 중요하구요.",
+            "turn_id": "BK22012307-8",
+            "utterance_id": "BK22012307.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이가 마스크 쓰는 걸 싫어해서 외출할 때 저만 마스크를 착용했는데 앞으로는 아이도 마스크를 꼭 씌워야겠어요.",
+            "turn_id": "BK22012307-9",
+            "utterance_id": "BK22012307.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "보통 아이들은 마스크 쓰는 걸 답답해하지만 환절기나 사람 많은 곳에 갈 때는 꼭 씌워주는 게 좋아요.",
+            "turn_id": "BK22012307-9",
+            "utterance_id": "BK22012307.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞벌이를 하다 보니 어린이집에 아이를 보내고 있는데 요즘 반 친구들 중에 비슷한 증상을 보이는 아이들이 많더라구요. 평소에 면역력 관리에 더 신경 써줘야겠어요.",
+            "turn_id": "BK22012307-10",
+            "utterance_id": "BK22012307.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "요즘 같은 환절기에는 일교차가 커서 일반 감기에도 걸리기 쉬운 환경이죠. 걱정 많이 하셨을 텐데 치료 잘 받고 아이가 어서 완쾌되길 바랄게요.",
+            "turn_id": "BK22012307-10",
+            "utterance_id": "BK22012307.20"
+        }
+    ]
+}

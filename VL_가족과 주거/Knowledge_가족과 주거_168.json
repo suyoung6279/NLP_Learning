@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.5,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.6,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018418",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018418",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0021"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "화장실 줄눈이 오염되어 검게 변했어요.",
+            "turn_id": "BK22018418-1",
+            "utterance_id": "BK22018418.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오염된 줄눈은 닦아도 쉽게 없어지지도 않아요.",
+            "turn_id": "BK22018418-1",
+            "utterance_id": "BK22018418.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무리 닦아도 안 닦이더라고요. 이렇게 방치하면 처음 시공되었던 백시멘트 때문에 건강에 좋지 않다고 주위에서 이야기하네요. 가족들 건강에 문제 생길까 걱정인데, 정말 그런가요?",
+            "turn_id": "BK22018418-2",
+            "utterance_id": "BK22018418.3"
+        },
+        {
+            "reference_date": "43405.0",
+            "reference_text": [
+                {
+                    "value": "그리고 이렇게 방치하면 최초 시공되어 있던 백시멘트가 시간이 지나면 가루가 발생한다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "부숴지거나 오염된 줄눈은 보수가 어려운데 이때 부서진 유해물질은 성인 및 아이에게 호흡기 질환과 아토피 피부염을 유발한다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=55097",
+            "search_query": "줄눈 백시멘트",
+            "terminate": false,
+            "text": "시공되어 있던 백시멘트가 시간이 지날수록 부서져 가루가 발생하거나 줄눈이 오염되죠. 그때 부서진 부분에서 유해 물질이 나와 성인이나 아이에게 호흡기 질환을 유발하거나 아토피 피부염을 일으켜요.",
+            "turn_id": "BK22018418-2",
+            "utterance_id": "BK22018418.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "더 많이 오염되기 전에 새로 시공하려고요. 백시멘트로 하면 다음에 또 이런 일이 발생할 텐데, 좋은 방법이 없을까요?",
+            "turn_id": "BK22018418-3",
+            "utterance_id": "BK22018418.5"
+        },
+        {
+            "reference_date": "43405.0",
+            "reference_text": [
+                {
+                    "value": "최근 백시멘트에서 나오는 유해물질이 건강에 좋지 않다는 인식으로 자리 잡으면서 친환경 줄눈시공이 각광을 받고 있다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=55097",
+            "search_query": "줄눈 백시멘트 유해물질",
+            "terminate": false,
+            "text": "요즘에는 유해 물질 발생이 건강에 해롭다는 인식 때문에 백시멘트 대신 친환경 줄눈시공을 많이 해요.",
+            "turn_id": "BK22018418-3",
+            "utterance_id": "BK22018418.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "친환경 줄눈 시공이 뭔가요?",
+            "turn_id": "BK22018418-4",
+            "utterance_id": "BK22018418.7"
+        },
+        {
+            "reference_date": "44336.0",
+            "reference_text": [
+                {
+                    "value": "친환경 줄눈시공은 인체에 무해한 친환경 줄눈제와 안료만을 사용하고 높은 항균력으로 강력한 오염방지 효과가 있다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.chosun.com/news/ntype.htm?id=202105210100157690010291&servicedate=20210520",
+            "search_query": "친환경 줄눈시공",
+            "terminate": false,
+            "text": "인체에 해롭지 않은 친환경 줄눈제와 안료만 사용해서 줄눈시공을 하는 거예요. 항균력도 높고 오염방지 효과도 탁월해서 좋아요.",
+            "turn_id": "BK22018418-4",
+            "utterance_id": "BK22018418.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 게 있다면 저도 친환경 줄눈으로 시공하고 싶어요. 힘들지 않다면 남편이랑 같이 직접 해보고 싶은데, 가능할까요?",
+            "turn_id": "BK22018418-5",
+            "utterance_id": "BK22018418.9"
+        },
+        {
+            "reference_date": "43405.0",
+            "reference_text": [
+                {
+                    "value": "줄눈시공은 셀프로도 가능하다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "셀프줄눈시공을 활용하는 데에는 중요한 몇 가지 요령이 있다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=55097",
+            "search_query": "셀프 줄눈시공",
+            "terminate": false,
+            "text": "줄눈시공하는 몇 가지 중요한 요령만 알고 하면, 셀프로도 줄눈시공을 충분히 할 수 있어요.",
+            "turn_id": "BK22018418-5",
+            "utterance_id": "BK22018418.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혼자도 아니고 남편이랑 둘이 하는데 문제없겠죠. 그런데 그 요령이란 것이 무엇인가요?",
+            "turn_id": "BK22018418-6",
+            "utterance_id": "BK22018418.11"
+        },
+        {
+            "reference_date": "43405.0",
+            "reference_text": [
+                {
+                    "value": "먼저 마스킹데이프를 활용하여 시공을 하는 것이 좋다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "틀어지거나 번지는 친환경 줄눈제를 깔끔하게 처리할 수 있다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=55097",
+            "search_query": "줄눈 마스킹테이프",
+            "terminate": false,
+            "text": "틀어지거나 번지는 것을 막기 위해 마스킹 테이프를 붙여준 후, 그다음 줄눈제를 바르면 깔끔하게 처리가 가능해요.",
+            "turn_id": "BK22018418-6",
+            "utterance_id": "BK22018418.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "남편이 마스킹 테이프 잘 붙이는데 잘됐네요. 그다음은 작업은 무엇인가요?",
+            "turn_id": "BK22018418-7",
+            "utterance_id": "BK22018418.13"
+        },
+        {
+            "reference_date": "43405.0",
+            "reference_text": [
+                {
+                    "value": "경사면을 고려해서 시공하는 것이 좋다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "벽에서 흘러내리는 물기나 바닥 타일에서 퍼지는 물기가 오목한 테두리에 고이지 않게 시공해야 한다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=55097",
+            "search_query": "줄눈 경사면 시공",
+            "terminate": false,
+            "text": "벽에서 흘러내리는 물기나 바닥 타일에 있던 물기가 고이지 않도록 경사면을 잘 고려해야 해요.",
+            "turn_id": "BK22018418-7",
+            "utterance_id": "BK22018418.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 부분도 신경을 써야 하는군요. 저도 남편도 해본 적이 없어서, 경사면 처리를 어떻게 해야 할지 모르겠는데 자세히 알려주세요.",
+            "turn_id": "BK22018418-8",
+            "utterance_id": "BK22018418.15"
+        },
+        {
+            "reference_date": "43405.0",
+            "reference_text": [
+                {
+                    "value": "바닥타일과 벽타일이 만나는 테두리 부분에 폭 10mm 45도 경사면을 만들어 시공한다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "물이 고이면 곰팡이 오염이 높아지게 된다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=55097",
+            "search_query": "줄눈 경사면 곰팡이",
+            "terminate": false,
+            "text": "바닥과 벽이 만나는 부분에 폭 10mm로 경사가 45도 생기게 시공해주세요. 경사진 곳에 물이 고이지 않아 곰팡이 오염이 덜 생겨요.",
+            "turn_id": "BK22018418-8",
+            "utterance_id": "BK22018418.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇게 하는 거군요. 이제 줄눈제를 바르면 되는 거죠?",
+            "turn_id": "BK22018418-9",
+            "utterance_id": "BK22018418.17"
+        },
+        {
+            "reference_date": "43405.0",
+            "reference_text": [
+                {
+                    "value": "현장에서는 시공의 편리성을 위해 실리콘위에 실리콘을 시공하는 경우가 많다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이런 형태의 시공은 표면이 물러서 관리할 때도 표면에 스크래치가 발생하고 오염되기 쉽다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "파내고 줄눈제를 활용하면 내마모성이 좋고 스크래치에 강해진다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=55097",
+            "search_query": "줄눈제 실리콘",
+            "terminate": false,
+            "text": "한 가지만 더 하고 줄눈제를 바르세요. 보통 편리하게 하기 위해 실리콘 위에 실리콘을 덧입히는 경우가 있는데, 이렇게 하면 시공 부분이 물러서 스크래치가 발생하거나 관리하기 어려워요. 꼭 파내고 그 위에 줄눈제를 시공해야지만 내마모성도 좋고 스크래치에도 강해요.",
+            "turn_id": "BK22018418-9",
+            "utterance_id": "BK22018418.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 명심하고 저희 부부 열심히 줄눈 시공할게요. 담에 놀러 오셔서 잘했는지 평가해 주세요.",
+            "turn_id": "BK22018418-10",
+            "utterance_id": "BK22018418.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "불러주시면 꼭 가서 평가해 드릴게요.",
+            "turn_id": "BK22018418-10",
+            "utterance_id": "BK22018418.20"
+        }
+    ]
+}

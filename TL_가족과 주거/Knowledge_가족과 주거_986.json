@@ -1,0 +1,342 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005205",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005205",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0036"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0003"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이 재우는 게 너무 힘들어. 밤마다 얼마나 고생하는지 모른다니까.",
+            "turn_id": "BK22005205-1",
+            "utterance_id": "BK22005205.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 잠을 잘 자야 잘 클 텐데 걱정이 크겠다.",
+            "turn_id": "BK22005205-1",
+            "utterance_id": "BK22005205.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내 말이. 그래서 나 요즘 아이 수면 교육에 대해서 관심이 많은데 어떻게 해야 할지 잘 모르겠어. 혹시 수면교육에 대해 잘 알아?",
+            "turn_id": "BK22005205-2",
+            "utterance_id": "BK22005205.3"
+        },
+        {
+            "reference_date": "2021-05-20",
+            "reference_text": [
+                {
+                    "value": "올바른 수면교육을 하기 위해서는 여러 가지 조건이 필요하다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "규칙적인 생활을 해야 한다는 것, 아이의 컨디션을 항상 체크해야 한다는 것, 잠자리의 환경을 살펴보는 것, 수면에 대한 의식을 심어주는 것 등이 여기에 해당된다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sisunnews.co.kr/news/articleView.html?idxno=140941",
+            "search_query": "수면교육 방법",
+            "terminate": false,
+            "text": "그럼, 수면 교육을 올바르게 하려면 여러 가지 조건이 갖춰져야 해. 규칙적인 생활을 해야 하고 아이의 컨디션과 잠자리 환경도 늘 잘 살펴야 하지. 그리고 수면에 대한 의식을 만들어 주는 것도 수면 교육 조건에 포함되는 거야.",
+            "turn_id": "BK22005205-2",
+            "utterance_id": "BK22005205.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 신경 쓸 부분이 많구나. 난 아기 재우기 전에 꼭 목욕시키는데, 그것도 아기 재우는 데 도움이 되는 거겠지?",
+            "turn_id": "BK22005205-3",
+            "utterance_id": "BK22005205.5"
+        },
+        {
+            "reference_date": "2021-01-19",
+            "reference_text": [
+                {
+                    "value": "아기가 편안하게 잠들기 위해서는 잠들기 30분 전에 목욕을 시켜주는 것이 좋다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "일반적으로 아기는 매일 목욕을 할 필요가 없는 것으로 알려져 있으며, 목욕물은 36~38℃로 약간 미지근하게 준비한다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.healthinnews.co.kr/news/articleView.html?idxno=27625",
+            "search_query": "아기 재우기 전 목욕",
+            "terminate": false,
+            "text": "맞아, 잠들기 30분쯤 전에 목욕을 시켜주면 아기가 편하게 잠들 수 있어. 그런데 목욕을 매일 할 필요는 없고, 물의 온도만 36도에서 38도로 약간 미지근하게 맞춰주면 좋아.",
+            "turn_id": "BK22005205-3",
+            "utterance_id": "BK22005205.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 목욕은 잘 하고 있는 것 같다. 그럼 혹시 재울 때 마사지 같은 것도 도움이 되려나?",
+            "turn_id": "BK22005205-4",
+            "utterance_id": "BK22005205.7"
+        },
+        {
+            "reference_date": "2022-01-19",
+            "reference_text": [
+                {
+                    "value": "자기 전 가벼운 마사지도 숙면을 유도한다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "근육을 풀어주는 마사지를 해주면 성장호르몬 분비가 왕성해지고, 뇌 속의 세로토닌 호르몬 분비가 늘어 정서 안정은 물론 숙면에도 도움을 준다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.healthinnews.co.kr/news/articleView.html?idxno=27625",
+            "search_query": "아기 재울 때 마사지",
+            "terminate": false,
+            "text": "가볍게 마사지해서 숙면을 유도할 수도 있어. 마사지로 근육을 풀어주면 성장호르몬도 왕성하게 분비되고 뇌에서 세로토닌 호르몬 분비도 많아져서 정서적인 안정을 얻게 되고 잠을 잘 자는 데도 도움이 되거든.",
+            "turn_id": "BK22005205-4",
+            "utterance_id": "BK22005205.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 재우면서 마사지도 열심히 해줘야겠다. 아, 또 듣기로는 아기 수면 의식이라는 것도 있다던데, 그건 어떻게 해주는 건지 혹시 알아?",
+            "turn_id": "BK22005205-5",
+            "utterance_id": "BK22005205.9"
+        },
+        {
+            "reference_date": "2021-01-19",
+            "reference_text": [
+                {
+                    "value": "수면의식은 아이를 재우기 위해 매일 같은 패턴의 과정을 겪게 하는 것을 뜻한다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.healthinnews.co.kr/news/articleView.html?idxno=27625",
+            "search_query": "아기 수면의식",
+            "terminate": false,
+            "text": "수면 의식이라는 건 매일매일 같은 패턴으로 잠자는 과정을 만들어서 아이를 재우는 걸 말해.",
+            "turn_id": "BK22005205-5",
+            "utterance_id": "BK22005205.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 패턴이라는 건 내가 임의로 결정해도 되는 거야? 보통은 어떤 식으로 하면 좋은지 궁금하다.",
+            "turn_id": "BK22005205-6",
+            "utterance_id": "BK22005205.11"
+        },
+        {
+            "reference_date": "2021-12-08",
+            "reference_text": [
+                {
+                    "value": "자기 전 충분히 배부르게 먹이고, 따뜻한 물로 목욕을 하고, 옷을 갈아입히고, 인형에게 잠자리 인사를 하는 등 잠들기 전에 하는 모든 규칙적인 행위가 이에 속한다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202112084537o",
+            "search_query": "아기 수면의식 패턴",
+            "terminate": false,
+            "text": "우선 자기 전에는 배부르게 충분히 먹이고 목욕도 따뜻한 물로 해준 다음 옷을 갈아입히지. 그리고 인형에게 인사를 할 수도 있고. 이렇게 자기 전에 하는 모든 행위를 규칙적으로 하면 되는 거야.",
+            "turn_id": "BK22005205-6",
+            "utterance_id": "BK22005205.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 규칙적인 패턴을 매일 하라는 거지? 그럼 혹시 반대로 하지 말아야 할 주의 사항도 있을까?",
+            "turn_id": "BK22005205-7",
+            "utterance_id": "BK22005205.13"
+        },
+        {
+            "reference_date": "2021-12-08",
+            "reference_text": [
+                {
+                    "value": "또 엄마아빠와 계속해서 같이 자면 잠들기 전 엄마의 머리카락을 만지거나 젖을 찾는 등 버릇이 생겨 스스로 편안하게 잠드는 법을 터득하지 못할 수 있다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202112084537o",
+            "search_query": "아기 재울 때 주의사항",
+            "terminate": false,
+            "text": "엄마 아빠랑 계속 같이 잠을 자는 경우에는 자기 전에 엄마 머리카락을 만지거나 엄마 젖을 찾게 되는 버릇이 생길 수 있어. 그럼 혼자서 스스로 편하게 자는 법을 터득하기 어려우니까 아무래도 주의해야겠지.",
+            "turn_id": "BK22005205-7",
+            "utterance_id": "BK22005205.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 따로 재울 생각은 아직 없었는데 고민해봐야겠다. 그럼 재우기 전에 아기랑 놀아주는 건 어떻게 하는 게 좋아?",
+            "turn_id": "BK22005205-8",
+            "utterance_id": "BK22005205.15"
+        },
+        {
+            "reference_date": "2018-06-22",
+            "reference_text": [
+                {
+                    "value": "아기를 재우기 전에 주의할 점은 자기 전 활동적인 놀이를 하지 않는 것이다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "활동적인 놀이를 하면 아기가 흥분상태가 되고 다시 가라앉는데 오래 걸리기 때문에 주의하도록 한다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=66183",
+            "search_query": "아기 재우기 전 놀아주기",
+            "terminate": false,
+            "text": "아기를 재우기 전에 활동적인 놀이를 하게 되면 아기가 흥분하게 되어서 다시 가라앉는 데 시간이 오래 걸리니까, 활동적인 놀이는 피하는 게 좋지.",
+            "turn_id": "BK22005205-8",
+            "utterance_id": "BK22005205.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "헉, 난 일부러 피곤하게 만들려고 엄청 놀아줬는데 잘못된 거였구나. 그럼 혹시 낮잠을 오래 자는 것도 밤잠이랑 상관있을까? 낮에 잠을 많이 자는 편이라 저녁에 많이 놀아주는 거거든.",
+            "turn_id": "BK22005205-9",
+            "utterance_id": "BK22005205.17"
+        },
+        {
+            "reference_date": "2018-05-16",
+            "reference_text": [
+                {
+                    "value": "낮잠은 필요한 것이지만 과하면 밤에 수면을 취하지 못하게 하는 요소로 작용하여 피로감을 주고 감정을 조절하는 것에 어려움을 줄 수 있기 때문에 내 아이의 수면 패턴을 체크하고 낮잠은 깊게 자지 않도록 하는 것이 좋습니다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=64990",
+            "search_query": "아기 낮잠 밤잠 연관성",
+            "terminate": false,
+            "text": "낮잠이 필요하긴 하지만 너무 많이 자면 밤에 잘 못 자는 요소가 될 수 있어. 그래서 아기가 피로감을 느끼고 감정 조절에 어려움을 겪을 수 있으니까 낮잠을 깊게 자지 않도록 하고 아이의 수면 패턴을 체크해 봐.",
+            "turn_id": "BK22005205-9",
+            "utterance_id": "BK22005205.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "낮잠이라도 잘 자라고 그냥 깰 때까지 놔뒀거든. 앞으로는 낮잠 너무 오래 재우지 말아야겠네.",
+            "turn_id": "BK22005205-10",
+            "utterance_id": "BK22005205.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 아이가 자는 패턴 잘 살펴보고 적절하게 수면 교육 해주면 괜찮아질 거야.",
+            "turn_id": "BK22005205-10",
+            "utterance_id": "BK22005205.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "고마워, 오늘 덕분에 유익한 정보 많이 얻었네. 알려준 대로 수면 교육 잘 시켜볼게. 그럼 다음에 또 보자.",
+            "turn_id": "BK22005205-11",
+            "utterance_id": "BK22005205.21"
+        }
+    ]
+}

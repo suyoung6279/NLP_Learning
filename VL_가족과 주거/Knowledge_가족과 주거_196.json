@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018916",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018916",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0029"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0019"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 강아지가 눈물을 흘리면 눈물 자국이 생기는데 닦아줘도 계속 생겨. 눈물 자국이 왜 생기는지 알고 있어?",
+            "turn_id": "BK22018916-1",
+            "utterance_id": "BK22018916.1"
+        },
+        {
+            "reference_date": "43887.0",
+            "reference_text": [
+                {
+                    "value": "강아지의 눈물에는 적혈구가 분해될 때 생기는 ‘포르피린(porphyrin)’이라는 물질이 함유되어있다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사람은 포르피린을 담즙과 장을 통해 배출하나, 강아지는 눈물, 타액, 소변을 통해 배출한다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "포르피린엔 다량의 철분이 함유되어있어 공기와 접촉 시 검붉은 빛깔을 내게 된다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mkhealth.co.kr/news/articleView.html?idxno=45607",
+            "search_query": "강아지 눈물 포르피린",
+            "terminate": false,
+            "text": "개한테는 적혈구가 분해될 때 발생하는 포르피린이라는 물질이 눈물에 포함되어 있어. 사람은 포르피린을 장과 담즙을 통해 내보내지만, 강아지는 타액, 소변, 눈물을 통해 내보내게 되어있어. 포르피린에는 대량의 철분이 포함되어있어 공기와 만나면 검붉은 색깔을 내게 돼.",
+            "turn_id": "BK22018916-1",
+            "utterance_id": "BK22018916.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 눈물 자국 색깔이 붉은색이었구나. 가끔 눈물을 흘리는 게 아니라, 눈물이 과도하게 흐르는 경우도 있던데 이걸 뭐라고 해?",
+            "turn_id": "BK22018916-2",
+            "utterance_id": "BK22018916.3"
+        },
+        {
+            "reference_date": "43887.0",
+            "reference_text": [
+                {
+                    "value": "실제 강아지의 눈물이 과도하게 흐르는 현상을 ‘유루증’이라고 하는데, 유루증의 발생 원인은 강아지마다 다르다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mkhealth.co.kr/news/articleView.html?idxno=45607",
+            "search_query": "강아지 유루증",
+            "terminate": false,
+            "text": "강아지의 눈물이 심하게 나오는 상태를 유루증이라고 해. 유루증의 생성 원인은 개마다 달라.",
+            "turn_id": "BK22018916-2",
+            "utterance_id": "BK22018916.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "눈물이 과하게 생기는 이유는 뭘까?",
+            "turn_id": "BK22018916-3",
+            "utterance_id": "BK22018916.5"
+        },
+        {
+            "reference_date": "44176.0",
+            "reference_text": [
+                {
+                    "value": "눈물이 과다하게 생성되는 원인으로는 ▲음식 알레르기 ▲속눈썹이 눈을 찌름 ▲결막염, 안검염 같은 안과질환 등이다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 주변 환경이나 스트레스로 눈물이 지나치게 많이 만들어져도 유루증이 나타날 수 있다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=51415",
+            "search_query": "강아지 유루증 생성원인",
+            "terminate": false,
+            "text": "눈물이 너무 많이 발생하는 이유로는 속눈썹이 눈을 찌르거나 음식 알레르기, 안검염, 결막염 같은 안과 질환 등이야. 또 스트레스나 근처 환경으로 눈물이 심하게 많이 만들어져도 유루증이 나타날 수 있어.",
+            "turn_id": "BK22018916-3",
+            "utterance_id": "BK22018916.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "개마다 눈물이 심한 개도 있고 아닌 개도 있던데. 유루증은 어떤 견종에 생겨?",
+            "turn_id": "BK22018916-4",
+            "utterance_id": "BK22018916.7"
+        },
+        {
+            "reference_date": "44723.0",
+            "reference_text": [
+                {
+                    "value": "말티즈나 포메라니안, 페키니즈 등의 견종은 유전학적으로 속눈썹이 길고 처져 있어 눈을 찌르는 경우가 많아 눈물자국이 잘 생긴다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 견종들은 대부분 밝은 색 털을 가지고 있어 붉은색 눈물길이 더 눈에 잘 띈다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 밖에 시추, 퍼그 같이 눈이 크고 돌출돼 있는 견종도 먼지, 샴푸 등의 이물질이 들어가 눈물이 많이 나는 ‘유루증(Epiphora·눈물흘림증)’에 잘 걸린다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20220609000889",
+            "search_query": "강아지 유루증 견종",
+            "terminate": false,
+            "text": "유전학적으로 포메라니안, 페키니즈, 말티즈 등의 견종은 속눈썹이 길고 늘어져 있어서 눈을 찌를 때가 많기 때문에 눈물 자국이 잘 생겨. 이 견종들은 대체로 밝은색 털을 가지고 있어, 적색 눈물길이 눈에 더 잘 띄지. 이 외에도 퍼그나 시추같이 눈이 커다랗고 돌출된 견종은 샴푸, 먼지 등의 이물질이 들어가서 눈물이 많이 나는 유루증에 쉽게 잘 걸려.",
+            "turn_id": "BK22018916-4",
+            "utterance_id": "BK22018916.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 강아지가 포메라니안이라 눈물 자국이 잘 생기는 거였구나. 눈물 자국은 어떻게 방지할 수 있어?",
+            "turn_id": "BK22018916-5",
+            "utterance_id": "BK22018916.9"
+        },
+        {
+            "reference_date": "42678.0",
+            "reference_text": [
+                {
+                    "value": "가장 중요한 것은 눈 주위의 털을 위생적으로 관리하는 것입니다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "매일 밤 털손질을 몇 분간 해주는 것만으로도 털이 착색되는 것을 방지할 수 있습니다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.khan.co.kr/bizlife/sk_index.html?art_id=201611041459004&sec_id=561801&pt=nv",
+            "search_query": "강아지 눈물얼룩 털손질",
+            "terminate": false,
+            "text": "눈 주변의 털을 위생적으로 유지하는 게 제일 중요해. 매일 밤 몇 분간 털 손질을 하는 것만으로도 털이 착색되는 것을 예방할 수 있어.",
+            "turn_id": "BK22018916-5",
+            "utterance_id": "BK22018916.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "눈 주변을 신경 써줘야겠다. 눈물 자국이 생기면 어떻게 관리해줘야 해?",
+            "turn_id": "BK22018916-6",
+            "utterance_id": "BK22018916.11"
+        },
+        {
+            "reference_date": "42678.0",
+            "reference_text": [
+                {
+                    "value": "생리식염수나 인공눈물을 이용해 눈을 깨끗하게 씻어주고 같은 용액을 이용해 면봉을 적신 후 눈 주위를 조심스럽게 문질러줍니다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "코와 입 주위 털을 드라이샴푸를 이용해 씻고 물에 적신 수건으로 닦아준 후 잘 말려줍니다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.khan.co.kr/bizlife/sk_index.html?art_id=201611041459004&sec_id=561801&pt=nv",
+            "search_query": "강아지 유루증 털",
+            "terminate": false,
+            "text": "인공눈물이나 생리식염수를 사용해 눈을 깔끔하게 닦아주고 같은 용액을 사용해 면봉을 적신 후 눈 주변을 조심스럽게 닦아줘. 입과 코 주변 털을 드라이 샴푸를 사용해 세정하고 수건을 물에 적셔서 닦아준 후 잘 말려줘.",
+            "turn_id": "BK22018916-6",
+            "utterance_id": "BK22018916.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "간단하게 관리할 수 있구나. 눈물 닦는 식염수랑 면봉을 사서 매일 닦아줘야겠어.",
+            "turn_id": "BK22018916-7",
+            "utterance_id": "BK22018916.13"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "식염수를 사용하면 좋지. 닦는 용액은 안에 첨가물이 없는게 좋아.",
+            "turn_id": "BK22018916-7",
+            "utterance_id": "BK22018916.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음식 알레르기가 유루증을 생기게 한다면, 어떻게 대처해야 할까?",
+            "turn_id": "BK22018916-8",
+            "utterance_id": "BK22018916.15"
+        },
+        {
+            "reference_date": "44723.0",
+            "reference_text": [
+                {
+                    "value": "사료나 음식에 의한 알레르기가 원인이라면 착색료나 방부제가 포함되지 않은 사료를 선택하는 것이 도움이 되며, 저알레르기 사료나 알레르기 유발 음식이 들어 있지 않나 세심히 살펴야 한다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20220609000889",
+            "search_query": "강아지 눈물자국 알레르기",
+            "terminate": false,
+            "text": "음식이나 사료에 의한 알레르기가 이유라면, 방부제나 착색료가 함유되지 않은 사료를 고르는 것이 도움이 돼. 저알레르기 사료나 알레르기 유발 음식이 함유되지 않았나 세밀히 들여다봐야 해.",
+            "turn_id": "BK22018916-8",
+            "utterance_id": "BK22018916.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "방부제나 착색료가 없는 사료나 간식을 잘 골라야겠다. 눈물 자국이 생기면 병원에 가봐야 할까?",
+            "turn_id": "BK22018916-9",
+            "utterance_id": "BK22018916.17"
+        },
+        {
+            "reference_date": "42678.0",
+            "reference_text": [
+                {
+                    "value": "눈물얼룩은 대개 질병의 증상은 아닙니다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "색이 연한 털을 가진 강아지 대부분에서 나타납니다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 강아지의 눈이나 눈물이 평소와 달리 좀 더 많거나 건조해 보인다면 다른 질병으로 인한 문제일 수 있어 정확한 진찰을 받아야합니다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.khan.co.kr/bizlife/sk_index.html?art_id=201611041459004&sec_id=561801&pt=nv",
+            "search_query": "강아지 유루증 진찰",
+            "terminate": false,
+            "text": "털의 색이 연한 개 대부분에서 생기지만 눈물 얼룩은 보통 병의 증상은 아니야. 그렇지만 개의 눈물이나 눈이 평상시와 다르게 조금 더 건조하거나 눈물이 많아 보인다면, 다른 병으로 인한 문제일 수 있어 확실한 진찰을 받아야 해.",
+            "turn_id": "BK22018916-9",
+            "utterance_id": "BK22018916.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응. 잘 관찰하고 있다가 이상 있는 것 같으면 바로 병원에 가 봐야겠다.",
+            "turn_id": "BK22018916-10",
+            "utterance_id": "BK22018916.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 잘 관리해서 하얀 털을 뽀송하고 청결하게 유지해줘.",
+            "turn_id": "BK22018916-10",
+            "utterance_id": "BK22018916.20"
+        }
+    ]
+}

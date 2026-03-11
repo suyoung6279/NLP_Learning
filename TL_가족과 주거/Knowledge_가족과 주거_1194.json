@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007822",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007822",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0010"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "며칠 전에 혼인신고를 하러 구청에 방문했다가 다시 돌아와야만 했어. 잘 알아보지 않고 갔다가 완전히 헛걸음했네.",
+            "turn_id": "BK22007822-1",
+            "utterance_id": "BK22007822.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "귀찮았겠다, 무슨 일이 있었길래 그냥 돌아오게 된 거야?",
+            "turn_id": "BK22007822-1",
+            "utterance_id": "BK22007822.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혼인 신고할 때 증인이 필요하다는 사실을 깜빡했지 뭐야. 증인은 가족이나 친구도 가능해? 혹시 동행도 필수인 건가?",
+            "turn_id": "BK22007822-2",
+            "utterance_id": "BK22007822.3"
+        },
+        {
+            "reference_date": "2019-07-01",
+            "reference_text": [
+                {
+                    "value": "아울러, 혼인신고할 때는 증인이 2명 필요하다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "증인은 부모님, 친구, 직장동료, 지인 모두 가능하다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "증인은 같이 갈 필요 없다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "증인은 혼인신고서에 인적사항을 적고 서명을 하거나 도장을 찍으면 된다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=257746",
+            "search_query": "혼인신고하는법",
+            "terminate": false,
+            "text": "혼인신고를 할 때는 2명의 증인이 필요해. 증인은 부모님, 친구, 동료, 지인 상관없이 모두 가능하지. 동행할 필요는 없고, 혼인신고서에 인적 사항을 적고 서명 또는 도장을 찍으면 돼.",
+            "turn_id": "BK22007822-2",
+            "utterance_id": "BK22007822.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "같이 가지는 않아도 되는구나, 다행이다. 혹시 동사무소와 같은 주민센터에서도 혼인신고가 가능해?",
+            "turn_id": "BK22007822-3",
+            "utterance_id": "BK22007822.5"
+        },
+        {
+            "reference_date": "2020-02-20",
+            "reference_text": [
+                {
+                    "value": "혼인신고 하는법은 혼인신고는 시청, 구청, 읍, 면 사무소에 직접 방문을 하여 처리해야한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "혼인신고는 동사무소(주민센터)에서는 불가능하다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.insightkorea.co.kr/news/articleView.html?idxno=76655",
+            "search_query": "혼인신고 주민센터",
+            "terminate": false,
+            "text": "아니, 동사무소에서는 혼인신고를 할 수 없어. 시청이나 구청, 읍사무소나 면사무소에 직접 방문해서 처리해야 하지.",
+            "turn_id": "BK22007822-3",
+            "utterance_id": "BK22007822.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 아 그리고 신고 서류에 일반 주소 말고 등록기준지라는 게 있던데. 등록기준지는 어떤 걸 의미하는 거야?",
+            "turn_id": "BK22007822-4",
+            "utterance_id": "BK22007822.7"
+        },
+        {
+            "reference_date": "2019-07-01",
+            "reference_text": [
+                {
+                    "value": "등록기준지는 가족 관계 등록부가 있는 지역이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "등록기준지는 혼인신고하는 곳에서 알아볼 수 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=257746",
+            "search_query": "혼인신고 등록기준지",
+            "terminate": false,
+            "text": "등록기준지는 가족 관계 등록부가 있는 지역을 의미해. 만약 등록기준지가 어느 지역인지 모른다면 혼인신고 하는 곳에서 알아볼 수 있어.",
+            "turn_id": "BK22007822-4",
+            "utterance_id": "BK22007822.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고마워, 그나저나 서류를 보니까 생각보다 작성 항목들이 간단해서 좋더라. 혼인신고뿐만 아니라 이혼신고, 사망신고 등을 작성할 때 엄청 복잡했다고 들었는데, 예전에 비해 많이 간소화된 거야?",
+            "turn_id": "BK22007822-5",
+            "utterance_id": "BK22007822.9"
+        },
+        {
+            "reference_date": "2016-09-06",
+            "reference_text": [
+                {
+                    "value": "행정자치부는 국민이 많이 사용하는 가족관계와 주민등록, 자동차, 출입국관리, 외국인고용 등 5개 분야의 민원서식 60종을 대상으로 작성 항목을 줄이거나 간이서식을 마련하는 등 쉽게 쓸 수 있도록 개선한다고 6일 밝혔다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.idaegu.co.kr/news/articleView.html?idxno=206760",
+            "search_query": "혼인신고 민원서식",
+            "terminate": false,
+            "text": "맞아, 행정자치부에서 2016년 9월 6일에 국민들이 주로 사용하는 민원 서식 60종의 작성 항목을 줄이거나 간이서식 등으로 바꾸는 식으로 개선한다고 밝혔거든. 가족관계, 주민등록, 출입국관리, 자동차, 외국인고용 등도 개선된 민원 서식에 해당하지.",
+            "turn_id": "BK22007822-5",
+            "utterance_id": "BK22007822.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 많은 부분이 간소화되었구나. 그중에서도 사망, 혼인 그리고 이혼신고서에서는 어떤 게 없어졌는데?",
+            "turn_id": "BK22007822-6",
+            "utterance_id": "BK22007822.11"
+        },
+        {
+            "reference_date": "2016-09-06",
+            "reference_text": [
+                {
+                    "value": "사망신고서는 사망원인·종류, 사망자 국적·직업 및 혼인상태 등 6개 항목이 삭제되고 최종학력 1개만 남겼으며, 혼인신고와 이혼신고서도 국적 등의 항목을 없앴다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.idaegu.co.kr/news/articleView.html?idxno=206760",
+            "search_query": "혼인신고 서식 간소화",
+            "terminate": false,
+            "text": "우선 혼인신고서와 이혼신고서에서는 국적 등의 항목이 제외되었어. 사망신고서에서는 국적뿐만 아니라 사망원인, 종류, 사망자의 직업, 혼인상태 등 총 6개의 항목이 삭제되었지.",
+            "turn_id": "BK22007822-6",
+            "utterance_id": "BK22007822.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그리고 요즘은 혼인신고랑 전입신고를 동시에 할 수 있는 원스톱서비스도 있다고 하던데. 그 서비스는 어떤 과정을 거쳐서 한 번에 해결되는 거야?",
+            "turn_id": "BK22007822-7",
+            "utterance_id": "BK22007822.13"
+        },
+        {
+            "reference_date": "2017-01-03",
+            "reference_text": [
+                {
+                    "value": "혼인-전입신고 원스톱서비스는 민원인이 혼인신고를 위해 시청이나 읍·면사무소를 방문해 전입신고서를 함께 작성 제출하면 시는 주민등록 사항을 확인한 후 전입신고서를 전입지 읍·면·동으로 보내 처리한 다음 처리결과를 민원인에게 통보해준다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20170103068300063?input=1195m",
+            "search_query": "혼인신고 전입신고",
+            "terminate": false,
+            "text": "혼인 전입신고 원스톱서비스를 받으려면 민원인이 시청이나 읍, 면사무소를 방문해 전입 신고서를 함께 작성해서 제출하면 돼. 그럼 시에서 주민등록 사항을 확인한 다음에 전입 신고서를 전입지 읍, 면, 동으로 보내서 처리하지. 모든 처리가 끝나면 처리결과를 민원인에게 통보해주는 과정으로 진행돼.",
+            "turn_id": "BK22007822-7",
+            "utterance_id": "BK22007822.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한 번만 방문해도 된다는 게 정말 편리하겠다. 그럼 원스톱서비스가 없었을 때는, 전입신고가 원래 어떤 방식으로 진행됐었어?",
+            "turn_id": "BK22007822-8",
+            "utterance_id": "BK22007822.15"
+        },
+        {
+            "reference_date": "2019-08-30",
+            "reference_text": [
+                {
+                    "value": "종전 혼인신고는 가족관계등록관서인 시청(읍·면)에서만 가능하고 전입신고는 새로운 거주지 읍면동 행정복지센터를 방문하거나 인터넷으로 신고를 하도록 돼 있었다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.viva100.com/main/view.php?key=20190830010009731",
+            "search_query": "혼인 전입신고 원스톱서비스",
+            "terminate": false,
+            "text": "종전의 전입신고는 새로운 거주지의 읍면동 행정복지센터를 방문해서 처리하거나 인터넷으로 신고하도록 되어있었어. 혼인신고는 가족관계등록관서인 시청이나 읍, 면사무소에서 가능하니 이 두 가지를 같이 하려면 따로 방문하거나 처리했어야 했지.",
+            "turn_id": "BK22007822-8",
+            "utterance_id": "BK22007822.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "점점 개선되고 있는 모습이 보기 좋네. 아, 그리고 혼인신고 준비물로는 증인 2명의 서명이 적힌 혼인신고서만 있으면 되려나?",
+            "turn_id": "BK22007822-9",
+            "utterance_id": "BK22007822.17"
+        },
+        {
+            "reference_date": "2019-12-23",
+            "reference_text": [
+                {
+                    "value": "혼인신고 준비물은 혼인신고서1통(구청, 읍 및 면사무소 비치, 정부24 출력가능), 혼인 당사자의 가족관계증명서 각1통, 혼인 당사자의 각 신분증, 혼인 당사자의 각 도장 및 사인, 증인2명(부모님, 친구, 지인 등)의 서명 혹은 날인이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busaneconomy.com/news/articleView.html?idxno=138128",
+            "search_query": "혼인신고 준비물",
+            "terminate": false,
+            "text": "아니, 혼인 당사자들의 각자 가족관계증명서 및 신분증도 필요해. 그 외로는 혼인 당사자의 도장 및 사인과 증인 2명의 서명 또는 날인, 혼인신고서 1통이 필요하지. 혼인신고서는 구청이나 읍, 면사무소에 비치되어 있기도 하고 정부24에서 미리 출력할 수도 있어.",
+            "turn_id": "BK22007822-9",
+            "utterance_id": "BK22007822.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어휴, 너한테 미리 안 물어봤으면 또 헛걸음할 뻔했네. 자세하게 알려줘서 정말 고마워!",
+            "turn_id": "BK22007822-10",
+            "utterance_id": "BK22007822.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 뿌듯하네, 꼼꼼하게 챙겨가서 잘 신고하고 오길 바랄게!",
+            "turn_id": "BK22007822-10",
+            "utterance_id": "BK22007822.20"
+        }
+    ]
+}

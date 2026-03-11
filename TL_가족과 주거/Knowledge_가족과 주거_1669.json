@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012006",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012006",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0018"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 아들이 병원에서 ADHD를 진단 받았어요. 청천벽력같은 소식에 한동안 힘들었는데, 이제 정신을 차리고 ADHD에 대해 공부해야겠다는 생각이 들더라구요. ADHD가 정확히 어떤 질병인가요?",
+            "turn_id": "BK22012006-1",
+            "utterance_id": "BK22012006.1"
+        },
+        {
+            "reference_date": "2022-08-17",
+            "reference_text": [
+                {
+                    "value": "‘주의력 결핍·과잉행동 장애(ADHD)’는 주로 아동기에 많이 나타나는 소아정신과 질환이다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthinnews.co.kr/news/articleView.html?idxno=31859",
+            "search_query": "소아 ADHD 정의",
+            "terminate": false,
+            "text": "ADHD는 주의력 결핍·과잉행동 장애로써, 보통 아동기에 많이 나타나는 소아정신과 질환이랍니다.",
+            "turn_id": "BK22012006-1",
+            "utterance_id": "BK22012006.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 주변에서 소아 ADHD인 아이를 한번도 보지 못해서 저희 아들도 당연히 아닐거라 생각했거든요. 요즘 소아 ADHD 진단을 받은 아이들이 많은가요?",
+            "turn_id": "BK22012006-2",
+            "utterance_id": "BK22012006.3"
+        },
+        {
+            "reference_date": "2022-08-17",
+            "reference_text": [
+                {
+                    "value": "소아정신과 관련 질환 중 가장 흔한 질환으로 남자아이가 여자아이보다 약 3배 많다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "서울시와 서울대학교병원에서 시행한 국내 역학조사 결과에 따르면 19세 미만 소아청소년 중 6~8%가 ADHD를 가지고 있는 것으로 나타났으며, 심각하지 않은 경우까지 포함하면 13%가 조금 넘는다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthinnews.co.kr/news/articleView.html?idxno=31859",
+            "search_query": "소아 ADHD 흔한 질환",
+            "terminate": false,
+            "text": "소아정신과와 관련된 질환 가운데 가장 흔한 질환이 ADHD에요. 여자아이보다 남자아이가 3배 정도 더 많아요. 서울시와 서울대학교병원에서 진행한 국내 역학조사 결과에 의하면 19세 미만의 소아청소년 가운데 6~8%가 ADHD가 있는 것으로 밝혀졌고, 심하지 않은 경우까지 다 포함하면 13%가 조금 넘는 것으로 확인되었어요.",
+            "turn_id": "BK22012006-2",
+            "utterance_id": "BK22012006.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "13%면 생각했던 것 보다도 꽤 높은 수치네요. 저희 아들은 소아 ADHD를 의심할만한 특이 행동이 별로 없었는데, 소아 ADHD는 어떤 증상이 있는건가요?",
+            "turn_id": "BK22012006-3",
+            "utterance_id": "BK22012006.5"
+        },
+        {
+            "reference_date": "2022-08-17",
+            "reference_text": [
+                {
+                    "value": "일반적으로 주의력이 부족하고 산만하며 활동성과 충동성이 과다하게 나타나는 특징을 보인다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "규율을 지키지 못하고, 감정적으로 행동하기 쉬워 특히 유치원이나 초등학교 등 단체생활 등에서 부정적인 반응을 얻게 된다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthinnews.co.kr/news/articleView.html?idxno=31859",
+            "search_query": "소아 ADHD 특징",
+            "terminate": false,
+            "text": "소아 ADHD는 주의력이 부족하면서 산만하고 충동성 및 활동성이 과다하게 나타난다는 특징이 있어요. 거기다 규율을 어기고 감정적으로 행동을 해서 유치원이나 초등학교와 같은 단체생활에서 부정적인 시선을 받을 수 있답니다.",
+            "turn_id": "BK22012006-3",
+            "utterance_id": "BK22012006.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소아 ADHD를 빨리 치료하지 않으면 단체생활 적응 할때도 문제가 되겠네요. 소아 ADHD 가 정신과 질환이다 보니 저도 처음엔 인정하기 힘들었거든요. 저 같은 부모도 많겠죠?",
+            "turn_id": "BK22012006-4",
+            "utterance_id": "BK22012006.7"
+        },
+        {
+            "reference_date": "2022-09-14",
+            "reference_text": [
+                {
+                    "value": "조 교수에 따르면 ADHD 소아·청소년 중 약 10% 정도만 치료를 받고 나머지는 방치된다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "내 아이가 ADHD라는 것을 모르는 경우도 있지만, 인정하지 못해서 치료를 받지 못하는 사례도 많다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ggilbo.com/news/articleView.html?idxno=933772",
+            "search_query": "소아 ADHD 인정",
+            "terminate": false,
+            "text": "ADHD 소아·청소년 가운데 약 10% 정도만 치료가 되고 나머지는 방치되고 있어요. 내 아이가 ADHD인지 모르는 경우도 있지만 인정하지 못해서 치료를 받지 않는 경우도 많답니다.",
+            "turn_id": "BK22012006-4",
+            "utterance_id": "BK22012006.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 그 마음이 너무 이해되지만, 치료는 받아야 하는 게 맞는 것 같아요. 만약 치료 시기를 놓치게 되면 어떻게 되죠?",
+            "turn_id": "BK22012006-5",
+            "utterance_id": "BK22012006.9"
+        },
+        {
+            "reference_date": "2022-08-17",
+            "reference_text": [
+                {
+                    "value": "다행히 보통 12~20세 사이에 자연적으로 소멸하는 경우가 많은데, 일부에서는 그대로 남아 성인기까지 이어지기도 한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "성인기에서의 증상은 과잉행동은 개선되나 집중력저하와 충동조절 어렴움 등이 남아 대인관계와 업무능력에 영향을 미칠 수 있다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthinnews.co.kr/news/articleView.html?idxno=31859",
+            "search_query": "소아 ADHD 자연 소멸",
+            "terminate": false,
+            "text": "보통 12~20세 사이에 소아 ADHD는 자연적으로 소멸되는 경우가 많답니다. 하지만 일부 아이들은 성인기까지 그대로 이어지기도 해요. 성인기에서 ADHD 증상은 과잉행동은 없어지지만 집중력 저하 및 충동 조절에 대한 어려움은 남아 있어 대인관계나 업무 능력에 영향을 끼칠 수 있어요.",
+            "turn_id": "BK22012006-5",
+            "utterance_id": "BK22012006.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "성인이 그런 모습을 보인다면 그건 정말 큰 문제가 되는 것이니 저희 아이는 좋아질 때 까지 치료받으려고요. 그런데 소아 ADHD는 왜 생기는 건가요?",
+            "turn_id": "BK22012006-6",
+            "utterance_id": "BK22012006.11"
+        },
+        {
+            "reference_date": "2022-08-17",
+            "reference_text": [
+                {
+                    "value": "ADHD의 정확한 원인은 현재까지 명확히 밝혀지지 않았다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 관련 뇌 기능이 충분히 발달되지 않아 나타난다고 추측해 볼 수 있다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "부모의 육아 방법이 원인이라는 견해도 있으나 육아 방법에 의하기 보다는 유전 혹은 환경적 요소로 인해 선천적으로 발생하는 신경발달장애로 보는 견해가 크다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthinnews.co.kr/news/articleView.html?idxno=31859",
+            "search_query": "소아 ADHD 원인",
+            "terminate": false,
+            "text": "소아 ADHD의 발생 원인은 명확히 밝혀지지는 않았지만 관련 뇌 기능이 충분하게 발달되지 않아서라고 추측하고 있어요. 부모의 육아 방법 때문이라는 의견도 있지만 이것 보다는 유전 혹은 환경적인 요소 때문에 선천적으로 발생하는 신경발달장애가 원인이라는 견해가 더 크답니다.",
+            "turn_id": "BK22012006-6",
+            "utterance_id": "BK22012006.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그럼 정확한 원인이 밝혀지지 않았다면 치료법도 없는 건가요?",
+            "turn_id": "BK22012006-7",
+            "utterance_id": "BK22012006.13"
+        },
+        {
+            "reference_date": "2022-09-14",
+            "reference_text": [
+                {
+                    "value": "치료를 위해서는 아동 상태에 맞는 양육 방향을 제시하는 부모교육, 사회기술 훈련이나 학습치료 같은 인지·행동치료와 약물 치료를 병행한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "약물치료는 ADHD 아이의 주의·집중력과 행동조절 능력에 관여하는 신경계 저활성을 활성화시켜 증상을 조절한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ggilbo.com/news/articleView.html?idxno=933772",
+            "search_query": "소아 ADHD 치료",
+            "terminate": false,
+            "text": "소아 ADHD는 두 가지 방법으로 치료하고 있는데요. 약물 치료와 아동에게 맞는 양육 방향을 제시하는 부모교육, 사회기술 훈련, 학습치료와 같은 인지, 행동치료를 병행하게 돼요.",
+            "turn_id": "BK22012006-7",
+            "utterance_id": "BK22012006.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다행히도 약물치료가 가능한 질환이군요. 병원에서 받는 치료 이외에 집에서는 부모가 어떻게 도와주는 게 좋을까요?",
+            "turn_id": "BK22012006-8",
+            "utterance_id": "BK22012006.15"
+        },
+        {
+            "reference_date": "2022-08-17",
+            "reference_text": [
+                {
+                    "value": "부모를 포함한 가족, 학교의 선생님이 교육을 통해 치료적인 환경을 조성하는 것이 중요하다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "부모교육 등을 통해 병에 대해 정확하게 배우고 아이를 도울 수 있도록 해야 한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아이가 스스로 충동을 누를 수 있도록 자기조절훈련 학습이 필요하다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthinnews.co.kr/news/articleView.html?idxno=31859",
+            "search_query": "소아 ADHD 부모교육",
+            "terminate": false,
+            "text": "부모를 포함한 가족이 교육을 통하여 치료 환경을 만드는 게 중요해요. 부모교육을 받으며 소아 ADHD에 대해 정확하게 배우고 아이를 도와줘야 하고요. 또한 아이가 스스로 충동을 누를 수 있게 자기 조절 훈련 학습을 하는 것도 필요하답니다.",
+            "turn_id": "BK22012006-8",
+            "utterance_id": "BK22012006.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "약물 치료도 중요하겠지만 많은 시간을 보내는 집에서의 치료 환경도 정말 중요하겠네요.",
+            "turn_id": "BK22012006-9",
+            "utterance_id": "BK22012006.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇죠. 소아 ADHD인 아이를 어떻게 다뤄야 할지 모르겠다면 전문가에게 꼭 도움을 받으셔야 해요.",
+            "turn_id": "BK22012006-9",
+            "utterance_id": "BK22012006.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안 그래도 다음 주부터 소아과에서 행동치료부터 시작하기로 했어요. 완치 판정받는 날까지 열심히 치료하려고요. 오늘 좋은 정보 나눠주셔서 감사했고 다음에 또 이야기 나눠요.",
+            "turn_id": "BK22012006-10",
+            "utterance_id": "BK22012006.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아무쪼록 아이가 빨리 좋아졌으면 하는 바람이네요. 그럼 다음에 또 대화 나눠요. 조심히 가세요.",
+            "turn_id": "BK22012006-10",
+            "utterance_id": "BK22012006.20"
+        }
+    ]
+}

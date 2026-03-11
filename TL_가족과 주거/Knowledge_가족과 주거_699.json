@@ -1,0 +1,361 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016089",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016089",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 언니가 얼마 전에 무탈히 출산했어. 그렇게 원하던 딸이 태어나니까 엄청 좋은가 봐.",
+            "turn_id": "BK22016089-1",
+            "utterance_id": "BK22016089.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 정말 축하해! 건강히 잘 태어났다니 정말 다행이야.",
+            "turn_id": "BK22016089-1",
+            "utterance_id": "BK22016089.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 근데 언니가 혹시라도 산후우울증을 겪을까 봐 노파심이 나. 내 주변에 산후우울증으로 고생하신 분이 계시는데, 얘길 들어보니까 걱정을 안 할 수가 없더라고. 출산 후에 우울증을 겪는 산모들이 생각보다 많을까?",
+            "turn_id": "BK22016089-2",
+            "utterance_id": "BK22016089.3"
+        },
+        {
+            "reference_date": "2022-07-15",
+            "reference_text": [
+                {
+                    "value": "2020년에 출산한 산모 3,127명을 대상으로 한 보건복지부 통계에 따르면 52.6%가 산후우울감을 경험했으며, 산후우울 위험군(자기 기입식 산후우울증 선별도구인 에딘버러 검사 결과 10점 이상인 경우)은 42.7%로 나타났다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2019년에는 전체 산모 중 50.3%가 산후우울감을 경험했다고 답했다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://woman.chosun.com/news/articleView.html?idxno=100155",
+            "search_query": "산후우울증 위험군",
+            "terminate": false,
+            "text": "보건복지부가 2020년에 출산한 산모 3127명을 대상으로 조사를 실시했는데, 그 중 52.6%가 산후우울감을 겪었고, 산후우울 위험군에 해당하는 비중은 42.7%에 달했어. 2019년 통계에 따르면, 전체 산모 중 50.3%가 산후우울감을 겪는 것으로 나타났지.",
+            "turn_id": "BK22016089-2",
+            "utterance_id": "BK22016089.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "통계만 보면 상당한 수치인데. 근데 산후우울증이랑 산후우울감은 다른 거야?",
+            "turn_id": "BK22016089-3",
+            "utterance_id": "BK22016089.5"
+        },
+        {
+            "reference_date": "2022-10-04",
+            "reference_text": [
+                {
+                    "value": "산후우울감은 출산 후 3~5일 사이에 나타나는 것으로, 우울한 기분이 들지만 산후우울증에 비하면 증상이 약하고 수일 내에 전문가의 치료 없이 호전된다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "산후우울증은 출산 후 4주에서 6주 사이에 우울하거나 심한 불안감, 집중력 저하, 죄책감 등을 경험하고 심하면 죽음에 대한 생각으로 인해일상 생활에서 기능 저하를 초래하는 질환이다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "출산 후 첫 10일 이후에 나타나서 산후 1년까지 지속될 수 있는데, 초기에 서서히 증상이 생기고 시간이 지나면서 악화될 수 있다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202210044112o",
+            "search_query": "산후우울증 주요 증상",
+            "terminate": false,
+            "text": "산후우울감의 경우 출산 후 3~5일 사이에 나타나는데, 우울감은 있지만 산후우울증보다 증상이 약하고, 전문가의 치료가 없어도 수일 내에 호전되는 게 일반적이야. 하지만 산후우울증의 경우 출산 후 4~6주 사이에 나타나는데, 우울하거나 심한 불안감 혹은 죄책감이 들고 집중력이 떨어지는 등의 증상이 나타나. 경우에 따라 죽음을 생각할 정도로 증상이 심해서 일상생활에 지장이 생길 수 있어. 산후우울증은 출산 후 첫 10일 이후 나타나서 산후 1년까지 이어질 수 있는데, 초기엔 서서히 증상을 보이다가 갈수록 악화할 수 있지.",
+            "turn_id": "BK22016089-3",
+            "utterance_id": "BK22016089.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 근데 산후우울증은 왜 생기는 거야?",
+            "turn_id": "BK22016089-4",
+            "utterance_id": "BK22016089.7"
+        },
+        {
+            "reference_date": "2022-08-07",
+            "reference_text": [
+                {
+                    "value": "산후우울증은 임신 기간 막대한 양의 호르몬이 발생하는 것과 관련돼 있다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "임신과 출산 후 신체 변화와 출산에 대한 걱정, 양육에 대한 부담감 등 심리적인 요인이 그 원인이다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "출산과 동시에 육아가 시작돼 겪는 육체적인 피로는 물론 직장이나 사회생활에 대한 변화 등도 포함된다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://moneys.mt.co.kr/news/mwView.php?no=2022080515481067235",
+            "search_query": "산후우울증 원인",
+            "terminate": false,
+            "text": "임신하게 되면 막대한 양의 호르몬이 발생하는데, 이게 산후우울증과 연관이 있어. 그리고 임신과 출산을 거치면서 생기는 신체 변화라든지 출산에 대한 걱정, 양육에 대한 부담 등 심리적 요인도 원인이 될 수 있어. 출산 후 육아에서 오는 피로와 사회생활에 대한 변화 등의 요인도 원인이 될 수 있지.",
+            "turn_id": "BK22016089-4",
+            "utterance_id": "BK22016089.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "언니도 은근히 워커홀릭 성향이 있어서 육아와 병행하다 보면 분명 한계에 부딪힐 텐데, 그게 산후우울증으로 이어질까 봐 걱정이야. 산후우울증 자가진단법은 따로 없을까?",
+            "turn_id": "BK22016089-5",
+            "utterance_id": "BK22016089.9"
+        },
+        {
+            "reference_date": "2022-06-09",
+            "reference_text": [
+                {
+                    "value": "병원에 방문하기 전에 산후 우울증을 자가 진단하고 싶다면 에딘버러 산후우울 검사(EDPS, 한국어판)을 통해 자가 진단을 시행할 수 있다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000705405",
+            "search_query": "산후우울증 자가진단",
+            "terminate": false,
+            "text": "있어, 병원에 내원하기 전에 산후우울증인지 자가진단을 해보고 싶을 땐 에딘버러 산후우울 검사를 해보면 돼.",
+            "turn_id": "BK22016089-5",
+            "utterance_id": "BK22016089.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 모르니까 미리 찾아봐야겠다. 근데 산후우울증은 혹시 남성에게서도 나타날 수 있는 거야?",
+            "turn_id": "BK22016089-6",
+            "utterance_id": "BK22016089.11"
+        },
+        {
+            "reference_date": "2022-08-29",
+            "reference_text": [
+                {
+                    "value": "산후우울증 (産後憂鬱症, Postpartum depression, PPD)은 주요 우울 장애의 일종으로 출산 이후 부모 모두에게 나타날 수 있다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "남성의 경우 특별히 첫 아이를 얻은 아버지의 경우 우울증의 발생 빈도는 1~25.5%로 추정된다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%B0%ED%9B%84%EC%9A%B0%EC%9A%B8%EC%A6%9D",
+            "search_query": "남성 산후우울증",
+            "terminate": false,
+            "text": "그럼, 산후우울증은 출산 후 부모 모두에게 나타날 수 있는 주요 우울 장애의 일환이야. 특별히 첫 아이를 가진 남성의 경우, 1~25.5%의 빈도로 우울증이 나타난다고 추정되고 있어.",
+            "turn_id": "BK22016089-6",
+            "utterance_id": "BK22016089.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 어쩌면 자연스러운 건데 나도 모르게 여성에게서 나타나는 증상이라고 편견을 갖고 있었나 봐. 그럼 산후우울증은 어떻게 치료해? 우울증 같은 경우엔 보통 약물치료를 하는 것 같던데, 산후우울증도 마찬가지려나?",
+            "turn_id": "BK22016089-7",
+            "utterance_id": "BK22016089.13"
+        },
+        {
+            "reference_date": "2022-06-03",
+            "reference_text": [
+                {
+                    "value": "출산 후 우울을 느끼는 시기가 수유 기간과 겹칠 수 있기 때문에 항우울제 등을 사용하는 약물 치료는 권장하지 않는다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 증상이 심하거나 만성적인 경우 항우울제를 복용하여 증상의 호전 및 감소에 도움을 줄 수 있어 약물치료가 필요하다고 판단되면 약물치료를 실시할 수 있다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한, 수유 중 약물치료가 불가능할 경우 TMS(경두개자기자극술) 치료도 가능하니 의료진과의 상담을 우선적으로 하여 결정하는 것이 좋다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthinnews.co.kr/news/articleView.html?idxno=30472",
+            "search_query": "산후우울증 치료",
+            "terminate": false,
+            "text": "보통 출산 후 우울감이 찾아드는 시기가 수유 기간과 겹칠 수 있어서 항우울제 등 약물치료는 권하지 않아. 다만, 증상이 심하거나 만성적인 경우 필요하다면 약물치료를 할 수도 있어. 항우울제를 복용하면 증상이 호전되거나 감소하는 효과를 볼 수 있거든. 그리고 수유 중이라 약물치료가 안 되는 경우라도 경두개자기자극술이라는 TMS 치료도 가능하니까 우선은 의료진과 상담해보고 결정하는 게 좋지.",
+            "turn_id": "BK22016089-7",
+            "utterance_id": "BK22016089.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 혹시 가족들이 산후우울증을 겪는 산모를 위해 해줄 수 있는 건 없을까?",
+            "turn_id": "BK22016089-8",
+            "utterance_id": "BK22016089.15"
+        },
+        {
+            "reference_date": "2022-05-18",
+            "reference_text": [
+                {
+                    "value": "임신과 출산 과정에서 걱정되는 점, 변화하는 점 등을 가족들과 충분히 대화하고, 육아를 엄마가 전담해서는 안 된다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "배우자는 산모를 격려하고 적극적으로 육아 업무를 분담하는 자세를 가져야 한다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/05/18/2022051801756.html",
+            "search_query": "산후우울증 가족 치료",
+            "terminate": false,
+            "text": "일단 산모가 임신과 출산 과정에서 걱정하고 있는 부분이라든지 변화가 이루어지는 부분이라든지 이런 대화를 충분히 함께 해주는 게 좋아. 그리고 육아를 혼자 전담하게 해선 안 돼. 배우자가 산모를 격려해주고 적극적으로 육아에 나서서 역할을 분담해주면 큰 도움이 될 거야.",
+            "turn_id": "BK22016089-8",
+            "utterance_id": "BK22016089.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 형부가 힘들어하면 나도 같이 도와야겠어. 혹시 산책도 산후우울증을 완화하는 데에 도움이 될까? 언젠가 뉴스에서 산책처럼 주기적으로 걸어주면 우울증을 감소시킬 수 있다는 얘길 들었거든.",
+            "turn_id": "BK22016089-9",
+            "utterance_id": "BK22016089.17"
+        },
+        {
+            "reference_date": "2021-10-29",
+            "reference_text": [
+                {
+                    "value": "캐나다 웨스턴온타리오대 연구팀은 242명의 산모를 대상으로 주 당 90~120분씩 걷기 프로그램을 실시하며 데이터를 분석한 결과, 걷기 프로그램에 참여한 산모에게서 산후우울증이 개선된 것으로 나타났다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 산모가 걷기 프로그램을 중단한 3개월 후에도 이런 효과가 지속된 것으로 밝혀졌다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/10/28/2021102801766.html",
+            "search_query": "산후우울증 걷기 개선",
+            "terminate": false,
+            "text": "도움 될 수 있지. 캐나다 웨스턴온타리오대 연구팀에서 242명의 산모를 대상으로 일주일에 90~120분씩 걷기 프로그램을 실시했는데, 이 프로그램에 참여한 산모들의 산후우울증이 개선되었다는 데이터 결과를 얻을 수 있었어. 게다가 산모들이 걷기 프로그램을 중단하고 3개월이 지난 후에도 산후우울증 개선 효과가 지속된 것으로 나타났지.",
+            "turn_id": "BK22016089-9",
+            "utterance_id": "BK22016089.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잘됐다, 산책이 산후우울증에 효과가 있다니 다행이야! 이것저것 알려줘서 고마워. 덕분에 좀 안심이 된 것 같아.",
+            "turn_id": "BK22016089-10",
+            "utterance_id": "BK22016089.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 됐다니 내가 다 기쁜걸. 언니한테 진심으로 축하한다고 전해줘.",
+            "turn_id": "BK22016089-10",
+            "utterance_id": "BK22016089.20"
+        }
+    ]
+}

@@ -1,0 +1,354 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22000314",
+        "name": "2022 한국어 블렌더봇 데이터 BK22000314",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0029"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 이사 준비하느라고 눈 코 뜰 새가 없네요.",
+            "turn_id": "BK22000314-1",
+            "utterance_id": "BK22000314.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다음 달에 이사 간다고 하셨죠? 이것저것 알아보시려면 그럴 만도 하겠어요.",
+            "turn_id": "BK22000314-1",
+            "utterance_id": "BK22000314.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이사 업체 선정부터 해야 되는데, 시작부터가 큰 난관이에요. 생각보다 비용이 너무 비싸서요. 엄마가 손 없는 날로 하라는데, 손 없는 날은 아닌 날보다 많이 비싸더라고요.",
+            "turn_id": "BK22000314-2",
+            "utterance_id": "BK22000314.3"
+        },
+        {
+            "reference_date": "2021-01-26",
+            "reference_text": [
+                {
+                    "value": "손 없는 날'은 사람들이 많이 선호하는 날이기 때문에 이사비용이 더 비싸게 책정된다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailypop.kr/news/articleView.html?idxno=48788",
+            "search_query": "손 없는 날 이사비용",
+            "terminate": false,
+            "text": "손 없는 날에 이사하려는 사람들이 많기 때문에 아무래도 비용이 더 비싸게 책정되죠.",
+            "turn_id": "BK22000314-2",
+            "utterance_id": "BK22000314.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 손 없는 날이 대체 뭐예요? 뭔데 다들 이 날에 이사하려는 거죠?",
+            "turn_id": "BK22000314-3",
+            "utterance_id": "BK22000314.5"
+        },
+        {
+            "reference_date": "2022-04-20",
+            "reference_text": [
+                {
+                    "value": "손없는 날(損-)에서의 손은 사람의 활동을 방해하고 사람에게 해코지 한다는 악귀 또는 악신을 뜻하며, 나쁜 귀신이 돌아다니지 않아 인간에게 해를 끼치치 않는 길한 날을 의미한다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%86%90%EC%97%86%EB%8A%94_%EB%82%A0",
+            "search_query": "손 없는 날",
+            "terminate": false,
+            "text": "손 없는 날에서의 손은 사람에게 해를 끼치는 악귀를 뜻해요. 따라서 손 없는 날이란 악귀가 돌아다니지 않는 날을 말해요. 해를 입지 않을 수 있는, 길한 날이라는 거죠.",
+            "turn_id": "BK22000314-3",
+            "utterance_id": "BK22000314.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전 또 대단한 의미가 있는 건 줄 았았는데, 그냥 미신이었네요. 그런데 이사 업체 달력에 보니 손 없는 날로 표시된 날이 꽤 많던데, 날짜가 어떻게 정해지는 거예요?",
+            "turn_id": "BK22000314-4",
+            "utterance_id": "BK22000314.7"
+        },
+        {
+            "reference_date": "2020-07-09",
+            "reference_text": [
+                {
+                    "value": "우리가 흔히 말하는 ‘손 없는 날’은 음력을 기준으로 날짜 끝 자리가 9, 0으로 끝나는 날이다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202007081418341194",
+            "search_query": "손 없는 날 날짜",
+            "terminate": false,
+            "text": "날짜 끝 자리가 9와 0으로 끝나는 날이 손 없는 날이에요. 음력을 기준으로요.",
+            "turn_id": "BK22000314-4",
+            "utterance_id": "BK22000314.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 손 없는 날 피해서 손 있는 날 이사해야겠어요. 미신 때문에 돈을 더 내기는 아까우니까요. 그럼 이제 주말이냐 평일이냐를 정하면 되는데, 당연히 비용 차이가 있겠죠?",
+            "turn_id": "BK22000314-5",
+            "utterance_id": "BK22000314.9"
+        },
+        {
+            "reference_date": "2020-04-23",
+            "reference_text": [
+                {
+                    "value": "이사 비용은 평일-주말-평일 손 없는 날-주말 손 없는 날 순으로 저렴하다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.viva100.com/main/view.php?key=20200419010006540",
+            "search_query": "이사 비용 평일 주말",
+            "terminate": false,
+            "text": "평일이 이사 비용이 제일 저렴해요. 그다음으로는 주말이고요. 평일이면서 손 없는 날은 그다음으로 저렴하고 제일 비싼 날은 주말이면서 손 없는 날이에요.",
+            "turn_id": "BK22000314-5",
+            "utterance_id": "BK22000314.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼, 제일 저렴한 평일에 하는 걸로 해야겠네요. 이제 포장 이사를 할지 반포장 이사를 할지 정해야 하는데, 반포장 이사가 정확하게 어떤 방식인가요?",
+            "turn_id": "BK22000314-6",
+            "utterance_id": "BK22000314.11"
+        },
+        {
+            "reference_date": "2022-04-26",
+            "reference_text": [
+                {
+                    "value": "반포장이사는 전자제품이나 가구처럼 큰 짐은 업체에서 포장해주고, 그 외의 짐과 이사 후 잔짐 정리는 스스로 하는 이사 방법이다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4660104",
+            "search_query": "반포장이사",
+            "terminate": false,
+            "text": "부피가 큰 전자 제품이나 가구 등은 업체에서 포장해 주고, 그 외에 작은 짐들은 스스로 포장하는 이사 방식이에요. 이사 후에도 업체는 큰 짐들만 배치해 주고 나머지는 스스로 정리하는 거죠.",
+            "turn_id": "BK22000314-6",
+            "utterance_id": "BK22000314.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 포장 이사는 완전히 다 해주는 거겠네요?",
+            "turn_id": "BK22000314-7",
+            "utterance_id": "BK22000314.13"
+        },
+        {
+            "reference_date": "2022-04-26",
+            "reference_text": [
+                {
+                    "value": "포장이사는 최근 가장 많이 이용하는 방법으로, 포장부터 이사 후 잔짐 정리까지 모두 이사업체에서 책임진다는 점이 특징이다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4660104",
+            "search_query": "포장이사",
+            "terminate": false,
+            "text": "맞아요. 모든 짐들을 포장해 주고 이사 후에도 잔짐 정리까지 책임져주죠. 최근에 가장 많이 이용하는 이사 방식이에요.",
+            "turn_id": "BK22000314-7",
+            "utterance_id": "BK22000314.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 견적을 받을 때 포장 이사랑 반포장 이사랑 가격 차이가 많이 났던 거였네요. 저희는 자잘한 살림살이가 많은 편이라 포장 이사를 하는 편이 낫겠어요. 그러고 보니 짐이 많으면 비용이 더 비싸지겠는데요?",
+            "turn_id": "BK22000314-8",
+            "utterance_id": "BK22000314.15"
+        },
+        {
+            "reference_date": "2019-07-17",
+            "reference_text": [
+                {
+                    "value": "포장이사를 효과적으로 활용하기 위해서는 사전에 불필요한 물건을 처분하는 것이 좋다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "포장이사 요금은 기본적으로 트럭 톤수에 의해 좌우되는데, 짐이 많으면 큰 트럭이 필요하고 짐이 적으면 작은 용달차로도 해결되기 때문이다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dhdaily.co.kr/news/articleView.html?idxno=941",
+            "search_query": "포장 이사 비용 짐",
+            "terminate": false,
+            "text": "포장 이사 요금은 트럭 톤수에 의해 결정되기 때문에, 짐이 많으면 비용이 더 비싸질 수밖에 없어요. 불필요한 물건을 처분하신다면 비용을 절감하실 수 있어요.",
+            "turn_id": "BK22000314-8",
+            "utterance_id": "BK22000314.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좋은 팁이네요. 이번 기회에 버릴 건 버리고, 중고로 팔 수 있는 건 팔아야겠어요.",
+            "turn_id": "BK22000314-9",
+            "utterance_id": "BK22000314.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "처분하실 물건 정하시면 저한테도 연락 주세요. 보고 필요한 거 있으면 구매할게요.",
+            "turn_id": "BK22000314-9",
+            "utterance_id": "BK22000314.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래주시면 너무 감사하죠. 아, 그런데 이사 업체 선정할 때 특별히 주의해야 될 점이 있을까요?",
+            "turn_id": "BK22000314-10",
+            "utterance_id": "BK22000314.19"
+        },
+        {
+            "reference_date": "2017-06-12",
+            "reference_text": [
+                {
+                    "value": "안전한 포장이사업체를 선택하기 위해서는 이사업체의 홈페이지를 살펴보는 것이 시작이다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "주선업 허가증은 보유하고 있는지, 배상책임 보험은 가입되어 있는지 확인해야 사고가 일어나더라도 보상이 가능하다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.nextdaily.co.kr/news/articleView.html?idxno=35760",
+            "search_query": "이사업체 선정 주의사항",
+            "terminate": false,
+            "text": "주선업 허가증과 배상책임보험 가입 여부를 꼭 확인하세요. 그래야 문제가 발생해도 보상을 받으실 수 있거든요. 대부분의 경우 업체 홈페이지를 보면 나와 있어요.",
+            "turn_id": "BK22000314-10",
+            "utterance_id": "BK22000314.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "꼭 확인해 볼게요. 이사 땜에 골치 아팠는데, 오늘 도움이 너무 많이 됐어요. 진심으로 감사드려요.",
+            "turn_id": "BK22000314-11",
+            "utterance_id": "BK22000314.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도움이 되었다니 저도 기뻐요. 이사 준비 잘 하시고 가시기 전에 한 번 만나요. 전 동생 데리러 갈 시간이라 이만 가볼게요.",
+            "turn_id": "BK22000314-11",
+            "utterance_id": "BK22000314.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "조심히 가시고, 가기 전에 꼭 한 번 만나요.",
+            "turn_id": "BK22000314-12",
+            "utterance_id": "BK22000314.23"
+        }
+    ]
+}

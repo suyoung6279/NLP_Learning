@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015760",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015760",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다음 주면 벌써 임신 29주를 앞두고 있어요. 그래서 그런가 몸이 점점 무거워지는 느낌이에요.",
+            "turn_id": "BK22015760-1",
+            "utterance_id": "BK22015760.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 임신 소식을 전해주신 게 엊그제 같은데 시간이 참 빠르네요. 배도 꽤 많이 부른 거 보니 아기가 잘 크고 있나 봐요.",
+            "turn_id": "BK22015760-1",
+            "utterance_id": "BK22015760.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 아기가 뱃속에서 엄청 분주하게 움직이는 게 늘 느껴지는 걸 보니 아주 잘 크고 있는 것 같아요. 임신 29주 차면 아이는 어떤 변화가 있게 될까요?",
+            "turn_id": "BK22015760-2",
+            "utterance_id": "BK22015760.3"
+        },
+        {
+            "reference_date": "2015-09-18",
+            "reference_text": [
+                {
+                    "value": "임신 29주차의 태아는 몸 전체에 살이 붙기 시작해요.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "엄마는 숨이 차고 허리와 등 통증이 심해집니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108376",
+            "search_query": "임신 29주 태아",
+            "terminate": false,
+            "text": "아이가 잘 크고 있는지 궁금하실만해요. 임신 29주 차에 접어들면 배 속의 아이의 몸 전체에 살이 붙어요. 대신 엄마의 경우 숨이 차고 허리, 등이 아픈 게 심해져요.",
+            "turn_id": "BK22015760-2",
+            "utterance_id": "BK22015760.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어쩐지 지금도 허리가 아픈 것 같다니까요. 그런데 병원에서 이제 검진을 2주에 한 번씩 오라고 하던데 왜 그러는 거예요?",
+            "turn_id": "BK22015760-3",
+            "utterance_id": "BK22015760.5"
+        },
+        {
+            "reference_date": "2018-08-03",
+            "reference_text": [
+                {
+                    "value": "임신 후기로 갈수록 태아의 성장 속도도 빠르고 분만에 대비하기 위해 산전검사 주기가 4주에서 2주, 1주에 한 번으로 당겨지고, 출산 예정일을 넘기면 5일에 한 번씩 산전검사를 통해 유도분만 등을 결정하게 된다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000420324",
+            "search_query": "임신 후기 검진 횟수",
+            "terminate": false,
+            "text": "아, 산전검사 주기가 4주에서 2주로 바뀐 건 분만에 대비하기 위해서예요. 임신 후기가 되면 태아의 성장 속도가 빨라지는데요. 그래서 산전검사 주기가 2주에서 1주에 한 번씩으로 당겨지는 거죠. 그리고 만약 출산 예정일이 넘어가면 산전검사는 5일에 한 번씩 하는 걸로 바뀌게 되고 유도 분만 등을 결정하게 돼요.",
+            "turn_id": "BK22015760-3",
+            "utterance_id": "BK22015760.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "검진을 자주 받아야 하는 이유가 있었네요. 그런데 곧 출산이 얼마 안 남았는데 출산 휴가를 쓰려고 해요. 출산 휴가는 얼마나 쓸 수 있어요?",
+            "turn_id": "BK22015760-4",
+            "utterance_id": "BK22015760.7"
+        },
+        {
+            "reference_date": "2020-01-14",
+            "reference_text": [
+                {
+                    "value": "출산휴가는 출산 전후동안 90일(쌍둥이 경우 120일)을 사용할 수 있는 휴가다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.incheonilbo.com/news/articleView.html?idxno=1018675",
+            "search_query": "출산휴가 신청기간",
+            "terminate": false,
+            "text": "아, 출산휴가는 출산 전후 동안 90일을 쓸 수 있는 휴가에요. 만약 쌍둥이를 임신하셨다면 120일을 사용하실 수 있어요.",
+            "turn_id": "BK22015760-4",
+            "utterance_id": "BK22015760.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 저도 날짜를 잘 체크해서 신청해야겠어요. 그러면 출산휴가 신청은 어떻게 하면 되나요?",
+            "turn_id": "BK22015760-5",
+            "utterance_id": "BK22015760.9"
+        },
+        {
+            "reference_date": "2020-03-01",
+            "reference_text": [
+                {
+                    "value": "출산휴가 신청 및 신청방법은 출산전후휴가 급여 신청서, 출산전후휴가 확인서 1부(최초 1회만 해당), 통상임금을 확인할 수 있는 자료(휴가 시작일 전 3개월의 임금대장, 근로계약서 등) 사본 1부, 휴가기간 동안 사업주로부터 금품을 지급받은 경우 이를 확인할 수 있는 자료와 휴가확인서를 발급받아 관할 고용센터에 제출하면 된다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.insightkorea.co.kr/news/articleView.html?idxno=77701",
+            "search_query": "출산휴가 신청방법",
+            "terminate": false,
+            "text": "출산휴가 신청은 출산 전후휴가 급여 신청서와 출산 전후휴가 확인서 1부를 준비해 주시면 돼요. 그리고 통상임금을 확인할 수 있는 자료도 첨부하셔야 하는데요. 휴가 시작일 전 3개월에 받은 급여 대장과 근로계약서 사본 1부를 챙겨주셔야 해요. 그리고 휴가 기간에 사업주에게 금품을 지급받았을 때 그 부분을 확인할 수 있는 자료와 휴가 확인서를 발급해서 관할 고용센터에 내시면 돼요.",
+            "turn_id": "BK22015760-5",
+            "utterance_id": "BK22015760.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 챙겨야 할 서류가 꽤 많네요. 그런데 출산 휴가 시 급여는 얼마 정도 받을 수 있나요?",
+            "turn_id": "BK22015760-6",
+            "utterance_id": "BK22015760.11"
+        },
+        {
+            "reference_date": "2020-02-12",
+            "reference_text": [
+                {
+                    "value": "출산전후휴가 급여액은 출산전후휴가를 시작한 날을 기준으로 한 통상임금입니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만, 통상임금이 출산전후휴가를 시작한 날의 최저임금에 미치지 못하면 최저임금액을 기준으로 지급하며, 90일의 통상임금이 600만 원(2019년 기준 540만 원)을 초과하면 600만 원(2019년 기준 540만 원)까지 지급합니다(고용보험법 제76조 및 동법 시행령 101조, 고용노동부 고시 제2019-104호 참조).",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.gjdream.com/news/articleView.html?idxno=502726",
+            "search_query": "출산휴가 급여 금액",
+            "terminate": false,
+            "text": "출산 전후휴가 급여액의 경우 출산 전후 휴가가 시작된 날을 기준으로 한 통상임금을 지급해요. 하지만 통상임금이 출산 전후휴가를 시작한 날의 최저임금에 미치지 못하면 최저임금액 기준으로 지급하는데요. 90일의 통상임금이 6백만 원을 초과하면 600만 원까지 지급하게 돼 있어요.",
+            "turn_id": "BK22015760-6",
+            "utterance_id": "BK22015760.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 출산휴가와 급여 모두 잘 챙겨 받아야겠네요. 그런데 출산을 앞두고 있으니 여러 걱정이 드는데 친구가 조산을 조심하라고 하던데 조산은 뭘 말 하나요? 조산은 위험한 거죠?",
+            "turn_id": "BK22015760-7",
+            "utterance_id": "BK22015760.13"
+        },
+        {
+            "reference_date": "2021-10-06",
+            "reference_text": [
+                {
+                    "value": "조산이란 정상 임신 기간을 다 채우지 못하고 임신 20~37주 사이에 분만하는 것을 말한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "조산으로 태어난 아기는 몸 속 주요 장기가 미성숙한 상태로 태어나 다양한 합병증이 나타날 수 있으므로 조산을 예방하려는 노력이 필요하다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202110069168o",
+            "search_query": "임신 후기 조산",
+            "terminate": false,
+            "text": "네, 조산은 임신 기간을 정상적으로 다 채우지 못하고 임신 20주에서 37주 사이에 분만하는 것을 말하는데요. 만약 조산을 하게 되면 아기는 몸속의 장기가 미성숙한 상태로 태어난 거라 여러 합병증이 발생할 수 있어요.",
+            "turn_id": "BK22015760-7",
+            "utterance_id": "BK22015760.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 듣기만 해도 너무 무섭네요. 미리 알아차리는 게 중요할 것 같은데 조산을 미리 알 수 있는 방법은 없나요?",
+            "turn_id": "BK22015760-8",
+            "utterance_id": "BK22015760.15"
+        },
+        {
+            "reference_date": "2021-10-06",
+            "reference_text": [
+                {
+                    "value": "반복적이고 규칙적인 배 통증이 있다면 조산 가능성이 있다고 본다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아랫배가 단단해지다가 부드럽게 되는 상태가 반복되거나 골반 및 하복부에서 생리통 같은 통증, 압박 증상, 요통 등이 규칙적으로 나타나면서 간격이 짧아지는 증상이 나타난다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또 출혈이 생길 수 있는데 임신 후기에 출혈이 있으면 질 부위를 씻지 말고 패드만 착용한 채 병원으로 빨리 가는 것이 좋다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202110069168o",
+            "search_query": "조산 징후",
+            "terminate": false,
+            "text": "음, 만약 반복적이면서 규칙적으로 배에 통증이 있으면 조산 가능성을 의심하셔야 해요. 조산 증상으로는 아랫배가 단단해졌다가 부드러워지는 것이 반복되거나 골반과 배 아래가 생리통 같은 통증이 생겨요. 또한 압박과 요통 등이 규칙적으로 생기고 간격이 짧아지는 증상이 나타나요. 만약 출혈이 발생하면 질 부위를 씻지 말고 패드만 하시고 병원에 빨리 가시는 게 좋아요.",
+            "turn_id": "BK22015760-8",
+            "utterance_id": "BK22015760.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반복적이고 규칙적인 배 통증이 있으면 무조건 조산을 의심해야겠어요. 그런데 생활 속에서 조산을 예방하는 방법은 없나요?",
+            "turn_id": "BK22015760-9",
+            "utterance_id": "BK22015760.17"
+        },
+        {
+            "reference_date": "2021-10-06",
+            "reference_text": [
+                {
+                    "value": "먼저 일상 생활 속에서 배를 부딪치지 않도록 주의하고, 배에 압박이 가해지는 일은 삼가야 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "서서하는 일이나 웅크린 자세를 오래 지속하는 것은 좋지 않다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 체중이 급격히 늘면 임신중독증에 걸리기 쉽고, 태반 기능도 나빠질 수 있는데, 이같은 상황은 조기 파수나 조산으로 이어질 수 있으므로 임신 막달에는 체중 관리에 더욱 신경써야 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202110069168o",
+            "search_query": "조산 예방 생활",
+            "terminate": false,
+            "text": "일상생활 속에서 조산을 예방하시려면 배를 부딪치지 않게 조심하시고 배에 압박이 없게 해주셔야 해요. 그리고 서 있는 일이나 웅크린 자세를 오래 하시는 건 좋지 않아요. 임신 후기에는 체중 관리를 신경 쓰셔야 하는데요. 체중이 급격히 늘면 임신중독증에 걸릴 위험도 있고, 태반 기능도 나빠지는데 이와 같은 상황은 조기 파수나 조산으로 이어지니 체중 관리에 주의를 기울여주세요.",
+            "turn_id": "BK22015760-9",
+            "utterance_id": "BK22015760.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신 후기에는 뭐든 조심하고 몸에 신경을 더 써야겠네요. 오늘 유용한 정보 알려주셔서 감사해요. 다음에 또 도움 되는 정보 부탁드려요.",
+            "turn_id": "BK22015760-10",
+            "utterance_id": "BK22015760.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 곧 출산이 얼마 안 남아서 걱정이 많겠지만 마음 편안히 가지시고 건강 잘 챙기세요. 그럼 다음에 또 만나서 얘기 나눠요.",
+            "turn_id": "BK22015760-10",
+            "utterance_id": "BK22015760.20"
+        }
+    ]
+}

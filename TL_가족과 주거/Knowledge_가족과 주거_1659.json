@@ -1,0 +1,371 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011983",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011983",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이가 당뇨에 걸리기도 하나요? 오늘 잠깐 사료 사러 마트에 들렀는데, 고양이 당뇨 홍보물이 있더라고요.",
+            "turn_id": "BK22011983-1",
+            "utterance_id": "BK22011983.1"
+        },
+        {
+            "reference_date": "2019-10-14",
+            "reference_text": [
+                {
+                    "value": "사람과 마찬가지로 고양이도 나이가 들면 여러 성인병이 나타난다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대표적인 질병이 바로 당뇨다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "당뇨는 신체(세포)에서 글루코스(당)를 에너지원으로 적절하게 사용하지 못해 발병한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://weekly.donga.com/List/3/08/11/1871741/1",
+            "search_query": "고양이 당뇨",
+            "terminate": false,
+            "text": "그럼요, 고양이도 사람이랑 똑같이 나이를 먹으면 여러 가지 성인병에 걸려요. 대표적인 병이 당뇨고요. 고양이 몸속 세포가 글루코스라는 당을 에너지원으로 알맞게 쓰지 못하면 생기죠.",
+            "turn_id": "BK22011983-1",
+            "utterance_id": "BK22011983.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저런, 고양이한테도 당뇨가 올 수 있다니 몰랐네요. 고양이 당뇨도 사람 당뇨처럼 1형, 2형 나눠지나요?",
+            "turn_id": "BK22011983-2",
+            "utterance_id": "BK22011983.3"
+        },
+        {
+            "reference_date": "2019-10-14",
+            "reference_text": [
+                {
+                    "value": "고양이 당뇨는 사람과 마찬가지로 1형과 2형 등 2가지가 있으며, 2형 당뇨가 많다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1형은 인슐린 자체를 만들어내지 못하는 것이고, 2형은 인슐린은 만들지만 이를 잘 이용하지 못하는 것이다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://weekly.donga.com/List/3/08/11/1871741/1",
+            "search_query": "고양이 당뇨 유형",
+            "terminate": false,
+            "text": "맞아요, 사람처럼 고양이 당뇨도 1형과 2형 두 가지로 나뉘고, 2형 당뇨가 많은 편이에요. 참고로, 1형 당뇨는 인슐린 자체를 생성해내지 못해서 나타나고, 2형 당뇨는 인슐린을 생산하지만 활용을 잘 못해서 나타나는 거고요.",
+            "turn_id": "BK22011983-2",
+            "utterance_id": "BK22011983.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 2형 당뇨가 더 많다고 하셨는데, 발병 원인은 뭔가요?",
+            "turn_id": "BK22011983-3",
+            "utterance_id": "BK22011983.5"
+        },
+        {
+            "reference_date": "2019-10-14",
+            "reference_text": [
+                {
+                    "value": "고양이에게 2형 당뇨를 유발하는 가장 큰 원인은 비만이다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "살이 찌면 몸 안에 지방세포가 많아지고 이 세포가 인슐린 기능을 떨어뜨린다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "췌장에서 인슐린이 정상적으로 분비되더라도 그 효과가 떨어져 추가로 투여 받아야 하는 상황까지 올 수 있다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://weekly.donga.com/List/3/08/11/1871741/1",
+            "search_query": "2형 당뇨 원인",
+            "terminate": false,
+            "text": "고양이가 2형 당뇨에 걸리는 이유 중 가장 큰 건 비만이에요. 살이 찌면 몸속에 지방세포가 많아지는데 이 세포들이 인슐린의 기능을 떨어트리거든요. 췌장에서 정상적으로 인슐린이 분비돼도 효과가 떨어지니까 추가로 인슐린을 투여받아야 하는 경우가 생길 수도 있어요.",
+            "turn_id": "BK22011983-3",
+            "utterance_id": "BK22011983.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 사람이랑 증상이 똑같네요. 그럼 당뇨에 걸린 걸 어떻게 알아챌 수 있을까요?",
+            "turn_id": "BK22011983-4",
+            "utterance_id": "BK22011983.7"
+        },
+        {
+            "reference_date": "2019-10-14",
+            "reference_text": [
+                {
+                    "value": "고양이가 당뇨에 걸리면 초기에는 증상이 없는 경우가 많다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "물을 많이 마시고 소변을 자주 보는 모습이 종종 보인다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "만약 잘 먹는데도 체중이 계속 감소하거나, 다음(多飮), 다뇨(多尿) 증상이 나타난다면 바로 병원을 방문하자.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://weekly.donga.com/List/3/08/11/1871741/1",
+            "search_query": "고양이 당뇨 증상",
+            "terminate": false,
+            "text": "근데 사실, 고양이가 당뇨에 걸려도 초기 증상이 없는 경우가 많아요. 그래도 물을 너무 자주 마신다거나, 소변을 자주 보고, 밥을 잘 먹는데도 체중이 줄어드는 등의 모습이 보이면 병원을 가보는 게 좋죠.",
+            "turn_id": "BK22011983-4",
+            "utterance_id": "BK22011983.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 잘 살펴보는 수밖에 없네요. 당뇨에 걸렸을 때 관리도 엄청 중요하죠?",
+            "turn_id": "BK22011983-5",
+            "utterance_id": "BK22011983.9"
+        },
+        {
+            "reference_date": "2019-10-14",
+            "reference_text": [
+                {
+                    "value": "고양이 당뇨는 초기 진단과 관리가 매우 중요하다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "초기에 치료를 잘 받으면 인슐린을 계속 투여 받지 않아도 생활이 가능하다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "장기간 적절한 치료를 받지 못하면 케톤산증, 당뇨병성 신경병증, 백내장 같은 합병증이 발생할 수 있다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://weekly.donga.com/List/3/08/11/1871741/1",
+            "search_query": "고양이 당뇨 관리 중요",
+            "terminate": false,
+            "text": "네, 맞아요. 고양이가 당뇨에 걸렸다면 초기에 진단받고 관리를 하는 게 중요해요. 발병 초기에 치료만 잘 받아도 인슐린 투여를 받지 않은 채 생활할 수 있거든요. 만약 적절한 치료를 오랜 시간 받지 못한다면 케톤산증, 당뇨병성 신경병증, 백내장 등의 합병증이 올 수 있고요.",
+            "turn_id": "BK22011983-5",
+            "utterance_id": "BK22011983.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "합병증이 오면 너무 힘들 것 같네요. 그럼 당뇨 검사를 주기적으로 받아보는 건 어때요?",
+            "turn_id": "BK22011983-6",
+            "utterance_id": "BK22011983.11"
+        },
+        {
+            "reference_date": "2019-10-14",
+            "reference_text": [
+                {
+                    "value": "고양이가 10세가 넘었다면 6개월에 한 번씩 혈당검사와 소변검사를 받는 것이 좋다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://weekly.donga.com/List/3/08/11/1871741/1",
+            "search_query": "고양이 주기적 당뇨 검사 필요",
+            "terminate": false,
+            "text": "그것도 좋죠. 보통 고양이가 10살 이상이면 6개월마다 혈당검사랑 소변검사를 받아보는 게 좋고요.",
+            "turn_id": "BK22011983-6",
+            "utterance_id": "BK22011983.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나이가 많으면 주기적으로 받는 게 좋군요. 만약 당뇨 진단을 받으면 어떻게 해야 할까요?",
+            "turn_id": "BK22011983-7",
+            "utterance_id": "BK22011983.13"
+        },
+        {
+            "reference_date": "2019-10-14",
+            "reference_text": [
+                {
+                    "value": "당뇨 진단이 나왔다면 수의사의 지시에 따라 치료를 받아야 한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보통 의료용 인슐린 투여와 정기적인 혈당 관리가 필요하다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 중요한 건 식이 조절과 체중 관리다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://weekly.donga.com/List/3/08/11/1871741/1",
+            "search_query": "당뇨 진단 후 할 일",
+            "terminate": false,
+            "text": "고양이가 당뇨라는 진단받았다면 수의사가 지시하는 대로 치료를 잘 받아야죠. 일반적으로는 의료용 인슐린을 투여하고 정기적으로 혈당 관리를 해요. 식이 조절이랑 체중 관리가 특히 중요하고요.",
+            "turn_id": "BK22011983-7",
+            "utterance_id": "BK22011983.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이한테 상당히 번거로운 일일 것 같은데 최대한 안 걸리게 조심해야겠네요. 운동을 좀 시키면 괜찮을까요?",
+            "turn_id": "BK22011983-8",
+            "utterance_id": "BK22011983.15"
+        },
+        {
+            "reference_date": "2019-10-14",
+            "reference_text": [
+                {
+                    "value": "꾸준한 운동도 도움이 되지만, 고양이는 운동시키기가 쉽지 않다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "매일 짧게라도 장난감으로 자주 놀아주거나, 푸드퍼즐로 식사를 제공하는 것이 방법이 될 수 있다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://weekly.donga.com/List/3/08/11/1871741/1",
+            "search_query": "고양이 운동 꾸준히 시키기",
+            "terminate": false,
+            "text": "그럼요! 꾸준히 운동시키면 나름 도움이 되죠. 그런데 고양이를 운동시키는 게 쉽진 않으니까 매일 짧은 시간이라도 자주 장난감을 가지고 놀아주거나 푸드퍼즐 같은 걸로 밥을 주는 식으로 운동을 시키면 좋을 거예요.",
+            "turn_id": "BK22011983-8",
+            "utterance_id": "BK22011983.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 제가 시간이 없어서 잘 못 놀아줬는데 앞으로는 자주 뛰어놀게 해줘야겠네요.",
+            "turn_id": "BK22011983-9",
+            "utterance_id": "BK22011983.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래요, 당뇨에 걸려서 치료받는 건 주인에게도 힘들지만 고양이들도 너무 힘들 거예요.",
+            "turn_id": "BK22011983-9",
+            "utterance_id": "BK22011983.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 저희 고양이가 오래오래 건강히 살았으면 좋겠거든요. 좋은 정보 알려주셔서 감사해요!",
+            "turn_id": "BK22011983-10",
+            "utterance_id": "BK22011983.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아니에요, 저는 이야기 나눌 수 있어서 너무 좋았는걸요! 그럼, 다음에 또 봐요!",
+            "turn_id": "BK22011983-10",
+            "utterance_id": "BK22011983.20"
+        }
+    ]
+}

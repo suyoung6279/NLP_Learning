@@ -1,0 +1,382 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22000068",
+        "name": "2022 한국어 블렌더봇 데이터 BK22000068",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_insvoter1"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "애기 태어나기 전에 필요한 약들을 미리 사두려고 하는데 생각보다 사야 할 약들이 많네요.",
+            "turn_id": "BK22000068-1",
+            "utterance_id": "BK22000068.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 아기들은 자주 열나고 아파서 약을 미리 사두는 게 편하더라고요. 뭐뭐 사려고요?",
+            "turn_id": "BK22000068-1",
+            "utterance_id": "BK22000068.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일단 해열제 두 종류인데 아세트아미노펜과 이부프로펜 아니면 덱시부프로펜 성분의 해열제를 준비해야 한다던데 굳이 두가지나 준비해야 할 필요가 있나요?",
+            "turn_id": "BK22000068-2",
+            "utterance_id": "BK22000068.3"
+        },
+        {
+            "reference_date": "2022-03-09",
+            "reference_text": [
+                {
+                    "value": "한 종류의 해열제를 먹여도 되지만 약의 성분에 따라 열을 떨어뜨리는 방식이 다르기 때문에 번갈아 먹이는 것이 좋다.",
+                    "value_time": "2022-06-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/national/welfare-medical/2022/03/09/C3IJTDOBBFGKFHHB4F33KAX5X4/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "search_query": "해열제 종류",
+            "terminate": false,
+            "text": "음, 약의 성분에 따라 열을 떨어트리는 방식이 달라서 그래요. 한 종류의 해열제를 먹여도 되지만 여러종류를 사서 번갈아 먹이는 게 좋죠.",
+            "turn_id": "BK22000068-2",
+            "utterance_id": "BK22000068.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그럼 이부프로펜과 덱시부프로펜은 같은 성분이라 둘 중 하나를 준비하면 된다는 건가요?",
+            "turn_id": "BK22000068-3",
+            "utterance_id": "BK22000068.5"
+        },
+        {
+            "reference_date": "2021-10-25",
+            "reference_text": [
+                {
+                    "value": "특히 덱시부프로펜은 이부프로펜에서 약효가 있는 S-이부프로펜만 추출해 이부프로펜의 대표 부작용인 속쓰림과 같은 위장 장애를 낮추고, 투여 용량도 줄일 수 있다.",
+                    "value_time": "2022-06-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mkhealth.co.kr/news/articleView.html?idxno=55187",
+            "search_query": "덱시부프로펜",
+            "terminate": false,
+            "text": "네, 맞아요. 이부프로펜에서 약효가 있는 성분만 추출한 게 덱시부프로펜이라 둘 중 하나만 준비해도 괜찮아요. 교차복용 방법은 알고 계신가요?",
+            "turn_id": "BK22000068-3",
+            "utterance_id": "BK22000068.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 미리 찾아봤는데 시간 간격을 두고 먹인다고 하더라고요. 바로 먹이면 안 되는 건 과다복용 때문인건가요?",
+            "turn_id": "BK22000068-4",
+            "utterance_id": "BK22000068.7"
+        },
+        {
+            "reference_date": "2022-03-11",
+            "reference_text": [
+                {
+                    "value": "해열제를 먹이고 나서 열이 바로 떨어지지 않는다고, 연달아 다른 해열제를 먹이면 약물 과다복용으로 인한 부작용이 생길 수 있다.",
+                    "value_time": "2022-06-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/03/10/2022031001287.html",
+            "search_query": "해열제 과다복용",
+            "terminate": false,
+            "text": "그렇죠, 해열제 먹인 뒤에 바로 열이 안 떨어진다고 다른 약을 먹이면 과다복용으로 인한 부작용이 올 수 있어서 그래요.",
+            "turn_id": "BK22000068-4",
+            "utterance_id": "BK22000068.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그것도 무섭네요. 약을 줘도 양이 너무 많을까봐, 아니면 부작용이 있을까봐 무섭고 안 먹이자니 열이 너무 높아질까봐 무섭고요.",
+            "turn_id": "BK22000068-5",
+            "utterance_id": "BK22000068.9"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 항상 맘 졸였던 것 같아요. 처음에 아무것도 모를 땐 아기들 기초체온이 높은 것도 모르고 어른처럼 37도나 38도만 넘어도 바로 응급실 달려갔던 기억이 있네요.",
+            "turn_id": "BK22000068-5",
+            "utterance_id": "BK22000068.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 맞아요. 38도까지는 미열이여서 괜찮다고 들었어요. 해열제는 38도 넘으면 바로 먹이면 되나요?",
+            "turn_id": "BK22000068-6",
+            "utterance_id": "BK22000068.11"
+        },
+        {
+            "reference_date": "2020-09-25",
+            "reference_text": [
+                {
+                    "value": "생후 4개월 이상 아기의 체온이 38도 이상으로 올라 힘들어하면 먹는 해열제를 복용하는 것만으로도 대부분 해결할 수 있다.",
+                    "value_time": "2022-06-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/1Z7ZBJLIRW",
+            "search_query": "아기 고열 기준",
+            "terminate": false,
+            "text": "38도까지는 지켜보다가 그 이상으로 올라서 아기가 힘들어하면 해열제 먹여주시면 돼요. 그럼 거의 대부분은 열 내리고 끝날 거예요.",
+            "turn_id": "BK22000068-6",
+            "utterance_id": "BK22000068.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최대한 열 안 오르고 애기 컨디션이 좋기만을 바라야겠네요. 아플 거 생각하면 벌써 걱정이에요.",
+            "turn_id": "BK22000068-7",
+            "utterance_id": "BK22000068.13"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 애기들이 열 자주 나는 것 같아도 생각보다 열 떨어지는것도 빨라서 그냥 집에 약만 잘 준비해두시면 그날 밤은 거의 해결되는 경우가 많아요. 미리 걱정하진 마세요.",
+            "turn_id": "BK22000068-7",
+            "utterance_id": "BK22000068.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래야겠어요. 그러고보니 다른얘기긴 한데, 연고도 사려고 보니까 후시딘과 마데카솔 이렇게 두 가지를 사서 쓰는 게 좋다던데 이것도 연고 성분 때문에 그런건가요?",
+            "turn_id": "BK22000068-8",
+            "utterance_id": "BK22000068.15"
+        },
+        {
+            "reference_date": "2021-11-02",
+            "reference_text": [
+                {
+                    "value": "하지만 후시딘은 2차 감염을 방지하는 데, 그리고 마데카솔은 상처 부위 새살을 돋게 하고 흉터를 방지하는 데 초점을 맞췄다는 차이점이 있다.",
+                    "value_time": "2022-06-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://moneys.mt.co.kr/news/mwView.php?no=2021110114248035009",
+            "search_query": "후시딘 마데카솔",
+            "terminate": false,
+            "text": "네, 맞아요. 후시딘은 2차 감염을 막는 역할이고, 마데카솔은 상처부위에 새살을 좀 더 빨리 돋게 하고 흉터가 남지 않게 하는 역할이라 각각 용도에 따라 사용하는 게 좋아요.",
+            "turn_id": "BK22000068-8",
+            "utterance_id": "BK22000068.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여태까지는 상처나면 그냥 후시딘만 바르면 되는 줄 알고 그렇게 써왔는데 그게 또 아니라니 조금 놀랍네요.",
+            "turn_id": "BK22000068-9",
+            "utterance_id": "BK22000068.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하하, 상처엔 후시딘이고 새살엔 마데카솔이라는 얘기도 있잖아요. 기억해뒀다가 써먹어보세요.",
+            "turn_id": "BK22000068-9",
+            "utterance_id": "BK22000068.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래볼게요. 그, 상처 말고 아기 침독이나 땀띠가 심하면 일반 연고로는 안 되고 스테로이드 들어있는 연고로 발라준다던데 애기한테 발라도 되는 거겠죠?",
+            "turn_id": "BK22000068-10",
+            "utterance_id": "BK22000068.19"
+        },
+        {
+            "reference_date": "2020-02-18",
+            "reference_text": [
+                {
+                    "value": "병원에서 쓰는 스테로이드 연고는 강도가 제일 약한 7등급이나 6등급인데(가장 강한 것이 1등급, 가장 약한 것이 7등급), 이렇게 순한 스테로이드 연고는 몇 가지 주의사항만 지키면 부작용이 없고 효과가 좋다.",
+                    "value_time": "2022-06-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2020/02/17/2020021702769.html",
+            "search_query": "아기 스테로이드 연고",
+            "terminate": false,
+            "text": "병원에서 처방해주는 스테로이드 연고는 가장 약한 등급이라서 몇 가지 주의사항만 잘 지켜서 사용하면 부작용 없이 사용할 수 있어요. 효과도 좋고요.",
+            "turn_id": "BK22000068-10",
+            "utterance_id": "BK22000068.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 부작용은 어떤 게 있나요? 스테로이드 연고를 몇 번 발라본 적이 있어서 주의사항은 대략 알고 있는데 부작용에 대해서 알고 있는 게 없네요.",
+            "turn_id": "BK22000068-11",
+            "utterance_id": "BK22000068.21"
+        },
+        {
+            "reference_date": "2022-03-02",
+            "reference_text": [
+                {
+                    "value": "하지만, 스테로이드제를 오남용하면 피부가 위축돼서 혈관이 노출될 수 있습니다.",
+                    "value_time": "2022-06-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 결과로 모세혈관이 확장되거나 멍이 생기는 부작용이 나타날 수 있습니다.",
+                    "value_time": "2022-06-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000674994",
+            "search_query": "스테로이드 연고 부작용",
+            "terminate": false,
+            "text": "스테로이드 연고를 너무 많이, 자주 바르거나 사용하지 않아도 되는 상황에서 무분별하게 사용하게 되면 피부가 위축되면서 모세혈관이 확장되거나 피부에 멍이 생길 수 있어요.",
+            "turn_id": "BK22000068-11",
+            "utterance_id": "BK22000068.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사실 발라주기 무서워서 맘 같아선 스테로이드 없는 걸로 계속 관리해주고 싶긴 해요. 항생제 들어있는 연고 발라주는 것도 무서운데 스테로이드는 뭔가 좀 더 무서운 느낌이여서요. 특히 애기한테 발라주는 건 더더욱 그래요.",
+            "turn_id": "BK22000068-12",
+            "utterance_id": "BK22000068.23"
+        },
+        {
+            "reference_date": "2021-03-06",
+            "reference_text": [
+                {
+                    "value": "오히려 적절한 고강도 스테로이드 사용을 피하려고 저강도 스테로이드를 오래 바르다 치료 효과는 얻지 못하고 부작용만 생기지 않도록 해야 한다고 전문가들은 경고했다.",
+                    "value_time": "2022-06-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/03/05/2021030502498.html",
+            "search_query": "비스테로이드 연고",
+            "terminate": false,
+            "text": "흠, 그런데 오히려 강도가 높은 스테로이드를 사용해야 하는 상황인데 순한 스테로이드로 대신한다고 그걸로 관리하면 치료 효과도 없고 부작용만 생길 수 있어서 그냥 처방받은 대로만 잘 발라주면서 관리해주세요. 그게 제일 좋아요.",
+            "turn_id": "BK22000068-12",
+            "utterance_id": "BK22000068.24"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나중에 그런 상황 생기면 의사 처방대로 관리해볼게요. 또 새로운 걸 많이 배웠네요. 항상 감사해요.",
+            "turn_id": "BK22000068-13",
+            "utterance_id": "BK22000068.25"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "뭘요, 다 걱정돼서 그러는 엄마의 마음이니 이해해요. 준비 잘 하세요.",
+            "turn_id": "BK22000068-13",
+            "utterance_id": "BK22000068.26"
+        }
+    ]
+}

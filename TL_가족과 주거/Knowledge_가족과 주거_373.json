@@ -1,0 +1,400 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015237",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015237",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 청년들 집 구하기가 정말 어렵고 힘든 것 같아요. 청년들을 위한 주거 정책들이 마련되어있나요?",
+            "turn_id": "BK22015237-1",
+            "utterance_id": "BK22015237.1"
+        },
+        {
+            "reference_date": "2022-04-21",
+            "reference_text": [
+                {
+                    "value": "정부가 코로나19로 어려움을 겪은 청년들을 위해 월 20만원의 주거비를 1년 간 지원하기로 했다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://webcache.googleusercontent.com/search?q=cache:WFNkAHMHXgMJ:news.bizwatch.co.kr/article/real_estate/2022/04/21/0005&cd=4&hl=ko&ct=clnk&gl=kr",
+            "search_query": "청년 주거비 지원",
+            "terminate": false,
+            "text": "네. 우리나라에서는 코로나19로 인해 힘든 청년들을 위해서 한 달 20만 원의 주거비를 1년간 지원하는 제도가 있어요.",
+            "turn_id": "BK22015237-1",
+            "utterance_id": "BK22015237.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "매달 지원금을 주는 건 좋은 방법인 것 같아요. 혹시 모든 청년이 다 받을 수 있는 건가요?",
+            "turn_id": "BK22015237-2",
+            "utterance_id": "BK22015237.3"
+        },
+        {
+            "reference_date": "2022-08-17",
+            "reference_text": [
+                {
+                    "value": "지원 대상은 부모와 떨어져 별도로 거주하는 만19∼34세 무주택 청년이다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만19~34세가 되는 해의 1월 1일부터 신청해 지원받을 수 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기혼자·미혼자 모두 대상이다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.korea.kr/news/policyNewsView.do?newsId=148904850",
+            "search_query": "청년 주거비 지원 대상",
+            "terminate": false,
+            "text": "부모님으로부터 독립해 따로 사는 만 19~34세 무주택 청년이라면 받을 수 있어요. 해당하는 나이가 되는 해의 1월 1일부터 신청해서 지원받을 수 있어요. 기혼, 미혼 상관없이 모두 대상자고요.",
+            "turn_id": "BK22015237-2",
+            "utterance_id": "BK22015237.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 도움이 되는 제도인 것 같아요. 주거비 지원은 월세만 해당되는 건지 궁금해요.",
+            "turn_id": "BK22015237-3",
+            "utterance_id": "BK22015237.5"
+        },
+        {
+            "reference_date": "2022-08-17",
+            "reference_text": [
+                {
+                    "value": "보증금 5000만원 이하, 월세 60만원 이하인 주택에 거주하는 경우 최대 20만원의 월세를 12개월 동안 지원한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만, 월세가 60만원을 초과하는 경우에는 ‘월세와 보증금의 월세환산액을 합한 금액이 70만원 이하’인 경우까지는 지원 대상에 포함된다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.korea.kr/news/policyNewsView.do?newsId=148904850",
+            "search_query": "청년 주거비 지원 조건",
+            "terminate": false,
+            "text": "네. 보증금 5천만 원 이하, 월세 60만 원 이하인 주택에 산다면 최대 20만 원의 월세를 1년간 받게 되는 거예요. 만약 월세가 60만 원을 넘더라도 월세와 보증금의 월세 환산액을 더한 금액이 70만 원 이하라면 지원받을 수 있어요.",
+            "turn_id": "BK22015237-3",
+            "utterance_id": "BK22015237.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "코로나19 때문에 청년들이 힘들었는데, 이런 제도가 신설되어서 너무 다행이에요. 그래도 청년들이 늘 월세만 살 수는 없는 노릇인데, 전세자금에 대한 지원은 없는 건가요?",
+            "turn_id": "BK22015237-4",
+            "utterance_id": "BK22015237.7"
+        },
+        {
+            "reference_date": "2022-10-02",
+            "reference_text": [
+                {
+                    "value": "청년과 신혼부부 대상 ‘버팀목’ 전세대출 한도가 2∼3억원으로 확대된다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지금까지 청년 전용 버팀목 대출은 보증금 1억원 이하 주택에 대해 대출을 7천만원까지 지원했지만, 앞으로는 보증금 3억원 이하 주택에 대출을 2억원까지 지원한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/economy/property/1060978.html",
+            "search_query": "청년 전세대출",
+            "terminate": false,
+            "text": "청년과 신혼부부를 대상으로 하는 버팀목 전세대출이 있어요. 최근 2~3억원 정도로 한도도 늘어났죠. 원래 청년 전용 버팀목 대출의 경우 보증금 1억 원 이하의 주택에 대해 7천만 원까지 한도를 지원했는데, 앞으로는 보증금 3억 원 이하 주택에 2억 원까지 대출을 지원하게 되었거든요.",
+            "turn_id": "BK22015237-4",
+            "utterance_id": "BK22015237.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 전세보증금이 엄청나게 높아졌는데 한도가 같이 늘어나니 집 구하기가 좀 수월하겠어요. 그런데 요즘 금리가 계속 오르고 있으니 한도가 높아져도 걱정인데, 청년 전세자금 대출의 금리는 어떤 상황인가요?",
+            "turn_id": "BK22015237-5",
+            "utterance_id": "BK22015237.9"
+        },
+        {
+            "reference_date": "2022-07-20",
+            "reference_text": [
+                {
+                    "value": "이에 정부는 우선 주택도시기금 전세대출(버팀목) 금리를 올해 동결하기로 했다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "버팀목 전세대출은 연소득 5000만원 이하 서민들이 시중 은행 대비 저리(1.2~2.4%)로 이용할 수 있는 상품이다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newsis.com/view/?id=NISX20220720_0001949459",
+            "search_query": "청년 전용 버팀목 전세 대출 금리",
+            "terminate": false,
+            "text": "올해 정부에서는 주택도시기금 전세대출의 금리를 동결하기로 발표했어요. 버팀목 전세대출은 연봉 5천만 원 이하의 서민들이 시중 은행에 비해 낮은 금리인 1.2~2.4%로 대출을 받을 수 있게 되었죠.",
+            "turn_id": "BK22015237-5",
+            "utterance_id": "BK22015237.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 다행이네요. 예전에 청년 전세 임대 제도라는 걸 들어본 적 있는 것 같은데 이건 대출과 다른 건가요?",
+            "turn_id": "BK22015237-6",
+            "utterance_id": "BK22015237.11"
+        },
+        {
+            "reference_date": "2022-01-12",
+            "reference_text": [
+                {
+                    "value": "☞LH 청년 전세임대란= LH가 임대인과 전세 계약한 뒤 청년에게 저렴한 월세로 재임대해 주거비용 부담을 줄여주는 제도다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiae.co.kr/article/2022011006344980185",
+            "search_query": "청년 전세임대 제도",
+            "terminate": false,
+            "text": "LH 청년 전세임대 제도인데요. LH가 임대인과 전세 계약을 맺고 청년에게 다시 낮은 월세로 재임대해주는 제도에요. 주거비용의 부담을 줄일 수 있죠.",
+            "turn_id": "BK22015237-6",
+            "utterance_id": "BK22015237.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여러 가지 제도가 있으니 내 상황에 맞춰 골라 신청할 수 있을 것 같아요. LH 청년 전세임대는 누구나 신청할 수 있는 건가요?",
+            "turn_id": "BK22015237-7",
+            "utterance_id": "BK22015237.13"
+        },
+        {
+            "reference_date": "2021-08-11",
+            "reference_text": [
+                {
+                    "value": "대학생, 취업 준비생(졸업 후 2년 이내)과 만 19세~39세 중 무주택자",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "보증금의 약 98%를 지원받을 수 있어요!",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "(입주자 부담은 100~200만 원)",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.korea.kr/news/visualNewsView.do?newsId=148891448",
+            "search_query": "청년 전세임대 신청조건",
+            "terminate": false,
+            "text": "대학생, 졸업 후 2년이 지나지 않은 취업준비생과 만 19~39세 청년 중 무주택자가 대상이에요. 보증금의 약 98%까지 지원받을 수 있는데, 이렇게 되면 본인부담금은 100~200만원 선이에요.",
+            "turn_id": "BK22015237-7",
+            "utterance_id": "BK22015237.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지원 폭이 엄청나게 크네요. 입주하기까지 어떤 과정들을 거치는지 궁금해요.",
+            "turn_id": "BK22015237-8",
+            "utterance_id": "BK22015237.15"
+        },
+        {
+            "reference_date": "2022-01-12",
+            "reference_text": [
+                {
+                    "value": "신청 후 지원 대상자로 선정되면 계약 가능한 주택을 청년이 직접 찾아야 한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이후 LH의 주택 권리분석을 거쳐 전세 가능 여부를 검토한 뒤 임대차 계약을 체결한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수도권 기준 최대 1억2000만원까지 전세 보증금을 지원하며 2차례 재계약을 통해 최대 6년까지 거주할 수 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiae.co.kr/article/2022011006344980185&mobile=Y",
+            "search_query": "청년 전세임대 절차",
+            "terminate": false,
+            "text": "신청하고 지원 대상자가 되면 계약을 할 수 있는 집을 청년이 스스로 찾아야 해요. 그다음 LH가 주택 권리분석을 하게 되고 전세 가능 여부를 확인한 뒤에 임대차 계약을 진행하죠. 수도권을 기준으로 최대 1억 2천만 원까지 전세 보증금을 지원받을 수 있고 두 번 재계약이 가능해요. 최대 6년까지 살 수 있는 거예요.",
+            "turn_id": "BK22015237-8",
+            "utterance_id": "BK22015237.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "직접 집을 찾아야 한다는 게 조금 부담이네요. 그럼 청년 행복주택도 전세 임대 제도와 비슷한 건가요?",
+            "turn_id": "BK22015237-9",
+            "utterance_id": "BK22015237.17"
+        },
+        {
+            "reference_date": "2022-06-11",
+            "reference_text": [
+                {
+                    "value": "행복주택은 대학생, 신혼부부, 사회초년생 등 젊은층과 고령층의 주거안정을 위해 도입된 공공임대주택이다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대상에 따라 6~20년까지 거주할 수 있으며 임대보증금과 임대료 모두 인근지역 시중가격의 60~80%로 산정된다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kukinews.com/newsView/kuk202206080212",
+            "search_query": "청년 행복주택",
+            "terminate": false,
+            "text": "아니에요. 행복주택은 대학생과 신혼부부, 사회초년생 등 젊은 층뿐 아니라 고령층까지 주거 안정을 위해 시작된 공공임대주택이에요. 대상에 따라 차이가 있지만 최소 6년부터 최대 20년까지 살 수 있고, 임대보증금과 임대료는 근처 지역 시세의 60~80% 정도로 정해져요.",
+            "turn_id": "BK22015237-9",
+            "utterance_id": "BK22015237.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "행복주택은 내가 스스로 집을 구하러 찾아다니지 않아도 되니 좀 더 편한 것 같아요. 신청 방법 알려주시겠어요?",
+            "turn_id": "BK22015237-10",
+            "utterance_id": "BK22015237.19"
+        },
+        {
+            "reference_date": "2022-07-06",
+            "reference_text": [
+                {
+                    "value": "청약신청은 오는 11~20일 LH청약센터(apply.lh.or.kr)와 모바일 애플리케이션 앱 ‘LH청약센터’에서 가능하며, 인터넷 취약계층을 위해 제한적으로 현장접수도 운영한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "청약신청 이전에 LH청약센터 혹은 마이홈포털(www.myhome.go.kr)의 ‘행복주택 자가진단’ 서비스를 활용하면 행복주택 입주 가능 여부를 미리 확인할 수 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sisacast.kr/news/articleView.html?idxno=35092",
+            "search_query": "청년 행복주택 신청방법",
+            "terminate": false,
+            "text": "청약 신청을 하기 전에 LH 청약센터나 마이홈 포털 사이트에 들어가 행복주택 자가 진단 서비스를 사용해 행복주택에 입주할 수 있는지 확인해보시면 좋아요. 그 후 청약 신청은 LH 청약센터나 모바일 앱 LH청 약센터에서 할 수 있고, 인터넷 취약계층을 위한 제한적 현장 접수도 함께 운영돼요.",
+            "turn_id": "BK22015237-10",
+            "utterance_id": "BK22015237.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "청년들을 위한 주거 지원 제도가 이렇게 많은지 처음 알았어요. 역시 아는 만큼 세상이 보이는 것 같네요. 꼼꼼히 살펴보고 저에게 맞는 방법을 찾아 신청해봐야겠어요.",
+            "turn_id": "BK22015237-11",
+            "utterance_id": "BK22015237.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래요. 도움이 되었다고 하니 뿌듯하네요. 그럼 남은 하루 잘 보내시고 다음에 또 봐요.",
+            "turn_id": "BK22015237-11",
+            "utterance_id": "BK22015237.22"
+        }
+    ]
+}

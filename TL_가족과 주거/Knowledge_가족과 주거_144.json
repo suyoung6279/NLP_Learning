@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014174",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014174",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘부터 추석 연휴가 시작되네요. 최근에는 코로나 때문에 고향으로 갈 수가 없었는데, 오랜만에 부모님에게 인사도 드리고 해야겠어요.",
+            "turn_id": "BK22014174-1",
+            "utterance_id": "BK22014174.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 부모님 모시고 좋은 곳으로 여행을 가기로 했어요. 말씀처럼 코로나 때문에 만나 뵙질 못했는데, 그래도 참 다행이네요.",
+            "turn_id": "BK22014174-1",
+            "utterance_id": "BK22014174.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 추석은 양력으로는 매일 날짜가 바뀌곤 하던데, 추석은 정확히 언제이고 어떤 날인가요?",
+            "turn_id": "BK22014174-2",
+            "utterance_id": "BK22014174.3"
+        },
+        {
+            "reference_date": "44811.0",
+            "reference_text": [
+                {
+                    "value": "추석(秋夕) 또는 한가위는 음력 8월 15일에 치르는 행사로 설날과 더불어 한국의 주요 연휴이자 민족 최대의 명절이다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "추석은 농경사회였던 예로부터 지금까지 한국인에게 가장 중요한 연중 최대 명절이다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B6%94%EC%84%9D",
+            "search_query": "추석",
+            "terminate": false,
+            "text": "추석은 음력으로 8월 15일에 해당하는 날에 치르는 행사인데요, 전통적으로 농경사회였던 한국에 있어서, 설날과 함께 가장 크고 중요한 우리나라 최대의 명절이죠.",
+            "turn_id": "BK22014174-2",
+            "utterance_id": "BK22014174.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이런 민족 대명절인 추석이 생기게 된 유래가 무엇일까요?",
+            "turn_id": "BK22014174-3",
+            "utterance_id": "BK22014174.5"
+        },
+        {
+            "reference_date": "44812.0",
+            "reference_text": [
+                {
+                    "value": "『삼국사기』에는 추석의 유래가 되는 신라인의 전통 명절인 가배(嘉俳)를 기록한 내용이 전하는데, 음력 8월 15일에 다 같이 모여 여자는 길쌈 내기를, 남자는 활쏘기를 하며 가무와 온갖 놀이를 즐겼다고 한다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ikoreanspirit.com/news/articleView.html?idxno=68598",
+            "search_query": "추석 유래",
+            "terminate": false,
+            "text": "삼국사기에서는 신라의 전통 명절이었던 가배에 대한 기록이 나오는데, 음력 8월 15일에는 한 자리에 모두 모여 여자는 길쌈 대결, 남자는 활쏘기 같은 놀이를 즐기는 날이었어요. 이 가배에서 추석이 유래됐어요.",
+            "turn_id": "BK22014174-3",
+            "utterance_id": "BK22014174.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "또 추석날에만 특별하게 볼 수 있는 풍습들도 많은데, 어떤 것들이 있을까요?",
+            "turn_id": "BK22014174-4",
+            "utterance_id": "BK22014174.7"
+        },
+        {
+            "reference_date": "44811.0",
+            "reference_text": [
+                {
+                    "value": "추석에는 한복을 입고 햅쌀로 빚은 송편과 여러 가지 햇과일·토란국 등 음식들을 장만하여 추수를 감사하는 차례를 지낸다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B6%94%EC%84%9D",
+            "search_query": "추석 풍습",
+            "terminate": false,
+            "text": "우리 전통 의상 한복을 입고 막 추수한 쌀로 빚은 송편, 신선한 과일과 토란국 등의 음식을 먹으며 추수 감사 차례를 지내는 것이 흔히 볼 수 있는 풍경이죠.",
+            "turn_id": "BK22014174-4",
+            "utterance_id": "BK22014174.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘은 그런데 차례 분위기도 많이 바뀌고 있는 것 같아요. 특히 상차림 같은 경우에는 현대에 들어와서 많이 바뀌어 가고 있다고 들었는데, 어떤 식으로 변화가 이루어지는 중인가요?",
+            "turn_id": "BK22014174-5",
+            "utterance_id": "BK22014174.9"
+        },
+        {
+            "reference_date": "44797.0",
+            "reference_text": [
+                {
+                    "value": "치솟는 추석 물가가 장바구니를 짓누르면서 차례상차림 문화도 바뀌고 있다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "직접 제수용품을 구입해 음식을 준비하는 대신 밀키트나 간편식을 이용해 차례상을 차리는 가정이 느는 분위기다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전문적으로 차례 음식을 제공하는 업체들도 특수를 누리고 있다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/life/article/202208245571g",
+            "search_query": "차례상차림",
+            "terminate": false,
+            "text": "요즘은 물가가 많이 오르면서 차례 상차림도 많이 바뀌어 가고 있는데, 직접 재료를 구입해 음식을 만들기보단, 간편한 밀키트 같은 것을 이용해 차례상을 차리는 집이 늘고 있어요. 또 전문적으로 차례 음식을 전담하는 업체들도 호황을 누리고 있죠.",
+            "turn_id": "BK22014174-5",
+            "utterance_id": "BK22014174.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 하지만 뭐니 뭐니 해도 추석의 대표 음식은 송편이겠죠? 그런데 송편은 어떻게 만드나요?",
+            "turn_id": "BK22014174-6",
+            "utterance_id": "BK22014174.11"
+        },
+        {
+            "reference_date": "44622.0",
+            "reference_text": [
+                {
+                    "value": "멥쌀가루를 익반죽하여 알맞은 크기로 떼어 거기에 깨·팥·콩·녹두·밤 등의 소를 넣고 반달이나 조개 모양으로 빚어 솔잎을 깔고 찐 떡이다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%86%A1%ED%8E%B8",
+            "search_query": "송편",
+            "terminate": false,
+            "text": "먼저 멥쌀가루를 뜨거운 물로 익반죽하고 적당한 크기로 떼어내요. 그 뒤 깨,팥,콩,밤 등의 재료를 넣어서 반달 형태로 빚고 솔잎을 바닥에 깔아 찌면 송편이 완성돼요.",
+            "turn_id": "BK22014174-6",
+            "utterance_id": "BK22014174.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "또 추석에는 친척들이 전부 모여서 그런지, 놀이들도 많이 하잖아요. 추석에 하는 놀이들은 어떤게 있을까요?",
+            "turn_id": "BK22014174-7",
+            "utterance_id": "BK22014174.13"
+        },
+        {
+            "reference_date": "44811.0",
+            "reference_text": [
+                {
+                    "value": "추석에는 널뛰기, 제기차기, 강강술래, 윷놀이, 씨름 등의 놀이를 한다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B6%94%EC%84%9D",
+            "search_query": "추석 놀이",
+            "terminate": false,
+            "text": "추석에는 널뛰기, 제기차기, 강강술래, 씨름과 같은 전통 놀이들을 즐기곤 하죠.",
+            "turn_id": "BK22014174-7",
+            "utterance_id": "BK22014174.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강강술래는 어떻게 하는 놀이인가요?",
+            "turn_id": "BK22014174-8",
+            "utterance_id": "BK22014174.15"
+        },
+        {
+            "reference_date": "44778.0",
+            "reference_text": [
+                {
+                    "value": "강강술래는 전라도 지방에서 전라남도에서 전하는 민속놀이로, 해석하면 '강한 오랑캐가 물을 건너서 온다'는 뜻이다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "주로 해남·무안·진도·완도 등지에서 음력 8월 15일 밤에 예쁘게 차려입은 부녀자들이 공터에 모여 손을 잡고 둥근 원을 만들어, '강강술래'라는 후렴이 붙은 노래를 부르며 빙글빙글 돌면서 뛰는 놀이이다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B0%95%EA%B0%95%EC%88%A0%EB%9E%98",
+            "search_query": "강강술래",
+            "terminate": false,
+            "text": "강강술래는 전남 해남, 무안, 진도, 완도 등에서 전승되던 민속놀이인데, 강한 오랑캐가 물을 건너서 온다는 뜻을 가지고 있어요. 추석이 되면 아름답게 치장한 여성들이 넓은 곳에 모여 손을 맞잡고 둥글게 빙글빙글 돌면서 강강술래라는 노래를 부르는 놀이죠.",
+            "turn_id": "BK22014174-8",
+            "utterance_id": "BK22014174.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 요즘 추석도 많이 바뀌어 가고 있는 것 같아요. 제 친구도 이번에는 고향에 내려가지 않는다던데, 현대의 추석은 어떻게 바뀌어 가고 있는 건가요?",
+            "turn_id": "BK22014174-9",
+            "utterance_id": "BK22014174.17"
+        },
+        {
+            "reference_date": "44811.0",
+            "reference_text": [
+                {
+                    "value": "펜데믹 경험과 1인 가구 증가 등의 영향으로 명절 풍경이 빠르게 변하고 있다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고향을 방문하기보다 휴식을 취한다거나, 차례상을 차리는 대신 홈파티를 즐기는 등 명절 문화가 간소화되는 분위기다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kyeonggi.com/article/20220907580166",
+            "search_query": "추석 변화",
+            "terminate": false,
+            "text": "지금 시대는 코로나 팬데믹과 더불어 1인 가구들도 많아지면서, 귀향하지 않고 푹 쉰다거나, 차례상 대신 홈파티를 즐기는 등 전통적인 명절 문화도 많이 축소되고 있는 경향이 있어요.",
+            "turn_id": "BK22014174-9",
+            "utterance_id": "BK22014174.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 이야기 나눌 수 있어서 즐거웠어요. 추석 잘 보내시고 다음에 뵐게요.",
+            "turn_id": "BK22014174-10",
+            "utterance_id": "BK22014174.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저도 즐거웠어요. 풍성한 한가위 보내시고 사고 없이 안전하게 다녀오시길 바랍니다.",
+            "turn_id": "BK22014174-10",
+            "utterance_id": "BK22014174.20"
+        }
+    ]
+}

@@ -1,0 +1,376 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015199",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015199",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "드디어 내 집 마련의 꿈이 이루는 날이 다가오고 있어요.",
+            "turn_id": "BK22015199-1",
+            "utterance_id": "BK22015199.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 축하해요. 집 알아보느라 고생 많았는데 고생 끝에 낙이 오겠네요. 이사는 언제 할지 정했어요?",
+            "turn_id": "BK22015199-1",
+            "utterance_id": "BK22015199.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다음 주에 잔금 치르고 간단히 인테리어 할 예정이라 이사는 2주 후예요. 그런데 잔금까지 치르고 나면 등기를 해야 할 텐데 법무사 수수료도 만만치 않나 봐요. 요즘 법무사를 통하지 않고 직접 등기하는 사람들도 많다고 하던데 실제로 그런가요?",
+            "turn_id": "BK22015199-2",
+            "utterance_id": "BK22015199.3"
+        },
+        {
+            "reference_date": "2022-10-04",
+            "reference_text": [
+                {
+                    "value": "아파트 등 부동산을 매매한 뒤 진행하는 ‘소유권 등기 이전’은 통상 법무사에 일정한 수수료를 주고 맡긴다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 최근 3년 새 부동산 소유자 본인이 직접 등기 이전을 신청하는 ‘셀프 등기’ 사례가 많아지고 있다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "4일 법원 등기정보광장에 따르면, ‘당사자’가 부동산 등기를 신청한 사례는 2019년 2만 5051건에서 2020년 4만 3067건, 2021년 5만 3202건으로 매년 폭증하고 있다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newspost.kr/news/articleView.html?idxno=102128",
+            "search_query": "셀프 등기 사례 증가",
+            "terminate": false,
+            "text": "아파트와 같은 부동산 매매 후 이루어지는 소유권 등기 이전은 일정 수수료를 지불하고 법무사가 대행하는 경우가 일반적이었지만 부동산 소유자가 직접 등기 이전을 신청하는 이른바 셀프 등기 건수가 최근 3년 사이 급격히 증가하고 있어요. 법원 등기정보광장에서 10월 4일에 발표한 내용을 살펴보면 부동산 등기를 대리인이 아닌 당사자가 신청한 건수는 2019년에 2만 5051건이었던 것이, 2020년에는 4만 3067건, 2021년에는 5만 3202건으로 해마다 폭발적으로 늘어나고 있어요.",
+            "turn_id": "BK22015199-2",
+            "utterance_id": "BK22015199.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "두 배 이상 늘었네요. 그런데 등기를 신청하려면 필요한 서류가 굉장히 많다고 들어서 과연 제가 제대로 할 수 있을지 걱정이에요. 등기할 때 서류 준비 외 전문적인 지식이나 별도 준비가 필요한가요?",
+            "turn_id": "BK22015199-3",
+            "utterance_id": "BK22015199.5"
+        },
+        {
+            "reference_date": "2021-08-29",
+            "reference_text": [
+                {
+                    "value": "대리인 없이 직접 하는 소유권 이전등기의 핵심은 '꼼꼼한 서류 준비'에 있습니다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지참해야 하는 서류 종류가 적지 않아 언뜻 혼자하기에 버거워 보이지만, 서류만 준비되면 복잡한 권리분석 같은 것은 필요 없고 제출만 하면 되니까요.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2021082703390003461?did=NA",
+            "search_query": "셀프 등기 서류 준비의 중요성",
+            "terminate": false,
+            "text": "등기 신청을 위해 준비해야 하는 서류가 많아서 스스로 처리하는 것은 무리라고 생각하기 쉽지만, 서류만 제대로 갖추어 제출만 하면 되고 복잡한 권리 분석 등의 절차는 필요 없어요. 그러니 대행을 의뢰하지 않고 본인이 직접 소유권 이전 등기할 때 핵심이 되는 것은 빈틈없는 서류 준비라는 점만 명심하시면 돼요.",
+            "turn_id": "BK22015199-3",
+            "utterance_id": "BK22015199.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그럼 저도 용기를 내어 도전해 볼래요. 그럼 셀프 등기를 준비하려면 어떤 서류를 챙겨야 하나요?",
+            "turn_id": "BK22015199-4",
+            "utterance_id": "BK22015199.7"
+        },
+        {
+            "reference_date": "2021-08-29",
+            "reference_text": [
+                {
+                    "value": "우선 잔금 지급과 동시에 매도인으로부터 등기필증과 매도용 인감증명서, 주민등록표 초본, 소유권 이전등기 신청 위임장을 받아둬야 합니다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "위임장엔 반드시 인감증명서상의 도장과 일치하는 인감도장 날인이 있어야 합니다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2021082703390003461?did=NA",
+            "search_query": "부동산 등기 매도인 준비 서류",
+            "terminate": false,
+            "text": "먼저 잔금을 지불하면서 매도인에게 등기필증, 매도용 인감증명서, 주민등록표 초본, 소유권 이전등기 신청 위임장을 수령해야 해요. 위임장에는 인감증명서에 사용된 도장과 동일한 인감도장이 반드시 찍혀 있어야 한다는 점 꼭 기억해 두시고요.",
+            "turn_id": "BK22015199-4",
+            "utterance_id": "BK22015199.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 잔금 치르기 전에 미리 연락해 두어야겠네요. 혹시 제가 직접 발급받거나 준비해야 하는 서류는 없나요?",
+            "turn_id": "BK22015199-5",
+            "utterance_id": "BK22015199.9"
+        },
+        {
+            "reference_date": "2021-08-29",
+            "reference_text": [
+                {
+                    "value": "매수인 스스로 챙겨야 할 서류는 크게 신분증, 부동산 매매계약서와 본인의 주민등록표 초본, 가족관계증명서, 부동산거래계약신고필증, 토지대장등본 및 건축물대장등본 등입니다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만약 토지거래허가구역에 있는 부동산을 매입한 경우라면 토지거래허가서, 농지를 취득했다면 농지취득자격증명원이 추가로 필요합니다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 외에도 잔금 납부 후부터 등기신청 전까지 각 단계에서 발급받는 영수필확인서 등 모든 서류를 모아놓는 게 좋습니다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2021082703390003461?did=NA",
+            "search_query": "부동산 등기 매수인 준비 서류",
+            "terminate": false,
+            "text": "매수인은 신분증, 부동산 매매계약서, 본인의 주민등록표 초본, 가족관계증명서, 부동산거래계약신고필증, 토지대장등본 및 건축물대장등본 등을 준비해야 해요. 추가적으로 토지거래허가구역 안의 부동산을 구입했다면 토지거래허가서, 농지를 매입했다면 농지취득자격증명원이 필요하죠. 그밖에 잔금을 치른 다음부터 등기를 신청하기 전까지 절차를 진행하면서 발급받는 영수필확인서를 비롯한 모든 서류도 잘 챙겨 두시고요.",
+            "turn_id": "BK22015199-5",
+            "utterance_id": "BK22015199.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 명심할게요. 서류 준비를 마쳤다면 다음으로 할 일은 무엇인가요?",
+            "turn_id": "BK22015199-6",
+            "utterance_id": "BK22015199.11"
+        },
+        {
+            "reference_date": "2021-08-29",
+            "reference_text": [
+                {
+                    "value": "서류가 준비됐으면 먼저 관할구청에 부동산거래계약신고필증과 매매계약서 사본 등을 내고 취득세 고지서를 발급받습니다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "은행이나 위택스(Wetax)를 통해 취득세를 납부하고 영수필확인서 등 납부확인서를 챙깁니다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2021082703390003461?did=NA",
+            "search_query": "부동산 취득세 납부 방법",
+            "terminate": false,
+            "text": "서류 준비가 끝났으면 우선 관할 구청에 방문해서 부동산거래계약신고필증과 매매계약서 사본 등을 제출하고 취득세 고지서를 발급받으면 돼요. 그런 다음 해당 금액을 은행 혹은 위택스를 이용해 납부하고 영수필확인서와 같은 납부확인서를 챙기는 것도 잊지 마시고요.",
+            "turn_id": "BK22015199-6",
+            "utterance_id": "BK22015199.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어요, 취득세까지 냈으면 사전 준비는 모두 끝난 건가요? 혹시 더 해야 할 일이 있나요?",
+            "turn_id": "BK22015199-7",
+            "utterance_id": "BK22015199.13"
+        },
+        {
+            "reference_date": "2021-08-29",
+            "reference_text": [
+                {
+                    "value": "이후에는 은행에서 제1종 국민주택채권과 수입인지를 매입해야 합니다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "국민주택채권은 국민주택사업에 필요한 기금 조성을 위해 발행하는 국채로, 등기신청을 할 때 의무로 매입해야 합니다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "공동주택의 경우 시가표준액에 주택 구간 매입률을 곱한 금액을 납부하면 됩니다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "5년 만기 후 원금과 이자를 상환받을 수 있지만 대개는 즉시 할인 방식으로 매입과 동시에 은행에 되팝니다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "즉시 매도를 할 경우엔 인터넷은행을 통한 매입도 가능합니다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2021082703390003461?did=NA",
+            "search_query": "주택 구입 시 국민주택채권 매입",
+            "terminate": false,
+            "text": "은행에서 제1종 국민주택채권과 수입인지를 매입하는 절차가 남았어요. 국민주택채권은 등기를 신청할 때 의무적으로 매입해야 하는 국채인데, 국민주택사업을 위한 기금을 마련하기 위해 발행되고 있어요. 공동주택이라면 시가표준액에 주택 구간에 해당하는 매입률을 곱해 산출된 액수를 납부하면 되는데, 5년이 지나 만기가 되면 원금과 함께 이자를 상환받는 것이 가능하지만 보통 즉시 할인 방식을 택하기 때문에 매입하면서 즉시 은행에 되팔아요. 이렇게 바로 매도하고자 한다면 인터넷 은행을 통해 매입할 수도 있으니 참고해 주세요.",
+            "turn_id": "BK22015199-7",
+            "utterance_id": "BK22015199.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자세한 설명 감사해요. 그럼 수입인지는 꼭 은행에 가야 살 수 있나요?",
+            "turn_id": "BK22015199-8",
+            "utterance_id": "BK22015199.15"
+        },
+        {
+            "reference_date": "2021-08-29",
+            "reference_text": [
+                {
+                    "value": "수입인지도 은행에 직접 가지 않고 기획재정부의 전자수입인지 납부서비스 사이트에서 종이문서용 인지와 전자문서용 인지를 구별해 매입할 수 있습니다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만일 주택 거래금액이 1억 원 이하이면 수입인지 매입 면제라 신경 쓰지 않아도 됩니다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2021082703390003461?did=NA",
+            "search_query": "주택 구입 시 수입인지 매입",
+            "terminate": false,
+            "text": "수입인지 역시 기획재정부에서 운영하는 전자수입인지 납부서비스 사이트를 통해 종이문서용 인지와 전자문서용 인지를 각각 매입할 수 있으니 직접 은행에 방문하지 않아도 돼요. 만약 주택의 거래금액이 1억 원보다 크지 않으면 수입인지의 매입이 면제되니 신경 쓸 필요 없고요.",
+            "turn_id": "BK22015199-8",
+            "utterance_id": "BK22015199.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 수입인지 준비까지 끝났으면 이제 드디어 소유권 이전 등기 신청만 남은 거죠? 등기 신청을 위해 등기소에 방문해서 해야 할 일이 무엇인지 알려 주시겠어요?",
+            "turn_id": "BK22015199-9",
+            "utterance_id": "BK22015199.17"
+        },
+        {
+            "reference_date": "2021-08-29",
+            "reference_text": [
+                {
+                    "value": "등기소를 찾아가 매도인에게 받은 서류와 매수인 본인 지참 서류, 앞서 매 단계에서 받은 영수필확인서 등을 참고해 신청서에 기입하고 첨부 서류를 제출하면 됩니다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "법원 인터넷등기소에서 전자신청서인 e-Form을 미리 채워넣고 출력한 뒤 등기소를 방문해 제출하는 것도 가능합니다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2021082703390003461?did=NA",
+            "search_query": "등기 신청서 작성 방법",
+            "terminate": false,
+            "text": "등기소에 방문하면 신청서를 작성해야 하는데 매도인으로부터 받은 서류와 매수인 본인이 준비한 서류 그리고 소유권 이전 등기를 준비하는 과정에서 수령한 영수필확인서 등을 확인하여 신청서에 필요한 내용을 기입하고 서류를 첨부해서 제출하면 돼요. 아니면 법원 인터넷등기소를 이용해 사전에 전자신청서인 e-Form을 입력해서 인쇄한 다음 등기소에 가서 제출해도 되고요.",
+            "turn_id": "BK22015199-9",
+            "utterance_id": "BK22015199.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자세히 알려 주셔서 감사해요. 정말 많은 도움이 되었어요.",
+            "turn_id": "BK22015199-10",
+            "utterance_id": "BK22015199.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요, 더 궁금한 게 있으면 언제든 물어보세요.",
+            "turn_id": "BK22015199-10",
+            "utterance_id": "BK22015199.20"
+        }
+    ]
+}

@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009358",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009358",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다음 달 아이가 돌이라 오늘부터 돌잔치 준비를 해야 할 것 같아요. 그러고 보니, 돌잔치에서 돌이 어떤 뜻인지 모르겠더라고요. 혹시 알려줄 수 있어요?",
+            "turn_id": "BK22009358-1",
+            "utterance_id": "BK22009358.1"
+        },
+        {
+            "reference_date": "2020-10-29",
+            "reference_text": [
+                {
+                    "value": "과거에는 유아 사망률이 높아 첫 생일을 무사히 넘긴 것을 기념하고 아이의 장수를 기원하기 위해 축하 자리를 마련한 것인데, 여기서 돌은 열두달을 한 바퀴 돌았다는 것을 의미한다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "돌잔치는 우리나라 고유 풍습 중 하나로 유아의 첫번째 생일을 축하하고 앞날이 번영하기를 기원하는 염원이 담겨있는 생하다",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mhns.co.kr/news/articleView.html?idxno=420065",
+            "search_query": "돌잔치 열두달",
+            "terminate": false,
+            "text": "돌잔치는 우리나라 고유의 풍습 가운데 하나로써, 아이의 첫 번째 생일을 축하하며, 앞날이 번영하길 바라는 마음이 담겨 있는 잔치인데요. 돌잔치에서 돌이란 12달을 한 바퀴 돈 것을 의미해요.",
+            "turn_id": "BK22009358-1",
+            "utterance_id": "BK22009358.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 돌이 12개월을 한 바퀴 돌았다는 의미였구나. 그런데 12달을 한 바퀴 돌면 그냥 생일파티를 하면 되지 왜 잔치까지 하는 거죠?",
+            "turn_id": "BK22009358-2",
+            "utterance_id": "BK22009358.3"
+        },
+        {
+            "reference_date": "2016-01-05",
+            "reference_text": [
+                {
+                    "value": "여기서 ‘돌’은 열두달을 한바퀴 돌았다는 뜻으로, 유아 사망률이 높던 시절 아이가 무사히 1년을 난 것을 축하하기 위해 잔치를 벌이기 시작했다고 합니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20160105000204",
+            "search_query": "돌잔치 열두달",
+            "terminate": false,
+            "text": "예전에는 유아 사망률이 높았기 때문에 1년간 무사히 잘 자란 것을 축하하기 위해 잔치하게 되었는데 그것이 돌잔치의 유래가 된 거예요.",
+            "turn_id": "BK22009358-2",
+            "utterance_id": "BK22009358.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘은 안 그렇지만 예전에는 그런 일이 흔했을 것 같아요. 그런데 돌잔치 준비할 때 제일 먼저 해야 할 것이 뭘까요?",
+            "turn_id": "BK22009358-3",
+            "utterance_id": "BK22009358.5"
+        },
+        {
+            "reference_date": "2016-01-05",
+            "reference_text": [
+                {
+                    "value": "▶규모=일단 돌잔치를 하기로 했다면 규모를 선택해야 합니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가족끼리만 모여서 소규모로 할 것인가, 친구나 지인까지 불러서 어느 정도 크게 할 것인가를 정합니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20160105000204",
+            "search_query": "돌잔치 준비 규모선택",
+            "terminate": false,
+            "text": "제일 먼저 돌잔치의 규모를 정하셔야 해요. 소규모로 가족끼리만 할 것인지 지인, 친구까지 모두 불러 어느 정도 규모가 있게 할 것인지를 정하시면 돼요.",
+            "turn_id": "BK22009358-3",
+            "utterance_id": "BK22009358.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희는 소규모로 할 생각인데 이건 이미 정한 거네요. 돌잔치는 보통 어떤 장소를 빌려서 하게 되나요? ?",
+            "turn_id": "BK22009358-4",
+            "utterance_id": "BK22009358.7"
+        },
+        {
+            "reference_date": "2016-01-05",
+            "reference_text": [
+                {
+                    "value": "▶날짜와 장소=돌잔치 전문점이나 한정식집, 호텔 등에서 주로 하는데 원하는 날짜에 하려면 일찍 예약을 해야 합니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20160105000204",
+            "search_query": "돌잔치 날짜와 장소",
+            "terminate": false,
+            "text": "주로 돌잔치 전문 업체나 호텔, 한식집에서 돌잔치를 하고 있어요. 만약 원하시는 날짜가 있다면 꼭 예약을 해야겠죠.",
+            "turn_id": "BK22009358-4",
+            "utterance_id": "BK22009358.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한정식집에서 조용히 하는 게 좋을 것 같아요. 그런데 처음 돌잔치 하는데 비용은 보통 어느 정도 들까요?",
+            "turn_id": "BK22009358-5",
+            "utterance_id": "BK22009358.9"
+        },
+        {
+            "reference_date": "2017-05-08",
+            "reference_text": [
+                {
+                    "value": "이번 조사에서 첫째 자녀 돌잔치를 연 응답자들이 지출한 비용은 평균 260만원이었다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "400만원 이상 지출했다는 응답이 20%에 달한 가운데 300만∼400만원 미만 24%, 200만∼300만원 미만 25%, 100만∼200만원 미만 22%, 100만원 미만 10%로 나타났다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ccdn.co.kr/news/articleView.html?idxno=462630#09SX",
+            "search_query": "돌잔치 평균비용",
+            "terminate": false,
+            "text": "첫 아이의 돌잔치를 하는데 들어가는 평균비용은 260만원 정도에요. 돌잔치를 위해 400만원 이상 지출한 경우도 20%에 달했답니다. 돌잔치 비용이 300만원~400만원 미만은 24%, 200만원~300만원 미만 지출은 25%, 100만원~200만원 미만은 22%, 100만원 미만 지출은 10%로 확인되었어요.",
+            "turn_id": "BK22009358-5",
+            "utterance_id": "BK22009358.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 그 정도 예산을 잡아서 진행해야겠네요. 아기에게 입힐 옷은 어떻게 준비하면 되죠?",
+            "turn_id": "BK22009358-6",
+            "utterance_id": "BK22009358.11"
+        },
+        {
+            "reference_date": "2016-01-05",
+            "reference_text": [
+                {
+                    "value": "▶돌복=정장ㆍ드레스나 한복을 많이 하는데 아니어도 무방합니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "구입보다 대여를 하는 엄마들이 많고, 대여 업체도 많습니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20160105000204",
+            "search_query": "돌잔치 돌복 대여",
+            "terminate": false,
+            "text": "돌잔치 때는 드레스나 정장, 한복을 많이 입히는데요. 아니어도 상관은 없어요. 구입을 하는 것보다는 대여하는 엄마가 많고 대여 업체들도 많답니다.",
+            "turn_id": "BK22009358-6",
+            "utterance_id": "BK22009358.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하긴 한번 입을 거 대여하는 게 더 경제적이겠네요. 오신 분들에게 드릴 답례품은 어떤 종류가 있나요?",
+            "turn_id": "BK22009358-7",
+            "utterance_id": "BK22009358.13"
+        },
+        {
+            "reference_date": "2016-01-05",
+            "reference_text": [
+                {
+                    "value": "▶답례품=돌잔치에 온 손님을 위해 답례품을 준비하는데 수건, 텀블러, 차, 곡물, 접시 등 종류는 다양합니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "비용을 조금이라도 절약하려면 최소 1개월 전에 주문해 할인을 받는 것이 좋습니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20160105000204",
+            "search_query": "돌잔치 손님 답례품",
+            "terminate": false,
+            "text": "손님을 위한 답례품 종류는 다양해요. 접시나 수건, 차, 텀블러, 곡물 등이 있는데 비용을 절약하고자 한다면 적어도 한 달 전에는 주문해서 할인을 받는 것도 좋은 방법이에요.",
+            "turn_id": "BK22009358-7",
+            "utterance_id": "BK22009358.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비용 할인 팁까지 알려주셔서 감사해요. 손님들에게 보낼 초대장은 제가 직접 만들어야 하나요?",
+            "turn_id": "BK22009358-8",
+            "utterance_id": "BK22009358.15"
+        },
+        {
+            "reference_date": "2016-01-05",
+            "reference_text": [
+                {
+                    "value": "▶초대장=요즘은 모바일 초대장이 보편적인데 성장동영상이나 돌상 업체 등에서 무료로 제작해주는 것을 이용하면 됩니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20160105000204",
+            "search_query": "돌잔치 초대장 제작",
+            "terminate": false,
+            "text": "요즘은 모바일로 초대장을 만들어 보내는 것이 보편적인데요. 돌상 업체나 성장 동영상 업체에서 모바일 초대장도 무료로 제작해 주는 데 이것을 이용하면 돼요.",
+            "turn_id": "BK22009358-8",
+            "utterance_id": "BK22009358.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "무료 제작이 되는 곳을 미리 알아보면 되는 거네요. 결혼식만큼이나 준비할 게 많은 게 돌잔치인 것 같아요.",
+            "turn_id": "BK22009358-9",
+            "utterance_id": "BK22009358.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇죠. 결혼식과 돌잔치는 선택의 연속이니 꼼꼼하게 따져보시고 현명한 결정을 해야 해요.",
+            "turn_id": "BK22009358-9",
+            "utterance_id": "BK22009358.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 그럼 저는 이만 돌잔치 준비하러 가볼게요. 유용한 정보 공유해 주셔서 감사했어요.",
+            "turn_id": "BK22009358-10",
+            "utterance_id": "BK22009358.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아니에요. 아이의 첫 생일 잘 준비하시고 행복하게 보내시길 바랄게요. 그럼 안녕히 가세요.",
+            "turn_id": "BK22009358-10",
+            "utterance_id": "BK22009358.20"
+        }
+    ]
+}

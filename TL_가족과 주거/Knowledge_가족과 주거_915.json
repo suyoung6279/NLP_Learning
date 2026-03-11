@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003928",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003928",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "친구가 소형견 한 마리를 분양받는다고 해요. 얼핏 보기에 포메라니안과 재패니즈 스피츠가 비슷하다고, 각각 어떤지 물어보더라고요. 혹시 알려주실 수 있나요?",
+            "turn_id": "BK22003928-1",
+            "utterance_id": "BK22003928.1"
+        },
+        {
+            "reference_date": "2022-06-23",
+            "reference_text": [
+                {
+                    "value": "포메라니안(영어: Pomeranian)은 중앙유럽(오늘날 독일 북동부, 폴란드 북서부)에 있는 포메라니아 지역에서 유래된 스피츠 종류의 반려견이다.",
+                    "value_time": "2022-07-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "작은 크기 때문에 소형견로 분류되는데, 포메라니안은 대형 스피츠종 개인 독일 스피츠에서 유래되었다.",
+                    "value_time": "2022-07-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8F%AC%EB%A9%94%EB%9D%BC%EB%8B%88%EC%95%88",
+            "search_query": "포메라니안",
+            "terminate": false,
+            "text": "그럼요, 먼저 포메라니안은 중앙유럽의 포메라니아 지역에서 왔어요. 알고 계신 대로 소형견인데 독일 스피츠에서 유래한 종류예요. 독일 스피츠는 대형견이고요.",
+            "turn_id": "BK22003928-1",
+            "utterance_id": "BK22003928.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 포메라니안도 스피츠 종류라는 말씀이시죠? 그럼 재패니즈 스피츠에 대해서도 알려주세요.",
+            "turn_id": "BK22003928-2",
+            "utterance_id": "BK22003928.3"
+        },
+        {
+            "reference_date": "2022-04-20",
+            "reference_text": [
+                {
+                    "value": "일본 스피츠(日本スピッツ 니혼스핏쓰[*])는 몸집이 작고 순백의 털을 가진 개 품종이다.",
+                    "value_time": "2022-07-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "털은 이중으로 되어 있는데 몸에 있는 대다수의 털은 직모(直毛)로 되어 있고 머리 주변과 가슴 부분의 털, 꼬리의 털은 부드럽고 숱이 많은 게 특징이다.",
+                    "value_time": "2022-07-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%BC%EB%B3%B8_%EC%8A%A4%ED%94%BC%EC%B8%A0",
+            "search_query": "재패니즈 스피츠",
+            "terminate": false,
+            "text": "재패니즈 스피츠는 몸집이 작고 새하얀 털을 가졌죠. 몸에 두 종류의 털이 나 있어요. 먼저 머리 쪽과 가슴 쪽이랑 꼬리는 부드럽고 숱이 많고요, 몸에 있는 대부분의 털은 직모예요.",
+            "turn_id": "BK22003928-2",
+            "utterance_id": "BK22003928.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 새하얀 털을 가진 견종이군요. 그럼 포메라니안이 유래된 독일 스피츠랑 일본 스피츠는 뭐가 달라요?",
+            "turn_id": "BK22003928-3",
+            "utterance_id": "BK22003928.5"
+        },
+        {
+            "reference_date": "2022-04-20",
+            "reference_text": [
+                {
+                    "value": "독일 '스피츠' 와 다른 점은, 몸집이 크고, 모질이 부드러우며, 코끝과 입주변이 '스피츠'에 비해 검게 나타난다.",
+                    "value_time": "2022-07-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%BC%EB%B3%B8_%EC%8A%A4%ED%94%BC%EC%B8%A0",
+            "search_query": "독일스피츠 일본스피츠",
+            "terminate": false,
+            "text": "일본 스피츠는 독일 스피츠와 달리 몸집이 크고 털도 부드러워요. 그리고 입 주변과 코끝이 일반 스피츠에 비해 검은 편이에요.",
+            "turn_id": "BK22003928-3",
+            "utterance_id": "BK22003928.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제 친구는 소형견을 찾던데, 일본 스피츠가 몸집이 큰가요? 그럼 소형견이 아니잖아요.",
+            "turn_id": "BK22003928-4",
+            "utterance_id": "BK22003928.7"
+        },
+        {
+            "reference_date": "2022-04-20",
+            "reference_text": [
+                {
+                    "value": "소형견으로 분류되지만 크기는 중형견 수준으로 성견은 7-10kg까지 자란다.",
+                    "value_time": "2022-07-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%BC%EB%B3%B8_%EC%8A%A4%ED%94%BC%EC%B8%A0",
+            "search_query": "일본스피츠 중형견",
+            "terminate": false,
+            "text": "분류는 소형견이 맞아요. 근데 중형견 수준까지 커지죠. 성견이 되면 7에서 10킬로그램까지도 자라거든요.",
+            "turn_id": "BK22003928-4",
+            "utterance_id": "BK22003928.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 소형견이라기에는 크고 중형견이라기엔 작은 수준이라고 생각하면 되나 봐요. 제가 좋아하는 스타일은 시추 같은 스타일인데, 시추는 어떤 강아지예요?",
+            "turn_id": "BK22003928-5",
+            "utterance_id": "BK22003928.9"
+        },
+        {
+            "reference_date": "2022-06-18",
+            "reference_text": [
+                {
+                    "value": "시추(차모로어: Chichu)는 중국에서 비롯한 개 품종이며 과거 중국 황실이 기르던 견종이다.",
+                    "value_time": "2022-07-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8B%9C%EC%B6%94",
+            "search_query": "시추",
+            "terminate": false,
+            "text": "저도 시추 같은 강아지 좋아해요. 시추는 중국에서 온 견종인데, 옛날에 중국 황실에서 키우던 개예요.",
+            "turn_id": "BK22003928-5",
+            "utterance_id": "BK22003928.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "옛날 중국 사람들도 시추를 좋아했나 봐요. 비슷하게 생긴 견종이 있던데, 페키니즈인가요?",
+            "turn_id": "BK22003928-6",
+            "utterance_id": "BK22003928.11"
+        },
+        {
+            "reference_date": "2022-06-19",
+            "reference_text": [
+                {
+                    "value": "페키니즈(Pekingese, 중국어: 狮子狗)는 중국이 주요 원산지로 진시황 때부터 궁정 안에서 신성한 개로 키워 왔다.",
+                    "value_time": "2022-07-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8E%98%ED%82%A4%EB%8B%88%EC%A6%88",
+            "search_query": "페키니즈",
+            "terminate": false,
+            "text": "네, 이름이 페키니즈 맞아요. 이 견종도 중국 출신이죠. 오래전인 진시황 때부터 궁에서 키웠어요. 신성한 개로 여겨졌죠.",
+            "turn_id": "BK22003928-6",
+            "utterance_id": "BK22003928.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래요? 페키니즈도 중국 왕족에 의해서 키워졌다면 중국인들은 대체로 시추나 페키니즈같은 마스크를 좋아하는 것 같아요. 치와와도 아주 작던데, 치와와는 어떤 종류예요?",
+            "turn_id": "BK22003928-7",
+            "utterance_id": "BK22003928.13"
+        },
+        {
+            "reference_date": "2022-03-08",
+            "reference_text": [
+                {
+                    "value": "치와와(영어: Chihuahua)는 멕시코의 개 품종 중 하나이다.",
+                    "value_time": "2022-07-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "평균 몸무게는 2.7kg, 평균 키는 18cm로 반려견 중에서 가장 작은 품종이다.",
+                    "value_time": "2022-07-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B9%98%EC%99%80%EC%99%80_(%EA%B0%9C)",
+            "search_query": "치와와",
+            "terminate": false,
+            "text": "치와와는 반려견 품종 중에서 가장 작아요. 얼마나 작냐면, 평균적으로 무게는 2.7킬로그램, 신장은 18센티미터예요. 참고로 치와와는 멕시코의 견종 중 하나예요.",
+            "turn_id": "BK22003928-7",
+            "utterance_id": "BK22003928.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "치와와가 가장 작은 품종이라니, 역시 그랬군요. 근데 제가 사는 아파트 이웃들은 주로 몰티즈를 키우더라고요. 이유가 있을까요?",
+            "turn_id": "BK22003928-8",
+            "utterance_id": "BK22003928.15"
+        },
+        {
+            "reference_date": "2022-03-26",
+            "reference_text": [
+                {
+                    "value": "몰티즈는 집에서 매우 활발하며, 작은 공간에서도 잘 적응한다.",
+                    "value_time": "2022-07-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이러한 이유로 이 품종은 아파트나 작은 집 등 도시 거주자에 매우 적합하다.",
+                    "value_time": "2022-07-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A7%90%ED%8B%B0%EC%A6%88",
+            "search_query": "몰티즈",
+            "terminate": false,
+            "text": "몰티즈가 공간이 작아도 잘 적응하거든요. 그래서 작은 집이나 아파트같이 도시 생활 하시는 분들에게 적합해요. 집에서도 활발한 견종이라는 건 미리 알아두셔야겠지만요.",
+            "turn_id": "BK22003928-8",
+            "utterance_id": "BK22003928.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 이웃분들이 몰티즈 데리고 산책을 자주 다니시더라고요.",
+            "turn_id": "BK22003928-9",
+            "utterance_id": "BK22003928.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 이웃분들이 몰티즈를 키우는 걸 자주 보셨나 보네요.",
+            "turn_id": "BK22003928-9",
+            "utterance_id": "BK22003928.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 아무래도 그렇죠. 아무튼 오늘 도와주셔서 정말 감사해요. 친구한테도 오늘 들은 강아지 이야기를 해줄 건데 혹시 궁금한 것이 더 있으면 연락드려도 될까요?",
+            "turn_id": "BK22003928-10",
+            "utterance_id": "BK22003928.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그럼요, 물론이죠. 언제든지 궁금한 것이 있으시면 저한테 연락하세요. 오늘 하루 잘 보내시고요.",
+            "turn_id": "BK22003928-10",
+            "utterance_id": "BK22003928.20"
+        }
+    ]
+}

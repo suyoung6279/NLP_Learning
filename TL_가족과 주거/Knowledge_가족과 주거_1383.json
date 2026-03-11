@@ -1,0 +1,401 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009143",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009143",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 내년 겨울쯤 결혼을 계획하고 있어요. 처음이라 그런지 뭐부터 준비해야 할지 모르겠네요. 지난달에 결혼하셨다고 들었는데 혹시 몇 가지 여쭤봐도 될까요?",
+            "turn_id": "BK22009143-1",
+            "utterance_id": "BK22009143.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우선 결혼 미리 축하드려요. 제가 사전에 이것저것 찾아보면서 결혼식을 준비했다 보니 이 분야에 전문가가 다 되었어요. 궁금하신 건 뭐든 물어보세요.",
+            "turn_id": "BK22009143-1",
+            "utterance_id": "BK22009143.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안 그래도 궁금한 게 많았는데 정말 다행이에요. 혹시 결혼식 준비를 할 때는 뭐부터 준비하면 좋을까요?",
+            "turn_id": "BK22009143-2",
+            "utterance_id": "BK22009143.3"
+        },
+        {
+            "reference_date": "2017-09-14",
+            "reference_text": [
+                {
+                    "value": "예식장 예약은 가장 먼저 해야 할 일이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "예식장 예약을 하고 나야 신혼여행을 포함한 모든 결혼 준비를 결혼식 날짜에 맞춰 시작할 수 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "결혼식에도 성수기와 비수기가 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "3~5월과 9~11월은 결혼식이 많은 시즌이니, 그 때 결혼식을 계획하고 있다면 서둘러 예약해야 한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/009/0004014692?sid=103",
+            "search_query": "결혼식 준비",
+            "terminate": false,
+            "text": "먼저 예식장 예약부터 해야 해요. 예식장 예약을 끝내야 신혼여행을 포함한 모든 준비를 결혼식 날짜에 맞춰서 잡을 수 있어요. 결혼식에도 성수기와 비수기가 있는데 3~5월이나 9~10월에는 결혼식이 많은 성수기라 이 시즌으로 결혼식을 계획하고 있다면 빨리 예약하는 것이 좋아요.",
+            "turn_id": "BK22009143-2",
+            "utterance_id": "BK22009143.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "예식장 예약이 1순위였군요. 예식장을 알아보기 시작해야겠네요. 혹시 예식장 선택할 때 고려해야 할 부분이 있을까요?",
+            "turn_id": "BK22009143-3",
+            "utterance_id": "BK22009143.5"
+        },
+        {
+            "reference_date": "2015-03-30",
+            "reference_text": [
+                {
+                    "value": "웨딩홀 선택 시에는 예상 하객 수를 미리 생각해 하객 수에 맞는 웨딩홀을 선택하는 것이 바람직하다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "웨딩홀과 연회장에서 수용 가능한 인원은 규모나 좌석에 따라 정해져 있어, 하객 수가 지나치게 많을 경우 매우 혼잡하거나 하객들이 식에 참여하지 못하게 된다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한, 교통도 매우 중요한 부분이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 지방에서 결혼식을 올리려는 경우 예식장의 위치는 근처 역에서 가깝거나, 자가용으로 이동했을 때 IC부근에서 가까운 곳에 위치하는 것이 좋다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=18213",
+            "search_query": "예식장 고르는 법",
+            "terminate": false,
+            "text": "예식장을 선택할 때는 먼저 예상 하객 수를 생각해서 하객 수에 맞는 곳을 선택해야 해요. 예식장이나 연회장은 수용 가능한 인원이 규모나 좌석에 따라 정해져 있기 때문에 하객 수가 많다면 매우 혼잡하거나 하객들이 식에 참여하기 어렵기 때문이죠. 그리고 교통도 중요한데 만약 지방에서 결혼식을 하는 경우에는 예식장 위치가 근처 역에서 가깝거나 차로 이동 시 IC 부근과 가까운 곳에 있는 곳이 좋아요.",
+            "turn_id": "BK22009143-3",
+            "utterance_id": "BK22009143.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하객 수랑 위치를 우선 고려해서 정해 봐야겠네요. 그런데 혹시 스드메가 무엇인지 아시나요? 주변에 물어보니 스드메가 중요하다고 하던데 무슨 뜻인지 모르겠어요.",
+            "turn_id": "BK22009143-4",
+            "utterance_id": "BK22009143.7"
+        },
+        {
+            "reference_date": "2022-04-08",
+            "reference_text": [
+                {
+                    "value": "결혼을 앞둔 예비부부는 ‘스드메’를 필수로 준비한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "‘스드메’는 스튜디오와 드레스‧메이크업이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "웨딩화보를 촬영할 사진 스튜디오를 비롯해 웨딩화보와 본식에서 입을 드레스와 메이크업을 일컫는다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.koreahealthlog.com/news/articleView.html?idxno=31991",
+            "search_query": "스드메",
+            "terminate": false,
+            "text": "스드메는 스튜디오와 드레스, 메이크업의 줄임말이에요. 웨딩 화보를 찍을 스튜디오를 비롯해서 웨딩 화보와 결혼식에서 입을 드레스, 그리고 메이크업을 뜻하죠. 결혼을 계획하고 있는 예비부부들은 스드메를 필수로 준비해요.",
+            "turn_id": "BK22009143-4",
+            "utterance_id": "BK22009143.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요! 그런데 결혼식 하면 드레스라고 하지만 언제부터 하얀 드레스를 입는 문화가 만들어졌는지 궁금하네요. 드레스가 아니어도 이쁜 옷이 많은데 말이에요.",
+            "turn_id": "BK22009143-5",
+            "utterance_id": "BK22009143.9"
+        },
+        {
+            "reference_date": "2017-05-21",
+            "reference_text": [
+                {
+                    "value": "웨딩드레스는 고대 로마 그리스에서부터 시작되었다고 합니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고대 로마 시대 로마인은 신부가 붉은색의 베일을 쓰고, 그리스도교인 경우 하얀색이나 보라색의 의상을 갖춰 입었다고 합니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러다 16세기 이후 귀족 사회에서는 흰색 드레스만을 애용하기 시작 했는데요.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "흰색이 순결을 상징한다고 생각했기 때문입니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 후 1884년 빅토리아 여왕이 흰색 공단에 오렌지 꽃으로 장식된 웨딩드레스를 입은 이후 흰색은 웨딩드레스의 상징으로 더 확고하게 자리매김을 시작했습니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=57235",
+            "search_query": "웨딩드레스 유래",
+            "terminate": false,
+            "text": "웨딩드레스는 고대 로마 그리스에서부터 기원했어요. 로마 시대에 로마인은 신부가 붉은색 베일을 쓰고 그리스도교인 경우에는 하얀색이나 보라색 옷을 입었는데 16세기가 넘어서 귀족 사회에서는 흰색이 순결을 뜻한다고 생각해서 흰색 드레스만을 입기 시작했어요. 이후 1884년에 빅토리아 여왕이 흰색에 오렌지꽃으로 장식한 웨딩드레스를 입으면서 흰색은 웨딩드레스의 상징으로 자리 잡았죠.",
+            "turn_id": "BK22009143-5",
+            "utterance_id": "BK22009143.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "로마 시대부터 시작된 문화라니 신기하네요. 그럼 웨딩드레스를 고를 때 참고하고 싶은데 혹시 드레스 고를 땐 어떤 걸 중점적으로 고려하는 것이 좋을까요?",
+            "turn_id": "BK22009143-6",
+            "utterance_id": "BK22009143.11"
+        },
+        {
+            "reference_date": "2014-04-28",
+            "reference_text": [
+                {
+                    "value": "또한 결점을 보완해주면서 장점은 더욱 돋보이게 해주는 웨딩드레스를 선택하면 그만큼 웨딩드레스로부터 얻는 효과도 커지게 된다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "체형에 따른 웨딩드레스를 선택하는 것도 중요하다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/022/0002661565?sid=103",
+            "search_query": "웨딩드레스 고르는 법",
+            "terminate": false,
+            "text": "웨딩드레스를 고를 때는 단점을 보완해주면서 장점은 더 돋보이게 해주는 드레스를 고르는 것이 좋아요. 그러면 웨딩드레스로 받는 효과도 커지거든요. 그리고 체형에 맞는 웨딩드레스를 고르는 것도 중요해요.",
+            "turn_id": "BK22009143-6",
+            "utterance_id": "BK22009143.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼굴형이랑 체형을 신경 써야겠네요. 참고해서 고르도록 할게요. 그런데 혹시 상견례 장소와 날짜는 보통 어떻게 정하는 것이 좋은가요?",
+            "turn_id": "BK22009143-7",
+            "utterance_id": "BK22009143.13"
+        },
+        {
+            "reference_date": "2013-09-24",
+            "reference_text": [
+                {
+                    "value": "상견례는 가장 먼저 양가 부모님의 이견을 조율해서 날짜와 장소를 정해야 한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "날짜는 의견을 여쭌 날로부터 1~2주 후가 적당하고 대체로 주말 점심 약속이 무난한 편이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "위치는 양가의 중간 정도가 좋다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://kr.aving.net/news/articleView.html?idxno=722065",
+            "search_query": "상견례 날짜",
+            "terminate": false,
+            "text": "상견례 날짜와 장소는 우선 양가 부모님의 의견을 맞춰보고 정하는 것이 좋아요. 그리고 의견을 물어본 날부터 1~2주 이후쯤으로 날짜를 잡는 것이 적당하죠. 보통 위치는 양가의 중간쯤으로 잡고 시간은 주말 점심으로 잡는 것이 무난해요.",
+            "turn_id": "BK22009143-7",
+            "utterance_id": "BK22009143.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잘 적어둬야겠네요. 그리고 청첩장도 언제 전달해야 하나 고민이 많은데 혹시 언제쯤 주는 것이 좋은가요?",
+            "turn_id": "BK22009143-8",
+            "utterance_id": "BK22009143.15"
+        },
+        {
+            "reference_date": "2014-06-17",
+            "reference_text": [
+                {
+                    "value": "보통 청첩장은 한 달 전 나눠주기 시작한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "매월 만나는 모임 같은 경우, 결혼식 일정을 고려하면 한 달 이전에는 나눠주는 것이 좋다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 월 단위로 일정을 정하는 직장인들을 배려하기 위해서라도 한 달 전부터는 청첩장이 나가야 할 것이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=21604",
+            "search_query": "청첩장 주는 시기",
+            "terminate": false,
+            "text": "보통 청첩장은 결혼식 한 달 전부터 전달하기 시작해요. 직장인들은 특히 월 단위로 일정을 정하기 때문에 직장인을 배려하기 위해서라도 최소 한 달 전부터는 청첩장을 주는 것이 좋고 달마다 만나는 모임일 경우 결혼식 날짜를 고려하면 한 달 이전에는 주는 것이 좋아요.",
+            "turn_id": "BK22009143-8",
+            "utterance_id": "BK22009143.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그런데 다들 이러는지는 모르겠지만 결혼식이 다가온다고 생각하니까 자꾸 불안해져요. 친구한테 말했더니 메리지 블루 아니냐고 하던데 혹시 메리지 블루가 무슨 뜻인가요?",
+            "turn_id": "BK22009143-9",
+            "utterance_id": "BK22009143.17"
+        },
+        {
+            "reference_date": "2022-03-20",
+            "reference_text": [
+                {
+                    "value": "메리지 블루는 일본 작가 유이카와 게이의 베스트셀러 소설 제목에서 유래한 말로 결혼을 앞두고 남녀가 겪는 심리적인 불안을 말한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "결혼이라는 큰 이벤트를 앞두고 겪을 수 있는 부담감, 긴장 및 앞으로 처한 상황의 변화 걱정 등 자연스러운 감정들로 인해 성별에 관계없이 우울감이 나타날 수 있다고 한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://view.asiae.co.kr/article/2022031923050107936",
+            "search_query": "메리지블루",
+            "terminate": false,
+            "text": "메리지블루는 결혼을 앞둔 남녀가 겪는 불안감을 말해요. 일본 작가인 유이카와 게이의 베스트셀러 소설 제목에서 시작된 말이죠. 결혼이라는 큰 행사를 앞두고 겪을 수 있는 부담이나 긴장감 등의 자연스러운 감정 때문에 남녀 관계없이 우울감이 나타날 수 있어요.",
+            "turn_id": "BK22009143-9",
+            "utterance_id": "BK22009143.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 뜻이었다니 잘 극복해봐야겠네요. 오늘 제가 질문을 많이 드렸는데 자세히 설명해주셔서 너무 감사드려요. 덕분에 많은 도움이 되었어요.",
+            "turn_id": "BK22009143-10",
+            "utterance_id": "BK22009143.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 다행이네요. 결혼 준비 잘하시고 나중에 결혼식 때 꼭 불러주세요. 그럼 다음에 또 봬요.",
+            "turn_id": "BK22009143-10",
+            "utterance_id": "BK22009143.20"
+        }
+    ]
+}

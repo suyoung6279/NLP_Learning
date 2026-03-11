@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018921",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018921",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산책하러 나가면 강아지들이 마주치면 엉덩이 냄새를 맡잖아. 왜 서로 엉덩이 냄새를 맡을까?",
+            "turn_id": "BK22018921-1",
+            "utterance_id": "BK22018921.1"
+        },
+        {
+            "reference_date": "44835.0",
+            "reference_text": [
+                {
+                    "value": "이렇게 서로의 냄새를 맡는 이유는 엉덩이에 있는 항문낭에서 특유의 냄새가 나기 때문이다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61400",
+            "search_query": "반려견 엉덩이 항문낭",
+            "terminate": false,
+            "text": "이렇게 쌍방이 냄새를 느끼는 까닭은 엉덩이에 있는 항문낭에서 독특한 냄새가 나기 때문이야.",
+            "turn_id": "BK22018921-1",
+            "utterance_id": "BK22018921.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "서로 냄새가 나니까 맡는구나. 나는 항문낭을 본 적이 없는데, 항문낭은 엉덩이에 어디에 있어?",
+            "turn_id": "BK22018921-2",
+            "utterance_id": "BK22018921.3"
+        },
+        {
+            "reference_date": "44835.0",
+            "reference_text": [
+                {
+                    "value": "항문낭은 2개의 작은 주머니로 항문을 중심으로 봤을 때 항문 양쪽으로 4시와 8시 방향에 있다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61400",
+            "search_query": "강아지 항문낭 방향",
+            "terminate": false,
+            "text": "항문낭은 항문을 중심으로 볼 때 4시와 8시 방향에 항문 양쪽으로 있는 조그마한 2개의 주머니야.",
+            "turn_id": "BK22018921-2",
+            "utterance_id": "BK22018921.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "항문 쪽을 자세히 안 봐서 있는지 몰랐어. 항문낭은 어떤 역할을 해?",
+            "turn_id": "BK22018921-3",
+            "utterance_id": "BK22018921.5"
+        },
+        {
+            "reference_date": "44835.0",
+            "reference_text": [
+                {
+                    "value": "항문낭에는 항문낭액이 들어있어 각자만의 서로 다른 고유한 냄새를 만들어낸다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 강아지가 자신의 존재를 알리거나 강아지끼리 서로를 파악할 때 사용하며 영역표시를 할 때도 사용된다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또 항문낭액은 배변할 때 배출돼 딱딱한 변이 잘 나올 수 있도록 윤활제 역할을 하기도 한다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61400",
+            "search_query": "강아지 항문낭 역할",
+            "terminate": false,
+            "text": "항문낭 액은 대변을 쌀 때 분비돼 단단한 똥이 잘 나오게 하는 윤활제 노릇을 하기도 해. 또 항문낭에는 항문낭 액이 들어있어, 저마다의 서로 다른 특유한 냄새를 만들어내. 그래서 개가 영역표시를 할 때도 쓰거나, 자신의 존재를 나타내거나, 개들끼리 서로를 파악할 때 써.",
+            "turn_id": "BK22018921-3",
+            "utterance_id": "BK22018921.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "서로 다른 고유의 향이 난다니 신기하다. 항문낭 액을 집에서도 배출해?",
+            "turn_id": "BK22018921-4",
+            "utterance_id": "BK22018921.7"
+        },
+        {
+            "reference_date": "44835.0",
+            "reference_text": [
+                {
+                    "value": "요즘에는 사료가 잘 나와 변이 부드럽고 실내생활로 영역표시를 하지도 않다 보니 강아지가 항문낭액을 배출할 일이 거의 없다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61400",
+            "search_query": "강아지 항문낭",
+            "terminate": false,
+            "text": "요즈음은 개가 실내 생활로 영역표시를 하지도 않고, 사료가 잘 나와 똥이 부드럽다 보니 항문낭 액을 내보낼 일이 대개 없어.",
+            "turn_id": "BK22018921-4",
+            "utterance_id": "BK22018921.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 항문낭을 관리해주지 않으면 어떻게 돼?",
+            "turn_id": "BK22018921-5",
+            "utterance_id": "BK22018921.9"
+        },
+        {
+            "reference_date": "44835.0",
+            "reference_text": [
+                {
+                    "value": "항문낭 관리가 제대로 되지 않으면 항문낭액이 쌓이게 된다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "항문낭액이 쌓이면 강아지는 불편함을 느껴 엉덩이를 바닥에 대고 비비거나 질질 끌고 다니는 모습을 보인다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "항문 주변을 핥는다거나 물기도 하며 배변할 때 통증이 나타나기도 한다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "심하게는 항문낭이 파열되기도 하니 주의해야 한다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61400",
+            "search_query": "강아지 항문낭 관리",
+            "terminate": false,
+            "text": "항문낭 관리가 똑바로 안 되면 항문낭 액이 축적돼. 항문낭 액이 축적되면 개는 불편함을 느껴 엉덩이를 바닥에 대고 질질 끌고 다니거나 비비는 행동을 보여. 배변 시 통증이 발생하거나, 항문 주변을 물거나 핥기도 해. 심하게는 항문낭이 갈라져 터지기도 하니 조심해야 해.",
+            "turn_id": "BK22018921-5",
+            "utterance_id": "BK22018921.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "관리를 안 하면 문제가 생기는구나. 집에서 항문낭을 어떻게 짜야 해?",
+            "turn_id": "BK22018921-6",
+            "utterance_id": "BK22018921.11"
+        },
+        {
+            "reference_date": "44835.0",
+            "reference_text": [
+                {
+                    "value": "항문낭을 짜는 법은 그리 어렵지 않다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "먼저 보호자는 한쪽 손으로 꼬리를 살짝 들어 올려 항문이 보이게 한다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그리고는 반대쪽 손의 엄지와 검지를 항문낭이 있는 부분에 대고 항문 쪽을 향해 부드럽게 밀어 올리면 된다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61400",
+            "search_query": "강아지 항문낭 짜는법",
+            "terminate": false,
+            "text": "먼저 사람이 한 손으로 꼬리를 살짝 들어 올려 항문이 보이게 해. 그리고는 반대 손의 검지와 엄지를 항문낭이 있는 부분에 대고, 항문 방향으로 부드럽게 문지르며 올리면 돼. 항문낭을 짜는 방법은 그리 까다롭지 않아.",
+            "turn_id": "BK22018921-6",
+            "utterance_id": "BK22018921.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "항문낭은 손으로 짜야 하는구나. 항문낭을 짤 때 주의해야 할 점도 있을까?",
+            "turn_id": "BK22018921-7",
+            "utterance_id": "BK22018921.13"
+        },
+        {
+            "reference_date": "44835.0",
+            "reference_text": [
+                {
+                    "value": "이때 너무 강하게 항문낭을 짜면 항문낭이 찢어져 염증이 생길 수 있으니 주의해야 한다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "항문낭액은 냄새가 심해 항문에 휴지를 대고 항문낭을 짜거나 목욕을 하면서 항문낭을 짜는 것을 추천한다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61400",
+            "search_query": "강아지 항문낭 주의",
+            "terminate": false,
+            "text": "매우 세게 항문낭을 짜면, 항문낭이 찢겨 염증이 발생할 수 있으니 조심해야 해. 항문낭 액은 냄새가 심해 목욕하면서 항문낭을 짜거나, 휴지를 항문에 대고 항문낭을 짜는 걸 추천해.",
+            "turn_id": "BK22018921-7",
+            "utterance_id": "BK22018921.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "살살 짜줘야겠네. 항문낭 짜는 방법은 쉬운데, 우리 집 강아지가 짜려고 하면 엄청나게 움직일 것 같아.",
+            "turn_id": "BK22018921-8",
+            "utterance_id": "BK22018921.15"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게, 막 움직이면 못 짤 텐데.",
+            "turn_id": "BK22018921-8",
+            "utterance_id": "BK22018921.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집에서 시도하다가 못하면, 동물병원에서도 항문낭 관리를 받을 수 있을까?",
+            "turn_id": "BK22018921-9",
+            "utterance_id": "BK22018921.17"
+        },
+        {
+            "reference_date": "44835.0",
+            "reference_text": [
+                {
+                    "value": "만약 반려견이 강하게 저항하거나 항문낭의 위치를 잘 찾지 못하겠다면 동물병원에 방문해 항문낭 관리를 받을 수 있다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61400",
+            "search_query": "강아지 항문낭 동물병원",
+            "terminate": false,
+            "text": "만일 항문낭의 위치를 잘 못 찾거나, 개가 세게 저항하면 동물병원에 찾아가 항문낭 관리를 받을 수 있어.",
+            "turn_id": "BK22018921-9",
+            "utterance_id": "BK22018921.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "항문낭 짜는 거 시도해보고 안될 것 같으면 병원에 가서 관리받아야겠다.",
+            "turn_id": "BK22018921-10",
+            "utterance_id": "BK22018921.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 잘 모르겠으면 병원에 가서 항문낭을 짜는 방법을 배워봐.",
+            "turn_id": "BK22018921-10",
+            "utterance_id": "BK22018921.20"
+        }
+    ]
+}

@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015044",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015044",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신을 준비하고 있는데 임신부터 출산까지 돈이 꽤 든다고 하더라고요.",
+            "turn_id": "BK22015044-1",
+            "utterance_id": "BK22015044.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 임신을 준비하고 계시군요. 임신과 출산 준비를 본격적으로 하려면 고생이 많으시겠어요.",
+            "turn_id": "BK22015044-1",
+            "utterance_id": "BK22015044.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 그런데 임신과 출산까지 정부에서 해주는 지원이 있다고 들었는데 임신 전에 어떤 지원이 있나요?",
+            "turn_id": "BK22015044-2",
+            "utterance_id": "BK22015044.3"
+        },
+        {
+            "reference_date": "2022-07-27",
+            "reference_text": [
+                {
+                    "value": "현재 정부는 법적 혼인상태에 있거나, 신청일 기준 1년 이상 사실상 혼인관계를 유지했다고 확인된 난임부부를 대상으로 시술비와 비급여 3종(배아동결비, 유산방지제, 착상보조제)을 지원하고 있다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.imaeil.com/page/view/2022072214354946437",
+            "search_query": "정부 난임 시술비 지원",
+            "terminate": false,
+            "text": "정부에서는 법적 혼인관계에 있는 난임부부나, 신청일을 기준으로 해서 1년 이상 사실상 혼인관계를 유지한 걸로 확인된 난임부부에게 난임 시술비를 지원해요. 또한 시술 지원비 외에 비급여 3종인 배아동결비, 유산방지제, 착상 보조제를 지원해 줘요.",
+            "turn_id": "BK22015044-2",
+            "utterance_id": "BK22015044.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 요즘 난임부부가 많다고 들었는데 정말 좋은 제도네요. 그러면 난임부부는 시술비 지원 신청은 어떻게 하면 되나요? 신청 서류는 어떤 걸 준비하면 돼요?",
+            "turn_id": "BK22015044-3",
+            "utterance_id": "BK22015044.5"
+        },
+        {
+            "reference_date": "2020-03-12",
+            "reference_text": [
+                {
+                    "value": "난임 부부 시술비 지원 신청방법은 온라인신청은 불가하고, 지역 보건소 방문 후 신청서류를 제출하면 된다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "시험관 정부 지원 서류로는 ▲신분증 ▲난임 진단서 원본 ▲가족관계증명서 ▲사업자등록증(부부 중 자영업자가 있는 경우)이다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=373452",
+            "search_query": "정부 난임 시술비 지원 방법",
+            "terminate": false,
+            "text": "난임 부부 시술비 지원을 받기 위해 신청하는 방법은 온라인 신청은 불가하고, 사시는 지역의 보건소에 가셔서 신청 서류를 제출하면 돼요. 내셔야 하는 신청 서류로는 신분증과 난임 진단서 원본이 필요해요. 그리고 가족관계증명서, 만약 부부 중 자영업자가 있으면 사업자 등록증을 제출하시면 돼요.",
+            "turn_id": "BK22015044-3",
+            "utterance_id": "BK22015044.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 간단하게 신청할 수 있어 좋네요. 그러면 난임부부 말고도 신혼부부인데 임신을 준비하는 커플이라면 정부에서 지원받을 수 있는 제도가 있을까요?",
+            "turn_id": "BK22015044-4",
+            "utterance_id": "BK22015044.7"
+        },
+        {
+            "reference_date": "2019-04-10",
+            "reference_text": [
+                {
+                    "value": "이 외에도 임신준비 지원 정책을 보면는 신혼부부 건강검진, 지역마다 상이하지만 임신 시 혈액검사 지원정책이 지원된다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=149607",
+            "search_query": "신혼부부 건강검진 정부 지원",
+            "terminate": false,
+            "text": "네, 신혼부부일 경우 정부에서는 건강검진을 지원해 주고 있어요. 그리고 지역마다 다르지만 임신 시 혈액검사를 제공해 주는 제도도 있어요.",
+            "turn_id": "BK22015044-4",
+            "utterance_id": "BK22015044.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 신혼부부 건강검진은 정말 좋네요. 몸이 건강해야 임신도 가능할 테니까요. 그런데 임신 후에 보건소에서 임산부에게 지원해 주는 제도가 있다고 들었는데 사실인가요?",
+            "turn_id": "BK22015044-5",
+            "utterance_id": "BK22015044.9"
+        },
+        {
+            "reference_date": "2021-07-01",
+            "reference_text": [
+                {
+                    "value": "관할 보건소에 임신 등록을 하면 임신부 표식과 함께 다양한 선물을 받을 수 있다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지역 보건소마다 선물 종류는 다르지만 매넷저고리, 타월, 손싸개 등이 제공된다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "임신부에게 중요한 엽산제와 철분제를 무료로 받을 수 있다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전국 대부분의 보건소에서 임신 12주까지는 엽산제를 제공하고, 임신 16주부터 출산 전까지는 철분제를 무료로 제공한다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mkhealth.co.kr/news/articleView.html?idxno=53788",
+            "search_query": "보건소 무료 엽산 제공",
+            "terminate": false,
+            "text": "맞아요. 임신하신 후 관할 보건소에 임신 등록하시면 여러 선물을 받으실 수 있어요. 지역 보건소에 따라 다르지만 배냇저고리와 타월, 손 싸개 등을 받는 게 가능해요. 그리고 보건소에서는 임신부에게 필요한 엽산제와 철분제를 무료로 제공해 줘요. 전국에 있는 보건소 대부분이 임신부에게 임신 12주까지는 엽산제를 지원해 주고 임신 16주부터 출산 전까지는 철분제를 무료로 주고 있어요.",
+            "turn_id": "BK22015044-5",
+            "utterance_id": "BK22015044.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 보건소에서 선물과 엽산과 철분제까지 제공해 준다니 정말 좋네요. 그런데 임신 후에는 정기적인 검진이 있다고 하던데 혹시 검진비 지원은 받을 수 있나요?",
+            "turn_id": "BK22015044-6",
+            "utterance_id": "BK22015044.11"
+        },
+        {
+            "reference_date": "2021-01-07",
+            "reference_text": [
+                {
+                    "value": "특히 임신 초기부터 출산까지 임산부와 태아에게 매달 필요한 초음파 검사의 경우 건강보험 급여적용 혜택을 받을 수 있다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "건강보험 적용 횟수는 임신 기간 동안 7회로 한정돼 있다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.cstimes.com/news/articleView.html?idxno=446026",
+            "search_query": "임산부 건강보험 혜택",
+            "terminate": false,
+            "text": "네, 임신부라면 임신 초기부터 출산까지 매달 필요한 초음파 검사의 건강보험 급여 적용 혜택을 받으실 수 있어요. 대신 건강보험 적용 횟수가 정해져 있는데요. 임신 기간 동안 7회로 한정돼 있으니 꼭 기억해 주세요.",
+            "turn_id": "BK22015044-6",
+            "utterance_id": "BK22015044.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 불가피하게 검진을 많이 하는 경우도 있을 텐데 횟수 제한이 있다니 아쉽네요. 혹시 예외도 있나요?",
+            "turn_id": "BK22015044-7",
+            "utterance_id": "BK22015044.13"
+        },
+        {
+            "reference_date": "2018-05-24",
+            "reference_text": [
+                {
+                    "value": "다만, 의학적 판단에 따라 태아에게 이상이 있거나, 주기적인 모니터링이 필요한 경우에는 횟수 제한 없이 건강보험이 적용되는데요.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=65161",
+            "search_query": "임산부 횟수 제한 없는 건강보험 적용",
+            "terminate": false,
+            "text": "네, 의학적 판단에 의해 태아에게 이상이 있는 경우나 주기적으로 모니터링이 필요하면 건강보험 혜택을 횟수 제한 없이 받을 수 있어요.",
+            "turn_id": "BK22015044-7",
+            "utterance_id": "BK22015044.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 좋은 경우에 받는 건 아니지만 그래도 알아두면 좋은 정보네요. 출산 시에는 정부에서는 어떤 지원을 해주나요?",
+            "turn_id": "BK22015044-8",
+            "utterance_id": "BK22015044.15"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "'첫만남 이용권'은 말 그대로 세상과 처음 만난 아이를 위해 부모에게 지급되는 일시금을 말한다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 정책은 자녀 인원 수에 상관없이 출산가정에 아이 1인당 200만원씩 지원하는 바우처 형태의 정부 지원이다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyeongin.com/main/view.php?key=20220703010000165",
+            "search_query": "첫만남이용권",
+            "terminate": false,
+            "text": "출산하시면 정부에서는 첫 만남 이용권이라는 지원을 해줘요. 세상과 처음 만난 아이를 위한 제도인 첫 만남 이용권은 부모에게 일시금으로 지원돼요. 출산 가정이라면 자녀의 인원수에 상관하지 않고 아이 한 명당 200만 원씩 지원해 주는 바우처 형태의 정부 지원 방식이에요.",
+            "turn_id": "BK22015044-8",
+            "utterance_id": "BK22015044.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "첫 만남 이용권이라니 이름이 너무 귀엽네요. 그러면 첫 만남 이용권은 어디에서 사용 가능한가요? 사용 기한이 따로 있나요?",
+            "turn_id": "BK22015044-9",
+            "utterance_id": "BK22015044.17"
+        },
+        {
+            "reference_date": "2022-01-05",
+            "reference_text": [
+                {
+                    "value": "첫만남이용권 사용처는 유흥업소, 사행업종, 레저업종 등 지급 목적에서 벗어난 유형으로 분류된 업종에서는 사용할 수 없고, 이외에는 모두 사용 가능하다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "출생일로부터 1년간 사용할 수 있고, 기간 내 미사용 포인트는 종료일 이후 소멸된다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1374461/%ec%8b%a0%ec%83%9d%ec%95%84-1%ec%9d%b8%eb%8b%b9-200%eb%a7%8c%ec%9b%90-%ec%b2%ab%eb%a7%8c%eb%82%a8%ec%9d%b4%ec%9a%a9%ea%b6%8c-5%ec%9d%bc%eb%b6%80%ed%84%b0-%ec%98%a8%eb%9d%bc%ec%9d%b8-%ec%8b%a0/",
+            "search_query": "첫만남이용권 사용처",
+            "terminate": false,
+            "text": "음, 첫 만남 이용권을 사용 불가능한 곳만 잘 기억하시면 되는데요. 유흥업소, 사행업종, 레저업종 등의 지원 목적에서 벗어난 업종에서는 사용하실 수 없어요. 그 외의 곳에서는 모두 사용할 수 있으세요. 첫 만남 이용권은 아이가 태어난 출생일로부터 1년간 사용하셔야 하고요. 만약 미사용 포인트가 있다면 종료일 이후에 소멸하니 잘 체크해서 쓰시면 돼요.",
+            "turn_id": "BK22015044-9",
+            "utterance_id": "BK22015044.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "출산하면 필요한 물품이 많은데 바우처 형태로 사용할 수 있어 정말 유용하겠어요. 임신부터 출산까지 정부에서 지원해 주는 혜택이 꽤 있어 좋네요. 모르던 정보를 다양하게 알려주셔서 고마워요.",
+            "turn_id": "BK22015044-10",
+            "utterance_id": "BK22015044.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 임신 준비 잘하시고 혜택 다 잘 챙기시면 좋겠네요. 오늘 이야기 즐거웠어요. 그럼 다음에 또 수다 떨어요.",
+            "turn_id": "BK22015044-10",
+            "utterance_id": "BK22015044.20"
+        }
+    ]
+}

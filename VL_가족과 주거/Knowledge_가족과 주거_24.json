@@ -1,0 +1,367 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016923",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016923",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "난임 부부들의 임신을 돕기 위한 여러 가지 시술들이 있다고 들었는데, 그중에 인공수정은 어떤 방법으로 이루어지는 건가요?",
+            "turn_id": "BK22016923-1",
+            "utterance_id": "BK22016923.1"
+        },
+        {
+            "reference_date": "44769.0",
+            "reference_text": [
+                {
+                    "value": "인공수정이란 여성의 배란기에 맞춰 남성 배우자의 정액을 채취하고, 특수 처리해 양질의 정자를 여성 배우자의 자궁 내 주입, 자연 수정이 되도록 하는 방법이다.",
+                    "value_time": "44834.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.imaeil.com/page/view/2022072214354946437",
+            "search_query": "난임 보조생식술 인공수정",
+            "terminate": false,
+            "text": "인공수정은 여성이 배란기일 때 남성 배우자의 정액을 채취 후 특수 처리를 거쳐 선별한 양질의 정자를 자궁 내에 직접 주입해서 자연 수정이 이루어지도록 하는 방법이에요.",
+            "turn_id": "BK22016923-1",
+            "utterance_id": "BK22016923.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 체외수정과는 어떻게 다른 건가요?",
+            "turn_id": "BK22016923-2",
+            "utterance_id": "BK22016923.3"
+        },
+        {
+            "reference_date": "44769.0",
+            "reference_text": [
+                {
+                    "value": "체외수정(시험관아기)은 인공수정과 달리 정자와 난자의 수정이 몸 밖에서 이루어지는 보조생식술이다.",
+                    "value_time": "44834.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "정자와 난자를 채취한 후 체외에서 수정해 3~5일 정도의 배양 기간을 거친 후 배아를 자궁 내에 주입하게 된다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.imaeil.com/page/view/2022072214354946437",
+            "search_query": "난임 보조생식술 체외수정",
+            "terminate": false,
+            "text": "체외수정은 시험관 아기 시술이라고도 불려요. 정자와 난자의 수정이 자궁이 아닌 몸 밖에서 이루어진다는 점에서 인공수정과는 다른 보조생식술이죠. 채취한 정자와 난자를 체외에서 수정시킨 후 3~5일 정도의 기간을 통해 배양하고, 그렇게 만들어진 배아를 자궁 내에 주입하는 방법이에요.",
+            "turn_id": "BK22016923-2",
+            "utterance_id": "BK22016923.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 시험관 아기 시술을 위해서는 난자를 채취해야 할 텐데, 어떤 방법으로 난자를 채취하나요?",
+            "turn_id": "BK22016923-3",
+            "utterance_id": "BK22016923.5"
+        },
+        {
+            "reference_date": "44581.0",
+            "reference_text": [
+                {
+                    "value": "일반적으로 시험관아기 시술(IVF) 시에는 과배란 유도과정을 거치게 된다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 인위적으로 난포의 성장을 유도해다수의 난자를 채취해 성공률을 높이기 위해서다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.rapportian.com/news/articleView.html?idxno=143071",
+            "search_query": "시험관 아기 난자 채취 방법",
+            "terminate": false,
+            "text": "대개 시험관아기 시술할 때는 난자 채취를 위해 과배란을 유도하는 과정을 거쳐요. 인공적으로 난포를 성장시켜서 여러 개의 난자를 채취하면 그만큼 성공률이 높아지기 때문이죠.",
+            "turn_id": "BK22016923-3",
+            "utterance_id": "BK22016923.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "배란을 유도하는 방법은 뭐죠? 약물 같은 걸 쓰는 건가요?",
+            "turn_id": "BK22016923-4",
+            "utterance_id": "BK22016923.7"
+        },
+        {
+            "reference_date": "41310.0",
+            "reference_text": [
+                {
+                    "value": "시험관아기 시술은 먼저 배란주기에 맞춰 배란유도제를 투입, 되도록 여러 개의 난포를 자라게 한다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "배란유도제는 보통 생리 2~3일부터 투여하기 시작해 난포의 성숙 정도에 따라 1주일 내지 2주일 동안 사용하여 배란을 유도한다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyeongin.com/main/view.php?key=709427",
+            "search_query": "시험관 아기 배란유도제",
+            "terminate": false,
+            "text": "시험관 아기 시술을 위해서는 우선 배란 주기에 배란유도제를 투입해서 많은 수의 난포가 자라도록 만들어요. 배란유도제는 대개 생리 2~3일 전에 투여를 시작하는데, 난포가 얼마큼 성숙하냐에 따라 1주일 혹은 2주일 동안 지속해서 사용하며 배란을 유도해요.",
+            "turn_id": "BK22016923-4",
+            "utterance_id": "BK22016923.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 인위적으로 배란유도제 등을 쓰면 부작용은 없나요?",
+            "turn_id": "BK22016923-5",
+            "utterance_id": "BK22016923.9"
+        },
+        {
+            "reference_date": "44496.0",
+            "reference_text": [
+                {
+                    "value": "여러 개의 난포들이 자라면 호르몬의 수치가 높아질 뿐 아니라 동시에 ‘사이토카인(Cytokine)’이라는 물질이 다량 분비된다.",
+                    "value_time": "44834.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "호르몬이나 사이토카인은 임신에 긍정적으로 작용하지만, 혈관의 투과성이 증가되어 모세혈관의 누수 현상이 발생할 수 있다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그에 따라 여성의 몸에 위험한 증상이 나타나는데, 혈관 내 단백질과 수분이 혈관 밖으로 빠져나오면서 혈액의 점도가 증가해 혈전 성향이 높아진다.",
+                    "value_time": "44834.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 혈관을 통과해 빠져나온 혈장이 복강 내에 고이면서 복부팽만, 통증, 체중 증가, 구토 등의 증상이 나타나며 심한 경우에는 복수나 커진 난소 때문에 호흡 곤란을 겪기도 한다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.rapportian.com/news/articleView.html?idxno=140057",
+            "search_query": "시험관 아기 배란 유도제 부작용",
+            "terminate": false,
+            "text": "다수의 난포가 성장하는 과정에서 호르몬 수치도 높아지고 사이토카인이라는 물질이 많이 분비되는데, 호르몬과 사이토카인은 임신에 도움이 되지만 혈관의 투과성이 높아져서 모세혈관의 누수 현상을 낳을 수도 있어요. 이는 여성의 몸에 위험 부담을 가져오는데, 혈관에서 단백질과 수분이 빠져나오며 혈액의 점성이 높아져 혈전이 생길 가능성이 증가하기도 하고 혈관에서 빠져나온 혈장이 복강 내에 고이는 경우에는 복부팽만이나 통증, 체중 증가와 구토 같은 증상이 일어날 수도 있죠. 심각한 상황에는 복수 및 커진 난소 탓에 호흡 곤란이 오기도 해요.",
+            "turn_id": "BK22016923-5",
+            "utterance_id": "BK22016923.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 배란유도제 사용으로 인한 위험부담이 꽤 커 보이는데 이런 부작용을 막을 방법은 없나요?",
+            "turn_id": "BK22016923-6",
+            "utterance_id": "BK22016923.11"
+        },
+        {
+            "reference_date": "41421.0",
+            "reference_text": [
+                {
+                    "value": "이런 과배란유도의 부작용 때문에 호르몬 주입 없이 여성 체내에서 자발적으로 성숙시킨 난자를 채취하여 시험관 아기를 실시하는 자연주기 시험관 시술이 다시 각광받고 있다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A201305270418&resource=",
+            "search_query": "시험관 아기 배란 유도제 부작용",
+            "terminate": false,
+            "text": "과배란을 유도하는 과정에서 호르몬의 주입 때문에 생기는 부작용 때문에 자연주기 시험관 시술이 요즘 다시 재조명받고 있어요. 자연주기 시험관 시술은 인위적인 방법이 아닌 자연적으로 성숙한 난자를 채취해서 시술에 이용하거든요.",
+            "turn_id": "BK22016923-6",
+            "utterance_id": "BK22016923.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 그런 방법도 있군요. 자연주기 시험관 아기 시술에 대해 좀 더 자세히 알려주세요.",
+            "turn_id": "BK22016923-7",
+            "utterance_id": "BK22016923.13"
+        },
+        {
+            "reference_date": "44446.0",
+            "reference_text": [
+                {
+                    "value": "자연주기 시험관 아기 시술(Natural Cycle IVF)은 과배란 유도 과정 없이 자연주기에서 선택된 우성 난포 하나를 채취하는 방법이다.",
+                    "value_time": "44834.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여성의 몸 안에는 매월 가장 질이 좋은 하나의 난포가 스스로 선택돼 자라는데 이를 우성난포라고 부른다.",
+                    "value_time": "44834.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 우성난포를 채취해 체외에서 정자와 수정을 시키는 것이 자연주기 시험관 아기 시술 포인트다.",
+                    "value_time": "44834.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ikunkang.com/news/articleView.html?idxno=34437",
+            "search_query": "시험관 아기 자연주기",
+            "terminate": false,
+            "text": "자연주기 시험관 아기 시술을 자세히 말씀드리자면, 과배란을 유도하는 과정을 거치지 않고, 자연적으로 선택된 우성 난포 하나만을 채취하는 방법이에요. 우성 난포란 여성의 몸이 매달 스스로 선별한 가장 우수한 난포 하나를 말해요. 이 우성난포를 채취한 후 체외에서 정자와 수정시키는 것이 자연주기 시험관 아기 시술의 핵심이죠.",
+            "turn_id": "BK22016923-7",
+            "utterance_id": "BK22016923.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "억지로 여러 개의 난포를 자라게 하지 않고 몸이 선택한 질 좋은 난포를 쓰는 거군요. 아, 그런데 시험관 아기 시술을 할 경우 쌍둥이가 태어날 확률이 높다던데 정말 그런가요?",
+            "turn_id": "BK22016923-8",
+            "utterance_id": "BK22016923.15"
+        },
+        {
+            "reference_date": "41880.0",
+            "reference_text": [
+                {
+                    "value": "자연임신으로 쌍둥이가 태어날 확률은 약 1%, 세쌍둥이가 태어날 확률은 약 0.01%이다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 시험관 아기 시술을 받는 경우에는 다태 임신 확률이 25~30% 정도로 높아진다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "시험관 아기의 시술 때 배란 유도제를 사용하면 여러 개의 난자가 만들어지는 경우가 대부분이고, 임신율을 높이기 위해 가급적 배아를 많이 만들어 여러 개를 이식하기 때문이다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2014/08/28/2014082802571.html",
+            "search_query": "시험관 아기 쌍둥이",
+            "terminate": false,
+            "text": "자연적인 임신을 통해 쌍둥이가 태어날 확률은 대략 1%, 세쌍둥이가 태어날 확률은 0.01% 정도인 데 비해 시험관 아기 시술의 경우는 다태아를 임신할 확률이 25~30% 정도까지 증가해요. 이는 시술 과정에서 배란 유도제 때문에 다수의 난자가 만들어지는 데다가 임신 확률을 높이고자 최대한 많은 수의 배아를 만들어 이식하기 때문이죠.",
+            "turn_id": "BK22016923-8",
+            "utterance_id": "BK22016923.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자궁에 여러 개의 배아가 주입되다 보니 동시에 착상이 되는 경우가 많은 거군요. 요즘 이러한 난임 시술로 태어나는 아기들의 수는 어느 정도나 되나요?",
+            "turn_id": "BK22016923-9",
+            "utterance_id": "BK22016923.17"
+        },
+        {
+            "reference_date": "44620.0",
+            "reference_text": [
+                {
+                    "value": "건강보험심사평가원 자료에 따르면, 난임 시술을 통해 태어난 아기는 2018년 8973명에서 2019년 2만 6362명으로 급증했고, 2020년에 2만 8699명으로 집계되며 소폭 증가해 매년 증가하는 추세를 보인다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=102962",
+            "search_query": "난임 시술로 태어나는 아기 비율",
+            "terminate": false,
+            "text": "건강보험심사평가원의 자료에 의하면, 2018년에만 8973명의 아기들이 난임 시술을 통해 태어났고 그다음 해인 2019년에는 2만 6362명으로 대폭 증가했어요. 2020년에는 조금 늘어서 2만 8699명인 것으로 집계되었고, 매해 증가하는 추세예요.",
+            "turn_id": "BK22016923-9",
+            "utterance_id": "BK22016923.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그만큼 난임 부부들이 많다는 뜻이기도 하고, 난임 시술이 많이 발달했다는 뜻이기도 하겠네요.",
+            "turn_id": "BK22016923-10",
+            "utterance_id": "BK22016923.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 의학의 발전 덕분에 아기를 원하는 부부들에게 많은 도움이 되고 있죠.",
+            "turn_id": "BK22016923-10",
+            "utterance_id": "BK22016923.20"
+        }
+    ]
+}

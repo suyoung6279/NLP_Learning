@@ -1,0 +1,383 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016038",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016038",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신혼집 알아보고 다니느라 요즘 너무 바쁘네요. 지금 상황에 매매는 어려울 것 같아 전세로 들어가야 할 것 같은데요. 신혼부부 전세대출이 최근 변화가 있었던 것 같은데 자세히 아시나요?",
+            "turn_id": "BK22016038-1",
+            "utterance_id": "BK22016038.1"
+        },
+        {
+            "reference_date": "2022-10-03",
+            "reference_text": [
+                {
+                    "value": "신혼부부 전세대출 역시 수도권 기준 3억원 이하 주택에 2억원까지 지원하던 것을 ‘4억 이하 주택에 3억원까지 지원’하는 것으로 상향조정했으며, 지방은 기존 2억원 이하 주택에 1억6000만원까지 대출지원 하던 것을 ‘3억원 이하 주택에 2억원까지 지원’하는 것으고 개선했다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/economy/real_estate/article/202210031100011?www",
+            "search_query": "신혼부부 전세자금대출",
+            "terminate": false,
+            "text": "신혼부부 전세대출은 원래 수도권을 기준으로 3억원 이하 주택에 2억원까지 지원했었는데, 이번에 4억 이하 주택에 3억원까지 지원되는 것으로 상향조정 되었어요. 지방의 경우 원래 2억원 이하 주택에 1억 6천만원까지 대출이 나왔는데 이번에 조정되며 3억원 이하 주택에 2억원까지 나오는 것으로 변경되었고요.",
+            "turn_id": "BK22016038-1",
+            "utterance_id": "BK22016038.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한도가 꽤 많이 늘어났네요. 집값이 비싸서 걱정했는데 다행이에요. 요즘 금리 때문에 말이 많은데 혹시 금리에 대한 조정도 있었나요?",
+            "turn_id": "BK22016038-2",
+            "utterance_id": "BK22016038.3"
+        },
+        {
+            "reference_date": "2022-07-23",
+            "reference_text": [
+                {
+                    "value": "정부는 지난 7월 20일 윤석열 대통령 주재로 열린 ‘제3차 비상경제민생회의’에서 전월세 거주 서민을 보호하기 위한 ‘주거분야 민생안정 방안’을 발표했다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우선 최근 치솟는 기준금리와 관계없이, 올해 주택도시기금이 제공하는 버팀목 전세자금대출 금리를 시중보다 낮은 수준(1.2~2.4%)으로 동결하기로 했다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/economy/view.php?sc=50000001&year=2022&no=649339",
+            "search_query": "신혼부부 전세대출 금리",
+            "terminate": false,
+            "text": "네. 정부에서 7월 20일에 열린 제3차 비상경제민생회의를 통해 전월세 거주 서민 보호를 위한 주거 분야 민생안정 방안을 발표했거든요. 먼저 최근에 급상승한 기준금리와는 상관없이, 올해 주택도시기금에서 받을 수 있는 버팀목 전세자금 대출 금리를 시중보다 낮은 수준인 1.2~2.4%로 동결하겠다고 결정했어요.",
+            "turn_id": "BK22016038-2",
+            "utterance_id": "BK22016038.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한도가 많이 나와도 금리가 높으면 결국 대출받기가 어려운데 정말 좋은 소식이네요. 혹시 버팀목 전세자금 대출은 소득 제한이 있나요?",
+            "turn_id": "BK22016038-3",
+            "utterance_id": "BK22016038.5"
+        },
+        {
+            "reference_date": "2022-07-23",
+            "reference_text": [
+                {
+                    "value": "버팀목 전세자금대출은 만 34세 이하, 부부 합산 연소득 5000만원 이하, 부부 합산 순자산 3억2500만원 이하의 무주택자에게 시중 대비 낮은 금리로 전세자금대출을 지원하는 상품이다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/economy/view.php?sc=50000001&year=2022&no=649339",
+            "search_query": "신혼부부 버팀목 전세자금대출",
+            "terminate": false,
+            "text": "버팀목 전세자금 대출은 부부 합산 연 소득이 5천만원 이하여야 신청 가능해요. 만 34세 이하, 부부 합산 순자산이 3억 2천 5백만원 이하의 무주택자가 대상이고 시중과 비교해 낮은 금리로 전세자금 대출을 지원받게 되는 거죠.",
+            "turn_id": "BK22016038-3",
+            "utterance_id": "BK22016038.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "연 소득에 나이도 제한이 있군요. 저금리라서 그만큼 조건도 까다로운 것 같아요. 전세는 보통 2년 계약하고 연장하기도 하는데 버팀목 전세대출도 연장이 가능한가요?",
+            "turn_id": "BK22016038-4",
+            "utterance_id": "BK22016038.7"
+        },
+        {
+            "reference_date": "2022-09-02",
+            "reference_text": [
+                {
+                    "value": "주택도시기금에서는 청년층과 중소기업취업청년, 신혼부부 등을 위한 주택전세자금대출을 공급하고 있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대출기간은 2년이며, 4회 연장해 최장 10년까지 이용이 가능하다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.opinionnews.co.kr/news/articleView.html?idxno=72769",
+            "search_query": "버팀목 신혼부부 전세자금대출",
+            "terminate": false,
+            "text": "네. 주택도시기금에서 청년, 중소기업 취업 청년, 신혼부부 등을 위해 만든 주택전세자금대출은 대출 기간이 2년이고, 4번까지 연장 가능해서 최대 10년까지 사용할 수 있어요.",
+            "turn_id": "BK22016038-4",
+            "utterance_id": "BK22016038.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "연장도 비교적 여유롭게 할 수 있어서 좋네요. 주거정책 외에 정부에서 신혼부부를 위해 지원해주는 부분이 더 있을까요?",
+            "turn_id": "BK22016038-5",
+            "utterance_id": "BK22016038.9"
+        },
+        {
+            "reference_date": "2021-03-31",
+            "reference_text": [
+                {
+                    "value": "월세, 광열비 등 경제적인 안정과 주거 안정, 출산 지원을 위해 월 5~12만원의 지원비를 받을 수 있어요!",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "(지역별 내용은 상이함)",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.korea.kr/news/policyNewsView.do?newsId=148885685",
+            "search_query": "신혼부부 주거비용 지원",
+            "terminate": false,
+            "text": "지역별로 지원내용의 차이는 있지만 월세나 광열비와 같은 안정이나 주거 안정, 출산을 지원하기 위한 목적으로 매월 5~12만원까지 지원비를 받을 수 있어요.",
+            "turn_id": "BK22016038-5",
+            "utterance_id": "BK22016038.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 아직 저희는 신혼집 위치가 정해진 건 아니어서 지역이 확정되고 나면 찾아봐야겠네요. 그리고 찾아보니 신혼부부 특별공급이라는 것도 있던데 이건 뭔가요?",
+            "turn_id": "BK22016038-6",
+            "utterance_id": "BK22016038.11"
+        },
+        {
+            "reference_date": "2020-11-21",
+            "reference_text": [
+                {
+                    "value": "신혼부부 특별공급은 공공분양(공공주택 적용 국민주택)과 민간분양에서 약간의 차이가 있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우선 공공분양은 총 분양물량의 30%가 배정된다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만, 신혼부부 특별공급은 전용면적 85㎡ 이하, 분양가 9억원 이하 주택만 가능하다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "민간분양 신혼부부 특별공급은 전체 물량의 20%가 배정되고 공공분양과 마찬가지로 전용면적 85㎡ 이하, 분양가 9억원 이하 주택만 가능하다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "소득기준은 공공분양보다 다소 느슨하다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.straightnews.co.kr/news/articleView.html?idxno=85706",
+            "search_query": "신혼부부 특별공급이란",
+            "terminate": false,
+            "text": "신혼부부 특별공급은 공공분양과 민간분양으로 나눌 수 있고 조금 차이가 있어요. 먼저 공공분양은 총분양물량의 30%가 배정되는데, 신혼부부 특별공급의 경우 전용면적85제곱미터 이하, 분양가가 9억원 이하의 주택만 신청할 수 있어요. 민간분양 신혼부부 특별공급의 경우 총물량의 20%가 배정되고 공공분양처럼 전용면적 85제곱미터 이하, 분양가 9억원 이하 주택만 되는데, 소득기준은 공공분양보다 여유로운 편이에요.",
+            "turn_id": "BK22016038-6",
+            "utterance_id": "BK22016038.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집 크기나 가격에 대한 조건은 같은데 배정물량과 소득 기준이 다르군요. 공공주택 특별공급은 소득기준이 어떻게 되나요?",
+            "turn_id": "BK22016038-7",
+            "utterance_id": "BK22016038.13"
+        },
+        {
+            "reference_date": "2021-01-29",
+            "reference_text": [
+                {
+                    "value": "공공분양 신혼부부 특공 소득기준도 130%(맞벌이 140%)까지 완화된다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특공 물량의 30%는 완화된 소득기준으로 입주자를 선정하고 나머지 70%는 기존 소득기준인 100%(맞벌이 120%)로 선정한다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/economy/property/980779.html",
+            "search_query": "신혼부부 특별공급 소득기준",
+            "terminate": false,
+            "text": "공공분양 신혼부부 특별공급 소득 기준은 지난해 외벌이 130%, 맞벌이 140%까지 완화되었어요. 특별공급 물량의 30%는 낮춰진 소득 기준으로 입주자를 뽑게 되고, 나머지 70%는 기존에 보았던 소득 기준인 외벌이 100%, 맞벌이 120%로 뽑게 돼요.",
+            "turn_id": "BK22016038-7",
+            "utterance_id": "BK22016038.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "공공분양은 확실히 소득 기준을 까다롭게 보는 것 같네요. 민간분양 특별공급의 소득 기준은 어떻게 되는지 궁금해요.",
+            "turn_id": "BK22016038-8",
+            "utterance_id": "BK22016038.15"
+        },
+        {
+            "reference_date": "2021-01-29",
+            "reference_text": [
+                {
+                    "value": "내달 2일부터 민간분양 신혼부부 특별공급(특공) 소득기준이 대폭 완화돼 월소득 888만원인 맞벌이 신혼부부도 특공 청약이 가능해진다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이에 따라 2일부터 입주자 모집공고를 하는 민간분양 아파트의 신혼부부 특공에 도시근로자 월 평균 소득 140%(맞벌이 160%)이하까지 청약할 수 있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/economy/property/980779.html",
+            "search_query": "신혼부부 민간분양 특별공급 소득기준",
+            "terminate": false,
+            "text": "민간분양 신혼부부 특별공급은 지난해 2월부터 소득 기준이 큰 폭으로 완화되어 월 소득이 888만원인 맞벌이 신혼부부라 하더라도 특공 청약을 할 수 있게 되었어요. 수치로 보자면 입주자 모집공고를 시작하는 민간분양 아파트의 신혼부부 특별공급에 도시근로자의 월 평균 소득, 외벌이 140%, 맞벌이 160% 이하까지 청약을 할 수 있는 거죠.",
+            "turn_id": "BK22016038-8",
+            "utterance_id": "BK22016038.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "민간분양은 소득기준이 꽤 많이 완화되었네요. 청약은 이런저런 가산점을 받을 수 있는 것도 많던데, 몇 가지 알려주실 수 있나요?",
+            "turn_id": "BK22016038-9",
+            "utterance_id": "BK22016038.17"
+        },
+        {
+            "reference_date": "2022-06-12",
+            "reference_text": [
+                {
+                    "value": "가점은 △가구 소득 △자녀의 수 △해당지역 거주기간 △청약통장 납입횟수 △혼인기간(신혼부부) △자녀의 나이(한부모가족)에 따라 점수를 매긴다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "공공분양 신혼부부 특별공급의 경우 소득이 낮을수록 미성년자 자녀가 많을수록 유리하고, 해당지역 거주기간 3년 이상, 혼인기간 3년 이하 일 때 가점이 높아서 당첨 확률이 높다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "일반적으로 혼인 기간 3년 이내 자녀가 2명 이상이라면 신혼부부 특별공급을 노려볼만하다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01987686632361064&mediaCodeNo=257",
+            "search_query": "신혼부부 특별공급 가점",
+            "terminate": false,
+            "text": "신혼부부 특별공급의 가점은 가구 소득, 자녀의 수, 해당 지역의 거주기간, 청약통장의 납입 횟수, 신혼부부임을 알 수 있는 혼인 기간, 자녀의 나이에 따라 가점을 받을 수 있어요. 공공분양 신혼부부 특별공급이라면 소득이 낮을수록, 미성년자 자녀가 많을수록 확률이 높아지고, 해당 지역에 3년 이상 거주하거나 혼인 기간이 3년 이하일 때 높은 가점을 받을 수 있어 당첨 확률을 높일 수 있죠. 일반적으로 결혼한 지 3년이 안 됐거나 자녀가 2명 이상이라면 신혼부부 특별공급을 신청해볼 만 해요.",
+            "turn_id": "BK22016038-9",
+            "utterance_id": "BK22016038.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신혼부부 특별공급은 결혼 후 자녀가 있을 때 신청하는 것이 더 좋겠네요. 신혼집 문제로 스트레스가 컸는데 다양한 방법이 있어 다행이에요. 오늘 알려주신 것 잊어버리지 않고 집 잘 구해볼게요!",
+            "turn_id": "BK22016038-10",
+            "utterance_id": "BK22016038.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도움이 되었다니 정말 다행이에요. 오랫동안 머무를 수 있는 좋은 집 찾길 바랄게요. 조심히 들어가시고 다음에 또 봬요.",
+            "turn_id": "BK22016038-10",
+            "utterance_id": "BK22016038.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "고마워요. 정말 도움 많이 됐고, 어떻게 알아봐야 할지 감이 좀 잡힌 것 같아요. 그럼 다음에 만나요.",
+            "turn_id": "BK22016038-11",
+            "utterance_id": "BK22016038.21"
+        }
+    ]
+}

@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008008",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008008",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "출산 예정일이 얼마 남지 않았는데 필요한 출산 준비는 다 된 건지 괜히 불안해요.",
+            "turn_id": "BK22008008-1",
+            "utterance_id": "BK22008008.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너무 걱정하지 마세요. 건강하게 아기 만나는 게 우선이죠.",
+            "turn_id": "BK22008008-1",
+            "utterance_id": "BK22008008.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 괜히 스트레스받지 말아야겠어요. 참, 아기가 태어나면 나라에서 수당을 준다고 하던데 사실인가요?",
+            "turn_id": "BK22008008-2",
+            "utterance_id": "BK22008008.3"
+        },
+        {
+            "reference_date": "2022-01-14",
+            "reference_text": [
+                {
+                    "value": "영아수당은 22년출생 만 0~1세 아동에 대한 돌봄 부담을 경감하여 아동의 건강한 발달을 지원하기 위해 신설됐다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "가정에서 양육 시 월 30만원씩 현금으로 지원받을 수 있으며 어린이집 이용 시에는 보육료 바우처로, 종일제 아이돌봄서비스 이용 시에는 정부지원금 바우처로 지원한다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20220114110444889",
+            "search_query": "영아수당",
+            "terminate": false,
+            "text": "네, 2022년에 태어난 만 0~1세의 아동은 영아수당을 받을 수 있어요. 영아수당은 돌봄에 대한 부담을 덜어 아동이 건강하게 발달하는 것을 돕기 위해 새로 만들어진 것으로 가정에서 양육한다면 한 달에 30만 원씩 현금 지원을 받을 수 있고 어린이집을 이용한다면 보육료 바우처를 통해, 종일제 아이돌봄서비스를 이용한다면 정부지원금 바우처를 통해 지원받을 수 있어요.",
+            "turn_id": "BK22008008-2",
+            "utterance_id": "BK22008008.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 큰 금액이네요. 제가 따로 신청해야 하나요?",
+            "turn_id": "BK22008008-3",
+            "utterance_id": "BK22008008.5"
+        },
+        {
+            "reference_date": "2022-04-01",
+            "reference_text": [
+                {
+                    "value": "영아수당은 전국 읍‧면‧동 행정복지센터에 방문하거나, 복지로 또는 정부24 누리집 및 스마트폰 애플리케이션(APP)으로 온라인 신청이 가능하다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://medicalworldnews.co.kr/news/view.php?idx=1510948764",
+            "search_query": "영아수당 신청",
+            "terminate": false,
+            "text": "네, 맞아요. 전국의 읍, 면, 동 행정복지센터에 방문하여 신청하거나 복지로 혹은 정부24 누리집 그리고 스마트폰 애플리케이션을 통해 온라인으로 신청할 수도 있어요.",
+            "turn_id": "BK22008008-3",
+            "utterance_id": "BK22008008.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 신청 기간도 정해져 있나요?",
+            "turn_id": "BK22008008-4",
+            "utterance_id": "BK22008008.7"
+        },
+        {
+            "reference_date": "2022-04-01",
+            "reference_text": [
+                {
+                    "value": "영아수당은 출생일을 포함해 60일 이내(60일이 되는 날이 토‧일‧공휴일인 경우 다음 날까지 인정)에 신청하는 경우 출생일이 속한 달부터 소급하여 지원되지만, 생후 60일이 지난 후 신청하면 신청일이 속한 달부터 지급이 되므로 주의가 필요하다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://medicalworldnews.co.kr/news/view.php?idx=1510948764",
+            "search_query": "영아수당 신청 주의사항",
+            "terminate": false,
+            "text": "출생일 포함 60일 안에 신청하면 출생일이 포함된 달부터 소급 지원이 가능하지만, 생후 60일이 경과한 다음에 신청하면 신청일이 포함된 달부터 지급되니 조심하셔야 해요.",
+            "turn_id": "BK22008008-4",
+            "utterance_id": "BK22008008.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아기가 태어나면 잊지 말고 바로 신청해야겠어요. 그럼 지급은 어떤 방식으로 이루어져요?",
+            "turn_id": "BK22008008-5",
+            "utterance_id": "BK22008008.9"
+        },
+        {
+            "reference_date": "2022-04-01",
+            "reference_text": [
+                {
+                    "value": "영아수당은 매월 25일 신청한 계좌로 지급된다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "매월 15일 이전에 신청하게 되면 신청한 달부터 지원되며, 15일 이후 신청하면 신청한 다음 달부터 지원된다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://medicalworldnews.co.kr/news/view.php?idx=1510948764",
+            "search_query": "영아수당 지급 방법",
+            "terminate": false,
+            "text": "영아수당은 사전에 신청한 계좌를 통해 매월 25일에 지급돼요. 신청을 매달 15일 이전에 하면 신청한 달부터 지원되지만, 15일이 지나서 신청하면 익월부터 지원된다는 것도 참고해 주세요.",
+            "turn_id": "BK22008008-5",
+            "utterance_id": "BK22008008.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 알려 주셔서 감사해요. 그럼 만 2세부터는 별다른 지원이 없는 건가요?",
+            "turn_id": "BK22008008-6",
+            "utterance_id": "BK22008008.11"
+        },
+        {
+            "reference_date": "2022-04-29",
+            "reference_text": [
+                {
+                    "value": "정부가 어린이집, 유치원(특수학교 포함), 종일제 아이돌봄 서비스를 이용하지 않고 가정에서 영유아를 돌보는 가정에 ‘자녀양육수당’을 지원한다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "서비스 대상은 가정에서 양육되는 영유아로서 초등학교 미취학 86개월 미만 아동이다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "선정 기준은 소득 수준에 상관없이 대상자에 해당하는 경우 모두 지원하며, 영아수당 도입에 따라 2022년 이후 출생아는 만 2세부터 가정양육수당을 지원한다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.thedrive.co.kr/news/newsview.php?ncode=1065599558532935",
+            "search_query": "자녀양육수당",
+            "terminate": false,
+            "text": "아니에요, 만 2세부터는 자녀양육수당을 받을 수 있어요. 자녀양육수당은 어린이집, 유치원, 종일제 아이돌봄 서비스를 받지 않고 영유아를 가정에서 양육하는 경우 지급받을 수 있는 것으로, 지급 대상은 초등학교에 취학하지 않은 86개월 미만 아동이에요. 소득 수준 등에 따른 제한은 없기 때문에 대상자에 해당한다면 누구나 지원받을 수 있어요.",
+            "turn_id": "BK22008008-6",
+            "utterance_id": "BK22008008.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그럼 만 2세가 되면 새롭게 자녀양육수당을 신청해야 하나요? 그리고 지원 금액은 얼마예요?",
+            "turn_id": "BK22008008-7",
+            "utterance_id": "BK22008008.13"
+        },
+        {
+            "reference_date": "2021-12-31",
+            "reference_text": [
+                {
+                    "value": "영아수당을 지원받는 아동이 만 24개월이 되면 별도 신청 없이 가정양육수당 자격으로 일괄 전환돼 가정양육수당 10만원을 지원받게 된다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatoday.co.kr/view.php?key=20211231010019063",
+            "search_query": "영아수당을 가정양육수당으로 전환",
+            "terminate": false,
+            "text": "영아수당을 지원받고 있다면 따로 신청하지 않아도 아이의 연령이 만 24개월이 되면 일괄적으로 가정양육수당으로 전환되어 10만 원을 지급받게 돼요.",
+            "turn_id": "BK22008008-7",
+            "utterance_id": "BK22008008.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 영아수당만 확실하게 신청해 놓으면 되겠네요. 그런데 만약 몇 달 정도 해외에 나가게 되어도 수당을 받을 수 있나요? 부모님이 미국에 계셔서 장기간 다녀올 수도 있거든요.",
+            "turn_id": "BK22008008-8",
+            "utterance_id": "BK22008008.15"
+        },
+        {
+            "reference_date": "2022-02-21",
+            "reference_text": [
+                {
+                    "value": "다만 양육수당을 지원받고 있는 영유아가 90일 이상 지속해 해외에 체류하는 경우 지원이 정지됩니다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=57944",
+            "search_query": "해외체류 시 양육수당 지원 정지",
+            "terminate": false,
+            "text": "양육수당을 받는 영아나 유아가 해외에 90일 이상 체류하면 양육수당의 지원은 정지돼요.",
+            "turn_id": "BK22008008-8",
+            "utterance_id": "BK22008008.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 혹시 그 밖에 정부에서 아이에게 금전적인 지원을 해 주는 제도가 또 있나요?",
+            "turn_id": "BK22008008-9",
+            "utterance_id": "BK22008008.17"
+        },
+        {
+            "reference_date": "2022-04-27",
+            "reference_text": [
+                {
+                    "value": "아동수당은 아동의 기본적인 권리와 복지를 증진하기 위해 생겨난 제도로 조건에 부합하는 아동 1인당 보호자에게 월 10만원씩 지급된다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지급대상은 대한민국 국적을 보유한 만 8세 미만(0~95개월) 아동으로 최대 96개월간, 만 8세 생일이 도래하는 달 이전까지 아동 1인당 월 10만원씩 지원받을 수 있다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=968982",
+            "search_query": "아동수당",
+            "terminate": false,
+            "text": "기본적인 아동의 권리와 복지 증진을 목적으로 시행되고 있는 아동수당 제도가 있어요. 대한민국 국적을 가지고 있는 만 8세 미만의 아동에게 아동 한 명당 한 달에 10만 원의 수당이 지급돼요. 최대 지원 기간은 96개월로 만 8세 생일을 맞이하는 달 이전까지이고요.",
+            "turn_id": "BK22008008-9",
+            "utterance_id": "BK22008008.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 다양한 아동 복지 제도가 시행 중이네요. 자세히 설명해 주셔서 궁금증이 모두 풀렸어요. 감사해요.",
+            "turn_id": "BK22008008-10",
+            "utterance_id": "BK22008008.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 기쁘네요. 앞으로도 궁금한 게 있으면 언제든 물어보세요.",
+            "turn_id": "BK22008008-10",
+            "utterance_id": "BK22008008.20"
+        }
+    ]
+}

@@ -1,0 +1,418 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015701",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015701",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제 배우자가 최근에 임신 소식을 알렸어요. 아빠가 된다는 생각에 정말 행복하고 설레기도 하지만 부인의 건강이 참 걱정돼요. 출산이 여자 몸에 굉장히 무리를 끼친다고 들었거든요.",
+            "turn_id": "BK22015701-1",
+            "utterance_id": "BK22015701.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 일단 예비 아빠가 되신거 정말 축하드려요. 생명이 탄생되는 과정인만큼 출산과 임신은 참 어렵고 힘든 과정이죠. 그래서 배우자 분의 건강이 많이 걱정되시나 봐요.",
+            "turn_id": "BK22015701-1",
+            "utterance_id": "BK22015701.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "걱정되는만큼 남편이자 예비 아빠인 제가 미리 공부를 해둬서 부인과 아기를 많이 챙겨주고 노력하려고요. 그래서 임신과 출산을 이미 경험한 지인에게 이것저것 물어보니 임신을 했을 때 잘 챙겨주는 것도 중요하지만 출산 후 과정도 정말 중요하다고 들었어요. 임부가 출산을 하고 나면 어떤 변화가 생기는지 설명해 주실 수 있나요?",
+            "turn_id": "BK22015701-2",
+            "utterance_id": "BK22015701.3"
+        },
+        {
+            "reference_date": "2021-11-09",
+            "reference_text": [
+                {
+                    "value": "답; 출산 직후에는 땀이 많이 나고, 평균 3일 정도 미열이 발생합니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그리고 태아와 태반의 만출, 양수의 배출 출혈, 땀 등으로 대략 5.5kg 정도 체중이 감소하게 됩니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이후에 2~4개월에 걸쳐서 4 kg정도 더 감소해서 인신 전의 체중으로 돌아가지만, 임신에 의한 피하지방 증가로 2~3 kg 체중이 증가하는 경우도 많습니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.bbsi.co.kr/news/articleView.html?idxno=3049545",
+            "search_query": "출산 직후 변화",
+            "terminate": false,
+            "text": "임신을 하고 있을 때도 중요하지만 출산 직후에 여자에게 일어나는 변화도 무시할 수 없죠. 일단 출산 직후에는 많이 땀이 나고 평균적으로 3일 동안 미열이 나요. 또한 태아와 태반이 만출되고 양수의 배출, 출혈 ,땀 등의 이유로 대략 5.5kg 정도의 체중이 빠지게 되죠. 그 이후에는 2~4개월에 걸쳐서 4 kg정도 빠져서 임신 전의 체중으로 돌아가게 되는데 임신으로 인해 늘어난 피하지방 때문에 2~3 kg 정도 체중이 불어나는 경우도 있어요.",
+            "turn_id": "BK22015701-2",
+            "utterance_id": "BK22015701.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "출산 과정에서 아기가 나올 때 많은 것들이 같이 배출되면서 체중도 같이 감소하게 되나보군요. 아,그런데 출산을 하고 나서 배우자가 회복을 하는 데 보통 기간이 얼마나 걸릴까요? 부인이 출산을 하고 나면 얼른 회사로 복귀하고 싶어하기도 하고 저도 아내의 출산에 맞춰서 휴가를 내고 아내를 돌보는 데 전적으로 힘쓰려고 하거든요.",
+            "turn_id": "BK22015701-3",
+            "utterance_id": "BK22015701.5"
+        },
+        {
+            "reference_date": "2019-10-10",
+            "reference_text": [
+                {
+                    "value": "여성의 건강에서 임신 말기부터 출산 후 3개월, 길게는 1년까지의 기간은 매우 중요하다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "산후에는 임신과 분만 과정에 의해 변화된 자궁뿐 아니라 각종 호르몬의 영향을 받아 평소와는 다른 몸 상태가 되는데 임신 전의 몸 상태로 회복 하는 데는 충분한 시간이 필요하다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 개인마다 정도의 차이가 있으나 일반적으로는 출산 이후 100일 동안의 기간이 매우 중요하다고 볼 수 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=78830",
+            "search_query": "출산 회복 기간",
+            "terminate": false,
+            "text": "음, 일단 임신 말기부터 출산 직후 3개월 그리고 길게는 1년까지의 기간도 중요하니 주의를 기울여 주셔야 해요. 출산 후에는 임신과 분만 과정을 거치며 자궁이 변화된 상태일뿐만 아니라 각종 호르몬이 영향을 주어서 임신과 출산 전의 몸 상태와는 많이 달라져 있거든요. 여자가 임신 전의 몸 상태로 회복하고 돌아가는 데에는 충분한 시간을 필요로 하죠. 이는 개인마다 다르지만 보편적으로 출산 이후 100일 동안이 아주 중요한 기간이라고 할 수 있어요.",
+            "turn_id": "BK22015701-3",
+            "utterance_id": "BK22015701.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신과 출산이 워낙 힘든 일이다 보니까 꽤 오랜 시간 신경을 써줘야 하는군요. 아내가 무거운 몸으로 고생하는 만큼 저도 옆에서 열심히 돌봐줘야겠다는 책임감이 드네요. 그런데 어떤 사람들은 서양 여자들과 비교하면서 산후조리가 왜 필요하냐고 하던데 산후조리의 필요성에 대해서도 설명해 주실 수 있을까요?",
+            "turn_id": "BK22015701-4",
+            "utterance_id": "BK22015701.7"
+        },
+        {
+            "reference_date": "2017-07-07",
+            "reference_text": [
+                {
+                    "value": "산후관리 문화가 발달되지 않은 유럽 및 서구국가에서도 산후조리의 필요성을 인정하고 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 서양여성에 비해 골반이 작고 근육량이 적어 출산 시 부담이 큰 동양여성은 산후조리가 더욱 중요하다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "서울 도봉구 창동 한국한의원 김기범 원장은 “산모가 임신을 하면 그에 맞추어 호르몬에 변동이 생긴다. 하지만 출산 후에는 이런 변화들이 필요 없어진다. 때문에 산모의 몸은 임신 전 상태로 돌아가기 위해 몸의 기운을 활성화시키는데 이때가 산후조리 기간이다. 이 기간에 적절한 산후관리를 하지 않으면 산후풍증상이 나타난다”고 말했다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=48691",
+            "search_query": "산후조리 필요성",
+            "terminate": false,
+            "text": "유럽 및 서구국가에서는 아직 산후 관리 문화가 발달하지는 않았지만 그래도 산후조리가 필요하다는 것을 인정하고 있어요. 게다가 동양여성은 서양여성과 다르게 골반의 크기가 작고 근육량이 적어서 출산할 때 부담이 더 크기 때문에 산후조리가 가지는 중요성이 커요. 임신을 하면 호르몬에 변동이 생기는데 출산 후에는 이런 변화가 더 이상 일어나지 않아요. 그렇기 때문에 산모의 몸은 다시 임신 전의 상태로 회복하기 위해서 몸의 기운을 활성화 하는데 이때가 산후조리 기간인거에요. 이 기간에 산후 관리를 적절하게 해주지 않으면 산모에게 산후풍 증상이 나타나니 꼭 관리를 해주셔야겠죠.",
+            "turn_id": "BK22015701-4",
+            "utterance_id": "BK22015701.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "골격과 신체 구조 특성 상 동양 여성이 서양 여성보다 출산할 때 부담이 더 크군요. 아, 방금 적절한 산후 관리를 해주지 않으면 산후풍 증상이 나타날 수 있다고 하셨잖아요. 산후풍 증상에는 어떤 증상이 있는지도 알려주실 수 있을까요?",
+            "turn_id": "BK22015701-5",
+            "utterance_id": "BK22015701.9"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "출산 후 전신기관의 기능이 서서히 회복되어 이전 상태에 준하게 돌아가는데 소요되는 기간을 산욕기라고 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 산욕기 중 팔다리가 쑤시거나 몸이 결리거나 모든 관절이 나른하고 뻐근하며 통증이 있는 것을 ‘산후신통’, ‘산후관절통’, ‘산후통풍’이라고 하는데 흔히 ‘산후풍’이라 불린다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mdtoday.co.kr/news/view/1065581284772530",
+            "search_query": "산후풍",
+            "terminate": false,
+            "text": "산후풍에 대해 알고 싶으신가 봐요. 산모의 몸은 출산 후에 전신 기관의 기능이 천천히 회복을 거치며 이전 상태처럼 회복되는 데 소요되는 기간을 산욕기라고 해요. 이 산욕기 중에 몸이 결리거나 팔다리가 쑤신다거나 모든 관절이 나른하고 뻐근하며 통증을 느끼는 것을 산후신통, 산후관절통, 산후통풍이라고도 불리지만 보통 이런 증상들을 흔히 산후풍이라 하죠.",
+            "turn_id": "BK22015701-5",
+            "utterance_id": "BK22015701.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산욕기에 관리를 확실하게 해줘서 산후풍에 절대 걸리지 않게 노력해야겠군요. 그런데 산후조리를 할 때 산모가 잘 먹어야 회복이 빠를 것 같다는 생각이 드는데요. 출산 후에 어떤 음식을 주로 섭취하는 게 산모에게 좋을까요?",
+            "turn_id": "BK22015701-6",
+            "utterance_id": "BK22015701.11"
+        },
+        {
+            "reference_date": "2021-08-03",
+            "reference_text": [
+                {
+                    "value": "산모는 출산 시 하혈로 인해 빈혈이 생기기 쉽기 때문에 철분이 많이 함유된 음식을 먹어야 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "소고기에는 단백질이 풍부하면서도 철분이 많아 산후조리를 하는 엄마가 먹기에 적당한 식품이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 시금치에는 칼슘과 비타민A등의 영양소가 풍부해 임신기때부터 자주 먹는 것이 좋다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "미역은 피를 맑게 해주고 혈액순환에 도움을 주면서 젖이 잘 돌 수 있게 해주는 식품이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "산욕기 동안 최소 2~3주 동안은 미역국을 매끼니 먹는 것이 좋은데 소고기를 넣거나 돼지고기, 홍합, 굴, 표고버섯 등을 넣어 끓여도 된다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202108038611o",
+            "search_query": "산후조리 음식",
+            "terminate": false,
+            "text": "산모는 출산 때 겪은 하혈 때문에 빈혈이 생길 가능성이 높으므로 철분을 많이 섭취할 수 있는 음식이 좋아요. 특히 소고기에는 풍분한 단백질과 함께 철분이 많이 들어 있어서 산후조리를 하는 여자가 섭취하기에 알맞은 식품이에요. 또 시금치에는 칼슘과 비타민A등의 영양소가 풍부하게 들어 있으니 임신기때부터 자주 드시는 게 좋아요. 아, 그리고 미역은 혈액순환에 좋은 영향을 주고 젖이 잘 돌 수 있게 도움을 주고 피를 맑게 만들어 주는 역할도 해요. 그러니까 산욕기 동안 적어도 2~3주 동안은 미역국을 매 끼니마다 챙겨 먹는 것이 좋고 소고기를 넣거나 돼지고기, 굴, 표고버섯, 홍합 등을 넣어 미역국을 만들어도 괜찮으니 참고하세요.",
+            "turn_id": "BK22015701-6",
+            "utterance_id": "BK22015701.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "부인이 미역국을 좋아하는데 미역국을 섭취해주는 게 도움이 된다니 다행이군요. 그리고 산후조리 때 운동을 해줘도 될까요? 운동을 했다가 괜히 산모 몸에 무리가 가는건 아닐까 걱정이 들어서요.",
+            "turn_id": "BK22015701-7",
+            "utterance_id": "BK22015701.13"
+        },
+        {
+            "reference_date": "2016-08-31",
+            "reference_text": [
+                {
+                    "value": "방에 누워만 있으면 자궁 수축이 늦어지고 살도 빠지지 않는다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "어느 정도 체력이 회복된 뒤에는 가벼운 운동을 시작한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "출산 후 산부인과 의사들이 적극 권하는 운동이 '걷기'다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "오로 배출을 돕고, 자궁을 수축시켜주며, 장운동을 활발하게 만들고, 산후 근육통을 줄여준다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/201608301604034392",
+            "search_query": "산후조리 운동",
+            "terminate": false,
+            "text": "산모가 고생했다고 해서 누워만 있으면 자궁 수축도 더디고 살도 빠지지 않아요. 그래서 어느 정도 체력이 회복됐다면 가벼운 운동을 시작하셔도 돼요. 산부인과 의사들이 출산 후에 적극적으로 권유하는 운동은 걷기에요. 걷기 운동은 오로 배출에 도움을 주고 자궁을 수축시켜주거든요. 또한 장 운동을 활발하게 만들어주고 산후 근육통을 감소시켜주는 효과도 있어요.",
+            "turn_id": "BK22015701-7",
+            "utterance_id": "BK22015701.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "부인이 회복하고 나면 가벼운 산책을 같이 해야겠네요. 아, 그리고 산모한테 좋다는 음식을 수소문해보니까 출산 후에 먹는 산후 보약이라는 것도 있다더라고요. 산후 보약도 먹으면 산모의 몸에 도움을 줄까요?",
+            "turn_id": "BK22015701-8",
+            "utterance_id": "BK22015701.15"
+        },
+        {
+            "reference_date": "2021-06-21",
+            "reference_text": [
+                {
+                    "value": "산후보약은 허해진 산모의 기혈을 보충하고 산후풍을 예방해 준다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "산후보약은 출산 직후 자궁의 회복을 도우며, 오로 배출을 원활히 만들고 어혈을 제거하여 산모의 기혈을 회복시키고 산후부종 치료, 모유 수유에 도움을 주는 역할을 하게 된다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000610501",
+            "search_query": "산후보약",
+            "terminate": false,
+            "text": "임신하신 부인 생각을 굉장히 많이 하시네요. 궁금해 하시는 산후보약은 산모의 허해진 기혈을 보강해주고 산후풍을 방지해줘요. 그리고 산후 보약은 출산 직후 자궁의 회복에 도움을 주며 오로 배출을 활발하게 해주고 어혈을 없애주는 역할을 하죠. 또한 산모의 기혈을 회복시키고 산후부종 치료와 모유 수유에도 도움을 주고요.",
+            "turn_id": "BK22015701-8",
+            "utterance_id": "BK22015701.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "부인이 출산 후 먹을 보약을 준비해놔야겠군요. 그런데 출산뿐만 아니라 유산을 겪은 사람들도 이런 산후조리를 한다고 들었는데요. 유산을 하고 난 후에도 산후조리가 필요한 게 맞나요?",
+            "turn_id": "BK22015701-9",
+            "utterance_id": "BK22015701.17"
+        },
+        {
+            "reference_date": "2022-09-20",
+            "reference_text": [
+                {
+                    "value": "반면에 유산은 몸이 준비되지 못한 상황에서 발생하기 때문에 회복과정이 불량해지고 따라서 산후조리가 더욱 필요하게 됩니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "계류유산이나 소파수술 등을 비롯하여 유산 후에는 자궁내막의 손상과 호르몬의 병리적인 변화 등이 문제가 되고, 정상적인 분만으로 인한 휴식도 거의 없는 상황이어서 산모에게는 더 힘든 상황이 될 수 있습니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 유산의 경우에는 산후조리가 더욱 필요하게 됩니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.bbsi.co.kr/news/articleView.html?idxno=3081720",
+            "search_query": "유산 산후조리",
+            "terminate": false,
+            "text": "유산은 신체가 준비되지 못한 상황에서 일어나기 때문에 회복 과정이 더 좋지 않아서 산후조리의 필요성이 더욱 커요. 계류 유산이나 소파수술 등을 포함해서 유산 후에는 자궁내막이 손상되고 호르몬의 병리적인 변화 등이 일어나기 때문에 여자의 몸에 문제가 되죠. 게다가 유산 후에 휴식을 충분히 가지지 못한다면 산모에게는 더 힘든 상황이 될 수 있어요. 그렇기에 유산을 겪으신다면 산후조리의 필요성이 더욱 커요.",
+            "turn_id": "BK22015701-9",
+            "utterance_id": "BK22015701.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "출산뿐 아니라 유산을 겪은 후에도 산후 조리 과정은 정말 필수적인 과정이네요. 산후조리에 관해서 이렇게 자세한 설명을 해주셔서 정말 감사해요. 산후조리 과정을 듣고 나니 임신과 출산이 얼마나 힘든 과정인지 더 와닿네요.",
+            "turn_id": "BK22015701-10",
+            "utterance_id": "BK22015701.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이 정도로 뭘요. 생명을 잉태하고 탄생시키는 일은 참 위대하면서도 고된 일이죠. 좋은 남편, 좋은 아빠가 되기 위해 공부하고 노력하시려는 모습이 보기 좋네요.",
+            "turn_id": "BK22015701-10",
+            "utterance_id": "BK22015701.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "초기인데도 임신 때문에 일어나는 신체 변화로 힘들어 하는 아내를 보면 저도 책임감이 생기더라고요. 더 열심히 공부하고 노력해야겠죠. 앞으로도 모르는 게 생기면 또 물어봐도 될까요?",
+            "turn_id": "BK22015701-11",
+            "utterance_id": "BK22015701.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그럼요. 또 궁금한 게 생기시면 주저 말고 물어봐주세요. 제가 약속이 있어서 먼저 가볼게요. 아빠가 되신 거 정말 축하 드리고 나중에 또 봬요.",
+            "turn_id": "BK22015701-11",
+            "utterance_id": "BK22015701.22"
+        }
+    ]
+}

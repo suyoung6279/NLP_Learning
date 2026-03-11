@@ -1,0 +1,381 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011840",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011840",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금 바쁘세요? 저랑 잠깐 이야기 나눌 시간 있으신가 해서요.",
+            "turn_id": "BK22011840-1",
+            "utterance_id": "BK22011840.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금 막 급한 업무 마무리하고 잠깐 쉬려고 하던 참이에요. 무슨 일 있으세요? 편하게 말씀하세요.",
+            "turn_id": "BK22011840-1",
+            "utterance_id": "BK22011840.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "별일은 아닌데 궁금한 게 좀 있어서요. 저희 부모님이 미분양 아파트를 사려고 하시는데 분양 안내문에 있는 용어들이 너무 헷갈려서 좀 여쭤보려고요. 여기 보면 전용면적이라고 써 있는데 전용면적이 뭘 가리키는 건가요?",
+            "turn_id": "BK22011840-2",
+            "utterance_id": "BK22011840.3"
+        },
+        {
+            "reference_date": "2020-01-24",
+            "reference_text": [
+                {
+                    "value": "먼저 전용면적은 현관문 안의 모든 공간의 면적을 뜻한다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "거실, 방, 욕실 등의 면적이 전용면적에 해당된다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 발코니는 전용면적이 아닌 서비스 면적에 해당한다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "확장을 할 경우 실내 공간으로, 확장을 하지 않으면 발코니로 사용할 수 있기 때문이다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01459606625641000&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "전용면적",
+            "terminate": false,
+            "text": "전용면적은 거실, 방, 욕실 등 현관문 안에 위치한 전체 공간의 면적을 말해요. 단, 발코니는 만약 확장을 한다면 실내 공간으로 쓸 수 있고 확장을 하지 않는다면 발코니로 쓸 수 있기 때문에 전용면적에서 제외되고 서비스 면적으로 들어가고요.",
+            "turn_id": "BK22011840-2",
+            "utterance_id": "BK22011840.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "발코니를 제외한 실내 면적이 전용면적이군요. 그런데 서비스 면적이라는 건 또 뭐예요?",
+            "turn_id": "BK22011840-3",
+            "utterance_id": "BK22011840.5"
+        },
+        {
+            "reference_date": "2020-12-19",
+            "reference_text": [
+                {
+                    "value": "서비스면적은 주택을 분양받을 때 건설사가 기본으로 제공하는 전용면적 이외에 제공하는 면적입니다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "분양가에 포함되지 않아 흔히 '공짜 면적'이라고도 합니다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "서비스면적의 대표적인 공간은 창고나, 화단, 휴식 공간 등으로 활용 가능한 발코니입니다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20201218_0001275460&cID=10401&pID=10400",
+            "search_query": "서비스면적",
+            "terminate": false,
+            "text": "서비스면적은 건설사에서 주택 분양 시 기본적으로 공급하는 전용면적 외에 추가로 제공하는 면적으로 분양가를 산출할 때 포함되지 않기 때문에 보통 공짜 면적이라고 부르기도 해요. 창고, 화단, 휴식 공간 등으로 이용할 수 있는 발코니가 서비스면적으로 주어지는 대표적인 공간이에요.",
+            "turn_id": "BK22011840-3",
+            "utterance_id": "BK22011840.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "분양가에 포함되지 않는 면적이 있다는 건 처음 알았어요. 그리고 공용면적이라는 항목도 있는데 공용면적은 어느 부분을 말하는 건가요?",
+            "turn_id": "BK22011840-4",
+            "utterance_id": "BK22011840.7"
+        },
+        {
+            "reference_date": "2020-12-19",
+            "reference_text": [
+                {
+                    "value": "공용면적은 여러 세대가 한 건축물에서 공동으로 사용하는 공간을 말합니다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "공용면적은 주거 공용면적과 기타 공용면적으로 나뉩니다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "주거 공용면적은 건물 출입 현관, 계단, 복도, 엘리베이터가 대표적입니다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기타 공용면적은 주거 공용면적을 제외한 시설물로, 지하층, 관리사무소, 노인정, 커뮤니티시설, 보육(유치원) 시설 등을 말합니다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20201218_0001275460&cID=10401&pID=10400",
+            "search_query": "공용면적",
+            "terminate": false,
+            "text": "공용면적은 하나의 건축물에서 여러 세대가 함께 쓰는 공간으로, 주거 공용면적과 기타 공용면적으로 구분되는데, 대표적인 주거 공용면적은 건물 출입 현관, 계단, 복도, 엘리베이터 등이에요. 그리고 주거 공용면적을 뺀 나머지 시설물이 차지하는 면적인 기타 공용면적은 지하층, 관리사무소, 노인정, 커뮤니티시설, 보육 시설 등의 면적을 말하는 것이고요.",
+            "turn_id": "BK22011840-4",
+            "utterance_id": "BK22011840.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어요, 그런데 공급면적이라는 게 따로 표기되어 있네요. 용어가 다 비슷비슷해서 너무 헷갈려요. 공급면적은 또 뭔가요?",
+            "turn_id": "BK22011840-5",
+            "utterance_id": "BK22011840.9"
+        },
+        {
+            "reference_date": "2020-12-19",
+            "reference_text": [
+                {
+                    "value": "공급면적(분양면적)은 전용면적과 공용면적을 모두 합친 것으로, 분양가를 산정할 때 쓰입니다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "통상적으로 아파트 평수를 말할 때 쓰이는 면적입니다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20201218_0001275460&cID=10401&pID=10400",
+            "search_query": "공급면적",
+            "terminate": false,
+            "text": "공급면적은 앞서 말한 전용면적과 공용면적을 전부 더한 면적으로 분양가의 산정에 사용되는 면적이에요. 일반적으로 아파트의 평수를 이야기할 때 사용하는 면적이 바로 이 공급면적이죠.",
+            "turn_id": "BK22011840-5",
+            "utterance_id": "BK22011840.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 분양 광고에서 집의 넓이를 말할 때는 전용면적뿐만 아니라 공용면적까지 포함한 것이었군요. 이제 끝인 줄 알았더니 또 하나, 계약면적이라는 게 남았네요. 계약면적은 무얼 지칭하는 건가요?",
+            "turn_id": "BK22011840-6",
+            "utterance_id": "BK22011840.11"
+        },
+        {
+            "reference_date": "2020-12-19",
+            "reference_text": [
+                {
+                    "value": "계약면적은 아파트 거래 계약서를 작성할 때 자주 쓰입니다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "계약면적은 주거 전용면적, 주거 공용면적, 기타 공용면적과 지하주차장 면적을 모두 합한 면적을 말합니다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20201218_0001275460&cID=10401&pID=10400",
+            "search_query": "계약면적",
+            "terminate": false,
+            "text": "계약면적은 주거 전용면적과 주거 공용면적 및 기타 공용면적 그리고 지하주차장의 면적까지 모두 합친 것으로 아파트를 거래할 때 작성하는 계약서에 빈번히 사용돼요.",
+            "turn_id": "BK22011840-6",
+            "utterance_id": "BK22011840.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 공급면적에 지하주차장 면적까지 합산했다고 생각하면 되겠네요. 그런데 이렇게 세세하게 구분한 면적은 어디에 사용되는 거예요?",
+            "turn_id": "BK22011840-7",
+            "utterance_id": "BK22011840.13"
+        },
+        {
+            "reference_date": "2020-12-19",
+            "reference_text": [
+                {
+                    "value": "공동주택 분양계약서에는 모든 면적을 구분해서 표시해야 합니다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "분양계약 당시의 면적보다 실제 면적이 부족한 경우 분양계약자는 해당 면적의 비율만큼 대금 감액을 청구할 수 있습니다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20201218_0001275460&cID=10401&pID=10400",
+            "search_query": "공동주택 분양계약서 면적 구분 표시",
+            "terminate": false,
+            "text": "분양을 받고 공동주택 분양계약서를 작성하게 되면 모든 면적을 나누어 표시해야 하는데 추후에 실제 면적이 분양 계약을 맺을 때의 면적보다 좁을 경우 분양계약자는 부족한 면적의 비율만큼 대금을 감액해 줄 것을 청구할 수 있거든요.",
+            "turn_id": "BK22011840-7",
+            "utterance_id": "BK22011840.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "건설사가 아파트를 지으면서 마음대로 면적을 줄이지 못하게 하려면 이렇게 항목별로 구분하는 게 필요하기도 하겠네요. 면적 항목은 이제 다 해결되었어요. 그런데 여기 추가 설명 부분에 보면 알파룸이라고 적혀 있는데 알파룸이 뭐예요?",
+            "turn_id": "BK22011840-8",
+            "utterance_id": "BK22011840.15"
+        },
+        {
+            "reference_date": "2020-02-22",
+            "reference_text": [
+                {
+                    "value": "알파룸은 아파트 평면 설계상 남는 내부 자투리 공간으로 일종의 서비스 면적을 의미합니다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "보통 방과 방, 거실과 방, 주방과 거실 사이 비치돼 활용도를 높인 공간입니다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "최근 서재나 드레스룸, 침실 등으로 용도가 확대되고 있습니다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etoday.co.kr/news/view/1859797",
+            "search_query": "알파룸",
+            "terminate": false,
+            "text": "알파룸은 앞서 말한 서비스 면적의 일종으로 아파트 평면 설계로 인해 내부에 남게 된 자투리 공간을 말해요. 일반적으로 방과 방, 거실과 방, 주방과 거실 가운데 두어 활용도를 높인 공간인데 요즘은 서재, 드레스룸, 침실 등으로 그 쓰임새가 광범위해지고 있어요.",
+            "turn_id": "BK22011840-8",
+            "utterance_id": "BK22011840.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 공짜 면적이면 좋은 거네요. 이제 진짜 마지막으로 한 가지만 더 여쭤볼게요. 여기 이 공간은 팬트리라고 표시되어 있는데 팬트리는 어떤 용도로 사용하는 공간이에요?",
+            "turn_id": "BK22011840-9",
+            "utterance_id": "BK22011840.17"
+        },
+        {
+            "reference_date": "2020-02-22",
+            "reference_text": [
+                {
+                    "value": "팬트리는 알파룸과 비슷한 개념인데 식료품을 보관하던 작은방을 뜻합니다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "통상적으로 주방 옆에 위치해 식료품이나 주방 집기 등을 보관하는 용도로 사용됐으나 최근엔 다양한 물건들을 수납하는 창고로 확장돼 사용됩니다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etoday.co.kr/news/view/1859797",
+            "search_query": "팬트리",
+            "terminate": false,
+            "text": "팬트리는 식료품을 보관하는 작은 방이라는 뜻으로 알파룸과 유사한 개념이에요. 일반적으로 주방 가까이에 두어 식료품, 주방 집기 등을 수납하는 장소로 이용했지만 요즘은 여러 가지 물건들을 보관하는 창고로 사용 용도가 확장되었어요.",
+            "turn_id": "BK22011840-9",
+            "utterance_id": "BK22011840.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 이렇게 자세하게 알려 주셔서 정말 감사해요. 부모님께 잘 설명해 드릴 수 있겠어요.",
+            "turn_id": "BK22011840-10",
+            "utterance_id": "BK22011840.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 혹시 더 궁금한 게 있으면 주저 말고 물어보세요.",
+            "turn_id": "BK22011840-10",
+            "utterance_id": "BK22011840.20"
+        }
+    ]
+}

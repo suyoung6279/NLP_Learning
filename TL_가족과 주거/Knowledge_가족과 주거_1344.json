@@ -1,0 +1,366 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008969",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008969",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0036"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0007"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안녕하세요, 저번 주에 출산을 했는데 몇 가지 궁금한 게 생겨서요. 산후관리는 얼마나 해주어야 할까요?",
+            "turn_id": "BK22008969-1",
+            "utterance_id": "BK22008969.1"
+        },
+        {
+            "reference_date": "2015-12-31",
+            "reference_text": [
+                {
+                    "value": "출산 후 산욕기 관리는 매우 중요하다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "여성의 평생건강이 좌우되는 시기인 출산 직후부터 6~8주간의 기간으로 임신으로 인한 체형 불균형, 출산으로 인한 신체적 부담으로부터 벗어나기 위한 결정적 시기다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2015123014530046686&outlink=1&ref=https%3A%2F%2Fsearch.naver.com",
+            "search_query": "출산후 산욕기",
+            "terminate": false,
+            "text": "출산 후 6주~8주간은 여성의 평생 건강이 좌우되는 시기이므로 출산 후 산후 관리를 하는 것은 굉장히 중요하답니다. 임신을 하게 되면 체형불균형이 발생하고 출산 시에는 신체적 부담이 생기는데 이러한 것들을 벗어나기 위한 결정적인 시기인거죠.",
+            "turn_id": "BK22008969-1",
+            "utterance_id": "BK22008969.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최소 2달은 산후관리를 해야하는거네요. 산욕기간에는 어떤 증상이 나타날 수 있나요?",
+            "turn_id": "BK22008969-2",
+            "utterance_id": "BK22008969.3"
+        },
+        {
+            "reference_date": "2015-12-31",
+            "reference_text": [
+                {
+                    "value": "출산 후 산욕기 기간에 나타날 수 있는 대표적인 증상은 부종, 산후우울증, 산욕기 감염 등이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2015123014530046686&outlink=1&ref=https%3A%2F%2Fsearch.naver.com",
+            "search_query": "산욕기 대표증상",
+            "terminate": false,
+            "text": "산욕 기간에는 대표적으로 부종이나 산후 우울감, 산욕기 감염 등이 나타날 수 있어요.",
+            "turn_id": "BK22008969-2",
+            "utterance_id": "BK22008969.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 지금 몸의 붓기가 빠지지 않고 있는데 붓기는 왜 생기는거죠?",
+            "turn_id": "BK22008969-3",
+            "utterance_id": "BK22008969.5"
+        },
+        {
+            "reference_date": "2015-12-31",
+            "reference_text": [
+                {
+                    "value": "우선 신체에서 가장 빠르게 느낄 수 있는 부종은 출산 후 2~7주 사이에 생기게 되는데 이러한 증상이 생기는 이유는 몸의 신진대사 능력이 저하되어 순환이 원활하지 못해 발생된다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2015123014530046686&outlink=1&ref=https%3A%2F%2Fsearch.naver.com",
+            "search_query": "산욕기 대표증상 부종",
+            "terminate": false,
+            "text": "부종은 보통 출산하고 2주에서 7주 사이에 발생하는데요. 신체의 신진대사 능력이 저하되어 있어 순환이 원활하지 못해서 나타난답니다.",
+            "turn_id": "BK22008969-3",
+            "utterance_id": "BK22008969.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신진대사 능력이 아직 돌아오지 않은거네요. 그런데 출산 후 몸무게가 많이 줄어들질 않더라구요. 살은 언제빠지는건가요?",
+            "turn_id": "BK22008969-4",
+            "utterance_id": "BK22008969.7"
+        },
+        {
+            "reference_date": "2013-03-13",
+            "reference_text": [
+                {
+                    "value": "일반적으로 출산 직후 몸무게는 ‘아기몸무게+양수+태반’ 무게 정도가 감소하기 때문에 4~5kg 정도가 빠지는 것이 일반적이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "분만 후 3일 정도 지나면 산모 몸에 부종이 생기기 때문에 몸무게가 다시 늘어나는 경우도 발생하지만 부종이 빠지면서 몸무게는 더 감소하게 된다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20130312000483",
+            "search_query": "출산 후 몸무게 관리",
+            "terminate": false,
+            "text": "출산 직후에는 아기의 몸무게와 태반, 양수 정도의 무게만 감소하기 때문에 보통은 4kg나 5kg 가량만 빠지게 돼요. 출산 후 3일 이후부터는 부종이 생기기 때문에 몸무게가 다시 늘어날 수도 있지만 이 부종이 빠지면 몸무게는 줄어들게 돼요.",
+            "turn_id": "BK22008969-4",
+            "utterance_id": "BK22008969.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "출산한다고 해서 살이 바로 빠지는게 아니군요. 그럼 다이어트는 언제부터 할 수 있는 거예요?",
+            "turn_id": "BK22008969-5",
+            "utterance_id": "BK22008969.9"
+        },
+        {
+            "reference_date": "2017-07-26",
+            "reference_text": [
+                {
+                    "value": "출산 후 다이어트 시기는 개인별로 차이가 있을 수 있다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자연분만을 한 경우 스스로 느끼기에 무리가 없다고 생각이 들면 빠르게는 수일 이내 걷기나 스트레칭과 같은 가벼운 운동을 시작할 수 있다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "제왕절개를 한 산모의 경우 출산 후 6주간은 무리한 운동은 피하고 안정을 취하는 것이 바람직하며, 6주 이후부터 가벼운 운동을 시작하는 것이 좋다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000257850",
+            "search_query": "산모 다이어트 신체활동",
+            "terminate": false,
+            "text": "개인별로 차이가 있어요. 자연분만이라면 스스로 무리가 없다는 판단이 들 때 수일내로 스트레칭이나 가벼운 운동을 할 수 있어요. 제왕절개 산모라면 출산 후 6주정도는 무리하게 운동하면 안되고 그 이후부터 가볍게 운동하시는 것이 좋아요.",
+            "turn_id": "BK22008969-5",
+            "utterance_id": "BK22008969.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "천천히 걷기부터 해야겠네요. 출산 후에는 어떤 종류의 음식을 먹는게 도움이 될까요?",
+            "turn_id": "BK22008969-6",
+            "utterance_id": "BK22008969.11"
+        },
+        {
+            "reference_date": "2021-11-25",
+            "reference_text": [
+                {
+                    "value": "산후에는 위장 기능이 저하되어 있고, 모든 관절과 근육이 벌어져 있기 때문에 영양은 충분하면서도 위에 부담을 주지 않는 죽을 먹도록 한다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "단백질은 회음부 및 제왕절개 상처의 회복을 돕고 부종 감소에 좋다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 모유의 질을 결정하는 중요한 영양소로 모유수유 기간 동안에는 단백질 섭취에 신경 써야 한다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자연분만을 한다면 약 500cc의 출혈이 있으므로, 출산 후 철분을 충분히 섭취해야 한다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202111254783o",
+            "search_query": "출산 후 필요한 영양소",
+            "terminate": false,
+            "text": "출산 후에는 위장 기능이 떨어져 있고, 모든 관절 및 근육이 벌어져 있어 영양이 충분하면서도 소화가 잘되는 죽을 먹는 것이 좋아요. 단백질은 회음부나 제왕절개 상처 회복을 돕고 부종을 줄여주는데요. 특히 단백질은 모유의 질을 결정하기 때문에 수유 기간에는 꼭 챙겨 드셔야 한답니다. 또한 자연분만을 했다면 500cc 가량의 출혈이 있기 때문에 철분 또한 충분히 섭취해 주셔야 해요.",
+            "turn_id": "BK22008969-6",
+            "utterance_id": "BK22008969.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 소고기죽이나 닭죽을 먹는게 좋겠네요. 출산후에는 좌욕을 하는게 좋다는데 어떤 점에서 좋은 거죠?",
+            "turn_id": "BK22008969-7",
+            "utterance_id": "BK22008969.13"
+        },
+        {
+            "reference_date": "2021-02-23",
+            "reference_text": [
+                {
+                    "value": "좌욕은 상처가 난 회음 절개 부위의 세균 감염 위험을 줄여주고, 손상된 산도를 빨리 아물게 해준다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따뜻한 물에 둔부를 담그고 있으면 회음부 근육이 이완되면서 통증이 덜해지고 가려움증 또한 진정되는 효과가 있다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202102230487o",
+            "search_query": "출산 후 좌욕",
+            "terminate": false,
+            "text": "좌욕은 회음부 절개 부위에 세균감염을 줄여주고 손상된 산도를 빠르게 아물게 해준답니다. 거기다 회음부의 근육이 이완됨으로써 통증과 가려움까지 줄여주는 효과가 있어요.",
+            "turn_id": "BK22008969-7",
+            "utterance_id": "BK22008969.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "출산 후에는 좌욕이 큰 도움이 되겠네요. 그런데 좌욕은 어떻게 하는거죠?",
+            "turn_id": "BK22008969-8",
+            "utterance_id": "BK22008969.15"
+        },
+        {
+            "reference_date": "2021-02-23",
+            "reference_text": [
+                {
+                    "value": "좌욕을 할 때는 좌욕기를 사용하면 좋지만, 둔부가 충분히 잠길 수 있는 넓고 오목한 대야를 사용해도 괜찮다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "좌욕 물의 온도는 40~42도 정도가 적당하며, 깨끗하게 소독한 대야를 사용하도록 한다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "좌욕을 할 때는 둔부를 대야에 담근 후 괄약근을 오므렸다 폈다를 반복해주도록 한다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "좌욕이 끝난 후 말릴 때는 회음부에 물기가 남지 않도록 부드러운 수건 등으로 두드리듯 닦거나 드라이기로 말려야 한다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202102230487o",
+            "search_query": "좌욕 제대로 하는 법",
+            "terminate": false,
+            "text": "둔부가 충분히 잠기도록 넓으면서도 오목한 대야를 사용해 주세요. 물은 40도에서 42도 정도의 온도로 맞추시구요. 대야는 깨끗하게 소독해 주세요. 좌욕 시에는 괄약근을 오므렸다 폈다해 주시고 마친 후에는 물기가 없도록 회음부를 부드러운 수건으로 닦거나 드라이로 말려주시면 돼요.",
+            "turn_id": "BK22008969-8",
+            "utterance_id": "BK22008969.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "방법까지 상세히 알려주셔서 감사해요. 출산만 하면 편할줄 알았는데 챙겨야 할 것들이 많네요.",
+            "turn_id": "BK22008969-9",
+            "utterance_id": "BK22008969.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 산모 뿐 아니라 아이까지 챙겨야 하니 한동안은 힘드실거예요. 그래도 출산 후에는 몸 관리를 잘하셔야 나중에 문제가 없답니다.",
+            "turn_id": "BK22008969-9",
+            "utterance_id": "BK22008969.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어요. 몸이 힘들더라도 하나하나 잘 챙겨서 얼른 회복해야겠네요. 많은 도움 주셔서 감사해요.",
+            "turn_id": "BK22008969-10",
+            "utterance_id": "BK22008969.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네. 그럼 예쁜 아이와 함께 행복하게 육아하시길 바랄게요. 건강하시고 다음에 또 만나요.",
+            "turn_id": "BK22008969-10",
+            "utterance_id": "BK22008969.20"
+        }
+    ]
+}

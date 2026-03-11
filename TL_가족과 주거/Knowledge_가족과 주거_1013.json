@@ -1,0 +1,347 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005807",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005807",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시에서 지원하는 임산부 정책에 대해 이것저것 알아보고 있는 중이야. 서울시에서 임산부한테 교통비를 지원해 준다는 말을 들었는데, 사실일까?",
+            "turn_id": "BK22005807-1",
+            "utterance_id": "BK22005807.1"
+        },
+        {
+            "reference_date": "2022-07-21",
+            "reference_text": [
+                {
+                    "value": "현재 서울시는 올해 7월부터 임산부의 이동편의를 지원하기 위해 1인당 70만원의 교통비를 지원하는 '서울시 임산부 교통비 지원 사업'을 시행하고 있다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongdo.co.kr/web/view.php?key=20220721010006242",
+            "search_query": "서울시 임산부 교통비",
+            "terminate": false,
+            "text": "응, 사실이야. 임산부의 이동 편의를 위해 올해 7월부터 서울시 임산부 교통비 지원 사업이라는 게 시행되고 있거든. 이 사업에 따라 임산부는 1인당 70만 원의 교통비를 지원받을 수가 있지.",
+            "turn_id": "BK22005807-1",
+            "utterance_id": "BK22005807.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 70만 원이나 줘? 그럼 우리 언니 신청하라고 해야겠다. 이건 서울시에 거주하는 임산부이기만 하면 다 받을 수 있는 건가?",
+            "turn_id": "BK22005807-2",
+            "utterance_id": "BK22005807.3"
+        },
+        {
+            "reference_date": "2022-07-22",
+            "reference_text": [
+                {
+                    "value": "지원 대상은 신청일 기준 서울시에 6개월 이상 주민등록을 둔 임산부로, 임신한 지 3개월(12주 차)이 경과한 이후부터 출산 후 3개월까지 신청 가능하다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4750378",
+            "search_query": "서울시 임산부 교통비 대상",
+            "terminate": false,
+            "text": "아니, 그렇지 않아. 신청일 기준으로 서울시에 6개월 이상 주민등록을 두고 있는 임산부여야 하거든. 또 동시에 임신 12주 차가 경과한 상태여야 하고 만약 출산을 한 경우라면 출산 후 3개월이 지나지 않은 때여야 신청이 가능해.",
+            "turn_id": "BK22005807-2",
+            "utterance_id": "BK22005807.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 언니는 임신 7개월 정도 됐으니까 대상이 되겠네. 근데 주민등록이 자격요건이면 외국인 임산부들은 지원을 받을 수 없다는 얘긴가? 우리 언니랑 친하게 지내는 외국인 산모가 있는데.",
+            "turn_id": "BK22005807-3",
+            "utterance_id": "BK22005807.5"
+        },
+        {
+            "reference_date": "2022-07-20",
+            "reference_text": [
+                {
+                    "value": "결국 외국인이 주민등록법상 주민 등록 대상자의 예외이기 때문에 외국인 임산부는 지원 대상이 되지 못한 상황이다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한국인 남편과 결혼해 임신했어도 외국인 임산부라면 교통비를 받을 수 없는 것이다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailian.co.kr/news/view/1134101/?sc=Naver",
+            "search_query": "서울시 임산부 교통비 외국인",
+            "terminate": false,
+            "text": "맞아. 주민등록법상 외국인은 주민등록 대상자에서 예외가 되어 있거든. 때문에 한국인 남편과 결혼을 했다고 하더라도 외국인 임산부라면 교통비를 지원받을 수 없지.",
+            "turn_id": "BK22005807-3",
+            "utterance_id": "BK22005807.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 언니 친구는 못 받겠네. 아, 근데 이거 어떻게 신청할 수 있는 거야?",
+            "turn_id": "BK22005807-4",
+            "utterance_id": "BK22005807.7"
+        },
+        {
+            "reference_date": "2022-07-22",
+            "reference_text": [
+                {
+                    "value": "온라인 신청은 서울시 임산부 교통비 지원 홈페이지에서 가능하다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만, 임신기간 중 신청할 때에는 임신 여부 확인을 위해 정부24 맘편한 임신 원스톱서비스에서 사전 신청이 필요하다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "방문 신청은 주소지 관할 동 주민센터에서 할 수 있다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4750378",
+            "search_query": "서울시 임산부 교통비 신청",
+            "terminate": false,
+            "text": "온라인이나 방문을 통해 신청할 수 있는데, 온라인으로 하려면 서울시 임산부 교통비 지원 홈페이지에서 하면 돼. 다만, 임신 중인 경우에는 임신을 했는지 확인이 필요하기 때문에 정부24 맘편한 임신 원스톱 서비스에서 사전 신청을 해야만 하고. 방문 신청은 주소지 관할 동 주민센터를 찾아가면 할 수 있어.",
+            "turn_id": "BK22005807-4",
+            "utterance_id": "BK22005807.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 편하게 온라인으로 하라고 해야겠다. 근데 이거 어떤 식으로 지급되는 건지 알아? 교통비니까 통장으로 입금해 줄 리는 없을 텐데.",
+            "turn_id": "BK22005807-5",
+            "utterance_id": "BK22005807.9"
+        },
+        {
+            "reference_date": "2022-06-23",
+            "reference_text": [
+                {
+                    "value": "교통비는 신한, 삼성, KB국민, 우리, 하나, BC(하나BC·IBK기업)카드사를 통한 포인트로 지급되기 때문에 해당 카드사의 본인명의 카드를 소지하고 있어야 한다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "카드가 없을 경우 직접 카드를 발급받은 후 신청할 수 있다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "해당 카드사의 ‘국민행복카드’로도 신청이 가능하다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220622526818?OutUrl=naver",
+            "search_query": "서울시 임산부 교통비 지급",
+            "terminate": false,
+            "text": "협력 카드사의 포인트로 지급이 돼. 때문에 신한, 삼성, KB 국민, 우리, 하나, BC 등의 카드사들 중 본인 명의로 된 카드를 가지고 있어야 하지. 만일 카드가 없다면 발급 후 신청을 해도 되고 아니면 해당 카드사별 국민행복카드가 있으니 그걸 신청해도 돼.",
+            "turn_id": "BK22005807-5",
+            "utterance_id": "BK22005807.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 이건 재난지원금이랑 같은 방식으로 지원이 되는 거네. 근데 포인트는 어디서 쓸 수 있는 거지? 교통비니까 대중교통에서 쓸 수 있는 건가?",
+            "turn_id": "BK22005807-6",
+            "utterance_id": "BK22005807.11"
+        },
+        {
+            "reference_date": "2022-07-05",
+            "reference_text": [
+                {
+                    "value": "지급 받은 포인트로 버스, 지하철, 택시 등의 대중교통을 이용할 수 있으며, 자가용 유류비를 결제할 때도 사용할 수 있다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20220705_0001932300&cID=14001&pID=14000",
+            "search_query": "서울시 임산부 교통비 사용",
+            "terminate": false,
+            "text": "아니, 지급된 포인트는 지하철, 버스, 택시와 같은 대중교통뿐 아니라 자가용 유류비로도 사용이 가능해.",
+            "turn_id": "BK22005807-6",
+            "utterance_id": "BK22005807.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 그럼 더 좋네. 포인트는 언제까지 사용할 수 있는 거야?",
+            "turn_id": "BK22005807-7",
+            "utterance_id": "BK22005807.13"
+        },
+        {
+            "reference_date": "2022-06-23",
+            "reference_text": [
+                {
+                    "value": "지원비 사용 기한은 임신 기간에 신청한 경우 분만예정일로부터 12개월이며, 출산 후 신청한 경우 자녀 출생일(자녀 주민등록일)로부터 12개월 내에 사용해야 한다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/400693",
+            "search_query": "서울시 임산부 교통비 사용 기간",
+            "terminate": false,
+            "text": "임신 중에 신청을 했다면 분만예정일로부터 12개월까지고, 출산 후에 신청을 했다면 자녀의 출생일 또는 주민등록일로부터 12개월 이내야.",
+            "turn_id": "BK22005807-7",
+            "utterance_id": "BK22005807.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기한도 길고 괜찮네. 근데 이거 서울시 예산이 어느 정도나 투입되는 걸까? 인당 70만 원이면 꽤 큰 규모일 거 같은데.",
+            "turn_id": "BK22005807-8",
+            "utterance_id": "BK22005807.15"
+        },
+        {
+            "reference_date": "2022-07-18",
+            "reference_text": [
+                {
+                    "value": "서울시의 임산부 교통비 지원은 지방자치단체 최대 규모로 올해 96억원의 예산이 사용될 계획입니다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mbn.co.kr/news/society/4806260",
+            "search_query": "서울시 임산부 교통비 예산",
+            "terminate": false,
+            "text": "서울시는 올해 임산부 교통비 지원에 96억 원의 예산을 사용할 예정이야. 이 정도 액수는 지방자치단체로서는 최대 규모에 해당하지.",
+            "turn_id": "BK22005807-8",
+            "utterance_id": "BK22005807.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 어마어마하다. 나는 임산부가 아니라 못 받는 게 아쉽네. 대신 주변에 해당되는 사람들한테 다 알려줘야겠다.",
+            "turn_id": "BK22005807-9",
+            "utterance_id": "BK22005807.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 잘 생각했어. 정보는 뭐니 뭐니 해도 나누는 게 미덕이지.",
+            "turn_id": "BK22005807-9",
+            "utterance_id": "BK22005807.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 일단 가서 언니한테 전화부터 해야겠다. 그다음에 주변에도 쫙 퍼트리고.",
+            "turn_id": "BK22005807-10",
+            "utterance_id": "BK22005807.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 그럼 이만 가고 수요일에 보자.",
+            "turn_id": "BK22005807-10",
+            "utterance_id": "BK22005807.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 수요일에 내가 연락할게.",
+            "turn_id": "BK22005807-11",
+            "utterance_id": "BK22005807.21"
+        }
+    ]
+}

@@ -1,0 +1,402 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22000570",
+        "name": "2022 한국어 블렌더봇 데이터 BK22000570",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 집 강아지는 여름만 되면 피부 상태가 안 좋아지는 것 같아요. 날씨가 영향을 미치는 건가 싶은데요. 왜 그런 걸까요?",
+            "turn_id": "BK22000570-1",
+            "utterance_id": "BK22000570.1"
+        },
+        {
+            "reference_date": "2022-06-02",
+            "reference_text": [
+                {
+                    "value": "무더운 여름이 되면 사람만큼이나 반려견들도 고생을 한다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한반도 특유의 고온다습한 여름은 반려견과 산책도 방해하지만, 반려견의 피부 건강을 위협하는 다양한 질병의 원인이 될 수 있다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대표적으로 말라세지아 피부병(Malasseziasis)이 있다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C00007033099",
+            "search_query": "반려견 여름 피부병",
+            "terminate": false,
+            "text": "여름에는 사람도 강아지도 고생을 하죠. 한국 특유의 고온다습한 여름 날씨가 반려견 피부에 악영향을 줄 수 있어요. 질병의 원인이 될 수 있다는 말인데, 대표적으로는 말라세지아 피부병이 있죠.",
+            "turn_id": "BK22000570-1",
+            "utterance_id": "BK22000570.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "말라세지아 피부병이라는 이름이 왠지 무시무시한 느낌을 주네요. 말라세지아 피부병이 어떤 병인지 알려주세요.",
+            "turn_id": "BK22000570-2",
+            "utterance_id": "BK22000570.3"
+        },
+        {
+            "reference_date": "2022-06-02",
+            "reference_text": [
+                {
+                    "value": "여름이 오면 기승하는 말라세지아 피부병은 말라세지아균(Malassezia pachydermatis) 원인이 되어 발생하는 피부질환이다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "말라세지아균은 눈사람 모양의 병균으로, 반려견의 피부에 살고 있다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "반려견이 건강할 때는 큰 문제가 되자 않지만, 환경이 습해지고 알레르기나 면역력 저하 등 모종의 이유로 균이 증식하면 피부에 문제를 일으킨다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "주로 귀, 겨드랑이, 사타구나, 항문 주변, 발가락 사이 등 피부가 접히고 피지가 많이 분비되지 않으며 습해지기 쉬운 곳에 자주 발생한다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C00007033099",
+            "search_query": "반려견 여름 피부병 말라세지아",
+            "terminate": false,
+            "text": "말라세지아 피부병은 눈사람 모양으로 생겨서 반려견 피부에 살고 있는 말라세지아균이 원인이 되어 발생하는 질환이에요. 습한 환경, 면역력 저하 등으로 균이 증식하면 피부에 문제가 생기는 거죠. 귀나 겨드랑이 등 피부가 접히고 습해지기 쉬운 부위에 자주 발생해요.",
+            "turn_id": "BK22000570-2",
+            "utterance_id": "BK22000570.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지 피부를 보면 말라세지아 피부병인지 아닌지 티가 나나요? 어떻게 하면 알 수 있나요?",
+            "turn_id": "BK22000570-3",
+            "utterance_id": "BK22000570.5"
+        },
+        {
+            "reference_date": "2020-03-12",
+            "reference_text": [
+                {
+                    "value": "개 51마리의 중 말라세지아 피부염과 함께 나타난 임상 증상으로는 지루, 탈모, 가려움증, 달짝지근한 냄새, 홍반, 과다색소침착 등이 있었다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.famtimes.co.kr/news/articleView.html?idxno=496616",
+            "search_query": "반려견 말라세지아 진단",
+            "terminate": false,
+            "text": "말라세지아 피부병이 동반하는 증상이 있어요. 지루나 탈모, 가려움증, 홍반, 과다색소 침착, 달큰한 냄새 등이에요.",
+            "turn_id": "BK22000570-3",
+            "utterance_id": "BK22000570.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 집 강아지가 말라세지아 피부병일 가능성이 높네요. 병원에서는 치료는 어떻게 하나요? 쉽게 낫는지 궁금해요.",
+            "turn_id": "BK22000570-4",
+            "utterance_id": "BK22000570.7"
+        },
+        {
+            "reference_date": "2020-03-12",
+            "reference_text": [
+                {
+                    "value": "감염이 발생한 귀나 피부에 사용할 수 있는 국소용 연고를 처방 받을 수도 있다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "말라세지아 피부염 증상이 중증 혹은 만성, 재발성인 경우 경구용 항균 치료제를 처방받을 수 있다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.famtimes.co.kr/news/articleView.html?idxno=496616",
+            "search_query": "말라세지아 피부병 치료",
+            "terminate": false,
+            "text": "감염 부위에 바르는 연고를 처방 받을 수 있고, 만성이나 재발성인 경우에는 경구용 항균 치료제를 처방 받을 수도 있어요.",
+            "turn_id": "BK22000570-4",
+            "utterance_id": "BK22000570.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "항진균제는 주의해야 한다는 말을 들은 적이 있어요. 반려견이 항진균제 처방 시 유의해야 할 점이 있나요?",
+            "turn_id": "BK22000570-5",
+            "utterance_id": "BK22000570.9"
+        },
+        {
+            "reference_date": "2019-08-16",
+            "reference_text": [
+                {
+                    "value": "항진균제 중 특정 약물은 간독성을 유발할 수 있기에 환자의 상태에 맞춰 사용해야 한다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "항진균제를 장기간 사용했을 때도 간독성이 일어날 수 있기 때문에 반드시 간수치를 확인해야한다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.k-health.com/news/articleView.html?idxno=45100",
+            "search_query": "반려견 말라세지아 항진균제",
+            "terminate": false,
+            "text": "항진균제 중에서 특정한 약물은 간독성을 유발할 수 있어요. 그렇기 때문에 반려견 상태에 맞게 처방해야 하죠. 장기간 복용해도 간독성 유발 위험이 있기 때문에 간수치를 확인하는 게 중요해요.",
+            "turn_id": "BK22000570-5",
+            "utterance_id": "BK22000570.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일단 병원부터 가서 진단해봐야겠네요. 쉽게 치료받을 수 있으면 좋겠는데, 괜히 강아지한테 미안한 마음이 드네요. 말라세지아 피부병 예방법도 알려주세요.",
+            "turn_id": "BK22000570-6",
+            "utterance_id": "BK22000570.11"
+        },
+        {
+            "reference_date": "2019-08-16",
+            "reference_text": [
+                {
+                    "value": "말라세지아 피부염을 예방하려면 목욕이나 수영 후 귀 세정제로 귀 청소를 해주고 남은 물기를 제거해야한다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "발가락 사이나 겨드랑이 등 피부가 접히는 부위는 잘 말려야 한다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려견의 피부가 지루성이면 적절한 항지루성 약용샴푸를 처방받아 주기적으로 사용하는 것도 방법이다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.k-health.com/news/articleView.html?idxno=45100",
+            "search_query": "말라세지아 피부병 예방",
+            "terminate": false,
+            "text": "목욕 후 물기 제거를 잘해줘야 해요. 특히 발가락 사이나 겨드랑이 등 피부가 접히는 부위를 잘 말려주는 게 중요하죠. 강아지 피부에 맞는 약용 샴푸를 처방받아서 주기적으로 사용하는 것도 좋고요.",
+            "turn_id": "BK22000570-6",
+            "utterance_id": "BK22000570.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "목욕도 자주 시키면 오히려 안 좋다고 하더라고요. 맞나요? 반려견 목욕 주기는 어느 정도가 적당할까요?",
+            "turn_id": "BK22000570-7",
+            "utterance_id": "BK22000570.13"
+        },
+        {
+            "reference_date": "2022-06-18",
+            "reference_text": [
+                {
+                    "value": "하지만 세균을 제거하기 위해 자주 목욕을 시키는 것은 금물입니다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "피부가 얇아 건조해지기 쉽고 비듬, 각질 등이 생길 수 있습니다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "강아지는 일반적으로 2~3주에 한 번 목욕하는 것이 적당합니다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 최소 3개월에 한 번은 꼭 하는 것이 좋습니다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202206171725499427",
+            "search_query": "반려견 피부병 목욕 주기",
+            "terminate": false,
+            "text": "맞아요. 자주 목욕시키면 건조해지기 쉽고 비듬이나 각질이 생길 수 있어요. 보통은 2주나 3주에 한 번이 좋아요. 최소 3달에 한 번은 꼭 해야 하고요.",
+            "turn_id": "BK22000570-7",
+            "utterance_id": "BK22000570.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 목욕 주기는 잘 지키고 있었던 것 같아요. 목욕 후에 잘 말리는 게 중요하다고 하셨잖아요. 강아지 목욕 전 주의 사항도 있나요?",
+            "turn_id": "BK22000570-8",
+            "utterance_id": "BK22000570.15"
+        },
+        {
+            "reference_date": "2022-06-18",
+            "reference_text": [
+                {
+                    "value": "털이 엉킨 상태로 목욕하면 털에 덮여있는 피부가 깨끗하게 씻기지 않을뿐더러 털이 더 엉킬 수 있습니다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "씻은 후에도 털이 잘 마르지 않아 피부병이 생길 수 있죠.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "목욕 전에는 강아지 전용 빗으로 털을 빗겨주는 것이 좋습니다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "털이 두껍고 덥수룩하게 자라는 장모견일수록 빗질은 필수입니다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202206171725499427",
+            "search_query": "반려견 목욕 전 주의사항",
+            "terminate": false,
+            "text": "목욕 전 강아지 전용 빗으로 털을 빗겨주면 좋아요. 털이 엉킨 채로 목욕을 하면 피부가 깨끗이 씻기지 않고, 털이 더 심하게 엉킬 수 있거든요. 씻은 후에도 잘 마르지 않고요. 장모견이라면 필수적으로 빗질을 해줘야 해요.",
+            "turn_id": "BK22000570-8",
+            "utterance_id": "BK22000570.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 생각은 못 해봤어요. 이제 무조건 빗질부터 하는 것으로. 혹시 여름철에 반려견 털 관리는 어떻게 하는 게 좋은지도 알고 계시나요?",
+            "turn_id": "BK22000570-9",
+            "utterance_id": "BK22000570.17"
+        },
+        {
+            "reference_date": "2022-06-07",
+            "reference_text": [
+                {
+                    "value": "간혹 강아지의 체온을 내리기 위해 여름만 되면 털을 빡빡 미는 경우가 있다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "강아지의 털은 자외선을 차단해주는 역할을 하는데, 이 털이 너무 짧아지면 자외선이 직접적으로 피부에 닿아 피부병을 유발한다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "털을 미는 것보다는 자주 빗질을 해주는 것이 좋다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailypop.kr/news/articleView.html?idxno=60449",
+            "search_query": "반려견 여름철 털 관리",
+            "terminate": false,
+            "text": "여름철만 되면 덥다고 강아지 털을 짧게 자르는 경우가 있는데요. 자외선이 직접적으로 피부에 닿아서 오히려 피부병을 유발할 수 있어요. 털이 자외선을 차단하는 역할을 하거든요. 빗질을 자주 해주는 게 오히려 더 좋아요.",
+            "turn_id": "BK22000570-9",
+            "utterance_id": "BK22000570.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "빗질의 중요성을 모르고 있었네요. 저희 집 강아지가 장모견은 아니지만 목욕 전은 물론이고 수시로 해줘야겠어요. 알려주셔서 감사해요.",
+            "turn_id": "BK22000570-10",
+            "utterance_id": "BK22000570.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아무쪼록 강아지 피부 관리 잘해주셔서 함께 건강한 여름 보내시기를 바랄게요. 또 궁금한 점 생기면 언제든 말씀하세요. 즐거웠습니다.",
+            "turn_id": "BK22000570-10",
+            "utterance_id": "BK22000570.20"
+        }
+    ]
+}

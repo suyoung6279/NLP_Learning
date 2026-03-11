@@ -1,0 +1,366 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006792",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006792",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이가 태어났는데 신경 쓸 것이 정말 많더라고요.",
+            "turn_id": "BK22006792-1",
+            "utterance_id": "BK22006792.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇죠. 아이가 태어나서 정신없는 시간을 보내고 있겠어요.",
+            "turn_id": "BK22006792-1",
+            "utterance_id": "BK22006792.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 정신없이 지내고 있어요. 혹시 유아기의 아이에 치아가 언제부터 나는 지 알고 있나요?",
+            "turn_id": "BK22006792-2",
+            "utterance_id": "BK22006792.3"
+        },
+        {
+            "reference_date": "2022-08-25",
+            "reference_text": [
+                {
+                    "value": "치아는 생후 6개월부터 나기 시작해 만 2세 정도가 되면 20개의 유치(젖니)가 모두 나온다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.namdonews.com/news/articleView.html?idxno=693080",
+            "search_query": "구강 관리 요령",
+            "terminate": false,
+            "text": "유아기 아이의 치아는 생후 6개월부터 나기 시작해 만 2세 정도가 되면 20개의 유치가 모두 나오게 돼요!",
+            "turn_id": "BK22006792-2",
+            "utterance_id": "BK22006792.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 이제 아이에게 양치도 알려줘야 하는데 제가 양치하는 방법을 제대로 알아야 할 것 같아요. 요즘 칫솔질만으로 관리가 잘 안되는 것 같은데 구강 관리 보조용품을 사용해야 할까요?",
+            "turn_id": "BK22006792-3",
+            "utterance_id": "BK22006792.5"
+        },
+        {
+            "reference_date": "2022-08-27",
+            "reference_text": [
+                {
+                    "value": "치실과 치간 칫솔은 거의 역할이 같다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "일반적인 칫솔질로는 닦이지 않는 치아 사이를 닦을 수 있다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "전동칫솔을 이용해 칫솔질을 정말 꼼꼼히 해도, 치실을 사용했을 때 치태가 묻어 나온다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "칫솔질을 아무리 열심히 해도 치아 사이가 깨끗이 닦이지 않는다는 의미다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2022082516542098372",
+            "search_query": "칫솔질",
+            "terminate": false,
+            "text": "전동칫솔을 이용해서 꼼꼼하게 칫솔질하거나 칫솔질을 열심히 해도 치실을 사용했을 때 치태가 묻어나오거든요. 치아 사이가 깨끗하게 닦이지 않는다는 의미이기 때문에 치아 사이를 닦을 수 있는 치실과 치간 칫솔을 선택적으로 사용해야 해요.",
+            "turn_id": "BK22006792-3",
+            "utterance_id": "BK22006792.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "보조용품을 잘 선택해서 써야 하는군요. 그런데 치간 칫솔을 쓰면 피가 나서 안 쓰게 되던데 피가 나도 사용해야 하나요?",
+            "turn_id": "BK22006792-4",
+            "utterance_id": "BK22006792.7"
+        },
+        {
+            "reference_date": "2022-06-09",
+            "reference_text": [
+                {
+                    "value": "치실과 치간 칫솔을 사용했는데, 잇몸에서 피가 나 당황스러운 마음에 사용을 중단했다는 사람이 많다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 그럼에도 치실과 치간 칫솔을 계속 쓰는 게 맞다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "피가 나는 것은 잇몸이 세균에 의해 붓고 약해진 상태임을 의미하기 때문이다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/06/09/2022060902015.html",
+            "search_query": "올바른 칫솔 사용법",
+            "terminate": false,
+            "text": "치간 칫솔을 사용했는데 잇몸에서 피가 나 당황스러워서 사용을 중단하는 경우도 많은데요. 하지만 피가 나는 것은 잇몸이 세균에 의해 붓고 약해진 상태를 의미하므로 계속해서 치간 칫솔을 쓰는 게 맞아요.",
+            "turn_id": "BK22006792-4",
+            "utterance_id": "BK22006792.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 사용하는 게 좋겠네요. 혹시 입을 헹구는 물은 어떤 온도인 것이 좋나요?",
+            "turn_id": "BK22006792-5",
+            "utterance_id": "BK22006792.9"
+        },
+        {
+            "reference_date": "2022-08-03",
+            "reference_text": [
+                {
+                    "value": "강릉영동대학 치위생과 연구팀이 밝힌 바로, 칫솔질 후 입을 헹굴 땐 따뜻한 물을 사용하는 게 가장 좋다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "잇몸병이 없는 사람 30명이 20도의 찬물, 35도의 미지근한 물, 50도의 따뜻한 물로 각각 입을 헹궜을 때, 치태와 구취가 가장 많이 개선된 건 50도의 따뜻한 물에서였다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/08/03/2022080302101.html",
+            "search_query": "올바른 칫솔질",
+            "terminate": false,
+            "text": "입을 헹구는 물은 따뜻한 물을 쓰는 것이 좋아요. 강릉영동대학 치위생과 연구팀이 밝힌 내용에 따르면 50도의 따뜻한 물에서 치태와 구취가 가장 많이 개선되었다고 하고요.",
+            "turn_id": "BK22006792-5",
+            "utterance_id": "BK22006792.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 들어보니까 칫솔에 세균이 많다고 하던데 사실인가요?",
+            "turn_id": "BK22006792-6",
+            "utterance_id": "BK22006792.11"
+        },
+        {
+            "reference_date": "2022-05-04",
+            "reference_text": [
+                {
+                    "value": "하지만 칫솔에는 화장실 변기보다 많은 유해균이 서식한다는 말이 있으며 칫솔을 살균하지 않고 사용하면 세균이 치아에 옮겨와 충치를 일으킬 수도 있다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2022050409370004626?did=NA",
+            "search_query": "칫솔 균",
+            "terminate": false,
+            "text": "칫솔에는 화장실 변기보다 유해균이 많다는 말도 있을 정도로 균이 많은데요~ 그렇기에 적절하게 칫솔을 살균하지 않고 사용하면 세균이 치아에 옮겨와 충치를 일으킬 수도 있다고 하고요.",
+            "turn_id": "BK22006792-6",
+            "utterance_id": "BK22006792.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 흘려들었던 내용이 사실이었군요, 그렇다면 칫솔은 어떻게 관리하는 것이 좋나요?",
+            "turn_id": "BK22006792-7",
+            "utterance_id": "BK22006792.13"
+        },
+        {
+            "reference_date": "2022-07-29",
+            "reference_text": [
+                {
+                    "value": "손쉽게 칫솔 세균을 살균하려면 '식초'를 이용해보자.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만, 식초는 냄새 등의 이유로 사용이 번거로울 수 있다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이때는 구강청결제를 사용하는 게 좋다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "희석시키지 않은 구강청결제를 컵에 조금 덜어 칫솔을 5분간 담가놓으면 칫솔 살균 효과를 제대로 볼 수 있다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "칫솔 살균은 1주일에 한 번씩 할 것을 권장한다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/07/29/2022072901837.html",
+            "search_query": "칫솔 세균",
+            "terminate": false,
+            "text": "칫솔을 살균하려면 식초를 사용하면 되는데요. 식초가 냄새 때문에 싫다면 희석하지 않은 구강청결제를 준비해서 5분간 담가 놓으면 칫솔 살균 효과를 볼 수 있어요. 이 살균은 1주일에 한 번씩 해주는 게 좋고요.",
+            "turn_id": "BK22006792-7",
+            "utterance_id": "BK22006792.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "칫솔 살균은 알려주신 대로 열심히 관리해야겠어요. 혹시 칫솔 교체는 얼마마다 해주면 되나요?",
+            "turn_id": "BK22006792-8",
+            "utterance_id": "BK22006792.15"
+        },
+        {
+            "reference_date": "2022-06-17",
+            "reference_text": [
+                {
+                    "value": "칫솔 교체 주기는 3개월이 적절하다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만, 솔이 손상됐다면 치아에 치태를 남기기 때문에 즉시 바꿔줘야 한다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/06/17/2022061701664.html",
+            "search_query": "칫솔 교체",
+            "terminate": false,
+            "text": "보통은 3개월마다 교체해주면 되고요. 혹시 그 전에 칫솔의 솔이 손상되었다면 교체해주는 것이 좋아요. 솔이 손상된 상태로 쓰면 치아에 치태를 남길 수 있거든요.",
+            "turn_id": "BK22006792-8",
+            "utterance_id": "BK22006792.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "교체 주기를 따로 표시해두고 꼭 교체해야겠어요. 혹시 충치에 좋은 치약이 따로 있나요?",
+            "turn_id": "BK22006792-9",
+            "utterance_id": "BK22006792.17"
+        },
+        {
+            "reference_date": "2022-07-18",
+            "reference_text": [
+                {
+                    "value": "따라서 치약에는 충치 발생을 억제하는 성분인 불소가 꼭 들어가야 한다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://magazine.hankyung.com/business/article/202207086534b",
+            "search_query": "치약선택",
+            "terminate": false,
+            "text": "불소가 들어간 치약을 선택하면 충치 발생을 억제하는 데 도움이 돼요. 참고해서 치약을 선택하면 되죠.",
+            "turn_id": "BK22006792-9",
+            "utterance_id": "BK22006792.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 감사해요. 덕분에 아이와 저 모두 구강 관리를 잘할 수 있을 것 같아요! 또 궁금한 것이 있으면 물어봐도 되죠?",
+            "turn_id": "BK22006792-10",
+            "utterance_id": "BK22006792.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "물론이죠! 오늘 이야기한 정보가 도움이 되었다니 다행이네요. 그럼, 다음에 또 이야기해요.",
+            "turn_id": "BK22006792-10",
+            "utterance_id": "BK22006792.20"
+        }
+    ]
+}

@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018928",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018928",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 한강 공원을 산책하던 강아지가 독사에 물렸대. 한강에 독사라니 생각도 못 했다.",
+            "turn_id": "BK22018928-1",
+            "utterance_id": "BK22018928.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 사고가 발생한 장소가 산책로 바로 옆이었다며? 사람들이 오가는 장소에서 독사에 물릴지 누가 예상했겠어.",
+            "turn_id": "BK22018928-1",
+            "utterance_id": "BK22018928.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "독사가 강아지를 물은 적이 이번이 처음이 아니라던데, 또 이런 사건이 있었어?",
+            "turn_id": "BK22018928-2",
+            "utterance_id": "BK22018928.3"
+        },
+        {
+            "reference_date": "44846.0",
+            "reference_text": [
+                {
+                    "value": "지난 9월 27일에도 한 네티즌이 반려견과 한강시민공원을 산책하던 도중 반려견이 독사에 물려 두 앞다리가 괴사하기 직전이라며 인터넷에 사진을 게재하기도 했다.",
+                    "value_time": "44848.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이외에도 지난 2014년 산책하던 남성이 독사에 물리는 등 한강 주변에서의 독사 물림 사고는 끊임없었다.",
+                    "value_time": "44848.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000739181",
+            "search_query": "한강공원 반려견 독사물림사고",
+            "terminate": false,
+            "text": "2021년 9월 27일에도 한 누리꾼이 강아지와 한강시민공원을 산보하던 중간에 강아지 두 앞다리를 독사에게 물려 괴사하기 직전이라며, 인터넷에 사진을 올리기도 했어. 그밖에 지난 2014년 한강 주변에서 산책하던 남자가 독사에 물리는 등 독사 물림 사고는 계속 있었어.",
+            "turn_id": "BK22018928-2",
+            "utterance_id": "BK22018928.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한강에서 계속 독사한테 물리는 사고가 있었는데 아무런 조치가 없었어?",
+            "turn_id": "BK22018928-3",
+            "utterance_id": "BK22018928.5"
+        },
+        {
+            "reference_date": "44846.0",
+            "reference_text": [
+                {
+                    "value": "이러한 이유로 한강공원에서는 공원 곳곳에 독사를 주의하라는 표지판을 세워두었다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000739181",
+            "search_query": "한강공원 반려견 독사",
+            "terminate": false,
+            "text": "한강공원에서는 이러한 이유로 공원 이곳저곳에 독사를 조심하라는 표시판을 세우는 조치를 취했지.",
+            "turn_id": "BK22018928-3",
+            "utterance_id": "BK22018928.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "표지판에 조심하라는 이야기가 있어도 어떤 뱀을 조심해야하는지 모르는데, 한강에는 어떤 독사가 살고 있어? 봄에는 독사 물렸다는 소식을 못 들었는데 가을에 유독 이러한 사고가 많이 나는 이유가 따로 있어?",
+            "turn_id": "BK22018928-4",
+            "utterance_id": "BK22018928.7"
+        },
+        {
+            "reference_date": "44846.0",
+            "reference_text": [
+                {
+                    "value": "한강에는 꽃뱀으로 불리는 유혈목이와 대표적인 독사인 살모사가 서식하고 있다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 가을철에는 겨울잠을 대비해 뱀의 먹이활동이 늘어나면서 매우 공격적으로 변하는 시기다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000739181",
+            "search_query": "반려견 한강 독사 서식",
+            "terminate": false,
+            "text": "한강에는 대표적인 독사인 살모사와 꽃뱀으로 불리는 유혈목이가 살고 있어. 가을철에는 겨울잠에 대비해서 뱀의 먹이활동이 증가하고 이로 인해 몹시 공격적으로 바뀌는 시기라서 조심해야해.",
+            "turn_id": "BK22018928-4",
+            "utterance_id": "BK22018928.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가을이라서 한창 활동한거구나. 산책하다가 독사를 만나면 어떻게 행동해야 해?",
+            "turn_id": "BK22018928-5",
+            "utterance_id": "BK22018928.9"
+        },
+        {
+            "reference_date": "44846.0",
+            "reference_text": [
+                {
+                    "value": "따라서 산책 도중 뱀을 보아도 다가가지 말아야 하며, 조용히 자리를 피하는 것이 좋다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000739181",
+            "search_query": "한강공원 반려견산책 독사",
+            "terminate": false,
+            "text": "산책 중간 뱀을 봐도 접근하지 말아야 하고, 침착히 자리를 비켜가는 것이 좋아.",
+            "turn_id": "BK22018928-5",
+            "utterance_id": "BK22018928.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "보면 조용히 피하는 게 좋구나. 독사가 강아지의 어느 부위를 물 가능성이 높을까?",
+            "turn_id": "BK22018928-6",
+            "utterance_id": "BK22018928.11"
+        },
+        {
+            "reference_date": "44846.0",
+            "reference_text": [
+                {
+                    "value": "반려견의 경우, 산책을 하면서 주변의 냄새를 맡으려고 하므로 코 등 얼굴 부위를 물릴 위험이 크다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000739181",
+            "search_query": "반려견 한강 독사 얼굴부위",
+            "terminate": false,
+            "text": "강아지의 경우, 산책하면서 근처의 냄새를 느끼려 해서 코 등 얼굴 부위를 물릴 위험이 커.",
+            "turn_id": "BK22018928-6",
+            "utterance_id": "BK22018928.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각만해도 무서워. 아까 독사에게 다리를 물려서 괴사하기 직전이였다며. 강아지가 독사에 물리면 그 부분을 눌러서 독이 안퍼지게 해야하나?",
+            "turn_id": "BK22018928-7",
+            "utterance_id": "BK22018928.13"
+        },
+        {
+            "reference_date": "44846.0",
+            "reference_text": [
+                {
+                    "value": "그러므로 반려견이 되도록 너무 깊숙한 풀숲으로 들어가지 않도록 해야 하고, 만약 반려견이 독사에 물렸다면 함부로 압박하면 안 된다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "잘못된 방식으로 물린 부위를 압박하면 독이 빨리 퍼져 반려견 생명이 위험해지기 때문이다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000739181",
+            "search_query": "한강 독사 반려견 생명",
+            "terminate": false,
+            "text": "만일 강아지가 독사에 물렸다면, 막 누르면 안 돼. 물린 부위를 잘못된 방법으로 누르면 독이 빨리 퍼져 강아지 목숨이 위태로워지기 때문이야. 아무쪼록 강아지가 너무 풀숲 깊숙히 들어가지 않도록 해야 해.",
+            "turn_id": "BK22018928-7",
+            "utterance_id": "BK22018928.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면, 독사에 물렸을 때 어떻게 대처해야 해?",
+            "turn_id": "BK22018928-8",
+            "utterance_id": "BK22018928.15"
+        },
+        {
+            "reference_date": "44846.0",
+            "reference_text": [
+                {
+                    "value": "가장 좋은 방법은 즉시 가까운 동물 병원에 가는 것이다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000739181",
+            "search_query": "한강 반려견 독사 동물병원",
+            "terminate": false,
+            "text": "제일 좋은 방법은 물리자마자 바로 근처 동물 병원에 가는 거야.",
+            "turn_id": "BK22018928-8",
+            "utterance_id": "BK22018928.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그때까지 독이 안 퍼질까? 병원에 갈 때까지 독이 빨리 안 퍼지게 하려면 어떻게 해야 해?",
+            "turn_id": "BK22018928-9",
+            "utterance_id": "BK22018928.17"
+        },
+        {
+            "reference_date": "44846.0",
+            "reference_text": [
+                {
+                    "value": "독이 최대한 늦게 퍼지게 하기 위해서는 물린 부위가 최대한 심장보다 낮게 있도록 해야 하며 반려견이 스스로 걷거나 뛰지 않도록 해야 한다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "심박수가 높아지면 그만큼 독이 퍼지는 속도가 빨라진다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000739181",
+            "search_query": "한강 반려견 독사 물린부위",
+            "terminate": false,
+            "text": "심박수가 올라가면, 그만치 독이 퍼지는 속도가 빨라지기 때문에 강아지가 직접 걸어가거나 달리지 않도록 해야 해. 그리고 최대한 심장보다 물린 부위가 낮게 있도록 해야 독이 최대한 느리게 퍼져.",
+            "turn_id": "BK22018928-9",
+            "utterance_id": "BK22018928.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산책로 근처에 있는 동물병원 위치랑 연락처를 미리 저장해 놔야겠다.",
+            "turn_id": "BK22018928-10",
+            "utterance_id": "BK22018928.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "맞아, 긴급상황이 생기면 바로 갈 수 있게 알아둬.",
+            "turn_id": "BK22018928-10",
+            "utterance_id": "BK22018928.20"
+        }
+    ]
+}

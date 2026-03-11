@@ -1,0 +1,377 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015403",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015403",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0029"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0010"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엊그제부터 제가 키우는 고양이가 혈뇨를 보기 시작하더라고요. 놀래서 동물 병원에 데려갔더니 방광염이라는 진단받았어요. 그런데 방광염이 요도폐색으로 진행될 수 있다는 얘길 들었는데 요도 폐색이라는게 뭔가요?",
+            "turn_id": "BK22015403-1",
+            "utterance_id": "BK22015403.1"
+        },
+        {
+            "reference_date": "2022-09-16",
+            "reference_text": [
+                {
+                    "value": "요도폐색은 방광염으로 인해 발생한 다량의 슬러지가 요도를 통해 배출되다가 막히면서 소변을 보지 못하고 이에 따라 급성신부전이 발생해 생명을 위협한다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61160",
+            "search_query": "요도폐색",
+            "terminate": false,
+            "text": "요도폐색은 방광염으로 인해 발생한 다량의 슬러지가 요도를 지나 나오다가 막히면서 소변을 못 보는 병이에요. 이에 따라 급성신부전이 발병해 생명을 위협하죠.",
+            "turn_id": "BK22015403-1",
+            "utterance_id": "BK22015403.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 요도폐색이 오기 전에 빨리 치료하는 게 중요하겠네요. 다행히 저희집 고양이는 혈뇨 때문에 빨리 발견하고 병원에 데려갈 수 있었는데, 방광염을 알 수 있는 다른 증상도 있나요?",
+            "turn_id": "BK22015403-2",
+            "utterance_id": "BK22015403.3"
+        },
+        {
+            "reference_date": "2022-09-16",
+            "reference_text": [
+                {
+                    "value": "방광염 발생 시 혈뇨나 화장실을 자주 들락거리는 증상을 보인다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "방광염이 요도폐색을 유발했을 때 24~48시간 이내에 해결되지 않으면 치명적인 합병증이 발생할 수 있다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "화장실에 머무는 시간이 길다면 화장실 모래를 잘 관찰해 소변이 적게 나오는지 혹시 소변을 못 보고 있는 것은 아닌지 반드시 확인하고 조기에 검사 및 치료를 진행해야 한다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61160",
+            "search_query": "요도폐색 합병증",
+            "terminate": false,
+            "text": "궁금이님의 고양이처럼 혈뇨를 보거나, 화장실을 자주 들락거린다면 방광염을 의심해볼 수 있어요. 고양이가 화장실에 오래 머문다면 모래를 관찰하여 소변을 잘 보고 있는지를 확인해야 해요. 방광염이 요도폐색으로 이어졌을 때 24~48시간 이내에 치료받지 못하면 합병증으로 생명이 위험할 수 있으니 조기에 발견하여 검사 및 치료를 하는 게 중요해요.",
+            "turn_id": "BK22015403-2",
+            "utterance_id": "BK22015403.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이에게 치명적인 병이네요. 그런데 수의사가 말하길 요도폐색이 저희 고양이 처럼 수컷에게 더 흔하다고 하던데 그 이유가 뭔가요?",
+            "turn_id": "BK22015403-3",
+            "utterance_id": "BK22015403.5"
+        },
+        {
+            "reference_date": "2022-09-16",
+            "reference_text": [
+                {
+                    "value": "이러한 요도폐색은 암컷보다는 수컷 고양이에서 주로 발생한다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수컷은 요도가 더 길고 끝부분이 급격히 가늘어져 슬러지가 원활히 배출되지 못하고 막힐 때가 많기 때문이다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61160",
+            "search_query": "수컷 요도폐색",
+            "terminate": false,
+            "text": "요도폐색은 암컷 고양이보다 수컷 고양이에게서 훨씬 잘 생겨요. 왜냐하면 수컷은 요도가 더 길고 끝부분이 급격히 좁아져서 슬러지가 순조롭게 배출되지 못하고 막힐때가 많기 때문이에요.",
+            "turn_id": "BK22015403-3",
+            "utterance_id": "BK22015403.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 이유가 있었군요. 그러면 요도폐색으로 병원에 방문하면 어떤 치료를 받게 되나요?",
+            "turn_id": "BK22015403-4",
+            "utterance_id": "BK22015403.7"
+        },
+        {
+            "reference_date": "2022-09-16",
+            "reference_text": [
+                {
+                    "value": "요도폐색으로 병원을 방문하면 요도카테터를 이용해 막힌 요도를 뚫어주고 방광염 치료를 함께 시행한다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "끈적한 슬러지나 결석이 요도를 꽉 막고 있거나 요도염증이 심하면 카테터를 통한 개통이 쉽지 않고 시술 중 요도 손상이 발생할 수 있어 숙련된 기술과 경험이 중요하다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61160",
+            "search_query": "요도폐색 요도카테터",
+            "terminate": false,
+            "text": "요도폐색으로 병원을 찾게 되면 요도카테터를 사용해 막힌 요도를 열어주고 방광염 치료를 함께 진행해요. 만약 끈적한 슬러지나 결석이 요도를 가득히 막고 있거나 요도염증이 심하면 카테터를 통한 개통이 어렵고 시술 중 요도에 해가 갈 수도 있어서 숙련된 기술과 경험을 가진 병원에 찾아 가시는 게 좋아요.",
+            "turn_id": "BK22015403-4",
+            "utterance_id": "BK22015403.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 말씀하신 것처럼 카테터를 통한 개통이 어려울 정도로 요도가 심하게 막히거나 요도염증이 심한 경우에는 어떻게 하나요?",
+            "turn_id": "BK22015403-5",
+            "utterance_id": "BK22015403.9"
+        },
+        {
+            "reference_date": "2022-09-16",
+            "reference_text": [
+                {
+                    "value": "카테터 장착이 불가능할 정도로 막혔거나 요도폐색이 2~3회 이상 재발한 상황이라면 좀 더 근본적인 해결을 위한 회음요도루성형술(perineal urethrostomy)이 권장된다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "회음요도루성형술이란 폐색이 주로 발생하는 좁은 요도 끝부분을 잘라주고 새로운 개구부를 만들어주는 수술이다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수컷의 생식기가 마치 암컷의 구조와 같아지는 것으로 생각하면 된다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "넓어진 요도를 통해 슬러지가 생기더라도 원활히 배출되도록 해 요도폐색을 예방하는 것이 목적이다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61160",
+            "search_query": "회음요도루성형술",
+            "terminate": false,
+            "text": "그런 상황이라면 좀 더 핵심적인 해결을 위해 회음요도루성형술이 필요해요. 회음요도루성형술이란 폐색이 대부분 생기는 좁은 요도 끝부분을 잘라주고 새 개구를 형성시켜주는 수술이에요. 수컷의 생식기가 흡사 암컷의 구조처럼 되는 것으로 생각하면 돼요. 확장된 요도를 통해 슬러지가 발생하더라도 부드럽게 배출되도록 해 요도폐색을 막는 것이 목적이죠.",
+            "turn_id": "BK22015403-5",
+            "utterance_id": "BK22015403.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그럼 회음요도루성형술을 진행하면 방광염이나 요도폐색은 더 이상 발생하지 않나요?",
+            "turn_id": "BK22015403-6",
+            "utterance_id": "BK22015403.11"
+        },
+        {
+            "reference_date": "2022-09-16",
+            "reference_text": [
+                {
+                    "value": "방광염이 완벽히 해결되는 수술은 아니지만 치명적인 응급상황을 피할 수 있어 보호자와 반려묘가 느끼는 만족도가 높은 수술 중 하나다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61160",
+            "search_query": "방광염",
+            "terminate": false,
+            "text": "아니요, 방광염 재발을 완전히 막는 수술은 아니지만, 치명적인 응급상황은 피할 수 있어 보호자와 반려묘가 느끼는 만족도가 높은 수술 중 하나죠.",
+            "turn_id": "BK22015403-6",
+            "utterance_id": "BK22015403.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 수술하더라도 재발 될 수 있다고 하셨는데, 방광염을 예방하기 위해서는 어떻게 해야 하나요?",
+            "turn_id": "BK22015403-7",
+            "utterance_id": "BK22015403.13"
+        },
+        {
+            "reference_date": "2022-09-16",
+            "reference_text": [
+                {
+                    "value": "일단 가장 큰 원인인 스트레스에 대한 관리가 중요하다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "캣타워를 설치해 반려묘가 안정적으로 쉬고 놀 수 있는 공간을 조성해주고 스크래처, 장난감 등 스트레스를 풀 수 있는 다양한 놀잇거리를 제공해 주도록 한다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61160",
+            "search_query": "스트레스 관리",
+            "terminate": false,
+            "text": "일단 제일 큰 이유인 스트레스에 대한 관리가 중요해요. 캣타워를 놓아서 반려묘가 편안하게 쉬고 놀 수 있는 공간을 마련해주고 스크래처, 장난감 등 스트레스를 해소할 수 있는 여러 놀잇감을 제공해 주어야 해요.",
+            "turn_id": "BK22015403-7",
+            "utterance_id": "BK22015403.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려묘가 스트레스를 받지 않도록 더 신경 써야겠네요. 방광염을 예방하는 또 다른 방법도 있을까요?",
+            "turn_id": "BK22015403-8",
+            "utterance_id": "BK22015403.15"
+        },
+        {
+            "reference_date": "2022-09-16",
+            "reference_text": [
+                {
+                    "value": "스트레스 관리 못지않게 중요한 것이 음수량 늘리기다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "충분한 수분섭취를 통해 방광 내 슬러지가 농축되지 않고 원활히 배출되도록 유도하는 것이 중요하다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고양이는 하루에 체중 1kg당 50~70mL 정도의 물을 섭취하는 것이 권장된다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "반려묘의 기호도를 고려해 고양이 분수대를 설치하거나 여러 곳에 물그릇을 두는 것이 좋다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61160",
+            "search_query": "음수량 늘리기",
+            "terminate": false,
+            "text": "네, 음수량을 늘리는 것도 매우 중요해요. 충분히 수분섭취를 하면 방광 내 슬러지가 쌓이지 않게 되고 원활히 배출되거든요. 고양이는 하루에 체중 1kg당 50~70mL 정도의 물을 마시는 것이 권고되고요. 그리고 반려묘의 기호도를 고려해 고양이 분수대를 두거나 여러 곳에 물그릇을 놓는 것이 좋아요.",
+            "turn_id": "BK22015403-8",
+            "utterance_id": "BK22015403.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이의 음수량을 늘리는게 중요하다고 하셨는데 저희 집 고양이는 그냥 물을 잘 안마시는 것 같은데 다른 방법은 없을까요?",
+            "turn_id": "BK22015403-9",
+            "utterance_id": "BK22015403.17"
+        },
+        {
+            "reference_date": "2022-09-16",
+            "reference_text": [
+                {
+                    "value": "순수한 물만 먹이기 어렵다면 건사료 대신 습식사료를 주는 것도 좋은 방법이다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "방광이 건강한 기능을 하도록 도울 수 있는 보조제를 복용하는 것도 추천되며 정기적인 검진을 통해 미리 반려묘의 건강상태를 파악하는 것도 중요하다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61160",
+            "search_query": "습식사료 보조제",
+            "terminate": false,
+            "text": "만약 순수한 물만 먹이기 쉽지 않다면 건사료 대신 습식사료를 제공하는 것도 좋은 방법이에요. 또 방광이 건강한 기능을 하도록 돕는 보조제를 복용하는 것도 추천해 드려요.",
+            "turn_id": "BK22015403-9",
+            "utterance_id": "BK22015403.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 방법이 있었군요. 오늘 좋은 정보 알려주셔서 감사합니다. 그럼 저는 이만 들어가 볼게요.",
+            "turn_id": "BK22015403-10",
+            "utterance_id": "BK22015403.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 고양이 케어 잘하시고 다음에 또 봬요.",
+            "turn_id": "BK22015403-10",
+            "utterance_id": "BK22015403.20"
+        }
+    ]
+}

@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016612",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016612",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "주위에 반려동물을 잃고 슬퍼하는 사람들이 많은데 펫로스 증후군이 뭔 지 알 수 있을까?",
+            "turn_id": "BK22016612-1",
+            "utterance_id": "BK22016612.1"
+        },
+        {
+            "reference_date": "44819.0",
+            "reference_text": [
+                {
+                    "value": "반려동물을 키우는 인구 수가 늘면서 반려동물이 세상을 떠난 뒤 이로 인한 정신적 어려움을 호소하는 사람도 많아지고 있다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이를 ‘펫로스 증후군(Pet Loss Syndrome)’이라 한다.",
+                    "value_time": "44833.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/09/14/2022091402008.html",
+            "search_query": "펫로스 증후군",
+            "terminate": false,
+            "text": "반려동물을 키우는 사람들이 증가하면서, 반려동물이 죽고 나서 정신적으로 어려움을 느끼는 사람 또한 늘어나고 있는데 이것을 펫로스 증후군이라고 해.",
+            "turn_id": "BK22016612-1",
+            "utterance_id": "BK22016612.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마나 많은 사람들이 펫로스 증후군을 겪어?",
+            "turn_id": "BK22016612-2",
+            "utterance_id": "BK22016612.3"
+        },
+        {
+            "reference_date": "44610.0",
+            "reference_text": [
+                {
+                    "value": "국민 네 명 중 한 명이 반려인(‘2020년 동물보호에 대한 국민의식조사’, 농림축산식품부)인 가운데 반려동물의 죽음을 경험한 보호자 중 절반이 펫로스 증후군을 겪었다는 조사 결과가 나왔다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/animalpeople/companion_animal/1027755.html",
+            "search_query": "펫로스 증후군 반려동물 보호자",
+            "terminate": false,
+            "text": "국민 4명 중에서 1명이 반려동물을 키우는 데 반려동물을 떠나보낸 경험이 있는 사람 중 절반이 펫로스 증후군을 겪었다는 결과가 있어.",
+            "turn_id": "BK22016612-2",
+            "utterance_id": "BK22016612.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "펫로스 증후군 증상으로는 어떤 것들이 있는지 알 수 있을까?",
+            "turn_id": "BK22016612-3",
+            "utterance_id": "BK22016612.5"
+        },
+        {
+            "reference_date": "44610.0",
+            "reference_text": [
+                {
+                    "value": "펫로스 증후군은 반려동물을 잃고 겪는 우울감, 죄책감, 수면장애, 식욕부진 등의 증상이 복합적으로 나타나거나 오랜 기간 이어져 일상생활의 어려움을 느끼는 것을 일컫는다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/animalpeople/companion_animal/1027755.html",
+            "search_query": "펫로스 증후군 증상",
+            "terminate": false,
+            "text": "키우던 동물을 잃고 나서 생기는 펫로스 증후군의 증상은 식욕이 저하되거나 우울감, 수면장애 및 죄책감 등의 증상이 복합적으로 발생하게 돼. 또 이러한 증상이 오랜시간 이어지면서 일상생활에 어려움을 느끼는 것을 말해.",
+            "turn_id": "BK22016612-3",
+            "utterance_id": "BK22016612.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지를 잃은 슬픔이 얼마나 클까?",
+            "turn_id": "BK22016612-4",
+            "utterance_id": "BK22016612.7"
+        },
+        {
+            "reference_date": "44607.0",
+            "reference_text": [
+                {
+                    "value": "그러나 미국수의사회(AVMA)는 반려동물이 죽었을 때 느끼는 슬픔을 가장 가까운 친구, 가족 혹은 자녀를 잃은 슬픔과 비슷하다고 설명한다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/animalpeople/human_animal/1027751.html",
+            "search_query": "반려동물 죽음 슬픔",
+            "terminate": false,
+            "text": "반려동물이 세상을 떠났을 때 느껴지는 슬픔은, 가족이나 친한 친구 또는 자식을 떠나보낸 슬픔과 비슷해.",
+            "turn_id": "BK22016612-4",
+            "utterance_id": "BK22016612.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 정도의 슬픔이라니 너무 크나큰 슬픔이다. 나중에 반려견을 떠나 보낼 생각을 하면 마음이 아프네.",
+            "turn_id": "BK22016612-5",
+            "utterance_id": "BK22016612.9"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "미리 슬퍼하지 말고 매 순간 강아지에게 모든 사랑을 전해줘.",
+            "turn_id": "BK22016612-5",
+            "utterance_id": "BK22016612.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래야겠다. 그런데 강아지가 죽고 나서 슬픈 감정은 얼마나 지나야 사라질까?",
+            "turn_id": "BK22016612-6",
+            "utterance_id": "BK22016612.11"
+        },
+        {
+            "reference_date": "44819.0",
+            "reference_text": [
+                {
+                    "value": "반려동물이 세상을 떠난 후 슬픈 감정(애도 반응)이 두 달 정도 지속되는 것은 정상 범주에 속한다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 슬픈 감정이 6개월 이상 길어져 일상생활이 어렵다면 치료가 필요하다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/09/14/2022091402008.html",
+            "search_query": "반려동물 슬픈감정 치료",
+            "terminate": false,
+            "text": "반려동물이 죽고 나서 2달 정도 슬픈 감정을 느끼는 것은 정상적인데 이런 감정이 6개월이 지나 일상생활에 지장이 생길 정도라면 치료를 받아야 해.",
+            "turn_id": "BK22016612-6",
+            "utterance_id": "BK22016612.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "만약 이런 슬픈 감정이 오래 지속되면 심리상담을 받는것도 도움이 될까?",
+            "turn_id": "BK22016612-7",
+            "utterance_id": "BK22016612.13"
+        },
+        {
+            "reference_date": "44776.0",
+            "reference_text": [
+                {
+                    "value": "펫로스 증후군에 제대로 대처하지 않으면 우울증이 되기도 한다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려동물을 잃은 후 일상생활이 매우 어렵거나, 증상이 오랜 기간 지속되면 심리상담센터나 정신건강의학과를 찾는 게 좋다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/08/03/2022080302147.html",
+            "search_query": "펫로스 증후군 심리상담",
+            "terminate": false,
+            "text": "펫로스 증후군에 대해 알맞은 조치를 취하지 않으면 우울증이 생기게 돼. 반려동물이 죽고 나서 일상생활이 너무 힘들거나, 장기간 펫로스 증후군 증상이 계속되면 정신건강의학과나 심리 상담 센터를 방문하는 게 좋아.",
+            "turn_id": "BK22016612-7",
+            "utterance_id": "BK22016612.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 강아지가 죽고 나서 생기는 극심한 슬픔을 오래 가져가지 않으려면 어떻게 해야 해?",
+            "turn_id": "BK22016612-8",
+            "utterance_id": "BK22016612.15"
+        },
+        {
+            "reference_date": "44819.0",
+            "reference_text": [
+                {
+                    "value": "더불어 가능하다면 반려동물이 살아있을 때부터 이들이 나보다 먼저 세상을 떠날 것이라는 사실을 인지하는 게 중요하다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그래야 반려동물의 사망을 받아들이지 못하는 심리적 부정단계가 짧아진다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/09/14/2022091402008.html",
+            "search_query": "반려동물 사망 인지",
+            "terminate": false,
+            "text": "반려동물이 살아있을 때부터 나보다 일찍 죽는다는 것을 인지해야 해. 그래야 반려동물이 세상을 떠난 것을 수용하지 못하는 심리적 부정 단계를 단축시킬 수 있거든.",
+            "turn_id": "BK22016612-8",
+            "utterance_id": "BK22016612.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지의 죽음을 미리 생각하는 것도 너무 힘들어. 그런데, 이미 강아지를 떠나보낸 사람은 어떻게 위로하는 게 좋을까?",
+            "turn_id": "BK22016612-9",
+            "utterance_id": "BK22016612.17"
+        },
+        {
+            "reference_date": "44819.0",
+            "reference_text": [
+                {
+                    "value": "반려동물을 잃은 사람의 슬픔이 실제 가족을 잃은 정도로 극심할 것을 이해하고, 인정하고, 위로해야 한다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/09/14/2022091402008.html",
+            "search_query": "반려동물 잃은 사람 위로",
+            "terminate": false,
+            "text": "반려동물을 떠나보낸 사람의 슬픔을 가족이 죽었을 때처럼 끔찍하게 슬프다는 것을 인정하고, 이해하며 위로해 줘야 해.",
+            "turn_id": "BK22016612-9",
+            "utterance_id": "BK22016612.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지를 떠나보내면 정말 끔찍할 정도로 슬플 것 같아.",
+            "turn_id": "BK22016612-10",
+            "utterance_id": "BK22016612.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "강아지와 함께하는 시간들을 후회 없이, 매 순간 행복으로 채워나가길 바라.",
+            "turn_id": "BK22016612-10",
+            "utterance_id": "BK22016612.20"
+        }
+    ]
+}

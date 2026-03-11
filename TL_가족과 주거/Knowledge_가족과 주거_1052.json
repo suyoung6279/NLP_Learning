@@ -1,0 +1,337 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006411",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006411",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아직 초보 집사라 고양이에 대해 모르는 것이 너무 많아서 너에게 몇 가지 물어볼게. 우리 고양이가 단모종인데 목욕은 얼마마다 시키면 될까?",
+            "turn_id": "BK22006411-1",
+            "utterance_id": "BK22006411.1"
+        },
+        {
+            "reference_date": "2022-06-22",
+            "reference_text": [
+                {
+                    "value": "단모종은 목욕을 일 년에 한두 번만 해도 충분합니다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "혹은 수건에 따듯한 물을 묻혀 그루밍하기 어려운 얼굴과 그 주변을 닦는 정도로만 관리해도 좋습니다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202206220852260074",
+            "search_query": "고양이 단모종 목욕",
+            "terminate": false,
+            "text": "단모종 고양이는 목욕을 일 년에 한두 번만 시키거나, 그루밍하기 어려운 얼굴과 그 주변만 따뜻한 물을 묻힌 수건으로 닦아줘도 돼.",
+            "turn_id": "BK22006411-1",
+            "utterance_id": "BK22006411.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그루밍하니까 목욕을 자주 시키지 않아도 되는 거구나. 근데 고양이들은 그루밍을 왜 하는 거야?",
+            "turn_id": "BK22006411-2",
+            "utterance_id": "BK22006411.3"
+        },
+        {
+            "reference_date": "2021-01-18",
+            "reference_text": [
+                {
+                    "value": "고양이 혼자만 하는 그루밍은 고양이가 자신의 털에 묻은 불쾌한 것들을 스스로 제거하는 셀프케어(self-care)를 의미한다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.notepet.co.kr/news/article/article_view/?idx=21339&groupCode=AB400AD934",
+            "search_query": "고양이 그루밍",
+            "terminate": false,
+            "text": "고양이에게 그루밍은 셀프 케어라고 생각하면 돼. 고양이가 자기 몸에 붙은 불쾌한 것들을 셀프로 제거하는 거야.",
+            "turn_id": "BK22006411-2",
+            "utterance_id": "BK22006411.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그루밍은 깨끗하게 몸을 관리하게 위해 하는 거구나. 근데 우리 고양이는 정말 많은 시간 동안 그루밍하던데 맞는 거야?",
+            "turn_id": "BK22006411-3",
+            "utterance_id": "BK22006411.5"
+        },
+        {
+            "reference_date": "2019-09-29",
+            "reference_text": [
+                {
+                    "value": "고양이는 보통 깨어 있는 시간 중 최대 50%를그루밍하는데 써 위생을 적절히 유지합니다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=45684",
+            "search_query": "고양이 그루밍 이유",
+            "terminate": false,
+            "text": "고양이는 위생을 위해 깨어 있는 시간 중 최대 50% 정도를 그루밍을 위해 사용해.",
+            "turn_id": "BK22006411-3",
+            "utterance_id": "BK22006411.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이는 그루밍을 정말 오래 하는구나. 근데 귀는 그루밍하기 어려우니 따로 닦아줘야겠지?",
+            "turn_id": "BK22006411-4",
+            "utterance_id": "BK22006411.7"
+        },
+        {
+            "reference_date": "2018-12-04",
+            "reference_text": [
+                {
+                    "value": "하지만 귀까지는 하지 못하기 때문에 방치해두신다면 귀에 세균이 쌓여 피부병 질환이 발생할 수 있어 고양이 전용 귀 세정제를 이용해 꾸준히 귀를 닦아 청결히 관리해주시는 것이 중요합니다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dt.co.kr/contents.html?article_no=2018120402109954801001&ref=naver",
+            "search_query": "고양이 귀 관리",
+            "terminate": false,
+            "text": "응, 그루밍하기 어려운 귀는 관리해 주지 않고 방치하면 세균이 쌓이고 피부 질환이 생길 수 있어. 고양이 전용 세정제로 꾸준히 청결하게 해 주는 게 좋지.",
+            "turn_id": "BK22006411-4",
+            "utterance_id": "BK22006411.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이 귀 전용 세정제가 있구나. 하나 사서 관리해 줘야겠네. 근데 고양이는 그루밍하니까 빗질은 안 해 줘도 되는 거야?",
+            "turn_id": "BK22006411-5",
+            "utterance_id": "BK22006411.9"
+        },
+        {
+            "reference_date": "2020-03-17",
+            "reference_text": [
+                {
+                    "value": "빗질을 통해 그루밍으로 미처 처리되지 않은 여분의 죽은 털을 제거하는데, 이때 빗은 너무 자극적이지 않는 정도의 힘을 주어야 하며 재질과 빗질강도에 대한 확인이 필요하다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=122281",
+            "search_query": "고양이 관리",
+            "terminate": false,
+            "text": "아니, 그루밍으로 제거되지 않은 죽은 털을 제거해 주어야 해. 이때 빗질을 할 때는 자극적이지 않게 힘을 잘 조절하고, 빗의 재질과 강도를 확인해서 구매하는 것이 좋아.",
+            "turn_id": "BK22006411-5",
+            "utterance_id": "BK22006411.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어, 우리 고양이도 빗질해서 털을 관리해 줘야겠다. 그리고 가끔 고양이 행동에 대해 궁금할 때가 있어. 고양이가 배를 보고 누우면 만져 달라는 소리야?",
+            "turn_id": "BK22006411-6",
+            "utterance_id": "BK22006411.11"
+        },
+        {
+            "reference_date": "2022-05-12",
+            "reference_text": [
+                {
+                    "value": "고양이는 편안한 상태일 때 배를 보이고 눕는다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 안정감을 느낀다는 신호이지, 만져달라는 신호는 아니기 때문에 배를 함부로 쓰다듬어서는 안된다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000697072",
+            "search_query": "고양이 시그널",
+            "terminate": false,
+            "text": "고양이가 배를 보이고 눕는다는 것은 지금 상태가 편안하다는 의미야. 그렇지만 안정감을 느낀다는 거지, 만져달라는 의미는 아니니 쓰다듬지 않는 것이 좋아.",
+            "turn_id": "BK22006411-6",
+            "utterance_id": "BK22006411.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 고양이는 배를 함부로 만져서는 안 되는 거구나. 고양이가 작은 소리로 우는 건 왜 그래?",
+            "turn_id": "BK22006411-7",
+            "utterance_id": "BK22006411.13"
+        },
+        {
+            "reference_date": "2018-01-05",
+            "reference_text": [
+                {
+                    "value": "고양이는 배가 고프거나 사람과 소통을 하고 싶을 때 운다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이때 내는 소리는 크진 않다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?3194590",
+            "search_query": "고양이 우는 소리",
+            "terminate": false,
+            "text": "배가 고프거나 사람과 소통을 원할 때 작은 소리로 울어.",
+            "turn_id": "BK22006411-7",
+            "utterance_id": "BK22006411.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 우리 고양이는 배가 고프다는 의미로 많이 울었던 건가 보다. 우리 고양이는 옆집 고양이와 있으면 서로 털을 핥는 데 그건 왜 그러는 거야?",
+            "turn_id": "BK22006411-8",
+            "utterance_id": "BK22006411.15"
+        },
+        {
+            "reference_date": "2018-10-23",
+            "reference_text": [
+                {
+                    "value": "고양이들은 서로를 그루밍 해 주거나 친한 고양이에게 친근감을 표현할 때 털을 핥아 줍니다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ggilbo.com/news/articleView.html?idxno=556705",
+            "search_query": "고양이가 핥는 이유",
+            "terminate": false,
+            "text": "고양이들끼리 털을 핥아 주거나 그루밍해 주는 건 서로에 대한 친근감의 표시라고 보면 돼.",
+            "turn_id": "BK22006411-8",
+            "utterance_id": "BK22006411.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "서로 핥아 주면서 친하게 지내는 거구나. 또 궁금한 것이, 우리 고양이는 내 가방 안에 계속 들어가 숨는 행동을 하는데 그건 왜 그래?",
+            "turn_id": "BK22006411-9",
+            "utterance_id": "BK22006411.17"
+        },
+        {
+            "reference_date": "2017-09-08",
+            "reference_text": [
+                {
+                    "value": "고양이들은 작은 박스나 가방 등 좁은 공간에 몸을 구겨 넣는 것을 즐긴다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "몸에 꼭 맞는 좁고 어두운 공간에서 안정감을 느끼는 습성 때문이다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/118985",
+            "search_query": "고양이 행동",
+            "terminate": false,
+            "text": "고양이들은 작은 박스, 가방 같은 좁은 곳에 들어가는 것을 좋아해. 고양이들은 어둡고 몸에 꼭 맞는 공간에 가면 안정감을 느끼거든.",
+            "turn_id": "BK22006411-9",
+            "utterance_id": "BK22006411.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이가 계속 가방 안에 들어가서 이유가 궁금했는데 그런 이유구나. 오늘 고양이에 대한 궁금증을 많이 풀어줘서 고마워.",
+            "turn_id": "BK22006411-10",
+            "utterance_id": "BK22006411.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "고맙긴, 더 궁금한 것 있으면 언제든지 물어봐. 우리는 다음에 보자, 안녕.",
+            "turn_id": "BK22006411-10",
+            "utterance_id": "BK22006411.20"
+        }
+    ]
+}

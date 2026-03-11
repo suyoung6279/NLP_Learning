@@ -1,0 +1,321 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016813",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016813",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "드디어 아이 아빠가 되었어. 카페에서 육아 정보를 찾다 보니 터미타임이라는 말이 나오던데, 터미타임이라고 아니?",
+            "turn_id": "BK22016813-1",
+            "utterance_id": "BK22016813.1"
+        },
+        {
+            "reference_date": "44609.0",
+            "reference_text": [
+                {
+                    "value": "터미 타임(Tummy Time)이란 유아어로 배를 뜻하는 'Tummy'와 시간을 뜻하는 'Time'을 합친 말로, 아기가 엎드려 있는 시간 또는 아기를 엎드려 놓는 자세를 의미한다.",
+                    "value_time": "44836.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=157199",
+            "search_query": "터미타임 의미",
+            "terminate": false,
+            "text": "터미타임의 터미는 유아어로 배를 뜻하고 타임인 시간을 합한 말이야. 이 말은 아기가 엎드려 있는 시간, 아기를 엎드려 놓는 자세를 터미타임이라고 해.",
+            "turn_id": "BK22016813-1",
+            "utterance_id": "BK22016813.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 의미였구나. 신생아 육아 정보를 찾기 전에 신생아 용어들 미리 알아둬야 할 듯해.",
+            "turn_id": "BK22016813-2",
+            "utterance_id": "BK22016813.3"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아기를 키우다 보면 당황스럽거나 혼란스러운 일이 많을 거야. 신생아 용어를 잘 알고, 관련 정보를 잘 숙지하고 있으면 육아하기 수월해질 거야.",
+            "turn_id": "BK22016813-2",
+            "utterance_id": "BK22016813.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아기에게 터미타임은 왜 하는 거야?",
+            "turn_id": "BK22016813-3",
+            "utterance_id": "BK22016813.5"
+        },
+        {
+            "reference_date": "44609.0",
+            "reference_text": [
+                {
+                    "value": "이는 아기의 팔, 어깨, 목, 허리 등의 힘을 키워주며, 후에 아이의 성장에 필요한 근육을 발달시켜준다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=157199",
+            "search_query": "터미타임 필요",
+            "terminate": false,
+            "text": "터미타임은 아기의 성장에 필요한 팔, 어깨, 목, 허리 등에 힘과 근육을 키워 주기 때문이지.",
+            "turn_id": "BK22016813-3",
+            "utterance_id": "BK22016813.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 아기에게 터미타임을 하는구나. 그럼, 터미타임은 언제부터 시도해야 하는 거야?",
+            "turn_id": "BK22016813-4",
+            "utterance_id": "BK22016813.7"
+        },
+        {
+            "reference_date": "44609.0",
+            "reference_text": [
+                {
+                    "value": "전문가들은 보통 생후 30일쯤부터 하루 1회 내지 2회 시행할 것을 권장하지만, 우리나라에서는 생후 50일에서 2개월 정도, 아기의 목에 힘이 생길 때쯤 터미 타임을 시도한다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=157199",
+            "search_query": "터미타임 시도",
+            "terminate": false,
+            "text": "전문가들이 권장하는 시간은 보통 태어난 지 30일쯤부터 하루에 1회 또는 2회지만, 우리나라는 아기의 목이 힘이 생기는 태어난 지 50일에서 2개월 사이에 시도해.",
+            "turn_id": "BK22016813-4",
+            "utterance_id": "BK22016813.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잘 기억해 둬야겠다. 터미타임을 해야 하는 시간은 언제가 좋을까?",
+            "turn_id": "BK22016813-5",
+            "utterance_id": "BK22016813.9"
+        },
+        {
+            "reference_date": "44609.0",
+            "reference_text": [
+                {
+                    "value": "터미 타임을 권장하는 시간은 ▷낮잠을 자고 난 후 ▷기저귀를 갈아준 10~20분 뒤 ▷수유하기 1시간 전 ▷목욕 후 등 아기가 편안하고 안정돼 있는 시간이 좋으며, 권장하지 않는 시간은 ▷수유 직후 ▷수유 후 1시간 정도 ▷기저귀 갈아준 직후 ▷아기가 피곤하거나 졸려할 때 등 이다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=157199",
+            "search_query": "터미타임 권장 시간",
+            "terminate": false,
+            "text": "권장 시간은 아기가 편안하고 안정된 낮잠을 잔 후 혹은 기저귀를 갈아주고 10분에서 20분이 지났을 때, 수유 한 시간 전, 목욕한 다음 등에 하면 좋아. 수유나 기저귀 갈아준 다음 바로 시작하거나, 수유하고 1시간이 지난 다음, 아기가 졸려 하거나 피곤해하는 시간은 피해야 해.",
+            "turn_id": "BK22016813-5",
+            "utterance_id": "BK22016813.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "터미타임을 장점으로는 어떤 것들이 있어?",
+            "turn_id": "BK22016813-6",
+            "utterance_id": "BK22016813.11"
+        },
+        {
+            "reference_date": "44609.0",
+            "reference_text": [
+                {
+                    "value": "터미 타임의 장점으로는 ▷배앓이 방지 ▷시각적인 발달 ▷심폐기능 강화 ▷예쁜 얼굴형과 두상 형성 등이 있으며, 유아 행동 발달 논문에 따르면, 아기의 낮 운동량을 높여 밤에 잠투정도 줄일 수 있다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=157199",
+            "search_query": "터미타임 장점",
+            "terminate": false,
+            "text": "터미타임을 하면 배앓이도 방지될 뿐만 아니라 시각 발달에도 도움이 돼. 또 심폐기능도 좋아지고 예쁜 얼굴형과 예쁜 두상을 만드는 데 도움을 줘. 그리고 유아 행동 발달 논문에 의하면 낮에 운동량을 높여줘서 아기의 잠투정도 줄일 수도 있어.",
+            "turn_id": "BK22016813-6",
+            "utterance_id": "BK22016813.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "터미타임에 대해 알려줘서 고마워. 그다음에 내가 잘 몰랐던 용어는 원더윅스야. 원더윅스가 뭐야?",
+            "turn_id": "BK22016813-7",
+            "utterance_id": "BK22016813.13"
+        },
+        {
+            "reference_date": "44609.0",
+            "reference_text": [
+                {
+                    "value": "원더 윅스(Wonder Weeks)란 아기가 정신·신체적으로 급성장하는 시기를 가리키는 말로, 평소보다 더 많이 울고 보채면서 부모를 힘들게 하는 때를 일컫는다.",
+                    "value_time": "44836.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "주로 영유아기 초반, 생후 20개월간 10번 정도 찾아온다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=157199",
+            "search_query": "원더윅스",
+            "terminate": false,
+            "text": "아기가 정신적으로나 육체적으로 갑자기 성장하는 시기를 원더윅스라 하는데, 부모가 힘들 정도로 평소보다 많이 울고 보채기는 시기를 말해. 대개 영유아기 초반에서 태어난 지 20개월 안에 10번 정도 겪어.",
+            "turn_id": "BK22016813-7",
+            "utterance_id": "BK22016813.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 많이 겪는구나. 아기가 원더윅스일 때 어떤 증상을 보여?",
+            "turn_id": "BK22016813-8",
+            "utterance_id": "BK22016813.15"
+        },
+        {
+            "reference_date": "44609.0",
+            "reference_text": [
+                {
+                    "value": "원더 윅스의 주요 증상으로는 ▷자주 보챔 ▷잠을 못 자거나 선잠에 듦 ▷주 양육자에게 집착 또는 낯가림이 생김 ▷새벽에 갑자기 깨서 움 ▷잘 먹지 않음이 있으며, 대처법으로는 ▷많이 안아주기 ▷마사지 해주기 ▷억지로 재우거나 먹이지 않기가 있다.",
+                    "value_time": "44836.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=157199",
+            "search_query": "원더윅스 증상",
+            "terminate": false,
+            "text": "자주 보채고, 선잠을 자면서 잠에 자주 깨기도 해. 낯가림이 생겨서 주 양육자에게 집착해 또 잘 먹지도 않고 갑자기 새벽에 깨서 울기도 하지. 이럴 때는 억지로 재우고 먹이지 않고, 자주 안아주고 마사지해주는 게 좋아.",
+            "turn_id": "BK22016813-8",
+            "utterance_id": "BK22016813.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이가 원더윅스 기간일 때는 내가 힘들더라도 원더윅스라고 생각하고 잘 달래 주어야겠어. 카페에서 모로반사라는 용어도 자주 쓰던데 이건 어떤 말이야?",
+            "turn_id": "BK22016813-9",
+            "utterance_id": "BK22016813.17"
+        },
+        {
+            "reference_date": "44609.0",
+            "reference_text": [
+                {
+                    "value": "신생아의 반사운동 중의 하나로써 누워 있는 위에서 바람이 불거나, 큰소리가 나거나, 머리나 몸의 위치가 갑자기 변하게 될 때 아기가 팔과 발을 벌리고 손가락을 밖으로 펼쳤다가 무엇을 껴안듯이 다시 몸쪽으로 팔과 다리를 움추리는 것을 말한다.",
+                    "value_time": "44836.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "모로반사와 같은 신생아의 반사운동은 출생 후 3개월 정도가 되면서부터 자연히 없어진다.",
+                    "value_time": "44836.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=157199",
+            "search_query": "모로반사",
+            "terminate": false,
+            "text": "신생아 반사운동 중 하나야. 누워 있는 아기 위에 바람이 불거나, 큰 소리, 혹은 머리나 몸의 위치가 갑자기 바뀌면, 아기가 팔과 발을 쭉 벌리고 손가락을 밖으로 펼쳤다 안듯 팔과 다리를 움츠리는 행동해. 이런 신생아 반사운동은 태어난 지 3개월 정도가 지나면 저절로 사라져.",
+            "turn_id": "BK22016813-9",
+            "utterance_id": "BK22016813.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "초보 아빠에게 어려운 용어에 대해 잘 알려줘서 고마워.",
+            "turn_id": "BK22016813-10",
+            "utterance_id": "BK22016813.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "육아는 힘들지만 너에게 행복을 줄 거야. 아기가 태어난 걸 축하해.",
+            "turn_id": "BK22016813-10",
+            "utterance_id": "BK22016813.20"
+        }
+    ]
+}

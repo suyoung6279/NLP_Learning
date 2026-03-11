@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018470",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018470",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조카가 감기에 걸린 줄 알았는데 중이염일 수도 있다고 하네. 아기들 중이염 증상 좀 알려 줄래?",
+            "turn_id": "BK22018470-1",
+            "utterance_id": "BK22018470.1"
+        },
+        {
+            "reference_date": "42676.0",
+            "reference_text": [
+                {
+                    "value": "A. 중이염은 귀의 중이강 내에 고름이나 물이 차는 질환이다.",
+                    "value_time": "44851.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "중이염의 가장 흔한 증상은 귀의 통증과 발열이다.",
+                    "value_time": "44851.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "말 못하는 어린 아이들의 경우 귀를 잡아당기고 보채거나 잘 먹지 않는 등의 증상을 보인다.",
+                    "value_time": "44851.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대부분의 경우 콧물, 코막힘 등의 코 증상이 같이 나타나기도 한다.",
+                    "value_time": "44851.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=42944",
+            "search_query": "아기 중이염 증상",
+            "terminate": false,
+            "text": "중이염은 중이강이라는 기관에 고름이 생기거나 물이 차서 발생하는 질환이에요. 귀에 통증이 느껴지거나 발열이 나는 것이 대표적인 증상이죠. 말을 못 하는 아기들은 귀를 잡아당기거나 보채고, 밥을 잘 먹지 않는 등의 모습이 나타나요. 대개 콧물이나 코막힘과 같은 증상이 같이 나타나죠.",
+            "turn_id": "BK22018470-1",
+            "utterance_id": "BK22018470.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 저번에도 중이염에 걸려서 병원에 다녀왔었거든? 중이염이 재발하기 쉬운 질환인가?",
+            "turn_id": "BK22018470-2",
+            "utterance_id": "BK22018470.3"
+        },
+        {
+            "reference_date": "44343.0",
+            "reference_text": [
+                {
+                    "value": "신정은 교수는 “아이들은 자가 면역 체계가 아직 완성되지 않았고, 어른들과 비교해 귀와 코, 목이 서로 더 가까이에 있어서, 한 곳에 문제가 생기면 그 옆으로 이동하고, 전파가 잘 되는 것”이라며 “이 때문에 감기에 걸린 후 중이염이나 축농증, 인후염 등이 생기는 것”이라고 말했다.",
+                    "value_time": "44851.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/05/27/2021052700847.html",
+            "search_query": "아기 중이염 재발",
+            "terminate": false,
+            "text": "아이들은 아직 자가 면역 체계가 완전하지 않으니까요. 또 어른들보다 귀와 코, 목이 서로 가까워서 한 곳에 문제가 생기면 다른 곳에 옮겨갈 확률이 높아요. 그래서 감기에 걸리고 나면 중이염이나 축농증 등의 증상이 나타나기 쉽죠.",
+            "turn_id": "BK22018470-2",
+            "utterance_id": "BK22018470.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 다음번에는 재발이 안 되게 예방할 수는 없을까?",
+            "turn_id": "BK22018470-3",
+            "utterance_id": "BK22018470.5"
+        },
+        {
+            "reference_date": "44343.0",
+            "reference_text": [
+                {
+                    "value": "소아중이염을 예방하기 위해서는 아이들을 돌보는 어른들의 위생관리가 우선이다.",
+                    "value_time": "44851.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "두 번째는 바이러스에 많이 노출될 수 있는 집단생활, 사람들이 많은 곳, 공공장소에 너무 자주 가는 것은 피하는 것.",
+                    "value_time": "44851.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "마지막으로 비염이나, 아데노이드 비대증, 편도 비대증 등 소아중이염을 악화시킬 수 있는 요인들은 미루지 않고 치료하는 것이 중요하다.",
+                    "value_time": "44851.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.medipana.com/article/view.php?news_idx=277130&sch_menu=1&sch_gubun=5",
+            "search_query": "아기 중이염 예방",
+            "terminate": false,
+            "text": "우선 아이들을 돌보는 어른들부터 위생에 신경을 써야 해요. 그리고 바이러스에 감염될 가능성이 높은 장소, 즉 사람들이 많은 곳이나 공공장소를 너무 자주 방문하는 것도 피하는 것이 좋죠. 비염, 아데노이드 비대증, 편도 비대증 등 중이염을 악화시킬 수 있는 질환들은 빨리 치료하는 것도 예방에 도움이 되죠.",
+            "turn_id": "BK22018470-3",
+            "utterance_id": "BK22018470.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그런데 중이염이 위험한 건 아니고 가볍게 지나가는 거 맞지?",
+            "turn_id": "BK22018470-4",
+            "utterance_id": "BK22018470.7"
+        },
+        {
+            "reference_date": "42943.0",
+            "reference_text": [
+                {
+                    "value": "이처럼 소아중이염은 대개 감기로 오인하고 적절한 치료시기를 놓치기 쉬워 만성화되기 때문에 각별한 주의를 요한다.",
+                    "value_time": "44851.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "소아 중이염은 심각한 후유증을 남길 수도 있는데 대표적인 증상으로는 지속적인 난청과 이명증이 동반되는 수가 있다.",
+                    "value_time": "44851.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "합병증은 염증의 확산에 따라 안면신경마비, 어지럼증, 뇌수막염 등이 있을 수 있다.",
+                    "value_time": "44851.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ikunkang.com/news/articleView.html?idxno=21862",
+            "search_query": "아기 중이염 위험",
+            "terminate": false,
+            "text": "소아 중이염을 감기로 생각해 적절한 시기에 치료하지 못하면 만성화될 수도 있어요. 난청이 지속되거나 이명증이 생기는 등 심각한 후유증을 남기기도 하고요. 또 염증이 점점 번지면 안면신경마비, 어지럼증, 뇌수막염 등에 걸릴 위험성도 있어요.",
+            "turn_id": "BK22018470-4",
+            "utterance_id": "BK22018470.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 너무 속상하다. 우리 조카만 걸리는 것 같아. 원래 아기들한테 중이염이 흔한 질병이야?",
+            "turn_id": "BK22018470-5",
+            "utterance_id": "BK22018470.9"
+        },
+        {
+            "reference_date": "44231.0",
+            "reference_text": [
+                {
+                    "value": "4일 질병관리청 국가건강정보포털에 따르면 생후 1세까지 62%, 생후 3세까지 83%가 최소 1회 이상 중이염에 걸린다는 외국의 보고가 있다.",
+                    "value_time": "44851.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "급성 중이염은 신생아때에는 빈도가 낮다가 생후 6개월이 지나면 급격히 높아지기 시작해 2세 전후에 가장 많이 발생한다.",
+                    "value_time": "44851.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20210203_0001327940&cID=13101&pID=13100",
+            "search_query": "아기 중이염 흔한",
+            "terminate": false,
+            "text": "외국의 한 조사에 따르면 생후 1세 안에 중이염에 걸릴 확률은 62% 생후 3세 안에 걸릴 확률은 83%이에요. 신생아 때는 급성 중이염 발병 빈도가 낮지만, 생후 6개월이 지나면서 발병 확률이 갑자기 높아지기 시작해요. 그래서 2세 전후에 중이염에 많이 걸리죠.",
+            "turn_id": "BK22018470-5",
+            "utterance_id": "BK22018470.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 흔한 질환이구나. 그래도 조심하는 게 좋으니까 아기가 중이염에 걸렸을 때 주의해야 하는 점도 좀 알려줘.",
+            "turn_id": "BK22018470-6",
+            "utterance_id": "BK22018470.11"
+        },
+        {
+            "reference_date": "43285.0",
+            "reference_text": [
+                {
+                    "value": "코를 풀 때 너무 세게 푸는 것도 중이염을 유발할 수 있으므로 한쪽씩 번갈아 푸는 것도 좋은 방법이다.",
+                    "value_time": "44851.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아기는 수유할 때 바닥에 뉘어 먹이기보다는 앉혀서 비스듬한 자세로 먹이는 것이 좋다.",
+                    "value_time": "44851.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.gnmaeil.com/news/articleView.html?idxno=376258",
+            "search_query": "아기 중이염 주의할 점",
+            "terminate": false,
+            "text": "코를 너무 세게 푸는 것도 중이염 발생의 원인이 되므로 코를 풀 때는 한 쪽씩 번갈아서 푸는 것이 좋아요. 아기를 수유할 때는 바닥에 눕힌 상태로 먹이지 말고 앉힌 다음 비스듬한 자세로 수유하세요.",
+            "turn_id": "BK22018470-6",
+            "utterance_id": "BK22018470.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수유 자세도 중이염에 영향을 미치는 거면, 아기들이 누워서 공갈젖꼭지를 빠는 것도 안 좋은 거야?",
+            "turn_id": "BK22018470-7",
+            "utterance_id": "BK22018470.13"
+        },
+        {
+            "reference_date": "44488.0",
+            "reference_text": [
+                {
+                    "value": "또 너무 오래 사용하면 치아 모양이 변형되거나 중이염이 발생할 수도 있다.",
+                    "value_time": "44851.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202110197723o",
+            "search_query": "아기 중이염 공갈젖꼭지",
+            "terminate": false,
+            "text": "공갈 젖꼭지를 너무 오래 사용하면 중이염 발생의 원인이 되기도 하고 치아 모양에도 좋지 않기 때문에 주의해야 해요.",
+            "turn_id": "BK22018470-7",
+            "utterance_id": "BK22018470.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마지막으로 아기들이 중이염 걸리면 치료는 어떻게 해? 항생제를 쓰나?",
+            "turn_id": "BK22018470-8",
+            "utterance_id": "BK22018470.15"
+        },
+        {
+            "reference_date": "43392.0",
+            "reference_text": [
+                {
+                    "value": "아이들은 귀 구조상 항생제를 쓰지 않아도 보통 중이염 발병 후 2주차에는 30-40%, 4주차에는 60%정도 자연 치유되기도 한다.",
+                    "value_time": "44851.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01203766619374560&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "아기 중이염 항생제",
+            "terminate": false,
+            "text": "아이들 같은 경우는 항생제를 쓰지 않아도 되는 경우가 많아요. 보통 중이염이 생기고 2주 차에 30~40%, 4주 차에는 60% 정도 확률로 자연적으로 치유되거든요.",
+            "turn_id": "BK22018470-8",
+            "utterance_id": "BK22018470.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 듣던 중 반가운 이야기네. 면역력을 키워주는 게 제일 좋을 것 같긴 하다.",
+            "turn_id": "BK22018470-9",
+            "utterance_id": "BK22018470.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 아이들도 어른도 면역력을 기르는 것이 질병을 예방하는 지름길이니까요.",
+            "turn_id": "BK22018470-9",
+            "utterance_id": "BK22018470.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조카 상태 어떤지 한 번 전화해 보고 또 궁금한 게 있으면 물어볼게!",
+            "turn_id": "BK22018470-10",
+            "utterance_id": "BK22018470.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 궁금한 게 있으시면 언제든지 불러주세요.",
+            "turn_id": "BK22018470-10",
+            "utterance_id": "BK22018470.20"
+        }
+    ]
+}

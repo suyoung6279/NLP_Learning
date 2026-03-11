@@ -1,0 +1,380 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013409",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013409",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신 초기인데 입덧 때문에 너무 힘들어요. 입덧은 언제까지 지속되나요?",
+            "turn_id": "BK22013409-1",
+            "utterance_id": "BK22013409.1"
+        },
+        {
+            "reference_date": "44617.0",
+            "reference_text": [
+                {
+                    "value": "통상 임신 6주 정도에 시작되어 12주 정도에 끝난다.",
+                    "value_time": "44768.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만, 일부 산모의 경우 입덧을 임신 기간 내내 겪기도 한다.",
+                    "value_time": "44768.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%85%EB%8D%A7",
+            "search_query": "입덧",
+            "terminate": false,
+            "text": "보통 임신 6주 정도에 시작돼서 12주 정도에 끝납니다. 하지만 일부 산모의 경우에는 임신 기간 내내 입덧을 겪기도 해요.",
+            "turn_id": "BK22013409-1",
+            "utterance_id": "BK22013409.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "입덧 기간이 빨리 끝났으면 좋겠어요. 요새 자꾸 졸린데, 이것도 임신과 관계가 있나요? 혹시 임신 초기라 그런 건가요?",
+            "turn_id": "BK22013409-2",
+            "utterance_id": "BK22013409.3"
+        },
+        {
+            "reference_date": "44717.0",
+            "reference_text": [
+                {
+                    "value": "소변이 자주 마렵고, 유방이 커지고, 자궁이 커지면서 배가 당기고 아픈 느낌이 들며, 몸이 무겁고 피로하며 쉽게 졸린다.",
+                    "value_time": "44768.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%84%EC%8B%A0",
+            "search_query": "임신",
+            "terminate": false,
+            "text": "임신 초기에는 몸이 무겁고 피로하며 쉽게 졸리는 증상이 있어요. 그 외에 배가 당기고 아프면서 소변이 자주 마렵고, 유방이 커지는 것도 임신 초기 증상입니다.",
+            "turn_id": "BK22013409-2",
+            "utterance_id": "BK22013409.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 요새 졸리던 게 임신 증상이었네요. 임신 초기에 유산이 흔하다던데, 왜 임신 초기에 유산이 잘 되는 건가요?",
+            "turn_id": "BK22013409-3",
+            "utterance_id": "BK22013409.5"
+        },
+        {
+            "reference_date": "44745.0",
+            "reference_text": [
+                {
+                    "value": "보통 유산의 80% 이상이 임신 첫 12주 이내에 발생한다.",
+                    "value_time": "44768.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 이런 임신 초기의 유산의 절반은 태아의 염색체 이상이 원인이다.",
+                    "value_time": "44768.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "태아 요인으로는 염색체 이상이 주 원인이며, 모성 요인은 감염, 내분비이상 당뇨, 약물이나 혈우병, 자궁 기형 등이 있다.",
+                    "value_time": "44768.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EC%82%B0",
+            "search_query": "유산",
+            "terminate": false,
+            "text": "일반적으로 유산의 80퍼센트 이상이 임신 12주 이내에 발생합니다. 임신 초기 유산의 절반을 차지하는 원인은 태아의 염색체 이상이에요. 그 외에 모성 요인으로는 감염, 약물, 혈우병, 내분비이상 당뇨, 자궁 기형 등이 있습니다.",
+            "turn_id": "BK22013409-3",
+            "utterance_id": "BK22013409.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이상 없이 아기가 잘 컸으면 좋겠어요. 주변에서 임신중독증 조심하라고 하던데, 임신중독증은 뭔가요?",
+            "turn_id": "BK22013409-4",
+            "utterance_id": "BK22013409.7"
+        },
+        {
+            "reference_date": "44627.0",
+            "reference_text": [
+                {
+                    "value": "임신중독증(妊娠中毒症, 영어: pre-eclampsia, PE)은 고혈압의 증세를 보이고 종종 많은 양의 단백뇨가 배출되는 임신 질환이다.",
+                    "value_time": "44768.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 질병은 임신 후기에 발생하며 시간이 지남에 따라 악화되는 것이 일반적이다.",
+                    "value_time": "44768.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%84%EC%8B%A0%EC%A4%91%EB%8F%85%EC%A6%9D",
+            "search_query": "임신중독증",
+            "terminate": false,
+            "text": "임신중독증이란 혈압이 높아지고, 종종 소변에서 단백질이 검출되는 임신 질환으로 임신 후기에 발생합니다. 일반적으로 시간이 갈수록 증세가 나빠집니다.",
+            "turn_id": "BK22013409-4",
+            "utterance_id": "BK22013409.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신중독증에 걸리는 원인이 뭔가요?",
+            "turn_id": "BK22013409-5",
+            "utterance_id": "BK22013409.9"
+        },
+        {
+            "reference_date": "44711.0",
+            "reference_text": [
+                {
+                    "value": "또 만성 고혈압, 만성 콩팥질환, 항인지질항체증후군, 당뇨, 비만, 혈전성향증, 다태임신, 수면 무호흡증후군, 폐부종, 임신중독증 병력 등의 위험요소가 있는 경우에도 위험도가 높아지므로 질환 발생 가능성을 예측하고 대비하는 것이 좋다.",
+                    "value_time": "44768.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이처럼 태아와 산모에게 치명적일 수 있는 임신중독증은 임신 20주 이후의 산모라면 누구에게나 어느 때나 발생할 수 있다.",
+                    "value_time": "44768.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.cctimes.kr/news/articleView.html?idxno=706404",
+            "search_query": "임신중독증 원인",
+            "terminate": false,
+            "text": "임신중독증은 20주 이상의 산모라면 누구든 또 언제든 찾아올 수 있습니다. 특히 임신중독증 위험요소로는 만성 고혈압, 만성 콩팥질환, 항인지질항체증후군, 당뇨, 비만 등이 있어요. 이런 경우에는 임신중독증 가능성을 따져보고 대비를 하는 게 좋아요.",
+            "turn_id": "BK22013409-5",
+            "utterance_id": "BK22013409.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신중독증 증상으로는 어떤 것들이 있나요?",
+            "turn_id": "BK22013409-6",
+            "utterance_id": "BK22013409.11"
+        },
+        {
+            "reference_date": "44705.0",
+            "reference_text": [
+                {
+                    "value": "임신중독증을 의심해볼 수 있는 증상으로는 ▶지속적인 심한 두통 ▶1주일에 1kg 이상 급격한 체중 증가 ▶갑작스러운 시력 저하 ▶갈비뼈 바로 아래쪽 배(상복부)의 극심한 통증 ▶얼굴·손·발의 부종 등이 있다.",
+                    "value_time": "44768.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://jhealthmedia.joins.com/article/article_view.asp?pno=25428",
+            "search_query": "임신중독증 검사",
+            "terminate": false,
+            "text": "심한 두통이 계속되거나, 일주일에 1kg 이상 급작스럽게 몸무게가 늘거나, 급격한 시력 저하, 상복부의 심한 통증, 얼굴과 손발의 부종이 있을 때 임신중독증을 의심해 볼 수 있어요.",
+            "turn_id": "BK22013409-6",
+            "utterance_id": "BK22013409.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신중독증을 예방할 수 있는 방법이 있나요?",
+            "turn_id": "BK22013409-7",
+            "utterance_id": "BK22013409.13"
+        },
+        {
+            "reference_date": "44701.0",
+            "reference_text": [
+                {
+                    "value": "또한, 임신중독증 예방을 위해 미국 산부인과학회(ACOG)는 고위험군일 경우 임신 12~28주부터 매일 저용량 아스피린을 복용할 것을 권고하고 있다.",
+                    "value_time": "44768.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4686746",
+            "search_query": "임신중독증 예방",
+            "terminate": false,
+            "text": "임신중독증 고위험군일 경우에는 임신 12주 또는 28주부터 매일 저용량의 아스피린을 복용하면 좋아요.",
+            "turn_id": "BK22013409-7",
+            "utterance_id": "BK22013409.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그러면 임신 몇 주 차에 아기를 낳게 되나요?",
+            "turn_id": "BK22013409-8",
+            "utterance_id": "BK22013409.15"
+        },
+        {
+            "reference_date": "44644.0",
+            "reference_text": [
+                {
+                    "value": "사람의 출산은 대부분 임신 후 37주 ~ 42주 사이에 이루어진다.",
+                    "value_time": "44768.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "산모의 약 80%는 임신 후 38주 ~ 41주 사이에 분만하는데, 이는 포유류 중에서는 소의 임신기간과 거의 같다.",
+                    "value_time": "44768.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B6%84%EB%A7%8C",
+            "search_query": "분만",
+            "terminate": false,
+            "text": "대부분 임신 후 37주에서 42주 사이에 출산을 하게 됩니다. 80퍼센트 정도는 38주에서 41주 사이에 분만하게 돼요. 첨언하자면 포유류 중 소의 임신기간과도 비슷하죠.",
+            "turn_id": "BK22013409-8",
+            "utterance_id": "BK22013409.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제 친구가 조산을 했는데, 조산에 대해서도 궁금해요. 어떤 경우가 조산에 해당하나요?",
+            "turn_id": "BK22013409-9",
+            "utterance_id": "BK22013409.17"
+        },
+        {
+            "reference_date": "44704.0",
+            "reference_text": [
+                {
+                    "value": "조산(早產, 영어: preterm birth)이란 임신한 날부터 37주가 되기 전에 이루어지는 분만을 말한다.",
+                    "value_time": "44768.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%82%B0",
+            "search_query": "조산",
+            "terminate": false,
+            "text": "임신 37주 이전에 분만을 하게 되면 조산입니다.",
+            "turn_id": "BK22013409-9",
+            "utterance_id": "BK22013409.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 반대로 42주 이후까지 아기가 나오지 않기도 하나요?",
+            "turn_id": "BK22013409-10",
+            "utterance_id": "BK22013409.19"
+        },
+        {
+            "reference_date": "44613.0",
+            "reference_text": [
+                {
+                    "value": "과숙 분만(過熟分娩, 영어: Postmature birth) 또는 과숙 임신(過熟姙娠, 영어: Postterm pregnancy)이란 임신 후 42주가 지나서 분만하거나, 임신 후 42주가 지나서도 임신 상태가 유지되는 것을 말한다.",
+                    "value_time": "44768.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "다른 합병증이 없는 경우에는 임신 42주까지 경과를 관찰하고, 임신 42주 경에 분만을 시행하는 것이 타당하다.",
+                    "value_time": "44768.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%BC%EC%88%99_%EB%B6%84%EB%A7%8C",
+            "search_query": "과숙 분만",
+            "terminate": false,
+            "text": "임신 후 42주가 지나서도 임신 상태이거나, 42주 이후에 분만하는 경우 전자는 과숙 임신, 후자는 과숙 분만이라고 합니다. 다른 합병증이 없는 경우, 임신 42주까지 경과를 본 뒤에 임신 42주 경에는 분만을 시행하는 것이 좋습니다.",
+            "turn_id": "BK22013409-10",
+            "utterance_id": "BK22013409.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신 중에 무탈하고 무사히 출산했으면 좋겠어요.",
+            "turn_id": "BK22013409-11",
+            "utterance_id": "BK22013409.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "너무 크게 걱정하지 마세요. 임신 기간 동안 안정을 취하시고요.",
+            "turn_id": "BK22013409-11",
+            "utterance_id": "BK22013409.22"
+        }
+    ]
+}

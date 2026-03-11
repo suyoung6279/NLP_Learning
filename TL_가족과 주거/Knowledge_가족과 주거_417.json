@@ -1,0 +1,348 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015349",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015349",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_nhn_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아내가 현재 임신 13주에요. 오늘 함께 산부인과에 가서 초음파를 봤어요.",
+            "turn_id": "BK22015349-1",
+            "utterance_id": "BK22015349.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 아내분께서 임신 13주이시군요. 오늘 초음파로 어떤 걸 보셨어요?",
+            "turn_id": "BK22015349-1",
+            "utterance_id": "BK22015349.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 아기가 움직이는 걸 봤는데 정말 신기하더라고요. 그런데 13주의 태아는 크기가 어느정도 인가요?",
+            "turn_id": "BK22015349-2",
+            "utterance_id": "BK22015349.3"
+        },
+        {
+            "reference_date": "2015-09-10",
+            "reference_text": [
+                {
+                    "value": " 크기: 태아의 키는 7cm 정도이며, 몸무게는 20g 정도 돼요.",
+                    "value_time": "2022-10-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107880",
+            "search_query": "임신 13주 태아 크기",
+            "terminate": false,
+            "text": "태아의 크기는 7cm 정도이며, 무게는 20g 정도에요.",
+            "turn_id": "BK22015349-2",
+            "utterance_id": "BK22015349.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 아직 많이 작네요. 초음파를 보니 머리 크기와 몸크기가 비슷한 것 같던데, 현재 태아는 어느정도 발달이 되었나요?",
+            "turn_id": "BK22015349-3",
+            "utterance_id": "BK22015349.5"
+        },
+        {
+            "reference_date": "2015-09-10",
+            "reference_text": [
+                {
+                    "value": " 특징: 머리의 크기가 몸 전체의 3분의 1 정도를 차지하게 되고, 얼굴은 완전한 형태를 갖추어가며 목이 형성돼 머리의 움직임을 지탱해 소리에 반응하여 몸을 움직여요.",
+                    "value_time": "2022-10-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107880",
+            "search_query": "임신 13주 태아 특징",
+            "terminate": false,
+            "text": "네, 태아의 머리 크기는 몸 전체의 3분의 1정도예요. 얼굴의 형태를 완전하게 갖추었고 목도 있어서 머리의 움직임을 지탱하고 소리에 반응하며 몸을 움직일 수 있어요.",
+            "turn_id": "BK22015349-3",
+            "utterance_id": "BK22015349.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 그럼 이 시기에 아내의 몸 상태는 어떤가요?",
+            "turn_id": "BK22015349-4",
+            "utterance_id": "BK22015349.7"
+        },
+        {
+            "reference_date": "2015-09-10",
+            "reference_text": [
+                {
+                    "value": "임신 중기에 들어서면서 태아를 유산할 확률이 급격히 줄어들고 호르몬 분비량이 안정적으로 변화해 불안한 감정과 입덧 증세가 사라져요.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가슴이 부풀어 오르기 시작하고 임신부의 심장에 가해지는 부담이 커져 혈압을 낮추기 위해 손과 발이 항상 따뜻한 상태가 돼요.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107880",
+            "search_query": "임신 13주 엄마의 증상",
+            "terminate": false,
+            "text": "13주면 임신 중기에 들어섰다고 할 수 있어요. 이제는 유산할 확률이 줄어들고 호르몬 분비가 안정적이 되어 감정기복이나 입덧이 사라져요. 또 가슴이 커지기 시작하고 임산부의 심장에 가해지는 부담도 커지기 때문에 혈압을 낮추기 위해 손과 발이 항상 따뜻해져요.",
+            "turn_id": "BK22015349-4",
+            "utterance_id": "BK22015349.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 입덧이 사라진다니 정말 다행이네요. 혹시 아내가 받아야 할 검사들이 있나요?",
+            "turn_id": "BK22015349-5",
+            "utterance_id": "BK22015349.9"
+        },
+        {
+            "reference_date": "2015-09-10",
+            "reference_text": [
+                {
+                    "value": "임신 중의 정기검진은 임신부와 태아의 건강상태를 체계적으로 관리하여 정상적인 분만을 이루도록 하는 데 목적이 있으며, 7개월까지는 한 달에 한 번, 8~9개월까지는 2주에 한 번, 산달로 들어서면 매주 한 번씩 정기검진을 받는 것이 좋아요.",
+                    "value_time": "2022-10-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107880",
+            "search_query": "임신 13주 필요한 검사",
+            "terminate": false,
+            "text": "네, 임신 중 정기검진을 꼬박꼬박 받아야 하는데 7개월까지는 한 달에 한 번, 8~9개월까지는 2주에 한 번, 산달로 들어서면 매주 한 번씩 정기검진을 받아야 해요.",
+            "turn_id": "BK22015349-5",
+            "utterance_id": "BK22015349.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 잊지 않고 정기검진을 받을 수 있도록 해야겠네요. 그리고 임신 중 태교를 해야 한다던데, 어떤 태교를 하는 게 좋을까요?",
+            "turn_id": "BK22015349-6",
+            "utterance_id": "BK22015349.11"
+        },
+        {
+            "reference_date": "2015-09-10",
+            "reference_text": [
+                {
+                    "value": "리듬이 자유로우면서 서정적인 음악을 골라 ‘음악 태교’를 해보세요.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "베토벤의 합창, 아다지오 칸타빌레, 슈베르트의 세레나데, 바흐의 아르고, 이바노비치의 다뉴브 강의 잔물결 등 태교에 좋은 곡을 선택해 긴장을 풀고 편안하게 음악을 감상하세요.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107880",
+            "search_query": "임신 13주 필요한 태교",
+            "terminate": false,
+            "text": "음악태교를 추천해요. 베토벤의 합창, 아다지오 칸타빌레, 슈베르트의 세레나데, 바흐의 아르고, 이바노비치의 다뉴브 강의 잔물결 등 서정적인 음악을 들으며 태교를 해보세요.",
+            "turn_id": "BK22015349-6",
+            "utterance_id": "BK22015349.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "태교를 하기 위해 클래식도 알아야겠네요. 참, 주변에서 철분제를 따로 먹으라고 추천해 주던데, 따로 챙겨 먹어야 하는 건가요?",
+            "turn_id": "BK22015349-7",
+            "utterance_id": "BK22015349.13"
+        },
+        {
+            "reference_date": "2015-09-10",
+            "reference_text": [
+                {
+                    "value": "임신 중기부터는 음식만으로 필요한 철분을 충분히 섭취하기 어려워 철분제 복용이 필요해요.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107880",
+            "search_query": "임신 중기 철분제 복용",
+            "terminate": false,
+            "text": "네, 임신 중기부터는 음식만으로 충분한 철분을 섭취하기 힘들어요. 그렇기 때문에 철분제를 따로 챙겨 드시면 좋죠.",
+            "turn_id": "BK22015349-7",
+            "utterance_id": "BK22015349.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 혹시 철분제를 먹을 때 주의해야 할 점도 있나요?",
+            "turn_id": "BK22015349-8",
+            "utterance_id": "BK22015349.15"
+        },
+        {
+            "reference_date": "2015-09-10",
+            "reference_text": [
+                {
+                    "value": "철분제를 복용할 때는 위장 장애, 변비 등의 부작용이 생길 수 있으므로 섬유소가 많이 든 과일과 채소와 수분 섭취량을 늘려요.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107880",
+            "search_query": "철분제 복용 부작용",
+            "terminate": false,
+            "text": "네, 철분제는 위장 장애나 변비 등의 부작용도 일으킬 수 있어요. 그렇기 때문에 섬유소가 많이 들어있는 채소를 함께 먹으며 수분 섭취량을 늘리는 게 좋아요.",
+            "turn_id": "BK22015349-8",
+            "utterance_id": "BK22015349.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 몸에 좋은 영양제도 부작용이 있을 수 있는거군요. 잘 기억해 둬야겠어요. 그리고 앞으로 와이프와 함께 운동을 하려고 하는데, 어떤 운동을 하는 게 무리 없이 좋을까요?",
+            "turn_id": "BK22015349-9",
+            "utterance_id": "BK22015349.17"
+        },
+        {
+            "reference_date": "2015-09-10",
+            "reference_text": [
+                {
+                    "value": "임신부에게 추천하는 운동은 걷기, 달리기, 수영, 요가, 스트레칭, 필라테스, 댄스 등입니다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 걷기와 요가는 임신 기간 안전하게 일상적으로 할 수 있으며, 무릎이나 발목에 무리가 가지 않고 혈액순환과 근육의 유연성을 높일 수 있는 좋은 운동이에요.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107880",
+            "search_query": "임신 13주 임신부에게 좋은 운동",
+            "terminate": false,
+            "text": "걷거나 달리기, 수영, 요가, 스트레칭, 필라테스, 댄스 등이 임산부에게 좋아요. 그 중 특히 걷기와 요가는 임산부가 일상 생활에서 안전하게 할 수 있는 운동으로 무릎이나 발목에 무리도 없고 혈액순환과 근육의 유연성까지 높일 수 있는 아주 좋은 운동이에요.",
+            "turn_id": "BK22015349-9",
+            "utterance_id": "BK22015349.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 와이프와 같이 산책하며 걷기 운동을 해봐야겠네요.",
+            "turn_id": "BK22015349-10",
+            "utterance_id": "BK22015349.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 정말 좋은 생각이에요. 아내 분 혼자 운동하는 것 보다 함께 산책하면 더 즐겁고 건강해질 것 같네요.",
+            "turn_id": "BK22015349-10",
+            "utterance_id": "BK22015349.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 오늘 좋은 정보 친절하게 알려주셔서 정말 감사해요. 덕분에 많이 배웠어요.",
+            "turn_id": "BK22015349-11",
+            "utterance_id": "BK22015349.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요, 또 궁금한 점 있으면 언제든지 물어보세요.",
+            "turn_id": "BK22015349-11",
+            "utterance_id": "BK22015349.22"
+        }
+    ]
+}

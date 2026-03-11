@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018030",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018030",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저출산 문제가 심각한 것을 부쩍 느끼고 있어요.",
+            "turn_id": "BK22018030-1",
+            "utterance_id": "BK22018030.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근 언론에서 저출산과 관련된 기사가 많이 나오고 있죠.",
+            "turn_id": "BK22018030-1",
+            "utterance_id": "BK22018030.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라의 저출산 문제가 정말 그렇게 심각한가요?",
+            "turn_id": "BK22018030-2",
+            "utterance_id": "BK22018030.3"
+        },
+        {
+            "reference_date": "44832.0",
+            "reference_text": [
+                {
+                    "value": "2021년 우리나라 합계출산율은 0.81로, UN 가입 국가 중 합계출산율이 1을 밑도는 나라는 우리나라가 유일하다.",
+                    "value_time": "44837.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우리나라가 주요국 중 가장 낮은 비혼 출산 비율을 기록하고 있다는 사실을 고려하면, 결혼해도 아이를 낳지 않는다는 결론에 이른다.",
+                    "value_time": "44837.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/national/education/2022/09/28/W5ICSWRKDBFGPPPHGLVDY3WIAA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "search_query": "한국 비혼 출산율",
+            "terminate": false,
+            "text": "네, 2021년의 한국의 합계출산율은 0.81이었어요. UN 가입 국가 중에서 합계출산율이 1 이하인 국가는 한국 뿐이에요. 한국은 주요국가들 중에서 비혼 출산율 최저를 기록하고 있어요. 그런 점을 고려했을 때, 한국은 지금 결혼해도 아이를 낳지 않는다는 거죠.",
+            "turn_id": "BK22018030-2",
+            "utterance_id": "BK22018030.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이를 낳는 것을 선택하는 데에 영향을 주는 요인이 있을까요?",
+            "turn_id": "BK22018030-3",
+            "utterance_id": "BK22018030.5"
+        },
+        {
+            "reference_date": "44832.0",
+            "reference_text": [
+                {
+                    "value": "한국보건사회연구원 연구에 따르면, 한국인의 출산 선택은 소득 격차를 반영하고, 시간이 지나면서 그 경향이 짙어진다.",
+                    "value_time": "44837.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/national/education/2022/09/28/W5ICSWRKDBFGPPPHGLVDY3WIAA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "search_query": "출산 선택 소득 격차",
+            "terminate": false,
+            "text": "우리나라 사람들의 소득 차이에 따라 출산 선택이 다르게 나타나는데 시간이 흐를수록 그 영향이 심화되고 있어요.",
+            "turn_id": "BK22018030-3",
+            "utterance_id": "BK22018030.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소득 차이에 의해 출산을 선택한다고요?",
+            "turn_id": "BK22018030-4",
+            "utterance_id": "BK22018030.7"
+        },
+        {
+            "reference_date": "44832.0",
+            "reference_text": [
+                {
+                    "value": "2007년부터 2019년까지 국민건강 보험료 분위별 분만 건수 비율을 따져봤는데 보험료를 많이 내는 8~10분위의 분만 건수 비율은 증가세를, 적게 내는 3~5분위는 감소세를 보였다.",
+                    "value_time": "44837.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "소득이 뒷받침되어야 출산도 가능하다는 사실을 간접적으로 확인할 수 있는 자료다.",
+                    "value_time": "44837.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/national/education/2022/09/28/W5ICSWRKDBFGPPPHGLVDY3WIAA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "search_query": "건강보험료 분만 건수",
+            "terminate": false,
+            "text": "네, 2007년부터 2019년까지의 국민건강 보험료의 분위별 분만 건수 비율을 비교했을 때, 보험료를 많이 내는 8에서 10분위의 분만 비율은 증가하고 있었어요. 반면 보험료를 적게 내는 3에서 5분위는 분만율이 감소하는 추세예요. 소득이 뒷받침되어야 출산이 가능하다는 것을 간접적으로 짐작할 수 있는 결과였죠.",
+            "turn_id": "BK22018030-4",
+            "utterance_id": "BK22018030.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 우리나라처럼 저출산 문제로 위기를 맞은 나라도 있었나요?",
+            "turn_id": "BK22018030-5",
+            "utterance_id": "BK22018030.9"
+        },
+        {
+            "reference_date": "44832.0",
+            "reference_text": [
+                {
+                    "value": "당시 인구 규모 유지를 위해 필요한 합계출산율 2.1명 선이 무너지면서 위기감에 휩싸였다.",
+                    "value_time": "44837.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1970년대 중반 스웨덴 합계출산율은 1.5명 수준까지 떨어졌다.",
+                    "value_time": "44837.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이제는 ‘라테파파’의 나라로 유명한 스웨덴도 우리와 비슷한 고민을 안고 있었다.",
+                    "value_time": "44837.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/national/education/2022/09/28/W5ICSWRKDBFGPPPHGLVDY3WIAA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "search_query": "라테파파",
+            "terminate": false,
+            "text": "지금은 라테파파의 나라로 유명하지만, 한국처럼 저출산 문제로 위기를 겪었던 스웨덴이 있어요. 1970년대 중반의 스웨덴의 합계 출생율은 1.5명까지 떨어졌었어요. 그때 당시 인구 규모를 유지하기 위해 필요한 합계출산율은 2.1명이었는데, 이 수치가 무너진 상황이었죠.",
+            "turn_id": "BK22018030-5",
+            "utterance_id": "BK22018030.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그랬었군요? 라테파파라는 말은 처음 들어보는데, 라테파파는 무슨 뜻이에요?",
+            "turn_id": "BK22018030-6",
+            "utterance_id": "BK22018030.11"
+        },
+        {
+            "reference_date": "44832.0",
+            "reference_text": [
+                {
+                    "value": "라테파파는 한 손에 커피를 들고 다른 한 손으로 유모차를 끌며 육아에 참여하는 스웨덴 아빠들을 지칭하는 말로, 남녀 공동 육아 문화를 의미한다.",
+                    "value_time": "44837.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/national/education/2022/09/28/W5ICSWRKDBFGPPPHGLVDY3WIAA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "search_query": "라테파파 의미",
+            "terminate": false,
+            "text": "라테파파는 남녀 공동 육아 문화를 의미하는 단어예요. 한 손에는 커피를 든 채로, 다른 손에는 유모차를 밀면서 육아를 하는 스웨덴 아빠들을 뜻해요.",
+            "turn_id": "BK22018030-6",
+            "utterance_id": "BK22018030.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "라테파파라는 단어가 참 재미있는 단어네요. 그런데 스웨덴은 어떻게 저출산을 극복했어요?",
+            "turn_id": "BK22018030-7",
+            "utterance_id": "BK22018030.13"
+        },
+        {
+            "reference_date": "44832.0",
+            "reference_text": [
+                {
+                    "value": "스웨덴은 가족 정책과 복지 정책을 결합한 ‘2인 양육자-맞벌이’ 모델(dual carer-dual breadwinner)에서 돌파구를 찾았다.",
+                    "value_time": "44837.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/national/education/2022/09/28/W5ICSWRKDBFGPPPHGLVDY3WIAA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "search_query": "스웨덴 가족 정책 복지 정책",
+            "terminate": false,
+            "text": "스웨덴은 가족 정책과 복지 정책을 결합했어요. 2인 양육자, 맞벌이 모델을 도입한 것이죠.",
+            "turn_id": "BK22018030-7",
+            "utterance_id": "BK22018030.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "2인 양육자, 맞벌이 모델이 무엇인가요?",
+            "turn_id": "BK22018030-8",
+            "utterance_id": "BK22018030.15"
+        },
+        {
+            "reference_date": "44832.0",
+            "reference_text": [
+                {
+                    "value": "‘함께 일하고, 함께 돌보는 사회’를 만든 것이다.",
+                    "value_time": "44837.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "유급 출산휴가 기간을 확대하고, 남성에게도 10일의 출산휴가를 제공하는 등 부모 보험 제도를 도입했다.",
+                    "value_time": "44837.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/national/education/2022/09/28/W5ICSWRKDBFGPPPHGLVDY3WIAA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "search_query": "스웨덴 맞벌이 모델",
+            "terminate": false,
+            "text": "함께 일하고, 함께 돌보는 사회를 만들려고 했어요. 유급 출산휴가 기간을 늘려주었고, 또 여성 뿐만 아니라 남성에게도 출산휴가를 10일을 부여하는 등의 부모 보험 제도를 시행했죠.",
+            "turn_id": "BK22018030-8",
+            "utterance_id": "BK22018030.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 1970년대인데 요즘 한국에서 하고 있는 정책과 비슷하네요. 그 정책으로 저출산 위기를 극복하고 지금까지 유지되고 있나요?",
+            "turn_id": "BK22018030-9",
+            "utterance_id": "BK22018030.17"
+        },
+        {
+            "reference_date": "44832.0",
+            "reference_text": [
+                {
+                    "value": "1990년대 재차 출산율이 하락하자 아빠 육아휴직 할당제를 추진해 생산가능인구 규모를 키우고 있다.",
+                    "value_time": "44837.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "출산과 양육에 필요한 시간을 확보해주고, 그 시간에 직장에 나갔으면 얻을 수 있던 소득의 상당 비율을 보장해줬다.",
+                    "value_time": "44837.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/national/education/2022/09/28/W5ICSWRKDBFGPPPHGLVDY3WIAA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "search_query": "스웨덴 가족 정책 여성가족부",
+            "terminate": false,
+            "text": "아니예요. 1990년대에도 다시금 출산율이 떨어지자, 아버지의 육아휴직 할당제를 도입하며 생산가능인구의 규모를 확대시켰죠. 출산과 양육에 들어가는 시간을 국가적으로 확보해 준 거예요. 그 시간에 직장에서 근로하면서 얻을 수 있던 소득의 상당 부분을 보전해 주었어요.",
+            "turn_id": "BK22018030-9",
+            "utterance_id": "BK22018030.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시기를 생각해 보면 정말 선진적인 정책이었네요.",
+            "turn_id": "BK22018030-10",
+            "utterance_id": "BK22018030.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 스웨덴을 참고하여 한국에서도 저출산 극복을 위한 다양한 가족 정책이 도입되었으면 좋겠습니다.",
+            "turn_id": "BK22018030-10",
+            "utterance_id": "BK22018030.20"
+        }
+    ]
+}

@@ -1,0 +1,407 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014951",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014951",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0019"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아내가 임신 5주래요. 너무 기쁜데, 제가 아는 게 없어서 공부를 좀 해야 할 것 같아요.",
+            "turn_id": "BK22014951-1",
+            "utterance_id": "BK22014951.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 먼저 아내 분 임신을 정말 축하드려요. 어떤 게 궁금하세요?",
+            "turn_id": "BK22014951-1",
+            "utterance_id": "BK22014951.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 와이프가 너무 피곤해하는데, 임신 5주차 증상에는 어떤 것들이 있나요?",
+            "turn_id": "BK22014951-2",
+            "utterance_id": "BK22014951.3"
+        },
+        {
+            "reference_date": "2017-11-08",
+            "reference_text": [
+                {
+                    "value": " 입덧이 시작되며, 특히 이른 아침이나 빈속일 때 심해진다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": " 쉽게 피로해지고, 나른하고 졸리다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": " 유두가 민감해지고, 유방 피부에 비치는 혈관들이 눈에 띄어 보인다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000308614",
+            "search_query": "임신 5주차 증상",
+            "terminate": false,
+            "text": "임신 5주차에는 쉽게 피곤하고 졸음이 오는 게 맞아요. 입덧이 시작되며 특히 아침 공복일 때 심해지죠. 또 유두가 민감해지고 유방 쪽 피부에 혈관들이 눈에 띄게 보여요.",
+            "turn_id": "BK22014951-2",
+            "utterance_id": "BK22014951.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 그럼 임신 5주차에는 어떤 검사들을 받아야 하나요?",
+            "turn_id": "BK22014951-3",
+            "utterance_id": "BK22014951.5"
+        },
+        {
+            "reference_date": "2017-11-08",
+            "reference_text": [
+                {
+                    "value": "출산 전까지 정기검진을 통해 임신부와 태아의 건강을 관리하게 된다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 임신 전기에는 빈혈, 매독혈청, B형 간염, 풍진, ABO혈액형, Rh인자 등의 검사를 진행한다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000308614",
+            "search_query": "임신 5주차 정기검진",
+            "terminate": false,
+            "text": "임산부는 앞으로 출산 전까지 꾸준한 정기검진을 통해 본인과 태아의 건강을 관리해야 해요. 특히 임신 초기에는 빈혈이나 매독혈청, B형간염, 풍진, ABO혈액형, Rh인자 등의 검사를 함께 받아야 해요.",
+            "turn_id": "BK22014951-3",
+            "utterance_id": "BK22014951.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 받아야 할 검사가 정말 많네요. 병원 검사 말고 제가 도와야 할 일은 없을까요?",
+            "turn_id": "BK22014951-4",
+            "utterance_id": "BK22014951.7"
+        },
+        {
+            "reference_date": "2017-11-08",
+            "reference_text": [
+                {
+                    "value": "임신초기는 특히 각별한 관리가 필요하다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "당분간 집안일이나 성생활을 자제하면서 마음 편히 지내는 것이 중요하다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000308614",
+            "search_query": "임신 5주차 임신초기",
+            "terminate": false,
+            "text": "도와주실 일은 많죠. 임신 초기에는 특히 조심해야 해요. 당분간 아내분이 집안일이나 성생활을 자제하면서 마음 편하게 지낼 수 있도록 도와주세요.",
+            "turn_id": "BK22014951-4",
+            "utterance_id": "BK22014951.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 정도는 제가 도와줄 수 있죠. 그 외에 다른 주의사항은 없나요?",
+            "turn_id": "BK22014951-5",
+            "utterance_id": "BK22014951.9"
+        },
+        {
+            "reference_date": "2017-11-08",
+            "reference_text": [
+                {
+                    "value": "극심한 스트레스는 임신 초기 유산의 원인이 되기도 한다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "영국 유니버시티 칼리지 런던(UCL)의 브렌다 토드 심리학과 교수 연구팀이 스트레스와 유산의 연관성을 다룬 8편의 논문을 종합 분석한 결과 과거 심리적 스트레스를 자주 겪은 여성은 그렇지 않은 여성에 비해 유산율이 42%나 높은 것으로 나타났다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000308614",
+            "search_query": "임신 5주차 스트레스 유산",
+            "terminate": false,
+            "text": "임산부가 스트레스를 받지 않도록 하는 게 좋아요. 스트레스는 임신 초기 유산의 원인이 되기도 해요. 영국 유니버시티 칼리지 런던의 브렌다토드 심리학과 교수 연구팀이 스트레스와 유산의 연관성을 다룬 8편의 논문을 보면 심리적 스트레스를 겪은 여성은 그렇지 않은 여성보다 유산율이 42퍼센트나 높은 것으로 나타났어요.",
+            "turn_id": "BK22014951-5",
+            "utterance_id": "BK22014951.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스트레스가 그렇게나 위험한 거였군요. 제가 최대한 조심하겠지만, 그럼에도 아내가 스트레스를 받았다면 어떻게 해소하는 게 좋을까요?",
+            "turn_id": "BK22014951-6",
+            "utterance_id": "BK22014951.11"
+        },
+        {
+            "reference_date": "2017-11-08",
+            "reference_text": [
+                {
+                    "value": "스트레스 환경에 자신을 버려두지 말고 기분전환을 위해 영화, 연극, 그림 등 문화생활이나 가벼운 산책을 하는 등 보다 적극적으로 대처하도록 한다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000308614",
+            "search_query": "임신 5주차 문화생활 가벼운 산책",
+            "terminate": false,
+            "text": "스트레스를 해소하기 위해선 기분 전환을 할 수 있는 영화나 연극을 보는 문화생활을 하거나 가벼운 산책을 하는 등 적극적으로 대처하는 게 좋아요.",
+            "turn_id": "BK22014951-6",
+            "utterance_id": "BK22014951.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 함께 영화도 보고 산책도 다녀야겠네요. 참, 그리고 저희 아내는 다행히 입덧은 아직 없는 것 같던데 예전 먹던 양보다 어느 정도 더 먹는 게 좋은가요? 입덧하지 않는다면 음식은 가리지 않고 아무거나 잘 먹으면 되나요?",
+            "turn_id": "BK22014951-7",
+            "utterance_id": "BK22014951.13"
+        },
+        {
+            "reference_date": "2017-11-08",
+            "reference_text": [
+                {
+                    "value": "이 시기는 임신 전보다 여분의 영양섭취가 필요한 시기가 아닐뿐더러 임신 중에 더해지는 섭취칼로리는 임신 전보다 150~350kcal 정도로 피자 한 조각, 쌀밥 1공기, 잡채 1접시, 파전 1인분 정도에 지나지 않는다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "입덧으로 고생하다 중간중간에 음식을 간단히 섭취할 때도 고칼로리 음식은 피하도록 한다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000308614",
+            "search_query": "임신 5주차 영양섭취",
+            "terminate": false,
+            "text": "입덧하지 않는 건 좋은 거지만 임신 5주는 임신 전보다 여분의 영양 섭취가 필요한 시기가 아니에요. 임신 전보다 150에서 350칼로리 정도 더 섭취해 주면 되는데, 그때에도 고칼로리 음식은 피하는 게 좋아요.",
+            "turn_id": "BK22014951-7",
+            "utterance_id": "BK22014951.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 엄마가 먹는 게 다 아이에게 간다고 좋은 걸 많이 먹는 게 좋다고 들었는데, 아니었나 봐요. 임신 중에 고칼로리 음식을 피해야 하는 이유가 있나요?",
+            "turn_id": "BK22014951-8",
+            "utterance_id": "BK22014951.15"
+        },
+        {
+            "reference_date": "2017-11-08",
+            "reference_text": [
+                {
+                    "value": "임신 중 비만은 고혈압, 임신성 당뇨, 과체중아 출산 등으로 이어져 임신부와 태아를 모두 힘들게 할 수 있으므로 체중관리에 주의한다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000308614",
+            "search_query": "임신 5주차 비만",
+            "terminate": false,
+            "text": "네, 임신 중에 생기는 비만은 고혈압이나 임신성 당뇨, 과체중아 출산 등으로 이어져 임산부와 태아 모두 힘들어질 수 있어요. 그렇기 때문에 음식 조절을 통해 체중 관리를 해 주는 게 좋아요.",
+            "turn_id": "BK22014951-8",
+            "utterance_id": "BK22014951.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 참, 그리고 임산부가 먹으면 좋은 영양제들이 있다고 하던데, 어떤 영양소들을 섭취하는 게 좋은가요?",
+            "turn_id": "BK22014951-9",
+            "utterance_id": "BK22014951.17"
+        },
+        {
+            "reference_date": "2017-11-08",
+            "reference_text": [
+                {
+                    "value": "엽산, 아연, 철분 등의 영양보충이 필수적이다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "엽산이 부족하면 태아의 신경관 발달 등에 영향을 주어 기형아 위험성이 높아지고, 임산부 빈혈, 유산 등의 위험도 커진다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000308614",
+            "search_query": "임신 5주차 엽산",
+            "terminate": false,
+            "text": "임산부들에게 엽산과 아연, 철분 등의 영양소는 필수에요. 엽산은 태아의 신경관 발달 등에 영향을 주는데, 엽산이 부족하면 기형아가 될 위험률이 높아지고 빈혈이나 유산 등의 위험도 커질 수 있어요.",
+            "turn_id": "BK22014951-9",
+            "utterance_id": "BK22014951.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 꼭 먹어야 하는 영양소네요. 그럼 아연과 철분은 어떤 효능이 있나요?",
+            "turn_id": "BK22014951-10",
+            "utterance_id": "BK22014951.19"
+        },
+        {
+            "reference_date": "2017-11-08",
+            "reference_text": [
+                {
+                    "value": "아연은 태아의 세포분열에 필요하여 태아 성장에 중요하며, 면역력을 높여주고, 임신성 당뇨를 예방하는 데에도 도움이 된다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "참고로 철분은 임신 중에 반드시 보충해주어야 하는데, 임신 20주 전에는 철분이 크게 필요하지 않고, 철분 섭취시 발생하는 위장장애 등으로 오히려 입덧을 자극할 수 있으므로 의사와 상의하여 자신의 몸 상태에 맞게 철분 섭취를 결정하는 것이 좋다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000308614",
+            "search_query": "임신 5주차 아연 철분",
+            "terminate": false,
+            "text": "아연은 태아의 세포분열과 태아 성장을 하는 데 중요해요. 또 면역력을 높여주고 임신성 당뇨를 예방할 수 있죠. 그리고 철분은 임신 중 반드시 먹어야 할 영양소인데, 임신 20주 전에는 크게 필요하진 않아요. 임신 20주 전에는 오히려 입덧을 자극하거나 위장 장애가 일어날 수 있어 의사와 상의 후 몸 상태에 따라 섭취하는 게 좋아요.",
+            "turn_id": "BK22014951-10",
+            "utterance_id": "BK22014951.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 아내의 몸 상태를 잘 살펴보고 의사와 상의 후 함께 결정해야 하겠어요. 참 아내가 임신하고 변비가 생긴 것 같은데, 약 대신 먹으면 좋은 것들이 있을까요?",
+            "turn_id": "BK22014951-11",
+            "utterance_id": "BK22014951.21"
+        },
+        {
+            "reference_date": "2017-11-08",
+            "reference_text": [
+                {
+                    "value": "장의 기능이 떨어지면서 변비가 생길 수 있으므로 섬유소가 풍부한 채소와 과일을 충분히 섭취하고, 물도 자주 마셔준다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000308614",
+            "search_query": "임신 5주차 변비",
+            "terminate": false,
+            "text": "아무래도 장의 기능이 떨어져 변비가 생길 수 있어요. 섬유소가 많이 들어있는 채소와 과일을 많이 먹고 물도 자주 마셔주면 좋아요.",
+            "turn_id": "BK22014951-11",
+            "utterance_id": "BK22014951.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 첫 아이 임신이라 저나 와이프나 모르는 것투성인데, 오늘 정말 많이 배웠어요. 도움 주셔서 정말 감사해요.",
+            "turn_id": "BK22014951-12",
+            "utterance_id": "BK22014951.23"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요, 도움이 되셨다니 정말 다행이네요. 또 궁금한 점 있으면 언제든지 물어보세요.",
+            "turn_id": "BK22014951-12",
+            "utterance_id": "BK22014951.24"
+        }
+    ]
+}

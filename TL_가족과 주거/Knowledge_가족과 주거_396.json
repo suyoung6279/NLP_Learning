@@ -1,0 +1,424 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015277",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015277",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 아내랑 함께 산부인과에 다녀왔어요. 아내가 벌써 임신 12주가 되었거든요.",
+            "turn_id": "BK22015277-1",
+            "utterance_id": "BK22015277.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 아내 분께서 임신 3개월이 되셨군요. 정말 축하드려요.",
+            "turn_id": "BK22015277-1",
+            "utterance_id": "BK22015277.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 감사해요. 오늘 병원에서 초음파를 보고 왔는데, 너무 신기하고 궁금한 게 많아요.",
+            "turn_id": "BK22015277-2",
+            "utterance_id": "BK22015277.3"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 어떤 점이 궁금하세요?",
+            "turn_id": "BK22015277-2",
+            "utterance_id": "BK22015277.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 먼저 임신 12주면 태아의 크기는 어느 정도인가요?",
+            "turn_id": "BK22015277-3",
+            "utterance_id": "BK22015277.5"
+        },
+        {
+            "reference_date": "2015-09-04",
+            "reference_text": [
+                {
+                    "value": " 크기: 태아의 키는 5~6 cm이며, 몸무게는 10~14g 정도가 되요",
+                    "value_time": "2022-10-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107655",
+            "search_query": "임신 12주 태아 크기",
+            "terminate": false,
+            "text": "12주의 태아의 크기는 약 5~6cm이며, 몸무게는 10~14g 정도예요.",
+            "turn_id": "BK22015277-3",
+            "utterance_id": "BK22015277.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 작네요. 초음파에서 보니 꼬물꼬물 움직이더라고요. 12주의 태아면 어느 정도 발달한 건가요?",
+            "turn_id": "BK22015277-4",
+            "utterance_id": "BK22015277.7"
+        },
+        {
+            "reference_date": "2015-09-04",
+            "reference_text": [
+                {
+                    "value": " 특징: 몸에 배내털로 불리는 솜털이 덮이기 시작하며 머리카락과 손톱이 자라며, 뇌가 급속도로 발달해요.",
+                    "value_time": "2022-10-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하품도 하고 손가락을 빨거나 양수를 삼킬 수 있는 반사신경이 발달하며, 남녀 성별 구분이 가능해져요.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107655",
+            "search_query": "임신 12주 태아 특징",
+            "terminate": false,
+            "text": "몸은 배네털이라는 솜털로 덮이기 시작하고 머리카락과 손톱도 자라요. 뇌도 급속도로 발달하고요. 또 태아는 하품도 하고 손가락을 빨거나 양수를 삼킬 수 있는 반사신경도 발달하며, 남아인지, 여아인지 구별을 할 수 있는 시기에요.",
+            "turn_id": "BK22015277-4",
+            "utterance_id": "BK22015277.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 성별이 궁금하긴 한데 정확히 알려주지 않더라고요. 아, 그리고 임신 12주면 아내의 몸 상태는 어떤가요? 아직도 입덧해서 정말 걱정이에요.",
+            "turn_id": "BK22015277-5",
+            "utterance_id": "BK22015277.9"
+        },
+        {
+            "reference_date": "2015-09-04",
+            "reference_text": [
+                {
+                    "value": "입덧 증세가 차츰 없어지며 심리적으로 안정이 되고 얼굴색이 좋아져요.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "여전히 입덧 증세가 심한 경우가 있으며, 가슴뼈에서 목구멍까지 쓰리는 위역류증이 발생하기도 해요.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "허리가 굵어지면서 배가 어느 정도 나오기 시작한답니다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107655",
+            "search_query": "임신 12주 엄마의 증상",
+            "terminate": false,
+            "text": "입덧 증세가 점점 없어지고 심리적 안정이 되는 시기지만 여전히 입덧 증세가 심한 경우도 있어요. 이 경우 가슴뼈에서 목구멍까지 쓰리는 위 역류증상이 발생할 수도 있어요. 또 엄마는 배가 슬슬 나오기 시작하며 허리가 굵어지죠.",
+            "turn_id": "BK22015277-5",
+            "utterance_id": "BK22015277.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 저희 와이프도 빨리 입덧이 없어졌으면 좋겠어요. 이 시기에는 어떤 음식들이 임산부에게 좋을까요?",
+            "turn_id": "BK22015277-6",
+            "utterance_id": "BK22015277.11"
+        },
+        {
+            "reference_date": "2015-09-04",
+            "reference_text": [
+                {
+                    "value": "열량 소비가 많아지는 시기로 고단백 저칼로리 식사를 해요.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 단백질은 태아와 태반 성장에 중요한 작용을 하는 아미노산을 제공하므로 넉넉하게 섭취해야 해요.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107655",
+            "search_query": "임신 12주 필요한 음식",
+            "terminate": false,
+            "text": "12주면 열량 소비가 많아지는 시기에요. 고단백 저칼로리의 식사가 좋은데, 특히 단백질은 태아와 태반 성장에 중요한 작용을 하는 아미노산을 제공하기 때문에 많이 먹는 게 좋아요.",
+            "turn_id": "BK22015277-6",
+            "utterance_id": "BK22015277.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 단백질을 많이 섭취하는 게 좋군요. 그럼 단백질이 많이 들어있는 음식은 어떤 것들이 있나요?",
+            "turn_id": "BK22015277-7",
+            "utterance_id": "BK22015277.13"
+        },
+        {
+            "reference_date": "2015-09-04",
+            "reference_text": [
+                {
+                    "value": "단백질이 많은 음식은 육류, 생선, 콩류, 견과류, 달걀 등이 있어요.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107655",
+            "search_query": "임신 초기 단백질 섭취",
+            "terminate": false,
+            "text": "육류나 생선, 콩류, 견과류, 달걀 등을 통해 단백질을 섭취할 수 있어요.",
+            "turn_id": "BK22015277-7",
+            "utterance_id": "BK22015277.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 그리고 임신 중 태교가 좋다고 하던데, 어떤 태교를 하면 좋을까요?",
+            "turn_id": "BK22015277-8",
+            "utterance_id": "BK22015277.15"
+        },
+        {
+            "reference_date": "2015-09-04",
+            "reference_text": [
+                {
+                    "value": "임신으로 인한 변화를 긍정적으로 받아들이는 웃음 태교를 해보세요.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "거울 앞에서 웃는 모습을 연습하면서 얼굴의 모든 근육을 움직여 소리 내어 자주 웃으면 하루가 편안하고 즐거워진답니다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107655",
+            "search_query": "임신 12주 필요한 태교",
+            "terminate": false,
+            "text": "임신으로 인한 변화를 긍정적으로 받아들이는 웃음 태교를 추천해요. 거울 앞에서 웃는 모습을 연습하고 얼굴 근육을 사용하며 소리 내어 웃어보세요. 그렇게 자주 웃게 되면 하루가 편안하고 즐거워질 수 있어요.",
+            "turn_id": "BK22015277-8",
+            "utterance_id": "BK22015277.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각만 해도 즐거워지는 것 같아요. 참, 그런데 요즘 와이프가 어지럽다고 해요. 그럴 땐 어떻게 해야 하나요?",
+            "turn_id": "BK22015277-9",
+            "utterance_id": "BK22015277.17"
+        },
+        {
+            "reference_date": "2015-09-04",
+            "reference_text": [
+                {
+                    "value": "A. 일시적으로 어지럼증이 있을 때는 공기를 환기시키고 머리보다 발을 높게 해서 편안하게 누워 휴식을 취해요.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "누울 수 없을 때는 의자에 앉아서 머리가 무릎 사이에 오도록 몸을 굽히세요.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107655",
+            "search_query": "임신 12주 어지러울 때",
+            "terminate": false,
+            "text": "어지럼증이 일시적일 경우에는 공기를 환기하고 발을 머리보다 높게 해서 편하게 누워 쉬어야 해요. 만약 누울 수 없을 때는 의자에 앉아 머리를 무릎 사이까지 숙이도록 해 보세요.",
+            "turn_id": "BK22015277-9",
+            "utterance_id": "BK22015277.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 그래도 증상이 계속되면 어떻게 하나요? 임신 중 빈혈이 생기는 경우도 많다고 들었거든요.",
+            "turn_id": "BK22015277-10",
+            "utterance_id": "BK22015277.19"
+        },
+        {
+            "reference_date": "2015-09-04",
+            "reference_text": [
+                {
+                    "value": "만약 철분 부족으로 인한 빈혈 증세라면 의사의 지시에 따라 철분제를 복용하세요.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107655",
+            "search_query": "임신 중 철분 부족",
+            "terminate": false,
+            "text": "만약 몸에 철분이 부족하면 어지럼증이 계속되는 빈혈이 생길 수 있는데, 그럴 땐 의사의 지시에 따라 철분제를 먹어야 해요.",
+            "turn_id": "BK22015277-10",
+            "utterance_id": "BK22015277.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 일시적인 증상인지, 계속되는지 좀 더 지켜봐야겠네요. 그리고 요즘 와이프가 잠을 잘 못 자는데, 잠을 잘 자려면 어떻게 해야 하나요?",
+            "turn_id": "BK22015277-11",
+            "utterance_id": "BK22015277.21"
+        },
+        {
+            "reference_date": "2015-09-04",
+            "reference_text": [
+                {
+                    "value": "카페인, 담배, 술을 피하고 저녁에 물을 너무 많이 먹지 마세요.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "낮잠은 한 시간 이내로 자며 저녁에 무리한 운동을 피하세요.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107655",
+            "search_query": "임신 중 잘 자는 법",
+            "terminate": false,
+            "text": "카페인이나 담배, 술을 피하고 저녁에는 물을 많이 마시지 않는 게 좋아요. 또 낮잠도 한 시간 이내로 자는 게 좋으며 저녁에 무리하게 운동하지 않는 게 잠을 잘 자는데 도움이 돼요.",
+            "turn_id": "BK22015277-11",
+            "utterance_id": "BK22015277.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 와이프가 이제 배가 조금씩 나오다 보니 잠을 잘 때 허리가 불편하다는 말을 많이 해요. 어떻게 하면 허리가 좀 편해질 수 있을까요?",
+            "turn_id": "BK22015277-12",
+            "utterance_id": "BK22015277.23"
+        },
+        {
+            "reference_date": "2015-09-04",
+            "reference_text": [
+                {
+                    "value": "임신 중에는 왼쪽으로 누워 자면 자궁 쪽 혈액 순환이 원활해져 허리가 편안해져요.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107655",
+            "search_query": "임신 중 잘 자는 법",
+            "terminate": false,
+            "text": "음, 잠을 잘 때 왼쪽으로 누워서 자면 허리가 좀 편해질 수 있어요. 임신 중 왼쪽으로 누우면 자궁 쪽 혈액순환이 원활해지거든요.",
+            "turn_id": "BK22015277-12",
+            "utterance_id": "BK22015277.24"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 정말 좋은 정보네요. 와이프에게 꼭 알려줘야겠어요. 오늘 좋은 정보 친절하게 알려주셔서 정말 감사드려요.",
+            "turn_id": "BK22015277-13",
+            "utterance_id": "BK22015277.25"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요, 아내분에게 도움이 되었으면 좋겠네요. 또 궁금한 점 있으면 언제든지 물어보세요.",
+            "turn_id": "BK22015277-13",
+            "utterance_id": "BK22015277.26"
+        }
+    ]
+}

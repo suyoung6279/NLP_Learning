@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018645",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018645",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "거주 안정을 위한 대책을 궁리하는 중이에요. 주변에서 임대 주택 청약도 좋은 대안이라고 해서 좀 알아보려고 해요.",
+            "turn_id": "BK22018645-1",
+            "utterance_id": "BK22018645.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 자격에 맞는 정부에서 마련한 임대 주택을 잘 찾아보면 도움이 될 거예요.",
+            "turn_id": "BK22018645-1",
+            "utterance_id": "BK22018645.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "몇 가지를 들어서 좀 자세히 알고 싶은데 도와주실래요? 신혼부부를 위한 매입임대주택이 있다고 하던데, 그건 어떤 건가요?",
+            "turn_id": "BK22018645-2",
+            "utterance_id": "BK22018645.3"
+        },
+        {
+            "reference_date": "2022-10-03",
+            "reference_text": [
+                {
+                    "value": "'매입임대주택'은 LH가 도심 내 신축과 기존 주택을 매입해 무주택 청년·신혼부부 등에게 시세보다 저렴한 임대조건으로 임대하는 공공임대주택으로, 매년 분기별로 입주자를 정기 모집한다.",
+                    "value_time": "2022-10-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20221003_0002034954&cID=10401&pID=10400",
+            "search_query": "lh 청년매입임대주택",
+            "terminate": false,
+            "text": "제가 잘 설명해드릴게요. 매입임대주택은 LH가 도심 내 신축과 기존 주택을 사서 무주택 청년과 신혼부부 등에게 시세보다 저렴한 임대조건으로 임대하는 공공임대주택이에요. 입주자를 매년 분기별로 정기 모집하고 있어요.",
+            "turn_id": "BK22018645-2",
+            "utterance_id": "BK22018645.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "LH가 주택을 매입해서 임대하는 거군요. 지역 배정은 어떻게 되나요? 지방에서도 신청이 가능한지 알고 싶어요.",
+            "turn_id": "BK22018645-3",
+            "utterance_id": "BK22018645.5"
+        },
+        {
+            "reference_date": "2022-10-03",
+            "reference_text": [
+                {
+                    "value": "LH는 올해 상반기 1·2차 정기 모집으로 7181호를 공급한 데 이어 이번 3차에서 3310호를 청약받는다.",
+                    "value_time": "2022-10-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "유형별로는 청년 매입임대주택 2018호, 신혼부부 매입임대주택 1292호이며. 서울·경기·인천 등 수도권에 1458호, 비수도권에 1852호가 각각 배정됐다.",
+                    "value_time": "2022-10-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "시·도별로는 부산 326호(청년 117호, 신혼부부 209호), 울산 43호, 경남 226호, 서울 467호, 경기 770호, 인천 221호 등이다.",
+                    "value_time": "2022-10-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2022100310063056337",
+            "search_query": "lh 청년매입임대주택 시 도별 배정",
+            "terminate": false,
+            "text": "서울, 경기, 인천 등 수도권과 비수도권 시, 도별로 배정돼 있어요. 이번 3차 모집에서는 청년 매입임대주택 2018호, 신혼부부 매입임대주택은 1292호로 총 3310호를 청약받았는데, 수도권에는 1458호, 비수도권에는 1852호가 각각 배정됐어요. 시도별로 보면 부산 326호, 울산 43호, 경남 226호, 서울 467호, 경기 770호, 인천 221호 등이었죠.",
+            "turn_id": "BK22018645-3",
+            "utterance_id": "BK22018645.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다행이네요. 혹시 서울이나 수도권에만 있으면 어쩌나 걱정했어요. 신혼부부 매입임대주택의 경우 청약 자격은 어떻게 되나요?",
+            "turn_id": "BK22018645-4",
+            "utterance_id": "BK22018645.7"
+        },
+        {
+            "reference_date": "2022-10-19",
+            "reference_text": [
+                {
+                    "value": "청약 신청 자격은 신혼부부(혼인 7년이내), 예비신혼부부, 만 6세 이하 자녀를 둔 한부모가족, 혼인가구이며 무주택 요건과 소득 및 자산 기준을 충족한 경우 가능하다.",
+                    "value_time": "2022-10-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.headlinejeju.co.kr/news/articleView.html?idxno=498692",
+            "search_query": "lh 신혼부부 매입임대주택 자격",
+            "terminate": false,
+            "text": "청약신청은 혼인 7년 이내의 신혼부부와 예비신혼부부, 그리고 만 6세 이하의 자녀를 둔 한부모가족과 혼인가구인 경우에 가능하며, 무주택 요건과 소득 및 자산 기준을 충족해야 하죠.",
+            "turn_id": "BK22018645-4",
+            "utterance_id": "BK22018645.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혼인 7년 이내여야 하는군요. 신혼부부 매입임대주택 공급에는 어떤 유형이 있나요?",
+            "turn_id": "BK22018645-5",
+            "utterance_id": "BK22018645.9"
+        },
+        {
+            "reference_date": "2022-09-21",
+            "reference_text": [
+                {
+                    "value": "신혼부부 매입임대주택은 다가구 주택 등에서 시세 30~40%로 거주할 수 있는 ‘Ⅰ유형’(1541호)과 아파트 오피스텔 등에서 시세 60~80%로 살 수 있는 ‘Ⅱ유형’(970호)으로 나눠 공급된다.",
+                    "value_time": "2022-10-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20220921000291",
+            "search_query": "lh 신혼부부 매입임대주택 유형",
+            "terminate": false,
+            "text": "신혼부부 매입임대주택은 1, 2 유형으로 나뉘어 공급돼요. 1유형은 다가구 주택 등에서 시세 30~40%로 거주하는 것이고, 2유형은 아파트, 오피스텔 등에서 시세 60~80%로 거주하는 것이지요.",
+            "turn_id": "BK22018645-5",
+            "utterance_id": "BK22018645.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다가구 주택과 아파트, 오피스텔 등이 있군요. 최대 거주 기간은 어떻게 되나요?",
+            "turn_id": "BK22018645-6",
+            "utterance_id": "BK22018645.11"
+        },
+        {
+            "reference_date": "2022-10-03",
+            "reference_text": [
+                {
+                    "value": "거주기간은 청년매입임대주택은 최장 6년, 신혼부부Ⅰ 매입임대주택은 최장 20년, 신혼부부Ⅱ 매입임대주택은 최장 6년으로 자녀가 있는 경우에는 10년까지 거주 가능하다.",
+                    "value_time": "2022-10-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20221003_0002034954&cID=10401&pID=10400",
+            "search_query": "lh 신혼부부 매입임대주택 거주기간",
+            "terminate": false,
+            "text": "신혼부부 매입임대주택의 경우 1유형은 최장 20년, 2유형은 최장 6년으로 자녀가 있는 경우에는 10년까지 거주할 수 있어요.",
+            "turn_id": "BK22018645-6",
+            "utterance_id": "BK22018645.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유형에 따라 거주 기간 차이가 있네요. 청약일 같은 기타 세부 사항 확인은 어디서 할 수 있나요?",
+            "turn_id": "BK22018645-7",
+            "utterance_id": "BK22018645.13"
+        },
+        {
+            "reference_date": "2022-10-04",
+            "reference_text": [
+                {
+                    "value": "아울러, 이번 모집은 지역본부별 및 유형별로 공급 일정이 상이하므로 정확한 신청접수일 등은 LH청약센터에 게시된 공고문에서 확인 후 신청해야 한다.",
+                    "value_time": "2022-10-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기타 자세한 사항은 LH청약센터에 게시된 유형별 공고문을 통해 확인할 수 있으며, LH콜센터를 통한 전화 상담도 가능하다.",
+                    "value_time": "2022-10-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newsworker.co.kr/news/articleView.html?idxno=175527",
+            "search_query": "lh 신혼부부 매입임대주택 청약일 청약센터",
+            "terminate": false,
+            "text": "정확한 신청접수일 등은 LH청약센터에 게시된 공고문에서 확인하세요. 또한 기타 자세한 사항도 LH청약센터에 유형별로 공고문이 게시돼요. LH콜센터를 통한 전화 상담도 가능하니 이용해 보세요.",
+            "turn_id": "BK22018645-7",
+            "utterance_id": "BK22018645.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "LH청약센터의 게시문을 잘 확인해야겠어요. 신혼부부는 행복 주택 청약도 가능하다고 하던데, 행복주택은 어떤 특징이 있나요?",
+            "turn_id": "BK22018645-8",
+            "utterance_id": "BK22018645.15"
+        },
+        {
+            "reference_date": "2022-10-17",
+            "reference_text": [
+                {
+                    "value": "공공임대주택의 한 종류인 행복주택은 청년(19∼39세·신혼부부·대학생) 등 젊은 계층의 주거 불안을 해소하기 위해 마련한 제도다.",
+                    "value_time": "2022-10-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "국가 재정과 주택도시기금을 지원받아 대중교통 이용이 편리하고 직주근접을 실현할 수 있는 부지에 주변 시세보다 저렴하게 공급한다.",
+                    "value_time": "2022-10-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다른 공공임대주택에 비해 소득 요건이 덜 까다로운 편이다.",
+                    "value_time": "2022-10-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "도시근로자 월평균 소득의 100% 이하(맞벌이 120%)면 지원할 수 있어 신혼부부와 청년들에게 인기가 높다.",
+                    "value_time": "2022-10-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/realestate/article/2022101610661",
+            "search_query": "lh 신혼부부 행복 주택",
+            "terminate": false,
+            "text": "행복주택은 공공임대주택의 한 종류로서 19-39세의 청년과 신혼부부, 대학생 등 젊은 계층의 주거를 위해 마련된 제도예요. 도시근로자 월평균 소득의 100% 이하, 맞벌이 120% 이하면 지원할 수 있어 다른 공공임대주택에 비해 소득요건이 덜 까다로워 신혼부부와 청년들에게 인기가 높죠. 국가 재정과 주택도시기금의 지원을 받아 대중교통을 편리하게 이용할 수 있고, 직주근접을 실현할 수 있는 부지에 조성돼 있어요. 또한 주변 시세보다 저렴하게 공급되고 있죠.",
+            "turn_id": "BK22018645-8",
+            "utterance_id": "BK22018645.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 가족이 준비해서 도전해 봐도 좋네요. 그런데 행복 주택에 입주해도 신규 아파트 청약을 할 수 있나요?",
+            "turn_id": "BK22018645-9",
+            "utterance_id": "BK22018645.17"
+        },
+        {
+            "reference_date": "2022-10-17",
+            "reference_text": [
+                {
+                    "value": "인근 시세보다 저렴한 데다 청약통장을 쓰지 않기 때문에 신규 아파트 청약에 계속 도전할 수 있다.",
+                    "value_time": "2022-10-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/realestate/article/2022101610661",
+            "search_query": "lh 신혼부부 행복 주택 신규아파트 청약",
+            "terminate": false,
+            "text": "네, 가능해요. 청약통장을 쓰지 않기 때문에 신규 아파트 청약에 계속 도전할 수 있다는 장점이 있죠.",
+            "turn_id": "BK22018645-9",
+            "utterance_id": "BK22018645.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신규 아파트 청약을 계속할 수 있다니 좋네요. 신혼부부 매입임대주택 청약과 행복주택청약 정보 잘 들었어요. 덕분에 용기가 나네요, 다음에 또 만나요.",
+            "turn_id": "BK22018645-10",
+            "utterance_id": "BK22018645.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 주거 안정을 속히 이루시길 바라요. 좋은 제도들이 있으니 잘 활용할 수 있으면 좋겠네요. 힘내세요. 다음에 만날 때까지 건강하세요.",
+            "turn_id": "BK22018645-10",
+            "utterance_id": "BK22018645.20"
+        }
+    ]
+}

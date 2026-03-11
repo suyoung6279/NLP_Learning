@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016915",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016915",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 보면 부쩍 국제결혼 한 사람들이 많은 것 같아요. 다문화가정도 과거 대비 많이 는 것 같고요. 몇 가지 좀 궁금한 게 있는데 물어봐도 되나요?",
+            "turn_id": "BK22016915-1",
+            "utterance_id": "BK22016915.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "무엇이든 궁금한 게 있으면 물어보세요.",
+            "turn_id": "BK22016915-1",
+            "utterance_id": "BK22016915.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 결혼 이민 비자가 얼마나 발급됐는지, 비자 발급받은 사람 중 어느 나라 국적 사람들이 많은지 궁금합니다.",
+            "turn_id": "BK22016915-2",
+            "utterance_id": "BK22016915.3"
+        },
+        {
+            "reference_date": "44131.0",
+            "reference_text": [
+                {
+                    "value": "최근 5년간 결혼이민비자 발급 건수는 총 5만1934건으로, 베트남이 2만6134건으로 가장 많았고, 중국 7632건, 필리핀 3293건, 태국 2451건, 캄보디아 2229건, 우즈벡 745건, 몽골 351건 순으로 나타났다.",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mdtoday.co.kr/mdtoday/index.html?no=403815",
+            "search_query": "결혼이민비자 발급 건수",
+            "terminate": false,
+            "text": "2015년부터 2019년 5년간 총 5만1,934건의 결혼 이민 비자가 발급됐어요. 그 중 2만6,134건을 기록한 베트남이 가장 많았고요, 그 뒤로 중국 7,632건, 필리핀 3,293건, 태국 2,451건, 캄보디아 2,229건이었습니다. 우즈벡도 745건, 몽골도 351건 있었고요.",
+            "turn_id": "BK22016915-2",
+            "utterance_id": "BK22016915.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라의 다문화 가족 현황에 대해서도 궁금한데요, 다문화 가구가 총 몇 가구 정도 되나요? 결혼이민자 가구가 얼마나 되는지도 궁금합니다.",
+            "turn_id": "BK22016915-3",
+            "utterance_id": "BK22016915.5"
+        },
+        {
+            "reference_date": "44739.0",
+            "reference_text": [
+                {
+                    "value": "27일 여성가족부가 전국 다문화가족 1만5578가구를 대상으로 실시한 '2021년 전국 다문화가족 실태조사' 결과에 따르면 다문화가구는 전체 34만6017가구로 나타났다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그중 결혼이민자(한국인과 혼인한 외국 국적자 및 혼인귀화자) 가구가 82.4%(28만5005가구) 기타귀화자(혼인귀화 외의 방법으로 한국 국적을 취득한 귀화자) 가구가 17.6%(6만1012가구)다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4723999",
+            "search_query": "다문화 가구 결혼이민자 가구",
+            "terminate": false,
+            "text": "여성가족부가 2022년 6월 27일 발표한 2021년 전국 다문화가족 실태조사에 따르면 다문화 가구는 총 34만 6,017가구인데요, 그중 82.4%인 28만 5,005가구가 결혼이민자 가구입니다. 그밖에 결혼 이외의 방법으로 우리나라 국적을 가진 기타귀화자 가구는 6만 1,012가구로 17.6%를 차지했습니다.",
+            "turn_id": "BK22016915-3",
+            "utterance_id": "BK22016915.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "또 궁금한 게 있는데요, 우리나라 사람과 결혼한 외국인의 경우 몇 년 거주해야 영주권을 얻을 수 있나요?",
+            "turn_id": "BK22016915-4",
+            "utterance_id": "BK22016915.7"
+        },
+        {
+            "reference_date": "43515.0",
+            "reference_text": [
+                {
+                    "value": "내국인과 결혼한 상태에서 대한민국에서 2년 이상 합법 체류한 외국인은 영주자격인 F-5를 신청할 수 있습니다.",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/003/0009067865?sid=110",
+            "search_query": "결혼 외국인 영주권",
+            "terminate": false,
+            "text": "우리나라 사람과 결혼한 외국인이 우리나라에서 2년 이상 합법적으로 체류할 경우 영주자격인 F-5 신청이 가능합니다.",
+            "turn_id": "BK22016915-4",
+            "utterance_id": "BK22016915.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 다문화 가족 자녀들에 대해서도 궁금한 게 있는데요. 우리나라 학생 중 다문화 학생의 수는 어느 정도 되나요?",
+            "turn_id": "BK22016915-5",
+            "utterance_id": "BK22016915.9"
+        },
+        {
+            "reference_date": "44803.0",
+            "reference_text": [
+                {
+                    "value": "전체 학생 수는 감소했지만 다문화 학생 수는 16만8645명으로 전년 대비 8587명(5.4%) 증가했다.",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2017년 첫 10만 명을 돌파한 국내 다문화 학생 수는 △2019년 13만7225명 △2020년 14만7378명 △2021년 16만58명 △2022년 16만8645명으로 증가세를 보이고 있다.",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전체 학생 중 다문화 학생이 차지하는 비율도 3.2%로 전년 대비 0.2%포인트 상승했다.",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/018/0005305397?sid=102",
+            "search_query": "다문화 학생 수",
+            "terminate": false,
+            "text": "전체 학생 수는 줄어들고 있지만 다문화 학생 수는 2021년 대비 8,587명 늘어난 16만8,645명입니다, 국내 다문화 학생은 2017년 10만 명을 처음으로 돌파한 뒤 2019년 13만7,225명, 2020년 14만7,378명, 2021년 16만58명을 거쳐 2022년 16만8,645명까지 꾸준하게 증가하고 있습니다. 전체 학생 중 다문화 학생이 차지하는 비중 역시 2021년 대비 0.2% 증가한 3.2%를 기록했습니다.",
+            "turn_id": "BK22016915-5",
+            "utterance_id": "BK22016915.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘엔 학생들이 줄어드는 추세인데 다문화 학생들은 증가했네요. 다문화 학생 부모의 국적은 어떤 국가 출신이 가장 많나요?",
+            "turn_id": "BK22016915-6",
+            "utterance_id": "BK22016915.11"
+        },
+        {
+            "reference_date": "44803.0",
+            "reference_text": [
+                {
+                    "value": "부모 출신 국적별로는 베트남이 32.4%(5만4722명)으로 가장 많았다.",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이어 중국(한국계 제외) 24.3%(4만1009명), 필리핀 9.6%(1만6210명), 중국(한국계) 7.1%(1만1914명), 일본 4.7%(7891명) 순이다.",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/018/0005305397?sid=102",
+            "search_query": "다문화 부모 국적",
+            "terminate": false,
+            "text": "부모 출신 나라별로 나눠보면 베트남이 5만4,722명으로 32.4%를 기록해 가장 많았습니다. 뒤이어 한국계를 제외한 중국 국적이 4만1,009명으로 24.3%를 차지했고요. 필리핀이 1만6,210명으로 9.6%, 한국계 중국 국적이 1만1,914명으로 7.1%였고, 일본은 7,891명으로 4.7%였습니다.",
+            "turn_id": "BK22016915-6",
+            "utterance_id": "BK22016915.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "베트남이 가장 숫자가 많네요. 또 궁금한 게 있는데, 다문화 학생들의 대학 진학률은 어느 정도 되나요?",
+            "turn_id": "BK22016915-7",
+            "utterance_id": "BK22016915.13"
+        },
+        {
+            "reference_date": "44739.0",
+            "reference_text": [
+                {
+                    "value": "여성가족부가 27일 발표한 ‘2021년 전국 다문화가족 실태조사’를 보면 다문화가족 자녀의 대학 진학률은 40.5%로 3년 전 조사(49.6%)에 비해 9% 포인트 하락했다.",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전체 국민(71.5%)에 비해서도 현저히 낮았다.",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/081/0003282817?sid=102",
+            "search_query": "다문화 대학 진학률",
+            "terminate": false,
+            "text": "2021년 전국 다문화 가족 실태조사에 따르면 다문화 가족 자녀의 대학 진학률은 40.5%로 2018년 조사 당시의 49.6%보다 9퍼센트나 줄었습니다. 71.5%의 진학률을 보인 전체국민에 비하면 현격하게 낮았습니다.",
+            "turn_id": "BK22016915-7",
+            "utterance_id": "BK22016915.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다문화가정 자녀들의 대학 진학률이 상당히 낮네요. 그럼 다문화 자녀 가운데 학교도 안 가고 취업도 안 하는 비율은 어느 정도 되나요?",
+            "turn_id": "BK22016915-8",
+            "utterance_id": "BK22016915.15"
+        },
+        {
+            "reference_date": "44739.0",
+            "reference_text": [
+                {
+                    "value": "만 15세 이상 다문화가정 자녀 가운데 비(非)재학·비취업 비율은 2018년(10.3%)보다 3.7%포인트 높아진 14.0%를 기록했다.",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/025/0003205349?sid=102",
+            "search_query": "다문화 비재학 비취업",
+            "terminate": false,
+            "text": "다문화가정 자녀 중 만 15세 이상의 자녀 중 학교에 재학돼 있지 않고, 취업하지 않은 비율은 14%를 기록했습니다. 2018년 당시 10.3%보다 3.7% 올랐습니다.",
+            "turn_id": "BK22016915-8",
+            "utterance_id": "BK22016915.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다문화가정 자녀들에 대해 국가 차원에서 신경을 써야 할 것 같네요. 마지막으로 하나만 더 물어볼게요. 다문화가정 자녀들이 부모와도 소원해지는 경우가 적지 않을 것 같은데 혹시 부모와 대화하지 않는 다문화 자녀들의 비율도 알 수 있나요?",
+            "turn_id": "BK22016915-9",
+            "utterance_id": "BK22016915.17"
+        },
+        {
+            "reference_date": "44739.0",
+            "reference_text": [
+                {
+                    "value": "하루에 아버지와 전혀 대화하지 않는다'고 답한 다문화 자녀의 비율은 2015년 7.0%에서 2018년 8.6%, 2021년 10.5%로 갈수록 높아졌다.",
+                    "value_time": "44841.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하루에 어머니와 전혀 대화하지 않는다'고 답한 다문화 자녀의 비율도 같은 기간 3.4%→10.5%→11.9%로 늘었다.",
+                    "value_time": "44841.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/011/0004069642?sid=102",
+            "search_query": "다문화 자녀 대화 비율",
+            "terminate": false,
+            "text": "다문화 자녀 중 하루에 부친과 전혀 대화하지 않는다고 답한 비율이 2021년 10.5%를 기록했는데요, 2015년 7%, 2018년 8.6%에서 계속 증가했습니다. 하루에 모친과 전혀 대화하지 않는다고 답한 비율 역시 2015년 3.4%에서 2018년 10.5%로, 2021년엔 11.9%로 증가했습니다.",
+            "turn_id": "BK22016915-9",
+            "utterance_id": "BK22016915.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라도 점차 다문화 사회가 되는 만큼 신경을 써야 될 것 같네요. 자세히 알려주셔서 대단히 감사합니다.",
+            "turn_id": "BK22016915-10",
+            "utterance_id": "BK22016915.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "언제든 궁금한 게 있으면 물어보세요.",
+            "turn_id": "BK22016915-10",
+            "utterance_id": "BK22016915.20"
+        }
+    ]
+}

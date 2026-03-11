@@ -1,0 +1,383 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003892",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003892",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "부모님이 유기견 보호 센터에서 개를 입양하신다고 하네요.",
+            "turn_id": "BK22003892-1",
+            "utterance_id": "BK22003892.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "적적하시지 않게 개를 키우는 것도 너무 좋은 방법이죠. 반려동물을 입양하기까지 결정이 쉽지 않으셨을 텐데 멋있으시네요.",
+            "turn_id": "BK22003892-1",
+            "utterance_id": "BK22003892.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 저도 공부 좀 하려고요. 부모님이 데려오기로 한 개가 리트리버라고 하는데 혹시 아세요?",
+            "turn_id": "BK22003892-2",
+            "utterance_id": "BK22003892.3"
+        },
+        {
+            "reference_date": "2022-03-08",
+            "reference_text": [
+                {
+                    "value": "리트리버(Retriever)는 개 품종의 하나로, 대표적인 사냥개이다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "상처가 나지 않게 약하게 무는 법을 오랜 시간 익혔고, 또 훈련이 비교적 쉽게 이루어지기 때문에 최근에는 안내견 등으로도 인기가 있다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "래브라도 리트리버, 골든 리트리버 등이 이 품종의 하위에 속한다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A6%AC%ED%8A%B8%EB%A6%AC%EB%B2%84",
+            "search_query": "리트리버",
+            "terminate": false,
+            "text": "리트리버는 대표적인 사냥개인데 다른 개에 비해서 훈련이 쉬워 안내견 등으로도 인기가 많아요. 리트리버는 래브라도 리트리버와 골든 리트리버가 있어요.",
+            "turn_id": "BK22003892-2",
+            "utterance_id": "BK22003892.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안내견으로 많이 보이는 큰 개가 리트리버군요. 래브라도 리트리버는 어떤 성격인가요?",
+            "turn_id": "BK22003892-3",
+            "utterance_id": "BK22003892.5"
+        },
+        {
+            "reference_date": "2022-03-04",
+            "reference_text": [
+                {
+                    "value": "현대의 래브라도 종은 캐나다의 뉴펀들랜드 래브라도주(Newfoundland and Labrador)의 일부인 뉴펀들랜드섬에서 기원하였다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "성품은 친절하고 외향적이며 다루기 쉬운 성향이다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "골든 리트리버에 비해 번견으로서의 성질이 좋고 사람을 잘 따르지만 귀찮게 하지는 않는다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%9E%98%EB%B8%8C%EB%9D%BC%EB%8F%84_%EB%A6%AC%ED%8A%B8%EB%A6%AC%EB%B2%84",
+            "search_query": "래브라도 리트리버",
+            "terminate": false,
+            "text": "캐나다의 뉴펀들랜드 래브라도주에서 기원한 래브라도 리트리버의 성격은 친절하고 외향적이고 교육하기에도 쉬워요. 골든 리트리버에 비해서 집을 지키는 번견으로써 좋고 사람을 좋아하지만 그렇다고 귀찮게 하지는 않아요.",
+            "turn_id": "BK22003892-3",
+            "utterance_id": "BK22003892.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "래브라도 리트리버는 캐나다가 고향이군요. 부모님은 골든 리트리버를 입양하신다고 하는데 골든 리트리버는 성격이 어때요?",
+            "turn_id": "BK22003892-4",
+            "utterance_id": "BK22003892.7"
+        },
+        {
+            "reference_date": "2022-05-15",
+            "reference_text": [
+                {
+                    "value": "골든 리트리버(영어: Golden Retriever)는 개의 품종 중 하나로, 골든 리트리버의 원산지는 영국 스코틀랜드이다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "골든 리트리버는 크림색과 골드색을 가진 아이들로 나뉘는데, 이 중에서 크림색은 보통 영국에서 온 강아지를, 골드색은 보통 미국에서 온 골든 리트리버이다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사람을 좋아하고 잘 따르며, 온순한 성품을 지니고 있다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사회성이 좋아 어린아이들에게도 관대하여 외국에서는 자폐 아동의 사회성 육성에 이용되고 국내에서는 안내견으로서 활용된다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%A8%EB%93%A0_%EB%A6%AC%ED%8A%B8%EB%A6%AC%EB%B2%84",
+            "search_query": "골든 리트리버",
+            "terminate": false,
+            "text": "골든 리트리버는 영국 스코틀랜드가 고향이에요. 털색에 따라서 보통 크림색은 영국에서 온 골든 리트리버, 골드색은 미국에서 온 골든 리트리버에요. 성격은 사람을 좋아하고 잘 따르고, 온순한 편이에요. 사회성 또한 뛰어나 특히 어린아이들에게 관대해서 외국에서는 자폐 아동의 사회성을 기르는 데 많이 이용되고 국내에서는 안내견으로 이용되는 견종이에요.",
+            "turn_id": "BK22003892-4",
+            "utterance_id": "BK22003892.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이들에게 관대하다니 조카들이 좋아하겠네요. 골든 리트리버와 래브라도 리트리버 성격은 비슷해 보이는 데 어떤 차이가 있나요?",
+            "turn_id": "BK22003892-5",
+            "utterance_id": "BK22003892.9"
+        },
+        {
+            "reference_date": "2017-01-20",
+            "reference_text": [
+                {
+                    "value": "골든 리트리버는 장모, 래브라도 리트리버는 단모로 알고 있는 경우가 많은데요.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "골디와 랩은 모두 사람과의 친화력이 좋지만 특히 골디의 친화력이 랩보다 더 좋다고 합니다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "먹성과 운동량은 골디보다 랩이 더 높아 해외에서는 랩이 개 관련 스포츠에서 더 두각을 보인다고 해요.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/201701201346848290",
+            "search_query": "골든 리트리버 래브라도 리트리버",
+            "terminate": false,
+            "text": "골든 리트리버와 래브라도 리트리버 모두 사람을 좋아하지만 골든 리트리버의 친화력이 더 좋아요. 또 래브라도 리트리버는 먹성과 운동량이 골든 리트리버보다 더 높아서 해외에서 열리는 개 관련 스포츠에서는 래브라도 리트리버가 두각을 드러내요. 외모에서는 골든 리트리버는 털이 긴 장모종이고 래브라도 리트리버는 털이 짧은 단모종이에요.",
+            "turn_id": "BK22003892-5",
+            "utterance_id": "BK22003892.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "둘 다 성격이 좋은 건 확실하네요. 골든 리트리버는 장모종이라 털이 많이 빠지겠어요.",
+            "turn_id": "BK22003892-6",
+            "utterance_id": "BK22003892.11"
+        },
+        {
+            "reference_date": "2021-06-22",
+            "reference_text": [
+                {
+                    "value": "골든 리트리버는 장모인데다 이중모를 가졌기 때문에 다른 품종의 댕댕이들보다 유독 털빠짐이 심한 경향이 있다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/344877",
+            "search_query": "골든 리트리버 털빠짐",
+            "terminate": false,
+            "text": "네, 골든 리트리버는 장모종인데다가 털이 이중 모이기 때문에 다른 품종의 개보다 털 빠짐이 심한 편이에요.",
+            "turn_id": "BK22003892-6",
+            "utterance_id": "BK22003892.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자주 빗질을 해줘서 죽은 털을 정리해 줘야겠네요. 골든 리트리버는 평균 크기가 어떻게 될까요?",
+            "turn_id": "BK22003892-7",
+            "utterance_id": "BK22003892.13"
+        },
+        {
+            "reference_date": "2021-02-02",
+            "reference_text": [
+                {
+                    "value": "골든 리트리버는 51~61cm, 래브라도 리트리버도 54~57cm까지 큽니다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여기에 몸무게가 20~30kg까지 나갑니다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2021020108533920872",
+            "search_query": "골든 리트리버 키",
+            "terminate": false,
+            "text": "골든 리트리버는 대형견이라 성견이 되었을 때 체고가 51센티에서 61센티까지 커져요. 몸무게는 평균 20킬로그램에서 30킬로그램 정도예요.",
+            "turn_id": "BK22003892-7",
+            "utterance_id": "BK22003892.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 많이 커서 산책할 때 잘 잡아야겠어요. 골든 리트리버는 어느 정도의 운동이 적절한가요?",
+            "turn_id": "BK22003892-8",
+            "utterance_id": "BK22003892.15"
+        },
+        {
+            "reference_date": "2016-07-10",
+            "reference_text": [
+                {
+                    "value": "먼저 골든 리트리버는 운동량이 굉장히 많아서 하루에 30분씩 네 번 가량 운동을 시켜야 한다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "골든 리트리버의 특기인 원반던지기나 수영 등을 가르치면 즐겁게 운동을 시킬 수 있다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/057/0000989569",
+            "search_query": "골든 리트리버 운동량",
+            "terminate": false,
+            "text": "골든 리트리버는 운동량이 많은 견종이에요. 하루에 30분씩 4회 정도 운동해야 하는데 원반던지기나 수영 등을 가르치면 더욱 수월하고 즐겁게 운동을 할 수 있어요.",
+            "turn_id": "BK22003892-8",
+            "utterance_id": "BK22003892.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "운동량이 많으니 부모님도 함께 운동하기에 좋겠네요. 골든 리트리버는 크기가 커서 입마개를 해야 하나요?",
+            "turn_id": "BK22003892-9",
+            "utterance_id": "BK22003892.17"
+        },
+        {
+            "reference_date": "2022-03-21",
+            "reference_text": [
+                {
+                    "value": "골든리트리버는 동물보호법상 맹견으로 분류되지 않아 입마개 착용이 의무는 아니다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.kmib.co.kr/article/view.asp?arcid=0016887830&code=61121211&cp=nv",
+            "search_query": "골든 리트리버 입마개",
+            "terminate": false,
+            "text": "아뇨, 골든 리트리버는 동물보호법상에 따라 맹견이 아니기 때문에 입마개 착용이 의무는 아니에요.",
+            "turn_id": "BK22003892-9",
+            "utterance_id": "BK22003892.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "워낙 순한 종이라 입마개 착용이 의무가 아니군요. 입마개 착용 의무인 종은 어떤 것이 있나요?",
+            "turn_id": "BK22003892-10",
+            "utterance_id": "BK22003892.19"
+        },
+        {
+            "reference_date": "2021-07-27",
+            "reference_text": [
+                {
+                    "value": "현행 동물보호법상 입마개 의무 착용 견종에는 도사견, 아메리칸 핏불테리어, 아메리칸 스탠퍼드셔 테리어, 스태퍼드셔 불테리어, 로트와일러 등 5종과 그 잡종의 개가 포함된다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4379395",
+            "search_query": "입마개 견종",
+            "terminate": false,
+            "text": "현행 동물보호법상 도사견과 아메리칸 핏불테리어, 아메리칸 스탠퍼드셔 테리어, 스탠퍼드셔 불테리어, 로트와일러 등 5종과 그 잡종인 경우가 입마개 의무 착용 견종으로 정해져 있어요.",
+            "turn_id": "BK22003892-10",
+            "utterance_id": "BK22003892.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "5종에 해당하는 개의 잡종인 경우에도 입마개를 해야 하는군요. 골든 리트리버긴 하지만 혹시나 입질이 있는 경우에는 입마개를 해야겠네요. 오늘 자세히 알려줘서 너무 고마워요.",
+            "turn_id": "BK22003892-11",
+            "utterance_id": "BK22003892.21"
+        }
+    ]
+}

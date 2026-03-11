@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22017452",
+        "name": "2022 한국어 블렌더봇 데이터 BK22017452",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전에 개를 입양했어. 등록에 대한 이야기를 들었는데 무슨 말인지 이해가 안 가던데, 뭔지 알고 있어?",
+            "turn_id": "BK22017452-1",
+            "utterance_id": "BK22017452.1"
+        },
+        {
+            "reference_date": "44739.0",
+            "reference_text": [
+                {
+                    "value": "동물등록제는 동물 보호와 유실·유기방지 등을 위해 반려견의 정보를 시·군·구청에 등록하도록 하는 제도다.",
+                    "value_time": "44836.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "주택·준주택 또는 이외의 장소에서 반려 목적으로 기르는 월령 2개월 이상의 개를 대상으로 한다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.kmib.co.kr/article/view.asp?arcid=0017218825&code=61121111&cp=nv",
+            "search_query": "반려견 등록",
+            "terminate": false,
+            "text": "응, 동물을 보호하고 유실, 유기를 방지하기 위해서 반려견 정보를 시, 군, 구청에 등록하는 것을 말해. 대상은 주택, 준주택, 이외 장소에서 반려를 목적으로 해서 기르는 2개월이 지난 개야.",
+            "turn_id": "BK22017452-1",
+            "utterance_id": "BK22017452.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇구나. 그럼 얼른 해야겠다. 그럼 반려견 등록은 어떤 정보를 등록하는 거야?",
+            "turn_id": "BK22017452-2",
+            "utterance_id": "BK22017452.3"
+        },
+        {
+            "reference_date": "44796.0",
+            "reference_text": [
+                {
+                    "value": "동물등록을 하기 위해서는 동물의 이름, 나이, 종류, 성별을 등록해야 하고, 소유자 이름, 주민번호, 주소, 연락처도 입력해야 한다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "등록을 하면 동물 등록증이 나온다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://weekly.chosun.com/news/articleView.html?idxno=21624",
+            "search_query": "반려견 등록 정보",
+            "terminate": false,
+            "text": "반려견 등록은 동물의 이름과 나이, 종류 그리고 성별을 등록해야 해. 그 외에도 소유자의 이름과 주민등록번호, 연락처, 주소도 입력해야 해. 그렇게 접수하면 동물 등록증이 나와.",
+            "turn_id": "BK22017452-2",
+            "utterance_id": "BK22017452.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려견에 등록 방식이 2가지가 있다고 하던데 어떤 방식이야?",
+            "turn_id": "BK22017452-3",
+            "utterance_id": "BK22017452.5"
+        },
+        {
+            "reference_date": "44395.0",
+            "reference_text": [
+                {
+                    "value": "동물등록은 내장형 방식과 외장형 방식 중 선택할 수 있다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "내장형 방식은 무선전자개체식별장치(마이크로칩)을 체내에 삽입(주사)하는 방식으로 분실 및 훼손 우려가 없다.",
+                    "value_time": "44836.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "외장형 방식은 목걸이 등 형태로 부착하는 방식이다.",
+                    "value_time": "44836.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.kmib.co.kr/article/view.asp?arcid=0016066339&code=61121111&cp=nv",
+            "search_query": "반려견 등록 방식",
+            "terminate": false,
+            "text": "동물 등록 방식은 내장형과 외장형 중 선택할 수 있어. 내장형은 마이크로칩을 주사하는 방식이고, 외장형은 목걸이 등으로 부착하는 방식이야.",
+            "turn_id": "BK22017452-3",
+            "utterance_id": "BK22017452.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "본격적으로 키우면 예방 접종을 포함해서 검진 때문에 병원도 데리고 다녀야 하는데, 반려견 키우면 의료비로 돈이 많이 든다는 이야기를 들어서 보험도 알아보고 있어. 그런데 펫 보험을 만류하는 사람들이 많더라고, 이유가 뭐야?",
+            "turn_id": "BK22017452-4",
+            "utterance_id": "BK22017452.7"
+        },
+        {
+            "reference_date": "44565.0",
+            "reference_text": [
+                {
+                    "value": "국내 반려동물은 약 900만 마리에 달하는데, 이 중 보험에 가입된 동물은 3만 마리로 전체의 0.3%에 불과하다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "현재 7개 손해보험사에서 펫보험 상품을 판매 중이지만 가입자 부담률이 30~50%로 높은데다 매월 내야 되는 보험료도 낮이 않아 반려인 입장에서는 부담스러울 수 밖에 없다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dt.co.kr/contents.html?article_no=2022010402109963075003&ref=naver",
+            "search_query": "펫 보험 보장",
+            "terminate": false,
+            "text": "국내에 반려동물이 900만 마리 정도가 있는데 이 중 3만 마리 정도 가입해 가입률이 0.3%에 불과해. 손해보험사 일곱 군데에서 펫 보험을 판매 중이지만, 가입자의 부담률이 30~50% 정도로 높고 매달 내야 하는 보험료도 높아 부담스러운 것이 사실이야.",
+            "turn_id": "BK22017452-4",
+            "utterance_id": "BK22017452.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그럼 좀 더 자세히 알아봐야겠다. 주말에 여행을 즐기는 편인데 반려견 데리고 놀러 갈 데가 마땅치 않아. 반려견 여행 갈만한 곳 알려줄래?",
+            "turn_id": "BK22017452-5",
+            "utterance_id": "BK22017452.9"
+        },
+        {
+            "reference_date": "44334.0",
+            "reference_text": [
+                {
+                    "value": "호텔업계의 '펫프렌들리(반려동물 친화)' 정책이 변신을 거듭하고 있다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "객실 '동반 입장'에 머물던 기존 펫캉스(펫+호캉스)의 한계에서 벗어나 반려동물을 위한 객실과 서비스를 갖춘 숙소로 탈바꿈하고 있는 것이다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.greened.kr/news/articleView.html?idxno=289642",
+            "search_query": "반려견 여행",
+            "terminate": false,
+            "text": "호텔들이 반려동물 친화 정책으로 변화하고 있어. 기존 동반 입장의 한계에서 벗어나 객실과 서비스를 갖춘 반려동물을 위한 숙소로 거듭나고 있으니 고려해봐.",
+            "turn_id": "BK22017452-5",
+            "utterance_id": "BK22017452.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혼자면 몰라도 개를 데리고 어디로 이동하는 것도 쉽지 않은데, 괜찮은 이동 수단 있을까?",
+            "turn_id": "BK22017452-6",
+            "utterance_id": "BK22017452.11"
+        },
+        {
+            "reference_date": "44825.0",
+            "reference_text": [
+                {
+                    "value": "반려동물과 함께 버스로 당일치기 근교 여행을 가고 싶어도 다른 승객 눈치가 보여 망설였다면 ‘펫 버스’를 알아보자.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "펫 버스는 반려인만을 대상으로 한 반려동물 전용 관광버스로, 반려동물을 케이지에 넣지 않고 버스 좌석에 앉힌다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://woman.donga.com/3/all/12/3647272/1",
+            "search_query": "반려견 이동수단",
+            "terminate": false,
+            "text": "반려동물과 버스로 당일치기 여행을 가기를 원한다면 다른 승객 눈치 보지 않고 다닐 수 있는 펫 버스가 있어. 펫 버스는 반려동물 전용 관광버스로 반려인만을 대상으로 해. 반려동물을 케이지에 넣지 않고 이동할 수 있어.",
+            "turn_id": "BK22017452-6",
+            "utterance_id": "BK22017452.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 반려견 시장이 커지고 있다는 게 느껴지네.",
+            "turn_id": "BK22017452-7",
+            "utterance_id": "BK22017452.13"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러니 말이야. 요즘은 어린이보다 반려동물이 더 많다고 말할 정도니까.",
+            "turn_id": "BK22017452-7",
+            "utterance_id": "BK22017452.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려동물이 많다는 이야기를 들으니 생각났는데 요즘 펫테크 시장이 커지고 있다고 들었어. 혹시 펫테크가 뭔지 알아?",
+            "turn_id": "BK22017452-8",
+            "utterance_id": "BK22017452.15"
+        },
+        {
+            "reference_date": "44512.0",
+            "reference_text": [
+                {
+                    "value": "◆ 펫테크(Pet-tech)는 반려동물(Pet)과 기술(Technology)을 합성한 신조어로, 반려동물 서비스에 사물인터넷, 인공지능(AI) 등 다양한 기술이 결합한 형태를 의미한다.",
+                    "value_time": "44836.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.einfomax.co.kr/news/articleView.html?idxno=4183428",
+            "search_query": "펫테크란",
+            "terminate": false,
+            "text": "펫테크는 반려동물과 기술의 합성어로서 사물인터넷과 인공지능에 반려동물 서비스를 결합한 형태를 말해.",
+            "turn_id": "BK22017452-8",
+            "utterance_id": "BK22017452.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "과거에서 현재까지 펫테크는 어떻게 변화하고 있니?",
+            "turn_id": "BK22017452-9",
+            "utterance_id": "BK22017452.17"
+        },
+        {
+            "reference_date": "44245.0",
+            "reference_text": [
+                {
+                    "value": "초기에는 주인이 집에 없을 때 혼자 남아있는 반려동물을 관찰하거나 먹이를 주고, 실시간으로 음성이나 화상으로 대화하거나 놀아주는 것을 돕는 IoT 기반 제품을 중심으로 실현되다가, 이제는 반려동물의 음성과 신체적 변화를 분석해 감정 상태를 전달해주는 의사소통기기, 행동 패턴을 학습해 그에 맞춰 움직이는 장난감 등 인공지능, 빅데이터 기반 제품까지 등장했다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.m-economynews.com/news/article.html?no=30424",
+            "search_query": "펫테크 변화",
+            "terminate": false,
+            "text": "초기 펫테크는 주인이 없을 때 반려동물을 관찰하고 먹이를 주며, 실시간으로 음성이나 화상으로 대화하고 놀아주는 정도였어. 그런데 지금은 반려동물의 소리와 신체 변화를 분석해 감정을 전달해주는 소통 기기와 반려견의 행동을 학습해 패턴에 맞춰서 움직이는 장난감까지 등장했어.",
+            "turn_id": "BK22017452-9",
+            "utterance_id": "BK22017452.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "처음 키우는 거지만 너무 좋은 서비스들이 많아서 잘 키울 수 있을 것 같아. 정보 고마워.",
+            "turn_id": "BK22017452-10",
+            "utterance_id": "BK22017452.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아니야, 반려견 잘 키우고 앞으로도 궁금한 것 있으면 또 연락해.",
+            "turn_id": "BK22017452-10",
+            "utterance_id": "BK22017452.20"
+        }
+    ]
+}

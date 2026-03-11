@@ -1,0 +1,381 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012243",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012243",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "추석 연휴에 고향에 가야 하는데, 반려견을 데려갈 일이 걱정이야.",
+            "turn_id": "BK22012243-1",
+            "utterance_id": "BK22012243.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자차로 운전해서 가는 게 아니야?",
+            "turn_id": "BK22012243-1",
+            "utterance_id": "BK22012243.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, KTX나 SRT 같은 기차를 이용할 생각인데 반려동물과 함께 탈 수 있을까?",
+            "turn_id": "BK22012243-2",
+            "utterance_id": "BK22012243.3"
+        },
+        {
+            "reference_date": "2022-08-08",
+            "reference_text": [
+                {
+                    "value": "KTX는 승차권을 구입하면 반려동물을 이동장에 넣은 상태에서 옆좌석에 올려놓는 게 가능하다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이때 성인승차권을 구입해야 한다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/economy/market-trend/article/202208081358001",
+            "search_query": "반려동물 기차 탑승",
+            "terminate": false,
+            "text": "KTX를 탈 때는 성인 승차권을 구입하면 옆좌석에 올려놓는 게 가능해. 대신 반려동물을 이동장에 넣은 채로 올려둬야 해.",
+            "turn_id": "BK22012243-2",
+            "utterance_id": "BK22012243.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "승차권을 구입하면 되는구나. SRT도 KTX처럼 승차권을 구입하면 돼?",
+            "turn_id": "BK22012243-3",
+            "utterance_id": "BK22012243.5"
+        },
+        {
+            "reference_date": "2022-08-08",
+            "reference_text": [
+                {
+                    "value": "SRT는 승차권 구매가 불가능하다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "모든 반려동물은 탑승객의 좌석 아래에 또는 무릎 위에 두는 것을 원칙으로 한다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "성인승차권을 구입했더라도 빈 좌석에 반려동물을 올려놓는 것이 금지된다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/economy/market-trend/article/202208081358001",
+            "search_query": "SRT 반려동물",
+            "terminate": false,
+            "text": "SRT는 반려동물 승차권을 구입할 수 없을뿐더러, 성인 승차권을 구입해도 빈좌석 위에 반려동물을 올려놓는 것은 금지되어 있어. 탑승객의 좌석 아래나 무릎 위에 두는 것만 허용돼.",
+            "turn_id": "BK22012243-3",
+            "utterance_id": "BK22012243.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "KTX보다 제한적이구나. KTX와 SRT에 반려동물이 타려면 또 어떤 제한이 있어?",
+            "turn_id": "BK22012243-4",
+            "utterance_id": "BK22012243.7"
+        },
+        {
+            "reference_date": "2022-08-08",
+            "reference_text": [
+                {
+                    "value": "SRT는 길이 60㎝ 이내 작은 반려동물만 탑승할 수 있으며, 이동장과 동물을 합친 무게가 10㎏을 초과할 수 없다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 광견병 예방접종 등 필요한 예방접종을 한 경우에만 여행이 가능하다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "KTX는 예방접종을 했다면 반려동물 크기, 무게 등에 제한이 없다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이동장 등 전용가방에만 들어간다면 별도의 크기 제한 없이 반려동물을 태울 수 있어 비교적 큰 동물을 태워야 하는 경우에는 KTX가 유리하다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/economy/economy-general/article/202208082149005",
+            "search_query": "반려동물 기차 제한",
+            "terminate": false,
+            "text": "KTX와 SRT에 타려면 반려동물은 광견병 예방접종 등 필요한 접종을 마쳐야 해. KTX는 예방접종을 한 반려동물이라면 크기나 무게에 제한은 없고 이동장 같은 전용 가방에만 들어가면 돼. 하지만 SRT는 반려동물의 길이가 60센티미터 이내여야 하고, 동물과 이동장의 무게가 총 10킬로그램을 넘으면 안 돼. 그래서 반려동물이 비교적 크다면 KTX를 타는 것이 나아.",
+            "turn_id": "BK22012243-4",
+            "utterance_id": "BK22012243.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 고속버스의 경우에는 반려동물을 데리고 탈 수 있을까?",
+            "turn_id": "BK22012243-5",
+            "utterance_id": "BK22012243.9"
+        },
+        {
+            "reference_date": "2022-09-08",
+            "reference_text": [
+                {
+                    "value": "추석 연휴 이동을 위해 고속버스를 이용할 경우 KTX와 동일하게 반려동물 지정좌석을 예매할 수 있어 옆좌석에서 함께 이동이 가능하다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 이동장 규격크기가 기차에 비해 작은 편으로 나의 반려동물에게 맞는 이동장 규격 사이즈를 미리 확인해봐야 한다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mtn.co.kr/news-detail/2022090815234897580",
+            "search_query": "반려동물 고속버스",
+            "terminate": false,
+            "text": "추석연휴에 고속버스를 이용한다면, KTX처럼 반려동물 지정좌석을 구매한 후 옆좌석에 앉히면 돼. 하지만 기차보다 이동장 규격 크기가 작기 때문에 반려동물에게 적정한 이동장 크기를 미리 확인해보는 것이 좋아.",
+            "turn_id": "BK22012243-5",
+            "utterance_id": "BK22012243.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기차역이나 버스터미널까지 지하철을 타고 가야하는데, 지하철에는 반려동물이 탑승할 수 있을까?",
+            "turn_id": "BK22012243-6",
+            "utterance_id": "BK22012243.11"
+        },
+        {
+            "reference_date": "2022-08-21",
+            "reference_text": [
+                {
+                    "value": "지하철은 ‘원칙적’으론 동물 이동을 금지한다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 다른 승객에게 불편이나 위해를 가할 염려가 없고, 필요한 예방접종을 모두 완료한 반려동물은 예외로 케이지에 넣어 이동이 가능하다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "케이지는 겉포장이 돼 안이 보이지 않고, 불쾌한 냄새가 나지 않아야 한다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1414797/위드펫-기차-탔다가-요금-폭탄-반려동물과-현명한-대/",
+            "search_query": "반려동물 지하철",
+            "terminate": false,
+            "text": "원칙상 지하철은 반려동물 탑승 금지야. 그러나 다른 승객에게 불편을 주거나 위협적이지 않고, 필요한 예방접종을 모두 마친 반려동물이라면 이동장에 넣어서 탑승할 수 있다는 예외가 있어. 대신 이동장은 겉이 포장되어 있어서 안이 보이지 않고 거북한 냄새가 나지 않아야 해.",
+            "turn_id": "BK22012243-6",
+            "utterance_id": "BK22012243.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지하철을 탈 때도 이동장에 넣어야겠네. 사실 고향이 멀어서 비행기를 타고 싶은데, 반려동물을 데리고 비행기를 탈 수 있을까?",
+            "turn_id": "BK22012243-7",
+            "utterance_id": "BK22012243.13"
+        },
+        {
+            "reference_date": "2022-08-18",
+            "reference_text": [
+                {
+                    "value": "우선 기내 탑승은 탑승객 1인당 1마리로 이동장을 포함한 반려동물의 무게가 7kg 이하여야 한다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려동물은 기내에서 이동장 밖으로 꺼내는 것은 엄격하게 제한되며, 이동장을 좌석 위 또는 무릎 위 등 다른 장소에 올려놓는 것도 불가하다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2022081718370479226",
+            "search_query": "반려동물 비행기 탑승",
+            "terminate": false,
+            "text": "반려동물과 이동장의 합산 무게가 7킬로그램 이하라면, 탑승객 1인당 1마리의 반려동물은 탑승이 가능해. 대신에 반려동물을 이동장에서 꺼내서는 안되고, 이동장을 좌석이나 무릎 위 등 다른 장소에 두는 것도 금지되어 있어.",
+            "turn_id": "BK22012243-7",
+            "utterance_id": "BK22012243.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 무게가 많이 나가는 반려동물은 비행기에 탑승할 수 없어?",
+            "turn_id": "BK22012243-8",
+            "utterance_id": "BK22012243.15"
+        },
+        {
+            "reference_date": "2021-07-13",
+            "reference_text": [
+                {
+                    "value": "운반 캔들과 몸무게를 합쳐 7KG 이상인 중형견, 대형견은 안타깝게도 견주와 한 자리 탑승이 불가하며 위탁수화물로 화물칸에 탑승해야 한다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그것도 캔넬(반려동물 이동장)과 강아지 몸무게를 합쳐서 45KG 이하여야 한다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "무게가 이 기준조차 넘는다면 화물 전용 비행기나 배편을 이용해야 한다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mkhealth.co.kr/news/articleView.html?idxno=53956",
+            "search_query": "반려동물 위탁수화물",
+            "terminate": false,
+            "text": "이동장과 몸무게를 합쳐서 7킬로그램이 넘는 중형견이나 대형견은 견주와 함께 좌석에 탈 수 없고, 화물칸에 위탁수화물로 탑승해야 해. 만약에 이동장과 몸무게를 합쳐서 45킬로그램이 넘는다면 위탁수화물로도 불가능하고, 화물 전용 비행기나 배를 타야 하지.",
+            "turn_id": "BK22012243-8",
+            "utterance_id": "BK22012243.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려동물을 화물칸에 태우면 마음이 불편하겠다. 그래도 반려동물과 비행기를 탄다면 알아야 할 주의사항이 있을까?",
+            "turn_id": "BK22012243-9",
+            "utterance_id": "BK22012243.17"
+        },
+        {
+            "reference_date": "2022-05-26",
+            "reference_text": [
+                {
+                    "value": "먼저 항공기당 운송 가능한 반려동물 수가 제한되어 있으니 미리 전화로 확인하고 티켓을 예약해야 한다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "셋째, 여행 당일에는 탑승 시간보다 제법 여유를 두고 공항에 도착해야 한다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려동물 탑승에 관련한 서류를 작성하고 반려동물 수속 절차를 밟는 데 시간이 걸리기 때문이다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/05/464964/",
+            "search_query": "반려동물 비행기 주의사항",
+            "terminate": false,
+            "text": "비행기에 따라서 탑승할 수 있는 반려동물의 수가 제한적이니까 미리 유선상으로 확인을 해서 티켓을 예매해야해. 그리고 여행 당일에는 반려동물 탑승에 대한 서류를 쓰고, 수속절차를 밟아야 하니까 탑승 시간보다 일찍 공항에 도착하는 것이 좋아.",
+            "turn_id": "BK22012243-9",
+            "utterance_id": "BK22012243.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려동물과 장거리 여행을 가는 것이 참 복잡하구나.",
+            "turn_id": "BK22012243-10",
+            "utterance_id": "BK22012243.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래도 규정만 잘 지키면 반려동물을 데리고 탈 수 있는 운송수단이 많으니까 잘 알아봐.",
+            "turn_id": "BK22012243-10",
+            "utterance_id": "BK22012243.20"
+        }
+    ]
+}

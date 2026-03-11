@@ -1,0 +1,316 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018001",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018001",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고등학생인 아이가 자퇴하겠다며 등교 거부를 하고 있어서 고민이 많아요.",
+            "turn_id": "BK22018001-1",
+            "utterance_id": "BK22018001.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이 학교 문제로 걱정이 많이 되겠어요.",
+            "turn_id": "BK22018001-1",
+            "utterance_id": "BK22018001.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 학적이 가장 걱정인데요, 등교 거부가 길어지면 퇴학 처리가 되지는 않을까요?",
+            "turn_id": "BK22018001-2",
+            "utterance_id": "BK22018001.3"
+        },
+        {
+            "reference_date": "44803.0",
+            "reference_text": [
+                {
+                    "value": "학교의 장은 교육상 필요하다고 인정할 때에는 의무교육과정에 있는 학생 외의 자로서 정당한 이유 없이 결석이 잦은 자에게 퇴학처분을 할 수 있습니다(규제「초·중등교육법 시행령」 제31조제1항제5호 및 제5항제2호).",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1699&ccfNo=1&cciNo=1&cnpClsNo=2&search_put=%EA%B2%B0%EC%84%9D",
+            "search_query": "고등학교 장기결석 퇴학",
+            "terminate": false,
+            "text": "그럴 가능성도 있어요. 고등학교의 경우 정당한 이유가 없는 결석이 너무 많다면 학교장의 판단에 따라 퇴학 처분이 가능해요.",
+            "turn_id": "BK22018001-2",
+            "utterance_id": "BK22018001.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한 학년을 마치는 데 필요한 최소한의 등교일수는 어떻게 되나요?",
+            "turn_id": "BK22018001-3",
+            "utterance_id": "BK22018001.5"
+        },
+        {
+            "reference_date": "44803.0",
+            "reference_text": [
+                {
+                    "value": "학교의 장은 학생의 교육과정의 이수정도 등을 평가하여 학생의 각 학년과정의 수료 또는 졸업을 인정하며, 학생의 각 학년과정의 수료에 필요한 출석일수는 수업일수의 3분의 2 이상으로 합니다(규제「초·중등교육법 시행령」 제50조제1항 및 제2항).",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1699&ccfNo=1&cciNo=1&cnpClsNo=2&search_put=%EA%B2%B0%EC%84%9D",
+            "search_query": "고등학교 수료 출석일수",
+            "terminate": false,
+            "text": "각 학년 수료를 위해 수업일수의 3분의 2 이상은 출석해야 해요. 각 학년 과정의 수료 인정을 위해서는 학생이 교육과정을 얼마나 이수했는지 평가하게 되거든요.",
+            "turn_id": "BK22018001-3",
+            "utterance_id": "BK22018001.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "학교에 안 가겠다고 고집하는 고등학생이 출석을 인정받을 수 있는 다른 프로그램이 없을까요?",
+            "turn_id": "BK22018001-4",
+            "utterance_id": "BK22018001.7"
+        },
+        {
+            "reference_date": "44788.0",
+            "reference_text": [
+                {
+                    "value": "학교의 장은 학업 중단의 징후가 발견되거나 학업 중단의 의사를 밝힌 학생에게 학업 중단에 대해 충분히 생각할 기회를 주어야 합니다. 이 경우 학교의 장은 그 기간을 출석으로 인정할 수 있습니다(「초·중등교육법」 제28조제6항).",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=746&ccfNo=7&cciNo=3&cnpClsNo=1&search_put=",
+            "search_query": "학업 중단 숙려제",
+            "terminate": false,
+            "text": "학업 중단 숙려 제도를 이용할 수 있을지 담임 선생님과 상담해 보세요. 법에 따라 학업 중단 위기 학생에게는 학업 중단 여부를 충분히 고려할 시간을 주고 그 기간을 출석으로 인정하도록 하고 있어요.",
+            "turn_id": "BK22018001-4",
+            "utterance_id": "BK22018001.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자퇴 신청을 한 상태가 아닌데도 학업 숙려제 대상이 될까요?",
+            "turn_id": "BK22018001-5",
+            "utterance_id": "BK22018001.9"
+        },
+        {
+            "reference_date": "44788.0",
+            "reference_text": [
+                {
+                    "value": "학업중단 숙려제에 따라 자퇴신청을 하지 않더라도 학업중단 위기 학생으로 판단될 경우 예체능 활동, 직업체험, 대안교육 등 숙려제 프로그램 참여기회가 제공됩니다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=746&ccfNo=7&cciNo=3&cnpClsNo=1&search_put=",
+            "search_query": "학업 중단 숙려제 자퇴",
+            "terminate": false,
+            "text": "아직 자퇴를 결정하지 않은 학생이더라도 학생의 학업이 중단될 위기에 있다고 판단되는 상황에서는 숙려제 프로그램을 통해 대안교육, 예체능 활동, 직업 체험 등에 참여할 수 있어요.",
+            "turn_id": "BK22018001-5",
+            "utterance_id": "BK22018001.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "학업 숙려제 프로그램에 참여하는 기간은 전부 학교에 출석한 것으로 인정되나요?",
+            "turn_id": "BK22018001-6",
+            "utterance_id": "BK22018001.11"
+        },
+        {
+            "reference_date": "44788.0",
+            "reference_text": [
+                {
+                    "value": "판단기준 및 충분히 생각할 기간과 그 기간 동안의 출석일수 인정 범위 등에 필요한 사항은 교육감이 정합니다(「초·중등교육법」 제28조제7항).",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=746&ccfNo=7&cciNo=3&cnpClsNo=1&search_put=",
+            "search_query": "학업 중단 숙려제 출석일수",
+            "terminate": false,
+            "text": "교육감이 정하는 바에 따라 판단 기준 및 충분히 생각할 기간과 그 기간의 출석 일수 인정 범위 등이 결정되니 학교에 문의해 보셔야 해요.",
+            "turn_id": "BK22018001-6",
+            "utterance_id": "BK22018001.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "학업 숙려기간 종료 후 아이가 정말 자퇴하겠다고 하는 경우 아이에게 도움을 줄 수 있는 지원 프로그램이 있나요?",
+            "turn_id": "BK22018001-7",
+            "utterance_id": "BK22018001.13"
+        },
+        {
+            "reference_date": "44788.0",
+            "reference_text": [
+                {
+                    "value": "“학교 밖 청소년 지원 프로그램”이란 학교 밖 청소년의 개인적 특성과 수요를 고려한 상담지원, 교육지원, 직업체험 및 취업지원, 자립지원 등의 프로그램을 말합니다(「학교 밖 청소년 지원에 관한 법률」 제2조제3호).",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=746&ccfNo=7&cciNo=1&cnpClsNo=1&search_put=",
+            "search_query": "학교 밖 청소년 지원",
+            "terminate": false,
+            "text": "네, 학교에 다니지 않는 청소년은 학교 밖 청소년 지원 프로그램을 통해 개인적 특성에 맞는 상담 지원, 교육 지원, 직업체험, 취업 지원, 자립 지원 등의 프로그램을 제공받을 수 있어요.",
+            "turn_id": "BK22018001-7",
+            "utterance_id": "BK22018001.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어느 기관에서 운영하는 지원프로그램인가요?",
+            "turn_id": "BK22018001-8",
+            "utterance_id": "BK22018001.15"
+        },
+        {
+            "reference_date": "43557.0",
+            "reference_text": [
+                {
+                    "value": "청소년도움센터 친구랑은 서울교육청이 운영하는 학교 밖 청소년 지원 기관이다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "독서토론, 목공, 드론 등 취미와 교양 수업에서부터 진로 상담, 검정고시 준비, 학업 복귀 컨설팅까지 학교 밖 청소년들을 위한 실질적인 지원을 해준다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.seoul.co.kr/news/newsView.php?id=20190325015001&wlog_tag3=naver",
+            "search_query": "학교 밖 청소년 지원 프로그램",
+            "terminate": false,
+            "text": "서울교육청에서 운영하는 학교 밖 청소년 지원 기관인 청소년 도움센터 친구랑에서는 드론, 목공, 독서토론 등의 취미와 교양 수업뿐 아니라 진로 상담, 검정고시 준비, 학업 복귀 컨설팅 등 학교 밖 청소년들에게 필요한 프로그램을 지원하고 있어요.",
+            "turn_id": "BK22018001-8",
+            "utterance_id": "BK22018001.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이가 학교가 싫어서 자퇴하는데 검정고시 응시를 거부할까 봐 걱정이에요. 학교 자퇴한 아이 중 검정고시 준비하는 경우가 많은가요?",
+            "turn_id": "BK22018001-9",
+            "utterance_id": "BK22018001.17"
+        },
+        {
+            "reference_date": "43746.0",
+            "reference_text": [
+                {
+                    "value": "올해 한국청소년정책원구원이 2015~2019년 사이 서울에서 학교를 그만둔 청소년 753명을 설문조사한 결과, 절반가량이 학교를 그만둔 후 검정고시를 준비(24.6%)하거나 대입 공부(24.6%)를 했다고 답했다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/national/education/article/201910082229015?www",
+            "search_query": "학교 밖 청소년 검정고시",
+            "terminate": false,
+            "text": "학교를 그만둔 서울 청소년 중에 절반가량의 청소년이 검정고시나 대학 입시를 준비하고 있어요. 학교를 그만뒀다고 해서 꼭 아이들의 학업 의지까지 중단되는 것은 아니라고 볼 수 있어요.",
+            "turn_id": "BK22018001-9",
+            "utterance_id": "BK22018001.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고등학교는 무조건 졸업하라며 무조건적인 반대만 했었는데 아이의 생각을 좀 더 들어봐야 할 것 같아요. 제가 아이를 너무 어리게만 생각했던 것 같네요. 조언 감사합니다.",
+            "turn_id": "BK22018001-10",
+            "utterance_id": "BK22018001.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요. 아이와 대화 잘하시고 좋은 결정 내리시길 바랍니다.",
+            "turn_id": "BK22018001-10",
+            "utterance_id": "BK22018001.20"
+        }
+    ]
+}

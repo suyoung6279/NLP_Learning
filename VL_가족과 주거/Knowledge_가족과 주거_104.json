@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018047",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018047",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "병원에서 퇴원했는데, 아파서 집안일을 못 하고 있어. 혼자 살고 있어서 돌봐줄 가족도 없고 서럽다.",
+            "turn_id": "BK22018047-1",
+            "utterance_id": "BK22018047.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저런, 혼자 있을 때 아프면 정말 서럽지.",
+            "turn_id": "BK22018047-1",
+            "utterance_id": "BK22018047.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "병원에서 퇴원할 때 1인 가구라고 했더니 서울시에서 운영하는 돌봄서비스를 신청해 보라고 하던데, 서울시 일상회복 동행서비스가 뭔지 알고 있어?",
+            "turn_id": "BK22018047-2",
+            "utterance_id": "BK22018047.3"
+        },
+        {
+            "reference_date": "44797.0",
+            "reference_text": [
+                {
+                    "value": "일상회복 동행서비스는 돌봄 매니저가 1인 가구 가정에 방문해 세탁·청소·식사와 같은 일상생활부터 옷 갈아입기, 세면 등은 물론 관공서 방문 같은 일상업무를 지원하는 방식이다.",
+                    "value_time": "44838.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/local/Seoul/article/202208242041025",
+            "search_query": "일상회복 동행서비스",
+            "terminate": false,
+            "text": "일상회복 동행서비스는 돌봄 매니저가 1인 가구 집에 와서 관공서 방문 같은 일상 업무 등은 물론 식사, 세탁, 청소와 같은 일상생활부터 세면, 옷 갈아입기 등을 지원해주는 방식을 말해.",
+            "turn_id": "BK22018047-2",
+            "utterance_id": "BK22018047.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아플 때 돌봄이 필요한 1인 가구에 꼭 필요한 서비스네. 서울시가 돌봄서비스를 언제까지 운영해?",
+            "turn_id": "BK22018047-3",
+            "utterance_id": "BK22018047.5"
+        },
+        {
+            "reference_date": "44797.0",
+            "reference_text": [
+                {
+                    "value": "서울시는 다음달 1일부터 연말까지 ‘1인 가구 퇴원 후 일상회복 동행서비스’(일상회복 동행서비스)를 시범운영한다고 24일 밝혔다.",
+                    "value_time": "44838.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/local/Seoul/article/202208242041025",
+            "search_query": "일상회복 동행서비스 운영기간",
+            "terminate": false,
+            "text": "서울시는 2022년 9월 1일부터 12월 31일까지 1인 가구 퇴원 후 일상회복 동행서비스를 시범운영 한다고 말했어.",
+            "turn_id": "BK22018047-3",
+            "utterance_id": "BK22018047.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시범운영이구나. 1인 가구가 아플 때 도움받지 못하는 경우가 많아서 시행하는 거야?",
+            "turn_id": "BK22018047-4",
+            "utterance_id": "BK22018047.7"
+        },
+        {
+            "reference_date": "44798.0",
+            "reference_text": [
+                {
+                    "value": "지난 5월 발표된 ‘2021년 서울시 1인 가구 실태조사 및 제도개선 연구’에 따르면 혼자 생활하면서 가장 곤란하거나 힘든 점으로 ‘몸이 아프거나 위급할 때 대처’(35.9%)를 꼽은 응답자들이 가장 많았다.",
+                    "value_time": "44842.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "4년 전인 2017년 조사의 24.1%에 비해 10% 포인트 이상 증가한 수치다.",
+                    "value_time": "44842.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://go.seoul.co.kr/news/newsView.php?id=20220825012043&wlog_tag3=naver",
+            "search_query": "서울시 1인가구 실태조사",
+            "terminate": false,
+            "text": "2022년 5월 발표된 2021년 서울시 1인 가구 실태조사 및 제도개선 연구에 의하면, 혼자 살면서 가장 난처하거나 힘들었던 점으로 몸이 아프거나 위급할 때 대처를 고른 응답자들이 35.9%로 제일 많았어. 2017년 조사는 24.1%로, 4년 전에 비하면 10% 이상 올라간 수치이기 때문에 꼭 필요한 서비스이지.",
+            "turn_id": "BK22018047-4",
+            "utterance_id": "BK22018047.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나 같은 사람들이 많았구나. 일상회복 동행서비스를 신청하면, 내가 부담하는 비용은 얼마나 들어?",
+            "turn_id": "BK22018047-5",
+            "utterance_id": "BK22018047.9"
+        },
+        {
+            "reference_date": "44797.0",
+            "reference_text": [
+                {
+                    "value": "비용은 시간당 5000원으로, 평일 오전 8시부터 오후 8시까지 원하는 시간대에 필요한 시간만큼 신청해 이용할 수 있다.",
+                    "value_time": "44838.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "시범운영 기간 중 이용은 연 1회, 최대 15일, 60시간 이내에서 신청할 수 있다. 주말 이용은 협의 후 가능하다.",
+                    "value_time": "44838.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/local/Seoul/article/202208242041025",
+            "search_query": "일상회복 돌봄서비스 비용",
+            "terminate": false,
+            "text": "비용은 시간당 5,000원으로, 평일 오전 8시~오후 8시까지 희망하는 시간대에 필요한 시간만큼 신청해 이용할 수 있어. 시범운영 기간 중 주말 이용은 협의 후 가능하고, 연 1회, 최대 15일, 60시간 이내에서 요청할 수 있어.",
+            "turn_id": "BK22018047-5",
+            "utterance_id": "BK22018047.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "연 1회밖에 신청이 안 되는구나. 돌봄 매니저분들은 따로 자격증이 있는 사람이야?",
+            "turn_id": "BK22018047-6",
+            "utterance_id": "BK22018047.11"
+        },
+        {
+            "reference_date": "44797.0",
+            "reference_text": [
+                {
+                    "value": "아픈 1인 가구를 돕는 돌봄 매니저는 요양보호사 자격증 소지자로 관련 분야에 오랜 경험이 있어 전문성을 갖춘 인력이라고 서울시는 설명했다.",
+                    "value_time": "44838.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/local/Seoul/article/202208242041025",
+            "search_query": "일상회복 돌봄 매니저",
+            "terminate": false,
+            "text": "아픈 1인 가구를 돌봐주는 돌봄 매니저는 요양보호사 자격증을 가지고 있는 사람이야. 서울시에서 설명하기를 관련 분야에 오랜 경험이 있어 전문성을 갖고 있는 인력이라고 설명했어.",
+            "turn_id": "BK22018047-6",
+            "utterance_id": "BK22018047.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자격증을 갖춘 전문인력이 와서 해주면 안심하고 신청해도 되겠네. 돌봄 서비스 신청은 어떻게 하면 돼?",
+            "turn_id": "BK22018047-7",
+            "utterance_id": "BK22018047.13"
+        },
+        {
+            "reference_date": "44797.0",
+            "reference_text": [
+                {
+                    "value": "서비스를 원하는 1인 가구는 퇴원하기 24시간 전(퇴원 후 30일 이내)에 병원 안심동행서비스 콜센터(1533-1179)로 신청하면 된다.",
+                    "value_time": "44838.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/local/Seoul/article/202208242041025",
+            "search_query": "일상회복 동행서비스 신청방법",
+            "terminate": false,
+            "text": "서비스를 희망하는 1인 가구는 병원 안심동행서비스 콜센터 1533-1179 로, 퇴원하기 24시간 전에 또는 퇴원 후 30일 이내에 신청하면 돼.",
+            "turn_id": "BK22018047-7",
+            "utterance_id": "BK22018047.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일상회복 돌봄서비스를 이용하려면 따로 신청 조건이 있어?",
+            "turn_id": "BK22018047-8",
+            "utterance_id": "BK22018047.15"
+        },
+        {
+            "reference_date": "44797.0",
+            "reference_text": [
+                {
+                    "value": "해당 서비스는 퇴원 후 돌봄을 필요로 하는 1인 가구라면 누구나 연령층이나 소득과 관계없이 신청·이용할 수 있다.",
+                    "value_time": "44838.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 병원 안심동행서비스를 이용한 시민이어야 한다.",
+                    "value_time": "44838.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 서비스를 이용한 경험이 없는 시민은 일상회복 동행서비스와 동시에 신청할 수 있다.",
+                    "value_time": "44838.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/local/Seoul/article/202208242041025",
+            "search_query": "일상회복 동행서비스 신청조건",
+            "terminate": false,
+            "text": "병원 안심동행서비스를 이용했던 주민만 가능해. 안심동행서비스를 이용한 경험이 없는 주민은, 일상회복 동행서비스와 동시에 신청할 수 있어. 해당 서비스는 퇴원 후 돌봄을 필요한 1인 가구는 연령대나 소득에 상관없이 누구나 신청하고 이용할 수 있어.",
+            "turn_id": "BK22018047-8",
+            "utterance_id": "BK22018047.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신청 대상 범위가 넓어서 너무 좋다! 신청이 안 되는 사람도 있어?",
+            "turn_id": "BK22018047-9",
+            "utterance_id": "BK22018047.17"
+        },
+        {
+            "reference_date": "44797.0",
+            "reference_text": [
+                {
+                    "value": "국가 및 지자체 유사 서비스 이용자나 감기 등 일반질환 퇴원자는 제외된다.",
+                    "value_time": "44838.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/local/Seoul/article/202208242041025",
+            "search_query": "일상회복 동행서비스 제외",
+            "terminate": false,
+            "text": "감기 등 일반질환의 퇴원자나 국가 및 지자체 유사 서비스 이용자는 제외돼.",
+            "turn_id": "BK22018047-9",
+            "utterance_id": "BK22018047.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안심동행서비스를 이용한 시민이어야 하니, 이번엔 신청을 못 하겠다. 다음에 병원 가면서 두 서비스 모두 신청해봐야겠어.",
+            "turn_id": "BK22018047-10",
+            "utterance_id": "BK22018047.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 병원 안심동행서비스도 신청할 때 잘 모르겠으면 나한테 물어봐.",
+            "turn_id": "BK22018047-10",
+            "utterance_id": "BK22018047.20"
+        }
+    ]
+}

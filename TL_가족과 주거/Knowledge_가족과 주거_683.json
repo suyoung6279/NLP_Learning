@@ -1,0 +1,347 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016045",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016045",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저에게는 이혼이라는 건 없을 줄 알았는데 살다 보니 어쩔 수 없는 결정을 할 때가 오네요. 현실적으로 생각해야 할 타이밍이다 보니 재산분할에 대해서도 궁금해지는데요. 이혼을 할 때 재산분할은 반반씩 나누게 되나요?",
+            "turn_id": "BK22016045-1",
+            "utterance_id": "BK22016045.1"
+        },
+        {
+            "reference_date": "2022-01-20",
+            "reference_text": [
+                {
+                    "value": "재산분할이란 부부가 살아왔던 기간 동안 취득했던 모든 재산을 기여한 정도에 따라 나누는 일을 이야기한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "예금 및 적금, 주식, 부동산뿐 아니라 퇴직금이나 공무원 연금도 포함되며 채무도 제대로 책임 소재를 따져 분할될 수 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=101771",
+            "search_query": "이혼 재산분할",
+            "terminate": false,
+            "text": "아니에요. 재산분할은 부부가 생활했던 기간 동안 가지게 된 모든 재산에 대해 기여도에 따라 나누는 일인데요, 예금, 적금, 주식, 부동산뿐 아니라 퇴직금, 공무원 연금도 해당되고 채무까지 제대로 책임 소재를 따져본 후 분할될 수 있어요.",
+            "turn_id": "BK22016045-1",
+            "utterance_id": "BK22016045.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "무조건 반씩 나누는 것이 아니군요. 그럼 만약 전업주부로 살아왔다면 기여도는 0이 되나요?",
+            "turn_id": "BK22016045-2",
+            "utterance_id": "BK22016045.3"
+        },
+        {
+            "reference_date": "2022-03-25",
+            "reference_text": [
+                {
+                    "value": "하지만 가사노동이나 육아를 통해 가족 공동체가 운영되도록 기여한 것 역시 상당한 공이 인정되기 때문에 전업주부의 기여도를 0으로 볼 수 없다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "혼인 기간이 길면 길수록 전업주부의 기여도도 높게 인정되고, 황혼이혼의 경우에는 40~50%까지 기여도가 인정되기도 하기 때문에 주의해야 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=103799",
+            "search_query": "이혼 재산분할 전업주부 기여도",
+            "terminate": false,
+            "text": "아니에요. 가사노동, 육아를 하며 가족 공동체가 잘 유지되도록 기여한 것을 상당한 공으로 인정하고 있기 때문에 전업주부의 기여도를 0이라고 말할 수는 없어요. 혼인의 기간이 길면 길수록 전업주부의 기여도도 높다고 보고 있고, 황혼이혼 같은 경우 40~50%까지도 기여도를 인정하는 경우가 있어요.",
+            "turn_id": "BK22016045-2",
+            "utterance_id": "BK22016045.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집안일은 조금 쉽게 생각하는 경향이 있는데 인정해준다고 하니 위안이 되는 기분이 들어요. 혹시 혼인 전 가지고 있던 재산도 재산분할에 포함되나요?",
+            "turn_id": "BK22016045-3",
+            "utterance_id": "BK22016045.5"
+        },
+        {
+            "reference_date": "2021-07-02",
+            "reference_text": [
+                {
+                    "value": "원칙적으로 결혼 전 재산은 상대방의 기여도가 없는 특유재산으로 재산 분할의 대상이 아닙니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/society/article/2021070225727",
+            "search_query": "혼인 전 재산 재산분할",
+            "terminate": false,
+            "text": "원칙적으로는 혼인하기 전 재산의 경우 배우자의 기여도가 없는 특유재산이라 하며 재산분할의 대상이 아니에요.",
+            "turn_id": "BK22016045-3",
+            "utterance_id": "BK22016045.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "꼼꼼하게 잘 알아보고 진행할 필요가 있겠네요. 만약 배우자가 재산을 숨겨놓는 경우에는 찾아서 분할받을 수 있나요?",
+            "turn_id": "BK22016045-4",
+            "utterance_id": "BK22016045.7"
+        },
+        {
+            "reference_date": "2019-08-13",
+            "reference_text": [
+                {
+                    "value": "재산 분할 협의나 재판이 모두 끝난 뒤 뒤늦게 상대방의 은닉 재산을 찾아냈다 하더라도 추가로 재산 분할 청구를 하면 된다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "단 재산 분할은 이혼한 날로부터 2년 내 청구해야 하고 이 기간이 지나면 재산분할청구권이 소멸하므로 2년이라는 기간을 반드시 준수해야 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/finance/article/2019081306821",
+            "search_query": "재산분할 은닉",
+            "terminate": false,
+            "text": "네. 재산분할에 협의를 했거나 재판을 모두 마친 뒤 후에 배우자의 은닉 재산을 찾아내면 추가로 재산분할 청구를 할 수 있어요. 다만 재산분할의 경우 이혼을 한 날로부터 2년 안에 청구해야 하고 이 시기가 지나면 재산분할청구권이 없어지기 때문에 2년이라는 기간을 꼭 지키셔야 해요.",
+            "turn_id": "BK22016045-4",
+            "utterance_id": "BK22016045.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이야기를 하다 보니 재산분할도 정말 꼼꼼히 준비해야 할 필요성이 느껴져요. 그런데 살다 보면 빚이 생기는 경우도 있잖아요. 이런 경우 빚도 분할받게 되나요?",
+            "turn_id": "BK22016045-5",
+            "utterance_id": "BK22016045.9"
+        },
+        {
+            "reference_date": "2022-02-20",
+            "reference_text": [
+                {
+                    "value": "원칙적으로 부부가 함께 이룩한 공동의 재산을 분할하는 것이기 때문에 재산 뿐만 아니라 부부의 채무도 재산분할의 대상이 됩니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "예를들면 함께 살 집을 마련하기 위해 은행에서 대출을 받거나 생활비가 부족해 지인에게 돈을 빌린 경우가 있죠.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ntoday.co.kr/news/articleView.html?idxno=82802",
+            "search_query": "이혼 빚 분할",
+            "terminate": false,
+            "text": "네. 원칙적으로 보았을 때 부부가 함께 만든 공동 재산을 나누는 것이기 때문에 재산과 함께 부부의 빚도 재산분할의 대상이 돼요. 예를 들어 함께 생활할 집을 구하기 위해 은행의 대출을 받았다거나, 생활비가 부족해 지인에게 돈을 빌린 경우도 포함돼요.",
+            "turn_id": "BK22016045-5",
+            "utterance_id": "BK22016045.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘은 빚 없이 사는 부부가 많지 않으니까 이것도 부담스럽게 느껴지는 것 같아요. 그럼 부부 생활을 하며 생긴 모든 빚이 분할 대상인 건가요?",
+            "turn_id": "BK22016045-6",
+            "utterance_id": "BK22016045.11"
+        },
+        {
+            "reference_date": "2022-02-17",
+            "reference_text": [
+                {
+                    "value": "하지만 별거 중 부부 일방이 진 채무이거나, 혼인기간 중에 진 채무라도 도박, 유흥 등 상대방과는 무관하게 혼자 부담하게 된 채무라면 재산분할의 대상에서 제외되고 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jemin.com/news/articleView.html?idxno=732085",
+            "search_query": "재산분할 빚 제외",
+            "terminate": false,
+            "text": "아니에요. 별거 중인 경우 부부 한쪽이 일반적으로 만든 채무이거나, 결혼 생활 중에 생긴 빚이라도 도박이나 유흥 등 배우자와는 상관없이 혼자 만든 채무라면 재산분할의 대상에서 제외돼요.",
+            "turn_id": "BK22016045-6",
+            "utterance_id": "BK22016045.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다행이네요. 이래저래 빚이 좀 있는 상태라서 걱정했거든요. 가끔 뉴스를 보면 로또에 당첨된 후 숨기고 이혼하는 경우가 있는데 이런 경우 나중에 분할받을 수 있나요?",
+            "turn_id": "BK22016045-7",
+            "utterance_id": "BK22016045.13"
+        },
+        {
+            "reference_date": "2022-08-04",
+            "reference_text": [
+                {
+                    "value": "재산 분할은 결혼 생활 중 재산형성에 대한 기여도가 인정돼야 하는데, 로또의 경우 원칙적으로 상대방의 기여도가 없는 것으로 보기 때문에 분할의 대상이 되지 않는다는 것.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "재산 분할 대상이 되는 경우는 로또 구매 비용을 지불했거나, 대신 사줬거나 당첨번호를 알려줬을 때 등 로또 구입과 당첨에 기여했을 경우, 혹은 분배를 약속했을 경우 등에 한정하는 것으로 알려져 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/star/hot-issues/view/2022/08/688603/",
+            "search_query": "이혼 전 복권 당첨 분할",
+            "terminate": false,
+            "text": "받을 수도 있고 못 받을 수도 있어요. 재산분할은 결혼 생활을 하던 중 재산형성에 대한 기여도를 인정받아야 하는데, 로또는 원칙적으로 배우자가 기여한 것이 없다고 보기 때문에 분할 대상으로 인정받지 못해요. 하지만 로또를 구매하는데 돈을 주었거나, 대신 사다 주었거나, 당첨 번호를 알려주었을 때 등 로또 구매 혹은 당첨에 기여한 경우, 배우자가 분배해줄 것을 약속한 경우에 한정해 분할 대상으로 인정받을 수 있어요.",
+            "turn_id": "BK22016045-7",
+            "utterance_id": "BK22016045.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "복권 당첨이 흔한 일은 아니니 그냥 참고 정도만 하고 알아둬야겠네요. 저는 위자료도 청구하려고 하는데 재산분할까지 혼자 진행하려면 많이 어려울까요?",
+            "turn_id": "BK22016045-8",
+            "utterance_id": "BK22016045.15"
+        },
+        {
+            "reference_date": "2019-05-10",
+            "reference_text": [
+                {
+                    "value": "비슷한 케이스라도 혼인생활 및 재산증식에 대한 성실도, 기여도를 얼만큼 인정받느냐에 따라 이혼위자료, 재산분할 금액이 달라질 수 있는 만큼 이혼 관련 전문 지식과 경험이 풍부한 이혼소송변호사를 찾아 빈틈없이 소송을 준비할 것을 추천한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.e2news.com/news/articleView.html?idxno=210192",
+            "search_query": "위자료와 재산분할",
+            "terminate": false,
+            "text": "혼자 하기에는 버거울 수 있어요. 비슷한 상황이라 하더라도 결혼생활이나 재산증식에 대한 성실도, 기여도를 얼마만큼 인정받느냐에 따라서 위자료나 재산분할의 금액에 변화가 있을 수 있기 때문이에요. 그러니 이혼에 관련된 전문 지식을 갖추고 노하우를 쌓은 이혼소송변호사를 찾아서 탄탄하게 소송을 준비하는 것이 좋아요.",
+            "turn_id": "BK22016045-8",
+            "utterance_id": "BK22016045.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 확실히 이혼은 서로의 밑바닥까지 보게 되는 것 같아 씁쓸해요. 저희는 양육권을 제가 가져오게 될 것 같은데, 이런 경우 재산분할을 좀 더 받을 수 있을까요?",
+            "turn_id": "BK22016045-9",
+            "utterance_id": "BK22016045.17"
+        },
+        {
+            "reference_date": "2013-03-04",
+            "reference_text": [
+                {
+                    "value": "자녀의 수는 재산분할에 영향을 주지 않았지만, 원고가 양육권을 가질 경우에는 재산분할 비율이 평균 3.6%포인트 증가했다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "원고가 양육권을 갖게 되면 양육비를 받더라도 경제적 부담이 커지기 때문이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.lawtimes.co.kr/Legal-News/Legal-News-View?serial=72867",
+            "search_query": "양육권을 가지면 재산분할",
+            "terminate": false,
+            "text": "네. 자녀가 몇 명인지는 재산분할에 영향을 주지 않지만, 양육권을 가진 배우자 쪽의 재산분할 비율이 평균 3.6%포인트 정도 오를 수 있어요. 한쪽이 양육권을 가져가게 되면 양육비를 받더라도 경제적인 부담이 높아지기 때문이에요.",
+            "turn_id": "BK22016045-9",
+            "utterance_id": "BK22016045.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이혼하며 혼자 아이들을 키우려니 정말 막막하고 위자료나 재산분할을 최대한으로 받고 싶어 조급했는데 도움이 많이 됐어요. 정말 고마워요. 다음에는 기분 좋은 얼굴로 만나요.",
+            "turn_id": "BK22016045-10",
+            "utterance_id": "BK22016045.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 정말 다행이에요. 마음 굳게 먹고 진행하시고 좋은 결과 있으시길 바랄게요. 조심히 들어가시고 다음에 봬요.",
+            "turn_id": "BK22016045-10",
+            "utterance_id": "BK22016045.20"
+        }
+    ]
+}

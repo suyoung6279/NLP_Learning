@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015130",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015130",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0029"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지난주부터 아이 이유식을 시작했는데 오늘 보니 입 주변에 빨갛게 올라왔더라구요. 오늘 처음으로 달걀을 넣어 이유식을 했는데 알레르기가 아닌가 싶어요. 알레르기가 생길 수 있는 식품이 더 있다면 알려주시겠어요?",
+            "turn_id": "BK22015130-1",
+            "utterance_id": "BK22015130.1"
+        },
+        {
+            "reference_date": "2015-07-01",
+            "reference_text": [
+                {
+                    "value": "아기에게 알레르기를 일으키는 식품으로는 우유와 계란, 콩류 등의 단백질 식품이 가장 많고, 밀, 메밀, 땅콩, 초콜렛, 오렌지, 토마토 등도 알레르기를 잘 일으키는 식품으로 분류된다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "물론 감자, 시금치 등에 알레르기를 나타내는 경우도 드물게는 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=32065",
+            "search_query": "아기 식품 알레르기 계란",
+            "terminate": false,
+            "text": "아기에게 알레르기를 유발하는 식품으로는 우유, 계란, 콩류 등의 단백질 식품이 가장 많아요. 그 이외에도 밀이나 땅콩, 메밀이나 초콜릿, 오렌지, 토마토 등도 알레르기를 잘 일으킨답니다. 드물게 감자나 시금치에도 알레르기 반응을 보이는 경우도 있으니 참고해 주세요.",
+            "turn_id": "BK22015130-1",
+            "utterance_id": "BK22015130.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 알레르기 유발 식품이 많네요. 달걀은 영양가가 많아서 이유식 때 꼭 먹여보고 싶었는데, 좋은 방법이 없을까요?",
+            "turn_id": "BK22015130-2",
+            "utterance_id": "BK22015130.3"
+        },
+        {
+            "reference_date": "2021-05-14",
+            "reference_text": [
+                {
+                    "value": "계란 중에서도 특히 흰자가 알레르기를 많이 유발합니다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 이유는 흰자의 단백질 성분이 알레르겐(원인이 되는 물질)으로 작용하기 때문이에요.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "돌 무렵까지는 완전히 익은 계란 노른자만 주고, 그 이후부터 조심스럽게 흰자를 먹여보는 것이 좋습니다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/culture-life/culture_general/2021/05/14/UITWLMB5LZGBDCKSTKF5VHEMSQ/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "search_query": "아기 식품 알레르기 계란 흰자",
+            "terminate": false,
+            "text": "달걀을 꼭 먹이고 싶다면 돌 전까지는 완전히 익힌 계란 노른자만 주세요. 계란 중에서 흰자가 알레르기를 많이 유발하거든요. 흰자의 단백질 성분이 알레르기의 원인이 되는 물질인 알레르겐으로 작용하기 때문에 흰자는 돌 지난 이후부터 조심스럽게 먹여 보시는 걸 추천해 드려요.",
+            "turn_id": "BK22015130-2",
+            "utterance_id": "BK22015130.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 흰자는 빼고 잘 익은 노른자로 이유식을 만들어봐야겠네요. 그런데 앞으로 이유식 만들 때 아이에게 알레르기를 유발할 수 있는 식품은 절대 주면 안 되는 건가요?",
+            "turn_id": "BK22015130-3",
+            "utterance_id": "BK22015130.5"
+        },
+        {
+            "reference_date": "2015-07-01",
+            "reference_text": [
+                {
+                    "value": "유제품에 알레르기가 있다면 계란은 괜찮고, 토마토에는 있는데 오렌지는 괜찮은 식이므로 어느 한 가지에 알레르기 반응을 보였다고 알레르기를 일으키기 쉽다는 모든 식품을 제한할 필요는 없기 때문에 아기의 상태를 살펴 보면서 소량씩 제공해 원인 식품을 파악해야 한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=32065",
+            "search_query": "아기 식품 알레르기 제한",
+            "terminate": false,
+            "text": "그건 아니에요. 알레르기 유발 식품 가운데 어떤 특정 음식에 알레르기 반응을 보였다고 하더라도 알레르기 유발 음식 모두를 제한할 필요는 없답니다. 아기의 상태를 꼼꼼히 살펴보면서 조금씩 먹여 원인 식품을 파악하는 것이 중요해요.",
+            "turn_id": "BK22015130-3",
+            "utterance_id": "BK22015130.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하나씩 소량만 넣어 이유식을 만들라는 말씀이군요. 그런데 제가 임신했을 때 하루에 커피와 빵을 정말 자주 먹었는데, 설마 이런 것도 영향이 있을까요?",
+            "turn_id": "BK22015130-4",
+            "utterance_id": "BK22015130.7"
+        },
+        {
+            "reference_date": "2019-04-12",
+            "reference_text": [
+                {
+                    "value": "임신 중 빵·시리얼·크래커·초콜릿 등 과자류를 많이 먹으면 아기에게 식품 알레르기가 생길 위험이 1.5배 높다는 연구결과가 나왔다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "반면 임신 중 먹은 패스트푸드·면류 등 가공식품, 치킨·쇠고기·돼지고기·생선 같은 고기류, 커피·우유 등은 아기의 식품 알레르기와 별 연관성을 보이지 않았다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/1VHU5PTSDO",
+            "search_query": "임신 음식 아기 식품 알레르기",
+            "terminate": false,
+            "text": "빵은 영향이 있고 커피는 영향이 없어요. 임신 기간에 빵이나 초콜릿, 시리얼 및 크래커 등의 과자류를 많이 섭취하면 아이에게 식품 알레르기가 발생할 확률이 1.5배 높다는 연구 결과가 있거든요. 그런데 패스트푸드나 면류와 같은 가공식품, 치킨, 돼지고기, 쇠고기, 생선과 같은 고기류, 커피 및 우유 등은 아기의 음식 알레르기와는 관계가 없어요.",
+            "turn_id": "BK22015130-4",
+            "utterance_id": "BK22015130.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "빵을 너무 많이 먹은 게 후회되네요 오히려 패스트푸드나 우유는 식품 알레르기와 상관 없다는 게 의외에요. 그런데 저희 아이는 입 주변이 빨간 거 이외에는 증상이 없는데, 다른 증상도 나타날 수 있나요?",
+            "turn_id": "BK22015130-5",
+            "utterance_id": "BK22015130.9"
+        },
+        {
+            "reference_date": "2022-09-21",
+            "reference_text": [
+                {
+                    "value": "식품 알레르기의 증상으로는 두드러기나 아토피 피부염, 혈관부종, 구토, 설사, 복통 등 신체 곳곳에서 나타나며, 증상이 심한 경우 목숨까지 위협받을 수 있어 각별한 주의가 필요하다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000733933",
+            "search_query": "아기 식품 알레르기 증상",
+            "terminate": false,
+            "text": "아이에게 나타날 수 있는 식품 알레르기 증상에는 아토피 피부염이나 두드러기, 혈관 부종뿐 아니라 구토, 설사, 복통 등 신체 여러 군데에서 다양하게 나타날 수 있어요. 증상이 심하다면 목숨까지 위협받을 수 있기 때문에 각별하게 주의를 해주셔야 한답니다.",
+            "turn_id": "BK22015130-5",
+            "utterance_id": "BK22015130.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "식품 알레르기가 별거 아닌 줄 알았는데 사망까지 할 수 있는 거에요? 정말 조심해야겠네요. 그럼 알레르기 유발 음식들을 최대한 늦게 먹이는 건 어떨까요?",
+            "turn_id": "BK22015130-6",
+            "utterance_id": "BK22015130.11"
+        },
+        {
+            "reference_date": "2022-09-21",
+            "reference_text": [
+                {
+                    "value": "과거에는 알레르기 유발 식품의 첫 노출 시기를 최대한 늦추는 것을 권했지만, 최근에는 오히려 빨리 접하는 것이 효과적이라는 다수의 연구 결과가 발표된 바 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전문가들은 “알레르기 식품에 대한 노출이 지연될수록 해당 음식에 대해 더 민감해질 수 있다”라고 설명한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000733933",
+            "search_query": "아기 식품 알레르기 일찍 맛보기",
+            "terminate": false,
+            "text": "그건 옳지 않은 생각이에요. 예전에는 알레르기 유발 식품을 최대한 늦게 먹이는 것을 권장했지만 요즘에는 오히려 빨리 접하게 하는 것이 효과적이라는 연구 결과가 발표됐거든요. 알레르기 식품에 대한 노출이 늦어질수록 음식에 대해 더 민감해질 수 있다고 전문가들은 설명하고 있어요.",
+            "turn_id": "BK22015130-6",
+            "utterance_id": "BK22015130.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오히려 일찍 맛보게 하는 게 더 도움이 된다는 거네요. 만약 아이에게 음식 알레르기가 발생하면 병원에서 어떤 치료를 받게 되는 건가요?",
+            "turn_id": "BK22015130-7",
+            "utterance_id": "BK22015130.13"
+        },
+        {
+            "reference_date": "2022-03-07",
+            "reference_text": [
+                {
+                    "value": "알레르기 반응이 발생했을 때는 증상에 따라 적절한 치료를 시행한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "두드러기나 혈관부종 등 피부 증상에는 항히스타민제를 복용하고 기침, 호흡곤란 등의 호흡기 증상이 발생하면 기관지확장제를 흡입할 수 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "필요에 따라서는 경구 또는 주사로 스테로이드 제제를 투여한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.knnews.co.kr/news/articleView.php?idxno=1371444",
+            "search_query": "식품 알레르기 항히스타민제",
+            "terminate": false,
+            "text": "알레르기 증상에 따라 적절하게 치료받게 되는데요. 혈관부종이나 두드러기 같은 피부 증상이 있다면 항히스타민제를 복용하면 되고 기침이나 호흡곤란 같은 호흡 증상이 있을 때는 기관지확장제를 투여한답니다. 필요에 따라서 경구 혹은 주사로 스테로이드제제를 투여함으로써 치료하고 있어요.",
+            "turn_id": "BK22015130-7",
+            "utterance_id": "BK22015130.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "증상에 따라 치료법이 달라지네요. 그런데 호흡곤란까지 오면 정말 당황할 것 같은데, 우리 아이에게 음식 알레르기가 있는지 없는지 미리 알아볼 수도 있나요?",
+            "turn_id": "BK22015130-8",
+            "utterance_id": "BK22015130.15"
+        },
+        {
+            "reference_date": "2018-05-03",
+            "reference_text": [
+                {
+                    "value": "만약 알레르기 증상이 심하면 소아청소년과에서 돌 무렵 피검사나 피부 반응검사로 알레르기를 알아낼 수 있습니다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "음식 원인과 환경알레르기 원인물질 중 대표적인 것들을 알아내는 검사로, 요즈음은 음식뿐만 아니라 환경 알레르기도 많아서 그것에 대한 검사도 필요합니다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=64619",
+            "search_query": "아기 식품 알레르기 검사",
+            "terminate": false,
+            "text": "그럼요. 돌쯤 되었을 때 소아청소년과에 방문해서 피검사나 피부반응 검사를 받아보면 알레르기를 알아낼 수 있어요. 이 검사는 환경 알레르기 원인과 음식 원인 중 대표적인 것들을 알아내는 검사인데요. 요즘은 음식 알레르기 이외에도 환경 알레르기도 많기 때문에 이것에 대한 검사도 함께하는 것이 좋겠죠.",
+            "turn_id": "BK22015130-8",
+            "utterance_id": "BK22015130.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하긴 꼭 음식 때문이 아닌 집 먼지나 다른 알레르기 종류일 수도 있으니까요.",
+            "turn_id": "BK22015130-9",
+            "utterance_id": "BK22015130.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇죠. 이왕 검사하는 거 아이에게 어떤 알레르기가 있는지를 한 번에 확인하는 게 편할 거에요.",
+            "turn_id": "BK22015130-9",
+            "utterance_id": "BK22015130.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제 생각도 그래요. 이제 전 이유식 만들러 가야겠어요. 오늘 유익한 대화 즐거웠어요.",
+            "turn_id": "BK22015130-10",
+            "utterance_id": "BK22015130.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저 또한 즐거운 대화였답니다. 이유식 맛있게 만드시고 다음에 만나요.",
+            "turn_id": "BK22015130-10",
+            "utterance_id": "BK22015130.20"
+        }
+    ]
+}

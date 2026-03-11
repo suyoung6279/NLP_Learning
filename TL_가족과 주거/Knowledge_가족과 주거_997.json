@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005417",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005417",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제 동생이 어제 길고양이를 주워 왔어요.",
+            "turn_id": "BK22005417-1",
+            "utterance_id": "BK22005417.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 길고양이. 원래 고양이 한 마리 키우고 계시지 않았어요?",
+            "turn_id": "BK22005417-1",
+            "utterance_id": "BK22005417.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 집에 한 마리 있죠. 이 길고양이가 저희 집 고양이랑 생긴 것도 비슷하고 크기도 똑같더라고요. 그럼 나이도 비슷한 걸까요?",
+            "turn_id": "BK22005417-2",
+            "utterance_id": "BK22005417.3"
+        },
+        {
+            "reference_date": "2019-01-13",
+            "reference_text": [
+                {
+                    "value": "고양이의 경우는 집고양이와 길고양이에 따라 나이를 다르게 계산한다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "집고양이는 2년까지 24살, 그 후부터 1년마다 4~5살씩 먹는 것으로 계산한다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 길고양이는 8살씩 먹는 것으로 계산한다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sportsseoul.com/news/read/719690",
+            "search_query": "길고양이 나이",
+            "terminate": false,
+            "text": "그건 알 수 없죠. 집고양이와 길고양이는 나이 계산법이 다르거든요. 집고양이는 2년까지 24살이고 2년 이후로는 1년에 4, 5살 정도 먹는 걸로 계산하는데, 길고양이는 8살씩 먹는 걸로 계산해서요.",
+            "turn_id": "BK22005417-2",
+            "utterance_id": "BK22005417.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 길고양이가 고생을 많이 하니까 나이 셈법이 다르군요. 혹시 질병도 있을 수 있을까요?",
+            "turn_id": "BK22005417-3",
+            "utterance_id": "BK22005417.5"
+        },
+        {
+            "reference_date": "2017-07-07",
+            "reference_text": [
+                {
+                    "value": "길고양이는 질병에 무방비 상태로 노출됩니다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "톡소플라스마증이나 브루셀라병, 중증열성혈소판감소증후군(SFTS) 등다른 동물은 물론 사람에게도 옮길 수 있기 때문에 이들에 대한 관리가 필요합니다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sisajournal.com/news/articleView.html?idxno=170268",
+            "search_query": "길고양이 질병",
+            "terminate": false,
+            "text": "네, 길고양이는 톡소플라스마증, 브루셀라병, 중증열성혈소판감소증후군 등의 질병에 무방비하게 노출되고 다른 동물이나 사람에게 옮길 수 있으니까 관리가 필요하죠.",
+            "turn_id": "BK22005417-3",
+            "utterance_id": "BK22005417.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "예, 동생이 오늘 동물병원 데려가겠다고 하더라구요. 사실 집에서 키우는 고양이는 거의 가족들이 관리해서 저는 잘 몰라요. 걔가 아직도 저 보면 하악질하는데, 혹시 고양이가 왜 하악질을 하는지 잘 아시나요.",
+            "turn_id": "BK22005417-4",
+            "utterance_id": "BK22005417.7"
+        },
+        {
+            "reference_date": "2020-11-04",
+            "reference_text": [
+                {
+                    "value": "고양이가 하악질을 하는 이유는 여러 가지다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "물론 분노의 표현도 있다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 보다 근본적인 감정을 따지고 들어가면 ‘나 불편해’라는 마음 상태를 드러내는 행동 언어임을 알 수 있다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2020/11/1132484/",
+            "search_query": "길고양이 하악질",
+            "terminate": false,
+            "text": "하하, 고양이는 여러 가지 이유로 하악질을 하죠. 화가 난 경우도 있는데 그 너머 감정을 따져 보면 주로 불편함을 드러내는 표현이죠.",
+            "turn_id": "BK22005417-4",
+            "utterance_id": "BK22005417.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 아무것도 안 했는데 왜 걔는 저를 불편해 하는지 모르겠네요. 근데 새로 온 길고양이는 저한테 온몸을 비비면서 자꾸 쫓아다니더라고요. 이건 무슨 뜻이에요?",
+            "turn_id": "BK22005417-5",
+            "utterance_id": "BK22005417.9"
+        },
+        {
+            "reference_date": "2019-02-16",
+            "reference_text": [
+                {
+                    "value": "고양이는 얼굴의 턱과 이마나 꼬리 뿌리 쪽에서 체취가 나기 때문에 온몸을 비비면서 사람에게 다가간다는 것은 그만큼 그 사람을 신뢰한다는 표시다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그야말로 고양이로부터 당한 '간택'이 아닐 수 없다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20190215062700030?input=1195m",
+            "search_query": "길고양이 간택",
+            "terminate": false,
+            "text": "오, 그건 신뢰한다는 뜻이에요. 고양이 체취는 얼굴의 턱, 이마, 꼬리 뿌리 쪽에서 나오는데, 그렇게 온몸을 비비면서 다가온다는 것은 굉장한 신뢰의 표시죠. 간택 당하신 거나 다름없네요.",
+            "turn_id": "BK22005417-5",
+            "utterance_id": "BK22005417.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정작 우리 집 고양이는 저를 싫어하는데 길고양이가 저를 신뢰하다니 참 신기한 일이네요. 고양이도 인간처럼 환경에 따라 성격이 변하지 않나요?",
+            "turn_id": "BK22005417-6",
+            "utterance_id": "BK22005417.11"
+        },
+        {
+            "reference_date": "2022-06-23",
+            "reference_text": [
+                {
+                    "value": "천성이라는 것을 차치하면, 고양이의 성격은 어릴 때 환경에 크게 영향을 받는다고 한다.",
+                    "value_time": "2022-08-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "예를 들어 길에서 태어나거나 위험한 상황에 자주 노출되거나 어릴 때 길고양이로 지내며 학대를 당한 경험이 있는 고양이들은 경계심이 강하고, 특정 대상에 트라우마를 보일 수도 있다.",
+                    "value_time": "2022-08-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/06/550798/",
+            "search_query": "고양이 성격",
+            "terminate": false,
+            "text": "그렇죠. 천성이라는 게 있긴 하지만, 고양이 성격은 어린 시절 환경에 크게 좌우돼요. 어린 시절 길에서 태어나거나 길에서 살면서 위험한 일을 자주 겪은 고양이들, 학대 경험이 있는 고양이들은 어떤 대상에 트라우마 증상을 보일 수도 있고 경계하는 마음도 강하죠.",
+            "turn_id": "BK22005417-6",
+            "utterance_id": "BK22005417.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 그 길고양이 같은 경우는 원래 타고난 성격이 그렇게 사람을 좋아하나 봐요. 그리고 그루밍을 엄청 많이 하더라고요. 원래 고양이는 그루밍을 얼만큼 하는 게 정상이에요?",
+            "turn_id": "BK22005417-7",
+            "utterance_id": "BK22005417.13"
+        },
+        {
+            "reference_date": "2022-08-11",
+            "reference_text": [
+                {
+                    "value": "고양이는 깨어 있는 시간 중 3분의 1을 그루밍에 쓴다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대략 하루에 600~1000번 정도를 하는 셈이다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/08/707847/",
+            "search_query": "고양이 털",
+            "terminate": false,
+            "text": "고양이는 일어나 있는 시간의 3분의 1은 그루밍에 사용하죠. 하루에 육백 번에서 천 번 정도 그루밍을 한다고 보면 돼요.",
+            "turn_id": "BK22005417-7",
+            "utterance_id": "BK22005417.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래요? 우리 집 고양이는 그 정도로 하진 않는 것 같던데. 그루밍이 건강 상태와도 연관이 있나요?",
+            "turn_id": "BK22005417-8",
+            "utterance_id": "BK22005417.15"
+        },
+        {
+            "reference_date": "2019-07-05",
+            "reference_text": [
+                {
+                    "value": "그루밍을 통해 고양이의 건강 상태도 체크할 수 있습니다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "몸이 좋지 않을수록 그루밍 횟수가 눈에 띄게 줄어들고, 스트레스를 받거나 특정 부위에 통증을 느끼면 과도하게 그루밍을 합니다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nongmin.com/plan/PLN/SRS/313106/view",
+            "search_query": "고양이 그루밍 횟수",
+            "terminate": false,
+            "text": "네, 그루밍으로 고양이의 건강이 어떤지 확인할 수 있어요. 고양이는 건강이 좋지 않으면 그루밍을 거의 안 해요. 또 어떤 부위가 아프거나 스트레스를 받으면 그루밍을 과하게 할 수도 있구요.",
+            "turn_id": "BK22005417-8",
+            "utterance_id": "BK22005417.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 그 길고양이는 어딘가 아파서 그런 걸 수도 있겠네요. 근데 갑자기 궁금한 게 고양이는 그루밍을 왜 하는 거예요?",
+            "turn_id": "BK22005417-9",
+            "utterance_id": "BK22005417.17"
+        },
+        {
+            "reference_date": "2018-12-10",
+            "reference_text": [
+                {
+                    "value": "고양이는 몸을 깨끗이 하는 것 이외에도 자신의 정서적 안정이나 사회적으로 친근함을 표현할 때, 그리고 야생에서 사냥의 흔적을 없앨 때 그루밍을 합니다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ggilbo.com/news/articleView.html?idxno=572382",
+            "search_query": "고양이 그루밍 이유",
+            "terminate": false,
+            "text": "고양이는 자기 몸을 깨끗하게 하려고 그루밍을 하죠. 그 외에도 기분을 안정시키고 싶거나 사회적으로 사교 행위를 할 때, 야생이라면 사냥 흔적을 없애려고 할 때 그루밍을 해요.",
+            "turn_id": "BK22005417-9",
+            "utterance_id": "BK22005417.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 덕분에 고양이에 대해서 많이 알게 됐네요. 저 잠깐 화장실 갔다 올게요.",
+            "turn_id": "BK22005417-10",
+            "utterance_id": "BK22005417.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 다녀오세요. 저도 잠시 전화 통화 할 일이 있어서 나갔다 와야겠어요.",
+            "turn_id": "BK22005417-10",
+            "utterance_id": "BK22005417.20"
+        }
+    ]
+}

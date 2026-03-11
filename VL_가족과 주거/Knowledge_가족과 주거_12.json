@@ -1,0 +1,361 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016728",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016728",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "친구가 큰 개를 기르더라고요. 더 큰 개가 있는지 궁금해졌어요. 전문가님, 세계에서 가장 큰 개는 어떤 견종인가요?",
+            "turn_id": "BK22016728-1",
+            "utterance_id": "BK22016728.1"
+        },
+        {
+            "reference_date": "44762.0",
+            "reference_text": [
+                {
+                    "value": "현재 기네스북에 등재된 세상에서 가장 큰 개는 그레이트 데인 견종의 제우스(Zeus)로 키가 111.8cm나 됩니다.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/126495/",
+            "search_query": "세상에서 가장 큰 개 제우스",
+            "terminate": false,
+            "text": "지금 기네스북에 올라 있는 세계에서 가장 큰 개의 견종은 그레이트데인입니다. 이름은 제우스이고, 키가 111.8센티미터에 이르죠.",
+            "turn_id": "BK22016728-1",
+            "utterance_id": "BK22016728.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그레이트데인이라는 종이라고요? 그러면 그레이트데인 견종이 개 중에서는 가장 체격이 큰가요?",
+            "turn_id": "BK22016728-2",
+            "utterance_id": "BK22016728.3"
+        },
+        {
+            "reference_date": "44762.0",
+            "reference_text": [
+                {
+                    "value": "사실, 그레이트 데인은 세상에서 가장 큰 견종은 아닙니다. 평균적으로는 아이리쉬 울프하운드라는 견종이 덩치가 더 큰 편입니다.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/126495/",
+            "search_query": "그레이트 데인 아이리쉬 울프하운드",
+            "terminate": false,
+            "text": "엄밀히 따지면 그렇지 않습니다. 평균적으로 따지면 아이리쉬 울프하운드라는 견종이 그레이트 데인보다 몸집이 더 큰 편이에요. 그러니 세상에서 가장 큰 견종은 아니죠.",
+            "turn_id": "BK22016728-2",
+            "utterance_id": "BK22016728.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 그레이트데인은 체격이 보통 어느 정도인가요?",
+            "turn_id": "BK22016728-3",
+            "utterance_id": "BK22016728.5"
+        },
+        {
+            "reference_date": "44762.0",
+            "reference_text": [
+                {
+                    "value": "그레이트 데인은 키는 71~81cm, 몸무게는 50~80kg 정도의 초대형견입니다.",
+                    "value_time": "44840.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "암컷보다 수컷이 덩치가 더 큰 편이에요.",
+                    "value_time": "44840.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "두 발로 서면 사람보다 훨씬 커요.",
+                    "value_time": "44840.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/126495/",
+            "search_query": "그레이트 데인 특징",
+            "terminate": false,
+            "text": "그레이트데인은 체고가 71에서 81센티미터이고, 체중이 50에서 80킬로그램 정도 나가는 초 대형견입니다. 암컷보다 수컷이 몸집이 더 크고요. 두 발로 서면 인간보다 훨씬 큽니다.",
+            "turn_id": "BK22016728-3",
+            "utterance_id": "BK22016728.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "몸무게만 놓고 보면 웬만한 성인 몸무게와 맞먹는군요. 그건 그렇고 그레이트데인이라는 이름에 Dane이라는 단어가 들어가는데, 덴마크와 혹시 연관이 있는 건가요?",
+            "turn_id": "BK22016728-4",
+            "utterance_id": "BK22016728.7"
+        },
+        {
+            "reference_date": "44615.0",
+            "reference_text": [
+                {
+                    "value": "그레이트 데인'이란 말은 '커다란 덴마크의 개'라는 뜻을 지니고 있지만, 진짜 원산은 덴마크가 아니고 독일이다.",
+                    "value_time": "44840.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "독일어로는 도이체 도게(독일어: Deutsche Dogge), 즉 그냥 \"독일개\"라고 부른다",
+                    "value_time": "44840.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%A0%88%EC%9D%B4%ED%8A%B8_%EB%8D%B0%EC%9D%B8",
+            "search_query": "그레이트 데인",
+            "terminate": false,
+            "text": "그렇지 않습니다. 그레이트데인은 큰 덴마크의 개라는 뜻이 있지만, 실제 원산지는 덴마크가 아니라 독일입니다. 그레이트데인은 독일어로 도이체 도게라고 부르는데, 그냥 독일개라는 뜻이죠.",
+            "turn_id": "BK22016728-4",
+            "utterance_id": "BK22016728.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그레이트데인이라는 견종은 어느 정도의 역사를 가지고 있나요?",
+            "turn_id": "BK22016728-5",
+            "utterance_id": "BK22016728.9"
+        },
+        {
+            "reference_date": "44762.0",
+            "reference_text": [
+                {
+                    "value": "그레이트 데인은 기원전 약 3000년 전 이집트, 기원전 약 2000년 전 바빌로니아 사원 그리고 기원후 1121년 중국 문헌에서 그레이트 데인과 비슷한 견종이 발견되었을 정도로 오랜 역사를 가진 견종으로 알려져 있습니다.",
+                    "value_time": "44840.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그레이트 데인은 잉글리쉬 마스티프, 아이리쉬 울프하운드, 그레이 하운드 세 사이에서 나온 견종으로 알려져 있어요.",
+                    "value_time": "44840.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/126495/",
+            "search_query": "그레이트 데인 역사가 깊은 견종",
+            "terminate": false,
+            "text": "그레이트데인은 잉글리쉬 마스티프, 아이리쉬 울프하운드, 그레이하운드 세 견종 사이에서 탄생한 견종으로 전해지는데요. 기원전 약 3000년 이집트, 기원전 약 2000년 바빌로니아 사원, 기원후 1121년 중국 문헌에서 그레이트데인과 유사한 견종이 기록될 정도로 오랜 역사를 가진 것으로 알려져 있습니다.",
+            "turn_id": "BK22016728-5",
+            "utterance_id": "BK22016728.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인위적으로 개량해서 최근 탄생한 견종은 아니군요. 그렇다면 그레이트데인의 성격은 어떤가요? 덩치가 커서 약간 사나울 것 같은데요?",
+            "turn_id": "BK22016728-6",
+            "utterance_id": "BK22016728.11"
+        },
+        {
+            "reference_date": "44762.0",
+            "reference_text": [
+                {
+                    "value": "그레이트 데인은 큰 덩치와는 달리 사람을 아주 좋아하고 다정다감한 성격을 가지고 있어요.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아이들이나 낯선 사람, 다른 동물들과도 잘 지내 순한 거인(Gentle Giant)이라는 별명으로도 불려요.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/126495/",
+            "search_query": "그레이트 데인 성격",
+            "terminate": false,
+            "text": "커다란 몸집과는 달리 인간을 매우 좋아하고 성격이 다정다감한 편입니다. 아이들이나 낯선 사람, 다른 동물들과도 잘 어울려 순한 거인이라는 별명도 있죠.",
+            "turn_id": "BK22016728-6",
+            "utterance_id": "BK22016728.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다행히 사납지는 않은 모양이군요. 그러면 그레이트데인의 털 관리는 어떻게 해줘야 하나요?",
+            "turn_id": "BK22016728-7",
+            "utterance_id": "BK22016728.13"
+        },
+        {
+            "reference_date": "44762.0",
+            "reference_text": [
+                {
+                    "value": "그레이트 데인은 털이 짧으면서 털이 한 겹인 단일모를 가지고 있어요.",
+                    "value_time": "44840.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그래서 털이 많이 빠지지 않고 쉽게 엉키지도 않습니다.",
+                    "value_time": "44840.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "가끔씩 죽은 털 제거를 위해 빗어주는 정도로 충분해 털 관리가 쉬운 편이에요.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/126495/",
+            "search_query": "그레이트 데인 털 관리",
+            "terminate": false,
+            "text": "그레이트데인의 털은 짧은 데다 한 겹인 단일 모라, 털이 별로 빠지지 않고 잘 엉키지 않습니다. 그래서 털 관리가 쉬워요. 가끔 빗질로 죽은 털만 제거하면 되거든요.",
+            "turn_id": "BK22016728-7",
+            "utterance_id": "BK22016728.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "털 관리가 많이 필요 없는 견종이군요. 그러면 그레이트데인을 키우면서 주의해야 할 점이 있을까요?",
+            "turn_id": "BK22016728-8",
+            "utterance_id": "BK22016728.15"
+        },
+        {
+            "reference_date": "44762.0",
+            "reference_text": [
+                {
+                    "value": "그레이트 데인은 초대형견인 만큼 기본적인 활동량이 꽤 있는 편이지만, 덩치에 비해 많진 않아요.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "매일 1~2시간 정도의 산책이면 충분합니다.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만, 성장기일 때 그레이트 데인과 조깅, 등산 등의 격한 운동은 피해 주세요.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "관절 손상이 생길 가능성이 높아 약 2살 까지는 약한 강도의 운동만 하는 걸 권장합니다.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/126495/",
+            "search_query": "그레이트 데인 성장기 약한 강도의 운동",
+            "terminate": false,
+            "text": "그레이트데인은 초 대형견이라 기본적으로 활동량이 꽤 있지만 몸집에 비해 많지는 않아서, 하루에 한두 시간 정도 산책이면 충분한데요. 다만 성장기 그레이트데인의 경우 조깅이나 등산 등 격한 운동은 자제해야 합니다. 관절을 다칠 가능성이 높아서 약 2세까지는 저강도 운동만 하는 편이 낫습니다.",
+            "turn_id": "BK22016728-8",
+            "utterance_id": "BK22016728.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하긴 그렇게 체격이 크면 관절에 가는 부담도 상당하겠군요.",
+            "turn_id": "BK22016728-9",
+            "utterance_id": "BK22016728.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사람도 살찌면 무릎에 무리가 가듯이 말이죠.",
+            "turn_id": "BK22016728-9",
+            "utterance_id": "BK22016728.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "덕분에 그레이트데인이라는 견종을 알게 되었네요. 그러면 저는 이만 돌아가 보겠습니다.",
+            "turn_id": "BK22016728-10",
+            "utterance_id": "BK22016728.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 다음에 또 뵙겠습니다.",
+            "turn_id": "BK22016728-10",
+            "utterance_id": "BK22016728.20"
+        }
+    ]
+}

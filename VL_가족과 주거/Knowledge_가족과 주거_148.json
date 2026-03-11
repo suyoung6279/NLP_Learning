@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018176",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018176",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 친구하고 거리를 돌아다니다 개 한 마리를 봤는데, 친구가 파피용이라고 그러는 거예요. 그래서 제가 영화 제목도 아니고 세상에 파피용이라는 견종이 어디 있느냐 그랬는데, 진짜 파피용이라는 개가 있나요?",
+            "turn_id": "BK22018176-1",
+            "utterance_id": "BK22018176.1"
+        },
+        {
+            "reference_date": "44784.0",
+            "reference_text": [
+                {
+                    "value": "파피용(프랑스어: papillon)은 프랑스가 원산지인, 16세기경 작은 스패니얼로 알려진 종에서 개량을 거듭해 만들어졌다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8C%8C%ED%94%BC%EC%9A%A9_(%EA%B0%9C)",
+            "search_query": "파피용 개",
+            "terminate": false,
+            "text": "네, 있습니다. 프랑스가 원산지인 개인데, 16세기 무렵 소형 스패니얼로 알려진 품종에서 거듭 개량하여 탄생했죠.",
+            "turn_id": "BK22018176-1",
+            "utterance_id": "BK22018176.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 생각보다 제법 역사가 길군요. 그런데 이름이 파피용인데, 대체 무슨 뜻인가요?",
+            "turn_id": "BK22018176-2",
+            "utterance_id": "BK22018176.3"
+        },
+        {
+            "reference_date": "44700.0",
+            "reference_text": [
+                {
+                    "value": "빠삐용이라는 이름은 프랑스어로 나비를 뜻하는 Papillon에서 유래했는데요.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이는 빠삐용의 귀의 모양이 나비를 닮았다고 해서 붙여진 이름이랍니다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/117121/",
+            "search_query": "빠삐용 이름 유래",
+            "terminate": false,
+            "text": "파피용이라는 명칭은 프랑스어로 나비라는 뜻인 Papillon에서 비롯되었습니다. 파피용의 귀가 나비 모양과 유사해서 그런 이름이 붙여졌죠.",
+            "turn_id": "BK22018176-2",
+            "utterance_id": "BK22018176.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러고 보니 어제 친구와 같이 목격한 개도 귀가 나비 비슷한 모양이기는 했어요. 파피용은 기본적으로 어떤 신체적 특징을 가지고 있나요?",
+            "turn_id": "BK22018176-3",
+            "utterance_id": "BK22018176.5"
+        },
+        {
+            "reference_date": "44700.0",
+            "reference_text": [
+                {
+                    "value": "빠삐용은 몸무게가 약 3~5kg 나가는 소형견이에요.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "체고는 20~27cm 정도로 소형견 중에서는 키가 큰 편입니다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/117121/",
+            "search_query": "빠삐용의 외모 특징",
+            "terminate": false,
+            "text": "파피용은 체중이 약 3에서 5킬로그램인 소형견입니다. 키가 20에서 27센티미터인데 소형견치고는 키가 크죠.",
+            "turn_id": "BK22018176-3",
+            "utterance_id": "BK22018176.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 털은 어느 정도로 빠지는 편인가요?",
+            "turn_id": "BK22018176-4",
+            "utterance_id": "BK22018176.7"
+        },
+        {
+            "reference_date": "44700.0",
+            "reference_text": [
+                {
+                    "value": "빠삐용의 경우 털 빠짐이 꽤 있는 편이에요.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대신 빠삐용은 속털이 없는 단모종이기 때문에 사모예드나 웰시코기 같은 이중모 강아지에 비해서 털 빠짐이 아주 심하진 않답니다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/117121/",
+            "search_query": "빠삐용 털 빠짐",
+            "terminate": false,
+            "text": "파피용은 털이 꽤 빠지는 편입니다. 대신 파피용은 속 털이 없고 단모종이라서 사모예드, 웰시코기 같은 이중 모인 견종과 비교하면, 털이 아주 심하게 빠지지는 않아요.",
+            "turn_id": "BK22018176-4",
+            "utterance_id": "BK22018176.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "털 빠짐이 꽤 있으니 청소를 자주 해야겠군요. 파피용의 성격은 어떤 편인가요?",
+            "turn_id": "BK22018176-5",
+            "utterance_id": "BK22018176.9"
+        },
+        {
+            "reference_date": "44700.0",
+            "reference_text": [
+                {
+                    "value": "빠삐용은 반려동물로서의 역사가 긴 만큼 보호자의 사랑과 관심을 듬뿍 받는 걸 좋아해요.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "애교도 많고 밝은 성격이 특징이랍니다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보호자에게 껌딱지처럼 붙어있는 걸 좋아하며, 대체적으로 다른 강아지나 사람과도 아주 잘 지낸답니다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/117121/",
+            "search_query": "파피용 성격",
+            "terminate": false,
+            "text": "오랜 기간 반려동물이었던 만큼 주인이 많은 애정과 관심을 두는 것을 좋아합니다. 애교가 많고 성격이 밝죠. 껌딱지처럼 주인과 붙어있기를 좋아하고, 대체로 다른 사람이나 개하고도 매우 잘 어울립니다.",
+            "turn_id": "BK22018176-5",
+            "utterance_id": "BK22018176.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "들어보니 성격이 순한 편이군요. 그러면 파피용의 지능은 어떤 수준인가요?",
+            "turn_id": "BK22018176-6",
+            "utterance_id": "BK22018176.11"
+        },
+        {
+            "reference_date": "44784.0",
+            "reference_text": [
+                {
+                    "value": "파피용은 동물 지능 전문가 스탠리 코렌 박사가 테스트한 견종 138종 중 똑똑한 개 8위에 올랐다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8C%8C%ED%94%BC%EC%9A%A9_(%EA%B0%9C)",
+            "search_query": "파피용 지능",
+            "terminate": false,
+            "text": "동물 지능 전문가 스탠리 코렌 박사가 견종 138종을 테스트해서 똑똑한 개 순위를 매겼는데, 그중 8위를 차지했습니다.",
+            "turn_id": "BK22018176-6",
+            "utterance_id": "BK22018176.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 8위면 똑똑해서 훈련도 잘 시킬 수 있겠군요. 혹시 파피용이 잘 앓는 질환 같은 게 있나요?",
+            "turn_id": "BK22018176-7",
+            "utterance_id": "BK22018176.13"
+        },
+        {
+            "reference_date": "44700.0",
+            "reference_text": [
+                {
+                    "value": "빠삐용은 입이 작아서 영구치가 날 시기에 유치가 빠지지 않는 경우가 종종 있으며 원래 나야 할 이빨 개수보다 적은 개수가 나기도 해요.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "입이 작은 만큼 양치질도 구석구석 해주기 어려워서 더욱 신경 써서 닦아줘야 한답니다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/117121/",
+            "search_query": "파피용 치아 문제",
+            "terminate": false,
+            "text": "파피용의 입이 작다 보니 영구치가 나야 할 시기에 유치가 안 빠지는 경우가 가끔 있습니다. 또 원래 나야 할 수보다 치아가 적게 날 때도 있고요. 또 입이 작아서 구석까지 양치질을 하기 어려우니, 더욱 주의해서 닦아야 합니다.",
+            "turn_id": "BK22018176-7",
+            "utterance_id": "BK22018176.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "치아 관련 질환에 시달리지 않도록 특별히 더 신경 써야 하는군요. 그 외에 주의해야 할 점이 있을까요?",
+            "turn_id": "BK22018176-8",
+            "utterance_id": "BK22018176.15"
+        },
+        {
+            "reference_date": "42326.0",
+            "reference_text": [
+                {
+                    "value": "우선은 정량 급식이 필수다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "습관이 잘못되면 뚱뚱해질 수도 있는데 비만견이 되면 소형견 공통의 문젯점인 슬개골 탈구, 관절염 등에 노출될 수도 있다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "두개골도 약한 편이라 귀엽다고 머리통을 세게 쓰다듬거나 톡톡 치는 일도 절대 삼가야 한다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자칫 죽음에 이를 수도 있다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2015/11/1096877/",
+            "search_query": "파피용 주의해야 할 점",
+            "terminate": false,
+            "text": "먼저 밥은 딱 정량대로만 줘야 합니다. 습관을 잘못 드리면 뚱뚱해질 수 있는데, 비만이 되면 소형견이 공통으로 가진 슬개골 탈구, 관절염 등과 같은 문제가 발생할 수도 있습니다. 또 두개골이 약하다 보니 귀엽다고 머리통을 강하게 쓰다듬거나 툭툭 치는 일도 반드시 피하셔야 합니다. 잘못하면 죽을 수도 있거든요.",
+            "turn_id": "BK22018176-8",
+            "utterance_id": "BK22018176.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "앉고 있다가 떨어뜨리는 일도 없어야겠군요.",
+            "turn_id": "BK22018176-9",
+            "utterance_id": "BK22018176.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "머리뼈가 연약하면 그대로 죽을 수 있으니까요.",
+            "turn_id": "BK22018176-9",
+            "utterance_id": "BK22018176.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "덕분에 파피용이라는 견종이 실제로 있다는 사실을 배웠네요. 그러면 저는 이만 돌아가 보겠습니다. 다음에 또 만나요!",
+            "turn_id": "BK22018176-10",
+            "utterance_id": "BK22018176.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 다음에 또 만나요.",
+            "turn_id": "BK22018176-10",
+            "utterance_id": "BK22018176.20"
+        }
+    ]
+}

@@ -1,0 +1,372 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016452",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016452",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집에 갈 때 꽃다발을 사 가려고 하는데, 어떤 꽃을 살지 고민이에요.",
+            "turn_id": "BK22016452-1",
+            "utterance_id": "BK22016452.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "보기에 예쁜 꽃이면 좋지요.",
+            "turn_id": "BK22016452-1",
+            "utterance_id": "BK22016452.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집에 고양이가 있어서 뜯어 먹을까 봐 걱정되거든요. 고양이가 먹으면 안 되는 꽃이 있다면 알려주세요.",
+            "turn_id": "BK22016452-2",
+            "utterance_id": "BK22016452.3"
+        },
+        {
+            "reference_date": "44307.0",
+            "reference_text": [
+                {
+                    "value": "백합과 식물은 고양이에게 치명적이라고 알려진 대표적 꽃이다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고양이는 호기심이 많아 식물을 뜯어먹곤 하는데, 만약 백합과 식물을 먹게 되면 식욕부진, 구토, 신부전을 일이킨다고 한다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=50210",
+            "search_query": "고양이 치명적 백합",
+            "terminate": false,
+            "text": "대표적으로 백합과 식물이 고양이에게 치명적인 꽃이지요. 고양이는 식물을 잘 뜯어 먹는데 만약 백합과 식물을 먹으면 식욕부진과 구토, 신부전을 일으킬 수 있어요.",
+            "turn_id": "BK22016452-2",
+            "utterance_id": "BK22016452.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "백합을 높은 곳에 올려놓아도 위험한가요?",
+            "turn_id": "BK22016452-3",
+            "utterance_id": "BK22016452.5"
+        },
+        {
+            "reference_date": "44642.0",
+            "reference_text": [
+                {
+                    "value": "백합을 높은 탁자나 선반 위에 올려놓는다고 하더라도 고양이가 쉽게 올라와 꽃을 만질 수 있고 바닥에 떨어진 꽃가루를 밟아 그루밍을 하다가 먹어버릴 수 있기 때문이다.",
+                    "value_time": "44837.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=58610",
+            "search_query": "높은 백합 고양이",
+            "terminate": false,
+            "text": "높은 곳에 백합을 올려놓아도 고양이가 올라와서 꽃을 만질 수도 있고, 바닥에 떨어진 꽃가루를 그루밍하다가 섭취해서 먹어버리는 위험성이 있어요.",
+            "turn_id": "BK22016452-3",
+            "utterance_id": "BK22016452.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "백합에 들어있는 어떤 성분이 고양이에게 해로운가요?",
+            "turn_id": "BK22016452-4",
+            "utterance_id": "BK22016452.7"
+        },
+        {
+            "reference_date": "43533.0",
+            "reference_text": [
+                {
+                    "value": "중독의 원인은 백합에 포함된 알칼로이드 리코린(Alkaloid lycorine) 성분 때문이다.",
+                    "value_time": "44834.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 성분은 주로 줄기, 뿌리에 많으며 꽃에는 적다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 고양이는 잎을 몇 개만 따먹어도 신장 독성이 나타난다.",
+                    "value_time": "44834.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=42807",
+            "search_query": "고양이 백합 성분",
+            "terminate": false,
+            "text": "백합에 들어있는 알칼로이드 리코린이라는 성분 때문이지요. 이 성분은 꽃에는 적고 주로 줄기와 뿌리에 많아요. 하지만 고양이는 잎을 몇 개만 따서 먹어도 신장 독성이 나타나게 됩니다.",
+            "turn_id": "BK22016452-4",
+            "utterance_id": "BK22016452.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이가 백합을 이미 뜯어서 먹은 경우는 어떻게 치료를 하나요?",
+            "turn_id": "BK22016452-5",
+            "utterance_id": "BK22016452.9"
+        },
+        {
+            "reference_date": "43533.0",
+            "reference_text": [
+                {
+                    "value": "특히 고양이 백합 중독 치료는 상황에 따라 달라지는데 이때 보호자의 얘기가 중요한 단서가 된다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고양이가 어디(실내/실외)에서 백합에 노출됐는지, 백합을 먹을 가능성이 있었는지, 구토물에서 백합이 발견됐는지 등 수의사의 물음에 정확히 답할 수 있어야한다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=42807",
+            "search_query": "고양이 백합 치료",
+            "terminate": false,
+            "text": "고양이의 백합 중독 치료는 상황에 따라 달라져서, 보호자의 이야기가 치료에 있어 중요해요. 고양이가 어디에서 백합에 노출되었는지, 백합을 먹었는지, 구토물에서 백합이 나왔는지 등 수의사의 질문에 정확히 답변할 수 있어야 해요.",
+            "turn_id": "BK22016452-5",
+            "utterance_id": "BK22016452.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "구토물에서 백합이 나오지 않으면 어떻게 해야 하나요?",
+            "turn_id": "BK22016452-6",
+            "utterance_id": "BK22016452.11"
+        },
+        {
+            "reference_date": "43533.0",
+            "reference_text": [
+                {
+                    "value": "구토를 통해 백합이 나오지 않는 경우 중독물질을 흡착할 수 있는 활성탄을 먹여야한다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이후에는 입원치료를 한다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=42807",
+            "search_query": "고양이 백합 활성탄",
+            "terminate": false,
+            "text": "구토물에서 백합이 나오지 않으면 중독물질을 흡착해 배출할 수 있는 활성탄 성분을 먹여야 해요. 이후에는 입원 치료를 하고요.",
+            "turn_id": "BK22016452-6",
+            "utterance_id": "BK22016452.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 후에는 입원 치료가 왜 필요한가요?",
+            "turn_id": "BK22016452-7",
+            "utterance_id": "BK22016452.13"
+        },
+        {
+            "reference_date": "43533.0",
+            "reference_text": [
+                {
+                    "value": "신장으로 독성성분이 배출될 수 있도록 혈관을 통해 충분한 수액을 공급하고 구토 등에 대한 대증치료를 한다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 매일 신장수치 등에 대한 혈액검사를 통해 신부전 발생 가능성 등 고양이의 상태를 모니터링해야한다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=42807",
+            "search_query": "고양이 백합 수액",
+            "terminate": false,
+            "text": "신장으로 독성성분이 배출되어야 해서 혈관으로 수액 치료를 하게 됩니다. 또한 구토에 대한 대증치료도 필요해요. 매일 신장 수치를 체크하기 위해 혈액검사도 하고, 신부전이 발생할 수 있는지 고양이 상태를 모니터링합니다.",
+            "turn_id": "BK22016452-7",
+            "utterance_id": "BK22016452.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "만약 신장이 망가져 신부전이 온다면 예후가 나쁜가요?",
+            "turn_id": "BK22016452-8",
+            "utterance_id": "BK22016452.15"
+        },
+        {
+            "reference_date": "43533.0",
+            "reference_text": [
+                {
+                    "value": "안타깝지만 급성신부전이 상당히 진행돼 소변생성이 안 되는 경우 적극적인 투석 외에는 치료방법이 없다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "예후 역시 매우 좋지 못하다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "극적으로 회복되더라도 만성신부전으로 진행되는 경우가 대부분이라 백합에 노출을 막는 것이 최선이다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=42807",
+            "search_query": "고양이 백합 신부전",
+            "terminate": false,
+            "text": "급성신부전이 진행되어 소변 생성이 불가능하면 적극적으로 투석하는 것 외에는 치료 방법이 없어요. 예후 또한 몹시 안 좋아요. 극적으로 회복을 하더라도, 만성신부전으로 진행되기 때문에 백합 노출을 최대한 막아야 합니다.",
+            "turn_id": "BK22016452-8",
+            "utterance_id": "BK22016452.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "백합이 고양이에게 그 정도로 위험하다니, 항상 모든 식물을 확인하는 게 좋을까요?",
+            "turn_id": "BK22016452-9",
+            "utterance_id": "BK22016452.17"
+        },
+        {
+            "reference_date": "44307.0",
+            "reference_text": [
+                {
+                    "value": "이렇듯 반려묘를 키울 때는 반려 식물을 들일 때 신경을 써야 한다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그렇다고 식물을 아예 키울 수 없는 것은 아니다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "귀리, 구미초와 같은 캣그라스나 캣닙 등 고양이에게도 안전한 식물이 있으니 반려 식물을 키울 생각이라면 해당 식물들을 확인해보는 것이 좋다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=50210",
+            "search_query": "고양이 백합 귀리",
+            "terminate": false,
+            "text": "네, 반려묘가 있을경우 식물을 들일 때 항상 확인해 보는 것이 좋아요. 하지만 귀리나 구미초 같은 캣 그라스 또는 개박하 등 고양이에게 안전한 식물도 있으니 식물을 아예 키울 수 없지는 않아요.",
+            "turn_id": "BK22016452-9",
+            "utterance_id": "BK22016452.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 백합을 좋아하는데 미리 질문을 해서 다행이네요.",
+            "turn_id": "BK22016452-10",
+            "utterance_id": "BK22016452.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 미리 알아두는 것이 최선이지요.",
+            "turn_id": "BK22016452-10",
+            "utterance_id": "BK22016452.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "미리 위험성을 알려주셔서 감사해요.",
+            "turn_id": "BK22016452-11",
+            "utterance_id": "BK22016452.21"
+        }
+    ]
+}

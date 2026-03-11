@@ -1,0 +1,371 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22017199",
+        "name": "2022 한국어 블렌더봇 데이터 BK22017199",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전에 한국 드라마를 봤는데, 흥미로운 부분이 있었어요.",
+            "turn_id": "BK22017199-1",
+            "utterance_id": "BK22017199.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그랬군요, 어떤 점이 흥미로웠나요?",
+            "turn_id": "BK22017199-1",
+            "utterance_id": "BK22017199.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "부모가 자식을 호적에서 판다고 하는 부분이 있었는데, 아마도 가족에서 쫓아내겠다는 말 같았어요. 그런데 한국에서는 이게 가능한 일인가요?",
+            "turn_id": "BK22017199-2",
+            "utterance_id": "BK22017199.3"
+        },
+        {
+            "reference_date": "44790.0",
+            "reference_text": [
+                {
+                    "value": "\"너, 호적에서 파버릴 거야!\" 마음에 들지 않는 결혼 상대를 데리고 온 자식에게 머리를 싸맨 부모가 호통을 친다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "TV 드라마에서 아직도 흔하게 볼 수 있는 장면이다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "호주제 폐지로 '호적을 파는' 분가는 사라졌지만 관습처럼 이런 표현이 사용되고 있다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/4729805",
+            "search_query": "호적에서 파다",
+            "terminate": false,
+            "text": "아, 드라마에서 자식이 데려온 결혼 상대가 마음에 들지 않던 부모가 자식을 호적에서 파겠다고 하는 장면을 보셨군요. 아직도 드라마에 자주 등장하긴 하지만, 사실 한국은 호주제가 폐지되어 실제로 자식을 호적에서 팔 수는 없어요. 다만 여전히 그 표현이 관습처럼 사용되고 있지요.",
+            "turn_id": "BK22017199-2",
+            "utterance_id": "BK22017199.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 딱 그런 상황이었어요. 그런데 호주제가 정확히 어떤 제도였나요?",
+            "turn_id": "BK22017199-3",
+            "utterance_id": "BK22017199.5"
+        },
+        {
+            "reference_date": "44601.0",
+            "reference_text": [
+                {
+                    "value": "호주제(戶主制)는 가족 관계를 호주(戶主)와 그의 가족으로 구성된 가(家)를 기준으로 정리하던 2007년 12월 31일 이전의 민법의 가(家) 제도 또는 호적 제도를 말한다.",
+                    "value_time": "44833.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이는 호주를 중심으로 호적에 가족집단(家)을 구성하고 이를 아버지에서 아들로 이어지는 남계혈통을 통해 대대로 영속시키는 제도였다.",
+                    "value_time": "44833.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%98%B8%EC%A3%BC%EC%A0%9C",
+            "search_query": "호주제",
+            "terminate": false,
+            "text": "호주제는 2007년 12월 31일까지 한국에서 유지되었던 민법의 가족 제도였고, 그 내용은 모든 가족 관계를 호주를 중심으로 한 호주의 가족으로 정의하고 정리했던 제도에요. 호주제 아래에서 가족 집단이란, 호주와 그를 중심으로 한 가족들이었고, 가족 집단은 아버지에서 아들까지 남계 혈통을 통해 지속되었지요.",
+            "turn_id": "BK22017199-3",
+            "utterance_id": "BK22017199.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 호주제는 한국의 전통적인 제도였나요? 그것이 아니라면, 호주제는 언제 생긴 제도지요?",
+            "turn_id": "BK22017199-4",
+            "utterance_id": "BK22017199.7"
+        },
+        {
+            "reference_date": "44790.0",
+            "reference_text": [
+                {
+                    "value": "우리나라에 호주제가 도입된 것은 일제강점기부터였다.",
+                    "value_time": "44833.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일제는 1923년부터 일본식 호적제도(이에제도)를 시행했는데 이때 한국에 호주제가 이식됐다.",
+                    "value_time": "44833.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일본은 1948년 호주제를 없앴지만 우리나라는 1958년 민법이 제정될 때 호주제를 함께 채택했다.",
+                    "value_time": "44833.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/4729805",
+            "search_query": "호주제의 기원",
+            "terminate": false,
+            "text": "호주제가 항상 한국에 있던 제도는 아니에요. 호주제는 일제강점기였던 1923년에 일제에 의해 도입되고, 이때부터 한국에 이식이 되었지요. 그런데 재미있는 건, 일본은 1948년 호주제를 폐지했는데, 한국은 오히려 1958년에 민법을 제정하면서 호주제도 함께 채택했다는 거예요.",
+            "turn_id": "BK22017199-4",
+            "utterance_id": "BK22017199.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇게 된 일이군요. 그런데 호주제에 혹시 불합리한 점이 있었나요? 지금은 폐지되었다니 왜 그렇게 되었을까 궁금하네요.",
+            "turn_id": "BK22017199-5",
+            "utterance_id": "BK22017199.9"
+        },
+        {
+            "reference_date": "44790.0",
+            "reference_text": [
+                {
+                    "value": "호주제로 가장 고통을 받았던 사람은 이혼·재혼·한부모·입양 가정의 구성원들이었다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이혼한 여성은 아이를 자신의 '가에' 입적시킬 수 없어 함께 살고 있더라도 법률적 가족관계를 형성하지 못하고 '동거인' 관계에 불과했다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/4729805",
+            "search_query": "호주제 불합리함",
+            "terminate": false,
+            "text": "여러 가지 불합리한 점이 있지만, 일단 이혼하거나 재혼한 가정들, 한 부모 가정이나 입양 가정에게 불합리한 점이 아주 많았어요. 일례로 이혼한 여성의 경우, 자녀를 자신의 가족에 입적시킬 수가 없어서, 법률적인 가족 관계를 인정받지 못하고, 함께 살고 있어도 법률적으로는 단순한 동거인으로 두어야 했어요.",
+            "turn_id": "BK22017199-5",
+            "utterance_id": "BK22017199.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "불합리한 점이 많아서 호주제에 반대하는 사람이 많았을 것 같아요. 그런 사람들은 제도 폐지를 위해 어떤 과정을 거쳤나요?",
+            "turn_id": "BK22017199-6",
+            "utterance_id": "BK22017199.11"
+        },
+        {
+            "reference_date": "44601.0",
+            "reference_text": [
+                {
+                    "value": "이후 1975년, 1986년, 1988년에 호주제 폐지를 내용으로 하는 민법개정안이 국회에 제출되었으나 폐기되었다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2000년부터 호주제 폐지는 여성계 시민단체의 가장 중요한 이슈에서 사회전체의 중요 이슈가 되었고, 2001년에는 법원을 통해 헌법재판소에 호주제 관련 위헌법률심판이 여러건 제청되었다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%98%B8%EC%A3%BC%EC%A0%9C",
+            "search_query": "호주제 폐지론",
+            "terminate": false,
+            "text": "일단 1975년, 1986년, 1988년에 차례로 호주제 폐지 내용을 담은 민법 개정안이 국회에 제출되었는데, 안타깝게도 그 당시엔 모두 폐기되었지요. 눈에 띄는 변화는 2000년부터 생겼는데, 호주제가 그전까지는 여성계 시민단체의 주요한 화두였다면, 그때부터는 사회 전체의 중요한 이슈가 되어서, 2001년에는 법원이 헌법재판소에 호주제에 관한 위헌법률심판을 여러 번 제청하기에 이르렀어요.",
+            "turn_id": "BK22017199-6",
+            "utterance_id": "BK22017199.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여러 차례의 노력이 있었군요. 그럼 호주제는 언제, 어떻게 최종적으로 폐지되었나요?",
+            "turn_id": "BK22017199-7",
+            "utterance_id": "BK22017199.13"
+        },
+        {
+            "reference_date": "44790.0",
+            "reference_text": [
+                {
+                    "value": "2005년 2월3일 헌법재판소는 호주제에 대해 6대3의 다수의견(위헌 의견: 윤영철·김경일·송인준·주선회·전효숙·이상경)으로 '헌법불합치' 결정을 내리며 오랜 논란의 마침표를 찍었다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "헌법불합치란 해당 법률의 위헌성을 인정하면서도 법적 공백을 막기 위해 법을 개정할 때까지 해당 조항의 효력을 유지하거나 중지시키는 결정이다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/4729805",
+            "search_query": "호주제 폐지 판결",
+            "terminate": false,
+            "text": "2005년 2월 3일에 헌법재판소에서 법관 9명 중 6명이 호주제 위헌에 대한 다수 의견을 내면서 호주제는 헌법 불합치 판결을 받으며 최종적으로 폐지되었다고 할 수 있어요. 헌법 불합치 판결이란, 해당 법률이 법에 위헌한다는 걸 인정하지만, 법이 갑자기 사라지면 생길 법적 공백을 우려해서 법이 개정될 때까지만 해당 조항의 효력을 유지하거나, 잠정 중단시키는 결정이에요.",
+            "turn_id": "BK22017199-7",
+            "utterance_id": "BK22017199.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 호주제가 헌법 불합치 판결을 받았다면, 개정안은 언제 나오게 되었지요? 그리고 호주제는 어떻게 개정되었나요?",
+            "turn_id": "BK22017199-8",
+            "utterance_id": "BK22017199.15"
+        },
+        {
+            "reference_date": "44790.0",
+            "reference_text": [
+                {
+                    "value": "2005년 3월2일 국회에서는 호주제 폐지를 골자로 한 민법 개정안도 통과됐다.",
+                    "value_time": "44833.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "민법 개정안의 시행으로 호적이 폐지되고 '가족관계등록부'가 이를 대체하기 시작했다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아버지, 아들, 손자 순으로 이어지던 호주승계도 사라졌다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/4729805",
+            "search_query": "호주제 폐지 시행",
+            "terminate": false,
+            "text": "2005년 3월 2일에 국회에서는 호주제 폐지를 내용으로 한 민법 개정안을 통과시켰어요. 그 내용은 그간 가족 관계를 정의하고 정리해왔던 호적을 폐지하고, 가족관계등록부로 이를 대체하겠다는 거였지요. 민법 개정안이 시행되면서 아버지와 아들, 손자 순으로 남성 혈통을 따라 이어지던 호주 승계 제도도 사라지게 되었지요.",
+            "turn_id": "BK22017199-8",
+            "utterance_id": "BK22017199.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 요즘은 가족관계등록부를 쓰겠네요. 그럼 이제 한국에서 법적으로 평등한 가족 관계 정립을 하는 일이 모두 마무리된 건가요?",
+            "turn_id": "BK22017199-9",
+            "utterance_id": "BK22017199.17"
+        },
+        {
+            "reference_date": "44790.0",
+            "reference_text": [
+                {
+                    "value": "한편으로는 '평등한 가족관계'에 한 발짝 더 다가서기 위해 호주제 폐지에서 더 나아간 논의들도 이뤄지고 있다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자녀가 아버지의 성을 따르는 것'을 원칙으로 하는 민법 제781조(부성우선주의) 폐지 움직임이 대표적이다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 양친과 자녀를 기본으로 하는 '정상 가족' 관념을 혁파하고 혼인중·혼인외 출생자 간의 차별을 없애기 위해 관련 민법 용어를 없애야 한다는 목소리도 있다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/4729805",
+            "search_query": "평등한 가족 관계",
+            "terminate": false,
+            "text": "많이 개선되고 있기는 하지만, 아직 한국 법률에서 평등한 가족관계 정립이 모두 끝난 건 아니에요. 요즘은 자녀가 아버지의 성을 따르는 부성 우선주의 원칙을 내용으로 하는 민법 제781조를 폐지하려는 움직임이 있어요. 그리고 더 나아가 두 부모와 자녀를 정상적인 가족으로 취급하는 관념을 아예 없애고, 혼인 중이거나 혼인 외 관계에서 출생한 자에 대한 차별을 없애기 위해, 애초에 가족과 관련한 민법 용어를 없애거나 바꿔야 한다는 의견도 나오고 있지요.",
+            "turn_id": "BK22017199-9",
+            "utterance_id": "BK22017199.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 아직 개선될 점이 많네요. 관련 뉴스를 더 찾아봐야겠어요.",
+            "turn_id": "BK22017199-10",
+            "utterance_id": "BK22017199.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 그럼 함께 찾아보도록 해요.",
+            "turn_id": "BK22017199-10",
+            "utterance_id": "BK22017199.20"
+        }
+    ]
+}

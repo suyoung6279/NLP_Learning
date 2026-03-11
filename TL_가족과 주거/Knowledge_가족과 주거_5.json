@@ -1,0 +1,394 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012306",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012306",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0011"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시골에 홀로 계신 어머님이 이제는 많이 연로해지셔서 가까운 곳으로 모셔야 할 것 같은데 가족 회의로 결정하는 게 좋을 것 같아.",
+            "turn_id": "BK22012306-1",
+            "utterance_id": "BK22012306.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혼자 생활하시는 게 항상 마음에 걸렸는데 우리 가족들이 모두 일을 해서 집에서 모셔도 돌봐드릴 사람이 없으니 가족들과 가까운 곳으로 오시는 게 좋을 것 같네요.",
+            "turn_id": "BK22012306-1",
+            "utterance_id": "BK22012306.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "회사 동료는 양로원 시설을 알아보라고 하던데 양로원이 어떤 곳인지 알아?",
+            "turn_id": "BK22012306-2",
+            "utterance_id": "BK22012306.3"
+        },
+        {
+            "reference_date": "44704.0",
+            "reference_text": [
+                {
+                    "value": "양로원은 의료나 요양이 아닌 주거를 목적으로 하는 시설이다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "몸이 불편할 경우 도움을 구할 의사나 요양보호사 등이 상주하지 않는다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "종류로는 무료, 실비, 유료 세 가지가 있다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://bravo.etoday.co.kr/view/atc_view.php?varAtcId=13485",
+            "search_query": "양로원",
+            "terminate": false,
+            "text": "양로원은 주거를 주된 목적으로 하는 곳인데 무료, 실비, 유료 세 가지 종류가 있어요. 의료나 요양 시설이 아니다 보니 주거 시설 내에는 아플 때 도움을 구할 의사나 요양보호사 등이 없어요.",
+            "turn_id": "BK22012306-2",
+            "utterance_id": "BK22012306.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요양원에도 여러 종류가 있는지 몰랐네. 무료 양로원은 어떻게 운영되는 곳이야?",
+            "turn_id": "BK22012306-3",
+            "utterance_id": "BK22012306.5"
+        },
+        {
+            "reference_date": "44704.0",
+            "reference_text": [
+                {
+                    "value": "무료와 실비 양로원은 정부의 지원을 받아 운영하며, 경제적으로 어려운 65세 이상 노인들을 대상으로 한다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "노인장기요양등급과 상관없이 입소 가능하고, 한 숙소를 여러 명이 사용한다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "무료 양로원은 무연고자 혹은 기초생활수급권자 노인을 대상으로 정부에서 100% 비용을 지원한다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://bravo.etoday.co.kr/view/atc_view.php?varAtcId=13485",
+            "search_query": "무료 양로원",
+            "terminate": false,
+            "text": "무료 양로원은 연고자가 없거나 기초생활수급을 받는 경제적으로 어려운 65세 이상 노인들을 대상으로 정부에서 모든 비용을 지원받아 운영되는 곳이에요. 노인장기요양등급과 상관없이 입소할 수 있고 한 숙소에서 여러 명이 같이 생활해요.",
+            "turn_id": "BK22012306-3",
+            "utterance_id": "BK22012306.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정부에서 모든 비용을 지원해주면 비용 부담이 없어서 좋겠네. 실비 양로원은 어떤 곳이지?",
+            "turn_id": "BK22012306-4",
+            "utterance_id": "BK22012306.7"
+        },
+        {
+            "reference_date": "44704.0",
+            "reference_text": [
+                {
+                    "value": "실비 양로원은 노인복지법시행규칙 제14조 1항의 2에 따른 실비보호 대상자가 정부에서 지원하는 비용을 뺀 일정 생활비를 부담하고 입소할 수 있다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "비용은 월 48만 원 정도다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://bravo.etoday.co.kr/view/atc_view.php?varAtcId=13485",
+            "search_query": "실비 양로원",
+            "terminate": false,
+            "text": "실비 양로원은 노인복지법시행규칙 14조 1항의 2에 규정되어 있는 실비보호 대상자가 입소할 수 있는 곳이에요. 월 48만원 정도의 생활비를 부담하면 나머지 비용은 정부에서 지원해줘요.",
+            "turn_id": "BK22012306-4",
+            "utterance_id": "BK22012306.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정부에서 일정 비용을 지원해 주는 양로원이 있는지 몰랐네. 유료 양로원은 어떤 곳인지도 궁금해.",
+            "turn_id": "BK22012306-5",
+            "utterance_id": "BK22012306.9"
+        },
+        {
+            "reference_date": "44704.0",
+            "reference_text": [
+                {
+                    "value": "유료 양로원은 실버타운을 말한다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "건강하고 생활에 큰 어려움이 없는 만 60세 이상이 입주한다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "건강진단서와 의사 소견서를 요구하는 곳도 있다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가사 서비스와 식사가 제공되고, 수영장·헬스장·도서관·당구장 등 편의 시설에서 여가 생활을 즐길 수 있다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://bravo.etoday.co.kr/view/atc_view.php?varAtcId=13485",
+            "search_query": "유료 양로원",
+            "terminate": false,
+            "text": "유료 양로원은 실버타운을 의미해요. 건강과 생활에 문제가 없는 만 60세 이상이 거주하는 곳이라서 시설에 따라 건강진단서와 의사 소견서를 요구하기도 해요. 가사 서비스와 식사가 제공되고 여가시간을 보낼 수 있는 수영장, 헬스장, 도서관, 당구장 등 편의시설도 갖춰져 있어요.",
+            "turn_id": "BK22012306-5",
+            "utterance_id": "BK22012306.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "편의시설이 잘 갖춰져 있다는 게 마음에 드네. 요즘에는 도시에서도 요양원이라는 간판이 자주 보이는데 요양원은 어떤 곳이야?",
+            "turn_id": "BK22012306-6",
+            "utterance_id": "BK22012306.11"
+        },
+        {
+            "reference_date": "44704.0",
+            "reference_text": [
+                {
+                    "value": "요양원은 독립적인 생활이 어려운 노인을 요양보호사가 24시간 보조하지만 주사를 놓거나 수술을 하지는 않는다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대부분 의사는 상주하지 않고, 주기적으로 방문해 건강 상태를 점검하는 정도로 관리가 이루어진다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://bravo.etoday.co.kr/view/atc_view.php?varAtcId=13485",
+            "search_query": "요양원",
+            "terminate": false,
+            "text": "요양원은 스스로 일상생활이 어려운 노인들을 대상으로 운영하는 곳이에요. 요양보호사가 24시간 보조하지만, 주사를 놓거나 수술을 하지는 않아요. 대부분 시설에는 의료진이 없고 의사가 주기적으로 방문해서 건강 상태를 점검하는 방식으로 건강 관리가 이뤄져요.",
+            "turn_id": "BK22012306-6",
+            "utterance_id": "BK22012306.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요양원에 입소하려면 노인장기요양보험 등급을 받아야 한다고 들었던 것 같은데 노인장기요양보험 제도는 뭐야?",
+            "turn_id": "BK22012306-7",
+            "utterance_id": "BK22012306.13"
+        },
+        {
+            "reference_date": "44741.0",
+            "reference_text": [
+                {
+                    "value": "노인장기요양보험 제도는 고령이나 노인성 질병 등의 사유로 혼자서 일상생활을 수행하기 어려운 노인 등에게 장기요양급여를 제공해 노후의 건강증진과 삶의 질 향상 돕는 사회보험 제도로 2008년에 도입됐다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kpanews.co.kr/article/show.asp?idx=234226&category=C",
+            "search_query": "노인장기요양보험 제도",
+            "terminate": false,
+            "text": "2008년에 도입된 사회보험 제도인데 고령이거나 노인성 질병이 있어 혼자서는 일상생활이 어려운 노인들의 건강과 삶의 질 향상을 위해서 장기요양급여를 지원해주는 제도예요.",
+            "turn_id": "BK22012306-7",
+            "utterance_id": "BK22012306.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 요양원에 입소할 수 있는 등급 기준은 어떻게 돼?",
+            "turn_id": "BK22012306-8",
+            "utterance_id": "BK22012306.15"
+        },
+        {
+            "reference_date": "44362.0",
+            "reference_text": [
+                {
+                    "value": "노인요양원 입소는 노인장기요양보험 등급판정위원회에서 1~2급을 인정 받아야 입소가 가능하다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "3~5등급자 중에서도 가족 구성원이 돌보기 곤란하거나 주거 환경이 열악한 가정의 경우 특별 사유로 예외적으로 시설 입소가 가능하다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newstomato.com/ReadNews.aspx?no=1051156&inflow=N",
+            "search_query": "요양원 입소",
+            "terminate": false,
+            "text": "노인장기요양보험 등급 판정위원회에서 1급에서 2급을 인정받아야 요양원에 입소할 수 있어요. 3등급에서 5등급이더라도 가족이 돌보기 어려운 상황이거나 주거 환경이 열악한 가정의 경우 특별 사유에 해당돼서 예외적으로 입소할 수 있어요.",
+            "turn_id": "BK22012306-8",
+            "utterance_id": "BK22012306.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "장기요양보험 등급은 어떤 기준으로 나뉘는 거지?",
+            "turn_id": "BK22012306-9",
+            "utterance_id": "BK22012306.17"
+        },
+        {
+            "reference_date": "44362.0",
+            "reference_text": [
+                {
+                    "value": "등급판정은 위원회가 거동이 불편한 65세이상 어르신이나 65세미만 노인성질병(치매, 뇌졸중 등)자를 방문 조사해 장기요양등급을 중증 1급~경증 4급, 치매특별등급 5급을 내린다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newstomato.com/ReadNews.aspx?no=1051156&inflow=N",
+            "search_query": "장기요양보험 등급",
+            "terminate": false,
+            "text": "등급판정위원회에서 거동이 불편한 65세 이상 노인이나 치매나 뇌졸중 등 노인성 질병을 앓고 있는 65세 미만인 노인이 거주하는 곳에 방문해서 등급을 판단해요. 4등급에서 1등급으로 갈수록 중증이고 치매 특별등급인 경우 5등급으로 판단해요.",
+            "turn_id": "BK22012306-9",
+            "utterance_id": "BK22012306.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "병원 중에 요양병원이라는 곳이 따로 있는 걸 봤는데 요양병원은 어떤 시설이지?",
+            "turn_id": "BK22012306-10",
+            "utterance_id": "BK22012306.19"
+        },
+        {
+            "reference_date": "44704.0",
+            "reference_text": [
+                {
+                    "value": "노인장기요양등급을 받지 못했지만 노인성 질환으로 건강이 좋지 않은 사람은 요양원 대신 요양병원에 입원할 수 있다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "빠른 치료와 퇴원이 목적인 대학병원·종합병원 등 급성기 병원과 달리, 요양병원은 만성기 환자를 위한 병원이다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://bravo.etoday.co.kr/view/atc_view.php?varAtcId=13485",
+            "search_query": "요양병원",
+            "terminate": false,
+            "text": "요양병원은 노인장기요양등급을 받지 못했지만, 노인성 질환을 앓고 있는 사람들이 입원 치료를 받는 곳이에요. 일반 대학병원이나 종합병원 등은 빠른 치료와 퇴원이 목적이지만 요양병원은 만성기에 있는 환자를 위한 특수한 병원이에요.",
+            "turn_id": "BK22012306-10",
+            "utterance_id": "BK22012306.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머님은 아직 스스로 일상생활이 가능하시지만, 나중에 거동이 불편하게 될 경우 요양원이나 요양병원에 모시는 게 좋을 것 같네. 일단은 어머님께 의사를 여쭤보고 실비 양로원이나 유료 양로원에 모시는 걸로 결정하자고.",
+            "turn_id": "BK22012306-11",
+            "utterance_id": "BK22012306.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래요, 저도 그렇게 하는 게 좋을 것 같아요.",
+            "turn_id": "BK22012306-11",
+            "utterance_id": "BK22012306.22"
+        }
+    ]
+}

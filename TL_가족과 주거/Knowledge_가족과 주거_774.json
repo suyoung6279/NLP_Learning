@@ -1,0 +1,373 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001909",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001909",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "옛날에는 아기를 낳다가 산모 사망 사고가 많았다고 하잖아요. 지금도 출산은 위험한가요?",
+            "turn_id": "BK22001909-1",
+            "utterance_id": "BK22001909.1"
+        },
+        {
+            "reference_date": "2022-04-28",
+            "reference_text": [
+                {
+                    "value": "현재 한국의 영아 사망률은 점점 줄어드는 추세 속에 OECD 평균보다 낮지만, 모성 사망비는 OECD 평균보다는 높은 수준이어서 모성과 아동의 건강한 삶을 위한 모자보건사업은 여전히 중요하다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.pressian.com/pages/articles/2022042811224718877",
+            "search_query": "산모사망률",
+            "terminate": false,
+            "text": "네, 여전히 출산은 위험해요. 현재 우리나라의 영아 사망률은 점차 줄어들고 있고 OECD 평균보다 낮은 수준이에요. 하지만 모성 사망비는 OECD 평균보다 높은 수준으로 엄마와 아이의 건강한 삶을 위한 모자보건사업이 여전히 중요함을 알 수 있죠.",
+            "turn_id": "BK22001909-1",
+            "utterance_id": "BK22001909.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "의술이 많이 발달해서 출산도 그리 위험하다 느껴지지 않는데 아니었군요. 산모 사망의 원인은 뭔가요?",
+            "turn_id": "BK22001909-2",
+            "utterance_id": "BK22001909.3"
+        },
+        {
+            "reference_date": "2018-04-18",
+            "reference_text": [
+                {
+                    "value": "특히 고혈압과 출혈, 감염 등 세 가지는 산부인과의 심각한 3대 질환이다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "산모의 고혈압성 질환이 산모 사망 원인의 약 16%로 임신과 관련된 사망 중 1위이며, 출혈(13%)이 그 뒤를 잇는다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sporbiz.co.kr/news/articleView.html?idxno=221113",
+            "search_query": "산모 3대 사망 원인",
+            "terminate": false,
+            "text": "산모에게는 고혈압, 출혈, 감염 이 세 가지가 심각한 3대 질환으로 꼽혀요. 산모 사망 원인의 약 16퍼센트로 고혈압성 질환이 가장 많고 그 다음이 약 13퍼센트 정도되는 출혈이에요.",
+            "turn_id": "BK22001909-2",
+            "utterance_id": "BK22001909.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신 중 고혈압에 대해서는 익히 들어 알고 있는데 출혈의 위험도 상당하군요.",
+            "turn_id": "BK22001909-3",
+            "utterance_id": "BK22001909.5"
+        },
+        {
+            "reference_date": "2020-10-07",
+            "reference_text": [
+                {
+                    "value": "산후출혈은 크게 분만 후 24시간 이내에 발생하는 1차성과 24시간~12주 이내에 발생하는 2차성으로 구분할 수 있다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "자궁 또는 산도손상, 자궁수축부전, 잔류태반, 혈액응고장애가 대표적인 원인이다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hkn24.com/news/articleView.html?idxno=314471",
+            "search_query": "산후출혈",
+            "terminate": false,
+            "text": "산후출혈은 출산 후 24시간 안에 발생하는 1차성이 있고 24시간 이후부터 12주 안에 생기는 2차성으로 구분돼요. 자궁, 산도손상, 자궁수축부전, 잔류태반, 혈액응고장애가 대표적인 원인으로 꼽히고 있고요.",
+            "turn_id": "BK22001909-3",
+            "utterance_id": "BK22001909.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산후출혈이 발생한다 해서 모두 사망하는건 아니겠죠?",
+            "turn_id": "BK22001909-4",
+            "utterance_id": "BK22001909.7"
+        },
+        {
+            "reference_date": "2020-11-04",
+            "reference_text": [
+                {
+                    "value": "지난 10년간 (2009년~2018년)의 모성사망자수는 연평균 49.8명으로 그 중 20~30%는 산후출혈이 사망 원인이다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/it/view/2020/11/1130760/",
+            "search_query": "산후출혈 사망률",
+            "terminate": false,
+            "text": "네, 모두 사망하는 것은 아니지만 위험해요. 2009년에서 2018년까지의 산모 사망 숫자는 연평균 49.8명이었어요. 이 중 20퍼센트에서 30퍼센트는 산후출혈이 원인이죠.",
+            "turn_id": "BK22001909-4",
+            "utterance_id": "BK22001909.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 많은 비중을 차지 하네요. 만약 산후출혈이 발생하면 어떤 처치를 받게 되나요?",
+            "turn_id": "BK22001909-5",
+            "utterance_id": "BK22001909.9"
+        },
+        {
+            "reference_date": "2020-10-11",
+            "reference_text": [
+                {
+                    "value": "산후출혈은 분만 후 겪을 수 있는 응급상황으로 가장 먼저 혈압, 맥박, 산소포화도 등을 파악해야 한다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이후, 정확한 출혈 원인을 파악하기 위해 대표적인 4가지 발생원인 (자궁수축부전, 자궁 또는 산도손상, 태반관련, 혈액응고장애)에 대한 검진을 전문 의료진이 신속히 진행해야 한다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만약 원인에 대한 처지에도 산후출혈이 멈추지 않을 경우, 시술 혹은 수술을 고려해봐야 한다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01187366625931936&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "산후출혈 치료",
+            "terminate": false,
+            "text": "산후출혈이 발생하면 가장 먼저 혈압과 맥박, 산소포화도를 파악해요. 그 다음 출혈 원인을 정확하게 찾기위해 산후출혈의 대표적인 4가지 원인인 자궁수축부전, 자궁 또는 산도손상, 태반관련, 혈액응고장애에 대해서 전문 의료진이 검진을 하게되죠. 원인을 찾아 처치를 했는데도 멈추지 않는다면 시술이나 수술적 치료를 고려할 수 있어요.",
+            "turn_id": "BK22001909-5",
+            "utterance_id": "BK22001909.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "메뉴얼이 잘 만들어져있어서 다행인 것 같아요. 산모사망에 대해 이야기가 나오면 양수색전증도 많이 거론되는데 이건 산후출혈과 다른건가요?",
+            "turn_id": "BK22001909-6",
+            "utterance_id": "BK22001909.11"
+        },
+        {
+            "reference_date": "2017-01-23",
+            "reference_text": [
+                {
+                    "value": "양수색전증은 분만 중이나 직후에 산모의 자궁 혈관이 터지면서 그 혈관으로 양수가 들어가 혈관을 막으면서 발생하는 질병이다",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 과정에서 산모는 대량으로 출혈을 하게 되는데 이로 인해 호흡곤란이나 경련, 심폐정지 등의 증상이 나타나고, 심한 경우에는 위 사례처럼 산모나 신생아가 사망하기도 한다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "산부인과학회는 양수색전증의 산모 사망률이 약 60%라고 밝힌 바 있다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=47316",
+            "search_query": "양수색전증 원인",
+            "terminate": false,
+            "text": "양수색전증도 대량의 출혈을 발생시키지만 원인이 달라요. 출산 중이거나 직후에 자궁 혈관이 터지면서 그 혈관으로 양수가 흘러 들어가 혈관을 막으면서 생기는 질병이에요. 이 과정에서 대량의 출혈이 생기고 호흡곤란, 경련, 심폐정지 등의 증상이 나타날 수 있어요. 심한 경우 산모와 신생아가 사망하기도 하는 무서운 병이죠. 산부인과학회에서는 양수색전증으로 인한 산모 사망률이 약 60퍼센트라고 밝힌 바 있어요.",
+            "turn_id": "BK22001909-6",
+            "utterance_id": "BK22001909.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 무서운 병이네요. 양수색전증도 빨리 발견하면 살 수 있나요?",
+            "turn_id": "BK22001909-7",
+            "utterance_id": "BK22001909.13"
+        },
+        {
+            "reference_date": "2017-01-23",
+            "reference_text": [
+                {
+                    "value": "이 같은 양수색전증은 초동대처가 중요하다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "즉 분만 중 양수색전증이 발생했다면 골든타임안에 의사의 빠른 대처가 필요한 것이다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만약 산모에게서 양수색전증이 나타나면 출혈로 인해 심장 활동이 위축되어 곧 위험한 상태에 빠지기 때문에, 의사는 빠르게 심폐기능을 회복시켜야 한다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=47316",
+            "search_query": "양수색전증 빨리 발견",
+            "terminate": false,
+            "text": "맞아요. 양수색전증은 초동대처가 중요해요. 분만 중 양수색전증이 발병했다면 골든타임안에 의사가 판단하고 빠르게 대처해야 하죠. 출혈때문에 심장 활동이 위축되면서 위험한 상태에 빠질 수 있기때문에 의사는 빠르게 심폐기능을 회복하는데 집중할거에요.",
+            "turn_id": "BK22001909-7",
+            "utterance_id": "BK22001909.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "빠른 대처가 생존율을 높이는거네요. 양수색전증을 특별히 조심해야하는 임산부들이 있을까요?",
+            "turn_id": "BK22001909-8",
+            "utterance_id": "BK22001909.15"
+        },
+        {
+            "reference_date": "2022-02-28",
+            "reference_text": [
+                {
+                    "value": "발생 위험 인자로는 35세 이상 산모, 제왕절개분만, 흡입 분만, 전치태반 및 태반조기박리, 임신중독증, 양수과다증, 자궁경부열상, 자궁파열, 태아곤란증 등이 있다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202202284777o",
+            "search_query": "양수색전증 위험 인자",
+            "terminate": false,
+            "text": "몇 가지 위험 요인들이 있어요. 35세 이상의 산모, 제왕절개, 흡입 분만, 전치태반이나 태반조기박리, 임신중독증, 양수과다증, 자궁경부열상, 자궁파열, 태아곤란증 등이 있어요.",
+            "turn_id": "BK22001909-8",
+            "utterance_id": "BK22001909.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고려해야하는 부분들이 많네요. 만약 양수색전증이 생겼고 사망을 피한다면 합병증의 위험은 없나요?",
+            "turn_id": "BK22001909-9",
+            "utterance_id": "BK22001909.17"
+        },
+        {
+            "reference_date": "2017-02-28",
+            "reference_text": [
+                {
+                    "value": "양수색전증은 산모와 태아에 모두 치명적이다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사망률이 양쪽에서 높게 나타나며, 생명을 건져도 예후가 좋지 않은 경우가 많다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newspim.com/news/view/20170105000386",
+            "search_query": "양수색전증 예후",
+            "terminate": false,
+            "text": "양수색전증은 산모, 태아 모두에게 치명적이고 사망률도 높아요. 게다가 생명을 잃지 않더라도 예후가 안좋은 경우가 많아요.",
+            "turn_id": "BK22001909-9",
+            "utterance_id": "BK22001909.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내가 조심한다고해서 되는 일이 아니니 더 무서운 것 같아요.",
+            "turn_id": "BK22001909-10",
+            "utterance_id": "BK22001909.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 그러니 응급상황에 잘 대처할 수 있는 병원을 찾아 검진 받고 출산을 준비하는 것이 좋아요.",
+            "turn_id": "BK22001909-10",
+            "utterance_id": "BK22001909.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "모든 엄마들이 이런 두려움을 이겨내고 출산을 하는 거겠죠? 저도 긍정적인 마음으로 지내야겠어요. 다음에 또 만나요.",
+            "turn_id": "BK22001909-11",
+            "utterance_id": "BK22001909.21"
+        }
+    ]
+}

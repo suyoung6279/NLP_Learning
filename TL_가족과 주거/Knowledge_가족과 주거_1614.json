@@ -1,0 +1,396 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011848",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011848",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0030"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 지금 바쁘세요? 저랑 잠깐 이야기 나눌 시간 있으신지 해서요.",
+            "turn_id": "BK22011848-1",
+            "utterance_id": "BK22011848.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이제 막 급한 일은 마무리한 참이에요. 괜찮으니 편하게 말씀하세요.",
+            "turn_id": "BK22011848-1",
+            "utterance_id": "BK22011848.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 이사할 집을 알아보고 있는데 단지마다 난방 방식이 달라서 어떤 게 좋을지 고민이 되어서요. 여기는 좀 연식이 오래된 곳인데 중앙난방이라고 하네요. 중앙난방은 어떤 방식인가요?",
+            "turn_id": "BK22011848-2",
+            "utterance_id": "BK22011848.3"
+        },
+        {
+            "reference_date": "2021-02-06",
+            "reference_text": [
+                {
+                    "value": "먼저 중앙난방은 주로 과거에 지어진 아파트 등에서 많이 사용했으며, 단지 안에 커다란 굴뚝이 있는 것이 특징입니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "공동주택 단지 내에 중앙보일러실이나 개별 동의 지하실 등에 설치된 대형 보일러를 가동해 각 가정으로 난방을 공급하는 방식으로 아파트 및 대규모 건물 등에서 사용하고 있습니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01256246628947896&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "중앙난방",
+            "terminate": false,
+            "text": "중앙난방은 대체로 예전에 건축된 아파트에서 주로 사용하는 방식으로 중앙난방을 하는 단지는 단지 내에 큰 굴뚝이 있어요. 공동주택 단지 안에 위치한 중앙 보일러실이나 각 동의 지하실 등지에 놓인 대형 보일러를 작동시켜 개별 가정에 공급해 주는 난방 방식이죠. 중앙난방은 대개 아파트나 규모가 큰 건물에서 사용해요.",
+            "turn_id": "BK22011848-2",
+            "utterance_id": "BK22011848.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "구축 아파트라 중앙난방을 사용하는 것이군요. 중앙난방의 특징이나 장단점이 뭔지 궁금하네요.",
+            "turn_id": "BK22011848-3",
+            "utterance_id": "BK22011848.5"
+        },
+        {
+            "reference_date": "2022-09-24",
+            "reference_text": [
+                {
+                    "value": "중앙난방은 개별난방 방식에 대비 관리 비용이 저렴합니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 개인이 관리할 필요가 없습니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 파이프를 통해 온수가 전달되는 방식으로 일부 열 손실이 일어날 수 있습니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "최근에는 사용 빈도가 감소하고 있습니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20220923_0002024185&cID=10401&pID=10400",
+            "search_query": "중앙난방 장단점",
+            "terminate": false,
+            "text": "중앙난방은 관리 비용이 개별난방 방식보다 저렴하고 개인적으로 관리할 필요가 없다는 장점이 있어요. 그렇지만 온수를 파이프를 통해 전달하는 방식을 사용하므로 열의 일부가 손실될 가능성이 있는 것이 중앙난방의 단점이죠. 요즘에는 중앙난방을 사용하는 비율이 줄어드는 추세랍니다.",
+            "turn_id": "BK22011848-3",
+            "utterance_id": "BK22011848.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 제가 알아본 또 다른 단지는 비교적 신축인데 지역난방이에요. 지역난방은 어떤 식으로 난방을 하는 것인가요?",
+            "turn_id": "BK22011848-4",
+            "utterance_id": "BK22011848.7"
+        },
+        {
+            "reference_date": "2022-09-24",
+            "reference_text": [
+                {
+                    "value": "지역난방은 지역발전소에서 아파트 단지로 중온수를 통해 열을 공급하는 방식입니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "최근에 건설되는 공동주택에 많이 도입되고 있습니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대규모 지역발전소에서 아파트 기계실로 뜨겁게 가열된 중온수를 보냅니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이후 아파트에 설치된 열교환기를 통해 각 가정에 온수와 난방을 공급합니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20220923_0002024185&cID=10401&pID=10400",
+            "search_query": "지역난방",
+            "terminate": false,
+            "text": "지역난방은 근래에 지어진 공동주택에 폭넓게 사용되고 있는 방식으로 중온수를 이용해 지역발전소에서 아파트 단지에 열을 대주는 방식이에요. 커다란 지역발전소에서 뜨겁게 가열된 중온수를 아파트의 기계실로 보내면 아파트에 있는 열 교환기를 이용해 개별 가정으로 전달하여 온수와 난방에 사용하는 것이죠.",
+            "turn_id": "BK22011848-4",
+            "utterance_id": "BK22011848.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 지역발전소에서 열을 보내 주기 때문에 지역난방이라고 부르나 보네요. 지역난방의 장단점은 무엇인가요?",
+            "turn_id": "BK22011848-5",
+            "utterance_id": "BK22011848.9"
+        },
+        {
+            "reference_date": "2021-02-06",
+            "reference_text": [
+                {
+                    "value": "난방과 관계없이 24시간 온수를 사용할 수 있고, 각 가정에서 따로 유지·관리할 필요가 없으며 난방비도 저렴한 게 장점입니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "요즘 지어진 지역난방 공동주택은 각 방마다 온도조절기가 설치돼 있어 난방비를 줄이는 데 도움이 됩니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 단점으로는 발전소에서 보내주는 온도 이상으로 난방을 끌어올릴 수 없어 추위를 많이 느끼는 개인은 생각만큼 따뜻하지 않을 수 있습니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이에 보조 난방 기구가 필요해 별도의 비용이 발생하게 됩니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01256246628947896&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "지역난방 장단점",
+            "terminate": false,
+            "text": "먼저 지역난방의 장점을 말씀드릴게요. 난방 여부와 상관없이 온수를 24시간 쓸 수 있고 개별 가정에서 별도로 유지와 관리에 신경 쓰지 않아도 되며 난방비도 저렴해요. 그리고 최근 건설된 지역난방을 사용하는 공동주택의 경우 온도 조절기가 방마다 설치되어 있기 때문에 난방비 절약에도 효과적이고요. 다음으로 단점을 알려 드리자면 발전소에서 보내는 온도보다 높은 온도로 난방을 사용할 수 없어서 추위를 많이 타는 사람이라면 그다지 따뜻하지 않다고 느낄 수 있기 때문에 별도의 보조 난방 기구의 사용이 필요하게 되어 추가적인 비용 부담이 있을 수 있어요.",
+            "turn_id": "BK22011848-5",
+            "utterance_id": "BK22011848.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 추위를 많이 타는 편이라 지역난방은 조금 꺼려지기도 하네요. 그리고 또 다른 단지는 개별 난방이라고 표시되어 있던데 개별 난방은 어떤 방식인가요?",
+            "turn_id": "BK22011848-6",
+            "utterance_id": "BK22011848.11"
+        },
+        {
+            "reference_date": "2022-09-24",
+            "reference_text": [
+                {
+                    "value": "개별난방은 각 주택마다 설치된 보일러를 통해 난방을 하는 방식입니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "난방 온도를 자유롭게 조정할 수 있고, 난방비도 사용한 만큼 부과됩니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "여름에도 필요한 온도로 난방이 가능합니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20220923_0002024185&cID=10401&pID=10400",
+            "search_query": "개별난방",
+            "terminate": false,
+            "text": "개별 난방은 개별 주택에 각각 설치된 보일러를 이용해 난방하는 방식으로 자유롭게 난방 온도를 설정할 수 있고 사용한 만큼 난방비가 나와요. 개별 난방이라면 필요할 경우 여름에도 원하는 온도로 난방을 할 수 있어요.",
+            "turn_id": "BK22011848-6",
+            "utterance_id": "BK22011848.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가끔 여름에도 장마철에는 난방이 필요한 경우가 있는데 그럴 때는 개별 난방이 편리하겠어요. 그럼 개별 난방의 단점은 무엇인가요?",
+            "turn_id": "BK22011848-7",
+            "utterance_id": "BK22011848.13"
+        },
+        {
+            "reference_date": "2021-02-06",
+            "reference_text": [
+                {
+                    "value": "그러나 세대에서 직접 유지ㆍ관리해야 하므로 고장·수리에 따른 비용이 발생할 수 있으며, 보일러가 가동될 때 소음, 진동 등이 발생할 수 있어 유의해야 합니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 배출가스 배관이 잘못된 경우 일산화탄소 중독을 일으킬 수 있어 조심해야 합니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이를 방지하기 위해 보일러실 등에 일산화탄소 감지기를 설치하고 수시로 배관 점검 등이 필요합니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01256246628947896&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "개별난방 단점",
+            "terminate": false,
+            "text": "개별 난방은 각 세대에서 직접 유지, 관리를 할 필요가 있기 때문에 보일러가 고장 날 경우 수리 비용이 들 수 있어요. 그리고 보일러가 작동할 때 소음이나 진동이 생길 수 있고요. 개별 난방을 사용할 때 무엇보다 신경 써야 할 부분은 배출가스 배관이 망가질 경우 일산화탄소 중독의 위험이 있으므로 일산화탄소 감지기를 보일러실 등에 설치하고 자주 배관 점검을 해야 한다는 점이에요.",
+            "turn_id": "BK22011848-7",
+            "utterance_id": "BK22011848.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "개인이 신경 써야 할 부분이 많은 방식이군요. 제가 제일 마음에 드는 단지가 개별 난방을 하는 단지라서 더 자세히 알고 싶은데 개별 난방을 사용할 때 알아 두면 좋은 팁 같은 건 없나요?",
+            "turn_id": "BK22011848-8",
+            "utterance_id": "BK22011848.15"
+        },
+        {
+            "reference_date": "2021-02-06",
+            "reference_text": [
+                {
+                    "value": "이밖에 개별난방 방식을 이용할 경우, 평소에 수도꼭지를 온수 위치에 놓고 사용하게 되면 무심코 물을 틀었을 때 보일러가 가동됩니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보일러는 설정돼 있는 온도 만큼 보일러의 물 전체를 덥히기 위해 가동되므로 가스비가 발생하게 됩니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 온수로 세수 또는 샤워를 하고 난 후에는 꼭 수도꼭지를 온수가 아닌 냉수 방향으로 돌려놓은 것이 난방비 절약의 지혜라 할 수 있습니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01256246628947896&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "개별난방 난방비 절약",
+            "terminate": false,
+            "text": "그럼 개별 난방을 사용할 때 난방비를 줄일 수 있는 방법을 알려 드릴게요. 따뜻한 물로 세수나 샤워를 한 다음에 반드시 수도꼭지를 온수 쪽이 아닌 냉수 쪽으로 맞춰 놓으세요. 평상시에 온수 쪽으로 수도꼭지를 돌려놓으면 무심코 수돗물을 틀었을 때 보일러가 설정 온도에 맞춰 모든 물을 데우기 위해 가동되면서 가스비가 발생하게 되거든요.",
+            "turn_id": "BK22011848-8",
+            "utterance_id": "BK22011848.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 간단하면서도 유용한 팁이네요. 꼭 기억해 둘게요. 제가 추위를 많이 타니 항상 난방비가 걱정인데 혹시 난방비를 조금이라도 절약할 수 있는 방법이 또 있을까요?",
+            "turn_id": "BK22011848-9",
+            "utterance_id": "BK22011848.17"
+        },
+        {
+            "reference_date": "2021-02-06",
+            "reference_text": [
+                {
+                    "value": "이와 더불어 바닥 마감재에 따라 난방비가 차이날 수 있기 때문에 카페트, 깔개 등을 덮어두는 것도 좋습니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 집을 살 때는 공동주택의 1층 및 최상층에 위치한 세대의 경우 열 손실로 인해 난방비가 많이 발생할 수 있다는 점을 알아둬야 합니다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01256246628947896&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "난방비 절약",
+            "terminate": false,
+            "text": "난방비는 바닥 마감재가 무엇이냐에 따라 달라질 수 있어요. 따라서 바닥에 카페트나 깔개 등을 깔아 놓으면 도움이 되죠. 그리고 공동주택의 1층 혹은 꼭대기에 위치한 세대는 열 손실 때문에 난방비가 많이 나올 수 있으니 집을 구할 때 이 점도 참고해 주세요.",
+            "turn_id": "BK22011848-9",
+            "utterance_id": "BK22011848.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 자세히 설명해 주셔서 감사해요. 정말 큰 도움이 되었어요.",
+            "turn_id": "BK22011848-10",
+            "utterance_id": "BK22011848.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 기쁘네요. 혹시 더 궁금한 게 있으면 언제든 물어보세요.",
+            "turn_id": "BK22011848-10",
+            "utterance_id": "BK22011848.20"
+        }
+    ]
+}

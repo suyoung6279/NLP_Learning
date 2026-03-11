@@ -1,0 +1,374 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22000983",
+        "name": "2022 한국어 블렌더봇 데이터 BK22000983",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금 살고 있는 집이 재개발하기로 해서 집을 이사하게 되었어요.",
+            "turn_id": "BK22000983-1",
+            "utterance_id": "BK22000983.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러시구나, 준비하실 것이 많으시겠네요. 이사 할 곳은 정하셨어요?",
+            "turn_id": "BK22000983-1",
+            "utterance_id": "BK22000983.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이사는 지금 집 근처 아파트로 정했는데 이사업체 부터 알아봐야겠지요?",
+            "turn_id": "BK22000983-2",
+            "utterance_id": "BK22000983.3"
+        },
+        {
+            "reference_date": "2020-03-12",
+            "reference_text": [
+                {
+                    "value": "포장이사란 짐을 싸는 것 부터 시작해 짐 풀기, 운송, 청소까지 업체에 모두 맡기는 것이다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "반포장이사는 큰 짐은 업체에 맡기고 작은 짐은 고객이 직접 포장하는 이사 방식이다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "한편 일반이사는 업체에 맡기지 않고 본인이 직접 짐을 싸고 정리까지 맡기는 방법이다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=256595",
+            "search_query": "이사업체선택",
+            "terminate": false,
+            "text": "이사 날짜를 정하신 후에 이사 방법을 결정하셔야 합니다. 짐을 싸고, 풀고, 운송을 업체에 맡기는 포장이사와 큰짐은 업체에 맡기고 작은 짐은 직접 포장하시는 반포장이사, 운송만 업체에 맡기는 일반이사 중에 정하시면 됩니다.",
+            "turn_id": "BK22000983-2",
+            "utterance_id": "BK22000983.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희는 짐도 많고 시간이 없어서 포장이사업체로 정해야 되겠네요.",
+            "turn_id": "BK22000983-3",
+            "utterance_id": "BK22000983.5"
+        },
+        {
+            "reference_date": "2022-04-15",
+            "reference_text": [
+                {
+                    "value": "허가받은 이사업체는 허가 기준에 따라 500만원 이상의 피해배상 이행보증보험에 가입하고 있어 이삿짐피해가 발생했을 때 배상을 받기가 쉽지만, 무허가 업체의 경우 사업자의 사업규모, 서비스의 질적 차이를 떠나 이삿짐의 파손, 분실, 도난 등의 피해발생 시 그 책임 소재를 규명하기 어려워 피해보상을 받기 어려울 수 있기 때문입니다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=666&ccfNo=3&cciNo=2&cnpClsNo=1",
+            "search_query": "이사",
+            "terminate": false,
+            "text": "이사업체를 정하실 때에는 허가받은 이사업체로 하셔야 합니다. 이삿짐의 파손, 분실, 도난 등의 피해 발생 시 허가받은 업체인 경우 피해배상 이행보증보험에 가입하고 있어서 배상을 받기 쉽지만, 무허가 업체의 경우에는 그 책임 소재를 규명하기 어려워 피해보상을 받기 어려울 수 있기 때문입니다.",
+            "turn_id": "BK22000983-3",
+            "utterance_id": "BK22000983.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그럼 허가받은 이사업체인지 어떻게 알 수 있나요?",
+            "turn_id": "BK22000983-4",
+            "utterance_id": "BK22000983.7"
+        },
+        {
+            "reference_date": "2016-09-05",
+            "reference_text": [
+                {
+                    "value": "* 허가업체는 전국화물자동차운송주선사업연합회에서 운영하는 사이트(www.허가이사.org)나 모바일 앱(‘이사 허가업체 검색’), 또는 해당업체 소재지 관할관청을 통해 확인 가능",
+                    "value_time": "2022-06-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kca.go.kr/home/sub.do?menukey=4005&mode=view&no=1001925679",
+            "search_query": "허가이사업체",
+            "terminate": false,
+            "text": "허가업체인지는 전국화물자동차 운송주선사업연합회에서 운영하는 사이트나 모바일앱, 이사업체 소재지의 관할관청을 통해 확인하실 수 있습니다. 번거로우시더라도 꼭 확인하세요.",
+            "turn_id": "BK22000983-4",
+            "utterance_id": "BK22000983.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이사업체와도 계약서를 작성해야 하나요?",
+            "turn_id": "BK22000983-5",
+            "utterance_id": "BK22000983.9"
+        },
+        {
+            "reference_date": "2022-06-08",
+            "reference_text": [
+                {
+                    "value": "이사업체를 정한 후에는 이삿짐 입출고 조건, 이삿짐 종류, 계약금 및 운임, 취급시 주의사항 등의계약내용을 기재해 계약서를 작성하고 보관해야합니다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "계약서를 작성하면 나중에 계약조건 변경이나 계약불이행으로 인한 분쟁이 일어났을 때 책임소재를 분명하게 할 수 있습니다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=60288",
+            "search_query": "이사계약서",
+            "terminate": false,
+            "text": "꼭 계약서를 작성하세요. 이삿짐 입출고 조건, 이삿짐 종류, 운임, 주의사항 등을 세세히 적어 작성하고 보관해야 혹시 모를 분쟁에 책임소재를 분명하게 할 수 있습니다.",
+            "turn_id": "BK22000983-5",
+            "utterance_id": "BK22000983.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이사 업체 선정 후에는 무엇을 준비해야 할까요?",
+            "turn_id": "BK22000983-6",
+            "utterance_id": "BK22000983.11"
+        },
+        {
+            "reference_date": "2022-04-15",
+            "reference_text": [
+                {
+                    "value": "고층아파트로 이사하는 경우 관리사무소에 곤도라 또는 엘리베이터 이용을 예약합니다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=666&ccfNo=3&cciNo=1&cnpClsNo=1#copyAddress&search_put=",
+            "search_query": "이사하기",
+            "terminate": false,
+            "text": "혹시 이사하는 곳이 고층 아파트라면 관리사무소에 곤도라나 엘리베이터 이용을 예약해야 하는지 알아보세요.",
+            "turn_id": "BK22000983-6",
+            "utterance_id": "BK22000983.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이사하는 곳이 고층 아파트인데 관리사무소에 알아봐야겠네요.",
+            "turn_id": "BK22000983-7",
+            "utterance_id": "BK22000983.13"
+        },
+        {
+            "reference_date": "2022-04-15",
+            "reference_text": [
+                {
+                    "value": "이사 갈 집의 전압 콘센트 위치, 방 크기, 창문위치 조사합니다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가구배치도를 작성합니다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=666&ccfNo=3&cciNo=1&cnpClsNo=1#copyAddress&search_put=",
+            "search_query": "이사시 할 일",
+            "terminate": false,
+            "text": "그리고, 이사하실 집의 콘센트 위치, 방 크기, 창문 위치를 고려해서 가구배치도를 미리 작성해 놓으시면 이사 당일 훨씬 수월하게 이사하실 수 있답니다.",
+            "turn_id": "BK22000983-7",
+            "utterance_id": "BK22000983.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이사 후에 해야 할 것들을 알려주세요.",
+            "turn_id": "BK22000983-8",
+            "utterance_id": "BK22000983.15"
+        },
+        {
+            "reference_date": "2022-04-15",
+            "reference_text": [
+                {
+                    "value": "다음의 신고의무자는 새로운 거주지로 이사한 날부터 14일 이내에 새로운 거주지의 읍사무소, 면사무소, 동 주민센터에 방문하거나 <정부24 홈페이지( http://www.gov.kr )>에 접속하여 전입신고를 해야 합니다(규제「주민등록법」 제16조제1항, 제11조 및 제12조).",
+                    "value_time": "2022-06-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "정당한 사유 없이 전입신고를 14일 이내에 하지 않은 경우 5만원 이하의 과태료가 부과됩니다(규제「주민등록법」 제40조제4항).",
+                    "value_time": "2022-06-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=666&ccfNo=4&cciNo=1&cnpClsNo=1",
+            "search_query": "전입신고",
+            "terminate": false,
+            "text": "이사한 날부터 14일 이내에 새로운 거주지의 주민센터에 방문하시거나 인터넷에 접속하셔서 전입 신고를 하시면 됩니다. 기간 내에 신고하지 않으면 5만원 이하의 과태료가 부과되니 꼭 신고하세요.",
+            "turn_id": "BK22000983-8",
+            "utterance_id": "BK22000983.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인터넷으로 간단하게 전입 신고를 할 수 있군요.",
+            "turn_id": "BK22000983-9",
+            "utterance_id": "BK22000983.17"
+        },
+        {
+            "reference_date": "2020-12-28",
+            "reference_text": [
+                {
+                    "value": "이사할 집으로 올 택배를 위해 우편물 주소를 변경해야 한다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그렇지 않으면 새로운 집주인이 택배를 받을 수 있는 난감한 일이 생길 수 있으니 유의하는 것이 좋다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우체국 홈페이지 '주거이전서비스'를 클릭해 신청하면 된다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=48317",
+            "search_query": "이사 우편물",
+            "terminate": false,
+            "text": "네. 그리고 이사할 집으로 우편물 주소를 변경하셔야 이사 전 집으로 우편물이 가는 난감한 상황을 막을 수 있어요. 우체국 홈페이지의 주거이전서비스를 이용하시면 됩니다.",
+            "turn_id": "BK22000983-9",
+            "utterance_id": "BK22000983.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이것저것 준비할 것이 많네요.",
+            "turn_id": "BK22000983-10",
+            "utterance_id": "BK22000983.19"
+        },
+        {
+            "reference_date": "2017-11-27",
+            "reference_text": [
+                {
+                    "value": "이사 체크리스트는 이사 전 해야 할 일과 일정을 정리함으로써, 경제적이고 효과적으로 이사를 준비할 수 있다는 장점이 있다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=1927119&cid=42279&categoryId=42279",
+            "search_query": "이사체크리스트",
+            "terminate": false,
+            "text": "네. 일정별로 이사 전과 후에 해야 할 일을 일정별로 정리하여 이사 체크리스트를 만들어서 준비하시면 빠짐없이 준비하실 수 있어요.",
+            "turn_id": "BK22000983-10",
+            "utterance_id": "BK22000983.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이사체크리스트 오늘 바로 만들어서 꼼꼼히 준비해야겠네요.",
+            "turn_id": "BK22000983-11",
+            "utterance_id": "BK22000983.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네. 준비 잘하셔서 이사 잘하시고 언제든 궁금한 것 있으시면 문의주세요.",
+            "turn_id": "BK22000983-11",
+            "utterance_id": "BK22000983.22"
+        }
+    ]
+}

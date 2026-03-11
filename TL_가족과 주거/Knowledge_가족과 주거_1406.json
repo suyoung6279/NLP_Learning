@@ -1,0 +1,408 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009228",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009228",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너 강아지 관련해서 잘 아는 편이지? 내가 반려견 입양을 앞두고 몇 가지 궁금한 게 있는데 좀 물어봐도 돼?",
+            "turn_id": "BK22009228-1",
+            "utterance_id": "BK22009228.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그거야 뭐, 어려운 것도 아닌데 당연하지. 뭐가 궁금한데?",
+            "turn_id": "BK22009228-1",
+            "utterance_id": "BK22009228.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지 목욕 말이야, 며칠에 한 번 시켜줘야 해? 사람들마다 말이 다르던데.",
+            "turn_id": "BK22009228-2",
+            "utterance_id": "BK22009228.3"
+        },
+        {
+            "reference_date": "2015-12-28",
+            "reference_text": [
+                {
+                    "value": "그리고 대개 1주일 혹은 열흘에 1회를 적당하다고 하는 애견숍이나 동물병원들도 많다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "피부재생주기에 따르면 이처럼 주기를 다소 오래 가져가는 것이 바람직하다는 권고다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "황철용 서울대 수의대 피부과 교수는 \"동물병원에서 피부질환 치료를 할 때 3주로 치료기간을 잡는 것 역시 이 피부재생주기와 관련이 있다\"며 \"개의 경우 피부가 건강한 상태라면 3, 4주가 가장 건강한 목욕주기\"라고 말했다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.notepet.co.kr/news/article/article_view/?idx=2938",
+            "search_query": "반려견 목욕 주기",
+            "terminate": false,
+            "text": "애견숍이나 동물 병원에서는 보통 1주일이나 열흘에 한 번 시키는 게 적당하다고 말하는데 사실은 이것보다 주기를 길게 가져가는 게 좋아. 피부 재생주기 때문인데, 황철용 서울대 수의대 피부과 교수에 따르면 피부가 건강한 개의 경우 3, 4주에 한 번 목욕을 시키는 게 가장 바람직해.",
+            "turn_id": "BK22009228-2",
+            "utterance_id": "BK22009228.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내 생각보다 주기가 훨씬 길다. 난 일주일에 한 번 정도가 아닐까 짐작하고 있었는데. 근데 강아지 피부 재생주기가 어떤데 이 정도가 적당하다는 거야?",
+            "turn_id": "BK22009228-3",
+            "utterance_id": "BK22009228.5"
+        },
+        {
+            "reference_date": "2015-12-28",
+            "reference_text": [
+                {
+                    "value": "개의 피부재생주기는 22일, 대략 3주다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "피부세포가 각질로 떨어져 나가는 데 22일이 걸린다는 이야기다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "3~4주에 1회 할 경우 건강한 피부세포가 버티고 있는 상황에서 각질을 제거하는 것이어서 최적이라는 평가다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.notepet.co.kr/news/article/article_view/?idx=2938",
+            "search_query": "강아지 피부 재생 주기",
+            "terminate": false,
+            "text": "강아지의 피부 재생주기는 22일이야. 이 말이 무슨 뜻이냐면 피부세포가 각질이 돼서 떨어져 나가는 데 걸리는 시간이 22일이라는 거야. 대략 3주 정도의 주기를 가지고 있는 거지. 그러니 3, 4주에 한 번씩 목욕을 시켜줘야 건강한 피부세포가 있을 때 각질을 없애주는 게 돼서 좋은 거지.",
+            "turn_id": "BK22009228-3",
+            "utterance_id": "BK22009228.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 거구나. 근데 여름에는 강아지도 몸이 찝찝할 것 같은데 목욕을 더 자주 시키면 안 되는 거야?",
+            "turn_id": "BK22009228-4",
+            "utterance_id": "BK22009228.7"
+        },
+        {
+            "reference_date": "2021-06-16",
+            "reference_text": [
+                {
+                    "value": "활동량이 많아지는 여름이라 해도 10일에 1회 정도 목욕하는 것이 좋다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "잦은 목욕은 오히려 피부에 해롭다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ikunkang.com/news/articleView.html?idxno=33912",
+            "search_query": "강아지 여름 목욕 주기",
+            "terminate": false,
+            "text": "여름에는 활동량이 증가하기 때문에 이보다 목욕 주기를 더 짧게 가져가는 것도 괜찮아. 단, 목욕을 너무 자주 하게 되면 피부에 오히려 악영향을 끼치기 때문에 주기를 열흘보다 더 짧게 가져가는 건 좋지 않아.",
+            "turn_id": "BK22009228-4",
+            "utterance_id": "BK22009228.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여름에도 목욕을 자주 시키면 안 되는 거구나. 강아지는 사람하고는 피부가 다른가 보다. 어떤 점이 다른 거지?",
+            "turn_id": "BK22009228-5",
+            "utterance_id": "BK22009228.9"
+        },
+        {
+            "reference_date": "2020-03-20",
+            "reference_text": [
+                {
+                    "value": "pH 4.5~6가량으로 산성을 띠고 있는 사람의 피부와는 다르게 강아지의 피부는 중성에 가까운 알칼리성이고 부위마다 조금씩 차이가 난다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "예를 들면 머리와 얼굴 전면, 몸통 쪽은 약알칼리성인 반면 귀, 지간 부위는 약산성을 띤다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "세균은 산성 환경에서 잘 증식하지 못하는데, 강아지의 피부는 알칼리성을 띠고 있으니 세균의 감염이 더 잘 일어날 수 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 강아지의 각질층을 사람의 절반 정도로 얇다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.e2news.com/news/articleView.html?idxno=220851",
+            "search_query": "강아지 피부 특성",
+            "terminate": false,
+            "text": "일단 강아지의 피부는 부위별로 차이는 있긴 하지만 기본적으로 중성에 가까운 알칼리성을 띠고 있어. 귀와 지간은 약산성이지만 머리와 얼굴, 몸통 쪽은 약알칼리성이지. 반면 사람의 피부는 산성을 띠고 있어. 문제는 산성과 달리 알칼리성 피부는 세균 감염에 취약하다는 거야. 그리고 또 다른 점은 피부 각질층의 두께인데, 사람의 절반 정도 수준밖에 안 돼.",
+            "turn_id": "BK22009228-5",
+            "utterance_id": "BK22009228.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지 피부는 사람보다 더 약하게 되어있구나. 그럼 피부병 같은 것도 잘 걸리는 거야?",
+            "turn_id": "BK22009228-6",
+            "utterance_id": "BK22009228.11"
+        },
+        {
+            "reference_date": "2021-05-31",
+            "reference_text": [
+                {
+                    "value": "농촌진흥청이 2018년 동물 병원 진료 기록을 바탕으로 반려견의 나이와 품종에 따른 병원 방문 이유를 분석한 결과, 반려견이 가장 많이 앓는 질병은 피부염과 설사인 것으로 나타났다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "강아지의 피부는 인간 유아기 시절의 피부보다 약해 외부 세균이나 손상, 곰팡이, 기생충에 더욱 취약하다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2021053110544092984",
+            "search_query": "강아지 피부병",
+            "terminate": false,
+            "text": "맞아, 농촌진흥청이 2018년 동물 병원 진료 기록을 분석한 결과에 따르면 강아지에게 가장 흔한 질병 두 개가 바로 피부염과 설사였거든. 강아지의 피부는 사람과 비교하면 유아기 때보다도 약한 수준이라 외부 세균이나 손상, 곰팡이, 기생충 등으로 인해 피해를 볼 가능성이 크지.",
+            "turn_id": "BK22009228-6",
+            "utterance_id": "BK22009228.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 피부병 예방에 신경을 써야겠네. 방법 좀 알려줄래?",
+            "turn_id": "BK22009228-7",
+            "utterance_id": "BK22009228.13"
+        },
+        {
+            "reference_date": "2021-06-01",
+            "reference_text": [
+                {
+                    "value": "일상생활에서는 목욕을 너무 자주 시키지 않는 것이 좋고 물놀이나 목욕 후에는 반드시 털과 털 속의 피부까지 꼼꼼하게 말려줘야 한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "피부를 관리하기 위해서 약용샴푸나 피부보습제를 사용하는 것도 추천한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.k-health.com/news/articleView.html?idxno=53982",
+            "search_query": "강아지 피부병 예방",
+            "terminate": false,
+            "text": "일단 잦은 목욕은 피하는 게 좋아. 그리고 물놀이나 목욕하고 난 후에는 털뿐 아니라 속에 있는 피부까지 신경 써서 건조를 시켜줄 필요가 있어. 또 피부 관리 차원에서 약용 샴푸나 피부 보습제를 쓰는 것도 좋아.",
+            "turn_id": "BK22009228-7",
+            "utterance_id": "BK22009228.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어렵지 않으니 잘 실천해야겠다. 근데 샴푸 얘기가 나와서 말인데 강아지 목욕시킬 때 사람이 쓰는 샴푸로 씻겨도 돼? 3, 4주에 한 번씩만 씻겨야 하면 전용 샴푸를 사도 얼마 못 쓸 것 같은데.",
+            "turn_id": "BK22009228-8",
+            "utterance_id": "BK22009228.15"
+        },
+        {
+            "reference_date": "2022-06-18",
+            "reference_text": [
+                {
+                    "value": "강아지는 사람과 다르게 약알칼리성 피부를 가지고 있으므로 사람이 사용하는 샴푸, 린스, 바디워시 등을 사용해서는 안됩니다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사람의 샴푸에는 각종 화학 성분이 들어있기 때문이죠.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "화학 성분이 강아지의 피부에 흡수되면 체내에 독성 물질이 쌓이거나 피지막이 손상되는 등 각종 질병을 유발할 수 있습니다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202206171725499427",
+            "search_query": "강아지 목욕 사람 샴푸",
+            "terminate": false,
+            "text": "사람용 샴푸나 린스, 바디워시 등으로 강아지를 씻기는 건 안 돼. 말했듯이 강아지 피부는 사람과 달리 약알칼리성을 띠고 있거든. 무엇보다 사람용 샴푸에 들어있는 각종 화학 성분은 강아지에게 여러 가지 질환을 유발할 수 있어. 피부에 흡수될 경우 몸속에 독성 물질이 쌓이게 되거나 피지막이 손상되는 등의 증상이 나타날 수 있거든.",
+            "turn_id": "BK22009228-8",
+            "utterance_id": "BK22009228.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 다 못 쓰더라도 전용 샴푸를 사야겠네. 그리고 마지막으로 강아지 목욕시킬 때 주의사항 있으면 알려줄래?",
+            "turn_id": "BK22009228-9",
+            "utterance_id": "BK22009228.17"
+        },
+        {
+            "reference_date": "2022-06-18",
+            "reference_text": [
+                {
+                    "value": "① 목욕 전 빗질로 엉킨 털 풀기",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "게다가 안쪽에 털이 나 있어 거품이나 물이 들어가면 습기가 차면서 염증이 발생할 수 있습니다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "귓속에 솜을 넣어서 물을 막거나 손으로 귀를 내려 귓속에 물이 들어가지 않도록 주의해야 합니다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "③ 물은 천천히 적시기",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202206171725499427",
+            "search_query": "강아지 목욕 주의사항",
+            "terminate": false,
+            "text": "일단 목욕시키기에 앞서 빗질을 통해 엉킨 털부터 풀어주는 게 필요해. 그러고 나서 물을 천천히 적셔주는 방식으로 목욕을 시켜줘. 주의해야 할 건 귓속에 물이 들어가지 않도록 신경 써야 한다는 거야. 물이나 거품 등이 귀에 들어가면 염증이 생길 가능성이 있거든. 이걸 막기 위해서는 귓속에 솜을 미리 넣어주거나 손으로 귀를 내려서 닫아주면 돼.",
+            "turn_id": "BK22009228-9",
+            "utterance_id": "BK22009228.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "목욕은 생각보다 신경 쓸 게 많구나. 미리 알아둬서 다행이다. 오늘 덕분에 공부가 진짜 많이 됐네.",
+            "turn_id": "BK22009228-10",
+            "utterance_id": "BK22009228.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그랬다면 다행이고. 얘기 나눈 김에 다른 것도 더 알려주고 싶은데 다음 수업이 있어서 이만 가봐야 할 것 같아. 나머지는 내일 얘기하든지 하자.",
+            "turn_id": "BK22009228-10",
+            "utterance_id": "BK22009228.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 그럼 궁금한 것들 정리해 놓을 테니 내일 얘기하자.",
+            "turn_id": "BK22009228-11",
+            "utterance_id": "BK22009228.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 그럼 내일 봐.",
+            "turn_id": "BK22009228-11",
+            "utterance_id": "BK22009228.22"
+        }
+    ]
+}

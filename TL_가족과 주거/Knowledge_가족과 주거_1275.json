@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008521",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008521",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일주일 전에 마트에서 사온 상추를 씻다가 달팽이를 발견했어요. 저는 방생시키려고 했는데 아이들이 달팽이를 기르자고 해서 결국 기르기로 했어요. 생각해보니 아이들 정서 발달에도 좋고 관리하기도 쉬운 것 같아서요.",
+            "turn_id": "BK22008521-1",
+            "utterance_id": "BK22008521.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 정말요? 저도 몇 년 전에 달팽이를 키웠었거든요. 지금은 무지개 다리를 건넜지만요.",
+            "turn_id": "BK22008521-1",
+            "utterance_id": "BK22008521.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러셨구나, 그럼 달팽이에 대해서 잘 아시겠어요. 혹시 달팽이의 수명은 얼마나 되나요?",
+            "turn_id": "BK22008521-2",
+            "utterance_id": "BK22008521.3"
+        },
+        {
+            "reference_date": "2019-04-16",
+            "reference_text": [
+                {
+                    "value": "달팽이의 수명은 예상보다는 길다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "생육환경과 종별 차이는 있지만 통상 4~5년 사는 것으로 알려져 있다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.chosun.com/news/ntype.htm?id=201904170100125390008463&servicedate=20190416",
+            "search_query": "달팽이 수명",
+            "terminate": false,
+            "text": "달팽이의 수명은 생각보다 길어요. 생육환경과 종별로 다르겠지만 일반적으로 4~5년 사는 것으로 알려져 있어요. 제 달팽이도 4년 정도 살고 죽었어요.",
+            "turn_id": "BK22008521-2",
+            "utterance_id": "BK22008521.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그런데 달팽이의 사육 환경은 어떻게 조성해야 하나요?",
+            "turn_id": "BK22008521-3",
+            "utterance_id": "BK22008521.5"
+        },
+        {
+            "reference_date": "2019-04-16",
+            "reference_text": [
+                {
+                    "value": "달팽이의 사육환경은 약 25도의 온도와 60~80% 수준의 습도를 유지해주면 된다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 가운데 습도는 매우 중요한 환경 요소인데 달팽이는 피부로 수분을 흡수하기 때문이다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 때문에 바닥재는 촉촉한 코코피트(코코넛 껍질을 가공한 배양토)가 적합하다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.chosun.com/news/ntype.htm?id=201904170100125390008463&servicedate=20190416",
+            "search_query": "달팽이 사육환경",
+            "terminate": false,
+            "text": "네, 달팽이의 사육 환경은 약 25도의 온도와 60~80퍼센트 정도의 습도로 관리해주면 돼요. 특히 습도는 매우 핵심적인 환경 요소인데 달팽이는 피부로 수분을 빨아들이기 때문이에요. 이 때문에 바닥재는 촉촉한 코코넛 껍질을 가공한 배양토가 적당해요.",
+            "turn_id": "BK22008521-3",
+            "utterance_id": "BK22008521.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "습도가 중요하군요. 그런데 달팽이 집은 어떻게 청소를 해주어야 하나요?",
+            "turn_id": "BK22008521-4",
+            "utterance_id": "BK22008521.7"
+        },
+        {
+            "reference_date": "2020-03-12",
+            "reference_text": [
+                {
+                    "value": "달팽이의 집은 종종 흙을 갈아주고 물을 뿌려주는 것이 좋다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 달팽이도 똥을 배출하기 때문에 종종 깨끗하게 치워주는 것이 중요하다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=344472",
+            "search_query": "달팽이 키우기",
+            "terminate": false,
+            "text": "달팽이의 집은 왕왕 흙을 바꿔주고 물을 분사해주는 것이 좋아요. 또한 달팽이도 탈분 하기 때문에 종종 깨끗하게 청소해주는 것이 중요해요.",
+            "turn_id": "BK22008521-4",
+            "utterance_id": "BK22008521.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 근데 달팽이의 대변은 색상이 다양하다고 하던데 사실인가요?",
+            "turn_id": "BK22008521-5",
+            "utterance_id": "BK22008521.9"
+        },
+        {
+            "reference_date": "2019-04-16",
+            "reference_text": [
+                {
+                    "value": "특이한 것은 달팽이에게는 쓸개와 같은 소화 기관이 없어 음식물은 소화하고 흡수시키지만 색소를 분해하거나 흡수하지 못해 먹이의 색소를 그대로 변으로 내보낸다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "즉, 달팽이는 먹은 음식의 색상에 따라 대변의 색상이 달라진다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.chosun.com/news/ntype.htm?id=201904170100125390008463&servicedate=20190416",
+            "search_query": "달팽이 대변",
+            "terminate": false,
+            "text": "네, 달팽이는 쓸개와 같은 소화 관이 없어 음식물은 소화하고 빨아들이지만 색소를 분해하거나 흡수하지 못해요. 그래서 달팽이가 먹은 음식의 색에 의해 대변의 색이 좌우 된다고 할 수 있죠.",
+            "turn_id": "BK22008521-5",
+            "utterance_id": "BK22008521.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그럼 달팽이 먹이는 뭘로 주어야 할까요? 일단 상추를 넣어주긴 했거든요.",
+            "turn_id": "BK22008521-6",
+            "utterance_id": "BK22008521.11"
+        },
+        {
+            "reference_date": "2019-04-16",
+            "reference_text": [
+                {
+                    "value": "잡식성인 달팽이는 각종 야채와 과일, 곡류뿐만 아니라 밀웜, 두부 등도 먹는다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "애호박, 엿기름 등은 달팽이들의 선호 먹이이며, 씻어말린 계란껍데기나 굴 껍질 등은 최대 영양식이다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.chosun.com/news/ntype.htm?id=201904170100125390008463&servicedate=20190416",
+            "search_query": "달팽이 잡식성",
+            "terminate": false,
+            "text": "잡식성인 달팽이는 각종 채소와 과일, 곡류, 밀웜, 두부 등도 섭취해요. 애호박, 엿기름 등을 달팽이가 선호하고 씻어 말린 계란껍데기나 굴 껍질 등은 최고로 영양가가 높은 음식이에요.",
+            "turn_id": "BK22008521-6",
+            "utterance_id": "BK22008521.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "계란껍데기나 굴 껍질이 달팽이에게 좋은 이유가 뭔가요?",
+            "turn_id": "BK22008521-7",
+            "utterance_id": "BK22008521.13"
+        },
+        {
+            "reference_date": "2019-04-16",
+            "reference_text": [
+                {
+                    "value": "칼슘을 보충해주면 달팽이 껍질이 튼튼해져 건강하게 자랄 수 있기 때문이다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.chosun.com/news/ntype.htm?id=201904170100125390008463&servicedate=20190416",
+            "search_query": "달팽이 칼슘",
+            "terminate": false,
+            "text": "칼슘을 보충해주면 달팽이 껍질이 단단해지면서 건강하게 클 수 있기 때문이에요.",
+            "turn_id": "BK22008521-7",
+            "utterance_id": "BK22008521.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그건 몰랐네요. 근데 혹시 달팽이에게 먹이지 말아야 할 음식도 있나요?",
+            "turn_id": "BK22008521-8",
+            "utterance_id": "BK22008521.15"
+        },
+        {
+            "reference_date": "2019-04-16",
+            "reference_text": [
+                {
+                    "value": "다만 파인애플, 오렌지 등 과한 산성의 먹이는 피하는 게 좋다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 소금이 들어간 음식을 먹이면 죽을 수 있어 조심해야 한다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.chosun.com/news/ntype.htm?id=201904170100125390008463&servicedate=20190416",
+            "search_query": "달팽이 먹이",
+            "terminate": false,
+            "text": "과한 산성의 먹이인 파인애플, 오렌지 등은 주지 않는 게 좋아요. 또한 소금이 포함된 음식을 먹이면 죽을 수 있어서 신경써야 해요.",
+            "turn_id": "BK22008521-8",
+            "utterance_id": "BK22008521.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "과일을 줄 때도 조심해야겠네요. 그런데 달팽이도 목욕을 시켜주어야 하나요?",
+            "turn_id": "BK22008521-9",
+            "utterance_id": "BK22008521.17"
+        },
+        {
+            "reference_date": "2020-03-12",
+            "reference_text": [
+                {
+                    "value": "달팽이는 빗물에 자신의 몸을 씻듯 온욕을 하는 것이 좋은데 이때 사람의 몸에 뜨거운 물이 아닌 약간 차가우면서 따뜻한 정도의 물을 준비하는 것이 좋다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "달팽이 목욕을 할 때는 물에 담가두거나 직접 집을 닦는 것이 아닌 흐르는 물에 올려놓으면 된다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=344472",
+            "search_query": "달팽이 목욕",
+            "terminate": false,
+            "text": "달팽이는 빗물에 자신의 몸을 씻듯 온수욕을 시키는 것이 좋아요. 이때 사람의 몸에 뜨거운 물이 아닌 약간 차가우면서 따뜻한 정도의 물을 사용하는 것이 좋아요. 달팽이 목욕을 할 때는 물에 넣어두거나 직접 집을 문지르는 것이 아닌 흐르는 물에 올려놓으면 돼요.",
+            "turn_id": "BK22008521-9",
+            "utterance_id": "BK22008521.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 신경써야 할 점이 많군요. 오늘 흥미로운 정보 많이 주셔서 감사해요. 그럼 저는 약속이 있어서 가볼게요.",
+            "turn_id": "BK22008521-10",
+            "utterance_id": "BK22008521.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네 달팽이 잘 키우시고 다음에 또 뵈어요.",
+            "turn_id": "BK22008521-10",
+            "utterance_id": "BK22008521.20"
+        }
+    ]
+}

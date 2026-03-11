@@ -1,0 +1,382 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016919",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016919",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스스로 임신 여부를 확인할 수 있는 시기는 언제부터인가요?",
+            "turn_id": "BK22016919-1",
+            "utterance_id": "BK22016919.1"
+        },
+        {
+            "reference_date": "44809.0",
+            "reference_text": [
+                {
+                    "value": "보통 임신 여부는 임신테스트기를 이용해 확인한다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "배란일로부터 2주 정도가 지난 뒤 검사해야 정확한 결과를 얻을 수 있다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "추천하는 방법은 배란일 11~14일 후 아침 첫 소변으로 임신테스트를 해보는 것이다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sportsworldi.com/newsView/20220904518130",
+            "search_query": "임신 사실 확인 시기",
+            "terminate": false,
+            "text": "보통 배란일 2주 후 정도가 되어야 정확한 임신 여부를 알 수 있어요. 일반적으로 임신테스트기를 사용하는데, 배란일로부터 11~14일 경과 후 아침 첫 소변으로 테스트해 보는 것을 추천드려요.",
+            "turn_id": "BK22016919-1",
+            "utterance_id": "BK22016919.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신 초기 증상으로는 어떤 게 있나요?",
+            "turn_id": "BK22016919-2",
+            "utterance_id": "BK22016919.3"
+        },
+        {
+            "reference_date": "44439.0",
+            "reference_text": [
+                {
+                    "value": "대표적인 초기 증상은 생리가 늦어진다는 것이다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이유없이 잠이 쏟아지고 피곤함을 느끼는 것도 주증상 중 하나다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "호르몬에 의한 유방 통증, 몸살 등의 증상이 동반되기도 한다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.segyebiz.com/newsView/20210831517344?OutUrl=naver",
+            "search_query": "임신 초기 증상",
+            "terminate": false,
+            "text": "임신 초기 증상으로 가장 대표적인 것은 생리일이 늦춰지는 것이죠. 그리고 특별한 이유 없이 계속 졸리거나 피로감을 느끼는 것도 주요 증상 중 하나이며, 호르몬 변화 때문에 유방에 통증이 느껴지거나 몸살 같은 증상이 나타나기도 해요.",
+            "turn_id": "BK22016919-2",
+            "utterance_id": "BK22016919.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 임신 초기에 주의해야 할 것들은 어떤 것들이 있죠?",
+            "turn_id": "BK22016919-3",
+            "utterance_id": "BK22016919.5"
+        },
+        {
+            "reference_date": "43776.0",
+            "reference_text": [
+                {
+                    "value": "임신 초기 조심해야 할 것 및 임신 초기 주의사항은 복부에 자극이 가지 않도록 주의하고 유해 약물과 뜨거운 목욕, 사우나와 방사선 촬영을 피해야 한다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=724054",
+            "search_query": "임신 초기 주의사항",
+            "terminate": false,
+            "text": "임신 초기에는 복부에 자극을 주지 않도록 하고 사우나 및 뜨거운 물로 목욕을 하는 것을 피해야 해요. 그뿐만 아니라 유해 약물을 먹지 않도록 유의하고, 방사선 촬영도 해선 안 된답니다.",
+            "turn_id": "BK22016919-3",
+            "utterance_id": "BK22016919.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "입덧은 모두에게 나타나는 증상인가요? 임신을 하고 나면 입덧은 언제부터 시작되는 건가요?",
+            "turn_id": "BK22016919-4",
+            "utterance_id": "BK22016919.7"
+        },
+        {
+            "reference_date": "44784.0",
+            "reference_text": [
+                {
+                    "value": "전체 임신부의 70~85%가 입덧을 겪는다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "편차는 있지만 임신 4~8주 경부터 메스꺼움, 헛구역질, 가벼운 구토 등의 증상을 경험하고 16주 경까지 지속되는 경우가 대부분이다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/269R9STD6N",
+            "search_query": "임신 입덧 시기",
+            "terminate": false,
+            "text": "전체 임산부 중 70~85%가 입덧 증상을 경험해요. 개인마다 차이는 있지만 보통 임신 4~8주 쯤부터 메스꺼움이나 헛구역질, 가벼운 구토와 같은 증상이 나타나고 16주 정도까지 지속되는 경우가 많아요.",
+            "turn_id": "BK22016919-4",
+            "utterance_id": "BK22016919.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신을 하면 입덧을 하게 되는 원인은 뭔가요?",
+            "turn_id": "BK22016919-5",
+            "utterance_id": "BK22016919.9"
+        },
+        {
+            "reference_date": "44785.0",
+            "reference_text": [
+                {
+                    "value": "임신 초기 입덧이 심한 이유는 임신호르몬이 갑상선호르몬 생성을 증가시키면서 이로 인해 갑상선중독증이 생길 수 있기 때문이다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "중기나 후기에는 갑상선 기능이 정상으로 돌아오면서 대부분 입덧도 좋아진다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01289046632426664&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "임신 입덧 원인",
+            "terminate": false,
+            "text": "임신 초기에 심한 입덧을 겪게 되는 이유는 임신 호르몬이 갑상선 호르몬의 생성을 증가시켜 갑상선 호르몬 중독 증상이 나타나기 때문이에요. 임신 중기에서 후기로 갈수록 갑상선 기능도 정상으로 회복되면서 입덧 증상도 대부분 완화되죠.",
+            "turn_id": "BK22016919-5",
+            "utterance_id": "BK22016919.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "눈에 띄게 배가 나오는 시기는 언제부터인가요?",
+            "turn_id": "BK22016919-6",
+            "utterance_id": "BK22016919.11"
+        },
+        {
+            "reference_date": "43781.0",
+            "reference_text": [
+                {
+                    "value": "임신 중기인 15주~28주 사이에 본격적으로 배가 나오기 시작한다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "태아 성장 속도가 빨라지고 양수도 급격히 늘어나는 시기이기 때문에 배가 나오는 속도가 빨라지고 아이의 태동을 느낄 수 있다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.insightkorea.co.kr//news/articleView.html?idxno=65116",
+            "search_query": "임신 배 나오는 시기",
+            "terminate": false,
+            "text": "임신 중기에 접어드는 15주~28주 사이에 본격적으로 배가 부르기 시작해요. 이때 태아의 성장 속도가 빨라지고 양수의 양도 많이 증가하기 때문에 배가 눈에 띄게 나오게 되고 이 무렵 태동도 느낄 수 있답니다.",
+            "turn_id": "BK22016919-6",
+            "utterance_id": "BK22016919.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신 초기가 자연 유산이 많이 되는 시기라고 하던데 정말 그런가요?",
+            "turn_id": "BK22016919-7",
+            "utterance_id": "BK22016919.13"
+        },
+        {
+            "reference_date": "44370.0",
+            "reference_text": [
+                {
+                    "value": "자연 유산은 임신 20주 이전에 태아가 생존 가능한 시기 이전에 임신이 종결되는 것을 말한다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "자연 유산이 되는 비율은 임신한 산모의 5명 중 1명꼴로 20%에서 유산한다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "임상적 유산과 화학적 임신을 합치면 임신 초기 자연 유산이 되는 비율은 30~40%가 된다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lecturernews.com/news/articleView.html?idxno=70044",
+            "search_query": "임신 초기 유산",
+            "terminate": false,
+            "text": "임신 20주 전에 태아가 생존 가능한 시기에 앞서 임신이 종결되는 것을 자연 유산이라고 해요. 임산부 5명 중 1명의 비율인 20% 정도가 자연 유산을 겪는데, 임상적 유산과 화학적 유산의 경우를 더해서 임신 초기에 자연 유산이 발생하는 비율은 약 30~40% 정도고요.",
+            "turn_id": "BK22016919-7",
+            "utterance_id": "BK22016919.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "배 속에 있는 아기의 성별을 미리 알려주는 게 불법이라던데 진짜인가요?",
+            "turn_id": "BK22016919-8",
+            "utterance_id": "BK22016919.15"
+        },
+        {
+            "reference_date": "42811.0",
+            "reference_text": [
+                {
+                    "value": "태아의 성별을 알 수 있는 건 통상 임신 12주부터다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "한국의 의료법 20조는 임신 32주 이전에 태아의 성별을 알리지 못하도록 규정한다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.seoul.co.kr/news/newsView.php?id=20170317010034&wlog_tag3=naver",
+            "search_query": "임신 태아 성별 불법",
+            "terminate": false,
+            "text": "네, 맞아요. 보통 임신 12주쯤부터 태아의 성별을 구별할 수 있지만, 우리나라는 의료법 20조에 의거하여 임신 32주 전에는 태아의 성별을 고지하지 못하도록 되어있어요.",
+            "turn_id": "BK22016919-8",
+            "utterance_id": "BK22016919.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신 주수마다 해야 하는 필수적인 검사들이 따로 있다던데 임신 초기에 해야 하는 검사에는 어떤 것들이 있나요?",
+            "turn_id": "BK22016919-9",
+            "utterance_id": "BK22016919.17"
+        },
+        {
+            "reference_date": "44070.0",
+            "reference_text": [
+                {
+                    "value": "임신 초기(1~14주)에는 초음파 검사와 기형아 검사를 실시한다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "초음파 검사는 임신 전 기간 동안 계속되는데 초기에는 이를 통해 태아의 정확한 주수를 알고, 5~6주부터는 태아의 심장 소리를 들을 수 있다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기형아 검사는 11~13주에 초음파를 통해 확인한다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "태아의 목덜미 두께와 혈액 검사를 확인하고, 만약 목덜미 두께가 3mm이상이면 융모막 검사를 시행한다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202008273765o",
+            "search_query": "임신 초기 시기별 검사",
+            "terminate": false,
+            "text": "임신 초기인 1~14주 사이에는 초음파 검사와 기형 검사가 있어요. 먼저 초음파 검사는 임신 초기부터 꾸준히 진행되는데, 태아의 주수를 정확히 판별할 수 있고 5~6주쯤에는 태아의 심장 소리도 들을 수 있죠. 11~13주에는 초음파 검사를 통해서 기형아 검사도 하게 되는데, 태아의 목덜미 두께 및 혈액 검사 결과를 같이 확인해요. 만일 목덜미의 두께가 3mm 이상일 경우에는 융모막 검사를 따로 실시해야 하죠.",
+            "turn_id": "BK22016919-9",
+            "utterance_id": "BK22016919.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기형아 검사 결과가 나오기 전까지 마음 졸이는 산모들이 많겠네요.",
+            "turn_id": "BK22016919-10",
+            "utterance_id": "BK22016919.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아무래도 그렇죠. 하지만 산모가 건강하고 편해야 태아도 건강한 법이니까 미리 걱정할 필요는 없답니다.",
+            "turn_id": "BK22016919-10",
+            "utterance_id": "BK22016919.20"
+        }
+    ]
+}

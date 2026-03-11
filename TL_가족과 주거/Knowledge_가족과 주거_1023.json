@@ -1,0 +1,385 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22000072",
+        "name": "2022 한국어 블렌더봇 데이터 BK22000072",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_insvoter3"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 웬만한 어린이집은 애기 태어났을 때부터 대기를 걸어놔야 한다고 해서 좀 늦었지만 내일이라도 대기 신청해보려고요. 언제쯤 신청하셨었어요?",
+            "turn_id": "BK22000072-1",
+            "utterance_id": "BK22000072.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 애기 태어나고 바로 걸었던 것 같아요. 보내고 싶은 곳이 국공립이여서 대기인원이 더 많았거든요.",
+            "turn_id": "BK22000072-1",
+            "utterance_id": "BK22000072.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다들 국공립이 더 좋다고는 하던데, 사립이랑 비교해서 국공립이 더 좋은 점이 어떤 건가요?",
+            "turn_id": "BK22000072-2",
+            "utterance_id": "BK22000072.3"
+        },
+        {
+            "reference_date": "2019-01-22",
+            "reference_text": [
+                {
+                    "value": "국공립어린이집은 시간연장보육(오후 7시30분 이후 보육)을 포함한 취약보육을 우선적으로 실시하고 있어 부모들의 선호도가 높다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 교사의 이직이 낮아 환경변화에 민감한 영·유아에게 안정적인 보육환경을 제공할 수 있다는 장점이 있다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatime.co.kr/224258",
+            "search_query": "국공립 어린이집 장점",
+            "terminate": false,
+            "text": "아무래도 국공립 어린이집은 연장 보육같은 걸 우선적으로 실시하고 있고, 선생님들의 이직률이 낮아서 주변 환경변화에 민감한 아기들에게 보다 안정적으로 보육환경을 제공할 수 있어서 부모들에게 선호도가 높은 편이에요.",
+            "turn_id": "BK22000072-2",
+            "utterance_id": "BK22000072.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아아, 그래서 다들 국공립 들어가고 싶다고 대기를 거는 거였네요. 그럼 혹시 유치원과 어린이집의 차이는 뭔가요?",
+            "turn_id": "BK22000072-3",
+            "utterance_id": "BK22000072.5"
+        },
+        {
+            "reference_date": "2022-05-31",
+            "reference_text": [
+                {
+                    "value": "다만 유치원은 상대적으로 ‘학교’ 체계를 따라가는 경향이 있다는 점은 다르다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "유치원은 하루 5시간가량 수업하는 반일제가 기본이고, 수업 일수도 정해져 있다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반면 어린이집은 원칙적으로는 공휴일을 제외하고 연중무휴로 운영되고, 야간보육도 가능하다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.segye.com/newsView/20220530518101?OutUrl=naver",
+            "search_query": "어린이집 유치원 차이",
+            "terminate": false,
+            "text": "어린이집은 보통 공휴일을 제외하고 연중무휴로 운영되고, 야간보육도 가능해요. 하지만 유치원은 하루에 5시간 정도만 수업하는 반일제로 운영하고 있고, 수업 일수도 정해져 있어요. 유치원은 어린이집에 비해 학교의 체계를 따라가고 있는 거죠.",
+            "turn_id": "BK22000072-3",
+            "utterance_id": "BK22000072.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 그런 차이라면 계속 어린이집을 다니는 게 낫겠네요. 대기 걸 땐 그냥 아이사랑에서 신청하면 되나요?",
+            "turn_id": "BK22000072-4",
+            "utterance_id": "BK22000072.7"
+        },
+        {
+            "reference_date": "2019-11-26",
+            "reference_text": [
+                {
+                    "value": "어린이집 입소 대기 신청방법은 아이사랑 홈페이지에 접속해 회원가입 후 신청할 수 있다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "어린이집 입소 대기 신청은 연중 수시로 가능하고 현재 어린이집에 다니는 아이는 두 군데, 아직 다니지 않는 아동은 세 군데에 신청할 수 있다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=755594",
+            "search_query": "어린이집 입소 신청",
+            "terminate": false,
+            "text": "맞아요. 아이사랑 홈페이지에서 회원가입하고 신청하면 돼요. 주말에도 신청이 가능하고, 현재 어린이집에 다니지 않는 아이는 어린이집 세 곳까지 신청할 수 있어요.",
+            "turn_id": "BK22000072-4",
+            "utterance_id": "BK22000072.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "많이 어렵지 않아서 다행이네요. 지금 양육수당 받고 있는 걸 보육료로 전환신청을 해야 한다는데, 그것도 아이사랑 홈페이지에서 신청하면 되나요?",
+            "turn_id": "BK22000072-5",
+            "utterance_id": "BK22000072.9"
+        },
+        {
+            "reference_date": "2018-02-05",
+            "reference_text": [
+                {
+                    "value": "가정양육수당을 보육료로 전환하는 것은 '복지로' 홈페이지나 가까운 주민센터에서 신청하면 된다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/premium/special-report/view/2018/02/21365/",
+            "search_query": "보육료 전환",
+            "terminate": false,
+            "text": "아니에요. 양육수당을 보육료로 바꾸는 건 복지로 홈페이지나 가까운 주민센터에서 신청하면 돼요.",
+            "turn_id": "BK22000072-5",
+            "utterance_id": "BK22000072.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그럼 보육료는 양육수당처럼 계좌로 들어오는 건가요?",
+            "turn_id": "BK22000072-6",
+            "utterance_id": "BK22000072.11"
+        },
+        {
+            "reference_date": "2018-02-05",
+            "reference_text": [
+                {
+                    "value": "보육료는 아이행복카드를 통해 바우처로 지원된다.",
+                    "value_time": "2022-06-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보육료 결제일에 맞춰 어린이집에 방문해 카드 결제를 하거나, 어린이집에서 받은 인증번호로 ARS 결제를 하면 된다.",
+                    "value_time": "2022-06-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "인터넷 결제나 스마트폰 결제도 가능하다.",
+                    "value_time": "2022-06-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/premium/special-report/view/2018/02/21365/",
+            "search_query": "보육료전환 바우처",
+            "terminate": false,
+            "text": "아니에요, 아이행복카드에 바우처로 지원돼요. 그래서 나중에 보육료 결제일에 맞춰서 어린이집에 방문해서 카드로 결제하거나, ARS로 결제해도 되고, 인터넷이나 스마트폰에서 결제도 가능해요.",
+            "turn_id": "BK22000072-6",
+            "utterance_id": "BK22000072.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스마트폰 결제가 되는 건 편하네요. 그럼 나중에 육아휴직 끝나면 복직해야 할 것 같은데, 연장 보육 신청하면 연장 보육 비용이 추가로 발생되나요?",
+            "turn_id": "BK22000072-7",
+            "utterance_id": "BK22000072.13"
+        },
+        {
+            "reference_date": "2020-06-09",
+            "reference_text": [
+                {
+                    "value": "이에 따라 보호자는 눈치를 보지 않고 연장 보육을 이용할 수 있고 어린이집도 장시간 운영에 따른 비용 부담을 줄일 수 있도록 정부가 연장보육료(오후 5시 이후 시간당 0세반 3000원, 영아반 2000원, 유아반 1000원)를 지원하고 있다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20200609_0001052881&cID=10201&pID=10200",
+            "search_query": "어린이집 연장보육 비용",
+            "terminate": false,
+            "text": "정부에서 연장 보육 비용을 지원해주고 있는데, 오후 5시 이후부터 0세 반은 시간당 3천원, 영아반은 2천원, 유아반은 천 원으로 계산해서 지원해주고 있어요.",
+            "turn_id": "BK22000072-7",
+            "utterance_id": "BK22000072.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘은 어린이집 다니면서 진짜 거의 내는 비용이 없네요. 비용적인 부담만 줄어도 좀 낫죠. 그럼 연장보육은 혹시 몇시까지 봐 주는건가요?",
+            "turn_id": "BK22000072-8",
+            "utterance_id": "BK22000072.15"
+        },
+        {
+            "reference_date": "2021-08-12",
+            "reference_text": [
+                {
+                    "value": "정부는 작년 3월부터 어린이집 보육시간 중 오전 7시 30분부터 오후 4시까지는 모든 영유아에게 적용되는 '기본보육', 그 이후부터 오후 7시 30분까지는 추가적 돌봄이 필요한 영유아에게 적용되는 '연장보육'으로 구분하고, 연장보육이 안정적으로 제공되도록 연장 보육료와 전담교사 인건비를 지원하고 있다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20210812064400530?input=1195m",
+            "search_query": "어린이집 연장보육 시간",
+            "terminate": false,
+            "text": "기본보육이 아침 7시 반부터 오후 4시까지인데, 그 이후부터 저녁 7시 반까지가 연장보육이에요.",
+            "turn_id": "BK22000072-8",
+            "utterance_id": "BK22000072.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 칼퇴하는 업종이 아니라서 시간이 아슬아슬한데 그 이후로는 안 봐주겠죠?",
+            "turn_id": "BK22000072-9",
+            "utterance_id": "BK22000072.17"
+        },
+        {
+            "reference_date": "2021-10-05",
+            "reference_text": [
+                {
+                    "value": "야간연장 어린이집이란 기준보육시간(07:30~19:30) 이후 최대 24:00 까지 연장해 아동을 보육하는 어린이집으로 야간연장 보육료는 국가에서 전액 지원하고 있다고 했다.",
+                    "value_time": "2022-06-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.breaknews.com/837682",
+            "search_query": "어린이집 야간보육",
+            "terminate": false,
+            "text": "최대 자정까지 연장해서 봐주는 야간연장 어린이집이 있어요. 보육료는 국가에서 전액 지원해주고 있고요. 지원하려는 어린이집이 야간연장 어린이집인지 한번 알아보세요.",
+            "turn_id": "BK22000072-9",
+            "utterance_id": "BK22000072.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "진짜 오래까지 봐주는군요. 그때까지 남아있는 애들 많이 없을 것 같은데, 나중에 우리 애만 혼자 남아있는 거 보면 눈물 날 것 같아요.",
+            "turn_id": "BK22000072-10",
+            "utterance_id": "BK22000072.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 야간연장까지는 안 했지만 7시쯤 퇴근해서 데리러 가면 신발장에 저희 애 신발만 남아있는 거 보고 많이 울었어요.",
+            "turn_id": "BK22000072-10",
+            "utterance_id": "BK22000072.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "벌써 눈물 날 것 같아요.",
+            "turn_id": "BK22000072-11",
+            "utterance_id": "BK22000072.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아기들은 생각보다 잘 적응해줘서 엄마가 마음 단단히 먹고 잘 버티면 돼요. 일 다니면서 돈을 벌어야 나중에라도 모두가 행복하니까, 힘들어도 잘 버텨보자고요.",
+            "turn_id": "BK22000072-11",
+            "utterance_id": "BK22000072.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 주변에 이런 워킹맘 선배가 있으니 너무 든든해요. 조언 감사합니다.",
+            "turn_id": "BK22000072-12",
+            "utterance_id": "BK22000072.23"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아니에요, 필요한 거 있으면 언제든 물어봐 주세요. 모든 엄마들 파이팅입니다.",
+            "turn_id": "BK22000072-12",
+            "utterance_id": "BK22000072.24"
+        }
+    ]
+}

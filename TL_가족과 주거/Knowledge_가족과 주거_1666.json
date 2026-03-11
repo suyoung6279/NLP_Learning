@@ -1,0 +1,391 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012001",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012001",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 아이가 짜증을 많이 내고 공격적인 행동을 보여서 아이랑 대화하기가 무서울 정도예요. 밥도 잘 안 먹고 별것 아닌 일에도 눈물을 보이더라구요. 사춘기가 벌써 시작됐나 싶은데, 저희 아이 왜 그런 걸까요?",
+            "turn_id": "BK22012001-1",
+            "utterance_id": "BK22012001.1"
+        },
+        {
+            "reference_date": "2022-09-28",
+            "reference_text": [
+                {
+                    "value": "아이가 부쩍 짜증이 많아졌거나 공격적인 행동을 보이는 경우, 말수가 줄고 자주 울거나 불안해하는 경우, 수면 패턴이 바뀌고 식사량이 줄어드는 경우, 집중을 못하고 멍하게 있거나 급격하게 성적이 저하된 경우, 등교 거부를 하는 경우, 자해 행동을 보이거나 자살에 대한 언급을 하는 경우 소아청소년 우울증을 의심해볼 수 있다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthinnews.co.kr/news/articleView.html?idxno=32667",
+            "search_query": "소아청소년 우울증",
+            "terminate": false,
+            "text": "아이가 짜증을 많이 내거나 공격적인 행동을 하는 경우, 자주 울고 말수도 줄면서 불안해하는 경우, 식사량이 줄어드는 모습 등의 모습을 보인다면 소아청소년 우울증을 의심해 보아야 해요.",
+            "turn_id": "BK22012001-1",
+            "utterance_id": "BK22012001.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소아청소년 우울증이라니 심장이 덜컹 내려 앉는 것 같아요. 아이들도 우울증이 생길 수 있나요?",
+            "turn_id": "BK22012001-2",
+            "utterance_id": "BK22012001.3"
+        },
+        {
+            "reference_date": "2022-09-28",
+            "reference_text": [
+                {
+                    "value": "소아청소년기의 우울증은 성인의 우울증에 비해서도 결코 적지 않으며, 심지어 3, 4세 어린이에서도 우울증 사례가 보고됐을 정도로 우울증을 보이는 연령도 어리다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우리나라 아이들 중 우울증을 앓는 아이들의 비율이 1~2%로, 그 중 청소년기의 우울증 유병률은 5%에 달한다는 조사도 있다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthinnews.co.kr/news/articleView.html?idxno=32667",
+            "search_query": "소아청소년 우울증 유병률",
+            "terminate": false,
+            "text": "소아청소년도 우울증 생길 수 있답니다. 심지어 3~4세의 아이들에게도 우울증 사례가 나타날 정도로 우울증 보이는 나이도 어려요. 우리나라 아이들 가운데 우울증이 있는 아이의 비율은 1~2%인데요. 그중에서 청소년기 우울증 유병률은 5%에 달하고 있어요.",
+            "turn_id": "BK22012001-2",
+            "utterance_id": "BK22012001.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "3, 4세 아이에게도 발생할 수 있는 게 우울증이군요. 그런데 사춘기랑 우울증이랑 어떻게 구분할 수 있어요?",
+            "turn_id": "BK22012001-3",
+            "utterance_id": "BK22012001.5"
+        },
+        {
+            "reference_date": "2022-09-28",
+            "reference_text": [
+                {
+                    "value": "보호자들은 소아청소년기의 우울증을 사춘기와 혼동하는 경우가 많다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 사춘기와 달리 우울증은 정신적·신체적 기능저하가 두드러진다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "집중력이 떨어져 평소라면 거뜬히 해낼 수 있는 과제를 해내지 못하거나, 참을성이 눈에 띄게 떨어지는 등의 경우다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthinnews.co.kr/news/articleView.html?idxno=32667",
+            "search_query": "소아청소년 우울증 사춘기",
+            "terminate": false,
+            "text": "보호자들이 사춘기와 우울증을 헷갈리는 경우가 많은데, 우울증은 사춘기와 다르게 정신적, 신체적 기능이 저하되는 것이 특징이에요. 평소라면 쉽게 해낼 수 있는 과제를 집중력 저하로 해내지 못하거나 눈에 띄게 참을성이 떨어지는 경우 우울증을 의심해 보아야 한답니다.",
+            "turn_id": "BK22012001-3",
+            "utterance_id": "BK22012001.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 사춘기는 보통 시간이 지나면 좋아지는데 소아청소년 우울증도 좋아질 때까지 기다리면 되나요?",
+            "turn_id": "BK22012001-4",
+            "utterance_id": "BK22012001.7"
+        },
+        {
+            "reference_date": "2022-09-28",
+            "reference_text": [
+                {
+                    "value": "소아청소년기의 우울증을 방치할 경우 회복과 재발을 거치면 ‘우울형 인격’이나 ‘만성적 우울증’ 등으로 이어질 수 있다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 아이의 우울증이 의심될 경우 가급적 조기에 개입해 개선하고, 회복 후에도 꾸준히 관심을 보이며 관찰해야 한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthinnews.co.kr/news/articleView.html?idxno=32667",
+            "search_query": "소아청소년 우울증 방치",
+            "terminate": false,
+            "text": "소아청소년기 우울증을 그대로 방치하면 회복과 재발이 반복되면서 우울형 인격이 형성되거나 만성적 우울증으로 이어질 수 있어요. 그렇기에 우울증이 의심된다면 가급적 빠르게 개입하여 개선하고, 회복된 이후에도 꾸준한 관심을 통해 관찰해야 해요.",
+            "turn_id": "BK22012001-4",
+            "utterance_id": "BK22012001.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시간이 지난다고 해서 자연스레 사라지지 않는다는 거네요. 그런데 성인도 아닌 아이들이 왜 우울증이 생기는건 가요?",
+            "turn_id": "BK22012001-5",
+            "utterance_id": "BK22012001.9"
+        },
+        {
+            "reference_date": "2022-09-28",
+            "reference_text": [
+                {
+                    "value": "소아청소년기 우울증의 원인으로는 크게 생물학적 요인과 정신·사회적 요인으로 나눌 수 있다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "생물학적 요인에는 유전적 요인, 호르몬이나 뇌의 신경전달물질과 같은 생화학적 요인이 포함된다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "정신사회적 요인으로는 정서적인 결여를 들 수 있다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "돌봄이 필요한 시기에 보호자로부터 충분한 지지를 받지 못하면 우울증 발생 위험이 높다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 사랑하는 사람과의 이별, 가족 간의 갈등, 부모의 이혼, 학대 등 아이를 둘러싼 부정적 환경 요소도 소아청소년기 우울증의 주요한 원인으로 꼽힌다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthinnews.co.kr/news/articleView.html?idxno=32667",
+            "search_query": "소아청소년 우울증 원인",
+            "terminate": false,
+            "text": "소아청소년기의 우울증은 정신사회적 요인과 생물학적요인으로 나눌 수 있어요. 생물학적요인은 유전적 요인, 호르몬 및 뇌신경전달물질과 같은 생화학적 원인이 포함된답니다. 정신사회적 원인으로는 정서 결여를 예로 들 수 있는데요. 보호자로부터 충분한 지지와 돌봄을 받지 못하여 우울증이 발생하고 있어요. 거기다 사랑하는 사람과 이별을 경험했거나 가족 간의 갈등, 부모의 이혼이나 학대와 같은 부정적인 환경 때문에 소아청소년기의 우울증이 발생할 수도 있답니다.",
+            "turn_id": "BK22012001-5",
+            "utterance_id": "BK22012001.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소아청소년 우울증이 발생하는 원인이 정말 많네요. 그럼 소아청소년 우울증을 의심할 수 있는 증상이 있다면 알려주시겠어요?",
+            "turn_id": "BK22012001-6",
+            "utterance_id": "BK22012001.11"
+        },
+        {
+            "reference_date": "2022-09-28",
+            "reference_text": [
+                {
+                    "value": "2 특별한 원인 없이 신체적 통증을 호소한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "3 행동이 부산해지고 물건을 과격하게 던진다거나 극단적인 말을 한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "5 말수가 줄고 평소 즐겨하던 일상생활에 별 흥미를 느끼지 못한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "10 불면 증상을 보이거나 하루 종일 자도 피곤해하는 과수면을 보인다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthinnews.co.kr/news/articleView.html?idxno=32667",
+            "search_query": "소아청소년 우울증 자가진단",
+            "terminate": false,
+            "text": "특별한 이유가 없는데도 신체적 통증을 호소하고 과격하게 물건을 던진달지, 부산한 행동을 보이며 극단적인 말을 할 수 있어요. 평소에 즐겨하던 일상생활에도 별다른 흥미를 보이지 않으면서 말수가 줄어들고 과수면 및 불면 증상도 보일 수 있답니다.",
+            "turn_id": "BK22012001-6",
+            "utterance_id": "BK22012001.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "평소랑 다른 행동을 보이는지 다시 한번 체크해 봐야겠네요. 저희 아이가 남아라서 자기 기분에 대한 표현을 잘 안 하는 편인데, 남아와 여아의 우울증 증상이 다르게 나타나나요?",
+            "turn_id": "BK22012001-7",
+            "utterance_id": "BK22012001.13"
+        },
+        {
+            "reference_date": "2022-09-28",
+            "reference_text": [
+                {
+                    "value": "여자아이들의 경우 우울하다는 감정 표현을 많이 하는 편이지만, 남자아이들은 우울하다는 표현을 하지 않으며 대신 공격적인 행동을 많이 보인다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "위험한 행동이나 비행 일탈 등으로 빠지기도 한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 모든 것에 의욕이 없는 성인기 우울증과 달리 흥미와 재미를 느끼는 분야, 예를 들어 게임, 휴대폰 등에 몰입하고 중독되는 경향을 보이기도 한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반면 재미없고 지루한 것은 견뎌내지 못한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthinnews.co.kr/news/articleView.html?idxno=32667",
+            "search_query": "소아청소년 우울증 남자아이",
+            "terminate": false,
+            "text": "여아는 감정표현을 많이 하지만 남아는 우울하다는 표현을 하지 않는 대신 비행 일탈, 위험하거나 공격적인 행동을 하는 경우가 많아요. 성인기 우울증은 모든 일에 의욕이 없는 것이 특징이지만 아이들은 흥미와 재미가 있는 분야, 예를 들면 게임, 휴대폰에 중독되고 몰입하는 모습을 보이기도 한답니다. 그에 반해 재미없거나 지루한 것들은 견뎌내지 못하는 증상을 보이기도 해요.",
+            "turn_id": "BK22012001-7",
+            "utterance_id": "BK22012001.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "휴대폰 중독이나 지루한 걸 견디지 못하는 아이들은 주변에도 많던데, 우울증인지 모르고 넘어가는 경우도 있겠네요. 만약 이런 증상이 있다면 어떤 치료를 받게 되나요?",
+            "turn_id": "BK22012001-8",
+            "utterance_id": "BK22012001.15"
+        },
+        {
+            "reference_date": "2022-09-28",
+            "reference_text": [
+                {
+                    "value": "예를 들어 아동기에는 언어적 의사소통 능력이 미숙하기 때문에 놀이치료를 통해 감정을 표현하고 조절하는 법을 배울 수 있다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "여기에 인지행동치료, 대인관계치료, 가족치료 등을 시행하기도 한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "청소년기에는 학교에서의 스트레스나 학업의 부담이 우울증상 악화에 기여할 수 있으므로 학교와의 긴밀한 협조를 통해 도움을 줄 수 있다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthinnews.co.kr/news/articleView.html?idxno=32667",
+            "search_query": "소아청소년 우울증 치료",
+            "terminate": false,
+            "text": "아동기라면 언어적인 의사소통능력이 부족하기 때문에 놀이치료와 같은 방법으로 감정을 표현하면서 조절하는 법을 배우게 돼요. 여기에 가족 치료나 대인 관계 및 인지행동치료 등을 하기도 하고요. 청소년이라면 학교 스트레스나 학업에 대한 부담이 우울증을 심하게 할 수 있기 때문에 학교와 긴밀하게 협조하여 도움을 줄 수 있답니다.",
+            "turn_id": "BK22012001-8",
+            "utterance_id": "BK22012001.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이가 요즘 말을 안 듣고 난폭해져서 많이 혼냈는데 우울증일 수도 있다고 생각하니 너무 미안한 거 있죠.",
+            "turn_id": "BK22012001-9",
+            "utterance_id": "BK22012001.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이에게 힘든 점이 있는지 깊은 대화를 나눠보시고 쉬운 생활 규칙부터 세워 실행하면 좋아질 거라 생각해요.",
+            "turn_id": "BK22012001-9",
+            "utterance_id": "BK22012001.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래야겠어요. 아이를 키우려면 평생 공부를 해야 하는 것 같아요. 오늘 좋은 정보 알려주셔서 감사해요.",
+            "turn_id": "BK22012001-10",
+            "utterance_id": "BK22012001.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요. 그럼 아이와 대화 잘 해보시고 다음에 만나면 차 한잔해요. 그럼 안녕히 가세요.",
+            "turn_id": "BK22012001-10",
+            "utterance_id": "BK22012001.20"
+        }
+    ]
+}

@@ -1,0 +1,391 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015026",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015026",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0017"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마트에 가니 반려동물 코너에서 토끼를 분양하고 있더라고요. 아이가 눈을 못 떼고 보더니 집에 토끼를 데려가자고 해서 한참 실랑이했어요. 제가 고양이 털 알레르기가 있는데 토끼털에도 알레르기 반응이 생길 수 있나요?",
+            "turn_id": "BK22015026-1",
+            "utterance_id": "BK22015026.1"
+        },
+        {
+            "reference_date": "2021-10-31",
+            "reference_text": [
+                {
+                    "value": "먼저 가족 중에 알레르기가 있는 사람이 있는지 확인한다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "토끼의 털과 토끼가 먹는 건초에는 알레르기를 일으킬 수 있는 성분이 있다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4473885",
+            "search_query": "반려토끼 알레르기",
+            "terminate": false,
+            "text": "그럼요. 토끼털뿐 아니라 토끼 먹이인 건초에는 알레르기 유발 성분이 있기 때문에 입양 전 가족 중 알레르기 있는 사람이 있는지를 꼭 확인해 주셔야 해요.",
+            "turn_id": "BK22015026-1",
+            "utterance_id": "BK22015026.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "토끼털 알레르기는 처음 들어봐서 생소하네요. 그런데 토끼는 초식동물이니까 야채만 주면 되나요?",
+            "turn_id": "BK22015026-2",
+            "utterance_id": "BK22015026.3"
+        },
+        {
+            "reference_date": "2021-10-31",
+            "reference_text": [
+                {
+                    "value": "주식인 건초와 깨끗한 물을 항상 채워줘야 한다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "생채소와 토끼 전용 사료는 간식으로 줘야 한다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "빵, 과자, 고구마, 감자 등 탄수화물과 전분이 포함된 음식은 독소와 가스를 발생해 생명을 위험하게 할 수 있으니 주지 않도록 한다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4473885",
+            "search_query": "반려토끼 주식",
+            "terminate": false,
+            "text": "토끼의 주식은 야채가 아닌 건초랍니다. 생채소나 토끼 전용 사료는 간식으로 줘야 하고 깨끗한 물은 항상 채워 놓아야 해요. 빵이나 고구마, 과자, 감자와 같이 탄수화물 및 전분이나 들어 있는 음식은 독소와 가스를 발생시키기 때문에 주면 안 돼요.",
+            "turn_id": "BK22015026-2",
+            "utterance_id": "BK22015026.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "건초를 먹는 줄은 몰랐어요. 전에 마트에서 판매하는 토끼를 보니 새끼 토끼 같더라고요. 아직 이빨이 많이 나지 않아 생채소나 건초는 못 먹을 것 같은데, 새끼 토끼들은 먹이가 다른가요?",
+            "turn_id": "BK22015026-3",
+            "utterance_id": "BK22015026.5"
+        },
+        {
+            "reference_date": "2022-04-14",
+            "reference_text": [
+                {
+                    "value": "생후 3개월령 이하의 어린 토끼에게 야채를 주면 설사를 할 수 있으므로 급여하면 안 된다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "생후 3개월령이 되면 녹황색 야채를 조금씩 주기 시작해야 한다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.daejonilbo.com/news/articleView.html?idxno=1514392",
+            "search_query": "반려토끼 3개월 이하 먹이",
+            "terminate": false,
+            "text": "태어난 지 3개월이 되지 않은 어린 토끼에게는 야채를 주면 안 돼요. 설사를 할 수 있거든요. 3개월이 지나고 나면 녹황색 야채를 소량씩 주기 시작하면 돼요.",
+            "turn_id": "BK22015026-3",
+            "utterance_id": "BK22015026.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 3개월이 지나야 야채를 먹을 수 있는 거네요. 만약 토끼를 키우게 되면 2마리를 데려올 건데, 토끼도 개처럼 중성화 수술을 해줘야 하나요?",
+            "turn_id": "BK22015026-4",
+            "utterance_id": "BK22015026.7"
+        },
+        {
+            "reference_date": "2021-10-31",
+            "reference_text": [
+                {
+                    "value": "토끼들은 번식력이 왕성하다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "매달 4~10마리 새끼들을 출산할 수 있다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아기 토끼들을 책임질 수 없다면 중성화 수술은 필수.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "중성화는 자궁과 유방 관련 질병을 예방하고 소변 스프레이 방지에도 도움이 된다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4473885",
+            "search_query": "반려토끼 중성화",
+            "terminate": false,
+            "text": "토끼는 번식력이 왕성하여 매달 4~10마리의 새끼를 낳을 수 있어요. 토끼의 출산을 원하지 않는다면 중성화 수술은 필수겠죠. 중성화수술은 자궁과 유방과 관련된 질병이 예방될 뿐 아니라 소변 스프레이도 방지할 수 있어요.",
+            "turn_id": "BK22015026-4",
+            "utterance_id": "BK22015026.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "매달 새끼를 낳을 수 있다니 번식력이 엄청나네요. 토끼는 보통 수명이 어느 정도 되나요? 너무 짧지는 않겠죠?",
+            "turn_id": "BK22015026-5",
+            "utterance_id": "BK22015026.9"
+        },
+        {
+            "reference_date": "2022-04-14",
+            "reference_text": [
+                {
+                    "value": "반려동물로 양육하는 토끼의 평균 수명은 10년 정도로 알려져 있으며, 14-16년 정도 된 고령의 토끼도 있다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.daejonilbo.com/news/articleView.html?idxno=1514392",
+            "search_query": "반려토끼 평균 수명",
+            "terminate": false,
+            "text": "반려 토끼의 평균 수명은 10년 정도로 알려져 있어요. 14~16년까지 사는 고령의 토끼도 있으니 생각하신 것만큼 짧지는 않아요.",
+            "turn_id": "BK22015026-5",
+            "utterance_id": "BK22015026.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "10년 정도면 생각했던 것보다는 길어서 다행이에요. 토끼집을 꾸며 줄 철망은 집에 있는데, 바닥은 뚫려있거든요. 바닥에는 뭘 깔아두는 게 좋을까요?",
+            "turn_id": "BK22015026-6",
+            "utterance_id": "BK22015026.11"
+        },
+        {
+            "reference_date": "2021-10-31",
+            "reference_text": [
+                {
+                    "value": "묘사에는 부드러운 천을 깔아줘야 한다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "토끼의 발바닥에는 강아지, 고양이처럼 쿠션(패드)이 없다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "딱딱한 바닥이나 철망 위에서 생활하는 토끼는 털 빠짐, 각질 등이 생길 수 있다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "푹신하고 부드러운 재질의 이불, 담요 등을 깔아 연약한 뼈를 보호해주도록 한다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4473885",
+            "search_query": "반려토끼 묘사 바닥",
+            "terminate": false,
+            "text": "토끼집 바닥에는 부드러운 천을 깔아두어야 해요. 토끼의 발바닥에는 개나 고양이처럼 쿠션이 없거든요. 바닥이 딱딱하거나 철망으로 되어 있다면 털이 빠지거나 각질 등이 생길 수 있답니다. 그렇기 때문에 부드러운 담요나 이불을 깔아두어 약한 뼈를 보호해 줘야 해요.",
+            "turn_id": "BK22015026-6",
+            "utterance_id": "BK22015026.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "딱딱하지 않게 해줘야 하는구나. 그런데 토끼를 계속 묘사에 가둬두고 키우면 스트레스받을까요? 한 번씩 꺼내서 놀게 해도 괜찮을지 모르겠어요.",
+            "turn_id": "BK22015026-7",
+            "utterance_id": "BK22015026.13"
+        },
+        {
+            "reference_date": "2021-10-31",
+            "reference_text": [
+                {
+                    "value": "토끼에게 운동은 필수다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "토끼는 끊임없이 몸을 다듬는다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그루밍하는 고양이처럼 털을 삼킨다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "털 뭉치가 변으로 잘 나올 수 있도록 1일 5시간 이상씩 마음껏 뛰어다닐 수 있는 공간을 마련해 운동을 시켜주는 것이 좋다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4473885",
+            "search_query": "반려토끼 운동 필수",
+            "terminate": false,
+            "text": "넓은 공간에서 놀게 해주는 게 좋아요. 토끼는 꼭 운동을 해야 하는 동물이거든요. 토끼는 계속 자기 몸을 다듬고 고양이처럼 털을 삼키는데요. 이 털 뭉치가 변으로 나올 수 있게 하루에 5시간 이상 마음껏 놀 수 있는 공간을 마련해서 운동을 시켜줘야 한답니다.",
+            "turn_id": "BK22015026-7",
+            "utterance_id": "BK22015026.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이처럼 토끼도 털을 먹는구나. 고양이는 헤어볼로 죽을 수도 있다던데, 토끼도 설마 그럴까요?",
+            "turn_id": "BK22015026-8",
+            "utterance_id": "BK22015026.15"
+        },
+        {
+            "reference_date": "2019-03-28",
+            "reference_text": [
+                {
+                    "value": "토끼 또한 헤어볼로 사망 할수 있다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "토끼가 걸릴 수 있는 헤어볼의 정식 명칭은 모구증(Trichobezoar)이라고 한다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "헤어볼은 위장을 막기 때문에 위장관에서 음식물을 통과시킬 수 없다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려동물 전문매체 스프루스 펫에 따르면, 토끼는 기관 구조상 구토를 할 수 없기 때문에 털손질을 하면 할수록 헤어볼은 위장 속에서 점점 커져가 폐색이 유발된다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.viva100.com/main/view.php?key=20190328001928169",
+            "search_query": "반려토끼 헤어볼",
+            "terminate": false,
+            "text": "네. 헤어볼로 토끼도 사망할 수 있어요. 토끼 헤어볼 정식 이름은 모구증이라고 하는데요. 이 헤어볼은 위장을 막아버리기 때문에 위장관에서 음식이 통과되지 않는답니다. 반려동물 전문 매체인 스프루스 펫에 의하면 기관 구조상 토끼는 구토가 불가능하므로 털 손질을 할수록 위장속 헤어볼은 점점 커져가 폐색이 유발될 수 있다고 밝혔어요.",
+            "turn_id": "BK22015026-8",
+            "utterance_id": "BK22015026.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "모구증 때문에 죽을 수도 있다니, 꽤 위험한 거네요. 빗질을 자주 해줘야 할 것 같아요.",
+            "turn_id": "BK22015026-9",
+            "utterance_id": "BK22015026.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 개나 고양이보다도 키우기 쉬운 동물이 토끼일 것 같지만 관심과 사랑을 줘야 하는 건 어떤 동물이든 마찬가지랍니다.",
+            "turn_id": "BK22015026-9",
+            "utterance_id": "BK22015026.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 그렇게 생각해요. 아이가 학교에서 올 때가 돼서 전 이만 가볼게요. 대화 즐거웠어요.",
+            "turn_id": "BK22015026-10",
+            "utterance_id": "BK22015026.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저도 즐거운 대화였어요. 반려동물을 들이는 건 가족이 한명 더 생기는 것과 같은 거니까 신중하게 결정해 보시길 바라요. 그럼 안녕히 가세요.",
+            "turn_id": "BK22015026-10",
+            "utterance_id": "BK22015026.20"
+        }
+    ]
+}

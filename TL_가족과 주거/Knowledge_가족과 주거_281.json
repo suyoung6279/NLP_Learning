@@ -1,0 +1,413 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015003",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015003",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0028"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 전세로 집을 알아보고 있는데 쉽지 않네요. 해외 이야기를 들어보면 보통 월세던데 해외에는 전세가 없나요?",
+            "turn_id": "BK22015003-1",
+            "utterance_id": "BK22015003.1"
+        },
+        {
+            "reference_date": "2022-06-04",
+            "reference_text": [
+                {
+                    "value": "사실 한국처럼 탄탄한 금융시스템을 갖춘 나라 중에 전세가 운영되는 사례는 없다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "볼리비아에 안티크레티코(anticretico)나 인도의 보기(bogey)ㆍ거비(girvy)를 비롯해 모로코와 콜롬비아에도 전세와 유사한 제도가 있지만, 금융제도가 취약한 나라라는 공통점이 있다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2020081914230001580?did=NA",
+            "search_query": "전세제도 한국에만",
+            "terminate": false,
+            "text": "우리나라처럼 튼실한 금융시스템을 갖춘 나라 가운데 전세를 운영하고 있는 곳은 없어요. 볼리비아의 안티크레티코나 인도의 보기, 거비와 모로코, 콜롬비아 같은 국가에 전세와 비슷한 제도가 있긴 하지만, 이들 국가들은 금융제도가 취약하다는 공통점이 있죠.",
+            "turn_id": "BK22015003-1",
+            "utterance_id": "BK22015003.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "해외에도 있긴 있군요. 그럼 전세에 대한 기록은 언제부터 있나요?",
+            "turn_id": "BK22015003-2",
+            "utterance_id": "BK22015003.3"
+        },
+        {
+            "reference_date": "2022-06-04",
+            "reference_text": [
+                {
+                    "value": "전세의 원조는 기원전 15세기 메소포타미아 시대 안티크레시스(antichresis)를 꼽을 수 있다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "안티크레시스의 사전적 의미는 ‘채권자가 채무자의 부동산을 점유하고 원리금 대신 해당 부동산에서 발생하는 수익을 취하는 계약’이다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2020081914230001580?did=NA",
+            "search_query": "전세제도 역사",
+            "terminate": false,
+            "text": "전세의 시초는 기원전 15세기 메소포타미아 시대로 거슬러 올라가요. 그 당시 시행되었던 안티크레시스를 꼽을 수 있는데요, 채권자가 채무자의 부동산을 점유하고 원리금 대신 해당 부동산에서 생기는 수익을 가져가는 계약을 말해요.",
+            "turn_id": "BK22015003-2",
+            "utterance_id": "BK22015003.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기원전 15세기라니 진짜 상상도 못 했어요. 우리나라에 전세 제도가 들어온 건 언제인가요?",
+            "turn_id": "BK22015003-3",
+            "utterance_id": "BK22015003.5"
+        },
+        {
+            "reference_date": "2015-04-10",
+            "reference_text": [
+                {
+                    "value": "전세의 역사는 조선시대로 거슬러 올라간다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "조선시대엔 세입자가 집주인에게 목돈을 빌려주고 집을 빌려 쓰는 가사전당(家舍典當)제도가 있었다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "빚에 대한 담보로 논과 밭을 넘기는 ‘전당(典當)’제도가 집으로 확대된 것이다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/economy/real_estate/article/201504102150535?www",
+            "search_query": "한국의 전세 역사",
+            "terminate": false,
+            "text": "우리나라 전세는 조선시대에도 기록을 살펴볼 수 있어요. 조선시대에는 집주인이 세입자에게 목돈을 빌리고 집을 내어주는 가사 전당 제도가 있었거든요. 빚의 담보로 논이나 밭을 넘겨주는 전당 제도가 집으로 발전하게 된 거에요.",
+            "turn_id": "BK22015003-3",
+            "utterance_id": "BK22015003.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 집주인의 입장에서는 월세를 받는 게 이득일 것 같다는 생각이 드는데, 전세가 잘 유지되었던 이유가 있을까요?",
+            "turn_id": "BK22015003-4",
+            "utterance_id": "BK22015003.7"
+        },
+        {
+            "reference_date": "2015-04-10",
+            "reference_text": [
+                {
+                    "value": "광복 후엔 도시화·산업화 물결과 함께 전세 제도가 본격적으로 자리 잡았다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "전세는 집주인들이 집을 살 때 모자란 목돈을 보충하는 통로였다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "전세 보증금이 이자 없는 은행 대출 역할을 한 것이다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "전세 보증금을 받아 은행에 넣어둬도 이자가 연 10~20%에 육박해 월세보다 나았다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "전세 보증금은 불확실한 세입자의 신원을 보증하는 역할을 했고, 집주인은 매달 월세를 걷는 스트레스를 받을 필요가 없었다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/economy/real_estate/article/201504102150535?www",
+            "search_query": "한국의 전세 남는 장사",
+            "terminate": false,
+            "text": "해방이 된 후 도시화에 산업화가 일어나며 전세 제도도 본격적인 자리매김을 해요. 집주인이 집을 구매할 때 모자란 금액을 채워주는 것이 바로 전세였거든요. 전세 보증금이 이자를 내지 않아도 되는 대출처럼 여겨졌죠. 세입자에게 전세 보증금을 받아 은행에 예금하면 이자가 연 10~20%나 되었으니 월세를 받는 것보다 나았죠. 전세 보증금은 확실치 않은 세입자의 신원을 보증해주면서 매달 월세를 받으러 다니는 스트레스에서 벗어날 수 있기도 했어요.",
+            "turn_id": "BK22015003-4",
+            "utterance_id": "BK22015003.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이율이 월세를 받는 것보다 좋았던 시대가 있었군요. 그런데 지금은 전세가 전보다 많이 줄어들고, 월세가 엄청 많아졌잖아요. 그 이유가 있나요?",
+            "turn_id": "BK22015003-5",
+            "utterance_id": "BK22015003.9"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "그동안 임차인들은 목돈 마련에 어려움을 겪으면서도 매월 따박따박 내야하는 월세에 대한 부담으로 전세를 선호하는 편이었다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 전세값이 집값 턱밑까지 치솟으면서 ‘깡통전세’ 위험이 높아졌고, 금리 인상으로 대출금 이자 부담이 커지자 임대차 계약에서 월세 선호도가 높아지고 있다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이자 부담과 전세 사기 피해에서 벗어나기 위한 선택으로 보인다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newsquest.co.kr/news/articleView.html?idxno=100519",
+            "search_query": "월세가 많아지는 이유",
+            "terminate": false,
+            "text": "지금까지 세입자들은 목돈을 만드는 게 힘들지만 매달 꼬박꼬박 지불해야하는 월세가 부담스러워 전세를 더 선호했었는데요, 전세 보증금이 집값과 비슷해지면서 이른바 깡통전세의 위험이 높아졌고, 금리가 오르면서 대출금에 대한 이자도 비싸지자 월세의 선호도가 올랐기 때문이에요. 이자를 내기가 힘들고 또 전세 사기에 대한 걱정을 하고 싶지 않은 움직임으로 보여요.",
+            "turn_id": "BK22015003-5",
+            "utterance_id": "BK22015003.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어느 정도는 공감이 되는 내용이네요. 전세 보증금도 한두푼이 아니다 보니 걱정이 안 될 수 없거든요. 집을 알아보며 깡통전세라는 말을 자주 들었는데 정확히 어떤 건가요?",
+            "turn_id": "BK22015003-6",
+            "utterance_id": "BK22015003.11"
+        },
+        {
+            "reference_date": "2022-09-14",
+            "reference_text": [
+                {
+                    "value": "깡통전세란, 주택담보대출금과 전세보증금을 합친 금액이 주택 매매가격과 비슷하거나 높은 경우를 말한다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "깡통주택에 세입자로 들어가면 계약 기간이 끝나도 집주인으로부터 전세금을 돌려받지 못하는 상황이 생길 수 있다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mediahub.seoul.go.kr/archives/2005373",
+            "search_query": "깡통전세란",
+            "terminate": false,
+            "text": "깡통전세는 주택담보대출금과 전세보증금을 더한 금액이 주택의 매매가와 비슷하거나 더 높은 집을 말해요. 이런 깡통주택에 들어가게 되면 계약이 만료되어도 집주인에게 보증금을 반환받지 못할 수 있죠.",
+            "turn_id": "BK22015003-6",
+            "utterance_id": "BK22015003.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "보증금을 받지 못할 수 있다니 상상만으로도 무섭네요. 그럼 집을 알아볼 때 깡통전세인지 미리 확인할 수 있는 방법이 없나요?",
+            "turn_id": "BK22015003-7",
+            "utterance_id": "BK22015003.13"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "깡통 전세인지 확인하려면 매매가격과 전세가격을 비교해봐야 하는데요.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "신축 빌라 등 실거래가 정보가 부족한 주택이면 인근 다른 빌라의 시세를 확인해보고 전세가율이 최소 80% 아래일 때 계약하는 게 좋습니다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.bizwatch.co.kr/article/real_estate/2022/09/08/0018",
+            "search_query": "깡통전세인지 알아보려면",
+            "terminate": false,
+            "text": "네, 있어요. 매매가와 전세가를 비교해보면 돼요. 신축 빌라와 같은 실거래가의 정보가 부실한 주택 같은 경우 근처의 다른 빌라들은 시세가 어떤지 체크해보고 전세가 비율이 최소 80% 이하일 때 계약하는 것을 추천해요.",
+            "turn_id": "BK22015003-7",
+            "utterance_id": "BK22015003.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "큰돈이 들어가는 만큼 꼼꼼히 체크하는 노력이 필요하군요. 그래도 혹시 모를 피해를 예방하기 위해 세입자가 취할 수 있는 방법도 있는지 궁금해요.",
+            "turn_id": "BK22015003-8",
+            "utterance_id": "BK22015003.15"
+        },
+        {
+            "reference_date": "2022-09-08",
+            "reference_text": [
+                {
+                    "value": "소액이라면 전입신고와 확정일자만 받아두어도 됩니다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "매매나 경매 등으로 소유권 이전이 된다고 하더라도 안전하게 돌려받을 수 있기 때문입니다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "소액임차인보호제도가 있기 때문입니다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://wellbeingilbo.com/%EA%B9%A1%ED%86%B5%EC%A0%84%EC%84%B8-%ED%94%BC%ED%95%98%EB%8A%94%EB%B2%95/",
+            "search_query": "깡통전세 피하는법",
+            "terminate": false,
+            "text": "보증금이 소액인 경우 전입신고와 확정일자만 받아두어도 안전해요. 소액임차인보호제도가 있으니 매매나 경매로 소유권이 넘어간다 해도 보증금을 안전히 반환받을 수 있기 때문이에요.",
+            "turn_id": "BK22015003-8",
+            "utterance_id": "BK22015003.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 만약 전세 보증금 규모가 큰 경우에는 어떤 조치를 취할 수 있을까요?",
+            "turn_id": "BK22015003-9",
+            "utterance_id": "BK22015003.17"
+        },
+        {
+            "reference_date": "2019-03-04",
+            "reference_text": [
+                {
+                    "value": "활용할 수 있는 반환보증은 HUG의 전세보증금반환보증이나 SGI의 전세금반환신용보험이다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "계약 기간이 만료되면 HUG나 SGI로부터 전세보증금을 돌려받을 수 있다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전세금이 하락하거나 집주인의 신용에 문제가 생겨 집이 경매로 넘어가도 전세보증금은 걱정 없다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "단 전세 계약 기간 절반이 지나기 전에 가입해야 한다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/economy/view.php?sc=50000001&year=2019&no=128135",
+            "search_query": "깡통전세 피하는법 보증보험",
+            "terminate": false,
+            "text": "HUG의 전세보증금반환보증, SGI의 전세금 반환신용보험을 활용할 수 있어요. 전세 계약이 끝나면 HUG 혹은 SGI에게 보증금을 반환받을 수 있거든요. 전세값이 떨어지거나 집주인의 신용도에 문제가 생겨 경매로 집이 처분되더라도 보증금은 지킬 수 있어요. 다만 전세 계약 기간의 50%가 지나기 전에 가입해야 하니 참고하세요.",
+            "turn_id": "BK22015003-9",
+            "utterance_id": "BK22015003.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조금 귀찮아지더라도 보험은 꼭 들어둬야겠어요. 깡통전세에 대해 잘 몰라서 궁금했었는데 잘 알려줘서 고마워요.",
+            "turn_id": "BK22015003-10",
+            "utterance_id": "BK22015003.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전세는 목돈이 들어가는 일인 만큼 성급하게 결정하지 마시고 잘 알아본 후 들어가셔야 해요. 집 알아보시다가 궁금한 점이 생기면 그냥 넘어가지 마시고 물어보러 오시고요.",
+            "turn_id": "BK22015003-10",
+            "utterance_id": "BK22015003.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 그렇게 할게요. 날짜가 조금 급해서 아무 집이나 나왔으면 좋겠다고 생각했는데 덕분에 경각심이 생겼어요. 그럼 다음에 또 봐요.",
+            "turn_id": "BK22015003-11",
+            "utterance_id": "BK22015003.21"
+        }
+    ]
+}

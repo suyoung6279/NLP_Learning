@@ -1,0 +1,391 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009120",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009120",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0036"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산후조리원에서 퇴소하고 집에 와서 한 달째 아이를 보는데 독박육아라 너무 힘드네요.",
+            "turn_id": "BK22009120-1",
+            "utterance_id": "BK22009120.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이고, 고생 많으시겠어요. 저도 조리원 퇴소하고 굉장히 막막하고 두려웠던 기억이 나네요.",
+            "turn_id": "BK22009120-1",
+            "utterance_id": "BK22009120.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러셨군요, 근데 저는 요새 모든 일에 너무 짜증이 나요. 기운도 없고 아기 볼 힘도 안 나고 잠이 너무 안 와요. 저 혹시 말로만 듣던 산후우울증일까요?",
+            "turn_id": "BK22009120-2",
+            "utterance_id": "BK22009120.3"
+        },
+        {
+            "reference_date": "2022-08-07",
+            "reference_text": [
+                {
+                    "value": "산후우울증 증상을 보면 ▲피로와 무기력감 ▲짜증 ▲불평 ▲아기 건강에 대한 과도한 걱정 ▲불면증 ▲육아에 대한 부담감 등이 주로 꼽힌다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://moneys.mt.co.kr/news/mwView.php?no=2022080515481067235",
+            "search_query": "산후 우울증 증상",
+            "terminate": false,
+            "text": "네, 모두 산후우울증 증상이네요. 산후우울증 증세를 보면 피로와 무기력감, 짜증, 불평, 아기 건강에 대한 과도한 걱정, 불면증, 육아에 대한 부담감 등이 주된 증상이에요.",
+            "turn_id": "BK22009120-2",
+            "utterance_id": "BK22009120.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그런데 제가 산후 우울증이라고 확신할 수 있는 테스트도 있을까요?",
+            "turn_id": "BK22009120-3",
+            "utterance_id": "BK22009120.5"
+        },
+        {
+            "reference_date": "2020-07-23",
+            "reference_text": [
+                {
+                    "value": "세계적으로 널리 사용되는 에딘버러 산후우울증 검사 설문.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지난 일주일간의 감정과 가장 가까운 항목에 체크해 점수를 합산할 것.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "총점이 10점 이상이라면 전문가와의 상담이 필요하다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ggilbo.com/news/articleView.html?idxno=785310",
+            "search_query": "에딘버러 산후우울 검사",
+            "terminate": false,
+            "text": "네, 산후 우울증은 에딘버러 산후우울증 검사를 통해서도 알아볼 수 있어요. 지난 일주일간의 감정과 가장 유사한 항목에 체크해 점수를 합했을 때 10점 이상이라면 의사 등 전문가와의 상담이 필요해요.",
+            "turn_id": "BK22009120-3",
+            "utterance_id": "BK22009120.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금 해봤는데 18점이 나오는 걸 보니 정말 산후 우울증이 맞나보네요. 그런데 아이를 낳은 건 큰 기쁨인 건 맞는데, 산후 우울증은 왜 생기는 걸까요?",
+            "turn_id": "BK22009120-4",
+            "utterance_id": "BK22009120.7"
+        },
+        {
+            "reference_date": "2022-08-07",
+            "reference_text": [
+                {
+                    "value": "산후우울증은 임신 기간 막대한 양의 호르몬이 발생하는 것과 관련돼 있다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "임신을 하면 여성 호르몬인 에스트로겐과 프로게스테론 분비량이 크게 늘어난다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "출산 이후 48시간 내에 에스트로겐과 프로게스테론이 90% 이상 감소하면서 임신 전과 비슷한 수치로 돌아간다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이런 호르몬의 급격한 변화는 뇌에 있는 기분과 감정을 조절하는 세로토닌 신경 전달 체계에 영향을 미쳐 산후우울증을 유발하는 원인이 된다는 게 의료계의 설명이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://moneys.mt.co.kr/news/mwView.php?no=2022080515481067235",
+            "search_query": "산후 우울증 호르몬",
+            "terminate": false,
+            "text": "두 가지 이유가 있어요. 한 가지는 산후우울증은 임신 기간 큰 양의 호르몬이 생기는 것과 연관되어 있어요. 임신하면 여성 호르몬인 에스트로겐과 프로게스테론의 배출이 많아지거든요. 그리고 출산 이후 48시간 이내에 에스트로겐과 프로게스테론이 90% 이상 줄어들면서 임신 전과 비슷한 수준으로 변해요. 이런 호르몬의 급격한 변화는 뇌에 있는 기분과 감정을 적당하게 맞춰주는 세로토닌 신경 전달 체계에 작용해서 산후우울증을 발생시키는 원인이 돼요.",
+            "turn_id": "BK22009120-4",
+            "utterance_id": "BK22009120.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 혹시 호르몬 외에 두 번째 이유는 뭔가요?",
+            "turn_id": "BK22009120-5",
+            "utterance_id": "BK22009120.9"
+        },
+        {
+            "reference_date": "2022-08-07",
+            "reference_text": [
+                {
+                    "value": "심리·사회적인 요인도 산후우울증을 유발하기도 한다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "임신과 출산 후 신체 변화와 출산에 대한 걱정, 양육에 대한 부담감 등 심리적인 요인이 그 원인이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "출산과 동시에 육아가 시작돼 겪는 육체적인 피로는 물론 직장이나 사회생활에 대한 변화 등도 포함된다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://moneys.mt.co.kr/news/mwView.php?no=2022080515481067235",
+            "search_query": "산후 우울증 심리 사회적 요인",
+            "terminate": false,
+            "text": "심리, 사회적인 요인도 관련이 있어요. 임신과 출산 후 신체가 바뀌어 달라지는 것과 출산에 대한 염려, 양육에 대한 부담감 등도 그 원인이에요. 출산과 동시에 육아가 시작돼 겪는 몸의 피곤함은 물론 직장이나 사회생활에 대한 변동 등도 원인이 되죠.",
+            "turn_id": "BK22009120-5",
+            "utterance_id": "BK22009120.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 사회생활에 대한 변화가 큰 것 같아요. 아이를 키우니까 제 커리어, 저 자신은 사라지고 아이 엄마라는 역할만 남은 사람인 기분이 들더라고요. 제가 너무 과하게 생각하는 건가요?",
+            "turn_id": "BK22009120-6",
+            "utterance_id": "BK22009120.11"
+        },
+        {
+            "reference_date": "2022-07-16",
+            "reference_text": [
+                {
+                    "value": "대부분 엄마들은 출산과 동시에 ‘나를 위함’은 1도 없이 내 모든 것을 아기를 먹이고 재우는 일에 쏟는다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "여기에 주변에서도 “잘 자야 아기를 잘 볼 수 있다”, “잘 먹어야 젖이 잘 나온다” 등 아기를 최우선 순위에 두는 언행을 자주한다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아직 ‘환자’인 산모는 이런 상황에 아쉽고 서운한 마음이 생긴다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "‘이전의 나는 없고 OO이 엄마만 있다’는 느낌을 강하게 받으면서 자아가 위축될 수밖에 없다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220715514268?OutUrl=naver",
+            "search_query": "산후 우울증 자아 위축",
+            "terminate": false,
+            "text": "아니요, 그럴 수 있어요. 대부분 엄마들은 출산과 동시에 나를 위함은 없이 내 모든 것을 아기를 먹이고 재우는 일에 집중하게 되죠. 여기에 주변 사람들도 잘 자야 아기를 잘 돌볼 수 있다, 잘 먹어야 젖이 잘 나온다 등 아기만을 가장 앞선 문제로 다루는 말과 행동을 많이 하죠. 아직 환자인 엄마는 이런 상태가 서운하고 섭섭한 마음이 들 수밖에 없고요. 이전에 나는 사라지고 OO이 엄마만 있다는 기분을 많이 느끼게 되면서 자아가 졸아들 수밖에 없죠.",
+            "turn_id": "BK22009120-6",
+            "utterance_id": "BK22009120.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 정말 딱 제 얘기에요. 그런데 산후우울증으로 병원에 꼭 가야 할까요? 시간이 지나면 그냥 점점 나아지지 않을까요?",
+            "turn_id": "BK22009120-7",
+            "utterance_id": "BK22009120.13"
+        },
+        {
+            "reference_date": "2022-07-16",
+            "reference_text": [
+                {
+                    "value": "생명이 위험한 상황이 아니더라도 산후우울증을 적극 치료해야 하는 이유가 있다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아이에게 후유증을 남길 수 있기 때문이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우울증을 앓는 엄마의 영향을 받은 아이들은 기질적으로 부정적인 정서를 보이고, 변화에 잘 적응하지 못하며 학업수행 능력이나 지적능력의 저하를 보일 수 있다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 또래들과 제대로 어울리지 못하고 집중력저하, 문제행동 등으로 인해 학교생활에 문제가 생길 수 있으며 우울증이나 불안장애를 보일 수도 있다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220715514268?OutUrl=naver",
+            "search_query": "산후 우울증 후유증",
+            "terminate": false,
+            "text": "아니요, 산후우울증을 꼭 치료받아야 하는 이유가 있어요. 왜냐하면 아이에게 후유증을 남길 수 있기 때문이에요. 우울증을 앓는 엄마에게서 영향력을 받은 아이들은 기질적으로 부정적인 정서가 나타나고, 학업 수행 능력이나 저조한 지적 능력을 보일 수 있고 변화에 잘 적응하지 못해요. 또 또래들을 제대로 사귀지 못하고 집중력저하, 문제행동 등으로 인해 학교생활에 말썽이 생길 수 있으며 우울증이나 불안장애가 나타날 수도 있어요.",
+            "turn_id": "BK22009120-7",
+            "utterance_id": "BK22009120.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이를 위해서라도 병원에 가봐야겠네요. 그런데 병원에 가는 것 외에 제가 산후 우울증을 극복하기 위해 해볼 만한 방법은 없을까요?",
+            "turn_id": "BK22009120-8",
+            "utterance_id": "BK22009120.15"
+        },
+        {
+            "reference_date": "2022-07-16",
+            "reference_text": [
+                {
+                    "value": "환자 본인은 자신의 감정을 주변 사람들에게 충분히 표현하고 친한 사람들과 자주 수다를 떨며 스트레스를 풀어야한다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "배우자의 육아 참여도를 높이고 아기가 잘 때 휴식을 잘 취해야 한다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지역 산모 지원 시스템을 활용해 육아 부담을 더는 것도 중요하다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220715514268?OutUrl=naver",
+            "search_query": "산후 우울증 배우자 육아 참여도",
+            "terminate": false,
+            "text": "자신의 느낌을 곁에 있는 사람들에게 잘 표현하고 친한 사람들과 수시로 수다를 떨며 스트레스를 해소해 주는 게 좋아요. 또 배우자의 육아 참여도를 늘리고 아기가 잘 때 휴식을 충분히 취해야 해요. 그리고 지역 산모 지원 시스템을 이용해 육아 부담을 감소시키는 것도 중대하죠.",
+            "turn_id": "BK22009120-8",
+            "utterance_id": "BK22009120.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그런데 남편은 어떻게 산후 우울증에서 벗어나도록 도울 수 있나요?",
+            "turn_id": "BK22009120-9",
+            "utterance_id": "BK22009120.17"
+        },
+        {
+            "reference_date": "2022-07-16",
+            "reference_text": [
+                {
+                    "value": "배우자는 어떻게 노력해야 하나.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보건의학계에선 △산모의 입장에서 공감하고 격려하기 △산모가 규칙적인 생활리듬을 가질 수 있도록 건강 지켜주기 △신생아 돌보는 일에 적극적으로 관여하기 등 방법을 제시하고 있다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220715514268?OutUrl=naver",
+            "search_query": "산후 우울증 남편",
+            "terminate": false,
+            "text": "보건 의학계에선 남편이 산모의 관점에서 동조하고 격려하기, 산모가 규칙적인 생활 리듬으로 생활할 수 있도록 건강 지켜주기, 신생아 케어에 적극적으로 참여하기 등의 방법을 제시하고 있어요.",
+            "turn_id": "BK22009120-9",
+            "utterance_id": "BK22009120.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "남편에게 이것저것 알려주는 방법을 써봐야겠네요. 오늘 도움 주셔서 정말 감사해요. 기분도 조금 나아지는 것 같아요.",
+            "turn_id": "BK22009120-10",
+            "utterance_id": "BK22009120.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "뭘요, 기운 내시고 병원에 꼭 다녀오세요. 그럼 조심히 들어가세요.",
+            "turn_id": "BK22009120-10",
+            "utterance_id": "BK22009120.20"
+        }
+    ]
+}

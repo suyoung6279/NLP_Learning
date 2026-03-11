@@ -1,0 +1,387 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22000571",
+        "name": "2022 한국어 블렌더봇 데이터 BK22000571",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "궁금한 게 있는데, 어제 우리 강아지가 묽은 똥을 싸서 걱정이 돼. 심각한 건 아니겠지?",
+            "turn_id": "BK22000571-1",
+            "utterance_id": "BK22000571.1"
+        },
+        {
+            "reference_date": "2019-06-15",
+            "reference_text": [
+                {
+                    "value": "개가 간혹 부드러운 연변을 보거나 설사할 때는 식이 변화나 환경 스트레스가 가장 흔한 원인이다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 평소와 달리 설사의 양이 많아지거나 지속해서 자주 관찰된다면 심각한 질병의 징조일 수 있다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.k-health.com/news/articleView.html?idxno=44356",
+            "search_query": "반려견 묽은 똥 증상",
+            "terminate": false,
+            "text": "가끔 묽은 똥을 싸거나 설사를 하는 거면 스트레스를 받았거나 먹는 게 바뀌어서 그런 탓이 클 거야. 그런데 평소랑 다르게 설사 양이 많아지거나 자주 설사를 하는 거면 심각한 병일 수도 있어.",
+            "turn_id": "BK22000571-1",
+            "utterance_id": "BK22000571.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 들어서 크게 스트레스 받을 일은 없었던 것 같은데. 개가 설사를 하는 원인은 뭐야?",
+            "turn_id": "BK22000571-2",
+            "utterance_id": "BK22000571.3"
+        },
+        {
+            "reference_date": "2019-06-15",
+            "reference_text": [
+                {
+                    "value": "설사를 주요 증상으로 하는 질환은 대표적으로 세균, 바이러스, 장내 기생충이 일으키는 감염성 장염이 있다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "위험한 원인으로 약물, 독성 물질 섭취 또는 염증성 장 질환, 대사성 질환(췌장, 간, 신장, 내분비 관련), 종양 등 위장관 운동성이나 장내 환경 변화를 일으키는 전신 질환을 들 수 있다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.k-health.com/news/articleView.html?idxno=44356",
+            "search_query": "반려견 설사 원인",
+            "terminate": false,
+            "text": "흔히 세균, 바이러스, 장내 기생충으로 인해 발생하는 감염성 장염에 걸렸을 때 설사를 하지. 위급한 경우는 염증성 장 질환이나 대사성 질환, 종양 등이 생겼을 때야.",
+            "turn_id": "BK22000571-2",
+            "utterance_id": "BK22000571.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 원인이 여러 가지구나. 파악을 잘 해야겠다. 보호자가 강아지 설사를 구별하는 방법은 어떻게 돼?",
+            "turn_id": "BK22000571-3",
+            "utterance_id": "BK22000571.5"
+        },
+        {
+            "reference_date": "2018-01-26",
+            "reference_text": [
+                {
+                    "value": "설사란 변이 원래의 단단함을 잃고 형태가 없어지거나 부드러운 형태로 변하는 것을 말한다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "설사를 구별하는 방법은 여러 가지다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보호자가 쉽게 알 수 있는 방법은 설사가 소장과 대장 중 어디에서 기인했는지 구별하는 것.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=34209",
+            "search_query": "강아지 설사 구별",
+            "terminate": false,
+            "text": "설사는 똥이 단단하지 않고 형태가 사라지거나 부드럽게 바뀌는 것을 말해. 구별법은 여러 가지인데, 그중 보호자가 쉽게 파악할 수 있는 방법은 설사가 소장 문제로 발생했는지 대장 문제로 발생했는지 구별하는 거야.",
+            "turn_id": "BK22000571-3",
+            "utterance_id": "BK22000571.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "두 가지 경우에 증상이 달라지나 보네. 강아지 설사가 소장 때문이면 어떤 증상을 보이니?",
+            "turn_id": "BK22000571-4",
+            "utterance_id": "BK22000571.7"
+        },
+        {
+            "reference_date": "2018-01-26",
+            "reference_text": [
+                {
+                    "value": "소장은 일반적으로 영양분, 수분, 전해질을 흡수한다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "소장에 문제가 생기면 음식물 흡수가 안 되다 보니 체중이 감소하고 컨디션이 전체적으로 많이 떨어진다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또 배변량이 증가하며 물기가 많은 변, 즉 설사를 하게 된다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "소장성 설사의 원인은 한둘이 아니지만 보통 바이러스성질환, 이물, 종양, 장중첩 및 대사적인 질환을 생각해볼 수 있다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=34209",
+            "search_query": "강아지 설사 소장성",
+            "terminate": false,
+            "text": "소장은 영양분, 수분, 전해질을 흡수하는 역할을 해. 그렇기 때문에 소장에 문제가 생기면 몸무게가 감소하고 컨디션이 확 나빠지면서 설사를 하게 돼. 대개의 경우 소장성 설사는 바이러스성 질환, 이물, 종양, 장 중첩, 대사적 질환을 의심해봐야 해.",
+            "turn_id": "BK22000571-4",
+            "utterance_id": "BK22000571.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "각 기관의 역할에 따라서 증상이 달라지겠구나. 그렇다면 대장성 설사의 경우에는 증상과 원인이 어떻게 달라?",
+            "turn_id": "BK22000571-5",
+            "utterance_id": "BK22000571.9"
+        },
+        {
+            "reference_date": "2017-04-14",
+            "reference_text": [
+                {
+                    "value": "대장의 주된 기능은 변의 형태를 만들고 수분을 흡수하며 변이 배출되기 전까지 저장하는 역할을 합니다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대장성 설사의 주된 특징은 대변량은 크게 변동사항이 없는데(때에 따라 차이가 있을 수 있음) 대부분 배변횟수가 증가하고 점액질이 과도하게 분비되는 편입니다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대부분의 대장성 설사는 식이적인 원인(사료의 급작스러운 교체, 새로운 음식의 투여, 오래된 음식의 투여 등) 및 기생충감염 때문에 발생할 수 있으며 스트레스, 종양, 장 중첩에 의해서도 발생할 수 있습니다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.khan.co.kr/news/sk_index.html?art_id=201704141558004&utm_source=livere&utm_medium=social_share",
+            "search_query": "강아지 설사 대장성",
+            "terminate": false,
+            "text": "대장의 역할은 수분을 흡수하고 변을 내보내기 전까지 저장하는 거지. 대장성 설사의 경우 대변량은 대개 변화가 없지만 배변 횟수가 증가하고 점액질이 많이 분비되는 특징이 있어. 식이 환경의 급작스러운 변화, 기생충 감염, 스트레스, 종양 등 원인은 여러 가지야.",
+            "turn_id": "BK22000571-5",
+            "utterance_id": "BK22000571.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "질환 이름만 들어도 너무 무서워. 우리 강아지가 큰일이 아니면 좋겠어. 강아지가 설사를 할 때 대처법도 알려줘.",
+            "turn_id": "BK22000571-6",
+            "utterance_id": "BK22000571.11"
+        },
+        {
+            "reference_date": "2021-07-12",
+            "reference_text": [
+                {
+                    "value": "급성 설사의 경우 무엇보다 안정과 수분 공급이 중요하다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 탈수가 많이 진행된 상태이거나 너무 어린 강아지, 노견이라면 정맥주사로 수분을 공급해야 한다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 세균, 기생충 등의 감염성인 경우 항생제를 사용해야 한다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.trendbiz.co.kr/news/articleView.html?idxno=2374",
+            "search_query": "강아지 설사 대처법",
+            "terminate": false,
+            "text": "급성 설사를 하면 일단 안정시키고 수분을 공급해주는 것이 중요한데, 이미 탈수가 많이 진행된 경우에는 정맥주사로 수분 공급을 해줘야 해. 세균이나 기생충에 감염됐다면 항생제를 써야 하고.",
+            "turn_id": "BK22000571-6",
+            "utterance_id": "BK22000571.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일단 물을 잘 챙겨주면서 지켜봐야겠다. 평소 관리도 중요한 것 같은데, 강아지 설사를 예방하는 방법도 있니?",
+            "turn_id": "BK22000571-7",
+            "utterance_id": "BK22000571.13"
+        },
+        {
+            "reference_date": "2021-07-12",
+            "reference_text": [
+                {
+                    "value": "규칙적인 식생활과 스트레스를 주지 않도록 해야 한다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또, 강아지의 장 건강을 위해 유산균 챙겨 먹이는 것이 좋으며, 금지된 음식와 이물질 주워 먹지 않도록 해줘야 한다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "감염 방지를 위한 개 디스템퍼 바이러스, 개 코로나 바이러스, 파보 바이러스, 렙토스피라 등 백신 접종도 시기 놓치지 않도록 맞춰야 한다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.trendbiz.co.kr/news/articleView.html?idxno=2374",
+            "search_query": "강아지 설사 예방법",
+            "terminate": false,
+            "text": "무엇보다 식생활을 규칙적으로 지켜서 스트레스를 받지 않도록 하는 게 중요하지. 강아지에게 금지된 음식을 주지 않고, 장이 건강할 수 있게 유산균을 먹이는 것도 좋아. 바이러스에 감염되지 않도록 여러 가지 백신 접종도 놓치지 말고.",
+            "turn_id": "BK22000571-7",
+            "utterance_id": "BK22000571.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스트레스 주지 않으려고 하는데 마음처럼 잘 안 되네. 반대로 궁금한 점이 생겨. 강아지가 건강한 상태일 때는 똥 모양이 어때?",
+            "turn_id": "BK22000571-8",
+            "utterance_id": "BK22000571.15"
+        },
+        {
+            "reference_date": "2022-05-12",
+            "reference_text": [
+                {
+                    "value": "반려견들마다 크기가 다르고 성향에 따라 실내, 혹은 실외 배변이 이루어지기 때문에 정확한 양, 횟수 정도를 단정 지을 수는 없지만 일반적으로 하루에 1~3회, 밝은~어두운 갈색, 휴지로 잡았을 때 형태가 유지되는 모양의 대변이면 건강한 변이라고 볼 수 있다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2022051117510743438",
+            "search_query": "강아지 건강한 대변 모양",
+            "terminate": false,
+            "text": "강아지마다 크기도 성향도 달라서 양이나 횟수 등을 딱 잘라서 말하기는 어렵지만, 보통 하루에 한 번에서 세 번, 밝거나 어두운 갈색, 잡았을 때 모양이 유지되면 건강한 대변이라고 판단할 수 있어.",
+            "turn_id": "BK22000571-8",
+            "utterance_id": "BK22000571.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 강아지는 어떨 때 보면 똥에 끈적끈적한 액체 같은 게 묻어 나오거든. 그것도 이상이 있는 상태라고 볼 수 있니?",
+            "turn_id": "BK22000571-9",
+            "utterance_id": "BK22000571.17"
+        },
+        {
+            "reference_date": "2022-05-12",
+            "reference_text": [
+                {
+                    "value": "반려견의 대변에 끈적한 점액이 묻어있는 것은 대장 내벽을 촉촉하게 유지하기 위해 장에서 만들어내는 윤활제다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대변이 윤기가 나는 정도라면 괜찮지만, 심하게 끈적거릴 경우 알레르기, 기생충, 감염 등을 의심해 볼 수 있으니 동물병원에 데려가는 것이 좋다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2022051117510743438",
+            "search_query": "강아지 대변 점액",
+            "terminate": false,
+            "text": "강아지 똥에 묻어 있는 끈적한 점액은 쉽게 말해 대장에서 만드는 윤활제야. 똥에 윤기가 도는 정도는 괜찮은데, 심하게 끈적거린다면 알레르기나 기생충 감염 때문일 수도 있으니까 병원에 가보도록 해.",
+            "turn_id": "BK22000571-9",
+            "utterance_id": "BK22000571.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 그렇구나. 오늘 대화하면서 여러 모로 관찰의 중요성을 깨닫게 됐어. 다음에 궁금한 게 생기면 또 물어볼게.",
+            "turn_id": "BK22000571-10",
+            "utterance_id": "BK22000571.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "보호자의 감이라는 게 있으니까 이상이 있으면 기록해두고 내원해서 진단받는 게 좋을 듯해. 언제든지 편하게 물어보렴. 잘 가!",
+            "turn_id": "BK22000571-10",
+            "utterance_id": "BK22000571.20"
+        }
+    ]
+}

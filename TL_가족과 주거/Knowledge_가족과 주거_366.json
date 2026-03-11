@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015222",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015222",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0027"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와이프가 임신 8주인데 산모 검사 결과에서 비타민 D 수치가 낮게 나왔어요. 너무 걱정이 되네요.",
+            "turn_id": "BK22015222-1",
+            "utterance_id": "BK22015222.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수치가 어느 정도로 낮게 나왔길래 그러세요?",
+            "turn_id": "BK22015222-1",
+            "utterance_id": "BK22015222.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와이프 검사 결과 비타민 D 수치가 20.4ng/mL로 부족하다고 하더라고요. 수치가 어느 정도 일 때 부족하다고 하는 건가요?",
+            "turn_id": "BK22015222-2",
+            "utterance_id": "BK22015222.3"
+        },
+        {
+            "reference_date": "2019-07-29",
+            "reference_text": [
+                {
+                    "value": "혈중 비타민 D가 20~30ng/mL 미만이면 부족, 10ng/mL 미만이면 결핍으로 규정한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000472538",
+            "search_query": "임신 비타민 D 부족",
+            "terminate": false,
+            "text": "혈중 비타민 D가 20~30ng/mL 미만이면 부족하다고 하고, 10ng/mL 미만이면 결핍이라고 해요. 아내 분 역시 비타민 D가 조금 부족하네요.",
+            "turn_id": "BK22015222-2",
+            "utterance_id": "BK22015222.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게요. 와이프와 같이 산책도 많이 하고 햇볕도 많이 쬐었는데 왜 비타민 D가 부족할까요?",
+            "turn_id": "BK22015222-3",
+            "utterance_id": "BK22015222.5"
+        },
+        {
+            "reference_date": "2019-07-29",
+            "reference_text": [
+                {
+                    "value": "우리가 착각하는 것 중 하나가 비타민 D는 햇볕을 쬐면 만들어진다는 것이다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 이는 자외선 B 파장 중 290~315㎜의 일부에서만 만들어지고 한국처럼 위도가 35도 이상인 지역은 해를 충분히 쬔다고 하더라도 충분한 비타민 D를 합성하기 쉽지 않다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000472538",
+            "search_query": "비타민 D 햇볕",
+            "terminate": false,
+            "text": "햇볕을 많이 쬐면 비타민 D가 만들어 질 거라고 생각하는데, 그건 정말 잘못된 정보에요. 비타민 D는 자외선 B 파장 중 290~315㎜의 일부에서만 만들어지는데 우리나라처럼 위도가 35도 이상인 지역은 햇볕을 오래 쬐어도 비타민 D를 충분히 합성하기 어려워요.",
+            "turn_id": "BK22015222-3",
+            "utterance_id": "BK22015222.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 그런데 비타민 D가 어떤 역할을 하길래 중요하다고 하는 건가요?",
+            "turn_id": "BK22015222-4",
+            "utterance_id": "BK22015222.7"
+        },
+        {
+            "reference_date": "2019-07-29",
+            "reference_text": [
+                {
+                    "value": "비타민 D는 우리 인체가 칼슘을 써서 튼튼한 뼈와 치아를 만들고 유지하도록 돕는 역할을 한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "체내 비타민 D가 결핍한 경우, 식이에 포함된 칼슘의 10~15% 정도만이 흡수되지만 비타민 D가 충분한 경우에는 30~40%까지 증가한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000472538",
+            "search_query": "비타민 D 뼈와 치아",
+            "terminate": false,
+            "text": "비타민 D는 우리 몸이 칼슘을 써서 튼튼한 치아와 뼈를 만들고 유지하도록 도와줘요. 체내에 비타민 D가 결핍한 경우 식이에 포함된 칼슘의 10~15% 정도만이 흡수되지만 비타민 D가 충분한 경우에는 흡수율이 30~40%까지 높아질 수 있어요.",
+            "turn_id": "BK22015222-4",
+            "utterance_id": "BK22015222.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 태아의 뼈를 만드는 데도 도움이 되겠네요. 비타민 D는 임신 중 언제 섭취를 해도 효과가 다 좋은 건가요?",
+            "turn_id": "BK22015222-5",
+            "utterance_id": "BK22015222.9"
+        },
+        {
+            "reference_date": "2019-07-29",
+            "reference_text": [
+                {
+                    "value": "임신 중에는 특히 태아의 뼈 성장을 위해 칼슘 흡수가 약 33% 증가하는데 특히 임신 후기에 흡수율이 가장 높다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000472538",
+            "search_query": "임신 중 비타민 D 칼슘 흡수",
+            "terminate": false,
+            "text": "비타민 D가 충분한 경우 태아의 뼈 성장을 위해 칼슘 흡수가 약 33% 증가하는데 흡수율은 임신 후기 때가 가장 좋아요.",
+            "turn_id": "BK22015222-5",
+            "utterance_id": "BK22015222.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 비타민 D가 부족할 경우 다른 문제점은 없나요?",
+            "turn_id": "BK22015222-6",
+            "utterance_id": "BK22015222.11"
+        },
+        {
+            "reference_date": "2019-07-29",
+            "reference_text": [
+                {
+                    "value": "2019년 미국 인디애나대학 보건대학원의 연구팀은 임신 초기 비타민 D가 결핍하면 임신성 당뇨에 걸릴 위험이 4배 이상 높아진다고 밝혔다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000472538",
+            "search_query": "비타민 D 결핍 임신성 당뇨",
+            "terminate": false,
+            "text": "2019년 미국 인디애나대학 보건대학원의 연구팀은 임신 초기 비타민 D가 결핍하면 그렇지 않은 사람들보다 임신성 당뇨에 걸릴 위험이 4배 이상이나 높다고 밝혔어요.",
+            "turn_id": "BK22015222-6",
+            "utterance_id": "BK22015222.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 정말이에요? 와이프도 수치가 적게 나왔는데, 정말 관리 잘해야겠어요. 비타민 D는 임신성 당뇨를 줄여주는 것 외에 또 어디에 좋은가요?",
+            "turn_id": "BK22015222-7",
+            "utterance_id": "BK22015222.13"
+        },
+        {
+            "reference_date": "2019-07-29",
+            "reference_text": [
+                {
+                    "value": "2019년, 질병관리본부 국립보건연구원은 생애 초기 아토피 피부염 발생을 예방하기 위해서 임신 기간에 적정한 비타민 D 농도를 유지할 것을 권고했다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000472538",
+            "search_query": "비타민 D 아토피 피부염 예방",
+            "terminate": false,
+            "text": "비타민 D는 아토피에도 좋아요. 2019년 질병관리본부 국립보건연구원은 임신기간 동안 아토피 피부염 발생을 예방하려면 적당한 비타민 D 농도를 유지하는 게 좋다고 권고했어요.",
+            "turn_id": "BK22015222-7",
+            "utterance_id": "BK22015222.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임산부에게 비타민 D가 정말 좋은 영양소였네요. 아내에게도 꼭 필요한 영양소인데 혹시 어떤 음식을 통해서 섭취할 수 있나요?",
+            "turn_id": "BK22015222-8",
+            "utterance_id": "BK22015222.15"
+        },
+        {
+            "reference_date": "2022-07-18",
+            "reference_text": [
+                {
+                    "value": "식품 중에는 기름 많은 생선(연어, 참치, 고등어), 간, 계란 노른자, 치즈 등에 들어 있으며 비타민D가 첨가된 시리얼과 우유 그리고 비타민D 보충제를 통해서도 섭취가 가능하다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202207180046&t=NN",
+            "search_query": "비타민 D 식품",
+            "terminate": false,
+            "text": "식품 중에는 기름기가 많은 생선인 연어나 참치, 고등어, 그리고 간이나 계란 노른자, 치즈 등이 있어요. 그 외에도 비타민 D가 들어있는 보충제를 통해서도 섭취할 수 있죠.",
+            "turn_id": "BK22015222-8",
+            "utterance_id": "BK22015222.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 주변에서 쉽게 구할 수 있는 식품들이네요. 잘 메모해 뒀다가 와이프 식단에 넣어 줘야겠어요. 지금부터라도 비타민D를 잘 먹으면 아내와 아이 모두 건강해지겠죠?",
+            "turn_id": "BK22015222-9",
+            "utterance_id": "BK22015222.17"
+        },
+        {
+            "reference_date": "2022-02-23",
+            "reference_text": [
+                {
+                    "value": "비타민 D는 산모의 건강뿐만 아니라, 태아의 건강, 그리고 태아가 성인이 되었을 때의 건강에도 큰 영향을 미친다.",
+                    "value_time": "2022-10-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 비타민 D는 임신기간 동안 꾸준하게 먹는 것이 좋다.",
+                    "value_time": "2022-10-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000673048",
+            "search_query": "비타민D 임신기간",
+            "terminate": false,
+            "text": "네, 비타민 D는 산모와 태아의 건강에 모두 좋고, 또 태아가 성인이 되었을 때의 건강에도 영향이 있기 때문에 임신기간 동안 꾸준히 먹는 걸 권해요.",
+            "turn_id": "BK22015222-9",
+            "utterance_id": "BK22015222.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 알려주셔서 감사해요. 오늘 좋은 정보 알려주셔서 많은 도움이 되었어요.",
+            "turn_id": "BK22015222-10",
+            "utterance_id": "BK22015222.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되셨다니 정말 다행이네요. 또 궁금한 점 있으면 언제든지 물어보세요.",
+            "turn_id": "BK22015222-10",
+            "utterance_id": "BK22015222.20"
+        }
+    ]
+}

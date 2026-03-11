@@ -1,0 +1,366 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22017381",
+        "name": "2022 한국어 블렌더봇 데이터 BK22017381",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "올해 결혼을 하는데, 집 구하는 게 너무 큰 걱정이야. 신혼부부에 대한 주거지원은 뭐가 있는지 좀 알아보고 싶어.",
+            "turn_id": "BK22017381-1",
+            "utterance_id": "BK22017381.1"
+        },
+        {
+            "reference_date": "43286.0",
+            "reference_text": [
+                {
+                    "value": "우선 신혼부부 주거지원 대상을 주거복지로드맵보다 28만가구 늘린 88만가구로 확대했다.",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지원 부문별로 △공공주택 38만가구 △분양가상한제 민간주택 특별공급 7만가구 △구입·전세자금 대출 43만가구 등이다.",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2018070514094993849",
+            "search_query": "신혼부부 주거지원 종류",
+            "terminate": false,
+            "text": "우선 결혼을 진심으로 축하드려요! 신혼부부에 대한 주거지원은 공공주택, 분양가 상한제 민간주택 특별공급, 구입 및 전세자금 대출이 시행되고 있어요.",
+            "turn_id": "BK22017381-1",
+            "utterance_id": "BK22017381.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 중에 특별공급에 대한 내용과 조건이 궁금해.",
+            "turn_id": "BK22017381-2",
+            "utterance_id": "BK22017381.3"
+        },
+        {
+            "reference_date": "44788.0",
+            "reference_text": [
+                {
+                    "value": "이 중 특별공급은 다자녀가구, 신혼부부, 노부모 부양자와 같은 사회적 우대계층을 배려하는 차원에서 해당자에게 우선적으로 주택을 분양하는 방법입니다.",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "입주자모집공고일 현재 혼인(혼인관계증명서의 신고일 기준)기간이 7년 이내일 것",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "주택세대구성원일 것(혼인신고일부터 입주자모집공고일까지 계속하여 무주택자일 것)",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1112&ccfNo=2&cciNo=2&cnpClsNo=1",
+            "search_query": "신혼부부 특별공급",
+            "terminate": false,
+            "text": "특별공급은 신혼부부나 다자녀가구, 노부모부양자처럼 사회적 우대계층에게 우선적으로 주택을 분양하는 방법이예요. 혼인관계증명서의 신고일을 기준으로 혼인신고 기간이 7년 이내이며 혼인신고일부터 입주자 모집 공고일까지 무주택자일 경우 신청이 가능해요.",
+            "turn_id": "BK22017381-2",
+            "utterance_id": "BK22017381.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 특별공급에 대한 내용은 대충 알겠어. 그럼 전세금 대출에 대한 건 어떤 내용이야?",
+            "turn_id": "BK22017381-3",
+            "utterance_id": "BK22017381.5"
+        },
+        {
+            "reference_date": "44837.0",
+            "reference_text": [
+                {
+                    "value": "청년과 신혼부부에게 낮은 금리로 전세 대출을 지원하는 버팀목대출 한도가 최대 3억원으로 늘어납니다.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "연 1.8%~2.4% 금리의 신혼부부 대출 한도는 기존 수도권 2억원, 지방 1억6000만원에서 수도권 3억원, 지방 2억원으로 늘어납니다.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대출 대상이 되는 주택의 전세보증금 상한도 수도권 4억원, 지방 3억원으로 각각 오릅니다.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "생애주기형구입자금전환대출'도 새로 도입해 대출 절차를 간편화하고 금리 혜택을 제공합니다.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.jtbc.co.kr/article/article.aspx?news_id=NB12081870",
+            "search_query": "신혼부부 전세대출",
+            "terminate": false,
+            "text": "신혼부부에게 낮은 금리로 전세 자금 대출을 지원해주는 버팀목대출이 있어요. 연 1.8% ~ 2.4% 금리로 대출한도는 수도권 지역에서 집을 얻는다면 3억원, 그 외 지역은 2억원까지예요. 대출대상이 되는 주택의 전세보증금 상한은 수도권 지역은 4억원, 지방은 3억원이예요. 이 뿐만 아니라 생애주기형구입자금전환대출을 이용해 간편한 대출 절차와 금리 혜택을 제공받을 수 있어요.",
+            "turn_id": "BK22017381-3",
+            "utterance_id": "BK22017381.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우린 서울에 집을 얻을 예정인데 서울시에서 따로 지원하는 신혼부부 지원 정책은 없을까?",
+            "turn_id": "BK22017381-4",
+            "utterance_id": "BK22017381.7"
+        },
+        {
+            "reference_date": "44699.0",
+            "reference_text": [
+                {
+                    "value": "2. 신혼부부들의 행복한 미래를 위해 내 집 마련의 꿈을 앞당겨주기 위해 소득대비 높은 주거비 부담을 줄여주는 신혼부부 임차보증금 이자지원사업을 서울시가 시행하고 있어요.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "○ 서울시민이거나 대출 후 1개월 이내 서울로 전입 예정인 자",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "○ 대출신청일로부터 혼인신고일 기준 7년 이내 신혼부부 혹은 6개월 이내 결혼식 예정인 예비신혼부부",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "○ 부부합산 연소득 9700만원 이하인 자",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "○ 본인 및 배우자 무주택자",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=105161",
+            "search_query": "서울시 신혼부부 임차보증금",
+            "terminate": false,
+            "text": "거주 예정지가 서울이라면 서울시에서 지원하는 신혼부부 임차보증금 이자 지원사업을 신청할 수 있어요. 서울시민이거나 대출 1개월 이내에 서울로 이사할 예정인 사람, 혼인신고일 기준 7년 이내의 신혼부부, 6개월 이내에 결혼 예정인 예비부부, 부부합산 소득이 연 9천 7백만원 이하에, 본인과 배우자가 무주택자인 경우, 이 조건을 모두 만족하는 사람이 사업 지원 대상이예요.",
+            "turn_id": "BK22017381-4",
+            "utterance_id": "BK22017381.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 지역별로 따로 또 지원을 해주기도 하는구나. 그런데 저렇게 대출을 받고 나서 사기를 당하면 어떡해? 요즘 깡통전세니 뭐니 말이 많잖아.",
+            "turn_id": "BK22017381-5",
+            "utterance_id": "BK22017381.9"
+        },
+        {
+            "reference_date": "44819.0",
+            "reference_text": [
+                {
+                    "value": "서울시는 우선 현재 시가 운영 중인 ‘신혼부부·청년 임차보증금 이자지원 사업’ 신청자가 깡통 전세 피해를 입었을 때 대출 상환과 시 이자 지원 기간을 계약 종료일로부터 최장 2년까지 연장할 수 있도록 할 방침이다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/national/regional/seoul/2022/09/15/23375SHNHFCP5ITLS6TZYSMEVA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "search_query": "신혼부부 깡통전세",
+            "terminate": false,
+            "text": "걱정하지 마세요. 서울시 신혼부부 및 청년 임차보증금 이자 지원사업 대상자는 전세 사기 피해를 입었을 경우, 이자 지원 기간을 계약 종료일부터 2년 간 연장하는 등의 방법으로 신청자를 보호를 하고 있어요.",
+            "turn_id": "BK22017381-5",
+            "utterance_id": "BK22017381.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사업 신청자가 최대한 피해를 입지 않도록 보호해주는 정책이 있다니 정말 다행이다. 그럼 특별공급이랑 전세대출 말고 행복주택은 신혼부부와는 상관없는 거야?",
+            "turn_id": "BK22017381-6",
+            "utterance_id": "BK22017381.11"
+        },
+        {
+            "reference_date": "44370.0",
+            "reference_text": [
+                {
+                    "value": "청년(19세∼39세·신혼부부·대학생 등 젊은계층의 주거불안 해소를 위해 국가 재정과 주택도시기금을 지원받아 대중교통이 편리하고 직주근접이 가능한 부지에 주변시세보다 저렴하게 공급하는 공공임대주택",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.lh.or.kr/contents/cont.do?sCode=user&mPid=231&mId=232&menuYear",
+            "search_query": "신혼부부 행복주택",
+            "terminate": false,
+            "text": "행복주택은 청년과 신혼부부 등 젊은 계층을 대상으로 주거불안을 해소하기 위해 시행하고 있어요. 국가 재정과 주택도시기금을 지원받아 대중교통이 편리하고 직장과 주거 지역이 가까운 부지에 주변 시세보다 저렴하게 공급하는 공공임대주택이죠.",
+            "turn_id": "BK22017381-6",
+            "utterance_id": "BK22017381.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "행복주택 중에 리츠라는 건 뭐야?",
+            "turn_id": "BK22017381-7",
+            "utterance_id": "BK22017381.13"
+        },
+        {
+            "reference_date": "43615.0",
+            "reference_text": [
+                {
+                    "value": "주거부담이 큰 월세 거주비율이 높은 청년·신혼부부를 대상으로 주택도시기금이 리츠를 설립하여 임차인 보증금과 기금을 통해 기존 주택을 매입한 후, LH가 시세의 90%이하로 공급하는 임대주택",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.lh.or.kr/contents/cont.do?sCode=user&mPid=231&mId=238&menuYear",
+            "search_query": "신혼부부 리츠",
+            "terminate": false,
+            "text": "주택도시기금이 설립한 리츠는 임차인 보증금과 기금을 통해 기존 주택을 매입해요. 이렇게 매입된 건물을 LH에서 시세의 90%이하로 공급하는 임대주택이죠.",
+            "turn_id": "BK22017381-7",
+            "utterance_id": "BK22017381.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 이것저것 많이 따져서 신청을 해야겠네. 그런데 집 말고 신혼부부를 위한 다른 지원 정책은 없어?",
+            "turn_id": "BK22017381-8",
+            "utterance_id": "BK22017381.15"
+        },
+        {
+            "reference_date": "42880.0",
+            "reference_text": [
+                {
+                    "value": "서울대학교병원운영 서울특별시보라매병원(원장 김병관)은 오는 6월부터 신혼부부들을 대상으로 건강검진 비용을 지원해 준다.",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "신혼부부가 보라매병원 종합건강진단센터에서 검진을 받을 경우 기본종합 검진에 더해 여성은 △자궁난소초음파 △자궁경부암검사 △풍진 △수두 등 추가 예비부부 검진을 받을 수 있으며, 남성은 △전립선 검사 △호르몬 검사 등 추가 검진이 가능하다.",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.viva100.com/main/view.php?key=20170525010008910",
+            "search_query": "신혼부부 웨딩검진 지원",
+            "terminate": false,
+            "text": "웨딩검진이라고 들어보셨어요? 서울시 보라매병원에서는 2017년 6월부터 신혼부부들을 대상으로 웨딩검진 비용을 지원해요. 기본 건강검진 외에 여성들은 자궁난소초음파, 자궁경부암, 풍진, 수두 등 추가적인 검사를 받을 수 있어요. 남성은 전립선과 호르몬 검사 등의 추가 검진을 받을 수 있어요.",
+            "turn_id": "BK22017381-8",
+            "utterance_id": "BK22017381.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 결혼 전에 나도 상대방도 건강한 지 서로 검사를 하는 게 맞다고 생각해. 결혼을 하고 나면 아무래도 임신이나 출산을 무시할 수 없으니까. 안 그래도 임신한 친구가 국민행복카드에 대해 알아보던데 그게 뭐야?",
+            "turn_id": "BK22017381-9",
+            "utterance_id": "BK22017381.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "국민행복카드는 건강보험에서 지급하는 임신, 출산, 육아 등 17종의 정부지원 바우처를 사용할 수 있는 카드예요.",
+            "turn_id": "BK22017381-9",
+            "utterance_id": "BK22017381.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 생각보다 신혼부부에 대한 정부지원이 많구나. 모르고 지나갔다면 아까울 뻔 했어.",
+            "turn_id": "BK22017381-10",
+            "utterance_id": "BK22017381.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아는 것이 힘이라는 말도 있잖아요. 다양한 신혼부부 정부지원을 활용해서 행복한 결혼생활 하시길 바랄게요!",
+            "turn_id": "BK22017381-10",
+            "utterance_id": "BK22017381.20"
+        }
+    ]
+}

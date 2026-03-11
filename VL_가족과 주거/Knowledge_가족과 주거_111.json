@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018054",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018054",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산책하다가 개가 다치는 경우나 응급 상황이 발생했을 때 당황하지 않으려면 대처법을 알아놔야 할 것 같아. 개가 찰과상을 입으면 제일 먼저 뭘 해줘야 해?",
+            "turn_id": "BK22018054-1",
+            "utterance_id": "BK22018054.1"
+        },
+        {
+            "reference_date": "44280.0",
+            "reference_text": [
+                {
+                    "value": "강아지가 찰과상이나 절상을 입었을 때 가장 중요한 점은 상처를 통한 추가 감염 방지다.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "먼저 오염된 상처 부위를 깨끗한 물이나 생리식염수로 씻어내고 출혈 부위를 압박해 추가적인 출혈이 없도록 해야 한다.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2021032418193181687",
+            "search_query": "강아지 찰과상",
+            "terminate": false,
+            "text": "개가 찰과상이나 절상을 입었을 때, 제일 중요한 건 상처로 인한 추가 감염 방지야. 우선 오염된 상처 부위를 생리식염수나 깨끗한 물로 씻어주고, 출혈 부위는 압박해서 추가 출혈이 생기지 않도록 해야 해.",
+            "turn_id": "BK22018054-1",
+            "utterance_id": "BK22018054.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지가 다친 상처 부위를 깨끗이 씻어줘야 하는데, 주변에 수돗가가 없으면 어떡해?",
+            "turn_id": "BK22018054-2",
+            "utterance_id": "BK22018054.3"
+        },
+        {
+            "reference_date": "44280.0",
+            "reference_text": [
+                {
+                    "value": "음용수도 필수로 챙겨가자.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "산책 중 목이 마를 때 마실 수도 있지만 상처가 났을 때 상처 부위를 씻어주는 용도로 사용이 가능하다.",
+                    "value_time": "44840.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2021032418193181687",
+            "search_query": "강아지 산책 물",
+            "terminate": false,
+            "text": "그런 상황이 올 가능성이 있으니까 산책할 때에는 마실 수 있는 물을 필수로 챙겨가. 산책 시 목마를 때 마실 수도 있지만, 상처가 생기면 상처 부위를 씻어주는 용도로 쓸 수 있거든.",
+            "turn_id": "BK22018054-2",
+            "utterance_id": "BK22018054.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음용수를 꼭 들고 다녀야겠다. 강아지랑 산책 할 때 이동해야 하는데 발바닥에 상처가 생기면 어떻게 해줘야 해?",
+            "turn_id": "BK22018054-3",
+            "utterance_id": "BK22018054.5"
+        },
+        {
+            "reference_date": "44280.0",
+            "reference_text": [
+                {
+                    "value": "특히 발 부분은 걷다 보면 상처가 더 벌어질 수 있으므로 소형견이라면 안아서 이동하고, 대형견이라면 상처 부위를 깨끗하게 감싸 이동해야 한다.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2021032418193181687",
+            "search_query": "강아지 발바닥 상처",
+            "terminate": false,
+            "text": "발 쪽은 걸으면 상처가 더 벌어질 수 있어. 대형견이면 상처 부위를 깨끗하게 감싸 이동하고, 소형견이면 안고 이동해야 해.",
+            "turn_id": "BK22018054-3",
+            "utterance_id": "BK22018054.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 발이 다치는 경우가 종종 생기더라. 강아지가 산책로에 깨진 유리 조각이나 이물질이 박히면 어떻게 해야 해?",
+            "turn_id": "BK22018054-4",
+            "utterance_id": "BK22018054.7"
+        },
+        {
+            "reference_date": "44280.0",
+            "reference_text": [
+                {
+                    "value": "발바닥이 뾰족한 물체에 찔리거나(자상) 이물질이 박혔다면 핀셋 등을 이용해 제거해 주고 상처 부위를 소독해 주면 된다.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2021032418193181687",
+            "search_query": "강아지 자상",
+            "terminate": false,
+            "text": "발바닥에 이물질이 박히거나 뾰족한 물체에 찔렸다면, 핀셋 등을 사용해 없애고, 상처 부위를 소독해 줘.",
+            "turn_id": "BK22018054-4",
+            "utterance_id": "BK22018054.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리집 강아지가 간혹 풀숲에 들어갔다가 풀씨가 발에 박히면 제일 먼저 무엇을 해주면 돼?",
+            "turn_id": "BK22018054-5",
+            "utterance_id": "BK22018054.9"
+        },
+        {
+            "reference_date": "44280.0",
+            "reference_text": [
+                {
+                    "value": "풀씨의 경우 움직일수록 한쪽 방향으로 이동하며 살을 점점 파고들어 깊숙이 박히는 특징을 갖고 있기 때문에 발은 건드리지 않는 것이 좋다.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2021032418193181687",
+            "search_query": "강아지 발바닥 풀씨",
+            "terminate": false,
+            "text": "풀씨는 움직일수록 한 방향으로 이동해서, 살을 점점 파고들고 깊이 박히는 특징을 갖고 있어서, 함부로 건드리지 않는 게 좋아.",
+            "turn_id": "BK22018054-5",
+            "utterance_id": "BK22018054.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나! 그런다음 집이나 병원가서 빼고 치료해 주면 되는거지. 강아지가 탈구나 골절되는 경우에는 어떻게 처치 해야해?",
+            "turn_id": "BK22018054-6",
+            "utterance_id": "BK22018054.11"
+        },
+        {
+            "reference_date": "44280.0",
+            "reference_text": [
+                {
+                    "value": "그러나 골절이나 탈구가 된 상황이라면 뼈를 맞추려 하지 말고 움직임을 최소화해 주는 것이 좋다.",
+                    "value_time": "44840.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "가능하다면 부목을 대는 것이 좋지만 통증이 심해 강아지가 만지지도 못하게 한다면 케이지에 넣어 안전하게 병원으로 이동하는 것이 바람직하다.",
+                    "value_time": "44840.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2021032418193181687",
+            "search_query": "강아지 골절",
+            "terminate": false,
+            "text": "탈구나 골절이 된 경우엔 뼈를 맞추려고 하지 말고, 동작을 최소화 해주는 게 좋아. 할 수 있다면 부목을 대는 것이 좋지만, 개가 통증이 심해 손도 못 대게 한다면, 케이지에 넣고 안전하게 병원으로 이동하는 것이 좋아.",
+            "turn_id": "BK22018054-6",
+            "utterance_id": "BK22018054.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이동하다가 차량 부딪치는 교통사고가 난 경우엔 어떻게 응급처치를 해야해?",
+            "turn_id": "BK22018054-7",
+            "utterance_id": "BK22018054.13"
+        },
+        {
+            "reference_date": "44280.0",
+            "reference_text": [
+                {
+                    "value": "교통사고를 당했다면 강아지가 크게 다치는 경우가 많기 때문에 우선 강아지의 호흡과 맥박, 혀 색깔 등을 살피고 바로 동물병원에 내원해 전신 검사를 받아야 한다.",
+                    "value_time": "44840.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2021032418193181687",
+            "search_query": "강아지 교통사고",
+            "terminate": false,
+            "text": "교통사고를 당하면 개가 심하게 다치는 경우가 많아. 먼저 강아지의 맥박과 호흡, 혀의 색을 살피고, 즉시 동물병원에 가서 전신검사를 받아야 해.",
+            "turn_id": "BK22018054-7",
+            "utterance_id": "BK22018054.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "교통사고는 너무 무섭다. 산책하면서 생길 수 있는 사고를 예방하기 위해 신경 써야겠어.",
+            "turn_id": "BK22018054-8",
+            "utterance_id": "BK22018054.15"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오전에 더워서 산책 못했다며, 저녁 산책하러 나갈 거야? 지금 바람도 선선하고 산책하기 딱 좋은 날씨다.",
+            "turn_id": "BK22018054-8",
+            "utterance_id": "BK22018054.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 나갈 거야. 공원에 가로등이 있긴 한데, 요즘 많이 어두워져서 불안해. 우리집 강아지랑 저녁 산책을 안전하게 할 수 있는 방법은 뭐가 있을까?",
+            "turn_id": "BK22018054-9",
+            "utterance_id": "BK22018054.17"
+        },
+        {
+            "reference_date": "44280.0",
+            "reference_text": [
+                {
+                    "value": "야간 산책 시에는 LED 불빛이 나오는 제품을 착용하는 것도 안전한 산책을 위한 하나의 방법이다.",
+                    "value_time": "44840.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2021032418193181687",
+            "search_query": "반려견과의 안전한 야간산책",
+            "terminate": false,
+            "text": "야간 산책할때는 LED 불빛이 나오는 제품을 이용하는 것도 안전한 산책을 위한 하나의 방법이지.",
+            "turn_id": "BK22018054-9",
+            "utterance_id": "BK22018054.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "밤에는 불빛이 나오는 제품이 도움이 되겠다. 야광 몸줄도 사놓고 사용해 봐야지.",
+            "turn_id": "BK22018054-10",
+            "utterance_id": "BK22018054.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "야광으로 된 제품도 좋네. 산책로 말고도 길을 다닐때도 항상 조심해야 해. 사고는 한순간이니까 산책시에 강아지를 잘 주시해줘.",
+            "turn_id": "BK22018054-10",
+            "utterance_id": "BK22018054.20"
+        }
+    ]
+}

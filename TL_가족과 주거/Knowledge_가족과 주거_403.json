@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015314",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015314",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즈음은 산후조리원도 임신 초기에 알아봐야 맘에드는 곳을 예약할 수 있다더라. 그래서, 미리 산후조리원을 선택하려고 하는데 어떻게 해야 할지 모르겠어. 산후조리원을 잘 선택하는 방법 좀 알려 줄래?",
+            "turn_id": "BK22015314-1",
+            "utterance_id": "BK22015314.1"
+        },
+        {
+            "reference_date": "2017-08-08",
+            "reference_text": [
+                {
+                    "value": "산후조리원을 선택할 때는 직접 방문하고 시설을 둘러보고 결정하는 것을 원칙으로 한다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "시간적 여유가 있을 때는 전화 상담으로 가격과 시설을 체크한 뒤 이용 후기와 경험담을 바탕으로 4~5곳의 후보군을 선택한다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=201708087087o",
+            "search_query": "산후조리원 미리 방문",
+            "terminate": false,
+            "text": "맞아, 일찍 알아보고 맘에 드는 산후조리원을 미리 예약해 두면 좋지. 산후조리원을 선택할 때에 기본적인 원칙은 직접 방문해 보는 거야. 먼저 전화로 가격이나 시설을 확인한 후 다른 사람들의 이용 후기와 경험담을 참고로 후보군을 4~5군으로 선택하면 돼.",
+            "turn_id": "BK22015314-1",
+            "utterance_id": "BK22015314.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산후조리원 선택할 때에는 방문해 보고 결정하는 게 좋겠구나. 친구가 산후조리원은 위치가 중요하다던데 어떤 곳에 있는 데가 괜찮은 거야?",
+            "turn_id": "BK22015314-2",
+            "utterance_id": "BK22015314.3"
+        },
+        {
+            "reference_date": "2016-10-14",
+            "reference_text": [
+                {
+                    "value": "소음이 큰 도로변·고층건물·계단이 많은 곳은 가급적 피하는 것이 좋다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고층일수록 임대료가 싸다는 점 때문에 소규모 산후조리원은 고층에 자리한 경우가 있지만 화재시 위험할 수 있다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01305446612812920&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "산후조리원 위치 파악",
+            "terminate": false,
+            "text": "응, 산후조리원의 위치도 중요하게 생각해 봐야 해. 소음이 큰 도로변이나 고층건물, 계단이 많은 곳에 위치한 산후조리원은 피하는 것이 좋아. 고층일수록 임대료가 저렴하기 때문에 소규모 산후조리원은 고층에 위치한 경우가 많은데 혹시 화재가 발생하면 위험할 수 있어.",
+            "turn_id": "BK22015314-2",
+            "utterance_id": "BK22015314.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조용하고 고층이 아닌 산후조리원이 좋은 곳이구나. 산후조리원의 가격이 천차만별이던데 어떤 곳을 선택하는 것이 좋을까?",
+            "turn_id": "BK22015314-3",
+            "utterance_id": "BK22015314.5"
+        },
+        {
+            "reference_date": "2017-08-08",
+            "reference_text": [
+                {
+                    "value": "비용대비 최적의 효과를 누릴 수 있는 곳을 선택한다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "마사지, 촬영 등 원하지 않는 서비스나 상품이 있다면 과감히 빼고 휴식과 신생아 관리에 집중할 수 있는 곳을 선택한다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=201708087087o",
+            "search_query": "산후조리원 선택 방법",
+            "terminate": false,
+            "text": "비용에 대비해서 효과가 좋은 곳을 고르는 것이 필요해. 마사지나 촬영같이 원하지 않는 상품이나 서비스보다는 신생아 관리와 산모의 휴식이 중점인 곳을 선택하는 것이 좋아.",
+            "turn_id": "BK22015314-3",
+            "utterance_id": "BK22015314.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "서비스에 현혹되지 말고 나의 휴식과 아기의 관리가 중점인 곳을 찾아야겠구나. 그리고, 먹는 것도 중요할 텐데 뭘 체크해 보면 알 수 있을까?",
+            "turn_id": "BK22015314-4",
+            "utterance_id": "BK22015314.7"
+        },
+        {
+            "reference_date": "2016-10-14",
+            "reference_text": [
+                {
+                    "value": "전문 영양사가 있는지, 보양식의 품질을 믿을 수 있는 지 확인해야 한다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "일반 식사와 다른 산모용 식사는 전문 영양사가 제공하는 것이 바람직하다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01305446612812920&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "산후조리원 선택 영양사",
+            "terminate": false,
+            "text": "응, 산모들에게 양질의 식사는 중요한 부분이지. 보양식 품질이 괜찮은지 확인해 보고, 전문 영양사가 있는지 확인해 보면 돼. 산모용 식사는 일반 식사와 달라 전문 영양사가 있는 곳이 좋아.",
+            "turn_id": "BK22015314-4",
+            "utterance_id": "BK22015314.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전문 영양사가 있는 곳이라면 믿고 먹을 수 있겠네. 그리고, 또 산후조리원을 선택할 때 조리원에서 확인해야 할 것은 뭐가 있어?",
+            "turn_id": "BK22015314-5",
+            "utterance_id": "BK22015314.9"
+        },
+        {
+            "reference_date": "2021-01-26",
+            "reference_text": [
+                {
+                    "value": "산모 방은 물론, 신생아실, 화장실 등 각 공간에 대한 소독 및 청결 관리가 잘 되고 있는지, 신생아마다 개별 젖병을 사용하는지, 가제수건 및 침구 등의 청결 상태는 잘 유지되고 있는지 등을 꼼꼼히 살펴야 한다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.businesskorea.co.kr/news/articleView.html?idxno=59200",
+            "search_query": "산후조리원 선택 위생상태",
+            "terminate": false,
+            "text": "산모 방, 신생아실, 화장실 같은 공간의 소독과 청결관리를 확인해야 해. 또, 신생아 젖병은 신생아별로 사용하는지, 가제 수건, 침구의 청결 관리를 꼼꼼하게 살펴봐야 해.",
+            "turn_id": "BK22015314-5",
+            "utterance_id": "BK22015314.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "청결관리가 어떻게 되고 있는지 살펴보는 것이 중요하겠구나. 그렇다면 외부인의 출입 가능 여부도 확인하는 것이 좋겠지?",
+            "turn_id": "BK22015314-6",
+            "utterance_id": "BK22015314.11"
+        },
+        {
+            "reference_date": "2021-01-26",
+            "reference_text": [
+                {
+                    "value": "출산한지 얼마 되지 않은 산모와 신생아는 그 누구보다 면역력이 약하고 감염에 취약하다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 외부인의 입실 제한이 철저히 지켜지고 있는지 확인해야 한다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.businesskorea.co.kr/news/articleView.html?idxno=59200",
+            "search_query": "산후조리원 선택 입실제한",
+            "terminate": false,
+            "text": "맞아, 산모나 신생아는 면역력이 약하고 감염병에 노출될 위험이 커서 외부인의 입실이 제한되지 않으면 곤란해. 그래서, 외부인의 입실 제한이 잘 지켜지는지 확인해야 해.",
+            "turn_id": "BK22015314-6",
+            "utterance_id": "BK22015314.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "외부인이 쉽게 들어오면 면역력이 약한 아기에게 문제가 될 수 있겠네. 그리고, 조리원 고를 때 확인해야 할 것이 더 있어?",
+            "turn_id": "BK22015314-7",
+            "utterance_id": "BK22015314.13"
+        },
+        {
+            "reference_date": "2021-12-20",
+            "reference_text": [
+                {
+                    "value": "적절한 산후조리원을 선택하기 위해서는 우선 전문인력의 상주 여부를 확인해야 한다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가장 좋은 방법은 전문의가 상주하는 산부인과와 연계된 산후조리원을 찾는 것이다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "산부인과와 산후조리원이 연계돼 있으면 산모와 신생아에게 이상이 생겨도 즉각적으로 대응할 수 있기 때문이다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://sjbnews.com/news/news.php?number=731842",
+            "search_query": "산후조리원 선택 전문인력",
+            "terminate": false,
+            "text": "전문 인력이 상주하는 곳인지 확인해야 해. 전문의가 상주하는 산부인과와 연계된 산후조리원은 산모와 신생아에게 문제 상황이 발생하면 바로 대응할 수 있다는 장점이 있지.",
+            "turn_id": "BK22015314-7",
+            "utterance_id": "BK22015314.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "문제 상황이 발생했을 때 전문 인력이 바로 케어해줄 수 있다면 좋겠네. 그럼, 산후조리원을 선택하고 계약할 때에는 뭘 확인하면 좋을까?",
+            "turn_id": "BK22015314-8",
+            "utterance_id": "BK22015314.15"
+        },
+        {
+            "reference_date": "2018-01-17",
+            "reference_text": [
+                {
+                    "value": "계약서를 꼼꼼히 읽어 보는 자세도 갖춰야 한다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "문제의 소지가 있는 부분을 발견했다면 계약서에 별도로 기재하도록 한다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "불가피한 상황에 의해 계약을 취소할 경우 계약금 환불은 어떻게 이루어지는지도 미리 체크해야 한다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dt.co.kr/contents.html?article_no=2018011702109923811001&ref=naver",
+            "search_query": "산후조리원 계약",
+            "terminate": false,
+            "text": "계약서를 꼼꼼히 읽고 작성해야 해. 혹시 계약서에 문제가 발생할 수 있는 부분이 있다면 계약서에 따로 기재해 둬야 해. 그리고, 계약을 취소할 경우 계약금 환불 관련해서도 미리 확인해야 하고.",
+            "turn_id": "BK22015314-8",
+            "utterance_id": "BK22015314.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "계약서 작성할 때에도 꼼꼼하게 확인할 것들이 있구나. 산후조리원을 어떻게 계약할지 걱정이 많았는데 덕분에 많은 도움이 되었어.",
+            "turn_id": "BK22015314-9",
+            "utterance_id": "BK22015314.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "언제든지 궁금한 것 생기면 물어봐.",
+            "turn_id": "BK22015314-9",
+            "utterance_id": "BK22015314.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고마워, 우리는 다음에 또 이야기 나누자.",
+            "turn_id": "BK22015314-10",
+            "utterance_id": "BK22015314.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 다음에 보자, 안녕.",
+            "turn_id": "BK22015314-10",
+            "utterance_id": "BK22015314.20"
+        }
+    ]
+}

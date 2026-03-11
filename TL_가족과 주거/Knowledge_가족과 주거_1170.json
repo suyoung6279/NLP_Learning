@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007628",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007628",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "모유 수유가 어려울 것 같아서 아무래도 아이에게 분유를 먹여야 할 것 같아요. 그런데 분유를 골라야 하는데 뭐가 뭔지 하나도 모르겠어요.",
+            "turn_id": "BK22007628-1",
+            "utterance_id": "BK22007628.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇죠. 분유가 워낙 종류도 많고 제품도 많으니 처음 고르시려면 어려우실만해요.",
+            "turn_id": "BK22007628-1",
+            "utterance_id": "BK22007628.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 그런데 분유를 사려고 보니 조제유가 있던데 그건 뭔가요?",
+            "turn_id": "BK22007628-2",
+            "utterance_id": "BK22007628.3"
+        },
+        {
+            "reference_date": "2020-05-25",
+            "reference_text": [
+                {
+                    "value": "조제유는 60% 이상의 우유 성분을 바탕으로 영·유아의 성장발달에 필요한 무기질, 비타민 등 영양성분을 첨가해 만든 제품이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "모유와 유사한 성분으로 가공해 말 그대로 모유 대용품이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sportsseoul.com/news/read/919832?ref=naver",
+            "search_query": "분유 조제유",
+            "terminate": false,
+            "text": "조제유는 60퍼센트 이상이 우유 성분이 바탕인 제품을 말해요. 아기가 자라는데 필요한 무기질과 비타민의 영양성분을 첨가해서 만들어졌고, 모유와 비슷한 성분으로 만들어진 모유 대용품이에요.",
+            "turn_id": "BK22007628-2",
+            "utterance_id": "BK22007628.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 조제유는 모유 대용품을 말하는 거였군요. 그러면 조제식도 있던데 그건 뭐예요?",
+            "turn_id": "BK22007628-3",
+            "utterance_id": "BK22007628.5"
+        },
+        {
+            "reference_date": "2020-05-25",
+            "reference_text": [
+                {
+                    "value": "조제식은 우유 성분이 60% 미만으로 분리대두단백 또는 기타의 식품에서 분리한 단백원으로 만든 제품이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "영아의 성장·발육을 위해 기타의 식품, 무기질, 비타민 등의 영양성분을 첨가해 이유식 대용으로 사용된다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sportsseoul.com/news/read/919832?ref=naver",
+            "search_query": "분유 조제유 조제식",
+            "terminate": false,
+            "text": "조제식의 경우 우유 성분이 60 퍼센트 미만인 제품을 말해요. 분리대두단백이나 기타의 식품에서 나온 단백원으로 만든 제품으로 아이의 성장과 발달을 위해 기타 식품과 무기질 비타민 등의 영양 성분을 넣어서 이유식 대용으로 사용하는 게 조제식이에요.",
+            "turn_id": "BK22007628-3",
+            "utterance_id": "BK22007628.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 조제유와 조제식은 비슷한 것 같으면서도 차이점이 꽤 있는 거네요. 그러면 신생아의 경우에는 조제유를 먹여야 하나요?",
+            "turn_id": "BK22007628-4",
+            "utterance_id": "BK22007628.7"
+        },
+        {
+            "reference_date": "2020-03-02",
+            "reference_text": [
+                {
+                    "value": "모유가 부족해서 분유로 보충한다 해도 역시 생후 6개월까지는 모유 대용으로 제조된 ‘조제분유’를 먹여야 합니다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=82895",
+            "search_query": "아기 분유 조제유",
+            "terminate": false,
+            "text": "맞아요. 생후 6개월까지는 모유 대신 제조된 조제분유를 먹이면 되는데요. 생후 0개월부터 6개월 용 조제분유를 먹이면 돼요.",
+            "turn_id": "BK22007628-4",
+            "utterance_id": "BK22007628.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 잘 몰라서 하마터면 조제식을 고를 뻔했네요. 그러면 조제식은 언제 먹이면 되는 건가요?",
+            "turn_id": "BK22007628-5",
+            "utterance_id": "BK22007628.9"
+        },
+        {
+            "reference_date": "2020-03-02",
+            "reference_text": [
+                {
+                    "value": "생후 6개월 이상에게 조제식을 먹일 때는, 이유식 양에 따라서 먹여야 하며 조제분유를 대체해서 먹이지는 않도록 합니다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=82895",
+            "search_query": "아기 분유 조제식",
+            "terminate": false,
+            "text": "아, 조제식 분유를 먹이려면 생후 6개월 이상의 아이의 이유식 양에 따라 먹여야 하고 조제분유를 대신해서 먹이시면 안돼요.",
+            "turn_id": "BK22007628-5",
+            "utterance_id": "BK22007628.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 둘의 차이를 정확히 알겠네요. 그런데 분유를 고를 때 보면 프리미엄 성분이 있던데 더 좋은 건가요?",
+            "turn_id": "BK22007628-6",
+            "utterance_id": "BK22007628.11"
+        },
+        {
+            "reference_date": "2020-03-02",
+            "reference_text": [
+                {
+                    "value": "아기에게 유익하다고 선전하는 프리미엄 성분은 아직 효과가 확실하지 않으며 굳이 비싼 가격을 지급하고 살 만큼 검증되지 않았습니다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=82895",
+            "search_query": "아기 분유 프리미엄 차이",
+            "terminate": false,
+            "text": "프리미엄이라고 붙으면 더 좋아 보이긴 하죠. 하지만 아이에게 좋다고 광고하는 프리미엄 성분은 효과가 확실하지 않아요. 아직 검증되지 않았기에 비싼 가격을 주고 사실 필요는 없어요.",
+            "turn_id": "BK22007628-6",
+            "utterance_id": "BK22007628.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 그러면 분유를 선택할 때 분유 성분을 기준으로 고르려 하는데 어떻게 확인하면 되나요?",
+            "turn_id": "BK22007628-7",
+            "utterance_id": "BK22007628.13"
+        },
+        {
+            "reference_date": "2021-06-22",
+            "reference_text": [
+                {
+                    "value": "아기들에게 먹이는 분유를 성분을 기준으로 선택할 경우 주요 영양 성분이 골고루 들어 있는지 확인하는 것이 좋다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 질병이나 특정한 성분에 알레르기 반응 등을 보이는 경우에는 해당 성분이 적은 것을 선택하고, 반대로 특정 성분이 부족하다는 진단을 받은 경우라면 이를 보충할 만한 제품을 선택해야 할 것이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=95934",
+            "search_query": "분유 성분 선택 기준",
+            "terminate": false,
+            "text": "아, 성분을 기준으로 고르실 때는 주요 영양 성분이 고루 들어 있는지 확인하시면 돼요. 아이가 질병이나 특정 성분에 알레르기 반응이 있다면 그러한 반응을 일으키는 성분이 적은 걸 고르시면 돼요. 또한 아이가 특정 성분이 부족하다는 진단을 받았다면 아이의 영양을 보충할 제품을 선택하시면 좋아요.",
+            "turn_id": "BK22007628-7",
+            "utterance_id": "BK22007628.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 분유를 고를 때는 성분을 잘 따져봐야겠네요. 그러면 분유는 어떻게 타면 돼요? 한 번도 타본 적이 없어서 어렵네요.",
+            "turn_id": "BK22007628-8",
+            "utterance_id": "BK22007628.15"
+        },
+        {
+            "reference_date": "2015-02-24",
+            "reference_text": [
+                {
+                    "value": "분유를 타는 물은 반드시 먹는 물을 70도 이상 끓여서 식힌 후 사용한다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "분유를 탈 때는 수유량의 1/3~2/3의 물을 젖병에 먼저 따르고 정확한 양의 분유를 넣고 물에 녹인 후 남은 수량까지 물에 따라 채운다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000000137",
+            "search_query": "분유 타는법",
+            "terminate": false,
+            "text": "분유 타는 건 어렵지 않으니 너무 겁먹지 마세요. 먼저 식수를 70도 이상 끓이신 후 식혀주세요. 우선 수유랑의 1/3에서 2/3의 물을 젖병에 넣고 정확한 양의 분유를 물에 녹이세요. 그 후 남은 수량까지 물을 따라 채우시면 돼요.",
+            "turn_id": "BK22007628-8",
+            "utterance_id": "BK22007628.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 분량만 잘 맞추면 어렵지 않네요. 그런데 분유를 먹일 때 어느 정도의 온도에 먹이는 게 좋아요? 온도를 어떻게 해야 할지 모르겠네요.",
+            "turn_id": "BK22007628-9",
+            "utterance_id": "BK22007628.17"
+        },
+        {
+            "reference_date": "2020-07-25",
+            "reference_text": [
+                {
+                    "value": "분유의 온도는 모유 온도를 기준으로 분유를 손목에 떨어트렸을 때 따뜻한 느낌이 드는 정도로 데워서 먹이는 게 가장 좋다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2020/07/24/2020072402914.html",
+            "search_query": "분유 온도 손목",
+            "terminate": false,
+            "text": "분유의 온도를 확인하는 방법은 모유 온도가 기준인데요. 분유를 손목에 떨어트리셨을 때 따뜻하다면 좋은 온도니 그때 먹이시면 돼요.",
+            "turn_id": "BK22007628-9",
+            "utterance_id": "BK22007628.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 먹이기 전에 손목에 확인하면 온도 확인이 돼서 좋겠네요. 알려주신 방법대로 분유를 선택해서 먹여봐야겠네요. 분유 타는 것도 몇 번 연습하려고요.",
+            "turn_id": "BK22007628-10",
+            "utterance_id": "BK22007628.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 몇 번 하다 보시면 금방 익숙해지실 거예요. 그럼 다음에 만나서 또 수다 떨어요. 나중에 봐요.",
+            "turn_id": "BK22007628-10",
+            "utterance_id": "BK22007628.20"
+        }
+    ]
+}

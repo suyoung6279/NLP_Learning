@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015351",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015351",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 입양한 강아지 보는 낙으로 살고 있어요. 새끼 강아지라서 더 그런 것 같은데 얼마나 귀엽고 예쁜지 왜 진작 입양을 안 했을까 하는 생각이 들더라고요.",
+            "turn_id": "BK22015351-1",
+            "utterance_id": "BK22015351.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "새끼 강아지 정말 귀엽죠. 새끼 강아지 시절은 금방 지나가니까 기억하기 위해서 사진 많이 찍어두시면 좋아요.",
+            "turn_id": "BK22015351-1",
+            "utterance_id": "BK22015351.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 안 그래도 사진 많이 찍고 있어요. 근데 고민이 하나 있는데 비슷한 개월 수에 같은 견종에 비하면 성장이 너무 느린 것 같아요. 이거 뭔가 문제가 있는 건가요?",
+            "turn_id": "BK22015351-2",
+            "utterance_id": "BK22015351.3"
+        },
+        {
+            "reference_date": "2022-09-24",
+            "reference_text": [
+                {
+                    "value": "강아지의 크기는 견종마다 차이가 있기는 하지만 또래의 같은 견종보다 유난히 몸집이 작다면 질환을 의심해봐야 한다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "오늘 설명할 질환인 간문맥전신단락이 있다면 강아지의 성장이 느리게 나타나 몸집이 작다는 특징을 보이기 때문이다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61272",
+            "search_query": "간문맥전신단락",
+            "terminate": false,
+            "text": "병원에 방문해 보시는게 좋을 것 같아요. 또래의 같은 견종보다 유독 몸집이 작다면 간문맥전신단락일 가능성이 있거든요. 이 질환이 있다면 강아지의 성장이 느려서 몸집이 작은 특성이 나타나요.",
+            "turn_id": "BK22015351-2",
+            "utterance_id": "BK22015351.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "간문맥전신단락이라니 이름도 어렵네요. 처음 들어보는데 이게 무슨 질병인가요?",
+            "turn_id": "BK22015351-3",
+            "utterance_id": "BK22015351.5"
+        },
+        {
+            "reference_date": "2022-09-24",
+            "reference_text": [
+                {
+                    "value": "강아지가 태아일 때 혈액이 간을 거치지 않고 바로 심장으로 향할 수 있도록 하는 우회혈관이 있다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "원래라면 자연적으로 닫히는 혈관이지만 닫히지 않고 그대로 남아 있으면 문제가 생긴다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61272",
+            "search_query": "우회혈관",
+            "terminate": false,
+            "text": "강아지가 태아일 때 혈액이 간을 지나치지 않고 곧장 심장으로 갈 수 있도록 하는 우회혈관이 있어요. 본래 자연적으로 닫히는 혈관이지만 닫히지 않은 채로 남아 있어서 생기는 병이에요.",
+            "turn_id": "BK22015351-3",
+            "utterance_id": "BK22015351.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 우회혈관이 닫히지 않고 남아있으면 어떤 일이 발생하나요?",
+            "turn_id": "BK22015351-4",
+            "utterance_id": "BK22015351.7"
+        },
+        {
+            "reference_date": "2022-09-24",
+            "reference_text": [
+                {
+                    "value": "혈액은 간문맥을 타고 간으로 흘러 해독과정을 거친 후에 심장으로 향한다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 우회혈관을 통하면 해독과정이 생략된 혈액이 몸을 순환하면서 독성물질이 그대로 심장을 거쳐 전신으로 퍼지게 된다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61272",
+            "search_query": "우회혈관 해독과정 생략",
+            "terminate": false,
+            "text": "혈액은 간문맥을 통해 간으로 흘러 해독과정을 거친 후에 심장으로 가게 돼요. 하지만 열려 있는 우회혈관을 타고 혈액이 흐르면 해독과정이 생략되고 이 혈액이 몸을 순환하면서 독성물질이 그대로 심장을 지나서 전신으로 퍼지게 돼요.",
+            "turn_id": "BK22015351-4",
+            "utterance_id": "BK22015351.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "간문맥을 거쳐야 해독이 된다고 하셨잖아요. 그러면 강아지 몸에 독성물질이 있다는 말씀이신데, 강아지 몸에 어떤 독성물질이 있나요?",
+            "turn_id": "BK22015351-5",
+            "utterance_id": "BK22015351.9"
+        },
+        {
+            "reference_date": "2022-09-24",
+            "reference_text": [
+                {
+                    "value": "특히 간문맥전신단락에서 주의해야 할 것은 유독성 물질인 암모니아다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "원래라면 간에서 해독되면서 신장을 통해 배출되지만 간문맥전신단락이 있다면 전신으로 퍼져 문제가 된다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61272",
+            "search_query": "암모니아",
+            "terminate": false,
+            "text": "네, 맞아요. 유독성 물질인 암모니아를 조심해야 해요. 원래라면 간에서 해독되면서 신장을 지나 배출되지만 간문맥전신단락을 앓고 있다면 전신으로 흘러가서 문제가 돼요.",
+            "turn_id": "BK22015351-5",
+            "utterance_id": "BK22015351.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "암모니아가 특별히 더 문제가 되는 이유가 있나요?",
+            "turn_id": "BK22015351-6",
+            "utterance_id": "BK22015351.11"
+        },
+        {
+            "reference_date": "2022-09-24",
+            "reference_text": [
+                {
+                    "value": "특히 암모니아가 뇌혈관으로 들어가면 발작을 일으킬 수 있고 멍하니 서 있거나, 제자리에서 빙글빙글 도는 등의 다양한 신경증상을 불러올 수 있다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61272",
+            "search_query": "암모니아 신경증상",
+            "terminate": false,
+            "text": "암모니아가 뇌혈관으로 유입되면 발작이 발생할 수 있고 멍하니 서 있거나, 제자리에서 빙글빙글 도는 등의 다양한 신경 증상이 나타날 수 있어요.",
+            "turn_id": "BK22015351-6",
+            "utterance_id": "BK22015351.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그렇다면 간문맥전신단락은 어떻게 치료하나요?",
+            "turn_id": "BK22015351-7",
+            "utterance_id": "BK22015351.13"
+        },
+        {
+            "reference_date": "2022-09-24",
+            "reference_text": [
+                {
+                    "value": "간문맥전신단락을 치료하기 위해서는 기형혈관을 닫아 혈액이 다시 간으로 흐르게 해야 한다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이를 위해서 아밀로이드 링이나 셀로판 밴드를 사용해 혈관을 닫아주는 수술이 필요하다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61272",
+            "search_query": "간문맥전신단락 치료",
+            "terminate": false,
+            "text": "간문맥전신단락을 치료하려면 기형혈관을 닫아 혈액이 도로 간으로 지나가게 해야 해요. 이를 위해서 아밀로이드 링이나 셀로판 밴드를 이용해 혈관을 닫아주는 수술이 필요하죠.",
+            "turn_id": "BK22015351-7",
+            "utterance_id": "BK22015351.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 수술을 진행하는군요. 그런데 아밀로이드 링이나 셀로판 밴드를 사용한 수술의 장점이 있나요?",
+            "turn_id": "BK22015351-8",
+            "utterance_id": "BK22015351.15"
+        },
+        {
+            "reference_date": "2022-09-24",
+            "reference_text": [
+                {
+                    "value": "아밀로이드 링이나 셀로판 밴드를 사용하면 혈관을 서서히 닫을 수 있어 갑자기 혈관을 닫아버렸을 때 나타날 수 있는 합병증을 예방할 수 있다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61272",
+            "search_query": "합병증 예방",
+            "terminate": false,
+            "text": "아밀로이드 링이나 셀로판 밴드를 사용하면 혈관을 천천히 닫을 수 있어서 갑작스럽게 혈관을 닫아버렸을 때 발생할 수 있는 합병증을 막을 수 있어요.",
+            "turn_id": "BK22015351-8",
+            "utterance_id": "BK22015351.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그런데 아밀로이드 링이나 셀로판 밴드 수술의 차이점이 있나요?",
+            "turn_id": "BK22015351-9",
+            "utterance_id": "BK22015351.17"
+        },
+        {
+            "reference_date": "2022-09-24",
+            "reference_text": [
+                {
+                    "value": "두 수술법은 각각 장단점이 다르니 반드시 수의사와 자세한 상담 후 반려견에 맞는 수술법을 결정하길 바란다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61272",
+            "search_query": "아밀로이드 링 셀로판 밴드 장단점",
+            "terminate": false,
+            "text": "네, 두 수술법은 각각 장단점이 달라요. 그 때문에 꼭 수의사와 꼼꼼한 상담 후에 반려견에 맞는 수술법을 결정해야 해요.",
+            "turn_id": "BK22015351-9",
+            "utterance_id": "BK22015351.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내일 병원에 방문해서 간문맥전신단락인지 확인 해봐야겠어요. 오늘 좋은 정보 알려주셔서 감사합니다.",
+            "turn_id": "BK22015351-10",
+            "utterance_id": "BK22015351.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 병원 잘 다녀오시고 다음에 또 봬요.",
+            "turn_id": "BK22015351-10",
+            "utterance_id": "BK22015351.20"
+        }
+    ]
+}

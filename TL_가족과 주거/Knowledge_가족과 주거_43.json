@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012600",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012600",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이가 날려고 하는지 아기가 잇몸을 간지러워하네요. 보통 아기 유치는 언제쯤 나기 시작하나요?",
+            "turn_id": "BK22012600-1",
+            "utterance_id": "BK22012600.1"
+        },
+        {
+            "reference_date": "44004.0",
+            "reference_text": [
+                {
+                    "value": "아기마다 차이가 있지만 대개는 6~7개월에 아래쪽 앞니 두 개가 나기 시작한다.",
+                    "value_time": "44777.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "유치의 역할은 음식을 섭취할 수 있게 도와주며 정확한 발음이 나올 수 있게 한다.",
+                    "value_time": "44777.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ggilbo.com/news/articleView.html?idxno=778046",
+            "search_query": "아기 유치 나는 시기",
+            "terminate": false,
+            "text": "아기마다 다르긴 한데 보통 6개월에서 7개월에 아래 앞니 두 개가 나기 시작합니다. 유치가 나게 되면 음식 섭취도 가능해지고 정확한 발음에도 도움이 됩니다.",
+            "turn_id": "BK22012600-1",
+            "utterance_id": "BK22012600.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유치가 나게 되면 치아 관리는 어떻게 하면 되나요?",
+            "turn_id": "BK22012600-2",
+            "utterance_id": "BK22012600.3"
+        },
+        {
+            "reference_date": "43670.0",
+            "reference_text": [
+                {
+                    "value": "아랫니가 난 이후에는 수유 및 이유식을 먹인 후 물을 소량 먹여 입안을 헹구고 핑거 칫솔을 이용해 양치를 시키고 아랫니와 윗니가 각각 2개씩 났을 때는 작고 부드러운 아기 칫솔을 사용해서 양치를 해야 한다.",
+                    "value_time": "44777.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000472254",
+            "search_query": "아기 유치 관리",
+            "terminate": false,
+            "text": "아랫니가 난 다음에는 수유 및 이유식을 먹인 후 물을 조금 먹여서 입안을 헹구고, 손가락 칫솔을 사용해 이를 닦아 줍니다. 아랫니, 윗니 각각 두 개가 났을 때는 부드럽고 조그마한 유아용 칫솔을 사용해 이를 닦아줍니다.",
+            "turn_id": "BK22012600-2",
+            "utterance_id": "BK22012600.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "칫솔을 사용하게 되면 치약도 사용해야 할 거 같은데 어떤 치약을 사용해야 하나요?",
+            "turn_id": "BK22012600-3",
+            "utterance_id": "BK22012600.5"
+        },
+        {
+            "reference_date": "44056.0",
+            "reference_text": [
+                {
+                    "value": "다만, 영·유아의 경우 치약을 삼키는 경우가 많기 때문에 제품을 선택할 때 성분을 확인하고 구입하는 것이 중요하다.",
+                    "value_time": "44777.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "치약 뱉을 능력이 미숙할 때에는 불소가 함유되지 않은 무불소치약이 좋으며, 치약을 뱉을 수 있는 아이가 됐을 때는 충치예방을 위해 저불소치약을 권하고 있다.",
+                    "value_time": "44777.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.thepublic.kr/news/newsview.php?ncode=1065598625527007",
+            "search_query": "아기 치약 사용 시기",
+            "terminate": false,
+            "text": "영, 유아는 치약을 삼키는 경우가 많기 때문에 어떤 성분의 치약인지 잘 확인하고 구입하는 것이 중요합니다. 치약 뱉는 게 서툴면 불소가 없는 무불소치약을 사용하고, 치약을 뱉을 수 있을 만큼 성장하면 충지예방도 되는 저불소치약을 사용하시면 좋습니다.",
+            "turn_id": "BK22012600-3",
+            "utterance_id": "BK22012600.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "양치질을 잘했는데도 충치가 생기면 치료를 해야 할까요? 유치는 어차피 빠지는 치아라 안 해도 될 것 같은데 어떻게 하는 게 맞는지 궁금합니다.",
+            "turn_id": "BK22012600-4",
+            "utterance_id": "BK22012600.7"
+        },
+        {
+            "reference_date": "44756.0",
+            "reference_text": [
+                {
+                    "value": "일부에서는 유치는 나중에 빠질 치아이므로 굳이 치료를 할 필요가 없다고 생각하지만 유치 치료를 제때 하지 않으면 영구치 건강에 악영향을 줄 수 있다.",
+                    "value_time": "44777.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "유치 충치를 방치하면 균으로 인한 염증이 영구치 성장에 직접적인 악영향을 줄 수 있다.",
+                    "value_time": "44777.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mdtoday.co.kr/news/view/1065597641633524",
+            "search_query": "유치 충치",
+            "terminate": false,
+            "text": "유치는 나중에 빠지는 치아라 굳이 치료를 안 해도 된다고 생각하는 분들이 계신데 유치 치료를 알맞은 시기에 하지 않으면 영구치 건강에 아주 나쁜 영향을 줍니다. 그리고 균으로 인한 염증이 영구치 발달에 직접적으로 악영향을 줄 수 있어 제때 치료가 중요합니다.",
+            "turn_id": "BK22012600-4",
+            "utterance_id": "BK22012600.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유치도 충치 치료가 중요하군요. 충치가 생기지 않게 미리 예방할 수 있는 방법이 있을까요?",
+            "turn_id": "BK22012600-5",
+            "utterance_id": "BK22012600.9"
+        },
+        {
+            "reference_date": "44699.0",
+            "reference_text": [
+                {
+                    "value": "치아에 일정량의 불소를 직접 바르는 불소도포는 이런 방식으로 충치를 예방한다.",
+                    "value_time": "44777.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아이들마다 다르지만 평균 3~6개월마다 한 번씩 도포하면 좋다.",
+                    "value_time": "44777.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=105165",
+            "search_query": "유치 불소도포",
+            "terminate": false,
+            "text": "네. 충치 예방을 위해 치아에 일정량의 불소를 직접 발라 충치를 예방할 수 있는 불소 도포를 하시면 됩니다. 불소 도포는 정기적으로 하는 게 좋으며, 아이들마다 차이가 있으나 보통 3개월에서 6개월마다 한 번씩 하시면 됩니다.",
+            "turn_id": "BK22012600-5",
+            "utterance_id": "BK22012600.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이렇게 정기적으로 불소 도포를 해주면 충치는 아예 생기지 않는 건가요?",
+            "turn_id": "BK22012600-6",
+            "utterance_id": "BK22012600.11"
+        },
+        {
+            "reference_date": "41914.0",
+            "reference_text": [
+                {
+                    "value": "불소도포가 충치, 특히 인접면 충치 예방에 효과가 있기는 하지만 불소도포를 한다고 해서 충치가 아예 안 생기게 해주는 것은 아니다.",
+                    "value_time": "44777.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "단지 발생 가능성을 다소 낮춰주는 것에 불과하다.",
+                    "value_time": "44777.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01170966606248984&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "유치 불소",
+            "terminate": false,
+            "text": "불소 도포가 충치 예방에 효과가 있지만 충치를 아예 안 생기게 해주는 것은 아닙니다. 불소 도포는 충치, 특히 인접면 충치 예방에 효과가 있어서 충치가 생길 수 있는 가능성을 줄이는 것에 불과합니다.",
+            "turn_id": "BK22012600-6",
+            "utterance_id": "BK22012600.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유치도 관리도 잘해야겠어요. 유치는 언제부터 발치가 가능한가요?",
+            "turn_id": "BK22012600-7",
+            "utterance_id": "BK22012600.13"
+        },
+        {
+            "reference_date": "44496.0",
+            "reference_text": [
+                {
+                    "value": "평균적으로 7세부터 위 혹은 아래 앞니를 시작으로 유치를 발치하게 됩니다.",
+                    "value_time": "44777.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "영구치의 맹출 경로가 정상적이지 않은 경우에는 꼭 치과에서 확인을 하고 발치를 하는 것이 필요합니다.",
+                    "value_time": "44777.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyongbuk.co.kr/news/articleView.html?idxno=2086327",
+            "search_query": "유치 빠지는 시기",
+            "terminate": false,
+            "text": "유치는 평균적으로 7살부터 윗니 또는 아랫니를 시작으로 발치합니다. 영구치가 나오는 경로가 비정상적일 때는 꼭 치과에서 진료를 보시고 발치하는 것이 좋습니다.",
+            "turn_id": "BK22012600-7",
+            "utterance_id": "BK22012600.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "발치한 유치는 버리지 말고 치아은행에 보관하라고 들었는데 무엇 때문인가요?",
+            "turn_id": "BK22012600-8",
+            "utterance_id": "BK22012600.15"
+        },
+        {
+            "reference_date": "43865.0",
+            "reference_text": [
+                {
+                    "value": "왜 유치를 은행까지 만들어가면서 보관하는 것일까요?",
+                    "value_time": "44777.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "유치에 포함된 줄기세포 때문입니다.",
+                    "value_time": "44777.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "유치에 들어있는 줄기세포는 골수 등의 다른 줄기 세포보다 배양 속도가 빨라 심장, 뼈, 연골, 장기 등 조직을 재생시키는데 효과적으로 사용할 수 있다는 것이지요.",
+                    "value_time": "44777.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://cm.asiae.co.kr/article/2019101714101688045",
+            "search_query": "유아 유치 보관",
+            "terminate": false,
+            "text": "유치를 은행에 보관하는 이유는 유치에 포함된 줄기세포 때문입니다. 유치에 포함된 줄기세포는 골수 등에 있는 줄기 세포보다 배양 속도가 빨라 연골, 뼈, 장기, 심장 등의 조직을 다시 살리는데 좋은 결과를 가져오기 때문입니다.",
+            "turn_id": "BK22012600-8",
+            "utterance_id": "BK22012600.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 모를 일에 대비하여 치아은행에 보관하는 게 좋겠어요.",
+            "turn_id": "BK22012600-9",
+            "utterance_id": "BK22012600.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "보관된 유치는 줄기세포를 축출하는 용도뿐 아니라 다양한 치주질환이나 신경치료에도 활용됩니다.",
+            "turn_id": "BK22012600-9",
+            "utterance_id": "BK22012600.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여러모로 쓸모가 많은 유치네요.",
+            "turn_id": "BK22012600-10",
+            "utterance_id": "BK22012600.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "치아는 오복 중 하나라고 할 만큼 중요하니 어릴 때부터 관리 잘하시길 바랍니다.",
+            "turn_id": "BK22012600-10",
+            "utterance_id": "BK22012600.20"
+        }
+    ]
+}

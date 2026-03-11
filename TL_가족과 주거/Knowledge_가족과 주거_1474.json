@@ -1,0 +1,387 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.5,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.4,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011468",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011468",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 3.4,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나 요즘 우리 고양이 중성화 수술 문제로 고민이 많아. 주변에서는 수술을 하라는데 왜 해야 되는지 이유를 모르겠어. 중성화 수술이 왜 필요한 거지?",
+            "turn_id": "BK22011468-1",
+            "utterance_id": "BK22011468.1"
+        },
+        {
+            "reference_date": "2019-09-20",
+            "reference_text": [
+                {
+                    "value": "고양이 중성화수술은 발정으로 인해 나타나는 행동들을 막아주며 스트레스를 줄여주는 역할을 한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "중성화를 하지 않으면 암컷의 경우 유선종양이나 자궁 축농증 등의 발병 위험이 높아지며 수컷의 경우 전립선 질환이나 고환 암 등의 발병 확률이 커지기도 한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mydaily.co.kr/new_yk/html/read.php?newsid=201909201042269211&ext=na",
+            "search_query": "고양이 중성화 수술 필요성",
+            "terminate": false,
+            "text": "일단 고양이들은 발정이 왔을 때 특정 행동들을 하며 스트레스를 받는데 중성화 수술을 하면 이걸 예방할 수가 있어. 뿐만 아니라 몇몇 질병의 발병 가능성도 낮출 수가 있어. 암컷의 경우에는 유선 종양과 자궁 축농증을, 수컷의 경우에는 전립선 질환과 고환암 등의 발병 가능성을 낮출 수 있거든.",
+            "turn_id": "BK22011468-1",
+            "utterance_id": "BK22011468.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러니까 번식을 못 하게 하는 것 말고도 이점이 많다는 얘기구나. 근데 암컷 고양이들은 유선종양이나 자궁 축농증 같은 걸 많이 겪는 건가? 이게 뭔지 잘 모르는데 일단 유선종양부터 설명 좀 해줄래?",
+            "turn_id": "BK22011468-2",
+            "utterance_id": "BK22011468.3"
+        },
+        {
+            "reference_date": "2022-08-18",
+            "reference_text": [
+                {
+                    "value": "암컷 고양이, 강아지들은 난소에서 에스트로겐과 프로게스테론이 나오는데, 유선종양은 바로 이 호르몬들로 인해 발생되는 질병이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "유선종양은 말 그대로 반려동물의 젖꼭지 주변에 있는 유선에 혹처럼 종양이 생긴 것을 말한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthinnews.co.kr/news/articleView.html?idxno=31894",
+            "search_query": "고양이 유선종양",
+            "terminate": false,
+            "text": "고양이 젖꼭지 주변에 있는 유선조직에 혹처럼 생긴 종양이 있는 걸 유선종양이라고 해. 이건 호르몬이 원인인데 정확하게는 암컷 고양이의 난소에서 분비되는 에스트로겐과 프로게스테론의 영향 때문이지.",
+            "turn_id": "BK22011468-2",
+            "utterance_id": "BK22011468.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유선이 젖꼭지 주변을 말하는 거였구나. 종양은 아는데 유선이 뭔지 몰랐거든. 근데 종양은 악성이면 암인 건데, 유선종양은 악성일 확률이 어느 정도나 돼?",
+            "turn_id": "BK22011468-3",
+            "utterance_id": "BK22011468.5"
+        },
+        {
+            "reference_date": "2021-10-17",
+            "reference_text": [
+                {
+                    "value": "강아지보다 유선종양 발생률은 낮지만 유선종양이 악성일 때가 85% 이상으로 높아요.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 고양이에게 유선종양이 발생하면 전이가 되기 쉽고 치사율도 높아요.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=56029",
+            "search_query": "고양이 유선종양 악성",
+            "terminate": false,
+            "text": "고양이는 유선종양이 발병할 확률 자체는 개보다 낮은데 일단 발병을 하면 악성일 가능성이 85퍼센트 이상이나 돼. 그래서 전이도 잘 되고 치사율도 높은 편이지.",
+            "turn_id": "BK22011468-3",
+            "utterance_id": "BK22011468.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 고양이한테 되게 치명적인 병이구나. 그럼 중성화 수술을 하면 유선종양 발병 가능성이 얼마나 낮아지는 거야?",
+            "turn_id": "BK22011468-4",
+            "utterance_id": "BK22011468.7"
+        },
+        {
+            "reference_date": "2018-07-27",
+            "reference_text": [
+                {
+                    "value": "고양이는 생후 6개월 내 중성화수술을 하면 유선종양예방률이 91%, 생후 6개월~1년 사이에 하면 86%라는 보고가 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2세 이후에는 중성화수술을 해도 유선종양예방효과를 볼 수 없다고 한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.k-health.com/news/articleView.html?idxno=37187",
+            "search_query": "고양이 중성화 수술 유선종양 예방",
+            "terminate": false,
+            "text": "그건 중성화 수술을 언제 해주느냐에 따라 차이가 있는데 생후 6개월 이내 할 경우 유선종양 예방률이 91퍼센트이고 생후 6개월에서 1년 사이에 하면 86퍼센트야. 생후 2년 이후에는 중성화 수술을 통해 유선종양을 예방할 수는 없고.",
+            "turn_id": "BK22011468-4",
+            "utterance_id": "BK22011468.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 빨리해줄수록 좋은 거네. 당장 수술 예약 잡아야겠다. 근데 할 때 하더라도 아까 얘기 나왔던 자궁축농증에 대해서도 알아두고 싶은데 이건 어떤 병이야?",
+            "turn_id": "BK22011468-5",
+            "utterance_id": "BK22011468.9"
+        },
+        {
+            "reference_date": "2022-05-12",
+            "reference_text": [
+                {
+                    "value": "자궁축농증은 말 그대로 자궁에 농(고름)이 차는 질환이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "발정기가 되면 평소에는 닫혀있던 자궁경부가 열리는데 이 틈을 타서 세균이 자궁으로 침투할 수 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이때 자궁내부가 세균이 생존하기 좋은 환경이라면 자궁에 세균이 증식해 염증이 일어나고 농이 차게 되는 것이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.k-health.com/news/articleView.html?idxno=59316",
+            "search_query": "고양이 자궁축농증",
+            "terminate": false,
+            "text": "자궁축농증은 자궁에 세균이 증식해서 염증이 발생하고 농이 차는 질환이야. 평상시에는 닫혀있던 자궁경부가 발정기를 맞으면 열리게 되는데, 이때 세균이 자궁 내부에 들어가는 경우가 있어. 그 내부 환경이 세균이 살기 적합한 상태면 세균이 번식을 하면서 자궁에 염증과 농을 발생시키는 거지.",
+            "turn_id": "BK22011468-5",
+            "utterance_id": "BK22011468.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자궁 내부에 세균이 살고 있는 거면 건강에 문제가 되겠네. 구체적으로 어떤 문제를 일으키는 거지?",
+            "turn_id": "BK22011468-6",
+            "utterance_id": "BK22011468.11"
+        },
+        {
+            "reference_date": "2022-05-12",
+            "reference_text": [
+                {
+                    "value": "이처럼 자궁 안의 농이 계속해서 차오르면 자궁이 팽창하고 심하면 자궁이 파열될 수 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "게다가 세균이 배출하는 독소가 혈관으로 흡수돼 전신에 퍼져 패혈증으로 진행되면 사망까지 이를 수 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=59316",
+            "search_query": "고양이 자궁축농증 문제점",
+            "terminate": false,
+            "text": "자궁 내부에 농이 계속해서 쌓이게 되면 자궁이 팽창하게 되고 결국에는 자궁 파열로까지 이어질 수가 있어. 뿐만 아니라 세균이 뿜어내는 독소가 혈관을 통해 전신으로 퍼져버리면 패혈증으로 인해 생명을 잃는 경우까지 발생하지.",
+            "turn_id": "BK22011468-6",
+            "utterance_id": "BK22011468.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 이것도 유선종양만큼이나 무서운 병인 거네. 이건 보호자가 어떻게 확인할 수 있어? 우리 고양이도 혹시 모르니 확인해 보고 싶은데.",
+            "turn_id": "BK22011468-7",
+            "utterance_id": "BK22011468.13"
+        },
+        {
+            "reference_date": "2022-07-15",
+            "reference_text": [
+                {
+                    "value": "자궁축농증은 크게 개방형과 폐쇄형으로 구분된다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "개방형은 눈으로 외음부에 맺힌 고름을 관찰할 수 있으며, 계속 고름이 배출되기도 해 보호자가 빠르게 확인할 수 있는 만큼 대응이 좋은 편이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "문제는 폐쇄형이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자궁 안에만 고름이 차기 때문에 배가 부풀거나 구토, 설사 등의 증상이 나타나야 확인할 수 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "개방형과 폐쇄형의 공통적인 증상은 무기력증, 다음다뇨, 외음부 부종 등이 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://sjbnews.com/news/news.php?number=751361",
+            "search_query": "고양이 자궁축농증 보호자 확인",
+            "terminate": false,
+            "text": "자궁축농증은 크게 개방형과 폐쇄형으로 나눌 수 있는데 개방형의 경우 외음부에 고름이 맺혀있기도 하고 고름이 계속해서 나오기 때문에 눈으로 쉽게 확인이 가능해. 하지만 폐쇄형의 경우에는 자궁 내부에만 고름이 차기 때문에 다른 증상들을 확인해 봐야 돼. 만약 배가 팽창되어 있다거나 구토나 설사 등의 증상이 나타나면 의심을 해 볼 필요가 있지. 또 개방형이든 폐쇄형이든 무기력증과 외음부 부종, 물을 많이 마시면서 소변을 자주 보는 증상이 공통적으로 나타나니 이것도 같이 확인해 보면 돼.",
+            "turn_id": "BK22011468-7",
+            "utterance_id": "BK22011468.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다행히도 해당되는 증상이 없네. 근데 중성화 수술이 어떤 거길래 이런 질병들을 예방하게 해주는지 궁금하다. 사실 정확히 모르는데 어떤 거야?",
+            "turn_id": "BK22011468-8",
+            "utterance_id": "BK22011468.15"
+        },
+        {
+            "reference_date": "2021-11-17",
+            "reference_text": [
+                {
+                    "value": "강아지, 고양이에서 중성화 수술은 성호르몬을 분비하는 성기관을 제거하는 수술이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "수컷에서는 테스토스테론 호르몬을 분비하는 고환을 제거한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "암컷에서는 난소와 자궁을 적출하여 에스트로겐, 프로게스테론과 같은 성호르몬이 더 이상 분비되지 않도록 한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyeongin.com/main/view.php?key=20211102010000435",
+            "search_query": "고양이 중성화 수술 방식",
+            "terminate": false,
+            "text": "성호르몬의 분비를 막기 위해서 성호르몬을 분비하는 성기관을 제거하는 수술이 중성화 수술이야. 암컷의 경우에는 에스트로겐과 프로게스테론을 분비하는 난소와 자궁을 적출하고 수컷의 경우에는 테스토스테론을 분비하는 고환을 제거하지.",
+            "turn_id": "BK22011468-8",
+            "utterance_id": "BK22011468.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 자궁을 아예 없애버리는 거라 자궁축농증을 예방할 수 있는 거고 호르몬 분비도 사라지니까 유선 종양도 예방할 수 있는 거구나. 이제 이해가 된다. 난 우리 고양이가 이런 병들로부터 자유로웠으면 하니까 얼른 가서 수술 예약부터 해야겠다.",
+            "turn_id": "BK22011468-9",
+            "utterance_id": "BK22011468.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 그럼 얼른 가봐.",
+            "turn_id": "BK22011468-9",
+            "utterance_id": "BK22011468.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어, 근데 이따 궁금한 거 생기면 전화할 테니까 귀찮아도 꼭 받아줘.",
+            "turn_id": "BK22011468-10",
+            "utterance_id": "BK22011468.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안 귀찮으니 그런 걱정 말고 전화해. 그럼 잘 가.",
+            "turn_id": "BK22011468-10",
+            "utterance_id": "BK22011468.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "어, 그럼 나 갈 테니 잘 쉬어.",
+            "turn_id": "BK22011468-11",
+            "utterance_id": "BK22011468.21"
+        }
+    ]
+}

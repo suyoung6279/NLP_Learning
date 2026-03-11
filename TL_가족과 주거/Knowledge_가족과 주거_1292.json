@@ -1,0 +1,411 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008618",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008618",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0036"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 우리 아이 때문에 걱정이 많아요. 너무 산만한 것 같은데 주변에서 ADHD일 수도 있으니 검사를 받아보라고 하더라구요. ADHD가 정확히 어떤 건가요?",
+            "turn_id": "BK22008618-1",
+            "utterance_id": "BK22008618.1"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "주의력결핍 과잉행동장애(注意力缺乏過剩行動障碍), 줄여서 ADHD(attention deficit hyperactivity disorder)는 주의력 결핍, 과잉행동, 학습장애 등을 특징으로 보이는 신경계 발달장애의 일종이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "ADHD를 앓는 사람은 성장기부터 부주의함으로 인해 학업이나 작업 수행 등에 여러 문제를 보이며, 흔히 가만히 있지 못하거나 기다리지 못하는 등 충동성과 과잉행동을 보인다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A3%BC%EC%9D%98%EB%A0%A5%EA%B2%B0%ED%95%8D_%EA%B3%BC%EB%8B%A4%ED%96%89%EB%8F%99%EC%9E%A5%EC%95%A0",
+            "search_query": "ADHD",
+            "terminate": false,
+            "text": "ADHD는 주의력결핍 과잉행동장애라고 해요. 보통 ADHD로 어려움을 겪는 사람은 성장기부터 부주의함 때문에 학업이나 직업 등에 있어 여러 문제적인 상황에 직면하죠. 특히 가만히 있거나 기다리는 걸 힘들어하는 등 충동적이고 과잉행동을 많이 보이는 게 특징인 신경계 발달 장애의 일종이랍니다.",
+            "turn_id": "BK22008618-1",
+            "utterance_id": "BK22008618.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 아이도 가만히 있는 것을 힘들어하는데 발달장애의 일종이라고 하니 더욱 걱정이 되네요. 혹시 아동 ADHD의 증상은 어떤 것들이 있나요?",
+            "turn_id": "BK22008618-2",
+            "utterance_id": "BK22008618.3"
+        },
+        {
+            "reference_date": "2022-08-17",
+            "reference_text": [
+                {
+                    "value": "ADHD가 있는 아동들은 주의 집중하기 어렵고, 사소한 자극에도 주의가 쉽게 분산된다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 누군가의 말을 듣고 있다가도 다른 소리가 나면 금방 그 곳으로 시선이 옮겨가는 등 한 곳에 오래 집중하는 것을 어려워하는 모습을 보인다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "허락 없이 자리에서 일어나거나, 뛰어다니고, 팔과 다리를 끊임없이 움직이는 등 정상 아동과 비교해 활동량이 매우 많다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "생각하기 전에 먼저 행동하는 경향이 있으며 말이 많고, 학교생활 등에서 규율을 이해하고 알고 있는 경우에도 규율을 지키지 못한다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.healthinnews.co.kr/news/articleView.html?idxno=31859",
+            "search_query": "아동 ADHD 증상",
+            "terminate": false,
+            "text": "ADHD를 앓고 있는 아이들은 사소한 자극에도 주의가 쉽게 분산되어 주의나 집중을 어려워하거든요. 그래서 어떤 사람의 말을 듣고 있다가도 다른 소리가 들리면 금방 시선이 분산되고 하나에 오랫동안 집중하는 것을 힘들어해요. 그 외에도 허락 없이 자리에서 일어난다거나, 뛰어다닌다거나, 팔이나 다리를 끊임없이 움직이는 행동을 하기도 하고, 학교생활 등을 할 때 규율을 잘 이해하지 못하고 설사 알고 있다고 하더라도 규율을 지키는 것을 어려워하죠.",
+            "turn_id": "BK22008618-2",
+            "utterance_id": "BK22008618.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "증상을 들어보니 단순히 산만하다기보다는 정말 조금 과할 정도로 주의나 집중을 어려워하는 행동을 보이는 것 같아요. 저희 아이는 과할 정도로 산만하지는 않은 것 같지만 한 번 검사를 받아봐야겠어요. 그런데 만약 ADHD라고 하면 치료는 어떻게 진행되나요?",
+            "turn_id": "BK22008618-3",
+            "utterance_id": "BK22008618.5"
+        },
+        {
+            "reference_date": "2019-04-16",
+            "reference_text": [
+                {
+                    "value": "ADHD를 치료하는 가장 효과적인 방법은 약물 요법이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "많은 부모들이 어린 나이부터 약물치료를 받는다는 사실에 우려를 표하지만 ADHD 치료제의 효능은 약 80%에 이르러 효과가 좋다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "집중력, 학습능력 등이 좋아지며 산만함, 과잉 행동과 충동성이 감소된다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2019/04/16/2019041601518.html",
+            "search_query": "아동 ADHD 치료법",
+            "terminate": false,
+            "text": "ADHD에는 약물 치료가 가장 효과적인 방법이에요. 하지만 아직 어린 아이에게 약물치료를 진행한다고 하면 걱정을 하는 부모님들이 많은데 ADHD에 있어 약물치료를 하게 되면 집중력, 학습 능력이 증진되고 산만함, 과잉행동이나 충동성은 감소되는 등의 ADHD의 증상을 약 80% 정도 나아지게 할 수 있을 정도로 효과가 좋아요.",
+            "turn_id": "BK22008618-3",
+            "utterance_id": "BK22008618.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 약물치료가 ADHD의 증상에 효과적이긴 한 것 같네요. 하지만 그렇다고 해도 약물에 대한 부작용이 걱정이 안 될 수는 없는 것 같아요. 약물치료를 하지 않고 ADHD 증상을 완화시킬 수 있는 다른 치료법은 없나요?",
+            "turn_id": "BK22008618-4",
+            "utterance_id": "BK22008618.7"
+        },
+        {
+            "reference_date": "2019-01-21",
+            "reference_text": [
+                {
+                    "value": "한편 최근에는 약물치료의 부작용을 걱정하지 않고 ADHD의 증상을 완화시킬 수 있는 비약물적인 치료도 널리 행해지고 있다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "뉴로피드백이라는 두뇌훈련이 대표적인데, 이는 주의집중상태에 따라 변화하는 뇌파의 특성을 이용해 긍정적인 뇌파를 강화시키고 멍한 의식상태에서 나오는 뇌파는 억제하는 훈련이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "두뇌훈련 전문기관인 수인재두뇌과학 동탄센터 박도현 소장은 “뉴로피드백은 학습원리를 적용한 두뇌훈련법으로 부작용이 없고 3개월에서 6개월 이상 꾸준히 훈련하면 그 효과는 지속된다며 덧붙여, 훈련은 전문성을 갖춘 뉴로피드백 전문기관을 찾아 정확한 검사를 받은 후에 실시하는 것을 권한다.”라고 말했다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sportsseoul.com/news/read/722601",
+            "search_query": "아동 ADHD 비약물 치료",
+            "terminate": false,
+            "text": "최근에는 ADHD의 증상을 완화 시킬 수 있는 비약물적 치료 방법으로 뉴로피드백이라고 하는 두뇌 훈련을 치료법을 활용하기도 해요. 이 두뇌 훈련법은 주의집중 상태에 따라 변하는 뇌파의 특성을 활용해 긍정적인 뇌파를 강화시키고 멍한 상태에서 나오는 뇌파는 억제시키는 훈련 방법인데요, 이 방법은 부작용 걱정이 없고 3개월에서 6개월 이상 꾸준히 반복 훈련을 한다면 ADHD의 증상 완화에 지속적인 효과를 볼 수 있어요. 하지만 전문성이 필요한 훈련법이기 때문에 관련 전문기관을 찾아가 정확히 검사를 받은 후에 받는 것이 좋아요.",
+            "turn_id": "BK22008618-4",
+            "utterance_id": "BK22008618.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "두뇌 훈련도 ADHD의 증상을 완화시켜주는 하나의 방법이라는 게 신기하네요. 그런데 ADHD는 반드시 치료를 해야만 하는 건가요? 아이가 자라면 자연스럽게 나아질 확률은 없나요?",
+            "turn_id": "BK22008618-5",
+            "utterance_id": "BK22008618.9"
+        },
+        {
+            "reference_date": "2021-11-12",
+            "reference_text": [
+                {
+                    "value": "“예전에는 ADHD 증상은 나이 들면서 호전된다고 생각했다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 최근 어른이 된다고 해서 모두 괜찮아지는 것은 아니라는 사실이 밝혀졌다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 ADHD 어린이는 성장하면서 학교ㆍ대인 관계ㆍ가족 관계 등에서 부적응하는 모습을 보이고 부정적 경험을 겪는 경우가 많다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 때문에 성인이 돼 ADHD 핵심 증상은 나아졌을지라도 좌절감ㆍ자존감 저하ㆍ난폭하거나 우울한 성격 등 어려움이 생길 가능성이 높다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "즉, 적절히 개입하지 않으면 ADHD와 관련된 다른 심리 사회적 어려움 등이 발생하고 이는 증상을 악화하므로 정확한 진단을 받고 적절한 도움을 받아야 한다.”",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2021111220300004481",
+            "search_query": "ADHD 꼭 치료 받아야 하나",
+            "terminate": false,
+            "text": "과거에는 ADHD는 나이가 들면 호전될 거라 여겼지만 최근에 ADHD는 성인이 된다고 모두 나아지는 건 아니라는 사실이 밝혀졌어요. 그리고 ADHD를 앓는 아이들은 성장을 하면서 학교나 대인관계, 가족관계 등에서 잘 적응하지 못하고 부정적인 경험을 하게 되는 경우가 많기 때문에 아이가 성인이 됐을 때 ADHD의 주요 증상은 나아졌다고 하더라도 좌절감이나 자존감 저하 등의 여러 어려움이 생길 확률이 높아요. 그렇기 때문에 ADHD로 인하여 발생하는 심리적이나 사회적인 어려움 등의 증상을 완화시키기 위해서는 정확한 진단을 받고 적절한 치료를 받아야 해요.",
+            "turn_id": "BK22008618-5",
+            "utterance_id": "BK22008618.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이의 정신건강을 위해서라도 치료는 받는게 좋겠네요. 그럼 자녀가 ADHD를 앓고 있다면 가정에서는 아이를 어떻게 지도하는 게 좋을까요?",
+            "turn_id": "BK22008618-6",
+            "utterance_id": "BK22008618.11"
+        },
+        {
+            "reference_date": "2021-11-21",
+            "reference_text": [
+                {
+                    "value": "가정에서의 지도도 중요하다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "산만한 어린이는 부모가 지지적인 태도로 격려하며 함께 숙제나 공부를 하는 것만으로도 산만한 행동이 줄어들기도 하기 때문이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또래보다 짧은 시간 동안 무언가 해낼 수 있도록 환경을 제공하면서 집중하는 모습을 칭찬하고 격려해 자녀가 기쁜 마음으로 집중하려고 노력할 수 있도록 해주면 좋다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2021112118110004492",
+            "search_query": "아동ADHD 학습법",
+            "terminate": false,
+            "text": "부모가 아이를 지지해주는 태도를 보여주며 격려와 함께 학습을 하는 것만으로도 아이의 산만한 행동이 줄어들기도 하기 때문에 가정에서의 지도는 중요해요. 아이가 다른 또래보다 비교적 짧은 시간 안에 뭔가를 해낼 수 있도록 적절한 환경을 만들어주고, 그 상황에서 집중하는 모습에 대해 칭찬해주고 격려를 해주면서 아이가 기쁜 마음으로 집중할 수 있도록 해주는 게 좋아요.",
+            "turn_id": "BK22008618-6",
+            "utterance_id": "BK22008618.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이가 뭔가를 해낼 수 있다는 기쁨을 느낄 수 있도록 지지해주는 것이 중요하네요. 그럼 ADHD를 앓고 있는 아이가 학교에 가게 되면 학교 선생님에게 아이가 ADHD라는 걸 알려야 할까요? 학교 선생님이 괜히 색안경을 끼고 아이를 보는 건 아닐지 걱정이 되기도 한데 어떤 게 아이를 위해 좋은 건지 잘 모르겠어요.",
+            "turn_id": "BK22008618-7",
+            "utterance_id": "BK22008618.13"
+        },
+        {
+            "reference_date": "2022-07-28",
+            "reference_text": [
+                {
+                    "value": "학교 선생님께 아이의 ADHD 진단을 알릴 때는 아이의 치료 상황을 같이 공유하는 것이 필요합니다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "선생님께서 아이의 ADHD 증상과 어려움을 잘 알게 되면 아이가 학교에서 불필요한 부정적 피드백을 받는 것을 줄일 수 있습니다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 학교 선생님은 가정과 병원에 학교에서의 아이 상황을 잘 전달해 주셔서 문제행동에 대해 일반적인 야단이나 지적이 아니라 약물조절과 긍정강화 등의 방법을 통해 아이의 증상이 잘 조절될 수 있도록 도와주실 수 있습니다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.psychiatricnews.net/news/articleView.html?idxno=33352",
+            "search_query": "ADHD 증상 학교에 알려야 하나",
+            "terminate": false,
+            "text": "학교 선생님에게 아이의 ADHD 진단을 알리면서 치료 상황도 함께 알려주는 것이 좋아요. 선생님이 아이의 증상을 알게 되고 아이가 겪는 어려움을 이해한다면 아이가 학교에서 불필요하게 부정적인 피드백을 받는 일을 줄일 수 있어요. 그리고 학교 선생님을 통해서 병원이나 가정에서 아이의 문제행동에 대한 상황이 잘 전달된다면 그 상황에 적합한 방법들을 적용해 아이의 증상이 조절될 수 있도록 도움을 받을 수도 있어요.",
+            "turn_id": "BK22008618-7",
+            "utterance_id": "BK22008618.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전 부정적인 인식에 대해서 걱정을 많이 했는데 선생님께 알리고 도움을 받는 게 훨씬 좋을 것 같아요. 그런데 아스퍼거 증후군도 ADHD와 증상이 비슷하다고 들었는데 둘의 차이점은 뭔가요?",
+            "turn_id": "BK22008618-8",
+            "utterance_id": "BK22008618.15"
+        },
+        {
+            "reference_date": "2019-04-23",
+            "reference_text": [
+                {
+                    "value": "\"아스퍼거증후군은 상호작용에 질적인 어려움을 겪는 사회성 발달장애 문제다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지능은 정상이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "ADHD는 주의력이나 충동성 등 행동조절에 관련한 신경학적 발달장애 문제로 구분할 수 있다",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사회성과 관련이 있는 인지기능에 어려움을 겪는 아스퍼거증후군은 사회적 양상에서 행동이 조절돼도 사회적 기능이 또래보다 현저히 떨어지며 나이에 기대되는 사회적 성숙과 발달에 큰 차이를 보인다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "ADHD는 행동조절 능력이 또래보다 떨어지고 과잉행동이 심하다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=73882",
+            "search_query": "아스퍼거증후군과 ADHD 차이",
+            "terminate": false,
+            "text": "ADHD의 경우에는 주의력이나 충동성 등의 행동조절에 관련된 신경학적 발달 장애인 반면에 아스퍼거증후군의 경우에는 상호작용에 어려움을 느끼는 사회성 발달장애 문제를 가지고 있어요. 아스퍼거증후군은 사회성과 관련된 인지기능에 문제가 있기 때문에 사회적 양상에서 행동이 조절된다고 하더라도 사회적인 기능이 또래보다 현저히 떨어지고 나이별로 기대되는 사회적인 성숙도나 발달에 큰 차이를 보이게 돼요. 이와 다르게 ADHD는 행동조절 능력이 또래보다 떨어지고 과잉행동이 심한 증상을 보이죠.",
+            "turn_id": "BK22008618-8",
+            "utterance_id": "BK22008618.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 아스퍼거 증후군은 사회성과 관련된 장애였군요. 오늘 정말 덕분에 유용한 정보를 많이 얻어가는 것 같아요. 저희 아이도 조만간 검사를 한번 받아보는 것이 좋겠네요.",
+            "turn_id": "BK22008618-9",
+            "utterance_id": "BK22008618.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 드린 정보가 도움이 됐으면 좋겠네요. 더 궁금한 게 있으신가요?",
+            "turn_id": "BK22008618-9",
+            "utterance_id": "BK22008618.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "물론 더 물어보고 싶은 건 많은데 제가 이만 들어가 봐야 할 것 같아요. 오늘 좋은 정보 알려주셔서 너무 감사드려요.",
+            "turn_id": "BK22008618-10",
+            "utterance_id": "BK22008618.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아니에요, 궁금한 게 생기면 언제든 또 질문 주세요. 그럼 저도 이만 들어가 보겠습니다.",
+            "turn_id": "BK22008618-10",
+            "utterance_id": "BK22008618.20"
+        }
+    ]
+}

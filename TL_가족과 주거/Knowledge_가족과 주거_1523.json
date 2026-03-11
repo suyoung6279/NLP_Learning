@@ -1,0 +1,352 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22000843",
+        "name": "2022 한국어 블렌더봇 데이터 BK22000843",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전에 친구 가족분이 돌아가셔서 문상 다녀왔는데 아직도 마음이 안 좋아요. 수목장을 했다더라고요.",
+            "turn_id": "BK22000843-1",
+            "utterance_id": "BK22000843.1"
+        },
+        {
+            "reference_date": "2022-02-13",
+            "reference_text": [
+                {
+                    "value": "수목장(樹木葬)은 입지가 좋은곳에 나무를 심어 가꾸고 그 뿌리 부분에 화장한 고인의 뼛가루를 묻는 방법을 말한다.",
+                    "value_time": "2022-06-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%88%98%EB%AA%A9%EC%9E%A5",
+            "search_query": "수목장",
+            "terminate": false,
+            "text": "아이고, 고인의 명복을 빕니다. 수목장으로 하셨구나. 고인을 화장한 뒤에 입지 좋은 자리에 심은 나무의 뿌리 쪽에 뼛가루를 묻는 장례 방법이잖아요.",
+            "turn_id": "BK22000843-1",
+            "utterance_id": "BK22000843.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘은 분묘나 납골당 같은 것보다는 그렇게 자연에 많이들 묻는 것 같네요. 수목장 말고 다른 자연장도 있나요?",
+            "turn_id": "BK22000843-2",
+            "utterance_id": "BK22000843.3"
+        },
+        {
+            "reference_date": "2015-12-17",
+            "reference_text": [
+                {
+                    "value": "국내에서 가장 많이 알려진 자연장 종류는 수목장이다.",
+                    "value_time": "2022-06-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이처럼 자연장 문화가 확산되면서 최근에는 ‘잔디장’, ‘화초장’과 같은 다양한 자연장의 종류로 변화하고 있다.",
+                    "value_time": "2022-06-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "‘잔디장’과 ‘화초장’은 화장한 골분을 잔디밭 또는 화초 아래에 묻는 형태다.",
+                    "value_time": "2022-06-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://biz.heraldcorp.com/view.php?ud=201512171012039780416_4",
+            "search_query": "자연장 종류",
+            "terminate": false,
+            "text": "우리나라에 제일 잘 알려진 건 수목장이고 최근엔 자연장하는 문화가 확산돼서 종류가 다양해지는 추세예요. 잔디장이나 화초장 같은 게 있는데 화장한 뼛가루를 잔디밭이나 화초 밑에 묻는 거예요.",
+            "turn_id": "BK22000843-2",
+            "utterance_id": "BK22000843.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 다양해졌네요. 자연장이 다른 장례 방법보다 특별히 좋은 점이 있는 건가요?",
+            "turn_id": "BK22000843-3",
+            "utterance_id": "BK22000843.5"
+        },
+        {
+            "reference_date": "2017-09-25",
+            "reference_text": [
+                {
+                    "value": "우선 자연 친화적이기 때문에 묘지가 주던 혐오감을 전혀 주지 않는다.",
+                    "value_time": "2022-06-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 면적을 적게 차지하기 때문에 국토를 효율적으로 활용하고 자연환경을 보존할 수 있는 장점도 있다.",
+                    "value_time": "2022-06-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://magazine.hankyung.com/business/article/201709252900b",
+            "search_query": "자연장 장점",
+            "terminate": false,
+            "text": "아무래도 자연 친화적이라 묘지가 주는 꺼림직한 느낌이 없다는 게 큰 장점이죠. 그리고 차지하는 면적이 작아서 좁은 국토를 효율적으로 쓸 수 있고 자연도 보존할 수 있어요.",
+            "turn_id": "BK22000843-3",
+            "utterance_id": "BK22000843.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게만 들으니 확실히 다른 방법보다 좋은 것 같은데요. 안 좋은 점도 있나요?",
+            "turn_id": "BK22000843-4",
+            "utterance_id": "BK22000843.7"
+        },
+        {
+            "reference_date": "2017-10-05",
+            "reference_text": [
+                {
+                    "value": "지자체에서 운영하는 공설 수목장의 경우 가격이 상대적으로 저렴하지만, 민간이 운영하는 경우 수목의 종류에 따라 가격이 천차만별이고 초기 비용 부담이 적지 않습니다.",
+                    "value_time": "2022-06-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 나무를 잘 관리하지 않으면 기후변화에 따라 고사하거나 병충해에 약해질 수도 있습니다.",
+                    "value_time": "2022-06-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.sbs.co.kr/news/endPage.do?news_id=N1004423568&plink=ORI&cooper=NAVER",
+            "search_query": "자연장 단점",
+            "terminate": false,
+            "text": "비용이 문제죠. 수목장 같은 경우 공설 수목장은 지자체에서 운영해서 비교적 저렴한 편인데 민간 운영 수목장은 가격도 천차만별이고 초기 비용도 좀 부담되거든요. 나무 관리도 중요한데 관리가 잘 안 되면 기후 영향으로 말라죽거나 병충해 때문에 약해질 가능성이 있어요.",
+            "turn_id": "BK22000843-4",
+            "utterance_id": "BK22000843.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "확실히 자연에 묻다 보니 그런 문제점이 있겠네요. 바다에 뿌리는 방식은 안 이용하나요?",
+            "turn_id": "BK22000843-5",
+            "utterance_id": "BK22000843.9"
+        },
+        {
+            "reference_date": "2020-11-16",
+            "reference_text": [
+                {
+                    "value": "특히 해양장은 국토해양부에서 지정한 규정만 잘 지키면 문제될 일이 없으며 고인이 자유로운 곳으로 나아간다는 이미지를 갖고 있어 점점 활성화되고 있다.",
+                    "value_time": "2022-06-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=910555",
+            "search_query": "해양장",
+            "terminate": false,
+            "text": "해양장도 활성화되는 추세예요. 국토해양부가 지정한 규정을 지키기만 하면 문제될 것 없죠. 바다에 뿌리는 방법인 만큼 고인이 좀 더 자유로운 곳으로 간다는 이미지도 가지고 있고요.",
+            "turn_id": "BK22000843-5",
+            "utterance_id": "BK22000843.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 규정이 따로 있군요. 어떤 규정이 정해져 있는데요?",
+            "turn_id": "BK22000843-6",
+            "utterance_id": "BK22000843.11"
+        },
+        {
+            "reference_date": "2020-11-13",
+            "reference_text": [
+                {
+                    "value": "규정은 유골을 해안선에서 3해리 이상 떨어진 곳에 산분하는 것이므로 전문가의 지도 하에 배를 타고 나가 적절한 위치에 유골을 산분하면 된다.",
+                    "value_time": "2022-06-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=692534",
+            "search_query": "해양장 규정",
+            "terminate": false,
+            "text": "해안선에서 3해리 이상 떨어져서 유골을 뿌려야 해요. 전문가가 따로 있으니까 지도 하에 배를 타고 가서 규정에 맞는 위치에 산분하면 돼요.",
+            "turn_id": "BK22000843-6",
+            "utterance_id": "BK22000843.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 바다에 뿌리면 나중에 성묘를 못 가는 거 아니에요? 그냥 그 바다에 가서 추모하는 건가요?",
+            "turn_id": "BK22000843-7",
+            "utterance_id": "BK22000843.13"
+        },
+        {
+            "reference_date": "2020-11-03",
+            "reference_text": [
+                {
+                    "value": "바다성묘는 기존의 성묘와 다른 새로운 문화를 만들고 있다.",
+                    "value_time": "2022-06-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "해양장을 진행한 후에는 GPS를 기록해 바다성묘를 진행할 수 있는데, 바다성묘를 통해 후손들은 조상을 추모함과 동시에 치유를 받을 수 있다.",
+                    "value_time": "2022-06-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.eroun.net/news/articleView.html?idxno=20716",
+            "search_query": "해양장 성묘",
+            "terminate": false,
+            "text": "기존의 성묘와는 달리 바다성묘만의 문화가 만들어지고 있어요. 유골을 뿌리고 나면 그 자리의 GPS를 기록할 수 있어서 거기로 바다성묘를 가는 거예요. 조상 추모도 하고 힐링도 할 수 있게 된 거죠.",
+            "turn_id": "BK22000843-7",
+            "utterance_id": "BK22000843.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 그거 정말 좋네요. 고인 추모라고 해서 꼭 엄숙한 분위기일 필요는 없는 것 같아요. 그런데 나무, 바다에서도 장례를 하는데 산에서는 못하나요?",
+            "turn_id": "BK22000843-8",
+            "utterance_id": "BK22000843.15"
+        },
+        {
+            "reference_date": "2022-06-22",
+            "reference_text": [
+                {
+                    "value": "시신을 화장하고 남은 뼛가루를 산과 강 등에 뿌리는 장사 방법인 ‘산분장(散粉葬)’이 국내에서도 조만간 제도화될 것으로 보인다.",
+                    "value_time": "2022-06-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "21일 보건복지부에 따르면 하반기(7∼12월) 중 발표될 ‘제3차 장사시설 수급 종합계획(2023∼2027)’에는 그동안 별도 규정이 없던 산분장을 제도화하는 방안이 담긴다.",
+                    "value_time": "2022-06-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220622/114045526/1",
+            "search_query": "산분장",
+            "terminate": false,
+            "text": "아, 산분장도 곧 우리나라에서 제도화될 예정이에요. 화장한 뼛가루를 산이나 강 같은 곳에 뿌릴 수 있게 하는 게 산분장인데 보건복지부에 따르면 올해 하반기에 발표될 제3차 장사시설 수급 종합계획에 산분장 제도에 대한 내용이 포함될 거예요.",
+            "turn_id": "BK22000843-8",
+            "utterance_id": "BK22000843.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이제 산에도 유골을 뿌릴 수 있게 되네요. 저도 나중에 산에 묻히고 싶거든요.",
+            "turn_id": "BK22000843-9",
+            "utterance_id": "BK22000843.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 납골당에 놓이는 것보단 시원하게 자연에 놓이는 게 나을 것 같아요. 자손들이 찾아올 때 마음도 더 편할 것 같고요.",
+            "turn_id": "BK22000843-9",
+            "utterance_id": "BK22000843.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 일이 없어야겠지만 혹시 모를 경우를 대비해서 다양한 방법을 알아두는 게 좋을 것 같아요.",
+            "turn_id": "BK22000843-10",
+            "utterance_id": "BK22000843.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무래도 그러는 게 좋죠. 친구 가족 분도 좋은 곳 가셨을 테니 너무 상심하지 말고 마음 추슬러요.",
+            "turn_id": "BK22000843-10",
+            "utterance_id": "BK22000843.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저보단 친구가 걱정이죠, 염려해 주셔서 감사해요.",
+            "turn_id": "BK22000843-11",
+            "utterance_id": "BK22000843.21"
+        }
+    ]
+}

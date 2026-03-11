@@ -1,0 +1,376 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011806",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011806",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "올해 처음으로 저희집에서 제사를 지내기로 했어요. 제사 준비는 한 번도 안 해봐서 걱정이 태산이네요. 제사는 몇시쯤에 지내면 되나요?",
+            "turn_id": "BK22011806-1",
+            "utterance_id": "BK22011806.1"
+        },
+        {
+            "reference_date": "2022-09-11",
+            "reference_text": [
+                {
+                    "value": "기제사는 전통적으로는 조상이 돌아가신 날의 첫 새벽(새벽 0시 직후)에 지냈다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 오늘날은 이렇게 되면 가족들의 참석이 어려워지는 문제가 있어, 보통은 기일의 저녁 시간에 지내는 경우가 많다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gukjenews.com/news/articleView.html?idxno=2547796",
+            "search_query": "제사 지내는 시간",
+            "terminate": false,
+            "text": "전통적으로 제사는 조상이 돌아가신 날의 첫 새벽 0시 직후에 지냈는데요. 요즘에 이 시간대에 제사를 지내게 되면 가족들이 참석하기 어렵기 때문에 기일 저녁에 지내는 경우가 많아요.",
+            "turn_id": "BK22011806-1",
+            "utterance_id": "BK22011806.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 저녁에 하는거로 상의해봐야겠네요. 제사상도 놓는 방향이 따로 정해져 있나요?",
+            "turn_id": "BK22011806-2",
+            "utterance_id": "BK22011806.3"
+        },
+        {
+            "reference_date": "2022-09-10",
+            "reference_text": [
+                {
+                    "value": "차례상·제사상 맨 위에 놓이는 자리는 영혼의 자리라는 뜻의 '신위'라 불린다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "제사상의 방향은 신위가 놓인 쪽을 북쪽으로 본다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gukjenews.com/news/articleView.html?idxno=2547843",
+            "search_query": "제사상 북쪽",
+            "terminate": false,
+            "text": "제사상의 맨 위는 영혼의 자리라고 하는 신위인데요. 신위 쪽을 북쪽으로 보고 제사상을 두시면 돼요.",
+            "turn_id": "BK22011806-2",
+            "utterance_id": "BK22011806.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어요. 무엇보다 제사음식이 가장 걱정되는데, 5줄 정도로 맞춰서 음식을 두는 건 알고 있거든요. 줄마다 어떤 음식을 두어야 하는 거죠?",
+            "turn_id": "BK22011806-3",
+            "utterance_id": "BK22011806.5"
+        },
+        {
+            "reference_date": "2022-09-10",
+            "reference_text": [
+                {
+                    "value": "1열은 식사류로 수저와 함께 밥과 국, 술잔, 시접과 편, 송편 등을 놓는다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2열은 주요리로 육전, 육적, 소적, 어적, 어전 등 구이와 전을 차린다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "3열은 부요리로 육탕, 소탕, 어탕 등을 놓고 촛대도 같은 열에 둔다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "4열은 밑반찬류로 포, 삼색나물, 간장, 침채, 식혜 자리다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "마지막으로 5열은 과일이나 과자류, 즉 후식을 놓는다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gukjenews.com/news/articleView.html?idxno=2547843",
+            "search_query": "제사상 1열",
+            "terminate": false,
+            "text": "1열은 식사류로써 수저, 밥, 국, 술잔, 송편, 시접과 편 등을 두시면 돼요. 2열은 주요리인 육전과 육적, 소적 및 어적, 어전과 같은 구이류와 전류로 차리시면 된답니다. 3열은 부요리 종류인 육탕과 소탕, 어탕 등을 차리고 촛대도 3열에 두시면 돼요. 4열은 밑반찬류인 포와 삼색나물, 침채, 간장, 식혜를 두는 자리에요. 5열은 과일, 과자류와 같은 후식을 놓으시면 된답니다.",
+            "turn_id": "BK22011806-3",
+            "utterance_id": "BK22011806.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "벌써 헷갈리네요. 잊지 않게 적어두어야겠어요. 그런데 1열은 상의 앞쪽을 말하는 건가요 뒤쪽을 말하는 건가요?",
+            "turn_id": "BK22011806-4",
+            "utterance_id": "BK22011806.7"
+        },
+        {
+            "reference_date": "2022-09-10",
+            "reference_text": [
+                {
+                    "value": "주의할 점은 후손이 보는 곳부터가 1열이 아니라 신위를 모신 곳에서 가까운 곳이 1열이란 점이다. ",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gukjenews.com/news/articleView.html?idxno=2547843",
+            "search_query": "제사상 1열",
+            "terminate": false,
+            "text": "1열은 후손이 보이는 곳부터가 아닌, 신위를 모신 곳과 가까운 곳이 1열이에요.",
+            "turn_id": "BK22011806-4",
+            "utterance_id": "BK22011806.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 저희 쪽에 가까운 게 1열이 아니라 5열인 거네요. 상을 차릴 때 수저와 국, 밥 등은 저희가 평소에 먹는 방향대로 두면 될까요?",
+            "turn_id": "BK22011806-5",
+            "utterance_id": "BK22011806.9"
+        },
+        {
+            "reference_date": "2022-09-10",
+            "reference_text": [
+                {
+                    "value": "수저는 중앙에 놓으며, 밥은 서쪽(왼쪽) 국은 동쪽(오른쪽)에 차린다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "남좌여우(男左女右) : 산 사람의 상 차림과 반대",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gukjenews.com/news/articleView.html?idxno=2547843",
+            "search_query": "제사상 남좌여우",
+            "terminate": false,
+            "text": "제사상은 남좌여우라고 하여 살아 있는 사람의 상차림과 반대로 두셔야 해요. 수저는 중앙, 밥은 서쪽, 국은 동쪽에 차리면 된답니다.",
+            "turn_id": "BK22011806-5",
+            "utterance_id": "BK22011806.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "실수할 뻔했네요. 저희가 먹는 방식과 반대로 두어야 하는군요. 그럼 2열에 둘 고기와 생선도 놓는 방향이 정해져 있나요?",
+            "turn_id": "BK22011806-6",
+            "utterance_id": "BK22011806.11"
+        },
+        {
+            "reference_date": "2021-09-21",
+            "reference_text": [
+                {
+                    "value": "고기는 서쪽(왼쪽), 생선은 동쪽(오른쪽), 어동육서(魚東肉西)다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "상위에 놓을 떄도 꼬리는 서쪽(왼쪽), 머리는 동쪽(오른쪽)에 위치한다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이것이 적전중앙(炙奠中央)에 따라 적(炙)은 중앙에 위치한다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongboo.com/news/articleView.html?idxno=363503756",
+            "search_query": "제사상 위치 어동육서",
+            "terminate": false,
+            "text": "어동육서라고 하여 생선은 오른쪽인 동쪽에, 고기는 왼쪽인 서쪽에 차리면 돼요. 상위에 올려둘 때도 꼬리가 서쪽, 머리는 동쪽으로 위치하게 하고 적전중앙에 따라 적은 가운데에 놓아두시면 된답니다.",
+            "turn_id": "BK22011806-6",
+            "utterance_id": "BK22011806.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고기는 서쪽, 생선은 동쪽 기억해둘게요. 그리고 과일을 놓는 것도 순서가 있나요?",
+            "turn_id": "BK22011806-7",
+            "utterance_id": "BK22011806.13"
+        },
+        {
+            "reference_date": "2021-09-21",
+            "reference_text": [
+                {
+                    "value": "이후는 많은 사람들이 기억하고 있든 조율이시(棗栗梨枾), 홍동백서(紅東白西)다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 붉은 과일은 동쪽, 흰 과일은 서쪽에 놓고 있다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongboo.com/news/articleView.html?idxno=363503756",
+            "search_query": "제사상 위치 홍동백서",
+            "terminate": false,
+            "text": "홍동백서라고 하여 붉은 과일은 동쪽에, 흰색 과일은 서쪽에 두는 걸 말해요.",
+            "turn_id": "BK22011806-7",
+            "utterance_id": "BK22011806.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 홍동백서, 이제서야 기억이 나네요. 그런데 제사상에 올리면 안 되는 음식도 있나요?",
+            "turn_id": "BK22011806-8",
+            "utterance_id": "BK22011806.15"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "제사·차례상에는 몇 가지 올려서는 안 되는 음식이 있다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대표적으로는 복숭아가 있는데 복숭아나무는 귀신을 쫓는다는 설이 있어 제사상에 올리지 않는다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "붉은 팥도 비슷한 의미에서 쓰지 않고 팥고물 대신 흰색 고물을 사용한다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 끝에 '치'자가 들어가는 삼치나 갈치, 참치, 꽁치 등의 생선은 흔한 생선으로 여겨져 잘 놓지 않는다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gukjenews.com/news/articleView.html?idxno=2547466",
+            "search_query": "제사상 안되는 음식",
+            "terminate": false,
+            "text": "제사상에 올리면 안 되는 대표적인 음식은 복숭아에요. 복숭아 나무가 귀신을 쫓는다는 의미가 있거든요. 붉은 팥도 비슷한 의미로 제사상에는 사용하지 않고 대신 흰 고물을 사용하면 돼요. 또한 생선 중에서 치자가 들어가는 갈치나 참치, 꽁치, 삼치는 흔한 생선이라 여겨져 잘 올리지 않아요.",
+            "turn_id": "BK22011806-8",
+            "utterance_id": "BK22011806.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "붉은 팥떡이 제사상에 올라가는 줄 알았는데 잘못 알고 있었네요. 제사상을 차리는데 알아야 할 것이 정말 많네요.",
+            "turn_id": "BK22011806-9",
+            "utterance_id": "BK22011806.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 그렇지만 처음은 어떤 것이든 어려운 법이니까 여러 번 하다 보면 어렵지 않게 느껴질 거에요.",
+            "turn_id": "BK22011806-9",
+            "utterance_id": "BK22011806.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 날이 오겠죠? 벌써 걱정이 되지만 알려주신 대로 준비하면 잘 해낼 수 있을 것 같아요. 정보 감사드려요.",
+            "turn_id": "BK22011806-10",
+            "utterance_id": "BK22011806.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "분명 잘할 수 있을 거에요. 너무 걱정하지 마시고 화이팅 하세요. 그럼 다음에 시간 될 때 또 이야기 나눠요.",
+            "turn_id": "BK22011806-10",
+            "utterance_id": "BK22011806.20"
+        }
+    ]
+}

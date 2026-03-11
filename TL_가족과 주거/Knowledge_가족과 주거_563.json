@@ -1,0 +1,406 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015748",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015748",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "출산을 준비하고 있어요. 기대가 되면서 걱정도 되고 그러네요.",
+            "turn_id": "BK22015748-1",
+            "utterance_id": "BK22015748.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "예쁜 아가를 맞이하는 기쁨도 크지만, 이것저것 고려할 것도 많으니 걱정도 될 수 있죠.",
+            "turn_id": "BK22015748-1",
+            "utterance_id": "BK22015748.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게요. 특히 주변에서 산후우울증을 조심하라는 분들이 계셔서 그것도 좀 신경이 쓰여요. 출산 후 우울감을 겪는 경우가 많은가요?",
+            "turn_id": "BK22015748-2",
+            "utterance_id": "BK22015748.3"
+        },
+        {
+            "reference_date": "2022-10-04",
+            "reference_text": [
+                {
+                    "value": "출산 후 85% 이상의 산모들이 산후우울감을 느끼는 것으로 알려졌다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대부분의 산후우울감은 2주 이내에 호전되지만, 산모의 약 10~20% 정도는 치료가 필요할 정도의 산후우울증을 경험할 수 있으므로 극복을 위한 노력이 필요하다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202210044112o",
+            "search_query": "출산 후 산후우울감",
+            "terminate": false,
+            "text": "85% 이상의 산모들이 출산 후 산후우울감을 느낀다고 알려져 있어요. 하지만 대부분의 산후우울감은 2주 이내에 호전돼요. 치료가 필요할 정도의 산후우울증을 경험하는 경우는 10~20% 정도에요.",
+            "turn_id": "BK22015748-2",
+            "utterance_id": "BK22015748.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "약간씩 산후우울감을 겪을 수 있군요. 그러면 치료가 필요한 산후우울증의 경우 증상은 어떻게 되나요?",
+            "turn_id": "BK22015748-3",
+            "utterance_id": "BK22015748.5"
+        },
+        {
+            "reference_date": "2022-10-04",
+            "reference_text": [
+                {
+                    "value": "산후우울증은 출산 후 4주에서 6주 사이에 우울하거나 심한 불안감, 집중력 저하, 죄책감 등을 경험하고 심하면 죽음에 대한 생각으로 인해일상 생활에서 기능 저하를 초래하는 질환이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기본적인 증상은 주요 우울증 증상과 비슷하다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "식욕이나 체중이 현저하게 감소하거나 증가하고, 쉽게 피로를 느끼면서 부적절한 죄책감을 느끼기도 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "산후우울증이 심해지면 아기에 대한 관심이 상실하거나 혹은 과도하고 부적절하게 걱정하는 모습을 보일 수 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또는 아기에게 적대적이거나 폭력적인 행동을 하기도 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202210044112o",
+            "search_query": "산후우울증 증상",
+            "terminate": false,
+            "text": "산후우울증은 출산 후 4~6주 사이에 나타나고, 기본적인 증상은 주요 우울증 증상과 비슷해요. 우울, 심한 불안감, 집중력 저하, 부적절한 죄책감 등을 느끼거나 죽음에 대한 생각을 하고, 피로감을 쉽게 느끼거나 식욕이나 체중이 현저하게 감소 또는 증가하기도 하죠. 뿐만 아니라 산후우울증이 심해지면 아기에 대한 관심을 상실할 수도 있고, 반대로 과도하거나 부적절한 걱정을 하기도 하고, 또는 적대적이거나 폭력적인 행동을 하기도 해요.",
+            "turn_id": "BK22015748-3",
+            "utterance_id": "BK22015748.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 만약 산후우울증을 경험한다면 꼭 치료가 필요하겠어요. 그러면 산후우울증을 겪게 되는 이유는 왜인가요?",
+            "turn_id": "BK22015748-4",
+            "utterance_id": "BK22015748.7"
+        },
+        {
+            "reference_date": "2022-10-04",
+            "reference_text": [
+                {
+                    "value": "산후우울증은 생물학적, 심리적, 사회적 요소들이 서로 얽혀져 일어난다고 보고 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "여성호르몬은 임신 기간동안 계속 증가하다가 출산 후 48시간 이내에 90% 이상이 감소하는데, 이러한 급격한 호르몬의 변화가 산후 우울증에 영향을 미칠 가능성이 있다고 본다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 분만 후 피로, 수면장애, 충분하지 못한 휴식, 아이 양육에 대한 부담감 등도 산후우울증 유발에 기여할 수 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우울증 과거력이 있거나 임신 기간 스트레스 유발 상황 경험을 비롯해 배우자와 사이가 좋지 않은 경우도 영향을 미치기도 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202210044112o",
+            "search_query": "산후우울증 유발 원인",
+            "terminate": false,
+            "text": "생물학적, 심리적, 사회적 요소들이 서로 얽혀 산후우울증이 일어난다고 보죠. 임신 기간 동안 계속 증가하던 여성호르몬은 출산 후 48시간 이내에 90% 이상 급감하는데, 이러한 급격한 여성호르몬의 변화가 산후우울증에 영향을 줄 수 있어요. 또한 분만 후 피로, 수면 장애, 불충분한 휴식, 아이 양육에 대한 부담감, 우울증 과거력과 임신 기간 중 스트레스를 일으키는 상황 경험, 배우자와 좋지 않은 관계도 산후우울증에 영향을 미칠 수 있죠.",
+            "turn_id": "BK22015748-4",
+            "utterance_id": "BK22015748.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신체적인 원인뿐 아니라 다양한 원인이 있을 수 있군요. 그러면 산후우울증 진단은 어떻게 하나요?",
+            "turn_id": "BK22015748-5",
+            "utterance_id": "BK22015748.9"
+        },
+        {
+            "reference_date": "2022-06-09",
+            "reference_text": [
+                {
+                    "value": "산후 우울증의 진단 기준은 우울증 진단 기준과 동일하다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "출산 후에 우울증의 증상이 나타난다면 산후 우울증으로 진단한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이때, 빈혈이나 갑상선 기능 저하증 등 다른 질병으로 인한 증상인지 확인하기 위해 혈액 검사를 시행하기도 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "병원에 방문하기 전에 산후 우울증을 자가 진단하고 싶다면 에딘버러 산후우울 검사(EDPS, 한국어판)을 통해 자가 진단을 시행할 수 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000705405",
+            "search_query": "산후우울 검사 에딘버러 검사",
+            "terminate": false,
+            "text": "산후 우울증을 진단하는 기준은 우울증 진단 기준과 같아요. 출산 후에 우울증 증상이 나타나는 경우 산후우울증으로 진단하며, 이때 혈액 검사를 시행하기도 하는데, 이는 빈혈이나 갑상선 기능 저하증 등 다른 질병으로 야기된 증상인지 확인하기 위한 거예요. 병원에 방문하기 전 에딘버러 산후우울 검사를 활용해 산후우울증 자가진단을 시행해 볼 수도 있어요.",
+            "turn_id": "BK22015748-5",
+            "utterance_id": "BK22015748.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자가진단 툴도 있군요. 산후우울증 진단을 받으면 어떤 치료를 받나요?",
+            "turn_id": "BK22015748-6",
+            "utterance_id": "BK22015748.11"
+        },
+        {
+            "reference_date": "2022-07-15",
+            "reference_text": [
+                {
+                    "value": "산후우울증의 기본 치료는 ‘기다림’이다. 뇌는 자가 회복력을 갖고 있어 증상 발현 후 3~6개월 동안 신경전달 체계를 복구시킨다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "단, 그사이에 증상이 악화돼 “죽고 싶다”, “출산을 후회 한다”, “애가 사라지면 좋겠다”고 말하는 환자라면 약물치료를 고려해야 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "약물치료가 불가능하다면 상담 치료, 인지치료, 부부 치료도 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "세로토닌을 높일 수 있는 콩, 두부, 돼지고기 등 단백질이 풍부한 음식을 섭취하는 것도 치료에 도움을 줄 수 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 무엇보다 중요한 것은 ‘배우자의 역할’이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://woman.chosun.com/news/articleView.html?idxno=100155",
+            "search_query": "산후우울증 치료 약물 상담",
+            "terminate": false,
+            "text": "뇌는 자가 회복력을 갖고 있어 증상이 생긴 후 3~6개월 동안 신경전달 체계를 스스로 복구하기 때문에, 산후우울증의 기본 치료는 기다리는 것이 우선이에요. 하지만 그 사이에 죽고 싶다, 출산이 후회된다, 애가 사라지면 좋겠다 라고 말하며 증상이 악화된 환자라면 약물 치료를 고려해야 하죠. 약물치료가 불가능한 경우, 상담치료, 인지치료, 부부치료를 활용할 수도 있어요. 콩, 두부, 돼지고기 등 세로토닌을 높일 수 있는 단백질이 풍부한 음식을 먹는 것도 치료에 도움이 되죠. 그러나 무엇보다 치료를 위해서는 배우자의 역할이 중요해요.",
+            "turn_id": "BK22015748-6",
+            "utterance_id": "BK22015748.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뇌의 자가 회복력으로 회복될 수도, 적극적인 치료가 필요할 수도 있군요. 치료를 위해 배우자가 해야 하는 역할에 대해 좀 더 자세히 알 수 있을까요?",
+            "turn_id": "BK22015748-7",
+            "utterance_id": "BK22015748.13"
+        },
+        {
+            "reference_date": "2022-07-16",
+            "reference_text": [
+                {
+                    "value": "배우자의 역할이 강조되는 이유는 실제로 배우자가 산후우울증의 원인이 되기도, 체료제가 되기도 해서다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보건의학계에선 △산모의 입장에서 공감하고 격려하기 △산모가 규칙적인 생활리듬을 가질 수 있도록 건강 지켜주기 △신생아 돌보는 일에 적극적으로 관여하기 등 방법을 제시하고 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220715514268?OutUrl=naver",
+            "search_query": "산후우울증 치료 배우자",
+            "terminate": false,
+            "text": "배우자의 역할이 중요한 이유는 배우자가 실제로 산후우울증의 원인이 될 수도, 치료제가 될 수도 있기 때문이에요. 보건의학계에선 배우자가 산모의 입장에서 공감하고 격려하며, 규칙적인 생활 리듬을 산모가 가질 수 있도록 건강을 지켜주고, 적극적으로 신생아 돌보는 일에 참여하는 등의 방법을 권하고 있어요.",
+            "turn_id": "BK22015748-7",
+            "utterance_id": "BK22015748.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 부부가 함께 힘을 모으면 산후우울증을 이기기가 더욱 쉽겠죠. 그런데 배우자들도 산후우울증을 겪는지 궁금해요.",
+            "turn_id": "BK22015748-8",
+            "utterance_id": "BK22015748.15"
+        },
+        {
+            "reference_date": "2022-06-27",
+            "reference_text": [
+                {
+                    "value": "영국 런던 유니버시티 칼리지 스마이스 박사팀은 1990-2021년 영국과 미국을 포함한 15개국에서 시행된 23개 연구에서 2만 9286쌍의 부모에 대한 데이터를 분석한 결과, 30쌍 중 약 1쌍이 동시에 산후우울증을 겪는다는 것을 발견했다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "설문조사와 의료기록을 통해 부모의 불안이나 우울증 비율을 조사했는데 그 결과 3.2%의 부모가 동시에 산후우울증을 경험한 것으로 나타났다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1405868/30%ec%8c%8d-%ec%a4%91-1%ec%8c%8d-%eb%b6%80%eb%aa%a8-%ec%82%b0%ed%9b%84%ec%9a%b0%ec%9a%b8%ec%a6%9d-%eb%8f%99%ec%8b%9c%ec%97%90-%ea%b2%aa%ec%96%b4-%ec%97%b0%ea%b5%ac/",
+            "search_query": "부부 동시 산후우울증",
+            "terminate": false,
+            "text": "영국 런던 유니버시티 칼리지 스마이스 박사팀은 연구를 통해 부모 30쌍 중 약 1쌍이 동시에 산후우울증을 겪는다는 것을 밝혔어요. 영국과 미국을 포함한 15개국에서 1990~2021년 시행된 23개 연구에서 총 2만 9286쌍의 부모를 상대로 설문조사와 의료기록을 통해 부모의 불안이나 우울증 비율을 조사한 결과 3.2%의 부모가 산후우울증을 동시에 경험한 것으로 나타났죠.",
+            "turn_id": "BK22015748-8",
+            "utterance_id": "BK22015748.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "부부가 동시에 산후우울증을 겪을 수도 있군요. 그러면 아기에게는 어떤가요? 산후우울증이 아기에게 어떤 영향을 미치는지도 알고 싶어요.",
+            "turn_id": "BK22015748-9",
+            "utterance_id": "BK22015748.17"
+        },
+        {
+            "reference_date": "2022-10-04",
+            "reference_text": [
+                {
+                    "value": "엄마가 산후우울증을 겪을 경우 신생아도 스트레스를 나타내는 혈중 코르티솔 수치가 정상치보다 높아진다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 성장 후에도 스트레스에 민감한 체질이 될 가능성이 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "엄마의 산후우울증이 계속된다면 그 원인이 아기 때문이라는 생각에 스킨십이 소홀해지면서 엄마와 아기 사이의 애착 관계가 제대로 형성되지 못할 수도 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202210044112o",
+            "search_query": "산후우울증 아기 영향",
+            "terminate": false,
+            "text": "엄마가 산후우울증을 경험하고 있다면, 아기도 스트레스를 나타내는 혈중 코르티솔 수치가 정상치보다 높아져, 성장 후에도 스트레스에 민감한 체질이 될 수 있어요. 그리고 산후우울증이 계속되는 상태라면 엄마는 아기가 원인이라고 생각하면서 스킨십에 소홀하게 되어 엄마와 아기 사이의 애착 관계도 제대로 만들어지지 못할 가능성이 있어요.",
+            "turn_id": "BK22015748-9",
+            "utterance_id": "BK22015748.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산후우울증은 혼자만의 문제가 아니군요. 오늘 덕분에 산후우울증에 대해 많이 알게 됐어요. 고맙습니다, 다음에 또 봐요.",
+            "turn_id": "BK22015748-10",
+            "utterance_id": "BK22015748.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 출산 준비 잘하시고 힘내세요. 몸과 마음 모두 건강하고, 아기도 건강하게 세상에 태어나길 바라요. 다음에 만나요.",
+            "turn_id": "BK22015748-10",
+            "utterance_id": "BK22015748.20"
+        }
+    ]
+}

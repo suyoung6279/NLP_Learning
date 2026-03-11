@@ -1,0 +1,372 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013870",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013870",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0036"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가끔 가족이나 친척 간의 호칭이 너무 어렵고 헷갈릴 때가 많아요. 백부님이라는 호칭은 대체 누굴 가리키는 건가요?",
+            "turn_id": "BK22013870-1",
+            "utterance_id": "BK22013870.1"
+        },
+        {
+            "reference_date": "43959.0",
+            "reference_text": [
+                {
+                    "value": "아버지보다 나이가 많은 형제를 백부로, 그 아내는 백모로 지칭한다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "나이가 적을 경우에는 각각 숙부와 숙모로 지칭한다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mhns.co.kr/news/articleView.html?idxno=407308",
+            "search_query": "가족 호칭 백부",
+            "terminate": false,
+            "text": "백부는 아버지보다 나이가 많은 형제를 가리키는 말로 백부의 아내는 백모라고 불러요. 아울러 아버지보다 나이가 적은 형제의 경우는 숙부, 그리고 그의 아내는 숙모라고 부르면 되죠.",
+            "turn_id": "BK22013870-1",
+            "utterance_id": "BK22013870.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 쉽게 말해 큰아버지를 가리키는 말인 거군요? 그런데 큰아버지를 큰삼촌이라고 부르는 경우도 왕왕 있는데 뭐가 맞는 건가요?",
+            "turn_id": "BK22013870-2",
+            "utterance_id": "BK22013870.3"
+        },
+        {
+            "reference_date": "43707.0",
+            "reference_text": [
+                {
+                    "value": "엄밀히 말해 삼촌은 호칭이 아니며 그냥 촌수를 나타내는데 요즘은 마치 호칭처럼 불러 버리는 경우가 많다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가령 아버지의 남자형제는 촌수로는 삼촌이지만 호칭은 큰아버지나 작은아버지로 불러야 함에도 그냥 삼촌이라고 불러 버린다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.munhwa.com/news/view.html?no=2019083001033745000002",
+            "search_query": "가족 호칭 삼촌 큰아버지",
+            "terminate": false,
+            "text": "사실 삼촌은 호칭이 아니라 단순히 촌수를 나타내는 단어인데, 근래에 마치 호칭처럼 쓰여진 경우예요. 예를 들어 부친의 남자 형제 분들의 호칭은 작은아버지 또는 큰아버지인데, 촌수를 뜻하는 삼촌으로 부르는 경우죠.",
+            "turn_id": "BK22013870-2",
+            "utterance_id": "BK22013870.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "삼촌이 호칭이 아니라 사촌 형제나 사돈의 팔촌 등을 이를 때 말하는 그 촌수의 하나였군요. 그럼 또 궁금한 게 촌수는 어떻게 계산하는 건가요?",
+            "turn_id": "BK22013870-3",
+            "utterance_id": "BK22013870.5"
+        },
+        {
+            "reference_date": "41669.0",
+            "reference_text": [
+                {
+                    "value": "촌수는 부모와 할아버지 등 '직계' 가족이 기준이 된다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이후 '방계'쪽으로 1촌씩 더하면 된다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기본적으로 부모와 자식사이는 1촌, 형제와 자매는 2촌을 더한다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또 부모는 1, 할아버지는 2, 증조할아버지는 3, 고조할아버지는 4촌을 더하면 된다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.headlinejeju.co.kr/news/articleView.html?idxno=199762",
+            "search_query": "가족 호칭 촌수 계산",
+            "terminate": false,
+            "text": "촌수의 기준은 부모와 할아버지 같은 직계 가족이고, 방계 쪽으로는 1촌씩 더해주면 돼요. 기본적으로 부모와 자식 관계는 1촌, 형제와 자매는 2촌을 더해 계산하는 거죠. 이 외에도 조부는 2, 증조부는 3, 고조부는 4촌을 더하는 관계예요.",
+            "turn_id": "BK22013870-3",
+            "utterance_id": "BK22013870.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 여러 가지 생소한 가족 호칭 중 당숙이라는 것도 있는데 이건 누구를 부르는 말인가요?",
+            "turn_id": "BK22013870-4",
+            "utterance_id": "BK22013870.7"
+        },
+        {
+            "reference_date": "41889.0",
+            "reference_text": [
+                {
+                    "value": "아버지의 사촌형제는 종숙(당숙)이라고 부르면 되고 아버지의 사촌누이는 종고모(당고모), 아버지의 육촌형제는 재종숙(재당숙) 등으로 호칭한다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.headlinejeju.co.kr/news/articleView.html?idxno=220024",
+            "search_query": "가족 호칭 당숙",
+            "terminate": false,
+            "text": "아버지의 사촌 형제를 당숙 혹은 종숙이라고 지칭해요. 아버지의 여자 사촌 형제는 당고모 또는 종고모라고 하고, 더 나아가 아버지의 육촌 형제는 재당숙이나 재종숙으로 부른답니다.",
+            "turn_id": "BK22013870-4",
+            "utterance_id": "BK22013870.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "평소에 잘 쓸 일이 없어서 그런지 거의 다 처음 듣는 호칭들이네요. 특히 결혼을 하고 나면 새롭게 생기는 배우자의 가족들을 부르는 호칭도 너무 헷갈리는데, 남자의 경우 아내의 형제자매들을 뭐라고 불러야 하나요?",
+            "turn_id": "BK22013870-5",
+            "utterance_id": "BK22013870.9"
+        },
+        {
+            "reference_date": "43148.0",
+            "reference_text": [
+                {
+                    "value": "처가엘 갔을 때 아내의 오빠, 남동생은 모두 처남(妻男)이다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "자신보다 나이가 많을 경우에는 형님으로 칭한다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아내의 언니는 처형(妻兄)이라 부르면 되며, 아내의 여동생은 처제(妻弟)라 부른다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=38602",
+            "search_query": "가족 호칭 처형 처제 처남",
+            "terminate": false,
+            "text": "남자 기준으로 처가 식구들 중 아내의 오빠와 남동생은 모두 처남이라고 하지만, 본인보다 나이가 많은 경우에는 형님이라고 해요. 아내의 언니는 처형, 아내의 여동생은 처제라고 하면 되고요.",
+            "turn_id": "BK22013870-5",
+            "utterance_id": "BK22013870.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 여자는 남편의 형제자매들을 뭐라고 불러야 하죠?",
+            "turn_id": "BK22013870-6",
+            "utterance_id": "BK22013870.11"
+        },
+        {
+            "reference_date": "43148.0",
+            "reference_text": [
+                {
+                    "value": "시가에 갔을 때, 남편의 형은 시숙(媤叔)이며 호칭은 아주버님이다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "남편의 남동생 역시 시숙이나, 미혼일 경우에는 도련님, 기혼일 경우에는 서방님이라고 부른다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "누나나 여동생 등은 여러분에게 시누이이며, 호칭은 각각 형님과 아가씨(아기씨)다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=38602",
+            "search_query": "가족 호칭 남편의 형제",
+            "terminate": false,
+            "text": "여자 기준으로 시가 식구들을 부를 때, 남편의 형과 남동생은 시숙인데, 부를 때는 형은 아주버님이라고 하고 미혼의 남동생은 도련님, 기혼인 남동생은 서방님이라고 지칭해요. 남편의 누나와 여동생은 시누이로, 부를 때는 각각 형님과 아가씨 혹은 아기씨라고 하면 되죠.",
+            "turn_id": "BK22013870-6",
+            "utterance_id": "BK22013870.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도련님이나 아가씨 등의 표현은 조선시대에나 어울릴 법한 호칭 같은데요. 그럼 이 외에도 남편의 형제의 배우자들은 또 어떻게 불러야 해요? 동서와 형님의 차이가 뭔지 모르겠어요.",
+            "turn_id": "BK22013870-7",
+            "utterance_id": "BK22013870.13"
+        },
+        {
+            "reference_date": "41309.0",
+            "reference_text": [
+                {
+                    "value": "아주버님의 아내는 ‘동서’가 되는데 손윗동서이기 때문에 ‘형님’이라고 부른다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "남편 남동생의 아내도 ‘동서’가 되는데 손아랫동서이기 때문에 호칭은 ‘동서’라고 한다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/201302041855044680?t=y",
+            "search_query": "가족 호칭 동서",
+            "terminate": false,
+            "text": "남편의 형과 남동생의 아내는 모두 동서인데, 아주버님의 아내는 손윗사람이기 때문에 형님이라고 하고 남동생의 아내는 그대로 동서라고 부르면 돼요.",
+            "turn_id": "BK22013870-7",
+            "utterance_id": "BK22013870.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 매형이나 매부, 매제 같은 호칭들은 어떤 관계에서 쓰는 건가요?",
+            "turn_id": "BK22013870-8",
+            "utterance_id": "BK22013870.15"
+        },
+        {
+            "reference_date": "44159.0",
+            "reference_text": [
+                {
+                    "value": "누나의 배우자는 매형. 자형. 매부 등 지역마다 호칭이 다르니 주의해야 한다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "본인의 성별과 관계없이 여동생의 배우자는 서방으로 부르면 되나, 남자는 매부나 매제로 여자는 제부로 부르기도 한다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dynews.co.kr/news/articleView.html?idxno=608166",
+            "search_query": "가족 호칭 매형 매부 매제",
+            "terminate": false,
+            "text": "남자의 경우 누나의 배우자를 매형, 매부 혹은 자형이라고 부르는데 이는 지역마다 다른 경우가 있어서 유의해야 해요. 그리고 본인의 성별 여부를 떠나 여동생의 배우자는 서방이라고 하는데, 간혹 남자의 경우는 서방 대신 매부, 매제라고 하고 여자의 경우 제부라는 표현을 쓰기도 해요.",
+            "turn_id": "BK22013870-8",
+            "utterance_id": "BK22013870.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한 사람을 가리키는 호칭이 너무 여러 개이다 보니까 오히려 더 헷갈리는 것 같아요. 그럼 올케는 누가 누구에게 쓰는 호칭이죠?",
+            "turn_id": "BK22013870-9",
+            "utterance_id": "BK22013870.17"
+        },
+        {
+            "reference_date": "44159.0",
+            "reference_text": [
+                {
+                    "value": "여자로서 남자 형제의 배우자는 모두 올케지만, 오빠의 배우자는 보통 새언니 또는 언니라고 부른다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dynews.co.kr/news/articleView.html?idxno=608166",
+            "search_query": "가족 호칭 올케",
+            "terminate": false,
+            "text": "올케는 여자가 자신의 남자 형제의 배우자를 가리킬 때 쓰는 말인데, 오빠의 배우자인 경우는 올케 대신 새언니나 언니라고 부르죠.",
+            "turn_id": "BK22013870-9",
+            "utterance_id": "BK22013870.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어휴, 우리나라는 나이에 따라 호칭이 다르다 보니 더 어려운 것 같네요. 그냥 우리도 외국처럼 서로 이름으로 부르면 편할 텐데요.",
+            "turn_id": "BK22013870-10",
+            "utterance_id": "BK22013870.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "하하, 우리나라는 정서상 사람과 사람 사이의 관계에서 나이가 중요하다 보니 어쩔 수 없죠.",
+            "turn_id": "BK22013870-10",
+            "utterance_id": "BK22013870.20"
+        }
+    ]
+}

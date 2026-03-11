@@ -1,0 +1,352 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009321",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009321",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_nhn_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 늦어지는 결혼과 여성 임신 연령이 높아져서 그런지 난임을 겪는 경우가 점점 많아진다고 하더라고요. 난임 환자수는 얼마나 많은가요?",
+            "turn_id": "BK22009321-1",
+            "utterance_id": "BK22009321.1"
+        },
+        {
+            "reference_date": "2022-05-10",
+            "reference_text": [
+                {
+                    "value": "건강보험심사평가원 국민관심질병통계에 따르면 난임 환자 수는 2017년 20만8704명, 2018년 22만9460명으로 늘었고, 2019년에는 23만802명으로 매년 증가하고 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "실제 건강보험심사평가원 자료를 보면 2021년 신생아 8명 중 1명은 난임시술을 통해 출생했다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sgsg.hankyung.com/article/2022050665471",
+            "search_query": "난임 환자",
+            "terminate": false,
+            "text": "건강보험심사평가원 국민관심질병통계를 보면 난임 환자 수는 2017년 20만8704명, 2018년 22만9460명으로 증가했고, 2019년에는 23만802명으로 매년 그 수가 늘고 있어요. 실제 건강보험심사평가원 자료에 따르면 2021년 신생아 8명 중 1명은 난임시술을 통해 태어났죠.",
+            "turn_id": "BK22009321-1",
+            "utterance_id": "BK22009321.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 난임 환자가 매년 증가하고 있네요. 그런데 사실은 저희 부부도 1년 넘게 아이를 가져보려고 노력 중인데 아이가 생기질 않아요. 그래서 난임 시술을 받아보려고 하는데, 난임 시술에는 어떤 종류가 있나요?",
+            "turn_id": "BK22009321-2",
+            "utterance_id": "BK22009321.3"
+        },
+        {
+            "reference_date": "2020-11-19",
+            "reference_text": [
+                {
+                    "value": "인공수정은 남성의 정자를 여성 자궁 안에 주입하여 체내에서 자연적인 수정이 일어나도록 하는 방식이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "자궁 경관이나 점액에 문제가 있는 경우, 정상적인 성교를 통한 임신이 어려운 경우 인공수정을 선택할 수 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 심각한 배란장애가 있거나, 정자에 문제가 있는 경우 시행이 어렵다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mkhealth.co.kr/news/articleView.html?idxno=51163",
+            "search_query": "인공수정",
+            "terminate": false,
+            "text": "일단 인공수정이 있어요. 인공수정은 남성의 정자를 여성 자궁 안에 넣어 체내에서 자연적인 수정이 생기도록 하는 방식이에요. 자궁 경관이나 점액에 문제가 있는 경우, 정상적인 성관계로 임신이 쉽지 않은 경우 인공수정을 선택할 수 있어요. 하지만 심각한 배란장애가 있거나, 정자에 문제가 있는 경우 실행이 쉽지 않아요.",
+            "turn_id": "BK22009321-2",
+            "utterance_id": "BK22009321.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인공수정을 받으려면 병원에 가서 배란장애나 정자에 문제가 있는지 먼저 체크 해봐야겠네요. 다른 난임 수술은 어떤 건가요?",
+            "turn_id": "BK22009321-3",
+            "utterance_id": "BK22009321.5"
+        },
+        {
+            "reference_date": "2020-11-19",
+            "reference_text": [
+                {
+                    "value": "시험관아기 시술은 여성의 몸 안에서 진행되는 수정(난자와 정자가 합쳐지는 현상)과정을 몸 밖에서 이루어지게 하여 임신을 유도하는 체외수정 방식이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여성의 성숙 난자를 채취, 남성의 정액을 채취한 후 시험관이나 배양접시에서 수정시킨 후 다시 여성의 자궁내막으로 이식한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mkhealth.co.kr/news/articleView.html?idxno=51163",
+            "search_query": "시험관아기 시술",
+            "terminate": false,
+            "text": "시험관아기 시술인데요, 이 시술은 여성의 몸 안에서 이뤄지는 수정 과정을 체외에서 이루어지게 하여 임신을 유도하는 방식이에요. 여성의 성숙 난자와 남성의 정액을 얻어낸 후 시험관이나 배양접시에서 수정시킨 후 다시 여성의 자궁내막에 심어요.",
+            "turn_id": "BK22009321-3",
+            "utterance_id": "BK22009321.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 방식으로 이루어지는 군요. 그렇다면 어떤 경우에 시험관아기 시술을 선택할 수 있나요?",
+            "turn_id": "BK22009321-4",
+            "utterance_id": "BK22009321.7"
+        },
+        {
+            "reference_date": "2020-11-19",
+            "reference_text": [
+                {
+                    "value": "시험관아기 시술은 난소가 방출되는 난관(나팔관)이 폐쇄된 경우, 난소기능저하, 배란기능장애, 남성 정자수 부족 등 남성난임, 원인불명의 난임 등의 상황에서 선택할 수 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mkhealth.co.kr/news/articleView.html?idxno=51163",
+            "search_query": "시험관아기 시술",
+            "terminate": false,
+            "text": "시험관아기 시술은 난소가 나오는 난관이 막힌 경우, 난소기능감소, 배란기능장애, 남성 정자수 모자람 등 남성난임, 원인불명의 난임 등의 상황에서 택할 수 있어요.",
+            "turn_id": "BK22009321-4",
+            "utterance_id": "BK22009321.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그렇다면 시험관아기 시술은 어떤 과정으로 이뤄지게 되나요?",
+            "turn_id": "BK22009321-5",
+            "utterance_id": "BK22009321.9"
+        },
+        {
+            "reference_date": "2021-08-18",
+            "reference_text": [
+                {
+                    "value": "그리고 시험관 아기 시술의 과정은 [예비 엄마 난자의 과배란 유도 → 성숙한 난자와 건강한 정자 채취 → 채취한 난자와 정자의 수정을 시험관에서 유도하고 수정란 배양 → 배아를 여성의 자궁내막에 이식 → 임신을 유지하기 위해 자궁내막을 보강 → 임신 기간 → 출산] 이렇게 이루어진다. 가장 중요한 배란 유도제의 경우 보통 10일 정도 투여하며, 난자 채취 후 수정시킨 지 2-5일 후 자궁 내로 이식을 하는 것으로 알려졌다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=145311",
+            "search_query": "시험관 아기 시술 과정",
+            "terminate": false,
+            "text": "시험관 아기 시술의 과정은 예비 엄마 난자의 과배란 유도, 성숙한 난자와 건강한 정자 채취, 채취한 난자와 정자의 수정을 시험관에서 유도 후 수정란 배양, 배아를 여성의 자궁내막에 이식, 임신을 유지하기 위해 자궁내막을 보강, 임신 기간, 출산으로 이루어져 있어요. 가장 중요한 배란 유도제의 경우 일반적으로 10일 정도 맞게 되고, 난자 채취 후 수정시킨 지 2~5일 후에 자궁 안에 심게 돼요.",
+            "turn_id": "BK22009321-5",
+            "utterance_id": "BK22009321.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "배란 유도제를 맞는 기간이 꽤 길어서 약간 부담이네요. 그런데 주변에서 들어보면 시험관아기 시술을 받고도 임신이 잘 되지 않는 경우가 있다던데 왜 인가요?",
+            "turn_id": "BK22009321-6",
+            "utterance_id": "BK22009321.11"
+        },
+        {
+            "reference_date": "2022-05-10",
+            "reference_text": [
+                {
+                    "value": "난소 기능에 문제가 없으면 과배란 유도로 10개 이상의 난자를 채취할 수 있지만, 난자가 3개 이하로 채취되는 난소 저반응군 환자가 증가하고 있는 것이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 경우 체외수정시술 성공률이 급격히 떨어진다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sgsg.hankyung.com/article/2022050665471",
+            "search_query": "난소 저반응군",
+            "terminate": false,
+            "text": "난소 기능이 정상적으로 작동하면 과배란 유도로 10개 이상의 난자를 채취할 수 있지만, 난자가 3개 이하로 채취되는 난소 저반응군 환자인 경우 체외수정시술 성공률이 급격히 떨어져서 그래요.",
+            "turn_id": "BK22009321-6",
+            "utterance_id": "BK22009321.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 이유가 있었군요. 그럼 난소 저반응군 환자가 임신을 위해 시도해 볼 수 있는 다른 방법은 없는 건가요?",
+            "turn_id": "BK22009321-7",
+            "utterance_id": "BK22009321.13"
+        },
+        {
+            "reference_date": "2022-01-20",
+            "reference_text": [
+                {
+                    "value": "하지만 여성의 난소 기능이 현저히 저하된 경우라면 과배란 유도를 진행한다해도 적은 수의 난자를 얻을 수 밖에 없다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 이 경우 자연주기시험관아기시술이 권장된다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자연주기시험관아기 시술은 여성의 생리주기에 맞춰 배란되는한 개의 우성 난자를 이용해 체외수정을 진행하는 방법으로 과배란 주사나 경구용배란유도제를 처방하지 않는다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.rapportian.com/news/articleView.html?idxno=143071",
+            "search_query": "자연주기시험관아기",
+            "terminate": false,
+            "text": "난소기능이 현저히 떨어진 경우에 자연주기시험관아기시술을 해 볼 수 있어요. 자연주기시험관아기 시술은 여성의 생리주기에 맞춰 배란 되는 한 개의 우성 난자를 사용해 체외수정을 하는 방법으로 과배란 주사나 경구용배란유도제를 맞지 않아요.",
+            "turn_id": "BK22009321-7",
+            "utterance_id": "BK22009321.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생리주기에 맞춰서 우성난자를 사용한다는게 자연스럽게 느껴져서 마음에 드네요. 그런데 궁금한게 어떻게 난자가 우성 난자인 상태인지 알 수 있나요?",
+            "turn_id": "BK22009321-8",
+            "utterance_id": "BK22009321.15"
+        },
+        {
+            "reference_date": "2022-01-20",
+            "reference_text": [
+                {
+                    "value": "잠실 사랑아이여성의원 염진아 원장은 “무엇보다 난자를 채취하는 타이밍이 중요하다”며 “약제를 사용하지 않기 때문에 지속적인 초음파 검사를 통해 난포의 성장을 추적관찰하며 난포의 크기가 16~17mm가 됐을 때 호르몬 검사를 시행하고 난포 성숙주사를 투여한 뒤 1~2일 후 채취를 시도한다”고 설명했다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.rapportian.com/news/articleView.html?idxno=143071",
+            "search_query": "난포 성장",
+            "terminate": false,
+            "text": "지속적인 초음파 검사를 통해서 알 수 있어요. 초음파 검사를 통해 난포의 성장을 추적 관찰하며 난포의 사이즈가 16~17mm가 됐을 때 호르몬 검사를 받고 난포 성숙 주사를 맞은 뒤 1~2일 후 채취를 하죠.",
+            "turn_id": "BK22009321-8",
+            "utterance_id": "BK22009321.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 방법을 사용하고 있군요. 그런데 시험관 아기 시술에 비해 자연주기시험관아기시술의 장점은 뭐가 있나요?",
+            "turn_id": "BK22009321-9",
+            "utterance_id": "BK22009321.17"
+        },
+        {
+            "reference_date": "2022-01-20",
+            "reference_text": [
+                {
+                    "value": "이어 “매일 주사를 맞아야 하는 부담이 없어 여성의 몸에 무리 없이 난임시술을 진행할 수 있으며 시술 비용이 절감된다”며 “시술 방법에 대해서는 정확한 검사와 상담을 통해서 결정하게 된다”고 덧붙였다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.rapportian.com/news/articleView.html?idxno=143071",
+            "search_query": "난임 시술 비용 절감",
+            "terminate": false,
+            "text": "매일 주사를 맞지 않아도 되서 부담이 적고, 시술 비용도 절감된다는 장점도 있어요.",
+            "turn_id": "BK22009321-9",
+            "utterance_id": "BK22009321.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그것도 참 좋은 장점이네요. 오늘 난임시술 관련한 여러 가지 정보를 알려주셔서 정말 감사했어요. 남편과 상의해서 조만간 병원에 가봐야겠어요.",
+            "turn_id": "BK22009321-10",
+            "utterance_id": "BK22009321.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 꼭 예쁜 아기 임신하시길 바랄게요. 그럼 조심히 들어가세요.",
+            "turn_id": "BK22009321-10",
+            "utterance_id": "BK22009321.20"
+        }
+    ]
+}

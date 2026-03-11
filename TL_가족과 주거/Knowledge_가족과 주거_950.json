@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004489",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004489",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저 어제 정기 검진 다녀왔는데 몸무게가 너무 많이 늘었다고 선생님한테 혼났어요.",
+            "turn_id": "BK22004489-1",
+            "utterance_id": "BK22004489.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그랬군요, 얼마나 많이 늘었는데요?",
+            "turn_id": "BK22004489-1",
+            "utterance_id": "BK22004489.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "3주만에 2kg이 늘었더라고요. 지금 20주차로 임신 중기라고 하던데 어느 정도 늘어야 정상적인 거예요?",
+            "turn_id": "BK22004489-2",
+            "utterance_id": "BK22004489.3"
+        },
+        {
+            "reference_date": "2022-05-22",
+            "reference_text": [
+                {
+                    "value": "임신하면 보통 체중이 증가하기 마련이지만 중후반기 정상적인 임신부의 체중증가량은 1주일에 400~500g 정도다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=59432",
+            "search_query": "임신 중 체중 증가",
+            "terminate": false,
+            "text": "임신 중후반기라면 보통 1주일에 400에서 500g 정도 체중이 증가하는 것이 정상 범위예요.",
+            "turn_id": "BK22004489-2",
+            "utterance_id": "BK22004489.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 제가 많이 찌기는 했네요. 임신 중 과도하게 살이 찌면 어떤 문제가 생기나요?",
+            "turn_id": "BK22004489-3",
+            "utterance_id": "BK22004489.5"
+        },
+        {
+            "reference_date": "2022-04-06",
+            "reference_text": [
+                {
+                    "value": "이와 반대로 임신기간 동안 체중이 과도하게 증가할 경우 임신성 당뇨, 임신 중독증이 증가한다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "출산 후에도 비만, 당뇨, 고혈압, 심질환의 발생이 늘어나게 된다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kpanews.co.kr/article/show.asp?idx=231603&category=H",
+            "search_query": "임신 중 과도한 체중 증가 위험",
+            "terminate": false,
+            "text": "임신성 당뇨나 임신 중독증의 위험이 높아져요. 그리고 출산한 뒤에도 비만이나 당뇨, 고혈압, 심질환 등이 생길 확률이 증가하고요.",
+            "turn_id": "BK22004489-3",
+            "utterance_id": "BK22004489.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신하면 살찌는 게 당연하다고 생각했는데 그런 심각한 문제가 생길 수도 있다니 조심해야겠어요. 저도 다음 검진 때 임신성 당뇨 검사를 한다고 하는데 갑자기 걱정이 되네요. 임신성 당뇨라는 게 어떤 질병이에요?",
+            "turn_id": "BK22004489-4",
+            "utterance_id": "BK22004489.7"
+        },
+        {
+            "reference_date": "2021-12-21",
+            "reference_text": [
+                {
+                    "value": "임신성 당뇨는 이전에는 당뇨가 없었다가 임신 중 당뇨병을 앓게 되는 것을 뜻한다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "임신성 당뇨가 있으면 기형아나 양수 과다증과 같은 합병증이 발생할 수 있어 바로 치료를 시작해야 한다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://sjbnews.com/news/news.php?number=731966",
+            "search_query": "임신성 당뇨",
+            "terminate": false,
+            "text": "임신하기 전에는 당뇨가 없었는데 임신 중에 당뇨병이 발병하면 이를 임신성 당뇨라고 해요. 임신성 당뇨는 기형아, 양수 과다증 등의 합병증의 원인이 될 수 있기 때문에 진단 후 즉시 치료를 받아야 하고요.",
+            "turn_id": "BK22004489-4",
+            "utterance_id": "BK22004489.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그런데 혹시 임신성 당뇨에 걸리기 쉬운 사람이 따로 있을까요?",
+            "turn_id": "BK22004489-5",
+            "utterance_id": "BK22004489.9"
+        },
+        {
+            "reference_date": "2020-10-16",
+            "reference_text": [
+                {
+                    "value": "임신성 당뇨를 유발하는 위험 인자는 임신 전 과체중, 당뇨병 가족력, 산모의 나이 등이다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "우리나라에서는 약 5%의 산모에게서 발생한다고 알려져 있으나, 최근 고령 산모가 많아지면서 임신성 당뇨 환자가 증가하고 있다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.naeil.com/news_view/?id_art=364764",
+            "search_query": "임신성 당뇨 위험 인자",
+            "terminate": false,
+            "text": "네, 임신 전에 과체중이었거나 당뇨병의 가족력이 있는 경우, 산모의 나이가 고령일 때 임신성 당뇨의 발생 위험이 높아져요. 국내에서는 산모 100명 중 5명 정도가 임신성 당뇨에 걸리는 것으로 파악되어 왔는데 최근에는 고령 산모의 증가에 따라 임신성 당뇨 환자도 함께 늘어나는 추세예요.",
+            "turn_id": "BK22004489-5",
+            "utterance_id": "BK22004489.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 노산이라서 더 조심할 필요가 있겠네요. 임신성 당뇨가 기형아를 유발할 수도 있다고 하셨잖아요. 그밖에 아기에게 다른 위험은 없나요?",
+            "turn_id": "BK22004489-6",
+            "utterance_id": "BK22004489.11"
+        },
+        {
+            "reference_date": "2020-02-25",
+            "reference_text": [
+                {
+                    "value": "아이는 4kg 이상의 거대아로 자랄 수 있고 이로 인한 난산으로 태아가 손상할 수 있다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한, 신생아 저혈당, 황달, 호흡곤란증 등의 증상이 나타날 수 있다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000497082",
+            "search_query": "임신성 당뇨 태아 영향",
+            "terminate": false,
+            "text": "산모가 임신성 당뇨에 걸리면 태아가 4kg이 넘는 거대아로 성장할 수 있거든요. 이렇게 태아가 크게 자랄 경우 난산이 될 위험이 크기 때문에 출산 시 태아가 다칠 수 있어요. 그리고 태어난 후에도 신생아 저혈당, 황달, 호흡곤란증과 같은 증상이 생길 수도 있고요.",
+            "turn_id": "BK22004489-6",
+            "utterance_id": "BK22004489.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "출산은 물론 태어난 후에도 아기에게 영향이 있을 수 있다니 무섭네요. 만약 임신성 당뇨로 진단 받게 되면 어떤 치료를 받을 수 있어요?",
+            "turn_id": "BK22004489-7",
+            "utterance_id": "BK22004489.13"
+        },
+        {
+            "reference_date": "2022-01-06",
+            "reference_text": [
+                {
+                    "value": "단, 임신성당뇨 진단을 받은 산모들은 약물치료에 제한이 있기 때문에 식이요법과 운동요법을 먼저 시행해야 한다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "균형잡힌 영양소를 섭취하고 경구 당부하 검사를 통해 혈당을 체크한다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만약 혈당조절이 원활하게 이뤄지지 않는다면 인슐린을 투여해야 한다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.segyebiz.com/newsView/20220106505239?OutUrl=naver",
+            "search_query": "임신성 당뇨 치료",
+            "terminate": false,
+            "text": "아무래도 산모에게 투여할 수 있는 약물은 제한적이기 때문에 식이조절과 운동요법이 먼저예요. 영양소를 균형적으로 고르게 섭취하고 혈당 체크를 위해 경구 당부하 검사를 실시하지요. 이런 방법으로 혈당이 잘 조절되지 않으면 인슐린 투여가 필요하고요.",
+            "turn_id": "BK22004489-7",
+            "utterance_id": "BK22004489.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "구체적인 식이조절 방법 좀 알려 주세요. 지금부터라도 미리 실천하려고요.",
+            "turn_id": "BK22004489-8",
+            "utterance_id": "BK22004489.15"
+        },
+        {
+            "reference_date": "2022-04-23",
+            "reference_text": [
+                {
+                    "value": "비타민 C가 풍부한 채소, 철분이 풍부한 견과류와 시금치를 자주 섭취한다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "초콜릿과 탄산음료와 같이 혈당을 급증시키는 식품은 피해야 하며, 소시지와 마가린처럼 포화지방을 함유하는 제품도 먹으면 안 된다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000690448",
+            "search_query": "임신성 당뇨 식이요법",
+            "terminate": false,
+            "text": "네, 그럴게요. 채소를 통해 충분한 비타민 C를 섭취하고 견과류와 시금치를 통해 철분도 부족하지 않게 섭취해 주세요. 갑자기 혈당을 올릴 수 있는 초콜릿, 탄산음료 같은 음식은 피하고 소시지, 마가린 등 포화지방이 함유된 식품도 삼가 주시고요.",
+            "turn_id": "BK22004489-8",
+            "utterance_id": "BK22004489.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "채소, 견과류, 시금치 꼭 기억할게요. 그리고 운동요법도 필요하다고 하셨죠? 어떤 운동을 하면 좋을까요?",
+            "turn_id": "BK22004489-9",
+            "utterance_id": "BK22004489.17"
+        },
+        {
+            "reference_date": "2014-08-26",
+            "reference_text": [
+                {
+                    "value": "임신성 당뇨를 겪는 임신부에는 체중의 부하가 적은 상체운동이나 수영, 걷기 운동이 가장 좋다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "운동 시간은 식후에 20~30분 정도로 맞추는 게 좋다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이것이 힘들다면 10분 간격으로 2회 나눠 걸으면 좋다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=23548",
+            "search_query": "임신성 당뇨 운동",
+            "terminate": false,
+            "text": "식사를 한 뒤 20분에서 30분 동안 수영이나 걷기 혹은 체중 부하가 크지 않은 상체운동을 하면 좋아요. 한 번에 20에서 30분 동안 운동하는 게 힘들다면 10분의 간격을 두고 두 번으로 나눠서 걷는 것도 좋은 방법이고요.",
+            "turn_id": "BK22004489-9",
+            "utterance_id": "BK22004489.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도움이 되는 좋은 정보 감사해요. 건강한 아기 만날 수 있게 알려 주신대로 실천해 볼게요.",
+            "turn_id": "BK22004489-10",
+            "utterance_id": "BK22004489.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 힘내세요. 궁금한 점이 있거나 도움이 필요하면 언제든 연락하시고요.",
+            "turn_id": "BK22004489-10",
+            "utterance_id": "BK22004489.20"
+        }
+    ]
+}

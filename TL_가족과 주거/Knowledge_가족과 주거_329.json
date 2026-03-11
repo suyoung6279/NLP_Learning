@@ -1,0 +1,332 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.5,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.6,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015146",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015146",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 3.8,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "날씨가 추워져서 그런가 내 동생이 수족냉증으로 고생하더라. 근데 수족냉증은 원인이 뭐야?",
+            "turn_id": "BK22015146-1",
+            "utterance_id": "BK22015146.1"
+        },
+        {
+            "reference_date": "2022-02-21",
+            "reference_text": [
+                {
+                    "value": "가장 흔한 원인은 혈액순환장애이지만 이상감각을 느끼게 하는 말초신경 질환, 체온을 떨어뜨리고 대사장애를 일으킬 수 있는 갑상선 질환, 자가면역장애로 인한 류머티즘성 질환, 경추와 요추의 협착증이나 디스크 등도 수족냉증의 원인 질환일 수 있다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.knnews.co.kr/news/articleView.php?idxno=1370544",
+            "search_query": "수족냉증 원인",
+            "terminate": false,
+            "text": "수족냉증은 원인이 다양해. 혈액순환장애가 가장 흔한 원인이지만, 말초신경 질환, 갑상선 질환, 류머티즘성 질환, 경추와 요추의 협착증이나 디스크 등이 수족냉증을 일으키는 원인 질환일 수도 있어.",
+            "turn_id": "BK22015146-1",
+            "utterance_id": "BK22015146.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 너무 다양한데. 내 동생이라면 그나마 디스크 쪽이 의심되는데, 그럼 반드시 mri검사를 해야 정확한 원인을 알 수 있는 거야?",
+            "turn_id": "BK22015146-2",
+            "utterance_id": "BK22015146.3"
+        },
+        {
+            "reference_date": "2022-02-21",
+            "reference_text": [
+                {
+                    "value": "하지만 비대칭적인 증상 발현이 많고, 경추와 요추 신경의 피부분절 분포 양상에 따라 증상이 발현하므로 전문의 진료를 통해 의심되는 경우에만 CT, MRI 같은 고가의 검사를 진행하는 것이 좋다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.knnews.co.kr/news/articleView.php?idxno=1370544",
+            "search_query": "디스크 수족냉증",
+            "terminate": false,
+            "text": "전문가에게 진료를 받고 정말 의심될 경우에만 고가의 검사를 받으면 돼. Ct나 mri 같은 것 말이야. 디스크와 협착증은 비대칭적인 증상 발현이 많고, 경추와 요추 신경의 피부분절 분포 양상에 따라 증상이 발현하거든.",
+            "turn_id": "BK22015146-2",
+            "utterance_id": "BK22015146.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 일단 동생을 병원에 데려가서 진료부터 받고 검사를 하든가 해야겠네. 수족냉증은 여자한테 많이 나타난다던데, 그 이유는 뭐야? 내 동생도 여자거든.",
+            "turn_id": "BK22015146-3",
+            "utterance_id": "BK22015146.5"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "생리통이나 생리불순이 있는 여성은 여성호르몬 분비 이상이나 생리로 혈액이 부족할 수 있다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "혈액순환이 제대로 이뤄지지 않다 보니 신체 말단의 체온이 잘 떨어지는 것이다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/09/06/2022090601808.html",
+            "search_query": "수족냉증 여자",
+            "terminate": false,
+            "text": "생리통, 생리불순이 있으면 여성호르몬 분비에 문제가 있거나 생리 때문에 혈액이 부족할 수 있기 때문이야. 혈액순환이 잘 되지 않으니까 신체 말단의 체온이 떨어지는 거지.",
+            "turn_id": "BK22015146-3",
+            "utterance_id": "BK22015146.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동생이 생리통이 심한 편이긴 해. 수족냉증을 좀 완화하는 방법은 없을까?",
+            "turn_id": "BK22015146-4",
+            "utterance_id": "BK22015146.7"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "집에 돌아온 후에는 따뜻한 물로 족욕이나 반신욕을 하는 게 권장된다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기초대사량을 높여 체온을 올리려면 근력 운동과 유산소 운동을 꾸준히 병행해야 한다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/09/06/2022090601808.html",
+            "search_query": "수족냉증 완화",
+            "terminate": false,
+            "text": "있지. 따뜻한 물론 족욕을 하거나 반신욕을 하면 좋아. 또, 근력 운동과 유산소 운동을 꾸준히 해서 기초대사량을 높여 체온을 올리는 방법도 있고.",
+            "turn_id": "BK22015146-4",
+            "utterance_id": "BK22015146.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "운동이 수족냉증에 도움이 될 줄은 몰랐어. 그런데 우리 엄마도 수족냉증이 있는 편이거든. 수족냉증은 흔한 편이야?",
+            "turn_id": "BK22015146-5",
+            "utterance_id": "BK22015146.9"
+        },
+        {
+            "reference_date": "2021-11-15",
+            "reference_text": [
+                {
+                    "value": "‘수족냉증’은 추위를 느끼지 않을 만한 온도에서 손이나 발에 지나칠 정도로 냉기를 느끼는 증상으로, 우리나라에서는 전체 인구의 12%가량이 수족냉증을 호소할 정도로 매우 흔하다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000651862",
+            "search_query": "수족냉증 인구",
+            "terminate": false,
+            "text": "흔한 편이지, 우리나라의 12% 인구가 수족냉증을 호소할 정도야. 참고로 수족냉증의 정의는 그다지 춥지 않은 온도에서 손이나 발이 지나치게 차갑다고 느끼는 증상이야.",
+            "turn_id": "BK22015146-5",
+            "utterance_id": "BK22015146.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "12%라면 정말 많네. 다행히 엄마나 동생이나 아주 심한 편은 아니지만, 혹시 수족냉증이 아니라 다른 질병일 가능성도 있을까?",
+            "turn_id": "BK22015146-6",
+            "utterance_id": "BK22015146.11"
+        },
+        {
+            "reference_date": "2022-01-15",
+            "reference_text": [
+                {
+                    "value": "하지만 단순히 차가워지는 것을 넘어 손·발끝의 색깔 변화나 감각 이상, 통증이 동반되면 '레이노 증후군'을 의심해봐야 한다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.gimhaenews.co.kr/news/articleView.html?idxno=44696",
+            "search_query": "수족냉증 질병",
+            "terminate": false,
+            "text": "만약 단순히 손발이 차가운 정도가 아니라 손끝과 발끝의 색깔이 변하거나 감각 이상, 통증이 느껴지면 레이노 증후군을 의심해야 해.",
+            "turn_id": "BK22015146-6",
+            "utterance_id": "BK22015146.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "손발의 색깔이 변한다니, 듣기만 해도 무섭다. 다행히 그렇지는 않은데, 만약 레이노 증후군인 줄 모르고 시간이 지나면 어떻게 돼?",
+            "turn_id": "BK22015146-7",
+            "utterance_id": "BK22015146.13"
+        },
+        {
+            "reference_date": "2022-01-12",
+            "reference_text": [
+                {
+                    "value": "따라서 증상이 심해지면, 손톱·발톱 주변에 만성적으로 감염이 생기거나 손가락 끝에 궤양이 생기기도 한다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://economychosun.com/client/news/view.php?boardName=C22&t_num=13612094",
+            "search_query": "레이노 증후군",
+            "terminate": false,
+            "text": "만약 증상이 심해진다면 만성적인 감염이 손톱 발톱 주변에 생기거나 또는 손끝에 궤양이 생길 수도 있어.",
+            "turn_id": "BK22015146-7",
+            "utterance_id": "BK22015146.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "감염이나 궤양이라, 정말 무섭다. 레이노 증후군은 어떻게 치료해?",
+            "turn_id": "BK22015146-8",
+            "utterance_id": "BK22015146.15"
+        },
+        {
+            "reference_date": "2022-01-12",
+            "reference_text": [
+                {
+                    "value": "치료에는 혈관을 확장하는 칼슘채널차단제, 프로스타글란딘 등 여러 약물이 사용되며, 약물 치료에 반응하지 않는 경우 혈관을 수축시키는 교감신경을 절제하는 수술도 한다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://economychosun.com/client/news/view.php?boardName=C22&t_num=13612094",
+            "search_query": "레이노 증후군 치료",
+            "terminate": false,
+            "text": "칼슘채널차단제, 프로스타글란딘 등의 약물로 혈관을 확장해줄 수 있어. 만약 효과가 없으면 수술로 혈관을 수축시키는 교감신경을 절제할 수도 있고.",
+            "turn_id": "BK22015146-8",
+            "utterance_id": "BK22015146.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "교감신경을 절제하다니 생각보다 큰 수술일 것 같아. 엄마랑 동생한테 차 한잔 타줄까 하는데, 수족냉증에 도움이 되는 건 없을까?",
+            "turn_id": "BK22015146-9",
+            "utterance_id": "BK22015146.17"
+        },
+        {
+            "reference_date": "2022-10-04",
+            "reference_text": [
+                {
+                    "value": "생강은 신진대사를 활성화하고 ‘진저롤’ 성분이 혈액순환을 촉진해 몸의 체온을 높여줌",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "배가 차가워져서 발생하는 소화불량 및 수족냉증, 생리통완화에도 효과적이다",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatoday.co.kr/view.php?key=20220930001516051",
+            "search_query": "생강차 수족냉증",
+            "terminate": false,
+            "text": "좋은 생각이야! 생강차가 수족냉증, 배가 차가워져서 발생하는 소화불량, 생리통 완화에 좋아. 생강이 신진대사를 활성화하고, 생강에 있는 진저롤 성분이 혈액순환 촉진을 통해 체온을 높여주거든.",
+            "turn_id": "BK22015146-9",
+            "utterance_id": "BK22015146.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소화불량에도 좋다니 효과가 다양하네, 엄마가 소화기관이 좀 안 좋은데 한 번 타줘야겠다. 덕분에 오늘 많이 배웠지만, 나 지금은 좀 가봐야 하는데. 나중에 다시 얘기하자.",
+            "turn_id": "BK22015146-10",
+            "utterance_id": "BK22015146.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 동생의 수족냉증이 얼른 완화되었으면 좋겠네. 조심히 가고 나중에 또 봐!",
+            "turn_id": "BK22015146-10",
+            "utterance_id": "BK22015146.20"
+        }
+    ]
+}

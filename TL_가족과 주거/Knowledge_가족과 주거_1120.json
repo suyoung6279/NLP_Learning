@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007136",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007136",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0028"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "갓난 아기는 모유를 먹인 다음에 항상 트림을 시켜주던데, 이건 어떤 이유 때문인가요?",
+            "turn_id": "BK22007136-1",
+            "utterance_id": "BK22007136.1"
+        },
+        {
+            "reference_date": "2016-10-20",
+            "reference_text": [
+                {
+                    "value": "신생아는 위와 식도를 연결하는 근육이 미숙하고 일직선으로 연결되어 있기 때문에 분유나 젖을 먹은 뒤 잘 게워낸다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러므로 수유 후에는 반드시 트림을 시킨 후 소화가 될 때까지 안아 주는 것이 좋다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=201610200134o",
+            "search_query": "신생아 트림",
+            "terminate": false,
+            "text": "신생아는 식도와 위를 연결하는 근육이 직선으로 되어 있고 미숙한 상태이기 때문에 젖이나 분유를 먹고 나서 게워내기 쉬워. 그래서 아기에게 젖을 먹인 후에 소화가 될 때까지 안아 주며 트림을 시키는 거야.",
+            "turn_id": "BK22007136-1",
+            "utterance_id": "BK22007136.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 잘못하면 게워낸 음식물로 인해 사고가 날 수도 있겠네요. 그럼 트림은 어떤 방법으로 시켜 주면 되는 거예요?",
+            "turn_id": "BK22007136-2",
+            "utterance_id": "BK22007136.3"
+        },
+        {
+            "reference_date": "2019-03-08",
+            "reference_text": [
+                {
+                    "value": "아기들은 위가 작기 때문에 항상 몸을 세워서 공기를 빼줘야 한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아이의 엉덩이부터 두드리면 울림에 의해서 몸의 공기가 나올 수 있고 등을 쓰다듬어 주는 등 10~15분간 트림을 시켜준다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=72592",
+            "search_query": "아기 트림 몸을 세워서",
+            "terminate": false,
+            "text": "아기들은 위의 크기가 작기 때문에 몸을 세운 채로 공기를 빼주면 되는데, 아기의 엉덩이를 톡톡 두드리면 울림에 의해 몸속 공기가 빠져나오게 돼. 그리고 등을 10분에서 15분 정도 쓰다듬어 주는 방법으로도 트림을 유도할 수 있어.",
+            "turn_id": "BK22007136-2",
+            "utterance_id": "BK22007136.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그럼 신생아는 하루에 몇 번 정도 모유를 먹어요? 그리고 밤에도 신생아에게 수유해야 하는 건가요?",
+            "turn_id": "BK22007136-3",
+            "utterance_id": "BK22007136.5"
+        },
+        {
+            "reference_date": "2016-10-20",
+            "reference_text": [
+                {
+                    "value": "신생아의 모유 수유 횟수는 1시간 30분~3시간 기간을 두고 배고플 때마다 자주 먹인다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "밤중 수유 간격은 최대 4시간으로 4시간이 지나면 깨워서 먹이도록 한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=201610200134o",
+            "search_query": "신생아 수유 횟수",
+            "terminate": false,
+            "text": "그럼, 신생아에게 모유 수유할 때는 밤중에는 최대 4시간으로 수유 간격을 잡으면 되고 그 외에는 1시간 반에서 3시간 정도 텀을 두고 아기가 배고파할 때마다 먹이면 되는 거야.",
+            "turn_id": "BK22007136-3",
+            "utterance_id": "BK22007136.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최소 6번 정도는 수유해야 한다는 거네요. 그럼 신생아는 하루에 몇 번 정도 배변을 하는 거예요? 변의 상태는 어떻죠?",
+            "turn_id": "BK22007136-4",
+            "utterance_id": "BK22007136.7"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "신생아의 정상 배변 횟수는 하루 0~7회 정도로 매우 다양하다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "모유 수유아의 경우 초기에 소량의 묽은 변을 자주 보다가 2~3주 후부터 빈도가 훨씬 감소해 부드러운 변을 본다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yeongnam.com/web/view.php?key=20220822010002559",
+            "search_query": "신생아 배변 횟수",
+            "terminate": false,
+            "text": "신생아의 배변 횟수는 아주 다양한데, 0회에서 7회를 정상 배변 횟수로 보고 있어. 그리고 모유를 먹는 아기의 경우 초반에는 묽은 변을 자주 보지만 이삼 주 뒤부터는 좀 더 낮은 빈도로 부드러운 변을 보게 되지.",
+            "turn_id": "BK22007136-4",
+            "utterance_id": "BK22007136.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 모유만 먹으니 대변도 묽게 나오는군요. 그러면 신생아의 소변 횟수는 어떻게 돼요? 그리고 기저귀는 보통 몇 시간 간격으로 교체해 줘야 하나요?",
+            "turn_id": "BK22007136-5",
+            "utterance_id": "BK22007136.9"
+        },
+        {
+            "reference_date": "2022-06-24",
+            "reference_text": [
+                {
+                    "value": "기저귀 교체 간격은 아기가 소변을 보는 횟수에 따라 달라지는데, 보통 신생아는 하루 최소 10회 이상, 돌 무렵에는 7~8회 정도 소변을 본다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 약 1시간 간격으로 아기의 기저귀를 확인하여 피부가 대소변에 장시간 노출되지 않도록 한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000710344",
+            "search_query": "신생아 소변 횟수 기저귀",
+            "terminate": false,
+            "text": "신생아는 일반적으로 하루에 최소 10회 이상의 소변을 보게 돼. 나중에 돌 무렵이 되어서는 7회에서 8회 정도로 소변을 보는 횟수가 줄어들게 되고. 그리고 기저귀 교체는 신생아의 소변 횟수에 따라 차이가 있지만 보통 1시간 간격으로 확인하여 아기의 피부가 대변이나 소변에 장시간 노출되지 않도록 해주는 게 좋아.",
+            "turn_id": "BK22007136-5",
+            "utterance_id": "BK22007136.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 신생아는 온종일 기저귀를 차고 있어서 피부 질환에도 취약할 것 같은데, 기저귀로 인해 어떤 질환이 생길 수 있나요?",
+            "turn_id": "BK22007136-6",
+            "utterance_id": "BK22007136.11"
+        },
+        {
+            "reference_date": "2018-07-05",
+            "reference_text": [
+                {
+                    "value": "기저귀 발진은 신생아 때부터 나타나는 대표적인 피부질환으로 주로 엉덩이가 습하고 대소변에 의한 접촉 부위가 자극받아 발생한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=201807051942o",
+            "search_query": "신생아 기저귀 발진",
+            "terminate": false,
+            "text": "신생아 시기에 발생할 수 있는 대표적 피부 질환인 기저귀 발진이 있어. 기저귀 발진은 대변 및 소변에 의해 접촉 부위가 자극받거나 엉덩이 부분이 습할 때 발생하게 되지.",
+            "turn_id": "BK22007136-6",
+            "utterance_id": "BK22007136.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기저귀를 자주 교체해 주는 게 정말 중요한 거군요. 그럼 기저귀를 갈아줄 때 유의해야 할 점은 어떤 게 있을까요?",
+            "turn_id": "BK22007136-7",
+            "utterance_id": "BK22007136.13"
+        },
+        {
+            "reference_date": "2022-06-24",
+            "reference_text": [
+                {
+                    "value": "기저귀를 새로 입히기 전에는 깨끗하게 닦고, 잘 말려야 한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "물티슈로 닦는 것이 간편하긴 하지만, 연약한 아기 피부에 물티슈를 자주 사용하면 자극이 될 수 있으므로 가급적 물로 헹궈 주는 것이 좋다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000710344",
+            "search_query": "기저귀 물티슈 자극",
+            "terminate": false,
+            "text": "일단 기저귀를 교체하기 전에 아기를 깨끗하게 닦아주고 잘 말려줘야 해. 이때 물티슈를 사용하면 한결 간편하게 닦을 수 있겠지만 아기의 피부가 워낙 연약하다 보니 물티슈를 사용할 경우에는 자극이 될 수 있어. 가급적 물을 사용해서 닦아주는 게 좋아.",
+            "turn_id": "BK22007136-7",
+            "utterance_id": "BK22007136.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "매번 기저귀를 교체할 때마다 닦아주는 것도 힘들겠네요. 신생아의 기저귀를 교체할 때 또 어떤 점을 주의해야 하나요?",
+            "turn_id": "BK22007136-8",
+            "utterance_id": "BK22007136.15"
+        },
+        {
+            "reference_date": "2022-06-24",
+            "reference_text": [
+                {
+                    "value": "기저귀를 채울 때는 꽉 조이지 않도록 주의한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "더운 여름철에는 통풍을 위해 손가락 3~4개가 들어갈 정도로 헐렁하게 입히는 것이 좋다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000710344",
+            "search_query": "기저귀 조이지 않도록 주의",
+            "terminate": false,
+            "text": "기저귀를 꽉 조여서 채우지 않도록 주의해야 해. 특히 여름에는 바람이 잘 통하도록 손가락 서너 개 정도가 들어갈 수 있는 정도로 헐렁한 상태로 채워주는 게 좋아.",
+            "turn_id": "BK22007136-8",
+            "utterance_id": "BK22007136.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그 정도로 여유 있게 채워야 하는군요. 나중에 조카가 태어나면 언니한테도 꼭 알려줘야겠어요.",
+            "turn_id": "BK22007136-9",
+            "utterance_id": "BK22007136.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 혹시 더 궁금한 점은 없어?",
+            "turn_id": "BK22007136-9",
+            "utterance_id": "BK22007136.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 그런데 혹시 나중에 궁금한 점이 생기면 또 여쭤봐도 될까요?",
+            "turn_id": "BK22007136-10",
+            "utterance_id": "BK22007136.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그럼, 언제든 궁금한 점이 있으면 편하게 물어보렴!",
+            "turn_id": "BK22007136-10",
+            "utterance_id": "BK22007136.20"
+        }
+    ]
+}

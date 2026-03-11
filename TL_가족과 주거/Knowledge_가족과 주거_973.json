@@ -1,0 +1,363 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004871",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004871",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엄마가 치매 환자인데 더 이상 제가 케어하는 것은 불가능할 것 같네요.",
+            "turn_id": "BK22004871-1",
+            "utterance_id": "BK22004871.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "케어가 힘드실 정도면 증상이 심한가 보네요.",
+            "turn_id": "BK22004871-1",
+            "utterance_id": "BK22004871.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "날이 갈수록 더 심해지더라고요. 그래서 요양시설 입소 고민 중이에요.",
+            "turn_id": "BK22004871-2",
+            "utterance_id": "BK22004871.3"
+        },
+        {
+            "reference_date": "2021-01-07",
+            "reference_text": [
+                {
+                    "value": "요양 시설 입소를 고려하고 있다면 부모님의 건강 상태 등을 살피고 그에 맞는 시설을 선택하는 것이 중요하다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.hemophilia.co.kr/news/articleView.html?idxno=16691",
+            "search_query": "부모님께 맞는 시설 선택",
+            "terminate": false,
+            "text": "부모님의 건강 상태에 맞춰서 시설을 잘 선택해야겠네요.",
+            "turn_id": "BK22004871-2",
+            "utterance_id": "BK22004871.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 그래서 엄마한테 맞는 요양병원이나 요양원 알아보고 있는데 고르기 어렵네요. 혹시 두 가지의 차이점을 아시나요?",
+            "turn_id": "BK22004871-3",
+            "utterance_id": "BK22004871.5"
+        },
+        {
+            "reference_date": "2022-03-24",
+            "reference_text": [
+                {
+                    "value": "요양병원은 급성기 치료와 수술 후 회복이 필요한 사람을 대상으로 의사, 약사, 물리치료사 등이 상주하며 환자 증상에 따라 치료와 재활을 제공한다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "반면, 요양원은 치매 등으로 장기요양등급을 받은 사람을 대상으로 치료보다는 돌봄서비스에 치중돼 있고, 의사가 상주하지 않고 한 달에 몇 번꼴로 협진·촉탁의가 방문한다는 것.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.docdocdoc.co.kr/news/articleView.html?idxno=2021080",
+            "search_query": "요양병원-요양원",
+            "terminate": false,
+            "text": "요양병원의 가장 큰 차이는 의사의 상주 여부에요. 요양병원에서는 치료와 수술 후 회복이 필요한 환자들을 대상으로 하기 때문에 의사, 약사, 물리치료사들이 상주하며 환자의 치료와 재활을 도와줘요. 요양원도 의사가 상주하지 않더라도 협진의나 촉탁의가 주기적으로 방문하지만, 치료보다는 돌봄서비스를 주로 제공해요. 그래서 요양원에는 치매같은 질환으로 장기요양등급을 받은 사람들을 대상으로 많이 운영이 되고 있어요.",
+            "turn_id": "BK22004871-3",
+            "utterance_id": "BK22004871.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 엄마는 치매 환자시니 요양원이 더 낫겠네요. 요양원 입소는 신청하면 아무나 들어갈 수 있나요?",
+            "turn_id": "BK22004871-4",
+            "utterance_id": "BK22004871.7"
+        },
+        {
+            "reference_date": "2021-09-02",
+            "reference_text": [
+                {
+                    "value": "입소 대상은 만 65세 이상의 고령의 어르신 또는 만 65세 미만이면서 노인성질환을 가지고 있는 사람, 장기요양등급판정자가 대상이다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=98021",
+            "search_query": "장기요양등급판정자",
+            "terminate": false,
+            "text": "요양원은 만 65세 이상인 고령 환자로 입소 대상이 정해져 있어요. 하지만 65세가 넘지 않는 경우에도 노인성 질환을 보유하고 있거나 장기요양등급을 받은 사람이라면 입소할 수 있어요.",
+            "turn_id": "BK22004871-4",
+            "utterance_id": "BK22004871.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 어머니도 치매니깐 노인성 질환자에 들어가서 입소가 가능하겠네요. 장기요양등급은 나라에서 해주는 제도 중 하나인가요?",
+            "turn_id": "BK22004871-5",
+            "utterance_id": "BK22004871.9"
+        },
+        {
+            "reference_date": "2022-05-30",
+            "reference_text": [
+                {
+                    "value": "또 노인장기요양보험이라는 제도도 있다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 제도는 건강보험료의 12.27%만큼 매월 추가로 내고 그 대가로 치매나 뇌혈관성질환 같은 노인성질병에 걸리면 요양시설 입소비용이나 방문간호 같은 보장을 받을 수가 있다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.idomin.com/news/articleView.html?idxno=795483",
+            "search_query": "노인장기요양보험제도",
+            "terminate": false,
+            "text": "맞아요. 노인장기요양보험이라는 제도인데 치매나 뇌혈관 관련 질환을 이야기하는 노인성 질병에 걸렸을 때 요양시설 입소 비용이나 방문간호 서비스를 받을 수 있는 제도에요. 대신 이 서비스를 받기 위해서는 건강보험료의 12.27퍼센트를 매월 추가로 내야 해요.",
+            "turn_id": "BK22004871-5",
+            "utterance_id": "BK22004871.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "12.27퍼센트면 꽤 많이 내야 하네요. 막상 요양원으로 보내려니 걱정이 너무 많이 되네요.",
+            "turn_id": "BK22004871-6",
+            "utterance_id": "BK22004871.11"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요양원의 어떤 부분이 걱정되세요?",
+            "turn_id": "BK22004871-6",
+            "utterance_id": "BK22004871.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가서 엄마가 너무 힘들어하지 않을지, 돌봄서비스는 제대로 해줄지 이런 것들이 걱정되네요. 혹시 요양원을 잘 고르는 방법도 있나요?",
+            "turn_id": "BK22004871-7",
+            "utterance_id": "BK22004871.13"
+        },
+        {
+            "reference_date": "2017-08-10",
+            "reference_text": [
+                {
+                    "value": "하지만 우리나라는 서류정리만 갖고 요양원을 평가하는 시스템이다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "일본에서는 요양원 평가 시에 평가원들이 요양원에 직접 머물며 실제생활을 체크한다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러다 보니시설평가등급과 실제 생활모습에는 다소 차이가 있음을 알고, 요양원을 직접 방문해 분위기를 체크해야 한다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.naeil.com/news_view/?id_art=247042",
+            "search_query": "좋은 요양원 고르기",
+            "terminate": false,
+            "text": "잘 고르는 방법 중 하나는 요양원에 직접 방문해서 살펴보는 것이에요. 방문해봐야 하는 이유는 일본에서는 시설평가 시에 평가원들이 요양원에 직접 들러서 평가하지만 우리나라는 서류로만 평가해서 시설평가 등급과 실제 모습이 차이가 있을 수 있기 때문이에요.",
+            "turn_id": "BK22004871-7",
+            "utterance_id": "BK22004871.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 등급이 좋으면 무조건 좋은 시설일 것 같았는데 차이가 있을 수 있군요. 근데 가서 시설만 보면 되는 건가요?",
+            "turn_id": "BK22004871-8",
+            "utterance_id": "BK22004871.15"
+        },
+        {
+            "reference_date": "2021-05-31",
+            "reference_text": [
+                {
+                    "value": "요양원을 선택할 때는 입소하는 어르신들의 옷 매무새, 얼굴 표정 등을 확인하며 요양원의 전체적인 분위기를 확인하는 것이 좋다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "뿐만 아니라 입소 어르신 수 대비하여 요양 보호사는 몇 명인지 체크해야 한다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.businesskorea.co.kr/news/articleView.html?idxno=68426",
+            "search_query": "노인 전문 요양원 고려 시 체크할 사항",
+            "terminate": false,
+            "text": "시설도 봐야겠지만 입소한 어르신들을 케어하는 요양보호사 수, 입소 어르신들의 표정, 옷매무새 등을 확인해서 전반적인 관리가 어떻게 되어가고 있는지 확인해야 해요.",
+            "turn_id": "BK22004871-8",
+            "utterance_id": "BK22004871.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "입소한 어르신들의 상태를 보면 얼마나 관리가 잘 되고 있는지 알기 쉽겠네요. 체크해야 할 다른 고려사항이 없을까요?",
+            "turn_id": "BK22004871-9",
+            "utterance_id": "BK22004871.17"
+        },
+        {
+            "reference_date": "2020-07-07",
+            "reference_text": [
+                {
+                    "value": "가까운 곳에 있어야 자주 면회를 할 수 있고 가족들과 잦은 교류는 부모님에게 정서적 안정을 줄 수 있기 때문이다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그래서 요즘은 한적한 곳에 있는 요양원보다는 도심에 있는 요양원을 더 선호하는 이유기도 하다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etoday.co.kr/news/view/1914767",
+            "search_query": "요양원 고려 시 체크할 사항",
+            "terminate": false,
+            "text": "다른 방법은 지리적으로 가까운 시설을 선택하는 것이에요. 최근에는 집에서 멀리 떨어진 한적한 곳에 있는 시설보다 도심 속에 있고 더 가까운 요양원을 선호하는 경향이 있는데 모두 면회 가기 쉽기 때문이에요. 면회를 자주 가게 되면 입소자가 정서적인 안정을 느껴 시설에서 더 편하게 지낼 수 있어요.",
+            "turn_id": "BK22004871-9",
+            "utterance_id": "BK22004871.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "거리가 가까운 것도 중요하겠네요. 두 가지 말고 다른 참고 사항은 없을까요?",
+            "turn_id": "BK22004871-10",
+            "utterance_id": "BK22004871.19"
+        },
+        {
+            "reference_date": "2020-08-03",
+            "reference_text": [
+                {
+                    "value": "매일 시설 내에 자체 소독을 진행하는지 감염 차단을 위해 외부인을 철저하게 차단하고 있는지, 만약 그렇다면 보호자들과는 어떤 식으로 연락을 주고받을 수 있는지 어떻게 대처를 하고 있는지 확인해야 한다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etoday.co.kr/news/view/1925175",
+            "search_query": "코로나 요양원",
+            "terminate": false,
+            "text": "요즘 시국이 시국인지라 시설 자체에서 감염병 차단을 위해 얼마나 노력하고 있는지 확인해야 해요. 확인해야 할 점은 자체 소독을 얼마나 진행하는지 외부인은 철저하게 차단하고 있는지를 확인해야 해요. 그리고 감염병 차단을 위해서 보호자 면회를 차단할 수 있는데 이럴 경우에는 어떻게 연락을 주고 받을 수 있는지도 확인해야 해요.",
+            "turn_id": "BK22004871-10",
+            "utterance_id": "BK22004871.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "노인이라 감염병에 취약할 테니 그런 것들도 신경 써야겠네요. 말씀해주신 것들 종합해서 좋은 시설 찾아봐야겠어요.",
+            "turn_id": "BK22004871-11",
+            "utterance_id": "BK22004871.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "어머님께 맞는 좋은 시설 찾을 수 있기를 바라요. 혹시 추가적인 정보가 필요하다면 연락 다시 주세요. 안녕히 계세요.",
+            "turn_id": "BK22004871-11",
+            "utterance_id": "BK22004871.22"
+        }
+    ]
+}

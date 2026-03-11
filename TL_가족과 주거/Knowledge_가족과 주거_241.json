@@ -1,0 +1,371 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014888",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014888",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "며칠 전에 출산을 했는데 아이가 황달이 있다는 소식을 의료진으로부터 전해 들었어요. 신생아 황달은 흔한 거라고 걱정하지 말라고 하시던데, 정말 괜찮은 걸까요?",
+            "turn_id": "BK22014888-1",
+            "utterance_id": "BK22014888.1"
+        },
+        {
+            "reference_date": "2022-04-22",
+            "reference_text": [
+                {
+                    "value": "그중에서 신생아 황달은 정상 신생아의 60~80%에서 나타날 만큼 흔한 질환이다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "태어난 지 얼마 되지 않은 신생아는 신체의 모든 기관이 완성되지 않아 질환이 생길 가능성이 크다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000689756",
+            "search_query": "신생아 황달",
+            "terminate": false,
+            "text": "신생아는 신체의 모든 기관이 아직 완벽하게 완성된 것이 아니기 때문에 질환이 생길 가능성이 큰데요. 정상 신생아 중 60~80%에서 신생아 황달이 나타나고 있기 때문에 흔한 질병이라 할 수 있죠.",
+            "turn_id": "BK22014888-1",
+            "utterance_id": "BK22014888.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "절반 이상이 황달을 겪을 수 있다니, 조금은 마음이 놓이네요. 보통 간이 안 좋으면 황달이 생기는 걸로 아는데, 신생아 황달은 왜 생기는 건가요?",
+            "turn_id": "BK22014888-2",
+            "utterance_id": "BK22014888.3"
+        },
+        {
+            "reference_date": "2022-04-22",
+            "reference_text": [
+                {
+                    "value": "신생아 황달이란 신생아의 피부와 눈 흰자위의 색이 노란색을 띠는 것을 말한다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "황달은 아기의 핏속에 빌리루빈이라는 담황색 담즙 색소가 많아져 생기는 것이다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000689756",
+            "search_query": "신생아 황달 담즙",
+            "terminate": false,
+            "text": "눈 흰자위와 피부색이 노랗게 변하는 것이 신생아 황달인데요. 이 황달은 아기의 핏속의 빌리루빈이라 하는 담황색 담즙 색소가 많아져서 생기는 거랍니다.",
+            "turn_id": "BK22014888-2",
+            "utterance_id": "BK22014888.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그럼 담황색 담즙색소는 언제쯤 없어지게 되는 거죠?",
+            "turn_id": "BK22014888-3",
+            "utterance_id": "BK22014888.5"
+        },
+        {
+            "reference_date": "2022-04-22",
+            "reference_text": [
+                {
+                    "value": "아기의 간이 효과적으로 빌리루빈을 제거하기까지 며칠이 걸리므로 아기들은 대부분 출생 후 첫수일 간 황달이 생긴다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "생리적 황달은 치료하지 않아도 5~7일 사이에 자연적으로 없어지는 경우가 대부분이며 건강에도 지장을 주지 않는다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000689756",
+            "search_query": "신생아 황달 자연적으로",
+            "terminate": false,
+            "text": "아기의 간이 이 빌리루빈을 제거하는 데는 며칠이 걸려요. 그래서 태어나고 며칠은 황달이 생길 수 있답니다. 이런 생리적 황달은 따로 치료할 필요 없이 5일~7일 사이에 자연스럽게 없어지는 경우가 많고, 건강상에도 지장이 없답니다.",
+            "turn_id": "BK22014888-3",
+            "utterance_id": "BK22014888.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일주일이면 자연스레 없어진다니 다행이에요. 그런데 만약에 7일이 지나도 계속 황달이 없어지지 않는다면 그건 어떻게 되는 건가요?",
+            "turn_id": "BK22014888-4",
+            "utterance_id": "BK22014888.7"
+        },
+        {
+            "reference_date": "2022-04-22",
+            "reference_text": [
+                {
+                    "value": "아기가 생후 2~3일에 얼굴부터 노래지기 시작한다면 생리적 황달의 가능성이 높다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 생후 첫날 황달이 발견되거나, 생후 2주 이상 황달이 지속된다면 병적인 원인으로 인한 황달일 가능성이 크다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "병리적 황달은 신경학적 장애를 초래할 수 있기에, 원인 질환을 정확하게 진단하고 치료하는 것이 필요하다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000689756",
+            "search_query": "신생아 병리적 황달",
+            "terminate": false,
+            "text": "생리적 황달은 생후 2~3일부터 얼굴이 노래지는데, 태어나자마자 황달이 발견되거나 생후 2주 이상 지속되는 경우라면 병적인 원인으로 황달이 생겼을 가능성이 커요. 이러한 병리적 황달은 신경학적인 장애를 유발할 수 있기 때문에 원인을 정확하게 파악하여 치료해야 한답니다.",
+            "turn_id": "BK22014888-4",
+            "utterance_id": "BK22014888.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제발 일주일 전에 황달이 없어지도록 기도해야겠어요. 만약 황달이 오래가서 검사를 받게 되면 검사는 어떤 식으로 하게 되는 건가요?",
+            "turn_id": "BK22014888-5",
+            "utterance_id": "BK22014888.9"
+        },
+        {
+            "reference_date": "2022-04-22",
+            "reference_text": [
+                {
+                    "value": "신생아의 혈중 빌리루빈 수치를 측정해 황달을 진단하는 검사이다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "신생아의 발뒤꿈치에서 혈액을 채취해 혈중 빌리루빈 농도를 측정한다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000689756",
+            "search_query": "신생아 황달 검사",
+            "terminate": false,
+            "text": "신생아 황달은 빌리루빈 수치를 통해 진단할 수 있는데요. 발뒤꿈치에서 혈액을 채취한 다음 혈중의 빌리루빈 농도를 측정하게 된답니다.",
+            "turn_id": "BK22014888-5",
+            "utterance_id": "BK22014888.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 혈액검사로 황달검사를 하는 거구나. 만약에 빌리루빈이 정상 수치에서 벗어나게 된다면 어떻게 되는 거죠?",
+            "turn_id": "BK22014888-6",
+            "utterance_id": "BK22014888.11"
+        },
+        {
+            "reference_date": "2022-04-22",
+            "reference_text": [
+                {
+                    "value": "특히 간접 빌리루빈이 5mg/dL을 넘거나 총 빌리루빈이 20mg/dL을 넘으면 핵황달이 발생할 위험이 높다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "핵황달은 혈중 빌리루빈이 뇌의 기저핵에 침착하여 신경세포를 파괴하는 합병증이다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "핵황달이 발생하면 사망할 가능성이 높으며, 생존하더라도 뇌성 마비, 청력 상실 등의 후유증이 남을 수 있다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000689756",
+            "search_query": "신생아 핵황달",
+            "terminate": false,
+            "text": "만약 간접 빌리루빈이 5mg/dL 이상이거나 총 빌리루빈이 20mg/dL 이상이라면 핵황달이 발생할 위험이 높다고 보고 있어요. 핵황달이란 빌리루빈이 뇌의 기저핵에 침착해서 신경세포를 파괴하는 합병증이에요. 핵황달이 발병하면 사망의 가능성도 높아지고, 생존하더라도 청력 상실이나 뇌성 마비와 같은 후유증이 남을 수 있어요.",
+            "turn_id": "BK22014888-6",
+            "utterance_id": "BK22014888.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사망까지 할 수 있다니 심장이 내려앉는 것 같아요. 만약에 정상 수치가 아니라면 어떤 치료를 받게 되는 거죠?",
+            "turn_id": "BK22014888-7",
+            "utterance_id": "BK22014888.13"
+        },
+        {
+            "reference_date": "2022-04-22",
+            "reference_text": [
+                {
+                    "value": "빌리루빈 수치와 함께 신생아의 재태주령(임신 주수), 기저질환 유무, 현재 상태를 종합적으로 판단하여 치료를 결정한다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 빌리루빈 수치를 낮추는 광선치료를 진행한다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000689756",
+            "search_query": "신생아 황달 치료",
+            "terminate": false,
+            "text": "빌리루빈 수치뿐 아니라 신생아의 재태주령이나 기저질환의 유무, 현재 상태 등을 종합적으로 판단하여 치료 방법을 정하게 되는데요. 빌리루빈의 수치를 낮추는 데는 광선치료를 활용하고 있어요.",
+            "turn_id": "BK22014888-7",
+            "utterance_id": "BK22014888.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "치료까지는 안 갔으면 하는 바람이에요. 그런데 듣기로는 모유를 먹이면 황달이 온다고 하던데, 사실인가요?",
+            "turn_id": "BK22014888-8",
+            "utterance_id": "BK22014888.15"
+        },
+        {
+            "reference_date": "2022-08-19",
+            "reference_text": [
+                {
+                    "value": "간혹 모유를 먹이면 황달이 심해진다는 말을 믿고 아이가 생후 초기 황달 증상을 보이면 바로 모유 수유를 중단하는 경우가 종종 있다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 이는 바람직하지 않다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "정상 신생아에서 흔히 나타났다 일주일쯤 지나면 사라지는 ‘생리적 황달’은 수유량이 불충분해 악화되는 경우가 적지 않다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이때는 모유를 더 자주 먹이면 나아진다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/culture-life/culture_general/2022/08/19/TT3QQIZPPBDEVEG54HH367HD3U/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "search_query": "신생아 황달 모유",
+            "terminate": false,
+            "text": "모유 수유를 하면 황달이 더 악화된다는 얘기를 듣고 아이가 황달일 때 모유 수유를 중단하는 경우들이 있는데요. 이는 사실이 아니랍니다. 생리적 황달은 신생아에게서 흔하게 발생했다 일주일 뒤면 사라지는데, 이때 수유량이 불충분하다면 황달이 더 악화되는 경우도 있답니다. 이런 경우라면 모유를 더 자주 먹이는 것이 오히려 더 도움이 된답니다.",
+            "turn_id": "BK22014888-8",
+            "utterance_id": "BK22014888.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잘못 알려진 상식이었네요. 모유를 먹이면 황달이 더 좋아진다니 열심히 모유수유해야겠어요.",
+            "turn_id": "BK22014888-9",
+            "utterance_id": "BK22014888.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네. 왜 그런 얘기가 나오게 되었는지 모르겠지만, 정확한 정보는 의료진에게 확인해 주시는 것이 좋아요.",
+            "turn_id": "BK22014888-9",
+            "utterance_id": "BK22014888.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래야겠어요. 초보 엄마라 황달에 대해 걱정을 너무 많이 했는데, 조금 편하게 마음먹고 있으려고요. 정보 감사드리고 다음에 또 이야기 나눠요.",
+            "turn_id": "BK22014888-10",
+            "utterance_id": "BK22014888.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "출산으로 몸도 힘드실 텐데 너무 걱정마시고 행복하게 육아하시길 바랄게요. 그럼 다음에 또 만나요.",
+            "turn_id": "BK22014888-10",
+            "utterance_id": "BK22014888.20"
+        }
+    ]
+}

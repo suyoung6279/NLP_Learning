@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22017270",
+        "name": "2022 한국어 블렌더봇 데이터 BK22017270",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이가 눈이 나빠져서 병원에 갔더니 드림렌즈라는 것을 권하더라고요. 저도 남편도 렌즈를 끼지 않아 렌즈에 대한 정보가 없는데, 드림렌즈라는 것이 무엇인가요?",
+            "turn_id": "BK22017270-1",
+            "utterance_id": "BK22017270.1"
+        },
+        {
+            "reference_date": "2022-02-25",
+            "reference_text": [
+                {
+                    "value": "드림렌즈(dream lens)는 각막 형태의 변화를 유도하기 위해 수면 중에 착용하는 특수한 콘텍트 렌즈이다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "효력의 경우 렌즈를 제거한 뒤 약 하루 동안 교정된 시력을 유지하게 된다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%BD%98%ED%83%9D%ED%8A%B8_%EB%A0%8C%EC%A6%88",
+            "search_query": "드림렌즈",
+            "terminate": false,
+            "text": "각막의 변형을 만들기 위해 자는 동안 착용하는 것이 드림렌즈에요. 이 렌즈를 끼고 잔 뒤 렌즈를 빼면, 하루 정도 교정된 시력을 유지하게 되는 특수 콘택트렌즈죠.",
+            "turn_id": "BK22017270-1",
+            "utterance_id": "BK22017270.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "끼고만 자도 교정된 시력이 유지된다니 놀라운데, 이 렌즈의 원리는 무엇인가요?",
+            "turn_id": "BK22017270-2",
+            "utterance_id": "BK22017270.3"
+        },
+        {
+            "reference_date": "2022-09-30",
+            "reference_text": [
+                {
+                    "value": "아이가 수면 시 드림렌즈를 착용하면, 눈을 감은 상태에서 눈꺼풀 압력에 의해 드림렌즈가 각막을 눌러서 각막의 형태를 변화시키는 방법으로 근시를 교정한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.segyebiz.com/newsView/20220930506337?OutUrl=naver",
+            "search_query": "드림렌즈 원리",
+            "terminate": false,
+            "text": "렌즈를 낀 상태로 눈을 감고 잠을 자게 되면 눈꺼풀의 압력에 의해 드림렌즈가 각막을 누르게 돼요. 이때 각막의 형태에 변형이 일어나고 그 변형으로 근시를 교정하게 돼요.",
+            "turn_id": "BK22017270-2",
+            "utterance_id": "BK22017270.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아까 말씀하신 대로 하루만 교정 효과가 나타나나요?",
+            "turn_id": "BK22017270-3",
+            "utterance_id": "BK22017270.5"
+        },
+        {
+            "reference_date": "2022-09-30",
+            "reference_text": [
+                {
+                    "value": "교정된 시력의 지속 시간은 보통 하루 정도이며, 드림렌즈의 착용을 중단하면 2~3일 이내 원래 본인의 시력이 돌아오게 된다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "드림렌즈는 자기전에 착용해 잠자는 동안 쭉 착용해야 하는데, 최소한 6시간의 수면시간이 필요하며 보통 8시간 수면 시 하루정도의 시력교정 효과가 있다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.segyebiz.com/newsView/20220930506337?OutUrl=naver",
+            "search_query": "드림렌즈 지속시간",
+            "terminate": false,
+            "text": "자기 전에 렌즈를 끼고 6시간에서 8시간 정도 잠을 자면 하루 정도 시력교정 효과를 볼 수 있어요. 그리고 드림렌즈를 착용하지 않으면 2~3일 내 다시 원래 시력으로 되돌아가요.",
+            "turn_id": "BK22017270-3",
+            "utterance_id": "BK22017270.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 드림렌즈를 착용하기 적당한 나이는 언제인가요?",
+            "turn_id": "BK22017270-4",
+            "utterance_id": "BK22017270.7"
+        },
+        {
+            "reference_date": "2022-09-30",
+            "reference_text": [
+                {
+                    "value": "특히 시력이 완성되는 만 5세 정도부터 드림렌즈를 시도할 수 있는데, 너무 어린 연령의 아이는 렌즈 착용시 불편감을 호소하며 적응이 어렵기 때문에, 보통 초등학생이 되면 착용을 시작하는 경우가 많다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.segyebiz.com/newsView/20220930506337?OutUrl=naver",
+            "search_query": "드림렌즈 착용시기",
+            "terminate": false,
+            "text": "드림렌즈는 만 5세 정도 시력이 완성되는 나이부터 시도는 할 수 있지만, 너무 어린아이는 렌즈를 꼈을 때 불편해하며 적응을 못 하기 때문에, 보통 초등학생 때 시작하는 경우가 많아요.",
+            "turn_id": "BK22017270-4",
+            "utterance_id": "BK22017270.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 어른도 드림렌즈를 사용하면 효과를 볼 수 있나요?",
+            "turn_id": "BK22017270-5",
+            "utterance_id": "BK22017270.9"
+        },
+        {
+            "reference_date": "2022-09-30",
+            "reference_text": [
+                {
+                    "value": "성인이 드림렌즈를 착용하는 경우에는 근시진행 억제가 아닌 시력교정이 목적이기 때문에 특정일에만 착용해도 좋지만, 소아의 경우 근시진행 억제를 위해서 매일 착용하는 것이 좋다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.segyebiz.com/newsView/20220930506337?OutUrl=naver",
+            "search_query": "드림렌즈 성인사용",
+            "terminate": false,
+            "text": "어린이의 경우에는 근시진행 억제를 하기 위해 매일 착용하는 것이 좋지만, 만약에 성인이 드림렌즈를 사용한다면 근시진행 억제가 아닌 시력교정이 돼요. 그렇기 때문에 특정한 날만 착용해도 좋아요.",
+            "turn_id": "BK22017270-5",
+            "utterance_id": "BK22017270.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이런 방법으로 시력교정이 된다면 성인에게도 좋은 대안이 되겠어요. 이 드림렌즈는 한번 구입하면 언제까지 착용 가능한가요?",
+            "turn_id": "BK22017270-6",
+            "utterance_id": "BK22017270.11"
+        },
+        {
+            "reference_date": "2022-09-30",
+            "reference_text": [
+                {
+                    "value": "이러한 드림렌즈의 수명은 2년 정도이며, 렌즈 관리 상태와 근시 진행 정도에 따라 일찍 교체해야 할 수도 있다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.segyebiz.com/newsView/20220930506337?OutUrl=naver",
+            "search_query": "드림렌즈 수명",
+            "terminate": false,
+            "text": "보통 드림렌즈의 수명은 2년 정도인데, 렌즈의 관리를 어떻게 했는지 그리고 근시 진행이 어느 정도 진행되었는지에 따라 교체 주기가 빨라질 수도 있어요.",
+            "turn_id": "BK22017270-6",
+            "utterance_id": "BK22017270.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수명이 보통 2년이면 짧은 편이네요. 드림렌즈는 어떤 단점이 있나요?",
+            "turn_id": "BK22017270-7",
+            "utterance_id": "BK22017270.13"
+        },
+        {
+            "reference_date": "2017-05-03",
+            "reference_text": [
+                {
+                    "value": "먼저 일반렌즈와 달리 고가이며 적응 기간이 필요하다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 심한 근시와 난시가 있을 경우 처방이 불가능할 수 있다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "마지막으로 잠을 자는 동안 시력이 교정되기 때문에 만족스러운 시력 교정을 위해서는 충분한 수면이 보장되어야만 한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongboo.com/news/articleView.html?mod=news&act=articleView&idxno=1162600",
+            "search_query": "드림렌즈의 단점",
+            "terminate": false,
+            "text": "단점은 일반 렌즈보다 가격이 비싸고, 처음에 적응하는 기간이 필요해요. 그리고 심한 근시와 난시인 상태라면 드림렌즈를 처방할 수 없기도 해요. 또 충분하게 잠을 자야지만 교정 효과를 볼 수 있기 때문에 수면시간이 충분하게 보장되어야만 하고요.",
+            "turn_id": "BK22017270-7",
+            "utterance_id": "BK22017270.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고가의 렌즈를 아이가 관리를 잘 할 수 있을까요?",
+            "turn_id": "BK22017270-8",
+            "utterance_id": "BK22017270.15"
+        },
+        {
+            "reference_date": "2017-05-03",
+            "reference_text": [
+                {
+                    "value": "렌즈를 착용하는 아이의 부모는 세척, 보존 등 렌즈 사용 전 관리방법과 착용 및 제거 방법을 병원에서 교육 받아야 한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 초등학교 저학년 어린이의 경우 스스로 관리가 어려워 부모의 도움이 필요하다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongboo.com/news/articleView.html?mod=news&act=articleView&idxno=1162600",
+            "search_query": "드림렌즈 관리",
+            "terminate": false,
+            "text": "초등학교 저학년이라면 스스로 관리하기가 어려우니, 부모가 도와주어야 해요. 그래서 아이가 렌즈를 착용하게 되면 부모가 병원에서 교육을 받게 되죠. 교육 내용은 세척, 보관, 사용 전 관리 방법 그리고 렌즈를 착용하고 제거하는 방법에 관한 것이에요.",
+            "turn_id": "BK22017270-8",
+            "utterance_id": "BK22017270.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이 시력이 나빠지니 부모가 할 일이 많아지네요.",
+            "turn_id": "BK22017270-9",
+            "utterance_id": "BK22017270.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "처음 착용하면 힘들어할 수도 있으니 잘 보살펴주세요.",
+            "turn_id": "BK22017270-9",
+            "utterance_id": "BK22017270.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나빠지기 전에 예방에 신경 썼어야 했는데 아이에게 미안한 마음이 들어요.",
+            "turn_id": "BK22017270-10",
+            "utterance_id": "BK22017270.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "지금이라도 더 나빠지지 않게 관리해주세요.",
+            "turn_id": "BK22017270-10",
+            "utterance_id": "BK22017270.20"
+        }
+    ]
+}

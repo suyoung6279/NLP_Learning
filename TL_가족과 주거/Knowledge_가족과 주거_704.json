@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016102",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016102",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 보면 반려동물과 함께 비행기를 타고 여행을 떠나는 사람들이 많아지는 것 같아요. 혹시 제 주변만 그런 건가요? 실제 항공사의 추이는 어떤지 궁금하네요.",
+            "turn_id": "BK22016102-1",
+            "utterance_id": "BK22016102.1"
+        },
+        {
+            "reference_date": "2022-09-10",
+            "reference_text": [
+                {
+                    "value": "지난해 1~8월과 비교하면 기내 동반 탑승 반려동물은 1만 3853마리에서 35.6%, 위탁수하물 탑승 반려동물은 5153마리에서 25.7% 각각 증가한 것으로 집계됐다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.tvchosun.com/site/data/html_dir/2022/09/10/2022091090034.html",
+            "search_query": "반려동물 비행기",
+            "terminate": false,
+            "text": "아뇨, 체감하시는 것처럼 실제로도 반려동물과 항공기를 이용해 이동한 승객들이 늘어났어요. 작년 1월에서 8월과 비교했을 때 기내 동반 탑승 반려동물은 1만 3853마리에서 35.6퍼센트, 위탁수하물로 탑승한 반려동물은 5153마리에서 25.7퍼센트 증가했거든요.",
+            "turn_id": "BK22016102-1",
+            "utterance_id": "BK22016102.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 실제로 많은 사람이 반려동물과 항공기를 이용 중이군요. 이렇게 반려동물 동반 탑승객이 늘었으면 항공사에서도 꽤 신경 써서 서비스할 것 같네요.",
+            "turn_id": "BK22016102-2",
+            "utterance_id": "BK22016102.3"
+        },
+        {
+            "reference_date": "2022-10-04",
+            "reference_text": [
+                {
+                    "value": "항공사도 반려동물 동반 여행 관련 서비스 강화에 나서고 있다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대한항공은 반려동물과 여행할 때마다 1구간당 1~2개의 스탬프를 찍어주고, 반려동물 운송요금을 할인받거나 무료로 탑승할 수 있도록 하는 프로그램을 운영 중이다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "제주항공은 지난해 11월부터 기내 동반 탑승이 가능한 반려동물의 무게를 기존 5㎏에서 7㎏으로 올리고, 편당 최대 탑승할 수 있는 반려동물의 수도 3마리에서 6마리로 늘렸다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.chosun.com/news/ntype.htm?id=202210050100019700001156&servicedate=20221004",
+            "search_query": "반려동물 여행 서비스 강화",
+            "terminate": false,
+            "text": "네, 실제로 항공사도 반려동물 동반 여행 관련 서비스를 강화하고 있어요. 대한항공은 반려동물과 여행 시 한 구간마다 1개에서 2개의 스탬프를 찍어주고 반려동물 운송요금을 할인받거나 비용을 내지 않고 항공기를 이용할 수 있도록 하는 프로그램을 운영 중이거든요. 또 제주항공 역시 지난해 11월부터 기내에 함께 탑승할 수 있는 반려동물의 무게를 기존 5kg에서 2kg 올린 7kg까지 탑승할 수 있도록 바꾸고 편당 최대 탑승할 수 있는 반려동물의 수도 3마리에서 6마리로 늘렸어요.",
+            "turn_id": "BK22016102-2",
+            "utterance_id": "BK22016102.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려동물과 이용하는 탑승객을 잡기 위해 다양한 서비스를 하고 있군요. 그런데 비행기에 데리고 탈 수 있는 반려동물은 인당 몇 마리인지가 궁금해요. 저희 집은 다견가정이거든요.",
+            "turn_id": "BK22016102-3",
+            "utterance_id": "BK22016102.5"
+        },
+        {
+            "reference_date": "2022-08-26",
+            "reference_text": [
+                {
+                    "value": "현재 비행기에 탈 수 있는 동물은 고양이, 강아지, 애완용 새로 탑승객 1인당 기내반입 1마리, 위탁 1마리가 가능하다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.handmk.com/news/articleView.html?idxno=13152",
+            "search_query": "비행기 동물 탑승객",
+            "terminate": false,
+            "text": "네, 비행기에 실을 수 있는 반려동물의 수는 비행기에 탑승하는 1인당 기내 반입 1마리, 위탁 1 마리에요.",
+            "turn_id": "BK22016102-3",
+            "utterance_id": "BK22016102.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 가족 모두와 함께 탑승한다면 크게 문제없겠네요. 그런데 아까 제주항공 얘기를 하시면서 반려동물의 몸무게를 언급하셨는데 몸무게 제한도 있는 건가요?",
+            "turn_id": "BK22016102-4",
+            "utterance_id": "BK22016102.7"
+        },
+        {
+            "reference_date": "2022-08-26",
+            "reference_text": [
+                {
+                    "value": "기내 반입시에는 일반적으로 7㎏을 기준으로 기내 탑승 여부가 결정돼 반려동물이 7㎏ 이하면 전용 케이지에 넣은 뒤 주인과 함께 탈 수 있지만, 그렇지 않으면 탑승 자체가 불가하거나 수하물로 분류돼 화물칸에 실린다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.handmk.com/news/articleView.html?idxno=13152",
+            "search_query": "반려동물 수하물",
+            "terminate": false,
+            "text": "네, 기내에 동반할 때는 보통 7kg 기준으로 제한되어 있거든요. 7kg을 넘지 않는 경우는 전용 케이지에 넣어 주인과 함께 탑승이 가능하지만 그렇지 않은 경우에는 탑승 자체가 불가능하거나 수하물로 분류돼 화물칸에 실어야 하죠.",
+            "turn_id": "BK22016102-4",
+            "utterance_id": "BK22016102.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 몸무게를 말씀하시니 갑자기 궁금한 건데 반려동물이 아닌 보조견과 같이 사람을 돕는 역할을 하는 강아지들은 기내 동반이 가능한가요? 보통 그 친구들은 레트리버와 같은 대형견이라 궁금해요.",
+            "turn_id": "BK22016102-5",
+            "utterance_id": "BK22016102.9"
+        },
+        {
+            "reference_date": "2022-08-26",
+            "reference_text": [
+                {
+                    "value": "장애인 보조경의 경우 별도 케이지 보관없이 기내 동반이 가능하나 보조견이 좌석을 점유하기는 어렵다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.handmk.com/news/articleView.html?idxno=13152",
+            "search_query": "장애인 보조견 비행기",
+            "terminate": false,
+            "text": "네, 장애인 보조견은 케이지를 사용하지 않고도 기내 동반이 가능해요. 다만 보조견은 좌석을 배정받을 수는 없죠.",
+            "turn_id": "BK22016102-5",
+            "utterance_id": "BK22016102.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "보조견은 몸무게 제한이 적용되지 않는군요. 그런데 비행기에 탑승이 불가능한 동물도 있나요?",
+            "turn_id": "BK22016102-6",
+            "utterance_id": "BK22016102.11"
+        },
+        {
+            "reference_date": "2022-05-26",
+            "reference_text": [
+                {
+                    "value": "일반적으로 운송 가능한 반려동물은 개, 고양이, 애완용 새에 해당한다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "도사견 같은 맹견이나 맹금류, 건강에 문제가 있거나 임신한 암컷은 태울 수 없다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/05/464964/",
+            "search_query": "맹견 비행기",
+            "terminate": false,
+            "text": "보통 탑승이 가능한 반려동물로는 개, 고양이, 애완용 새가 있고 도사견과 같은 맹견이나 맹금류도 탑승이 불가능해요.",
+            "turn_id": "BK22016102-6",
+            "utterance_id": "BK22016102.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 탑승이 제한되는 경우도 있다니 신기하네요. 그럼 맹견이나 맹금류처럼 반려동물 자체가 위험한 경우 말고도 탑승이 불가능한 경우도 있나요?",
+            "turn_id": "BK22016102-7",
+            "utterance_id": "BK22016102.13"
+        },
+        {
+            "reference_date": "2022-05-26",
+            "reference_text": [
+                {
+                    "value": "퍼그나 시추, 페르시안 고양이 등의 단두종은 호흡 곤란이나 폐사 위험이 있어 기내 탑승은 안 되고 수화물로 운송해야 한다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "안정제나 수면제를 투여한 반려동물도 탑승할 수 없는데, 운송 중 체온과 혈압이 떨어져 위험할 수 있어서다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만, 수의사가 여행을 감안해 직접 처방해 투여한 멀미약은 처방전 기록을 근거로 조건부 허용이 가능할 수 있다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/05/464964/",
+            "search_query": "퍼그 시추 비행기",
+            "terminate": false,
+            "text": "네, 퍼그나 시추, 페르시안 고양이와 같이 단두종인 반려동물들은 호흡 곤란이나 폐사 위험이 있기 때문에 기내에 탑승할 수 없기 때문에 수화물로 보내야 하죠. 그리고 안정제나 수면제를 투여한 반려동물도 탑승이 제한되는데 운송 중 체온과 혈압이 떨어지면 위험하기 때문이에요. 다만 수의사가 여행을 위해 직접 처방해서 처방한 멀미약을 투약한 경우는 처방전 기록을 근거로 조건부 허용이 가능한 경우가 있으니 참고하세요.",
+            "turn_id": "BK22016102-7",
+            "utterance_id": "BK22016102.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "단두종은 탑승이 불가능하다니 처음 알았어요. 그런데 반려동물을 데리고 항공기를 이용하려면 탑승 당일 시간이 조금 걸릴 것 같은데 맞나요?",
+            "turn_id": "BK22016102-8",
+            "utterance_id": "BK22016102.15"
+        },
+        {
+            "reference_date": "2022-05-26",
+            "reference_text": [
+                {
+                    "value": "셋째, 여행 당일에는 탑승 시간보다 제법 여유를 두고 공항에 도착해야 한다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려동물 탑승에 관련한 서류를 작성하고 반려동물 수속 절차를 밟는 데 시간이 걸리기 때문이다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/05/464964/",
+            "search_query": "반려동물 비행기",
+            "terminate": false,
+            "text": "네, 맞아요. 그 때문에 반려동물과 함께 항공기를 이용하려는 경우 비행기에 탑승하는 시간보다 한참 여유를 두고 공항에 도착해야 해요. 탑승과 관련해 서류를 쓰고 반려동물 수속에 필요한 절차를 처리하는 데 시간이 걸리거든요.",
+            "turn_id": "BK22016102-8",
+            "utterance_id": "BK22016102.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 확실히 수속 절차에 평소보다 더 시간이 걸리기는 하겠네요. 오늘 이렇게 반려동물과 함께 비행기에 탑승하는 방법에 대해 알려주셔서 감사해요. 저도 얼른 저희 집 강아지들과 여행을 떠나보고 싶네요.",
+            "turn_id": "BK22016102-9",
+            "utterance_id": "BK22016102.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하하, 도움이 될 수 있어서 기쁘네요. 그럼 더 궁금한 점 있으시면 또 연락하세요.",
+            "turn_id": "BK22016102-9",
+            "utterance_id": "BK22016102.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 다음에 또 연락드리도록 할게요. 그럼 조심해서 들어가세요.",
+            "turn_id": "BK22016102-10",
+            "utterance_id": "BK22016102.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 꼭 연락하세요. 저도 오늘 경청해주신 덕분에 즐거웠거든요. 그럼 다음에 또 봬요.",
+            "turn_id": "BK22016102-10",
+            "utterance_id": "BK22016102.20"
+        }
+    ]
+}

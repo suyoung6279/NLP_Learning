@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018882",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018882",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0029"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번에 어머님, 아버님이 우리집 가까운 곳으로 이사를 오시는데 가구들이 너무 오래돼서 전부 다 바꿔드려야 할 것 같아요.",
+            "turn_id": "BK22018882-1",
+            "utterance_id": "BK22018882.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래요. 어떤 가구로 구매하는 게 좋을지 가족 회의로 결정해 봅시다.",
+            "turn_id": "BK22018882-1",
+            "utterance_id": "BK22018882.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "두분 다 많이 연로해지셔서 그런지 부쩍 우울하다는 말씀을 많이 하시는데 밝은 색상의 가구로 바꿔드리면 우울감 개선에 도움이 좀 될까요?",
+            "turn_id": "BK22018882-2",
+            "utterance_id": "BK22018882.3"
+        },
+        {
+            "reference_date": "44634.0",
+            "reference_text": [
+                {
+                    "value": "이때 밝고 따뜻하고 선명한 색 가구를 선택한다면, 우울감을 느끼는 노인에게 긍정적 보상이 될 수 있다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "색의 온도는 우울감의 경감과 관련된다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/03/14/2022031401248.html",
+            "search_query": "실버 가구 색상",
+            "terminate": false,
+            "text": "맞아요. 색의 온도에 따라 우울감의 정도가 달라질 수 있으니 선명하고 따뜻한 색상의 가구를 구매하면 부모님이 우울감을 덜 느끼실 거예요.",
+            "turn_id": "BK22018882-2",
+            "utterance_id": "BK22018882.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘엔 여러 기능성 가구들도 많이 나오는데 어떤 가구를 골라드리는 게 사용하시기 더 편리하실까요?",
+            "turn_id": "BK22018882-3",
+            "utterance_id": "BK22018882.5"
+        },
+        {
+            "reference_date": "44634.0",
+            "reference_text": [
+                {
+                    "value": "나이가 들면 근력이 떨어진다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "근력이 떨어지면 신체를 자유자재로 움직이기 어려워 움직임도 투박해진다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "단순한 행동만으로도 충분히 사용할 수 있는 가구인지 고려하는 게 중요하다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/03/14/2022031401248.html",
+            "search_query": "실버 가구 편리성",
+            "terminate": false,
+            "text": "노인분들은 근력이 많이 약하시기 때문에 몸을 마음대로 움직이기가 어려워요. 그만큼 움직임도 투박하시기 때문에 간단한 동작으로도 사용에 어려움이 없는 가구를 선택해야 해요.",
+            "turn_id": "BK22018882-3",
+            "utterance_id": "BK22018882.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번에 서랍장도 새로 사드려야 하는데 서랍에 달려있는 손잡이 형태도 다양하잖아요. 어떤 형태를 고르는 게 좋을까요?",
+            "turn_id": "BK22018882-4",
+            "utterance_id": "BK22018882.7"
+        },
+        {
+            "reference_date": "44634.0",
+            "reference_text": [
+                {
+                    "value": "쥐고 잡아당기는 손잡이는 서랍을 열 때 손아귀 힘에 의존해 악력이 감소한 상태서 쓰기엔 불편하다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "반면 손을 손잡이에 걸어서 빼는 구조라면 팔 전체를 뒤로 당기는 단순한 행동만으로도 서랍을 열 수 있다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/03/14/2022031401248.html",
+            "search_query": "실버 가구 손잡이",
+            "terminate": false,
+            "text": "노인분들은 악력이 약하시기 때문에 손잡이를 쥔 채로 잡아당겨야 하는 서랍장은 손으로 쥐는 힘이 필요해서 사용하기 불편해요. 팔 전체를 뒤로 당기는 간단한 동작으로 서랍을 여실 수 있도록 손을 손잡이에 걸어서 빼는 디자인의 서랍장을 구매하는 게 좋아요.",
+            "turn_id": "BK22018882-4",
+            "utterance_id": "BK22018882.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그럼 어머님, 아버님이 쓰실 가구의 무늬는 어떤 것으로 선택할까요?",
+            "turn_id": "BK22018882-5",
+            "utterance_id": "BK22018882.9"
+        },
+        {
+            "reference_date": "44634.0",
+            "reference_text": [
+                {
+                    "value": "신체가 노화되면 시각적으로 정교한 것을 변별하는 능력 역시 떨어지므로, 작고 촘촘한 무늬가 있는 가구는 바람직하지 않다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/03/14/2022031401248.html",
+            "search_query": "실버 가구 무늬",
+            "terminate": false,
+            "text": "노년에는 신체 노화와 함께 정교한 것을 시각적으로 구분하는 능력도 함께 감소하기 때문에 작은 무늬들이 촘촘하게 있는 가구는 좋지 않아요.",
+            "turn_id": "BK22018882-5",
+            "utterance_id": "BK22018882.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "단순한 무늬의 디자인으로 선택해야겠네요. 시각적인 능력이 떨어지면 가구를 구분하기도 쉽지 않을텐데 가구를 선택할 때 어떤 점을 고려해야 할까요?",
+            "turn_id": "BK22018882-6",
+            "utterance_id": "BK22018882.11"
+        },
+        {
+            "reference_date": "44634.0",
+            "reference_text": [
+                {
+                    "value": "손잡이나 서랍 등 가구를 구성하는 각 부분을 촉각만으로 식별할 수 있으면 좋으며, 버튼 있는 가구를 고를 땐 버튼을 누르는 방식이 아닌 터치하는 방식이 낫다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/03/14/2022031401248.html",
+            "search_query": "실버 가구 식별",
+            "terminate": false,
+            "text": "서랍이나 손잡이 등 가구를 이루는 부분을 촉각만으로도 구분할 수 있는 가구가 좋아요. 버튼이 있는 가구라면 누르는 방식 보다는 터치식으로 되어 있는 것을 고르는 게 나아요.",
+            "turn_id": "BK22018882-6",
+            "utterance_id": "BK22018882.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가구마다 높이도 다양하잖아요. 어느 정도의 가구 높이를 구매해야 사용하기 편리할까요?",
+            "turn_id": "BK22018882-7",
+            "utterance_id": "BK22018882.13"
+        },
+        {
+            "reference_date": "44634.0",
+            "reference_text": [
+                {
+                    "value": "마지막으로 침대나 의자의 높이를 노인의 앉은키, 즉 무릎 높이에 맞추면 앉거나 일어설 때 지체되는 시간을 줄일 수 있다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/03/14/2022031401248.html",
+            "search_query": "실버 가구 높이",
+            "terminate": false,
+            "text": "침대나 의자 같은 가구의 높이는 부모님의 앉은키 정도인 무릎 높이 정도로 선택하면 돼요. 이 높이의 가구를 사용하면 앉거나 일어날 때 시간이 지체되는 것이 줄어듭니다.",
+            "turn_id": "BK22018882-7",
+            "utterance_id": "BK22018882.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안 그래도 의자가 너무 낡아서 의자는 꼭 구매해야 하는데 어떤 디자인의 의자를 선택하는 게 좋을까요?",
+            "turn_id": "BK22018882-8",
+            "utterance_id": "BK22018882.15"
+        },
+        {
+            "reference_date": "44634.0",
+            "reference_text": [
+                {
+                    "value": "노인은 하체 근력 저하로 털썩 주저앉기 쉽고, 일어날 땐 무릎관절을 구부리는 데 어려움을 겪는다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이때 의자에 손잡이가 있다면 노인이 일어나고 앉을 때 다리나 허리힘 외에 팔힘도 활용할 수 있다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/03/14/2022031401248.html",
+            "search_query": "실버 가구 의자",
+            "terminate": false,
+            "text": "노인은 하체 근력이 악한 편이라 앉을 때 털썩 주저 앉게 되고 일어날 때는 무릎 관절을 구부리는 동작이 힘듭니다. 따라서 다리나 허리의 힘과 함께 팔 힘을 활용할 수 있도록 손잡이가 달려있는 의자를 구매하는 게 좋아요.",
+            "turn_id": "BK22018882-8",
+            "utterance_id": "BK22018882.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지인 분 부모님은 바퀴달린 의자를 잘 사용하신다고 들었는데 이 가구를 구매할 때 유의할 점도 있나요?",
+            "turn_id": "BK22018882-9",
+            "utterance_id": "BK22018882.17"
+        },
+        {
+            "reference_date": "44634.0",
+            "reference_text": [
+                {
+                    "value": "다만 바퀴가 달린 의자를 사기 전에는 회전각도가 지나치게 크진 않은지를 확인해야 한다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "노인은 속도 조절 능력이 떨어지기 때문에 바퀴가 헛돌지 않아야 안전하게 사용할 수 있다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/03/14/2022031401248.html",
+            "search_query": "실버 가구 바퀴 달린 의자",
+            "terminate": false,
+            "text": "바퀴 달린 의자를 구매하기 전에 의자의 회전 각도가 너무 큰 것은 피해야 해요. 또 나이 드신 분들은 속도 조절 능력도 좋지 않으니 바퀴가 헛돌지 않는지도 꼼꼼히 확인해야 안전하게 사용이 가능합니다.",
+            "turn_id": "BK22018882-9",
+            "utterance_id": "BK22018882.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "새 것으로만 바꿔드릴 생각만 했지 기능적인 부분은 생각하지 못했는데 가족 회의 덕분에 사용하시기도 편리한 가구를 잘 고를 수 있을 것 같네요.",
+            "turn_id": "BK22018882-10",
+            "utterance_id": "BK22018882.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "이런 일에는 가족끼리 의견을 모아서 결정하는 게 도움이 되죠. 이사 일이 얼마 안남았으니 이번 주말에 가구점에 가서 구매합시다.",
+            "turn_id": "BK22018882-10",
+            "utterance_id": "BK22018882.20"
+        }
+    ]
+}

@@ -1,0 +1,387 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015696",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015696",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0007"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나 겨울방학 동안 서울에 좀 가 있기로 했어. 원룸을 구해야 하는데, 너한테 좀 물어봐도 될까?",
+            "turn_id": "BK22015696-1",
+            "utterance_id": "BK22015696.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 전에 일이 있어서 서울 가야 한다더니 꽤 오래 있어야 되나 보네. 어떤 게 궁금한 거야?",
+            "turn_id": "BK22015696-1",
+            "utterance_id": "BK22015696.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나 방을 구해본 적이 한 번도 없거든. 원룸 구할 때 정보는 보통 어떻게 알아봐야 해?",
+            "turn_id": "BK22015696-2",
+            "utterance_id": "BK22015696.3"
+        },
+        {
+            "reference_date": "2019-09-08",
+            "reference_text": [
+                {
+                    "value": "방을 고를 때는 살고자 하는 동네에 위치한 부동산중개업소를 찾아 가는 것이 가장 쉬운 방법이다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "부동산을 찾아 갔을 때 장점은 내가 원하는 방 조건을 말하면 부동산에서 알아서 방을 찾아서 직접 보여준다는 점이다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "부동산중개업소를 직접 찾지 않을 경우 방 거래 애플리케이션 등 플랫폼을 찾는 것도 방법이다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "방 거래 플랫폼의 양대 산맥은 ‘다방’과 ‘직방’이다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "두 플랫폼 모두 방을 찾고자 하는 사용자가 지역별 매물을 검색하면 해당 매물을 중개해주는 부동산 공인중개사와 연결되는 시스템이다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/469/0000420516?sid=103",
+            "search_query": "원룸 정보 구하기",
+            "terminate": false,
+            "text": "방을 고르려면 원하는 동네에 있는 부동산중개업소를 가는 게 가장 쉬운 방법이지. 부동산으로 가서 원하는 조건을 얘기하면 부동산에서 방을 찾아 직접 보여준다는 장점이 있거든. 그런데 부동산중개업소에 가지 않더라도 요즘은 방 거래 애플리케이션 같은 플랫폼이 있으니까 그걸 이용해도 돼. 다방과 직방이 가장 많이 쓰이는 플랫폼인데, 지역별로 매물을 검색하면 해당 매물을 중개하는 부동산이랑 연결이 되는 구조야.",
+            "turn_id": "BK22015696-2",
+            "utterance_id": "BK22015696.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나는 그럼 애플리케이션을 이용해 봐야겠다. 그런 플랫폼은 허위 매물도 많다고 들었는데, 어떤 종류의 허위 매물들이 있는 거야?",
+            "turn_id": "BK22015696-3",
+            "utterance_id": "BK22015696.5"
+        },
+        {
+            "reference_date": "2019-11-09",
+            "reference_text": [
+                {
+                    "value": "허위매물 유형으로는 △실제 방과 상관없는 허위사진 게시 △실거래 금액대비 월세가 약 40%가량 저렴한 매물 △주소를 임의로 기재해 역세권이라고 속이는 행위 등으로 나타났다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ekn.kr/web/view.php?key=462943",
+            "search_query": "부동산 플랫폼 허위매물",
+            "terminate": false,
+            "text": "보통 실제 방이랑 관련이 없는 허위 사진을 올려놓은 경우도 있고, 실거래 금액 대비해서 월세가 40퍼센트 정도 저렴한 매물들도 있어. 그리고 주소를 마음대로 기재해놓고 역세권이라고 속이는 경우도 허위 매물이지.",
+            "turn_id": "BK22015696-3",
+            "utterance_id": "BK22015696.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "월세가 너무 저렴한 것도 조심을 해야겠구나. 오피스텔이 시설은 좋을 것 같은데 아무래도 비쌀 것 같아서 말이야. 월세 부담이 적은 곳으로 알아보려면 어떤 쪽으로 봐야 할까?",
+            "turn_id": "BK22015696-4",
+            "utterance_id": "BK22015696.7"
+        },
+        {
+            "reference_date": "2020-01-27",
+            "reference_text": [
+                {
+                    "value": "월세 부담이 적은 곳을 원한다면 다세대나 다가구 주택을 노려라.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "최근 빌라 등 신축 건물이 많아서 손품을 팔면 원하는 가격대의 신축 건물을 찾을 수 있다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/018/0004562584?sid=101",
+            "search_query": "원룸 월세 부담이 적은 곳을 구하려면",
+            "terminate": false,
+            "text": "다세대나 다가구 주택 쪽을 알아보면 월세가 좀 저렴한 곳을 찾을 수 있어. 요즘 빌라 같은 신축 건물들이 많아서 검색을 해보면 원하는 가격대에 신축을 찾을 수도 있을 거야.",
+            "turn_id": "BK22015696-4",
+            "utterance_id": "BK22015696.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "서울은 다세대나 다가구도 많을 테니까 그쪽으로 봐야겠구나. 원룸 구하러 가서 집을 볼 때는 어떤 걸 좀 신경 써서 봐야 할까?",
+            "turn_id": "BK22015696-5",
+            "utterance_id": "BK22015696.9"
+        },
+        {
+            "reference_date": "2020-01-20",
+            "reference_text": [
+                {
+                    "value": "쾌적한 자취방 구하기 위해선 채광과 통풍, 수압, 방음 등을 잘 따져봐야 한다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "채광의 경우, 오전 11시에서 오후 4시 사이에 집에 들러 볕이 잘 들어오는지 직접 확인해야 한다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "방의 환기가 잘 되는지도 확인해야 한다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "부엌 싱크대나 화장실 세면대에서 직접 물을 틀어 놓고 수압을 체크해야 한다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.segyebiz.com/newsView/20200120504300?OutUrl=naver",
+            "search_query": "원룸 구하기 확인 사항",
+            "terminate": false,
+            "text": "쾌적한 방을 구하려면 채광, 통풍, 수압이나 방음 등을 확인해야 하는데, 채광은 오전 11시에서 오후 4시 사이에 집을 보러 가서 직접 확인해 보는 게 좋아. 방에 환기가 잘 되는지도 확인해야 하고 부엌 싱크대, 화장실 세면대에 물을 틀어서 수압도 체크해보면 좋고.",
+            "turn_id": "BK22015696-5",
+            "utterance_id": "BK22015696.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 채광 정말 중요한데. 그 시간대에 집을 보러 가는 게 좋겠구나. 내가 소음에 좀 민감한 편인데 어떤 집이 소음에 덜 취약할까?",
+            "turn_id": "BK22015696-6",
+            "utterance_id": "BK22015696.11"
+        },
+        {
+            "reference_date": "2015-05-24",
+            "reference_text": [
+                {
+                    "value": "따라서 소음에 민감한 사람이라면 복도 끝에 위치한 물건을 노려야 한다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "복도 끝에 위치한 원룸의 경우, 앞·뒤 주민 외에는 복도에서 소음을 발생시킬 가능성이 낮고, 벽 한 면만 다른 가구와 마주하고 있어 소음이 상대적으로 줄어들 수 있기 때문이다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatoday.co.kr/view.php?key=20150524010013190",
+            "search_query": "원룸 구하기 소음에 민감한 경우",
+            "terminate": false,
+            "text": "소음에 민감하면 복도 끝 방으로 구하는 게 좋아. 복도 끝에 있는 원룸은 앞, 뒤에 사는 사람 외에는 복도에서 소음을 발생될 가능성이 적은 편이고 벽 중에 한 면만 다른 집이랑 붙어있으니까 소음이 상대적으로 적을 수 있거든.",
+            "turn_id": "BK22015696-6",
+            "utterance_id": "BK22015696.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 양쪽 집이 붙어있는 거보다는 끝 방이 소음이 덜하긴 하겠다. 원룸 주변 시설도 좀 살펴봐야 할 텐데, 어떤 걸 확인해 봐야 할까?",
+            "turn_id": "BK22015696-7",
+            "utterance_id": "BK22015696.13"
+        },
+        {
+            "reference_date": "2020-09-10",
+            "reference_text": [
+                {
+                    "value": "직장이나 학교와의 거리뿐만 아니라 평소 자주 이용하는 편의점이나 병원, 약국 등의 위치를 따져봐야 합니다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 유흥가나 번화가 등에 근접해있으면 소음과 불빛 등으로 불편할 수 있으니 유의해야 합니다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.rcast.co.kr/sub02.php?BRD_ID=1599698340252",
+            "search_query": "원룸 주변시설 확인",
+            "terminate": false,
+            "text": "학교나 직장에서 거리도 확인해봐야 하고, 자주 이용할 편의점, 병원, 약국 위치도 확인해 두는 게 좋아. 그리고 유흥가나 번화가가 가까우면 소음, 불빛 때문에 불편하니까 잘 봐둬야 해.",
+            "turn_id": "BK22015696-7",
+            "utterance_id": "BK22015696.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그래 시끄러운 환경이 아닌지 살펴보는 게 중요하겠다. 집 보는 건 이 정도 확인하면 될 것 같고, 계약할 때는 어떤 걸 주의해야 해?",
+            "turn_id": "BK22015696-8",
+            "utterance_id": "BK22015696.15"
+        },
+        {
+            "reference_date": "2020-05-03",
+            "reference_text": [
+                {
+                    "value": " 계약 과정에서 금전적 손해를 보는 일이 발생할 수 있으므로 계약서에 명시된 내용을 면밀히 살펴봐야 하고, 공증된 공인중개사를 통해 계약을 진행해야 한다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "계약서 작성 시 집주인이 나올 경우 집주인이 등기부등본에 기재된 실소유자와 동일한지 확인해야 하고, 집주인이 아닌 대리인이 나올 경우엔 계약 위임장과 주택소유자의 인감증명서를 요구해야 한다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 때 매달 지불해야 하는 관리비 금액과 입금 계좌번호와 이름이 집주인과 동일한지도 꼭 확인하자.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newsworks.co.kr/news/articleView.html?idxno=451184",
+            "search_query": "원룸 계약 확인사항",
+            "terminate": false,
+            "text": "계약할 때 금전적 손해가 없도록 계약서에 적힌 내용을 자세히 살펴봐야 하고, 공증된 공인중개사를 통해서 계약하는 편이 좋아. 계약서 쓸 때는 집주인이 나오면 등기부등본에 나와 있는 실소유자와 집주인이 같은 사람인지 확인을 하고, 집주인이 안 나오고 대리인이 나올 경우에는 위임장이랑 집주인의 인감증명서를 확인해야 해. 그리고 매달 내야 하는 관리비가 있는지도 확인을 하고, 입금할 계좌번호 이름이 집주인 명의인지도 꼭 확인해야 해.",
+            "turn_id": "BK22015696-8",
+            "utterance_id": "BK22015696.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "확인해야 할 게 생각보다 많구나. 계약 완료 후에도 혹시 확인해둬야 할 게 있어?",
+            "turn_id": "BK22015696-9",
+            "utterance_id": "BK22015696.17"
+        },
+        {
+            "reference_date": "2015-02-19",
+            "reference_text": [
+                {
+                    "value": "계약 완료 후에는 동사무소에 전입 확정일자 받아야 안전하다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만약 입주 후 파손부분이 있다던지 옵션 사용이 안 된다면 주인에게 즉시 문자를 하고 사진으로 증거를 남겨둬야 한다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.econovill.com/news/articleView.html?idxno=235054",
+            "search_query": "원룸 계약 완료 후 확인사항",
+            "terminate": false,
+            "text": "계약이 다 되면 동사무소에 가서 전입 확정일자를 받아야 안전해. 그리고 입주하고 나서 파손된 게 있거나 옵션 중에 사용이 안 되는 게 있으면 집주인에게 바로 문자로 내용과 사진을 보내 증거를 남기는 편이 좋아.",
+            "turn_id": "BK22015696-9",
+            "utterance_id": "BK22015696.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇겠네. 역시 너한테 물어보길 잘했다. 집 구하다가 물어볼 게 있으면 또 연락해도 되지?",
+            "turn_id": "BK22015696-10",
+            "utterance_id": "BK22015696.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼, 언제든지 궁금한 거 생기면 연락줘.",
+            "turn_id": "BK22015696-10",
+            "utterance_id": "BK22015696.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "고마워, 네가 있어서 든든하네. 그럼 다음에 또 연락할게.",
+            "turn_id": "BK22015696-11",
+            "utterance_id": "BK22015696.21"
+        }
+    ]
+}

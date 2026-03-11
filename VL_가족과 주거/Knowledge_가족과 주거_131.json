@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018094",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018094",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "서울시에 반려견 놀이터가 많이 생겼다고 하던데 자세히 알려줄래?",
+            "turn_id": "BK22018094-1",
+            "utterance_id": "BK22018094.1"
+        },
+        {
+            "reference_date": "44844.0",
+            "reference_text": [
+                {
+                    "value": "현재 서울시에서 운영하는 공식 '반려동물 놀이터'가 ▲어린이대공원 ▲월드컵공원 ▲보라매공원 등 총 10곳이 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이외에도 하천변에 임시적으로 운영 중인 놀이터까지 포함하면 규모는 훨씬 더 클 것으로 보인다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newspim.com/news/view/20221007000935",
+            "search_query": "서울시 반려견 놀이터",
+            "terminate": false,
+            "text": "응, 지금 서울시에서 운영하는 공식적인 반려동물 놀이터는 어린이 대공원, 월드컵 공원, 보라매 공원을 포함해서 10곳이야. 강변에서 임시로 놀이터를 운영하고 있는데, 임시 놀이터까지 추가하면 규모가 훨씬 커.",
+            "turn_id": "BK22018094-1",
+            "utterance_id": "BK22018094.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 그렇구나. 혹시 놀이터가 반려견 크기에 따라 나눠져 있어?",
+            "turn_id": "BK22018094-2",
+            "utterance_id": "BK22018094.3"
+        },
+        {
+            "reference_date": "44844.0",
+            "reference_text": [
+                {
+                    "value": "반려견의 크기(중소형견/대형견)에 따라 이용할 수 있는 놀이터가 구분돼 있어 자칫 반려견 간 벌어질 수 있는 사고를 미연에 방지하고 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newspim.com/news/view/20221007000935",
+            "search_query": "서울시 반려견 놀이터 크기",
+            "terminate": false,
+            "text": "맞아, 중소형견, 대형견으로 크기에 따라 놀이터가 구분돼 있어서 반려견 간에 벌어질 수 있는 사고를 미리 막을 수 있어.",
+            "turn_id": "BK22018094-2",
+            "utterance_id": "BK22018094.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려견 놀이터에 가기 전에 이용 수칙을 알아보려고 해. 어떤 수칙들이 있어?",
+            "turn_id": "BK22018094-3",
+            "utterance_id": "BK22018094.5"
+        },
+        {
+            "reference_date": "44822.0",
+            "reference_text": [
+                {
+                    "value": "반려견이 배변을 봤다면 즉시 처리해요.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "입∙퇴장 시에는 반드시 목줄을 착용해요.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61179",
+            "search_query": "반려견 놀이터 이용수칙",
+            "terminate": false,
+            "text": "예를 들자면 반려견 놀이터에 입장하거나 퇴장할 땐 반드시 목줄을 착용해야 해. 그리고 배변 봉투를 챙겨서 반려견이 배변을 봤을 때 바로 처리해야 해.",
+            "turn_id": "BK22018094-3",
+            "utterance_id": "BK22018094.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 반려견 놀이터에 갈 때 동물 등록을 해야 해?",
+            "turn_id": "BK22018094-4",
+            "utterance_id": "BK22018094.7"
+        },
+        {
+            "reference_date": "44822.0",
+            "reference_text": [
+                {
+                    "value": "반려견 놀이터에서는 동물등록 여부를 확인합니다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "동물등록을 하지 않은 반려견은 반려견 놀이터를 비롯해 시와 자치구에서 운영하는 반려동물 관련 공공시설을 이용할 수 없어요.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61179",
+            "search_query": "반려견 놀이터 동물등록",
+            "terminate": false,
+            "text": "당연하지, 반려견 놀이터에서는 동물 등록을 했는지를 확인해. 동물등록을 하지 않았다면 반려견 놀이터를 이용할 수 없고, 시와 자치구에서 운영하는 다른 반려동물 관련 공공시설도 사용할 수가 없어.",
+            "turn_id": "BK22018094-4",
+            "utterance_id": "BK22018094.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 미리 등록을 해야겠다. 혹시 반려견 놀이터에 가려면 예방접종이 필수야?",
+            "turn_id": "BK22018094-5",
+            "utterance_id": "BK22018094.9"
+        },
+        {
+            "reference_date": "44822.0",
+            "reference_text": [
+                {
+                    "value": "다양한 강아지가 뛰어노는 장소인 만큼 서로에게 감염성질환을 옮길 수 있어요.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "건강을 위해 반드시 예방접종을 받아주세요.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만일 반려견이 아프거나 이상증상이 있다면 반려견 놀이터 이용을 자제해주세요.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61179",
+            "search_query": "반려견 놀이터 예방접종",
+            "terminate": false,
+            "text": "건강을 위해서는 반드시 예방접종을 하는 게 좋아. 반려견 놀이터는 다양한 강아지가 뛰어놀기 때문에 서로에게 질환에 걸릴 수도 있거든. 만약 반려견이 이상 증상을 보이거나 통증이 있다면 반려견 놀이터는 이용하지 말아야 해.",
+            "turn_id": "BK22018094-5",
+            "utterance_id": "BK22018094.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지가 먹을 사료나 다른 강아지도 나눠 먹을 간식을 챙겨도 될까?",
+            "turn_id": "BK22018094-6",
+            "utterance_id": "BK22018094.11"
+        },
+        {
+            "reference_date": "44822.0",
+            "reference_text": [
+                {
+                    "value": "• 음식물 탓에 강아지들이 몰려들 수 있고 그 사이에서 싸움이 날 수 있어요.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "• 다른 강아지에게 음식을 함부로 줬다가 알레르기가 일어날 수도 있어요.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사람이 먹는 음식물은 물론 반려견의 사료∙간식도 갖고 오지 말아주세요.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61179",
+            "search_query": "반려견 놀이터 사료 간식",
+            "terminate": false,
+            "text": "아니, 사람이 먹는 음식뿐만 아니라 반려견의 사료나 간식도 갖고 가지 않는 게 좋아. 왜냐하면 음식물 때문에 강아지들이 몰려들고 싸움이 날 수 있고, 다른 강아지에게 음식을 줬다가 알레르기가 생길 수도 있거든.",
+            "turn_id": "BK22018094-6",
+            "utterance_id": "BK22018094.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "듣고 보니 그렇네. 그건 그렇고 반려견은 놀이터에 들어가려면 무조건 보호자랑 동행해야 해?",
+            "turn_id": "BK22018094-7",
+            "utterance_id": "BK22018094.13"
+        },
+        {
+            "reference_date": "44822.0",
+            "reference_text": [
+                {
+                    "value": "반려견끼리 놀다 보면 돌발적으로 충돌·물림사고가 발생할 수 있어요.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보호자는 반려견 놀이터에 함께 입장해 반려견을 지켜보며 직접 관리해주세요.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61179",
+            "search_query": "반려견 놀이터 보호자",
+            "terminate": false,
+            "text": "당연하지. 반려견끼리 놀다가 충돌하거나 물리는 사고가 일어날 수 있어. 보호자는 반드시 반려견 놀이터에 함께 들어가서 반려견을 지켜보고 관리를 해야 해.",
+            "turn_id": "BK22018094-7",
+            "utterance_id": "BK22018094.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려견 놀이터도 위험하겠구나. 그러면 어린이는 같이 가도 돼?",
+            "turn_id": "BK22018094-8",
+            "utterance_id": "BK22018094.15"
+        },
+        {
+            "reference_date": "44822.0",
+            "reference_text": [
+                {
+                    "value": "※동반 입장한 어린이 및 영유아는 안전사고 위험이 있을 수 있어요.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "13세 미만 어린이는 성인 보호자와 함께 입장하고 더욱 큰 관심을 두고 보호·관리해주세요.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61179",
+            "search_query": "반려견 놀이터 어린이",
+            "terminate": false,
+            "text": "어린이도 반려견 놀이터에 입장해도 되지만 성인 보호자와 함께 입장해야 하고, 특히 아이가 13세 미만이라면 성인 보호자가 보호하고 관리를 해야 해. 왜냐하면 안전사고가 있을 수 있거든.",
+            "turn_id": "BK22018094-8",
+            "utterance_id": "BK22018094.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 여러 가지 이용수칙이 있지만 당연히 지켜야 하는 것들이니까 모두가 잘 지키면 좋겠어.",
+            "turn_id": "BK22018094-9",
+            "utterance_id": "BK22018094.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 반려견 놀이터가 이곳저곳에 생기고 있는데, 모두 에티켓을 지켜서 좋은 문화가 형성되면 좋겠다.",
+            "turn_id": "BK22018094-9",
+            "utterance_id": "BK22018094.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 자세하게 알려줘서 고마워. 덕분에 놀이터에 잘 다녀올 수 있겠다.",
+            "turn_id": "BK22018094-10",
+            "utterance_id": "BK22018094.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "잘 다녀오고 더 궁금한 게 있다면 언제든지 연락해.",
+            "turn_id": "BK22018094-10",
+            "utterance_id": "BK22018094.20"
+        }
+    ]
+}

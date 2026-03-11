@@ -1,0 +1,352 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015031",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015031",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0030"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "취업하고 한동안 신나게 쇼핑했더니 엄마가 모은 돈이 없다는 걸 아시고 혼내셨어. 엄마가 청약 통장을 하나 만들라고 하시는데 혹시 어떻게 만드는지 알아?",
+            "turn_id": "BK22015031-1",
+            "utterance_id": "BK22015031.1"
+        },
+        {
+            "reference_date": "2020-12-12",
+            "reference_text": [
+                {
+                    "value": "애플리케이션(앱)으로도 간편하게 가입할 수 있고요.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4147621",
+            "search_query": "청약통장 앱은행",
+            "terminate": false,
+            "text": "물론이지, 은행에 직접 방문해서 만들어도 되고, 애플리케이션을 통해 간편하게 가입할 수 있어.",
+            "turn_id": "BK22015031-1",
+            "utterance_id": "BK22015031.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "은행 애플리케이션으로 된다니 다행이다. 근데 앱 설치되어있는 게 대구 은행인데 이 은행도 가능해?",
+            "turn_id": "BK22015031-2",
+            "utterance_id": "BK22015031.3"
+        },
+        {
+            "reference_date": "2020-03-13",
+            "reference_text": [
+                {
+                    "value": "주택청약 은행 추천은 ▲KB국민은행 ▲우리은행 ▲신한은행 ▲KEB하나은행 ▲IBK기업은행 ▲농협은행 ▲대구은행 ▲부산은행 ▲경남은행이다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=487871",
+            "search_query": "주택청약 통장 만들기",
+            "terminate": false,
+            "text": "대구은행 가능해. 그 밖에 국민은행, 우리은행, 신한은행, 하나은행, 기업은행, 농협은행, 부산은행에서도 가능해.",
+            "turn_id": "BK22015031-2",
+            "utterance_id": "BK22015031.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다행히 은행 앱은 설치 안 해도 되겠다. 근데 보통 얼마 정도씩 납입하지?",
+            "turn_id": "BK22015031-3",
+            "utterance_id": "BK22015031.5"
+        },
+        {
+            "reference_date": "2021-02-03",
+            "reference_text": [
+                {
+                    "value": "2만원 이상 50만원 이하의 금액을 가입할 수 있으며, 입금하려는 금액과 계좌 총입금액의 합이 1,500만원 이하이면 납입잔액 1,500만원까지 월 한도 50만원을 초과해 입금할 수 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fntimes.com/html/view.php?ud=202102031003435338dd55077bc2_18",
+            "search_query": "주택 청약 통장 입금액",
+            "terminate": false,
+            "text": "2만원 이상 50만원 이하의 금액 사이에서 정하면 돼. 납입 잔액 1,500만원까지는 월 한도 50만원을 초과해 입금할 수 있어.",
+            "turn_id": "BK22015031-3",
+            "utterance_id": "BK22015031.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "청약 통장에 입금 금액이 정해진 게 아니구나. 근데 굳이 50만원 이상씩 넣는 이유는 없겠지?",
+            "turn_id": "BK22015031-4",
+            "utterance_id": "BK22015031.7"
+        },
+        {
+            "reference_date": "2022-09-10",
+            "reference_text": [
+                {
+                    "value": "면적 40m² 초과는 3년 이상 기간의 무주택세대 구성원으로서 저축 총액이 많을수록 당첨 확률이 높고요.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/26B0PSXH8M",
+            "search_query": "공공 분양",
+            "terminate": false,
+            "text": "공공 분양 주택의 경우 면적 40m² 초과 평형은 저축 총액이 많을수록 당첨 확률이 높아져.",
+            "turn_id": "BK22015031-4",
+            "utterance_id": "BK22015031.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "면적이 큰 공공 분양 주택은 저축 총액도 중요하구나. 근데 난 공공 분양보다는 민간 분양에 관심이 있었기에. 민간 분양 신청에는 뭐가 중요해?",
+            "turn_id": "BK22015031-5",
+            "utterance_id": "BK22015031.9"
+        },
+        {
+            "reference_date": "2022-09-23",
+            "reference_text": [
+                {
+                    "value": "청약가점제 만점은 84점입니다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "무주택 기간이 15년 이상(최고 32점)이고, 부양가족 수 6명 이상(35점), 청약통장 가입기간 15년 이상(17점)이어야 받을 수 있는 점수입니다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다시 말해 무주택 기간과 부양가족 수, 청약통장 가입기간에 따른 합산가점이 높은 청약신청자를 분양당첨자로 뽑는 제도라 할 수 있습니다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dtnews24.com/news/articleView.html?idxno=732269",
+            "search_query": "민영주택 청약통장",
+            "terminate": false,
+            "text": "청약은 가점이 높은 순으로 뽑기 때문에 가점이 중요한데 기본적으로 84점이 만점이야. 무주택 기간 15년 이상, 부양 가족수 6명 이상, 청약 통장 가입 기간 15년 이상일 경우가 만점이지.",
+            "turn_id": "BK22015031-5",
+            "utterance_id": "BK22015031.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 84점을 채우려면 한참 걸리겠구나. 근데 나중에 공공 분양 신청할 거 아니니까 굳이 금액을 많이 넣을 필요는 없겠지? 내년에 유럽 여행 갈지도 모르니 우선 2만원씩만 넣을래.",
+            "turn_id": "BK22015031-6",
+            "utterance_id": "BK22015031.11"
+        },
+        {
+            "reference_date": "2021-03-29",
+            "reference_text": [
+                {
+                    "value": "청약통장 납입 금액의 최대 95%까지 대출받을 수 있는 ‘주택청약예금담보대출’이 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "담보대출을 받더라도 통장 가입기간, 납입회차, 가점 등에 전혀 영향을 주지 않는다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/realestate/article/2021032807031",
+            "search_query": "주택청약예금담보대출",
+            "terminate": false,
+            "text": "지금 10만원씩 납입하고, 나중에 필요할 때 주택 청약 예금 담보 대출을 받는 건 어때? 네가 적금 든 금액의 95%까지 대출받을 수 있고, 비록 대출은 받더라도 통장 가입 기간, 납입 회차, 가점 등에 전혀 영향을 주지 않거든.",
+            "turn_id": "BK22015031-6",
+            "utterance_id": "BK22015031.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "청약에서는 시간이 돈이라던데 통장 가입 기간과 회차까지 살린 채 대출을 받을 수 있으면 좋지. 그 방법으로 해야겠다. 아 참, 청년층에게 높은 금리를 제공해주는 청약 통장도 있다던데, 혹시 일반 청약 통장과 금리가 얼마나 차이 나는지 알아?",
+            "turn_id": "BK22015031-7",
+            "utterance_id": "BK22015031.13"
+        },
+        {
+            "reference_date": "2020-11-15",
+            "reference_text": [
+                {
+                    "value": "일반 청약통장은 1개월 초과~1년 미만 동안 1.0%, 1년~2년 미만 1.5%, 2년~10년 미만 1.8%의 이자율을 적용하고 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반면 청년 우대형 주택청약종합저축은 가입기간에 따라 1.5%씩 우대금리가 붙는다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이렇게 계산하면 1년~2년 미만은 3%, 2년~10년 미만 3.3%까지 챙길 수 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.vop.co.kr/A00001525114.html",
+            "search_query": "주택청약종합통장",
+            "terminate": false,
+            "text": "일반 청약통장 금리는 가입 기간에 따라 1개월 초과~1년 미만은 1.0%, 1년~2년 미만은 1.5%, 2년~10년 미만은 1.8%야. 그런데 청년 우대형 주택청약종합저축은 여기에 1.5%씩 우대금리가 적용 되어, 만약 가입 기간이 2년에서 10년 미만이라면 3.3%의 금리를 챙길 수 있지.",
+            "turn_id": "BK22015031-7",
+            "utterance_id": "BK22015031.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일반 주택 청약에 비해 그만큼이나 금리 우대를 해준다니 좋은걸? 꼭 청년 우대형으로 가입해야겠네. 근데 청년 우대형 청약 통장의 정확한 가입 조건을 알 수 있을까?",
+            "turn_id": "BK22015031-8",
+            "utterance_id": "BK22015031.15"
+        },
+        {
+            "reference_date": "2021-07-04",
+            "reference_text": [
+                {
+                    "value": "따라서 연 소득 3,000만원 이하이고 만 19세 이상 만 34세 이하 청년이라면 청년 우대형 청약통장 가입을 서둘러도 좋다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "▲무주택 세대주 ▲무주택 가입 후 3년 내 세대주 예정자 ▲무주택 세대의 세대원 중 하나에 해당된다면 가입이 가능하다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fntimes.com/html/view.php?ud=202107041958448699dd55077bc2_18",
+            "search_query": "청년 우대형 청약통장 가입 조건",
+            "terminate": false,
+            "text": "만 19세 이상 만 34세 이하, 연 소득 3000만원 이하 조건과 무주택 세대주거나, 무주택 가입 후 3년 내 세대주 예정자, 무주택 세대의 세대원 중 하나에 해당하면 돼.",
+            "turn_id": "BK22015031-8",
+            "utterance_id": "BK22015031.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다행히 가입 기준은 충족해서 청년 우대형 청약 통장으로 가입할 수 있겠다. 혹시 청년 우대형 청약 통장에 세제 혜택도 있어? 지금 다른 적금 넣는데 그건 비과세 혜택이 있어서 금리와 비과세까지 꼼꼼하게 살펴봐야 할 것 같아.",
+            "turn_id": "BK22015031-9",
+            "utterance_id": "BK22015031.17"
+        },
+        {
+            "reference_date": "2021-06-12",
+            "reference_text": [
+                {
+                    "value": "또한 가입 기간이 2년을 넘어갈 경우 이자소득 합계에 대해 최대 500만원(원금 연 600만원) 한도로 비과세 혜택을 받을 수 있습니다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "무주택 세대주에 대해 납입 원금의 최대 연 240만원 한도로 40%까지 소득공제가 가능합니다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sisajournal-e.com/news/articleView.html?idxno=233108",
+            "search_query": "청년우대형 청약통장 소득공제",
+            "terminate": false,
+            "text": "청년 우대형 청약 통장도 비과세 혜택이 있어. 가입 기간이 2년을 넘어갈 경우 이자소득 합계에 대해 최대 500만원 한도로 비과세 혜택을 받을 수 있어. 무주택 세대주에 대해서는 납입 원금의 최대 연 240만원 한도 내에서 40%까지 소득공제도 가능해.",
+            "turn_id": "BK22015031-9",
+            "utterance_id": "BK22015031.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이모저모 따져도 나한테 이득이네. 네 덕에 많이 알아가. 다음에 밥 한 번 살게.",
+            "turn_id": "BK22015031-10",
+            "utterance_id": "BK22015031.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 나도 기뻐.",
+            "turn_id": "BK22015031-10",
+            "utterance_id": "BK22015031.20"
+        }
+    ]
+}

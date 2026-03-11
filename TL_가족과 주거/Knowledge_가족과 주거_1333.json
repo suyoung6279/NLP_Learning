@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008912",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008912",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 3.4,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0036"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이가 멀미가 너무 심해서 걱정이에요. 도대체 멀미는 왜 하는 걸까요?",
+            "turn_id": "BK22008912-1",
+            "utterance_id": "BK22008912.1"
+        },
+        {
+            "reference_date": "2022-09-07",
+            "reference_text": [
+                {
+                    "value": "멀미는 차량의 움직임에 몸의 평형기능을 조절하는 전정기관이 자극을 받아 메스꺼움, 어지럼증, 구토와 같은 증상이 나타나는 것이다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "성인에 비해 기관 발달이 덜 된 만 3세부터 12세 아이들이 멀미를 하는 경우가 많다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/09/07/2022090701025.html",
+            "search_query": "멀미 전정기관 자극",
+            "terminate": false,
+            "text": "멀미는 차량의 움직임에 정전기관이 자극을 받아 메스꺼움이나 어지럼증, 구토 같은 증상이 생기는 걸 말하는데, 성인보다는 기관 발달이 덜 된 만 3세부터 12세 아이들이 더 멀미를 많이 해요.",
+            "turn_id": "BK22008912-1",
+            "utterance_id": "BK22008912.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 저희 아이도 멀미가 심한데, 멀미를 하지 않으려면 어떻게 해야 하나요? 방법이 있나요?",
+            "turn_id": "BK22008912-2",
+            "utterance_id": "BK22008912.3"
+        },
+        {
+            "reference_date": "2022-09-07",
+            "reference_text": [
+                {
+                    "value": "멀미 예방을 위해서는 차 타기 전에 소화기에 부담을 주지 않는 것이 가장 좋다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "과식이나 공복을 피하고, 차 타기 1~2시간 전에 소화가 잘 되는 음식으로 평소의 50~70% 정도의 양만 먹도록 한다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/09/07/2022090701025.html",
+            "search_query": "멀미 예방 과식이나 공복",
+            "terminate": false,
+            "text": "멀미를 하지 않으려면 차 타기 전에 과식이나 공복을 피하는 게 좋아요. 차 타기 한두시간 전에 소화기에 부담을 주지 않는 음식으로 평소의 50퍼센트에서 70퍼센트 정도의 양만 먹는게 좋아요.",
+            "turn_id": "BK22008912-2",
+            "utterance_id": "BK22008912.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "양이 적어서 배가 고프면 어떻게 하죠? 처음부터 양을 적게 먹였다가 중간에 배고프면 휴게소에서 더 많이 먹게 될 것 같은데요.",
+            "turn_id": "BK22008912-3",
+            "utterance_id": "BK22008912.5"
+        },
+        {
+            "reference_date": "2022-09-07",
+            "reference_text": [
+                {
+                    "value": "휴게소에서도 인스턴트식품이나 기름진 음식, 차가운 음료는 삼간다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "멀미 증상을 완화할 수 있는 사과, 귤 같은 신맛이 나는 과일이나 레몬차, 또는 매실차를 조금씩 먹게 하는 것도 도움이 될 수 있다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/09/07/2022090701025.html",
+            "search_query": "멀미 예방 신맛이 나는 과일",
+            "terminate": false,
+            "text": "휴게소에 들리더라도 인스턴트 음식이나 기름진 음식, 또는 차가운 음료는 피해서 드세요. 멀미 증상을 줄일 수 있는 사과나 귤 같은 신맛이 나는 과일을 드시거나 레몬차 또는 매실차를 조금씩 마시게 하는 것도 멀미를 예방하는데 도움을 줘요.",
+            "turn_id": "BK22008912-3",
+            "utterance_id": "BK22008912.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 그 외에 또 멀미를 예방하는 음식이 더 있나요?",
+            "turn_id": "BK22008912-4",
+            "utterance_id": "BK22008912.7"
+        },
+        {
+            "reference_date": "2021-06-25",
+            "reference_text": [
+                {
+                    "value": "생강은 멀미 완화에 효과적인 식품으로 널리 알려져 있다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "생강의 매운맛을 내는 진저롤과 쇼가올 성분이 중추신경계를 진정시키고 소화기관을 편안하게 해 웬만한 멀미약만큼 효과가 좋다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/06/25/2021062501552.html",
+            "search_query": "멀미 완화 생강",
+            "terminate": false,
+            "text": "멀미 완화에 좋은 식품으로는 생강이 대표적이죠. 생강의 매운맛을 내는 진저롤과 쇼가올 성분이 중추 신경계를 진정시켜주고 소화기관을 편하게 해줘서 웬만한 멀미약보다도 효과가 좋아요.",
+            "turn_id": "BK22008912-4",
+            "utterance_id": "BK22008912.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생강이 정말 멀미약만큼 효과가 좋다고요? 근거가 있는 얘기인가요?",
+            "turn_id": "BK22008912-5",
+            "utterance_id": "BK22008912.9"
+        },
+        {
+            "reference_date": "2021-06-25",
+            "reference_text": [
+                {
+                    "value": "평소 멀미를 심하게 하는 36명을 대상으로 한 연구 결과에 따르면, 생강 2캡슐을 먹은 그룹이 멀미약을 먹은 그룹의 2배에 달하는 멀미 진정 효과를 보였다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/06/25/2021062501552.html",
+            "search_query": "멀미 완화 생강",
+            "terminate": false,
+            "text": "네, 평소 멀미가 심한 36명을 대상으로 한 연구 결과에 따르면, 생강 2캡슐울 먹은 그룹이 멀미약을 먹은 그룹보다 2배나 멀미 진정 효과가 나타났어요.",
+            "turn_id": "BK22008912-5",
+            "utterance_id": "BK22008912.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "멀미약보다 더 좋은데요? 그럼 생강을 어떻게 먹으면 되나요?",
+            "turn_id": "BK22008912-6",
+            "utterance_id": "BK22008912.11"
+        },
+        {
+            "reference_date": "2021-06-25",
+            "reference_text": [
+                {
+                    "value": "따라서 자동차나 배를 타기 30분 전에 생강가루 2~4g 정도를 섭취하면 도움이 된다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/06/25/2021062501552.html",
+            "search_query": "멀미 완화 생강가루 섭취",
+            "terminate": false,
+            "text": "차 타기 30분 전에 생강가루로 2그램에서 4그램 정도 먹으면 멀미를 예방하는데 도움이 돼요.",
+            "turn_id": "BK22008912-6",
+            "utterance_id": "BK22008912.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "더 많이 먹으면 멀미가 더 줄어드는 건 아니에요?",
+            "turn_id": "BK22008912-7",
+            "utterance_id": "BK22008912.13"
+        },
+        {
+            "reference_date": "2021-06-25",
+            "reference_text": [
+                {
+                    "value": "단, 생강을 과하게 섭취하면 위액이 나와 위 점막이 손상될 수 있어 주의해야 한다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "위가 약하다면 생강을 익혀서 먹거나, 생강차‧생강죽을 만들어 먹는 것도 방법이다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/06/25/2021062501552.html",
+            "search_query": "멀미 완화 생강차 생강죽",
+            "terminate": false,
+            "text": "생강을 많이 먹게 되면 위액이 나와 위점막이 상할 수 있어요. 적당량을 먹는 게 좋고 위가 약하다면 그냥 가루보다는 생강을 익혀서 먹거나 차, 또는 죽으로 만들어 먹는 것도 좋은 방법이에요.",
+            "turn_id": "BK22008912-7",
+            "utterance_id": "BK22008912.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 생각해 보니 생강은 향이 진해 아이가 먹기에 쉬운 음식은 아닐 듯 해요. 제 지인 보니까 차 타기 전에 항상 물을 챙기던데 그냥 물을 마시는 것도 멀미 예방에 도움이 되나요?",
+            "turn_id": "BK22008912-8",
+            "utterance_id": "BK22008912.15"
+        },
+        {
+            "reference_date": "2021-06-25",
+            "reference_text": [
+                {
+                    "value": "차를 타기 전에 적당량의 수분을 섭취하는 것도 멀미를 완화할 수 있다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/06/25/2021062501552.html",
+            "search_query": "멀미 예방 적당량 수분 섭취",
+            "terminate": false,
+            "text": "네, 맞아요. 적당한 수분섭취도 멀미를 예방할 수 있어요. 단 너무 많이 마시는 것은 좋지 않아요.",
+            "turn_id": "BK22008912-8",
+            "utterance_id": "BK22008912.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뭐든 적당한 게 좋은 거군요. 알려주신 방법으로 아이의 멀미가 좀 줄었으면 좋겠네요.",
+            "turn_id": "BK22008912-9",
+            "utterance_id": "BK22008912.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 꼭 그러길 바라요.",
+            "turn_id": "BK22008912-9",
+            "utterance_id": "BK22008912.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 좋은 정보 알려주셔서 너무 감사해요. 많은 도움이 되었어요.",
+            "turn_id": "BK22008912-10",
+            "utterance_id": "BK22008912.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요, 또 궁금한 점 있으면 언제든지 물어보세요.",
+            "turn_id": "BK22008912-10",
+            "utterance_id": "BK22008912.20"
+        }
+    ]
+}

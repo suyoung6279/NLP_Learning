@@ -1,0 +1,409 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015904",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015904",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내 친구가 요즘 산후우울증을 앓고 있다고 해서 걱정이야. 밝은 애였는데 걱정이 돼. 넌 산후우울증이 뭔지 아니?",
+            "turn_id": "BK22015904-1",
+            "utterance_id": "BK22015904.1"
+        },
+        {
+            "reference_date": "2022-08-29",
+            "reference_text": [
+                {
+                    "value": "산후우울증 (産後憂鬱症, Postpartum depression, PPD)은 주요 우울 장애의 일종으로 출산 이후 부모 모두에게 나타날 수 있다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "많은 여성들이 제한적이고 비교적 가벼운 산후우울 증세를 겪을 수 있으나 2주 이상 지속되고 증세가 심각한 경우 산후우울증을 의심해야 한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%B0%ED%9B%84%EC%9A%B0%EC%9A%B8%EC%A6%9D",
+            "search_query": "산후우울증",
+            "terminate": false,
+            "text": "응, 산후우울증은 우울 장애 중 하나로 출산 이후에 부모 양측 모두에게서 발생할 수 있어. 출산을 한 여성들 중 다수가 가벼운 산후우울 증세가 있을 수 있지만, 만일 그 증상이 2주 넘게 지속되고 증세가 심하다면 산후우울증을 의심해 봐야 해.",
+            "turn_id": "BK22015904-1",
+            "utterance_id": "BK22015904.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여자에게만 나타나는 줄 알았는데 부모 양측 모두에게 나타날 수 있다니 신기하네. 산후우울증이 나타나는 원인은 뭐야?",
+            "turn_id": "BK22015904-2",
+            "utterance_id": "BK22015904.3"
+        },
+        {
+            "reference_date": "2022-08-29",
+            "reference_text": [
+                {
+                    "value": "몇 가지 발병요인이 밝혀진 바 있으나 산후우울증의 원인에 대해서는 파악된 바가 많지 않다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "호르몬 변화가 주요한 원인으로 추측되고 있다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%B0%ED%9B%84%EC%9A%B0%EC%9A%B8%EC%A6%9D",
+            "search_query": "산후우울증 원인",
+            "terminate": false,
+            "text": "몇 가지 요인이 밝혀지긴 했지만, 정확한 원인이 파악된 것은 많지 않아. 그렇지만 주요 원인으로는 호르몬 변화가 지목되고 있어.",
+            "turn_id": "BK22015904-2",
+            "utterance_id": "BK22015904.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오래된 병일 텐데 아직까지 정확한 원인이 밝혀지지 않았다니 더 연구가 필요하겠어. 보통 어떤 증상이 나타나는 거야?",
+            "turn_id": "BK22015904-3",
+            "utterance_id": "BK22015904.5"
+        },
+        {
+            "reference_date": "2017-08-23",
+            "reference_text": [
+                {
+                    "value": "산후우울증은 극심한 불면증과 함께 여성 스스로가 문제를 인식할 수준의 증상이 동반된다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "종일 우울하고, 모든 일에 흥미를 느끼지 못하는 상태가 2주 넘게 지속되면서 사회생활이 거의 불가능해진다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.monews.co.kr/news/articleView.html?idxno=104491",
+            "search_query": "산후우울증 증상",
+            "terminate": false,
+            "text": "극심한 불면증이 나타나면서 여성 스스로 문제를 인지할 정도의 증상이 동반돼. 하루 온종일 우울하고, 매사에 흥미가 없는 상태가 2주 넘게 지속되며 정상적인 사회생활이 거의 불가능해져.",
+            "turn_id": "BK22015904-3",
+            "utterance_id": "BK22015904.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 상태가 이어진다면 정말 삶이 불행할 것 같은데. 산후우울증을 앓는 산모의 비율이 얼마 정도 되는지 궁금해.",
+            "turn_id": "BK22015904-4",
+            "utterance_id": "BK22015904.7"
+        },
+        {
+            "reference_date": "2021-05-20",
+            "reference_text": [
+                {
+                    "value": "보건복지부가 2019년에 내놓은 통계에 따르면 전체 산모의 50.3%가 산후우울감(Postpartum Blues)을 경험했다고 응답했다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그중 산후우울증 위험군은 33.9%인 것으로 나타났다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000603863",
+            "search_query": "산후우울증 비율",
+            "terminate": false,
+            "text": "보건복지부의 2019년 통계에 의하면, 전체 산모의 50.3%는 산후우울감을 경험했고 그 중 산후우울증 위험군은 33.9%로 나타났어.",
+            "turn_id": "BK22015904-4",
+            "utterance_id": "BK22015904.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "애 낳는 것도 힘들 텐데 산후우울증 비율도 그렇게나 높다니 정말 산모들은 힘들겠어. 혹시 부모 중 남성 쪽의 발병 비율은 얼마나 돼?",
+            "turn_id": "BK22015904-5",
+            "utterance_id": "BK22015904.9"
+        },
+        {
+            "reference_date": "2017-02-17",
+            "reference_text": [
+                {
+                    "value": "미국의사협회 정신의학저널(JAMA Psychiatry)에 실린 논문이 임신 중이거나 아기를 출산한지 얼마 안 된 아내를 둔 뉴질랜드 남성 3532명을 대상으로 한 우울증 연구내용을 담았다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "해당 논문에 따르면 남성의 2.3%는 아내의 임신 후기 꽤 심각한 우울증후군에 시달리고 있었다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 아기가 태어난 지 9달 지난 시점 그 비율은 4.3%로 올라갔다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 뉴질랜드 여성의 산후 우울증 비율인 8%에 비해 낮지만 적은 수치도 아니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1222018/%EB%82%A8%EC%84%B1%EB%8F%84-%EC%82%B0%ED%9B%84-%EC%9A%B0%EC%9A%B8%EC%A6%9D-%EA%B2%AA%EB%8A%94%EB%8B%A4/",
+            "search_query": "남성 산후 우울증 비율",
+            "terminate": false,
+            "text": "미국의사협회 정신의학저널에 게재된 논문에 따르면, 임신 중이거나 아이를 출산한지 얼마 되지 않은 아내를 둔 뉴질랜드 남성 3532명을 조사했더니 남성의 2.3%가 아내의 임신 후기에 상당히 심각한 수준의 우울증후군에 시달리고 있는 것으로 나타났어. 출산 후 9달이 지난 시기에는 그 비율이 4.3%로 증가했어. 뉴질랜드 여성의 8%가 산후 우울증을 겪는 것에 비하면 낮지만, 적은 수치도 아니지.",
+            "turn_id": "BK22015904-5",
+            "utterance_id": "BK22015904.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상당히 높은 비율이라서 흥미롭네. 산후우울증이 특히 잘 나타나는 연령대도 있을까?",
+            "turn_id": "BK22015904-6",
+            "utterance_id": "BK22015904.11"
+        },
+        {
+            "reference_date": "2022-04-19",
+            "reference_text": [
+                {
+                    "value": "그런데 특히 만 24세 이하 여성에서 잘 나타난다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "통계청 자료에 따르면 만 24세 이하의 47%가 산후우울증의 고위험군에 해당한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "산후우울증을 평가하는 검사인 에딘버러 평가에서도 모든 연령층 중 만 24세 이하의 우울증 평가 점수가 가장 높았다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/04/18/2022041801335.html",
+            "search_query": "산후우울증 연령대",
+            "terminate": false,
+            "text": "만 24세 이하 여성에게서 산후우울증이 잘 나타나. 통계청이 발표한 자료에 의하면 만 24세 이하의 47%가 산후우울증 고위험군에 해당하는 것으로 밝혀졌거든. 산후우울증을 평가하는 검사인 에딘버러 평가에서도 모든 연령대 중에서 만 24세 이하에서 우울증 평가 점수가 가장 높은 것으로 나타났어.",
+            "turn_id": "BK22015904-6",
+            "utterance_id": "BK22015904.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "만 24세 이하에서 잘 나타난다니 의외인걸. 왜 그런 결과가 나타났을까?",
+            "turn_id": "BK22015904-7",
+            "utterance_id": "BK22015904.13"
+        },
+        {
+            "reference_date": "2022-04-19",
+            "reference_text": [
+                {
+                    "value": "만 24세 이하 젊은 여성에게 유독 산후우울증이 나타나는 이유는 예상치 못한 임신일 가능성이 높기 때문이다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "혼란스러운 환경으로 인해 산후우울증의 위험에 노출될 가능성이 커진다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/04/18/2022041801335.html",
+            "search_query": "어린 나이 산후우울증 원인",
+            "terminate": false,
+            "text": "만 24세 이하의 젊은 연령대의 여성에게 산후우울증이 자주 나타나는 건 예상치 못한 임신일 가능성이 높기 때문이야. 혼란스러운 환경 때문에 산후우울증의 위험이 커지거든.",
+            "turn_id": "BK22015904-7",
+            "utterance_id": "BK22015904.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 이유 때문이라니 너무 안타까운걸. 그러면 산후우울증이 생긴 경우 어떻게 치료하는 거야?",
+            "turn_id": "BK22015904-8",
+            "utterance_id": "BK22015904.15"
+        },
+        {
+            "reference_date": "2022-04-19",
+            "reference_text": [
+                {
+                    "value": "치료는 대개 약물치료, 상담치료 등을 통해 진행한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "약물치료는 최소한의 가짓수와 용량으로 수유에 영향가지 않는 약물을 복용해 치료한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "증상 호전까진 약 4~6주가 소요되고 약 복용 이후에도 재발을 막기 위해 수개월 간의 유지 치료가 더 필요하다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/04/18/2022041801335.html",
+            "search_query": "산후우울증 치료",
+            "terminate": false,
+            "text": "보통 약물치료나 상담치료 등을 통해 치료해. 약물치료의 경우에는 약물을 최소한으로 복용하여 수유에 영향이 가지 않는 약물들로 진행하고, 증상이 나아지는 데는 보통 4주에서 6주 정도가 소요돼. 물론, 약물을 복용한 후에도 재발 방지를 위하여 수개월 간 유지 치료를 진행하는 것이 필요하지.",
+            "turn_id": "BK22015904-8",
+            "utterance_id": "BK22015904.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "치료도 힘들 텐데 예방하는 것이 가장 좋겠다. 산후우울증 예방법으로는 어떤 것이 있니?",
+            "turn_id": "BK22015904-9",
+            "utterance_id": "BK22015904.17"
+        },
+        {
+            "reference_date": "2021-10-29",
+            "reference_text": [
+                {
+                    "value": "이때 산후우울증을 겪기 쉬운데, '걷기'가 예방에 도움이 될 수 있다는 연구 결과가 나왔다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "캐나다 웨스턴온타리오대 연구팀은 242명의 산모를 대상으로 주 당 90~120분씩 걷기 프로그램을 실시하며 데이터를 분석한 결과, 걷기 프로그램에 참여한 산모에게서 산후우울증이 개선된 것으로 나타났다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 산모가 걷기 프로그램을 중단한 3개월 후에도 이런 효과가 지속된 것으로 밝혀졌다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/10/28/2021102801766.html",
+            "search_query": "산후우울증 예방",
+            "terminate": false,
+            "text": "걷기가 산후우울증 예방에 도움이 된다는 연구 결과가 있어. 캐나다 웨스턴온타리오대 연구팀이 242명의 산모에게 주 당 90분에서 120분씩 걷기 프로그램을 진행하여 데이터를 분석했더니, 걷기 프로그램에 참석한 산모들은 산후우울증이 개선된 것으로 밝혀졌거든. 이 효과는 산모가 걷기 프로그램을 중단한 지 3개월이 되어도 지속되었어.",
+            "turn_id": "BK22015904-9",
+            "utterance_id": "BK22015904.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "걷기라면 크게 어려운 일도 아니니까, 산모들이 적극적으로 실천해서 산후우울증 예방에 도움이 되었으면 좋겠다.",
+            "turn_id": "BK22015904-10",
+            "utterance_id": "BK22015904.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 산모들도 노력하고 주변에서도 도와주면서 우울감을 줄이는 데 도움을 주었으면 해.",
+            "turn_id": "BK22015904-10",
+            "utterance_id": "BK22015904.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 친구랑 같이 산책하면서 우울감을 줄이는 일을 도와야겠어. 좋은 정보들을 알려줘서 고마워.",
+            "turn_id": "BK22015904-11",
+            "utterance_id": "BK22015904.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 네 친구도 얼른 잘 회복했으면 좋겠네.",
+            "turn_id": "BK22015904-11",
+            "utterance_id": "BK22015904.22"
+        }
+    ]
+}

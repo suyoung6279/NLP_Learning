@@ -1,0 +1,393 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009229",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009229",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0004"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 약간 메스꺼운데 소화불량인지 입덧인지 헷갈리네요. 혹시 입덧 증상들은 어떤 게 있어요?",
+            "turn_id": "BK22009229-1",
+            "utterance_id": "BK22009229.1"
+        },
+        {
+            "reference_date": "2022-03-27",
+            "reference_text": [
+                {
+                    "value": "보통 입덧의 증상은 음식물 냄새, 담배 연기, 각종 비린내 등으로 갑자기 비위가 상하면서 식욕이 뚝 떨어지거나 속이 메슥거리고 구토를 유발하는 것이 일반적이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 식욕이 떨어지거나 먹는 즉시 토해버리기도 하며, 갑자기 신 것이 먹고 싶어지거나 평소에는 입에 대지도 않았던 음식이 갑자기 생각나기도 한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongdo.co.kr/web/view.php?key=20220327010006042",
+            "search_query": "입덧 증상",
+            "terminate": false,
+            "text": "일반적인 입덧의 증상은 속이 메슥거리고 구토를 유발하거나 담배 연기, 음식물 냄새, 여러 가지 비린내 등으로 비위가 갑자기 상하면서 식욕이 확 없어져 버려요. 또 평소에는 전혀 먹지 않던 음식이 불현듯 생각 나기도 하고 갑자기 신 음식이 먹고 싶어지기도 하죠. 식욕이 계속 떨어지거나 음식을 먹고 바로 토해 버리기도 해요.",
+            "turn_id": "BK22009229-1",
+            "utterance_id": "BK22009229.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "입덧 증상이 단순히 메스꺼움만 있는 게 아니고 아주 다양하네요. 보통 입덧은 언제까지 해요?",
+            "turn_id": "BK22009229-2",
+            "utterance_id": "BK22009229.3"
+        },
+        {
+            "reference_date": "2019-03-25",
+            "reference_text": [
+                {
+                    "value": "보통 임신 5~6주 정도에 시작해 9~10주에 가장 심하며, 대부분 16~18주면 사라지지만 그 이상 지속되는 경우도 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "구체적인 기간이나 정도에는 개인마다 차이가 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2019/03/25/2019032500846.html",
+            "search_query": "입덧 기간",
+            "terminate": false,
+            "text": "개인마다 구체적인 기간이나 정도는 차이가 있는데 시작은 보통 임신 5~6주 정도에 해요. 가장 심한 기간이 9~10주고, 16~18주면 대부분 사라지는데 사람에 따라서 그 이상 지속 되기도 해요.",
+            "turn_id": "BK22009229-2",
+            "utterance_id": "BK22009229.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 지금 임신 6주니까 지금부터 시작일 수 있겠네요. 개인마다 차이가 있다면 혹시 극심하게 입덧을 하는 산모들은 어느 정도 있어요?",
+            "turn_id": "BK22009229-3",
+            "utterance_id": "BK22009229.5"
+        },
+        {
+            "reference_date": "2019-04-01",
+            "reference_text": [
+                {
+                    "value": "하지만 임산부의 2%는 극심한 구역과 구토로 음식물을 먹지 못해 ‘임신오조’에 이르기도 한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "임신오조는 체중의 5%가 감소할 때, 지속적인 구토로 인해 탈수가 전해질 불균형을 일으킬 때 진단하는데, 심할 경우 임산부와 태아의 생명이 위험해질 수도 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000457346",
+            "search_query": "임신오조",
+            "terminate": false,
+            "text": "산모 중에서 극심한 구역과 구토로 음식을 섭취하지 못하는 임신오조를 일으키는 경우는 2% 정도 돼요. 임신오조 진단은 전해질 불균형을 일으킬 정도로 계속된 구토로 인한 탈수 상태거나 체중의 5%가 줄어들 때 내리는데 심할 경우에는 태아와 산모의 생명에도 지장을 줄 수가 있어요.",
+            "turn_id": "BK22009229-3",
+            "utterance_id": "BK22009229.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "2%의 산모들은 너무나 힘든 상황을 겪겠네요. 그렇게 극심한 입덧은 쉽게 지나가기 어려울 것 같은데 임신오조의 경우에는 어떻게 치료 해요?",
+            "turn_id": "BK22009229-4",
+            "utterance_id": "BK22009229.7"
+        },
+        {
+            "reference_date": "2019-04-01",
+            "reference_text": [
+                {
+                    "value": "그래서 임신오조로 진단받게 되면 병원에 입원해 수액 치료를 받게 된다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 불편감과 증상을 완화하고, 탈수증과 전해질 불균형을 교정하기 위함이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000457346",
+            "search_query": "임신오조 치료",
+            "terminate": false,
+            "text": "임신오조로 진단 받게 되면 전해질 불균형과 탈수증을 교정하고 증상과 불편감을 완화 하기 위해서 병원에 입원해 수액 치료를 받아야 해요.",
+            "turn_id": "BK22009229-4",
+            "utterance_id": "BK22009229.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "결국 심한 경우에는 입원 치료를 받아야 하는군요. 그런데, 이렇게 산모를 힘들게 하는 입덧은 왜 생기는 거예요?",
+            "turn_id": "BK22009229-5",
+            "utterance_id": "BK22009229.9"
+        },
+        {
+            "reference_date": "2019-03-25",
+            "reference_text": [
+                {
+                    "value": "입덧의 원인은 명확하게 밝혀지지 않았다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 태반에서 분비되는 융모막 호르몬과 연관이 있는 것으로 추측하고 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이외에도 여성호르몬의 증가, 갑상선 호르몬의 변화, 아연 농도의 변화도 입덧과 관련 있는 것으로 알려졌다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2019/03/25/2019032500846.html",
+            "search_query": "입덧 이유",
+            "terminate": false,
+            "text": "입덧을 하는 정확한 이유는 밝혀지지 않았지만 태반에서 분비 되는 융모막 호르몬과 관련이 있어요. 또, 갑상선 호르몬의 변화나 여성호르몬의 증가와 아연 농도의 변화도 입덧과 연관이 있죠.",
+            "turn_id": "BK22009229-5",
+            "utterance_id": "BK22009229.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신으로 인한 여러 가지 호르몬의 변화가 주 원인이군요. 혹시 입덧이 올 때 증상을 완화 시킬 수 있는 음식 조절 방법이 있나요?",
+            "turn_id": "BK22009229-6",
+            "utterance_id": "BK22009229.11"
+        },
+        {
+            "reference_date": "2022-03-27",
+            "reference_text": [
+                {
+                    "value": "또 입덧을 하는 기간 중에는 대부분 소화가 잘 되지 않으므로 입맛 당기는 음식을 한꺼번에 많이 먹기보다는 조금씩, 자주 먹는 것이 좋다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 아침에 일어나 속이 비어 있을 때 입덧이 더 심해지므로 간단한 크래커나 카스테라 등을 먹는 것이 좋다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "섭취뿐 아니라 냄새 자체에 거부감이 생겨 음식을 가까이하지 못할 때는 더운 음식보다는 찬 음식을 먹는 것이 냄새가 적어 한결 먹기 편하다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongdo.co.kr/web/view.php?key=20220327010006042",
+            "search_query": "입덧 음식 조절",
+            "terminate": false,
+            "text": "입덧을 할 때는 대체로 소화가 잘 되지 않기 때문에 음식이 입에 맞다고 한번에 많이 먹지 말고, 조금씩 나누어서 자주 먹는 것이 좋아요. 특히 아침 기상 후 공복 상태일 때 입덧이 더 심해지니까 간단한 카스테라나 크래커 종류를 먹는 것도 효과적이죠. 음식을 먹는 것 뿐만 아니라 냄새 때문에 음식이 가까이 있는 것조차 거부감이 생길 때에는 더운 음식 보다는 냄새가 적은 차가운 음식 섭취가 훨씬 먹기 좋아요.",
+            "turn_id": "BK22009229-6",
+            "utterance_id": "BK22009229.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "공복을 피하고 조금씩 나눠 먹고 약간 차게 음식 섭취를 하면 입덧 극복하는데 도움이 되는군요. 입덧 때 섭취하면 좋은 음식들도 좀 알려주세요.",
+            "turn_id": "BK22009229-7",
+            "utterance_id": "BK22009229.13"
+        },
+        {
+            "reference_date": "2018-01-19",
+            "reference_text": [
+                {
+                    "value": "비타민 B6가 풍부한 음식은 현미, 시리얼, 감자, 옥수수, 고구마, 검정콩, 연어, 닭고기, 고등어, 바나나, 녹황색 채소, 콩 등이 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한, 신맛이 나는 레몬, 모과, 매실 등의 음식은 입맛을 돋우고 소화불량 증상을 완화하는 데 도움이 된다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "미국 영양학회는 ‘생강’이 임산부 입덧 완화에 효능이 뛰어나다고 밝힌 바 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000203162",
+            "search_query": "입덧에 좋은 음식",
+            "terminate": false,
+            "text": "입덧 완화에 좋은 음식은 비타민 B6가 풍부하게 들어 있는 감자나 고구마, 옥수수 검정콩, 현미 같은 곡물류와 녹황색채소와 바나나, 시리얼, 연어, 닭고기, 고등어 등이 좋아요. 또, 입맛을 돋우고 소화불량 증상을 줄여주는 신맛 나는 레몬이나 모과 매실도 효과가 있어요. 미국 영양학회에서 임산부 입덧을 줄이는데 효과가 뛰어나다고 밝힌 생강도 섭취하면 좋고요.",
+            "turn_id": "BK22009229-7",
+            "utterance_id": "BK22009229.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "주로 건강에 좋은 음식들이네요. 생강은 좀 의외인데 어떻게 섭취하는 것이 효과적이에요?",
+            "turn_id": "BK22009229-8",
+            "utterance_id": "BK22009229.15"
+        },
+        {
+            "reference_date": "2019-03-13",
+            "reference_text": [
+                {
+                    "value": "생강차에 포함된 성분 중 하나인 진저롤(gingerol)이 구토감을 억제하는데 효과가 좋다고 한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "구토감이 들 때마다 조금씩 마시면 증상이 완화되는 것을 느낄 수 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따뜻하게 마셔도, 차갑게 마셔도 상관없다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=72672",
+            "search_query": "입덧 생강차",
+            "terminate": false,
+            "text": "생강차로 마시면 구토감을 억제하는데 효과가 좋은 진저롤이라는 성분을 섭취하기 때문에 입덧에 효과적이에요. 마실 때 차갑거나 따뜻한 것은 상관 없으니 취향대로 마시면 돼요. 또 증상 완화 효과를 느끼려면 토할 것 같은 느낌이 들 때마다 조금씩 마시는 것이 좋아요.",
+            "turn_id": "BK22009229-8",
+            "utterance_id": "BK22009229.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "커피숍 가면 커피를 마실 수 없어서 고민하다가 거의 허브차만 시켰는데 이제는 생강차를 주로 마셔야겠어요.",
+            "turn_id": "BK22009229-9",
+            "utterance_id": "BK22009229.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이제 커피숍에서의 주문 고민은 없어졌네요.",
+            "turn_id": "BK22009229-9",
+            "utterance_id": "BK22009229.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "주문 고민도 없애고, 입덧에도 효과적이니까 일석이조에요. 오늘 덕분에 너무나 도움 되는 정보들을 알게 되었어요.",
+            "turn_id": "BK22009229-10",
+            "utterance_id": "BK22009229.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도움 되었다니 저도 기쁘네요.",
+            "turn_id": "BK22009229-10",
+            "utterance_id": "BK22009229.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 일어날 시간 되어서 가봐야 하는데 다음에도 궁금한 것 있으면 여쭤봐도 될까요?",
+            "turn_id": "BK22009229-11",
+            "utterance_id": "BK22009229.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그럼요, 건강하게 유지 잘 하시고 뭐든지 물어보세요. 다음에 뵈어요.",
+            "turn_id": "BK22009229-11",
+            "utterance_id": "BK22009229.22"
+        }
+    ]
+}

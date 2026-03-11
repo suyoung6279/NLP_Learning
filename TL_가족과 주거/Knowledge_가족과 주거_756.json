@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016559",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016559",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0036"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_nhn_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지 미용을 하려고 하는데 비용이 얼마나 돼?",
+            "turn_id": "BK22016559-1",
+            "utterance_id": "BK22016559.1"
+        },
+        {
+            "reference_date": "43869.0",
+            "reference_text": [
+                {
+                    "value": "농촌진흥청이 발표한 2018년 반려견의 연간 평균 미용 비용은 14만4000원, 반려묘는 8만3000원으로 조사돼 질병 치료 비용, 사료 구입 비용에 이어 3번째로 많을 정도로 높은 비용을 차지한다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.cooknchefnews.com/news/newsview.php?ncode=1065575435068030",
+            "search_query": "반려견 미용 비용",
+            "terminate": false,
+            "text": "농촌진흥청의 발표에 따르면 반려견의 연간 평균 미용 비용은 14만 4000원이야. 강아지를 키우는 데 드는 비용 중 세 번째로 높은 비용인데, 질병 치료 비용, 사료 구입 비용 다음이야.",
+            "turn_id": "BK22016559-1",
+            "utterance_id": "BK22016559.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 생각보다 비싸네. 강아지는 미용을 꼭 해줘야 하지?",
+            "turn_id": "BK22016559-2",
+            "utterance_id": "BK22016559.3"
+        },
+        {
+            "reference_date": "44666.0",
+            "reference_text": [
+                {
+                    "value": "반려견 미용은 반려견의 건강과 청결을 위해 반드시 필요하다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만약 반려견의 털이 엉키면 피부가 제대로 숨을 못 쉬어 피부병이 생길 수 있고 오염물질이 밀착되면 습진으로 번질 수 있다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=161520",
+            "search_query": "반려견 미용 건강과 청결",
+            "terminate": false,
+            "text": "응, 반려견의 건강과 청결을 위해서 미용은 꼭 해줘야 해. 털 관리를 소홀히 한다면 털이 엉킬 수 있는데, 털이 엉키면 피부가 제대로 숨을 못 쉬어서 피부병이 생길 수 있고, 오염물질이 붙으면 습진이 생길 수 있거든.",
+            "turn_id": "BK22016559-2",
+            "utterance_id": "BK22016559.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 반려견 첫 미용은 언제 해주면 좋을까?",
+            "turn_id": "BK22016559-3",
+            "utterance_id": "BK22016559.5"
+        },
+        {
+            "reference_date": "44666.0",
+            "reference_text": [
+                {
+                    "value": "보통 강아지는 생후 5개월이 넘고 5차 접종까지 완료된 후에 면역력이 형성된 상태에서 미용이 가능하다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "생애 첫 미용은 특히 더 신경 써야 하는데 이 때 기억이 반려견에게 나쁘게 인식되면 이후에도 심한 스트레스를 계속 받을 가능성이 높다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=161520",
+            "search_query": "강아지의 첫 미용",
+            "terminate": false,
+            "text": "반려견의 첫 미용은 보통 강아지 경우에 생후 5개월이 넘고 5차 접종까지 완료하고 면역력이 형성된 상태에서 가능해. 생애 첫 미용은 특히 신경을 써야 하는데, 이때 반려견에게 안 좋은 기억으로 인식된다면 이후에도 스트레스를 받을 가능성이 높아.",
+            "turn_id": "BK22016559-3",
+            "utterance_id": "BK22016559.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "5개월 전엔 하면 안되겠다. 강아지 미용 후 스트레스는 어떤 게 있어?",
+            "turn_id": "BK22016559-4",
+            "utterance_id": "BK22016559.7"
+        },
+        {
+            "reference_date": "44666.0",
+            "reference_text": [
+                {
+                    "value": "미용 후 스트레스로 인한 반려견의 증상을 살펴보면 밥을 잘 먹지 않거나 몸을 떨기도 하고 열이 나며 구토나 설사를 한다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 피부를 심하게 긁기도 하고 누워만 있는 경우도 있다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=161520",
+            "search_query": "강아지 미용 후 스트레스",
+            "terminate": false,
+            "text": "미용 후에 스트레스를 받으면 밥을 잘 먹지 않거나 몸을 떨기도 해. 열이 나고 구토나 설사를 하는 증상을 보이기도 하고 피부를 심하게 긁거나 누워만 있는 경우도 있어.",
+            "turn_id": "BK22016559-4",
+            "utterance_id": "BK22016559.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스트레스를 받으면 너무 힘들어하는구나. 스트레스를 덜 느끼게 하려면 어떻게 해야 할까?",
+            "turn_id": "BK22016559-5",
+            "utterance_id": "BK22016559.9"
+        },
+        {
+            "reference_date": "44666.0",
+            "reference_text": [
+                {
+                    "value": "미용 때문에 스트레스를 받는 반려견을 안정시키기 위해서는 먼저 평소에 반려인이 자주 빗질을 해줘 사용도구에 대한 거리감을 줄여준다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 전신의 살이 완전히 드러나는 미용은 삼가는 편이 좋다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려견의 털이 너무 짧거나 피부가 드러나도록 미용을 한다면 심각한 수치심을 느낄 수도 있다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=161520",
+            "search_query": "강아지 미용 후 스트레스 안정",
+            "terminate": false,
+            "text": "전신의 살이 완전히 드러나는 미용은 하지 않는 게 좋아. 털이 너무 짧게 미용을 하거나 피부가 드러나도록 미용을 하면 심각한 수치심을 느낄 수 있거든. 그리고 평소에 반려인이 자주 빗질을 해줘서 미용 도구에 대한 거리감을 줄여 주는 것도 좋아.",
+            "turn_id": "BK22016559-5",
+            "utterance_id": "BK22016559.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "직접 간단한 케어는 해줄 수 있으면 좋겠다. 강아지 털이 엉켰을 땐 집에서 어떻게 관리를 해?",
+            "turn_id": "BK22016559-6",
+            "utterance_id": "BK22016559.11"
+        },
+        {
+            "reference_date": "44666.0",
+            "reference_text": [
+                {
+                    "value": "먼저 털 엉킴은 1차로 슬리커 브러시를 이용해 털을 정리한 다음 엉킨 부분을 손으로 풀어줘야 한다.",
+                    "value_time": "44836.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "자극을 주면 피부에 손상이 갈 수 있기 때문에 빗질은 최대한 힘을 빼야 하며, 한 곳을 3번 이상 빗질하지 않는다.",
+                    "value_time": "44836.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=161520",
+            "search_query": "강아지 셀프 미용 털 엉킴",
+            "terminate": false,
+            "text": "털이 엉켰을 땐 1차로 슬리커 브러시로 털을 정리하고 엉킨 부분은 손으로 풀어줘야 해. 자극을 많이 주면 피부가 다칠 수 있어서 빗질은 최대한 힘을 빼서 해야 하고 한 곳을 세 번 이상 빗질하지 않는 게 좋아.",
+            "turn_id": "BK22016559-6",
+            "utterance_id": "BK22016559.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 강아지를 목욕시키고 나서 드라이도 꼼꼼히 해줘야겠지?",
+            "turn_id": "BK22016559-7",
+            "utterance_id": "BK22016559.13"
+        },
+        {
+            "reference_date": "44666.0",
+            "reference_text": [
+                {
+                    "value": "다음 드라이를 할 때는 온도가 너무 높으면 화상의 위험이 있기 때문에 미리 따뜻한 바람으로 30㎝ 이상 떨어뜨려 놓고 털을 말려야 한다.",
+                    "value_time": "44836.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "반려견은 털의 특성상 자연건조가 되지 않고, 습하면 피부병과 각질이 생길 수 있어 완전히 말려주는 것이 중요하다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=161520",
+            "search_query": "강아지 셀프 드라이",
+            "terminate": false,
+            "text": "맞아, 반려견은 털의 특성상 자연적으로 건조가 되지 않고 습하면 피부병이나 각질이 생길 수 있어서 완전히 말려줘야 해. 드라이를 할 때는 온도가 너무 높으면 화상을 입을 수 있어서 따뜻한 바람으로 30센티미터 이상 떨어뜨려서 털을 말려주는 게 좋아.",
+            "turn_id": "BK22016559-7",
+            "utterance_id": "BK22016559.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "드라이로 너무 가까이서 말리면 안되겠다. 발톱 관리는 어떻게 해줘야 해?",
+            "turn_id": "BK22016559-8",
+            "utterance_id": "BK22016559.15"
+        },
+        {
+            "reference_date": "44666.0",
+            "reference_text": [
+                {
+                    "value": "그리고 발톱은 반려견의 예민한 부위이기 때문에 관리에 더 신경 써야 하는데, 흰 부분과 안쪽에 보이는 빨간 혈관을 피해 동그랗게 깎아주는 것이 좋다.",
+                    "value_time": "44836.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=161520",
+            "search_query": "강아지 셀프 발톱관리",
+            "terminate": false,
+            "text": "발톱은 반려견에게 예민한 부위여서 더 신경을 써서 관리를 해줘야 해. 발톱을 깎을 땐 발톱의 흰 부분과 안쪽의 빨간 혈관을 피해서 동그랗게 깎아주면 돼.",
+            "turn_id": "BK22016559-8",
+            "utterance_id": "BK22016559.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "미용은 스트레스가 심하니까 발톱 관리 정도는 집에서 직접 해줘야겠다.",
+            "turn_id": "BK22016559-9",
+            "utterance_id": "BK22016559.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 셀프로 관리를 해줄 땐 강아지의 심리나 상태, 나이를 잘 고려해서 해야 해.",
+            "turn_id": "BK22016559-9",
+            "utterance_id": "BK22016559.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 잘 몰랐는데 자세하게 알려줘서 고마워.",
+            "turn_id": "BK22016559-10",
+            "utterance_id": "BK22016559.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "더 궁금한 게 있다면 언제든 연락해. 좋은 하루 보내.",
+            "turn_id": "BK22016559-10",
+            "utterance_id": "BK22016559.20"
+        }
+    ]
+}

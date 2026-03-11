@@ -1,0 +1,386 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011426",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011426",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0030"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려동물은 정말 정서 안정에 많은 도움이 되는 것 같아요.",
+            "turn_id": "BK22011426-1",
+            "utterance_id": "BK22011426.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 저도 힘들고 스트레스 받을 때마다 반려견에게 위로 받고 있어요. 그런데 원래 반려동물 키우고 계셨어요?",
+            "turn_id": "BK22011426-1",
+            "utterance_id": "BK22011426.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아니요, 저는 안 키우는데 힘든 일을 겪은 친구에게 강아지를 선물했더니 친구가 금세 많이 밝아진 게 신기해서 말씀 드렸어요. 그런데 요즘 강아지가 사료를 잘 안 먹는다고 고민하길래 제가 사료에 대해 알아봐 주기로 했거든요. 사료는 건식, 습식 이렇게 나뉜다고 하는데 어떤 기준으로 구분하는 거예요?",
+            "turn_id": "BK22011426-2",
+            "utterance_id": "BK22011426.3"
+        },
+        {
+            "reference_date": "2022-05-30",
+            "reference_text": [
+                {
+                    "value": "반려견 사료는 일반적으로 시리얼 형태의 건식과 통조림 형태인 습식으로 나뉜다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려견 사료를 수분 함량에 따라 건식 수분 함량 10-12%, 습식은 수분 65% 이상으로 구분된다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1400514/%EC%9C%84%EB%93%9C%ED%8E%AB-%EB%B0%98%EB%A0%A4%EA%B2%AC-%EC%82%AC%EB%A3%8C-%EC%8A%B5%EC%8B%9D%EB%B6%80%ED%84%B0-%EA%B1%B4%EC%8B%9D-%EC%9E%90%EC%97%B0%EC%8B%9D%EA%B9%8C%EC%A7%80-%EB%AC%B4/",
+            "search_query": "반려견 사료 구분",
+            "terminate": false,
+            "text": "건식 사료는 시리얼 형태로 수분 함량이 10~12%인 것을 말해요. 그리고 습식 사료는 통조림 형태로 수분 함량이 65% 이상인 것을 말하고요.",
+            "turn_id": "BK22011426-2",
+            "utterance_id": "BK22011426.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 건식 사료는 저도 알아요. 과자처럼 생긴 단단한 사료가 건식 사료군요. 건식 사료는 어떤 특징이 있어요?",
+            "turn_id": "BK22011426-3",
+            "utterance_id": "BK22011426.5"
+        },
+        {
+            "reference_date": "2022-05-26",
+            "reference_text": [
+                {
+                    "value": "건식 사료는 습식 사료에 비해 단단하지만 치석을 제거하는 데 도움을 줄 수 있습니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수분 함량은 적지만 유통기한이 길어 오래 보관할 수 있고, 비교적 간편하고 깔끔하게 급여할 수 있습니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202205260859291935",
+            "search_query": "반려견 건식 사료",
+            "terminate": false,
+            "text": "건식 사료는 유통기한이 길기 때문에 장시간 보관할 수 있고 비교적 쉽고 깔끔한 급여가 가능해요. 습식 사료와 비교했을 때 수분 함량이 적고 단단하지만 반려견의 치석을 없애는 효과가 있고요.",
+            "turn_id": "BK22011426-3",
+            "utterance_id": "BK22011426.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "단단하니까 씹으면서 치석이 제거되는군요. 건식과 달리 습식 사료는 좀 생소한데 습식 사료의 특징은 뭐예요?",
+            "turn_id": "BK22011426-4",
+            "utterance_id": "BK22011426.7"
+        },
+        {
+            "reference_date": "2022-05-26",
+            "reference_text": [
+                {
+                    "value": "습식 사료는 수분을 다량 함유해 식감이 부드럽습니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이빨과 턱뼈가 약한 강아지, 혹은 노령견이 무리 없이 섭취할 수 있습니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "칼로리가 낮아 체중 조절이 필요한 반려견에게도 좋은 대안이 됩니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202205260859291935",
+            "search_query": "반려견 습식 사료",
+            "terminate": false,
+            "text": "습식 사료는 수분 함량이 높아서 식감이 부드럽기 때문에 이빨과 턱뼈가 튼튼하지 못하거나 고령인 반려견이 편하게 먹을 수 있어요. 그리고 열량이 낮아서 체중을 조절해야 하는 반려견에게도 도움이 되고요.",
+            "turn_id": "BK22011426-4",
+            "utterance_id": "BK22011426.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그런데 건식이냐 습식이냐도 중요하지만 영양 성분도 중요하죠? 반려견에게 꼭 필요한 영양소는 어떤 게 있나요?",
+            "turn_id": "BK22011426-5",
+            "utterance_id": "BK22011426.9"
+        },
+        {
+            "reference_date": "2015-10-25",
+            "reference_text": [
+                {
+                    "value": "사람과 마찬가지로 반려견들도 단백질, 지방, 탄수화물부터 미네랄과 비타민에 이르기까지 많은 영양소들이 필요하기 때문이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 단백질은 반려견의 건강한 근육 형성에 도움이 된다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?2465580",
+            "search_query": "반려견 필요 영양소",
+            "terminate": false,
+            "text": "반려견도 사람처럼 단백질, 지방, 탄수화물을 비롯해 미네랄, 비타민 등 다양한 영양소를 필요로 해요. 그 중에서도 단백질은 반려견에게 건강한 근육을 만들어 주는 영양소예요.",
+            "turn_id": "BK22011426-5",
+            "utterance_id": "BK22011426.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사람이나 강아지나 크게 다를 건 없네요. 그럼 사람처럼 반려견도 너무 살이 찌지 않도록 사료의 종류나 먹이는 양을 따져 보는 게 좋을까요?",
+            "turn_id": "BK22011426-6",
+            "utterance_id": "BK22011426.11"
+        },
+        {
+            "reference_date": "2015-10-25",
+            "reference_text": [
+                {
+                    "value": "칼로리 체크도 놓쳐서는 안된다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려견에게 비만은 매우 위험한 질병이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "비만은 만성 염증의 원인이 되기도 하고 당뇨병을 포함한 각종 대사성 질환, 근골격계 질환, 심혈관계 질환을 유발시키기도 한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "비만을 예방하기 위해서는 우선 잘못된 생활습관은 없는지 살펴보고, 매일 급여하는 사료의 칼로리량을 따져보는 것이 좋다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?2465580",
+            "search_query": "반려견 비만",
+            "terminate": false,
+            "text": "네, 맞아요. 비만은 반려견에게 아주 위험한 질병이므로 열량도 반드시 확인해야 할 부분이에요. 반려견의 비만은 만성 염증을 비롯해 당뇨병, 대사성 질환, 근골격계 질환, 심혈관계 질환의 원인이 되기 때문에 생활 습관을 점검해 보고 매일 먹는 사료에 포함된 열량을 체크해 볼 필요가 있는 것이죠.",
+            "turn_id": "BK22011426-6",
+            "utterance_id": "BK22011426.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비만은 사람에게나 강아지에게나 정말 무서운 것이군요. 그 밖에 사료를 고를 때 고려해야 할 게 있으면 알려 주시겠어요?",
+            "turn_id": "BK22011426-7",
+            "utterance_id": "BK22011426.13"
+        },
+        {
+            "reference_date": "2015-10-25",
+            "reference_text": [
+                {
+                    "value": "수분함유량도 비교해보는 것이 좋다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려견의 건강에 있어 수분은 가장 중요한 요소 중 하나다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "건사료 위주의 식습관을 갖고 있거나 운동량이 적은 소형견의 경우 만성적인 수분 부족이 발생할 수 있어 피부 질환이나 요로결석 예방에 신경써야 한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?2465580",
+            "search_query": "반려견 수분 섭취",
+            "terminate": false,
+            "text": "수분은 반려견의 건강을 위해 매우 중요한 요소이므로 수분 함유량도 확인해 볼 필요가 있어요. 주로 건식 사료를 섭취하거나 운동량이 많지 않은 소형견이라면 만성적으로 수분이 부족할 수 있기 때문에 피부 질환이나 요로결석이 생기지 않도록 조심해야 해요.",
+            "turn_id": "BK22011426-7",
+            "utterance_id": "BK22011426.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 면에서는 습식 사료가 도움이 되겠네요. 그런데 요즘에는 시판 사료를 먹이지 않고 직접 요리를 해서 자연식을 먹이는 사람들도 있다고 들었는데 구체적으로 무얼 먹이는 거예요? 보통 사료보다 반려견에게 더 좋나요?",
+            "turn_id": "BK22011426-8",
+            "utterance_id": "BK22011426.15"
+        },
+        {
+            "reference_date": "2022-05-30",
+            "reference_text": [
+                {
+                    "value": "자연식은 화식으로도 불리며 자연 재료를 열에 조리해 지급하는 식사다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일반적으로 고기와 채소를 조합해 찌거나 구워 완성한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가장 큰 장점은 영양분 흡수율이 높아 노령견이 섭취했을 때 소화가 용이, 기력 보충에 도움을 준다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또, 가정에서 조리하면 첨가제나 보존료가 들어가지 않아 더욱 건강한 식사를 준비할 수 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자연식으로 얻을 수 있는 이점은 활력 증진, 모질 개선, 면역력 증진 등도 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1400514/%EC%9C%84%EB%93%9C%ED%8E%AB-%EB%B0%98%EB%A0%A4%EA%B2%AC-%EC%82%AC%EB%A3%8C-%EC%8A%B5%EC%8B%9D%EB%B6%80%ED%84%B0-%EA%B1%B4%EC%8B%9D-%EC%9E%90%EC%97%B0%EC%8B%9D%EA%B9%8C%EC%A7%80-%EB%AC%B4/",
+            "search_query": "반려견 자연식",
+            "terminate": false,
+            "text": "자연식은 화식이라고도 하는데 열을 이용해 자연 재료를 조리한 다음 반려견에게 먹이는 것으로 보통 고기와 채소를 합쳐서 찜이나 구이로 만들어요. 자연식의 최대 장점은 영양분이 잘 흡수되므로 노령견에게 먹이면 소화가 잘 되고 기력도 보충할 수 있다는 점이에요. 그리고 가정에서 직접 만드니 첨가제나 보존료가 없는 건강한 식사가 가능하고 반려견의 활력 증진, 모질 개선, 면역력 증진 등의 효과도 기대할 수 있고요.",
+            "turn_id": "BK22011426-8",
+            "utterance_id": "BK22011426.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "많은 정성이 필요하겠지만 반려견에게는 좋은 식사가 될 수 있겠네요. 혹시 자연식을 할 때 조심해야 할 점은 없나요?",
+            "turn_id": "BK22011426-9",
+            "utterance_id": "BK22011426.17"
+        },
+        {
+            "reference_date": "2022-05-30",
+            "reference_text": [
+                {
+                    "value": "단, 처음 자연식을 시작할 땐 알레르기가 있는 식재료가 없는지 피부 상태를 잘 살펴야 한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "완성한 식사는 상온 보관 시 변질의 우려가 있어 1회분씩 소포장해 냉장·냉동 보관하는 것이 좋다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1400514/%EC%9C%84%EB%93%9C%ED%8E%AB-%EB%B0%98%EB%A0%A4%EA%B2%AC-%EC%82%AC%EB%A3%8C-%EC%8A%B5%EC%8B%9D%EB%B6%80%ED%84%B0-%EA%B1%B4%EC%8B%9D-%EC%9E%90%EC%97%B0%EC%8B%9D%EA%B9%8C%EC%A7%80-%EB%AC%B4/",
+            "search_query": "반려견 자연식 주의 사항",
+            "terminate": false,
+            "text": "자연식을 처음 시작할 때는 반려견의 피부 상태를 꼼꼼하게 관찰해서 알레르기를 유발하는 식재료가 있는지 확인해야 해요. 그리고 조리한 식사를 상온에 두면 상할 위험이 있으므로 한 번 먹을 분량으로 나누어 담은 다음 냉장이나 냉동 보관하는 게 좋고요.",
+            "turn_id": "BK22011426-9",
+            "utterance_id": "BK22011426.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 자세히 알려 주셔서 감사해요. 친구한테 빠짐없이 잘 전할게요.",
+            "turn_id": "BK22011426-10",
+            "utterance_id": "BK22011426.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "사료 선택에 도움이 되면 좋겠네요. 앞으로도 궁금한 게 있으면 편하게 물어보세요.",
+            "turn_id": "BK22011426-10",
+            "utterance_id": "BK22011426.20"
+        }
+    ]
+}

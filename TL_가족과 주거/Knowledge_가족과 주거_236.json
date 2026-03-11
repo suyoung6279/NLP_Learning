@@ -1,0 +1,352 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001283",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001283",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 3.6,
+                "speaker2UttScore": 3.6,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 테라스 있는 집에 대한 로망이 생겼어.",
+            "turn_id": "BK22001283-1",
+            "utterance_id": "BK22001283.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "테라스 있는 집은 사실 모두의 로망 아닌가? 근데 왜 갑자기 그런 로망이 생겼어?",
+            "turn_id": "BK22001283-1",
+            "utterance_id": "BK22001283.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아는 사람 집들이에 갔는데 테라스가 있었거든. 야외 바베큐를 해서 먹었는데 너무 좋더라고! 그런데 테라스는 발코니랑 다른 거지?",
+            "turn_id": "BK22001283-2",
+            "utterance_id": "BK22001283.3"
+        },
+        {
+            "reference_date": "2020-08-06",
+            "reference_text": [
+                {
+                    "value": "6일 국토교통부에 따르면 발코니(Balcony)는 거실을 연장하기 위해 밖으로 돌출시켜 만든 공간이다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "테라스(Terrace)는 지면에 만들어진 건축물의 외부공간을 말한다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.wikitree.co.kr/articles/559504",
+            "search_query": "테라스 발코니 차이",
+            "terminate": false,
+            "text": "테라스는 건물의 외부 공간을 말해. 보통 지면에 만들어 지지. 반면 발코니는 내부 거실을 확장하기 위해 밖으로 돌출시켜 만든 공간이야.",
+            "turn_id": "BK22001283-2",
+            "utterance_id": "BK22001283.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러니까 테라스는 외부, 발코니는 내부인 게 맞지? 가끔씩 섞어 쓰는 사람도 있더라고.",
+            "turn_id": "BK22001283-3",
+            "utterance_id": "BK22001283.5"
+        },
+        {
+            "reference_date": "2021-10-17",
+            "reference_text": [
+                {
+                    "value": "발코니와 베란다, 테라스는 언뜻 들으면 비슷한 것 같아 혼용해서 사용되지만, 건축법상 세 가지는 전혀 다른 개념이다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://view.asiae.co.kr/article/2021101613501485758",
+            "search_query": "테라스 발코니 혼용",
+            "terminate": false,
+            "text": "맞아, 특히나 베란다까지 세 개를 많이 헷갈려 하더라고. 건축법상 전혀 다른 개념인데 말이야.",
+            "turn_id": "BK22001283-3",
+            "utterance_id": "BK22001283.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "건축법 얘기를 하니까 나 궁금한 게 생겼어. 보통 아파트 베란다를 확장하잖아? 그게 불법이라는 말이 있는데 정말이야?",
+            "turn_id": "BK22001283-4",
+            "utterance_id": "BK22001283.7"
+        },
+        {
+            "reference_date": "2021-12-08",
+            "reference_text": [
+                {
+                    "value": "베란다 확장은 불법이기에 해당 관청에 단속될 경우 이행강제금이 부과되고 결국 원상복구를 해야 한다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 아파트 베란다는 잘못된 말로 아파트 발코니라고 지칭해야 한다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "흔히 베란다와 발코니를 혼용하면서 아파트 베란다 확장이라고는 말을 종종 사용한다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ccdailynews.com/news/articleView.html?idxno=2099137",
+            "search_query": "베란다 확장",
+            "terminate": false,
+            "text": "베란다 확장은 불법이 맞아. 걸릴 경우에 이행 강제금이 부과되고, 원상 복구도 해야 해. 하지만 아파트에 있는 건 베란다가 아니라 발코니거든. 즉, 베란다 확장은 불법이지만, 아파트는 베란다가 아니라 발코니 확장이기 때문에 괜찮다는 말이야.",
+            "turn_id": "BK22001283-4",
+            "utterance_id": "BK22001283.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그러니까 용어를 제대로 쓰지 않아서 생긴 오해였구나. 그리고 나 또 궁금한 게 있어. 테라스 하우스라는 말을 요즘 꽤 듣고 있는데, 테라스 있는 집이라는 뜻이야?",
+            "turn_id": "BK22001283-5",
+            "utterance_id": "BK22001283.9"
+        },
+        {
+            "reference_date": "2022-02-15",
+            "reference_text": [
+                {
+                    "value": "테라스 하우스(Terraced house)는 벽을 공유하는 여러 단독 주택을 연속적으로 모아놓은 저층 집합 주택을 말한다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%85%8C%EB%9D%BC%EC%8A%A4_%ED%95%98%EC%9A%B0%EC%8A%A4",
+            "search_query": "테라스 하우스",
+            "terminate": false,
+            "text": "테라스 하우스는 단순히 테라스 있는 집이라는 뜻은 아니야. 더 정확히는 저층 집합 주택을 뜻하는데, 보통 여러 단독 주택들이 벽을 공유하는 형태지.",
+            "turn_id": "BK22001283-5",
+            "utterance_id": "BK22001283.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 나는 이름 때문에 테라스 있는 모든 주택을 그렇게 부르는 줄 알았어. 그런데 요새 나처럼 테라스에 관심 있는 사람들이 많은 것 같아. 왜 그런 걸까?",
+            "turn_id": "BK22001283-6",
+            "utterance_id": "BK22001283.11"
+        },
+        {
+            "reference_date": "2022-01-24",
+            "reference_text": [
+                {
+                    "value": "코로나19 장기화로 인해 '테라스(Terrace)'를 갖추 주거 단지가 주목받고 있다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "집 속에 있으면서 밖을 연결해주는 테라스 공간은 외부에서 타인 없이 다양한 여가 활동을 즐길 수 있는 완벽한 안전지대가 되기 때문이다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ilyosisa.co.kr/news/article.html?no=233093",
+            "search_query": "테라스 공간 여가 활동",
+            "terminate": false,
+            "text": "특히나 코로나 때문에 더더욱 테라스를 선호하는 사람들이 늘고 있지. 내부와 외부가 연결되어 있으면서도 타인의 간섭이 없어서 다양한 활동을 할 수 있잖아. 사적인 공간이라 안전하기도 하고.",
+            "turn_id": "BK22001283-6",
+            "utterance_id": "BK22001283.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 밖에 나가고 싶은데 그러지 못할 때 테라스가 딱인 것 같아. 그런데 아까 말한 테라스 하우스 있잖아, 뭔가 불편한 점은 없을까? 장점만 있을 것 같지는 않아서.",
+            "turn_id": "BK22001283-7",
+            "utterance_id": "BK22001283.13"
+        },
+        {
+            "reference_date": "2015-09-14",
+            "reference_text": [
+                {
+                    "value": "문제는 1층과 옥상 테라스가 건축법상 가구별 면적에 들어가지 않는 '공용공간'이라는 점이다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 때문에 테라스는 각 가구의 면적으로 등기할 수 없어 최근 건설사들은 분양계약서에 테라스에 연접한 가구가 테라스를 독점 사용하는 데 동의한다는 문항을 넣어 분양하고 있다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/011/0002737674?sid=101",
+            "search_query": "테라스 하우스 불편",
+            "terminate": false,
+            "text": "아, 그러고 보니 생각나는 건축법상의 문제가 있어. 1층과 옥상 테라스가 가구별 면적에 들어가지 않거든. 즉 공용 공간이라서, 각 가구의 면적으로 등기할 수 없는 문제를 가지고 있지.",
+            "turn_id": "BK22001283-7",
+            "utterance_id": "BK22001283.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "등기할 수 없다면 소유할 수 없다는 거잖아? 그걸 계약하고 나서 알면 아찔하겠는걸?",
+            "turn_id": "BK22001283-8",
+            "utterance_id": "BK22001283.15"
+        },
+        {
+            "reference_date": "2019-05-30",
+            "reference_text": [
+                {
+                    "value": "코아루 더 테라스' 입주예정자들로 구성된 비상대책위원회(비대위)는 30일 충주시청 브리핑룸에서 기자회견을 갖고 \"테라스를 법적 조경면적에 포함시킨 건 사기분양\"이라고 밝혔다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.inews365.com/news/article.html?no=581159",
+            "search_query": "테라스하우스 공용면적 사기분양",
+            "terminate": false,
+            "text": "그러니까 부동산을 계약할 때는 모든 걸 확인하는 게 필요하지. 실제로 한 연립 주택 분양의 경우, 테라스와 관련하여 문제가 생긴 적 있어. 분양 시 테라스에 대한 제대로 된 정보를 주지 않은 점을 문제 삼아 예비 입주자들이 시행사를 상대로 사기분양을 주장했거든.",
+            "turn_id": "BK22001283-8",
+            "utterance_id": "BK22001283.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "솔직히 다들 테라스 때문에 분양권을 샀을 테니까. 나는 그 사람들 마음을 이해해. 만약 이런 식으로 부동산 사기를 당한다면 바로 고소하면 되는 건가?",
+            "turn_id": "BK22001283-9",
+            "utterance_id": "BK22001283.17"
+        },
+        {
+            "reference_date": "2020-02-04",
+            "reference_text": [
+                {
+                    "value": "아울러 고소를 진행함에 있어서도 어려움이 뒤따른다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "부동산 분야에 해당하는 분양이나 기획부동산의 문제를 사기라는 형법상의 문제와 결부지어야 하기 때문.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailysecu.com/news/articleView.html?idxno=106400",
+            "search_query": "부동산 사기 구제",
+            "terminate": false,
+            "text": "물론 할 수는 있지만, 사실 부동산 사기는 고소 진행이 좀 어려워. 부동산 문제를 사기라는 형법상 문제와 연결시켜야 하거든.",
+            "turn_id": "BK22001283-9",
+            "utterance_id": "BK22001283.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 가장 좋은 방법은 처음부터 신중하게 계약하는 것이려나?",
+            "turn_id": "BK22001283-10",
+            "utterance_id": "BK22001283.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇지, 가장 좋은 사기 예방은 투자를 신중히 하는 거지.",
+            "turn_id": "BK22001283-10",
+            "utterance_id": "BK22001283.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "하지만 아무리 신중해도 부동산은 어렵더라고. 어쨌든, 오늘 많이 도움이 되었어. 나는 이만 가볼게.",
+            "turn_id": "BK22001283-11",
+            "utterance_id": "BK22001283.21"
+        }
+    ]
+}

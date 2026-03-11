@@ -1,0 +1,342 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014260",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014260",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "추석에 고향에 가시나요? 차가 많이 막힐 것 같은데 많이들 가나 봐요. 이번 추석에 사람들이 얼마나 고향으로 간다고 하나요?",
+            "turn_id": "BK22014260-1",
+            "utterance_id": "BK22014260.1"
+        },
+        {
+            "reference_date": "44811.0",
+            "reference_text": [
+                {
+                    "value": "한국교통연구원이 실시한 추석 연휴 이동 전망 조사에 따르면, 전국 귀성·귀경 이동 인원은 3017만명으로 추석 당일인 오는 10일 최대 758만명이 이동할 것으로 전망됐다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://biz.chosun.com/policy/policy_sub/2022/09/06/4Q2MEIA4EBCA5DJYII4WBMNU5E/",
+            "search_query": "추석 이동인원",
+            "terminate": false,
+            "text": "한국교통연구원이 실시한 조사에 따르면 이번 추석 연휴 동안 이동 인원이 3,017만 명이고 추석 당일인 2022년 9월 10일에는 많으면 758만 명이 이동한다니 이번에는 귀성할 예정인데 주의해야겠어요.",
+            "turn_id": "BK22014260-1",
+            "utterance_id": "BK22014260.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번에 이동을 많이 하네요. 사람들이 언제 가장 많이 이동하죠? 그날은 피하고 싶은데 알려주실 수 있나요?",
+            "turn_id": "BK22014260-2",
+            "utterance_id": "BK22014260.3"
+        },
+        {
+            "reference_date": "44811.0",
+            "reference_text": [
+                {
+                    "value": "귀성은 추석 전날인 이달 9일 오전에, 귀경은 11일과 12일 오후에 집중될 것으로 보인다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "추석 당일이 교통혼잡이 가장 심할 것으로 예측됐다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/economy/view/2022/09/794014/",
+            "search_query": "추석 교통 혼잡",
+            "terminate": false,
+            "text": "고향으로 가는 사람은 2022년 9월 9일 오전에 가장 많고 다시 돌아오는 사람은 2022년 9월 11일과 12일 오후에 집중된다니 그 시간은 피하세요. 그리고 추석 당일인 2022년 9월 10일에 교통 혼잡이 가장 심하다고 예측되니 당일도 피하시고요.",
+            "turn_id": "BK22014260-2",
+            "utterance_id": "BK22014260.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알려줘서 고마워요. 그 시간은 피해서 가야겠네요. 저는 집이 대전인데 대전까지 가는 시간은 어느 정도가 걸릴 거라 예상되나요?",
+            "turn_id": "BK22014260-3",
+            "utterance_id": "BK22014260.5"
+        },
+        {
+            "reference_date": "44812.0",
+            "reference_text": [
+                {
+                    "value": "귀성 평균 소요 시간은 서울→부산 9시간50분, 서울→광주 8시간 55분, 서울→대전 5시간50분, 서울→목포 9시간55분, 서울→강릉 6시간 5분으로 조사됐다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.imaeil.com/page/view/2022090810280765757",
+            "search_query": "귀성 시간",
+            "terminate": false,
+            "text": "서울에서 대전까지는 5시간 50분이 걸릴 것으로 예상돼요. 5시간 50분이면 목포까지 가는 저보다는 덜 걸리시네요. 제 고향인 목포까지는 평균 9시간 55분 걸리는 걸로 예상하고 있어요. 서울에서 목포까지 가는 게 부산 가는 것보다 5분 더 걸리고 광주 가는 것보다 1시간 더 걸리네요. 강릉이랑 비교하면 3시간 50분이나 차이가 나요.",
+            "turn_id": "BK22014260-3",
+            "utterance_id": "BK22014260.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 오래 걸린다 생각했는데 저는 새 발의 피군요. 2022년에 사람들이 많이 이동하는 건 거리두기가 해제된 영향도 있을 것 같아요. 사회적 거리두기 해제가 이동량 증가에 영향이 있나요?",
+            "turn_id": "BK22014260-4",
+            "utterance_id": "BK22014260.7"
+        },
+        {
+            "reference_date": "44811.0",
+            "reference_text": [
+                {
+                    "value": "하루 평균 이동량을 기준으로 볼 때 지난해 추석(546만 명)보다 10.4% 증가한 수준입니다.",
+                    "value_time": "44817.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 지난 4월 18일 사회적 거리두기가 해제됨에 따라 코로나19 펜데믹 이후 처음으로 거리두기 없는 명절을 맞게 된 것이 영향을 미친 것으로 분석됩니다.",
+                    "value_time": "44817.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ikbc.co.kr/article/view/kbc202209070043",
+            "search_query": "사회적 거리두기 추석",
+            "terminate": false,
+            "text": "맞아요. 2022년 추석은 4월 18일 사회적 거리두기가 해제된 뒤 맞는 첫 명절인데 거리두기가 해제됨에 따라 2021년보다 하루 평균 이동량이 증가할 걸로 예상돼요. 2022년 추석 하루 평균 이동량은 2021년 추석 하루 평균 이동량, 546만 명에서 10.4퍼센트 증가한 수치를 보일 걸로 예상되죠.",
+            "turn_id": "BK22014260-4",
+            "utterance_id": "BK22014260.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번에는 통행료도 면제된다고 들었는데 언제부터 언제까지 면제가 되죠?",
+            "turn_id": "BK22014260-5",
+            "utterance_id": "BK22014260.9"
+        },
+        {
+            "reference_date": "44811.0",
+            "reference_text": [
+                {
+                    "value": "9.9(금) 0시부터 9.12(월) 24시 사이에 한국도로공사가 관리하는 고속도로와 인천공항고속도로 등 21개 민자고속도로를 이용하는 모든 차량의 통행료가 면제되며, 이용 방법은 평상시와 동일하다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://view.asiae.co.kr/article/2022090711105246651",
+            "search_query": "추석 통행료",
+            "terminate": false,
+            "text": "2022년 9월 9일 0시부터 9월 12일 24시 사이에 한국도로공사가 관리하는 고속도로와 인천공항고속도로 등 21개의 민자 고속도로를 이용하는 차량은 교통비 면제 대상이에요. 이용 방법도 평상시랑 동일하다니 마음 편히 다녀오면 될 것 같아요.",
+            "turn_id": "BK22014260-5",
+            "utterance_id": "BK22014260.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 고향 안 내려가고 해외여행을 가는 사람들도 많던데 공항도 만만찮게 붐비겠어요. 공항은 얼마나 사람이 몰릴 것으로 예상되나요?",
+            "turn_id": "BK22014260-6",
+            "utterance_id": "BK22014260.11"
+        },
+        {
+            "reference_date": "44812.0",
+            "reference_text": [
+                {
+                    "value": "이번 추석 연휴기간(8~12일) 인천국제공항은 30만명, 김포공항을 비롯한 국내선 공항은 120만명이 이용할 것으로 관측됐다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/society/view/2022/09/799000/",
+            "search_query": "추석 공항",
+            "terminate": false,
+            "text": "2022년 9월 8일부터 12일까지 인천국제공항에 30만 명, 김포 공항에 국내선을 이용하는 사람이 120만 명이 이용할 것으로 예측되니 공항도 도로처럼 많이 붐빌 것 같네요.",
+            "turn_id": "BK22014260-6",
+            "utterance_id": "BK22014260.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번에 내려가면 잔소리만 많이 듣고 올 것 같은데 저도 여행이나 가고 싶네요. 다른 사람들은 어떤지 궁금하네요. 저와 같은 20대는 명절 때 어떤 잔소리를 가장 싫어하나요?",
+            "turn_id": "BK22014260-7",
+            "utterance_id": "BK22014260.13"
+        },
+        {
+            "reference_date": "44805.0",
+            "reference_text": [
+                {
+                    "value": "추석 연휴를 앞두고 20대와 50대가 꼽은 '가장 듣고 싶지 않은 잔소리' 1위는 취업·연봉 관련 질문인 것으로 나타났다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "거시경제 환경이 어려워지면서 중장년층들도 사회초년생인 20대와 비슷한 직업 관련 스트레스를 받는다는 얘기다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/it/article/202209013353i",
+            "search_query": "추석 잔소리",
+            "terminate": false,
+            "text": "우리나라 20대는 추석에 취업, 연봉 관련 잔소리 듣는 걸 가장 싫어한다고 해요. 재미있는 건 설문조사에 따르면 50대도 다르지 않아요. 거시 경제가 어려워지면서 중장년층들도 20대와 비슷한 직업 관련 스트레스를 받는 거죠.",
+            "turn_id": "BK22014260-7",
+            "utterance_id": "BK22014260.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 잔소리 피하려면 가서 음식 만드는 것도 도와드려야겠는데 저희 집 차례는 음식 가짓수가 많아서 문제예요. 음식 가짓수에 대한 규정은 없나요?",
+            "turn_id": "BK22014260-8",
+            "utterance_id": "BK22014260.15"
+        },
+        {
+            "reference_date": "44811.0",
+            "reference_text": [
+                {
+                    "value": "지난 5일 성균관의례정립위원회는 서울 중구 프레스센터에서 ‘차례상 표준안’을 발표했다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "여기에 따르면 추석 차례 기본 음식은 송편, 나물, 구이(적·炙), 김치, 과일, 술 등 총 6가지고 육류, 생선, 떡을 추가로 놓을 수 있다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "제사상의 단골손님이며 차례 음식을 만들 때 가장 손이 많이 가는, 많은 남녀 국민의 허리를 아프게 하는 '전'은 여기에 포함되지 않았다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20220907143502263",
+            "search_query": "추석 차례상",
+            "terminate": false,
+            "text": "2022년 9월 5일에 성균관 의례 정립위원회가 발표한 차례상 표준안에 따르면 제사상은 간략하게 송편, 구이, 김치, 과일 술 등 6개만 올리면 돼요. 차례상 표준안에도 없고 손이 많이 가는 전은 빼자고 하는 건 어때요? 이렇게 하면 간략하게 차릴 수 있는데 어른들께 한번 말씀드려봐요.",
+            "turn_id": "BK22014260-8",
+            "utterance_id": "BK22014260.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "표준안에 따르면 차례상에 6가지 음식만 올려도 되는군요. 제가 생각한 전통이랑 다른데요? 조선시대 추석은 어땠나요?",
+            "turn_id": "BK22014260-9",
+            "utterance_id": "BK22014260.17"
+        },
+        {
+            "reference_date": "44805.0",
+            "reference_text": [
+                {
+                    "value": "일기를 통해 본 조선시대 추석 명절은 친가와 외가 후손들이 번갈아 산소 벌초에 나서고, 상황이 여의치 않을 경우에는 간소한 음식으로 성묘하는 등 수확의 기쁨을 조상에게 감사하며 온 가족을 포용하는 철학을 엿볼 수 있다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.imaeil.com/page/view/2022090109581712426",
+            "search_query": "조선시대 추석",
+            "terminate": false,
+            "text": "조선시대 우리 조상들은 외가, 친가 후손을 따로 구분하지 않고 돌아가면서 조상의 산소 벌초를 했어요. 또 항상 음식을 많이 준비하는 게 아니라 상황이 좋지 않으면 그에 따라 음식도 간단하게 만들어 성묘하기도 했어요. 이런 식으로 조선시대에는 조상에게 감사를 표하면서도 가족도 생각하는 방식으로 명절을 보냈죠.",
+            "turn_id": "BK22014260-9",
+            "utterance_id": "BK22014260.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "원래 전통과도 다르다니 가서 전은 빼자고 이야기해야겠어요. 전 부치기 귀찮았는데 좋은 이유 알려주셔서 고마워요. 명절 잘 보내고 오시기 바랄게요.",
+            "turn_id": "BK22014260-10",
+            "utterance_id": "BK22014260.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "고마워요. 추석 잘 보내시고 명절 끝나고 다시 만나요.",
+            "turn_id": "BK22014260-10",
+            "utterance_id": "BK22014260.20"
+        }
+    ]
+}

@@ -1,0 +1,389 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002804",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002804",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "언니가 조카를 임신해서 저도 언니를 위해서 공부 좀 하려고요.",
+            "turn_id": "BK22002804-1",
+            "utterance_id": "BK22002804.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조카가 생겼다니 너무 축하해요! 언니가 임신한 지 얼마나 되었나요?",
+            "turn_id": "BK22002804-1",
+            "utterance_id": "BK22002804.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금 4주 차에 접어든다고 하네요. 임신 초기에는 어떤 몸의 변화가 나타나요?",
+            "turn_id": "BK22002804-2",
+            "utterance_id": "BK22002804.3"
+        },
+        {
+            "reference_date": "2022-06-05",
+            "reference_text": [
+                {
+                    "value": "임신이 이루어지면 월경이 멈춘다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "소변이 자주 마렵고, 유방이 커지고, 자궁이 커지면서 배가 당기고 아픈 느낌이 들며, 몸이 무겁고 피로하며 쉽게 졸린다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "70~80%의 여성에게서 임신 2개월부터 속이 메스껍고 오심이 이는 입덧 증상이 나타난다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%84%EC%8B%A0",
+            "search_query": "임신",
+            "terminate": false,
+            "text": "임신이 시작되면 우선 월경이 멈춰요. 그리고 소변이 자주 마렵거나 유방이 커지고, 배가 당기고 아픈 느낌이 들 수 있어요. 또 몸이 무겁기도 하고 쉽게 피로하고 졸려요. 임신 2개월에 접어들면 그때부터 흔히 말하는 입덧 증상이 70에서 80퍼센트의 여성에게 나타나요.",
+            "turn_id": "BK22002804-2",
+            "utterance_id": "BK22002804.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "언니도 지금 배가 당긴다고 하던데 자연스러운 증상이군요. 언니가 입덧이 심할까 봐 걱정이에요.",
+            "turn_id": "BK22002804-3",
+            "utterance_id": "BK22002804.5"
+        },
+        {
+            "reference_date": "2020-04-23",
+            "reference_text": [
+                {
+                    "value": "임신 중에는 하루 세번 규칙적으로 식사를 하는 것이 좋지만, 입덧이 심할 때는 조금씩 자주 먹는 것이 낫다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "입덧으로 구토가 심해지면 체내 수준이 부족해지기 쉬우므로 우유, 물, 주스, 과일, 채소, 보리차 등으로 수분을 보충해주는 것이 좋다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 입덧은 개인차가 큰편이기 때문에 입덧을 완화시켜준다는 음식을 먹어도 자신에게는 맞지 않는 경우가 있다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "의외로 평소에 먹지 않았던 음식이 입덧을 가라앉히는데 도움이 되는 경우도 있으므로, 자신이 먹을 수 있는 음식을 찾아 먹도록 한다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202004233170o",
+            "search_query": "입덧 완화 방법",
+            "terminate": false,
+            "text": "하루 세 번 규칙적인 식사가 좋지만, 입덧이 심한 경우에는 조금씩 자주 먹는 것이 좋아요. 그리고 구토가 심한 경우 체내 수분이 부족할 수 있으니 물이나 음료, 과일 등을 통해서 충분히 수분을 보충해 줘야 해요. 흔히들 입덧 완화 음식들을 추천하지만 입덧의 경우 개인차가 크기 때문에 자신에게 맞지 않는 경우도 있고, 평소에는 먹지 않았던 음식이 오히려 입덧 완화에 도움이 될 수도 있어요. 자신이 먹을 수 있는 본인만의 입덧 완화 음식을 찾아 먹는 것을 추천해요.",
+            "turn_id": "BK22002804-3",
+            "utterance_id": "BK22002804.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좋은 팁 알려주셔서 감사해요. 언니가 서울에 사는데 임산부 혜택 같은 것도 있을까요?",
+            "turn_id": "BK22002804-4",
+            "utterance_id": "BK22002804.7"
+        },
+        {
+            "reference_date": "2022-06-28",
+            "reference_text": [
+                {
+                    "value": "서울시가 오는 7월부터 임산부에게 1인당 70만원의 교통비를 지원할 예정이다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=979539",
+            "search_query": "서울시 임산부 혜택",
+            "terminate": false,
+            "text": "네, 서울시에서는 이번 7월부터 1인당 70만원의 교통비를 지원해요.",
+            "turn_id": "BK22002804-4",
+            "utterance_id": "BK22002804.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "언니에게 교통비 지원 혜택을 얼른 알려줘야겠어요. 임산부에게 필요한 영양소가 뭐예요?",
+            "turn_id": "BK22002804-5",
+            "utterance_id": "BK22002804.9"
+        },
+        {
+            "reference_date": "2022-07-06",
+            "reference_text": [
+                {
+                    "value": "임산부에게 중요한 영양소로는 비타민, 엽산, 철분 등이 꼽힌다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그중에서도 비타민 D는 특히 중요한 영양소로 알려져 있다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "부족할 경우 임산부뿐만 아니라 태아에게도 영향을 주기 때문이다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000714543",
+            "search_query": "임산부 영양소",
+            "terminate": false,
+            "text": "임산부에게 필요한 영양소는 비타민과 엽산, 철분 등이 있어요. 그중 비타민 D는 부족할 경우 임산부와 태아 모두에게 영향을 주기 때문에 특히 더 중요해요.",
+            "turn_id": "BK22002804-5",
+            "utterance_id": "BK22002804.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비타민 D는 임산부와 태아에게 어떤 영향을 주나요?",
+            "turn_id": "BK22002804-6",
+            "utterance_id": "BK22002804.11"
+        },
+        {
+            "reference_date": "2022-07-07",
+            "reference_text": [
+                {
+                    "value": "임신 중 비타민D 섭취가 출산할 자녀의 아토피 습진 발병률을 낮춘다는 연구 결과가 나왔다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "연구진은 아토피 발병률이 낮아진 이유에 대해 비타민D3인 '콜레카시페롤(cholecalciferol)'이 면역 체계 형성에 도움을 주고, 피부를 구성하는 단백질에도 영향을 주기 때문이라고 밝혔다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/07/06/2022070601329.html",
+            "search_query": "임산부 비타민D",
+            "terminate": false,
+            "text": "비타민 D3인 콜레카시페롤이 면역 체계 형성에 도움을 주고 피부를 구성하는 단백질에도 영향을 주기 때문에 임신 중 비타민 D를 섭취하게 되면 태어나는 자녀의 아토피 습진 발병률이 낮아진다는 연구 결과가 나왔어요.",
+            "turn_id": "BK22002804-6",
+            "utterance_id": "BK22002804.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "성분 좋은 비타민 영양제 선물해야겠어요. 임신중독증이라는 병이 있다고 들었는데 그게 뭔가요?",
+            "turn_id": "BK22002804-7",
+            "utterance_id": "BK22002804.13"
+        },
+        {
+            "reference_date": "2022-03-07",
+            "reference_text": [
+                {
+                    "value": "임신중독증(妊娠中毒症, 영어: pre-eclampsia, PE)은 고혈압의 증세를 보이고 종종 많은 양의 단백뇨가 배출되는 임신 질환이다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 질병은 임신 후기에 발생하며 시간이 지남에 따라 악화되는 것이 일반적이다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%84%EC%8B%A0%EC%A4%91%EB%8F%85%EC%A6%9D",
+            "search_query": "임신중독증",
+            "terminate": false,
+            "text": "임신중독증은 고혈압 증상이 나타나며 많은 양의 단백뇨가 배출되는 질환이에요. 보통 임신 후기에 발병하며 시간이 지날수록 더욱 악화되곤 해요.",
+            "turn_id": "BK22002804-7",
+            "utterance_id": "BK22002804.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신중독증 너무 무서운 병이네요. 혹시 임상적인 증상이 어떻게 되는지 아세요?",
+            "turn_id": "BK22002804-8",
+            "utterance_id": "BK22002804.15"
+        },
+        {
+            "reference_date": "2022-05-30",
+            "reference_text": [
+                {
+                    "value": "임신중독증을 의심해볼 수 있는 증상으로는 ◆지속적인 심한 두통 ◆1주일에 1㎏ 이상 급격한 체중 증가 ◆갑작스러운 시력 저하 ◆갈비뼈 바로 아래쪽 배(상복부)의 극심한 통증 ◆얼굴·손·발의 부종 등이 있다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.cctimes.kr/news/articleView.html?idxno=706404",
+            "search_query": "임신중독증 증상",
+            "terminate": false,
+            "text": "지속적으로 두통이 느껴진다거나 일주일에 1kg 이상 체중 증가, 또 갑자기 시력이 저하되거나 상복부의 통증, 얼굴과 손, 발의 부종 등의 증상이 나타나요.",
+            "turn_id": "BK22002804-8",
+            "utterance_id": "BK22002804.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "특별히 언니에게 더 신경 써야겠네요. 그럼 출산은 언제쯤 하나요?",
+            "turn_id": "BK22002804-9",
+            "utterance_id": "BK22002804.17"
+        },
+        {
+            "reference_date": "2022-03-24",
+            "reference_text": [
+                {
+                    "value": "사람의 출산은 대부분 임신 후 37주 ~ 42주 사이에 이루어진다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "산모가 임신 37주가 되기 전에 아이를 낳는 것을 조산(早産)이라고 하고, 42주가 지나서 아이를 낳는 것은 과숙 분만(過熟分娩)이라고 한다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B6%84%EB%A7%8C",
+            "search_query": "분만",
+            "terminate": false,
+            "text": "대부분 임신 후 37주에서 42주 사이에 분만하게 돼요. 만약 37주가 되기 전에 분만하게 되면 조산이에요. 반대로 42주가 지나서 분만하게 되면 과숙 분만이에요.",
+            "turn_id": "BK22002804-9",
+            "utterance_id": "BK22002804.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "37주라니 정말 엄마는 위대한 존재가 맞군요. 또 제가 알아야 하는 것이 있을까요?",
+            "turn_id": "BK22002804-10",
+            "utterance_id": "BK22002804.19"
+        },
+        {
+            "reference_date": "2022-02-23",
+            "reference_text": [
+                {
+                    "value": "산후우울증 (産後憂鬱症, Postpartum depression, PPD)은 주요 우울 장애의 일종으로 출산 이후 부모 모두에게 나타날 수 있다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%B0%ED%9B%84%EC%9A%B0%EC%9A%B8%EC%A6%9D",
+            "search_query": "산후우울증",
+            "terminate": false,
+            "text": "혹시 산후우울증이라고 들어본 적 있어요? 출산 이후 부모 모두에게 나타날 수 있는 우울증이에요. 가족들이 옆에서 많이 도와주고 세심히 살펴볼 필요가 있어요.",
+            "turn_id": "BK22002804-10",
+            "utterance_id": "BK22002804.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산후우울증 생각도 못 했는데 알려줘서 고마워요! 언니에게 도움이 될 수 있게 육아에 대해 얼른 공부해야겠어요.",
+            "turn_id": "BK22002804-11",
+            "utterance_id": "BK22002804.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 됐으면 좋겠네요. 공부 열심히 하시고요, 궁금한 게 있으면 언제든지 물어보세요!",
+            "turn_id": "BK22002804-11",
+            "utterance_id": "BK22002804.22"
+        }
+    ]
+}

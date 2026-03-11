@@ -1,0 +1,347 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012320",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012320",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "결혼 준비를 시작했는데 주변에서 스드메라는 말을 많이 사용하더라고요. 스드메가 뭔가요?",
+            "turn_id": "BK22012320-1",
+            "utterance_id": "BK22012320.1"
+        },
+        {
+            "reference_date": "43430.0",
+            "reference_text": [
+                {
+                    "value": "스드메는 스튜디오 촬영, 드레스 대여, 메이크업을 묶어 부르는 웨딩업계의 속어다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "한마디로 스드메는 스튜디오, 드레스, 메이크업을 줄여 이르는 말이다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "결혼식을 올리기 전에 찍는 앨범 촬영에서 예식 당일 신랑 신부 화장까지 포함하는 결혼 준비의 핵심 과정을 가리키는 말이라 할 수 있다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.topstarnews.net/news/articleView.html?idxno=532369",
+            "search_query": "스드메",
+            "terminate": false,
+            "text": "스드메는 웨딩 업계에서 사용하는 스튜디오 촬영, 드레스 대여, 메이크업의 줄임말이에요. 결혼 준비의 핵심 과정인 결혼 전 웨딩 촬영부터 결혼식 당일 신랑, 신부의 메이크업까지 포함하는 말이죠.",
+            "turn_id": "BK22012320-1",
+            "utterance_id": "BK22012320.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한 단어가 아니었군요. 친한 친구가 예단은 어떻게 할 생각이냐고 묻던데 예단은 어떤 걸 의미하는 건가요?",
+            "turn_id": "BK22012320-2",
+            "utterance_id": "BK22012320.3"
+        },
+        {
+            "reference_date": "41596.0",
+            "reference_text": [
+                {
+                    "value": "대부분의 신부들이 결혼준비 과정 중 생소하고 어려워하는 부분인 ‘예단’은 신부가 시댁에 ‘예물로 보내는 비단’이라는 뜻을 가지고 있다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "최근에는 신부가 신랑 집안의 며느리로 들어가면서 시댁식구들에게 드리는 선물을 통틀어 칭하며, 굳이 형식을 갖추기 보다는 형편과 취향에 따라 실용적으로 준비하는 추세이다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기본적으로 예단은 현금으로 준비하는 ‘현금예단’과 물건으로 준비하는 ‘현물예단’으로 나뉘며, 두 가지를 같이 하는 경우도 있고 보석, 악세사리, 모피류, 상품권, 해외여행권, 가구나 가전, 각종 회원권 등 실용적인 물품으로 준비하기도 한다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/004/0002250012?sid=101",
+            "search_query": "예단",
+            "terminate": false,
+            "text": "예단은 신부가 시댁에 예물로 보내는 비단이라는 뜻을 가지고 있어요. 최근에는 신부가 시댁 식구들에게 드리는 선물을 통틀어 예물이라고 하고 형식보다는 형편과 취향에 맞춰서 실용적인 예단을 준비하는 경우가 많아요. 단어가 생소해서 대부분의 신부가 예단을 어렵게 생각하는데 예단의 종류는 현금으로 드리는 현금예단, 물건을 드리는 현물예단으로 나뉘어요. 이 두가지를 같이 하는 경우도 있고 보석, 악세사리, 모피류, 상품권, 해외여행권, 가구나 가전, 각종 회원권 등 실용적인 선물을 드리기도 하죠.",
+            "turn_id": "BK22012320-2",
+            "utterance_id": "BK22012320.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제 친구는 예단 삼총사를 준비하느라 신경을 많이 썼다고 하던데 예단 삼총사는 뭐죠?",
+            "turn_id": "BK22012320-3",
+            "utterance_id": "BK22012320.5"
+        },
+        {
+            "reference_date": "41596.0",
+            "reference_text": [
+                {
+                    "value": "흔히 예단삼총사로 불리는 예단이불, 반상기, 은수저는 주요 현물예단이다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "과거 무병장수를 기원하던 예단이불은 오늘날 ‘며느리가 부족한 점이 있어도 사랑으로 덮어 달라’는 뜻을 담으며 신랑의 장남여부에 따라 내용물이 달라진다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/004/0002250012?sid=101",
+            "search_query": "예단 삼총사",
+            "terminate": false,
+            "text": "현물 예단으로 많이 선택하는 예단이불, 반상기, 은수저를 흔히 예단 삼총사라고 칭해요. 특히 예단이불은 과거에는 무병장수를 기원하는 의미를 가지고 있었는데 요즘은 며느리가 부족한 점이 있어도 사랑으로 덮어달라는 뜻으로 쓰이고 신랑의 장남 여부에 따라 내용물이 달라지죠.",
+            "turn_id": "BK22012320-3",
+            "utterance_id": "BK22012320.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "예단 이불에 그런 뜻이 있는 거군요. 그럼 반상기와 은수저를 예단으로 드리는 이유도 있나요?",
+            "turn_id": "BK22012320-4",
+            "utterance_id": "BK22012320.7"
+        },
+        {
+            "reference_date": "41596.0",
+            "reference_text": [
+                {
+                    "value": "반상기는 격식을 갖춘 밥상을 차릴 때 쓰는 그릇으로 최근에는 평소에도 쓸 수 있는 실용적인 구성을 선호하는 편이며 은수저는 건강을 체크하는 역할을 가진다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/004/0002250012?sid=101",
+            "search_query": "반상기 은수저",
+            "terminate": false,
+            "text": "격식을 갖춘 밥상을 차릴 때 사용하는 그릇을 반상기라고 하는데 최근에는 평상시에도 사용할 수 있는 실용적인 그릇을 예단으로 선호하는 추세예요. 은수저는 건강을 살핀다는 의미를 가지고 있어요.",
+            "turn_id": "BK22012320-4",
+            "utterance_id": "BK22012320.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신혼집을 미리 구해서 신혼집에 들일 가구를 미리 선택해야 하는데 어떤 가구 종류부터 봐야 할지 막막해요.",
+            "turn_id": "BK22012320-5",
+            "utterance_id": "BK22012320.9"
+        },
+        {
+            "reference_date": "44811.0",
+            "reference_text": [
+                {
+                    "value": "보통 신혼가구를 선택할 땐 침대 및 침실가구를 먼저 고른다. 이후 소파 및 거실가구, 식탁, 수납장 등의 순서로 택한다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20220907000557",
+            "search_query": "신혼 가구 선택",
+            "terminate": false,
+            "text": "보통 신혼 가구를 들일 때는 침대를 포함한 침실 가구를 먼저 선택해요. 그다음 소파 같은 거실 가구를 보고 나서 식탁, 수납장 등 순으로 선택하죠.",
+            "turn_id": "BK22012320-5",
+            "utterance_id": "BK22012320.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가구와 주방용품을 모두 혼수로 장만하려니 비용 부담이 되네요. 혼수 비용은 평균적으로 얼마 정도 되나요?",
+            "turn_id": "BK22012320-6",
+            "utterance_id": "BK22012320.11"
+        },
+        {
+            "reference_date": "44710.0",
+            "reference_text": [
+                {
+                    "value": "결혼정보회사 듀오가 최근 2년 내 결혼 신혼부부 대상으로 진행한 ‘2022 결혼비용 보고서’ 따르면 신혼부부의 평균 결혼비용 2억8739만원 중 가구·주방용품 등 혼수비용이 1471만원인 것으로 조사됐다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://view.asiae.co.kr/article/2022052715345340304",
+            "search_query": "혼수 비용",
+            "terminate": false,
+            "text": "결혼정보회사 듀오에서 2022년 기준 최근 2년 사이에 결혼한 신혼부부를 대상으로 조사한 2022 결혼비용 보고서에 따르면, 신혼부부의 평균 결혼 비용 2억 8739만원 중 가구, 주방용품 등 혼수로 사용하는 비용은 1417만원이에요.",
+            "turn_id": "BK22012320-6",
+            "utterance_id": "BK22012320.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혼수 비용이 만만치 않게 들어가네요. 혼수 준비를 마치는 대로 신혼 여행도 알아봐야 하는데 요즘 인기 있는 신혼 여행지는 어디인가요?",
+            "turn_id": "BK22012320-7",
+            "utterance_id": "BK22012320.13"
+        },
+        {
+            "reference_date": "44756.0",
+            "reference_text": [
+                {
+                    "value": "팜투어의 주말 신혼여행박람회 방문고객들의 예약통계 수치에 따르면 전체 수요 1위를 차지한 몰디브(34%)에 이어 하와이(27%)와 발리(21%)가 각각 2위와 3위에 위치했고 유럽과 칸쿤이 각각 4%로 4위와 5위를, 푸켓(3%)과 모리셔스, 코사무이가 빅8에 포진된 것으로 드러났다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.getnews.co.kr/news/articleView.html?idxno=591568",
+            "search_query": "신혼 여행지 순위",
+            "terminate": false,
+            "text": "팜투어에서 개최한 주말 신혼여행박람회 방문 고객들의 예약 통계를 보면 몰디브가 34%로 가장 인기가 있었고 하와이가 27%로 2위, 21%를 차지한 발리가 인기 여행지 3위에 올랐어요. 이 밖에 유럽과 칸쿤이 각각 4%로 4위와 5위이고 3%인 푸켓이 6위, 그 다음으로 모리셔스와 코사무이 순으로 인기가 있는 것으로 조사 됐어요.",
+            "turn_id": "BK22012320-7",
+            "utterance_id": "BK22012320.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하와이를 생각하고 있었는데 꽤 인기있는 신혼 여행지군요. 신혼 여행 다녀와서 혼인신고를 하기로 했는데 혼인신고는 어디에 가서 해야 하는지도 궁금해요.",
+            "turn_id": "BK22012320-8",
+            "utterance_id": "BK22012320.15"
+        },
+        {
+            "reference_date": "43881.0",
+            "reference_text": [
+                {
+                    "value": "혼인신고 하는법은 혼인신고는 시청, 구청, 읍, 면 사무소에 직접 방문을 하여 처리해야한다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "혼인신고는 동사무소(주민센터)에서는 불가능하다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.insightkorea.co.kr/news/articleView.html?idxno=76655",
+            "search_query": "혼인신고 하는 법",
+            "terminate": false,
+            "text": "혼인신고는 주민센터 같은 동사무소에서는 할 수 없고 시청, 구청, 읍, 면 사무소에 직접 방문해서 접수하시면 돼요.",
+            "turn_id": "BK22012320-8",
+            "utterance_id": "BK22012320.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가까운 주민센터에서 할 수 있으면 좋을 텐데 아쉽네요. 혼인 신고하려면 준비해야 할 서류들도 있나요?",
+            "turn_id": "BK22012320-9",
+            "utterance_id": "BK22012320.17"
+        },
+        {
+            "reference_date": "43881.0",
+            "reference_text": [
+                {
+                    "value": "혼인신고 필요서류는 혼인신고서 1통(구청, 읍,면사무소 비치), 혼인 당사자의 가족관계증명서 각1통, 혼인 당사자의 각 신분증, 혼인 당사자의 각 도장(사인도 가능), 증인 2명(날인서명)이다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.insightkorea.co.kr/news/articleView.html?idxno=76655",
+            "search_query": "혼인신고 필요 서류",
+            "terminate": false,
+            "text": "구청, 읍, 면사무소에 비치되어 있는 혼인신고서 1통, 혼인 당사자의 가족관계증명서 각 1통, 각 신분증, 각 도장이나 사인이 있어야 하고 증인 두 명의 날인 서명이 필요해요.",
+            "turn_id": "BK22012320-9",
+            "utterance_id": "BK22012320.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집 근처 구청에 가서 신고해야겠네요. 이제 막 준비하는 단계라 아는 게 별로 없었는데 여러 가지로 알려주셔서 잘 준비할 수 있을 것 같아요.",
+            "turn_id": "BK22012320-10",
+            "utterance_id": "BK22012320.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요. 준비하시다가 또 궁금한 점 있으시면 언제든 연락주세요.",
+            "turn_id": "BK22012320-10",
+            "utterance_id": "BK22012320.20"
+        }
+    ]
+}

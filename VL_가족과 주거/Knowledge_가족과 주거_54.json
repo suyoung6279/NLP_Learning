@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22017272",
+        "name": "2022 한국어 블렌더봇 데이터 BK22017272",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머니를 모시고 치과에 갔는데, 어금니 상태가 안 좋아 발치하고 임플란트를 해야 한다고 말씀하시더라고요.",
+            "turn_id": "BK22017272-1",
+            "utterance_id": "BK22017272.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "발치까지 해야 한다고 하니 걱정되시겠어요.",
+            "turn_id": "BK22017272-1",
+            "utterance_id": "BK22017272.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "틀니는 본 적이 있지만 임플란트를 본 적은 없는데, 구체적으로 임플란트가 무엇인가요?",
+            "turn_id": "BK22017272-2",
+            "utterance_id": "BK22017272.3"
+        },
+        {
+            "reference_date": "44834.0",
+            "reference_text": [
+                {
+                    "value": "임플란트는 인공치아를 치조골에 심어 치아 본연의 기능을 회복하는 방법이다.",
+                    "value_time": "44835.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이처럼 치아를 잃었을 때는 임플란트 시술이 도움이 될 수 있다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mdtoday.co.kr/news/view/1065595225948226",
+            "search_query": "임플란트",
+            "terminate": false,
+            "text": "임플란트는 치아가 없을 때 도움이 될 수 있는 시술로, 잇몸뼈에 인공치아를 심어 치아의 기능을 하게 하는 방법이에요.",
+            "turn_id": "BK22017272-2",
+            "utterance_id": "BK22017272.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제3의 치아라고 할 수 있겠네요. 이 임플란트는 이가 없는 사람은 누구나 시술받을 수 있나요",
+            "turn_id": "BK22017272-3",
+            "utterance_id": "BK22017272.5"
+        },
+        {
+            "reference_date": "44830.0",
+            "reference_text": [
+                {
+                    "value": "하지만 누구나 이 치료를 받을 수 있는 건 아니다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "틀니를 수십 년 사용해 잇몸 뼈가 부족해져 임플란트 불가 판정을 받거나, 70세 이상 고령자는 건강 상태에 따라 수술이 어려운 경우가 있다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://jhealthmedia.joins.com/article/article_view.asp?pno=25834",
+            "search_query": "임플란트 시술가능",
+            "terminate": false,
+            "text": "누구나 받을 수 있는 치료는 아니에요. 오랜 틀니 사용으로 잇몸뼈가 부족해 시술 불가 판정이 날 수도 있고, 70세 이상 어르신들은 건강 상태로 인해 시술이 어려워 못하는 경우도 있어요.",
+            "turn_id": "BK22017272-3",
+            "utterance_id": "BK22017272.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임플란트를 할 수 있는 것도 다행이라고 생각해야겠어요. 저희 어머니는 발치 후에 언제 임플란트를 하는 것이 좋을까요?",
+            "turn_id": "BK22017272-4",
+            "utterance_id": "BK22017272.7"
+        },
+        {
+            "reference_date": "44834.0",
+            "reference_text": [
+                {
+                    "value": "한 원장은 \"치아가 있는 공간이 오래 방치되면 잇몸뼈가 소실되고 이 공간으로 인접 치아가 기울어지거나 이동한다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "임플란트 시기는 치아 상실 후 빠를수록 좋다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.medical-tribune.co.kr/news/articleView.html?idxno=109804",
+            "search_query": "임플란트 시기",
+            "terminate": false,
+            "text": "어머님께서 발치를 하신다니 안타까운 일이네요. 발치 후 오래 방치하면 잇몸뼈가 없어지거나, 빈 공간으로 인해 주변 치아가 움직이거나 기울어질 수 있으니 가능한 한 빠르게 하는 것이 좋아요.",
+            "turn_id": "BK22017272-4",
+            "utterance_id": "BK22017272.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시술할 때 통증이 심한가요? 저희 어머니가 통증이 심할까 봐 걱정하세요.",
+            "turn_id": "BK22017272-5",
+            "utterance_id": "BK22017272.9"
+        },
+        {
+            "reference_date": "44834.0",
+            "reference_text": [
+                {
+                    "value": "디지털 기기를 이용하면 미리 임플란트를 식립할 경로를 파악할 수 있고, 가이드 제작 후 시술할 수 있어 부담이 적다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 잇몸을 크게 절개하지 않아도 바로 시술할 수 있어 출혈, 통증 등에 대한 걱정도 덜 수 있다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mdtoday.co.kr/news/view/1065609569924317",
+            "search_query": "임플란트 통증",
+            "terminate": false,
+            "text": "통증에 대한 걱정이 많으시군요. 그래도 요즘 의학기술이 많이 발전했어요. 디지털 기기를 사용하면 임플란트를 심을 경로를 미리 파악하여 가이드를 제작하기 때문에 시술 부담이 적어요. 특히 작게 잇몸을 절개하고도 바로 시술이 가능해 출혈이나 통증에 대한 걱정도 덜 하죠.",
+            "turn_id": "BK22017272-5",
+            "utterance_id": "BK22017272.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "통증을 줄일 수 있는 시술이 있다니 어머니가 좋아하시겠어요. 임플란트는 장기치료라는 생각이 있는데, 소요 기간이 얼마나 걸릴까요?",
+            "turn_id": "BK22017272-6",
+            "utterance_id": "BK22017272.11"
+        },
+        {
+            "reference_date": "44811.0",
+            "reference_text": [
+                {
+                    "value": "다만 임플란트 종류에 따라 그 소요시간이 다르며 보통 3~5개월이 소요된다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 전체 임플란트와 같이 난이도가 높은 케이스의 경우 1년 이상의 치료 기간이 필요할 때도 있다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mdtoday.co.kr/news/view/1065597958678234",
+            "search_query": "임플란트 소요기간",
+            "terminate": false,
+            "text": "경우에 따라 다르지만 보통 3~5개월 정도의 기간이 걸리죠. 하지만 전체를 다 하는 임플란트 같은 난이도 상의 시술은 1년 이상의 치료 기간이 걸릴 수도 있고요.",
+            "turn_id": "BK22017272-6",
+            "utterance_id": "BK22017272.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "원데이 임플란트라는 이야기를 들어본 적이 있는데, 이름처럼 하루에 시술이 끝나는 임플란트 종류인가요?",
+            "turn_id": "BK22017272-7",
+            "utterance_id": "BK22017272.13"
+        },
+        {
+            "reference_date": "44811.0",
+            "reference_text": [
+                {
+                    "value": "원데이 임플란트란 치료 당일 치아를 발치한 후 인공치근을 심고 임시 보철물까지 식립하는 방법이다.",
+                    "value_time": "44835.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "치료 당일 간단한 식사가 가능하며 치과 치료를 위해 많은 시간을 내기 어려운 이들에게 적합하다 할 수 있다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mdtoday.co.kr/news/view/1065597958678234",
+            "search_query": "원데이 임플란트",
+            "terminate": false,
+            "text": "네, 치과 치료에 시간을 많이 내지 못하는 이들에게 적합한 시술로, 당일 치아 발치는 물론 인공치근을 심고 보철물까지 식립하는 임플란트에요. 이 시술을 받으면 당일에 바로 간단한 식사를 할 수 있어요.",
+            "turn_id": "BK22017272-7",
+            "utterance_id": "BK22017272.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "식사 못하고 치료가 오래 걸리면 힘드시니까 저희 어머니도 이 시술로 하면 좋겠어요. 임플란트가 가능한 사람이면 원데이 임플란트를 할 수 있나요?",
+            "turn_id": "BK22017272-8",
+            "utterance_id": "BK22017272.15"
+        },
+        {
+            "reference_date": "44811.0",
+            "reference_text": [
+                {
+                    "value": "하지만 모든 이가 원데이 임플란트를 할 수 있는 것은 아니다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "환자의 잇몸뼈 상태에 따라 치료 가능 여부와 기간이 결정되기 때문이다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mdtoday.co.kr/news/view/1065597958678234",
+            "search_query": "원데이 임플란트",
+            "terminate": false,
+            "text": "환자의 잇몸뼈의 상태가 어떤지에 따라 치료 가능 여부와 기간이 결정되기 때문에 누구나 원데이 임플란트가 가능한 건 아니에요",
+            "turn_id": "BK22017272-8",
+            "utterance_id": "BK22017272.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임플란트는 보험적용이 안 되는 시술이죠?",
+            "turn_id": "BK22017272-9",
+            "utterance_id": "BK22017272.17"
+        },
+        {
+            "reference_date": "44834.0",
+            "reference_text": [
+                {
+                    "value": "건강보험 혜택으로 만 65세 이상의 경우 평생에 걸쳐 2개까지 보험 급여로 받아볼 수 있다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mdtoday.co.kr/news/view/1065605303540686",
+            "search_query": "임플란트 건강보험",
+            "terminate": false,
+            "text": "만 65세 이상은 평생 2개의 임플란트까지 건강 보험 혜택을 받을 수 있어요.",
+            "turn_id": "BK22017272-9",
+            "utterance_id": "BK22017272.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 어머니는 해당이 돼요. 치료비용과 아플까 봐 걱정하고 계신 데 얼른 가서 알려드려야겠어요.",
+            "turn_id": "BK22017272-10",
+            "utterance_id": "BK22017272.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "어머님 치료 잘 받고 빨리 회복하시라고 전해주세요.",
+            "turn_id": "BK22017272-10",
+            "utterance_id": "BK22017272.20"
+        }
+    ]
+}

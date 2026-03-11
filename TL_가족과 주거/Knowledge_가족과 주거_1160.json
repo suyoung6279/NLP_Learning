@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007466",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007466",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "점심 맛있게 드셨어요? 혹시 저랑 얘기 나눌 시간 좀 있으세요?",
+            "turn_id": "BK22007466-1",
+            "utterance_id": "BK22007466.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 시간 괜찮으니까 말씀하세요. 무슨 힘든 일이라도 있으세요?",
+            "turn_id": "BK22007466-1",
+            "utterance_id": "BK22007466.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이제 출산 예정일이 한 달 정도 남아서 출산용품 사러 어제 백화점에 다녀왔거든요. 간 김에 유모차도 좀 알아보려고 했는데 종류가 너무 다양해서 뭘 알아 봐야 할지도 모르겠더라고요. 매장 직원분이 디럭스랑 뭐 뭐가 있다고 한 것 같은데 유모차에는 어떤 종류가 있어요?",
+            "turn_id": "BK22007466-2",
+            "utterance_id": "BK22007466.3"
+        },
+        {
+            "reference_date": "2015-10-22",
+            "reference_text": [
+                {
+                    "value": "유모차는 보통 디럭스, 절충형, 휴대용으로 나뉜다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "무슨 말인지 선뜻 이해가 안간다면 바뀌 크기에 따라 나뉜다고 보면 된다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "바퀴가 가장 큰게 디럭스형이고 그다음이 절충형, 가장 부실한 바퀴가 휴대용이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01308726609499792&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "유모차 분류",
+            "terminate": false,
+            "text": "일반적으로 유모차는 바퀴의 크기에 따라 디럭스, 절충형, 휴대용으로 구분해요. 바퀴의 크기가 가장 큰 유모차가 디럭스 형이고 그다음이 절충형, 가장 작은 유모차가 휴대용이에요.",
+            "turn_id": "BK22007466-2",
+            "utterance_id": "BK22007466.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 바퀴에 따른 구분이었군요. 바퀴가 제일 큰 디럭스 유모차는 어떤 특징이 있어요?",
+            "turn_id": "BK22007466-3",
+            "utterance_id": "BK22007466.5"
+        },
+        {
+            "reference_date": "2020-11-13",
+            "reference_text": [
+                {
+                    "value": "디럭스 유모차는 큰 바퀴와 넓고 안정감 있는 시트로 작은 흔들림에도 민감한 신생아들이 쓰기에 적합하다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 외출이 많거나 소형 차량을 사용하는 부모들에게는 큰 부피와 무게가 다소 부담스럽게 느껴질 수 있다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=89988",
+            "search_query": "디럭스 유모차",
+            "terminate": false,
+            "text": "디럭스 유모차는 바퀴가 크고 시트가 넓으면서 안정감 있기 때문에 작은 진동에도 예민한 신생아 시기에 사용하기 적합한 유모차예요. 다만 큰 부피와 무게로 인해 외출이 잦거나 소형 차량을 운전하는 부모들에게는 다소 버겁게 느껴질 수 있어요.",
+            "turn_id": "BK22007466-3",
+            "utterance_id": "BK22007466.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그럼 절충형 유모차의 특징은 무엇인가요?",
+            "turn_id": "BK22007466-4",
+            "utterance_id": "BK22007466.7"
+        },
+        {
+            "reference_date": "2020-11-13",
+            "reference_text": [
+                {
+                    "value": "절충형 유모차는 디럭스의 안전성과 휴대용의 컴팩트함을 합친 유모차로 디럭스보다는 가볍고 휴대용보다는 안정적이어서 디럭스 유모차가 부담스러운 부모들에게 적합한 유모차다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=89988",
+            "search_query": "절충형 유모차",
+            "terminate": false,
+            "text": "절충형 유모차는 디럭스 유모차가 가지고 있는 안전성과 휴대용 유모차가 가지고 있는 콤팩트함을 결합한 유모차예요. 디럭스 유모차와 비교하면 무게가 덜 나가고 휴대용 유모차와 비교하면 안정적이기 때문에 디럭스 유모차가 부담이 되는 경우 좋은 대안이 될 수 있어요.",
+            "turn_id": "BK22007466-4",
+            "utterance_id": "BK22007466.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조금 전에는 디럭스 형에 마음이 쏠리고 있었는데 절충형에 관해 설명을 들으니 절충형도 좋을 것 같아요. 그럼 마지막으로 휴대용 유모차는 어떤 특징을 가지고 있나요?",
+            "turn_id": "BK22007466-5",
+            "utterance_id": "BK22007466.9"
+        },
+        {
+            "reference_date": "2020-11-13",
+            "reference_text": [
+                {
+                    "value": "휴대용 유모차는 외출에 가장 최적화된 유모차로 가벼운 무게와 손쉬운 폴딩, 기동성 등이 장점이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=89988",
+            "search_query": "휴대용 유모차",
+            "terminate": false,
+            "text": "휴대용 유모차는 무게가 가볍고 간편한 폴딩이 가능하며 기동성이 좋기 때문에 외출할 때 가장 효율적으로 사용할 수 있어요.",
+            "turn_id": "BK22007466-5",
+            "utterance_id": "BK22007466.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "각각 장단점이 확실하네요. 말씀해 주신 내용 참고해서 어떤 종류의 유모차를 살지 고민해 볼게요. 참, 제 친구가 유모차를 고를 때 양대면 전환이 되는지 꼭 확인하라고 하던데 양대면 전환이 뭐예요?",
+            "turn_id": "BK22007466-6",
+            "utterance_id": "BK22007466.11"
+        },
+        {
+            "reference_date": "2019-02-13",
+            "reference_text": [
+                {
+                    "value": "'양대면 전환'이란 유모차에 탄 아이의 방향을 바꾸는 기능으로, 유모차의 주행 방향을 바라보는 '앞보기'와 보호자와 마주보는 '뒤보기'를 얼마나 편리하게 바꿀 수 있는 지 비교해 보는 것이 필요하다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://kr.aving.net/news/articleView.html?idxno=1485547",
+            "search_query": "유모차 양대면 전환",
+            "terminate": false,
+            "text": "유모차에 탑승한 아이가 바라보는 방향을 바꾸는 기능을 양대면 전환이라고 해요. 앞 보기는 아이가 유모차가 진행하는 방향을 바라보는 것을 말하고 뒤보기는 보호자와 마주 보는 상태를 말해요. 유모차를 고를 때 편리한 양대면 전환이 가능한지도 고려할 필요가 있어요.",
+            "turn_id": "BK22007466-6",
+            "utterance_id": "BK22007466.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 유모차 시트의 방향을 바꾸는 것이군요. 유모차는 아이가 항상 앞을 바라보는 거라고 생각했는데 서로 마주 볼 수도 있다니 신기하네요. 이렇게 마주 보는 상태로 이동하는 게 아이에게 도움이 되나요?",
+            "turn_id": "BK22007466-7",
+            "utterance_id": "BK22007466.13"
+        },
+        {
+            "reference_date": "2019-02-13",
+            "reference_text": [
+                {
+                    "value": "실제로 영국 던디 대학의 연구에 따르면 아기들이 앞보기 상태의 유모차에 탑승해 있는 동안 부모의 얼굴을 보지 못해 힘들어하고, 반대로 부모의 얼굴을 마주보도록 한 유모차에 탑승한 아이들은 더 잘 웃고 스트레스도 덜 받는 것으로 나타났다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://kr.aving.net/news/articleView.html?idxno=1485547",
+            "search_query": "유모차 방향 아기 스트레스",
+            "terminate": false,
+            "text": "영국 던디 대학에서 이와 관련된 연구를 진행했는데 앞 보기 상태로 유모차에 탄 아기들은 유모차에 타고 있는 동안 부모의 모습을 볼 수 없어서 힘들어했지만 부모와 서로 마주 보는 상태로 유모차에 탄 아기들은 더 적은 스트레스를 받고 더 많이 웃는 것으로 밝혀졌어요.",
+            "turn_id": "BK22007466-7",
+            "utterance_id": "BK22007466.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그럼 양대면 전환이 가능하고 편리한 유모차를 골라야겠네요. 그런데 유모차에 갓난아기를 태워서 울퉁불퉁한 보도블록을 지나면 유모차가 많이 흔들려서 아기한테 나쁜 영향을 끼치지는 않나요? 흔들림이나 충격에 강한 유모차를 사려면 어떤 부분을 확인해 봐야 하는지도 궁금해요.",
+            "turn_id": "BK22007466-8",
+            "utterance_id": "BK22007466.15"
+        },
+        {
+            "reference_date": "2019-02-13",
+            "reference_text": [
+                {
+                    "value": "신생아가 타는 유모차는 지면으로부터의 충격 흡수 기능이 무엇보다 중요하다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "목에 힘이 없고 뇌혈관이 덜 발달된 아기가 심한 흔들림에 노출될 경우 뇌출혈, 망막 출혈 등을 유발하는 흔들림 증후군을 겪을 수 있기 때문이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "과도한 흔들림으로부터 아이를 보호해줄 수 있는 유모차를 찾기 위해선 서스펜션, 타이어, 안전벨트 등을 중점적으로 비교해 보자.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://kr.aving.net/news/articleView.html?idxno=1485547",
+            "search_query": "유모차 충격 흡수 기능",
+            "terminate": false,
+            "text": "뇌혈관이 완전히 발달하지 않고 목에 힘이 생기지 않은 아기가 격한 흔들림에 노출되면 흔들림 증후군에 의해 뇌출혈, 망막 출혈 등이 유발될 수 있어서 신생아가 사용하는 유모차는 지면에서 발생하는 충격을 효과적으로 흡수하는 것이 굉장히 중요해요. 아이를 심한 흔들림으로부터 보호하려면 유모차를 고를 때 서스펜션, 타이어, 안전벨트 등을 꼼꼼하게 살펴봐야 해요.",
+            "turn_id": "BK22007466-8",
+            "utterance_id": "BK22007466.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 명심할게요. 그리고 요즘 카시트 겸용으로 사용할 수 있는 유모차도 많이 사용한다고 들었는데 맞나요? 일반 유모차와는 어떤 점이 다른지도 궁금해요.",
+            "turn_id": "BK22007466-9",
+            "utterance_id": "BK22007466.17"
+        },
+        {
+            "reference_date": "2019-02-13",
+            "reference_text": [
+                {
+                    "value": "이와 함께 최근 수요가 늘고 있는 신생아용 카시트(바구니형)를 유모차 프레임에 호환하여 사용할 수 있는 트래블 시스템이 가능한 지를 체크하는 것도 고려해보자.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "트래블 시스템이 적용되는 유모차의 경우 카시트에서 잠든 아이를 깨우지 않고 그대로 유모차로, 또 차량으로 이동시킬 수 있어 이동이 편리하며 병원, 식당 등으로의 이동 시에도 바구니카시트를 활용하여 케어할 수 있는 여러 장점이 있다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://kr.aving.net/news/articleView.html?idxno=1485547",
+            "search_query": "유모차 트래블 시스템",
+            "terminate": false,
+            "text": "네, 신생아용으로 사용하는 바구니형 카시트를 유모차의 프레임에 호환하여 쓰는 트래블 시스템 기능을 탑재한 유모차에 대한 수요가 요즘 늘어나고 있어요. 이런 트래블 시스템이 적용된 유모차를 사용하면 카시트에서 아이가 잠들었을 경우 아이를 깨우지 않고 바로 유모차로 옮길 수 있고 반대의 경우에는 유모차에서 차량으로 옮길 수도 있기 때문에 편리한 이동이 가능해요. 그리고 병원이나 식당 같은 곳에 방문할 때 바구니 카시트를 아이의 케어에 활용할 수 있다는 장점도 있으니 유모차 선택 시 트래블 시스템 가능 여부를 확인해 볼 필요가 있어요.",
+            "turn_id": "BK22007466-9",
+            "utterance_id": "BK22007466.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자세히 설명해 주셔서 감사해요. 덕분에 알맞은 유모차를 살 수 있을 것 같아요.",
+            "turn_id": "BK22007466-10",
+            "utterance_id": "BK22007466.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 기쁘네요. 앞으로도 궁금한 게 있으면 언제든 물어보세요.",
+            "turn_id": "BK22007466-10",
+            "utterance_id": "BK22007466.20"
+        }
+    ]
+}

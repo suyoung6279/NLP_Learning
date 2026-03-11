@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016162",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016162",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나 이번에 서울 올라가면서 집을 좀 구해야 해서 뭐 좀 물어봐도 돼?",
+            "turn_id": "BK22016162-1",
+            "utterance_id": "BK22016162.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너 서울에 일하러 간다고 하더니 이제 가나 보구나.",
+            "turn_id": "BK22016162-1",
+            "utterance_id": "BK22016162.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 1년 정도 가 있을 것 같은데 청년공공임대주택 이라는 게 있다고 하더라고. 혹시 어떤 종류가 있는지 알아?",
+            "turn_id": "BK22016162-2",
+            "utterance_id": "BK22016162.3"
+        },
+        {
+            "reference_date": "2022-10-14",
+            "reference_text": [
+                {
+                    "value": " 현재 LH가 공급하는 만 19~39세 대상 청년공공임대주택은 △청년 매입임대 △기숙사형 매입임대 △청년 전세임대 △행복주택(대학생·청년 외에 신혼부부, 고령자, 주거급여수급자 등도 거주대상)이다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.naeil.com/news_view/?id_art=438398",
+            "search_query": "청년공공임대주택",
+            "terminate": false,
+            "text": "아, LH에서 공금하는 청년공공임대주택이 있어. 종류는 청년 매입임대와 기숙사형매입임대, 청년 전세임대, 행복주택등으로 나뉘어져 있어.",
+            "turn_id": "BK22016162-2",
+            "utterance_id": "BK22016162.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "LH에서 운영하는 거구나. 청년 전세임대는 대상이 어떻게 되는지 혹시 알아?",
+            "turn_id": "BK22016162-3",
+            "utterance_id": "BK22016162.5"
+        },
+        {
+            "reference_date": "2020-10-27",
+            "reference_text": [
+                {
+                    "value": "청년전세임대 대상은 무주택·소득 · 자산기준을 충족하는 대학생이나 취업준비생, 만19~39세 이하이다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.straightnews.co.kr/news/articleView.html?idxno=85145",
+            "search_query": "청년전세임대 대상",
+            "terminate": false,
+            "text": "청년전세임대는 무주택자이면서 일정 소득과 자산기준을 충족하는 대학생, 취업준비생과 만 19세에서 39세 이하의 사람이 대상이야.",
+            "turn_id": "BK22016162-3",
+            "utterance_id": "BK22016162.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 나도 가능할 것 같은데. 전세금을 융자해주는 거잖아? 지원한도가 어느 정도나 될까?",
+            "turn_id": "BK22016162-4",
+            "utterance_id": "BK22016162.7"
+        },
+        {
+            "reference_date": "2020-09-03",
+            "reference_text": [
+                {
+                    "value": "청년임대주택에 선발되면 전세금 융자를 지원받는다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한도액은 수도권을 기준으로 최대 1억2000만원이다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "광역시는 9500만원, 기타지역은 8500만원까지다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.polinews.co.kr/news/article.html?no=473652",
+            "search_query": "청년전세임대 전세금 지원한도",
+            "terminate": false,
+            "text": "청년임대주택에 선발이 되면 지원되는 전세금 한도는 수도권이 최대 1억2천만원까지이고 광역시는 9500만원, 나머지는 8500만원까지야.",
+            "turn_id": "BK22016162-4",
+            "utterance_id": "BK22016162.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 생각보다 많이 지원이 되는구나. 본인부담금도 있을 것 같은데 얼마나 될까?",
+            "turn_id": "BK22016162-5",
+            "utterance_id": "BK22016162.9"
+        },
+        {
+            "reference_date": "2020-08-31",
+            "reference_text": [
+                {
+                    "value": "청년·신혼부부 전세임대주택 지원금액은 수도권의 경우 1억2천만 원으로 본인부담금은 청년 1순위 100만 원, 2순위 200만 원이고, 신혼부부는 지원한도액 범위 내 전세보증금의 5%다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "임대료는 지원한도액 이내 전세보증금에서 본인부담금을 뺀 나머지 금액의 1~2% 금리를 적용해 산정하고 있다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongboo.com/news/articleView.html?idxno=363442117",
+            "search_query": "청년전세임대 본인부담금",
+            "terminate": false,
+            "text": "순위에 따라 다른데 1순위의 본인부담금은 백만원이고 2순위는 2백만원이야. 그리고 임대료는 지원한도액 내의 보증금에서 본인부담금을 제외한 나머지 금액에 대해 1에서 2퍼센트 금리 적용해 산정이 되고 있어.",
+            "turn_id": "BK22016162-5",
+            "utterance_id": "BK22016162.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "금리도 엄청 저렴하게 적용을 해주는구나. 1순위가 되면 좋을 것 같은데 1순위는 어떤 사람이 대상이야?",
+            "turn_id": "BK22016162-6",
+            "utterance_id": "BK22016162.11"
+        },
+        {
+            "reference_date": "2022-08-31",
+            "reference_text": [
+                {
+                    "value": "먼저 1순위는 생계·주거 의료급여 수급자 가구, 보호대상 한부모가족 가구, 차상위계층 가구의 청년, 보호종료아동 , 청소년 쉼터 퇴소청소년 등이다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.youthdaily.co.kr/news/article.html?no=109126",
+            "search_query": "청년전세임대 1순위 대상자",
+            "terminate": false,
+            "text": "1순위는 생계,주거 의료급여 수급자 가구에 속하는 사람과 보호대상 한부모가족 가구인 경우, 차상위계층 가구의 청년인 경우와 보호종료아동, 청소년 쉼터 퇴소 청소년 등이 대상이야.",
+            "turn_id": "BK22016162-6",
+            "utterance_id": "BK22016162.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 나는 해당 사항이 없네. 대상을 선정할 때 동일 순위이면 어떤 식으로 우선순위가 정해지는거야?",
+            "turn_id": "BK22016162-7",
+            "utterance_id": "BK22016162.13"
+        },
+        {
+            "reference_date": "2022-07-19",
+            "reference_text": [
+                {
+                    "value": "배점을 합산하여 총점이 높은 순으로 입주대상자를 선정하되, 동일 점수인 경우 각 항목의 순서에 따라 점수가 높은 순으로 입주대상자 선정(LH 청약센터 공고문 참조.)",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.namdonews.com/news/articleView.html?idxno=688765",
+            "search_query": "청년전세임대 동일 순위 우선순위",
+            "terminate": false,
+            "text": "선정을 할 때 배점을 합해서 총점이 높은 순서대로 대상자를 선정하는데 동일 점수가 있으면 각 항목 순서에 따라서 점수가 높은 순으로 입주대상자를 선정하게 돼.",
+            "turn_id": "BK22016162-7",
+            "utterance_id": "BK22016162.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "항목별 순서가 정해져 있나보네. 한 번 들어가면 얼마 기간동안 살 수 있는거야?",
+            "turn_id": "BK22016162-8",
+            "utterance_id": "BK22016162.15"
+        },
+        {
+            "reference_date": "2016-09-20",
+            "reference_text": [
+                {
+                    "value": "임대기간은 2년으로 3회까지 연장이 가능해 최대 6년까지 살 수 있다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/037/0000022293?sid=101",
+            "search_query": "청년전세임대 기간",
+            "terminate": false,
+            "text": "청년전세임대는 기간이 2년인데 3번 연장이 가능해서 최대 6년까지 살 수가 있어.",
+            "turn_id": "BK22016162-8",
+            "utterance_id": "BK22016162.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 연장이 3번이나 되다니 정말 괜찮다. 임대주택 위치나 조건을 자세히 보려면 어디서 확인할 수 있을까?",
+            "turn_id": "BK22016162-9",
+            "utterance_id": "BK22016162.17"
+        },
+        {
+            "reference_date": "2019-08-13",
+            "reference_text": [
+                {
+                    "value": "주택 소재지와 자세한 임대조건 등 기타 자세한 사항은 LH 청약센터 홈페이지에 게시된 입주자모집 공고문을 확인하거나 LH 콜센터(1600-1004)로 문의하면 된다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ebn.co.kr/news/view/996942",
+            "search_query": "청년전세임대 임대조건 확인",
+            "terminate": false,
+            "text": "소재지나 상세 임대조건등을 보려면 LH 청약센터 홈페이지에 나와있는 입주자모집 공고문을 보면되고, LH콜센터로 전화를 해도 돼.",
+            "turn_id": "BK22016162-9",
+            "utterance_id": "BK22016162.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 고마워, 덕분에 정말 많이 도움이 됐어. 내가 확인해보고 또 연락할게.",
+            "turn_id": "BK22016162-10",
+            "utterance_id": "BK22016162.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 잘 돼서 들어갈 수 있으면 좋겠다. 다음에 또 연락하자.",
+            "turn_id": "BK22016162-10",
+            "utterance_id": "BK22016162.20"
+        }
+    ]
+}

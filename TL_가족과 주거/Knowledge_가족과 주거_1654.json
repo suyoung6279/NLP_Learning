@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011965",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011965",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근에 이사를 하게 되면서 인테리어를 하고 싶은데요. 인테리어에 대해 잘 몰라 어떻게 집을 꾸며야 할지 막막하네요.",
+            "turn_id": "BK22011965-1",
+            "utterance_id": "BK22011965.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 인테리어에 대해 고민이 있으시구나. 혹시 플랜테리어라고 들어보셨어요?",
+            "turn_id": "BK22011965-1",
+            "utterance_id": "BK22011965.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아니요, 처음 들어보는 단어인데요. 혹시 플랜테리어가 뭔지 알 수 있을까요?",
+            "turn_id": "BK22011965-2",
+            "utterance_id": "BK22011965.3"
+        },
+        {
+            "reference_date": "2022-05-10",
+            "reference_text": [
+                {
+                    "value": "플랜테리어(planterior)란 'plant(식물)'와 'interior(인테리어)'의 합성어로, 식물을 활용한 인테리어를 의미한다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "최근 몇 년 사이, 플랜테리어라는 단어가 우리 생활에 매우 가까이 와 있음을 느낀다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002832943&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+            "search_query": "플랜테리어",
+            "terminate": false,
+            "text": "네, 플랜테리어는 식물과 인테리어를 합친 말인데요. 식물을 활용한 인테리어를 말하죠. 참고로 최근 몇 년 사이, 플랜테리어가 우리 생활에 친근해졌어요.",
+            "turn_id": "BK22011965-2",
+            "utterance_id": "BK22011965.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 의미가 있군요. 그렇다면 실내에서 식물을 키울 때 어떤 장점이 있을까요?",
+            "turn_id": "BK22011965-3",
+            "utterance_id": "BK22011965.5"
+        },
+        {
+            "reference_date": "2022-05-10",
+            "reference_text": [
+                {
+                    "value": "식물을 가까이 두고 키우는 것은 정서적으로 불안과 외로움을 많이 경험하는 현대인들의 심리에 긍정적인 치유효과를 준다고 한다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 식물을 집 안에 두면 공기 정화와 실내습도를 조절해주는 효과까지 있다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002832943&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+            "search_query": "식물키우기 장점",
+            "terminate": false,
+            "text": "네, 식물은 편안한 인테리어 스타일을 추구할 때 좋은 아이템이 되어주죠. 식물을 가까이 두고 키우면 정서적으로 불안함을 느끼는 현대인들의 심리에 긍정적인 치유 효과를 줘요. 그리고 집 안에 식물을 두면 공기 정화와 실내 습도를 조절해주기도 하죠.",
+            "turn_id": "BK22011965-3",
+            "utterance_id": "BK22011965.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 아 실내 습도 조절과 심신 안정에 도움이 되는군요. 그렇다면 플랜테리어의 장점은 어떤 것이 있을까요?",
+            "turn_id": "BK22011965-4",
+            "utterance_id": "BK22011965.7"
+        },
+        {
+            "reference_date": "2022-04-24",
+            "reference_text": [
+                {
+                    "value": "자신이 머무는 공간의 조건이나 분위기에 어울리는 식물을 선택해 배치하면 시간과 비용을 적게 들이면서 실내장식 효과를 얻을 수 있다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "거실, 주방, 침실, 화장실, 공부방, 사무실, 독서실 등 주거 공간의 용도에 따라 그에 적합한 식물들을 배치하면 그 효과는 더 커질 것이다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전문가 또는 온라인 지식의 도움을 받아 식물의 특성에 대한 기초 지식과 물 주기, 햇빛, 온도 등과 같은 관리 방법을 터득하면 누구나 쉽게 가정이나 사무 공간에서 플랜테리어의 효과를 경험할 수 있는 것이다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.inews365.com/news/article.html?no=711802",
+            "search_query": "플랜테리어의 효과",
+            "terminate": false,
+            "text": "네, 자신이 머무는 공간의 조건과 분위기에 어울리는 식물을 두면 시간과 비용을 최소화하고 실내장식 효과를 얻을 수 있다는 장점이 있어요. 거실, 침실, 주방, 화장실 등의 공간에 적합한 식물들을 놓으면 효과는 더더욱 커지죠. 식물에 대한 기초 지식과 물 주기, 햇빛, 온도 등과 같은 관리 방법을 온라인 지식이나 전문가를 통해 알게 되면 누구나 쉽게 주거 공간에서 플랜테리어의 효과를 경험해 볼 수도 있어요.",
+            "turn_id": "BK22011965-4",
+            "utterance_id": "BK22011965.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 누구나 쉽게 길러 실내장식을 할 수 있다는 장점이 있군요. 그렇다면 최근에 플랜테리어가 주목받게 된 원인이 뭐예요?",
+            "turn_id": "BK22011965-5",
+            "utterance_id": "BK22011965.9"
+        },
+        {
+            "reference_date": "2021-11-21",
+            "reference_text": [
+                {
+                    "value": "코로나19 이후 지친 심신에 위안을 주는 '홈 가드닝'과 '반려식물'에 관심이 높아지면서 더욱 주목받고 있다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4498774",
+            "search_query": "플랜테리어 수요 영향",
+            "terminate": false,
+            "text": "네, 코로나 펜데믹으로 인해 지친 심신 안정에 탁월한 홈 가드닝과 반려 식물이 인기를 끌게 되면서 플랜테리어가 더욱 주목받게 되었죠.",
+            "turn_id": "BK22011965-5",
+            "utterance_id": "BK22011965.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 코로나가 장기화 되면서 플랜테리어가 부상하게 되었군요. 그렇다면 플랜테리어를 하는 게 과학적으로 효과가 있나요?",
+            "turn_id": "BK22011965-6",
+            "utterance_id": "BK22011965.11"
+        },
+        {
+            "reference_date": "2022-02-17",
+            "reference_text": [
+                {
+                    "value": "과학적으로도 식물의 녹색을 보는 것만으로도 높은 안정 효과가 있고, 흙을 만지는 행동은 행복 물질인 '세로토닌'의 분비를 활발하게 해주는 효과가 있다고 한다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongdo.co.kr/web/view.php?key=20220217010003537",
+            "search_query": "식물 호르몬",
+            "terminate": false,
+            "text": "네, 그럼요. 과학적으로 식물의 초록색을 보는 것만으로도 안정감에 도움을 주고, 흙을 만지면 세로토닌과 같은 행복 물질의 분비를 활발하게 해주는 효과가 있죠.",
+            "turn_id": "BK22011965-6",
+            "utterance_id": "BK22011965.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 세로토닌의 분비를 활발하게 해주는군요. 그렇다면 혹시 플랜테리어가 인기를 끌게 되면서 생겨난 신조어가 있을까요?",
+            "turn_id": "BK22011965-7",
+            "utterance_id": "BK22011965.13"
+        },
+        {
+            "reference_date": "2022-06-30",
+            "reference_text": [
+                {
+                    "value": "외부 활동이 제한됐던 코로나 팬데믹 기간 동안 플랜테리어에 대한 관심이 더 높아졌으며, 실내에서 가까이 두고 키우는 식물이라는 의미의 '반려식물', 그리고 식물을 아끼며 키우는 사람들을 이르는 '식집사'라는 키워드까지 등장했다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://digitalchosun.dizzo.com/site/data/html_dir/2022/06/30/2022063080130.html",
+            "search_query": "식집사",
+            "terminate": false,
+            "text": "네, 반려 식물과 식집사라는 키워드가 등장했는데요. 먼저, 반려 식물은 실내에서 가까이 두고 키우는 식물이라는 말이고, 식집사는 식물을 아끼며 키우는 사람들을 가리키는 말이죠.",
+            "turn_id": "BK22011965-7",
+            "utterance_id": "BK22011965.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 재미난 신조어들이 생겼군요. 그렇다면 혹시 플랜테리어를 하기 위해 식물의 온도를 어떻게 유지해야 할까요?",
+            "turn_id": "BK22011965-8",
+            "utterance_id": "BK22011965.15"
+        },
+        {
+            "reference_date": "2022-01-09",
+            "reference_text": [
+                {
+                    "value": "적정 온도는 식물의 종류에 따라 차이가 있으나, 보통은 10도 이하로 내려가지 않도록 주의한다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만약 식물이 꽃을 피우지도 못하고 현상태만 유지하는 채로 자라지 않는다면 온도가 적합하지 않은 경우일 수 있다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이럴 때는 해가 잘 들고 따듯한 곳으로 옮겨보도록.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.allurekorea.com/2022/01/09/%eb%b0%98%eb%a0%a4%ec%8b%9d%eb%ac%bc%ec%9d%98-%ea%b2%a8%ec%9a%b8%eb%82%98%ea%b8%b0-%eb%85%b8%ed%95%98%ec%9a%b0-5/?utm_source=naver&utm_medium=partnership",
+            "search_query": "식물 온도 관리",
+            "terminate": false,
+            "text": "식물에 따라 적정 온도가 다른데요. 보통 10도 이하로 내려가지 않도록 유의해야 하죠. 만약에 식물이 자라지 않으면 온도가 적합하지 않은 경우일 수 있어요. 참고로 이럴 때는 햇볕이 잘 들고 따듯한 곳으로 옮겨보는 방법이 있죠.",
+            "turn_id": "BK22011965-8",
+            "utterance_id": "BK22011965.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 기온이 10도 이하로 떨어지지 않도록 꼭 주의해야 하겠네요. 그렇다면 겨울철과 여름철에 물은 어떻게 줘야 할까요?",
+            "turn_id": "BK22011965-9",
+            "utterance_id": "BK22011965.17"
+        },
+        {
+            "reference_date": "2022-01-09",
+            "reference_text": [
+                {
+                    "value": "겨울철에는 여름철보다 물을 더 적게 줘야 한다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보통 겨울철에는 식물의 생장이 최소한으로만 이뤄지기 때문이다.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "흙이 얼지 않도록 비교적 따뜻한 날, 낮에 주는 것이 좋으며, 화분 받침대에 고인 물도 바로 버리도록.",
+                    "value_time": "2022-09-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.allurekorea.com/2022/01/09/%eb%b0%98%eb%a0%a4%ec%8b%9d%eb%ac%bc%ec%9d%98-%ea%b2%a8%ec%9a%b8%eb%82%98%ea%b8%b0-%eb%85%b8%ed%95%98%ec%9a%b0-5/?utm_source=naver&utm_medium=partnership",
+            "search_query": "겨울철 여름철 물주기",
+            "terminate": false,
+            "text": "네, 좋은 질문이에요. 겨울철은 여름철보다 물을 더 적게 줘야 하죠. 겨울철에는 보통 식물이 최소한으로 자라기 때문이에요. 그래서 흙이 얼지 않게끔 물을 따뜻한 날과 낮에 주는 것이 좋죠.",
+            "turn_id": "BK22011965-9",
+            "utterance_id": "BK22011965.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 겨울철과 여름철 관리법에 차이가 있군요. 덕분에 플랜테리어에 대해 많은 정보를 알게 되었네요. 친절하게 설명해 주셔서 감사합니다.",
+            "turn_id": "BK22011965-10",
+            "utterance_id": "BK22011965.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 저도 플랜테리어에 대해 정보를 알려드리게 되어 뿌듯하네요. 그럼 안녕히 계세요!",
+            "turn_id": "BK22011965-10",
+            "utterance_id": "BK22011965.20"
+        }
+    ]
+}

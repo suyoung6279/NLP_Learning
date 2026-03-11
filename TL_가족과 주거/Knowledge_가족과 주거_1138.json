@@ -1,0 +1,352 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007218",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007218",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0019"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 병원에서 퇴원해서 아기와 함께 집으로 돌아왔어. 이제는 직접 신생아를 돌봐야 하는데, 모르는 것 투성이라 걱정이야.",
+            "turn_id": "BK22007218-1",
+            "utterance_id": "BK22007218.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "처음 신생아를 돌볼 때가 가장 막막하기도 하고, 걱정도 많이 되는 시기지. 차근차근 하나씩 해 보면 금방 손에 익을 거야.",
+            "turn_id": "BK22007218-1",
+            "utterance_id": "BK22007218.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "퇴원하기 전에 의사 선생님께서 신생아 황달이 의심된다고 하면서 며칠 동안 지켜보자고 하셨는데, 신생아 황달이 뭐야?",
+            "turn_id": "BK22007218-2",
+            "utterance_id": "BK22007218.3"
+        },
+        {
+            "reference_date": "2022-04-22",
+            "reference_text": [
+                {
+                    "value": "신생아 황달이란 신생아의 피부와 눈 흰자위의 색이 노란색을 띠는 것을 말한다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "황달은 아기의 핏속에 빌리루빈이라는 담황색 담즙 색소가 많아져 생기는 것이다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000689756",
+            "search_query": "신생아 황달",
+            "terminate": false,
+            "text": "신생아 황달은 신생아의 피부나 눈 흰자위가 노란색을 띠는 것을 말해. 신생아의 핏속에 빌리루빈이라는 담황색의 담즙 색소가 많아지면 생길 수 있지.",
+            "turn_id": "BK22007218-2",
+            "utterance_id": "BK22007218.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 신생아에게 황달이 생기는 이유가 뭐야? 혹시 문제가 생기는 건 아닌지 걱정 돼.",
+            "turn_id": "BK22007218-3",
+            "utterance_id": "BK22007218.5"
+        },
+        {
+            "reference_date": "2013-10-04",
+            "reference_text": [
+                {
+                    "value": "이러한 황달이 신생아에게 나타나는 이유는 크게 생리적황달, 병적황달, 모유황달로 나뉜다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "생리적황달의 경우 건강한 만삭아의 60%, 미숙아의 80%가 경험하는 것으로 생후 5~7일경 서서히 없어져 따로 치료받지 않아도 된다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/life/health/article/201310041047212",
+            "search_query": "신생아 황달 원인",
+            "terminate": false,
+            "text": "신생아에게 황달이 나타나는 이유는 크게 생리적 황달과 병적 황달, 모유 황달로 나뉘어. 생리적 황달의 경우에는 건강한 만삭아의 60퍼센트, 미숙아의 80퍼센트가 경험하는 것으로 따로 치료를 받지 않아도 돼. 생후 5일에서 7일 정도가 되면 서서히 없어지거든.",
+            "turn_id": "BK22007218-3",
+            "utterance_id": "BK22007218.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 서서히 없어지는지 경과를 지켜보자고 하신 거구나. 집으로 돌아와서 가장 난감했던 게 아기에게 수유를 하는 방법을 제대로 모른다는 것이었어. 혹시 신생아 때는 수유를 몇 시간마다 하는 게 좋은지 알고 있어?",
+            "turn_id": "BK22007218-4",
+            "utterance_id": "BK22007218.7"
+        },
+        {
+            "reference_date": "2019-03-08",
+            "reference_text": [
+                {
+                    "value": "신생아 수유 간격은 2~3시간을 넘기지 않도록 하고 밤에는 4시간을 넘기지 않는다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=72592",
+            "search_query": "신생아 수유",
+            "terminate": false,
+            "text": "신생아의 수유 간격은 2시간에서 3시간을 넘기지 않도록 하고, 밤에는 4시간을 넘기지 않는 것이 좋아.",
+            "turn_id": "BK22007218-4",
+            "utterance_id": "BK22007218.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수유를 하고 나면 트림을 꼭 해줘야 한다고 하던데, 트림을 해줘야 하는 이유가 뭐야?",
+            "turn_id": "BK22007218-5",
+            "utterance_id": "BK22007218.9"
+        },
+        {
+            "reference_date": "2018-05-17",
+            "reference_text": [
+                {
+                    "value": "트림은 위로 들어간 공기를 입으로 배출하게 해 늘어난 위를 좀 더 여유 있게 만들어주죠.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그래서 토를 막아주는 역할을 합니다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "트림은 6개월 이전의 모든 아기에게는 해주는 게 좋습니다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.olivenote.co.kr/news/articleView.html?idxno=1847",
+            "search_query": "신생아 트림",
+            "terminate": false,
+            "text": "트림은 6개월 이전의 모든 아기에게 해주는 것이 좋아. 위로 들어간 공기를 입으로 배출되도록 해서 늘어난 위의 여유 공간을 만들어 주거든. 그래서 트림은 토 하는 걸 막아주는 역할을 해.",
+            "turn_id": "BK22007218-5",
+            "utterance_id": "BK22007218.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 수유를 한 후에는 트림을 꼭 해주도록 할게. 아기가 종종 딸꾹질을 하기도 하는데, 딸꾹질을 할 때는 어떻게 해야 할까?",
+            "turn_id": "BK22007218-6",
+            "utterance_id": "BK22007218.11"
+        },
+        {
+            "reference_date": "2018-03-02",
+            "reference_text": [
+                {
+                    "value": "체온 변화가 딸꾹질의 주된 원인인 만큼 아기에게 모자를 씌워주거나 몸을 포로 감싸고 안아 따뜻하게 해주는 게 딸꾹질을 멈추게 하는 가장 기본적인 방법입니다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.olivenote.co.kr/news/articleView.html?idxno=1470",
+            "search_query": "아기 딸꾹질",
+            "terminate": false,
+            "text": "딸꾹질의 주 원인은 체온 변화야. 그렇기 때문에 딸꾹질을 멈추게 하는 가장 기본적인 방법은 아기에게 모자를 씌워 주거나 몸을 포로 따뜻하게 감싸 안아주는 거야.",
+            "turn_id": "BK22007218-6",
+            "utterance_id": "BK22007218.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다음에 딸꾹질을 하면 모자를 씌워줘야겠다. 그런데 아기 두피에 보니 각질 같은 것들이 붙어 있는데, 이건 뭐야?",
+            "turn_id": "BK22007218-7",
+            "utterance_id": "BK22007218.13"
+        },
+        {
+            "reference_date": "2022-06-14",
+            "reference_text": [
+                {
+                    "value": "신생아 태지는 흔하게 볼 수 있는 증상으로, 처음에는 각질로 오해할 수 있다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "태지는 신생아 초기에 피부를 보호해주는 역할을 하는데 시간이 지나면 자연스럽게 떨어져 나가므로 억지로 제거하려고 하지 않아도 된다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202206140063o&cid=3002",
+            "search_query": "신생아 태지",
+            "terminate": false,
+            "text": "각질처럼 보인다면 태지일 수 있어. 신생아 태지는 흔히 볼 수 있는데, 처음엔 각질로 오해할 수 있거든. 태지는 신생아 초기에 피부를 보호해주는 기능을 해. 시간이 지나면 자연스럽게 떨어져 나가기 때문에 억지로 떼어내려고 하지 않아도 되고.",
+            "turn_id": "BK22007218-7",
+            "utterance_id": "BK22007218.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 일부러 떼지 않아도 되겠구나. 아기 목욕시킬 때 태지를 문질러서 떼줘야 하나 고민이었거든. 그러면 목욕은 며칠마다 시키는 것이 좋아?",
+            "turn_id": "BK22007218-8",
+            "utterance_id": "BK22007218.15"
+        },
+        {
+            "reference_date": "2017-10-23",
+            "reference_text": [
+                {
+                    "value": "신생아는 땀샘발달이 미숙해 땀을 많이 흘리고, 태내에서 생긴 분비물과 젖이나 분유를 자주 넘기기 때문에 하루 한 번 목욕을 통해 청결하게 유지하는 것이 좋지만, 신생아 시기 너무 잦은 목욕은 피부에 자극이 되고 건조해질 수 있으므로 일주일에 2~3회 정도가 적당하다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000300985",
+            "search_query": "신생아 목욕",
+            "terminate": false,
+            "text": "신생아는 땀샘의 발달이 미숙하기 때문에 땀이 많이 나기도 하고, 태내에서 생긴 분비물과 모유, 분유 등을 자주 넘기기 때문에 청결을 위해서는 하루에 한 번 목욕을 시키는 것이 좋기도 하지만 목욕을 너무 자주 하면 신생아 피부에 자극이 되어 건조해질 수 있기 때문에 일주일에 2회에서 3회 정도가 적당하지.",
+            "turn_id": "BK22007218-8",
+            "utterance_id": "BK22007218.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 일주일에 3번 정도 씻기도록 해볼게. 그래도 옷은 더 자주 갈아입히는 게 좋지?",
+            "turn_id": "BK22007218-9",
+            "utterance_id": "BK22007218.17"
+        },
+        {
+            "reference_date": "2022-06-14",
+            "reference_text": [
+                {
+                    "value": "신생아는 땀을 많이 흘리고 소변도 자주 보기 때문에 옷도 자주 갈아입히는 것이 좋다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "적어도 하루에 2~3회 정도 갈아입혀야 한다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202206140063o&cid=3002",
+            "search_query": "신생아 옷 갈아입히기",
+            "terminate": false,
+            "text": "맞아, 앞서 말했다시피 신생아는 땀을 많이 흘리기도 하고 소변도 자주 보기 때문에 옷을 자주 갈아입히는 게 좋아. 최소한 하루에 2회에서 3회 정도는 갈아입혀야 하지.",
+            "turn_id": "BK22007218-9",
+            "utterance_id": "BK22007218.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "옷 갈아입기는 하루에 두세 번, 목욕은 일주일에 두세 번! 잘 기억하도록 할게.",
+            "turn_id": "BK22007218-10",
+            "utterance_id": "BK22007218.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 너라면 잘 할 수 있을 거야. 모르는 게 있으면 언제든 물어보고.",
+            "turn_id": "BK22007218-10",
+            "utterance_id": "BK22007218.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "고마워, 잘 알려준 덕분에 걱정을 덜었어. 또 궁금한 게 생기면 연락할게!",
+            "turn_id": "BK22007218-11",
+            "utterance_id": "BK22007218.21"
+        }
+    ]
+}

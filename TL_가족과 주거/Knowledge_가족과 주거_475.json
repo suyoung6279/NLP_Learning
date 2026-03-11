@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015490",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015490",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아내가 벌써 임신 23주차가 되었어요. 첫 아이라 그런지 여전히 신기하고 궁금한 점이 많아요.",
+            "turn_id": "BK22015490-1",
+            "utterance_id": "BK22015490.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 어떤 점들이 궁금하세요?",
+            "turn_id": "BK22015490-1",
+            "utterance_id": "BK22015490.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 먼저 23주 태아의 크기는 얼마나 되나요?",
+            "turn_id": "BK22015490-2",
+            "utterance_id": "BK22015490.3"
+        },
+        {
+            "reference_date": "2015-09-15",
+            "reference_text": [
+                {
+                    "value": "태아의 키는 약 28~30cm, 체중은 약 650g 정도로 자랐어요.",
+                    "value_time": "2022-10-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108213",
+            "search_query": "임신 23주 태아 크기",
+            "terminate": false,
+            "text": "23주의 태아는 약 28~30cm, 체중은 약 650g 정도예요.",
+            "turn_id": "BK22015490-2",
+            "utterance_id": "BK22015490.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 정말 많이 컸네요. 그럼 태아는 어느 정도 발달이 되었나요?",
+            "turn_id": "BK22015490-3",
+            "utterance_id": "BK22015490.5"
+        },
+        {
+            "reference_date": "2015-09-15",
+            "reference_text": [
+                {
+                    "value": "골격, 관절이 발달하여 X-ray에서 두개골, 척추, 갈비뼈, 팔, 다리 등을 확실히 알아볼 수 있습니다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한, 청력이 발달해 자궁 안팎의 모든 소리를 들을 수 있어요.",
+                    "value_time": "2022-10-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108213",
+            "search_query": "임신 23주 태아 특징",
+            "terminate": false,
+            "text": "네, 23주의 태아는 골격, 관절이 발달하여 두개골이나 척추, 갈비뼈, 팔다리 등을 X-ray를 통해 확인할 수 있고, 자궁 안팎의 모든 소리를 들을 수 있을 만큼 청력이 발달했어요.",
+            "turn_id": "BK22015490-3",
+            "utterance_id": "BK22015490.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 많이 발달했네요. 그럼 지금 아내의 몸 상태는 어떤가요?",
+            "turn_id": "BK22015490-4",
+            "utterance_id": "BK22015490.7"
+        },
+        {
+            "reference_date": "2015-09-15",
+            "reference_text": [
+                {
+                    "value": "임신 전보다 5~6kg 체중이 증가해 등이나 허리가 아프고 발이 붓거나 다리가 저립니다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "혈액의 양이 늘어나 혈관이 확장되고 자궁이 커져 정맥을 압박해 외음부나 허벅지, 종아리 등에 정맥혈관이 꼬불꼬불, 시퍼렇게 확장되는 정맥류가 생기기 쉬워요.",
+                    "value_time": "2022-10-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108213",
+            "search_query": "임신 23주 엄마의 증상",
+            "terminate": false,
+            "text": "임신 전보다 체중이 5~6kg 정도 늘어 등이나 허리가 아플 수 있고 발이 붓거나 다리가 저릴 수 있어요. 또 혈액이 늘어나 혈관이 확장되고 자궁이 커져 정맥을 압박할 수 있어요. 그로 인해 외음부나 허벅지, 종아리 등에 정맥 혈관이 꼬불꼬불, 시퍼렇게 확장되는 정맥류가 생길 수 있지요.",
+            "turn_id": "BK22015490-4",
+            "utterance_id": "BK22015490.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 아내가 정맥류가 생겼는지 잘 살펴봐야겠네요. 정맥류는 잘 모르겠지만 요즘 잇몸이 붓고 아프다는 말을 자주 하던데 이것도 임신 증상 중 하나인가요?",
+            "turn_id": "BK22015490-5",
+            "utterance_id": "BK22015490.9"
+        },
+        {
+            "reference_date": "2015-09-15",
+            "reference_text": [
+                {
+                    "value": "임신하면 침의 산도가 변해 치석이 생겨 잇몸이 붓고 아픕니다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "피의 양이 증가하면서 잇몸에 혈류량이 많아지고 붓기 때문에 잇몸이 들뜨거나 피가 나고 통증이 옵니다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108213",
+            "search_query": "임신 중 치석",
+            "terminate": false,
+            "text": "네, 임신하면 침의 산도가 변해 치석이 생길 수 있어요. 또 피의 양이 증가하면서 잇몸에 혈류량이 많아지고 붓기 때문에 잇몸이 들뜨거나 피가 나고 통증이 생기게 되는 거죠.",
+            "turn_id": "BK22015490-5",
+            "utterance_id": "BK22015490.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 어떻게 해야 하나요? 임신 중인데 치과에서 치료를 받을 수 있나요?",
+            "turn_id": "BK22015490-6",
+            "utterance_id": "BK22015490.11"
+        },
+        {
+            "reference_date": "2015-09-15",
+            "reference_text": [
+                {
+                    "value": "충치는 우선 응급수단 정도로 치료를 끝내고 출산 후 완전히 치료하는 것이 좋습니다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108213",
+            "search_query": "임신 중 충치 치료",
+            "terminate": false,
+            "text": "일단 급한 충치만 응급수단 정도로만 치료하고 완전한 치료는 출산 후에 하는 것이 좋아요.",
+            "turn_id": "BK22015490-6",
+            "utterance_id": "BK22015490.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 아내가 고생이 많겠네요. 그리고 주변에서 태교를 하면 좋다고 하던데 태교는 어떻게 하면 되나요?",
+            "turn_id": "BK22015490-7",
+            "utterance_id": "BK22015490.13"
+        },
+        {
+            "reference_date": "2015-09-15",
+            "reference_text": [
+                {
+                    "value": "엄마의 몸이 리듬을 타고 기분 좋게 흔들리면 태아도 기분이 좋아지고 마음도 안정됩니다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "부부가 함께 부드럽고 조용한 음악에 맞춰 함께 손을 잡고 춤추는 시간을 자주 갖도록 합니다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108213",
+            "search_query": "임신 23주 태교",
+            "terminate": false,
+            "text": "엄마가 리듬에 맞춰 기분 좋게 흔들거리면 태아의 기분도 좋아지고 마음도 안정될 수 있어요. 부부가 함께 음악에 맞춰 기분 좋게 춤을 추는 것도 좋은 태교가 될 수 있어요.",
+            "turn_id": "BK22015490-7",
+            "utterance_id": "BK22015490.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 춤은 잘 못 추지만 아내와 함께 노력해 봐야겠네요. 참, 그리고 요즘 아내가 절 피하고 잠자리를 거부하는 것 같아요. 이것도 임신과 연관이 있나요?",
+            "turn_id": "BK22015490-8",
+            "utterance_id": "BK22015490.15"
+        },
+        {
+            "reference_date": "2015-09-15",
+            "reference_text": [
+                {
+                    "value": "A. 태아의 존재를 인식해 무의식적으로 남편과의 성관계를 거부하려는 심리가 생기기도 합니다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이런 경우 남편에게 솔직하게 말해보세요.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108213",
+            "search_query": "임신 23주 남편 거부 심리",
+            "terminate": false,
+            "text": "네, 무의식적으로 태아의 존재를 인식해 남편과 성관계를 피하려는 심리가 생기기도 해요. 고민하시는 부분에 대해 아내분과 솔직한 대화를 나눠보세요.",
+            "turn_id": "BK22015490-8",
+            "utterance_id": "BK22015490.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 마음이 들 수 있군요. 아내와 좀 더 진지한 대화를 나눠봐야겠네요. 마지막으로 이 시기에 아내가 주의해야 할 점이 있을까요?",
+            "turn_id": "BK22015490-9",
+            "utterance_id": "BK22015490.17"
+        },
+        {
+            "reference_date": "2015-09-15",
+            "reference_text": [
+                {
+                    "value": "임신 중기의 식단은 임신중독증을 예방하는 데 있어요.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "염분 섭취량이 지나치지 않도록 젓갈 등 염장류 식품과 가공식품의 섭취를 줄이는 것이 좋으며, 간장 1큰술에는 3.5g의 염분이 포함되어 있으므로 하루에 간장 2큰술 반을 넘지 않도록 합니다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108213",
+            "search_query": "임신 중기 임신중독증",
+            "terminate": false,
+            "text": "임신 중기에는 임신중독을 예방하는 식단이 필요해요. 염분 섭취가 지나치지 않아야 하는데 염장류 식품이나 가공식품의 섭취를 줄이는 게 좋아요. 또 간장 역시 1큰술에 3.5g의 염분이 들어있기 때문에 하루에 2큰술 반 이상을 사용하지 않도록 주의하는 게 좋아요.",
+            "turn_id": "BK22015490-9",
+            "utterance_id": "BK22015490.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 식단 관리가 필요하군요. 덕분에 좋은 정보 많이 알았어요. 궁금한 점도 많이 해소되었고요.",
+            "turn_id": "BK22015490-10",
+            "utterance_id": "BK22015490.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "궁금한 점이 해소되었다니 정말 다행이네요. 또 궁금한 점 있으면 언제든지 물어보세요.",
+            "turn_id": "BK22015490-10",
+            "utterance_id": "BK22015490.20"
+        }
+    ]
+}

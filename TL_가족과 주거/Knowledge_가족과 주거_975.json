@@ -1,0 +1,383 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004962",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004962",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "주변에 출산 경험이 있는 분들한테 들어보니, 산후우울증이 생기면 엄청 힘들다고 하던데요. 아기를 낳으면 모두 산후우울증에 걸리나요?",
+            "turn_id": "BK22004962-1",
+            "utterance_id": "BK22004962.1"
+        },
+        {
+            "reference_date": "2019-10-28",
+            "reference_text": [
+                {
+                    "value": "건강보험심사평가원은 산후우울증 유병률 추정치를 산모의 약 10~15%로 보고 있다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.docdocdoc.co.kr/news/articleView.html?idxno=1073663",
+            "search_query": "산후우울증 통계",
+            "terminate": false,
+            "text": "그렇지 않아요. 건강보험심사평가원에서는 산후우울증 발병률을 산모의 약 10에서 15퍼센트 정도로 예상하고 있거든요.",
+            "turn_id": "BK22004962-1",
+            "utterance_id": "BK22004962.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 확률은 높지 않은 것 같아요. 그럼 산후우울증은 왜 걸리는 건가요?",
+            "turn_id": "BK22004962-2",
+            "utterance_id": "BK22004962.3"
+        },
+        {
+            "reference_date": "2019-11-18",
+            "reference_text": [
+                {
+                    "value": "원인은 아직까지 명확하지 않다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 이전에 산후우울증을 경험한 사람은 다시 출산을 할 경우 우울증에 걸릴 위험률이 50~80%로 높아진다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 임신 기간 중에 불안이나 우울을 경험하거나 갑자기 모유 수유를 중단한 경우, 주변 사람과 사회로부터 격리되어 있거나 지지해 줄 수 있는 사람들이 없는 경우는 우울증 위험에 노출될 수 있다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://mdon.co.kr/news/article.html?no=24318",
+            "search_query": "산후우울증 원인",
+            "terminate": false,
+            "text": "원인은 아직 정확히 밝혀지지 않았어요. 하지만 이전에 산후우울증을 경험했었다면 재출산 후 우울증이 찾아올 확률이 50에서 80퍼센트까지 높아져요. 또 임신 중 불안감, 우울감을 겪거나 갑작스레 모유 수유를 중단한 경우, 주위 사람들과 사회로부터 격리되었거나 위로나 지지를 해줄 수 있는 사람이 곁에 없다면 우울증에 노출될 위험이 커지죠.",
+            "turn_id": "BK22004962-2",
+            "utterance_id": "BK22004962.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "원인이 밝혀지지 않아서 완전 방지할 수가 없나봐요. 산후우울증은 아이를 낳은 뒤 바로 오나요?",
+            "turn_id": "BK22004962-3",
+            "utterance_id": "BK22004962.5"
+        },
+        {
+            "reference_date": "2019-11-18",
+            "reference_text": [
+                {
+                    "value": "산후우울증은 말 그대로 출산 후에 산모가 우울증을 겪는 것이다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "출산 후 4~6주 사이에 나타난다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2019/11/18/2019111802277.html",
+            "search_query": "산후우울증 시기",
+            "terminate": false,
+            "text": "출산 후 산모가 우울증을 겪는 병이긴 하지만, 바로 오는 것은 아니고 출산을 하고 4주에서 6주 사이에 나타나게 돼요.",
+            "turn_id": "BK22004962-3",
+            "utterance_id": "BK22004962.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이를 보는 것이 힘들어서 그런가봐요. 만약 산후우울증이 오면 어떤 증상들이 나타나나요?",
+            "turn_id": "BK22004962-4",
+            "utterance_id": "BK22004962.7"
+        },
+        {
+            "reference_date": "2021-05-20",
+            "reference_text": [
+                {
+                    "value": "산후우울증 증상은 다양하고 산모마다 다르다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 우울한 기분, 과도한 걱정, 불면, 체중 변화, 부적절한 죄책감, 죽음에 대한 반복적인 생각 등 우울증의 주요 증상과 비슷하다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "산후우울증은 상기한 증상과는 별도로 산모와 아이의 관계와 관련된 증상을 보이는 것이 우울증과 다른 점이다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000603863",
+            "search_query": "산후우울증 증상",
+            "terminate": false,
+            "text": "여러가지 증상이 있을 수 있고 개인차도 있어요. 하지만 우울한 기분이나 과한 걱정, 불면, 체중의 변화, 부적절한 죄책감, 죽음에 대해 계속 생각하는 것 등 우울증의 주된 증상과 비슷한 부분도 있어요. 산후우울증이 다른 점은 우울증의 증상과는 별도로 엄마와 아이의 관계에 있어서 관련된 증상을 보인다는 점이에요.",
+            "turn_id": "BK22004962-4",
+            "utterance_id": "BK22004962.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전체적으로 우울증과 비슷한 증상인데 아이와 관련된 증상이 더해지는거군요. 산후우울증에 걸리면 아이를 대하는 태도도 달라지는건가요?",
+            "turn_id": "BK22004962-5",
+            "utterance_id": "BK22004962.9"
+        },
+        {
+            "reference_date": "2017-01-26",
+            "reference_text": [
+                {
+                    "value": "이런 산모는 아기에게 짜증을 잘 내거나 무심한 태도를 보이기 때문에 아기와의 유대감이 형성되기 어렵다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20170126057900009?input=1195m",
+            "search_query": "산후우울증 아기에게 태도",
+            "terminate": false,
+            "text": "맞아요. 산후우울증이 있는 엄마는 아이에게 짜증을 쉽게 내고 무심한 태도를 보여 아이와 유대감을 만드는 데 어려움을 겪어요.",
+            "turn_id": "BK22004962-5",
+            "utterance_id": "BK22004962.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 엄마가 산후우울증에 걸린다면 아이의 정서에도 영향을 미치겠네요?",
+            "turn_id": "BK22004962-6",
+            "utterance_id": "BK22004962.11"
+        },
+        {
+            "reference_date": "2021-10-05",
+            "reference_text": [
+                {
+                    "value": "산후우울증 역시 아이의 발달에 미치는 영향이 크다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아이의 수면장애부터 언어 능력, 애착발달, 사회정서적 문제, 인지 능력과 학습 능력에 좋지 않은 영향을 미치기도 한다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "언어 능력의 경우 언어장애가 있는 아이들의 엄마들이 대부분 우울증 척도가 높다고 나왔다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000639982",
+            "search_query": "산후우울증 아이에게 영향",
+            "terminate": false,
+            "text": "네, 산후우울증은 아이가 발달하는데 영향을 많이 주게 돼요. 아기의 수면습관, 언어능력, 애착발달, 사회정서적 문제, 인지능력과 학습능력까지 여러 방면에서 악영향을 미치죠. 특히 언어 능력에 많은 영향이 있는데, 언어 장애를 가진 아이들의 엄마들이 대부분 우울증 지수가 높은 편이에요.",
+            "turn_id": "BK22004962-6",
+            "utterance_id": "BK22004962.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엄마와 아이 모두에게 좋지 못한 영향을 끼치니 치료가 더 중요하게 느껴져요. 산후우울증 치료가 가능한가요?",
+            "turn_id": "BK22004962-7",
+            "utterance_id": "BK22004962.13"
+        },
+        {
+            "reference_date": "2022-08-07",
+            "reference_text": [
+                {
+                    "value": "산후우울증은 3~6개월 사이에 증상들이 자연스럽게 호전되는 게 일반적이다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "호전되지 않을 경우 약물 치료와 상담 정신 치료가 필요하다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수유 기간에는 약물 사용이 자제되며 증상이 심할 경우에만 약물이나 정신 치료를 받아아 한다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://moneys.mt.co.kr/news/mwView.php?no=2022080515481067235",
+            "search_query": "산후우울증 치료",
+            "terminate": false,
+            "text": "대부분의 산후우울증은 3에서 6개월 사이에 자연스럽게 좋아져요. 하지만 증상이 나아지지 않는다면 약물치료와 상담 치료가 필요한데요, 수유를 하는 동안에는 약물 사용에 제한이 있으니 증상이 심한 경우에만 치료를 진행하게 돼요.",
+            "turn_id": "BK22004962-7",
+            "utterance_id": "BK22004962.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엄마라서 약 복용에 대해 제한이 있으니 더 힘든 것 같아요. 혹시 모유수유가 산후우울증을 방지해주는 효과가 있나요?",
+            "turn_id": "BK22004962-8",
+            "utterance_id": "BK22004962.15"
+        },
+        {
+            "reference_date": "2022-08-07",
+            "reference_text": [
+                {
+                    "value": "3. 정신건강 증진: 모유 수유를 할 때 산모에게서 분비되는 호르몬은 정서적인 만족도를 높여 엄마와 아기 모두에게 행복감을 선사한다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "연구에 따르면 모유 수유를 한 여성은 자존감이 향상되고 산후 우울증 위험이 적으며 추후 알츠하이머를 앓을 위험도 낮은 것으로 나타났다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1412401/%EB%AA%A8%EC%9C%A0-%EC%88%98%EC%9C%A0%EA%B0%80-%EC%97%AC%EC%84%B1-%EA%B1%B4%EA%B0%95%EC%97%90-%EC%9D%B4%EB%A1%9C%EC%9A%B4-%EC%A0%90-3/",
+            "search_query": "모유수유 산후우울증",
+            "terminate": false,
+            "text": "네, 있어요. 모유수유를 할 때 분비되는 호르몬이 심리적인 만족감을 높여주면서 엄마, 아이 모두 행복감을 느끼게 되거든요. 모유수유를 한 사람은 자존감이 높아지고 산후우울증의 발병 확률이 낮아지며 이 후에 알츠하이머 발병률도 낮다는 연구 결과도 있어요.",
+            "turn_id": "BK22004962-8",
+            "utterance_id": "BK22004962.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "예방할 수 있는 방법이 있어서 다행이네요. 가족 특히 남편의 역할도 중요하겠죠?",
+            "turn_id": "BK22004962-9",
+            "utterance_id": "BK22004962.17"
+        },
+        {
+            "reference_date": "2022-07-16",
+            "reference_text": [
+                {
+                    "value": "질병관리청 국가건강정보포털은 산후우울증의 치료에 대해 “무엇보다 산모에 대한 가족의 지지와 관심, 도움이 중요하며, 특히 배우자가 치료 과정에 관심을 갖고 참여하는 것이 중요하다”고 설명하고 있다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "배우자의 역할이 강조되는 이유는 실제로 배우자가 산후우울증의 원인이 되기도, 체료제가 되기도 해서다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220715514268/?UA=PC",
+            "search_query": "산후우울증 극복",
+            "terminate": false,
+            "text": "중요해요. 남편의 역할이 중요한 이유는 남편이 산후우울증의 원인이 되기도 하고, 치료제가 될 수도 있기 때문이에요. 질병관리청 국가건강정보포털에서는 산후우울증 치료에서 산모에 대한 가족들의 지지와 관심, 도움이 중요하다고 말해요. 특히 남편이 치료하는 과정에 관심을 가지고 참여하는 것을 강조하고 있어요.",
+            "turn_id": "BK22004962-9",
+            "utterance_id": "BK22004962.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "함께 부모가 되었으니 육아를 하면서도 함께 극복하는게 맞는 것 같아요.",
+            "turn_id": "BK22004962-10",
+            "utterance_id": "BK22004962.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 산후우울증은 누구에게나 찾아올 수 있는 거니까 다 그렇다고 참고 지내는 것보다는 적극적으로 극복하려는 노력을 하는 것이 좋아요.",
+            "turn_id": "BK22004962-10",
+            "utterance_id": "BK22004962.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저도 잘 기억하고 있어야겠어요. 오늘 많이 도움이 됐어요. 다음에도 좋은 대화 나눠요.",
+            "turn_id": "BK22004962-11",
+            "utterance_id": "BK22004962.21"
+        }
+    ]
+}

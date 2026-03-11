@@ -1,0 +1,342 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001577",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001577",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 부부가 결혼을 한 지 2년이 됐고, 아이를 무척 원하고 있는데 생기지 않아서 병원에 가보려고 해요.",
+            "turn_id": "BK22001577-1",
+            "utterance_id": "BK22001577.1"
+        },
+        {
+            "reference_date": "2021-10-15",
+            "reference_text": [
+                {
+                    "value": "매년 20만 명 이상이 난임 진단을 받고, 신생아 10명 중 1명이 난임 시술로 태어난다.",
+                    "value_time": "2022-07-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=99198",
+            "search_query": "난임 진단",
+            "terminate": false,
+            "text": "마음 고생이 심하셨겠어요. 저출산 현상도 큰 문제지만 해가 거듭 할수록 난임도 많아지고 있어요. 매년 20만 명 이상이 난임 진단을 받고 있구요.신생아의 10퍼센트가 난임 시술로 태어난 아이예요.",
+            "turn_id": "BK22001577-1",
+            "utterance_id": "BK22001577.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "난임은 어떤 기준으로 진단 받는 거예요?",
+            "turn_id": "BK22001577-2",
+            "utterance_id": "BK22001577.3"
+        },
+        {
+            "reference_date": "2022-06-28",
+            "reference_text": [
+                {
+                    "value": "난임은 약 1년간 피임을 하지 않은 상태에서 정상적인 부부관계가 있었음에도 임신이 되지 않는 경우(만 35세 이상은 6개월)를 말한다.",
+                    "value_time": "2022-07-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mdtoday.co.kr/news/view/1065601254198496",
+            "search_query": "난임",
+            "terminate": false,
+            "text": "난임은 약 1년간 피임을 하지 않고 정상적인 부부관계를 가졌음에도 임신이 되지 않았을 때를 말해요. 만 35세 이상은 6개월로 보구요.",
+            "turn_id": "BK22001577-2",
+            "utterance_id": "BK22001577.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도대체 어떤 원인으로 난임이 많아지고 있는걸까요?",
+            "turn_id": "BK22001577-3",
+            "utterance_id": "BK22001577.5"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "난임의 원인 중 하나는 초산 연령이 높아진다는 것.",
+                    "value_time": "2022-07-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여성은 만35세 이후부터 생리주기가 일정하더라도 자궁과 난소의 기능이 약화해 생식능력이 떨어진다.",
+                    "value_time": "2022-07-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "남성은 나이와 무관하게 불규칙한 식습관, 생활관리, 음주와 흡연, 스트레스 등이 원인으로 작용한다.",
+                    "value_time": "2022-07-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=106133",
+            "search_query": "난임의 원인",
+            "terminate": false,
+            "text": "원인 중 하나는 초산 연령이 높아지고 있다는 점이에요. 생리주기가 아무리 일정하더라도 만 35세 이상 여성들은 자궁과 난소의 기능이 약화해 생식능력이 떨어지거든요. 남성의 경우 불규칙한 식습관, 음주와 흡연, 생활관리, 스트레스가 난임의 원인으로 꼽혀요.",
+            "turn_id": "BK22001577-3",
+            "utterance_id": "BK22001577.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 아직 20대인데 또 다른 원인은 뭐가 있을까요?",
+            "turn_id": "BK22001577-4",
+            "utterance_id": "BK22001577.7"
+        },
+        {
+            "reference_date": "2022-06-28",
+            "reference_text": [
+                {
+                    "value": "실제 높아지는 결혼 연령과 환경호르몬, 생활 습관 변화 등 환경적 요인이 맞물리면서 난임을 고민하는 부부들이 많다.",
+                    "value_time": "2022-07-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mdtoday.co.kr/news/view/1065601254198496",
+            "search_query": "난임의 원인",
+            "terminate": false,
+            "text": "초산 연령이 높아진다는 것 외에도 환경호르몬, 생활 습관 변화 등 환경적 요인이 있어요.",
+            "turn_id": "BK22001577-4",
+            "utterance_id": "BK22001577.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "구체적으로 몸 안의 어떤 문제로 발생할 수 있다는 건지 알고 싶어요.",
+            "turn_id": "BK22001577-5",
+            "utterance_id": "BK22001577.9"
+        },
+        {
+            "reference_date": "2022-06-28",
+            "reference_text": [
+                {
+                    "value": "여성의 경우 자궁질환이나 배란장애, 난관 및 자궁, 난소 기능 저하 등이, 남성의 경우 고환 기능 이상, 발기 장애, 무정자증 등의 원인이다.",
+                    "value_time": "2022-07-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mdtoday.co.kr/news/view/1065601254198496",
+            "search_query": "임신 방해 산부인과 질환",
+            "terminate": false,
+            "text": "여성의 경우 자궁 질환이나 배란 장애, 난관 및 자궁, 난소 기능 저하와 같은 건강 문제가 있구요. 남성의 경우 고환 기능 이상, 발기 장애, 무정자증이 원인으로 꼽혀요.",
+            "turn_id": "BK22001577-5",
+            "utterance_id": "BK22001577.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "원래 저만 먼저 병원에 가보려고 했는데 남편도 같이 병원에 가봐야겠네요.",
+            "turn_id": "BK22001577-6",
+            "utterance_id": "BK22001577.11"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래야죠. 임신은 여성만의 일이 아닌 부부가 함께 하는 거예요.",
+            "turn_id": "BK22001577-6",
+            "utterance_id": "BK22001577.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 같이 가서 검사 결과를 보고 방향 결정을 해야겠어요. 인공수정이나 시험관을 할 생각도 있거든요. 인공수정과 시험관 비용은 얼마쯤 해요?",
+            "turn_id": "BK22001577-7",
+            "utterance_id": "BK22001577.13"
+        },
+        {
+            "reference_date": "2021-07-14",
+            "reference_text": [
+                {
+                    "value": "이어 “인공수정은 1회 25~40만원이 들지만 시험관은 1회 180~400만원이 든다. 그렇다고 또 1회에 임신이 성공된다는 보장이 없다”며 “난임은 장기적으로 가야하는 시술로 3~4번만 해도 몇천만원이 든다. 아이를 원하는 난임부부에게는 소득 차등 없이 비용부담을 덜어주면 좋겠다”고 전했다.",
+                    "value_time": "2022-07-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mdtoday.co.kr/mdtoday/index.html?no=425102",
+            "search_query": "인공수정, 시험관 비용",
+            "terminate": false,
+            "text": "인공수정은 1회 25만원에서 40만원 정도 들구요. 시험관은 1회 180만원에서 400만원이 들어요. 사실 한 번만에 임신이 성공되는건 어려워서 장기적으로 여러 번 해야하는 시술이에요.",
+            "turn_id": "BK22001577-7",
+            "utterance_id": "BK22001577.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 꽤 많은 돈이 들어가네요. 난임부부 지원비 사업도 있다고 들었는데 시술이 성공할 때까지 지원이 되는건가요?",
+            "turn_id": "BK22001577-8",
+            "utterance_id": "BK22001577.15"
+        },
+        {
+            "reference_date": "2021-12-07",
+            "reference_text": [
+                {
+                    "value": "난임부부들은 정부의 난임 부부 시술비 지원사업(인공수정, 시험관)의 난임 지원 ‘횟수제한’과 ‘선정기준’에 힘들어 한다.",
+                    "value_time": "2022-07-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전세비·물가 등이 폭등해 생활 자체가 어려운데, 난임 시술 지원 횟수가 끝나면 모든 과정이 비급여(건강보험 미적용)로 진행된다.",
+                    "value_time": "2022-07-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1369211/%ec%97%b0-40%ec%a1%b0%ec%9b%90-%ec%a0%80%ec%b6%9c%ec%82%b0-%ec%98%88%ec%82%b0-%eb%82%9c%ec%9e%84%c2%b7%eb%b6%84%eb%a7%8c-%eb%b6%84%ec%95%bc%ec%97%90-%eb%8d%94-%ec%8d%a8%ec%95%bc/",
+            "search_query": "난임 부부 시술비 지원사업",
+            "terminate": false,
+            "text": "시술이 성공할 때까지 지원이 되는 건 아니에요. 그래서 정부의 난임 부부 인공수정, 시험관 시술비 지원사업의 난임 지원 횟수제한과 선정기준에 난임부부들은 고충을 겪고 있어요. 난임 시술 지원 횟수가 끝나면 모든 과정이 비급여로 진행되거든요.",
+            "turn_id": "BK22001577-8",
+            "utterance_id": "BK22001577.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 횟수가 제한이 있는 거였네요. 그런데 선정 기준이 있다니 모두 지원받을 수는 없는 거예요?",
+            "turn_id": "BK22001577-9",
+            "utterance_id": "BK22001577.17"
+        },
+        {
+            "reference_date": "2021-10-15",
+            "reference_text": [
+                {
+                    "value": "이수진 의원이 보건복지부로부터 받은 자료에 따르면, 정부로부터 난임 시술비 지원을 받은 인원은 올 9월까지 3만 4096명, 지난해에는 총 4만 5686명이다.",
+                    "value_time": "2022-07-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "매년 20만 명 이상이 난임 진단을 받는 것을 고려하면 5분의 1 수준에 불과하다.",
+                    "value_time": "2022-07-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=99198",
+            "search_query": "난임 시술비 지원 인원수",
+            "terminate": false,
+            "text": "네, 매년 20만 명 이상이 난임 진단을 받는 거에 비해 정부로부터 난임 시술비 지원을 받은 인원은 지난해 총 5686명이거든요. 진단 받는 것의 5분의 1 수준이죠.",
+            "turn_id": "BK22001577-9",
+            "utterance_id": "BK22001577.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 저출산이 심각하다고 하는데 저출산 예산이 더 늘어야하는거 아닌가요?",
+            "turn_id": "BK22001577-10",
+            "utterance_id": "BK22001577.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇죠. 저출산이 사회적 문제라고는 하면서 국가 지원 비율은 저조하네요. 출산율은 미래 문제와도 직결된건데 아기를 낳으려고 온갖 노력을 하는 부부들에게 실질적인 지원과 혜택이 더 돌아가게 예산이 늘어야죠. 남편이랑 같이 가서 검사 잘 받고 좋은 소식 조만간 있길 바래요.",
+            "turn_id": "BK22001577-10",
+            "utterance_id": "BK22001577.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 좋은 정보와 응원의 말 감사합니다. 소식 있으면 공유해드릴게요.",
+            "turn_id": "BK22001577-11",
+            "utterance_id": "BK22001577.21"
+        }
+    ]
+}

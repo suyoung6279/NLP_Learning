@@ -1,0 +1,377 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016672",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016672",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0046"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "친구가 결혼식 때 입을 웨딩드레스를 골라달라고 사진을 보냈어요. 정말 예쁘더라고요. 그런데 웨딩드레스로는 보통 흰색을 입는데, 원래 옛날에도 웨딩드레스는 흰색이었나요?",
+            "turn_id": "BK22016672-1",
+            "utterance_id": "BK22016672.1"
+        },
+        {
+            "reference_date": "43654.0",
+            "reference_text": [
+                {
+                    "value": "옷감이 귀했던 과거에는 웨딩드레스를 결혼식 이후에도 예복이나 일상복으로 이용했기 때문에 흰색보다는 노란색, 파란색 등의 실용적인 색상이 많이 사용되었고 심지어 검은색이 이용되기도 했다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://digitalchosun.dizzo.com/site/data/html_dir/2019/07/08/2019070880176.html",
+            "search_query": "흰색 웨딩드레스",
+            "terminate": false,
+            "text": "아녜요, 옛날에는 옷감이 귀했잖아요. 결혼식이 끝나도 예복이나 일상복으로 웨딩드레스를 입으려고 흰색보다는 실용적인 색을 보통 썼죠. 노란색이나 파란색, 심지어는 검은색을 사용했습니다.",
+            "turn_id": "BK22016672-1",
+            "utterance_id": "BK22016672.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 언제부터 흰색 웨딩드레스를 입기 시작한 거예요?",
+            "turn_id": "BK22016672-2",
+            "utterance_id": "BK22016672.3"
+        },
+        {
+            "reference_date": "43654.0",
+            "reference_text": [
+                {
+                    "value": "흰색 웨딩드레스가 처음 선보인 것은 영국 빅토리아 여왕이다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "세계 최강국의 통치자였던 빅토리아 여왕은 웨딩드레스를 비롯한 결혼식 물품을 모두 흰색으로 맞춰 자신의 권력을 과시했는데, 당시에는 표백 기술이 발달하지 못해 다른 색 옷감보다 흰색이 훨씬 비쌌기 때문이다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://digitalchosun.dizzo.com/site/data/html_dir/2019/07/08/2019070880176.html",
+            "search_query": "흰색 웨딩드레스 시작",
+            "terminate": false,
+            "text": "빅토리아 여왕이 흰색 웨딩드레스를 처음 입었습니다. 당시 영국이 세계 최강국이었기에, 빅토리아 여왕은 결혼식 물품 전부를 흰색으로 맞춰서 권력을 과시했죠. 표백 기술력이 조악했던 당시에는 흰색 옷감이 굉장히 비쌌어요.",
+            "turn_id": "BK22016672-2",
+            "utterance_id": "BK22016672.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 그때부터 흰 웨딩드레스가 유행했군요?",
+            "turn_id": "BK22016672-3",
+            "utterance_id": "BK22016672.5"
+        },
+        {
+            "reference_date": "43654.0",
+            "reference_text": [
+                {
+                    "value": "빅토리아 여왕의 흰색 웨딩드레스는 이후 많은 여성의 동경의 대상이 되었으나, 흰색 웨딩드레스는 표백 기술의 발달로 흰색 옷감의 가격이 저렴해진 후에야 보편화하였다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지금과 같이 웨딩드레스는 흰색이라는 이미지는 1920년 코코 샤넬이 선보인 흰색 웨딩드레스가 선풍적인 인기를 끈 이후 만들어진 것이다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://digitalchosun.dizzo.com/site/data/html_dir/2019/07/08/2019070880176.html",
+            "search_query": "흰색 웨딩드레스 보편화",
+            "terminate": false,
+            "text": "수많은 여자가 빅토리아 여왕이 입은 하얀색 웨딩드레스를 동경하긴 했지만, 표백 기술이 좋아져서 흰색 옷감이 저렴해지고 나서야 보편화되었어요. 1920년 코코 샤넬이 만들었던 흰 웨딩드레스가 인기를 모은 뒤, 지금처럼 웨딩드레스 하면 흰색을 떠올리게 되었고요.",
+            "turn_id": "BK22016672-3",
+            "utterance_id": "BK22016672.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러고 보니 우리나라를 비롯한 동양의 전통 혼례복은 흰색이 아니었던 것 같아요. 우리나라의 전통 신부 예복은 뭐였어요?",
+            "turn_id": "BK22016672-4",
+            "utterance_id": "BK22016672.7"
+        },
+        {
+            "reference_date": "44645.0",
+            "reference_text": [
+                {
+                    "value": "전통 혼례 시 신부는 다홍치마, 연두색 회장저고리에 원삼이나 활옷을 입고 큰머리를 얹고 용잠을 꽂으며 도투락 댕기[주해 3]를 늘이고 화관이나 족두리를 쓴다.",
+                    "value_time": "44833.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "거기다 손을 감추기 위해 길게 덧댄 소매인 한삼을 착용했다.",
+                    "value_time": "44833.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EC%9D%98_%EC%98%B7",
+            "search_query": "한국 전통 혼례복",
+            "terminate": false,
+            "text": "전통 혼례를 할 때 신부는 다홍 치마와 연두색 회장저고리를 입고, 원삼 또는 활옷을 걸쳐요. 큰머리를 얹은 뒤 용잠, 도투락 댕기와 화관이나 족두리로 장식하고요. 또, 길게 덧댄 소매인 한삼으로 손을 감추었죠.",
+            "turn_id": "BK22016672-4",
+            "utterance_id": "BK22016672.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 어떻게 우리나라에 흰색 웨딩드레스가 보편화된 건가요?",
+            "turn_id": "BK22016672-5",
+            "utterance_id": "BK22016672.9"
+        },
+        {
+            "reference_date": "44779.0",
+            "reference_text": [
+                {
+                    "value": "원래 세계의 모든 민족과 모든 문화에는 독자적인 결혼 의복이 있었지만, 서양 문화의 세계적 확산에 의해 웨딩 드레스가 넓게 보급되어, 종래의 예복을 입고 혼인하는 일이 드물어 졌다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "예를 들면, 동양에는 흰색은 죽음의 색을 의미했지만, 서양 문화의 유입과 함께, 대한민국은 물론 중화인민공화국, 일본, 중화민국 등에서도 순백의 웨딩 드레스가 선호되게 되어 있다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9B%A8%EB%94%A9%EB%93%9C%EB%A0%88%EC%8A%A4",
+            "search_query": "웨딩드레스 보편화 이유",
+            "terminate": false,
+            "text": "우리나라처럼 원래 각 민족과 문화마다 자신만의 결혼 의복이 있었어요. 하지만 서양 문화가 세계로 퍼지며 흰 웨딩드레스도 보급되었고, 전통 예복을 보기 어렵게 된 거죠. 우리나라나 중국, 일본 등과 같은 동양에서 원래 흰색은 죽음을 의미했는데, 이제는 다들 새하얀 웨딩드레스를 찾게 되었잖아요.",
+            "turn_id": "BK22016672-5",
+            "utterance_id": "BK22016672.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 우리나라 최초로 서양식의 웨딩드레스를 입은 신부는 누구인가요?",
+            "turn_id": "BK22016672-6",
+            "utterance_id": "BK22016672.11"
+        },
+        {
+            "reference_date": "42454.0",
+            "reference_text": [
+                {
+                    "value": "순결한 신부의 상징인 서양식 순백의 웨딩드레스를 입고 우리나라에서 처음으로 결혼식을 올린 신부에 대해서는 견해차가 있기는 하지만 일반적으로 대한제국의 마지막 황태자인 영친왕이 1920년 일제 강정기에 결혼식을 올릴 때 마사코비(이방자 여사)가 입은 순백색 웨딩드레스를 시초로 꼽고 있습니다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongdo.co.kr/web/view.php?key=20160325000001082",
+            "search_query": "우리나라 최초 웨딩드레스",
+            "terminate": false,
+            "text": "다양한 주장이 있기는 한데, 마사코 비가 일제 강점기였던 1920년에 입었던 순백의 웨딩드레스가 처음이었다는 게 일반적인 견해입니다. 마사코 비는 대한 제국의 마지막 황태자였던 영친왕과 결혼했어요.",
+            "turn_id": "BK22016672-6",
+            "utterance_id": "BK22016672.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "웨딩드레스도 나름대로 역사가 깊네요. 그럼 남자들이 결혼식 때 입는 턱시도는 그 유래가 어떻게 되나요?",
+            "turn_id": "BK22016672-7",
+            "utterance_id": "BK22016672.13"
+        },
+        {
+            "reference_date": "43103.0",
+            "reference_text": [
+                {
+                    "value": "턱시도는 원래 1880년대 미국 뉴욕주의 ‘턱시도 파크’라는 마을에서 유래했다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 마을에 살던 프랑스 귀족 출신 신사가 전통연미복의 꼬리 부분을 잘라내 입고 파티에 나타났다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "연미복이란 남성들이 결혼식, 약혼식 또는 큰 파티에 입는 최고의 정장으로 상의 뒷부분이 제비 꼬리처럼 늘어진 형태다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이렇게 탄생한 턱시도는 ‘턱시도 파크’라는 지명을 따 붙여진 이름이다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/animalpeople/wild_animal/826071.html",
+            "search_query": "턱시도 기원",
+            "terminate": false,
+            "text": "원래 연미복이라고, 남자들이 결혼식이나 약혼식 같은 큰 파티 때 차려입는 최고의 정장이 있는데, 이게 웃옷 뒤쪽이 제비 꼬리처럼 늘어진 모양이거든요. 1880년대에 프랑스의 귀족 신사가 미국 뉴욕주의 턱시도 파크라는 동네에 살았는데, 이 연미복의 꼬리 부분을 자른 채 파티에 온 거예요. 이 옷에 턱시도 파크라는 동네 이름을 따서 이름을 붙인 거죠.",
+            "turn_id": "BK22016672-7",
+            "utterance_id": "BK22016672.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 흥미로운 이야기네요. 하지만 이번에 결혼을 준비하는 친구는 남편 될 사람이 키가 작고 살집이 있는 편이라, 턱시도가 잘 어울릴지 걱정하더라고요. 혹시 이런 체형도 턱시도를 멋지게 입을 방법이 있을까요?",
+            "turn_id": "BK22016672-8",
+            "utterance_id": "BK22016672.15"
+        },
+        {
+            "reference_date": "43386.0",
+            "reference_text": [
+                {
+                    "value": "먼저 작은 신장의 통통한 체형이라면 상·하의 색상을 통일하고 어두운 색상의 짧은 턱시도를 선택해 키는 커 보이고 하체는 슬림하게 연출하는 것이 좋다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이때 너무 복잡한 체크 무늬나 패턴이나 광택이 있는 소재 등은 피하는 것이 좋다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/1S5WAG96TA",
+            "search_query": "작은 키 턱시도",
+            "terminate": false,
+            "text": "작고 통통한 체형을 가졌다면, 짧은 턱시도를 입으면 좋아요. 거기다 상하의 색을 맞추고 어두운 색상을 쓰면 키도 크고 다리도 날씬해 보일 거예요. 격자무늬같이 복잡한 무늬나 반질반질한 재질은 사용하지 않는 걸 권장해요.",
+            "turn_id": "BK22016672-8",
+            "utterance_id": "BK22016672.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 좋은 정보네요. 그럼 친구의 웨딩드레스를 골라줄 때는 어떤 기준을 갖고 보는 게 좋을까요?",
+            "turn_id": "BK22016672-9",
+            "utterance_id": "BK22016672.17"
+        },
+        {
+            "reference_date": "43286.0",
+            "reference_text": [
+                {
+                    "value": "따라서 드레스를 선택할 때에는 무작정 화려한 디자인을 고르거나 유행을 따르기 보다는 신부 체형에 따라 꼼꼼히 비교한 후 선택해야 한다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "먼저 상체가 볼륨있는 신부라면 바디라인이 부해 보일 수 있는 반짝이거나 장식이 많은 드레스는 피하는 편이 좋다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만약 하체가 통통한 신부라면 벨(Belle) 라인 드레스를 선택하길 추천한다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "마른 체형이 고민인 신부라면 레이스나 비즈 등으로 화려하게 장식된 웨딩드레스를 골라 시선을 분산시키는 것이 좋다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "마지막으로 키가 아담한 신부는 A라인이나 하이웨스트 디자인의 드레스를 착용하는 것이 현명하다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatime.co.kr/186800",
+            "search_query": "체형별 웨딩드레스",
+            "terminate": false,
+            "text": "무작정 화려하거나 유행하는 드레스를 고르는 것보다는 체형을 고려해서 비교해 보는 것이 좋아요. 상체에 살집이 있다면 반짝거리거나 장식적인 드레스가 몸매가 뚱뚱해 보이게 할 수 있으니 피해야 하죠. 반대로 말랐다면 레이스, 비즈 등의 화려한 장식이 있는 드레스가 시선을 분산시켜주죠. 하체에 살집이 있다면 벨 라인 드레스가 예쁘고, 작은 키가 걱정이라면 에이 라인이나 허리선이 높은 드레스가 잘 어울린답니다.",
+            "turn_id": "BK22016672-9",
+            "utterance_id": "BK22016672.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 제 친구는 벨 라인 드레스가 잘 어울리겠어요. 마침 벨 라인 드레스를 입은 사진을 보내줬거든요. 조언해 주어서 고마워요.",
+            "turn_id": "BK22016672-10",
+            "utterance_id": "BK22016672.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 저도 기뻐요.",
+            "turn_id": "BK22016672-10",
+            "utterance_id": "BK22016672.20"
+        }
+    ]
+}

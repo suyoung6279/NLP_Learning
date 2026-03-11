@@ -1,0 +1,357 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.5,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015191",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015191",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 집 반려견이 피부에 고름과 딱지가 생겨서 몇 개월간 피부염 치료를 해왔거든요. 그런데 항생제를 먹여도 그때뿐이고 병변이 계속 넓어지네요. 이게 무슨 병일까요?",
+            "turn_id": "BK22015191-1",
+            "utterance_id": "BK22015191.1"
+        },
+        {
+            "reference_date": "2022-10-05",
+            "reference_text": [
+                {
+                    "value": "천포창은 개와 고양이에서 가장 흔한 자가면역성피부질환이다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "주로 농포, 발적, 각질을 동반하는데 단순한 피부감염증과 구분이 어려울 때가 많아 진단과 치료시기가 늦어지는 일이 많다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61443",
+            "search_query": "천포창",
+            "terminate": false,
+            "text": "천포창이네요. 천포창은 개에게서 제일 흔한 자가면역성 피부질환이에요. 주된 증상으로는 농포, 발적, 각질이 있는데 가벼운 피부감염증과 구분하기 쉽지 않아 궁금이님 반려견처럼 진단과 치료 시기가 지체되는 일이 많아요.",
+            "turn_id": "BK22015191-1",
+            "utterance_id": "BK22015191.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 저는 처음 들어보는 생소한 질병인데, 천포창이라는게 뭔가요?",
+            "turn_id": "BK22015191-2",
+            "utterance_id": "BK22015191.3"
+        },
+        {
+            "reference_date": "2022-10-05",
+            "reference_text": [
+                {
+                    "value": "표피는 피부의 가장 바깥을 구성하는 층으로 외부로부터 방어막 역할을 한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "천포창은 자가항체가 이 표피층을 구성하는 세포끼리의 연결을 공격하면서 임상증상을 일으키게 된다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61443",
+            "search_query": "천포창 자가항체 공격",
+            "terminate": false,
+            "text": "표피는 피부의 가장 바깥을 이루고 있는 층으로 외부로부터 방어막 역할을 해주죠. 천포창은 자가항체가 이 표피층을 이루고 있는 세포끼리 이어진 것을 공격하면서 임상 증상을 일으키는 질병이에요.",
+            "turn_id": "BK22015191-2",
+            "utterance_id": "BK22015191.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그런데 혹시 딱지와 고름이 생기는 위치에 따른 차이가 있나요?",
+            "turn_id": "BK22015191-3",
+            "utterance_id": "BK22015191.5"
+        },
+        {
+            "reference_date": "2022-10-05",
+            "reference_text": [
+                {
+                    "value": "공격하는 위치와 임상증상에 따라서 ▲낙엽성천포창 ▲홍반성천포창 ▲보통천포창 ▲종양연관성천포창 등으로 나눠진다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61443",
+            "search_query": "천포창 위치 임상증상",
+            "terminate": false,
+            "text": "네, 자가항체가 공격하는 위치와 임상증상에 따라서 낙엽성천포창, 홍반성천포창, 보통천포창, 종양연관성천포창 등으로 구분할 수 있어요.",
+            "turn_id": "BK22015191-3",
+            "utterance_id": "BK22015191.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 차이가 있군요. 그런데 천포창이 생기는 원인이 뭔가요?",
+            "turn_id": "BK22015191-4",
+            "utterance_id": "BK22015191.7"
+        },
+        {
+            "reference_date": "2022-10-05",
+            "reference_text": [
+                {
+                    "value": "천포창이 발생하는 원인으로는 아키타와 차우차우같이 유전적 요소를 가지고 있거나 자외선에 많이 노출되거나 일부 항생제의 사용을 생각해 볼 수 있지만 대부분은 이유 없이 발생하는 편이다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61443",
+            "search_query": "천포창 원인",
+            "terminate": false,
+            "text": "천포창이 발생하는 원인으로는 아키타와 차우차우같이 유전적 요인이 있거나 자외선에 오래 노출되거나 일부 항생제의 투약을 고려해 볼 수 있지만 대부분은 특별한 이유 없이 발병하는 편이에요.",
+            "turn_id": "BK22015191-4",
+            "utterance_id": "BK22015191.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각해보면 저희집 반려견도 특별한 이유가 없네요. 그런데 일반 피부염과 천포창의 차이가 있나요? 워낙 비슷해서 그랬던지 동물병원에서 피부염으로 진단받았거든요.",
+            "turn_id": "BK22015191-5",
+            "utterance_id": "BK22015191.9"
+        },
+        {
+            "reference_date": "2022-10-05",
+            "reference_text": [
+                {
+                    "value": "천포창 병변은 일반적인 피부염과 구별되는 특징적인 위치가 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "개와 고양이 모두 주로 얼굴에서 시작될 때가 많고 특히 귀 끝, 콧잔등, 비문, 눈 주변 등에서 대칭적으로 발생할 때가 많다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 발바닥이나 발톱 주변 등 일반적으로 피부농포가 잘 생기지 않는 부위에 다량의 딱지를 동반한 염증이 보인다면 천포창을 의심해 볼 수 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61443",
+            "search_query": "천포창 피부염",
+            "terminate": false,
+            "text": "네, 천포창 병변은 일반적인 피부염과 차이를 보이는 특징적인 위치가 있어요. 개의 얼굴에서 대부분 시작될 때가 많고 특히 귀 끝, 콧잔등, 비문, 눈 주변 등에서 대칭적으로 생길 때가 많아요. 또 발바닥이나 발톱 주변 등 대게 피부농포가 잘 안 생기는 부위에 많은 양의 딱지와 함께 염증이 발견된다면 천포창일 가능성이 크죠.",
+            "turn_id": "BK22015191-5",
+            "utterance_id": "BK22015191.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 반려견도 얼굴에서 병변이 시작됐는데 듣고 보니 천포창이 딱 맞는 것 같네요. 천포창의 다른 증상은 또 없나요?",
+            "turn_id": "BK22015191-6",
+            "utterance_id": "BK22015191.11"
+        },
+        {
+            "reference_date": "2022-10-05",
+            "reference_text": [
+                {
+                    "value": "전신증상으로는 열, 식욕부진, 림프절종대 등이 나타나기도 한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "소양감은 초반에는 확인되지 않다가 세균감염 등 이차감염이 진행되면서 점점 증가하기도 한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61443",
+            "search_query": "천포창 전신증상",
+            "terminate": false,
+            "text": "전신증상으로는 열, 식욕부진, 림프절종대 등이 발생하기도 해요. 아프고 가려운 느낌은 초반에는 발견되지 않다가 세균감염 등 이차감염이 진행되면서 조금씩 증가하기도 하죠.",
+            "turn_id": "BK22015191-6",
+            "utterance_id": "BK22015191.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그렇다면 천포창의 진단은 어떻게 내려지나요?",
+            "turn_id": "BK22015191-7",
+            "utterance_id": "BK22015191.13"
+        },
+        {
+            "reference_date": "2022-10-05",
+            "reference_text": [
+                {
+                    "value": "병변의 위치를 보고 천포창을 의심한다면 진단을 위해서 추가적인 검사가 필요하다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "간단하게는 현미경으로 병변 부위 세포를 관찰하거나 자가항체가 있는지를 확인하는 ANA test를 의뢰하고 나아가서는 조직검사와 면역화학검사를 진행해 확진한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61443",
+            "search_query": "천포창 추가검사",
+            "terminate": false,
+            "text": "병변의 위치를 보고 천포창이 예상된다면 진단을 위해서 추가적인 검사를 하게 돼요. 간단하게는 현미경으로 병변 부위 세포를 살펴보거나 자가항체가 존재하는지를 체크하는 ANA test를 실시하고 나아가서는 조직검사와 면역화학 검사를 진행해 확진 판정을 내리죠.",
+            "turn_id": "BK22015191-7",
+            "utterance_id": "BK22015191.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여러 검사를 거쳐서 확진하게 되는군요. 만약 천포창으로 확진되었다면 어떤 치료가 진행되나요?",
+            "turn_id": "BK22015191-8",
+            "utterance_id": "BK22015191.15"
+        },
+        {
+            "reference_date": "2022-10-05",
+            "reference_text": [
+                {
+                    "value": "위와 같은 검사를 통해 천포창이 진단됐다면 스테로이드와 자가면역제를 적절히 조합해 투약하며 수개월에 걸쳐서 서서히 용량을 감량한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "감염을 예방하기 위함이나 이미 이차감염이 동반되면 항생제를 추가로 처방하기도 한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61443",
+            "search_query": "천포창 진단",
+            "terminate": false,
+            "text": "설명 드린 검사를 진행해 천포창이 확진됐다면 스테로이드와 자가면역제를 적당히 조합해 투약하고 수개월에 걸쳐서 천천히 용량을 줄여가요. 감염을 예방하기 위해서 혹은 이미 이차감염이 동반되면 항생제를 추가로 쓰기도 하고요.",
+            "turn_id": "BK22015191-8",
+            "utterance_id": "BK22015191.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 치료의 예후는 좋은 편인가요?",
+            "turn_id": "BK22015191-9",
+            "utterance_id": "BK22015191.17"
+        },
+        {
+            "reference_date": "2022-10-05",
+            "reference_text": [
+                {
+                    "value": "치료에 대한 예후는 좋은 편이나 대부분은 장기간의 약물처방이나 평생 투약이 필요할 때도 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "장기간의 약물 투약으로 인한 부작용이 발생하지 않는지 정기적인 검진이 꼭 필요하다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61443",
+            "search_query": "천포창 예후",
+            "terminate": false,
+            "text": "네, 치료에 대한 예후는 좋은 편인데 대부분은 장기간의 약물처방이나 평생 투약이 필요한 경우도 있어요. 그래서 장기간의 약물 투약으로 인한 사이드 이펙트가 생기지는 않았는지 정기적인 검진을 반드시 받아야 해요.",
+            "turn_id": "BK22015191-9",
+            "utterance_id": "BK22015191.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 집 반려견이 천포창이 금방 낫는 케이스면 좋겠네요. 내일 동물 병원에 가봐야겠어요. 오늘 좋은 정보 알려주셔서 정말 감사했어요.",
+            "turn_id": "BK22015191-10",
+            "utterance_id": "BK22015191.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 그럼 조심히 들어가세요.",
+            "turn_id": "BK22015191-10",
+            "utterance_id": "BK22015191.20"
+        }
+    ]
+}

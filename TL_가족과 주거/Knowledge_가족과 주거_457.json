@@ -1,0 +1,397 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015451",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015451",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "독립을 해야하는데 집을 어떻게 구해야 할 지 모르겠어. 혹시 청년층을 대상으로 하는 지원이나 정책에 대해 알아보려면 어떻게 해야 해?",
+            "turn_id": "BK22015451-1",
+            "utterance_id": "BK22015451.1"
+        },
+        {
+            "reference_date": "2018-07-08",
+            "reference_text": [
+                {
+                    "value": "국토교통부는 주거복지정보 포털 '마이홈'을 신혼부부, 청년, 일반 맞춤형 정보로 개편, 9일부터 제공한다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대학생 등 청년층도 '청년 주거지원' 항목에서 청년전세임대, 행복주택, 공공기숙사 등의 주택 및 금융정보를 바로 찾아볼 수 있다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "'자금지원' 항목으로 들어가면 청년층 맞춤형 주택금융인 주거안정월세대출 등에 대한 대출대상, 금리, 신청절차, 취급은행 등 상세정보를 보다 쉽게 확인할 수 있다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etnews.com/20180708000008",
+            "search_query": "마이 홈 포털",
+            "terminate": false,
+            "text": "청년 주거 정책에 대해 궁금하면 국토교통부의 주거복지정보 포털인 마이홈을 이용해보는 건 어때? 마이홈에서는 청년 주거지원 항목에서 청년전세임대, 행복주택, 공공기숙사 등의 주택 및 금융정보를 바로 찾아볼 수 있어. 자금지원항목에 들어가면 청년층 맞춤형 주택금융인 주거안정월세대출 등에 대한 대출대상, 금리, 신청절차, 취급은행 등이 상세히 나오니 많은 도움이 될거야.",
+            "turn_id": "BK22015451-1",
+            "utterance_id": "BK22015451.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 좋은 정보 고마워. 찾아보니 행복 주택이라는 게 있는데 정확히 뭔지 모르겠어. 행복 주택에 대해 설명해 줄 수 있어?",
+            "turn_id": "BK22015451-2",
+            "utterance_id": "BK22015451.3"
+        },
+        {
+            "reference_date": "2022-10-03",
+            "reference_text": [
+                {
+                    "value": "LH 인천지역본부가 오는 12월까지 무주택 청년(만 19~39세)을 주요 대상으로 하는 행복주택 3천1가구를 공급한다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "행복주택은 주변 시세의 60~80% 수준의 저렴한 임대료로 입주가 가능한 주택이다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "주로 젊은 계층의 주거 안정을 위해 공급하는 주택으로, 지하철역 주변 등 대중교통 이용이 편리한 입지에 단지가 조성된다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyeongin.com/main/view.php?key=20221003010000078",
+            "search_query": "행복 주택",
+            "terminate": false,
+            "text": "행복주택은 LH 에서 주변 시세의 60~80% 수준으로 저렴하게 임대해주는 주택이야. 지하철역 주변이나 대중교통 이용이 편리한 곳에 위치해있어.",
+            "turn_id": "BK22015451-2",
+            "utterance_id": "BK22015451.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "주변 시세보다 싸게 살고, 역세권이라니 너무 좋다. 혹시 행복 주택에 들어갈 수 있는 자격 조건이 있어?",
+            "turn_id": "BK22015451-3",
+            "utterance_id": "BK22015451.5"
+        },
+        {
+            "reference_date": "2022-07-07",
+            "reference_text": [
+                {
+                    "value": "자산은 2억 8,800만원, 3,557만원 이하의 자동차 소유만 가능하다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대학생은 본인과 직계가족 소득과 자산을 심사한다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1인가구의 경우 본인만 해당된다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "신청방법은 LH청약센터에서 신청 가능하다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=981275",
+            "search_query": "행복 주택 입주 자격",
+            "terminate": false,
+            "text": "보통 1인 가구의 경우 본인의 소득과 자산을, 대학생의 경우 본인과 직계가족의 소득과 자산을 심사해. 자산은 2억 8,800만원 이하, 자동차의 경우는 3,557만원 이하만 가능해. 신청 방법은 LH청약센터에서 신청하면 돼.",
+            "turn_id": "BK22015451-3",
+            "utterance_id": "BK22015451.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "찾아보니 경기주택도시공사에서도 청년형 매입임대주택의 입주자를 모집한다고 뜨던데 이것도 행복 주택과 비슷한거야?",
+            "turn_id": "BK22015451-4",
+            "utterance_id": "BK22015451.7"
+        },
+        {
+            "reference_date": "2022-10-06",
+            "reference_text": [
+                {
+                    "value": "경기주택도시공사(GH)가 청년형 매입임대주택 228가구의 입주자를 모집한다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "5일 GH에 따르면 청년형 매입임대주택은 다세대·다가구·오피스텔 등의 기존주택을 GH가 매입해 개보수한 뒤 시세의 30∼50% 수준으로 무주택 청년에게 공급하는 주택이다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "임대 기간은 2년으로 재계약 요건 충족 시 최대 6년까지 거주가 가능하다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20221006500109?OutUrl=naver",
+            "search_query": "GH 청년형 매입임대주택",
+            "terminate": false,
+            "text": "경기주택도시공사의 청년형 매입임대주택은 다세대, 다가구, 오피스텔 등의 기존 주택을 경기주택도시공사가 매입해 개보수한 뒤 무주택 청년에게 공급하는 주택이야. 시세의 30에서 50% 수준으로 저렴하지. 보통 임대 기간은 2년인데 재계약 요건이 충족되면 6년까지 거주 가능해.",
+            "turn_id": "BK22015451-4",
+            "utterance_id": "BK22015451.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "행복주택과 청년형 매입임대주택은 다른 거구나. 근데 행복 주택보다 더 저렴한 것 같아 좋네. 청년형 매입 임대주택의 입주 자격은 어떻게 돼?",
+            "turn_id": "BK22015451-5",
+            "utterance_id": "BK22015451.9"
+        },
+        {
+            "reference_date": "2022-10-04",
+            "reference_text": [
+                {
+                    "value": "입주자격은 무주택자 중 미혼인 청년이며, △대학생 △취업준비생 △만19세 이상 만39세 이하 중 하나에 해당되는 청년이다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "소득기준은 본인의 소득이 385만4536원 이하면 신청 가능하다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "세부 입주자격 및 신청방법 등 입주신청과 관련한 자세한 내용은 GH 홈페이지 분양(임대) 공고에서 확인할 수 있다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sportsseoul.com/news/read/1165186?ref=naver",
+            "search_query": "GH 청년형 매입임대주택 입주 자격",
+            "terminate": false,
+            "text": "입주자격은 무주택자 중 미혼인 청년이며, 대학생, 취업준비생, 만19세 이상 만39세 이하 중 하나에 해당하면 돼. 소득기준은 본인의 소득이 385만4536원 이하면 신청가능 해. 세부 입주자격과 신청방법 등 입주신청과 관련한 정보는 GH 홈페이지에서 직접 확인하는 게 좋아.",
+            "turn_id": "BK22015451-5",
+            "utterance_id": "BK22015451.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "행복 주택과 경기도 청년형 매입임대주택을 찾아봤는데 우리 동네에는 입주 정보가 없어. 다른 방법이 없을까?",
+            "turn_id": "BK22015451-6",
+            "utterance_id": "BK22015451.11"
+        },
+        {
+            "reference_date": "2022-10-07",
+            "reference_text": [
+                {
+                    "value": "`청년월세 특별지원` 사업은 지난 8월부터 저소득층 청년을 위해 1인당 월 20만원씩, 최대 12개월 동안 월세를 보조해주는 사업이다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사업 대상자는 만 34세 이하, 청년가구 중위소득 대비 60%(월 117만원) 이내이면서, 원가구 중위소득 100% 이하인 저소득층 독립 청년이다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/economy/view/2022/885839",
+            "search_query": "청년 월세 지원",
+            "terminate": false,
+            "text": "그럴 때는 청년월세 특별지원 사업을 알아봐. 만 34세 이하, 청년가구 중에서 중위소득 대비 60% 이하면서, 원가구 중위소득이 100% 이하인 저소득층 독립 청년이라면 지원 가능해. 만일 자격 조건이 충족된다면 1인당 월 20만원씩, 최대 12개월 동안 월세를 지원해줘.",
+            "turn_id": "BK22015451-6",
+            "utterance_id": "BK22015451.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좋은 제도인걸? 내 동생도 지방에 사는데 신청하라고 해야겠다. 거기 월세가 20만원이니 딱이거든.",
+            "turn_id": "BK22015451-7",
+            "utterance_id": "BK22015451.13"
+        },
+        {
+            "reference_date": "2022-02-21",
+            "reference_text": [
+                {
+                    "value": "각 지자체와 국토부 청년월세 지원정책을 보면 월세 지원금액은 지자체별로 차이가 있다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지난해 하반기 서울시 청년월세지원사업에 선정된 청년의 경우 월 최대 20만원의 월세를 10개월간(총 200만원) 지원받고 있다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "울산의 경우 매월 최대 임차료 10만원, 임차보증금 이자 5만원을 지원한다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지자체별 청년월세지원 대상 기준 나이도 각각 다르다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.opinionnews.co.kr/news/articleView.html?idxno=62717",
+            "search_query": "청년 월세 지원 지자체",
+            "terminate": false,
+            "text": "사실 청년 월세 지원 정책을 보면 지자체별로 금액 차이가 있어. 2021년 하반기 서울시의 경우 월 최대 20만원의 월세를 10개월간 지원해줬지만, 울산의 경우 매월 최대 10만원, 임차보증금 이자 5만원을 지원해줬어. 게다가 지자체별로 대상 기준이나 나이도 각각 다르니 직접 확인해야 해.",
+            "turn_id": "BK22015451-7",
+            "utterance_id": "BK22015451.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "청년 주거 안정 정책이라지만 지역별 정보도 미리 알아둬야 하고, 입주 조건도 각각 다르니 힘드네. 미리 정리하는 방법이 없을까?",
+            "turn_id": "BK22015451-8",
+            "utterance_id": "BK22015451.15"
+        },
+        {
+            "reference_date": "2021-03-31",
+            "reference_text": [
+                {
+                    "value": "공공임대주택으로 입주를 희망하거나 내 집 마련을 계획 중인 사람은 매년 초 발표되는 '공공주택 입주자모집 달력'을 미리 확인하고 활용할 수 있게 된다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "'공공주택 입주자모집 달력'에는 공공임대주택, 신혼희망타운, 공공분양주택 이외에도 공공지원 민간임대까지 포함되며, 4월 1일부터 '마이홈포털→공공주택찾기→연간공급계획' 메뉴에서 확인 가능하다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mhns.co.kr/news/articleView.html?idxno=503347",
+            "search_query": "공공 임대 정보",
+            "terminate": false,
+            "text": "그럴 때는 매년 초 발표하는 공공주택 입주자모집 달력을 미리 보고 체크해두는 것도 좋은 방법이야. 공공주택 입주자모집 달력에는 공공임대주택, 신혼희망타운, 공공분양주택 이외에도 공공지원 민간임대까지 모두 나와 있거든. 마이홈포털에서 연간공급계획을 찾아봐.",
+            "turn_id": "BK22015451-8",
+            "utterance_id": "BK22015451.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래 공공주택 입주자 모집 달력을 잘 활용해야겠어. 그러면 잘 살피고 있다가 마음에 드는 입주 공고가 뜨면 홈페이지에서 신청하면 되는 건가?",
+            "turn_id": "BK22015451-9",
+            "utterance_id": "BK22015451.17"
+        },
+        {
+            "reference_date": "2022-08-09",
+            "reference_text": [
+                {
+                    "value": "청약 신청은 한국토지주택공사, 서울주택도시공사, 경기주택도시공사 등 공공주택사업자별 입주자 모집공고에 따라 누리집, 현장접수 등을 통하면 된다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.businesspost.co.kr/BP?command=article_view&num=289368",
+            "search_query": "공공 임대 청약 신청",
+            "terminate": false,
+            "text": "그렇지 않아. 청약 신청은 한국토지주택공사, 서울주택도시공사, 경기주택도시공사 등 공공주택사업자별로 달라, 보통 입주자 모집공고에 나와 있으니 확인해. 누리집이나 현장접수의 경우도 있으니 참고하고.",
+            "turn_id": "BK22015451-9",
+            "utterance_id": "BK22015451.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "청약 신청도 지자체나 주체별로 제각각이구나. 제대로 안봤다가 낭패 볼 뻔했어. 알려줘서 고마워.",
+            "turn_id": "BK22015451-10",
+            "utterance_id": "BK22015451.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "꼼꼼하게 챙겨서 꼭 선정되길 바랄게. 좋은 하루 보내.",
+            "turn_id": "BK22015451-10",
+            "utterance_id": "BK22015451.20"
+        }
+    ]
+}

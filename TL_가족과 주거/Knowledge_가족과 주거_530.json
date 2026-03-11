@@ -1,0 +1,361 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015664",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015664",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번에 가족 캠핑을 가기로 했는데 뭐부터 준비해야할지 모르겠어. 너 캠핑 많이 다녀봤어?",
+            "turn_id": "BK22015664-1",
+            "utterance_id": "BK22015664.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나는 캠핑 많이 다녔지. 모르는 거 있으면 나한테 다 물어봐.",
+            "turn_id": "BK22015664-1",
+            "utterance_id": "BK22015664.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "텐트를 사려고 하는데 어떤 텐트를 사는 게 좋을지 감이 안 와. 텐트의 종류로는 어떤 게 있어?",
+            "turn_id": "BK22015664-2",
+            "utterance_id": "BK22015664.3"
+        },
+        {
+            "reference_date": "2015-10-12",
+            "reference_text": [
+                {
+                    "value": "텐트의 종류로는 돔형, 캐빈형(가옥형), 터널형 등이 있는 것으로 알려져 있다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "돔형은 중량이 가벼워 혼자서도 설치가 가능한 장점이 있고 캐핀형은 사이즈가 커 가족단위나 원정산악에 이용된다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "터널형은 주로 유럽에서 많이 쓰이는 방식으로 길죽한 모형이 특징이다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20151012000006?OutUrl=naver",
+            "search_query": "텐트의 종류",
+            "terminate": false,
+            "text": "텐트의 종류로는 돔형, 캐빈형, 터널형 등이 있어. 돔형은 중량이 가벼워서 혼자서도 설치할 수 있고, 캐빈형은 사이즈가 커서 가족단위나 원정산악에 주로 써. 터널형은 유럽에서 많이 쓰는데, 모형이 길쭉한 게 특징이야.",
+            "turn_id": "BK22015664-2",
+            "utterance_id": "BK22015664.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나는 가족캠핑이니까 캐빈형을 써야 하려나? TV에서 보니까 자동으로 펴지는 텐트도 있던데 그런 것도 써도 돼?",
+            "turn_id": "BK22015664-3",
+            "utterance_id": "BK22015664.5"
+        },
+        {
+            "reference_date": "2015-10-11",
+            "reference_text": [
+                {
+                    "value": "자동 텐트는 일반 텐트에 비해 바람에 취약했다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "캠핑 전문가 김준성 씨는 ”자동 텐트가 한 번에 피기엔 편하다. 하지만 일반 텐트의 폴대에 비해 플라스틱 탄성이 약하기 때문에 심한 바람이 불면 날아갈 수 있다”고 해설했다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://star.mbn.co.kr/view.php?no=970338&year=2015&refer=portal",
+            "search_query": "자동 텐트",
+            "terminate": false,
+            "text": "자동 텐트가 한번에 피기 편하긴 하지. 그런데 자동 텐트는 일반 텐트보다 바람에 취약하고 플라스틱 탄성도 약해. 그래서 심한 바람이 불면 날아갈 수도 있어.",
+            "turn_id": "BK22015664-3",
+            "utterance_id": "BK22015664.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그건 좀 위험하겠다. 그럼 텐트를 고를 때 어떤 걸 고려해야 해?",
+            "turn_id": "BK22015664-4",
+            "utterance_id": "BK22015664.7"
+        },
+        {
+            "reference_date": "2016-09-11",
+            "reference_text": [
+                {
+                    "value": "구조적으로는 플라이가 몸체를 완전히 덮어야 방수성과 방풍성을 충분히 높일 수 있다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그런 다음 플라이 입구 부분을 열었을 때 몸체에서 발생하는 습기를 어떻게 잘 빠져나가도록 디자인했나를 따져본다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "겨울에는 주로 텐트 안에서 취사를 하게 되는데 이때 발생한 습기가 몸체 안에 응결되기 때문에 통풍성은 매우 중요한 기능이다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/culture/view.php?ud=201609110108147433222_1",
+            "search_query": "텐트 고르는 법",
+            "terminate": false,
+            "text": "일단 구조적으로는 플라이가 몸체를 완전히 덮어야 해. 그래야 방수성과 방풍성을 충분히 높일 수 있거든. 그리고 플라이 입구 부분을 열었을 때 몸체에서 발생하는 습기를 어떻게 잘 빠져나가도록 디자인했는지 확인해야 해. 겨울에는 주로 텐트 안에서 취사를 하는데, 이때 생긴 습기가 몸체 안에 고이기 때문에 통풍성은 꼭 확인 해야해.",
+            "turn_id": "BK22015664-4",
+            "utterance_id": "BK22015664.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "텐트 안에 습기가 차는 건 생각을 못했다. 꼭 참고할게. 혹시 텐트 사이즈는 어떻게 고르면 될까?",
+            "turn_id": "BK22015664-5",
+            "utterance_id": "BK22015664.9"
+        },
+        {
+            "reference_date": "2016-09-11",
+            "reference_text": [
+                {
+                    "value": "거주성을 중시할 때는 ‘○인용’이라는 표시에서 1인을 빼고 선택하는 것이 좋다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "혼자일 때는 2인용, 두 사람일 때는 3인용을 선택하는 것이 거주성이 좋다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한 사람이 차지하는 수면 공간은 길이 200cm, 폭 50cm 정도로 계산하면 된다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/culture/view.php?ud=201609110108147433222_1",
+            "search_query": "텐트 사이즈",
+            "terminate": false,
+            "text": "음, 거주성이 중요할 때는 텐트에 몇인용이라는 표시에서 1인을 빼고 선택하면 돼. 예를 들어 혼자일 때는 2인용, 두 사람일 때는 3인용을 선택하는 게 거주성이 좋아. 한 사람이 차지하는 수면 공간을 대략 길이는 200cm, 폭은 50cm로 계산하면 돼.",
+            "turn_id": "BK22015664-5",
+            "utterance_id": "BK22015664.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 가족은 3명이니까 4인용을 사면 되겠네. 혹시 가족 캠핑에 쓰기 좋은 텐트 종류가 따로 있을까?",
+            "turn_id": "BK22015664-6",
+            "utterance_id": "BK22015664.11"
+        },
+        {
+            "reference_date": "2014-03-19",
+            "reference_text": [
+                {
+                    "value": "캠핑텐트에는 돔형, 투룸형, 팝업형 등 다양한 종류가 있지만 가족 캠핑에는 대체로 원룸격인 돔형과 거실과 침실이 나뉜 투룸형을 많이 사용한다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2014/02/214410/",
+            "search_query": "가족 캠핑",
+            "terminate": false,
+            "text": "가족 캠핑은 돔형과 투룸형을 많이 사용해. 돔형은 원룸이고, 투룸형은 거실과 침실이 나뉜 거라고 생각하면 돼.",
+            "turn_id": "BK22015664-6",
+            "utterance_id": "BK22015664.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "둘 중에 어떤 걸 구매할지 고민되네. 어쨌든 큰 텐트를 사는 게 더 좋으려나?",
+            "turn_id": "BK22015664-7",
+            "utterance_id": "BK22015664.13"
+        },
+        {
+            "reference_date": "2012-05-16",
+            "reference_text": [
+                {
+                    "value": "중ㆍ대형 텐트라고 해서 무조건 부피가 크고 무거운 텐트를 고르는 건 금물.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "중형 텐트는 성인 한 명이 운반할 수 있는 부피와 무게여야 한다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "5~7㎏ 정도 제품이 적당하다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2012/05/298332/",
+            "search_query": "가족 캠핑 텐트",
+            "terminate": false,
+            "text": "중, 대형 텐트라고 해서 무조건 부피가 크고 무거운 텐트가 좋은 건 아니야. 중형 텐트는 성인 한 명이 운반할 수 있는 부피와 무게여야 해. 대략 5~7kg 정도 제품이면 적당할 거야.",
+            "turn_id": "BK22015664-7",
+            "utterance_id": "BK22015664.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하마터면 들지도 못할 텐트를 살 뻔했네. 혹시 텐트 고를 때 또 유의할 점이 있으면 알려줘.",
+            "turn_id": "BK22015664-8",
+            "utterance_id": "BK22015664.15"
+        },
+        {
+            "reference_date": "2013-05-27",
+            "reference_text": [
+                {
+                    "value": "여름 캠핑을 위해서는 자외선 차단 기능을 갖춘 텐트인지 여부도 따지는 것이 좋다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "야외에서 다양한 활동을 하게 되는 캠핑의 특성 상, 지나친 자외선 노출은 자칫 화상이나, 피부 트러블의 원인이 될 수 있기 때문이다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etnews.com/201305270465",
+            "search_query": "텐트 자외선 차단 기능",
+            "terminate": false,
+            "text": "여름 캠핑을 위해서는 자외선 차단 기능을 갖춘 텐트인지도 확인하면 좋아. 캠핑을 가면 주로 야외에서 다양한 활동을 하게 되잖아. 지나친 자외선 노출은 화상이나 피부 트러블의 원인이 될 수도 있거든.",
+            "turn_id": "BK22015664-8",
+            "utterance_id": "BK22015664.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네 덕분에 어떤 텐트를 사면 좋을지 감이 왔어. 그럼 텐트 사용하고 나서는 어떻게 보관해야 해?",
+            "turn_id": "BK22015664-9",
+            "utterance_id": "BK22015664.17"
+        },
+        {
+            "reference_date": "2015-04-21",
+            "reference_text": [
+                {
+                    "value": "한편 텐트는 사용 후 물기를 완전히 건조해 보관하는 것이 매우 중요하므로 열어놓은 출입구를 봉쇄한 후 텐트의 형태가 있는 상태에서 텐트 바닥이 하늘로 향하도록 뒤집어 바닥의 흙먼지를 없애고 햇볕에 건조시켜 보관하는 것이 좋다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mdtoday.co.kr/mdtoday/index.html?no=253214",
+            "search_query": "텐트 보관방법",
+            "terminate": false,
+            "text": "텐트를 사용한 후에는 물기를 완전히 건조해서 보관하는 게 중요해. 일단 열어놓은 출입구를 봉쇄하고, 텐트의 형태가 있는 상태에서 텐트 바닥이 하늘로 향하도록 뒤집어. 그 다음 바닥의 흙먼지를 다 없애고 햇볕에 건조시킨 다음 보관하면 돼.",
+            "turn_id": "BK22015664-9",
+            "utterance_id": "BK22015664.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "출입구를 닫고 그대로 뒤집어서 건조하면 되는 거구나. 이것저것 물어봤는데 친절하게 알려줘서 고마워.",
+            "turn_id": "BK22015664-10",
+            "utterance_id": "BK22015664.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 됐다니 나도 기쁘다. 캠핑용품에 대해 더 궁금한 게 생기면 나한테 언제든 물어봐.",
+            "turn_id": "BK22015664-10",
+            "utterance_id": "BK22015664.20"
+        }
+    ]
+}

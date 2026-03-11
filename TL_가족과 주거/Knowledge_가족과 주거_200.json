@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014695",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014695",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내년 여름에 가족 여행으로 하와이를 가려고 하는데, 내가 일정을 짜기로 해서 어떻게 할지 고민 중이야.",
+            "turn_id": "BK22014695-1",
+            "utterance_id": "BK22014695.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 내가 좀 도와줄까? 나 작년에 하와이에서 한 달 살기하고 왔어.",
+            "turn_id": "BK22014695-1",
+            "utterance_id": "BK22014695.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우와 정말 좋았겠다. 그러면 하와이의 어디를 중심으로 여행을 하는 게 좋은지 알려 줄 수 있어?",
+            "turn_id": "BK22014695-2",
+            "utterance_id": "BK22014695.3"
+        },
+        {
+            "reference_date": "2019-12-31",
+            "reference_text": [
+                {
+                    "value": "보통 하와이 여행 시 오하우섬을 중심으로 일정을 짠다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "공항 및 와이키키 등의 하와이의 대표적인 명소, 여행 편의시설이 모여있는 중심지이기 때문.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=42644",
+            "search_query": "하와이 오하우섬",
+            "terminate": false,
+            "text": "하와이에 여행을 가면 보통 오하우섬을 중심으로 계획을 짜. 공항뿐만 아니라 와이키키 같은 하와이의 유명한 관광지, 여행 편의시설이 다 있거든.",
+            "turn_id": "BK22014695-2",
+            "utterance_id": "BK22014695.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 그렇게 계획을 세워야겠다. 그런데 오하우섬에 가면 뭘 할 수 있어? 관광할 만한 볼거리가 있으면 알려줘.",
+            "turn_id": "BK22014695-3",
+            "utterance_id": "BK22014695.5"
+        },
+        {
+            "reference_date": "2016-07-18",
+            "reference_text": [
+                {
+                    "value": "오하우 섬은 투명한 바다 말고도 볼거리가 넘쳐난다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그중 이올라니 궁전은 미국 내 유일한 궁전으로 오아후 섬의 대표 명소로 꼽힌다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "'신성한 새'라는 뜻을 가진 이올라니 궁전은 빅토리아 양식으로 1882년 지어졌다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2016/07/512216/",
+            "search_query": "하와이 오하우섬 궁전",
+            "terminate": false,
+            "text": "오하우섬은 바다뿐만 아니라 볼거리가 많아. 특히 미국에 있는 유일한 궁전인 이올라니 궁전은 오하우섬의 유명한 관광지 중 하나야. 신성한 새라는 의미를 지닌 이올라니 궁전은 1882년에 빅토리아 양식으로 세워졌지.",
+            "turn_id": "BK22014695-3",
+            "utterance_id": "BK22014695.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가서 직접 보면 정말 멋있을 거 같아. 그렇지만 일단 하와이를 갔으니 바다를 즐기고 싶은데, 어디로 가야 해?",
+            "turn_id": "BK22014695-4",
+            "utterance_id": "BK22014695.7"
+        },
+        {
+            "reference_date": "2018-08-17",
+            "reference_text": [
+                {
+                    "value": "하와이의 푸른 바다를 즐기고 싶다면 하나우마베이를 추천한다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "푸르고 투명한 바다로 하와이의 대표 스노클링 명소인 하나우마 베이는 많은 산호초가 거친 파도를 막아주기 때문에 초보자도 쉽게 스노클링을 즐길 수 있다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.obsnews.co.kr/news/articleView.html?idxno=1111152",
+            "search_query": "하와이 하나우마베이",
+            "terminate": false,
+            "text": "하나우마베이에 가면 하와이의 푸른 바다를 볼 수 있어. 그리고 이곳은 하와이의 스노클링 명소 중 하나로 산호초가 많아서 센 파도를 막아주니까 초보자도 스노클링을 해 볼 수 있어.",
+            "turn_id": "BK22014695-4",
+            "utterance_id": "BK22014695.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상상만 해도 너무 좋을 거 같아. 그리고 하와이를 간다고 하니까 친구가 별을 보러 가라고 하던데, 어디로 가면 좋을까?",
+            "turn_id": "BK22014695-5",
+            "utterance_id": "BK22014695.9"
+        },
+        {
+            "reference_date": "2022-08-31",
+            "reference_text": [
+                {
+                    "value": "하와이 여행객들은 세계적인 별 관측 명소로 불리는 마우나케아산이나 할레아칼라 뿐만 아니라 어디서든 밤하늘에 빛나는 별을 즐길 수 있다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 9월까지는 밤이 길어 은하수 관측이 쉽다고 알려졌다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/145/0000016939?sid=103",
+            "search_query": "하와이 별",
+            "terminate": false,
+            "text": "하와이에는 세계적인 별 관측지인 마우나케아산이나 할레아칼라도 있고, 여기 말고도 어딜 가든지 반짝이는 별을 볼 수 있어. 특히 9월까지는 밤이 길어서 은하수를 볼 확률이 높아.",
+            "turn_id": "BK22014695-5",
+            "utterance_id": "BK22014695.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "은하수를 직접 볼 수 있다면 정말 좋겠어. 그나저나 내 동생은 액티비티를 좋아하는데 그런 걸 즐길 수 있는 곳이 있을까?",
+            "turn_id": "BK22014695-6",
+            "utterance_id": "BK22014695.11"
+        },
+        {
+            "reference_date": "2018-08-17",
+            "reference_text": [
+                {
+                    "value": "하와이의 대자연을 제대로 느껴보고 싶다면 쿠알로아 목장으로 향해보자.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "뿐만 아니라 이곳의 지형을 이용한 다양한 액티비티로 유명한데 그중 끝이 보이지 않을 정도로 넓은 초원을 ATV(사륜 오토바이)를 타고 달리는 체험이 특히 인기다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.obsnews.co.kr/news/articleView.html?idxno=1111152",
+            "search_query": "하와이 쿠알로아 목장",
+            "terminate": false,
+            "text": "하와이의 대자연을 경험할 수 있는 쿠알로아 목장이 있는데, 여기는 이곳의 지형을 활용한 여러 가지 액티비티로 널리 알려져 있어. 특히 엄청나게 넓은 초원을 사륜 오토바이를 타고 즐기는 체험이 유명하지.",
+            "turn_id": "BK22014695-6",
+            "utterance_id": "BK22014695.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여기도 일정에 꼭 넣어야겠다. 그리고 엄마는 쇼핑을 하고 싶다고 하는데 어디로 가야 할까?",
+            "turn_id": "BK22014695-7",
+            "utterance_id": "BK22014695.13"
+        },
+        {
+            "reference_date": "2016-12-26",
+            "reference_text": [
+                {
+                    "value": "하와이 여행에서 빠질 수 없는 것이 프리미엄 아웃렛 투어다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "와이키키에서 30여 분 거리인 와이켈레 프리미엄 아웃렛은 50여 개의 매장을 갖춘 최고의 관광 쇼핑 명소다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2016/12/890514/",
+            "search_query": "하와이 쇼핑",
+            "terminate": false,
+            "text": "하와이 여행의 필수 중 하나가 프리미엄 아웃렛 투어야. 와이키키에서 30분 정도 떨어진 와이켈레 프리미엄 아웃렛에는 약 50개의 매장이 있어서 쇼핑하기에 최고지.",
+            "turn_id": "BK22014695-7",
+            "utterance_id": "BK22014695.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엄마한테 한 번 얘기해 봐야겠다. 그리고 먹을 것도 미리 알아보고 싶은데, 하와이에서 먹어봐야 하는 음식은 뭐가 있을까?",
+            "turn_id": "BK22014695-8",
+            "utterance_id": "BK22014695.15"
+        },
+        {
+            "reference_date": "2018-12-28",
+            "reference_text": [
+                {
+                    "value": "우선 하와이에서 반드시 맛봐야 하는 음식 중 하나가 바로 커피다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하와이의 코나 커피는 자메이카의 블루마운틴, 예멘의 모카 마타리와 함께 세계 3대 커피로 꼽히는 품종이다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.obsnews.co.kr/news/articleView.html?idxno=1133399",
+            "search_query": "하와이 커피",
+            "terminate": false,
+            "text": "하와이에 가면 커피를 꼭 마셔봐야 해. 하와이의 코나 커피는 자메이카의 블루마운틴, 예멘의 모카 마타리랑 같이 세계 3대 커피 중 하나거든.",
+            "turn_id": "BK22014695-8",
+            "utterance_id": "BK22014695.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내가 커피를 정말 좋아하는데 꼭 마셔야겠다. 덕분에 여행 계획을 잘 짠 거 같은데, 혹시 이외에 더 알아둘 만한 내용이 있을까?",
+            "turn_id": "BK22014695-9",
+            "utterance_id": "BK22014695.17"
+        },
+        {
+            "reference_date": "2019-12-31",
+            "reference_text": [
+                {
+                    "value": "하와이 팁 문화 : 호텔·식당·택시 등에서 서비스를 이용했을 때 팁을 줘야 한다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "단, 영수증에 Service charge, Gratuity가 적혀 있다면 팁이 포함된 가격이니 따로 주지 않아도 된다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=42644",
+            "search_query": "하와이 팁",
+            "terminate": false,
+            "text": "음, 하와이에서는 팁을 내야 해. 호텔, 식당, 택시를 이용하고 팁을 주는 거지. 근데 영수증에 Service charge, Gratuity라고 쓰여 있으면 이미 팁이 포함된 금액이어서 개별적으로 줄 필요는 없어.",
+            "turn_id": "BK22014695-9",
+            "utterance_id": "BK22014695.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "꼭 알아둬야 하는 중요한 내용이네. 자세하게 설명해줘서 하와이 여행 일정을 알차게 짠 거 같아.",
+            "turn_id": "BK22014695-10",
+            "utterance_id": "BK22014695.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 정말 다행이야. 집에 조심히 가고 다음에 보자.",
+            "turn_id": "BK22014695-10",
+            "utterance_id": "BK22014695.20"
+        }
+    ]
+}

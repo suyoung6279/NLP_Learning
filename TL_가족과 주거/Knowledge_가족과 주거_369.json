@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001470",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001470",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0036"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0004"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘에 친구가 유튜브 고양이 영상을 많이 보내주는데, 계속 보다보니 나도 고양이들이 참 예뻐보이더라.",
+            "turn_id": "BK22001470-1",
+            "utterance_id": "BK22001470.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 고양이를 자세히 보면 은근히 매력이 있고 귀엽지.",
+            "turn_id": "BK22001470-1",
+            "utterance_id": "BK22001470.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다 이쁘긴 한데, 내 친구는 특히 털이 세 가지 색으로 이뤄진 고양이를 엄청 좋아하더라. 이런 삼색털 고양이들이 은근히 많이 보이던데, 얘네들도 혹시 품종묘인가?",
+            "turn_id": "BK22001470-2",
+            "utterance_id": "BK22001470.3"
+        },
+        {
+            "reference_date": "2022-05-16",
+            "reference_text": [
+                {
+                    "value": "‘삼색털’은 단일 품종이 아니라 모피 종류가 삼색인 고양이이다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "한국의 삼색털 고양이는 대부분 한국고양이이다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%BC%EC%83%89%ED%84%B8_%EA%B3%A0%EC%96%91%EC%9D%B4",
+            "search_query": "삼색털 고양이 품종",
+            "terminate": false,
+            "text": "아니, 삼색털이라고 하는 단일 품종이 별도로 있는 건 아니야. 모피가 삼색인 고양이들을 삼색털 고양이라고 부르거든. 그리고 한국의 삼색털 고양이들은 대부분 한국고양이로 분류해.",
+            "turn_id": "BK22001470-2",
+            "utterance_id": "BK22001470.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그러면 한국고양이라는 명칭도 별도의 품종을 지칭하는 건 아니지? 그냥 한국에서 태어난 고양이를 말하는 건가?",
+            "turn_id": "BK22001470-3",
+            "utterance_id": "BK22001470.5"
+        },
+        {
+            "reference_date": "2022-07-05",
+            "reference_text": [
+                {
+                    "value": "한국고양이(韓國-)는 도메스틱 쇼트헤어의 일종으로, 한국의 야생에서 살아가는 고양이이다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "한국의 대부분의 들고양이는 코리안 쇼트헤어이다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EA%B3%A0%EC%96%91%EC%9D%B4",
+            "search_query": "한국고양이 품종",
+            "terminate": false,
+            "text": "한국의 야생에서 살아가는 고양이를 한국고양이라고 불러. 도메스틱 쇼트헤어의 일종이고, 코리안 쇼트헤어라고도 부르지.",
+            "turn_id": "BK22001470-3",
+            "utterance_id": "BK22001470.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조금 복잡한 용어가 나온 것 같은데? 도메스틱 쇼트헤어는 또 뭐야?",
+            "turn_id": "BK22001470-4",
+            "utterance_id": "BK22001470.7"
+        },
+        {
+            "reference_date": "2022-05-15",
+            "reference_text": [
+                {
+                    "value": "도메스틱 쇼트헤어(Domestic short-haired cat)는 고양이과에 속하는 동물로, 짧은 털을 가지고 있다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "영국에서는 때때로 moggie라고 부른다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "도메스틱 쇼트헤어는 브리티시 쇼트헤어, 아메리칸 쇼트헤어 등 다양한 등록기관에서 인정하는 '쇼트헤어' 이름을 가진 표준화된 품종과 구별된다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94%EC%8A%A4%ED%8B%B1_%EC%87%BC%ED%8A%B8%ED%97%A4%EC%96%B4",
+            "search_query": "도메스틱 쇼트헤어",
+            "terminate": false,
+            "text": "도메스틱 쇼트헤어는 영국에서는 moggie 라고도 부르는데, 고양이과에 속하는 짧은 털을 가진 동물을 지칭하는 말이야. 브리티시 쇼트헤어나, 아메리칸 쇼트헤어처럼 다양한 기관의 인증을 받은 표준 품종의 개념이랑은 또 달라.",
+            "turn_id": "BK22001470-4",
+            "utterance_id": "BK22001470.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그러면 예를 들어서 브리티시 쇼트헤어는 품종묘지만, 한국고양이 같은 도메스틱 쇼트헤어는 품종묘가 아니라는 거구나.",
+            "turn_id": "BK22001470-5",
+            "utterance_id": "BK22001470.9"
+        },
+        {
+            "reference_date": "2022-05-29",
+            "reference_text": [
+                {
+                    "value": "그러나 브리더들의 노력으로 현재와 같은 브리티시 숏헤어의 스탠다드가 정착이 되고 있다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "영국과 유럽대륙, 오세아니아 등지에서는 캣쇼 초기부터 가장 인기가 많은 묘종 가운데 하나였고 지금도 변함없는 사랑을 받고 있다",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B8%8C%EB%A6%AC%ED%8B%B0%EC%8B%9C_%EC%87%BC%ED%8A%B8%ED%97%A4%EC%96%B4",
+            "search_query": "브리티시 쇼트헤어 품종",
+            "terminate": false,
+            "text": "맞아, 브리티시 쇼트헤어의 경우엔 브리더들이 관심을 기울인 덕에 현재와 같은 스탠다드가 정착된 상태지. 심지어 캣쇼에서도 인기가 높은 묘종 중 하나야. 영국 및 유럽대륙, 오세아니아 등지에 이런 경향이 있지.",
+            "turn_id": "BK22001470-5",
+            "utterance_id": "BK22001470.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도그쇼는 들어봤는데, 캣쇼도 있단 말이야? 상상이 안가는데 캣쇼는 뭘 하는 쇼야?",
+            "turn_id": "BK22001470-6",
+            "utterance_id": "BK22001470.11"
+        },
+        {
+            "reference_date": "2022-05-26",
+            "reference_text": [
+                {
+                    "value": "캣쇼(cat show)는 고양이 주인이 품종 기준을 거쳐 심판을 받기 위해 자신의 고양이를 등록해 각종 고양이 등록기관에서 우승을 다투는 심사 대회이다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%BA%A3%EC%87%BC",
+            "search_query": "캣쇼",
+            "terminate": false,
+            "text": "심사 대회의 일종인데, 캣쇼에서는 고양이 주인이 자기 고양이를 등록해서 우승을 목표로 참여할 수 있어. 품종 기준을 기반으로 판정하고, 각종 고양이 등록기관에서 우승을 놓고 경쟁할 수 있지.",
+            "turn_id": "BK22001470-6",
+            "utterance_id": "BK22001470.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뭔가 되게 낯선 행사다. 한국에서도 캣쇼 같은 행사가 열린 적 있어?",
+            "turn_id": "BK22001470-7",
+            "utterance_id": "BK22001470.13"
+        },
+        {
+            "reference_date": "2022-07-05",
+            "reference_text": [
+                {
+                    "value": "CFA캣쇼(주최 ACAB, CFOK)가 지난 3일 경기 고양시 일산동구 동양생명 인재개발원에서 열렸다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한국고양이애호가협회(CFOK)에 따르면 이번 CFA캣쇼는 코로나로 인해 2020년 이후 3년만에 열린 행사다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4732701",
+            "search_query": "한국에서 열린 캣쇼",
+            "terminate": false,
+            "text": "물론 한국에서도 캣쇼가 열린 적 있어. 가령 ACAB와 한국고양이애호가협회인 CFOK가 주최하는 CFA 캣쇼가 있는데, 코로나 때문에 한동안 행사를 열지 못했던 적이 있었지. 그러던게 지난 3일 경기 고양시 일산동구 동양생명 인재개발원에서, 3년만에 CFA캣쇼가 열리게 된거야.",
+            "turn_id": "BK22001470-7",
+            "utterance_id": "BK22001470.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한국에서도 그런 행사를 하는구나. 그런 걸 보면 고양이를 반려동물로 기르는 사람들의 수가 많이 늘긴 했나봐.",
+            "turn_id": "BK22001470-8",
+            "utterance_id": "BK22001470.15"
+        },
+        {
+            "reference_date": "2018-03-26",
+            "reference_text": [
+                {
+                    "value": "전국 1952만가구 중 29.4%인 574만가구가 총 874만마리의 반려동물(개 632만 마리, 고양이 243만 마리)을 기르는 것으로 추산된다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/421/0003279179?sid=103",
+            "search_query": "고양이 반려동물 인구",
+            "terminate": false,
+            "text": "통계를 내봤더니 반려동물로 기르는 고양이의 수가 무려 243만 마리에 육박했어. 조사에 따르면, 전국 1952만 가구 중에서 거의 30 퍼센트에 달하는 574만 가구에서 874만 마리의 반려동물을 기르는데, 이 중 고양이가 243만 마리, 개는 632만 마리였지.",
+            "turn_id": "BK22001470-8",
+            "utterance_id": "BK22001470.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "앞으로 점점 늘어날 거 같긴 한데, 한 편으로는 유기묘가 생기지 않을지 좀 걱정이 되네. 지금도 수가 느는 추세잖아.",
+            "turn_id": "BK22001470-9",
+            "utterance_id": "BK22001470.17"
+        },
+        {
+            "reference_date": "2021-12-03",
+            "reference_text": [
+                {
+                    "value": "연간 유기되는 반려동물 숫자는 약 13만 마리로 추정되며, 관련 정부 예산도 약 267억 원에 이른다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002792162",
+            "search_query": "유기묘 숫자",
+            "terminate": false,
+            "text": "그렇지, 연간 유기되는 반려동물의 숫자를 조사해보니 무려 13만마리라는 수치가 나왔어. 관련 정부 예산만 해도 거의 267억에 가깝고.",
+            "turn_id": "BK22001470-9",
+            "utterance_id": "BK22001470.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비용도 비용이지만, 애초에 사람들이 동물을 좀 더 아끼고 끝까지 책임지는 마음을 가진다면 좋을텐데 안타깝다. 한 번 유기동물 문제를 막기 위해서 내가 할 수 있는 건 없는지도 찾아봐야겠어. 오늘 이야기 나눠줘서 고마웠어!",
+            "turn_id": "BK22001470-10",
+            "utterance_id": "BK22001470.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "뭘, 시간이 나면 나도 나중에 같이 한 번 찾아볼게.",
+            "turn_id": "BK22001470-10",
+            "utterance_id": "BK22001470.20"
+        }
+    ]
+}

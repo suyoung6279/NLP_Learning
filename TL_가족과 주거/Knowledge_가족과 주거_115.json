@@ -1,0 +1,361 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013620",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013620",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0014"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아는 지인분이 자녀를 입양해서 키우고 계신다는 얘기를 듣고 참 대단하시다는 생각이 들더라. 주변에 이런 분들 본 적 있니?",
+            "turn_id": "BK22013620-1",
+            "utterance_id": "BK22013620.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아니, 아직까지 내 주변에서는 자녀 입양하신 분들은 본 적이 없어.",
+            "turn_id": "BK22013620-1",
+            "utterance_id": "BK22013620.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그분과 대화 중에 알게 된 건데 입양의 날이 있다던데 알고 있니?",
+            "turn_id": "BK22013620-2",
+            "utterance_id": "BK22013620.3"
+        },
+        {
+            "reference_date": "44691.0",
+            "reference_text": [
+                {
+                    "value": "매년 5월 11일은 입양의 날이다.",
+                    "value_time": "44823.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "한 가정이 아동을 입양해 새로운 가정으로 거듭난다는 취지에서 보건복지부가 2005년 기념일로 지정했다.",
+                    "value_time": "44823.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.namdonews.com/news/articleView.html?idxno=681568",
+            "search_query": "입양의 날",
+            "terminate": false,
+            "text": "응, 보건복지부가 2005년에 하나의 가정이 아동을 입양해 새로운 가정으로 다시 태어난다는 취지로 매년 5월 11일을 입양의 날로 지정했어.",
+            "turn_id": "BK22013620-2",
+            "utterance_id": "BK22013620.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 입양이라는 말을 들었을 때 해외 입양이 먼저 생각나는데 지금까지 해외 입양된 아이들은 어느 정도 되는 거야?",
+            "turn_id": "BK22013620-3",
+            "utterance_id": "BK22013620.5"
+        },
+        {
+            "reference_date": "44739.0",
+            "reference_text": [
+                {
+                    "value": "보건복지부의 통계에 따르면, 1955년부터 2021년까지 64년 간 16만 9,454명을 해외로 입양보냈다.",
+                    "value_time": "44823.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1953년 6.25 종전 이후 해외로 입양된 전쟁 고아들의 비공식적 통계까지 포함하면 20만명이 넘을 거라는 보고도 존재한다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=02706006632365984&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "해외 입양건수",
+            "terminate": false,
+            "text": "보건복지부의 통계에 의하면 1955년부터 2021년까지 64년 동안 16만 9454명을 해외로 입양 보냈는데 1953년 6.25 전쟁이 끝난 후 비공식적으로 해외로 보내진 전쟁고아들까지 합치면 20만 명이 넘는다는 자료도 있어.",
+            "turn_id": "BK22013620-3",
+            "utterance_id": "BK22013620.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "64년이 넘는 세월 동안 참 많은 아이들이 해외로 보내졌구나. 요즘은 그래도 그때보다 국내든 해외든 입양되는 아이들이 많이 줄어들었지?",
+            "turn_id": "BK22013620-4",
+            "utterance_id": "BK22013620.7"
+        },
+        {
+            "reference_date": "44691.0",
+            "reference_text": [
+                {
+                    "value": "국내외로 입양된 아동도 매년 감소했다.",
+                    "value_time": "44828.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보건복지부의 입양 아동 법원 허가 현황 자료를 살펴보면 2020년 법원에서 입양을 허가받은 아동은 국내 260명, 국외 232명 등 총 492명으로 집계됐다.",
+                    "value_time": "44828.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.namdonews.com/news/articleView.html?idxno=681568",
+            "search_query": "국내외 입양 아동수",
+            "terminate": false,
+            "text": "맞아. 국내외로 입양되는 아이의 수는 매년 감소했고 보건복지부의 입양 아동 법원 허가 현황 자료에 따르면 2020년에 법원으로부터 입양 허가를 받은 아이는 총 492명으로 국내 260명, 국외 232명이었어.",
+            "turn_id": "BK22013620-4",
+            "utterance_id": "BK22013620.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사람들의 입양에 대한 관심이 줄어들어서 그런 건가?",
+            "turn_id": "BK22013620-5",
+            "utterance_id": "BK22013620.9"
+        },
+        {
+            "reference_date": "44691.0",
+            "reference_text": [
+                {
+                    "value": "이와 관련 전문가들은 지난 2012년 개정된 입양특례법이 영향을 미쳤을 것으로 보고 있다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "입양 조건과 절차가 예전에 비해 까다로워졌기 때문이다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.namdonews.com/news/articleView.html?idxno=681568",
+            "search_query": "2012년 입양특례법 개정",
+            "terminate": false,
+            "text": "2012년에 개정한 입양특례법 영향이라고 전문가들은 보고 있는데 예전에 비해서 입양 조건과 절차가 까다로워졌기 때문이지.",
+            "turn_id": "BK22013620-5",
+            "utterance_id": "BK22013620.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "개정된 입양특례법에는 어떤 내용들이 있어?",
+            "turn_id": "BK22013620-6",
+            "utterance_id": "BK22013620.11"
+        },
+        {
+            "reference_date": "44704.0",
+            "reference_text": [
+                {
+                    "value": "첫째, 가정법원 입양허가제가 도입되었습니다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이전에는 입양기관의 심사만을 통과하면 됐는데, 법률 개정 이후로 입양을 원하는 부부는 입양기관의 심사를 통과한 이후에 다시 가정법원의 심사를 받게 되었고 그 모든 절차를 통과해야만 입양부모가 될 수 있었습니다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002837426",
+            "search_query": "입양허가제 도입",
+            "terminate": false,
+            "text": "법률 개정 전에는 입양을 원하는 부부가 입양기관의 심사만 통과하면 됐지만 거기에다 가정법원의 심사까지 받는 절차까지 통과해야만 입양을 할 수 있게 입양허가제가 도입되었어.",
+            "turn_id": "BK22013620-6",
+            "utterance_id": "BK22013620.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한 아이의 생명과 인생에 관련된 중요한 일을 민간 기관의 심사로만 이루어졌다는 것이 말이 안 됐었지. 그리고 입양 부모 자격요건도 강화되었다고 들었는데 어떻게 되는 거야?",
+            "turn_id": "BK22013620-7",
+            "utterance_id": "BK22013620.13"
+        },
+        {
+            "reference_date": "44704.0",
+            "reference_text": [
+                {
+                    "value": "둘째, 입양부모의 자격조건 강화입니다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이전에도 예비입양부모들은 '충분한' 재산과 자녀를 양육할 준비를 갖추고 있는지 여부 등으로 부모가 될 자격을 판정받았는데, 그 기준에 더하여 약물이나 범죄 이력이 없다는 것을 입증한 뒤에야 입양신청을 할 수 있게 되었습니다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002837426",
+            "search_query": "입양부모의 자격조건 강화",
+            "terminate": false,
+            "text": "예전에는 입양하고자 하는 부모들의 충분한 재산과 자녀 양육 준비 여부로 판단했었는데 거기에 더해서 약물이나 범죄 이력이 없음이 입증되어야 입양을 신청할 수 있도록 입양 부모의 자격 조건이 강화되었어.",
+            "turn_id": "BK22013620-7",
+            "utterance_id": "BK22013620.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "입양한 아이들에 대한 범죄들이 많아지는 지금을 봐서는 정말로 아이를 잘 키울 수 있는지를 판단할 수 있는 좀 더 세심하고 객관적인 조건들이 계속 생겨야 할 것 같아. 그리고 입양특례법으로 인해 또 바뀐 것에는 어떤 것이 있어?",
+            "turn_id": "BK22013620-8",
+            "utterance_id": "BK22013620.15"
+        },
+        {
+            "reference_date": "44704.0",
+            "reference_text": [
+                {
+                    "value": "셋째, 입양 전 출생신고가 의무화되었습니다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이전에는 입양기관이 친생부모를 상담한 뒤 친생부모와 임신, 출산에 대한 정보를 기록하고, 입양을 결정하면 일가창립이라는 형태로 별도의 신분(성본 창설)으로 등록한 뒤 입양기관의 장이 보호자가 되어 입양 절차를 진행했습니다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그런데 이 제도 이후로는 친생부모가 출산한 아기를 자신의 자녀로 등록한 뒤 입양동의 절차를 진행하게 된 것입니다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002837426",
+            "search_query": "입양 전 출생신고 의무화",
+            "terminate": false,
+            "text": "입양하기 전에 의무적으로 출생신고를 해야 해. 예전에는 입양기관이 친생부모를 상담해서 임신과 출산에 대한 정보를 기록한 후 일가 창립이라는 형태로 별도의 신분을 등록하고 입양기관의 장이 보호자가 되는 절차였었어. 그런데 입양특례법 이후에는 아기를 출산한 친생부모가 자신의 자녀로 등록을 먼저 한 후에 입양에 대한 동의를 하는 절차로 바뀌게 된 거지.",
+            "turn_id": "BK22013620-8",
+            "utterance_id": "BK22013620.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "예전에 절차가 그랬으니까 성장한 입양아들이 부모를 쉽게 찾지 못하는 경우들이 생겼던 거구나. 이외에도 또 새롭게 도입된 제도가 있어?",
+            "turn_id": "BK22013620-9",
+            "utterance_id": "BK22013620.17"
+        },
+        {
+            "reference_date": "44704.0",
+            "reference_text": [
+                {
+                    "value": "넷째, 입양숙려기간제의 도입입니다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이전에는 친생부모가 입양기관이 운영하는 미혼모시설에서 생활하다가 출산 직후 입양을 보내거나 산부인과에서 출산하고 바로 입양을 보내기도 했는데, 그것을 제도적으로 가로막은 것입니다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "친생부모가 적어도 1주일 간 아기를 키우면서 다시 한 번 생각해 볼 수 있도록 한 것입니다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002837426",
+            "search_query": "입양숙려기간제 도입",
+            "terminate": false,
+            "text": "마지막으로 입양 숙려 기간제 도입이 있는데 아기를 낳은 부모가 적어도 1주일간은 아기를 키우면서 다시 한번 생각할 수 있는 시간을 주는 거야. 예전에는 미혼모 시설에서 생활하는 미혼모가 아이를 낳을 경우 산부인과나 미혼모 시설에서 출산 직후 바로 입양을 보내기도 했었거든.",
+            "turn_id": "BK22013620-9",
+            "utterance_id": "BK22013620.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금까지 알려준 입양특례법의 내용들은 너무나 기본적인 것들인데 개정된 지 얼마 안 되었다니 놀랍네. 덕분에 입양에 대한 몰랐던 내용들을 많이 알게 되었어, 고마워.",
+            "turn_id": "BK22013620-10",
+            "utterance_id": "BK22013620.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "더 궁금한 사항들이 있으면 언제든지 연락해.",
+            "turn_id": "BK22013620-10",
+            "utterance_id": "BK22013620.20"
+        }
+    ]
+}

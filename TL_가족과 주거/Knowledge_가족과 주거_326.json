@@ -1,0 +1,386 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015141",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015141",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저번 달부터 아이가 밤에 자다가 일어나서 울고 소리를 질러요. 처음에는 어디가 불편한가 싶었는데 몇 주째 이러니 걱정이 돼요. 저희 아이 몸에 무슨 문제가 있는 걸까요?",
+            "turn_id": "BK22015141-1",
+            "utterance_id": "BK22015141.1"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "잘 자던 아이가 갑자기 깨어나 자지러지게 우는 경우가 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이때 부모 대부분은 ‘아이가 악몽을 꿨구나’라고 생각한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 갑자기 잠에서 깨 심한 공포와 공황상태를 보이고, 이러한 증상이 수 분간 이어지다가 다시 잠든다면 '야경증'을 의심해봐야 한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000730301",
+            "search_query": "아이 야경증",
+            "terminate": false,
+            "text": "평소 잠을 잘 자던 아이가 갑자기 깨서 자지러지게 울 때가 있죠. 부모는 대개 아이가 악몽을 꿨다고 생각하는데요. 갑자기 자다 깨서 심한 공포와 함께 공황상태를 보이고, 이러한 증상이 몇 분간 이어지다 다시 잠든다면 소아야경증을 의심해 보아야 해요.",
+            "turn_id": "BK22015141-1",
+            "utterance_id": "BK22015141.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "야경증은 처음 들어봐요. 그럼 악몽을 꿔서 우는 거랑 야경증 때문에 우는 거랑 어떻게 구별할 수 있는 거죠?",
+            "turn_id": "BK22015141-2",
+            "utterance_id": "BK22015141.3"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "야경증은 아이가 두려워하는 행동을 보인다는 점에서 악몽과 혼동하기 쉽다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 두 증상은 발생하는 시간, 증상 등에서 차이를 보인다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "먼저 악몽은 REM 수면 상태에서 잘 발생하기 때문에, 주로 REM 수면이 왕성한 새벽녘에 발생한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반면, 야경증은 비렘(Non-REM)수면 각성 장애의 일종으로, 주로 잠이 든 지 2~3시간 이내에 증상이 나타난다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000730301",
+            "search_query": "아이 야경증 악몽 차이",
+            "terminate": false,
+            "text": "아이가 두려워하는 모습을 보인다는 점에서 야경증과 악몽은 혼동하기 쉬워요. 하지만 발생 시간과 증상 등에 분명 차이가 있답니다. 악몽은 REM 수면 상태에서 주로 발생하므로 REM 수면이 왕성한 새벽쯤에 주로 발생해요. 그렇지만 야경증은 비렘수면 각성 장애의 한 종류로, 잠든 지 2~3시간 이내에 증상이 나타난다는 점이 다르답니다.",
+            "turn_id": "BK22015141-2",
+            "utterance_id": "BK22015141.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그런데 아침에 깨워서 물어보면 본인이 자다 깨서 운 걸 모르더라고요. 야경증이면 그럴 수도 있나요?",
+            "turn_id": "BK22015141-3",
+            "utterance_id": "BK22015141.5"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "악몽에서 깨어난 아이는 꿈을 기억하며, 쉽게 다시 잠들지 못한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "악몽과 달리 증상이 끝난 후 아이 스스로 잠이 들고, 다음날에 꿈의 내용과 지난밤의 증상을 기억하지 못한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000730301",
+            "search_query": "아이 야경증 악몽 기억",
+            "terminate": false,
+            "text": "야경증이면 그럴 수 있어요. 아이가 악몽을 꾸다 깼을 때는 꿈이 기억나고 다시 쉽게 잠들지 못하지만, 야경증은 그 반대예요. 소아야경증은 증상이 끝난 다음 아이 스스로 잠이 들고 그 다음날에 일어나면 꿈의 내용이나 지난밤에 있었던 증상을 기억하지 못한답니다.",
+            "turn_id": "BK22015141-3",
+            "utterance_id": "BK22015141.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 악몽 꾼 게 아니라 야경증이 거의 확실한 것 같네요. 그럼 야경증에 또 다른 증상도 있을까요?",
+            "turn_id": "BK22015141-4",
+            "utterance_id": "BK22015141.7"
+        },
+        {
+            "reference_date": "2022-07-06",
+            "reference_text": [
+                {
+                    "value": "\"꺄악\" 잘 자던 아이가 갑자기 깨 귀신이라도 본 것처럼 경기를 일으킨다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "눈을 크게 뜨고 공포에 질린 표정으로 비명을 지른다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "손발도 허공을 향해 막 휘젓는다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "중얼중얼 옆에 누가 있는 듯 얘기를 하기도 한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "왜 그러냐고 말을 걸어도, 눈을 마주치기는 커녕 대답도 않는다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/07/06/2022070600932.html",
+            "search_query": "아이 야경증 증상",
+            "terminate": false,
+            "text": "네, 야경증은 여러 증상이 있어요. 잘 자고 있던 아이가 갑자기 깨서 귀신이라도 본 것처럼 경기를 일으키기도 해요. 공포에 질린 표정으로 눈을 크게 뜨고 비명을 지르며, 손발도 허공에 휘젓고요. 옆에 누가 있는 것처럼 중얼중얼 혼잣말을 하기도 하고 옆에서 말을 걸어도 눈을 마주치지 않으며 대답도 하지 않는 것이 야경증의 증상이랍니다.",
+            "turn_id": "BK22015141-4",
+            "utterance_id": "BK22015141.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 아이도 왜 그러냐고 물어보면 대답을 안 하고 울기만 하더라고요. 아이들 중에 이런 야경증을 겪는 아이들이 많나요?",
+            "turn_id": "BK22015141-5",
+            "utterance_id": "BK22015141.9"
+        },
+        {
+            "reference_date": "2022-07-06",
+            "reference_text": [
+                {
+                    "value": "야경증은 미취학아동 100명 중 6 명 정도가 겪는 드물지 않은 질환인데다, 크면서 자연스럽게 사라진다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/07/06/2022070600932.html",
+            "search_query": "아이 야경증 드물지 않은 질환",
+            "terminate": false,
+            "text": "야경증을 들어보지 못한 분들도 계시겠지만, 미취학 아동 100명 가운데 6명 정도가 겪어 봤을 만큼 생각보다 드물지 않은 질환이랍니다.",
+            "turn_id": "BK22015141-5",
+            "utterance_id": "BK22015141.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "6% 정도의 아이들이 야경증을 겪으며 크는군요. 그런데 아이들에게 야경증은 왜 발생하는 건지 궁금해요.",
+            "turn_id": "BK22015141-6",
+            "utterance_id": "BK22015141.11"
+        },
+        {
+            "reference_date": "2021-02-08",
+            "reference_text": [
+                {
+                    "value": "야경증 원인에는 스트레스와 낮 시간 과도한 활동, 수면부족, 감정적 긴장상태, 불안·공포 경험 등이 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "뇌의 수면 기능이 완전히 발달하지 않은 상태에서 이 같은 영향을 받으면 증상이 나타날 수 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/02/08/2021020801879.html",
+            "search_query": "아이 야경증 원인",
+            "terminate": false,
+            "text": "야경증은 스트레스나 감정적 긴장 상태, 불안 및 공포 경험, 수면 부족, 낮에 과도한 활동을 한 경우 발생할 수 있어요. 그리고 아이들은 뇌수면 기능이 완벽하게 발달하지 않았는데, 그런 상태에서 이와 같은 영향을 받으면 야경증 증상이 나타날 수 있답니다.",
+            "turn_id": "BK22015141-6",
+            "utterance_id": "BK22015141.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "야경증의 원인이 너무 많네요. 저희 아이는 저 많은 원인 중 무엇 때문에 그런 건지 속 시원히 알 수 있었으면 좋겠어요. 그럼 야경증은 어떻게 치료하면 되죠?",
+            "turn_id": "BK22015141-7",
+            "utterance_id": "BK22015141.13"
+        },
+        {
+            "reference_date": "2021-02-08",
+            "reference_text": [
+                {
+                    "value": "시간이 지나면서 증상이 대부분 호전되며, 사춘기 전 사라진다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "때문에 정신건강의학과에서도 특별한 치료나 안정제를 권하진 않고 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 증상이 지속되면 아이는 물론, 가족의 수면·삶의 질을 떨어뜨릴 수 있으므로, 전문의 상담을 받아보도록 한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/02/08/2021020801879.html",
+            "search_query": "아이 야경증 치료",
+            "terminate": false,
+            "text": "소아 야경증은 시간이 지나면 자연스럽게 증상이 나아지고, 사춘기 전에는 사라지게 되니 너무 걱정하지 마세요. 정신 의학과에서도 특별한 치료제나 안정제를 권하지는 않지만, 심한 증상이 계속되면 아이와 가족의 수면 및 삶의 질을 떨어뜨릴 수 있기 때문에 그때는 전문가의 상담을 받는 것도 좋아요.",
+            "turn_id": "BK22015141-7",
+            "utterance_id": "BK22015141.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "약을 처방받는 병은 아니군요. 그럼 아이가 자다가 깼을 때는 어떻게 해주는 게 좋을까요?",
+            "turn_id": "BK22015141-8",
+            "utterance_id": "BK22015141.15"
+        },
+        {
+            "reference_date": "2021-02-08",
+            "reference_text": [
+                {
+                    "value": "가정에서는 잠에서 깬 아이가 최대한 안정을 찾을 수 있도록 돕는 것이 중요하다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아이에게 나타난 증상은 성장기에 나타나는 자연스러운 일이라고 설명해주고, 아이가 울며 몸부림칠 경우, 다치지 않도록 안아준다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "취침 중 아이가 소리를 지르거나 울면 주변 가족이 놀란 마음에 짜증을 낼 수도 있는데, 이는 아이가 불안감과 공포감을 느낄 수 있으므로 주의해야 한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/02/08/2021020801879.html",
+            "search_query": "아이 야경증 가족 안정",
+            "terminate": false,
+            "text": "아이가 자다 깼을 때 최대한 안정 취할 수 있도록 도와주셔야 해요. 아이가 비명을 지르거나 울면 가족이 짜증을 낼 수도 있는데, 그렇게 되면 아이가 불안감 및 공포감을 느낄 수 있으니 주의해야 해요. 아이의 야경증 증상은 성장기에 나타날 수 있는 자연스러운 일임을 설명해 주시고 울면서 몸부림을 칠 때는 다치지 않도록 꼭 껴안아 주시는 것이 좋아요.",
+            "turn_id": "BK22015141-8",
+            "utterance_id": "BK22015141.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "몇 주째 저도 제대로 잠을 못 자서인지 아이한테 화낸 적이 많았는데 앞으로 그러지 말아야겠네요. 아이도 힘들 텐데 너무 제 생각만 했던 것 같아요.",
+            "turn_id": "BK22015141-9",
+            "utterance_id": "BK22015141.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럴 수 있죠. 야경증은 하나의 성장 과정이라고 생각하고 아이가 빨리 좋아질 수 있도록 옆에서 도움을 주는 것이 중요해요.",
+            "turn_id": "BK22015141-9",
+            "utterance_id": "BK22015141.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘부터는 아이가 자다 깨서 울더라도 꼭 안아줘야겠어요. 그럼 저는 아이를 보러 가볼게요. 다음에 또 대화 나눠요.",
+            "turn_id": "BK22015141-10",
+            "utterance_id": "BK22015141.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "알겠어요. 아이와 즐거운 시간 보내시고 그럼 다음에 또 봬요,.",
+            "turn_id": "BK22015141-10",
+            "utterance_id": "BK22015141.20"
+        }
+    ]
+}

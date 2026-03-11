@@ -1,0 +1,371 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015079",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015079",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 이제 출산이 점점 다가오다 보니 육아휴직 관련해서 궁금한 게 정말 많아요. 저보다 먼저 육아휴직을 다녀오셨으니 잘 아실 것 같은데 몇 가지 여쭤봐도 될까요?",
+            "turn_id": "BK22015079-1",
+            "utterance_id": "BK22015079.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼요! 저도 첫애를 낳기 전에 그런 궁금증이 많았었는데 도움을 줄 수 있어 기쁘네요. 궁금하신 거 물어보시면 다 알려드릴게요.",
+            "turn_id": "BK22015079-1",
+            "utterance_id": "BK22015079.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 감사합니다. 어디 물어볼 곳이 없어서 정말 난감했었거든요. 혹시 법으로 정한 육아 휴직 기간은 어떻게 되나요?",
+            "turn_id": "BK22015079-2",
+            "utterance_id": "BK22015079.3"
+        },
+        {
+            "reference_date": "2022-08-26",
+            "reference_text": [
+                {
+                    "value": "육아휴직은 양육을 위해 노동자에게 일정 기간 휴직을 보장하는 제도다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "만 8세 이하 또는 초등학교 2학년 이하의 자녀가 있는 노동자는 육아휴직을 신청할 수 있다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "휴직 기간은 자녀 1명당 최대 1년이다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.danbinews.com/news/articleView.html?idxno=21160",
+            "search_query": "육아휴직기간",
+            "terminate": false,
+            "text": "육아휴직 기간은 만 8세 이하이거나 초등학교 2학년 이하의 아이가 있는 노동자가 아이 1명당 최대 1년까지 신청해서 쓸 수 있어요. 아이를 키우기 위해 노동자에게 일정 기간의 휴직을 보장해주는 제도이죠.",
+            "turn_id": "BK22015079-2",
+            "utterance_id": "BK22015079.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 1년이었군요. 그럼 혹시 법정 출산휴가 기간은 어떻게 되는지 아시나요? 쓸 수 있는 휴가는 빠짐없이 써야 하니까요.",
+            "turn_id": "BK22015079-3",
+            "utterance_id": "BK22015079.5"
+        },
+        {
+            "reference_date": "2021-03-24",
+            "reference_text": [
+                {
+                    "value": "출산휴가는 근로기준법 제74조(임산부의 보호)에 규정된 법정 휴가이다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사용자는 임신 중의 여성에게 출산 전과 출산 후를 통하여 90일(한 번에 둘 이상 자녀를 임신한 경우에는 120일)의 출산전후휴가를 주어야 한다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "출산휴가는 여성근로자의 모성보호를 위한 강행규정으로서 임신 중인 여성에게 90일(다태아 120일)간 주어지는 유급휴가이다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.gjdream.com/news/articleView.html?idxno=606695",
+            "search_query": "법정출산휴가",
+            "terminate": false,
+            "text": "근로기준법 제 74조에서는 임신 중인 여성은 출산 전후로 90일의 법정 휴가를 얻을 수 있다고 규정하고 있어요. 이 출산 휴가는 임산부 근로자의 모성 보호를 위한 강행 규정이기 때문에 급여를 받을 수 있는 유급 휴가죠.",
+            "turn_id": "BK22015079-3",
+            "utterance_id": "BK22015079.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 그럼 출산휴가 90일에 육아휴직 1년을 쓰면 총 1년 3개월 정도 쓸 수 있겠네요. 그런데 제가 듣기론 이제 아이를 낳고 나서가 아닌 임신 중에도 육아휴직을 쓸 수 있다고 하던데 맞나요?",
+            "turn_id": "BK22015079-4",
+            "utterance_id": "BK22015079.7"
+        },
+        {
+            "reference_date": "2022-04-10",
+            "reference_text": [
+                {
+                    "value": "⌜남녀고용평등법⌟ 제19조가 개정되면서 ‘임신 중’ 근로자 또한 육아휴직 총 1년의 범위 내에서 육아휴직을 사용할 수 있게 되었습니다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기존에는 만 8세 이하 또는 초등학교 2학년 이하의 자녀가 있는 경우에 한해 육아휴직이 허용되었습니다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.tfmedia.co.kr/news/article.html?no=123686",
+            "search_query": "임신중 육아휴직",
+            "terminate": false,
+            "text": "맞아요. 이번에 남녀고용평등법 제19조가 개정되면서 임산부인 근로자도 총 1년의 범위 안에서 육아휴직을 쓸 수 있어요. 기존에는 아이가 만 8세 이하이거나 초등학교 2학년 이하일 경우만 육아휴직을 사용할 수 있었거든요.",
+            "turn_id": "BK22015079-4",
+            "utterance_id": "BK22015079.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너무 좋은 제도네요. 안 그래도 요즘 배 뭉침이 있어서 좀 더 빨리 들어갈 수는 없는지 고민이었거든요. 아, 그리고 제가 듣기로는 임산부들이 필요하면 단축근무를 할 수 있다고 들었는데 혹시 어떤 제도인지 아시나요?",
+            "turn_id": "BK22015079-5",
+            "utterance_id": "BK22015079.9"
+        },
+        {
+            "reference_date": "2022-04-02",
+            "reference_text": [
+                {
+                    "value": "임신 12주 이내 또는 36주 이후에 있는 여성근로자는 1일 2시간 범위에서 근로시간을 단축해 근무할 수 있는데요.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이를 '임신기 근로시간 단축제도'라고 합니다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "근로기준법 제74조 7항에 나와 있죠.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.worklaw.co.kr/view/view.asp?accessSite=Naver&accessMethod=Search&accessMenu=News&in_cate=108&in_cate2=1060&gopage=1&bi_pidx=34096",
+            "search_query": "임산부 단축근무",
+            "terminate": false,
+            "text": "근로기준법 제74조 7항에 따르면 임신 12주 이내이거나 36주 이후인 임산부 근로자는 하루에 2시간 내에서 일하는 시간을 단축해서 근무할 수 있다는 임신기 근로 시간 단축제도가 있어요.",
+            "turn_id": "BK22015079-5",
+            "utterance_id": "BK22015079.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 저는 36주라서 단축근무를 활용할 수 있겠네요. 이제 곧 육아 휴직을 이용해서 들어갈 예정인데 제가 듣기로는 육아 휴직 기간 동안 받는 급여의 일부는 휴직 기간에 받고 일부는 복직해서 받는다던데 맞나요?",
+            "turn_id": "BK22015079-6",
+            "utterance_id": "BK22015079.11"
+        },
+        {
+            "reference_date": "2022-07-27",
+            "reference_text": [
+                {
+                    "value": "육아휴직급여 사후지급금은 육아휴직에 들어간 근로자가 급여(통상임금)의 75%에 해당하는 금액을 육아휴직(통상 12개월) 중 지급받고, 나머지 25% 금액은 사후에 받는 제도다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사후지급금 신청은 ▲고용보험에 가입된 근로자로서 ▲육아휴직 중 퇴직하지 않고 ▲복직 6개월이 지난 시점에서 가능하다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "육아휴직급여 사후지급금은 소멸시효가 없는 점도 특징이다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kwangju.co.kr/article.php?aid=1658923200741595006",
+            "search_query": "육아휴직 급여",
+            "terminate": false,
+            "text": "육아휴직 기간 동안은 받을 월급의 75퍼센트에 해당하는 금액을 받고 남은 25퍼센트에 해당하는 금액은 복직 후에 받는 사후지급금 형태에요. 육아휴직급여 사후지급금은 고용보험에 가입된 근로자가 육아휴직 기간 중에 퇴사하지 않고 다시 복직한 후 6개월이 지났다면 신청할 수 있는데 이 사후지급금은 소멸시효가 없어요.",
+            "turn_id": "BK22015079-6",
+            "utterance_id": "BK22015079.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 복직하지 않고 퇴사하는 것을 막기 위한 제도인 것 같네요. 아, 그리고 제가 첫 출산이라 남편도 같이 육아휴직을 쓰고 공동육아를 하기로 했는데 실제로 남자들도 쓰는 경우가 있나요? 사회 통념상 잘 안 쓰는 것 같아서 제 욕심인지 걱정이에요.",
+            "turn_id": "BK22015079-7",
+            "utterance_id": "BK22015079.13"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "육아휴직을 쓴 남성이 6년 새 6배 늘고, 전체 육아휴직자 중 남성이 차지하는 비율도 5%에서 26%로 뛴 것으로 나타났다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/national/welfare-medical/2022/09/06/5MDW5XHN4NAXJPW64XBR3WQA54/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "search_query": "남성 육아휴직",
+            "terminate": false,
+            "text": "걱정 마세요. 육아휴직을 쓰는 남자들도 최근 6년 새에 6배 정도 늘었거든요. 그래서 육아 휴직을 쓰는 사람 전체 중에 남자가 차지하는 비율도 과거 5퍼센트에서 현재는 26퍼센트나 돼요.",
+            "turn_id": "BK22015079-7",
+            "utterance_id": "BK22015079.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 이 통계를 들으니까 마음이 편안해지네요. 아, 그리고 혹시 남편도 육아휴직을 쓰게 되면 저희 둘이 한 번에 육아휴직 급여를 받을 수 있나요?",
+            "turn_id": "BK22015079-8",
+            "utterance_id": "BK22015079.15"
+        },
+        {
+            "reference_date": "2022-09-04",
+            "reference_text": [
+                {
+                    "value": "올해부터는 맞벌이 부부가 공동육아를 할 수 있도록 3+3 부모육아휴직제도 신설됐다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 아기 생후 12개월 이내 부모가 동시에 또는 순차적으로 육아휴직을 사용하는 경우 각각 첫 3개월은 육아휴직 급여 한도를 인상해 지급하는 제도다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "육아휴직 급여는 월 통상 임금의 80%로 상한선이 150만원으로 정해져 있지만 맞벌이 부부가 모두 육아휴직을 3개월씩 쓰면 월 통상 임금의 100%를 지급받는다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "상한선이 월 300만원인 점을 고려하면 동시에 쓸 경우 부부가 총 600만원까지 부부가 수령 가능하다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/economy/view/2022/09/782243/",
+            "search_query": "육아휴직 월급",
+            "terminate": false,
+            "text": "그럼요! 특히 올해부터는 맞벌이하는 부부가 공동 육아를 할 수 있도록 3 더하기 3 부모 육아휴직 제도가 새로 만들어졌어요. 아기가 태어난 지 12개월 이내에 부모가 동시에 육아휴직을 쓰거나 순차적으로 쓴다면 각각 첫 3개월 동안은 육아휴직 급여의 한도를 올려서 주는 제도예요. 보통 육아휴직 급여는 통상 월급의 80퍼센트로 상한선이 150만원으로 정해져 있지만 맞벌이 부부가 둘 다 육아휴직을 쓴다면 3개월 간은 월급의 100퍼센트를 받을 수 있어요. 기존 육아휴직 급여와 달리 상한선이 300만원이라 부부가 동시에 쓴다면 총 600만원까지도 받을 수 있어요.",
+            "turn_id": "BK22015079-8",
+            "utterance_id": "BK22015079.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 좋은 제도가 신설됐네요. 안 그래도 금전적인 부분이 걱정됐었는데 너무 다행이에요. 마지막으로 아기를 낳으면 국가에서 주는 돈이 있다고 하던데 혹시 알고 계신가요?",
+            "turn_id": "BK22015079-9",
+            "utterance_id": "BK22015079.17"
+        },
+        {
+            "reference_date": "2022-06-16",
+            "reference_text": [
+                {
+                    "value": "부모급여를 내년부터 만 0세는 기존 월 70만에서 100만원으로, 만 1세는 기존 월 35만원에서 50만원으로 증액한다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=977577",
+            "search_query": "부모 급여",
+            "terminate": false,
+            "text": "부모 급여를 말씀하시는 것 같은데 내년부터는 금액이 올라요. 만 0세는 기존에는 월 70만원이었지만 100만원으로 올랐고, 만 1세는 기존에는 35만원이었지만 50만원으로 올랐죠.",
+            "turn_id": "BK22015079-9",
+            "utterance_id": "BK22015079.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좋은 제도가 많네요. 오늘 잘 알려주신 덕분에 육아휴직을 준비하는 데에 큰 도움이 되었어요. 조만간 제가 밥 한번 살게요.",
+            "turn_id": "BK22015079-10",
+            "utterance_id": "BK22015079.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 다행이에요. 출산이 다가오니 늘 조심하시고 조만간 또 만나서 이야기하도록 해요. 오늘 조심해서 들어가세요.",
+            "turn_id": "BK22015079-10",
+            "utterance_id": "BK22015079.20"
+        }
+    ]
+}

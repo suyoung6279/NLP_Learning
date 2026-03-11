@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008639",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008639",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안녕하세요. 첫아기라 그런지 육아가 너무 어려워요. 특히 먹이는 것에 대한 어려움이 많은 것 같아요.",
+            "turn_id": "BK22008639-1",
+            "utterance_id": "BK22008639.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안녕하세요. 육아가 처음이라면 당연히 어렵고 힘들게 느껴질 수밖에 없어요. 하나하나 배워가면서 아이를 키워야 하니까요.",
+            "turn_id": "BK22008639-1",
+            "utterance_id": "BK22008639.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 오늘 아기에게 계란을 삶아 줘볼까 하는데 계란은 몇개월부터 먹을 수 있는 건가요?",
+            "turn_id": "BK22008639-2",
+            "utterance_id": "BK22008639.3"
+        },
+        {
+            "reference_date": "2021-09-08",
+            "reference_text": [
+                {
+                    "value": "달걀은 노른자부터 4~6개월에 먹이기 시작하고 완전히 익혀서 먹여야 한다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "달걀흰자는 그다음 1~2개월 뒤부터 먹이는 것이 좋다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=98167",
+            "search_query": "아기 달걀먹는 시기",
+            "terminate": false,
+            "text": "달걀노른자는 4개월에서 6개월에 먹일 수 있고 흰자는 그다음 1개월에서 2개월 후부터 완전히 익혀서 주시면 돼요.",
+            "turn_id": "BK22008639-2",
+            "utterance_id": "BK22008639.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 그런데 어른들도 계란은 많이 먹으면 안 좋다고 하는데 아이도 그런가요?",
+            "turn_id": "BK22008639-3",
+            "utterance_id": "BK22008639.5"
+        },
+        {
+            "reference_date": "2021-09-08",
+            "reference_text": [
+                {
+                    "value": "달걀을 너무 많이 먹이는 것은 바람직하지 않다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2. 달걀은 돌 지난 아기도 일주일에 3개까지만 먹인다",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "달걀노른자에 콜레스테롤이 많이 들어 있어 성인병의 원인이 될 수 있다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=98167",
+            "search_query": "아기 달걀 콜레스테롤",
+            "terminate": false,
+            "text": "달걀노른자에 콜레스테롤이 많이 들어 있기 때문에 너무 많이 먹이면 안 돼요. 돌이 지난 아이도 일주일에 3개가량이 적당하답니다.",
+            "turn_id": "BK22008639-3",
+            "utterance_id": "BK22008639.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아기도 어른과 같다고 보면 되네요. 혹시 생선은 언제부터 먹일 수 있나요?",
+            "turn_id": "BK22008639-4",
+            "utterance_id": "BK22008639.7"
+        },
+        {
+            "reference_date": "2021-09-08",
+            "reference_text": [
+                {
+                    "value": "생선은 생후 4~6개월부터 시작할 수 있는데 늦어도 돌 전에는 시작해야 한다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "생선은 너무 많이 먹이지 말고 일주일에 2번 정도 먹이는 것이 좋다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=98167",
+            "search_query": "아기 생선요리 언제부터",
+            "terminate": false,
+            "text": "생선은 4개월에서 6개월부터 먹일 수 있는데요. 늦어도 돌 전부터 주시면 돼요. 너무 많이 먹이는 것보다는 일주일에 두 번 정도가 적당해요.",
+            "turn_id": "BK22008639-4",
+            "utterance_id": "BK22008639.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네. 생선은 간이 되어 있는 경우가 있는데 이미 간이 된 생선을 아기에게 줘도 문제없나요?",
+            "turn_id": "BK22008639-5",
+            "utterance_id": "BK22008639.9"
+        },
+        {
+            "reference_date": "2021-09-08",
+            "reference_text": [
+                {
+                    "value": "생선을 요리할 때 절대로 간을 하지 않게 주의를 하고 원래 짠 굴비 같은 생선은 아기에게 줘서는 안 된다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=98167",
+            "search_query": "아기 생선요리 간",
+            "terminate": false,
+            "text": "굴비처럼 원래 짠 생선은 아기에게 주면 안 돼요. 생선요리를 할 때도 간을 하지 않고 주셔야 해요.",
+            "turn_id": "BK22008639-5",
+            "utterance_id": "BK22008639.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 간 안된 생선만 줘야겠네요. 생우유는 언제부터 줄 수 있나요?",
+            "turn_id": "BK22008639-6",
+            "utterance_id": "BK22008639.11"
+        },
+        {
+            "reference_date": "2021-09-08",
+            "reference_text": [
+                {
+                    "value": "생우유는 돌 전에 먹이면 장에 출혈을 일으킬 수 있고 알레르기가 생기기 쉬워서 돌 이후에 먹이도록 한다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "돌이 지난 후 하루 400~500cc 정도 먹이는 것이 좋다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=98167",
+            "search_query": "아기 생우유 시기",
+            "terminate": false,
+            "text": "생우유는 돌 이전에 먹이면 장 출혈이 생길 수 있고 알레르기도 발생하기 쉽기 때문에 돌 이후에 주셔야 해요. 돌 지나고 하루에 400cc에서 500cc 가량 먹이는 것이 좋아요.",
+            "turn_id": "BK22008639-6",
+            "utterance_id": "BK22008639.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "장 출혈이 생길 수 있다니 생우유는 시기를 꼭 지켜서 줘야겠네요. 우유를 먹이는 대신 치즈를 주는 건 어떨까요?",
+            "turn_id": "BK22008639-7",
+            "utterance_id": "BK22008639.13"
+        },
+        {
+            "reference_date": "2021-09-08",
+            "reference_text": [
+                {
+                    "value": "특히 국내 치즈는 소금이 너무 많이 들어 있어 2세 전에 아기들이 먹기에는 적합하지 않다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "참고로 유아용 치즈 18g 한 장에 0.5g의 소금이 들어 있는데 이것은 1~3세 권장 소금 섭취량인 2g의 1/4이나 된다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=98167",
+            "search_query": "아기 치즈 소금",
+            "terminate": false,
+            "text": "국내 치즈에는 소금이 많이 들어 있어 두살 전 아기에게 적합하지 않아요. 유아용 치즈 18g 한장에 0.5g의 소금이 들어가 있는데 이는 한살에서 세살 권장 소금 섭취량의 1/4이나 된답니다.",
+            "turn_id": "BK22008639-7",
+            "utterance_id": "BK22008639.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "치즈에 소금이 많이 들어가 있다는 생각은 못 했었는데 주의해야겠네요. 밀가루 음식은 되도록 늦게 먹이는 게 좋죠?",
+            "turn_id": "BK22008639-8",
+            "utterance_id": "BK22008639.15"
+        },
+        {
+            "reference_date": "2021-09-08",
+            "reference_text": [
+                {
+                    "value": "다른 이상이 없는 경우 밀가루 음식은 생후 4~7개월 사이에 먹일 수 있다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 쌀을 먼저 잘 먹이고 추후 먹이는 것이 좋다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "마카로니, 파스타, 스파게티 등은 잘 익혀서 부드럽게 해주면 9~12개월에 먹일 수 있다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=98167",
+            "search_query": "아기 밀가루 언제부터",
+            "terminate": false,
+            "text": "별다른 이상이 없다면 생후 4개월에서 7개월 사이에 먹여도 돼요. 쌀을 먼저 잘 먹인 후 밀가루 음식을 주는 것이 좋고요. 마카로니나 파스타, 스파게티를 부드럽게 푹 익혀서 주면 9개월에서 12개월쯤에도 먹을 수 있답니다.",
+            "turn_id": "BK22008639-8",
+            "utterance_id": "BK22008639.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "늦게 먹여야 하는 줄 알았는데 그게 아니었네요. 돌 전에 먹으면 안 되는 음식도 있을까요?",
+            "turn_id": "BK22008639-9",
+            "utterance_id": "BK22008639.17"
+        },
+        {
+            "reference_date": "2017-09-29",
+            "reference_text": [
+                {
+                    "value": "A. 꿀은 돌 전이 아니라 두돌 전까지 금하고 있습니다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "어린아이들의 경우 꿀을 먹고 알레르기를 일으켜 기도가 붓거나 하면 호흡곤란 등 위험한 상황이 생길 수 있기 때문에 권장하지 않습니다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000291647",
+            "search_query": "아기 돌전 꿀",
+            "terminate": false,
+            "text": "꿀은 먹이시면 안 돼요. 꿀은 돌전이 아니라 두돌 전까지도 금하고 있는 식품이거든요. 아이들이 꿀을 먹고 알레르기를 일으켜 기도가 부으면 호흡곤란이 생길 수 있기 때문에 꼭 주의하셔야 해요.",
+            "turn_id": "BK22008639-9",
+            "utterance_id": "BK22008639.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "과자나 음료에 꿀이 들어갔는지도 꼼꼼히 살펴봐야겠네요. 아이 음식에 대해 궁금한 점이 많았는데 많은 걸 알려주셔서 감사했어요.",
+            "turn_id": "BK22008639-10",
+            "utterance_id": "BK22008639.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아이 키우는데 공부할 것이 참 많죠. 도움이 되었다니 다행이에요. 그럼 아이 육아 잘하시고 다음에 또 봬요.",
+            "turn_id": "BK22008639-10",
+            "utterance_id": "BK22008639.20"
+        }
+    ]
+}

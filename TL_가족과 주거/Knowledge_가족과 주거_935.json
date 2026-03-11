@@ -1,0 +1,375 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22000305",
+        "name": "2022 한국어 블렌더봇 데이터 BK22000305",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0030"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전에 말했던 편의점 앞 길냥이 있잖아. 내가 입양 보내줄까?",
+            "turn_id": "BK22000305-1",
+            "utterance_id": "BK22000305.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럴 수 있으면 좋지. 근데 왜 갑자기 그런 생각이 든 거야?",
+            "turn_id": "BK22000305-1",
+            "utterance_id": "BK22000305.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아직 새끼라 보살핌이 필요할 것 같기도 하고, 들어보니까 한 배에서 난 고양이가 있었는데 갑자기 죽었다고 하더라고. 얘도 혹시 그렇게 될까 봐 걱정이 돼서.",
+            "turn_id": "BK22000305-2",
+            "utterance_id": "BK22000305.3"
+        },
+        {
+            "reference_date": "2019-06-04",
+            "reference_text": [
+                {
+                    "value": "새끼 길고양이가 성묘로 생존할 가능성은 20% 정도이다.",
+                    "value_time": "2022-06-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.imaeil.com/page/view/2019060409571450527",
+            "search_query": "새끼 고양이 생존율",
+            "terminate": false,
+            "text": "새끼 길냥이 생존율이 20프로 정도 밖에 안 되니까, 괜한 걱정이 아니긴 하지.",
+            "turn_id": "BK22000305-2",
+            "utterance_id": "BK22000305.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "근데, 어미 고양이는 애들을 왜 이렇게 빨리 독립시킨 걸까? 아직 3개월 정도 밖에 안 됐다는데 말이야.",
+            "turn_id": "BK22000305-3",
+            "utterance_id": "BK22000305.5"
+        },
+        {
+            "reference_date": "2019-04-08",
+            "reference_text": [
+                {
+                    "value": "생후 2개월이 지나면 고양이는 어미의 도움이 없이도 스스로 생활이 가능하기 때문이다.",
+                    "value_time": "2022-06-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.notepet.co.kr/news/article/article_view/?idx=15244",
+            "search_query": "길고양이 독립 시기",
+            "terminate": false,
+            "text": "생후 2개월 정도만 지나면 어미의 도움이 없이도 스스로 생활이 가능하기 때문이겠지.",
+            "turn_id": "BK22000305-3",
+            "utterance_id": "BK22000305.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "2개월 정도만 돼도 독립이 가능하다고?",
+            "turn_id": "BK22000305-4",
+            "utterance_id": "BK22000305.7"
+        },
+        {
+            "reference_date": "2019-04-08",
+            "reference_text": [
+                {
+                    "value": "고양이는 이렇게 시각과 청각을 정상 가동시키는데도 2주의 시간이 걸린다.",
+                    "value_time": "2022-06-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "생후 3주가 되어야 비로소 고양이는 네 발의 힘으로 걸을 수 있다.",
+                    "value_time": "2022-06-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고양이는 4주가 되면 이빨이 모두 난다.",
+                    "value_time": "2022-06-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그리고 6주가 되면 어미 고양이의 도움이 없더라도 새끼는 스스로 자립(自立)의 역량을 갖추게 된다.",
+                    "value_time": "2022-06-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.notepet.co.kr/news/article/article_view/?idx=15244",
+            "search_query": "길고양이 독립 시기",
+            "terminate": false,
+            "text": "고양이는 생후 2주가 되면 시각과 청각이 발달하고, 3주가 되면 자신의 힘으로 걸을 수가 있어. 4주가 되면 이빨도 모두 나고 말이야. 그렇게 6주 정도가 되면 자립할 수 있는 능력을 갖추게 되거든.",
+            "turn_id": "BK22000305-4",
+            "utterance_id": "BK22000305.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "성장 속도가 생각보다 빠르구나. 근데 그런 능력과는 별개로 어미랑 떨어지게 되면 좀 외롭지 않을까? 독립적인 성향이니까 괜찮으려나?",
+            "turn_id": "BK22000305-5",
+            "utterance_id": "BK22000305.9"
+        },
+        {
+            "reference_date": "2018-01-22",
+            "reference_text": [
+                {
+                    "value": "고양이를 10년 이상 기르고 있다는 이학범 수의사는 22일 \"개가 외로울까봐 고양이를 키우게 됐다는 등의 말은 잘못됐다\"며 \"고양이는 사냥 방식이 독립적인 것일 뿐 혼자 있는 것을 좋아하지 않는다\"고 말했다.",
+                    "value_time": "2022-06-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "세계적인 동물행동학 권위자인 캐서린 홉 코넬대학교 명예교수에 따르면, 고양이는 사회적 동물이지만 독립적이고 혼자 있길 좋아하다는 편견과 선입견 때문에 오히려 외로움을 느낀다고 한다.",
+                    "value_time": "2022-06-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?3212890",
+            "search_query": "고양이 외로움",
+            "terminate": false,
+            "text": "너처럼 고양이가 혼자 있는 것을 좋아한다고 오해하는 사람들이 많은데, 고양이는 사냥 방식이 독립적일 뿐이지 혼자 있는 것을 좋아하지 않아. 세계적인 동물행동학 권위자도 고양이가 독립적이라는 편견 때문에 오히려 외로움을 느끼게 된다고 말했을 정도야.",
+            "turn_id": "BK22000305-5",
+            "utterance_id": "BK22000305.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혼자 있는 걸 좋아한다고 생각해서 혼자 둔다는 말이구나. 그럼 앞으로는 편의점 가서 좀 더 오래 있다 와야 되겠다.",
+            "turn_id": "BK22000305-6",
+            "utterance_id": "BK22000305.11"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오래 뭐 하면서 시간 보내려고?",
+            "turn_id": "BK22000305-6",
+            "utterance_id": "BK22000305.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그냥 뭐, 간식도 주고 같이 있다 오는 오지. 아니면 장난감이라도 사갈까?",
+            "turn_id": "BK22000305-7",
+            "utterance_id": "BK22000305.13"
+        },
+        {
+            "reference_date": "2019-07-08",
+            "reference_text": [
+                {
+                    "value": "양이는 낚싯대나 끈으로 된 장난감, 털실, 바느질용 실 등 끈 종류를 갖고 노는 것을 즐긴다.",
+                    "value_time": "2022-06-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://weekly.donga.com/3/all/11/1781197/1",
+            "search_query": "고양이 장난감 종류",
+            "terminate": false,
+            "text": "살 거면 낚싯대나 끈으로 된 걸로 사. 그런 종류를 좋아하니까.",
+            "turn_id": "BK22000305-7",
+            "utterance_id": "BK22000305.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안 그래도 그러려고 했어. 티비 보니까 낚싯대는 대부분 다 좋아하더라고. 대체 왜 그렇게까지 좋아하는 거지?",
+            "turn_id": "BK22000305-8",
+            "utterance_id": "BK22000305.15"
+        },
+        {
+            "reference_date": "2018-05-01",
+            "reference_text": [
+                {
+                    "value": "이는 야생에서 생활하고 있는 작은 동물이 기어다니거나 날아가거나 숨거나 하는 동작을 연출할 수 있어 고양이의 사냥본능을 극대화시킬 수 있다.",
+                    "value_time": "2022-06-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?3305053",
+            "search_query": "고양이 낚시대",
+            "terminate": false,
+            "text": "고양이의 사냥 본능을 충족시켜주는 거라서 그래. 낚싯대 움직임에 따라 먹잇감이 기어 다니거나 날아가거나 숨거나 하는 것처럼 보이니까 실제 사냥하는 듯한 느낌이 나는 거지.",
+            "turn_id": "BK22000305-8",
+            "utterance_id": "BK22000305.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이가 사냥 본능이 있었어?",
+            "turn_id": "BK22000305-9",
+            "utterance_id": "BK22000305.17"
+        },
+        {
+            "reference_date": "2020-11-25",
+            "reference_text": [
+                {
+                    "value": "고양이는 육식동물로 사냥감을 쫓고, 사냥을 하려는 본능이 있다.",
+                    "value_time": "2022-06-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.withinnews.co.kr/news/view.html?section=1&category=161&item=&no=23492",
+            "search_query": "고양이 사냥 본능",
+            "terminate": false,
+            "text": "덩치가 작다고 해도 고양이는 엄연히 육식 동물이야. 사냥감을 쫓고, 사냥하려는 본능이 있는 건 당연하지.",
+            "turn_id": "BK22000305-9",
+            "utterance_id": "BK22000305.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얘기를 듣고 보니 고양이가 쥐 사냥의 명수라는 게 떠오르네. 그러고 보니 할머니네 농장에 쥐가 많아서 골치 아프다고 하셨는데, 거기로 입양 보낼까?",
+            "turn_id": "BK22000305-10",
+            "utterance_id": "BK22000305.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그건 할머니 의견부터 들어보는 게 우선 아닐까?",
+            "turn_id": "BK22000305-10",
+            "utterance_id": "BK22000305.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동물 좋아하시니까 된다고 하실 것 같아. 만일 입양하겠다고 하시면 일단 병원부터 가봐야겠지?",
+            "turn_id": "BK22000305-11",
+            "utterance_id": "BK22000305.21"
+        },
+        {
+            "reference_date": "2021-08-13",
+            "reference_text": [
+                {
+                    "value": "겉으로 봤을 때는 문제가 없지만 길에서 생활하다 보면 다양한 세균 감염과 예방접종을 하지 않은 상태이기 때문에 질병이 없는지 검사 후 치료 후 건강을 지켜줘야 한다.",
+                    "value_time": "2022-06-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ftimes.kr/news/articleView.html?idxno=12005",
+            "search_query": "길냥이 입양 전 검진",
+            "terminate": false,
+            "text": "당연하지. 겉으로 봤을 때는 아무 문제가 없어 보여도 길에서 생활하는 애들은 다양한 세균에 감염되었을 수가 있어서 검진이 필수거든. 가능하면 예방 접종도 해서 보내면 좋을 것 같고 말이야.",
+            "turn_id": "BK22000305-11",
+            "utterance_id": "BK22000305.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래야겠다. 아무래도 시골은 동물병원도 한참 가야 있으니 말이야. 나 일단 할머니랑 통화 좀 하고 올게.",
+            "turn_id": "BK22000305-12",
+            "utterance_id": "BK22000305.23"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "천천히 하고 와. 나는 소파에서 한숨 자고 있을게.",
+            "turn_id": "BK22000305-12",
+            "utterance_id": "BK22000305.24"
+        }
+    ]
+}

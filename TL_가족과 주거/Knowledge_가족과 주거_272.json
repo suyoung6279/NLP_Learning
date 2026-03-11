@@ -1,0 +1,386 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.6,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014985",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014985",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 3.8,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 3.8,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아들이 철도를 무척 좋아해서 철도박물관에 데려가려고요. 얼마나 빠져 있는지 외출할 일도 없는데, 전철 태워 달라고 조른다니까요.",
+            "turn_id": "BK22014985-1",
+            "utterance_id": "BK22014985.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자기가 좋아하는 것을 알고 싶고 체험하고 싶어 하는 모습이 무척 귀여운데요.",
+            "turn_id": "BK22014985-1",
+            "utterance_id": "BK22014985.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런가요? 그런데 박물관이 의왕에 있던데, 혹시 갔다가 들러서 놀만한 데는 없을까요? 외출한 김에 가족끼리 바람도 쐬면 좋을 것 같아서요.",
+            "turn_id": "BK22014985-2",
+            "utterance_id": "BK22014985.3"
+        },
+        {
+            "reference_date": "2022-06-29",
+            "reference_text": [
+                {
+                    "value": "의왕시는 그동안 왕송호수와 백운호수 두 개의 호수와 모락산과 청계산 등 여러 산으로 둘러싸인 아름다운 자연경관을 갖춘 도시로 알려져 왔다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 최근 몇 년간 대외적으로 의왕의 이름을 알리는 데 기여한 곳을 뽑는다면 단연 의왕레솔레파크다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이곳에는 관찰데크, 도섭지, 의왕조류생태과학관, 의왕레일바이크, 스카이레일, 캠핑장 등 다양한 관광레저시설을 갖추고 있는 대표적인 수도권 관광명소로 각광받고 있다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kgnews.co.kr/news/article.html?no=705423",
+            "search_query": "서울 근교 나들이 의왕",
+            "terminate": false,
+            "text": "의왕시는 그동안 모락산과 청계산 등 여러 산과 왕송호수와 백운호수 두 개의 호수로 둘러싸인 아름다운 자연 경관을 가진 곳으로 알려져 왔지만, 최근에는 의왕레솔레파크 인기로 의왕시의 이름이 더욱 알려졌어요. 의왕레솔레파크로 가보세요. 관찰데크, 도섭지, 의왕조류생태과학관, 의왕레일바이크, 스카이레일, 캠핑장 등 관광레저시설을 다수 갖추고 있는 대표적인 수도권 관광명소에요.",
+            "turn_id": "BK22014985-2",
+            "utterance_id": "BK22014985.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 그런 곳이 있군요. 그런데 조류생태과학관이 있네요. 제가 새에 좀 관심이 있는데, 그곳은 어떤 곳인가요?",
+            "turn_id": "BK22014985-3",
+            "utterance_id": "BK22014985.5"
+        },
+        {
+            "reference_date": "2022-06-29",
+            "reference_text": [
+                {
+                    "value": "레일바이크 매표소에서 걸어서 5분 거리에 위치한 조류생태과학관은 왕송호수의 철새에 대한 정보를 제공한다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "코로나 팬데믹 전까지 평일에는 약 200명, 주말에는 1천 명이 방문할 정도로 인기가 많다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1층에서는 왕송호수에 서식하고 있는 생물들을 커다란 스크린과 터치 화면을 통해 재미있게 소개하고 있으며, 2층으로 올라가면 본격적으로 조류에 대한 전시를 볼 수 있다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "3층 3D영상실에서는 숲 속의 곤충과 동물을 실감나는 3D영상으로 소개하고 4층에 있는 전망대는 왕송호수뿐만 아니라 주변 경관이 한눈에 들어오면서 탁 트인 기분을 느낄 수 있다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "망원경으로 멀리 있는 전경을 바라볼 수 있고, 호수 쪽으로 방향을 돌리면 철새가 움직이는 모습을 쉽사리 찾아볼 수 있다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kgnews.co.kr/news/article.html?no=705423",
+            "search_query": "의왕레솔레파크 조류생태과학관",
+            "terminate": false,
+            "text": "오, 새에 관심이 있군요. 조류생태과학관은 왕송호수의 철새에 대한 정보를 제공하는 곳으로, 코로나 팬데믹 전까지 평일에는 약 200명, 주말에는 1천명이 방문할 정도로 사람들에게 인기 있는 곳이에요. 조류생태과학관 1층은 왕송호수에서 서식하는 생물들을 스크린과 터치 화면으로 소개하고, 2층부터 본격적인 조류 전시를 볼 수 있어요. 3층 3D 영상실에서는 숲 속 곤충과 동물을 3D 영상으로 볼 수 있고, 전망대와 망원경이 있는 4층에서는 왕송호수 뿐 아니라 호수에서 움직이는 철새와 멀리 있는 자연 경관까지 관찰할 수 있어요. 레일바이크 매표소에서 걸어서 5분 거리에 위치하고 있어요.",
+            "turn_id": "BK22014985-3",
+            "utterance_id": "BK22014985.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "왕송호수에서 철새를 볼 수 있군요. 어떤 철새를 볼 수 있나요?",
+            "turn_id": "BK22014985-4",
+            "utterance_id": "BK22014985.7"
+        },
+        {
+            "reference_date": "2022-04-05",
+            "reference_text": [
+                {
+                    "value": "시설 정비사업을 실시했지만 논병아리·(중)대백로·천둥오리 등 약 60가지에 달하는 철새들의 쉼터로 각광받고 있는 데다가 다양한 즐길 거리를 비롯해 레저용 시설물 등이 고루 갖춰져 있어 짧은 시간 동안 자연을 벗 삼는 여행 목적지로도 제격이다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyeongin.com/main/view.php?key=20220404010000404",
+            "search_query": "레솔레파크 왕송호수 조류 관찰",
+            "terminate": false,
+            "text": "왕송호수는 철새들이 사랑하는 쉼터죠. 논병아리, 중백로, 대백로, 청둥오리 등 약 60가지에 이르는 철새를 관찰할 수 있어요. 또한 각종 레저 시설 등을 비롯해 다양한 즐길 거리도 있어, 짧은 시간 자연을 즐기고 누릴 수 있는 여행지로도 적합하죠.",
+            "turn_id": "BK22014985-4",
+            "utterance_id": "BK22014985.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "철새들을 실제로 볼 수 있다니 기대가 돼요. 호수 내 시설에 대해서 좀 더 혹시 알 수 있을까요? 생태탐방로 같은 것이 있나 해서요.",
+            "turn_id": "BK22014985-5",
+            "utterance_id": "BK22014985.9"
+        },
+        {
+            "reference_date": "2022-04-05",
+            "reference_text": [
+                {
+                    "value": "20만8천940㎡ 규모의 공원은 도심 속에서 벗어나 시골 정취를 그득 담은 둘레길도 조성했다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "4.5㎞에 달하는 생태탐방로와 피크닉정원, 전망대 등이 갖춰져 있는 데다가, 시설 정비 이후 주변 생태환경이 개선돼 호수를 넘나드는 100종이 넘는 철새와 다양한 어류, 수생식물을 관찰할 수 있는 생태계의 보고로 어른들에게는 과거의 동심을, 아이들에게는 자연의 정취를 온몸으로 느끼게 해준다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "호수 내 시설 중 2002년부터 문을 연 자연학습공원은 8만715㎡ 공간에 2곳의 습지와 도섭지(실개천)로 이뤄졌다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyeongin.com/main/view.php?key=20220404010000404",
+            "search_query": "레솔레파크 왕송호수 탐방로",
+            "terminate": false,
+            "text": "네, 4.5km에 이르는 생태탐방로가 준비돼 있고, 20만8천940제곱미터에 달하는 공원의 둘레를 따라 시골의 정취를 가득 느낄 수 있는 둘레길도 조성돼 있어요. 그 외 피크닉 정원, 전망대, 8만715제곱미터 공간에 2곳의 습지와 실개천으로 이뤄진 자연학습공원까지 있죠. 왕송호수는 100 여종이 넘는 철새와 다양한 어류, 수생식물을 관찰할 수 있는 천혜의 보고로, 어른들에게는 과거의 동심을, 아이들은 자연이 주는 즐거움을 느끼게 하는 곳이에요.",
+            "turn_id": "BK22014985-5",
+            "utterance_id": "BK22014985.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "호수 전체가 보물 같은 곳이군요. 레솔레파크는 이름이 특이한데 무슨 뜻인가요?",
+            "turn_id": "BK22014985-6",
+            "utterance_id": "BK22014985.11"
+        },
+        {
+            "reference_date": "2022-09-27",
+            "reference_text": [
+                {
+                    "value": "레솔레파크는 2018년 시민 공모를 통해 호수(Lake)와 태양(Sol), 철도(Rail) 등 각 영문 단어의 초성을 이어 붙인 명칭으로 응답자 중 789명(84%)이 레솔레파크를 알고 있지만 왕송호수공원 명칭을 더 선호하는 것으로 조사돼 눈길을 끌었다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 같은 결과를 바탕으로 시는 왕송호수공원으로의 명칭 변경을 추진할 방침이다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyeongin.com/main/view.php?key=20220927010004283",
+            "search_query": "의왕레솔레파크왕송호수",
+            "terminate": false,
+            "text": "레솔레파크는 2018년 시민 공모를 통해 붙여진 이름으로, 호수 Lake와 태양 Sol, 철도 Rail 등 각 영문 단어의 초성을 따서 만든 명칭이에요. 하지만, 최근에 있었던 조사에서 시민들은 레솔레파크를 알고 있지만 왕송호수공원 명칭을 더 선호하는 것으로 나타나 명칭 변경이 추진될 예정이에요.",
+            "turn_id": "BK22014985-6",
+            "utterance_id": "BK22014985.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "명칭이 변경될 수도 있군요. 더 친근한 것 같기도 하네요. 공원에 있는 레일바이크의 노선은 어떻게 되나요?",
+            "turn_id": "BK22014985-7",
+            "utterance_id": "BK22014985.13"
+        },
+        {
+            "reference_date": "2022-06-29",
+            "reference_text": [
+                {
+                    "value": "그 중 가장 인기가 많은 것은 단연 레일바이크다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "의왕레일바이크는 4.3km의 왕송호수를 돌면서 아름다운 호수 풍경을 만끽하며 수많은 철새들을 관찰할 수 있다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한, 레일바이크를 타기 힘든 어르신과 어린이들을 위해 호수열차도 함께 운영하고 있다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kgnews.co.kr/news/article.html?no=705423",
+            "search_query": "의왕레솔레파크 레일바이크",
+            "terminate": false,
+            "text": "의왕레일바이크는 4.3km의 왕송호수를 따라 돌아요. 레일바이크를 타며 호수의 아름다움 풍경과 수많은 철새들을 볼 수 있어서 공원에서 가장 인기가 있는 곳이죠. 레일바이크를 타기 힘든 어르신과 어린이들은 호수열차를 이용할 수도 있어요.",
+            "turn_id": "BK22014985-7",
+            "utterance_id": "BK22014985.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "꼭 타봐야겠는걸요. 레일바이크에서 호수전경을 보는 것이 기대가 되요. 그런데 스카이 레일은 어떤 기구인가요?",
+            "turn_id": "BK22014985-8",
+            "utterance_id": "BK22014985.15"
+        },
+        {
+            "reference_date": "2022-06-20",
+            "reference_text": [
+                {
+                    "value": "의왕 스카이레일은 자연학습공원에 세워진 41m 높이의 타워에서 왕송호수 레일바이크 매표소까지 350m를 하강하는 3개의 라인으로 구성됐다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "최대 시속 80㎞의 아찔한 속도감을 느낄 뿐만 아니라 발 아래로 펼쳐지는 왕송호수와 자연학습공원의 빼어난 경치를 감상하게 된다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kihoilbo.co.kr/news/articleView.html?idxno=984170",
+            "search_query": "의왕레솔레파크 스카이레일",
+            "terminate": false,
+            "text": "스카이레일은 자연학습공원에 있어요. 41m에 이르는 타워에서 왕송호수 레일바이크 매표소까지 최대 시속 80km의 스피드로 350m를 하강하는 3개의 라인으로 구성돼 있어요. 아찔한 속도감을 느낄 뿐 아니라 발 아래 펼쳐진 왕송호수와 자연학습공원의 뛰어난 경관을 즐길 수 있는 레저시설이죠.",
+            "turn_id": "BK22014985-8",
+            "utterance_id": "BK22014985.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 아찔하네요. 하지만 전망이 너무 좋겠어요. 공원 안에 영유아를 위한 공간도 있나요?",
+            "turn_id": "BK22014985-9",
+            "utterance_id": "BK22014985.17"
+        },
+        {
+            "reference_date": "2022-06-20",
+            "reference_text": [
+                {
+                    "value": "주차장에서 레솔레파크로 들어서면 푸드트럭존과 영·유아 놀이시설인 자연학습공원이 나온다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "미끄럼틀, 터널 등 아이들이 뛰어놀 만한 놀이터와 함께 드넓게 펼쳐진 잔디광장, 쉼터가 있다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 공원 곳곳에는 각각의 스토리를 지닌 작은 정원들이 볼거리를 제공한다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "흔들의자에 앉아서 여유롭게 독서를 즐기는 공원 속 책장도 곳곳에 마련됐고, 독특한 조형물들과 포토존이 많아 가족들과 사진 찍기에도 좋다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kihoilbo.co.kr/news/articleView.html?idxno=984170",
+            "search_query": "레솔레파크 공원 놀이터",
+            "terminate": false,
+            "text": "그럼요, 주차장에서 레솔레파크로 들어오면 볼 수 있어요. 푸드트럭존과 영·유아 놀이시설인 자연학습공원이 있어 미끄럼틀, 터널 등이 있는 놀이터와 넓게 펼쳐진 잔디광장과 쉼터가 있고, 각각의 이야기를 지닌 작은 정원들도 공원 곳곳에 있어요. 가족들과 사진 찍기 좋은 독특한 조형물과 포토존도 많아요. 여유롭게 독서를 즐기는 공원 속 책장과 흔들의자도 곳곳에 마련돼 있죠.",
+            "turn_id": "BK22014985-9",
+            "utterance_id": "BK22014985.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 알려주신 것을 토대로 철도박물관에 갔다가 왕송호수공원에 간다면 정말 좋은 나들이가 되겠어요. 부모님도 모시고 가야겠어요. 벌써 시간이 다 돼서 아쉬워요, 잘 지내고 다음에 봐요.",
+            "turn_id": "BK22014985-10",
+            "utterance_id": "BK22014985.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래요. 청명한 가을날 즐거운 가족 나들이 되길 바라요. 건강 조심하고, 다음에 만나요.",
+            "turn_id": "BK22014985-10",
+            "utterance_id": "BK22014985.20"
+        }
+    ]
+}

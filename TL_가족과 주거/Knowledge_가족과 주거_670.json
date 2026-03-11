@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016019",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016019",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아내가 벌써 임신 38주가 되었어요. 출산이 가까워지니 불안하기도 하고 궁금한 점들도 많아요.",
+            "turn_id": "BK22016019-1",
+            "utterance_id": "BK22016019.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 정말 걱정되고 초조하실 수 있어요. 어떤 점들이 궁금하세요?",
+            "turn_id": "BK22016019-1",
+            "utterance_id": "BK22016019.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 먼저 38주가 되었는데 뱃속의 아기는 어느 정도 발달이 되었나요?",
+            "turn_id": "BK22016019-2",
+            "utterance_id": "BK22016019.3"
+        },
+        {
+            "reference_date": "2015-09-21",
+            "reference_text": [
+                {
+                    "value": "몸은 완전한 4등신으로 변하며 스스로 체온 조절을 할 정도로 지방층이 충분히 생겼습니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "얼굴에 상처를 낼 만큼 손톱이 길게 자라고 머리카락도 3cm 정도로 자랐죠.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한, 밖에서의 생활에 대비해 효소와 호르몬을 저장하며 40분 주기로 잠자고 깨어있는 시간의 리듬이 생깁니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108514",
+            "search_query": "임신 38주 태아 특징",
+            "terminate": false,
+            "text": "몸은 완전한 4등신이 되었고 지방층이 많이 생겨 스스로 체온 조절을 할 수 있게 돼요. 손톱이 길게 자라서 얼굴에 상처를 낼 수 있게 되며, 머리카락도 3cm 정도로 자라요. 또 이제 밖에서의 출산을 대비해 효소와 호르몬을 저장하며 40분 주기로 잠자고 깨어있는 시간의 리듬이 생겨나요.",
+            "turn_id": "BK22016019-2",
+            "utterance_id": "BK22016019.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 지금 아내의 몸 상태는 어떤가요?",
+            "turn_id": "BK22016019-3",
+            "utterance_id": "BK22016019.5"
+        },
+        {
+            "reference_date": "2015-09-21",
+            "reference_text": [
+                {
+                    "value": "대부분 태아는 머리를 아래로 향한 위치가 고정되며 머리 부분이 모체의 골반 안으로 들어가 태동이 둔해집니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "배가 점점 무거워져 움직이거나 잠을 잘 때도 힘이 들죠.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108514",
+            "search_query": "임신 38주 엄마의 증상",
+            "terminate": false,
+            "text": "태아의 머리가 아래로 향해 고정되며 머리 부분이 엄마의 골반 안으로 들어가기 때문에 태동이 둔해져요. 또 배가 점점 무거워져서 움직이거나 잠을 잘 때에도 많이 힘들 수 있어요.",
+            "turn_id": "BK22016019-3",
+            "utterance_id": "BK22016019.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 요즘 태동이 좀 줄어들긴 했어요. 정상적인 증상인거죠?",
+            "turn_id": "BK22016019-4",
+            "utterance_id": "BK22016019.7"
+        },
+        {
+            "reference_date": "2015-09-21",
+            "reference_text": [
+                {
+                    "value": "태아가 지나치게 조용하거나 태동이 없으면 배에 귀를 대 보고 살짝 건드려 반응을 살펴봅니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자극을 줬는데도 반응하지 않으면 즉시 병원에 가야 합니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108514",
+            "search_query": "임신 38주 태동",
+            "terminate": false,
+            "text": "네, 하지만 너무 조용하거나 태동이 없다면 잘 살펴봐야 해요. 자극을 주었는데도 반응이 없다면 바로 병원에 가 보길 권해요.",
+            "turn_id": "BK22016019-4",
+            "utterance_id": "BK22016019.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 적당한 태동은 필요한 거군요. 그리고 요즘 아내가 많이 불안해 하는 것 같던데, 어떻게 하면 불안을 줄여줄 수 있을까요?",
+            "turn_id": "BK22016019-5",
+            "utterance_id": "BK22016019.9"
+        },
+        {
+            "reference_date": "2015-09-21",
+            "reference_text": [
+                {
+                    "value": "호르몬이 계속 변하고 출산이 임박하면서 쌓일 수 있는 긴장과 불안을 가벼운 체조 등을 통해 기분을 전환해보세요.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108514",
+            "search_query": "임신 38주 필요한 태교",
+            "terminate": false,
+            "text": "호르몬 변화와 출산이 가까워 짐에 따라 당연히 긴장을 하기도 하고 불안한 마음이 들 수도 있어요. 가벼운 체조를 하면 기분 전환이 될 수 있어요.",
+            "turn_id": "BK22016019-5",
+            "utterance_id": "BK22016019.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 함께 가벼운 맨손 체조라도 해야겠어요. 정말 출산이 멀지 않았는데, 어떤 준비를 해야 할 지 모르겠어요. 혹시 제가 놓치고 있는 부분이 있다면 알려주실 수 있을까요?",
+            "turn_id": "BK22016019-6",
+            "utterance_id": "BK22016019.11"
+        },
+        {
+            "reference_date": "2017-03-02",
+            "reference_text": [
+                {
+                    "value": "직장을 다니는 임신부는 출산휴가를 언제부터 사용할지를 결정하도록 합니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "몸이 많이 힘들지 않다면, 출산 후에 더 많은 시간을 가지는 것이 좋겠고, 잦은 수축이나, 직장일이 많이 버겁게 느껴진다면, 출산 전에 휴식을 가지도록 합니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ksmnews.co.kr/default/index_view_page.php?idx=168583&part_idx=197",
+            "search_query": "임신 출산휴가",
+            "terminate": false,
+            "text": "아내분께서 직장을 다니신다면 출산 휴가를 언제부터 사용할지도 생각해 놔야 해요. 몸이 많이 힘들지 않다면 출산 후에 더 오래 쉬는 게 좋고 잦은 수축이나 직장일이 많이 힘들다면 출산 전에 출산휴가를 쓰는 것도 좋겠죠.",
+            "turn_id": "BK22016019-6",
+            "utterance_id": "BK22016019.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 출산 휴가는 정말 생각도 못하고 있었네요. 알려주셔서 정말 감사해요. 그럼 저는 뭘 알아보고 도와주면 좋을까요?",
+            "turn_id": "BK22016019-7",
+            "utterance_id": "BK22016019.13"
+        },
+        {
+            "reference_date": "2017-03-02",
+            "reference_text": [
+                {
+                    "value": "아내의 배가 많이 트는 시기입니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "부드럽게 보습제를 아내의 배 전체를 마사지하듯이 바르며, 태아와 스킨십을 하는 느낌도 가져봅니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ksmnews.co.kr/default/index_view_page.php?idx=168583&part_idx=197",
+            "search_query": "임신 배 전체 보습제",
+            "terminate": false,
+            "text": "이 시기는 아내의 배가 많이 트는 시기에요. 아내 배 전체에 보습제를 바르고 부드럽게 마사지를 해주면 좋아요.",
+            "turn_id": "BK22016019-7",
+            "utterance_id": "BK22016019.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 마사지는 종종 해주긴 하는데, 앞으로 출산까지 좀 더 많이 해줘야겠네요. 또 어떤 걸 도와주면 아내가 덜 힘들까요?",
+            "turn_id": "BK22016019-8",
+            "utterance_id": "BK22016019.15"
+        },
+        {
+            "reference_date": "2017-03-02",
+            "reference_text": [
+                {
+                    "value": "아내가 혼자서 병원에 다니기는 많이 힘든 시기이므로, 검진 때 함께 참석하는 것이 좋습니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ksmnews.co.kr/default/index_view_page.php?idx=168583&part_idx=197",
+            "search_query": "임신 중 병원 검진 참석",
+            "terminate": false,
+            "text": "임신 말기에는 몸이 무거워 아내 혼자 병원에 다니기 힘들어요. 남편분께서 함께 다니면 좋을 거예요.",
+            "turn_id": "BK22016019-8",
+            "utterance_id": "BK22016019.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇겠네요. 참, 출산 방법도 여러가지가 있던데 출산방법은 병원에서 정해주는 게 아니라 저희가 정하는 건가요?",
+            "turn_id": "BK22016019-9",
+            "utterance_id": "BK22016019.17"
+        },
+        {
+            "reference_date": "2017-03-02",
+            "reference_text": [
+                {
+                    "value": "이 시기에 남편은, 어떠한 출산 방법을 택할지 아내와 신중하게 의논합니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아내가 자연주의 출산에 관심이 많다면 준비과정에서 남편이 적극적으로 동참해야 합니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ksmnews.co.kr/default/index_view_page.php?idx=168583&part_idx=197",
+            "search_query": "임신 출산 방법 자연주의 출산",
+            "terminate": false,
+            "text": "네, 맞아요. 어떤 출산 방법을 선택할지 아내분과 신중하게 의논해 보세요. 혹시라도 아내가 자연주의 출산에 관심을 가진다면 남편분이 준비과정을 적극적으로 도와줘야 해요.",
+            "turn_id": "BK22016019-9",
+            "utterance_id": "BK22016019.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 아내와 충분히 얘기를 해봐야겠어요. 오늘 좋은 정보들 자세히 알려주셔서 정말 감사해요. 덕분에 많은 도움이 되었어요.",
+            "turn_id": "BK22016019-10",
+            "utterance_id": "BK22016019.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요, 도움이 되셨다니 정말 다행이네요. 또 궁금한 점 있으시면 언제든지 물어보세요.",
+            "turn_id": "BK22016019-10",
+            "utterance_id": "BK22016019.20"
+        }
+    ]
+}

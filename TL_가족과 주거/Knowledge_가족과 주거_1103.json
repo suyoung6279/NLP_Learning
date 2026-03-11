@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007015",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007015",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 강아지가 살이 많이 쪄서 걱정이야. 비만인지 알고 싶은데 어떻게 알 수 있어?",
+            "turn_id": "BK22007015-1",
+            "utterance_id": "BK22007015.1"
+        },
+        {
+            "reference_date": "2022-05-12",
+            "reference_text": [
+                {
+                    "value": "체중보다 갈비뼈, 허리, 복부의 라인을 측정하는 것이 비만을 판단하는 데 효과적입니다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "위에서 내려다보았을 때 허리가 구분되지 않거나 손으로 만졌을 때 갈비뼈가 느껴지지 않는다면 비만일 가능성이 높습니다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202205111522035113",
+            "search_query": "강아지 비만",
+            "terminate": false,
+            "text": "비만을 판단하는 데에는 갈비뼈와 허리, 복부 라인의 사이즈를 재보는 것이 체중을 측정하는 것보다 더 효과적이야. 위에서 내려다봤을 때 허리를 구별하기 어렵거나 갈비뼈가 느껴지지 않으면 비만일 확률이 높아.",
+            "turn_id": "BK22007015-1",
+            "utterance_id": "BK22007015.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금 우리 집 강아지가 허리 구별이 어려운 상태야. 강아지가 비만이면 다른 병에 걸릴 확률이 높지?",
+            "turn_id": "BK22007015-2",
+            "utterance_id": "BK22007015.3"
+        },
+        {
+            "reference_date": "2021-12-31",
+            "reference_text": [
+                {
+                    "value": "반려동물이 비만을 앓게 되면 당뇨병이나 하부요로계 질환이 생기기 쉽고 관절염을 앓을 확률이 크게 높아진다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "면역 체계 교란과 면역력 저하로 내장 질환의 위험성도 높아지고 면역력에 따른 염증 및 피부병 증상이 나타날 수 있다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2021122914474888478",
+            "search_query": "강아지 비만 질병",
+            "terminate": false,
+            "text": "응, 비만이면 당뇨병이나 하부 요로계 질환이 생길 수 있고 관절염을 앓을 수 있어. 또, 면역 체계에 교란이 생길 수 있고 면역력 저하로 내장 질환이 생길 위험도 늘어나고 염증과 피부병에 노출될 위험이 있어.",
+            "turn_id": "BK22007015-2",
+            "utterance_id": "BK22007015.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비만을 방치하면 큰 병에 걸릴 수도 있구나. 근데 강아지들은 왜 살이 찌는 거야?",
+            "turn_id": "BK22007015-3",
+            "utterance_id": "BK22007015.5"
+        },
+        {
+            "reference_date": "2021-03-17",
+            "reference_text": [
+                {
+                    "value": "유전적인 요인(성별, 품종), 특정 질환, 환경, 생활 습관 등이 가장 흔한 원인이다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사람과 마찬가지로 간식 등을 포함해 섭취하는 칼로리가 많거나 운동량이 부족할 때 비만해질 수 있으며 중성화 수술 이후 체중이 증가하는 반려동물도 많다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=52843",
+            "search_query": "강아지 비만 원인",
+            "terminate": false,
+            "text": "일반적인 원인으로는 성별이나 품종에 의한 유전적 원인과 특정 질환이나 환경, 생활 습관 때문이야. 사람처럼 운동 부족과 칼로리의 섭취가 과다하면 비만이 될 수 있고, 중성화 수술 후에 체중이 증가되는 경우도 있어.",
+            "turn_id": "BK22007015-3",
+            "utterance_id": "BK22007015.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 강아지는 사람과 같은 이유로 살이 찐 것 같아. 그럼, 살을 빼줘야 할 것 같은 데 어떤 방법이 있을까?",
+            "turn_id": "BK22007015-4",
+            "utterance_id": "BK22007015.7"
+        },
+        {
+            "reference_date": "2021-02-08",
+            "reference_text": [
+                {
+                    "value": "적당한 공복은 대사성 질환, 당뇨 등을 예방하는 데 도움이 된다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "개에게 12시간 이상 공복은 담즙성 구토를 유발해 8~10시간 정도의 간격을 유지하는 것이 좋다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=52260",
+            "search_query": "강아지 다이어트",
+            "terminate": false,
+            "text": "적당한 시간 동안 공복을 유지해 주는 방법이 있어. 대사성 질환과 당뇨병을 예방하는 데 이 방법이 도움이 돼. 하지만, 강아지에게 12시간 이상의 공복은 담즙성 구토를 유발하니 8시간에서 10시간 정도 간격을 유지해서 음식을 주어야 해.",
+            "turn_id": "BK22007015-4",
+            "utterance_id": "BK22007015.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "적당한 공복 시간을 유지하는 것이 강아지에게 도움이 되는구나. 근데 다이어트 사료를 주면 영양소가 부족할까 걱정이 되는 데 줘도 될까?",
+            "turn_id": "BK22007015-5",
+            "utterance_id": "BK22007015.9"
+        },
+        {
+            "reference_date": "2018-05-02",
+            "reference_text": [
+                {
+                    "value": "다이어트용 사료는 대부분 섬유질비율을 높여 포만감은 높이고 칼로리는 낮춘 ‘공갈사료’다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 때 사료의 영양성분이 부족하지는 않을까 걱정하는 보호자들이 있지만 대부분 필수영양소를 갖추고 있다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=35916",
+            "search_query": "강아지 다이어트 사료",
+            "terminate": false,
+            "text": "다이어트 사료는 섬유질의 비중을 높여 포만감을 주면서 칼로리를 높인 거야. 다이어트 사료의 영양분이 적을까 걱정하기도 하는 데 대부분의 필수 성분은 다 넣었으니 걱정하지 않아도 돼.",
+            "turn_id": "BK22007015-5",
+            "utterance_id": "BK22007015.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다이어트 사료를 먹여도 영양소 부족 걱정은 하지 않아도 되는 거구나. 또 살을 빼는 데 도움이 되는 것도 있을까?",
+            "turn_id": "BK22007015-6",
+            "utterance_id": "BK22007015.11"
+        },
+        {
+            "reference_date": "2022-08-28",
+            "reference_text": [
+                {
+                    "value": "다이어트에 도움을 줄 수 있는 영양 성분도 있다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "L-카르니틴은 지방 대사를 촉진하여 체지방을 감소시킨다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01252966632431912&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "강아지 체중 조절",
+            "terminate": false,
+            "text": "살을 빼는 데 도움이 되는 영양성분도 있는데 그건 L 카르니틴이야. 이 영양 성분은 지방 대사를 활발하게 해서 체지방을 감소시키는 효과가 있어.",
+            "turn_id": "BK22007015-6",
+            "utterance_id": "BK22007015.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "L 카르니틴이 그런 역할을 하는구나. 그리고, 살을 빼려면 간식을 줄여야겠지?",
+            "turn_id": "BK22007015-7",
+            "utterance_id": "BK22007015.13"
+        },
+        {
+            "reference_date": "2022-07-07",
+            "reference_text": [
+                {
+                    "value": "간식은 하루 총 필요 칼로리의 10%를 넘지 않게 급여해야 한다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가공된 간식보다는 직접 말린 육포나 첨가물이 들어가지 않는 채소 스틱 등으로 대체하자.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1404468/%ec%9c%84%eb%93%9c%ed%8e%ab-%ed%86%b5%ed%86%b5%ed%95%98%ea%b3%a0-%ea%b7%80%ec%97%ac%ec%9a%b4-%eb%8c%95%eb%8c%95%ec%9d%b4-%ec%95%8c%ea%b3%a0-%eb%b3%b4%eb%8b%88-%eb%b9%84%eb%a7%8c/",
+            "search_query": "강아지 비만 간식",
+            "terminate": false,
+            "text": "응, 간식은 하루에 필요한 열량의 10%를 넘게 줘서는 안 돼. 간식도 가공된 것보다는 집에서 말린 육포나 첨가물이 함유되지 않은 채소 스틱을 주는 것이 좋아.",
+            "turn_id": "BK22007015-7",
+            "utterance_id": "BK22007015.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "간식을 최소한만 줘서 살을 빼줘야겠어. 그리고 좀 움직이게 하는 게 도움이 되겠지?",
+            "turn_id": "BK22007015-8",
+            "utterance_id": "BK22007015.15"
+        },
+        {
+            "reference_date": "2020-09-17",
+            "reference_text": [
+                {
+                    "value": "갑자기 운동량을 늘리기보다는 꾸준한 산책이 중요하며, 공놀이나 터그 놀이를 통해 칼로리를 소모하는 것도 좋다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2020091618164316445",
+            "search_query": "강아지 다이어트 방법",
+            "terminate": false,
+            "text": "그렇긴 하지만 갑자기 운동량을 늘리지 말고 꾸준히 산책을 시켜 줘. 공놀이나 터그놀이로 에너지를 소모하게 하는 것도 좋은 방법이야.",
+            "turn_id": "BK22007015-8",
+            "utterance_id": "BK22007015.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산책도 시키고 공놀이도 같이 해야지.",
+            "turn_id": "BK22007015-9",
+            "utterance_id": "BK22007015.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 산책 나가서 다른 강아지와도 놀게 해주면 좋아.",
+            "turn_id": "BK22007015-9",
+            "utterance_id": "BK22007015.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지 살을 어떻게 빼줘야 하나 고민이 많았는데 네 이야기가 도움이 되었어, 고마워.",
+            "turn_id": "BK22007015-10",
+            "utterance_id": "BK22007015.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "고맙긴, 나도 도움이 돼서 기뻐. 우리는 다음에 만나자, 안녕.",
+            "turn_id": "BK22007015-10",
+            "utterance_id": "BK22007015.20"
+        }
+    ]
+}

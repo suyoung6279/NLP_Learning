@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015682",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015682",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0046"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "출산할 때가 다가와서 이제 준비를 하려고 해. 그래서, 출산 용품을 사려고 하는데 뭘 사야 할지 잘 모르겠어. 모유 수유하려면 뭘 준비하면 될까?",
+            "turn_id": "BK22015682-1",
+            "utterance_id": "BK22015682.1"
+        },
+        {
+            "reference_date": "2019-05-23",
+            "reference_text": [
+                {
+                    "value": "모유 수유 시에는 유축기와 모유 저장팩이 필요하며, 유축기의 경우 지역 보건소에서 출산 후 1달간 무료 대여를 할 수 있으니 미리 대여신청을 해두는 것이 좋다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=204502",
+            "search_query": "모유수유 준비물",
+            "terminate": false,
+            "text": "이제 출산 용품을 준비하려고 하는구나. 모유 수유하려고 한다면 유축기와 모유 저장팩이 필요해. 유축기는 지역 보건소에서 출산 후 1달간 무료로 대여해 주니 미리 신청하면 좋아.",
+            "turn_id": "BK22015682-1",
+            "utterance_id": "BK22015682.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유축기를 지역 보건소에서 무료로 대여해 주는구나. 그리고, 수유 쿠션도 준비해야 할까?",
+            "turn_id": "BK22015682-2",
+            "utterance_id": "BK22015682.3"
+        },
+        {
+            "reference_date": "2019-05-23",
+            "reference_text": [
+                {
+                    "value": "수유쿠션은 아기가 모유나 분유를 안정적인 자세로 먹을 수 있게 도움을 주며, 수유 등은 집에서 밤 수유 시 아기의 수면을 방해하지 않게 먹일 수 있기 때문에 꼭 챙겨야한다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=204502",
+            "search_query": "수유쿠션",
+            "terminate": false,
+            "text": "수유 쿠션은 분유나 모유를 안정적인 자세로 수유할 수 있게 도와줘. 그리고, 밤에 아기의 수면을 방해하지 않으면서 수유할 수 있는 수유 등도 필요해.",
+            "turn_id": "BK22015682-2",
+            "utterance_id": "BK22015682.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "밤에 수유 등이 있으면 유용하겠네. 그리고, 속싸개가 많이 필요하다고 말하는 친구들이 많던데, 속싸개는 몇 개나 준비하면 좋을까?",
+            "turn_id": "BK22015682-3",
+            "utterance_id": "BK22015682.5"
+        },
+        {
+            "reference_date": "2017-04-13",
+            "reference_text": [
+                {
+                    "value": "여름아기에 태어났다면 겉싸개보단 속싸개 활용이 좋다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아이들은 열이 많이 때문에 겉싸개 보단 통풍이 잘되는 속싸개로 덮어주고 외출하거나 낮잠 잘 때 이불로도 사용이 가능해 3~4장 정도 준비한다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=46466",
+            "search_query": "속싸개",
+            "terminate": false,
+            "text": "속싸개는 3~4장 정도 준비하면 돼. 여름에 출산 예정이니까 겉싸개보다는 속싸개가 사용하기 좋을 거야. 속싸개를 덮어주면 통풍이 잘 돼서 열이 많은 아기에게 좋아. 그리고, 낮잠 잘 때 이불로도 활용 가능하고.",
+            "turn_id": "BK22015682-3",
+            "utterance_id": "BK22015682.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "속싸개를 이불 대신 사용해도 좋겠구나. 나는 모유 수유를 할 예정이긴 하지만 젖병 소독기가 필요할까?",
+            "turn_id": "BK22015682-4",
+            "utterance_id": "BK22015682.7"
+        },
+        {
+            "reference_date": "2017-04-13",
+            "reference_text": [
+                {
+                    "value": "젖병 뿐만이 아닌 아이 장난감, 아이가 물고 빠는 다양한 물건 소독까지 갖춘 젖병소독기가 좋다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=46466",
+            "search_query": "젖병소독기",
+            "terminate": false,
+            "text": "젖병만 소독하는 것이 아니라 장난감이나, 아기가 물고 빠는 다양한 물건을 소독할 수 있어서 젖병 소독기가 있으면 편리해.",
+            "turn_id": "BK22015682-4",
+            "utterance_id": "BK22015682.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "젖병 소독기는 되도록 구매해야겠다. 근데, 가재 손수건도 좀 준비하는 게 좋겠지?",
+            "turn_id": "BK22015682-5",
+            "utterance_id": "BK22015682.9"
+        },
+        {
+            "reference_date": "2021-11-02",
+            "reference_text": [
+                {
+                    "value": "첫 번째는 가재손수건이다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "턱받이로도 쓰고, 아기 머리를 보호해주는 두건으로도 사용할 수 있다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "육아용품 페어나 산모강좌 등에 참석하면 증정품으로 받는 경우도 많지만, 여분으로 더 구매해두는 것도 좋은 팁.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://edu.donga.com/?p=article&ps=view&at_no=20211102155546769506",
+            "search_query": "가재손수건",
+            "terminate": false,
+            "text": "그럼, 육아용품 페어나 산모 강좌에 가면 증정품으로 가재 손수건을 받기도 하지만, 여분을 더 구매해 두는 것도 좋아. 그리고, 가재 손수건은 턱받이나 두건 등으로 다양하게 사용할 수 있지.",
+            "turn_id": "BK22015682-5",
+            "utterance_id": "BK22015682.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가재 손수건을 여유 있게 구매해 놔야겠구나. 그리고, 아기 욕조도 고르기 힘들던데, 어떤 걸 사면 될까?",
+            "turn_id": "BK22015682-6",
+            "utterance_id": "BK22015682.11"
+        },
+        {
+            "reference_date": "2016-11-09",
+            "reference_text": [
+                {
+                    "value": "아이가 자라도 사용할 수 있는 넉넉한 사이즈의 욕조를 선택하는 것이 좋다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "최근에는 적정 온도를 알려주는 체온계가 부착되거나 배수에 편리한 마개, 미끄럼 방지 기능을 갖춘 다양한 기능성 제품이 나와 있다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=201611093484o",
+            "search_query": "아기욕조",
+            "terminate": false,
+            "text": "넉넉한 크기의 욕조를 사면 아기가 자라도 사용할 수 있어. 요즘은 체온계가 달려 있어서 적정 온도를 알려주거나, 배수가 편리한 마개, 미끄럼 방지 기능이 있는 욕조까지 다양한 제품들도 있어.",
+            "turn_id": "BK22015682-6",
+            "utterance_id": "BK22015682.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "처음부터 넉넉한 크기의 욕조를 사야겠다. 근데, 아기 손톱을 관리해 주지 않으면 자기 얼굴을 할퀴기도 한다던데, 아기 손톱은 어떻게 정리해 주는 거야?",
+            "turn_id": "BK22015682-7",
+            "utterance_id": "BK22015682.13"
+        },
+        {
+            "reference_date": "2016-11-09",
+            "reference_text": [
+                {
+                    "value": "손톱 정리를 위한 위생용품은 손톱깎이와 가위, 파일이 있다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "신생아 손톱은 얇고 쉽게 찢어질 수 있기 때문에 가위로 잘라주고 각진 부분은 손톱 파일로 다듬어 준다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=201611093484o",
+            "search_query": "아기 위생용품",
+            "terminate": false,
+            "text": "아기를 위한 손톱깎이와 가위, 파일을 구매해서 손톱을 정리해 주면 돼. 신생아일 때는 손톱이 얇고 쉽게 찢어질 수 있어서 가위로 자른 후 손톱 파일로 다듬어줘야 해.",
+            "turn_id": "BK22015682-7",
+            "utterance_id": "BK22015682.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신생아는 가위로 손톱을 잘라줘야 하는 거구나. 그리고, 친구들이 카시트는 꼭 사야 한다던데 왜 그래?",
+            "turn_id": "BK22015682-8",
+            "utterance_id": "BK22015682.15"
+        },
+        {
+            "reference_date": "2017-02-01",
+            "reference_text": [
+                {
+                    "value": "신생아일 때 엄마들이 직접 아기를 안고 차량에 탑승하는 경우가 많다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아직 스스로 목을 가눌 수 없어 좌석에 앉히는 것보다 안전하다고 여기기 때문인데, 교통사고 발생 시 엄마 품에 있던 아이가 튕겨 나가거나 강한 충격에 노출될 수 있어 오히려 더 위험하다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지난해 카시트 미착용 시 범칙금을 기존 3만 원에서 6만 원으로 인상하고 카시트 장착을 의무화하는 법이 개정됐다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이제는 카시트 착용이 선택이 아닌 필수가 된 것.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=44698",
+            "search_query": "아기 카시트",
+            "terminate": false,
+            "text": "신생아는 목을 스스로 가누지 못해서 좌석에 앉히는 것보다 엄마가 아기를 안고 차를 타는 것이 더 안전하다고 생각하는데, 혹시 교통사고가 나면 아기가 튕겨 나가거나 강한 충격을 받을 수 있어서 더 위험해. 그리고, 카시트 장착을 의무화하는 법이 개정되었고, 카시트 미착용 시 범칙금도 3만원에서 6만원으로 조정되었어. 아기에게 카시트는 이제 필수품이야.",
+            "turn_id": "BK22015682-8",
+            "utterance_id": "BK22015682.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어른이 아기를 안고 타는 것이 더 위험하구나. 출산 용품에 대해 자세히 알려줘서 고마워.",
+            "turn_id": "BK22015682-9",
+            "utterance_id": "BK22015682.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "준비하다가 궁금한 건 또 물어봐.",
+            "turn_id": "BK22015682-9",
+            "utterance_id": "BK22015682.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 우리는 다음에 보자.",
+            "turn_id": "BK22015682-10",
+            "utterance_id": "BK22015682.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "출산 준비 잘하고, 다음에 보자, 안녕.",
+            "turn_id": "BK22015682-10",
+            "utterance_id": "BK22015682.20"
+        }
+    ]
+}

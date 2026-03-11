@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.5,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015850",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015850",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요새 저희 집 고양이가 다음다뇨에 밥을 잘 안 먹어요. 고령이긴 하지만 사실 특별히 스트레스받을 만한 일도 없었고 건강했었거든요. 일단 내일 동물병원에 데려가 보려고 하는 데 무슨 문제가 있는 걸까요?",
+            "turn_id": "BK22015850-1",
+            "utterance_id": "BK22015850.1"
+        },
+        {
+            "reference_date": "2022-08-28",
+            "reference_text": [
+                {
+                    "value": "만성신부전은 나이 든 강아지와 고양이에서 발병률이 가장 높은 질병 중 하나인데 이 질병은 사실 나이가 어릴 때부터 시작된다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 오랜 시간 축적되면서 증상이 발생하기 때문에 강아지나 고양이가 노령이 돼고 나서야 비로소 병이 존재했음을 알게 된다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60873",
+            "search_query": "만성신부전",
+            "terminate": false,
+            "text": "만성신부전일 가능성이 있네요. 만성신부전은 고령의 고양이에게서 발병률이 제일 높은 질병 중 하나인데 이 질병은 원래는 나이가 어릴 때부터 시작돼요. 하지만 오랜 시간이 지나야 증상이 발현되기 때문에 고양이가 나이가 들고 나서야 그제야 병이 있었음을 알게 되죠.",
+            "turn_id": "BK22015850-1",
+            "utterance_id": "BK22015850.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "모르는 사이에 질병이 계속 진행되고 있었던 거군요. 그런데 만성신부전의 원인은 뭔가요?",
+            "turn_id": "BK22015850-2",
+            "utterance_id": "BK22015850.3"
+        },
+        {
+            "reference_date": "2022-08-28",
+            "reference_text": [
+                {
+                    "value": "페르시아고양이 같은 품종에서는 유전적 장애에 의해 발생하기도 하고 감염이나 면역질환, 독성물질에 의해 발생하기도 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 대부분 이러한 원인보다는 특발성, 즉 특별한 원인을 찾기 어려운 경우가 더 많다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60873",
+            "search_query": "만성신부전 원인",
+            "terminate": false,
+            "text": "페르시아고양이 같은 특정 품종에서는 유전적 장애에 의해 생기기도 하고 감염이나 면역질환, 독성물질에 의해 발생하기도 해요. 하지만 대부분 언급했던 원인보다는 특발성인 경우가 더 많아요.",
+            "turn_id": "BK22015850-2",
+            "utterance_id": "BK22015850.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "만성신부전이 대부분 특발성이라고 하셨는데, 그러면 선천적으로 신장이 약한 경우 만성신부전이 발생할 가능성이 높지 않나요?",
+            "turn_id": "BK22015850-3",
+            "utterance_id": "BK22015850.5"
+        },
+        {
+            "reference_date": "2022-08-28",
+            "reference_text": [
+                {
+                    "value": "선천적으로 튼튼한 신장을 타고난 강아지나 고양이는 남들보다 더 오랫동안 신장기능을 유지한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 약한 신장을 타고난 강아지나 고양이는 신장이 더 빨리 고장 나기도 하며 튼튼한 신장을 타고났어도 일을 더 많이 하는 바람에 신장이 일찍 고장 나기도 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60873",
+            "search_query": "고양이 신장",
+            "terminate": false,
+            "text": "맞아요. 생득적으로 건강한 신장을 타고난 고양이는 다른 고양이들보다 더 오래 신장 기능을 유지해요. 하지만 약한 신장을 타고난 고양이는 신장이 더 빨리 망가지기도 하죠. 또 건강한 신장을 가지고 태어났어도 신장이 일을 더 많이 하는 경우라면 신장이 빠르게 망가지기도 해요.",
+            "turn_id": "BK22015850-3",
+            "utterance_id": "BK22015850.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신장이 일을 많이 하는 경우에 신장이 빠르게 망가진다고 하셨는데 그럼 어떤 경우에 신장이 일을 많이 하게 되나요?",
+            "turn_id": "BK22015850-4",
+            "utterance_id": "BK22015850.7"
+        },
+        {
+            "reference_date": "2022-08-28",
+            "reference_text": [
+                {
+                    "value": "신장의 기능은 대사산물을 배출하는 것이라고 했다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "즉 먹는 음식을 소화한 후 대사과정을 거치고 배출하는 일을 하는데 특히 고단백질 음식이나 염분이 높은 음식을 배출할 때 더 많이 일한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고단백질이나 염분이 높은 음식은 신장에 부담을 가중하는 셈이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 단기간에는 문제되지 않지만 장기간 진행되면 신장이 원래 수명보다 좀 더 일찍 고장 나는 원인이 된다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60873",
+            "search_query": "고양이 신장 고장 원인",
+            "terminate": false,
+            "text": "신장이 하는 일은 대사산물을 배출하는 것이에요. 즉 먹는 음식을 소화한 후 대사 과정을 거쳐서 배출하는 일을 하는데 특히 고단백질 음식, 염분이 많은 음식을 배출할 때 더 많이 일하게 되죠. 즉 고단백질이나 염분이 많은 음식이 신장에 부담을 더 주게 되는 거죠. 이는 단기간에는 이상이 없지만 장기간 계속되면 신장이 본래 수명보다 조금 더 일찍 망가지는 원인이 돼요.",
+            "turn_id": "BK22015850-4",
+            "utterance_id": "BK22015850.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이에게 고단백과 염분이 많은 음식을 주는 것을 자제해야겠네요. 그런데 만성신부전이 발생하면 어떤 증상을 보이나요?",
+            "turn_id": "BK22015850-5",
+            "utterance_id": "BK22015850.9"
+        },
+        {
+            "reference_date": "2022-07-21",
+            "reference_text": [
+                {
+                    "value": "증상으로는 ▲다음 ▲다뇨 ▲식욕감퇴 ▲무기력 ▲구토 ▲설사 ▲변비 등이 나타날 수 있는데 질환이 상당히 진행되고 나서야 이런 증상들이 나타난다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60288",
+            "search_query": "만성신부전 증상",
+            "terminate": false,
+            "text": "증상으로는 다음, 다뇨, 식욕감퇴, 무기력, 구토, 설사, 변비 등의 증상을 보일 수 있어요.",
+            "turn_id": "BK22015850-5",
+            "utterance_id": "BK22015850.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 만약 만성신부전으로 진단받으면 어떻게 치료하게 되나요?",
+            "turn_id": "BK22015850-6",
+            "utterance_id": "BK22015850.11"
+        },
+        {
+            "reference_date": "2022-07-21",
+            "reference_text": [
+                {
+                    "value": "문제는 한번 손상된 신장은 다시 이전으로 되돌릴 수 없다는 것이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만성신부전의 치료는 신장기능을 이전처럼 회복하기보다 진행을 억제해 신장기능이 망가지는 속도를 늦추는 것에 초점을 맞춘다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60288",
+            "search_query": "만성신부전 치료",
+            "terminate": false,
+            "text": "신장은 일단 한 번 손상되면 다시 예전으로 되돌릴 수 없어요. 그래서 만성신부전의 치료는 신장 기능을 예전으로 회복하기보다 진행을 막아 신장 기능이 고장나는 속도를 늦추는 것에 중심을 둬요.",
+            "turn_id": "BK22015850-6",
+            "utterance_id": "BK22015850.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 신장은 일단 망가지면 되돌릴 수 없군요. 그러면 구체적으로 어떤 종류의 치료를 받게 되나요?",
+            "turn_id": "BK22015850-7",
+            "utterance_id": "BK22015850.13"
+        },
+        {
+            "reference_date": "2020-09-11",
+            "reference_text": [
+                {
+                    "value": "신장수치를 정상화하기 위해 수액을 놓아주고 만약 수액 치료가 효과가 없다면 혈액 투석이 진행될 수 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 만성신부전과 함께 나타나는 합병증이나 소화기 증상 등은 약물을 투약해 치료하게 된다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=50170",
+            "search_query": "만성신부전 치료",
+            "terminate": false,
+            "text": "신장 수치를 정상화하기 위해 수액을 맞게 하고 만약 수액 치료에 반응이 없다면 혈액 투석을 받게 될 수 있어요. 또한 만성신부전과 동시에 발생하는 합병증이나 소화기 증상 등은 약물을 통해 치료해요.",
+            "turn_id": "BK22015850-7",
+            "utterance_id": "BK22015850.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 치료를 받게 되는군요. 그런데 만성신부전을 조기에 확인할 수 있는 방법은 없을까요?",
+            "turn_id": "BK22015850-8",
+            "utterance_id": "BK22015850.15"
+        },
+        {
+            "reference_date": "2022-07-21",
+            "reference_text": [
+                {
+                    "value": "SDMA검사는 혈액 속 SDMA수치를 확인하는 검사로, 신장이 25~40% 정도만 손상돼도 수치가 증가해 더욱 빠르게 질환을 발견할 수 있어 조기진단에 용이하다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60288",
+            "search_query": "SDMA검사",
+            "terminate": false,
+            "text": "SDMA검사를 통해 가능해요. SDMA검사는 혈액 속 SDMA수치를 체크하는 검사로, 신장이 25~40% 정도만 망가져도 수치가 올라가기 때문에 조기에 빠르게 질환을 발견할 수 있죠.",
+            "turn_id": "BK22015850-8",
+            "utterance_id": "BK22015850.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "만성신부전을 막기 위해서 노령묘라면 SDMA검사를 주기적으로 받아야겠네요.",
+            "turn_id": "BK22015850-9",
+            "utterance_id": "BK22015850.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 그래야 고양이와 오랫동안 건강하게 지낼 수 있을 테니까요.",
+            "turn_id": "BK22015850-9",
+            "utterance_id": "BK22015850.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 유용한 정보 알려주셔서 감사했어요. 저는 이만 들어가 볼게요.",
+            "turn_id": "BK22015850-10",
+            "utterance_id": "BK22015850.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 그럼 조심히 들어가세요.",
+            "turn_id": "BK22015850-10",
+            "utterance_id": "BK22015850.20"
+        }
+    ]
+}

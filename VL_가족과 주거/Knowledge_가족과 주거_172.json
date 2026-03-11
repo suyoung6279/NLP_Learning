@@ -1,0 +1,403 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018454",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018454",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0004"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나 이번에 일본으로 워킹홀리데이를 가게 됐는데 집을 구하는 게 문제야. 만화 같은 걸 보면 단독주택 같은 집에 살잖아. 일본에는 단독주택밖에 없는 걸까?",
+            "turn_id": "BK22018454-1",
+            "utterance_id": "BK22018454.1"
+        },
+        {
+            "reference_date": "44439.0",
+            "reference_text": [
+                {
+                    "value": "일본의 주거 형태는 주로 세 가지로 구분된다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "첫 번째는 일본인이 가장 선호하는 단독주택, 두 번째는 한국의 아파트에 해당하는 맨션, 마지막으로 아파트이다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.opinionnews.co.kr/news/articleView.html?idxno=54570",
+            "search_query": "일본 주택",
+            "terminate": false,
+            "text": "워킹 홀리데이에 합격하셨다니, 축하드려요. 일본의 주거 형태는 주로 세 가지로 구분돼요. 하나는 일본인이 가장 선호하는 단독주택, 하나는 한국의 아파트에 해당하는 맨션, 또 하나는 아파트예요.",
+            "turn_id": "BK22018454-1",
+            "utterance_id": "BK22018454.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일본에서는 한국의 아파트 같은 걸 맨션이라고 하고 아파트는 다른 거구나. 둘이 무슨 차이인 거야?",
+            "turn_id": "BK22018454-2",
+            "utterance_id": "BK22018454.3"
+        },
+        {
+            "reference_date": "42739.0",
+            "reference_text": [
+                {
+                    "value": "일본 사람들은 아파트를 저층의 저렴한 공동주택으로 생각한다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "건물은 대부분 2층을 넘기지 않고 목재 등 비교적 저렴한 건축 자재를 이용해 조립식으로 짓는다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "조립기술 한계로 고층으로 짓지 못해 엘리베이터나 자동문은 찾아볼 수 없다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한국의 흔하디 흔한 고층 아파트가 일본의 맨션이다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "일본인들조차 엘리베이터가 있고 없고에 따라 아파트와 맨션을 구분하기도 한다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatoday.co.kr/view.php?key=20170104010002872",
+            "search_query": "일본 맨션 아파트",
+            "terminate": false,
+            "text": "일본에서 아파트라고 하면 저층의 저렴한 공동주택의 이미지예요. 건물은 대개 2층을 넘기지 않고 목재 같은 비교적 값이 싼 건축 자재를 이용해 조립식으로 짓죠. 조립식이라 고층으로 짓는 것이 어려워 엘리베이터나 자동문은 보기 힘들어요. 한국의 고층 아파트는 일본에서 맨션이라고 하는데, 일본 사람들은 엘리베이터의 유무로 아파트와 맨션을 구분하기도 해요.",
+            "turn_id": "BK22018454-2",
+            "utterance_id": "BK22018454.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라와 이미지가 아예 반대구나. 일본에도 우리나라처럼 전세 개념이 있나? 보증금을 내야 한다거나.",
+            "turn_id": "BK22018454-3",
+            "utterance_id": "BK22018454.5"
+        },
+        {
+            "reference_date": "44519.0",
+            "reference_text": [
+                {
+                    "value": "한국은 주택 형태로 자가와 전세, 월세가 있지만 일본은 전세가 없고 자가와 월세뿐이다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "월세인데도 우리나라와 사뭇 다른 구조다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "일본에서 월세로 들어가려면 ‘시키킨(敷金, 보증금, しききん)’과 ‘레이킨(礼金, 사례금, れいきん)’이라는 것을 내게 된다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://skyedaily.com/news/news_view.html?ID=145691",
+            "search_query": "일본 집 전세",
+            "terminate": false,
+            "text": "일본의 주거 형태는 전세가 없고 자가와 월세뿐이에요. 하지만 그 월세도 우리나라의 월세와는 좀 달라요. 일본에서 월세로 방을 구하려면 보증금을 의미하는 시키킨과 사례금을 의미하는 레이킨을 내야 하거든요.",
+            "turn_id": "BK22018454-3",
+            "utterance_id": "BK22018454.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "보증금 말고도 사례금을 내야 한다고? 그게 무슨 말이야?",
+            "turn_id": "BK22018454-4",
+            "utterance_id": "BK22018454.7"
+        },
+        {
+            "reference_date": "44626.0",
+            "reference_text": [
+                {
+                    "value": "처음 계약을 맺을 때 임차인이 '집을 빌려 주셔서 감사합니다'라는 의미로 월세의 1~2개월치를 낸다.",
+                    "value_time": "44844.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "레이킨(礼金)이라고 한다.",
+                    "value_time": "44844.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "레이킨은 계약기간이 끝나도 돌려주지 않아도 되는 집주인의 돈이다.",
+                    "value_time": "44844.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/international/article/202203066663i",
+            "search_query": "일본 월세 레이킨",
+            "terminate": false,
+            "text": "처음 월세로 집을 구해 계약을 맺을 때 임차인이 집을 빌려주셔서 감사하다는 의미로 월세의 1~2개월 치의 돈을 사례금으로 지불하는데 이게 레이킨이에요. 이 레이킨은 계약기간이 만료되고 나서도 돌려줄 필요가 없는 집주인의 돈이죠.",
+            "turn_id": "BK22018454-4",
+            "utterance_id": "BK22018454.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신기한 문화네. 그럼 보증금은 얼마나 내야 해? 한국은 보증금이 비쌀수록 월세가 싸지거나 하는데 일본도 그래?",
+            "turn_id": "BK22018454-5",
+            "utterance_id": "BK22018454.9"
+        },
+        {
+            "reference_date": "44519.0",
+            "reference_text": [
+                {
+                    "value": "시키킨은 우리나라의 ‘보증금’과 같은 개념이다.",
+                    "value_time": "44844.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "보통 집세 혹은 월세(家賃, やちん, 집세 월세 모두 야찡이라고 말한다) 2개월치를 낸다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://skyedaily.com/news/news_view.html?ID=145691",
+            "search_query": "일본 보증금 얼마",
+            "terminate": false,
+            "text": "우리나라 보증금 개념을 일본에서는 시키킨이라고 해요. 일본에서는 월세를 야찡이라고 하는데 보통 이 월세의 2개월 치를 보증금으로 지불해요.",
+            "turn_id": "BK22018454-5",
+            "utterance_id": "BK22018454.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "보증금도 사례금처럼 월세의 1~2개월 치를 내는구나. 지진은 어때? 일본은 지진이 많으니까 집들도 내진설계가 되어 있나?",
+            "turn_id": "BK22018454-6",
+            "utterance_id": "BK22018454.11"
+        },
+        {
+            "reference_date": "43054.0",
+            "reference_text": [
+                {
+                    "value": "1981년을 기준으로 ‘구 내진’과 ‘새 내진’으로 구분된다.",
+                    "value_time": "44848.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "새 내진법은 건물이 지진에 버텨야 하는 기준을 기존 규모 5에서 규모 6 이상으로 강화했다.",
+                    "value_time": "44848.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "건물 붕괴 방어뿐만 아니라 내부에 있는 인간의 안전성도 중시해야 한다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.g-enews.com/ko-kr/news/article/news_all/201711151841041350304e01dee9_1/article.html?md=20171115185512_U",
+            "search_query": "일본 내진설계 기준",
+            "terminate": false,
+            "text": "일본은 1981년을 기점으로 내진설계가 구 내진과 새 내진으로 구분돼요. 새 내진법은 기존 규모 5에서 규모 6 이상의 지진을 버틸 수 있도록 강화했어요. 건물이 붕괴하는 것을 막는 것뿐만 아니라 안에 있는 사람들의 안전도 중시해서 지어져요.",
+            "turn_id": "BK22018454-6",
+            "utterance_id": "BK22018454.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지진으로 건물이 무너질까 하는 걱정은 안 해도 되겠네. 그럼 보증금만 내면 외국인도 쉽게 방을 구할 수 있는 거야?",
+            "turn_id": "BK22018454-7",
+            "utterance_id": "BK22018454.13"
+        },
+        {
+            "reference_date": "44501.0",
+            "reference_text": [
+                {
+                    "value": "일본의 경우, 1995년부터 월세보증시스템이 시작됐다.",
+                    "value_time": "44844.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "보증회사의 심사를 통과하면 외국인도 방을 구할 수 있는 시스템이 구축되어 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.viva100.com/main/view.php?key=20211031010007912",
+            "search_query": "일본 집 외국인 보증",
+            "terminate": false,
+            "text": "그건 아니에요. 일본은 1995년부터 월세 보증시스템이 시작됐는데, 외국인이라면 보증회사의 심사를 통과한 경우에 방을 구할 수 있어요.",
+            "turn_id": "BK22018454-7",
+            "utterance_id": "BK22018454.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 보증회사라는 게 있구나. 약간 복잡하긴 하지만 집을 아예 못 구하는 건 아니라 다행이다.",
+            "turn_id": "BK22018454-8",
+            "utterance_id": "BK22018454.15"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "심사를 통과해야 한다는 조건이 있지만 너무 걱정하지 마세요.",
+            "turn_id": "BK22018454-8",
+            "utterance_id": "BK22018454.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그리고 방을 좀 알아보다가 들은 건데 일본은 집 구조를 가리킬 때 LDK라는 용어를 사용하던데, 그게 무슨 뜻이야?",
+            "turn_id": "BK22018454-9",
+            "utterance_id": "BK22018454.17"
+        },
+        {
+            "reference_date": "44625.0",
+            "reference_text": [
+                {
+                    "value": "일본에서 부동산을 고를 때는 '1LDK', '2LDK'와 같은 용어부터 배우는게 기본이다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "앞의 숫자는 방의 갯수, 'L'은 거실(Living), 'D'는 다이닝룸(Dining Room), 'K'는 주방(Kichen)을 나타낸다.",
+                    "value_time": "44844.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/realestate/article/202203055751i",
+            "search_query": "일본 부동산 LDK",
+            "terminate": false,
+            "text": "일본에서 집을 고를 때에는 1LDK나 2LDK 등의 용어를 알아두는 편이 좋아요. 앞에 붙는 숫자는 방의 개수를 의미해요. L은 거실, D는 다이닝룸, K는 주방을 나타내는 말이에요.",
+            "turn_id": "BK22018454-9",
+            "utterance_id": "BK22018454.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 1LDK는 방이 하나에 거실과 다이닝룸, 주방이 있는 집이라는 뜻이구나.",
+            "turn_id": "BK22018454-10",
+            "utterance_id": "BK22018454.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 그 외에도 일본 사람들은 화장실과 욕조가 따로 있는 집을 선호하기 때문에 화장실과 욕조가 같이 있는 집이 더 저렴해요.",
+            "turn_id": "BK22018454-10",
+            "utterance_id": "BK22018454.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 우리나라랑 다른 점이 많구나. 알려준 부분 참고해서 적당한 집 구해보도록 할게.",
+            "turn_id": "BK22018454-11",
+            "utterance_id": "BK22018454.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 좋은 집 구하시고 워킹홀리데이 안전하고 즐겁게 다녀오세요!",
+            "turn_id": "BK22018454-11",
+            "utterance_id": "BK22018454.22"
+        }
+    ]
+}

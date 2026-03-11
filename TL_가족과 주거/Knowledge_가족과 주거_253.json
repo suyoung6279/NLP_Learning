@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014938",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014938",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아내가 임신했어요. 지금 5주차라는데, 너무 신기하고 기분이 이상해요.",
+            "turn_id": "BK22014938-1",
+            "utterance_id": "BK22014938.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 아내 분 임신을 정말 축하드려요.",
+            "turn_id": "BK22014938-1",
+            "utterance_id": "BK22014938.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "감사해요. 그런데 임신 5주면 아기의 크기는 얼마나 될까요?",
+            "turn_id": "BK22014938-2",
+            "utterance_id": "BK22014938.3"
+        },
+        {
+            "reference_date": "2015-09-02",
+            "reference_text": [
+                {
+                    "value": "▶ 임신 5주 태아 크기는?",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": " 크기: 태아는 약 1.25mm 정도의 크기며, 작은 올챙이 같은 모습을 하고 있어요.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107567",
+            "search_query": "임신 5주 태아 크기",
+            "terminate": false,
+            "text": "임신 5주면 태아의 크기는 약 1.25mm 정도이며, 작은 올챙이 같은 모양이에요.",
+            "turn_id": "BK22014938-2",
+            "utterance_id": "BK22014938.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그래요? 정말 볼수록 신기하네요. 그럼 아기 얼굴에 눈 코 입은 생겼을까요?",
+            "turn_id": "BK22014938-3",
+            "utterance_id": "BK22014938.5"
+        },
+        {
+            "reference_date": "2015-09-02",
+            "reference_text": [
+                {
+                    "value": " 특징: 눈과 귀의 초기 형태가 나타나고 간장과 신장, 뼈와 근육이 발달하기 시작합니다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "태반은 탯줄을 통해서 태아에게 영양분과 산소를 공급하고 있답니다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107567",
+            "search_query": "임신 5주 특징",
+            "terminate": false,
+            "text": "네, 눈과 귀의 초기 형태가 나타나는 시기에요. 또, 간장과 신장, 뼈와 근육이 발달하고 탯줄을 통해 태아는 영양분과 산소를 받고 있어요.",
+            "turn_id": "BK22014938-3",
+            "utterance_id": "BK22014938.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 그리고 요즘 아내가 많이 피곤해해요. 임신 5주면 어떤 증상들이 있나요?",
+            "turn_id": "BK22014938-4",
+            "utterance_id": "BK22014938.7"
+        },
+        {
+            "reference_date": "2015-09-02",
+            "reference_text": [
+                {
+                    "value": "입덧 증세와 함께 온몸이 나른해지고 졸리고 쉽게 피로해질 수 있어요.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "유방이 예민해지고 소변이 잦아지기 시작한답니다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107567",
+            "search_query": "임신 5주 입덧 증세",
+            "terminate": false,
+            "text": "입덧과 함께 온몸이 나른하며 쉽게 피곤해질 수 있어요. 또 유방이 예민해지고 소변이 자주 마렵기 시작할 거예요.",
+            "turn_id": "BK22014938-4",
+            "utterance_id": "BK22014938.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 많이 피곤할 수 있군요. 임신 초기에는 유산의 위험도 크다고 하는데, 어떤 점을 조심해야 할까요?",
+            "turn_id": "BK22014938-5",
+            "utterance_id": "BK22014938.9"
+        },
+        {
+            "reference_date": "2015-09-02",
+            "reference_text": [
+                {
+                    "value": "임신 초기에는 유산 위험이 큰 시기이므로 무거운 것을 들거나 오래 서 있는 등 몸에 무리가 가는 행동을 삼가세요.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107567",
+            "search_query": "임신 5주 유산 위험",
+            "terminate": false,
+            "text": "임신 초기에는 쉽게 유산이 될 수 있어요. 그렇기 때문에 무거운 물건을 들거나 오래 서 있는 등 몸에 무리가 가는 행동은 피하는 게 좋아요.",
+            "turn_id": "BK22014938-5",
+            "utterance_id": "BK22014938.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 무리가 가지 않도록 제가 옆에서 도와야겠어요. 또, 이제 영양제를 먹어야 한다고 하던데, 어떤 걸 먹으면 좋을까요?",
+            "turn_id": "BK22014938-6",
+            "utterance_id": "BK22014938.11"
+        },
+        {
+            "reference_date": "2015-09-02",
+            "reference_text": [
+                {
+                    "value": "임신부의 빈혈을 예방하고 식욕 증진과 진통작용이 있는 '엽산'과 임신부의 몸 상태를 좋게 하는 '아연', 입덧을 완화하고 태아의 신경과 뇌 발달에 중요한 비타민 B6, B12 등을 섭취하세요.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107567",
+            "search_query": "임신 5주 엽산 아연",
+            "terminate": false,
+            "text": "임산부에겐 엽산과 아연, 비타민 B6과 비타민 B12가 좋아요. 엽산은 빈혈을 예방하고 식욕 증진과 진통작용이 있고, 아연은 임산부의 몸상태를 좋게 해요. 또 비타민 B6과 비타민 B12는 입덧을 줄여주고 태아의 신경과 뇌 발달에 중요한 영향을 주죠.",
+            "turn_id": "BK22014938-6",
+            "utterance_id": "BK22014938.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 아내에게 꼭 챙겨 줘야겠어요. 그럼 그런 영양소들을 섭취하려면 어떤 음식을 먹으면 될까요?",
+            "turn_id": "BK22014938-7",
+            "utterance_id": "BK22014938.13"
+        },
+        {
+            "reference_date": "2015-09-02",
+            "reference_text": [
+                {
+                    "value": "엽산 등의 비타민 B 복합체가 많은 식품은 달걀노른자, 닭고기, 견과류, 단호박, 녹황색 채소, 키위, 오렌지 주스 등이 있으며, 아연이 많은 식품은 굴, 모시조개, 대합, 청어 등의 어패류와 달걀, 현미 등이 있어요.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107567",
+            "search_query": "임신 5주 엽산 아연",
+            "terminate": false,
+            "text": "먼저 달걀노른자나, 닭고기, 견과류, 단호박, 녹황색 채소, 키위, 오렌지 주스 등에는 엽산 등의 비타민 B복합체가 많고, 굴이나 모시조개, 대합, 청어 등의 어패류와 달걀, 현미 등에는 아연이 많이 들어있어요.",
+            "turn_id": "BK22014938-7",
+            "utterance_id": "BK22014938.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "감사해요, 잘 적어 놓았다가 임산부에게 좋은 음식으로 잘 챙겨줘야겠어요. 참, 그리고 임신하면 원래 살이 많이 찌는 건데 아내가 그것 때문에 많이 걱정하고 잘 안 먹으려고 해요. 임신 중에 음식 조절하는 게 괜찮은 건가요?",
+            "turn_id": "BK22014938-8",
+            "utterance_id": "BK22014938.15"
+        },
+        {
+            "reference_date": "2015-09-02",
+            "reference_text": [
+                {
+                    "value": "A. 임신 전과 비교했을 때 추가로 필요한 칼로리는 삼각김밥 1개 정도인 150~350kcal로, 여분의 영양분이 필요한 시기가 아니에요.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "입덧이 없는 경우 너무 고열량 음식을 먹지 않도록 주의하세요.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107567",
+            "search_query": "임신 5주 추가로 필요한 칼로리",
+            "terminate": false,
+            "text": "네, 임신 후 추가로 더 필요한 칼로리는 삼각 김밥 1개 정도인 150에서 350칼로리에요. 크게 영양분이 필요한 시기가 아니기 때문에 입덧이 없다고 해서 너무 고열량 음식을 많이 먹는 건 좋지 않아요.",
+            "turn_id": "BK22014938-8",
+            "utterance_id": "BK22014938.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 그 외에 제가 더 알아야 할 것들이 더 있을까요?",
+            "turn_id": "BK22014938-9",
+            "utterance_id": "BK22014938.17"
+        },
+        {
+            "reference_date": "2015-09-02",
+            "reference_text": [
+                {
+                    "value": "극심한 스트레스는 유산을 유발할 수 있고, 입덧은 정신적인 것에 영향을 받기 때문에 스트레스 관리가 중요해요.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "스트레스를 해소하기 위해 가벼운 산책, 영화감상, 수다 등을 통해 기분을 전환해 보세요!",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107567",
+            "search_query": "임신 5주 스트레스 유산",
+            "terminate": false,
+            "text": "스트레스를 많이 받으면 유산이 될 수도 있고 특히 입덧은 스트레스와 밀접한 관계가 있기 때문에 스트레스를 해소하는 게 중요해요. 스트레스 해소를 위해 아내분과 같이 가벼운 산책을 하거나 영화 감상, 함께 수다를 떨며 기분전환을 해주는 것도 좋아요.",
+            "turn_id": "BK22014938-9",
+            "utterance_id": "BK22014938.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 저희에게 첫 아이라 궁금한 점이 정말 많았었는데, 오늘 좋은 정보 많이 알려주셔서 너무 감사해요. 많은 도움이 되었어요.",
+            "turn_id": "BK22014938-10",
+            "utterance_id": "BK22014938.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 다행이네요. 또 궁금한 점 있으면 언제든지 물어보세요.",
+            "turn_id": "BK22014938-10",
+            "utterance_id": "BK22014938.20"
+        }
+    ]
+}

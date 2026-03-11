@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011819",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011819",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "보건소 근처를 지나가다 세계 이른둥이의 날 플래카드를 봤어요. 이른둥이의 날에 관해 설명해 주실 수 있나요?",
+            "turn_id": "BK22011819-1",
+            "utterance_id": "BK22011819.1"
+        },
+        {
+            "reference_date": "2021-11-22",
+            "reference_text": [
+                {
+                    "value": "세계이른둥이의 날은 신생아를 보살피기 위한 유럽재단(EFCNI), 미국 신생아를 위한 단체(March of Dimes), 리틀빅소울스 국제재단(Little Big Souls International Foundation), 호주 조산아 재단(National Preemie Foundation)등이 조산을 공공 보건문제로 인식하기 위해 제정한 기념일입니다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=100253",
+            "search_query": "세계이른둥이의 날",
+            "terminate": false,
+            "text": "세계 이른둥이의 날은 예정일보다 아기를 빨리 낳는 것을 공공 보건 문제로 인식하기 위해 제정한 기념일이에요. 신생아를 보살피기 위한 유럽재단, 미국 신생아를 위한 단체, 리틀빅소울스 국제재단, 호주 조산아 재단 등이 함께 만들었죠.",
+            "turn_id": "BK22011819-1",
+            "utterance_id": "BK22011819.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그런데 이른둥이라는 말이 약간 낯설어서요. 이른둥이는 미숙아를 말하는 건가요?",
+            "turn_id": "BK22011819-2",
+            "utterance_id": "BK22011819.3"
+        },
+        {
+            "reference_date": "2022-07-08",
+            "reference_text": [
+                {
+                    "value": "출생 시 몸무게가 2.5kg 미만인 경우 ‘저체중 출생아’, 재태기간 37주 미만에 출생하는 아기는 ‘미숙아’라 부르는데, 국내에서는 이들을 한글 새 이름인 ‘이른둥이’라 한다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20220708000239",
+            "search_query": "이른둥이",
+            "terminate": false,
+            "text": "맞아요, 임신 후 37주 이내에 태어나는 아기를 미숙아라고 하죠? 미숙아를 우리나라에서는 한글로 새 이름을 지어 이른둥이라고 해요.",
+            "turn_id": "BK22011819-2",
+            "utterance_id": "BK22011819.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그런데 우리나라 이른둥이의 비율은 어느 정도인가요?",
+            "turn_id": "BK22011819-3",
+            "utterance_id": "BK22011819.5"
+        },
+        {
+            "reference_date": "2022-07-08",
+            "reference_text": [
+                {
+                    "value": "한편 통계청에 따르면 2020년 출생아 수는 27만2300명으로 2010년 47만200명 대비 19만7900명 감소한 반면 이른둥이 비중은 매년 증가하고 있다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2020년 37주 미만 출생아의 비중은 8.5%로 2010년(5.8%) 대비 2.7%p, 저체중 출생아의 비중은 6.8%로 2010년(4.9%) 대비 1.9%p 높아졌다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4736213",
+            "search_query": "이른둥이 비율",
+            "terminate": false,
+            "text": "통계청 자료를 보면 출생아 수 대비 이른둥이의 비율은 매년 증가하고 있어요. 2020년 출생아 수는 27만 2300명으로 2010년 47만 200명에 비해 19만 7900명이 감소한 것에 달리 2020년 37주 미만 출생아의 비율은 8.5%로 2010년 5.8%에 비해 2.7%p 증가했으니까요.",
+            "turn_id": "BK22011819-3",
+            "utterance_id": "BK22011819.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "태어나는 아기들은 줄고 있는데 이른둥이는 늘어나고 있는 거군요. 이른둥이가 증가하는 원인은 무엇일까요?",
+            "turn_id": "BK22011819-4",
+            "utterance_id": "BK22011819.7"
+        },
+        {
+            "reference_date": "2019-08-16",
+            "reference_text": [
+                {
+                    "value": "이처럼 이른둥이 비중이 빠르게 증가하는 주요 원인으로 전문가들은 결혼 연령이 높아지는데 따른 산모의 노령화와 불임인구의 증가로 인공임신술이 증가해 조산이나 쌍둥이 출산 가능성이 커진 것이 주요 원인으로 지목하고 있다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sentv.co.kr/news/view/559035",
+            "search_query": "이른둥이 증가 원인",
+            "terminate": false,
+            "text": "이른둥이가 증가하는 대표적 원인을 인공임신술의 증가로 인한 조산, 쌍둥이 출산 가능성이 커진 것으로 지목하고 있어요. 결혼 연령이 높아져서, 나이가 있는 산모가 증가하고 불임 인구가 증가하게 되므로, 인공임신술을 많이 사용하고 있거든요.",
+            "turn_id": "BK22011819-4",
+            "utterance_id": "BK22011819.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 아무래도 일반 출생아들에 비해 일찍 태어난 이른둥이의 발달이 늦지는 않을지 염려스러운데요. 이른둥이의 발달은 어떻게 진행되나요?",
+            "turn_id": "BK22011819-5",
+            "utterance_id": "BK22011819.9"
+        },
+        {
+            "reference_date": "2020-10-30",
+            "reference_text": [
+                {
+                    "value": "이른둥이는 발달 지연 및 인지 기능 저하, 주의력 결핍, 자폐 등의 행동 문제가 발생할 위험이 많으며, 적절한 따라잡기 성장을 하지 못할 경우 최종 키나 몸무게가 또래에 비해 작을 가능성이 높다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.medipana.com/article/view.php?news_idx=265152&sch_menu=1&sch_gubun=5",
+            "search_query": "이른둥이 발달",
+            "terminate": false,
+            "text": "아무래도 이른둥이는 발달이 지연되거나 인지 기능의 저하, 주의력 결핍, 자폐 등의 문제가 있을 확률이 높아요. 또 시기에 맞게 성장이 따라가지 못한다면 키나 몸무게가 친구들에 비해 작을 가능성도 높고요.",
+            "turn_id": "BK22011819-5",
+            "utterance_id": "BK22011819.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무래도 그렇겠어요. 그럼 이른둥이의 발달이 잘 진행되고 있는지 상태를 확인하려면 어떻게 해야 하나요?",
+            "turn_id": "BK22011819-6",
+            "utterance_id": "BK22011819.11"
+        },
+        {
+            "reference_date": "2014-11-26",
+            "reference_text": [
+                {
+                    "value": "이른둥이는 생후 1년 동안 실제 나이가 아닌 교정 연령에 따라 성장한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수유, 신체 발달, 팔다리 운동 같은 큰 근육 운동 등이 교정 연령에 따라 달라진다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "시선 마주하기, 미소 짓기 같은 사회적 발육이나 언어 발달도 교정 연령에 따라 좌우된다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20141125/68150990/1",
+            "search_query": "이른둥이 발달",
+            "terminate": false,
+            "text": "그것은 이른둥이의 교정 연령으로 알 수 있어요. 이른둥이는 태어난 후 1년간은 실제 나이가 아닌 교정 연령에 따라 성장하기 때문에, 수유를 하거나 몸의 발달, 팔다리 운동 같은 큰 근육을 사용한 운동 등은 교정 연령에 따라 달라지거든요. 시선을 마주하거나 미소를 짓는 등의 사회적 발육 상태나 언어 발달 또한 교정 연령의 영향을 받아요.",
+            "turn_id": "BK22011819-6",
+            "utterance_id": "BK22011819.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 교정 연령이란 게 있군요. 이른둥이의 교정 연령은 어떻게 확인하나요?",
+            "turn_id": "BK22011819-7",
+            "utterance_id": "BK22011819.13"
+        },
+        {
+            "reference_date": "2014-11-26",
+            "reference_text": [
+                {
+                    "value": "교정 연령이란 실제 아이가 태어난 연령에서 조산한 개월 수를 뺀 연령이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "예를 들어 아이가 태어난 지 8개월이 됐지만, 한 달 빨리 태어났다면 아이의 교정 연령은 7개월이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20141125/68150990/1",
+            "search_query": "이른둥이 교정 연령",
+            "terminate": false,
+            "text": "실제 아기의 생후 연령에서 조산한 개월 수를 빼면 교정 연령을 알 수 있어요. 예를 들자면 아이가 생후 8개월이지만 한 달 조산했다면 아기의 교정 연령은 7개월인 거죠.",
+            "turn_id": "BK22011819-7",
+            "utterance_id": "BK22011819.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조산한 개월 수를 빼면 되는 거네요. 그런데 이른둥이에 대한 정부 지원은 없나요? 이른둥이를 케어할 때 드는 비용도 만만치 않을 것 같아요.",
+            "turn_id": "BK22011819-8",
+            "utterance_id": "BK22011819.15"
+        },
+        {
+            "reference_date": "2017-03-21",
+            "reference_text": [
+                {
+                    "value": "대표적인 이른둥이 지원책은 보건복지부의 모자보건사업으로 일정 소득 이하의 경우 출생과 동시에 신생아중환자실(NICU)에 입원한 미숙아에게 500만~1,000만원의 지원금을 1회 제공한다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/201703210423830712",
+            "search_query": "이른둥이 정부지원",
+            "terminate": false,
+            "text": "보건복지부에서 하는 모자보건 사업에 이른둥이 지원이 있어요. 일정 소득 이하라면 출생하는 즉시 신생아중환자실에 입원한 이른둥이에게 500만~1,000만원의 지원금을 1회에 한해 지원하죠.",
+            "turn_id": "BK22011819-8",
+            "utterance_id": "BK22011819.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일정 소득이 있다면 지원조차 되지 않는 거네요. 앞으로 많은 정부 지원이 있다면 좋을 텐데요.",
+            "turn_id": "BK22011819-9",
+            "utterance_id": "BK22011819.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 그렇게 생각해요. 앞으로 정부에서 좋은 지원이 또 나오겠죠?",
+            "turn_id": "BK22011819-9",
+            "utterance_id": "BK22011819.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 정말 좋겠네요. 부모와 아기를 생각하니 마음이 아파요. 집에 가면 제가 도울 방법이 있는지 한번 찾아봐야겠어요.",
+            "turn_id": "BK22011819-10",
+            "utterance_id": "BK22011819.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저도 좋은 정보가 있다면 또 공유해 드릴게요. 그럼 집에 조심히 가시고 다음에 만나요.",
+            "turn_id": "BK22011819-10",
+            "utterance_id": "BK22011819.20"
+        }
+    ]
+}

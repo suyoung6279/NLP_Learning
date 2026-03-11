@@ -1,0 +1,366 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011764",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011764",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0029"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이가 조금 크니 여기저기서 악기 교육을 하라고 권하네요.",
+            "turn_id": "BK22011764-1",
+            "utterance_id": "BK22011764.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "주변에서 악기 교육을 많이 하고 계신가 봐요. 부모님께서도 악기 교육에 관심이 있으세요?",
+            "turn_id": "BK22011764-1",
+            "utterance_id": "BK22011764.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 관심은 있는데 어떻게 시작해야 할 지는 모르겠어요. 시작한다면 악기 선택은 어떻게 해야 할까요?",
+            "turn_id": "BK22011764-2",
+            "utterance_id": "BK22011764.3"
+        },
+        {
+            "reference_date": "2022-05-09",
+            "reference_text": [
+                {
+                    "value": "부모가 선택해서 일방적으로 배우라고 한 악기가 아니라 아이가 스스로 배우고 싶어 하는 악기를 선택할 수 있도록 충분한 탐색기회를 제공한 뒤 배우게 된다면 훨씬 효과적입니다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "어른들도 흥미와 관심사가 다 다르듯 아이가 좋아하고 관심 있어 하는 악기도 모두 다릅니다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yeongnam.com/web/view.php?key=20220508010000901",
+            "search_query": "음악 교육 악기 선택",
+            "terminate": false,
+            "text": "그러면 아이가 배우고 싶어 하는 악기를 스스로 선택할 수 있도록 해주세요. 부모가 선택해서 일방적으로 배우는 것보다 스스로 충분히 탐색하고 배우게 되면 훨씬 효과적이에요. 어른들도 흥미와 관심사가 다 다르듯 아이도 그렇거든요.",
+            "turn_id": "BK22011764-2",
+            "utterance_id": "BK22011764.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 탐색 기회를 주면 좋군요. 악기 교육이 뇌 발달에 영향을 준다던데, 그런가요?",
+            "turn_id": "BK22011764-3",
+            "utterance_id": "BK22011764.5"
+        },
+        {
+            "reference_date": "2014-12-30",
+            "reference_text": [
+                {
+                    "value": "바이올린이나 피아노 같은 악기를 배우면 아이의 두뇌 발달에 도움이 된다는 연구 결과가 나왔다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "미국 버몬트대 의대 연구팀은 6~18세 아동과 청소년 232명을 대상으로 악기를 배울 때 뇌에서 어떤 반응이 일어나는 지 자기공명영상(MRI)으로 촬영했다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 결과 악기를 연주할 때 대뇌의 겉 부분인 피질이 점차 두꺼워지는 것을 발견했다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대뇌피질은 우울증과 공격 행동, 충동 등의 문제 행동과 관련됐다고 알려진 부위다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "연구팀은 악기를 배울 때 손가락이나 팔의 동작을 규칙에 따라 미세하게 조절해야 하는데, 이런 행동이 뇌 발달에 영향을 미치는 요인으로 추측하고 있다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=5797",
+            "search_query": "악기 연주 뇌 발달",
+            "terminate": false,
+            "text": "네, 미국 버몬트대 의대 연구팀은 6-18세 아동과 청소년 232명을 대상으로 악기를 배우는 것과 뇌의 상관 관계를 알아보기 위해 자기공명영상을 촬영했어요. 그 결과 악기를 연주할 때 우울증과 공격 행동, 충동 등의 문제 행동과 관련이 있는 대뇌피질이 점점 두꺼워지는 것을 발견했죠. 바이올린과 피아노 같은 악기를 배우는 것이 두뇌 발달에 도움이 된다는 연구 결과였죠. 연구팀은 악기를 배울 때 손가락이나 팔을 규칙에 맞게 미세하게 조절하며 움직이는 행동이 뇌 발달에 영향을 끼치는 요인이 될 수 있다고 추측하고 있어요.",
+            "turn_id": "BK22011764-3",
+            "utterance_id": "BK22011764.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "손의 발달과 대뇌 발달이 큰 상관이 있군요. 혹시 대뇌피질의 발달 외에 얻을 수 있는 다른 능력이 또 있나요?",
+            "turn_id": "BK22011764-4",
+            "utterance_id": "BK22011764.7"
+        },
+        {
+            "reference_date": "2018-07-03",
+            "reference_text": [
+                {
+                    "value": "어린이들이 피아노를 배우면 언어 능력을 키울 수 있다는 연구 결과가 나왔다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "미국 매사추세츠공대(MIT) 연구진은 피아노 조기 교육은 소리를 듣고 처리하는 능력을 향상하는데, 이는 음악적인 역량뿐만 아니라 언어 능력에도 영향을 끼친다고 밝혔다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "연구에 따르면 어린이들이 피아노 레슨을 받으면 소리의 높낮이와 음색을 구별하는 능력이 생기고 그 덕분에 일상 대화에서 쓰이는 단어들의 미묘한 차이를 더 잘 분별하게 된다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "연구는 중국어를 모국어로 쓰는 유치원생들을 대상으로 이뤄졌다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1228048/",
+            "search_query": "피아노 조기 교육",
+            "terminate": false,
+            "text": "어린이들이 피아노를 배우면 음악적 능력 뿐 아니라 언어 능력을 키울 수 있다는 연구 결과도 있어요. 미국 매사추세츠공대 연구진은 중국어를 모국어로 쓰는 유치원생들을 대상으로 한 연구를 통해 그와 같은 결론을 얻었죠. 피아노 교육은 소리의 고저와 음색을 구별하는 능력을 갖게 하죠. 따라서 소리를 듣고 처리하는 능력이 향상된 아이들은 일상에서 쓰는 단어들의 미묘한 차이를 더 잘 구분하게 되요.",
+            "turn_id": "BK22011764-4",
+            "utterance_id": "BK22011764.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "피아노 교육이 큰 도움이 되는군요. 피아노를 먼저 배우는 것도 좋겠어요. 만약 피아노를 배우면 피아노를 반드시 사야 할까요?",
+            "turn_id": "BK22011764-5",
+            "utterance_id": "BK22011764.9"
+        },
+        {
+            "reference_date": "2017-06-13",
+            "reference_text": [
+                {
+                    "value": "구매 시기에 대해서는 기초과정이 어느 정도 지나고 가정에서의 연습량을 늘려야 할 때를 판단해 구매하는 것이 좋다는 것에 의견이 일치되었다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.naeil.com/news_view/?id_art=240365",
+            "search_query": "피아노 교육 피아노 구매 고민",
+            "terminate": false,
+            "text": "피아노를 산다면 기초 과정이 어느 정도 지나고 연습량을 늘려야 할 때 사는 것이 좋아요.",
+            "turn_id": "BK22011764-5",
+            "utterance_id": "BK22011764.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "처음부터 피아노를 구매할 필요는 없군요. 부담을 좀 덜었네요. 피아노 외에 다른 악기를 배운다면 어떤 점을 고려하면 좋을까요?",
+            "turn_id": "BK22011764-6",
+            "utterance_id": "BK22011764.11"
+        },
+        {
+            "reference_date": "2017-06-13",
+            "reference_text": [
+                {
+                    "value": "또한, “노래를 잘하는 경우 화음 반주가 가능한 기타나 우쿨렐레, 음감이 정확한 경우라면 바이올린 등의 현악기를, 감수성이 풍부한 경우에는 부드러운 관악기인 플루트 등을, 폐활량이 좋은 경우 트럼펫, 리듬감이 좋은 경우 드럼이나 타악기로 변화를 주어도 좋을 것”이라고 덧붙였다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.naeil.com/news_view/?id_art=240365",
+            "search_query": "피아노 다른 악기 전향",
+            "terminate": false,
+            "text": "노래를 잘한다면 화음을 넣을 수 있는 우쿠렐레, 기타를 고려해볼 수 있고, 음감이 정확한 아이라면 바이올린 같은 현악기, 폐활량이 좋은 경우는 트렘펫 같은 악기도 좋죠. 또 부드러운 관악기인 플루트는 감수성이 풍부한 아이에게 추천해요. 리듬감이 좋다면 드럼이나 타악기 같은 것도 해볼 수 있죠.",
+            "turn_id": "BK22011764-6",
+            "utterance_id": "BK22011764.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 생각보다 다양한 악기가 있네요. 만약 바이올린을 한다면 언제쯤 시작할 수 있나요?",
+            "turn_id": "BK22011764-7",
+            "utterance_id": "BK22011764.13"
+        },
+        {
+            "reference_date": "2012-10-30",
+            "reference_text": [
+                {
+                    "value": "바이올린은 아이의 성장, 정확히 말하면 팔 길이에 따라 선택하면 된다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1/8 사이즈부터 있기 때문에 5세 정도부터도 수업이 가능하다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "성장에 따라 2/4, 3/4, 4/4로 바꿔주면 되는데 초등학교 5·6학년 되면 4/4풀사이즈를 사용할 수 있다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/086/0002130420?sid=102",
+            "search_query": "우리 아이 악기 배우기",
+            "terminate": false,
+            "text": "바이올린은 아이의 성장을 고려하면 돼요. 팔 길이에 따라 바이올린을 선택할 수 있거든요. 8분의 1 사이즈는 5세 정도에도 수업이 가능해요. 성장에 따라 조금씩 큰 사이즈로 바꿔주면 되는데 초등 5, 6 학년 정도가 되면 풀사이즈로 연주할 수 있어요.",
+            "turn_id": "BK22011764-7",
+            "utterance_id": "BK22011764.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아주 조그만 바이올린도 있군요. 관악기의 경우는 언제 시작하면 좋은가요?",
+            "turn_id": "BK22011764-8",
+            "utterance_id": "BK22011764.15"
+        },
+        {
+            "reference_date": "2012-10-30",
+            "reference_text": [
+                {
+                    "value": "관악기의 경우 손가락이 짧으면 운지를 할 수 없기 때문에 초등학교 중고학년 정도부터 시작한다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/086/0002130420?sid=102",
+            "search_query": "우리 아이 악기 배우기",
+            "terminate": false,
+            "text": "관악기의 경우는 초등학교 중고학년 정도가 적당해요. 손가락이 짧으면 운지를 할 수 없기 때문이죠.",
+            "turn_id": "BK22011764-8",
+            "utterance_id": "BK22011764.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "관악기도 성장을 고려해야 하는군요. 국악기 체험도 하게 해주고 싶은데, 주변에서 보기가 쉽지 않아요. 가볼 만한 곳이 있을까요?",
+            "turn_id": "BK22011764-9",
+            "utterance_id": "BK22011764.17"
+        },
+        {
+            "reference_date": "2022-09-16",
+            "reference_text": [
+                {
+                    "value": "이 밖에도 1995년에 문을 연 국악박물관은 입체영상실, 국악체험실, 고문헌실, 명인실, 악기전시실, 국악사실 등으로 구성되어 있는 국악의 산 교육장이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "관람시간은 오전 9시부터 오후 6시까지이며, 월요일 및 1월 1일에 휴관하고, 관람료는 무료이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B5%AD%EB%A6%BD%EA%B5%AD%EC%95%85%EC%9B%90",
+            "search_query": "국립국악원",
+            "terminate": false,
+            "text": "국악박물관을 이용해보세요. 국악박물관에는 입체 영상실, 국악체험실, 악기 전시실, 국악사실 등이 있어요. 오전 9시부터 오후 6시까지 관람이 가능하고, 휴관일은 월요일과 1월 1일이에요. 관람료는 무료에요.",
+            "turn_id": "BK22011764-9",
+            "utterance_id": "BK22011764.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "국악기 체험도 좋을 것 같아요. 고민만 했는데 이렇게 듣고 보니 궁금증이 많이 풀렸어요. 고맙습니다.",
+            "turn_id": "BK22011764-10",
+            "utterance_id": "BK22011764.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요. 아이가 자신에게 맞는 악기 수업을 받으며 즐겁고 행복했으면 좋겠네요. 아이와 대화 잘 나누시고, 좋은 수업으로 선택하세요. 힘내세요.",
+            "turn_id": "BK22011764-10",
+            "utterance_id": "BK22011764.20"
+        }
+    ]
+}

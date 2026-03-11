@@ -1,0 +1,381 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014824",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014824",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0019"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 정말 반려동물을 많이 키우잖아요. 어떤 이유로 이렇게 많이들 키우는 건가요?",
+            "turn_id": "BK22014824-1",
+            "utterance_id": "BK22014824.1"
+        },
+        {
+            "reference_date": "2022-09-27",
+            "reference_text": [
+                {
+                    "value": "농림축산식품부의 2021년 동물보호에 대한 국민의식조사 결과에 따르면 반려동물 양육 계기는 ‘동물을 좋아해서’가 46.0%로 가장 많았다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "다음으로는 ‘가족 구성원이 원해서’(22.5%), ‘우연한 계기로 반려동물이 생겨서’(11.3%) 순으로 나타났다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://weekly.donga.com/3/all/11/3654007/1",
+            "search_query": "반려동물 양육 계기",
+            "terminate": false,
+            "text": "농림축산식품부의 2021년 동물보호에 대한 국민 의식조사 결과에 따르면요. 반려동물의 양육 계기로 가장 많은 부분을 차지한 것이 동물을 좋아해서였어요. 이 부분은 46%를 차지했죠. 다음으로는 가족 구성원이 원해서가 22.5%, 우연한 계기로 반려동물이 생겨서가 11.3% 순으로 밝혀졌죠.",
+            "turn_id": "BK22014824-1",
+            "utterance_id": "BK22014824.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동물을 좋아하는 사람이 이렇게나 많다니 좋은 소식이네요. 제 지인은 고양이 3마리를 키우고 있는데요. 고양이 종류가 다 다르던데, 고양이의 품종은 얼마나 다양하나요?",
+            "turn_id": "BK22014824-2",
+            "utterance_id": "BK22014824.3"
+        },
+        {
+            "reference_date": "2022-08-08",
+            "reference_text": [
+                {
+                    "value": "고양이의 종류도 다양하며 고양이는 식육목 고양이과에 속하는 포유류로 하루 수면양은 12~16시간이며 수명은 12~18년(사육된)으로 추정된다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고양이의 종류는 대략 50종이 넘는 것으로 알려졌다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=987236",
+            "search_query": "고양이 종류",
+            "terminate": false,
+            "text": "고양이는 종류가 정말 다양한데요. 대략 50종 이상의 고양이 품종이 있다고 알려져 있죠. 또한 고양이에 대해 더 말씀드리자면, 고양이는 식육목 고양잇과에 속하는 포유류로서 하루 수면량은 12~16시간이고 수명은 12년에서 18년이에요.",
+            "turn_id": "BK22014824-2",
+            "utterance_id": "BK22014824.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "50종이 넘다니 정말 다양한 고양이들이 있군요. 그 지인 고양이 중에 아메리카쇼트헤어하는 고양이 종이 있던데요. 아메리카쇼트헤어라는 종에 대해서 아시는 것이 있으신가요?",
+            "turn_id": "BK22014824-3",
+            "utterance_id": "BK22014824.5"
+        },
+        {
+            "reference_date": "2016-04-11",
+            "reference_text": [
+                {
+                    "value": "미국과 일본에서 수요가 많은 활동적이고 쾌활한 고양이.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이름 그대로 아메리카(미국)에서 발달한, 북아메리카의 몇 안 되는 품종 중 하나입니다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "체형은 중간 정도로 수컷은 5~6kg, 암컷은 3.6~5.4kg 정도이며, 고양이들이 1년이면 성장이 멈추는 것과는 달리 이 품종은 3살이 되어서도 자라는 경우도 있습니다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "단모종으로 털은 짧고 굵은 편이며 털의 굵기는 계절에 따라 달라지고, 지역에 따라서도 다릅니다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=35056",
+            "search_query": "아메리카쇼트헤어",
+            "terminate": false,
+            "text": "네, 아메리카쇼트헤어는 미국과 일본에서 인기가 많고 활동적이며 쾌활한 성격의 고양이인데요. 이름과 같이 아메리카에서 발달하였고 북아메리카의 몇 안 되는 고양이 품종 중 하나이죠. 이 고양이의 체형은 중간 정도로 수컷은 5에서 6kg, 암컷은 3.6에서 5.4kg까지 자라며, 일반 고양이들이 1살이면 성장이 멈추는 것과는 달리 이 품종은 3살이 되어서까지 자라는 경우가 있죠. 또한, 단모종으로 털은 짧고 굵으며, 털의 굵기는 계절에 따라, 지역에 따라 변하죠.",
+            "turn_id": "BK22014824-3",
+            "utterance_id": "BK22014824.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "3살까지 쑥쑥 자라는 고양이이군요. 아, 지인 고양이가 너무 화장실을 자주 간다고 하더라구요. 너무 고민하던데, 혹시 관련된 고양이 질병이 있나요?",
+            "turn_id": "BK22014824-4",
+            "utterance_id": "BK22014824.7"
+        },
+        {
+            "reference_date": "2022-08-18",
+            "reference_text": [
+                {
+                    "value": "고양이가 화장실을 들락날락한다는 건 누가 봐도 소변을 시원하게 못 본다는 신호다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이때 가장 먼저 의심해봐야 할 질환이 하부요로계질환이다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "신장, 요관, 방광, 요도로 구성된 요로의 하부, 즉 방광과 요도에 문제가 생긴 상태다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60718",
+            "search_query": "고양이 소변 질병",
+            "terminate": false,
+            "text": "고양이가 화장실을 자주 왔다 갔다 하는 것은 소변을 시원하게 누지 못해서 그런 건데요. 이때 가장 의심되는 질환은 하부 요로계 질환이에요. 즉, 신장, 요관, 방광, 요도로 구성된 요로의 하부인 방광과 요도에 문제가 생겨 질병이 생긴 것이죠.",
+            "turn_id": "BK22014824-4",
+            "utterance_id": "BK22014824.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하부요로계 질환이라니, 병원에 빨리 가보라고 해야겠네요. 아, 그리고 제가 그 친구를 통해서 길고양이 한 마리를 분양받을 예정인데, 혹시 고양이가 조심해야 할 피부병이 있을까요? 예전에 키웠던 강아지가 피부병으로 고생을 많이 해서요.",
+            "turn_id": "BK22014824-5",
+            "utterance_id": "BK22014824.9"
+        },
+        {
+            "reference_date": "2022-08-24",
+            "reference_text": [
+                {
+                    "value": "‘링웜(ringworm)’은 피부의 진균 감염으로 일반적으로 빨갛고 간지러우며 붉은 링 형태 반점이 생기는 피부질환이다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고양이 피부병 중 대표적인 질환으로 막 입양해온 길고양이들에서 가장 많이 발견되는 피부질환이기도 하다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=169007",
+            "search_query": "고양이 피부병",
+            "terminate": false,
+            "text": "고양이 피부병 중 대표적인 질환인 링 웜이 있는데요. 이 링 웜은 갓 입양해온 길고양이들에서 가장 자주 발견되는 피부질환이에요. 피부의 진균 감염으로 인해 빨갛고 간지러운 증상이 나타나고 붉은 링 형태 반점이 생기는 피부질환이죠.",
+            "turn_id": "BK22014824-5",
+            "utterance_id": "BK22014824.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 링 웜이라는 피부염을 미리 조심해야겠네요. 고양이나 강아지가 가끔 풀을 막 뜯어 먹기도 하잖아요. 이럴 때 고양이가 주의해야 할 풀이나 식물이 있을까요?",
+            "turn_id": "BK22014824-6",
+            "utterance_id": "BK22014824.11"
+        },
+        {
+            "reference_date": "2022-08-16",
+            "reference_text": [
+                {
+                    "value": "반려동물 독물 직통전화(Pet Poison Helpline)의 선임 수의학 독물학자인 르네 슈미드 박사는 대부분의 고양이가 백합 때문에 위험을 겪는다고 밝혔다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또 고양이의 생명을 위협한다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고양이 주인들은 급성 신부전을 일으킬 수 있는 릴리움과 원추리 속 백합뿐만 아니라 급성 중독과 불규칙한 심장 박동을 일으킬 수 있는 콘발라리아계 백합도 조심해야 한다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.huffingtonpost.kr/news/articleView.html?idxno=200792",
+            "search_query": "반려묘 식물 주의점",
+            "terminate": false,
+            "text": "한 동물학자에 의하면 많은 고양이가 백합 때문에 위험을 겪는다고 밝혔어요. 백합은 고양이의 생명에 아주 치명적인 식물인데요. 급성 신부전을 일으킬 수 있는 릴리움과 원추리 속의 백합뿐만 아닌 급성 중독과 불규칙한 심장 박동을 발생시킬 수 있는 콘발라리아계 백합을 조심해야 하죠.",
+            "turn_id": "BK22014824-6",
+            "utterance_id": "BK22014824.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "백합이 고양이에게 그렇게 치명적인 줄 몰랐네요. 그렇다면 고양이의 건강 검진은 어떤 식으로 하는 것이 좋을까요?",
+            "turn_id": "BK22014824-7",
+            "utterance_id": "BK22014824.13"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "고양이의 건강상태를 대략적으로나마 알기 위해서는 최소한의 기본정보(MDB, minimum database)가 필요하다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "혈액검사(혈청화학검사, 전혈구검사), 소변검사, 방사선검사, 초음파검사가 기본정보를 제공하는 검사들이다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 검사결과들을 통해 개별장기의 이상 여부와 영양상태, 질병의 경중 여부 등을 알 수 있다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 기본정보만을 제공하는 스크리닝검사이기 때문에 종합검진의 의미로는 부족한 면이 있다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "질병을 조기에 진단하려면 연령별 또는 특정품종별로 권장되는 검진항목을 추가해 검사하는 것을 권장한다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61068",
+            "search_query": "고양이 건강 검진",
+            "terminate": false,
+            "text": "고양이의 건강 상태를 진찰하기 위해서는 최소한의 기본 정보가 필요한데, 혈액검사와 소변검사, 방사선검사, 초음파검사를 통해 고양이의 건강 관련 기본 정보를 알아내야 해요. 또한, 이 검사 결과들을 통해 개별 장기의 이상 여부와 영양상태, 질병의 경중 여부 등을 알 수 있죠. 하지만 주의할 점은 이 검사들은 기본 정보만을 제공하는 스크리닝 검사이기에 종합검진으로는 부족한 점이 있어요. 그러니 연령별 또는 특정 품종별로 권장되고 있는 검진 항목을 추가해 검사하는 것을 추천해 드려요.",
+            "turn_id": "BK22014824-7",
+            "utterance_id": "BK22014824.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이도 검사할 게 꽤 많군요. 아, 마지막으로 아까 말씀드렸던 제 지인이 고양이들의 화장실을 어떤 식으로 배치하는 것이 좋을지를 고민하더라고요. 이에 대해서 조언해주실 수 있나요?",
+            "turn_id": "BK22014824-8",
+            "utterance_id": "BK22014824.15"
+        },
+        {
+            "reference_date": "2022-09-04",
+            "reference_text": [
+                {
+                    "value": "다묘 가정의 화장실 문제에 대해서는 \"화장실은 고양이들이 서로 마주치지 않을 장소를 고려해서 배치하는 것이 좋다\"며 \"덮개형 화장실의 경우 배설물이 눈에 직접 보이지 않기 때문에 덜 치우게 되는데 배설물은 가급적 바로 치워주는 것이 필요하다\"고 강조했다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/4792675",
+            "search_query": "다묘 가정 고양이 화장실",
+            "terminate": false,
+            "text": "다묘 가정의 화장실 배치는 고양이들이 서로 마주치지 않을 장소를 고려해서 배치하는 것이 좋아요. 또한, 덮개형 화장실의 경우 배설물이 눈에 직접 보이지 않아 비교적 자주 치우지 않게 되는데 배설물은 바로바로 치워주는 것이 중요해요.",
+            "turn_id": "BK22014824-8",
+            "utterance_id": "BK22014824.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좋은 팁 정말 감사해요. 내일이라도 당장 말해 줘야겠어요.",
+            "turn_id": "BK22014824-9",
+            "utterance_id": "BK22014824.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도움이 되셨으면 정말 다행이네요. 제가 이만 가봐야 할 것 같아요.",
+            "turn_id": "BK22014824-9",
+            "utterance_id": "BK22014824.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 아까 약속 있다고 하셨죠. 오늘 너무 즐거웠고 조심히 들어가세요.",
+            "turn_id": "BK22014824-10",
+            "utterance_id": "BK22014824.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 다음에 또 기회가 되면 뵐게요.",
+            "turn_id": "BK22014824-10",
+            "utterance_id": "BK22014824.20"
+        }
+    ]
+}

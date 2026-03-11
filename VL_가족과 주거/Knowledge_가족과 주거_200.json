@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018920",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018920",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 집 고양이 보면 맨날 그루밍 하는 것 같은데 고양이는 하루에 얼마나 그루밍할까?",
+            "turn_id": "BK22018920-1",
+            "utterance_id": "BK22018920.1"
+        },
+        {
+            "reference_date": "44784.0",
+            "reference_text": [
+                {
+                    "value": "고양이는 깨어 있는 시간 중 3분의 1을 그루밍에 쓴다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대략 하루에 600~1000번 정도를 하는 셈이다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/08/707847/",
+            "search_query": "고양이 그루밍",
+            "terminate": false,
+            "text": "고양이는 깨어 있는 시간 중 3분의 1을 그루밍에 써. 대충 하루에 600번에서 1000번 정도를 하는 셈이야.",
+            "turn_id": "BK22018920-1",
+            "utterance_id": "BK22018920.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어쩐지 깨어있을 때 보면 계속 그루밍하고 있더라. 매일 몸단장 해서 그런지 고양이한테는 냄새가 안 나.",
+            "turn_id": "BK22018920-2",
+            "utterance_id": "BK22018920.3"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그루밍을 많이 해주는 만큼, 몸에 헤어볼이 쌓이는 것도 신경 써줘야 해.",
+            "turn_id": "BK22018920-2",
+            "utterance_id": "BK22018920.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞네, 그루밍을 많이 하니까 털도 많이 먹겠다. 헤어볼은 체내에 들어가서 어떻게 돼?",
+            "turn_id": "BK22018920-3",
+            "utterance_id": "BK22018920.5"
+        },
+        {
+            "reference_date": "44784.0",
+            "reference_text": [
+                {
+                    "value": "고양이들이 그루밍에 집중하는 모습은 경이롭고 평화로워 보이지만 유의할 것이 있다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "바로 ‘헤어볼’이다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그루밍하는 동안 삼킨 털이 몸속으로 들어가는데, 대부분은 대변에 섞여 배출되고 일부가 둥글게 뭉쳐져 구토를 통해 입 밖으로 나온다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/08/707847/",
+            "search_query": "고양이 헤어볼",
+            "terminate": false,
+            "text": "그루밍하면서 먹은 털은 몸속으로 들어가는데, 대체로 똥에 섞여 나오고, 일부가 둥글게 덩어리져서 토악질을 통해 입 밖으로 나와. 고양이들이 그루밍에 열중하는 모습은 신기하고 평화로워 보이지만, 헤어볼을 조심해야 해.",
+            "turn_id": "BK22018920-3",
+            "utterance_id": "BK22018920.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "헤어볼 안 좋지. 변으로 나오지 않는 털들은 몸에서 어떤 문제가 생겨?",
+            "turn_id": "BK22018920-4",
+            "utterance_id": "BK22018920.7"
+        },
+        {
+            "reference_date": "44784.0",
+            "reference_text": [
+                {
+                    "value": "하지만 장기에 남아 점점 더 크게 뭉쳐진 털뭉치가 어느 쪽으로도 배출되지 않고 있다가 내장 기관을 막아 버리면 생명이 위험할 수 있다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/08/707847/",
+            "search_query": "고양이 헤어볼 뭉쳐진 털뭉치",
+            "terminate": false,
+            "text": "어느 쪽으로도 배출되지 못한 털 덩어리는 장기에 남아 조금씩 더 크게 뭉쳐져. 그로 인해 내장 기관이 폐쇄되면 목숨이 위태로울 수 있어.",
+            "turn_id": "BK22018920-4",
+            "utterance_id": "BK22018920.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "헤어볼을 예방하려면 어떻 게 하는게 좋을까?",
+            "turn_id": "BK22018920-5",
+            "utterance_id": "BK22018920.9"
+        },
+        {
+            "reference_date": "44784.0",
+            "reference_text": [
+                {
+                    "value": "헤어볼을 예방하려면 평소 꾸준히 빗질을 해 죽은 털을 과도하게 삼키지 않게 하는 것이 최선이다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 섬유소가 풍부한 식품을 급여하면 장 내 털을 배출하는 데 도움이 된다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/08/707847/",
+            "search_query": "고양이 헤어볼 예방 빗질",
+            "terminate": false,
+            "text": "헤어볼을 방지하려면, 평상시 부지런히 빗질해 죽은 털을 지나치게 먹지 않게 하는 것이 제일이야. 또 섬유소가 많은 식품을 주면 장 내 털을 배설하는 데 도움이 돼.",
+            "turn_id": "BK22018920-5",
+            "utterance_id": "BK22018920.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이가 그루밍을 너무 많이 할 때도 있는데, 그 이유는 뭘까?",
+            "turn_id": "BK22018920-6",
+            "utterance_id": "BK22018920.11"
+        },
+        {
+            "reference_date": "44784.0",
+            "reference_text": [
+                {
+                    "value": "고양이의 오버 그루밍은 특히 스트레스가 심할 때 나타나는데, 대개 주거 공간이나 가족 구성원, 새로운 반려동물의 입양, 배변 장소 이동 같은 환경적 변화가 이유인 경우가 많다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/08/707847/",
+            "search_query": "고양이 오버그루밍",
+            "terminate": false,
+            "text": "고양이의 오버 그루밍은 특별히 스트레스가 클 때 나타나는데, 대개 가족 구성원, 주거 공간, 배변 장소 이동, 새로운 반려동물의 입양 같은 환경적 변화가 원인인 경우가 많아.",
+            "turn_id": "BK22018920-6",
+            "utterance_id": "BK22018920.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아픈 부위가 있을 때도 해당 부위에 오버 그루밍을 하지 않을까?",
+            "turn_id": "BK22018920-7",
+            "utterance_id": "BK22018920.13"
+        },
+        {
+            "reference_date": "44784.0",
+            "reference_text": [
+                {
+                    "value": "가령 입술 주변을 오버 그루밍하면 치주염이나 구강 궤염을 앓고 있을 수 있고, 발바닥을 오버 그루밍하면 가시가 박혀 염증이나 물집이 생겼을 수 있다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 배 쪽의 오버 그루밍은 복부 통증 때문일 수 있고, 생식기를 과도하게 그루밍하면 요로 감염이 원인일 수 있다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/08/707847/",
+            "search_query": "고양이 오버그루밍 통증",
+            "terminate": false,
+            "text": "맞아, 예컨대 생식기를 심하게 그루밍하면 요도 감염이 원인일 수 있고 배 쪽의 오버 그루밍은 복부 통증 때문일 수 있어. 발바닥을 오버 그루밍하면 가시가 박혀 물집이나 염증이 생겼었을 수 있고, 입술 주변을 오버 그루밍하면 구강 궤양이나 치주염을 앓고 있을 수 있어.",
+            "turn_id": "BK22018920-7",
+            "utterance_id": "BK22018920.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이들은 아플 때 말을 안 하고 아픈 부위를 오버 그루밍 하더라고. 눈치채고 빨리 병원에 가는 게 좋은 것 같아. 엉덩이를 오버 그루밍하는 고양이는 어디가 안 좋은 걸까?",
+            "turn_id": "BK22018920-8",
+            "utterance_id": "BK22018920.15"
+        },
+        {
+            "reference_date": "44784.0",
+            "reference_text": [
+                {
+                    "value": "엉덩이를 오버 그루밍한다면 설사나 변비로 인해 통증이 있거나 가려워서, 혹은 기생충 때문일 수 있다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/08/707847/",
+            "search_query": "고양이 오버그루밍 엉덩이",
+            "terminate": false,
+            "text": "엉덩이를 오버 그루밍한다면 변비나 설사로 인해 아픔이 있거나 가려워서 라든지 아니면 기생충 때문일 수 있어.",
+            "turn_id": "BK22018920-8",
+            "utterance_id": "BK22018920.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 고양이가 그루밍을 꼭 하는데 아예 안 하는 경우엔 어디가 안 좋다고 볼 수 있을까?",
+            "turn_id": "BK22018920-9",
+            "utterance_id": "BK22018920.17"
+        },
+        {
+            "reference_date": "44784.0",
+            "reference_text": [
+                {
+                    "value": "구강 질환이 생기면 통증 때문에 그루밍을 할 수 없다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 외에도 살이 너무 쪄 혀가 몸에 닿지 않는 고양이, 나이가 많아 기력이 없는 고양이, 관절염이 있는 고양이, 우울한 상태의 고양이도 그루밍을 하지 않는다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/08/707847/",
+            "search_query": "고양이 그루밍 구강질환",
+            "terminate": false,
+            "text": "고양이에게 구강 질환이 발생하면 아픔 때문에 그루밍을 할 수 없어. 이 밖에도 나이가 많아 힘이 없는 경우, 관절염이 있는 경우, 우울한 상태 일때 또는 살이 매우 쪄 혀가 몸에 닿지 않을 때도 고양이는 그루밍하지 않아.",
+            "turn_id": "BK22018920-9",
+            "utterance_id": "BK22018920.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "문제가 있으면 그루밍하지 않거나 오버 그루밍을 하니까 관찰을 잘해서 이상이 있는 것 같으면 바로 병원에 가야겠어.",
+            "turn_id": "BK22018920-10",
+            "utterance_id": "BK22018920.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 헤어볼이 몸 안에 쌓이지 않게 잘 관리해줘.",
+            "turn_id": "BK22018920-10",
+            "utterance_id": "BK22018920.20"
+        }
+    ]
+}

@@ -1,0 +1,361 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006869",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006869",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 제가 키우는 고양이가 살이 많이 찐 것 같아요. 고양이가 비만인지 아닌지 어떻게 알 수 있나요?",
+            "turn_id": "BK22006869-1",
+            "utterance_id": "BK22006869.1"
+        },
+        {
+            "reference_date": "2022-04-01",
+            "reference_text": [
+                {
+                    "value": "집사 눈에 그저 귀엽기만해서 우리 고양이가 비만인지 알기 어렵다면 체형으로 비만을 확인해 보자.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고양이를 만졌을 때 갈비뼈가 만져지고 적당한 살집이 잡혀야 한다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "뼈가 잡히지 않고 살집만 만져질 경우 비만일 확률이 높다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "허리라인 없이 유선형의 배가 나온 체형도 전형적인 비만 고양이의 것이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthinnews.co.kr/news/articleView.html?idxno=29034",
+            "search_query": "고양이 비만",
+            "terminate": false,
+            "text": "체형으로 비만인지 아닌지 체크해 볼 수 있어요. 일단 고양이를 만졌을 때 살집이 적당히 잡히고 갈비뼈가 만져져야 해요. 그런데 살집만 잡히고 뼈가 만져지지 않을 경우 비만일 가능성이 높아요. 허리 라인 없이 곡선형으로 배가 나온 몸매도 대표적인 비만 고양이죠.",
+            "turn_id": "BK22006869-1",
+            "utterance_id": "BK22006869.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 제가 키우는 고양이도 비만이 맞는 것 같네요. 고양이도 살찌면 좋지 않죠?",
+            "turn_id": "BK22006869-2",
+            "utterance_id": "BK22006869.3"
+        },
+        {
+            "reference_date": "2022-04-13",
+            "reference_text": [
+                {
+                    "value": "피부질환부터 체중 부하로 인한 관절염, 호르몬 관련 질환인 당뇨병, 쿠싱병 그리고 지방간, 고혈압 등 다양한 질병에 노출된다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=161617",
+            "search_query": "고양이 몸무게",
+            "terminate": false,
+            "text": "네, 피부질환부터 체중 부하로 인한 관절염, 호르몬 관련 질환인 당뇨병 등 여러 질환의 가능성이 있어요.",
+            "turn_id": "BK22006869-2",
+            "utterance_id": "BK22006869.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비만이 사람에게도 좋지 않지만, 역시나 고양이에게도 좋지 않네요. 어떻게 하면 고양이의 몸무게를 줄일 수 있을까요?",
+            "turn_id": "BK22006869-3",
+            "utterance_id": "BK22006869.5"
+        },
+        {
+            "reference_date": "2022-04-13",
+            "reference_text": [
+                {
+                    "value": "고양이 비만을 관리하기 위해서는 실내에서 운동량을 늘리는 것이 필요하다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고양이는 사냥 본능이 있기 때문에 움직이는 물체에 관심이 많다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이러한 특성을 고려해서 반려인이 움직일 수 있는 놀이기구나 용품을 사용해 운동할 수 있도록 유도해줘야 한다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=161617",
+            "search_query": "고양이 캣휠",
+            "terminate": false,
+            "text": "집에서 고양이의 운동량을 증진하는 것이 비만을 관리하는데 도움이 돼요. 고양이는 움직이는 물체에 흥미를 보이는데 이는 고양이가 사냥 본능이 있기 때문이에요. 이러한 특성을 이용해서 반려인이 놀이 용품으로 고양이를 놀아주거나 움직일 수 있는 기구를 활용해 운동할 수 있도록 도와주어야 해요.",
+            "turn_id": "BK22006869-3",
+            "utterance_id": "BK22006869.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 움직이는 사물을 이용해 고양이가 운동하게끔 유도하란 이야기군요. 그 외에 또 다른 방법이 있나요?",
+            "turn_id": "BK22006869-4",
+            "utterance_id": "BK22006869.7"
+        },
+        {
+            "reference_date": "2022-04-13",
+            "reference_text": [
+                {
+                    "value": "또 고양이를 위한 맞춤형 운동기기인 캣휠을 활용하는 것도 좋다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=161617",
+            "search_query": "고양이 캣휠",
+            "terminate": false,
+            "text": "캣휠 같은 고양이를 위한 맞춤형 운동기기를 사용하는 것도 한 방법이에요.",
+            "turn_id": "BK22006869-4",
+            "utterance_id": "BK22006869.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 혹시 식단 조절은 어떻게 하는 게 좋을까요?",
+            "turn_id": "BK22006869-5",
+            "utterance_id": "BK22006869.9"
+        },
+        {
+            "reference_date": "2022-08-28",
+            "reference_text": [
+                {
+                    "value": "사료는 단백질 함량이 높고 칼로리는 낮은 게 좋다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 식이섬유가 많이 포함된 사료는 전체 사료 칼로리를 낮춰줄 수 있다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01252966632431912&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "비만 고양이 사료",
+            "terminate": false,
+            "text": "사료는 칼로리가 낮고 단백질 함량이 높은 게 좋아요. 또한 칼로리가 낮은 사료인 식이섬유가 많이 포함된 사료를 이용할 수도 있고요.",
+            "turn_id": "BK22006869-5",
+            "utterance_id": "BK22006869.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그런데 사료를 고를 때 고려해야 할만한 또 다른 팁이 있을까요?",
+            "turn_id": "BK22006869-6",
+            "utterance_id": "BK22006869.11"
+        },
+        {
+            "reference_date": "2022-04-13",
+            "reference_text": [
+                {
+                    "value": "다만 고양이 다이어트 사료를 구입할 때에는 화학성분 함유 여부를 체크해야 한다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고양이 다이어트 사료는 고양이들이 거부감 없이 맛있게 먹을 수 있도록 첨가물을 사용하는 경우가 많기 때문이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이러한 화학성분은 장시간 노출될 경우 내분비계 교란부터 조직 손상, 발암 등을 유발할 수 있다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이에 구입하려는 고양이 다이어트 사료에 노케스템(NOCHESTEM) 표기가 있는지 확인하면 쉽게 구분할 수 있다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "노케스템은 ‘No Chemical System’의 약자로 제조 과정에서 화학성분을 사용하지 않았음을 의미한다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=161617",
+            "search_query": "고양이 사료선택",
+            "terminate": false,
+            "text": "고양이 다이어트 사료를 구입할 때는 화학성분 포함 여부를 확인해야 해요. 고양이 다이어트 사료는 첨가물이 포함된 경우가 많은데, 이는 고양이들이 거부감 없이 맛있게 먹을 수 있게 만들기 위해서죠. 그런데 이러한 화학성분에 오랜 시간 노출될 경우 내분비계 교란, 조직 손상, 발암 등을 가져올 수 있어요. 이를 확인하기 위해서는 구매하려는 고양이 다이어트 사료에 노케스템이라는 표시가 있는지 체크 해야 해요. No Chemical System의 약자인 노케스템은 제조 과정에서 화학성분을 이용하지 않았음을 의미하거든요.",
+            "turn_id": "BK22006869-6",
+            "utterance_id": "BK22006869.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 그런데 주변에서 다이어트 사료를 구매할 때 렌더링이 들어간 사료를 피하라는 얘길 들었는데, 렌더링은 뭔가요?",
+            "turn_id": "BK22006869-7",
+            "utterance_id": "BK22006869.13"
+        },
+        {
+            "reference_date": "2022-02-21",
+            "reference_text": [
+                {
+                    "value": "렌더링 원료 흔히 알고 있는 육분이나 육골분로, 도축하고 남은 뼈, 부산물이나 죽은 동물의 사체 등을 고온·고압으로 처리해 기름을 빼고 남은 고형분을 분쇄한 것이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.segyebiz.com/newsView/20220221511358?OutUrl=naver",
+            "search_query": "고양이 렌더링",
+            "terminate": false,
+            "text": "렌더링 원료란 육분이나 육골분으로, 고온, 고압으로 도축하고 남은 뼈, 부산물, 죽은 동물의 사체 등을 처리해 기름을 빼고 남은 고형분을 잘게 조각낸 것이에요.",
+            "turn_id": "BK22006869-7",
+            "utterance_id": "BK22006869.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 렌더링이 왜 좋지 않은 건가요?",
+            "turn_id": "BK22006869-8",
+            "utterance_id": "BK22006869.15"
+        },
+        {
+            "reference_date": "2022-05-10",
+            "reference_text": [
+                {
+                    "value": "렌더링 원료에 남은 안락사 성분이 고양이나 강아지 등에게 유입되면 독성을 일으키며 심각할 경우 사망에 이르게 할 수 있다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://idsn.co.kr/news/view/1065580843829687",
+            "search_query": "고양이 안락사 렌더링",
+            "terminate": false,
+            "text": "고양이에게 렌더링 원료에 남은 안락사 성분이 유입되면 독성을 일으키며 심할 경우 사망할 수 있기 때문이에요.",
+            "turn_id": "BK22006869-8",
+            "utterance_id": "BK22006869.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좋은 팁 감사해요. 다이어트 사료 살 때 꼭 참고해야겠네요.",
+            "turn_id": "BK22006869-9",
+            "utterance_id": "BK22006869.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 구입 전 성분표를 확인해서 화학 성분도 없고 렌더링 원료가 첨가되지 않은 상품을 구매하시는 게 좋을 거예요.",
+            "turn_id": "BK22006869-9",
+            "utterance_id": "BK22006869.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 여러 가지로 도움이 되는 유용한 정보 알려주셔서 감사해요. 알려주신 정보는 유용하게 활용할게요.",
+            "turn_id": "BK22006869-10",
+            "utterance_id": "BK22006869.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 도움이 되었다니 저도 기쁘네요. 나중에 또 이야기해요. 그럼 조심히 들어가세요.",
+            "turn_id": "BK22006869-10",
+            "utterance_id": "BK22006869.20"
+        }
+    ]
+}

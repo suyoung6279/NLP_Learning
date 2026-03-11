@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007206",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007206",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0029"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근에 육아 관련 정책이 정말 많이 나오고 있어서 깜짝 놀랐어요.",
+            "turn_id": "BK22007206-1",
+            "utterance_id": "BK22007206.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 정부가 저출산 문제를 해결하기 위해 열심히 노력하는 것 같아요.",
+            "turn_id": "BK22007206-1",
+            "utterance_id": "BK22007206.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 것 같아요, 금전적인 지원도 많이 해주더라구요? 지원금을 주는 제도 이름이 뭐였죠?",
+            "turn_id": "BK22007206-2",
+            "utterance_id": "BK22007206.3"
+        },
+        {
+            "reference_date": "2022-08-24",
+            "reference_text": [
+                {
+                    "value": "현재 아이를 키우는 부모에게 지원하는 현금성 수당은 양육수당, 아동수당, 영아수당 등이다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "올해 처음으로 도입된 영아수당은 24개월 미만 영아에게 월 30만원을 지급하는 제도다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kukinews.com/newsView/kuk202208230153",
+            "search_query": "육아 정책",
+            "terminate": false,
+            "text": "현재 아이를 키우는 부모에게 지원하는 현금성의 지원 정책은 양육수당, 아동수당, 영아 수당 등이 있어요. 그중 영아 수당은 올해 처음으로 도입됐는데, 24개월 미만 영아에게 월 30만원씩을 지급하는 제도에요.",
+            "turn_id": "BK22007206-2",
+            "utterance_id": "BK22007206.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "영아 수당도 꼭 필요한 지원인 것 같아요. 근데 보육시설이나 서비스가 부족한 것도 문제가 꽤 되더라고요. 혹시 이 부분을 해결할 만한 정책은 없나요?",
+            "turn_id": "BK22007206-3",
+            "utterance_id": "BK22007206.5"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "보건복지부와 한국보육진흥원, 한국사회보장정보원은 9월부터 내년 2월까지 6개월 간 '2022년 시간제보육 통합형 시범사업'을 운영한다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "시간제보육 서비스는 가정에서 아이를 돌보는 부모가 일시적인 보육서비스가 필요할 때 시간 단위로 서비스를 이용할 수 있는 서비스다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.bokjitimes.com/news/articleView.html?idxno=33190",
+            "search_query": "보육 정책",
+            "terminate": false,
+            "text": "보건복지부와 한국보육진흥원, 한국사회보장정보원은 9월부터 내년 2월까지 2022년 시간제 보육 통합형 시범사업을 운영하기로 했어요. 이 서비스는 가정에서 아이를 돌보는 부모가 일시적인 보육 서비스가 필요할 때, 시간 단위로 서비스를 제공해요.",
+            "turn_id": "BK22007206-3",
+            "utterance_id": "BK22007206.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금은 비록 시범사업이지만, 정규 사업으로 꼭 편성됐으면 좋겠네요. 그리고 맞벌이 가구도 돌봄 시설이 부족해 많이 힘들어하더라고요. 이걸 해결할 수 있는 방안은 없을까요?",
+            "turn_id": "BK22007206-4",
+            "utterance_id": "BK22007206.7"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "맞벌이 가구의돌봄 부담을 완화하기 위해 민간·가정 어린이집 등 야간연장보육료를 시간당 3200원에서 4000원으로 늘리고 교사 인건비도 월 149만원에서 179만원으로 올린다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/economy/view/2022/08/766799/",
+            "search_query": "맞벌이 보육",
+            "terminate": false,
+            "text": "맞벌이 가구의 돌봄 부담을 완화하기 위해 민간, 가정 어린이집 등의 야간연장보육료를 시간당 3200원에서 4000원으로 늘릴 계획이 있어요. 또한 교사 인건비도 월 149만원에서 179만원으로 올릴 예정이에요.",
+            "turn_id": "BK22007206-4",
+            "utterance_id": "BK22007206.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 근데 최근에 초등학교 입학 연령 학제 개편이라는 큰 이슈가 있었는데, 대다수가 부정적인 의견을 갖고 있더라고요. 그 이유가 뭐죠?",
+            "turn_id": "BK22007206-5",
+            "utterance_id": "BK22007206.9"
+        },
+        {
+            "reference_date": "2022-08-08",
+            "reference_text": [
+                {
+                    "value": "정부가 초등학교 입학 연령을 ‘만 5세’로 낮추는 학제 개편에 나섰지만 저출산 문제 해결의 근본적 방안이 될 수 없다는 지적이 나왔다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.docdocdoc.co.kr/news/articleView.html?idxno=2025930",
+            "search_query": "만 5세 입학",
+            "terminate": false,
+            "text": "초등학교 입학 연령을 만 5세로 낮추는 학제 개편은 저출산을 해결하는 것에 대한 근본적인 방안이 될 수 없기 때문이에요. 그러한 지적도 많이 나왔고요.",
+            "turn_id": "BK22007206-5",
+            "utterance_id": "BK22007206.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일리가 있는 말이네요. 그리고 유치원을 의무교육으로 해야 한다는 의견도 있더라고요?",
+            "turn_id": "BK22007206-6",
+            "utterance_id": "BK22007206.11"
+        },
+        {
+            "reference_date": "2022-08-18",
+            "reference_text": [
+                {
+                    "value": "‘만 5세 초등학교 입학’ 정책이 사실상 물거품이 된 가운데 교사 95%가 유치원 의무교육에 찬성한다는 조사 결과가 나왔다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "찬성이라고 답한 교사 중에선 찬성하는 이유(중복응답 가능)로 ‘유아교육의 국가적 책무를 확대해 체계적 유아교육 정립’(71.6%)을 꼽은 교사가 가장 많았다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/society/article/202208182264i",
+            "search_query": "유치원 의무교육",
+            "terminate": false,
+            "text": "맞아요, 만 5세 초등학교 입학 정책이 사실상 물거품이 된 가운데, 교사의 95%가 유치원 의무교육에 찬성한다고 답을 했어요. 찬성이라고 답한 교사 중에서는 그 이유로 유아교육의 국가적 책무를 확대해 체계적 유아교육 정립을 꼽은 교사가 71.6%로 가장 많았어요.",
+            "turn_id": "BK22007206-6",
+            "utterance_id": "BK22007206.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그럼 유치원이 의무교육에 포함될 경우 장점은 어떤 게 있을까요?",
+            "turn_id": "BK22007206-7",
+            "utterance_id": "BK22007206.13"
+        },
+        {
+            "reference_date": "2022-08-10",
+            "reference_text": [
+                {
+                    "value": "유아 의무교육은 지역이나 경제적인 이유와 관계없이 모든 유아의 같은 출발선을 보장할 수 있다는 큰 장점이 있다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/society/view/2022/08/702845/",
+            "search_query": "유치원 의무교육 장점",
+            "terminate": false,
+            "text": "지리적 혹은 경제적인 이유와 관계없이, 모든 유아의 출발선이 같게 될 수 있다는 것이 장점이에요.",
+            "turn_id": "BK22007206-7",
+            "utterance_id": "BK22007206.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 면에서 큰 장점이 있겠네요. 근데 장애를 가진 유아들은 교육에 있어서 불이익을 받는다고 하던데, 이런 점을 보완할 대책은 없나요?",
+            "turn_id": "BK22007206-8",
+            "utterance_id": "BK22007206.15"
+        },
+        {
+            "reference_date": "2019-04-23",
+            "reference_text": [
+                {
+                    "value": "장애유아 의무교육 실현을 위해 정부도 대책을 마련했다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지난해 9월 보건복지부·교육부·고용노동부가 합동으로 발표한 ‘발달장애인 평생케어 종합대책’에서 “장애아전문·통합 어린이집과 유치원, 특수학교를 확대한다”는 내용을 포함했다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=73874",
+            "search_query": "장애유아 의무교육",
+            "terminate": false,
+            "text": "정부에서는 장애 유아 의무교육을 실현하기 위해, 2018년 9월 보건복지부, 교육부, 고용노동부가 합동으로 발달장애인 평생 케어 종합대책을 발표했어요. 이 대책에는 장애아 전문, 통합 어린이집과 유치원, 특수학교를 확대한다는 내용이 포함되어 있어요.",
+            "turn_id": "BK22007206-8",
+            "utterance_id": "BK22007206.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좋은 정책인 것 같네요. 근데 어린이집과 유치원은 공평한 혜택을 받고 있는 게 맞나요?",
+            "turn_id": "BK22007206-9",
+            "utterance_id": "BK22007206.17"
+        },
+        {
+            "reference_date": "2021-11-16",
+            "reference_text": [
+                {
+                    "value": "또, 유치원 원아들에게는 완전 무상급식이 적용되는데 어린이집은 그렇지 못하다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "같은 나이의 어린이가 어느 기관을 선택하느냐에 따라 국가가 주는 혜택을 동등하게 받지 못하는 상황이 일어난다고 송 비서실장은 밝혔다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=100102",
+            "search_query": "유치원 어린이집",
+            "terminate": false,
+            "text": "아뇨, 유치원 원아들에게는 완전 무상급식이 적용되지만 어린이집은 그렇지 않아요. 같은 나이의 어린이가 어느 기관을 선택하느냐에 따라 국가가 주는 혜택을 동등하게 받지 못하는 상황이 일어나고 있는 거죠.",
+            "turn_id": "BK22007206-9",
+            "utterance_id": "BK22007206.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그것도 참 큰 문제네요. 유아 교육에 관련된 문제가 이렇게 많을 줄은 몰랐어요.",
+            "turn_id": "BK22007206-10",
+            "utterance_id": "BK22007206.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저도 이번에 2023 예산안이 개편되면서 관심을 가지게 된 문젠데, 앞으로 이 문제들이 어떻게 해결될지 유심히 지켜보려고요. 다음에도 이 문제에 대해 같이 얘기를 나눠봐요! 전 이만 가볼 테니 시간 되실 때 연락 주세요.",
+            "turn_id": "BK22007206-10",
+            "utterance_id": "BK22007206.20"
+        }
+    ]
+}

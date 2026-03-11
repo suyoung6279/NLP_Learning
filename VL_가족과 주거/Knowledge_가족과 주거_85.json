@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22017804",
+        "name": "2022 한국어 블렌더봇 데이터 BK22017804",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 이사 갈 집 리모델링 계획을 세우고 있어요. 인테리어 소장님께서 전등 스위치를 스마트 제품으로 하는게 어떻냐고 말씀하시더라구요. 그러면서 추천해 주신게 텐플 스마트 벽부형 스위치인데, 기존 전등 스위치가 붙어 있는데 이 제품을 어떻게 설치하면 되나요?",
+            "turn_id": "BK22017804-1",
+            "utterance_id": "BK22017804.1"
+        },
+        {
+            "reference_date": "2022-06-13",
+            "reference_text": [
+                {
+                    "value": "우선 일자 드라이버 등을 이용해 기존 스위치 커버를 벗긴 뒤, 해당 스위치를 고정하는 나사를 풀자.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그렇게 하면 스위치 후면의 전원 케이블 연결부의 모습이 드러나는데, 이 역시 조심스럽게 연결 부위를 눌러주며 케이블을 빼자.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전원 케이블은 스마트 스위치의 L단자, 버튼 케이블은 L1~L3 단자에 연결해 주자.",
+                    "value_time": "2022-10-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 후, 동봉된 고정용 나사 2개를 이용해 텐플 스마트 벽부형 스위치를 벽에 고정시켜주자.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이렇게 고정이 끝났으면 전면 커버를 덮어 작업을 마무리하면 된다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220613/113916891/1",
+            "search_query": "텐플 스마트 벽부형 스위치 설치 과정",
+            "terminate": false,
+            "text": "이미 스위치가 설치되어 있는 상태라면, 기존 스위치 제거를 위해 스위치의 커버를 벗긴 다음 스위치를 고정하고 있는 나사를 풀어 주세요. 그 후 스위치 후면에 있는 전원 케이블 연결 부위를 눌러주면서 케이블을 빼 주시고 전원 케이블은 텐플 스마트 스위치 L 단자와, 버튼 케이블은 L1~L3단자에 연결해 주세요. 그다음 동봉되어 있는 고정용 나사 두 개로 텐플 스마트 벽부형 스위치를 벽에 고정시킨 후 전면 커버를 덮으면 설치가 끝난답니다.",
+            "turn_id": "BK22017804-1",
+            "utterance_id": "BK22017804.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일반적인 전등 스위치를 연결하는 것과 큰 차이는 없어 보이네요. 스위치에 버튼은 몇 개가 있는 거예요?",
+            "turn_id": "BK22017804-2",
+            "utterance_id": "BK22017804.3"
+        },
+        {
+            "reference_date": "2022-06-13",
+            "reference_text": [
+                {
+                    "value": "텐플 스마트 벽부형 스위치는 100~240V AC 50~60Hz 사양을 갖추고 있어 국내 환경에 적합하며, 버튼의 수에 따라 1/2/3구 형 중 하나를 선택할 수 있다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220613/113916891/1",
+            "search_query": "텐플 스마트 벽부형 스위치 버튼",
+            "terminate": false,
+            "text": "맞아요. 스마트 스위치라고 해서 설치법이 다른건 아니에요. 텐플 스마트 벽부형 스위치는 버튼의 수에 따라서 1,2,3구 형 중 선택해서 설치할 수 있어요.",
+            "turn_id": "BK22017804-2",
+            "utterance_id": "BK22017804.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "설치할 장소에 맞게 버튼수는 선택하면 되겠네요. 혹시 버튼은 튀어나와 있는 모양인가요? 튀어나온 버튼은 틀 안에 먼지가 쌓여서 자주 청소해줘야 하더라구요.",
+            "turn_id": "BK22017804-3",
+            "utterance_id": "BK22017804.5"
+        },
+        {
+            "reference_date": "2022-06-13",
+            "reference_text": [
+                {
+                    "value": "스위치 전면을 강화유리로 처리하고 각 버튼은 터치형이라 세련된 분위기를 낸다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220613/113916891/1",
+            "search_query": "텐플 스마트 벽부형 스위치 터치형",
+            "terminate": false,
+            "text": "텐플 스마트 벽부형 스위치 튀어나와 있는 버튼 형식이 아니에요. 스위치의 전면이 강화유리로 되어 있고 각각의 버튼은 터치형으로 되어 있답니다.",
+            "turn_id": "BK22017804-3",
+            "utterance_id": "BK22017804.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "터치형이면 튀어나온 부분 없이 매끈한 모습이겠네요. 지금 살고있는 집의 전등은 불을 꺼도 약간 희미한 불빛이 남아 있던데 이 제품도 그럴까요?",
+            "turn_id": "BK22017804-4",
+            "utterance_id": "BK22017804.7"
+        },
+        {
+            "reference_date": "2022-06-13",
+            "reference_text": [
+                {
+                    "value": "일부 가정의 경우, 전등 스위치를 끈 후에도 불이 완전히 꺼지지 않고 희미하게 빛이 남아있는 경우가 있는데 이 때 동봉된 캐패시터를 스마트 스위치 설치 시 전원 케이블과 버튼 케이블 사이에 연결해주자.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220613/113916891/1",
+            "search_query": "텐플 스마트 벽부형 스위치 캐패시터",
+            "terminate": false,
+            "text": "전등 스위치를 껐는데도 불이 완전히 꺼진 것이 아니라 희미하게 빛이 남아 있는 경우들이 있는데요. 이럴 때는 스마트 스위치를 설치할 때 전원 케이블과 버튼 케이블 사이에 캐패시터를 연결해 주시면 돼요.",
+            "turn_id": "BK22017804-4",
+            "utterance_id": "BK22017804.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "캐패시터는 처음 들어봐요. 혹시 텐플 스마트 벽부형 스위치를 구입하게 되면 그 부속품도 주는 건가요?",
+            "turn_id": "BK22017804-5",
+            "utterance_id": "BK22017804.9"
+        },
+        {
+            "reference_date": "2022-06-13",
+            "reference_text": [
+                {
+                    "value": "제품의 구성은 스마트 스위치 본체와 벽면 고정용 나사, 그리고 사용 설명서 및 캐패시터 1개로 구성되었다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220613/113916891/1",
+            "search_query": "텐플 스마트 벽부형 스위치 구성",
+            "terminate": false,
+            "text": "텐플 스마트 벽부형 스위치의 구성품은 스마트 스위치 본체, 스위치를 벽에 고정할 때 쓰는 고정용 나사, 사용 설명서, 캐패시터 1개로 구성되어 있어요.",
+            "turn_id": "BK22017804-5",
+            "utterance_id": "BK22017804.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "캐패시터도 같이 오는거면 따로 구입할 필요는 없겠네요. 스마트 전등 스위치를 이용하려면 앱만 깔면 되는 건가요?",
+            "turn_id": "BK22017804-6",
+            "utterance_id": "BK22017804.11"
+        },
+        {
+            "reference_date": "2022-06-13",
+            "reference_text": [
+                {
+                    "value": "이렇게 텐플 스마트 벽부형 스위치만 설치한 상태에서도 기본적인 전등 수동 ON/OFF 기능은 쓸 수 있지만 이 제품의 최대 특징인 스마트 기능을 이용하려면 추가적인 장비 및 준비가 필요하다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가장 필수적인 건 지그비(Zigbee) 허브다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "텐플 지그비 허브는 동봉된 USB 어댑터를 연결하면 작동하며, 전원 연결 후 구글 플레이나 애플 앱스토어에서 다운로드 가능한 텐플 모바일 앱을 통해 스마트폰에 등록할 수 있다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220613/113916891/1",
+            "search_query": "텐플 스마트 벽부형 스위치 스마트 기능",
+            "terminate": false,
+            "text": "앞서 말씀 드린 방법으로 텐플 스마트 벽부형 스위치를 설치하면 기본적으로 전등을 켜고 끄는 기능이 가능한데, 스마트 기능을 이용하려면 지그비 허브라는 추가적인 장비가 필요해요. 텐플의 지그비 허브는 동봉되어 있는 USB 어댑터를 연결해주면 작동되는데, 전원을 연결한 다음 구글 플레이나 애플 앱스토어에서 텐플 모바일 앱을 다운로드 받은 후 스마트폰에 등록하면 돼요.",
+            "turn_id": "BK22017804-6",
+            "utterance_id": "BK22017804.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "앱만 있어서 되는게 아니라 지그비 허브를 구입해야 하는구나. 지그비 허브를 구입하고 나면 저희집 스위치랑 어떻게 연결해야 하는거에요?",
+            "turn_id": "BK22017804-7",
+            "utterance_id": "BK22017804.13"
+        },
+        {
+            "reference_date": "2022-06-13",
+            "reference_text": [
+                {
+                    "value": "이렇게 지그비 허브의 등록을 마쳤으면 다음은 텐플 스마트 벽부형 스위치를 텐플 앱에 등록할 차례다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "미리 등록된 지그비 허브(지그비 무선 게이트 웨이) 항목을 누른 후, ‘하위 장치 추가’ 항목을 누르면 이후 표시되는 앱의 지시에 따라 텐플 스마트 벽부형 스위치의 등록을 손쉽게 할 수 있다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220613/113916891/1",
+            "search_query": "텐플 스마트 벽부형 스위치 장치 등록",
+            "terminate": false,
+            "text": "지그비 허브를 등록한 다음 텐플 스마트 벽부형 스위치를 텐플 앱에 등록해 주셔야 하는데요. 미리 등록되어 있는 지그비 허브 항목에 들어가 하위 장치 추가 항목을 누른 후 앱의 지시에 따라 진행하면 텐플 스마트 벽부형 스위치를 쉽게 등록할 수 있어요.",
+            "turn_id": "BK22017804-7",
+            "utterance_id": "BK22017804.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "장치 등록하는 건 어렵지 않네요. 그럼 이 어플 안에는 어떤 기능들이 있는거에요?",
+            "turn_id": "BK22017804-8",
+            "utterance_id": "BK22017804.15"
+        },
+        {
+            "reference_date": "2022-06-13",
+            "reference_text": [
+                {
+                    "value": "우선 모바일 앱 상에서 원격으로 전등을 켜거나 끌 수 있으며, ‘타이머’ 기능을 통해 몇 시간 몇 분 후 자동으로 전등이 켜지거나 꺼지게 설정하는 것도 가능 하다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이를테면 ‘사용자가 집 반경 100m 바깥으로 나가면 자동으로 전등 끄기’, ‘비가 내리면 자동으로 전등 켜기’, 혹은 ‘(별도로 설치한)동작 감지 센서에 움직임이 감지되면 자동으로 전등 켜기’ 같은 조건을 지정할 수 있다.",
+                    "value_time": "2022-10-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220613/113916891/1",
+            "search_query": "텐플 스마트 벽부형 스위치 앱 기능",
+            "terminate": false,
+            "text": "모바일 앱에서 원격으로 전등을 ON/OFF 할수 있고 타이머 기능을 사용해 몇 시간, 몇 분 후 자동으로 전등을 끄고 켜는 것도 가능해요. 또한 사용자가 집 반경 100m 바깥으로 나가게 되면 알아서 전등을 끈다거나 비가 오면 자동으로 전등이 켜지는 기능, 별도로 설치한 동작 감지 센서에 움직임이 감지되었을 때 자동으로 전등이 켜지는 기능도 설정할 수 있어요.",
+            "turn_id": "BK22017804-8",
+            "utterance_id": "BK22017804.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전등은 끄고 켜는 기능 이외에 다른 기능이 없을거라 생각했는데 이렇게나 다양한 기능이 있을 줄 몰랐어요. 제 생각이 너무 단순했던 것 같아요.",
+            "turn_id": "BK22017804-9",
+            "utterance_id": "BK22017804.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이제까지의 전등이 불을 켜고 끄는 단순한 기능만 있어왔기 때문에 그런 생각이 드는 건 당연해 보여요.",
+            "turn_id": "BK22017804-9",
+            "utterance_id": "BK22017804.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "공감해 주셔서 감사해요. 그럼 오늘 인테리어 소장님과 조금 더 상의해보고 결정해야겠어요. 오늘 대화 즐거웠어요.",
+            "turn_id": "BK22017804-10",
+            "utterance_id": "BK22017804.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저도 즐거운 대화였어요. 저도 이만 선약이 있어서 가볼게요. 인테리어 마무리 잘하시고 다음에 또 대화 나눠요.",
+            "turn_id": "BK22017804-10",
+            "utterance_id": "BK22017804.20"
+        }
+    ]
+}

@@ -1,0 +1,337 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22000765",
+        "name": "2022 한국어 블렌더봇 데이터 BK22000765",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0027"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 집 강아지가 입을 오물거릴 때마다 뭘 잘 못 먹었을까 봐 괜히 불안해져. 가만 보면 맨날 뭐 주워 먹는 거 같아.",
+            "turn_id": "BK22000765-1",
+            "utterance_id": "BK22000765.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아마 세상 모든 강아지들이 그럴 걸? 견주들이 강아지가 쩝쩝 거리는 거 보기만 하면 뛰어가잖아!",
+            "turn_id": "BK22000765-1",
+            "utterance_id": "BK22000765.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 그런다니까? 사람이 먹는 음식들을 줘도 되는 건지 안 되는 건지 구분이 안가. 먹여도 되는 걸까?",
+            "turn_id": "BK22000765-2",
+            "utterance_id": "BK22000765.3"
+        },
+        {
+            "reference_date": "2020-11-09",
+            "reference_text": [
+                {
+                    "value": "사실상 개는 잡식성으로 사람이 먹는 음식을 먹어도 큰 상관은 없으나 알러지 반응으로 인한 피부 질환과 사람은 먹어도 문제 없으나 개에서 독성을 나타내는 음식들이 있으므로 그때그때 전문가의 조언을 받지 않고서 사람이 섭취하는 음식을 먹는 것은 위험하다.",
+                    "value_time": "2022-06-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.daejonilbo.com/news/articleView.html?idxno=1446584",
+            "search_query": "강아지가 먹어도 되는 음식",
+            "terminate": false,
+            "text": "개는 사실 잡식성 동물이라서 먹어도 큰 문제는 없어. 그렇지만 알레르기가 있는 경우에는 피부질환이 생길 수도 있고 우리는 맛있게 먹었는데 개에게는 독성반응이 일어날 수도 있거든. 그러다 보니 무작정 먹이는 것보다는 전문가와 상담을 통해서 받는 게 제일 좋아.",
+            "turn_id": "BK22000765-2",
+            "utterance_id": "BK22000765.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "개가 잡식성이었구나? 그럼 대체적으로 알려진 먹여도 되는 음식이나 과일이 따로 있을까?",
+            "turn_id": "BK22000765-3",
+            "utterance_id": "BK22000765.5"
+        },
+        {
+            "reference_date": "2022-02-22",
+            "reference_text": [
+                {
+                    "value": "또한 사과 속 구연산은 피로 회복에 도움이 된다고.",
+                    "value_time": "2022-06-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수분 함량이 많고 칼로리도 낮아서 많은 강아지들이 잘 먹는 과일이다.",
+                    "value_time": "2022-06-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4577834",
+            "search_query": "강아지가 먹어도 되는 과일",
+            "terminate": false,
+            "text": "사과는 어떨까? 사과는 사람에게도 좋은 과일이지만 강아지의 건강에도 좋거든. 사과에 함유되어있는 구연산은 피로 회복에도 도움 주기도 해. 그뿐만 아니라 수분 함량도 높고 칼로리도 낮아서 강아지들에게 좋아.",
+            "turn_id": "BK22000765-3",
+            "utterance_id": "BK22000765.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 매일 아침 사과 챙겨 먹어! 나 먹을 때 나눠주면 되겠는데? 칼로리도 낮으니까 간식 겸해서 많이 줘도 되겠지?",
+            "turn_id": "BK22000765-4",
+            "utterance_id": "BK22000765.7"
+        },
+        {
+            "reference_date": "2020-11-30",
+            "reference_text": [
+                {
+                    "value": "강아지가 먹어도 되는 과일의 예시로 든 사과의 씨는 시안화물이라는 물질이 있어 중독증세를 일으킨다.",
+                    "value_time": "2022-06-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또 몸에 좋은 과일도 대부분 당류함량이 높기 때문에 매일 간식으로 주다간 비만이 될 수도 있다.",
+                    "value_time": "2022-06-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=51215",
+            "search_query": "강아지 사과급여",
+            "terminate": false,
+            "text": "강아지 간식으로 사과는 좋은 과일이긴 하지만 강아지에게 급여할 때는 사과씨는 꼭 제외하고 줘야 해. 사과씨에는 중독 증세를 일으키는 시안화물이라는 물질이 함유되어 있거든. 그리고 과일은 당류 함량이 높기 때문에 권장 급여량을 지키지 않으면 비만으로 이어질 수 있어.",
+            "turn_id": "BK22000765-4",
+            "utterance_id": "BK22000765.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "과일의 당분만으로도 비만이 될 수 있구나. 먹으면 안되는 과일도 있어?",
+            "turn_id": "BK22000765-5",
+            "utterance_id": "BK22000765.9"
+        },
+        {
+            "reference_date": "2022-04-02",
+            "reference_text": [
+                {
+                    "value": "포도 속 어떤 성분이 중독을 일으키는지는 연구 중이나, 포도 종류나 농약 사용 여부에 관계없이 모두 신경 중독 증상을 일으킨다.",
+                    "value_time": "2022-06-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1389649/%EC%9C%84%EB%93%9C%ED%8E%AB-%EB%B0%98%EB%A0%A4%EA%B2%AC%EC%97%90%EA%B2%90-%EB%8F%85%EC%95%BD-%EC%A0%88%EB%8C%80-%EB%A8%B9%EC%9C%BC%EB%A9%B4-%EC%95%88-%EB%90%98%EB%8A%94-%EC%8B%9D%ED%92%88/",
+            "search_query": "강아지 먹으면 안되는 과일",
+            "terminate": false,
+            "text": "포도는 강아지가 절대 먹으면 안 되는 과일 중에 하나야. 정확히 어떤 성분으로 인해 문제가 생기는지 아직 연구 중이긴 하지만 강아지에게 신경 중독 증상을 일으키거든. 포도 종류나 농약을 사용한 여부와는 관계없이 중독증상을 일으키니까 각별히 조심해야 해.",
+            "turn_id": "BK22000765-5",
+            "utterance_id": "BK22000765.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "과일은 전부 강아지한테 좋은 음식일 줄 알았어. 우유 같은 건 괜찮겠지? 영화 보면 강아지나 고양이한테 금방 따른 우유를 주는 걸 봤거든.",
+            "turn_id": "BK22000765-6",
+            "utterance_id": "BK22000765.11"
+        },
+        {
+            "reference_date": "2018-10-24",
+            "reference_text": [
+                {
+                    "value": "강아지를 포함한 대다수의 포유류는 유아기때 락타아제를 활발하게 생성하는 능력을 갖고 있지만 젖을 떼면서 이 능력이 떨어지게 된다.",
+                    "value_time": "2022-06-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "우유 속의 락토오스 성분을 잘 소화하지 못해 설사를 하는 사람들이 있는 것처럼 강아지들에게도 똑같은 현상이 일어나는 것이다.",
+                    "value_time": "2022-06-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=54079",
+            "search_query": "강아지가 절대 먹으면 안되는 음식",
+            "terminate": false,
+            "text": "우유도 종류에 따라서는 강아지에게 좋지 않아. 새끼 강아지일 때야 모유를 먹기도 하고 락타아제 생성을 활발히 하는 능력을 갖고 있지만 젖을 떼면서부터는 그 능력이 떨어지게 되거든. 사람들도 우유만 먹으면 설사를 하는 경우도 있잖아? 강아지에게도 똑같은 증상이 일어날 수 있어!",
+            "turn_id": "BK22000765-6",
+            "utterance_id": "BK22000765.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 강아지들도 소화를 잘 할 수 있는 우유를 먹어야겠다! 그런데 이렇게 먹을 수 있는 음식 말고도 강아지들이 바닥에 있는 걸 막 주워 먹고는 하잖아. 그럴 때 우리가 알아차릴 수 있을까?",
+            "turn_id": "BK22000765-7",
+            "utterance_id": "BK22000765.13"
+        },
+        {
+            "reference_date": "2020-04-07",
+            "reference_text": [
+                {
+                    "value": "강아지가 이물을 섭취하면 식욕부진, 기력저하, 복통, 설사, 구토, 호흡곤란 같은 증상을 보이게 된다.",
+                    "value_time": "2022-06-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=47980",
+            "search_query": "강아지가 이물질을 먹었을 때 증상",
+            "terminate": false,
+            "text": "이물질을 먹었다고 의심이 된다면 꼭 강아지의 상태를 살펴봐야 해. 특히나 먹으면 안 되는 이물질들을 삼키면 강아지가 설사나 구토를 하게 되고 호흡곤란이 올 수도 있거든. 식욕도 사라지고 기력이 떨어질 수 있어.",
+            "turn_id": "BK22000765-7",
+            "utterance_id": "BK22000765.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다행이다! 그런 일이 발생했을 때 일단 증상이 확연하게 눈에 띄니까 금방 알 수 있겠어! 근데 이미 먹은 경우에는 그냥 둬도 되는 걸까?",
+            "turn_id": "BK22000765-8",
+            "utterance_id": "BK22000765.15"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무래도 그런 상황이 의심된다면 병원에 가보거나 집에서 할 수 있는 걸 배우면 좋겠지? 문제 상황이 발생했을 때 직접 할 수 있는 대처법 같은 것 말이야.",
+            "turn_id": "BK22000765-8",
+            "utterance_id": "BK22000765.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집에서 할 수 있는 일이 있을까? 이물질이 목에 걸렸을 수도 있잖아. 아니면 이미 삼켜버렸는데 대변으로 배출도 안되고 할 수도 있지 않을까?",
+            "turn_id": "BK22000765-9",
+            "utterance_id": "BK22000765.17"
+        },
+        {
+            "reference_date": "2021-02-24",
+            "reference_text": [
+                {
+                    "value": "특히 강아지의 경우 제대로 씹지 않고 뭔가를 삼키는 경우가 허다하기 때문에 주인이라면 꼭 만일의 사태에 대비한 ‘동물하임리히법’을 익혀야 한다.",
+                    "value_time": "2022-06-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/22INNZOZ7E",
+            "search_query": "강아지가 이물질을 먹으면 대처",
+            "terminate": false,
+            "text": "보통 사람들도 목에 뭔가 걸려있어서 숨을 못 쉬거나 할 때 응급처리 방법이 있듯이 강아지도 마찬가지야. 일단 강아지는 사람처럼 음식을 잘게 씹지도 않고 삼켜버리는 경우가 많거든. 그럴 때를 위해 동물 하임리히법을 익혀두는 게 도움이 될 거야!",
+            "turn_id": "BK22000765-9",
+            "utterance_id": "BK22000765.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동물들에게 시행하는 하임리히 법도 있구나? 사람과 개는 신체부터가 다를 텐데 어떻게 해야 할 수 있는 거야?",
+            "turn_id": "BK22000765-10",
+            "utterance_id": "BK22000765.19"
+        },
+        {
+            "reference_date": "2021-10-07",
+            "reference_text": [
+                {
+                    "value": "대표적인 반려동물인 강아지와 고양이의 경우, 왼쪽 앞다리를 구부렸을 때 관절이 몸통에 닿는 부위가 바로 심장이 있는 위치로 이 부위를 강하게 압박해주어야 한다.",
+                    "value_time": "2022-06-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.hidomin.com/news/articleView.html?idxno=465232",
+            "search_query": "강아지 하임리히법",
+            "terminate": false,
+            "text": "사람과 다를 건 없어. 우리가 흔히 키우는 강아지나 고양이는 왼쪽 앞다리를 구부렸을 때 앞다리 관절이 닿는 몸통 부분이 심장에 위치거든. 그 부위를 강하게 압박해주는 거지.",
+            "turn_id": "BK22000765-10",
+            "utterance_id": "BK22000765.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "생각보다 어렵지 않을 수도 있겠다! 애초에 위험한 건 안 먹는 게 좋지겠지만 나도 이 방법을 꼭 배워보도록 할게!",
+            "turn_id": "BK22000765-11",
+            "utterance_id": "BK22000765.21"
+        }
+    ]
+}

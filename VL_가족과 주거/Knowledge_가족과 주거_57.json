@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22017379",
+        "name": "2022 한국어 블렌더봇 데이터 BK22017379",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0017"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "온라인 부동산을 보니 빌라도 있고 도시형 생활주택도 있더라고요.",
+            "turn_id": "BK22017379-1",
+            "utterance_id": "BK22017379.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 둘 중 어느 것이 더 궁금하세요?",
+            "turn_id": "BK22017379-1",
+            "utterance_id": "BK22017379.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도시형 생활주택이 무엇인지 알려주세요.",
+            "turn_id": "BK22017379-2",
+            "utterance_id": "BK22017379.3"
+        },
+        {
+            "reference_date": "44454.0",
+            "reference_text": [
+                {
+                    "value": "도시형 생활주택은 전용 85㎡ 이하 300가구 미만으로 지어진 단지형 다세대·연립형 주거시설로 단지 규모는 연립보다 크고 오피스텔보다 작다.",
+                    "value_time": "44843.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2009년 이명박 정부가 서민과 1~2인 가구의 주거안정을 위해 주차장 기준 등 건축규제를 완화하며 처음 도입했다.",
+                    "value_time": "44843.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "주거형태에 따라 크게 ▲단지형 연립주택 ▲단지형 다세대주택 ▲원룸형 등 3가지 종류로 분류된다.",
+                    "value_time": "44843.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.segyebiz.com/newsView/20210914509383?OutUrl=naver",
+            "search_query": "도시형 생활주택",
+            "terminate": false,
+            "text": "도시형 생활주택은 전용면적 85제곱미터 이하 300가구 미만의 단지형 주거시설로, 단지 규모는 연립보다 크고 오피스텔보다 작습니다. 크게 단지형 연립주택, 단지형 다세대주택, 원룸형의 3가지로 나뉘어요. 2009년 이명박 정부에서 서민과 1~2인 가구를 위한 주거 안정을 목표로 주차장 기준 등의 건축 규제를 완화하여 처음 내놓은 주택이에요.",
+            "turn_id": "BK22017379-2",
+            "utterance_id": "BK22017379.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그럼 연립주택은 무엇인가요?",
+            "turn_id": "BK22017379-3",
+            "utterance_id": "BK22017379.5"
+        },
+        {
+            "reference_date": "44836.0",
+            "reference_text": [
+                {
+                    "value": "연립 주택(聯立住宅, 영어: Row house)은 대한민국 주택법 제2조 제3호에 따른 공동주택의 하나로, 주택법 시행령 제3조 제1항 제2호에 따라 건물 하나당 건축 연면적이 660m2를 초과하는 4개층 이하의 건물을 말한다.",
+                    "value_time": "44843.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%B0%EB%A6%BD%EC%A3%BC%ED%83%9D",
+            "search_query": "연립주택",
+            "terminate": false,
+            "text": "대한민국 주택법 제2조 제3호에 따른 공동주택 중의 하나로, 건물 하나 당 건축 연면적이 660제곱미터를 초과하는 4개 층 이하의 건물이에요.",
+            "turn_id": "BK22017379-3",
+            "utterance_id": "BK22017379.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 다가구 주택이 무엇인지도 궁금해요. 다세대주택과는 어떤 차이가 있나요?",
+            "turn_id": "BK22017379-4",
+            "utterance_id": "BK22017379.7"
+        },
+        {
+            "reference_date": "44559.0",
+            "reference_text": [
+                {
+                    "value": "우선 다가구 주택은 건축법상 단독주택으로 분류되기 때문에 구분소유가 불가능하다.",
+                    "value_time": "44843.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "호별로 구분돼 있고 실제로 따로 거주가 가능해도 전체를 하나의 건물로 보기 때문에 건물주를 1주택자로 보고있다.",
+                    "value_time": "44843.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반면, 다세대주택은 세대마다 개별 현관을 갖추고 주택으로 쓰는 1개 동의 바닥면적합계가 660㎡ 이하로 네 개층까지 허용되며 19세대까지 건축할 수 있다.",
+                    "value_time": "44843.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다세대주택은 집집마다 주택 수로 집계되기 때문이다.",
+                    "value_time": "44843.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=946899",
+            "search_query": "다세대 다가구 차이",
+            "terminate": false,
+            "text": "다가구 주택은 호별로 구분돼 있지만 건축법상 단독주택으로 분류되며 건물주를 1주택자로 봅니다. 반면 다세대 주택은 세대마다 개별 현관이 있고 주택으로 쓰는 1개 동의 바닥면적 합계가 660제곱미터 이하이며, 4개 층에 19세대까지 건축할 수 있으며 각 집은 주택 수로 집계됩니다.",
+            "turn_id": "BK22017379-4",
+            "utterance_id": "BK22017379.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 주차장이 넉넉한지 여부를 중요하게 생각하는데, 도시형 생활주택은 주차장 기준이 몇 대인가요?",
+            "turn_id": "BK22017379-5",
+            "utterance_id": "BK22017379.9"
+        },
+        {
+            "reference_date": "44454.0",
+            "reference_text": [
+                {
+                    "value": "현재 도시형생활주택 주차장 기준은 가구당 0.6대이며, 가구당 전용 면적이 30㎡ 이하인 경우 0.5대로 더 낮아진다.",
+                    "value_time": "44843.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.segyebiz.com/newsView/20210914509383?OutUrl=naver",
+            "search_query": "도시형 생활주택 주차장 기준",
+            "terminate": false,
+            "text": "주차장 기준은 가구당 0.6대이며, 가구당 전용 면적이 30제곱미터 이하인 경우에는 0.5대로 더 낮아져요.",
+            "turn_id": "BK22017379-5",
+            "utterance_id": "BK22017379.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "주차장 기준이 아주 낮네요. 도시형 생활주택은 주택 수에 들어가나요?",
+            "turn_id": "BK22017379-6",
+            "utterance_id": "BK22017379.11"
+        },
+        {
+            "reference_date": "44670.0",
+            "reference_text": [
+                {
+                    "value": "현행법상 도시형생활주택은 공시가격 1억원 이하 또는 전용 20㎡ 이하의 경우를 제외하면 주택으로 간주된다.",
+                    "value_time": "44843.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자택을 보유한 소유주가 이를 벗어난 도시형생활주택을 보유할 경우 다주택자로 간주돼 세금 중과 대상이 된다.",
+                    "value_time": "44843.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ebn.co.kr/news/view/1527514/?sc=Naver",
+            "search_query": "도시형 생활주택 주택수",
+            "terminate": false,
+            "text": "네, 주택으로 간주하며, 단 공시가격 1억 원 이하 또는 전용 20제곱미터 이하의 경우는 제외되어요. 즉, 주택 소유자가 제외 조건을 벗어난 도시형 생활주택을 보유하면 다주택자로 간주해 세금 중과 대상이 됩니다.",
+            "turn_id": "BK22017379-6",
+            "utterance_id": "BK22017379.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 부분은 오피스텔과 비슷하군요. 도시형 생활주택과 오피스텔의 전용률은 각각 어떻게 되나요?",
+            "turn_id": "BK22017379-7",
+            "utterance_id": "BK22017379.13"
+        },
+        {
+            "reference_date": "44768.0",
+            "reference_text": [
+                {
+                    "value": "반면 전용률(분양 면적 대비 전용면적 비율)은 70~80%대로 35~50%인 주거용 오피스텔보다 높다.",
+                    "value_time": "44843.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20220726162411742",
+            "search_query": "도시형 생활주택 오피스텔 전용률",
+            "terminate": false,
+            "text": "도시형 생활주택의 분양 면적 대비 전용면적 비율은 70~80%대로 주거용 오피스텔의 전용률이 35~50%인 것에 비해 높습니다.",
+            "turn_id": "BK22017379-7",
+            "utterance_id": "BK22017379.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "같은 가격이라면 도시형 생활주택이 더 넓게 지낼 수 있겠네요. 청약 시 청약 통장이 필요한가요?",
+            "turn_id": "BK22017379-8",
+            "utterance_id": "BK22017379.15"
+        },
+        {
+            "reference_date": "44772.0",
+            "reference_text": [
+                {
+                    "value": "청약통장이 필요 없어 만 19세 이상이면 누구나 청약할 수 있다.",
+                    "value_time": "44843.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "청약 가점이 아니라 추첨제로 당첨자를 선정하기 때문에 가점이 낮은 젊은 층도 청약에 도전할 수 있다.",
+                    "value_time": "44843.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "재당첨 금지 규제가 없고, 실거주 의무에서도 자유롭다.",
+                    "value_time": "44843.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newsworks.co.kr/news/articleView.html?idxno=604667",
+            "search_query": "도시형 생활주택 청약 통장",
+            "terminate": false,
+            "text": "필요 없어요. 만 19세 이상 누구나 청약할 수 있으며, 가점제가 아니라 추첨제로 당첨자를 선정하기 때문에 가점이 낮은 젊은 층도 도전할만합니다. 또 재당첨 금지 규제나 실거주 의무도 없어요.",
+            "turn_id": "BK22017379-8",
+            "utterance_id": "BK22017379.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도시형 생활주택은 분양가 상한제를 적용받나요?",
+            "turn_id": "BK22017379-9",
+            "utterance_id": "BK22017379.17"
+        },
+        {
+            "reference_date": "44670.0",
+            "reference_text": [
+                {
+                    "value": "또 아파트와 달리 분양가상한제가 적용되지 않기 때문에 상대적으로 비싼 가격에 풀릴 가능성이 높다.",
+                    "value_time": "44843.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ebn.co.kr/news/view/1527514/?sc=Naver",
+            "search_query": "도시형 생활주택 분양가 상한제",
+            "terminate": false,
+            "text": "아파트와는 다르게 분양가 상한제를 적용받지 않아요. 따라서 가격이 비싸게 책정될 가능성이 높아요.",
+            "turn_id": "BK22017379-9",
+            "utterance_id": "BK22017379.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소형 가구를 위한 정책이었는데 분양가 상한제에서는 벗어난 점이 의외네요. 덕분에 도시형 생활주택에 대해 잘 이해하였습니다. 감사해요.",
+            "turn_id": "BK22017379-10",
+            "utterance_id": "BK22017379.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되셨다니 저도 흐뭇하네요.",
+            "turn_id": "BK22017379-10",
+            "utterance_id": "BK22017379.20"
+        }
+    ]
+}

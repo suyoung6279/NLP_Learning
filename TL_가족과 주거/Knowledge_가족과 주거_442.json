@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015429",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015429",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 강아지가 자기 변을 먹어서 고민이야. 식분증의 원인이 어미를 따라서 하는 행동일 수 있다는데 맞아?",
+            "turn_id": "BK22015429-1",
+            "utterance_id": "BK22015429.1"
+        },
+        {
+            "reference_date": "2019-09-03",
+            "reference_text": [
+                {
+                    "value": "어미는 새끼가 변을 누면 먹어 치운다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "새끼의 냄새를 천적에게 노출하지 않기 위한 본능이다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이런 행동을 새끼가 보고 배워 따라 할 수 있다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=45353",
+            "search_query": "강아지 식분증 원인 모방",
+            "terminate": false,
+            "text": "강아지가 변을 먹어서 고민이 되겠구나. 어미는 새끼가 변을 보면 적이 새끼의 냄새를 맡지 못하도록 먹어 치워. 이런 어미의 행동을 보고 새끼가 따라 하기도 해.",
+            "turn_id": "BK22015429-1",
+            "utterance_id": "BK22015429.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 강아지는 어미의 행동을 보고 따라 하는 걸까? 아니면 식분증의 다른 원인은 뭐가 있어?",
+            "turn_id": "BK22015429-2",
+            "utterance_id": "BK22015429.3"
+        },
+        {
+            "reference_date": "2019-09-03",
+            "reference_text": [
+                {
+                    "value": "보통 강아지가 생후 3개월이 됐을 때부터 배변 훈련을 한다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 시기에 강아지가 볼일을 아무 데나 보면 보호자는 큰소리로 질책을 하기 쉽다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러면 강아지는 스트레스를 심하게 받고 보호자가 변을 보는 것이 두려워서 변을 숨기고자 먹어 버린다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=45353",
+            "search_query": "강아지 식분증 원인 배변훈련",
+            "terminate": false,
+            "text": "보통 생후 3개월부터 배변 훈련을 할 때 배변 실수를 한 경우 크게 혼나면 그럴 수 있어. 혼나면 강아지는 스트레스를 받고 보호자가 변을 볼까 봐 숨기고 먹어 치우게 되는 거야.",
+            "turn_id": "BK22015429-2",
+            "utterance_id": "BK22015429.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "배변 훈련을 잘해서 특별히 혼낸 적은 없는 것 같은데. 그러면, 다른 이유가 더 있을까?",
+            "turn_id": "BK22015429-3",
+            "utterance_id": "BK22015429.5"
+        },
+        {
+            "reference_date": "2019-02-17",
+            "reference_text": [
+                {
+                    "value": "단순한 호기심에 먹기도 한다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "넓은 장소와 충분한 놀이가 이뤄지지 않았을 때 어린 강아지들이 장난삼아 냄새를 맡고, 맛보다 습관으로 굳어지게 되는 것이다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/animalpeople/companion_animal/882438.html",
+            "search_query": "식분증 원인 호기심",
+            "terminate": false,
+            "text": "호기심에도 먹는 경우가 있어. 넓은 장소와 놀이가 충분하지 않으면 어린 강아지들은 변을 장난감 삼아 냄새 맡고 놀다가 먹는 게 습관이 되거든.",
+            "turn_id": "BK22015429-3",
+            "utterance_id": "BK22015429.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 강아지도 호기심이 원인일 수도 있겠네. 근데, 혹시 배고파서 변을 먹을 수도 있어?",
+            "turn_id": "BK22015429-4",
+            "utterance_id": "BK22015429.7"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "그러나 사료 급여가 충분하지 않아 영양 공급이 원활하게 이루어지지 않으면, 부족한 영양분을 본인의 배설물을 먹어 채우려 한다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000728518",
+            "search_query": "식분증 영양부족",
+            "terminate": false,
+            "text": "응, 사료가 충분하지 않아서 영양이 부족하면 먹기도 해. 부족한 영양분을 채우려고 본인의 배설물을 먹는 거야.",
+            "turn_id": "BK22015429-4",
+            "utterance_id": "BK22015429.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사료가 부족한지도 확인해 봐야겠구나. 그러면, 혹시 변을 먹을 때 바로 혼내면 될까?",
+            "turn_id": "BK22015429-5",
+            "utterance_id": "BK22015429.9"
+        },
+        {
+            "reference_date": "2019-05-23",
+            "reference_text": [
+                {
+                    "value": "일반적으로 행동학적 이유의 강아지 식분증을 고치려 할 때에는 혼내는 것보다 교육이 가장 중요합니다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대변을 먹는 것이 강아지에게 잘못된 행동이란 것을 알려주고, 먹으려 할 때 관심을 다른 곳으로 돌려주세요.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.notepet.co.kr/news/article/article_view/?idx=15752&groupCode=AB400AD935",
+            "search_query": "식분증 행동교정",
+            "terminate": false,
+            "text": "식분증을 고칠 때 혼내는 것은 좋지 않아. 식분증을 고치려면 교육이 필요한 데 변을 먹는 것은 잘못된 행동인 것을 알려주고, 먹으려고 할 때 관심을 다른 쪽으로 돌려주는 것이 좋아.",
+            "turn_id": "BK22015429-5",
+            "utterance_id": "BK22015429.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "변을 먹을 때 혼내면 안 좋구나. 그러면, 밖에서 배변하는 것은 어때?",
+            "turn_id": "BK22015429-6",
+            "utterance_id": "BK22015429.11"
+        },
+        {
+            "reference_date": "2019-06-18",
+            "reference_text": [
+                {
+                    "value": "실외 배변도 식분증 개선에 도움 된다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하루 1회 이상 규칙적인 산책은 원활한 배변 활동에 큰 도움이 되며 식분증을 고치는 데도 효과적이다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.imaeil.com/page/view/2019061110135948701",
+            "search_query": "식분증 실외배변",
+            "terminate": false,
+            "text": "밖에서 배변하게 하는 것은 식분증 개선에 도움이 되는 방법이야. 하루에 1회 이상 규칙적으로 산책하면 배변 활동도 원활하고 식분증을 고치는 데에도 도움이 될 거야.",
+            "turn_id": "BK22015429-6",
+            "utterance_id": "BK22015429.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하루에 꼭 1번씩은 산책을 데리고 나가야겠구나. 그리고, 또 다른 방법도 있어?",
+            "turn_id": "BK22015429-7",
+            "utterance_id": "BK22015429.13"
+        },
+        {
+            "reference_date": "2019-05-23",
+            "reference_text": [
+                {
+                    "value": "더불어 강아지 식분증 고치기 하는데 도움이 되는 일부 제품들이 출시되고 있습니다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "소화 흡수율을 높여서 대변에서 강아지에게 매력적으로 느낄만한 향이 덜 나게 하거나 대변에서 강아지가 싫어하는 향이 나도록 하는 제품들입니다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.notepet.co.kr/news/article/article_view/?idx=15752&groupCode=AB400AD935",
+            "search_query": "식분증 고치는 제품들",
+            "terminate": false,
+            "text": "강아지 식분증을 줄이는 데 도움이 되는 제품들도 있어. 소화, 흡수율을 높여서 변에서 강아지가 좋아하는 냄새가 덜 나게 하거나, 싫어하는 냄새가 나게 하는 것들이야.",
+            "turn_id": "BK22015429-7",
+            "utterance_id": "BK22015429.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 제품들도 도움이 될 것 같아. 혹시 식분증을 고치는 방법 더 있으면 알려 줘.",
+            "turn_id": "BK22015429-8",
+            "utterance_id": "BK22015429.15"
+        },
+        {
+            "reference_date": "2022-08-16",
+            "reference_text": [
+                {
+                    "value": "사료를 충분히 잘 먹고 있는지, 스트레스나 에너지를 해소할 수 있는 시간이 충분한지 확인하고 부족한 부분이 있다면 개선해야 한다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sisajournal.com/news/articleView.html?idxno=244065",
+            "search_query": "식분증 고치는 방법",
+            "terminate": false,
+            "text": "사료를 잘 먹는지도 확인하고, 스트레스와 에너지를 잘 해소하고 있는지를 확인해서 필요한 부분은 개선해 주는 것이 필요해.",
+            "turn_id": "BK22015429-8",
+            "utterance_id": "BK22015429.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어, 전반적으로 강아지를 잘 살펴줘야겠어. 식분증에 대해 궁금했는데 잘 알려줘서 고마워.",
+            "turn_id": "BK22015429-9",
+            "utterance_id": "BK22015429.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고맙긴, 더 궁금한 건 언제든지 물어봐.",
+            "turn_id": "BK22015429-9",
+            "utterance_id": "BK22015429.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 우리는 다음에 보자, 안녕.",
+            "turn_id": "BK22015429-10",
+            "utterance_id": "BK22015429.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "다음에 보자, 잘 가.",
+            "turn_id": "BK22015429-10",
+            "utterance_id": "BK22015429.20"
+        }
+    ]
+}

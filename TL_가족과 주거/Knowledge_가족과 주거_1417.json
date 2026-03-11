@@ -1,0 +1,386 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009252",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009252",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번에 언니가 복직하면서 조카를 어린이집에 보낼지, 유치원에 보낼지 고민하던데 두 곳이 딱히 다른 점이 있나요?",
+            "turn_id": "BK22009252-1",
+            "utterance_id": "BK22009252.1"
+        },
+        {
+            "reference_date": "2020-06-29",
+            "reference_text": [
+                {
+                    "value": "보육이 목적이기 때문에 어린이집은 6세 미만의 취학 전 아동이 대상이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "교육기관인 유치원은 3세부터 초등학교 취학 전의 어린이들이 다닌다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://weekly.khan.co.kr/khnm.html?mode=view&artid=202006191523151&code=115",
+            "search_query": "유치원과 어린이집 차이",
+            "terminate": false,
+            "text": "그럼요, 완전 다른걸요. 어린이집은 보육 목적이라 취학하기 전인 6세 미만의 아이들을 대상으로 하고, 유치원은 교육기관이라 3살부터 초등학교에 들어가기 전의 아이들을 대상으로 해요.",
+            "turn_id": "BK22009252-1",
+            "utterance_id": "BK22009252.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 혹시 관할 부서 자체도 다른 건가요? 전 두 곳 다 교육부 관할인 줄 알았거든요.",
+            "turn_id": "BK22009252-2",
+            "utterance_id": "BK22009252.3"
+        },
+        {
+            "reference_date": "2020-06-29",
+            "reference_text": [
+                {
+                    "value": "36개월 미만의 아기를 맡길 수 있는 곳은 어린이집이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보육 기능을 중심으로 영유아보육법 적용을 받는다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "유치원은 교육기관으로 유아교육법을 적용받는다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기관의 목적이 다르기 때문에 관할도 다르다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "어린이집은 보건복지부, 유치원은 교육부 관할이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://weekly.khan.co.kr/khnm.html?mode=view&artid=202006191523151&code=115",
+            "search_query": "유치원과 어린이집 관할 부서와 법률 차이",
+            "terminate": false,
+            "text": "맞아요, 기관들마다 목적이 서로 달라서 관할 부서도 달라요. 유치원만 교육부 관할이고 어린이집은 보건복지부 관할이에요. 어린이집은 36개월 미만인 아이들을 맡길 수 있다 보니 보육 기능이 중심적이라 영유아보육법을 적용하고, 유치원은 교육기관이라서 유아교육법을 적용하고요.",
+            "turn_id": "BK22009252-2",
+            "utterance_id": "BK22009252.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 관할 부서가 다르니까 부모가 부담해야 하는 비용도 달라지나요?",
+            "turn_id": "BK22009252-3",
+            "utterance_id": "BK22009252.5"
+        },
+        {
+            "reference_date": "2020-06-29",
+            "reference_text": [
+                {
+                    "value": "영유아보육법에 따라 어린이집 보육비용은 거의 국가와 지자체가 부담한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "부모가 내는 비용은 정규과정 이후의 특별활동이나 현장학습비 등의 비용(필요경비)뿐이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이마저도 필요경비에는 지역별로 상한제가 적용된다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://weekly.khan.co.kr/khnm.html?mode=view&artid=202006191523151&code=115",
+            "search_query": "어린이집 보육비용",
+            "terminate": false,
+            "text": "그렇죠. 어린이집은 영유아보육법에 따라서 보육 비용의 대부분을 국가와 지자체가 책임지거든요. 부모가 지불해야 하는 비용은 정규과정 외에 수행되는 특별활동이나 현장학습에 필요한 비용 같은 거예요. 이것도 지역마다 상한제가 다르게 적용되고 있고요.",
+            "turn_id": "BK22009252-3",
+            "utterance_id": "BK22009252.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어린이집은 상대적으로 부담이 적은가 보네요. 유치원은 그럼 어떤 편이에요?",
+            "turn_id": "BK22009252-4",
+            "utterance_id": "BK22009252.7"
+        },
+        {
+            "reference_date": "2020-06-29",
+            "reference_text": [
+                {
+                    "value": "유아교육법상 유치원은 인상률에 대한 상한제만 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "일정한 기준에 따른 원장의 판단하에 원비가 책정되기 때문에 국가와 지자체가 어느 정도 지원하지만, 상당 부분 학부모의 부담이 생긴다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://weekly.khan.co.kr/khnm.html?mode=view&artid=202006191523151&code=115",
+            "search_query": "유치원 보육비용",
+            "terminate": false,
+            "text": "유치원은 유아교육법에 따라서 인상률에 대한 상한제만 적용되고 있어요. 일관적인 기준에 따라서 원장이 판단한 원비가 적용되기 때문에 국가랑 지자체가 일정 부분 지원해도 상당 부분은 부모가 책임을 져야 하죠.",
+            "turn_id": "BK22009252-4",
+            "utterance_id": "BK22009252.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아~ 유치원은 상대적으로 원비를 자유롭게 책정할 수 있군요. 근데 인상률에 제한이 있는 거면 영어유치원은 왜 그렇게 원비가 비싼 거죠?",
+            "turn_id": "BK22009252-5",
+            "utterance_id": "BK22009252.9"
+        },
+        {
+            "reference_date": "2019-08-16",
+            "reference_text": [
+                {
+                    "value": "영어유치원으로 알려진 유아 대상 영어학원은 유아교육법에 따라 설립된 정식 유치원이 아니다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "유아를 대상으로 영어를 가르치는 사설학원일 뿐이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/society/article/2019081567791",
+            "search_query": "영어유치원은 사설학원이다",
+            "terminate": false,
+            "text": "왜냐하면 영어유치원은 유아 대상으로 운영되는 사설학원일 뿐이거든요. 흔히 영어유치원이라고 알려진 유아를 대상으로 하는 영어학원은 유아교육법에 따라 만들어진 정식 유치원이 아니에요.",
+            "turn_id": "BK22009252-5",
+            "utterance_id": "BK22009252.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유치원이 아니라 그냥 학원이라고요? 근데 유치원이라고 불러도 되는 건가요?",
+            "turn_id": "BK22009252-6",
+            "utterance_id": "BK22009252.11"
+        },
+        {
+            "reference_date": "2020-06-29",
+            "reference_text": [
+                {
+                    "value": "유아교육법에 따르면 학원이 유치원 명칭을 사용하면 과태료 부과뿐 아니라 시설 폐쇄까지도 가능하다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그럼에도 영어유치원이라는 법률상 존재하지 않는 명칭이 통용되고 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://weekly.khan.co.kr/khnm.html?mode=view&artid=202006191523151&code=115",
+            "search_query": "영어유치원 명칭 불법",
+            "terminate": false,
+            "text": "원래는 유아교육법에 따라서 학원 이름에 유치원이라는 명칭을 쓰면 안 돼요. 과태료가 부과될 뿐만 아니라 시설이 폐쇄될 수도 있거든요. 그런데도 법률상 쓸 수 없는 영어유치원이라는 명칭이 통용되고 있죠.",
+            "turn_id": "BK22009252-6",
+            "utterance_id": "BK22009252.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저런, 다들 유치원이라고 생각할 텐데 어떤 법적인 조치가 필요해 보이네요. 어떻게 사람들이 다 이런 착각을 하게 됐을까요?",
+            "turn_id": "BK22009252-7",
+            "utterance_id": "BK22009252.13"
+        },
+        {
+            "reference_date": "2019-08-16",
+            "reference_text": [
+                {
+                    "value": "하지만 학원들은 키워드 광고를 통해 학부모를 현혹하고 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "포털사이트에 영어유치원을 검색하면 유아 대상 영어학원이 연결되도록 하는 방식이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "학부모 사이에서도 유아 대상 영어학원은 ‘영유’로 불리며 정식 유치원과 동일 선상에서 받아들여지고 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/society/article/2019081567791",
+            "search_query": "영어유치원 키워드 광고로 학부모 현혹",
+            "terminate": false,
+            "text": "이런 학원들이 키워드 광고를 활용해서 부모들을 현혹하고 있거든요. 포털사이트 검색창에 영어유치원을 치면 유아를 대상으로 하는 영어학원으로 연결되도록 조처를 한 거예요. 그래서 학모부 사이에 유아 대상의 영어학원이 영유로 불리면서 정식 유치원이랑 같은 급이라고 받아들여진 거죠.",
+            "turn_id": "BK22009252-7",
+            "utterance_id": "BK22009252.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "문제가 상당히 심각해 보이네요. 그럼 혹시 영어유치원 교사들은 자격증이 따로 필요 없나요?",
+            "turn_id": "BK22009252-8",
+            "utterance_id": "BK22009252.15"
+        },
+        {
+            "reference_date": "2019-08-16",
+            "reference_text": [
+                {
+                    "value": "영어유치원에서 근무하는 교사 수준에도 의문이 제기된다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "영어유치원 교사 자격 기준은 일반 학원과 같다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전문대 졸업 또는 4년제 대학 3학년 이상 학생이면 누구나 교사가 될 수 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "유치원 정교사, 보육교사 자격증이 필요 없다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/society/article/2019081567791",
+            "search_query": "영어유치원 교사 수준 문제",
+            "terminate": false,
+            "text": "맞아요, 유치원 정교사, 보육교사 관련 자격증이 딱히 필요 없어요. 그래서 영어유치원에서 일하는 교사들의 수준에 대해서도 의문이 제기되고 있죠. 영어유치원에서 요구하는 교사의 자격 기준이 일반 학원들이랑 똑같거든요. 전문대를 졸업했거나 4년제 대학의 3학년 이상에 재학 중인 학생이면 누구든 교사로 일할 수 있어요.",
+            "turn_id": "BK22009252-8",
+            "utterance_id": "BK22009252.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "흠, 언니가 영어유치원도 알아보던데 가서 말해줘야겠네요. 아마 언니도 깜짝 놀라지 않을까 싶네요.",
+            "turn_id": "BK22009252-9",
+            "utterance_id": "BK22009252.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 하도록 해요. 아이들이 오랜 시간을 보내야 하는 곳이니까 좀 더 정확하게 알고 고르는 게 좋죠.",
+            "turn_id": "BK22009252-9",
+            "utterance_id": "BK22009252.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 안 그래도 조카가 예민한 편이라 걱정이 많은데 기왕이면 법적으로 보장된 곳을 다니는 게 좋을 것 같아요. 너무 필요한 정보였는데 알려주셔서 감사해요!",
+            "turn_id": "BK22009252-10",
+            "utterance_id": "BK22009252.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아니에요, 그렇게 큰일도 아닌데요, 뭐. 언니분이랑 이야기 잘 나눠봐요. 조심히 들어가고요!",
+            "turn_id": "BK22009252-10",
+            "utterance_id": "BK22009252.20"
+        }
+    ]
+}

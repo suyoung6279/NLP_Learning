@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015317",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015317",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 이번에 강아지를 입양했는데 드디어 내일 첫 산책하러 나가요! 근데 산책길을 미리 살펴보니까 진드기 주의 표지판이 있던데 이런 애들은 어디서 옮겨붙는 거죠?",
+            "turn_id": "BK22015317-1",
+            "utterance_id": "BK22015317.1"
+        },
+        {
+            "reference_date": "2022-04-08",
+            "reference_text": [
+                {
+                    "value": "진드기는 수풀 사이에 숨어 있다 강아지의 움직임 혹은 호흡시 발생하는 이산화탄소를 감지해 강아지에게 옮겨 붙는다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=59140",
+            "search_query": "강아지 진드기",
+            "terminate": false,
+            "text": "오, 드디어 첫 산책을 나가는군요. 제가 다 기대되는걸요? 일단 진드기는 수풀 사이사이에 숨어 있는데 강아지가 움직이거나 호흡할 때 이산화탄소를 내뱉으면 이걸 감지해서 옮겨붙어요.",
+            "turn_id": "BK22015317-1",
+            "utterance_id": "BK22015317.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저런, 수풀 사이를 다닐 떄 조심해야겠네요. 진드기가 붙으면 많이 위험한가요?",
+            "turn_id": "BK22015317-2",
+            "utterance_id": "BK22015317.3"
+        },
+        {
+            "reference_date": "2022-04-08",
+            "reference_text": [
+                {
+                    "value": "물론 진드기의 종류에 따라 별다른 증상이 나타나지 않는 경우도 있지만, 자칫 심각한 증상으로 이어질 수도 있다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대표적인 진드기 매개질환으로는 바베시아증과 라임병 등이 꼽힌다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=59140",
+            "search_query": "진드기 매개질환",
+            "terminate": false,
+            "text": "진드기가 어떤 종류냐에 따라 크게 증상이 안 나타날 수도 있고 심각한 증상을 유발하는 것도 있어요. 진드기가 매개체인 질환 중 대표적인 건 바베시아증과 라임병 등이 있고요.",
+            "turn_id": "BK22015317-2",
+            "utterance_id": "BK22015317.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "개중에 위험한 게 있군요. 바베시아증은 어떤 증상을 유발하는 병이에요?",
+            "turn_id": "BK22015317-3",
+            "utterance_id": "BK22015317.5"
+        },
+        {
+            "reference_date": "2022-04-08",
+            "reference_text": [
+                {
+                    "value": "바베시아증은 바베시아 원충이 원인이 되는 질병으로, 적혈구에 기생하며 빈혈, 혈소판감소증, 발열 등을 유발한다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=59140",
+            "search_query": "바베시아증",
+            "terminate": false,
+            "text": "바베시아증은 적혈구에 기생해서 사는 바베시아 원충 때문에 걸리는 병이에요. 빈혈이나 혈소판감소증, 발열 등의 증상을 유발하고요.",
+            "turn_id": "BK22015317-3",
+            "utterance_id": "BK22015317.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저런, 걸리지 않게 조심해야겠네요. 라임병은 또 어떤 병이에요?",
+            "turn_id": "BK22015317-4",
+            "utterance_id": "BK22015317.7"
+        },
+        {
+            "reference_date": "2022-04-08",
+            "reference_text": [
+                {
+                    "value": "라임병은 나선형의 보벨리아균이 침범해 뇌염, 신경염, 부정맥 등을 야기하는 질병이다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=59140",
+            "search_query": "라임병",
+            "terminate": false,
+            "text": "라임병은 나선형으로 생긴 보벨리아균이 몸속으로 침입해서 뇌염이나 신경염, 부정맥 등의 증상을 일으키는 병이에요.",
+            "turn_id": "BK22015317-4",
+            "utterance_id": "BK22015317.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "바베시아증보다 더 무서운 병인 것 같네요. 조심해야 할 것 같은데, 만약 진드기가 붙어 있는 걸 발견하면 바로 떼어내면 되나요?",
+            "turn_id": "BK22015317-5",
+            "utterance_id": "BK22015317.9"
+        },
+        {
+            "reference_date": "2022-04-08",
+            "reference_text": [
+                {
+                    "value": "만약 진드기가 붙은 것을 확인했다면, 진드기를 떼어내야 한다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "강아지가 움직이지 않도록 고정한 다음 강아지용 알코올로 소독해 핀셋으로 진드기를 떼낸다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이때 진드기의 침이 남아있지 않도록 최대한 가까이 잡아 떼야 하며, 뗀 이후에는 손으로 만져 확실히 없어졌는지 확인해야 한다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=59140",
+            "search_query": "강아지 진드기 떼는 법",
+            "terminate": false,
+            "text": "네, 강아지 몸에 진드기가 붙어 있는 게 보이면 떼어내면 돼요. 강아지가 움직일 수 없도록 몸을 잘 고정한 다음에 강아지 전용 알코올로 소독하고 핀셋으로 떼내면 돼요. 떼어낼 때는 진드기 침이 몸에 남지 않도록 최대한 가깝게 잡아서 떼야 하고, 떼어내고 난 뒤에는 손으로 만져봐서 다 제거됐는지 확인해야 하고요.",
+            "turn_id": "BK22015317-5",
+            "utterance_id": "BK22015317.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "진드기한테 침도 있다니, 잘 살펴야겠네요! 근데 제가 진드기를 실제로 본 적이 없어서 잘 뗄 수 있을지 모르겠는데 도저히 안 되겠으면 그땐 어떡하죠?",
+            "turn_id": "BK22015317-6",
+            "utterance_id": "BK22015317.11"
+        },
+        {
+            "reference_date": "2022-04-08",
+            "reference_text": [
+                {
+                    "value": "잘 떼어낼 자신이 없거나 필요 도구가 없다면 지체말고 병원으로 향해야 한다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=59140",
+            "search_query": "병원 진드기 제거 가능",
+            "terminate": false,
+            "text": "만약에 떼어낼 도구가 마땅치 않거나 잘 떼낼 자신이 없으면 바로 병원으로 가면 돼요. 너무 걱정하지 말아요.",
+            "turn_id": "BK22015317-6",
+            "utterance_id": "BK22015317.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산책로 주변에 가까운 동물 병원 위치를 좀 알아놔야겠네요. 아예 진드기가 안 붙게 예방하는 방법은 없나요?",
+            "turn_id": "BK22015317-7",
+            "utterance_id": "BK22015317.13"
+        },
+        {
+            "reference_date": "2022-04-08",
+            "reference_text": [
+                {
+                    "value": "주기적으로 기생충약을 바르거나 먹여야 하며, 산이나 숲 등 진드기 위험이 큰 곳을 방문할 때에는 진드기 방지 목걸이를 채우는 것도 좋다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=59140",
+            "search_query": "진드기 예방법",
+            "terminate": false,
+            "text": "그러면 기생충약을 주기적으로 발라주거나 먹여도 되고, 산이나 숲같이 진드기가 달라붙기 쉬운 곳을 갈 때는 진드기 방지용 목걸이 같은 걸 채워도 괜찮아요.",
+            "turn_id": "BK22015317-7",
+            "utterance_id": "BK22015317.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 너무 좋은 방법이에요. 그나저나 요즘 미세먼지가 너무 심해서 걱정이 되긴 하네요. 강아지들은 산책해도 별 이상 없겠죠?",
+            "turn_id": "BK22015317-8",
+            "utterance_id": "BK22015317.15"
+        },
+        {
+            "reference_date": "2022-04-08",
+            "reference_text": [
+                {
+                    "value": "미세먼지가 심한 날은 야외활동을 자제할 수 있도록 하고, 어쩔 수 없이 산책을 다녀왔다면 충분한 빗질과 목욕이 필요하다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=59140",
+            "search_query": "미세먼지 강아지 산책 주의사항",
+            "terminate": false,
+            "text": "음, 미세먼지가 심하면 야외활동은 자제하는 게 좋긴 해요. 그래도 어쩔 수 없이 산책을 다녀와야 한다면 목욕이랑 빗질을 충분히 해주도록 하고요.",
+            "turn_id": "BK22015317-8",
+            "utterance_id": "BK22015317.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지한테도 미세먼지는 안 좋군요. 일단 내일 날씨를 좀 지켜봐야겠어요.",
+            "turn_id": "BK22015317-9",
+            "utterance_id": "BK22015317.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "날이 좀 더 맑으면 좋을 텐데 저도 괜히 걱정되네요~.",
+            "turn_id": "BK22015317-9",
+            "utterance_id": "BK22015317.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하하, 걱정해 주셔서 감사해요. 내일 산책 다녀오면 후기 들려드릴게요! 그럼, 조심히 들어가세요!",
+            "turn_id": "BK22015317-10",
+            "utterance_id": "BK22015317.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 궁금이님도 조심해서 들어가요!",
+            "turn_id": "BK22015317-10",
+            "utterance_id": "BK22015317.20"
+        }
+    ]
+}

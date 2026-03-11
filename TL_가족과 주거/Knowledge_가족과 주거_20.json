@@ -1,0 +1,373 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012372",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012372",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0007"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 드라마나 영화를 보면 가족 개념이 많이 유연해 진 것 같아요.",
+            "turn_id": "BK22012372-1",
+            "utterance_id": "BK22012372.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 시대와 사회가 변화함에 따라서 가족의 범위가 확장되고 있지요.",
+            "turn_id": "BK22012372-1",
+            "utterance_id": "BK22012372.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대중 매체에서 묘사되는 가족 말고도, 실제 우리 삶 속에서 가족의 형태가 다양해지고 있나요?",
+            "turn_id": "BK22012372-2",
+            "utterance_id": "BK22012372.3"
+        },
+        {
+            "reference_date": "44333.0",
+            "reference_text": [
+                {
+                    "value": "표준이자 정상 가족으로 여겼던 부부와 미혼자녀 가구 비중이 2019년 기준, 29.8%에 불과하다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대신 1인 가구는 30.2%, 2인 가구는 27.8%로, 전체 가구의 58%가 됐다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2021051718544544488",
+            "search_query": "뉴노멀시대 가족관계",
+            "terminate": false,
+            "text": "2019년을 기준으로 하여 표준적 가족, 이른바 정상 가족으로 여겼던 부부와 미혼자녀로 이루어진 가구의 비중이 전체의 29.8퍼센트였어요. 대신 1인 가구는 전체의 30.2퍼센트였으며, 2인 가구는 27.8퍼센트 즉 전체 가구의 58퍼센트가 되었어요.",
+            "turn_id": "BK22012372-2",
+            "utterance_id": "BK22012372.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전체의 58퍼센트가 1인 아니면 2인 가구네요. 그렇다면 국민의 인식은 어떤가요?",
+            "turn_id": "BK22012372-3",
+            "utterance_id": "BK22012372.5"
+        },
+        {
+            "reference_date": "44333.0",
+            "reference_text": [
+                {
+                    "value": "가족에 대한 인식에는 변화의 바람이 더 거세다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2020년 가족 다양성에 대한 국민인식조사 결과를 보면, 국민의 69.7%가 혼인·혈연 관계가 아니어도 생계와 주거를 함께한다면 가족이 될 수 있다고 했다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "나아가 국민의 39.9%는 함께 살지도, 생계를 함께하지 않아도 정서적 유대감을 가진 친밀한 관계라면 가족이 될 수 있다고 답했다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2021051718544544488",
+            "search_query": "뉴노멀시대 가족관계",
+            "terminate": false,
+            "text": "2020년에 가족 다양성에 대해 인식조사를 했어요. 국민의 69.7퍼센트가 혈연이나 혼인 관계가 아니어도 주거와 생계를 같이한다면 가족이 될 수 있다고 응답했어요. 더 나아가서 국민의 39.9퍼센트는 같이 살지 않아도, 또 생계를 같이하지 않더라도 정서적으로 유대감을 가지고 있는 친밀한 관계라면 가족이 될 수 있다고 응답했어요. 가족에 대한 국민들의 인식 역시 많이 변화한 것으로 보이죠.",
+            "turn_id": "BK22012372-3",
+            "utterance_id": "BK22012372.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "실제 가족 형태뿐만 아니라 인식도 정말 많이 바뀌었네요. 그런데 이런 변화가 긍정적인 건가요?",
+            "turn_id": "BK22012372-4",
+            "utterance_id": "BK22012372.7"
+        },
+        {
+            "reference_date": "44333.0",
+            "reference_text": [
+                {
+                    "value": "1인 가구 증가, 혼인율 하락, 출산율 하락, 이혼율 증가와 같이 통계수치만 본다면, 이 모든 현상은 가족해체의 징후, 막아야 할 사회문제로 여겨진다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "현재 정부의 가족법과 정책은 이런 인식에 토대하고 있다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2021051718544544488",
+            "search_query": "뉴노멀시대 건강가정기본법",
+            "terminate": false,
+            "text": "지금 정부의 가족 법과 정책은 1인 가구가 증가하고 혼인율이나 출산율이 하락하고 이혼율이 증가했다는 통계수치를 부정적으로 생각해요. 가족해체의 징후이며 예방해야 할 사회적 문제라고 생각하거든요.",
+            "turn_id": "BK22012372-4",
+            "utterance_id": "BK22012372.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 구체적으로 어떤 법안이 그런 내용을 담고 있나요?",
+            "turn_id": "BK22012372-5",
+            "utterance_id": "BK22012372.9"
+        },
+        {
+            "reference_date": "44333.0",
+            "reference_text": [
+                {
+                    "value": "2004년 제정된 건강가정기본법이 대표적이다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "제정 당시부터 건강한 가족과 건강하지 않은 가족으로 구분해 차별적이라는 비판을 받았다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "혼인과 출산에 대한 개인의 선택을 존중, 지원하기보다 사회적 중요성을 인식해야 한다는 국가주의 사고를 강요한다고 비판받았다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2021051718544544488",
+            "search_query": "뉴노멀시대 가족 관계 변화",
+            "terminate": false,
+            "text": "건강가정기본법이 있어요. 2004년에 제정될 때부터 건강한 가족과 건강하지 않은 가족을 구분해서 차별적이라는 비판받았었죠. 결혼이나 출산에 대해 개인의 선택을 존중하기보다는 사회적 중요성을 인식해야 한다는 식의 국가주의적 관점을 강요한다고 비판받기도 했죠.",
+            "turn_id": "BK22012372-5",
+            "utterance_id": "BK22012372.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러고 보니 법의 이름부터 건강가정기본법이라니, 어떤 가족이 건강한 가족이고 어떤 가족이 건강하지 않은 가족인지 알 수 없잖아요. 차별적이긴 하네요.",
+            "turn_id": "BK22012372-6",
+            "utterance_id": "BK22012372.11"
+        },
+        {
+            "reference_date": "44333.0",
+            "reference_text": [
+                {
+                    "value": "법명을 가족정책기본법으로 변경하고 전면 개정해야 한다는 지속적 요구가 있었다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "올 4월, 제4차 건강가정기본계획이 발표됐고, 건강가정 용어 개정, 혼외자 등 차별적 용어 개선 검토 등의 내용이 담겼다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2021051718544544488",
+            "search_query": "가족정책기본법 뉴노멀",
+            "terminate": false,
+            "text": "그렇다 보니 법명을 가족정책기본법을 변경하고 전체적으로 개정해야 한다는 지속적인 요구가 있었어요. 21년 4월에 제4차 건강가정기본계획이 발표되었고, 계획안에는 건강가정이라는 용어를 개정하고, 혼외자 등의 차별적인 용어를 개선할 수 있도록 검토하겠다는 내용이 포함되어 있었어요.",
+            "turn_id": "BK22012372-6",
+            "utterance_id": "BK22012372.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가족 개념은 변화하고 있는데, 법안이 따라가고 있지 못해서 변화하고자 한다는 말씀이시군요. 그 밖에도 가족 인식에 대한 다른 변화 사례가 있나요?",
+            "turn_id": "BK22012372-7",
+            "utterance_id": "BK22012372.13"
+        },
+        {
+            "reference_date": "44333.0",
+            "reference_text": [
+                {
+                    "value": "가족 다양성 조사에서, 우리 국민의 67%가 결혼하지 않고 동거하는 것에, 48.3%가 결혼하지 않고 아이를 낳는 것에 찬성했다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2021051718544544488",
+            "search_query": "뉴노멀 비혼 출산",
+            "terminate": false,
+            "text": "네, 가족 다양성 조사 결과 우리나라 국민의 67퍼센트가 결혼하지 않고 동거하는 것에 찬성했고, 전체의 48.3퍼센트는 결혼하지 않고 아이를 낳는 것을 찬성했어요.",
+            "turn_id": "BK22012372-7",
+            "utterance_id": "BK22012372.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "연예인 사유리 씨가 생각나는 설문조사네요.",
+            "turn_id": "BK22012372-8",
+            "utterance_id": "BK22012372.15"
+        },
+        {
+            "reference_date": "44300.0",
+            "reference_text": [
+                {
+                    "value": "자발적 비혼모이자 방송인인 후지타 사유리(42)가 KBS 예능프로그램인 ‘슈퍼맨이 돌아왔다’에 출연한다는 소식이 전해지자, KBS 시청자 청원에는 ‘자발적 비혼모 사유리씨의 출연에 절대 반대합니다’라는 제목의 이슈청원이 올라왔다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=94479",
+            "search_query": "사유리 슈퍼맨이 돌아왔다 반대 시위",
+            "terminate": false,
+            "text": "방송인 후지타 사유리 씨는 자발적 비혼모인데요. KBS의 예능프로그램인 슈퍼맨이 돌아왔다에 출연한다는 소식이 들리자, KBS 시청자 청원에는 그녀의 방송 출연을 반대하는 청원이 올라왔어요.",
+            "turn_id": "BK22012372-8",
+            "utterance_id": "BK22012372.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "육아 예능 말씀이시군요. 왜 사람들은 사유리 씨가 방송 출연하는 것을 반대한 거예요?",
+            "turn_id": "BK22012372-9",
+            "utterance_id": "BK22012372.17"
+        },
+        {
+            "reference_date": "44300.0",
+            "reference_text": [
+                {
+                    "value": "청원내용은 사유리가 비혼주의를 조장한다는 것과 아버지의 부재로 아이가 겪을 정신적 혼란과 고통이 비춰지지 않고 미화될 것이라며 ‘슈퍼맨이 돌아왔다’ 방송출연을 반대한다는 것.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "14일 기준으로 청원의 동의 수는 4399명이다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=94479",
+            "search_query": "사유리 슈퍼맨이 돌아왔다 반대 청원",
+            "terminate": false,
+            "text": "출연을 반대한 이유는, 사유리 씨가 비혼주의를 조장한다는 거예요. 또 아버지가 없기 때문에 아이가 겪을 정신적 혼란과 고통이 비치지 않고 방송을 통해 미화될 수 있다고 반대했어요. 2021년 4월 14일 기준으로 청원 동의 인원은 4,399명이나 되었어요.",
+            "turn_id": "BK22012372-9",
+            "utterance_id": "BK22012372.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 어떻게 되었어요? 사유리 씨는 슈퍼맨이 돌아왔다에 출연할 수 있었나요?",
+            "turn_id": "BK22012372-10",
+            "utterance_id": "BK22012372.19"
+        },
+        {
+            "reference_date": "44286.0",
+            "reference_text": [
+                {
+                    "value": "KBS 측은 \"사유리의 '슈퍼맨이 돌아왔다' 출연은 비혼 장려를 주장하는 것이 아니라 시대가 변하면서 다양한 가족의 형태가 생기고 있다는 것을 보여주는 것\"이라며 \"사유리 가족 역시 다양한 가족의 형태 중 하나일 뿐이다\"고 말했다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그리고 \"사유리의 하차는 없을 것\"이라고 못박았다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.chosun.com/news/ntype.htm?id=202104010100002390015798&servicedate=20210331",
+            "search_query": "사유리 슈퍼맨이 돌아왔다 규탄 시위",
+            "terminate": false,
+            "text": "결과적으로는 하차하지 않고 방송에 출연했어요. KBS는 사유리 씨가 방송 출연을 함으로써 비혼 장려를 말하는 것이 아니라, 시대의 흐름에 따라 다양한 가족 형태가 생겨나는 것을 보여주는 것이라고 답변했어요. 사유리 씨의 가족 역시 다양한 가족 형태의 하나일 뿐이라고 인터뷰도 했죠.",
+            "turn_id": "BK22012372-10",
+            "utterance_id": "BK22012372.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "어머니, 아버지, 자녀들로 구성된 가족도 있지만 그 외의 다양한 가족 형태가 있다는 사실을 다시 한번 생각해 보게 되었어요.",
+            "turn_id": "BK22012372-11",
+            "utterance_id": "BK22012372.21"
+        }
+    ]
+}

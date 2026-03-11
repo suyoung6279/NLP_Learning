@@ -1,0 +1,415 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.5,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.6,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22017099",
+        "name": "2022 한국어 블렌더봇 데이터 BK22017099",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 3.8,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "데이팅 앱 개발을 위해 실시한 시장 데이터 조사 결과를 알아보려고 왔습니다. 데이팅 앱 사용자 수부터 알려주시겠어요?",
+            "turn_id": "BK22017099-1",
+            "utterance_id": "BK22017099.1"
+        },
+        {
+            "reference_date": "44680.0",
+            "reference_text": [
+                {
+                    "value": "리포트에 따르면 지난 3월 기준 상위 10개 데이팅 앱의 월간 순이용자(MAU) 수는 78만7184명(중복값 제외)으로 집계됐다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 코로나19가 본격적으로 확산하기 이전인 지난 2019년 4월(58.4만명)과 비교하면 34.8% 증가한 수치다.",
+                    "value_time": "44826.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/264VPX8Y0P",
+            "search_query": "데이팅 앱 이용자 수",
+            "terminate": false,
+            "text": "리포트에 따르면 2022년 3월 기준 상위 10개 데이팅 앱 월간 순 이용자 수는 78만 7,184명입니다. 이는 코로나19가 확산하기 전인 2019년 4월의 58만 4천 명보다 34.8% 증가한 수치입니다.",
+            "turn_id": "BK22017099-1",
+            "utterance_id": "BK22017099.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사용하는 사람이 정말 많이 늘었네요. 데이팅 앱에 지출하는 금액은 어느 정도죠?",
+            "turn_id": "BK22017099-2",
+            "utterance_id": "BK22017099.3"
+        },
+        {
+            "reference_date": "44282.0",
+            "reference_text": [
+                {
+                    "value": "한국 역시 데이팅 앱을 통한 지출이 늘어나고 있다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "앱애니에 따르면 지난해 국내 소비자들은 지난해 데이팅 앱에 약 830억원을 쓴 것으로 나타났다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/economy/view.php?sc=50000001&year=2021&no=281053",
+            "search_query": "데이팅 앱 지출",
+            "terminate": false,
+            "text": "우리나라에서 데이팅 앱을 통해 지출되는 금액은 늘어나고 있습니다. 앱애니에 따르면 2020년 데이팅 앱에 우리나라 소비자들은 830억 원을 사용했습니다.",
+            "turn_id": "BK22017099-2",
+            "utterance_id": "BK22017099.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "젊은 MZ 세대들이 많이 이용하는 것 같은데 MZ 세대들이 데이팅 앱을 사용하는 이유도 말씀해주시겠어요?",
+            "turn_id": "BK22017099-3",
+            "utterance_id": "BK22017099.5"
+        },
+        {
+            "reference_date": "44282.0",
+            "reference_text": [
+                {
+                    "value": "MZ세대는 대체로 부담스러운 관계를 싫어하는 경향이 있다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "심지어 소개팅조차 부담스럽다는 경우도 있다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이들은 만날 수 있는 기회를 확대하기 위해 미디어를 이용한다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사이버 공간에서 관계를 형성해주는 데이팅 앱이 성행하는 이유다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/economy/view.php?sc=50000001&year=2021&no=281053",
+            "search_query": "데이팅 앱 MZ세대",
+            "terminate": false,
+            "text": "MZ 세대 사이에서 데이팅 앱이 인기가 있는 이유는 MZ 세대 대부분이 부담스러운 관계를 싫어하는 분위기가 있기 때문입니다. 소개팅을 부담스러워하는 경향조차 있습니다. 그렇기에 만나는 기회를 늘리기 위해서 미디어를 사용하게 되고, 사이버 공간에서 관계를 만들 수 있는 데이팅 앱을 많이 사용하는 겁니다.",
+            "turn_id": "BK22017099-3",
+            "utterance_id": "BK22017099.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그럼 소개팅 앱은 어떤 종류가 있나요? 앱 전략과 함께 이야기해주실 수 있나요?",
+            "turn_id": "BK22017099-4",
+            "utterance_id": "BK22017099.7"
+        },
+        {
+            "reference_date": "44463.0",
+            "reference_text": [
+                {
+                    "value": "소개팅 앱 종류는 크게 두 가지로 나뉜다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "소수의 고스펙 이용자들을 확보하는 프리미엄 앱과 최대한 많은 고객을 유치하기 위해 아예 진입장벽을 없애는 대중화 전략을 사용하는 앱이다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.kmib.co.kr/article/view.asp?arcid=0016299613&code=61121111&cp=nv",
+            "search_query": "소개팅 앱 종류",
+            "terminate": false,
+            "text": "소개팅 앱은 두 종류가 있습니다. 하나는 프리미엄 앱이고 다른 하나는 진입 장벽을 없앤 앱입니다. 전자는 수는 적지만 조건이 좋은 사람을 확보하려 하고 후자는 진입 장벽을 낮춰 최대한 많은 고객을 모으는 대중화 전략을 사용합니다.",
+            "turn_id": "BK22017099-4",
+            "utterance_id": "BK22017099.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "서로 다른 전략을 사용해 고객을 모은다고 해도 남녀 성비가 맞아야 매칭도 잘 될 텐데 남녀 성비는 어떤가요?",
+            "turn_id": "BK22017099-5",
+            "utterance_id": "BK22017099.9"
+        },
+        {
+            "reference_date": "44680.0",
+            "reference_text": [
+                {
+                    "value": "앱 이용자의 성별 비중은 남성이 압도적이었다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "상위 10개 앱의 평균 성비는 남성 79.7%, 여성 20.3%로 집계됐다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/264VPX8Y0P",
+            "search_query": "데이팅 앱 성비",
+            "terminate": false,
+            "text": "상위 10개 앱 이용자 평균 성별 비율은 남성이 79.7%, 여성이 20.3%입니다. 이처럼 앱 이용자 중 남성이 차지하는 비율이 훨씬 높습니다.",
+            "turn_id": "BK22017099-5",
+            "utterance_id": "BK22017099.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이렇게 성비가 불균형한데 데이팅 앱 회사들은 어떻게 대응하고 있나요?",
+            "turn_id": "BK22017099-6",
+            "utterance_id": "BK22017099.11"
+        },
+        {
+            "reference_date": "44463.0",
+            "reference_text": [
+                {
+                    "value": "남성들은 자신의 수저를 증명하기 위해 연 수입과 직업, 자신이 가진 차량이나 강남 3구 아파트 거주 여부 등을 써낸다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "여성은 요구 조건이 또 다르다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자신의 사진을 올려 까다로운 가입 문턱을 넘은 남성들로부터 평가받아야 한다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "남성에게 유독 엄격한 기준은 성비 불균형 현상에서 비롯된다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.kmib.co.kr/article/view.asp?arcid=0016299613&code=61121111&cp=nv",
+            "search_query": "데이팅 앱 남녀 요구 조건",
+            "terminate": false,
+            "text": "데이팅 앱 회사들은 성비 불균형을 해결하기 위해 남성에게 더 높은 기준을 적용하고 있습니다. 남성들은 자신의 사회적 위치를 입증하기 위해 연 수입, 직업, 소유한 차량 등 여러 정보를 공개해야 합니다. 여성의 조건은 이와 달리 사진을 공개하고 그 사진을 통해 남성의 평가를 받는 방식입니다.",
+            "turn_id": "BK22017099-6",
+            "utterance_id": "BK22017099.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "남녀 간의 가입 조건 차이를 둬서 성비를 맞추려고 하고 있군요. 업체에서 가짜 계정을 동원하기도 한다는데 그 문제는 어떻게 발생하게 된 건가요?",
+            "turn_id": "BK22017099-7",
+            "utterance_id": "BK22017099.13"
+        },
+        {
+            "reference_date": "44669.0",
+            "reference_text": [
+                {
+                    "value": "누적 회원수 630만 명에 이르는 소개팅 앱 업체가 수백 개의 가짜 계정을 만들어 직원들에게 여성 회원으로 활동하도록 강요했다는 내부 고발이 나왔다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "파란색(남성)으로 표시된 글이 압도적으로 많으면 여성들의 활동이 위축되고, 이는 남성들의 이탈까지 유발하게 된다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2022041323570003727",
+            "search_query": "데이팅 앱 가짜 계정",
+            "terminate": false,
+            "text": "내부 고발에 따르면 누적 회원 수 630만 명이 사용하는 앱 업체가 몇백 개의 가짜 계정을 등록하고 직원들에게 여성 회원인 것처럼 활동하도록 강요하는 방식으로 이루어졌습니다. 남성으로 표시되는 글이 많으면 여성 고객의 활동이 줄어들고 남성 고객들 또한 줄어들 게 되는데, 이를 막기 위해 업체가 가짜 계정을 활용한 것입니다.",
+            "turn_id": "BK22017099-7",
+            "utterance_id": "BK22017099.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가짜 계정 사건도 성비로 인해 발생한 걸로 봐야겠네요. 이런 가짜 계정 문제 외에 데이팅 앱에는 또 어떤 문제가 있나요?",
+            "turn_id": "BK22017099-8",
+            "utterance_id": "BK22017099.15"
+        },
+        {
+            "reference_date": "43729.0",
+            "reference_text": [
+                {
+                    "value": "데이팅 앱을 통해 성매매가 이뤄지거나 금전 갈취, 사기 등 범죄로 이어지는 사례가 빈번하다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "경찰과 여성가족부는 지난해 1~8월 데이팅 앱을 통합 청소년 성범죄를 단속해 23건, 43명을 적발했다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2019092013302794391",
+            "search_query": "데이팅 앱 범죄",
+            "terminate": false,
+            "text": "데이팅 앱을 이용해 성매매하거나 사기와 같은 범죄를 저지르는 문제가 있습니다. 경찰과 여성가족부는 2018년 1월에서 8월까지 데이팅 앱을 통해 이루어지는 청소년 성범죄를 추적한 결과 23개의 사건과 43명을 적발하였습니다.",
+            "turn_id": "BK22017099-8",
+            "utterance_id": "BK22017099.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "범죄에 악용되는 것도 문제지만 사회적으로도 악영향이 있을 것 같은데 데이팅 앱은 사회에 어떤 영향을 미치는지 알려주시겠어요?",
+            "turn_id": "BK22017099-9",
+            "utterance_id": "BK22017099.17"
+        },
+        {
+            "reference_date": "43729.0",
+            "reference_text": [
+                {
+                    "value": "데이팅 앱이 지나친 외모·스펙 지상주의와 조건 만남을 조장한다는 우려도 나온다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "외모 평점을 매기거나 명문대·대기업 사용자만 가입할 수 있는 서비스가 만연해서다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2019092013302794391",
+            "search_query": "데이팅 앱 외모지상주의",
+            "terminate": false,
+            "text": "데이팅 앱이 사회적으로 외모, 스펙 지상주의와 조건 만남을 과도하게 부추긴다는 우려가 있습니다. 외모를 평가해 점수를 매기거나 대학교, 직장이 어떤 곳이냐에 따라 가입 제한을 두는 경우가 많기 때문입니다.",
+            "turn_id": "BK22017099-9",
+            "utterance_id": "BK22017099.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "앱을 개발할 때 그런 악영향도 고려해야겠네요. 데이팅 앱처럼 상대방을 온라인으로 만나는 것에 대한 우리나라 사람들의 시각은 어떤가요?",
+            "turn_id": "BK22017099-10",
+            "utterance_id": "BK22017099.19"
+        },
+        {
+            "reference_date": "43634.0",
+            "reference_text": [
+                {
+                    "value": "18일 결혼정보회사 듀오가 미혼남녀 387명을 대상으로 한 설문조사에 따르면 응답자 65.9%가 온라인을 통한 이성 만남에 부정적이라고 응답했다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "여성(82.8%)이 남성(47.0%)보다 온라인 만남을 더 부정적으로 생각했다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/site/data/html_dir/2019/06/18/2019061801036.html",
+            "search_query": "데이팅 앱 생각",
+            "terminate": false,
+            "text": "2019년 6월 18일에 결혼 정보회사 듀오가 응답자 387명에게 실시한 설문조사에 따르면 65.9%가 온라인을 통해 이성을 만나는 것을 좋지 않게 생각하고 있습니다. 특히 여성은 82.8%가 온라인 만남을 부정적으로 바라봐, 47%를 기록한 남성보다 더 안 좋은 시각으로 바라보고 있습니다.",
+            "turn_id": "BK22017099-10",
+            "utterance_id": "BK22017099.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "앱을 이용하는 사람은 늘어났지만, 아직도 많은 사람이 오프라인 외에 다른 방식으로 사람을 만나는 걸 부정적으로 바라보고 있는 것도 사실이군요. 알려줘서 고마워요. 시장 상황과 예상되는 문제점들을 잘 정리해서 회사에 보고해야겠어요.",
+            "turn_id": "BK22017099-11",
+            "utterance_id": "BK22017099.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 됐다니 다행입니다. 돌아가셔서 보고서 잘 작성하시기 바랍니다.",
+            "turn_id": "BK22017099-11",
+            "utterance_id": "BK22017099.22"
+        }
+    ]
+}

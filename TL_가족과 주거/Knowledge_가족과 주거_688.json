@@ -1,0 +1,377 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016058",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016058",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0012"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지를 처음으로 키워보는데 어떻게 관리를 해야 할지 모르겠어요. 접종은 언제부터 해야 하나요?",
+            "turn_id": "BK22016058-1",
+            "utterance_id": "BK22016058.1"
+        },
+        {
+            "reference_date": "2018-10-17",
+            "reference_text": [
+                {
+                    "value": "반려동물도 마찬가지로 태어난 지 8주가 되면 예방접종을 진행하여 면역항체를 키워 주는 것이 좋다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 너무 이른 시기에 진행해서도 안 되며 정확한 접종 시기에 항체 생성 능력을 키우게끔 시기를 맞추는 노력이 중요하다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.e2news.com/news/articleView.html?idxno=203322",
+            "search_query": "강아지 예방접종 시기",
+            "terminate": false,
+            "text": "강아지는 태어난 지 8주가 되면 예방접종을 해서 항체를 키워줘야 해요. 너무 이르거나 늦은 시기가 아닌 정확한 시기에 접종하는 게 중요하죠.",
+            "turn_id": "BK22016058-1",
+            "utterance_id": "BK22016058.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "8주쯤 되면 접종을 시작해야 하는군요. 8주 시기에 예방 접종을 하면 그 이후로는 안 해도 되는 건가요?",
+            "turn_id": "BK22016058-2",
+            "utterance_id": "BK22016058.3"
+        },
+        {
+            "reference_date": "2022-08-27",
+            "reference_text": [
+                {
+                    "value": "또, 강아지와 고양이는 사람과 달리 1회 접종한다고 해서 평생 면역이 생기는 것이 아니라 주기적으로 추가 접종이 필요하다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "강아지 예방접종 중 기본 접종으로 불리는 종합백신(DHPPL)은 홍역과 전염성 간염, 파보 바이러스(장염), 파라 인플루엔자(Parainfluenza), 렙토스피라증(Leptospirasis)을 예방하는 백신이다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "생후 6~8주 사이에 첫 접종을 시작해서 2~3주 간격으로 총 5회 접종하고 매년 1회 추가 접종해야 한다",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1416014/%ec%9c%84%eb%93%9c%ed%8e%ab-%ea%b0%95%ec%95%84%ec%a7%80%ec%9d%98-%ea%b1%b4%ea%b0%95-%ec%a7%80%ed%82%a4%ea%b8%b0-%ec%b2%ab%ea%b1%b8%ec%9d%8c%ec%9d%80-%ec%98%88%eb%b0%a9%ec%a0%91%ec%a2%85/",
+            "search_query": "강아지 예방접종 주기",
+            "terminate": false,
+            "text": "아니요. 강아지는 주기적으로 추가 접종을 해야 해요. 가장 기본이 되는 접종인 종합 백신은 홍역, 전염성 간염, 파보 바이러스, 파라 인플루엔자, 렙토스피라증을 예방하는 백신인데, 6주에서 8주 사이에 첫 접종 후 2주에서 3주마다 추가로 접종해서 총 다섯 번을 맞아야 해요. 그 이후로는 1년마다 추가 접종이 필요하고요.",
+            "turn_id": "BK22016058-2",
+            "utterance_id": "BK22016058.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "매년 추가접종을 해야 하는군요. 강아지 사회화도 중요하다고 들었어요. 사회화시키려면 어떤 방법이 가장 효과적인가요?",
+            "turn_id": "BK22016058-3",
+            "utterance_id": "BK22016058.5"
+        },
+        {
+            "reference_date": "2022-10-01",
+            "reference_text": [
+                {
+                    "value": "사회화 훈련에서 가장 좋은 것은 산책이라, 자주 함께 산책하는 것이 좋아요.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01321846632488656&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "강아지 사회화 방법 산책",
+            "terminate": false,
+            "text": "강아지의 사회화 훈련에 가장 좋은 방법은 산책을 하는 거예요. 그렇기 때문에 반려견과 함께 자주 산책해주시는 게 좋은 거죠.",
+            "turn_id": "BK22016058-3",
+            "utterance_id": "BK22016058.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산책을 어릴 때부터 자주 나가야겠네요. 그럼 중성화 수술은 언제부터 할 수 있나요?",
+            "turn_id": "BK22016058-4",
+            "utterance_id": "BK22016058.7"
+        },
+        {
+            "reference_date": "2021-12-31",
+            "reference_text": [
+                {
+                    "value": "만약 강아지 고양이 중성화 수술을 결심했다면, 첫 발정기이자 반려동물의 청소년기라고 할 수 있는 생후 4~8개월 시기에 받는 것을 권장한다.",
+                    "value_time": "2022-10-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "발정기가 지나가고 받게 될 경우 수컷은 이전의 발정기 행동이 습관화돼 지속할 수 있으니 기간 안에 받는 것이 좋다.",
+                    "value_time": "2022-10-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.jejutwn.com/news/article.html?no=117232",
+            "search_query": "강아지 중성화 수술 시기",
+            "terminate": false,
+            "text": "중성화 수술은 첫 발정기이자 반려동물의 청소년기인 생후 4개월에서 8개월 사이에 하는 게 좋아요. 수컷 강아지가 발정기가 지난 후에 수술하게 되면 발정기의 행동이 습관이 될 수도 있거든요.",
+            "turn_id": "BK22016058-4",
+            "utterance_id": "BK22016058.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "중성화 수술도 적절한 시기에 해야겠네요. 그런데 중성화 수술은 반드시 해야 하는 걸까요?",
+            "turn_id": "BK22016058-5",
+            "utterance_id": "BK22016058.9"
+        },
+        {
+            "reference_date": "2015-08-05",
+            "reference_text": [
+                {
+                    "value": "가끔 보호자가 진료 중 '중성화 수술을 꼭 해줘야 하는지'에 대한 질문을 하는데, 정답은 “반드시 해야 한다”다.",
+                    "value_time": "2022-10-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수컷의 경우 중성화 수술을 하지 않으면, 여러 가지 행동학적인 스트레스의 표출 행위, 그리고 노령에 들어감에 따라 전립선 비대증으로 인한 소변을 누기 힘들어하는 증상, 심하면 혈뇨·종양까지 오는 경우가 많다.",
+                    "value_time": "2022-10-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "암컷의 경우는 평생 생리를 하기 때문에 노령견이 자궁질환, 유선종양, 난소낭종 등 여러 가지 질환으로 힘들어하는 경우가 많다.",
+                    "value_time": "2022-10-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?2361902",
+            "search_query": "중성화 수술 꼭 해야 하는지",
+            "terminate": false,
+            "text": "그럼요. 중성화 수술은 반드시 해야 해요. 수컷은 중성화 수술을 하지 않으면 행동학적인 스트레스 표출 행위를 할 수도 있고 나이가 들면서 전립선 비대증으로 인해 소변을 보기 힘들어질 수 있고 혈뇨와 종양까지 생길 수 있어요. 암컷은 중성화 수술을 하지 않으면 평생 생리를 하기 때문에 나이가 들면 자궁질환, 유선종양, 난소낭종 등의 질환이 생길 수 있고요.",
+            "turn_id": "BK22016058-5",
+            "utterance_id": "BK22016058.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "질병을 예방하는 효과가 있다니 꼭 해야겠어요. 강아지 목욕은 얼마마다 시켜주는 게 좋나요?",
+            "turn_id": "BK22016058-6",
+            "utterance_id": "BK22016058.11"
+        },
+        {
+            "reference_date": "2022-06-18",
+            "reference_text": [
+                {
+                    "value": "강아지는 일반적으로 2~3주에 한 번 목욕하는 것이 적당합니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 최소 3개월에 한 번은 꼭 하는 것이 좋습니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202206171725499427",
+            "search_query": "강아지 목욕 주기",
+            "terminate": false,
+            "text": "강아지는 보통 2주에서 3주에 한 번씩 목욕하는 게 좋아요. 최소한 3개월에 한 번씩은 꼭 해야 하고요.",
+            "turn_id": "BK22016058-6",
+            "utterance_id": "BK22016058.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "목욕을 2주~3주에 한 번씩은 시켜야 하는군요. 강아지는 귓병도 잘 생긴다던데 목욕할 때 귀에 물이 들어가면 안 되나요?",
+            "turn_id": "BK22016058-7",
+            "utterance_id": "BK22016058.13"
+        },
+        {
+            "reference_date": "2021-07-07",
+            "reference_text": [
+                {
+                    "value": "강아지의 귓속 모양은 'ㄴ자‘ 모양이다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사람과는 다르게 귓 속에 물이 들어가도 잘 나오지 않고 세균이나 곰팡이들이 잘 자라 귓병에 걸리기 쉬운 구조를 가지고 있다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그렇기 때문에 강아지 목욕시에는 물이 귀에 들어가지 않도록 사전 예방을 하는 것이 매우 중요하다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=52292",
+            "search_query": "강아지 목욕 귀에 물",
+            "terminate": false,
+            "text": "맞아요. 강아지의 귀속은 니은 모양이라서 물이 들어가도 잘 나오지 않아서 귓병에 걸리기 쉬운 구조에요. 그래서 목욕을 할 때는 귀에 물이 들어가지 않게 조심해야 하죠.",
+            "turn_id": "BK22016058-7",
+            "utterance_id": "BK22016058.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "물이 안 들어가게 조심해서 물을 뿌려야겠네요. 털도 엄청나게 엉킨다던데 강아지 털은 매일 빗겨줘야 하나요?",
+            "turn_id": "BK22016058-8",
+            "utterance_id": "BK22016058.15"
+        },
+        {
+            "reference_date": "2021-04-16",
+            "reference_text": [
+                {
+                    "value": "빗질은 미용의 목적뿐만 아니라 털의 엉킴을 막고 피하 모세혈관을 자극해 건강한 피부와 털을 유지할 수 있게 한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "매일 빗질을 해주는 것이 좋지만 여건이 어렵다면 최소 일주일에 한 번 또는 목욕 전에는 필수로 행해줄 것이 권장된다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.olchiolchi.com/%ec%9e%90%ea%be%b8-%ec%8b%ac%ed%95%b4%ec%a7%80%eb%8a%94-%eb%b0%98%eb%a0%a4%eb%8f%99%eb%ac%bc-%ed%84%b8-%eb%b9%a0%ec%a7%90-%ec%96%b4%eb%96%bb%ea%b2%8c-%ea%b4%80%eb%a6%ac%ed%95%a0%ea%b9%8c/",
+            "search_query": "강아지 털 매일 빗질",
+            "terminate": false,
+            "text": "네, 매일 빗질하는 게 좋지만, 최소 일주일에 한 번이나 목욕 전에는 해줘야 해요. 빗질을 하면 털 엉킴도 막고 피부 아래의 모세혈관을 자극해줘서 피부과 털건강에 좋은 효과도 있어요.",
+            "turn_id": "BK22016058-8",
+            "utterance_id": "BK22016058.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "빗질이 단순히 엉킴을 예방하는 게 아니네요. 친구는 강아지 양치도 매일 시키더라고요. 반드시 매일 양치를 해야 하나요?",
+            "turn_id": "BK22016058-9",
+            "utterance_id": "BK22016058.17"
+        },
+        {
+            "reference_date": "2021-10-22",
+            "reference_text": [
+                {
+                    "value": "과연 강아지, 고양이도 매일 양치질을 해줘야 할까?",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "정답은 ‘하루 한 번’이다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하루 한 번 반려동물의 위쪽 어금니, 큰 어금니의 옆면, 작은 어금니 위주로 칫솔질을 해준다면 구강질환으로 고생할 확률이 크게 줄어든다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.segyebiz.com/newsView/20211022510144?OutUrl=naver",
+            "search_query": "강아지 양치 주기",
+            "terminate": false,
+            "text": "네, 강아지도 하루에 한 번 양치해 줘야 해요. 위 어금니와 큰 어금니의 옆면, 작은 어금니에 칫솔질을 해 주면 구강질환에 걸릴 확률이 많이 줄어들어요.",
+            "turn_id": "BK22016058-9",
+            "utterance_id": "BK22016058.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "귀찮아도 매일 양치를 해 줘야 하는군요. 덕분에 강아지의 기본 관리 방법에 대해 자세히 알았네요.",
+            "turn_id": "BK22016058-10",
+            "utterance_id": "BK22016058.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 다행이네요. 그럼 다음에도 궁금한 게 있으시면 언제든지 말씀 주세요.",
+            "turn_id": "BK22016058-10",
+            "utterance_id": "BK22016058.20"
+        }
+    ]
+}

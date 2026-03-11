@@ -1,0 +1,367 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016507",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016507",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 강아지가 나이가 들어서 몸이 안 좋아지는 게 보여. 노화되는 것은 사람하고 비슷한 걸까?",
+            "turn_id": "BK22016507-1",
+            "utterance_id": "BK22016507.1"
+        },
+        {
+            "reference_date": "43330.0",
+            "reference_text": [
+                {
+                    "value": "나이가 들면 관절부터 삐그덕 소리를 낸다.",
+                    "value_time": "44840.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "활동성이 떨어지고 뇌기능이 저하되며 시력과 청력에 빨간불이 들어온다.",
+                    "value_time": "44840.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "우리는 이를 자연스러운 노화로 받아들인다. 반려동물 역시 같은 과정을 겪는다.",
+                    "value_time": "44840.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/national/national-general/article/201808180600025",
+            "search_query": "반려견 노화",
+            "terminate": false,
+            "text": "사람은 나이를 먹으면 관절이 먼저 삐그덕거리고, 활동성이 떨어지고, 뇌 기능이 저하되고, 시력과 청력에 문제가 생겨. 사람들은 이를 자연스러운 노화로 인식하는데, 반려동물 역시 같은 과정을 겪어.",
+            "turn_id": "BK22016507-1",
+            "utterance_id": "BK22016507.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 개는 몇 살부터 노령이라고 할까?",
+            "turn_id": "BK22016507-2",
+            "utterance_id": "BK22016507.3"
+        },
+        {
+            "reference_date": "44564.0",
+            "reference_text": [
+                {
+                    "value": "이후 반려견의 1년은 사람의 5년 정도로 간주되어서, 반려견이 8살이 되면 사람의 50대 중반 정도로 비교한다.",
+                    "value_time": "44825.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대략 반려견이 10살 정도면 노령견으로 간주하는 편이며, 사람의 60~70대 에 해당한다.",
+                    "value_time": "44825.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "반려견이 13살이면 사람의 80대 정도, 반려견이 15살이면 사람의 90대에 해당한다.",
+                    "value_time": "44825.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.imaeil.com/page/view/2022010214350817573",
+            "search_query": "개 노령 나이",
+            "terminate": false,
+            "text": "반려견의 1년은 사람의 5년 정도라서, 반려견이 8살이 되면 사람의 50대 중반 정도야. 대충 반려견이 10살 정도면 노령견으로 여기는데 이는 사람의 60~70대에 해당해. 13살의 반려견은 사람으로 치면 80대고, 반려견이 15살이 되면 사람의 90대라고 보면 돼.",
+            "turn_id": "BK22016507-2",
+            "utterance_id": "BK22016507.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "10살 부터 노령이구나, 그러면 매해 검진이 필요한 나이는 몇 살부터야?",
+            "turn_id": "BK22016507-3",
+            "utterance_id": "BK22016507.5"
+        },
+        {
+            "reference_date": "44564.0",
+            "reference_text": [
+                {
+                    "value": "사람들처럼 개와 고양이도 8살부터는 1년마다 건강 검진을 권장한다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.imaeil.com/page/view/2022010214350817573",
+            "search_query": "개 건강검진",
+            "terminate": false,
+            "text": "개와 고양이도 8살부터는 1년마다 건강 검진을 장려하고 있어.",
+            "turn_id": "BK22016507-3",
+            "utterance_id": "BK22016507.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "8살때 부터 건강검진을 매년 해야 하는 이유가 뭐야?",
+            "turn_id": "BK22016507-4",
+            "utterance_id": "BK22016507.7"
+        },
+        {
+            "reference_date": "43330.0",
+            "reference_text": [
+                {
+                    "value": "사람과 마찬가지로 질병을 조기발견할수록 적합한 치료와 관리를 통해 생명을 연장하고 삶의 질을 개선할 수 있다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/national/national-general/article/201808180600025",
+            "search_query": "반려동물 건강검진 시기",
+            "terminate": false,
+            "text": "사람처럼 질병을 일찍 발견하면 그에 맞는 치료와 관리를 할 수 있어. 이는 반려동물의 생명을 늘리고 삶의 질을 개선할 수 있게 해.",
+            "turn_id": "BK22016507-4",
+            "utterance_id": "BK22016507.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려동물의 건강검진은 어떤 것들이 있어?",
+            "turn_id": "BK22016507-5",
+            "utterance_id": "BK22016507.9"
+        },
+        {
+            "reference_date": "43402.0",
+            "reference_text": [
+                {
+                    "value": "건강검진은 혈액검사, 소변검사, X-레이, 초음파 검사 등이 대표적이다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "CT, MRI, 내시경 검사는 반려동물이 전신마취를 해야 하고 비용도 비싸 동물의 상태와 수의사의 판단에 따라 결정하는 게 좋다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/feature_story/article/201810262106005",
+            "search_query": "반려동물 건강검진",
+            "terminate": false,
+            "text": "반려동물의 건강검진은 혈액검사, X레이, 초음파 검사 등이 대표적이야. CT, MRI, 내시경 검사의 경우 가격도 비싸고, 반려동물을 전신마취 시켜야 해서 동물 상태와 수의사의 판단에 맞춰 결정하는 게 좋아.",
+            "turn_id": "BK22016507-5",
+            "utterance_id": "BK22016507.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기초검진은 매년 해봐야겠다. 아플 때 병원에 가면 안 좋다고 하는데 그 이유가 뭐야?",
+            "turn_id": "BK22016507-6",
+            "utterance_id": "BK22016507.11"
+        },
+        {
+            "reference_date": "43402.0",
+            "reference_text": [
+                {
+                    "value": "발견될 때는 질병이 진행되거나 최종단계일 때죠.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/feature_story/article/201810262106005",
+            "search_query": "반려동물 병",
+            "terminate": false,
+            "text": "보호자가 아픈 걸 알고 병원에 갔을 때는 질병이 악화하였거나 최종단계이기 때문이야.",
+            "turn_id": "BK22016507-6",
+            "utterance_id": "BK22016507.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "병이 커졌을 때 가게 되는 거였구나. 반려동물이 아픈 걸 왜 늦게 알아차리게 되는 거지?",
+            "turn_id": "BK22016507-7",
+            "utterance_id": "BK22016507.13"
+        },
+        {
+            "reference_date": "43402.0",
+            "reference_text": [
+                {
+                    "value": "반려동물은 몸이 아프더라도 말하거나 드러내지 않기 때문이다.",
+                    "value_time": "44825.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "야생의 습성이 남아 오히려 아파도 증상을 숨기려 한다.",
+                    "value_time": "44825.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이럴 때 보호자가 알아채지 못하면 치료 시기를 놓칠 수 있다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/feature_story/article/201810262106005",
+            "search_query": "반려동물 병",
+            "terminate": false,
+            "text": "동물들은 몸이 아파도 말하거나 티를 내지 않아. 야생의 습관이 있어서 도리어 아파도 그 증상을 숨기려 하지. 아플 때 보호자가 눈치채지 못하면 치료할 수 있는 타이밍을 놓치는 경우가 있어.",
+            "turn_id": "BK22016507-7",
+            "utterance_id": "BK22016507.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려동물은 말을 못 하니까 반려인은 아픈 걸 모르잖아. 집에서 반려동물의 건강이 안 좋은 걸 빨리 알아챌 방법은 없을까?",
+            "turn_id": "BK22016507-8",
+            "utterance_id": "BK22016507.15"
+        },
+        {
+            "reference_date": "43402.0",
+            "reference_text": [
+                {
+                    "value": "보호자는 평소 세심한 ‘관찰’로 신체검사를 해둬야 한다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "“평소에 아이들을 쓰다듬거나 만지면 어디가 움푹 들어가 있고 어디가 말랑한지 알 수 있잖아요. 갑자기 어느 곳이 딱딱해져 있다면 뭔가 문제가 있는 거죠. 동물과 많이 교감해서 이상한 점을 빨리 발견하는 게 상당히 중요합니다.”",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/feature_story/article/201810262106005",
+            "search_query": "반려동물 자가진단",
+            "terminate": false,
+            "text": "평상시에 꼼꼼한 관찰을 통해 신체검사를 해주고, 수상한 점을 찾는 게 상당히 중요해. 반려동물을 쓰다듬거나 만지면 어디가 움푹 들어가 있고 어디가 말랑한지 알잖아? 갑자기 어떤 곳이 단단해져 있다면 문제가 있는 거야.",
+            "turn_id": "BK22016507-8",
+            "utterance_id": "BK22016507.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "매일 만지면서 체크해 봐야겠다. 이것 외에도 건강을 체크하는 방법이 있을까?",
+            "turn_id": "BK22016507-9",
+            "utterance_id": "BK22016507.17"
+        },
+        {
+            "reference_date": "43402.0",
+            "reference_text": [
+                {
+                    "value": "대표적인 방법은 깊이 잠들었을 때의 호흡 횟수를 측정하는 것이다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려동물의 호흡이 갑자기 빨라지거나 지속적으로 빨라지고 있다면 심장질환을 의심해볼 수 있다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "갑자기 토하는지, 밥을 제대로 먹는지, 설사를 하는지 등도 반드시 챙겨야 할 요소다.",
+                    "value_time": "44825.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/feature_story/article/201810262106005",
+            "search_query": "반려동물 신체검사",
+            "terminate": false,
+            "text": "대표적으로 반려동물이 숙면했을 때의 호흡 횟수를 재보는 방법이 있어. 갑자기 호흡이 빨라지거나 또는 지속적으로 빨라지면 심장질환을 의심해봐야 해. 그 외에도 갑작스러운 구토나 설사의 여부 등도 반드시 체크해야 하는 것들이야.",
+            "turn_id": "BK22016507-9",
+            "utterance_id": "BK22016507.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 강아지 아프지 않게 매일 관심을 가지고 체크해 줘야겠어.",
+            "turn_id": "BK22016507-10",
+            "utterance_id": "BK22016507.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "잘 관리해서 건강하고 행복한 노년을 보내게 해줘.",
+            "turn_id": "BK22016507-10",
+            "utterance_id": "BK22016507.20"
+        }
+    ]
+}

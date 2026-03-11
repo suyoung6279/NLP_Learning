@@ -1,0 +1,397 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015869",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015869",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나 요즘 반려동물을 키우고 싶다는 생각이 자꾸 들어. 그래서 키우는 애들한테 말하니까 돈이 꽤 많이 들어간다고 신중하게 생각하라는데 한 달에 어느 정도나 드는 걸까?",
+            "turn_id": "BK22015869-1",
+            "utterance_id": "BK22015869.1"
+        },
+        {
+            "reference_date": "2022-01-11",
+            "reference_text": [
+                {
+                    "value": "반려동물 한 마리당 월평균 양육비는 12.35만원으로 나타났다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "농림축산식품부의 2021년 동물보호 국민의식조사 결과다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailyvet.co.kr/news/policy/159172",
+            "search_query": "반려동물 한달 양육 비용",
+            "terminate": false,
+            "text": "농림축산식품부가 발표한 2021년 동물보호 국민 의식조사에 따르면 반려동물 한 마리에 들어가는 월평균 양육비용은 12.35만 원이었어.",
+            "turn_id": "BK22015869-1",
+            "utterance_id": "BK22015869.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 비용이 그렇게 많이 안 드네? 이 정도면 키울 수 있을 것 같은데 강아지랑 고양이는 한 달 양육 비용이 각각 얼마나 되지?",
+            "turn_id": "BK22015869-2",
+            "utterance_id": "BK22015869.3"
+        },
+        {
+            "reference_date": "2022-01-11",
+            "reference_text": [
+                {
+                    "value": "2021년 동물보호 국민의식조사는 지난해 9월 16일부터 10월 8일까지 전국 20~64세 성인 5천명을 대상으로 진행됐다(온라인 패널조사).",
+                    "value_time": "2022-10-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "응답자에 따르면, 반려견 1마리당 월평균 양육 비용(병원비 포함)은 14.97만원이었다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그중 병원비는 5.21만원으로 1/3수준이었다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려묘 1마리당 월평균 양육 비용(병원비 포함)은 12.57만원이었으며, 그중 병원비는 4.15만원이었다(약 30%).",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailyvet.co.kr/news/policy/159172",
+            "search_query": "강아지 고양이 한달 양육 비용",
+            "terminate": false,
+            "text": "2021년 동물보호 국민 의식조사에 따르면 병원비를 포함한 월평균 양육비용은 반려견이 14.97만 원이었고 반려묘는 12.57만 원이었어. 병원비는 반려견이 5.21만 원, 반려묘는 4.15만 원이었고.",
+            "turn_id": "BK22015869-2",
+            "utterance_id": "BK22015869.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "둘 다 반려동물 평균 양육 비용보다는 많이 들지만 내 생각보다는 덜 든다. 그럼 둘 중의 하나를 입양해도 될 것 같네. 일단 나는 가장 중요하게 생각하는 게 수명인데 강아지랑 고양이는 보통 얼마나 살지?",
+            "turn_id": "BK22015869-3",
+            "utterance_id": "BK22015869.5"
+        },
+        {
+            "reference_date": "2020-11-30",
+            "reference_text": [
+                {
+                    "value": "학계에 따르면 최근의 반려묘 평균수명은 15~18년으로 반려견(12~15년)보다 3년가량 길다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "일본 아니콤홀딩스의 통계를 보면, 2008년부터 2017년까지 개는 8.4개월, 고양이는 6개월씩 수명이 늘었지만 평균수명은 여전히 고양이가 앞선다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sputnik.kr/news/view/3042",
+            "search_query": "강아지 고양이 평균 수명",
+            "terminate": false,
+            "text": "학계에 따르면 최근을 기준으로 했을 때 반려묘는 평균 15년에서 18년 정도를 살아. 반려견은 12년에서 15년 정도를 살고. 고양이의 수명이 3년 정도 더 긴 거지. 일본 아니콤홀딩스의 통계에 따르면 2008년부터 2017년 사이, 개는 수명이 8.4개월이 늘어났고 고양이는 6개월이 늘어나서 개의 수명이 더 많이 늘어났지만 평균 수명 자체는 고양이가 더 길어.",
+            "turn_id": "BK22015869-3",
+            "utterance_id": "BK22015869.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "난 고양이의 수명이 더 짧은 줄 알았는데 아니었구나. 길고양이는 수명이 몇 년 안 된다고 했던 것 같은데 집고양이랑 왜 이렇게 차이가 나는 거지?",
+            "turn_id": "BK22015869-4",
+            "utterance_id": "BK22015869.7"
+        },
+        {
+            "reference_date": "2019-11-04",
+            "reference_text": [
+                {
+                    "value": "반면 길에서 살아가는 길고양이의 평균수명은 3~4년에 불과하다고 한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그만큼 제대로 된 영양섭취가 어렵고, 더위나 추위에 고스란히 노출되어 있기 때문에 제 수명을 다 채우지 못하고 죽는 것이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sisajournal.com/news/articleView.html?idxno=192348",
+            "search_query": "길고양이 평균 수명",
+            "terminate": false,
+            "text": "길고양이의 경우 평균 3, 4년 정도를 사니 니 말처럼 수명이 얼마 안 되는데 얘네들은 자기 수명만큼 못 살고 죽는 거야. 길에서 살면 영양 섭취를 제대로 하기가 힘들고 더위나 추위에도 무방비하게 노출이 돼서 그렇지.",
+            "turn_id": "BK22015869-4",
+            "utterance_id": "BK22015869.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 얘기 듣고 나니까 갑자기 고양이 입양 쪽으로 마음이 기운다. 니 말대로면 집고양이로 살다 버려진 애들은 길 생활이 더 혹독할 수밖에 없는데 안쓰러워. 아무래도 유기묘를 입양할까 싶은데 어떻게 입양할 수 있지?",
+            "turn_id": "BK22015869-5",
+            "utterance_id": "BK22015869.9"
+        },
+        {
+            "reference_date": "2019-03-29",
+            "reference_text": [
+                {
+                    "value": "현재 우리나라에는 지방자치단체나 사설에서 운영하는 유기동물보호소와 크고 작은 규모의 유기묘임시보호 모임이 있습니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이곳의 수많은 길고양이들은 어리거나 아픈 상태로 구조된 후 동물병원에서 치료를 받고 새로운 주인을 기다리는 중입니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "유기동물 입양과 관련된 인터넷 사이트나 사회관계망서비스(SNS)를 통해 심사과정을 거친 후 고양이를 데려올 수도 있습니다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nongmin.com/plan/PLN/SRS/309487/view",
+            "search_query": "유기묘 입양 경로",
+            "terminate": false,
+            "text": "유기된 고양이를 입양할 수 있는 곳은 많이 있어. 일단 우리나라에서는 지방자치단체나 사설 단체에서 유기 동물 보호소를 운영하고 있고 유기묘 임시 보호 모임도 있거든. 이런 곳들은 어리거나 몸이 아픈 길고양이들을 구조해서 동물 병원에서 치료를 받게 한 뒤 새로운 가족을 만날 수 있도록 중계를 해주지. 그 밖에 유기 동물 입양과 관련된 인터넷 사이트나 사회관계망 서비스를 통해서도 고양이를 입양할 수 있고.",
+            "turn_id": "BK22015869-5",
+            "utterance_id": "BK22015869.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "입양할 수 있는 경로가 많구나. 이 중 어디서 데려오는 게 좋을까?",
+            "turn_id": "BK22015869-6",
+            "utterance_id": "BK22015869.11"
+        },
+        {
+            "reference_date": "2020-11-19",
+            "reference_text": [
+                {
+                    "value": "지자체에서 운영하는 유기동물 보호소는 동물보호법에 근거해 유기동물 신고 때 우선적인 보호와 공고가 이뤄지는 곳이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "주인이 나타나지 않으면 안락사를 통해 개체 수를 조절하는 문제도 있기 때문에 유기동물 입양을 준비할 때 가장 우선적으로 고려해야 할 곳이다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisajournal.com/news/articleView.html?idxno=207736",
+            "search_query": "유기묘 입양 어디서",
+            "terminate": false,
+            "text": "가장 우선적으로 고려해 볼 곳은 지자체에서 운영하는 유기 동물 보호소야. 이런 곳은 동물보호법에 근거해서 유기 동물을 보호하고 공고도 내는데 주인이 나타나지 않을 경우 안락사를 시행하거든. 개체 수를 조절하기 위해서지. 그러니 유기 동물을 입양하기로 마음먹었다면 이런 곳을 먼저 살펴보는 게 좋아.",
+            "turn_id": "BK22015869-6",
+            "utterance_id": "BK22015869.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 안락사를 한단 말이야? 하긴, 버려지는 동물이 그렇게 많다는데 걔네를 어떻게 다 감당하겠어. 안락사되는 동물들이 얼마나 되는지 알아?",
+            "turn_id": "BK22015869-7",
+            "utterance_id": "BK22015869.13"
+        },
+        {
+            "reference_date": "2021-05-18",
+            "reference_text": [
+                {
+                    "value": "농림축산검역본부가 지난 17일 발표한 ‘2020년 반려동물 보호·복지 실태조사 결과’에 따르면, 지난해 전국 동물보호센터 280곳에서 구호·보호 조치한 유실·유기동물은 13만401마리였다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "구조된 유기동물 중 절반 가량은 안락사(20.8%) 당하거나 자연사(25.1%)했다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "소유주로 다시 인도된 경우는 11.4%에 불과했다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "새 가족을 만나 분양된 비율은 29.6%, 아직 센터의 보호를 받은 경우는 10.4%였다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://futurechosun.com/archives/55827",
+            "search_query": "유기동물 보호소 안락사 비율",
+            "terminate": false,
+            "text": "농림축산검역본부가 발표한 2020년 반려동물 보호 복지 실태조사 결과에 따르면 구조된 유기 동물 중 안락사되는 아이들의 비율은 20.8퍼센트였어. 새로운 가족에게 입양이 된 아이들은 29.6퍼센트였고 원래의 가족을 찾아 집으로 돌아간 아이들은 11.4퍼센트였지.",
+            "turn_id": "BK22015869-7",
+            "utterance_id": "BK22015869.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안락사 비율은 생각보다 높고 입양이 되는 비율은 생각보다 낮네. 나라도 유기 동물 보호소에서 입양을 해야겠다. 절차 좀 알려줄래?",
+            "turn_id": "BK22015869-8",
+            "utterance_id": "BK22015869.15"
+        },
+        {
+            "reference_date": "2020-05-19",
+            "reference_text": [
+                {
+                    "value": "동물보호관리시스템 홈페이지(www.animal.go.kr)의 ‘유실·유기동물 공고’를 통해 입양 가능한 유기동물을 찾는다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "공고번호를 메모하고 담당 보호소로 입양 절차를 문의한다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "신분증을 가지고 보호소로 가서 입양 상담을 받은 뒤 신청서가 통과돼야 입양을 할 수 있다.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지역별 보호소마다 절차가 다를 수 있으니 사전에 확인할 것.",
+                    "value_time": "2022-10-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.smlounge.co.kr/living/article/45025",
+            "search_query": "유기동물 보호소 입양 절차",
+            "terminate": false,
+            "text": "유기 동물을 입양하려면 일단 동물보호 관리 시스템 홈페이지에 들어가서 유실, 유기 동물 공고를 확인해 보는 게 먼저야. 거기서 입양하고 싶은 아이를 찾아둔 뒤 공고 번호를 메모해뒀다가 담당 보호소에 입양 절차를 문의하면 돼. 이후 신분증을 챙겨서 보호소에 방문한 뒤 입양 상담과 함께 신청서를 제출하고 이게 통과되면 그때 입양이 가능해져. 대략적인 건 이렇지만 보호소마다 절차가 다를 수 있기 때문에 사전에 확인해 볼 필요가 있고.",
+            "turn_id": "BK22015869-8",
+            "utterance_id": "BK22015869.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "절차가 좀 복잡하구나. 아무한테나 안 보내려는 것 같아서 난 오히려 마음에 든다.",
+            "turn_id": "BK22015869-9",
+            "utterance_id": "BK22015869.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무한테나 보내면 큰일 나지.",
+            "turn_id": "BK22015869-9",
+            "utterance_id": "BK22015869.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "물론 그렇지. 어쨌든 난 일단 집에 가서 동물보호 관리 시스템 홈페이지 좀 둘러봐야겠다. 혹시 안락사 위기에 처한 아이가 있을 수 있으니 마음 가는 아이 있으면 바로 문의를 해봐야겠어.",
+            "turn_id": "BK22015869-10",
+            "utterance_id": "BK22015869.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 그럼 얼른 가고 혹시 궁금한 거 있으면 연락해.",
+            "turn_id": "BK22015869-10",
+            "utterance_id": "BK22015869.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "어, 그럼 연락하든지 할게.",
+            "turn_id": "BK22015869-11",
+            "utterance_id": "BK22015869.21"
+        }
+    ]
+}

@@ -1,0 +1,345 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015049",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015049",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "주변에 주택 청약으로 집 마련했다는 친구들이 있던데, 주택 청약이 구체적으로 뭐야?",
+            "turn_id": "BK22015049-1",
+            "utterance_id": "BK22015049.1"
+        },
+        {
+            "reference_date": "2020-09-10",
+            "reference_text": [
+                {
+                    "value": "주택을 분양받으려는 사람이 분양주택의 종류에 따라 일정한 입주자격을 갖추어 사겠다는 의사표시로 예금 등에 가입하는 것을 말한다",
+                    "value_time": "2022-10-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=6411604&cid=42094&categoryId=42094",
+            "search_query": "주택 청약",
+            "terminate": false,
+            "text": "주택을 분양 받으려는 사람이 주택 청약 예금 등에 가입해서 분양 주택의 종류에 따라 일정한 입주자격을 갖추어 주택을 구입하겠다는 의사표시야.",
+            "turn_id": "BK22015049-1",
+            "utterance_id": "BK22015049.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "주택 청약의 종류가 과거에는 여러 종류가 있었지?",
+            "turn_id": "BK22015049-2",
+            "utterance_id": "BK22015049.3"
+        },
+        {
+            "reference_date": "2020-12-11",
+            "reference_text": [
+                {
+                    "value": "과거에는 청약저축, 청약부금, 청약예금 등 세 종류가 있었다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=6179560&cid=42107&categoryId=42107",
+            "search_query": "주택청약종합저축",
+            "terminate": false,
+            "text": "원래는 청약예금, 청약부금, 청약저축 이렇게 세 종류가 있었어.",
+            "turn_id": "BK22015049-2",
+            "utterance_id": "BK22015049.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 그런데 지금은 가입할 수 있는 종류가 줄어든거 같던데, 어떤 종류로 신규가입이 가능해?",
+            "turn_id": "BK22015049-3",
+            "utterance_id": "BK22015049.5"
+        },
+        {
+            "reference_date": "2020-12-11",
+            "reference_text": [
+                {
+                    "value": "2015년 9월부터는 청약종합저축 가입만 가능한 상황이다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=6179560&cid=42107&categoryId=42107",
+            "search_query": "청약종합저축",
+            "terminate": false,
+            "text": "2015년 9월부터는 주택청약종합저축만 신규 가입이 가능해.",
+            "turn_id": "BK22015049-3",
+            "utterance_id": "BK22015049.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "청약 통장은 몇 개까지 개설할 수 있어?",
+            "turn_id": "BK22015049-4",
+            "utterance_id": "BK22015049.7"
+        },
+        {
+            "reference_date": "2020-12-11",
+            "reference_text": [
+                {
+                    "value": "1인 1계좌 개설이 원칙이다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=6179560&cid=42107&categoryId=42107",
+            "search_query": "개설",
+            "terminate": false,
+            "text": "통장 신청은 누구나 할 수 있지만 1인 1계좌가 원칙이야.",
+            "turn_id": "BK22015049-4",
+            "utterance_id": "BK22015049.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하나만 개설이 가능하구나, 청년 우대 통장이라는 것도 있던데 가입자격이 어떻게 돼?",
+            "turn_id": "BK22015049-5",
+            "utterance_id": "BK22015049.9"
+        },
+        {
+            "reference_date": "2020-12-11",
+            "reference_text": [
+                {
+                    "value": "만 19세 이상, 만 34세 이하의 소득이 있는 무주택 세대주로 직전연도 종합소득이 3000만원 이하면 청년우대 주택청약종합저축에 가입할 수 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=6179560&cid=42107&categoryId=42107",
+            "search_query": "청년우대",
+            "terminate": false,
+            "text": "청년 우대 통장은 만 19세 이상, 만 34세 이하이면서 소득이 있는 무주택 세대주일때 가입이 가능해. 소득기준은 직전연도 종합소득이 3000만원 이하면 가입할 수 있어.",
+            "turn_id": "BK22015049-5",
+            "utterance_id": "BK22015049.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "청년 우대 통장은 금리 적용이 어떻게 되는거야?",
+            "turn_id": "BK22015049-6",
+            "utterance_id": "BK22015049.11"
+        },
+        {
+            "reference_date": "2020-12-11",
+            "reference_text": [
+                {
+                    "value": "이 통장은 2년 이상 유지 시 금리 3.3%를 적용받는다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=6179560&cid=42107&categoryId=42107",
+            "search_query": "금리",
+            "terminate": false,
+            "text": "통장을 2년 이상 유지할 경우에는 금리 3.3%를 적용받을 수 있어.",
+            "turn_id": "BK22015049-6",
+            "utterance_id": "BK22015049.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "금리 적용도 받고 내 집 마련의 기회도 얻을 수 있으니 일석이조네. 한 달에 얼마씩이나 납입할 수 있어?",
+            "turn_id": "BK22015049-7",
+            "utterance_id": "BK22015049.13"
+        },
+        {
+            "reference_date": "2020-12-11",
+            "reference_text": [
+                {
+                    "value": "최초 가입 때 2만~50만원 사이에서 월별 납입액을 정할 수 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=6179560&cid=42107&categoryId=42107",
+            "search_query": "납입액",
+            "terminate": false,
+            "text": "처음 가입할때 2만원~50만원 사이로 월 납입 금액을 정하도록 되어 있어.",
+            "turn_id": "BK22015049-7",
+            "utterance_id": "BK22015049.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 금액을 자유롭게 정할 수 있구나, 근데 만약에 중간에 청약금을 납입하기 어려워지면 어쩌지?",
+            "turn_id": "BK22015049-8",
+            "utterance_id": "BK22015049.15"
+        },
+        {
+            "reference_date": "2020-12-11",
+            "reference_text": [
+                {
+                    "value": "자금 사정이 여의치 않으면 가입 기간 중 납입을 중단할 수도 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=6179560&cid=42107&categoryId=42107",
+            "search_query": "납입 중단",
+            "terminate": false,
+            "text": "경제적 상황이 어려워져서 납입하기가 부담스러우면 가입 기간 중에 납입 중단을 할 수 있어.",
+            "turn_id": "BK22015049-8",
+            "utterance_id": "BK22015049.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시간 내서 빨리 가입부터 해야 겠다. 가입하려면 어떤 서류를 챙겨가야 하지?",
+            "turn_id": "BK22015049-9",
+            "utterance_id": "BK22015049.17"
+        },
+        {
+            "reference_date": "2019-07-15",
+            "reference_text": [
+                {
+                    "value": "준비해야할 서류는 신분증, 주민등록등본, 소득확인증명서, 무주택확인서다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=275042",
+            "search_query": "서류",
+            "terminate": false,
+            "text": "소득확인증명서, 주민등록등본, 무주택확인서, 신분증 등의 서류를 챙겨서방문하면 돼.",
+            "turn_id": "BK22015049-9",
+            "utterance_id": "BK22015049.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 시간내서 가는 김에 내 동생 것도 신청하면 좋겠다. 일찍 가입할수록 좋은 거겠지?",
+            "turn_id": "BK22015049-10",
+            "utterance_id": "BK22015049.19"
+        },
+        {
+            "reference_date": "2020-10-06",
+            "reference_text": [
+                {
+                    "value": "기본적으로는 만 20세 이상이면서 청약통장 가입 시점부터 기간을 산정하지만, 미성년자일 때 청약통장을 가입했다면 2년을 인정해준다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.kmib.co.kr/article/view.asp?arcid=0015026229&code=61141511&cp=nv",
+            "search_query": "기간",
+            "terminate": false,
+            "text": "동생 초등학생 아니야? 너무 일찍 가입할 필요는 없어. 미성년자의 경우는 가입 기간을 2년까지만 인정해줘.",
+            "turn_id": "BK22015049-10",
+            "utterance_id": "BK22015049.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "무조건 일찍 가입할 필요는 없는 거구나. 그럼 일단 내 것부터 가입해야겠다. 고마워. 나는 이만 청약 통장 만들러 들어가볼게!",
+            "turn_id": "BK22015049-11",
+            "utterance_id": "BK22015049.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을, 통장 가입하고 나중에 꼭 당첨도 되면 좋겠다. 그럼 다음에 또 보자.",
+            "turn_id": "BK22015049-11",
+            "utterance_id": "BK22015049.22"
+        }
+    ]
+}

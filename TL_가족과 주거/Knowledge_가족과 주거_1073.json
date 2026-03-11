@@ -1,0 +1,382 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006698",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006698",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이제 곧 추석이라고 하던데, 저는 한국으로 이주해서 처음으로 맞는 추석이에요. 한국 사람들에게는 큰 명절이죠?",
+            "turn_id": "BK22006698-1",
+            "utterance_id": "BK22006698.1"
+        },
+        {
+            "reference_date": "2022-08-28",
+            "reference_text": [
+                {
+                    "value": "추석(秋夕) 또는 한가위는 음력 8월 15일에 치르는 행사로 설날과 더불어 한국의 주요 연휴이자 민족 최대의 명절이다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가배일(嘉俳日), 한가위, 팔월 대보름 등으로도 부른다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/추석",
+            "search_query": "추석",
+            "terminate": false,
+            "text": "아, 그러시겠네요. 맞아요. 설날과 같이 한국의 최대 명절이에요. 음력 날짜로 8월 15일이 추석이고, 한가위나 팔월대보름이라고 부르기도 해요.",
+            "turn_id": "BK22006698-1",
+            "utterance_id": "BK22006698.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음력 8월 15일이면 정말 곧이겠군요. 그런데 추석은 언제부터 있었고, 그 의미는 뭔가요?",
+            "turn_id": "BK22006698-2",
+            "utterance_id": "BK22006698.3"
+        },
+        {
+            "reference_date": "2022-08-28",
+            "reference_text": [
+                {
+                    "value": "가을을 축하한다는 원래 의미에 더해 수확, 발해 승리를 축하하는 의미를 더한다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "추석이 언제부터 행해졌는지는 정확하게 알 수 없으나 신라에 이미 있었던 것으로 보아 삼국시대 이전에 시작되었을 것으로 추측된다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/추석",
+            "search_query": "추석 유래",
+            "terminate": false,
+            "text": "사실 추석이 시작된 시기는 정확히 알 수 없지만, 신라시대에는 이미 있었고, 삼국시대 전부터 시작되었을 것으로 추측돼요. 추석의 본래 의미는 가을을 축하한다는 뜻인데 거기에 한 해의 수확을 축하한다는 의미도 있죠.",
+            "turn_id": "BK22006698-2",
+            "utterance_id": "BK22006698.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역사가 깊은 한국의 풍습이네요. 추석은 그럼 보통 어떻게 지내요?",
+            "turn_id": "BK22006698-3",
+            "utterance_id": "BK22006698.5"
+        },
+        {
+            "reference_date": "2020-09-16",
+            "reference_text": [
+                {
+                    "value": "추석 전날 가족들이 둘러앉아 반달 모양의 송편을 빚으며 아직 가득차지 않은 달이 추석 저녁에는 둥글고 환한 보름달이 되길 기원하기도 하면서, ‘송편을 예쁘게 빚으면 예쁘고 잘생긴 배우자를 만나게 된다’는 말에 처녀, 총각들은 한껏 솜씨를 부렸다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한가위 날 아침에는 일가친척들이 모여 차례를 지낸다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://segyelocalnews.com/news/newsview.php?ncode=1065622466411715&dt=m",
+            "search_query": "추석 차례 송편",
+            "terminate": false,
+            "text": "통상적으로는 추석날 아침, 친척들이 모두 모여서 차례를 지내요. 또 추석 전날 가족들이 다 같이 반달 모양의 송편을 빚기도 했죠. 송편을 예쁘게 빚으면 잘생기고 예쁜 배우자를 만난다는 이야기도 있었어요.",
+            "turn_id": "BK22006698-3",
+            "utterance_id": "BK22006698.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하하, 다들 예쁜 송편을 만들려고 열심히 했겠어요. 근데 차례는 뭐죠? 들어본 단어 같은데 잘 모르겠네요.",
+            "turn_id": "BK22006698-4",
+            "utterance_id": "BK22006698.7"
+        },
+        {
+            "reference_date": "2022-02-25",
+            "reference_text": [
+                {
+                    "value": "차례(茶禮)는 가정마다 설날과 추석에 아침 일찍이 지내는 약식 제사를 말한다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "상 뒤로는 병풍을 둘러치고 지방(紙榜)을 병풍에 붙이거나 위패를 제사상에 세워 놓고 차례를 지낸다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대체로 앞줄에는 과일과 한과를 진설하며 붉은 과일은 동쪽, 흰 과일은 서쪽에 놓고, 가운데에 한과를 놓는다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/차례",
+            "search_query": "차례",
+            "terminate": false,
+            "text": "제사는 아시죠? 설날이나 추석날 아침 일찍 지내는 약식 제사예요. 보통 상이 있고, 뒤로 병풍을 치고 지방을 거기에 붙이거나 상 위에 위패를 두고 지내요. 상차림에도 순서가 있는데 전통적으로는 앞줄에 과일이나 한과를 두는데 빨간빛이 도는 과일은 동쪽에, 흰 과일은 서쪽에, 한과를 가운데 놓고 지내죠.",
+            "turn_id": "BK22006698-4",
+            "utterance_id": "BK22006698.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음식을 차리는데도 규칙이 있는 거군요. 매해 그렇게 하려면 많은 정성이 들어가겠어요. 현대에도 계속 이전의 방식과 같이 차례를 지내는 건가요?",
+            "turn_id": "BK22006698-5",
+            "utterance_id": "BK22006698.9"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "추석 차례상은 정성껏 푸짐하게 올리는 것이 미덕이라고 여겨졌지만, 최근에는 먹을 만큼만 준비해 온 가족이 부담 없이 명절을 즐겁게 보내자는 인식이 확산되고 있다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "실제로 해를 거듭할 수록 대형마트에서 미리 만들어진 간편식 제수용품을 사는 가정들이 늘고 있는 추세이고, 아예 차례를 생략하는 집안도 많아졌다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailian.co.kr/news/view/1150714/?sc=Naver",
+            "search_query": "차례상차림변화",
+            "terminate": false,
+            "text": "그건 아니에요, 점점 갈수록 차례를 생략하거나, 간편하게 만들어져 나오는 제수용품을 사는 가정도 늘고 있거든요. 예전에는 다양하고 푸짐한 차례상을 올리는 게 미덕이었지만 최근에는 부담 없이 먹을 만큼만 준비하자는 추세죠.",
+            "turn_id": "BK22006698-5",
+            "utterance_id": "BK22006698.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "현대의 라이프 스타일에 맞춰 전통도 변화하는 게 당연하죠. 그렇게 다양한 음식을 하려면 시간도, 노력도, 비용도 굉장히 많이 들 것 같은데 보통 차례상을 차리는 데 얼마나 들어요?",
+            "turn_id": "BK22006698-6",
+            "utterance_id": "BK22006698.11"
+        },
+        {
+            "reference_date": "2022-08-28",
+            "reference_text": [
+                {
+                    "value": "주요 식재료 비용이 크게 올라 부담을 느끼는 가정이 많아지면서 상대적으로 저렴한 ‘완제품 차례 음식’이 대안으로 부상하고 있다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "28일 유통업계에 따르면, 올해 추석 차례상 차림 비용은 평균 30만 원을 웃돌 것으로 전망된다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/269Z38LB1K",
+            "search_query": "물가 차례상",
+            "terminate": false,
+            "text": "그렇죠? 매해 편차가 있었겠지만, 요즘은 식재료 비용이 너무 올라서 올해 차례상 차림 비용이 평균적으로 30만원을 넘을 거라 예측되고있어요. 그래서 대안책으로 완제품 차례 음식도 주목받고 있고요.",
+            "turn_id": "BK22006698-6",
+            "utterance_id": "BK22006698.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "30만원씩이나 든다니 어마어마 하네요. 그럼 추석에 차례 말고 전통적으로 하는 일이 또 있나요?",
+            "turn_id": "BK22006698-7",
+            "utterance_id": "BK22006698.13"
+        },
+        {
+            "reference_date": "2020-10-01",
+            "reference_text": [
+                {
+                    "value": "추석하면 윷놀이, 송편 등 다양한 상징이 존재하지만, 역시 추석하면 ‘보름달’을 빼놓을 수 없을 것이다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "과거 우리 조상들은 추석 밤하늘을 밝히는 보름달을 ‘풍요와 행운’의 상징으로 여겼다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "때문에 추석이면 보름달 아래 온동네 사람들이 모여 소원을 빌거나 전통놀이인 강강술래를 즐기며 추수의 풍년을 기원했다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sisaweek.com/news/curationView.html?idxno=137409",
+            "search_query": "추석 보름달",
+            "terminate": false,
+            "text": "음, 대표적으로 윷놀이도 있고, 또 상징적인 게 보름달이에요. 조상들께서 추석의 보름달을 풍요와 행운의 상징이라 여겼거든요. 그래서 보름달이 뜨면 그 아래 사람들이 모여서 소원을 빌기도 하고, 강강술래라는 전통 놀이를 하며 풍년을 기원하기도 했어요.",
+            "turn_id": "BK22006698-7",
+            "utterance_id": "BK22006698.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 밝은 보름달 아래 사람들의 모습을 상상하니 꽤 낭만적이에요. 그런 문화도 현대에 들어서는 사라졌겠군요.",
+            "turn_id": "BK22006698-8",
+            "utterance_id": "BK22006698.15"
+        },
+        {
+            "reference_date": "2022-01-19",
+            "reference_text": [
+                {
+                    "value": "코로나19 장기화로 인해 명절을 보내는 모습에도 변화의 바람이 거세다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "명절이면 교통체증을 뚫고 고향집과 부모님 댁을 찾는 ‘귀성객’이 크게 줄었다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이들은 추석을 전통문화를 챙겨야 할 ‘명절’이 아닌 오랫만에 가족과 휴식을 취할 수 있는 ‘연휴’로 생각한다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "MZ세대는 기성세대에 비해 명절에 고향을 찾아가거나 제사를 모셔야한다는 의무감이 옅다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://snaptime.edaily.co.kr/?p=68696,?%A4%EB%83%85?&#128;??%EC%B6%94%EC%84%9D,%EB%AA%85%EC%A0%88%EB%AC%B8%ED%99%94,%EA%B7&#128;?%B1%EA%B8%B8,%EA%B7&#128;??",
+            "search_query": "추석 모습 변화",
+            "terminate": false,
+            "text": "과거의 모습과는 완전히 다르죠. 특히 코로나 이후로도 명절의 모습이 많이 바뀌었어요. 원래는 고향에 가거나 본가에 가는 사람들이 많아 교통체증이 심했는데 귀성객 자체도 많이 줄고요. 젊은 MZ세대에게는 고향에 가거나 제사를 지낸다는 의무감이 거의 없기도 하니까요. 사실 요즘 세대에겐 전통문화를 챙기는 날이라기보다는 푹 쉴 수 있는 연휴죠.",
+            "turn_id": "BK22006698-8",
+            "utterance_id": "BK22006698.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하하, 그래서 제 한국 친구들이 추석을 기다리는 거였군요. 자연스러운 흐름이지만 한편으로는 아쉬운 사람들도 있겠어요.",
+            "turn_id": "BK22006698-9",
+            "utterance_id": "BK22006698.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무래도 가족끼리 다 같이 모여 보내는 모습이 그리우신 분들도 있겠죠?",
+            "turn_id": "BK22006698-9",
+            "utterance_id": "BK22006698.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가족 이야기하니까 저도 고향에 있는 부모님 생각이 나네요. 저도 부모님이랑 영상 통화해야겠어요, 한국 명절처럼.",
+            "turn_id": "BK22006698-10",
+            "utterance_id": "BK22006698.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 추석 때 혼자 보내게 되면 연락해요, 저도 어디 멀리 안 가니까 송편이라도 나눠먹죠 뭐.",
+            "turn_id": "BK22006698-10",
+            "utterance_id": "BK22006698.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "완전 좋아요, 저 송편은 한 번도 안 먹어봤거든요. 잊지 않고 연락할게요.",
+            "turn_id": "BK22006698-11",
+            "utterance_id": "BK22006698.21"
+        }
+    ]
+}

@@ -1,0 +1,410 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.6,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004111",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004111",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번에 이사하는데 몇 가지 물어봐도 돼요?",
+            "turn_id": "BK22004111-1",
+            "utterance_id": "BK22004111.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 이사하시려고요? 그럼요, 제가 이사를 한두 번 다녀본 사람이 아니라 잘 알죠. 어떤 게 궁금하세요?",
+            "turn_id": "BK22004111-1",
+            "utterance_id": "BK22004111.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시간이 잘 안 나서 일단은 앱으로 알아보고 있는데, 주변에서 허위 매물이 많다는 말을 들어서요. 사진이 사기라는 말도 있던데, 실제 모습이랑 어떻게 다를 수가 있는 거예요?",
+            "turn_id": "BK22004111-2",
+            "utterance_id": "BK22004111.3"
+        },
+        {
+            "reference_date": "2022-07-02",
+            "reference_text": [
+                {
+                    "value": "각종 부동산 앱에 올라 있는 매물 사진은 대부분 '광각렌즈'를 이용해 촬영된다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "초점거리가 35㎜ 이하인 광각렌즈를 사용해 집 내부를 촬영하면 원근감이 과장되고 같은 공간도 더 넓어 보이는 효과가 있다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.wikitree.co.kr/articles/766843",
+            "search_query": "원룸 허위 매물",
+            "terminate": false,
+            "text": "부동산에서 보통 광각 렌즈로 촬영해서 부동산 앱에 매물 사진을 올리는데, 광각 렌즈는 초점거리가 35mm 이하거든요. 그래서 이걸로 촬영하면 원근감이 과장되고 더 넓어 보이는 효과가 있죠.",
+            "turn_id": "BK22004111-2",
+            "utterance_id": "BK22004111.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "말 그대로 과장 광고나 마찬가지군요. 요새 허위 매물 논란이 많던데, 정부에선 따로 관리를 안 하나요?",
+            "turn_id": "BK22004111-3",
+            "utterance_id": "BK22004111.5"
+        },
+        {
+            "reference_date": "2022-04-05",
+            "reference_text": [
+                {
+                    "value": "'실거래정보 기반 모니터링'은 기존 모니터링 방식을 보완하기 위해 지난 1월 도입됐다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "한국부동산원의 부동산 실거래정보와 정보통신 서비스 제공자의 매물 정보를 비교해 거래 완료 여부를 검증하는 방식이다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "국토부는 실거래가 모니터링 광고 플랫폼을 직방, 다방 등으로 확대할 계획이다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mtn.co.kr/news-detail/2022040415224947064",
+            "search_query": "허위 매물 모니터링",
+            "terminate": false,
+            "text": "정부가 지난 1월에 실거래 정보 기반 모니터링을 도입해서 기존 모니터링 방식을 좀 더 보완했어요. 한국부동산원의 부동산 실거래 정보와 서비스 제공자의 매물 정보를 서로 비교해서 거래 완료 여부를 검증하는 방식이죠. 앞으로 국토부는 실거래가 모니터링을 직방이나 다방 같은 플랫폼으로 확대할 예정이에요.",
+            "turn_id": "BK22004111-3",
+            "utterance_id": "BK22004111.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "확대 적용되면 훨씬 낫겠네요. 아무래도 그 두 군데에서 많이 알아보니까요. 집 구할 때 특별히 주의해야 할 게 있을까요?",
+            "turn_id": "BK22004111-4",
+            "utterance_id": "BK22004111.7"
+        },
+        {
+            "reference_date": "2022-07-05",
+            "reference_text": [
+                {
+                    "value": "또 구매하려는 해당 매물의 가격이 주변 시세의 비해 너무 낮은 가격을 제시한다면 의심해볼 필요가 있다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "시세를 알아볼 때는 인터넷에 올라오는 정보들 이외에도 직접 부동산 중개사무소를 찾아가 조사해보는 것도 좋다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.goodkyung.com/news/articleView.html?idxno=181078",
+            "search_query": "부동산 직거래",
+            "terminate": false,
+            "text": "만약 주변 시세에 비해서 매매하시려는 매물 가격이 저렴하다면 의심해보실 필요가 있어요. 시세 알아보실 때 인터넷 정보를 따져보시는 것도 좋지만 직접 중개사무소 가보셔서 알아보시는 걸 추천해 드려요. 혹시 원룸으로 알아보고 계세요?",
+            "turn_id": "BK22004111-4",
+            "utterance_id": "BK22004111.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 어차피 저 혼자 살 거고 원룸이면 충분할 것 같아서요. 원룸 계약할 때 주의해야 할 사항이 있나요?",
+            "turn_id": "BK22004111-5",
+            "utterance_id": "BK22004111.9"
+        },
+        {
+            "reference_date": "2020-03-11",
+            "reference_text": [
+                {
+                    "value": "원룸을 계약할 때 부동산 중개인이 ‘내 원룸 계약서’와 집주인의 건물 등기부 등본상, 건물 소유자가 같은지 확인을 시켜주는 경우도 있고 그냥 넘어가는 경우도 있으니 챙겨 봐야 한다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "등기부 등본에 임대인(건물주)의 이름이 있을 것이다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그리고 임차인인 나는 매달 월세를 입금하게 되는데 그 통장의 명의가 동일한지 확인을 하는 것이다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ggilbo.com/news/articleView.html?idxno=751979",
+            "search_query": "원룸 주의사항",
+            "terminate": false,
+            "text": "음, 경우에 따라 다른데, 원룸 계약서에 쓰여 있는 건물 소유자와 집주인 등기부 등본상에 적힌 건물 소유자가 같은지 확인해봐야 해요. 부동산 중개인이 확인시켜주기도 하는데, 그게 아니면 직접 찾아서 확인해보는 게 좋죠. 그리고 등기부 등본상 건물주인 임대인 이름과 월세를 입금하게 될 통장 명의가 동일한지도 확인해봐야 하고요.",
+            "turn_id": "BK22004111-5",
+            "utterance_id": "BK22004111.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잊어버리지 않게 메모해 둬야겠어요. 원룸 계약 전후에 가서 직접 볼 땐 어떤 걸 유심히 보면 좋을까요?",
+            "turn_id": "BK22004111-6",
+            "utterance_id": "BK22004111.11"
+        },
+        {
+            "reference_date": "2020-01-14",
+            "reference_text": [
+                {
+                    "value": "수도, 인터넷, 서랍, 가스, 벽지 등 확인 목록을 작성해 사진을 찍어두는 것이 좋다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "임대인이 당신 과실로 간주해 손해배상을 청구할 수도 있기 때문이다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이사 전 냉장고, 세탁기, 에어컨 등 원룸에 기본적으로 있는 옵션 가구 등도 제대로 작동하는지 확인 후 고장 난 부분이 있다면 집주인에게 수리 또는 교체를 요구해야 한다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.wikitree.co.kr/articles/496938",
+            "search_query": "원룸 필수 체크",
+            "terminate": false,
+            "text": "매물 보러 가셨을 땐 되도록 수도나 인터넷, 서랍, 가스처럼 확인이 필요한 목록을 적어가신 뒤에 사진을 찍어두는 걸 추천해 드려요. 간혹 그런 부분에서 문제가 생기면 임대인이 임차인 과실로 간주해서 손해배상을 청구하는 경우도 있거든요. 냉장고, 세탁기 같은 옵션도 제대로 작동하는지 확인해 보세요. 만약에 문제가 있다면 집주인에게 수리하거나 교체해 달라고 말씀하시면 돼요.",
+            "turn_id": "BK22004111-6",
+            "utterance_id": "BK22004111.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대충 적어보고 있긴 한데 뭔가 체크할 게 한둘이 아니네요. 저 혼자 가서 제대로 할 수 있을지 걱정이에요. 옆에서 같이 봐주는 사람이 있으면 큰 도움이 될 텐데.",
+            "turn_id": "BK22004111-7",
+            "utterance_id": "BK22004111.13"
+        },
+        {
+            "reference_date": "2022-07-23",
+            "reference_text": [
+                {
+                    "value": "서울시는 지난 4일부터 한씨처럼 부동산 정보에 취약한 1인가구가 안심하고 전월세를 구할 수 있도록 돕는 서비스를 시행하고 있다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "주거안심매니저는 서울시가 한국 공인중개사협회 추천을 받아 각 지역 사정을 잘 아는 현직 공인중개사 중에 위촉한다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/local/Seoul/article/202207231000001",
+            "search_query": "원룸 구하기",
+            "terminate": false,
+            "text": "그럼 주거 안심 매니저 서비스를 이용해 보시는 건 어때요? 서울시에서 지난 4일부터 시행하고 있는 서비스인데, 아무래도 부동산 정보에 취약할 수 있는 1인 가구가 안심하고 전, 월세를 구할 수 있도록 돕고 있거든요. 주거 안심 매니저는 공인중개사협회 추천을 받아서 현직 공인중개사 중에 위촉받는 사람이에요. 전문가이기도 하고 각지 사정을 잘 아는 현직이니까 믿을 만하죠.",
+            "turn_id": "BK22004111-7",
+            "utterance_id": "BK22004111.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 말 들으니 좀 위안이 되는걸요? 이사하는 게 참 쉬운 일이 아니라서 알아볼 것도 많고, 사실 경제적으로도 타격이 있잖아요? 보증금을 더 내더라도 최대한 월세를 낮추는 쪽으로 보고 있는데, 역시 월세는 좀 부담이라 따로 지원 제도 같은 건 없을까요?",
+            "turn_id": "BK22004111-8",
+            "utterance_id": "BK22004111.15"
+        },
+        {
+            "reference_date": "2022-07-20",
+            "reference_text": [
+                {
+                    "value": "월세 거주자가 많은 청년층에겐 11월부터 월세를 지원한다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "중위소득 60% 이하 청년이 대상이며 한 달에 최대 20만원씩 1년간 지원받을 수 있다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=03204566632396488&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "청년 월세 지원",
+            "terminate": false,
+            "text": "아, 청년층 대상으로 월세를 지원하는 정책이 있어요. 아무래도 청년층에 월세 거주자가 많다 보니까 11월부터 월세를 지원할 예정이에요. 한 달에 최대 20만 원씩 1년간 지원받을 수 있는데, 조건은 중위소득 60퍼센트 이하 청년이고요.",
+            "turn_id": "BK22004111-8",
+            "utterance_id": "BK22004111.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 제가 운이 좋네요. 마침 10월에 지금 집 계약이 끝나서 11월에 이사할 계획이거든요.",
+            "turn_id": "BK22004111-9",
+            "utterance_id": "BK22004111.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 운이 좋으신데요? 확실히 월세는 없어지는 돈이나 마찬가지라 아깝죠. 지원받을 수 있다면 최대한 지원받는 게 좋아요.",
+            "turn_id": "BK22004111-9",
+            "utterance_id": "BK22004111.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 정말요. 아, 그런데 원룸도 확정일자를 꼭 받아야 해요?",
+            "turn_id": "BK22004111-10",
+            "utterance_id": "BK22004111.19"
+        },
+        {
+            "reference_date": "2022-07-28",
+            "reference_text": [
+                {
+                    "value": "계약한 당일에는 확정일자를 부여받고 전입신고를 꼭 해야 한다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그래야 대항력 있는 임차인의 요건을 갖출 수 있고, 선순위 채권자의 지위를 갖게 돼 보증금을 지킬 수 있다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.viva100.com/main/view.php?key=20220725010006317",
+            "search_query": "원룸 확정일자",
+            "terminate": false,
+            "text": "그럼요, 그래야 보증금을 지킬 수 있는걸요. 계약 당일엔 꼭 확정일자를 받고 전입신고를 하셔야 해요. 그게 곧 대항력 있는 임차인 조건이고, 확정일자를 받아놔야 선순위 채권자 지위를 갖게 돼서 보증금을 보전할 수 있거든요.",
+            "turn_id": "BK22004111-10",
+            "utterance_id": "BK22004111.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "원룸인데 굳이 확정일자까지 받아야 하나 싶었는데 꼭 받아놔야겠군요. 내 걸 지키기 위한 권리나 마찬가지네요.",
+            "turn_id": "BK22004111-11",
+            "utterance_id": "BK22004111.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇죠. 가끔 귀찮거나 번거롭다고 안 받아놓는 경우도 있는데, 만약에라도 건물이 넘어가게 되면 보증금 그냥 날리는 셈이니까요.",
+            "turn_id": "BK22004111-11",
+            "utterance_id": "BK22004111.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게요. 오늘 이것저것 알려주신 게 정말 큰 도움이 됐어요. 나중에 커피 살게요.",
+            "turn_id": "BK22004111-12",
+            "utterance_id": "BK22004111.23"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "커피 좋죠. 근처에 자주 가는 카페 있는데 괜찮으시면 그리로 가요. 편하실 때 연락 하세요.",
+            "turn_id": "BK22004111-12",
+            "utterance_id": "BK22004111.24"
+        }
+    ]
+}

@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22017523",
+        "name": "2022 한국어 블렌더봇 데이터 BK22017523",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0001"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "화장실 리모델링을 알아보고 있어요. 철거하는 방법과 덧방을 하는 방법이 있다고 하는데 철거는 알겠는데 덧방은 뭔가요?",
+            "turn_id": "BK22017523-1",
+            "utterance_id": "BK22017523.1"
+        },
+        {
+            "reference_date": "43409.0",
+            "reference_text": [
+                {
+                    "value": "덧방(본드발이) : 기존에 시공돼 있던 벽타일 위에 본드를 이용하여 덧붙이는 공법",
+                    "value_time": "44835.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/realestate/article/201811010766e",
+            "search_query": "화장실 리모델링 덧방",
+            "terminate": false,
+            "text": "덧방이란 원래 벽에 시공된 타일 위에 본드로 타일을 덧대는 방법으로 본드 발이라고도 해요.",
+            "turn_id": "BK22017523-1",
+            "utterance_id": "BK22017523.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 덧방 시공의 좋은 점은 뭔가요?",
+            "turn_id": "BK22017523-2",
+            "utterance_id": "BK22017523.3"
+        },
+        {
+            "reference_date": "42959.0",
+            "reference_text": [
+                {
+                    "value": "타일 덧방을 하면 기존 타일을 철거하는 데 드는 비용과 그만큼의 공사 기간을 줄일 수 있다는 이점이 있다.",
+                    "value_time": "44835.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2017081113464773983&outlink=1&ref=https%3A%2F%2Fsearch.naver.com",
+            "search_query": "덧방 이점",
+            "terminate": false,
+            "text": "타일을 덧대는 덧방을 하면 원래 있던 타일을 제거하지 않아 비용이 덜 들고 또 그만큼 시공 기간이 짧아진다는 장점이 있어요.",
+            "turn_id": "BK22017523-2",
+            "utterance_id": "BK22017523.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "덧방으로 할 때는 공사 기간이 줄어든다니 좋을 것 같은데 모든 욕실에 시공이 가능한가요?",
+            "turn_id": "BK22017523-3",
+            "utterance_id": "BK22017523.5"
+        },
+        {
+            "reference_date": "42063.0",
+            "reference_text": [
+                {
+                    "value": "건축·인테리어 전문가들은 지은 지 15년 이상된 건물(인테리어 리모델링을 한번도 하지 않은 건물 기준)은 가급적 덧방은 하지 않는 것이 좋다고 조언한다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "콘크리트가 부식됐을 가능성이 높기 때문에 기존의 타일 등을 반드시 철거하고 시멘트로 메우는 등의 조치가 필수적으로 선행돼야 한다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 욕실의 경우 바닥타일을 덧방하면 바닥이 높아져 문틀과의 높이 차이가 줄어드는 만큼 물 넘침 현상이 발생할 수 있다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "때문에 욕실 타일덧방은 1회 이상 하지 않아야 한다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2015022712130152060",
+            "search_query": "덧방 욕실",
+            "terminate": false,
+            "text": "인테리어 리모델링이 한 번도 진행되지 않은 15년 이상 된 건물은 콘크리트가 부식됐을 수 있기 때문에 가능한 한 덧방보다 기존 타일을 철거해서 시멘트를 메우는 등의 대책이 먼저예요. 또한 바닥의 타일을 덧방 하면 그만큼 바닥이 높아져 문턱과의 높낮이가 줄어 물이 넘칠 수도 있기 때문에 욕실의 타일 덧방은 한 번 이상은 권하지 않아요.",
+            "turn_id": "BK22017523-3",
+            "utterance_id": "BK22017523.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 집 화장실은 덧방이 가능한지 불가능한지 먼저 알아봐야겠군요. 또 이번 리모델링 시 고민되는 게 건식 화장실로 할지 습식 화장실로 할지예요. 그런데 정확히 건식 화장실은 무얼 뜻하나요?",
+            "turn_id": "BK22017523-4",
+            "utterance_id": "BK22017523.7"
+        },
+        {
+            "reference_date": "43960.0",
+            "reference_text": [
+                {
+                    "value": "샤워 공간과 변기, 세면대 등 각 영역을 분리했고, 욕실 바닥에는 배수구가 없는 것이 특징입니다.",
+                    "value_time": "44835.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "세면대와 샤워 공간, 욕조 등에만 배수 시설을 설치합니다.",
+                    "value_time": "44835.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20200508133728081",
+            "search_query": "건식 화장실",
+            "terminate": false,
+            "text": "건식 화장실이란 세면대나 샤워하는 공간, 욕조 등에만 물이 빠질 수 있게 하고 그 외의 욕실 바닥에는 배수 시설을 만들지 않아요. 그래서 샤워를 할 수 있는 공간과 용변이나 세면을 할 수 있는 공간을 분리해요.",
+            "turn_id": "BK22017523-4",
+            "utterance_id": "BK22017523.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 건식 화장실의 장점은 뭘까요?",
+            "turn_id": "BK22017523-5",
+            "utterance_id": "BK22017523.9"
+        },
+        {
+            "reference_date": "43526.0",
+            "reference_text": [
+                {
+                    "value": "건식 욕실의 가장 큰 장점은 공간을 기능에 따라 분리해 사용할 수 있다는 점이다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 욕실 설비가 물에 잘 닿지 않는 만큼 마감재의 손상이 더딘 편이다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "습식 욕실에 비해 습기가 낮아 세면대 아래 하부장을 넓은 수납공간으로 활용할 수 있는 점도 매력적이다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/realestate/article/201902267458e",
+            "search_query": "건식 화장실 장점",
+            "terminate": false,
+            "text": "공간을 사용 방식에 따라 나눠서 이용할 수 있는 점이 가장 큰 이점이라고 볼 수 있어요. 또한 습식 화장실에 비해 습기가 적기 때문에 세면대 아래에 하부장을 설치해 수납공간을 더 쓸 수 있고 화장실의 시설이 물에 닿는 경우가 더 적어 마감재의 손상도가 줄어들죠.",
+            "turn_id": "BK22017523-5",
+            "utterance_id": "BK22017523.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 장점이 있군요. 현재 사용 중인 방식은 습식인데 습식 화장실의 장점은 뭘까요?",
+            "turn_id": "BK22017523-6",
+            "utterance_id": "BK22017523.11"
+        },
+        {
+            "reference_date": "42861.0",
+            "reference_text": [
+                {
+                    "value": "습식 욕실은 한마디로 '물 사용이 쉬운 욕실'을 말한다.",
+                    "value_time": "44835.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "모든 욕실 아이템을 한 곳에 두기 때문에 좁은 공간에서도 무리 없이 설비를 갖출 수 있다는 장점도 지녔다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아이가 있거나 식구가 많은 가정에 특히 유리하다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2017050414122794840",
+            "search_query": "습식 화장실 장점",
+            "terminate": false,
+            "text": "습식 화장실은 물 사용이 쉽죠. 또한 화장실에서 필요한 물건들을 한 곳에 다 비치하기 때문에 공간이 좁아도 설비가 가능해요. 식구가 많거나 아이가 있는 집이라면 습식이 더 편리하죠.",
+            "turn_id": "BK22017523-6",
+            "utterance_id": "BK22017523.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "둘 다 장점이 확실하네요. 이 두 가지 장점을 다 합친 화장실은 없을까요?",
+            "turn_id": "BK22017523-7",
+            "utterance_id": "BK22017523.13"
+        },
+        {
+            "reference_date": "42873.0",
+            "reference_text": [
+                {
+                    "value": "아파트의 경우 욕실면적이 한정돼 있어 욕조를 없애고 샤워부스를 설치하거나 파티션을 놓아 단차이를 둬 물을 전체에 뿌릴 수 있는 샤워 공간과 일부만 쓸 수 있는 세면 공간으로 구분한 ‘반건식’ 욕실 형태는 브랜드마다 추천하는 대세 스타일이다.",
+                    "value_time": "44835.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://heraldcorp.com/view.php?ud=20170518000567",
+            "search_query": "반건식 화장실",
+            "terminate": false,
+            "text": "욕실 면적의 한계가 있는 아파트의 경우엔 욕조 대신에 샤워부스 혹은 칸막이를 설치해 높이의 차이를 줘서 전체에 물을 사용할 수 있는 샤워 공간과 일부분에만 사용할 수 있는 세면 공간으로 나눈 반건식 스타일이 대세예요.",
+            "turn_id": "BK22017523-7",
+            "utterance_id": "BK22017523.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한마디로 하이브리드 화장실이네요. 욕조가 기존에 많이 보던 벽에 밀착된 스타일이 아니고 떨어져 있는 게 있던데 이런 욕조는 뭔가요?",
+            "turn_id": "BK22017523-8",
+            "utterance_id": "BK22017523.15"
+        },
+        {
+            "reference_date": "43637.0",
+            "reference_text": [
+                {
+                    "value": "독립형 욕조는 욕실 벽에 붙여 3면 혹은 2면을 맞대 고정한 매립형 욕조가 아닌, 벽에 고정되지 않은 독립된 상태로 배수만 바닥에 연결하는 욕조를 말한다.",
+                    "value_time": "44835.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.homify.co.kr/ideabooks/6695090/%EC%9A%95%EC%A1%B0%EC%9D%98-%ED%99%80%EB%A1%9C%EC%84%9C%EA%B8%B0,-%EB%8F%85%EB%A6%BD%ED%98%95-%EC%9A%95%EC%A1%B0%EA%B0%80-%EC%9E%88%EB%8A%94-%EC%9A%95%EC%8B%A4-%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4",
+            "search_query": "독립형 욕조",
+            "terminate": false,
+            "text": "그건 욕실 벽에 2면이나 3면을 대고 붙인 매립형 욕조가 아니라 벽에 붙어 있지 않고 떨어져 있는 독립형 욕조예요. 물이 빠지는 부분만 바닥에 이어 사용하죠.",
+            "turn_id": "BK22017523-8",
+            "utterance_id": "BK22017523.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "독립형 욕조는 디자인에 따라 단조로운 매립형 욕조에 비해 개성을 살릴 수 있겠어요.",
+            "turn_id": "BK22017523-9",
+            "utterance_id": "BK22017523.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 욕조만 바꿔도 욕실 분위기가 많이 달라질 거예요.",
+            "turn_id": "BK22017523-9",
+            "utterance_id": "BK22017523.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "화장실 리모델링에 대해 이제 조금 안 것 같아요. 도움이 많이 됐어요.",
+            "turn_id": "BK22017523-10",
+            "utterance_id": "BK22017523.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 됐다니 정말 다행이네요. 화장실 리모델링 잘 진행하시길 바랄게요.",
+            "turn_id": "BK22017523-10",
+            "utterance_id": "BK22017523.20"
+        }
+    ]
+}

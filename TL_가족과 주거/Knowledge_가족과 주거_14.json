@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22000998",
+        "name": "2022 한국어 블렌더봇 데이터 BK22000998",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 유기견들에 대한 기사를 읽었는데, 유기 동물은 왜 생기는 건가요?",
+            "turn_id": "BK22000998-1",
+            "utterance_id": "BK22000998.1"
+        },
+        {
+            "reference_date": "2022-03-04",
+            "reference_text": [
+                {
+                    "value": "유기동물(遺棄動物, 영어: abandoned pets)은 주인의 실수, 혹은 의도적인 목적으로 인하여 버려진 이국적인 동물, 혹은 반려동물을 뜻한다.",
+                    "value_time": "2022-06-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "유기동물들은 주로 주인의 죽음이나, 혹은 동물들이 너무 커지거나 질병에 걸린 경우 발생한다.",
+                    "value_time": "2022-06-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EA%B8%B0%EB%8F%99%EB%AC%BC",
+            "search_query": "유기동물",
+            "terminate": false,
+            "text": "주인이 실수 또는 의도적으로 반려동물을 유기하는 것이죠. 보통 유기 이유는 주인의 죽음, 동물이 생각보다 커져서, 동물이 아파서 등입니다.",
+            "turn_id": "BK22000998-1",
+            "utterance_id": "BK22000998.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 이유로 버려지다니 너무 안타깝네요. 버려지는 동물의 수가 얼마나 되나요?",
+            "turn_id": "BK22000998-2",
+            "utterance_id": "BK22000998.3"
+        },
+        {
+            "reference_date": "2020-05-12",
+            "reference_text": [
+                {
+                    "value": "검역본부가 12일 발표한 <2019년 반려동물 보호와 복지관리 실태>에 따르면, 2019년도 연간 유기동물 발생 수는 총 135,791마리였다(유실동물 포함).",
+                    "value_time": "2022-06-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "우리나라에서만 매일 평균 372마리 동물이 버려지고 있는 것이다.",
+                    "value_time": "2022-06-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailyvet.co.kr/news/policy/130970",
+            "search_query": "유기동물실태",
+            "terminate": false,
+            "text": "검역본부가 발표한 자료에 따르면, 2019년도에 발생한 유기 동물 수가 총 135791마리입니다. 즉, 우리나라에서만 매일 버려지는 유기 동물이 평균 372마리라는 거지요.",
+            "turn_id": "BK22000998-2",
+            "utterance_id": "BK22000998.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하루 평균 372마리라니 엄청 많은 수네요. 유기 동물들이 보호소로도 가던데 보호소가 많이 필요하겠어요.",
+            "turn_id": "BK22000998-3",
+            "utterance_id": "BK22000998.5"
+        },
+        {
+            "reference_date": "2021-10-23",
+            "reference_text": [
+                {
+                    "value": "15~20일 내 주인을 만나지 못한 동물들은 안락사 대상으로 내몰린다.",
+                    "value_time": "2022-06-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "‘펫 전성시대’가 찾아왔음에도 가족을 만나지 못해 안락사를 당하는 동물 비중은 4년째 20%대에 머문다.",
+                    "value_time": "2022-06-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25017364",
+            "search_query": "유기동물보호소",
+            "terminate": false,
+            "text": "버려지는 수에 비해 보호소는 부족해서 15일에서 20일 내에 주인을 만나지 못하면 안락사 대상이 됩니다. 안락사 동물 비중이 20퍼센트나 됩니다.",
+            "turn_id": "BK22000998-3",
+            "utterance_id": "BK22000998.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 많은 수가 안락사 당하다니 동물들이 불쌍하네요.",
+            "turn_id": "BK22000998-4",
+            "utterance_id": "BK22000998.7"
+        },
+        {
+            "reference_date": "2022-06-07",
+            "reference_text": [
+                {
+                    "value": "따라서 입양률이 전국 평균 26.3%인 것에 비해 14.6%로 크게 낮다.",
+                    "value_time": "2022-06-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려견을 키우고 싶은 사람들이라면 애견숍에서 강아지를 사도 좋고 유기동물보호소에 있는 강아지를 입양해 가면 더 좋을 것 같다.",
+                    "value_time": "2022-06-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mediajeju.com/news/articleView.html?idxno=338326",
+            "search_query": "유기동물안락사입양률",
+            "terminate": false,
+            "text": "네. 안락사 수를 줄이기 위해서라도 반려동물을 입양하고 싶은 사람들이 펫숍 보다는 보호소에서 입양해서, 전국 26.3퍼센트인 입양률을 더 높여야 할 것입니다.",
+            "turn_id": "BK22000998-4",
+            "utterance_id": "BK22000998.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "보호소에서 입양을 하게 하려면 유기 동물에 대한 홍보도 필요할 것 같아요.",
+            "turn_id": "BK22000998-5",
+            "utterance_id": "BK22000998.9"
+        },
+        {
+            "reference_date": "2021-02-06",
+            "reference_text": [
+                {
+                    "value": "이에 따라 유기동물 입양을 지원하거나 길고양이 중성화 및 급식소 사업을 추진하는 지자체도 많아졌다.",
+                    "value_time": "2022-06-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "유기동물을 입양하는 사람에게는 예방접종 등 입양비용을 최대 10만원까지 지원하고 반려동물 관련 법령과 펫티켓 등을 교육한다",
+                    "value_time": "2022-06-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/23987141",
+            "search_query": "유기동물지원사업",
+            "terminate": false,
+            "text": "많은 지자체에서 길고양이 중성화나 급식소 사업을 추진하거나, 유기 동물을 입양하는 사람에게 입양 비용을 최대 10만 원까지 지원하고 반려동물 관련 교육을 실시하는 등의 여러 지원 사업을 펼치면서 입양률을 높이기 위해 노력하고 있습니다.",
+            "turn_id": "BK22000998-5",
+            "utterance_id": "BK22000998.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 유기 동물 보호소에서 입양하려면 어떻게 하면 되나요?",
+            "turn_id": "BK22000998-6",
+            "utterance_id": "BK22000998.11"
+        },
+        {
+            "reference_date": "2022-05-20",
+            "reference_text": [
+                {
+                    "value": "동물보호단체에서 구조되어 보호 중인 동물의 입양을 원할 경우 관련 단체 홈페이지 또는 SNS 계정을 통해 입양 문의 또는 상담이 가능하며 이후 입양 절차를 밟을 수 있다.",
+                    "value_time": "2022-06-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthinnews.co.kr/news/articleView.html?idxno=30153",
+            "search_query": "유기동물입양",
+            "terminate": false,
+            "text": "보호소에 있는 동물의 입양을 원하는 경우 관련 단체 홈페이지나 SNS 계정을 통해 문의와 상담 후 입양 절차를 거치시면 입양하실 수 있어요.",
+            "turn_id": "BK22000998-6",
+            "utterance_id": "BK22000998.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유기 동물의 입양도 중요하지만, 유기 동물 수 자체를 줄이는 것이 더 필요할 것 같아요.",
+            "turn_id": "BK22000998-7",
+            "utterance_id": "BK22000998.13"
+        },
+        {
+            "reference_date": "2019-08-01",
+            "reference_text": [
+                {
+                    "value": "유기방지를 위해서는 반려견을 어린아이 입양과 같이 생각하고, 반려견을 키울 수 있는 여건과 환경을 충분히 검토해야 한다.",
+                    "value_time": "2022-06-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 10살 이상 만성적인 질병 발생이 늘어나는 시기의 유기견 발생이 다소 높은 것을 고려할 때 반려견 생애주기에 맞는 반려동물 보험의 활성화와 취약 계층에 대한 공공의료 서비스 추진 등을 고려할 수 있을 것이다.",
+                    "value_time": "2022-06-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/environment/environment-general/article/201908012138005",
+            "search_query": "유기동물줄이려면",
+            "terminate": false,
+            "text": "그렇죠. 입양할 때에는 충분히 키울 수 있는 여건과 환경인지 고려 후 입양해야 합니다. 또한, 10살 이상의 질병이 증가하는 시기에 유기견 발생률이 늘어나므로 반려동물의 보험을 활성화하고 의료 서비스에 대한 고려가 필요합니다.",
+            "turn_id": "BK22000998-7",
+            "utterance_id": "BK22000998.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동물을 키우기 전에 많이 고민하고 결정해야겠어요. 악의적으로 동물을 유기하는 사람도 줄었으면 좋겠어요.",
+            "turn_id": "BK22000998-8",
+            "utterance_id": "BK22000998.15"
+        },
+        {
+            "reference_date": "2021-07-01",
+            "reference_text": [
+                {
+                    "value": "동물보호법에 따라 동물 보호와 유실, 유기 방지를 위하여 주택·준주택 또는 이외의 장소에서 반려의 목적으로 기르는 2개월령 이상의 개는 반드시 지방자치단체에 동물등록을 해야 한다.",
+                    "value_time": "2022-06-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=5782732&cid=43667&categoryId=43667",
+            "search_query": "반려동물등록제",
+            "terminate": false,
+            "text": "네. 동물의 유실과 유기를 방지하기 위해서 2개월 이상의 반려견은 동물보호법에 따라 반드시 지방자치단체에 동물등록을 하도록 하고 있어요.",
+            "turn_id": "BK22000998-8",
+            "utterance_id": "BK22000998.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동물등록제 때문이라도 강아지를 쉽게 기르고 쉽게 버리지 않았으면 좋겠네요.",
+            "turn_id": "BK22000998-9",
+            "utterance_id": "BK22000998.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생명이 모두 소중하다고 생각하고 기르기로 했으면 끝까지 책임지는 것이 중요하죠.",
+            "turn_id": "BK22000998-9",
+            "utterance_id": "BK22000998.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네. 소유물이 아니라 가족이라고 생각하면 될 것 같아요.",
+            "turn_id": "BK22000998-10",
+            "utterance_id": "BK22000998.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "모두 그런 생각으로 반려동물들을 바라보면 좋겠네요.",
+            "turn_id": "BK22000998-10",
+            "utterance_id": "BK22000998.20"
+        }
+    ]
+}

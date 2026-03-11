@@ -1,0 +1,366 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015895",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015895",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전 지인이 임신중독증으로 고생했다는 이야기를 들었어. 임신중독증이라는 게 뭔지 아니?",
+            "turn_id": "BK22015895-1",
+            "utterance_id": "BK22015895.1"
+        },
+        {
+            "reference_date": "2021-05-27",
+            "reference_text": [
+                {
+                    "value": "흔히 임신중독증으로 불리는 ‘전자간증’은 임신중기 이후 발생하는 고혈압성 질환이다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "임신 기간 중 혈압이 상승하면서 산모의 여러 장기와 태아에 영향을 미쳐 증세가 심한 경우 산모 및 태아를 사망에까지 이르게 할 수 있는 임신 합병증이다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hkn24.com/news/articleView.html?idxno=319028",
+            "search_query": "임신중독",
+            "terminate": false,
+            "text": "응, 임신중독증이란 건 전자간증을 말하는 것인데, 임신 중기 이후에 생기는 고혈압성 질환이야. 임신 중에 혈압이 오르고, 산모의 장기뿐만 아니라 태아에도 영향을 주어서 심각한 경우에는 산모와 태아를 죽음에 이르게 할 수 있는 임신 합병증이지.",
+            "turn_id": "BK22015895-1",
+            "utterance_id": "BK22015895.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "난 처음 들어 봤는데 무서운 병이구나. 얼마나 많은 사람이 걸리는 병인지 궁금해.",
+            "turn_id": "BK22015895-2",
+            "utterance_id": "BK22015895.3"
+        },
+        {
+            "reference_date": "2018-05-21",
+            "reference_text": [
+                {
+                    "value": "작년 한 해만 국내에서 임신부 1만명이 임신중독증으로 진단받았다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "증가세도 가파르다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "국내 고위험 임산부가 증가하면서 중증 임신중독증 환자는 연 평균 24%의 증가율을 보이고 있다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2018/05/21/2018052100977.html",
+            "search_query": "임신중독증 비율",
+            "terminate": false,
+            "text": "2017년 한 해 동안만 우리나라에서 1만 명의 임신부가 임신중독증 진단을 받았고, 그 증가세도 가팔라. 중증 임신중독증 환자도 연평균 24%나 증가했어.",
+            "turn_id": "BK22015895-2",
+            "utterance_id": "BK22015895.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 많은 사람들이 걸리는지 몰랐어. 주로 어떤 증상이 나타나?",
+            "turn_id": "BK22015895-3",
+            "utterance_id": "BK22015895.5"
+        },
+        {
+            "reference_date": "2018-05-21",
+            "reference_text": [
+                {
+                    "value": "임신중독증은 임신 20주 이상 임신부에서 고혈압·단백뇨가 동반됐을 때 발견된다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 이런 증상 외에도 임신부에 따라 다른 증상이 나타나기도 한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전문가들은 고혈압·단백뇨를 비롯해 ▲심한 두통 ▲부종 ▲시력장애 ▲상복부 통증 ▲급격한 체중증가 등을 임신중독증 주요 증상으로 소개한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 중 한 가지라도 겪는 임신부라면 놓치지 말고 산부인과 전문의와 상담해 정확한 검사를 받아야 한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2018/05/21/2018052100977.html",
+            "search_query": "임신중독증 증상",
+            "terminate": false,
+            "text": "임신 20주 이상 경과한 임신부에게서 고혈압과 단백뇨가 동반되는 경우 발견되지만, 임신부에 따라 증상이 다를 수 있어. 전문가들이 주요 증상으로 지목하는 것은 고혈압과 단백뇨뿐 아니라 심한 두통, 부종, 시력장애, 상복부 통증, 급격한 체중 증가 등이 있어. 이 증상들 중 한 가지라도 있다면 산부인과 전문의와 상담하여 정밀 검사를 받을 것이 권장돼.",
+            "turn_id": "BK22015895-3",
+            "utterance_id": "BK22015895.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신했을 때 나타나는 몸의 변화와 비슷한 것들도 있어서 알아차리기 힘들 것 같아. 임신중독증은 왜 발생하는 거야?",
+            "turn_id": "BK22015895-4",
+            "utterance_id": "BK22015895.7"
+        },
+        {
+            "reference_date": "2018-07-10",
+            "reference_text": [
+                {
+                    "value": "원인은 정확히 밝혀지지 않았지만 주로 태반이 형성되는 과정에서 혈류 공급이 제한되어 발생하는 것으로 알려졌다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "태반은 자궁 내벽에 붙어 태아와 탯줄로 연결된 구조물로 태아와 모체의 생존과 성장에 필요한 물질을 교환하는 데 사용된다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.bbc.com/korean/news-44722353",
+            "search_query": "임신중독증 원인",
+            "terminate": false,
+            "text": "사실, 원인이 정확히 밝혀지지 않았어. 그렇지만 자궁 내벽에 붙어서 태아와 탯줄로 연결된 태반이 만들어지는 과정에서 혈류의 공급이 어려워지기 때문에 발생하는 것으로 알려져 있어.",
+            "turn_id": "BK22015895-4",
+            "utterance_id": "BK22015895.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 거라면 노력한다고 피할 수 있는 병도 아니라서 무섭네. 특히 임신중독증을 주의해야 하는 사람이 있을까?",
+            "turn_id": "BK22015895-5",
+            "utterance_id": "BK22015895.9"
+        },
+        {
+            "reference_date": "2022-05-20",
+            "reference_text": [
+                {
+                    "value": "임신 전부터 고혈압이 있거나 임신 후 갑작스럽게 고혈압(140/90mmHg)이 생긴 경우 조심해야 한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한, 만성 고혈압, 만성 콩팥질환, 항인지질항체증후군, 당뇨, 비만, 혈전성향증, 다태임신, 수면 무호흡증후군, 폐부종, 임신중독증 병력 등의 위험요소가 있는 경우에도 위험도가 높아지므로 질환 발생 가능성을 예측하고 대비하는 것이 좋다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/05/20/2022052001007.html",
+            "search_query": "임신중독증 위험군",
+            "terminate": false,
+            "text": "임신하기 전에도 고혈압이 있는 사람이거나, 임신한 후에 갑자기 고혈압이 생긴 사람의 경우에 조심하는 것이 좋아. 그리고 만성 고혈압이나 만성 콩팥질환, 항인지질항체증후군, 당뇨, 비만, 혈전성향증, 다태임신, 수면 무호흡증후군, 폐부종, 임신중독증 병력과 같은 위험 요소를 지닌 임신부의 경우에도 위험성이 높기 때문에 미리 대비하는 것이 좋지.",
+            "turn_id": "BK22015895-5",
+            "utterance_id": "BK22015895.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "해당 증상이 있는 사람들은 잘 유념하고 있어야겠어. 혹시 산모뿐 아니라 태아에게도 영향이 있니?",
+            "turn_id": "BK22015895-6",
+            "utterance_id": "BK22015895.11"
+        },
+        {
+            "reference_date": "2022-05-20",
+            "reference_text": [
+                {
+                    "value": "또한 태반 및 태아로의 혈류공급장애가 생겨 태아의 성장 부전이 나타나며 심한 경우 태아 사망의 원인이 되기도 한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/05/20/2022052001007.html",
+            "search_query": "임신중독증 태아 영향",
+            "terminate": false,
+            "text": "맞아, 태반 및 태아에게로 가는 혈류에 공급 장애가 발생해서 태아의 성장 부전이 나타나고, 더 심각한 경우에는 태아가 사망에까지 이를 수 있거든.",
+            "turn_id": "BK22015895-6",
+            "utterance_id": "BK22015895.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "태아에게까지 상당한 영향이 있다니 무섭네. 어떻게 해야 치료가 되는 거야?",
+            "turn_id": "BK22015895-7",
+            "utterance_id": "BK22015895.13"
+        },
+        {
+            "reference_date": "2021-05-27",
+            "reference_text": [
+                {
+                    "value": "임신중독증의 최종적인 치료는 분만이다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "경증의 경우 37주 이전까지 경과 관찰을 하기도 하지만 34주 이후 발견된 중증 임신중독중의 경우는 분만을 하는 것이 원칙이다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "34주 이전의 중증 임신중독증은 바로 분만하거나 입원해 혈압, 태아 상태 등을 지속적으로 확인하며 혈압약, 경련예방을 위한 황산마그네슘제제 등의 약물을 투여받는다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hkn24.com/news/articleView.html?idxno=319028",
+            "search_query": "임신중독증 치료",
+            "terminate": false,
+            "text": "사실 임신중독증의 최종 치료법은 분만이야. 경증의 경우에는 임신 37주가 되기 전까지 경과 관찰을 하기도 하지만, 임신 34주가 지나서 발견된 중증 임신중독증은 원칙적으로 분만을 해야 해. 만약 임신 34주가 되지 않았는데 중증 임신중독증이라면, 바로 출산을 진행하거나 입원해서 혈압과 태아 상태를 계속 확인해. 혈압약과 경련을 예방하기 위한 황산마그네슘제제와 같은 약물도 투여하지.",
+            "turn_id": "BK22015895-7",
+            "utterance_id": "BK22015895.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "분만을 하면 낫는 병이라니 신기해. 진단받으려면 검사 비용도 부담스러울 것 같은데, 보험 적용은 되는 거니?",
+            "turn_id": "BK22015895-8",
+            "utterance_id": "BK22015895.15"
+        },
+        {
+            "reference_date": "2018-05-21",
+            "reference_text": [
+                {
+                    "value": "한편, 임신중독증의 예측과 진단을 위한 한국로슈진단의 일렉시스(Elecsys) sFlt-1/PlGF 테스트는 작년 9월부터 건강보험 급여 적용을 받아 대상자는 진단 비용의 50%만 지불하면 된다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "임신 20~34주 임신부 가운데 ▲전자간증 및 자간증의 가족력이 있는 경우 ▲고혈압인 경우 ▲단백뇨가 검출된 경우 ▲쌍둥이 이상 다태 임신인 경우 ▲태아성장 지연의 경우 ▲간기능 검사 결과 간효소 증가를 보이는 경우 중 1개에 해당하면 임신중독증 검사에 대한 50% 급여 혜택을 받을 수 있다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2018/05/21/2018052100977.html",
+            "search_query": "임신중독증 진단 보험",
+            "terminate": false,
+            "text": "응, 임신중독증을 예측하고 진단하기 위한 한국로슈진단의 일렉시스 sFlt-1/PlGF 테스트라는 것이 있는데, 2017년 9월부터 건강보험 급여 적용 대상이거든. 만약 임신 20주에서 34주 사이의 임신부 중 전자간증 및 자간증의 가족력이 있거나, 고혈압이 있거나, 단백뇨가 검출되었거나, 다태 임신이거나, 태아성장 지연이 있거나, 간기능 검사 결과 간효소 증가 증상이 있는 경우 중 1개에 해당한다면 임신중독증 검사에 50%의 급여 혜택이 적용돼.",
+            "turn_id": "BK22015895-8",
+            "utterance_id": "BK22015895.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일부만이라도 보험 적용이 된다니 다행이다.",
+            "turn_id": "BK22015895-9",
+            "utterance_id": "BK22015895.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 앞으로 차차 대상을 확대해가면 더 좋겠지.",
+            "turn_id": "BK22015895-9",
+            "utterance_id": "BK22015895.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼른 임신중독증의 원인까지 밝혀져서 더 좋은 치료법이 나오면 좋겠네. 아무튼 몰랐던 것들을 잔뜩 알게 되었어. 잘 설명해 주어서 고마워.",
+            "turn_id": "BK22015895-10",
+            "utterance_id": "BK22015895.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "다음에 또 궁금한 게 생기면 언제든 물어봐.",
+            "turn_id": "BK22015895-10",
+            "utterance_id": "BK22015895.20"
+        }
+    ]
+}

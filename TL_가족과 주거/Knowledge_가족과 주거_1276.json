@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008530",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008530",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이가 또래보다 큰 편이라 좋아했는데 성조숙증일 수도 있다고 하네요. 키가 크면 성조숙증을 의심해 봐야 하나요?",
+            "turn_id": "BK22008530-1",
+            "utterance_id": "BK22008530.1"
+        },
+        {
+            "reference_date": "2022-08-24",
+            "reference_text": [
+                {
+                    "value": "현재 키가 또래보다 크다고 해서 모두가 성조숙증인 것은 아니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아이의 현재 키보다는 키가 크는 속도를 더 유심히 관찰해야 한다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만약 성장 속도가 최근에 급격히 빨라졌다면 이는 성조숙증을 의심해 볼 수 있는 대표적인 신호다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ikunkang.com/news/articleView.html?idxno=36478",
+            "search_query": "성조숙증",
+            "terminate": false,
+            "text": "키가 크다고 해서 무조건 성조숙증은 아니에요. 지금 키보다는 키 성장 속도를 확인하셔야 해요. 최근 급격하게 키가 컸다면 성조숙증의 대표적인 신호라고 볼 수 있어요.",
+            "turn_id": "BK22008530-1",
+            "utterance_id": "BK22008530.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "갑자기 큰 거라면 의심을 해봐야 하는 거네요. 그런데 성조숙증의 뜻이 정확히 뭔가요?",
+            "turn_id": "BK22008530-2",
+            "utterance_id": "BK22008530.3"
+        },
+        {
+            "reference_date": "2022-08-24",
+            "reference_text": [
+                {
+                    "value": "성조숙증은 또래에 비하여 사춘기가 빨리 시작되는 경우를 말한다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "구체적으로 여아의 경우는 만 8세, 남아는 만 9세 이전에 사춘기가 시작된다면 성조숙증을 의심할 수 있다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ikunkang.com/news/articleView.html?idxno=36478",
+            "search_query": "성조숙증 의심",
+            "terminate": false,
+            "text": "한마디로 사춘기가 또래보다 빨리 시작된 것을 뜻해요. 여자아이라면 만 8세, 남자아이는 만 9세 이전에 사춘기 증상을 보인다면 성조숙증을 의심해 볼 수 있어요.",
+            "turn_id": "BK22008530-2",
+            "utterance_id": "BK22008530.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사춘기가 시작된 건지 아닌지는 어떻게 알아볼 수 있죠?",
+            "turn_id": "BK22008530-3",
+            "utterance_id": "BK22008530.5"
+        },
+        {
+            "reference_date": "2022-08-24",
+            "reference_text": [
+                {
+                    "value": "사춘기 시작과 함께 신체적 변화가 생긴다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "남아는 고환의 크기가 어른 엄지손톱 정도로 커지고, 여아는 가슴에 몽우리가 잡힌다면 사춘기가 시작된 것으로 볼 수 있다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ikunkang.com/news/articleView.html?idxno=36478",
+            "search_query": "성조숙증 사춘기",
+            "terminate": false,
+            "text": "사춘기가 시작되면 몸에 변화가 생기는데요. 남자아이는 고환 크기가 성인 엄지손톱 크기로 커지고, 여자아이는 가슴에 몽우리가 잡히게 돼요.",
+            "turn_id": "BK22008530-3",
+            "utterance_id": "BK22008530.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 신체 변화를 잘 살펴봐야겠네요. 그런데 성조숙증이 시작된다면 어떤 안 좋은 점이 있나요?",
+            "turn_id": "BK22008530-4",
+            "utterance_id": "BK22008530.7"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "남자아이의 성조숙증에 대한 인식이 적고, 자가 진단이 어려운 편이라 빠른 성장을 보이는 아이에 대해서는 안심하거나 어른이 되었을 때도 큰 키가 될 것이라고 잘못 생각하는 경우가 있는데 성조숙증으로 급성장기가 빨리 시작된 만큼 성장판이 일찍 닫히기 때문에 충분한 기간 동안 성장하지 못해 최종 키가 작아지는 결과가 나타날 수 있다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mdtoday.co.kr/news/view/1065579570599442",
+            "search_query": "성조숙증 성장",
+            "terminate": false,
+            "text": "성조숙증은 급성장기가 빨리 온 것이니 그만큼 성장판이 일찍 닫히게 돼요. 그렇게 되면 충분한 시기 동안 키가 크지 않아 최종 키가 작아지는 문제가 생기는 거죠.",
+            "turn_id": "BK22008530-4",
+            "utterance_id": "BK22008530.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "키가 작아진다니 절망이네요. 요즘 아이들 성조숙증이 많다는데 왜 성조숙증이 발생하는 거죠?",
+            "turn_id": "BK22008530-5",
+            "utterance_id": "BK22008530.9"
+        },
+        {
+            "reference_date": "2022-08-24",
+            "reference_text": [
+                {
+                    "value": "대표적으로 비만세포에서 분비되는 호르몬이나 플라스틱 등의 화학물질에서 나오는 환경호르몬이 신체의 내분비계에 악영향을 끼쳐 사춘기를 앞당기는 것으로 본다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이외에 유전적인 요인이나 운동 부족, 스트레스 등도 성조숙증 유발에 영향을 줄 수 있다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ikunkang.com/news/articleView.html?idxno=36478",
+            "search_query": "성조숙증 원인",
+            "terminate": false,
+            "text": "비만세포에서 나오는 호르몬이나 환경 호르몬이 내분비계에 영향을 미쳐 사춘기를 앞당기기 때문이에요. 거기다 운동 부족 및 스트레스, 유전적인 요인으로 성조숙증이 유발되기도 해요.",
+            "turn_id": "BK22008530-5",
+            "utterance_id": "BK22008530.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "원인이 한두가지가 아니라니 더 걱정이네요. 그런데 성조숙증 검사는 어떻게 이루어지나요?",
+            "turn_id": "BK22008530-6",
+            "utterance_id": "BK22008530.11"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "AI성장판검사, 호르몬 결핍 단순 혈액검사, 호르몬 결핍 입원 정밀검사 및 X-ray 측만검사, 체형분석, 체성분검사 등을 통해 빠른 성장의 원인을 조기에 찾아 그에 맞는 치료를 진행한다면 성조숙증을 극복하고 최종 성인 신장을 키울 수 있다”고 말했다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mdtoday.co.kr/news/view/1065579570599442",
+            "search_query": "성조숙증 검사",
+            "terminate": false,
+            "text": "검사 방법은 여러 가지인데요. 체성분 검사나 호르몬 정밀검사, 체형분석검사, AI 성장판 검사, 호르몬 결핍 단순 혈액검사, X-ray 측만 검사 등으로 성조숙증을 진단하고 있어요.",
+            "turn_id": "BK22008530-6",
+            "utterance_id": "BK22008530.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그럼 성조숙증이라 판정이 나면 어떤 방식으로 치료를 하는 거죠?",
+            "turn_id": "BK22008530-7",
+            "utterance_id": "BK22008530.13"
+        },
+        {
+            "reference_date": "2022-05-03",
+            "reference_text": [
+                {
+                    "value": "성장검사를 통해 성조숙증 진단을 받는 경우 호르몬 주사치료 등을 많이 진행하게 된다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthinnews.co.kr/news/articleView.html?idxno=29695",
+            "search_query": "성조숙증 치료 방법",
+            "terminate": false,
+            "text": "성조숙증 진단을 받았다면 보통은 호르몬 주사 치료를 하게 돼요.",
+            "turn_id": "BK22008530-7",
+            "utterance_id": "BK22008530.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "주사 치료 이외에 집에서 해줘야 할 건 없나요?",
+            "turn_id": "BK22008530-8",
+            "utterance_id": "BK22008530.15"
+        },
+        {
+            "reference_date": "2022-05-03",
+            "reference_text": [
+                {
+                    "value": "성조숙증 치료 시 배제할 수 없는 건 아이들의 생활 관리이다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아이가 비만하지 않도록 골고루 섭취하는 식습관과 성장판 자극에 도움을 주는 운동습관을 가지는 등의 규칙적인 생활을 할 수 있도록 도와주어야 한다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthinnews.co.kr/news/articleView.html?idxno=29695",
+            "search_query": "성조숙증 치료 방법",
+            "terminate": false,
+            "text": "효과적으로 치료를 하려면 규칙적인 생활 관리가 필수에요. 비만이 되지 않도록 음식을 골고루 섭취하게 하고, 성장판이 자극되도록 운동 습관을 잡아주어야 해요.",
+            "turn_id": "BK22008530-8",
+            "utterance_id": "BK22008530.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집에서도 꾸준히 케어를 해줘야 하는 거네요. 성조숙증일까 봐 걱정 많이 했는데 병원에 꼭 한번 가봐야겠어요.",
+            "turn_id": "BK22008530-9",
+            "utterance_id": "BK22008530.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네. 병원에 가서 정확하게 확인하시면 불안한 마음이 조금은 사라지실 거예요.",
+            "turn_id": "BK22008530-9",
+            "utterance_id": "BK22008530.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇죠. 괜히 걱정하는 것보다 전문가에게 확인받고 오는 게 마음이 편할 것 같아요. 오늘 좋은 정보 알려주셔서 감사해요.",
+            "turn_id": "BK22008530-10",
+            "utterance_id": "BK22008530.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별거 아닌걸요. 병원에서 좋은 결과 있으시길 바라며 전 이만 가볼게요. 그럼 안녕히 가세요.",
+            "turn_id": "BK22008530-10",
+            "utterance_id": "BK22008530.20"
+        }
+    ]
+}

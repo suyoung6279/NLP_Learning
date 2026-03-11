@@ -1,0 +1,370 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003361",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003361",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 집 고양이가 꽃병의 백합을 먹어서 어제 병원에 갔다 왔어. 백합이 고양이에게 안 좋은지 몰랐어.",
+            "turn_id": "BK22003361-1",
+            "utterance_id": "BK22003361.1"
+        },
+        {
+            "reference_date": "2022-03-22",
+            "reference_text": [
+                {
+                    "value": "그중에서도 고양이에게 매우 치명적인 맹독으로 알려진 대표적인 식물이 바로 ‘백합’이다.",
+                    "value_time": "2022-07-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고양이가 백합을 먹으면 심각한 중독을 일으켜 구토, 설사, 탈수 등의 증상이 발생한다.",
+                    "value_time": "2022-07-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "만일 적절하게 치료를 받지 못한다면 신장이 급격하게 손상돼 급성신부전으로 사망에 이를 수 있다.",
+                    "value_time": "2022-07-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=58610",
+            "search_query": "고양이 백합",
+            "terminate": false,
+            "text": "너무 놀랐겠다. 백합은 고양이에게 치명적인 맹독을 가진 꽃인데, 만약 고양이가 먹게 된다면 중독을 일으켜 설사, 구토, 탈수와 같은 증상이 발생해. 제때 치료를 받지 못하면 급성신부전으로 사망까지 이를 수 있는데, 치료는 잘 받았어?",
+            "turn_id": "BK22003361-1",
+            "utterance_id": "BK22003361.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다행히 조금만 먹었고, 바로 병원에 가서 치료를 받아서 괜찮아. 초콜릿이 개한테 안 좋은 건 알았지만, 백합이 고양이한테 그렇게 위험한지 몰랐어. 초콜릿이 고양이한테도 안 좋은가?",
+            "turn_id": "BK22003361-2",
+            "utterance_id": "BK22003361.3"
+        },
+        {
+            "reference_date": "2020-06-23",
+            "reference_text": [
+                {
+                    "value": "초콜릿의 주원료인 테오브로민이라는 성분은 고양이가 소량을 섭취해도 경련, 구토 등의 증상을 보일 수 있으며 심한 경우 목숨이 위험하기도 한다.",
+                    "value_time": "2022-07-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=126677",
+            "search_query": "고양이 초콜릿",
+            "terminate": false,
+            "text": "맞아. 백합도 그렇지만, 고양이한테 초콜릿은 주면 안 돼. 초콜릿의 테오브로민은 고양이가 조금이라도 섭취하면 경련이나 구토를 할 수 있고, 목숨도 위험하게 할 수 있는 위험한 식품이지.",
+            "turn_id": "BK22003361-2",
+            "utterance_id": "BK22003361.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 내가 모르고 고양이에게 먹여서 고양이를 위험하게 할 수도 있겠다. 지금이라도 알아두게 고양이에게 주면 안 되는 식품들을 알려줘.",
+            "turn_id": "BK22003361-3",
+            "utterance_id": "BK22003361.5"
+        },
+        {
+            "reference_date": "2019-09-04",
+            "reference_text": [
+                {
+                    "value": "2. 유제품:사람이 먹는 우유와 치즈에는 고양이가 소화할 수 없는 락토스 성분이 함유되어 있을 수 있다.",
+                    "value_time": "2022-07-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 소화불량, 설사를 유발할 수 있다.",
+                    "value_time": "2022-07-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongdo.co.kr/web/view.php?key=20190904010002178",
+            "search_query": "고양이 우유",
+            "terminate": false,
+            "text": "먼저, 사람이 먹는 우유와 치즈는 락토스 성분이 함유되어 있어서 소화불량이나 설사를 유발할 수 있으니 주지 않는 것이 좋아.",
+            "turn_id": "BK22003361-3",
+            "utterance_id": "BK22003361.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가끔 우유를 줬는데 주지 말아야겠구나. 혹시 달걀은 줘도 되나?",
+            "turn_id": "BK22003361-4",
+            "utterance_id": "BK22003361.7"
+        },
+        {
+            "reference_date": "2015-11-21",
+            "reference_text": [
+                {
+                    "value": "특히 달걀흰자에 들어 있는 아비딘(avidin)이라는 단백질은 비오틴의 소화흡수를 방해하므로 굳이 달걀을 줄 때는 삶은 노른자만 소량으로 줘야 한다.",
+                    "value_time": "2022-07-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/201511210138497677",
+            "search_query": "고양이 달걀",
+            "terminate": false,
+            "text": "음, 달걀흰자의 아비딘이라는 단백질의 비오틴 성분이 소화 흡수를 방해해서 좋지 않아. 고양이에게 달걀을 주려면 삶은 노른자만 조금 주도록 해.",
+            "turn_id": "BK22003361-4",
+            "utterance_id": "BK22003361.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "되도록이면 달걀도 주지 말아야겠네. 고양이가 생선을 좋아하는 것 같아서 생선을 주다 보면 생선 뼈가 있을 때가 있는데, 혹시 생선 뼈는 어때?",
+            "turn_id": "BK22003361-5",
+            "utterance_id": "BK22003361.9"
+        },
+        {
+            "reference_date": "2015-12-26",
+            "reference_text": [
+                {
+                    "value": "닭뼈나 생선뼈, 쇠뼈 등 동물의 뼈도 고양이의 입속이나 소화기관에 상처를 낼 수 있으므로 주의해야 한다.",
+                    "value_time": "2022-07-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://star.mbn.co.kr/view.php?no=1214082&year=2015&refer=portal",
+            "search_query": "고양이 생선뼈",
+            "terminate": false,
+            "text": "고양이가 좋아하는 음식하면 떠오르는 것이 생선이긴 하지. 하지만, 생선 뼈나 닭이나 소의 뼈는 고양이의 입속이나 소화기관에 상처를 낼 수 있으니 주지 않는 것이 좋아.",
+            "turn_id": "BK22003361-5",
+            "utterance_id": "BK22003361.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뼈가 소화기관에 상처를 낼 수 있구나. 그럼, 생선은 고양이가 좋아하는 건 맞지? 고양이한테 생선을 주는 건 괜찮지?",
+            "turn_id": "BK22003361-6",
+            "utterance_id": "BK22003361.11"
+        },
+        {
+            "reference_date": "2016-11-04",
+            "reference_text": [
+                {
+                    "value": "또한 고양이는 날생선을 먹으면 위험해진다.",
+                    "value_time": "2022-07-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "익히지 않은 날것은 식중독균이 있을 가능성이 높기에 고양이에게 치명적일 수 있기 때문이다.",
+                    "value_time": "2022-07-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://tvdaily.co.kr/read.php3?aid=14782192131177641016",
+            "search_query": "고양이 생선",
+            "terminate": false,
+            "text": "혹시 날생선을 준 건 아니지? 익히지 않은 생선은 식중독균이 있을 수 있어. 이 식중독균은 고양이에게 치명적일 수 있으니 주면 안 돼.",
+            "turn_id": "BK22003361-6",
+            "utterance_id": "BK22003361.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 날생선은 주면 안 되는 거구나. 그럼, 생선 중에 참치캔은 익힌 거고, 뼈도 없으니까 줘도 괜찮은 거야?",
+            "turn_id": "BK22003361-7",
+            "utterance_id": "BK22003361.13"
+        },
+        {
+            "reference_date": "2015-11-20",
+            "reference_text": [
+                {
+                    "value": "사람이 먹는 참치캔, 사람용 통조림, 과자, 소시지 따위의 가공식품은 사람의 섭취 적정량을 기준으로 한 식품첨가물이 함유되어 있으므로 사람 체중의 1/10밖에 되지 않는 고양이에게 매우 해로운 것으로 알려져있다.",
+                    "value_time": "2022-07-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/201511202109294185",
+            "search_query": "고양이 통조림",
+            "terminate": false,
+            "text": "사람들이 먹는 참치캔은 엄청 안 좋아. 사람이 먹는 음식들 중에서도 캔 종류나 과자, 소시지 같은 가공식품은 식품첨가물이 함유되어 있어서 사람의 체중에 10분의 1밖에 안되는 고양이에게는 매우 해롭거든.",
+            "turn_id": "BK22003361-7",
+            "utterance_id": "BK22003361.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이용을 준 적도 있지만 사람 참치캔도 준 적이 있는데, 이제는 절대 그러지 말아야겠네. 또 고양이에게 주면 해로운 것들은 뭐가 있어?",
+            "turn_id": "BK22003361-8",
+            "utterance_id": "BK22003361.15"
+        },
+        {
+            "reference_date": "2015-08-15",
+            "reference_text": [
+                {
+                    "value": "더불어 사탕이나 아이스크림 등 당분이 함유된 음식물은 고양이의 신장에 부담이 되므로 삼가야 하며, 카페인 또한 동물에게 매우 위험한 성분으로 간주돼 사람용 피로회복제, 초콜릿, 커피 등은 고양이가 섭취해선 안된다.",
+                    "value_time": "2022-07-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://biz.heraldcorp.com/view.php?ud=201508151229014706307_8",
+            "search_query": "고양이 주는 안되는 식품",
+            "terminate": false,
+            "text": "사탕이나 아이스크림처럼 당분이 함유된 것은 신장에 부담을 줄 수 있고, 사람용 피로회복제, 초콜릿, 커피같이 카페인이 함유된 것도 매우 위험할 수 있으니 고양이가 먹지 않도록 주의해야 해.",
+            "turn_id": "BK22003361-8",
+            "utterance_id": "BK22003361.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리가 마시다 남긴 커피잔이나 이런 것도 고양이가 먹지 않게 바로 치워야겠구나. 근데 우리 고양이는 양파를 썰면 자꾸 근처로 오는데 양파도 주면 안 되는 거지?",
+            "turn_id": "BK22003361-9",
+            "utterance_id": "BK22003361.17"
+        },
+        {
+            "reference_date": "2017-05-08",
+            "reference_text": [
+                {
+                    "value": "·‘양파와 대파’: 고양이 혈액에 있는 적혈구를 파괴하는 성분이 포함돼 있다.",
+                    "value_time": "2022-07-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "급성 빈혈을 일으키거나 혈뇨가 나오거나 최악의 경우에는 사망할 수도 있다.",
+                    "value_time": "2022-07-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20170507/84239903/1",
+            "search_query": "고양이 금지 식품",
+            "terminate": false,
+            "text": "응, 고양이가 양파를 먹지 않도록 조심해야 해. 양파와 대파는 고양이의 적혈구를 파괴하는 성분이 들어 있어서 급성빈혈을 일으키거나 사망에도 이르게 할 수 있어.",
+            "turn_id": "BK22003361-9",
+            "utterance_id": "BK22003361.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이에게 주면 안 되는 것들이 많구나. 고양이가 가끔 강아지 사료를 뺏어 먹는데 그건 괜찮을까?",
+            "turn_id": "BK22003361-10",
+            "utterance_id": "BK22003361.19"
+        },
+        {
+            "reference_date": "2018-11-21",
+            "reference_text": [
+                {
+                    "value": "강아지 사료에는 고양이에게 필수적인 영양성분인 타우린이 함유돼있지 않아 장기간 섭취 시 영양실조가 생길 수 있다.",
+                    "value_time": "2022-07-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=57633",
+            "search_query": "고양이 강아지 사료",
+            "terminate": false,
+            "text": "강아지 사료에는 고양이에게 꼭 필요한 타우린 성분이 들어 있지 않으니 장기간 섭취하면 영양실조가 생길 수 있으니 고양이는 고양이 사료를 챙겨 줘.",
+            "turn_id": "BK22003361-10",
+            "utterance_id": "BK22003361.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어, 내가 너무 정보 없이 고양이를 키우고 있었나 봐.",
+            "turn_id": "BK22003361-11",
+            "utterance_id": "BK22003361.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "이제부터라도 차근차근 공부하면 되지. 궁금한 것 생기면 언제든지 물어봐.",
+            "turn_id": "BK22003361-11",
+            "utterance_id": "BK22003361.22"
+        }
+    ]
+}

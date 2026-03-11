@@ -1,0 +1,411 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009219",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009219",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 원룸을 구하고 있는데 자취가 처음이라 어떤 점을 고려해야 할지 몰라 막막하네요. 혹시 자취 해보셨나요?",
+            "turn_id": "BK22009219-1",
+            "utterance_id": "BK22009219.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 제가 자취 20년차라 자취에 대해 잘 알고 있어요. 혹시 처음 자취해보시는 건가요?",
+            "turn_id": "BK22009219-1",
+            "utterance_id": "BK22009219.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 자취 초보라 이것저것 고민이 많아요. 혹시 원룸 계약할 때 어떤 것을 주의해야 할까요?",
+            "turn_id": "BK22009219-2",
+            "utterance_id": "BK22009219.3"
+        },
+        {
+            "reference_date": "2020-03-11",
+            "reference_text": [
+                {
+                    "value": "임대차인은 바로 원룸을 구하는 ‘나’이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "임대인은 건물주, 즉 집주인이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "내 원룸 계약서와 집주인의 건물 등기부 등본상, 건물 소유자가 동일한지 확인하는 것이 첫 단계다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그리고 임차인인 나는 매달 월세를 입금하게 되는데 그 통장의 명의가 동일한지 확인을 하는 것이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "3. 원룸 계약 후, 해당 지역 동사무소에 원룸계약서 원본을 지참해 전입신고와 함께 확정일자 받기",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ggilbo.com/news/articleView.html?idxno=751979",
+            "search_query": "원룸 계약 주의사항",
+            "terminate": false,
+            "text": "네, 먼저 원룸을 구하는 사람은 임대차고 임대인이 건물주, 즉 집주인인데요. 첫 단계로 내 원룸 계약서와 집주인의 건물 등기부 등본상, 건물 소유자가 같은지 확인하는 것이 먼저 확인하셔야 돼요. 등기부 등본을 보시면 집주인 이름이 있는 것을 확인하실 수 있어요. 그리고 임차인인 나는 매달 집주인에게 월세를 입금하게 되는데 그 통장의 명의가 같은지 확인을 하는 것도 중요하죠. 그리고 계약을 한 뒤에 동사무소에 가셔서 원룸 계약서 원본을 챙겨 전입신고 확정일자를 받으셔야 하죠.",
+            "turn_id": "BK22009219-2",
+            "utterance_id": "BK22009219.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 그렇군요. 처음에 계약할 때 보증금을 조정도 가능할까요?",
+            "turn_id": "BK22009219-3",
+            "utterance_id": "BK22009219.5"
+        },
+        {
+            "reference_date": "2020-03-11",
+            "reference_text": [
+                {
+                    "value": "원룸의 보증금은 고정 금액이 아니다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보증금이란 월세가 밀렸을 때 보증금에서 제외할 목적과 동시에 옵션(EX)냉장고, 에어컨, TV 등)에 문제가 생겼을 경우 등 여러 가지 이유가 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그래서 보증금을 조금 내려달라고 요청한다면 충분히 내릴 수 있고, 월세가 조금 비싼데 보증금을 더 내고 월세를 내리는 것도 요청해 볼 수 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ggilbo.com/news/articleView.html?idxno=751979",
+            "search_query": "보증금 조정",
+            "terminate": false,
+            "text": "보증금은 고정 금액이 아니에요. 만약에 월세가 밀렸을 때 보증금에서 제외할 목적과 동시에 옵션에 문제가 생겼을 경우 등 여러 가지 요인이 있는데요. 보증금을 조금 낮춰달라고 요청한다면 충분히 내릴 수 있고, 월세를 올리는 방법 있고 보증금을 더 내고 월세를 내리는 것도 요청해 볼 수 있죠.",
+            "turn_id": "BK22009219-3",
+            "utterance_id": "BK22009219.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 보증금 상담을 집주인과 해 볼 수도 있군요. 계약 서류 이외에도 어떤 것을 확인해보면 좋을까요?",
+            "turn_id": "BK22009219-4",
+            "utterance_id": "BK22009219.7"
+        },
+        {
+            "reference_date": "2020-01-14",
+            "reference_text": [
+                {
+                    "value": "4. 낮과 밤에 두 번 집 방문하기",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대학가의 경우 낮에는 조용하나 밤이 되면 주변 유흥업소, 노래방, 술집 등으로 너무 밝거나 시끄러운 공해가 있을 수 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러니 꼭 두 번 방문해볼 것을 추천한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 어두울 때 집 근처 CCTV, 경찰서, 편의점, 교통시설 등 주변 편의시설들이 근처에 있는지 확인해야 한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.wikitree.co.kr/articles/496938",
+            "search_query": "월세 계약시 필수 주의사항",
+            "terminate": false,
+            "text": "집 주변을 낮과 밤에 각각 2번씩 돌아보는 건데요. 집 주변이 대학가의 경우 낮에는 조용한데 밤이 되면 주변 유흥업소, 노래방, 술집 등으로 너무 밝거나 시끄러운 소음이 잦을 수 있죠. 그러니 꼭 두 번 방문을 하셔야 해요. 또한 어두울 때 집 근처 CCTV가 있는지 확인하고 경찰서, 편의점, 교통시설 등 주변 편의시설들이 근처에 있는지 체크해야 하죠.",
+            "turn_id": "BK22009219-4",
+            "utterance_id": "BK22009219.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 동네 분위기를 살펴봐야겠군요. 이것 이외에도 자취를 시작하기 전 자취 초보에게 필요한 물건을 알고 싶은데요. 혹시 추천하시는 것이 있을까요?",
+            "turn_id": "BK22009219-5",
+            "utterance_id": "BK22009219.9"
+        },
+        {
+            "reference_date": "2018-01-03",
+            "reference_text": [
+                {
+                    "value": " 돌돌이 & 물티슈 : 때마다 꼼꼼하게 청소하기 힘든 분들이라면 틈틈이 돌돌이로 자주 생활하는 공간의 바닥을 밀어주도록 하자.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "눈에 보이지 않았던 먼지들이나 머리카락을 정리하기 용이하다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "■ 수납공간은 많을수록 좋다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 정리정돈에 자신이 없는 분들이라면 수납함을 많이 구비해둘 것을 추천한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "혹시라도 아플 때를 대비해 상비약을 챙기는 것은 센스.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=35294",
+            "search_query": "자취 초보 필수품",
+            "terminate": false,
+            "text": "네, 저는 돌돌이와 물티슈를 추천하는데요 날마다 꼼꼼하게 청소하기 힘들 경우에 틈틈이 돌돌이로 자주 생활하는 곳의 바닥을 밀어 청소할 수 있고 눈에 보이지 않는 먼지나 머리카락을 정리하기에 아주 유용해요. 수납공간 자취방의 다다익선인데요. 특히 정리정돈에 자신이 없을 경우 수납함을 많이 구비해두면 좋아요. 그리고 혹시라도 아플 때를 대비해 상비약을 구비해두는 것도 좋아요.",
+            "turn_id": "BK22009219-5",
+            "utterance_id": "BK22009219.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 유용하네요. 저는 가구가 많이 없어서 공간이 썰렁할 수 있는데 혹시 자취방을 저렴하게 꾸미는 팁이 있을까요?",
+            "turn_id": "BK22009219-6",
+            "utterance_id": "BK22009219.11"
+        },
+        {
+            "reference_date": "2019-05-08",
+            "reference_text": [
+                {
+                    "value": "가장 저렴하고 간단한 방법으로는 예쁜 엽서를 모아 마스킹테이프를 붙여 공간을 장식하는 방법이 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "못을 박지 못한다면 벽지에 꼭꼬핀을 꽂아 드림캐처나 마크라메, 혹은 심플한 스트랩백을 걸어 빈티지한 느낌을 줄 수도 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.wikitree.co.kr/articles/367571",
+            "search_query": "자취방 저렴하게 꾸미기",
+            "terminate": false,
+            "text": "맘에 드는 엽서를 모아 마스킹테이프를 붙여 공간을 장식해보는 것이 간단하고 저렴한 방법중 하나죠. 만약에 못을 박지 못한다면 벽지에 꼭꼬핀을 꽂아 드림캐처나 마크라메, 심플한 스트랩백을 벽에 걸어 빈티지한 무드를 공간에 줄 수도 있어요.",
+            "turn_id": "BK22009219-6",
+            "utterance_id": "BK22009219.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 팁이 있군요. 작은 아이템은 방 분위기를 바꿀 수 있는 팁이 있을까요?",
+            "turn_id": "BK22009219-7",
+            "utterance_id": "BK22009219.13"
+        },
+        {
+            "reference_date": "2019-05-08",
+            "reference_text": [
+                {
+                    "value": "방 분위기에 전체적인 영향을 주고 싶다면 향이나 패브릭, 조명을 이용하는 방법을 고려할 수 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 중에서도 다리를 접으면 감쪽같이 큰 액자처럼 보일 수 있는 액자테이블은 인테리어 소품용으로 큰 인기를 끌고 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "침대나 소파, 의자 위에 예쁘고 푹신한 쿠션 한두 개 놓으면 좋은 인테리어 포인트가 될 수 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "해외 인테리어 사례를 보면 아크릴 거울 여러 개를 붙여 벽을 장식하는 경우를 볼 수 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.wikitree.co.kr/articles/367571",
+            "search_query": "자취방 분위기 바꾸기",
+            "terminate": false,
+            "text": "방의 무드에 전체적인 변화를 주고 싶다면 향이나 패브릭, 조명을 이용해보세요. 혹은 액자 테이블의 다리를 접어 인테리어 소품으로도 사용하거나 푹신한 쿠션 몇 개를 침대에 두고 포인트를 줄 수 있죠. 또, 아크릴 거울을 벽에 붙여 장식하는 방법도 있죠.",
+            "turn_id": "BK22009219-7",
+            "utterance_id": "BK22009219.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 방법이 있군요. 사실 저는 어플로 방 매물을 둘러보고 있는데요. 허위 매물을 피하려면 어떻게 해야 할까요?",
+            "turn_id": "BK22009219-8",
+            "utterance_id": "BK22009219.15"
+        },
+        {
+            "reference_date": "2022-03-07",
+            "reference_text": [
+                {
+                    "value": "광각 렌즈로 넓어 보이는 사진, 전시용 모델하우스 사진, 한쪽 벽만 촬영한 사진처럼 방사진이 지나치게 보정되었거나 내부구조를 알아보기 힘들다면 허위매물의 가능성이 70% 이상 높으니 주의해야 합니다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "매물설명에서 '실입주금', '저금리대출이자', '단기임대'를 강조한다면 허위매물일 가능성이 있습니다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "매물번호를 잘 체크해 보는 것도 중요합니다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=58354",
+            "search_query": "허위매물 피해 집구하기",
+            "terminate": false,
+            "text": "네, 먼저 사진을 주의 깊게 확인 하셔야 하는데요. 광각 렌즈 때문에 넓게 찍힌 사진, 전시용 모델하우스 사진, 한쪽 공간만 찍은 사진처럼 방사진이 과도하게 보정되었거나 내부구조를 알아보기 힘들다면 허위 매물의 가능성이 70% 이상 높아요. 그리고 매물설명에서 실입주금, 저금리대출이자, 단기임대를 강조한다면 허위 매물일 가능성이 있고 매물번호 또한 잘 확인 해보시는 게 좋습니다.",
+            "turn_id": "BK22009219-8",
+            "utterance_id": "BK22009219.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "만약에 방 구하는 어플에서 허위 매물을 만났을 때 어떻게 대처 해야 하는지도 알고 계실까요?",
+            "turn_id": "BK22009219-9",
+            "utterance_id": "BK22009219.17"
+        },
+        {
+            "reference_date": "2022-03-07",
+            "reference_text": [
+                {
+                    "value": "다방 : 매물계약을 중단한 후 신고를 해야합니다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "광고중인 매물에 대한 정보가 실제방과 일치하지 않으면 허위매물서, 부동산중개대상물표시광고법위반으로 다방 본사나, 부동산 광고 시장 감시센터로 신고 할 수 있습니다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=58354",
+            "search_query": "허위매물 대처",
+            "terminate": false,
+            "text": "먼저 계약을 멈춘 뒤에 신고를 하시고 광고중인 매물에 대한 정보가 실제방과 동일하지 않으면 허위매물서, 부동산중개대상물표시광고법위반으로 어플 본사나, 부동산 광고 시장 감시센터로 신고할 수 있어요. 매물을 신고할 때에는 매물 정보 스크린샷, 통화 녹음기록 등 여러 자료를 통해 신고할 수 있는데요. 어플에서 계약문제가 발생되었을 경우 대한법률구조공단을 통해 무료법률상담을 받아 볼 수도 있습니다.",
+            "turn_id": "BK22009219-9",
+            "utterance_id": "BK22009219.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 덕분에 막막했었는데 방 구하는 데에 고민을 덜어낼 수 있게 되었어요. 정말 감사합니다.",
+            "turn_id": "BK22009219-10",
+            "utterance_id": "BK22009219.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저도 고민을 해결해드린 것 같아 뿌듯하네요. 그럼 안녕히 계세요!",
+            "turn_id": "BK22009219-10",
+            "utterance_id": "BK22009219.20"
+        }
+    ]
+}

@@ -1,0 +1,368 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015446",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015446",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나 말이야, 강아지를 입양할까 하는데 어떤 품종이 좋을까? 일단 털 빠짐이 적었으면 하는데 그런 품종이 뭐가 있지?",
+            "turn_id": "BK22015446-1",
+            "utterance_id": "BK22015446.1"
+        },
+        {
+            "reference_date": "2022-09-19",
+            "reference_text": [
+                {
+                    "value": "개털에 민감한 가족이 있다면 장모종 견종을 추천한다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "푸들, 비숑, 말티즈, 시츄, 라꽁 드툴레아 등의 장모종은 털이 무한히 자라기 때문에 의외로 빠지는 털이 적다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.imaeil.com/page/view/2022091816250436215",
+            "search_query": "털이 덜 빠지는 강아지 품종",
+            "terminate": false,
+            "text": "개털에 민감하다면 푸들이나 비숑, 말티즈, 시츄, 라꽁 드툴레아 등의 장모종을 키우는 걸 고려해 봐. 장모종은 털이 끝없이 자라는 특성이 있어서 털 빠짐이 생각 외로 적은 편이거든.",
+            "turn_id": "BK22015446-1",
+            "utterance_id": "BK22015446.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 진짜? 털은 당연히 장모종이 많이 빠질 거라 생각했는데 의외다. 네가 말해준 견종 중에서는 푸들한테 제일 관심이 가는데 우리나라에서 푸들 키우는 사람들이 많나?",
+            "turn_id": "BK22015446-2",
+            "utterance_id": "BK22015446.3"
+        },
+        {
+            "reference_date": "2021-03-22",
+            "reference_text": [
+                {
+                    "value": "kb경영연구소의 ‘2021 한국 반려동물보고서’에 따르면, 우리나라에서 가장 많이 키우는 견종은 ‘몰티즈(말티즈)’인 것으로 나타났다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전체 반려견의 23.7%가 몰티즈였다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2위는 푸들(19.0%), 3위는 포메라니안(11.0%), 4위는 믹스견(10.7%), 5위는 치와와(10.1%), 6위는 시추(8.2%), 7위는 골든리트리버(7.5%), 8위는 진돗개(6.0%)였다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailyvet.co.kr/news/industry/144536",
+            "search_query": "푸들 키우는 비율",
+            "terminate": false,
+            "text": "kb 경영연구소의 2021 한국 반려동물 보고서에 따르면 그런 편이야. 푸들이 우리나라에서 가장 많이 키우는 견종 중 2위를 차지했거든. 총 19퍼센트의 비율이었지. 1위인 몰티즈는 23.7퍼센트였고.",
+            "turn_id": "BK22015446-2",
+            "utterance_id": "BK22015446.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "2번째로 많이 키우는 견종이면 키우기 무난하다는 뜻일 테니 괜찮을 것 같네. 근데 내가 듣기로는 푸들은 종류가 여러 가지라고 했던 것 같은데 몇 가지나 되지?",
+            "turn_id": "BK22015446-3",
+            "utterance_id": "BK22015446.5"
+        },
+        {
+            "reference_date": "2022-03-09",
+            "reference_text": [
+                {
+                    "value": "다른 많은 종들에 비해, 푸들에는 다양한 크기가 있다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이는 성견의 기갑(어깨) 높이에 따라 분류된다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "국제애견협회는 같은 종의 푸들이라는 종의 크기에 따른 차이로 스탠다드, 미디엄, 미니어처, 토이 네 가지를 규정한다.[16]",
+                    "value_time": "2022-10-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%91%B8%EB%93%A4",
+            "search_query": "푸들 종류",
+            "terminate": false,
+            "text": "푸들은 다른 종들에 비해 크기가 다양한 편인데, 성견의 어깨 높이를 기준으로 종류가 4가지로 나뉘어. 스탠다드, 미디엄, 미니어처, 토이 등이지. 이건 국제 애견협회에서 분류한 기준이야.",
+            "turn_id": "BK22015446-3",
+            "utterance_id": "BK22015446.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기준이 크기였구나. 종류별 어깨 높이랑 대략적인 무게가 어느 정도나 되는지 알아?",
+            "turn_id": "BK22015446-4",
+            "utterance_id": "BK22015446.7"
+        },
+        {
+            "reference_date": "2022-03-09",
+            "reference_text": [
+                {
+                    "value": "토이푸들의 체고(어깨높이)는 25cm 이하에 몸무게는 2~3kg이고, 미니어처푸들의 체고는 25~35cm에 몸무게는 3~6kg에다, 미디엄 푸들은 35~45cm에, 몸무게는 6~20kg정도이며, 스탠다드푸들의 체고는 38cm 이상에, 몸무게는 20~27kg이다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%91%B8%EB%93%A4",
+            "search_query": "푸들 종류 어깨 높이 무게",
+            "terminate": false,
+            "text": "4가지 중 가장 작은 토이푸들부터 말해주자면 어깨 높이가 25cm 이하이고 몸무게는 2kg에서 3kg 정도가 나가. 그다음으로 큰 미니어처 푸들은 어깨 높이가 25cm에서 35cm 사이이고 몸무게는 3kg에서 6kg 정도 사이야. 미니어처 푸들 다음으로 큰 미디엄 푸들은 어깨 높이가 35cm에서 45cm 사이이고 몸무게는 6kg에서 20kg 정도가 나가고 제일 큰 스탠다드 푸들의 경우에는 어깨 높이가 38cm 이상이고 몸무게는 20kg에서 27kg 정도 사이로 나가.",
+            "turn_id": "BK22015446-4",
+            "utterance_id": "BK22015446.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제일 작은 종이랑 큰 종이랑 몸무게가 10배 정도나 차이가 나네. 난 작은 애들 밖에 못 봤는데 큰 애들도 있다니 신기하다. 근데 푸들은 어떻게 이렇게 크기가 다양한 거야?",
+            "turn_id": "BK22015446-5",
+            "utterance_id": "BK22015446.9"
+        },
+        {
+            "reference_date": "2019-04-02",
+            "reference_text": [
+                {
+                    "value": "푸들은 본래 대형견이었으나 점차 작게 개량하여 작은 사이즈의 푸들이 널리 퍼졌고 이들을 그룹화 하면서 ‘스탠다드-미니어처’로 이분화 되다가 미니어처에서 좀 더 작은 집단을 구분하면서 ‘토이’그룹까지 생겨난 것이다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kbmaeil.com/news/articleView.html?idxno=811074",
+            "search_query": "푸들 크기 다양",
+            "terminate": false,
+            "text": "원래 푸들은 대형 견종이었는데 개량화를 통해 점점 사이즈를 줄여서 소형 푸들이 탄생하게 됐어. 그래서 지금처럼 크기가 다양해지게 된 거야. 처음에는 스탠다드와 미니어처로만 나누어 구분을 하다가 미니어처에서 더 작은 집단을 떼어내서 토이 그룹까지 나누어 구분하게 됐지.",
+            "turn_id": "BK22015446-5",
+            "utterance_id": "BK22015446.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "작은 애들은 선호하니까 작게 개량이 된 건가 보구나. 어쨌든 크기를 선택할 수 있다는 건 좋은 것 같은데 우리 집이 대형견을 키울만한 환경은 아니라 키우게 되면 토이푸들이나 미니어처 푸들을 알아봐야 할 것 같다. 근데 내가 원하는 강아지는 똑똑한 강아지인데 푸들은 지능이 어때?",
+            "turn_id": "BK22015446-6",
+            "utterance_id": "BK22015446.11"
+        },
+        {
+            "reference_date": "2022-04-14",
+            "reference_text": [
+                {
+                    "value": "전체 견종 중 지능이 가장 높은 견종 2위가 푸들이다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "눈치도 빠르고 학습능력도 뛰어나 훈련하기가 쉬워 반려견으로 적합하다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2022030218275156993",
+            "search_query": "푸들 지능",
+            "terminate": false,
+            "text": "푸들은 다른 강아지들에 비해 지능이 아주 뛰어난 편이야. 지능이 가장 높은 견종 순위에서 2위를 차지했거든. 그래서 학습능력이 뛰어난데 눈치까지 빨라서 훈련도 수월하게 할 수 있어. 그러니 반려견으로 키우기에 충분한 매력이 있는 견종이지.",
+            "turn_id": "BK22015446-6",
+            "utterance_id": "BK22015446.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지능까지 좋다니 더 호감이 간다. 사실 강아지 키우면 훈련을 잘 시켜서 강아지와 관련된 각종 대회에 나가보고 싶어서 똑똑한 애를 원하고 있거든. 그래서 그런데 혹시 푸들이 특별히 잘하는 게 있을까?",
+            "turn_id": "BK22015446-7",
+            "utterance_id": "BK22015446.13"
+        },
+        {
+            "reference_date": "2022-03-09",
+            "reference_text": [
+                {
+                    "value": "푸들은 도그 다이빙,[7] 도그 서핑,[8][9]추적, 플라잉 디스크,[10][11]와 같이 민첩성을 요구하는 많은 개 관련 스포츠 종목을 잘하는 것으로 알려져 있다.[12]",
+                    "value_time": "2022-10-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "푸들은 수세기 동안 물을 좋아했기 때문에 수영과 관련된 여행을 갈 수도 있다.[15]",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%91%B8%EB%93%A4#cite_note-15",
+            "search_query": "푸들 잘하는 것",
+            "terminate": false,
+            "text": "푸들은 강아지와 관련된 스포츠 종목 중에서 민첩성을 필요로 하는 것들에 소질이 있어. 도그 다이빙이나 도그 서핑, 추적, 플라잉 디스크와 같은 것들 말이지. 또 물을 좋아하는 특성도 있으니 수영과 관련된 것도 고려해 봐.",
+            "turn_id": "BK22015446-7",
+            "utterance_id": "BK22015446.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잘하는 것보다는 좋아하는 걸 하는 게 나을 것 같으니 그럼 수영 쪽을 일단 고려해 봐야겠다. 근데 말하다 보니 어째 푸들을 입양하기로 확정한 사람 같다, 그치?",
+            "turn_id": "BK22015446-8",
+            "utterance_id": "BK22015446.15"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 방금 수영 얘기할 때는 진짜 그랬어.",
+            "turn_id": "BK22015446-8",
+            "utterance_id": "BK22015446.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한 가지 조건만 더 맞으면 그냥 푸들을 입양할까 하는데 푸들은 색깔이 어떤 것들이 있지? 하얀색은 너무 흔해서 다른 색을 원하는데.",
+            "turn_id": "BK22015446-9",
+            "utterance_id": "BK22015446.17"
+        },
+        {
+            "reference_date": "2022-03-09",
+            "reference_text": [
+                {
+                    "value": "푸들은 흰색, 검은색, 크림색, 살구색, 갈색, 회색이 대표적이며 그 이외에는 파란색, 은색, 카페 오레, 은색 베이지, 빨간색 등 다양한 색상을 가지고 있다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%91%B8%EB%93%A4#cite_note-15",
+            "search_query": "푸들 색깔 종류",
+            "terminate": false,
+            "text": "푸들은 색깔이 굉장히 다양해. 대표적인 색은 흰색, 검은색, 크림색, 살구색, 갈색, 회색 등인데 파란색, 은색, 카페 오레, 은색 베이지, 빨간색 등의 푸들도 있거든.",
+            "turn_id": "BK22015446-9",
+            "utterance_id": "BK22015446.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 색깔이 엄청나게 다양하구나. 마침 내가 좋아하는 회색도 있으니 난 회색 푸들을 입양해야겠다. 마음도 정했으니 이제부터 입양 준비 열심히 해서 하루라도 빨리 데려와야지.",
+            "turn_id": "BK22015446-10",
+            "utterance_id": "BK22015446.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 입양 준비 잘하고 도움 필요하면 언제든지 연락해.",
+            "turn_id": "BK22015446-10",
+            "utterance_id": "BK22015446.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 그럴게. 오늘 내 질문에 열심히 답해줘서 고마웠고 그럼 다음 주에 보자.",
+            "turn_id": "BK22015446-11",
+            "utterance_id": "BK22015446.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 잘 가고 다음 주에 봐.",
+            "turn_id": "BK22015446-11",
+            "utterance_id": "BK22015446.22"
+        }
+    ]
+}

@@ -1,0 +1,374 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.6,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001445",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001445",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번 주말에는 간만에 정장을 꺼내서 입으려고요.",
+            "turn_id": "BK22001445-1",
+            "utterance_id": "BK22001445.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뭔가 중요한 행사가 있나보죠?",
+            "turn_id": "BK22001445-1",
+            "utterance_id": "BK22001445.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오랜 친구가 이번에 결혼을 해요. 왠지 제 주변에는 한동안 주변에 결혼하는 사람들이 거의 없었는데, 결혼식 초대는 정말 간만이네요.",
+            "turn_id": "BK22001445-2",
+            "utterance_id": "BK22001445.3"
+        },
+        {
+            "reference_date": "2022-05-24",
+            "reference_text": [
+                {
+                    "value": "통계청 데이터를 들여다보면 결혼이 줄어드는 속도가 점점 빨라지고 있다는 것도 알 수 있습니다.",
+                    "value_time": "2022-06-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2018년에는 전년 대비 2.58% 줄었지만, 2019년에는 6.39%, 2020년에는 10.73%만큼 감소했죠.",
+                    "value_time": "2022-06-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/it/view/2022/05/458475/",
+            "search_query": "결혼식 감소",
+            "terminate": false,
+            "text": "주변에 결혼하는 분들이 없었던 것이 우연은 아닐거예요. 통계청 데이터를 보면 결혼이 줄어드는 속도가 점점 빨라지고 있거든요. 2018년에 전년 대비 2.58 퍼센트 줄었던 것이, 19년에는 6.39 퍼센트, 그리고 2020년에는 10.73 퍼센트로 낙폭이 굉장히 컸으니까요.",
+            "turn_id": "BK22001445-2",
+            "utterance_id": "BK22001445.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 결혼하는 커플의 수 자체가 많이 줄었던 거군요. 아무튼 너무 오랜만의 결혼식이라 그런가 좀 헷갈리네요. 축의금 전용 봉투 없으면 일반 봉투에 한자로 축 결혼이라고 쓰는 거 맞던가요?",
+            "turn_id": "BK22001445-3",
+            "utterance_id": "BK22001445.5"
+        },
+        {
+            "reference_date": "2019-08-19",
+            "reference_text": [
+                {
+                    "value": "결혼식의 축하 문구로 가장 흔히 쓰는 것은 ‘축 결혼(祝 結婚)’ 또는 ‘축 화혼(祝 華婚)’이다.",
+                    "value_time": "2022-06-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://digitalchosun.dizzo.com/site/data/html_dir/2015/05/20/2015052012837.html",
+            "search_query": "축의금 봉투 축결혼",
+            "terminate": false,
+            "text": "보통 한자로 축 결혼이나 축 화혼을 가장 흔히 써요.",
+            "turn_id": "BK22001445-3",
+            "utterance_id": "BK22001445.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "축 화혼은 처음 들어보는데요? 화혼은 정확히 무슨 의미인가요?",
+            "turn_id": "BK22001445-4",
+            "utterance_id": "BK22001445.7"
+        },
+        {
+            "reference_date": "2022-06-08",
+            "reference_text": [
+                {
+                    "value": "축화혼'은 빌 축 祝, 빛날 화 華, 혼인할 혼 婚 을 적는 것으로 화혼(결혼식을 예쁘게 이르는 말)을 사용하여 신부측 봉투에 적을 때 많이 사용합니다.",
+                    "value_time": "2022-06-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.salgoonews.com/news/articleView.html?idxno=19806",
+            "search_query": "축 화혼 뜻",
+            "terminate": false,
+            "text": "빛날 화, 혼인할 혼으로 결혼식을 예쁘게 이르는 말이에요. 보통 신부측 봉투에 화혼 문구를 적는 경향이 있어요.",
+            "turn_id": "BK22001445-4",
+            "utterance_id": "BK22001445.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "의미는 예쁘긴 한데 빛날 화를 한자로 어떻게 쓰는지 모르겠어요. 축의금 봉투도 그냥 한글로 적는 것이 더 편하지 않을까요?",
+            "turn_id": "BK22001445-5",
+            "utterance_id": "BK22001445.9"
+        },
+        {
+            "reference_date": "2021-11-19",
+            "reference_text": [
+                {
+                    "value": "세종시는 시민들로 구성된 한글사랑동아리가 최근‘한글 경조사 봉투’ 쓰기 운동에 나섰다고 19일 밝혔다.",
+                    "value_time": "2022-06-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이춘희 세종시장은 “시민들이 직접 만든 한글 경조사 봉투가 보다 많이 활용되기를 바란다”고 말했다.",
+                    "value_time": "2022-06-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://m.khan.co.kr/national/national-general/article/202111190956001#c2b",
+            "search_query": "축의금 봉투 한글",
+            "terminate": false,
+            "text": "세종시에서도 비슷한 생각을 한 분들이 꽤 있었어요. 세종시 시민들의 모임인 한글사랑동아리에서는 최근에 경조사 봉투를 한글로 쓰는 운동에 나서기도 했어요. 시민들이 직접 만든 한글 경조사 봉투가 보다 많이 이용되길 바란다고, 이춘희 세종시장이 직접 이야기도 했었죠.",
+            "turn_id": "BK22001445-5",
+            "utterance_id": "BK22001445.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 그냥 한글로 적어도 그렇게 이상하진 않겠네요. 그래서 일단 봉투는 해결한 거 같은데, 이젠 얼마나 축의금을 내야하는지 고민이네요. 다들 얼마 정도를 생각하는 걸까요?",
+            "turn_id": "BK22001445-6",
+            "utterance_id": "BK22001445.11"
+        },
+        {
+            "reference_date": "2022-04-06",
+            "reference_text": [
+                {
+                    "value": "6일 결혼정보회사 듀오는 미혼남녀 300명(남성 150명·여성 150명)을 대상으로 한 '결혼식 참석' 관련 설문조사 결과를 발표했다.",
+                    "value_time": "2022-06-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 미혼남녀가 생각하는 적정 축의금 액수는 평균 7만9000원으로 조사됐다.",
+                    "value_time": "2022-06-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "5만원'(48%)과 '10만원'(40%)이 대다수를 차지했다.",
+                    "value_time": "2022-06-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mobile.newsis.com/view.html?ar_id=NISX20220405_0001821710",
+            "search_query": "축의금 금액",
+            "terminate": false,
+            "text": "결혼정보회사 듀오가 미혼남녀 300명을 대상으로 설문조사 한 것이 있어요. 조사에 따르면 미혼남녀가 생각하는 적정 축의금 액수는 평균 7만 9000원이고, 5만원과 10만원이 각각 48, 40 퍼센트로 대다수를 차지했죠.",
+            "turn_id": "BK22001445-6",
+            "utterance_id": "BK22001445.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그게, 저도 직장 동료들이라면 5만원 대를 생각할 거 같아요. 하지만 꽤 오랜 친구인데다, 비대면으로 그냥 송금하고 끝나는 게 아니라서 애매하네요. 직접 가서 결혼식 밥까지 얻어먹을 거고요.",
+            "turn_id": "BK22001445-7",
+            "utterance_id": "BK22001445.13"
+        },
+        {
+            "reference_date": "2022-06-01",
+            "reference_text": [
+                {
+                    "value": "코로나19 2년 동안 결혼식을 가지 않고, 축의금만 보내는 것에 익숙해지다 보니 늘어나는 ‘대면 결혼식’에 많은 이들이 당혹스러워한다.",
+                    "value_time": "2022-06-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "물가상승으로 식대도 인상되면서, 결혼식에 참석할 경우 비대면으로 축의금을 보낼 때보다 돈을 더 넣어야 할지 고민할 수 밖에 없다.",
+                    "value_time": "2022-06-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/society/society_general/1045167.html",
+            "search_query": "대면 결혼식 축의금",
+            "terminate": false,
+            "text": "맞아요, 물가상승으로 식대도 인상되기도 했고, 그래서 대면 결혼식에 참석할 경우 비대면으로 축의금을 보낼 때보다 더 돈을 넣어야 하는 게 아닐까 고민하는 사람들이 많은 추세에요.",
+            "turn_id": "BK22001445-7",
+            "utterance_id": "BK22001445.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "축하해줘야 할 자리인데 돈을 놓고 고민한다는 것이 안타깝네요. 이런 일로 얼굴 붉히는 경우도 왕왕 있고요. 옛 관혼상제의 전통인 건 알겠는데, 차라리 선물을 주는 경우는 없을까요?",
+            "turn_id": "BK22001445-8",
+            "utterance_id": "BK22001445.15"
+        },
+        {
+            "reference_date": "2022-05-17",
+            "reference_text": [
+                {
+                    "value": "설 교수는 \"하지만 최근에는 우리 문화 유산에 동의하지 않는 사람도 늘어나고 있다\"며 \"이렇다 보니 인간 관계 성격에 따라 아예 축의금을 내지 않거나 돈 대신 다른 선물을 하는 사람도 생겨나는 추세다. 이어지던 관행과 다른 모습이 보이는 것\"이라고 덧붙였다.",
+                    "value_time": "2022-06-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://cm.asiae.co.kr/article/2022051611294950045",
+            "search_query": "축의금 대신 다른 선물",
+            "terminate": false,
+            "text": "최근엔 과거의 관혼상제 문화 유산에 동의하지 않는 사람도 늘어났어요. 관계에 따라 아예 축의금을 내지 않거나, 돈 대신 다른 선물을 하는 사람도 생겨나는 등 기존의 관례와 다른 행동을 하는 사람이 느는 추세인 거죠.",
+            "turn_id": "BK22001445-8",
+            "utterance_id": "BK22001445.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저만의 생각은 아니라니 다행이네요. 그러면 혹시 축의 대신에 받는 선물로 특별히 인기있는 브랜드가 있을까요?",
+            "turn_id": "BK22001445-9",
+            "utterance_id": "BK22001445.17"
+        },
+        {
+            "reference_date": "2022-01-05",
+            "reference_text": [
+                {
+                    "value": "4일(현지시간) 뉴욕포스트 등 외신에 따르면 미국 투자은행 베어드가 최근 결혼한 부부들을 대상으로 설문조사를 벌인 결과 응답자의 45%가 웨딩 레지스트리에 아마존 물품을 포함시켰다고 밝혔다.",
+                    "value_time": "2022-06-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "요즘 신혼부부 사이들 사이에서 혼수용품 판매업체로도 유명한 생활용품 소매체인 베드배스앤비욘드를 비롯한 기존 소매업체에서 판매하는 품목보다 아마존에서 판매하는 품목을 혼수 선물로 선호하는 경향이 뚜렷하다는 점을 보여주는 결과로 풀이된다.",
+                    "value_time": "2022-06-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.g-enews.com/article/Global-Biz/2022/01/2022010514070717779a1f309431_1?md=20220105151824_S",
+            "search_query": "축의금 대신 선호 선물",
+            "terminate": false,
+            "text": "미국의 사례인데요, 뉴욕포스트 등 외신에 따르면 미국 투자은행인 베어드가 신혼부부들 대상으로 설문조사를 했어요. 그 결과 응답자의 45 퍼센트가 웨딩 레지스트리에 아마존 물품을 포함시켰죠. 신혼부부들이 기존 소매업체에서 판매하는 물품보다 아마존에서 판매하는 물품을 혼수로 선호하는 경향이 뚜렷하게 보였던 조사 결과였어요.",
+            "turn_id": "BK22001445-9",
+            "utterance_id": "BK22001445.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "웨딩 레지스트리가 혹시 뭔가요? 선물 리스트를 말하는 것이 맞을까요?",
+            "turn_id": "BK22001445-10",
+            "utterance_id": "BK22001445.19"
+        },
+        {
+            "reference_date": "2022-01-22",
+            "reference_text": [
+                {
+                    "value": "원래 영국에서는 하객들이 신혼부부가 필요로 하는 물품을 선물하는 풍습이 전통적 부조의 방법이었다.",
+                    "value_time": "2022-06-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "‘결혼선물 목록(wedding gift list, wedding registry)’을 통해 자기 형편에 맞추어 선물을 했다.",
+                    "value_time": "2022-06-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://weekly.chosun.com/news/articleView.html?idxno=18761",
+            "search_query": "웨딩 레지스트리 결혼선물",
+            "terminate": false,
+            "text": "맞아요, 결혼선물 목록을 wedding gift list 혹은 웨딩 레지스트리 라고 불러요. 본래 영국에서는 하객들이 신혼부부가 필요로 하는 물품을 선물하는 게 전통적 풍습이었죠. 선물 목록을 보고 자기 형편에 맞춰서 선물을 한 거예요.",
+            "turn_id": "BK22001445-10",
+            "utterance_id": "BK22001445.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저런 풍습이면 확실히 부담이 덜 될지도 모르겠네요. 질문에 이것저것 답해줘서 고마워요! 전 이제 결혼식에 입을 옷 다리러 가볼게요.",
+            "turn_id": "BK22001445-11",
+            "utterance_id": "BK22001445.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별 말씀을요, 준비 잘 하시고 결혼식 잘 다녀오시길 바랄게요.",
+            "turn_id": "BK22001445-11",
+            "utterance_id": "BK22001445.22"
+        }
+    ]
+}

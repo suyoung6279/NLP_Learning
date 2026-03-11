@@ -1,0 +1,374 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016988",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016988",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지난 추석 이후 명절증후군 때문에 명절이 무척 싫다는 사람을 보았습니다. 명절증후군이 무엇인가요?",
+            "turn_id": "BK22016988-1",
+            "utterance_id": "BK22016988.1"
+        },
+        {
+            "reference_date": "44812.0",
+            "reference_text": [
+                {
+                    "value": "명절증후군은 명절 기간 전후로 받는 스트레스로 발생하는 다양한 증상을 말한다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "명절이라는 공통의 배경에서 발생하지만 특별한 원인이 없고 폭넓은 스펙트럼으로 발생하는 특징이 있다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/home/view/2022/09/798515/",
+            "search_query": "명절증후군",
+            "terminate": false,
+            "text": "명절증후군이라는 것은 명절 전후를 포함한 명절 기간 스트레스로 생기는 여러 가지 증상을 말합니다. 명절이라는 환경에서 발생하지만 특별한 원인을 찾기 어렵고 폭넓은 스펙트럼으로 나타나고 있습니다.",
+            "turn_id": "BK22016988-1",
+            "utterance_id": "BK22016988.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "명절에 대해 궁금해지는군요, 그렇다면 추석은 어떤 명절인가요?",
+            "turn_id": "BK22016988-2",
+            "utterance_id": "BK22016988.3"
+        },
+        {
+            "reference_date": "44805.0",
+            "reference_text": [
+                {
+                    "value": "추석은 신라시대부터 내려온 우리의 명절로 수확의 기쁨을 가족과 함께 나누며 조상을 기리는 날이다.",
+                    "value_time": "44832.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.adinews.co.kr/news/articleView.html?idxno=59778",
+            "search_query": "명절의 의미",
+            "terminate": false,
+            "text": "추석은 신라시대부터 지내온 대한민국의 명절입니다. 가족과 함께 한 해 동안의 수확의 기쁨을 누리며 조상에 대해 기리는 날입니다.",
+            "turn_id": "BK22016988-2",
+            "utterance_id": "BK22016988.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "추석은 오래된 명절이군요! 설날도 명절이라고 들었는데, 설날은 언제인가요?",
+            "turn_id": "BK22016988-3",
+            "utterance_id": "BK22016988.5"
+        },
+        {
+            "reference_date": "43855.0",
+            "reference_text": [
+                {
+                    "value": "설날이란 음력 정월 초하룻날, 즉 음력 1월 1일을 말하며, 묵은 한 해를 보내고 새해 첫 아침을 맞이한다는 의미를 지닌다.",
+                    "value_time": "44832.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lecturernews.com/news/articleView.html?idxno=33538",
+            "search_query": "설날의 의미",
+            "terminate": false,
+            "text": "설날은 음력으로 1월 1일이며 정월 초하룻날이라고도 합니다. 지난 한 해를 보내고 새로운 첫 아침을 맞이한다는 뜻을 가집니다.",
+            "turn_id": "BK22016988-3",
+            "utterance_id": "BK22016988.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "명절은 좋은 날인 것 같아요. 그런데 왜 명절증후군이 발생하나요?",
+            "turn_id": "BK22016988-4",
+            "utterance_id": "BK22016988.7"
+        },
+        {
+            "reference_date": "42051.0",
+            "reference_text": [
+                {
+                    "value": "명절이면 집안의 제사 음식, 온 가족의 삼시세끼, 간식, 설거지며 청소는 모두 며느리인 주부의 몫입니다.",
+                    "value_time": "44830.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "엄청난 가사 노동에 아내의 몸과 마음은 지치고 피로해지며, 그 탓에 일시적인 우울증세가 찾아옵니다.",
+                    "value_time": "44830.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.samsunghospital.com/home/healthInfo/content/contenView.do?CONT_SRC_ID=31918&CONT_SRC=HOMEPAGE&CONT_ID=6232&CONT_CLS_CD=001027",
+            "search_query": "명절증후군 원인",
+            "terminate": false,
+            "text": "모두가 즐거워야 하는 것이 명절이겠지만 명절에 치르는 제사 음식과 온 가족의 매 끼니 식사와 간식을 준비하고 이후의 설거지와 청소 등은 대부분 며느리인 주부의 몫이 됩니다. 따라서 고된 가사 노동에 아내들은 지치게 되고 그에 따라 일시적인 우울 증세도 생기게 됩니다.",
+            "turn_id": "BK22016988-4",
+            "utterance_id": "BK22016988.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "주로 여성들에게 명절 증후군이 있군요. 명절증후군에는 어떤 증상들이 있나요?",
+            "turn_id": "BK22016988-5",
+            "utterance_id": "BK22016988.9"
+        },
+        {
+            "reference_date": "44812.0",
+            "reference_text": [
+                {
+                    "value": "명절증후군은 소화불량, 손목터널증후군, 척추나 관절통증, 두통 등 신체적 증상과 피로, 무기력감, 불안감, 우울감, 짜증, 조초감 등 정신적 증상으로 구분할 수 있다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/it/view/2022/09/798515/",
+            "search_query": "명절증후군 증상",
+            "terminate": false,
+            "text": "명절증후군에는 소화불량, 손목터널 증후군, 척추나 관절 통증, 두통 등의 신체적으로 나타나는 증상과 피로, 무기력감, 불안감, 우울감, 짜증, 초조감 등의 정신적 증상이 있습니다.",
+            "turn_id": "BK22016988-5",
+            "utterance_id": "BK22016988.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신체적인 증상과 정신적인 증상이 모두 있다고 하니 심각해 보입니다. 여성의 명절증후군을 해결하는 방법이 있을까요?",
+            "turn_id": "BK22016988-6",
+            "utterance_id": "BK22016988.11"
+        },
+        {
+            "reference_date": "44812.0",
+            "reference_text": [
+                {
+                    "value": "이 과장은 “가족 구성원끼리 적당히 일을 나눠 하는 것이 좋다. 미리 역할을 정하고 분담하는 것이 좋고 가능하면 명절 행사를 간소화하는 것이 필요하다”고 강조했다.",
+                    "value_time": "44830.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "주부의 경우 명절 연휴 내내 음식을 만들고 상 차리고, 치우고를 계속 반복하게 되는데, 여기에 대해 감사한 마음을 표현하지 않거나 이를 당연하다고 여긴다면 불만이 쌓이게 되고 어느 순간에 폭발하게 되는 것이다.",
+                    "value_time": "44830.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ilyo.co.kr/?ac=article_view&entry_id=436154",
+            "search_query": "명절증후군 해결",
+            "terminate": false,
+            "text": "음식 준비 등의 명절 행사를 주부에게만 부여하지 말고 가족 구성원들이 함께 일을 나누어서 해야 합니다. 사전에 모두 역할을 정해서 분담하는 것이 좋고 명절 행사를 간소화한다면 명절증후군을 낮추는 데 도움이 됩니다. 또한 명절 연휴 동안 음식을 만들고 치우는 등의 반복적인 가사노동을 한 여성에게 감사의 마음을 표현하고 수고에 대해 인정해 주어야 합니다.",
+            "turn_id": "BK22016988-6",
+            "utterance_id": "BK22016988.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래야겠어요, 남성도 명절증후군이 있는지 궁금합니다. 남성의 명절증후군은 어떤 것이 있나요? 해결 방법도 있다면 알려 주세요.",
+            "turn_id": "BK22016988-7",
+            "utterance_id": "BK22016988.13"
+        },
+        {
+            "reference_date": "44812.0",
+            "reference_text": [
+                {
+                    "value": "가장 큰 원인으로 남성의 장시간 운전과 여성의 명절 음식 준비, 가족과 세대간 갈등 등의 스트레스가 손꼽혔다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "운전도 명절 내내 척추와 관절 부위를 괴롭히는 원인이다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "척추의 경사 정도에 따라 가해지는 압력과 하중이 달라지기 때문에 운전 시에는 되도록 바른 자세를 유지하는 것이 좋다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "목에서부터 허리까지 이어지는 척추를 곧은 자세로 하고, 한 시간에 한 번 정도는 운전대를 벗어나 경직된 관절과 근육을 풀어주어야 한다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/it/view/2022/09/798515/",
+            "search_query": "남성명절증후군",
+            "terminate": false,
+            "text": "여성들의 명절 음식 준비가 가장 큰 스트레스 요인인 것처럼, 남성의 경우에는 장시간 운전이 가장 큰 스트레스 요인입니다. 장시간 운전으로 인해 관절 부위와 척추에 통증이 발생하기 때문입니다. 운전 중에는 척추의 경사 정도에 의해 하중과 압력이 달라져서 가능한 바른 자세를 취해야 합니다. 척추는 목에서 허리까지 이어지는데, 이 척추를 바르게 하여 곧은 자세를 해야 하고 한 시간 운전 후에는 한 번씩 휴식을 취해 관절과 근육을 쉬게 해주어야 합니다.",
+            "turn_id": "BK22016988-7",
+            "utterance_id": "BK22016988.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "답변을 들어보니 주로 기혼자에게 명절증후군이 있을 것 같습니다. 명절 스트레스 유형은 어떤 게 있나요?",
+            "turn_id": "BK22016988-8",
+            "utterance_id": "BK22016988.15"
+        },
+        {
+            "reference_date": "44815.0",
+            "reference_text": [
+                {
+                    "value": "미혼 남녀일 경우 결혼, 취업을 못한 젊은이일 경우 취업 관련해 질문과 걱정이 집중되고 형제간의 갈등, 결혼한 부부들은 고부갈등, 장서갈등이 극대화된다.",
+                    "value_time": "44833.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/4798560",
+            "search_query": "명절 스트레스",
+            "terminate": false,
+            "text": "미혼일 경우 결혼에 대한 질문, 취업 준비 중인 경우 취업과 관련해 질문하고 이를 걱정하는 이야기, 형제 사이의 갈등, 기혼일 경우 고부간의 갈등, 장모님과 사위의 갈등이 있습니다.",
+            "turn_id": "BK22016988-8",
+            "utterance_id": "BK22016988.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스트레스 없는 명절을 어떻게 만들 수 있을까요?",
+            "turn_id": "BK22016988-9",
+            "utterance_id": "BK22016988.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "2022년 추석 연휴를 앞두고 성균관 의례정립위원회에서는 차례상 간소화 방안을 내놓았습니다. 명절 문화가 금세 바뀌는 것을 기대하기는 어렵지만, 모두가 즐거운 명절이 되어야 한다는 기준으로 스트레스 없는 명절을 만들어 나가야 할 것입니다.",
+            "turn_id": "BK22016988-9",
+            "utterance_id": "BK22016988.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 2022년은 코로나19 이후 거리 두기 없는 첫 명절이라고 합니다. 달라진 점이 있을까요?",
+            "turn_id": "BK22016988-10",
+            "utterance_id": "BK22016988.19"
+        },
+        {
+            "reference_date": "44811.0",
+            "reference_text": [
+                {
+                    "value": "코로나19 이후 거리두기 없는 첫 명절이지만 친척이 모여 시간을 보내기보단 가족과 친구끼리 다양한 모습으로 명절을 보내면서다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이른 명절과 짧은 연휴 영향도 있지만, 무엇보다 코로나19를 거치며 명절을 보내는 모습이 달라진 것이라고 전문가는 분석했다.",
+                    "value_time": "44834.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongdo.co.kr/web/view.php?key=20220907010002275",
+            "search_query": "달라진 명절풍경",
+            "terminate": false,
+            "text": "2022년 추석 명절은 거리 두기 없는 첫 명절로 기존처럼 친척들이 함께 모여 명절을 보내기보다는 가족끼리 또는 친구와 함께 다양한 방식으로 명절을 보내는 모습을 볼 수 있습니다. 이번 추석이 유독 이른 것과 기간이 짧은 탓도 있지만 코로나19를 지나며 명절을 보내는 방식이 달라진 것입니다.",
+            "turn_id": "BK22016988-10",
+            "utterance_id": "BK22016988.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대한민국의 명절이 더욱 즐거워졌으면 좋겠습니다. 정보 주셔서 감사해요.",
+            "turn_id": "BK22016988-11",
+            "utterance_id": "BK22016988.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "모두에게 즐거운 명절이 되도록 함께 힘써보아요!",
+            "turn_id": "BK22016988-11",
+            "utterance_id": "BK22016988.22"
+        }
+    ]
+}

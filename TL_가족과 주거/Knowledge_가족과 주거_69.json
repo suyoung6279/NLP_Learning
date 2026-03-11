@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001076",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001076",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0036"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제 친구의 아이가 24개월인데 아직 말을 못 하고, 다른 아이에 비해 발달이 전반적으로 느리다고 하네요. 저는 아이 발달에 대해 잘 몰라서 그러는데 혹시 몇 가지 궁금한 것에 대해 질문드려도 될까요?",
+            "turn_id": "BK22001076-1",
+            "utterance_id": "BK22001076.1"
+        },
+        {
+            "reference_date": "2021-10-05",
+            "reference_text": [
+                {
+                    "value": "영유아 검진(건강검진, 구강검진)은 생후 14일부터 71개월(6세 미만)까지의 영유아를 대상으로 성장 이상이나 발달 이상, 비만, 영아 급사 증후군, 청각 이상, 시각 이상, 치아 우식증 등의 질병들을 진단하고 관리한다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.nspna.com/news/?mode=view&newsid=529650",
+            "search_query": "영유아 건강검진",
+            "terminate": false,
+            "text": "그럼요, 궁금한 거 있으면 물어보세요. 친구분 영유아 검진에 대해 알고 계시나요? 생후 14일부터 71개월의 영유아를 대상으로 성장이나 발달, 비만 등의 질병을 검진할 수 있어요.",
+            "turn_id": "BK22001076-1",
+            "utterance_id": "BK22001076.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 영유아 검진에서 심화 평가가 권고된다고 하여 검사를 진행했고, 발달성 언어장애라고 진단받았다네요. 24개월 아이가 어떤 수준일 때 발달성 언어장애로 진단받는 건가요?",
+            "turn_id": "BK22001076-2",
+            "utterance_id": "BK22001076.3"
+        },
+        {
+            "reference_date": "2017-09-04",
+            "reference_text": [
+                {
+                    "value": "24개월에 30~50개의 단어를 스스로 말하지 못하고, 두 단어 연결 문장을 사용하지 못하거나, 간단한 심부름하기, 신체 부위 지적하기 등이 되지 않을 때 보통 발달성 언어장애라고 진단한다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=20170903000206",
+            "search_query": "발달성 언어장애",
+            "terminate": false,
+            "text": "24개월에 스스로 30에서 50개의 단어를 말하지 못하거나 두 단어를 연결한 문장을 사용하지 못하거나 간단한 수준의 심부름 수행에 어려워하는 등의 모습을 보일 때 발달성 언어장애라고 진단해요.",
+            "turn_id": "BK22001076-2",
+            "utterance_id": "BK22001076.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 지금 진단을 받았지만, 치료는 고민되나 봐요. 아이 엄마는 적극적으로 치료받아야 한다고 생각하는 반면에 아이 아빠는 본인이 어렸을 때 말이 늦게 터졌으니 아이도 그냥 기다리자는 입장이에요.",
+            "turn_id": "BK22001076-3",
+            "utterance_id": "BK22001076.5"
+        },
+        {
+            "reference_date": "2022-05-23",
+            "reference_text": [
+                {
+                    "value": "황상원 교수는 \"내 아이가 말이 좀 늦은 것이라고 여기고 마냥 말이 트이기만을 기다리기도 하는데, 언어발달은 사회성이나 지적문제와의 연관성이 높은 만큼 부모들의 주의 깊은 관찰이 필요하며 진단과 치료 시기를 놓치지 않는 것이 매우 중요하다\"고 강조했다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/it/view/2022/05/452672/",
+            "search_query": "언어발달",
+            "terminate": false,
+            "text": "그랬군요, 물론 아이가 말이 트일 때까지 기다리자는 입장의 부모도 있지만 언어 발달은 사회성과 지적 문제와도 연관이 되기 때문에 진단과 치료 시기를 놓치지 않는 게 중요하답니다.",
+            "turn_id": "BK22001076-3",
+            "utterance_id": "BK22001076.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 그런데 요즘 그 친구뿐 아니라 아이 발달이 느려 고민하는 부모가 많아진 거 같아요. 혹시 코로나19로 마스크를 계속 착용해야 하는 상황과 아이의 발달 문제가 연관이 있나요?",
+            "turn_id": "BK22001076-4",
+            "utterance_id": "BK22001076.7"
+        },
+        {
+            "reference_date": "2021-09-15",
+            "reference_text": [
+                {
+                    "value": "마스크 착용 장기화로 인하여 코로나 키즈들의 언어와 사회성 습득 지연을 초래한다는 것은 오래전부터 제기돼온 문제다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "코로나 19'를 겪고 있는 코로나 키즈라고 하는데, 코로나 키즈들의 이러한 문제들을 해결하기 위해, 최근 일부 어린이집을 대상으로 '투명마스크' 시범사업이 진행되고 있어 관심을 끈다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ftimes.kr/news/articleView.html?idxno=12695",
+            "search_query": "마스크 언어발달",
+            "terminate": false,
+            "text": "마스크 착용 장기화가 아이들의 언어, 사회성 습득을 지연시킨다는 문제가 제기되죠. 이러한 이유로 투명 마스크 시범 사업을 일부 어린이집에서 진행하고 있답니다.",
+            "turn_id": "BK22001076-4",
+            "utterance_id": "BK22001076.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그런 사업을 진행하는 걸 보니 그만큼 아이들 발달에 서로의 입모양을 보는 게 중요하다는 뜻이겠네요.",
+            "turn_id": "BK22001076-5",
+            "utterance_id": "BK22001076.9"
+        },
+        {
+            "reference_date": "2022-06-07",
+            "reference_text": [
+                {
+                    "value": "실제 미국의 한 연구결과를 보면 아이는 생후 8개월부터 ‘입술 읽기(lip-reading)’를 시작하며 이 시기의 아이들은 입술 읽기를 통해 시각적 언어 신호에 접근한다고 나와있다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "특히, 이해가 어려울수록 입술 읽기가 더 중요하게 작용해 ‘유아기 때 발화자의 시선(gaze)과 입을 많이 볼수록 언어 능력이 좋아진다’는 연구 결과도 있다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dynews.co.kr/news/articleView.html?idxno=661886",
+            "search_query": "입술 읽기",
+            "terminate": false,
+            "text": "네, 아이는 보통 생후 8개월부터 입술 읽기를 시작하고, 이를 통해 시각적 언어 신호에 접근해요. 특히 이해가 어려운 아이에게는 입술 읽기가 더 중요한 영향을 미치죠. 그래서 유아기에 말하는 사람의 시선과 입을 많이 볼수록 언어 능력이 향상된다는 결과도 있어요.",
+            "turn_id": "BK22001076-5",
+            "utterance_id": "BK22001076.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 결과가 있었군요. 만약 아이가 발달이 느린 경우, 어디에서 치료를 받을 수 있나요?",
+            "turn_id": "BK22001076-6",
+            "utterance_id": "BK22001076.11"
+        },
+        {
+            "reference_date": "2022-03-24",
+            "reference_text": [
+                {
+                    "value": "병원의 경우 진단과 치료와 약 처방까지 가능하다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한, 치료비용이 비쌀지라도 실비로 청구하여 지원 받을 수도 있으니, 보험사에 잘 알아보고 진행하면 된다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사설 센터나 발달클리닉 같은 경우, 바우처가 적용되지 않는다면, 부담해야 할 비용이 크다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 병원이나 복지관보다 아동이 적기에, 각 아동에게 집중할 수 있고, 부모와의 상담도 다른 기관에 비해 자세하게 진행되는 환경이다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "복지관의 경우, 국가 지원으로 가장 저렴한 비용으로 서비스를 제공하기에 경제적 부담을 덜어준다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.naeil.com/news_view/?id_art=418015",
+            "search_query": "발달검사 치료 기관",
+            "terminate": false,
+            "text": "아이 발달에 대한 검사나 치료는 병원, 사설 센터, 복지관에서 받을 수 있는데 각 기관마다 차이가 있어요. 먼저 병원은 진단과 치료뿐 아니라 약 처방도 가능하지만 치료비가 비싸지만 실비가 적용이 가능해 청구하면 비용 부담이 훨씬 적겠죠. 다음으로 사설 센터의 경우 비싼 치료비로 바우처로 이용하는 경우가 아니라면 비용 부담이 있을 수 있어요. 하지만 다른 기관에 비해 원내 아동 수가 적어 각 아동에게 치료나 상담이 자세하게 제공되는 편이에요. 마지막으로 복지관은 병원과 사설 센터에 비해 가장 저렴하게 이용할 수 있답니다.",
+            "turn_id": "BK22001076-6",
+            "utterance_id": "BK22001076.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그런데 치료비가 부담스러운 사람도 있을 텐데 혹시 그런 비용을 지원해 주는 제도가 있을까요?",
+            "turn_id": "BK22001076-7",
+            "utterance_id": "BK22001076.13"
+        },
+        {
+            "reference_date": "2022-06-29",
+            "reference_text": [
+                {
+                    "value": "‘우리아이심리지원’은 만18세 이하(2004년 1월 1일 이후 출생) 아동 중 심리적·정서적 지원이 필요한 아동에게 놀이, 언어, 인지, 미술 등 서비스 이용을 바우처(이용권) 형태로 지원한다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "신청 시, 건강보험료 기준과 욕구기준(진단서 또는 소견서 등)을 모두 충족해야 하며, 소득에 따라 서비스 가격(월 18만 원)에서 본인부담금 10~30%을 제외한 금액을 12개월간 지원한다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongboo.com/news/articleView.html?idxno=363548083",
+            "search_query": "우리아이심리지원",
+            "terminate": false,
+            "text": "대표적으로 한 가지만 말씀드리면, 우리아이심리지원이라는 서비스가 있어요. 만 18세 이하를 대상으로 심리적, 정서적 지원이 필요한 경우 놀이, 언어치료 등을 지원받을 수 있어요. 지원 대상자는 건강보험료 기준과 진단서, 소견서 등의 욕구기준이 모두 충족되면 소득에 따라 일정 비율의 본인 부담금을 제외한 금액이 12개월 간 지원된답니다.",
+            "turn_id": "BK22001076-7",
+            "utterance_id": "BK22001076.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지원 대상에 해당되는 사람들은 도움이 많이 되겠어요. 아, 보험으로 적용받아 진행하는 아이들도 많은 거 같은데 맞나요?",
+            "turn_id": "BK22001076-8",
+            "utterance_id": "BK22001076.15"
+        },
+        {
+            "reference_date": "2022-04-22",
+            "reference_text": [
+                {
+                    "value": "현재 우리나라 아동발달 관련 치료는 코로나19의 확산과 함께 수요가 증가한 것으로 나타났으며 아동언어치료 보험금 지급건수의 경우 지난 2019년 2만1,000여 건에서 지난해의 경우 4만6,000여 건으로 크게 늘어난 것으로 나타났다.",
+                    "value_time": "2022-07-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busaneconomy.com/news/articleView.html?idxno=278565",
+            "search_query": "아동 언어치료 보험",
+            "terminate": false,
+            "text": "네, 2019년 아동 언어치료의 보험금 지급 건수는 2만 1,000여 건이었고, 지난해는 4만 6,000여 건으로 큰 증가를 보이고 있네요.",
+            "turn_id": "BK22001076-8",
+            "utterance_id": "BK22001076.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지난해 지급 건수가 크게 증가했군요. 오늘 많은 정보를 주셔서 너무 감사해요.",
+            "turn_id": "BK22001076-9",
+            "utterance_id": "BK22001076.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "별말씀을요, 앞으로도 궁금한 게 있으시면 언제든 편하게 질문해 주세요.",
+            "turn_id": "BK22001076-9",
+            "utterance_id": "BK22001076.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 그럼 다음에 만나서 또 이야기 하도록 하죠, 이만 들어갈게요.",
+            "turn_id": "BK22001076-10",
+            "utterance_id": "BK22001076.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "안녕히 들어가세요, 오늘 대화 정말 즐거웠어요.",
+            "turn_id": "BK22001076-10",
+            "utterance_id": "BK22001076.20"
+        }
+    ]
+}

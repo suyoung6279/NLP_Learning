@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014912",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014912",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_nhn_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 아이를 목욕시키다 보니 사타구니 한쪽이 살짝 튀어 나왔더라구요. 남편이 보더니 탈장이 아니냐고 하던데, 아기에게도 탈장이 생길 수 있나요?",
+            "turn_id": "BK22014912-1",
+            "utterance_id": "BK22014912.1"
+        },
+        {
+            "reference_date": "2021-06-16",
+            "reference_text": [
+                {
+                    "value": "소아 서혜부 탈장은 영아의 약 3~5%에서 나타나며 환자 중 약 10%는 가족력을 갖고 있는 것으로 분석되고 있다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "평균 발견 연령은 만 3.3세이며 3분의 1 가량은 생후 6개월 이내에 발견된다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01279206629082376&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "소아 탈장 확률",
+            "terminate": false,
+            "text": "아이도 탈장이 발생 할 수 있어요. 소아의 서혜부 탈장은 영유아의 약 3~5%에서 나타나고 있고 환자 가운데 10% 정도는 가족력이 있는 것으로 밝혀졌어요. 소아 서혜부 탈장 평균 발견 연령은 만 3.3세이고, 3분의 1은 생후 6개월 이내에 발견되고 있어요.",
+            "turn_id": "BK22014912-1",
+            "utterance_id": "BK22014912.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아기일 때 발생할 확률이 높네요. 남아 여아, 성별에 대한 차이도 있나요?",
+            "turn_id": "BK22014912-2",
+            "utterance_id": "BK22014912.3"
+        },
+        {
+            "reference_date": "2022-08-29",
+            "reference_text": [
+                {
+                    "value": "남아가 여아에 비해 5배 정도 많고 우측이 좌측보다 더 빈번하며 약 5% 정도에서는 양측성 탈장의 경우도 발견된다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.knnews.co.kr/news/articleView.php?idxno=1384500",
+            "search_query": "소아 탈장 남아 여아",
+            "terminate": false,
+            "text": "탈장은 남아가 여아보다 5배 정도 많이 발생하고 있어요. 좌측보다는 우측에서 탈장이 더 빈번하게 나타나고 5% 정도는 양측성 탈장이 확인되기도 해요.",
+            "turn_id": "BK22014912-2",
+            "utterance_id": "BK22014912.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 아이도 남아인데, 5배나 발병률이 높다니 놀라워요. 그런데 검색해보니 서혜부 탈장이라는 단어가 많이 나오던데, 탈장과 서혜부 탈장은 다른 뜻인가요?",
+            "turn_id": "BK22014912-3",
+            "utterance_id": "BK22014912.5"
+        },
+        {
+            "reference_date": "2021-06-16",
+            "reference_text": [
+                {
+                    "value": "탈장에는 여러 종류가 있지만 일반적으로 ‘소아 탈장’이라고 할 때는 서혜부 탈장을 일컫는다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "서혜부 탈장은 서혜부 부위(사타구니)가 불룩하게 튀어나오는 증상으로 확인할 수 있다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01279206629082376&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "탈장 서혜부 탈장 차이",
+            "terminate": false,
+            "text": "서혜부 부위 즉 사타구니가 불룩하게 튀어나오는 것이 서혜부 탈장인데요. 탈장의 종류는 여러 가지이지만 일반적으로 말하는 소아탈장이 바로 서혜부 탈장을 말하는 거예요. 한마디로 탈장과 서혜부 탈장은 같은 거라 할 수 있죠.",
+            "turn_id": "BK22014912-3",
+            "utterance_id": "BK22014912.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 같은 뜻이었군요. 그런데 누워만 있는 아기에게 왜 탈장이 생기는 건가요?",
+            "turn_id": "BK22014912-4",
+            "utterance_id": "BK22014912.7"
+        },
+        {
+            "reference_date": "2021-06-16",
+            "reference_text": [
+                {
+                    "value": "태아 초기에 생겨난 고환이나 난소는 뱃속에 위치하고 있다가 임신 7~9개월 사이에 이동하며 제 위치를 찾아 간다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이때 이동 통로로 남아에게는 초상돌기, 여아에게는 누크관이 생겨나는데 이들은 정상적인 이동이 끝나면 저절로 닫힌다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 일부 아기들은 이 통로가 닫히지 않은 채 태어나고, 이를 통해 장기가 빠지는 서혜부 탈장이 발생하는 것이다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01279206629082376&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "소아 탈장 원인",
+            "terminate": false,
+            "text": "태아 초기에 고환과 난소가 생겨 뱃속에 위치해 있다가 임신 7~9개월 정도 되면 이동을 하면서 제 위치를 찾아 가게 돼요. 이 과정에서 남아에게는 초상돌기가, 여아에게는 누크관이라는 것이 이동 통로로 생겨나는데 이동이 정상적으로 끝나게 되면 저절로 닫히게 된답니다. 다만 일부 아이들이 통로가 닫히지 않은 상태에서 태어나게 되고 그래서 장기가 빠지는 서혜부 탈장이 나타나는 거예요.",
+            "turn_id": "BK22014912-4",
+            "utterance_id": "BK22014912.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그래서 아기에게 탈장이 생기는 거구나, 그런데 저희 아이가 이른둥이로 태어났는데, 이것도 영향이 있을까요?",
+            "turn_id": "BK22014912-5",
+            "utterance_id": "BK22014912.9"
+        },
+        {
+            "reference_date": "2021-06-16",
+            "reference_text": [
+                {
+                    "value": "남아가 여아보다 5배 정도 발생 빈도가 높으며, 임신 37주 이전에 태어난 미숙아는 서혜부 탈장 발생률이 30% 정도로 만삭아보다 높다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01279206629082376&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "소아 탈장 미숙아",
+            "terminate": false,
+            "text": "영향이 있답니다. 임신 37주 이전에 태어난 아이라면 만삭아에 비해 서혜부 탈장의 발생률이 30% 정도 높은 것으로 밝혀졌거든요.",
+            "turn_id": "BK22014912-5",
+            "utterance_id": "BK22014912.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 아이가 미숙아라 탈장 확률이 높은가 봐요. 그런데 이상한 게 살짝 눌러보면 아파하지 않고 없어지기도 하는데 탈장이면 만졌을 때 아파해야 하는 거 아닌가요?",
+            "turn_id": "BK22014912-6",
+            "utterance_id": "BK22014912.11"
+        },
+        {
+            "reference_date": "2022-08-29",
+            "reference_text": [
+                {
+                    "value": "손으로 만져보면 피부 밑으로 부드러운 덩어리가 만져지고 대개 통증은 없으며, 아이의 상태에 따라 복강 내로 쉽게 복원되어 정상처럼 보일 수도 있다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.knnews.co.kr/news/articleView.php?idxno=1384500",
+            "search_query": "소아 탈장 통증",
+            "terminate": false,
+            "text": "손으로 해당 부위를 만졌을 때 보통은 통증이 없고 피부밑으로 부드러운 느낌의 덩어리가 만져지게 돼요. 아이마다 다르지만 누르면 복강 내로 쉽게 복원이 되어서 정상처럼 보이는 경우도 많아요.",
+            "turn_id": "BK22014912-6",
+            "utterance_id": "BK22014912.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 소아 탈장은 통증이 없군요. 그럼 병원에 가면 어떤 검사를 받게 되나요?",
+            "turn_id": "BK22014912-7",
+            "utterance_id": "BK22014912.13"
+        },
+        {
+            "reference_date": "2022-08-29",
+            "reference_text": [
+                {
+                    "value": "◇진단과 감별= 대부분의 경우 보호자와의 충분한 문진이 필요하며, 비대칭적인 사타구니 모습과 부드럽게 촉지되는 탈장주머니(Silk glove sign) 확인과 같은 환아의 신체검진만으로도 충분히 진단 가능하다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "요즘은 서혜부 초음파 검사를 많이 시행하는데 이는 음낭 수종, 잠복고환 혹은 고환 기형종 등과 같은 질환의 감별에 도움이 된다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.knnews.co.kr/news/articleView.php?idxno=1384500",
+            "search_query": "소아 탈장 검사",
+            "terminate": false,
+            "text": "병원에 가게 되면 보호자와의 충분한 문진이 먼저 이루어지고요. 사타구니의 비대칭적 모습과 부드럽게 만져지는 탈장주머니 확인 등 환아의 신체를 검진하는 것만으로도 충분히 진단 할 수 있어요. 또한 서혜부 초음파 검사도 요즘 많이 진행하는데 음낭 수종이나 잠복고환, 고환 기형종과 같은 질병의 감별에도 도움을 받을 수 있답니다.",
+            "turn_id": "BK22014912-7",
+            "utterance_id": "BK22014912.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 만약 치료를 해야 한다면 약물로 하는 건가요, 아니면 수술을 해야 하는 건가요?",
+            "turn_id": "BK22014912-8",
+            "utterance_id": "BK22014912.15"
+        },
+        {
+            "reference_date": "2022-08-29",
+            "reference_text": [
+                {
+                    "value": "◇탈장의 치료= 탈장의 치료는 수술이 유일하며, 소아의 경우 발견되면 가능한 빠른 시일 내에 수술하는 것이 좋다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "소아의 경우는 전신 마취 하에 서혜부에 2~3㎝의 작은 절개창을 통해 탈장의 기시부를 결찰(고위결찰)하는 방법만으로도 치료가 가능하며, 성인의 경우처럼 인공막을 사용하는 경우는 없다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "최근에는 소아 복강경을 이용하여 복강 내에서 탈장의 기시부를 봉합하기도 한다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.knnews.co.kr/news/articleView.php?idxno=1384500",
+            "search_query": "소아 탈장 치료",
+            "terminate": false,
+            "text": "탈장은 수술만이 유일한 치료 방법이에요. 가능한 빠른 시일 내에 수술하는 것이 좋고요. 전신 마취를 하여 서혜부에 2~3cm 정도의 작은 절개창을 내고 탈장의 기시부를 결찰하여 치료하면 돼요. 최근에는 복강경 방식으로 복강내의 탈장 기시부를 봉합하는 방법도 시행되고 있답니다.",
+            "turn_id": "BK22014912-8",
+            "utterance_id": "BK22014912.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전신마취라니 너무 걱정되네요. 일단 병원에 가서 정확한 진단을 받아봐야겠어요.",
+            "turn_id": "BK22014912-9",
+            "utterance_id": "BK22014912.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 의료진에게 진단을 받는 것이 가장 정확하니, 너무 늦지 않게 병원에 방문해 보세요.",
+            "turn_id": "BK22014912-9",
+            "utterance_id": "BK22014912.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금 짐 챙겨서 바로 병원으로 이동하려고요. 제발 탈장이 아니길 바라며, 전 이만 가볼게요.",
+            "turn_id": "BK22014912-10",
+            "utterance_id": "BK22014912.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "너무 걱정하지 마시고 검사받아보시길 바랄게요. 그럼 다음에 또 이야기 나눠요. 안녕히 가세요.",
+            "turn_id": "BK22014912-10",
+            "utterance_id": "BK22014912.20"
+        }
+    ]
+}

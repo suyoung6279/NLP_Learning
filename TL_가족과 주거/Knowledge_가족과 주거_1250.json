@@ -1,0 +1,374 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.5,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.6,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008260",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008260",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 3.6,
+                "speaker2UttScore": 3.8,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0010"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 저희 남편이 아침마다 얼굴이 많이 붓는 것 같아요. 혹시 왜 그런지 아시나요?",
+            "turn_id": "BK22008260-1",
+            "utterance_id": "BK22008260.1"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "얼굴이나 손발이 부었다면 더 고민이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "몸이 붓고 무겁다는 것은 독성물질이 몸에 쌓여있다는 의미다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아침에 독소, 부기 빼는데 좋은 음식들에 대해 알아보자.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1417530/",
+            "search_query": "독소 부기 빼는데 좋은 음식",
+            "terminate": false,
+            "text": "얼굴이나 몸이 붓고 무겁다면 몸에 독성물질이 많이 쌓여서 그런 거에요. 아침에 먹으면 독소나 붓기를 빼는데 좋은 음식들이 있으니 드셔보세요.",
+            "turn_id": "BK22008260-1",
+            "utterance_id": "BK22008260.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 음식으로 독소나 붓기를 뺄 수 있군요. 어떤 음식들이 있는지 알려 주실 수 있나요? 남편이 섭취할 수 있도록 챙겨보려구요.",
+            "turn_id": "BK22008260-2",
+            "utterance_id": "BK22008260.3"
+        },
+        {
+            "reference_date": "2022-07-26",
+            "reference_text": [
+                {
+                    "value": "사과는 양파처럼 퀘세틴 성분도 많다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "폐 기능을 좋게 해 대기 오염으로부터 폐를 보호한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사과에 많은 식이섬유가 혈관에 쌓이는 나쁜 콜레스테롤(LDL)을 몸 밖으로 배출시키고 좋은 콜레스테롤(HDL)을 늘리는 작용을 한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1410733/",
+            "search_query": "사과 퀘세틴 성분",
+            "terminate": false,
+            "text": "네, 먼저 퀘세틴 성분이 들어있는 사과가 있어요. 대기 오염물질로 인해 몸 안에 쌓인 독소를 내보내 주고 폐와 기관지를 보호해 주죠. 또 사과에 많이 들어있는 식이섬유는 혈관에 붙은 나쁜 콜레스테롤을 체외로 내보내 혈관이 딱딱해지고 막히는 걸 방지해줘요.",
+            "turn_id": "BK22008260-2",
+            "utterance_id": "BK22008260.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 아침 사과가 좋다는 얘기는 많이 들었어요. 참, 남편이 변비가 있는데 사과를 먹으면 도움이 될까요?",
+            "turn_id": "BK22008260-3",
+            "utterance_id": "BK22008260.5"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "위액 분비를 촉진시켜 소화를 돕고 배변 활동을 돕는다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1417530/",
+            "search_query": "독소 부기 빼는데 좋은 음식 사과",
+            "terminate": false,
+            "text": "네, 사과는 위액 분비를 도와 소화가 잘되게 하고 그로 인해 변비에도 아주 좋아요.",
+            "turn_id": "BK22008260-3",
+            "utterance_id": "BK22008260.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 그리고 붓기 빼는데 호박즙이 좋다는 얘기를 들은 적이 있는데, 맞나요?",
+            "turn_id": "BK22008260-4",
+            "utterance_id": "BK22008260.7"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "호박에는 칼륨과 카로틴 등의 성분이 들어있어 이뇨 작용을 돕고 신장 기능을 향상시키기 때문에 부기를 제거하는데 좋다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202208232342o",
+            "search_query": "호박 이뇨 작용 부기 제거",
+            "terminate": false,
+            "text": "네, 맞아요. 호박은 이뇨 작용을 하고 신장 기능을 좋게 만들기 때문에 부기 제거에 아주 좋아요.",
+            "turn_id": "BK22008260-4",
+            "utterance_id": "BK22008260.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 또 독소를 배출해 주는 음식에는 어떤 게 있나요?",
+            "turn_id": "BK22008260-5",
+            "utterance_id": "BK22008260.9"
+        },
+        {
+            "reference_date": "2022-04-25",
+            "reference_text": [
+                {
+                    "value": "녹두는 체내 독성 물질을 배출하고 신진대사를 촉진하는데도 도움을 준다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "특히 몸의 손상과 노화를 늦추는 비타민 E가 많이 들어 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1393938/",
+            "search_query": "녹두 독성 물질 신진대사",
+            "terminate": false,
+            "text": "체내 독성물질을 몸 밖으로 내보내 주고 신진대사를 촉진시키는 녹두가 있어요. 녹두에 들어있는 비타민E는 몸의 손상과 노화를 막아주죠.",
+            "turn_id": "BK22008260-5",
+            "utterance_id": "BK22008260.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비타민E가 부족하면 우리 몸은 어떻게 되나요?",
+            "turn_id": "BK22008260-6",
+            "utterance_id": "BK22008260.11"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "비타민 E가 부족하면 세포막에 존재하는 불포화지방산이 쉽게 산화되어 세포가 손상된다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1417530/",
+            "search_query": "녹두 비타민E 세포 손상",
+            "terminate": false,
+            "text": "비타민E가 부족하면 세포막에 있는 불포화지방산이 쉽게 노화되어 우리 몸의 세포가 손상될 수 있어요.",
+            "turn_id": "BK22008260-6",
+            "utterance_id": "BK22008260.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 녹두를 많이 먹어야겠네요. 혹시 녹두를 먹을 때 주의 사항은 없는 건가요?",
+            "turn_id": "BK22008260-7",
+            "utterance_id": "BK22008260.13"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "그러나 평소 냉증이 있거나 혈압이 낮은 사람, 녹두를 먹은 후 배가 아프거나 설사를 하면 섭취를 중단해야 한다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1417530/",
+            "search_query": "녹두 섭취 중단",
+            "terminate": false,
+            "text": "녹두는 평소에 냉증이 있거나 혈압이 낮은 사람은 주의를 해야 하고 녹두 섭취 후 배가 아프거나 설사를 한다면 더 이상 먹지 말아야 해요.",
+            "turn_id": "BK22008260-7",
+            "utterance_id": "BK22008260.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 남편이 냉증이 있는지까지는 잘 모르겠는데, 정확히 알고 먹어야겠군요. 참, 주변에서 들었는데, 유산균도 독소 배출에 좋다던데, 정말인가요?",
+            "turn_id": "BK22008260-8",
+            "utterance_id": "BK22008260.15"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "유산균이 유산을 만들어 독성물질로 인한 장기의 노화를 늦추는 작용을 한다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "장의 연동 운동을 촉진해 변비 예방에 좋다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1417530/",
+            "search_query": "독소 부기 빼는데 좋은 음식 유산균",
+            "terminate": false,
+            "text": "네, 맞아요. 유산균이 유산을 만들어 독성물질로 인한 장기의 노화를 막아주는 데 좋아요. 또 변비에도 좋은 음식이에요.",
+            "turn_id": "BK22008260-8",
+            "utterance_id": "BK22008260.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 유산균이 장에 좋기 때문에 변비에 좋다는 얘기도 들어본 것 같아요. 혹시 유산균은 또 어떤 효능이 있나요?",
+            "turn_id": "BK22008260-9",
+            "utterance_id": "BK22008260.17"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "또한 유산은 장내 산도를 높여 유해균의 성장을 억제한다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "소장 내에서 콜레스테롤의 흡수를 억제해 혈중 콜레스테롤 농도를 적절하게 유지하는 데 도움을 준다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1417530/",
+            "search_query": "유산균 유해균 성장 억제",
+            "terminate": false,
+            "text": "유산균은 장 속에 산도를 높여 유해균이 생겨나는 걸 막아줘요. 또 소장 내에서 콜레스테롤의 흡수를 막아 혈중 콜레스테롤이 농도를 적당하게 유지시켜주죠.",
+            "turn_id": "BK22008260-9",
+            "utterance_id": "BK22008260.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 사과, 호박, 녹두, 유산균, 오늘 좋은 정보 알려주셔서 정말 감사해요. 아무래도 남편들에게 혼자 챙겨 먹으라고 하면 잘 안 먹더라고요. 옆에서 제가 직접 챙겨줘야겠어요.",
+            "turn_id": "BK22008260-10",
+            "utterance_id": "BK22008260.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 아무래도 직접 챙겨 먹기가 쉽지 않죠. 옆에서 잘 챙겨주세요.",
+            "turn_id": "BK22008260-10",
+            "utterance_id": "BK22008260.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 그래야겠어요. 오늘 좋은 정보 많이 알려주셔서 정말 감사드려요. 큰 도움이 되었어요.",
+            "turn_id": "BK22008260-11",
+            "utterance_id": "BK22008260.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 정말 다행이네요. 또 궁금한 점 있으면 언제든지 물어보세요.",
+            "turn_id": "BK22008260-11",
+            "utterance_id": "BK22008260.22"
+        }
+    ]
+}

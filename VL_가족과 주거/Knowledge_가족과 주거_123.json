@@ -1,0 +1,347 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018084",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018084",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지 장례식에 대해 궁금한 게 있어. 강아지는 보통 어느 정도로 살아?",
+            "turn_id": "BK22018084-1",
+            "utterance_id": "BK22018084.1"
+        },
+        {
+            "reference_date": "44830.0",
+            "reference_text": [
+                {
+                    "value": "일반적으로 품종에 따라 차이가 있지만 반려견의 평균 수명은 12년, 반려묘의 평균 수명은 15년 정도로 본다.",
+                    "value_time": "44844.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://weekly.donga.com/3/all/11/3653902/1",
+            "search_query": "강아지 수명",
+            "terminate": false,
+            "text": "품종에 따라 차이는 있겠지만, 보통 반려견은 평균적으로 12년 정도 살지.",
+            "turn_id": "BK22018084-1",
+            "utterance_id": "BK22018084.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 강아지가 죽었을 때 업체에 맡기지 않고 직접 처리하려면 어떻게 해?",
+            "turn_id": "BK22018084-2",
+            "utterance_id": "BK22018084.3"
+        },
+        {
+            "reference_date": "44607.0",
+            "reference_text": [
+                {
+                    "value": "동물은 폐기물관리법에 따라 쓰레기봉투에 담겨 생활쓰레기로 배출되거나 동물병원에 맡겨 의료용폐기물로 처리된다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "혹은 병원에 일정 비용을 지불하고 합동 화장하기도 한다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/animalpeople/companion_animal/1029573.html",
+            "search_query": "반려동물 장례 폐기물관리법",
+            "terminate": false,
+            "text": "동물은 폐기물관리법에 따라 생활 쓰레기로 처리할 땐 쓰레기봉투에 버리고, 의료용 폐기물로 처리할 땐 동물 병원에 맡겨. 또는 병원에 일정한 돈을 주고 합동으로 화장하기도 해.",
+            "turn_id": "BK22018084-2",
+            "utterance_id": "BK22018084.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 이별하는 건 좀 아닌 거 같다. 나도 잘 몰랐는데, 사체 처리 방법을 아는 사람이 많아?",
+            "turn_id": "BK22018084-3",
+            "utterance_id": "BK22018084.5"
+        },
+        {
+            "reference_date": "44607.0",
+            "reference_text": [
+                {
+                    "value": "앞선 여론조사에서 동물의 사체 처리 방법을 제대로 모르거나 잘못 알고 있는 비율이 40%에 달했기 때문이다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "올바른 사체 처리법을 묻는 질문에서 응답자의 22.3%는 ‘주변 산에 묻음’이라고 답했고, 17.8%는 ‘잘 모르겠다’고 응답했다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/animalpeople/companion_animal/1029573.html",
+            "search_query": "반려동물 장례 사체 처리 방법",
+            "terminate": false,
+            "text": "아니, 한 여론 조사에서 동물의 사체를 어떻게 처리하는지 모르거나 잘못 알고 있는 비율이 응답자 중 40퍼센트나 됐어. 응답자의 22.3퍼센트는 주변 산에 묻었다고 답했고, 17.8퍼센트는 잘 모르겠다고 응답했어.",
+            "turn_id": "BK22018084-3",
+            "utterance_id": "BK22018084.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려동물 사체를 산에 묻으면 안 될 것 같은데, 혹시 그것도 불법이야?",
+            "turn_id": "BK22018084-4",
+            "utterance_id": "BK22018084.7"
+        },
+        {
+            "reference_date": "44739.0",
+            "reference_text": [
+                {
+                    "value": "하지만 동물의 사체는 산에 묻으면 안 된다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "폐기물관리법 제2조는 동물의 사체를 생활폐기물로 규정하기 때문이다(아래 확인).",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newstof.com/news/articleView.html?idxno=12631",
+            "search_query": "반려동물 장례 사체 산에",
+            "terminate": false,
+            "text": "응, 폐기물관리법 제2조에서 동물의 사체를 생활 폐기물로 분류하고 있기 때문에 동물의 사체는 산에 묻으면 안 돼.",
+            "turn_id": "BK22018084-4",
+            "utterance_id": "BK22018084.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 산에 사체를 묻으면 처벌이 어떻게 돼?",
+            "turn_id": "BK22018084-5",
+            "utterance_id": "BK22018084.9"
+        },
+        {
+            "reference_date": "44739.0",
+            "reference_text": [
+                {
+                    "value": "만약 동물의 사체를 땅에 묻는다면 경범죄 처벌법 제3조에 의해 10만 원 이하의 벌금, 구류 또는 과료의 형으로 처벌받는다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newstof.com/news/articleView.html?idxno=12631",
+            "search_query": "반려동물 장례 사체 산에 묻는다면",
+            "terminate": false,
+            "text": "동물의 사체를 땅에 묻었을 때 경범죄 처벌법 제3조에 따라 10만 원 이하의 벌금과 구류 또는 과료 처분을 받을 수 있어.",
+            "turn_id": "BK22018084-5",
+            "utterance_id": "BK22018084.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려동물 사체를 어떻게 처리해야 할지 안내가 필요하겠다. 반려동물 장례를 치르려고 할 때 반려인들은 정확히 어떤 어려움을 겪는지 궁금해.",
+            "turn_id": "BK22018084-6",
+            "utterance_id": "BK22018084.11"
+        },
+        {
+            "reference_date": "44607.0",
+            "reference_text": [
+                {
+                    "value": "반려동물 장례시설의 접근성이 떨어지고 정보가 부족하다는 지적은 반려인들이 공통적으로 토로한 어려움이기도 했다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "‘반려동물 장례 인식조사’에서 동물의 죽음을 경험한 반려인들이 가장 부족한 점으로 많이 응답한 것도 ‘장례식장 등 정보 부재’(33.3%)였다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/animalpeople/companion_animal/1029573.html",
+            "search_query": "반려동물 장례식장 접근성",
+            "terminate": false,
+            "text": "반려인들은 한목소리로 반려동물 장례시설의 접근성이 안 좋고 정보가 충분치 못해서 어렵다고 지적하고 있어. 반려동물 장례 인식조사에서 가장 부족한 점으로 꼽은 것도 33.3퍼센트나 응답한 장례식장 등 정보 부재였어.",
+            "turn_id": "BK22018084-6",
+            "utterance_id": "BK22018084.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "장례식장 정보를 미리 안내해야 할 거 같네. 그런데 불법 장례식장도 있다고 들었는데, 피해 상황은 어때?",
+            "turn_id": "BK22018084-7",
+            "utterance_id": "BK22018084.13"
+        },
+        {
+            "reference_date": "44739.0",
+            "reference_text": [
+                {
+                    "value": "하지만 불법 동물 장례 서비스 업체가 성행하면서 피해 사례가 발생하고 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대표적인 피해 사례로 △사전 동의 없는 합동 합장 △유골 훼손 또는 바꿔치기 △장례 비용 과다 청구가 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newstof.com/news/articleView.html?idxno=12631",
+            "search_query": "반려동물 불법장례식장 피해",
+            "terminate": false,
+            "text": "응, 불법으로 동물 장례식장을 운영하는 업체들이 많아지면서 피해가 생기고 있어. 대표적인 피해 사례로는 사전에 동의 없이 합동으로 합장, 유골을 훼손하거나 바꿔치기, 장례비용을 과하게 청구하는 게 있어.",
+            "turn_id": "BK22018084-7",
+            "utterance_id": "BK22018084.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 조심해야겠다. 그럼 합법적인 장례식장은 어떤 장례식장인지 알려줄래?",
+            "turn_id": "BK22018084-8",
+            "utterance_id": "BK22018084.15"
+        },
+        {
+            "reference_date": "44739.0",
+            "reference_text": [
+                {
+                    "value": "합법 장례식장은 농림축산식품부령으로 정한 기준에 따라 동물장묘업으로 허가받아 시설, 환경, 안전, 운영에 대한 주기적인 검사를 받는 장례식장이다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "동물장묘업 허가 사항에는 장례, 화장ㆍ건조ㆍ수분해, 봉안이 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newstof.com/news/articleView.html?idxno=12631",
+            "search_query": "반려동물 합법 장례식장 농림축산식품부령",
+            "terminate": false,
+            "text": "합법적인 장례식장은 농림축산식품부령의 기준에 따라 동물장묘업으로 허가를 받아야 해. 참고로 동물장묘업 허가 사항에는 장례, 화장, 건조, 수분해, 봉안이 있어. 그리고 합법 장례식장은 장례 시설이나 환경, 안전, 운영에 대해 정기적으로 검사를 받아.",
+            "turn_id": "BK22018084-8",
+            "utterance_id": "BK22018084.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그럼 허가받으면 다 합법적인 장례식장이라고 보면 돼?",
+            "turn_id": "BK22018084-9",
+            "utterance_id": "BK22018084.17"
+        },
+        {
+            "reference_date": "44739.0",
+            "reference_text": [
+                {
+                    "value": "하지만 동물장묘업으로 정식 등록된 경우라도 동물장묘 허가사항 중 허가받지 않은 사항에 대해 운영을 하면 불법 장례업체로 분류된다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newstof.com/news/articleView.html?idxno=12631",
+            "search_query": "반려동물 합법 장례식장 허가받지 않은 사항",
+            "terminate": false,
+            "text": "아니, 동물장묘업으로 정식으로 등록됐더라도 허가사항 중 허가받지 않은 사항에 대해 운영한다면 불법 장례업체야.",
+            "turn_id": "BK22018084-9",
+            "utterance_id": "BK22018084.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잘 알아보고 이용해야겠다. 잘 몰랐던 내용을 자세하게 알려줘서 고마워. 덕분에 궁금증이 다 해결됐어.",
+            "turn_id": "BK22018084-10",
+            "utterance_id": "BK22018084.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 더 궁금한 게 있다면 언제든 연락해. 좋은 하루 보내.",
+            "turn_id": "BK22018084-10",
+            "utterance_id": "BK22018084.20"
+        }
+    ]
+}

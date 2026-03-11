@@ -1,0 +1,417 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014736",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014736",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0017"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나 며칠 전에 집 계약했어. 집을 몇 개를 봤는지 모르겠다.",
+            "turn_id": "BK22014736-1",
+            "utterance_id": "BK22014736.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한참 보러 다니더니 드디어 계약했구나. 집 보러 다니는 게 보통 일이 아닌데 고생했어.",
+            "turn_id": "BK22014736-1",
+            "utterance_id": "BK22014736.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마음에 드는 집을 만나서 다행이지 뭐. 이제 이사 준비를 시작해야 하는데 처음 하는 거라 막막하네. 우선 이사업체부터 계약을 해야 할 것 같은데 어떤 걸 확인해야 할까?",
+            "turn_id": "BK22014736-2",
+            "utterance_id": "BK22014736.3"
+        },
+        {
+            "reference_date": "2021-03-12",
+            "reference_text": [
+                {
+                    "value": "우선 이사업체의 허가 여부를 확인하는 것이 중요하다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "허가 업체는 피해보상이행보증보험에 의무적으로 가입되어 있어 문제 발생 때 피해 보상이 가능하다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "허가 여부는 전국화물자동차운송주선사업연합회에 전화(02-2082-8484)하거나 홈페이지(www.kffa.or.kr)를 통해 확인할 수 있다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.100ssd.co.kr/news/articleView.html?idxno=75258",
+            "search_query": "이사업체 확인",
+            "terminate": false,
+            "text": "이사업체는 허가 여부 확인을 꼭 미리 해봐야 해. 허가가 되어있는 업체들은 피해보상이행보증보험에 가입이 되어 있어서 문제가 생겼을 때 보상이 가능하거든. 허가 여부를 확인해보려면 전국화물자동차운송주선사업연합회에 전화해서 확인하거나 홈페이지에 들어가서 확인해 볼 수 있어.",
+            "turn_id": "BK22014736-2",
+            "utterance_id": "BK22014736.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 허가 여부 확인하는 건 생각도 못 했는데 꼭 확인해야겠다. 그리고 나 집에 가전제품 버릴 게 엄청 많은데, 무상 수거 해주는 데가 있다고 들었거든. 혹시 어떤 건지 알아?",
+            "turn_id": "BK22014736-3",
+            "utterance_id": "BK22014736.5"
+        },
+        {
+            "reference_date": "2021-08-19",
+            "reference_text": [
+                {
+                    "value": "한국전자제품자원순환공제조합에서 운영 중인 폐가전제품 무상 방문 수거서비스를 이용하는 것도 좋은 방법이다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한국전자제품자원순환공제조합은 환경부와 전자제품 생산기업, 지자체가 모여 만든 조합이다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "원하는 날짜를 지정하면 운송기사가 직접 방문해 폐가전을 수거한다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://it.donga.com/32389/",
+            "search_query": "가전제품 무상 수거",
+            "terminate": false,
+            "text": "응, 한국전자제품자원순환공제조합이라고 환경부랑 전자제품 생산기업, 지자체가 모여서 만든 조합이 있는데 거기서 폐가전제품을 무상으로 방문해서 수거하는 서비스를 운영하고 있어. 날짜를 정해서 신청하면 운송기사가 방문해서 가전제품을 수거해가는 서비스야.",
+            "turn_id": "BK22014736-3",
+            "utterance_id": "BK22014736.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 그거 정말 편하겠다. 신청은 어떻게 하면 되는 거야?",
+            "turn_id": "BK22014736-4",
+            "utterance_id": "BK22014736.7"
+        },
+        {
+            "reference_date": "2020-06-17",
+            "reference_text": [
+                {
+                    "value": "신청은 콜센터로 전화하는 방법과 인터넷을 통해 접수하는 방법이 있어.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "콜센터는 1599-0903만 누르면 전지역 통화 가능해.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "인터넷으로 신청하는 방법도 간단해.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "먼저 '폐가전제품 배출예약 시스템' 홈페이지에 접수한 후, '배출예약'을 클릭, 안내에 따라 접수하면 끝! ",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=45454",
+            "search_query": "폐가전 무상수거 신청",
+            "terminate": false,
+            "text": "콜센터 1599에 0903으로 전화해서 신청할 수도 있고, 인터넷을 통해 신청할 수도 있는데 방법도 간단해. 폐가전제품 배출예약 시스템 홈페이지에 들어가서 접수하고 배출예약을 눌러 안내에 따라서 신청하면 접수가 돼.",
+            "turn_id": "BK22014736-4",
+            "utterance_id": "BK22014736.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전화도 되고 인터넷 신청도 되는구나. 간단하게 되어 있으니 정말 편하겠다. 이사 가기 전에 공과금도 정산해야 하는데 어떤 걸 챙겨야 하지?",
+            "turn_id": "BK22014736-5",
+            "utterance_id": "BK22014736.9"
+        },
+        {
+            "reference_date": "2018-05-22",
+            "reference_text": [
+                {
+                    "value": "이사시에 관리비나 공과금도 미리 정산해야 한다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "도시가스는 고객센터에 전화해 과거 주소의 철거와 새 주소로 이전신청해야 한다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수도요금은 수도 사업소에 전화해 바로 정산하거나 아파트의 경우 관리비로 한꺼번에 정산이 가능하다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아파트나 오피스텔의 관리비는 일자로 정산한다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수도, 전기, 가스 등의 공과금 중에 관리비에 포함되지 않는 것을 미리 알아두고 개별 정산하면 된다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mdilbo.com/detail/DDAuq0/542223",
+            "search_query": "이사 공과금 정산",
+            "terminate": false,
+            "text": "관리비나 공과금 미리 정산을 잘 해 놔야 하는데 우선 도시가스는 고객센터로 전화해서 지금 주소는 철거하고 새 주소로 이전해달라고 신청하면 돼. 수도세는 수도 사업소에 연락해서 바로 정산할 수도 있고 아파트라면 관리비로 한 번에 정산할 수 있어. 관리비는 아파트나 오피스텔에서 보통 일수별로 정산을 해주니까 정산받으면 되는데 수도나 전기, 가스 같은 공과금 중에 관리비에 포함 안 되는 게 어떤 건지 미리 확인해서 개별 정산을 해야 해.",
+            "turn_id": "BK22014736-5",
+            "utterance_id": "BK22014736.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "관리비랑 가스, 수도세 같은 거 확인을 해봐야겠구나. 지금 집이 전세라서 나갈 때 장기수선충당금 받아야 한다고 하던데, 그게 뭐야?",
+            "turn_id": "BK22014736-6",
+            "utterance_id": "BK22014736.11"
+        },
+        {
+            "reference_date": "2020-01-07",
+            "reference_text": [
+                {
+                    "value": "1. 장기수선충당금 = 아파트 주요 시설을 수리·교체하는 등 장래에 수선하기 위해 사용하는 비용을 말해요.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "집 소유주가 내는 게 원칙이므로, 세입자는 관리비에 부과된 장기수선충당금을 이사할 때 보증금과는 별도로 돌려받을 수 있어요.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/298/0000273831?sid=004",
+            "search_query": "장기수선충당금",
+            "terminate": false,
+            "text": "아, 장기수선충당금은 차후에 아파트 시설을 수리하거나 교체할 필요가 있을 때 사용하려고 모아둔 비용인데, 집주인이 내는 비용이기 때문에 세입자는 관리비에 포함해서 냈던 장기수선충당금을 이사할 때 따로 돌려받을 수 있게 되어 있는 거야.",
+            "turn_id": "BK22014736-6",
+            "utterance_id": "BK22014736.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 그런 거구나. 얼마나 될는지 궁금하네. 이사 가면 전입신고도 바로 해야 하는데 어떻게 하는 건지 좀 알려줘.",
+            "turn_id": "BK22014736-7",
+            "utterance_id": "BK22014736.13"
+        },
+        {
+            "reference_date": "2019-06-19",
+            "reference_text": [
+                {
+                    "value": "이사 가는 지역의 주민센터는 전입 신고하는 곳이다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "신분증을 지참해서 방문하면 관련 서류를 작성하고 전입 신고를 할 수 있다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전입 신고는 온라인으로도 가능하다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "민원24 홈페이지에 들어간 뒤 전입 신고 메뉴를 누르면 된다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "온라인 신청 시에는 공인인증서가 필요하다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=242102",
+            "search_query": "전입 신고 방법",
+            "terminate": false,
+            "text": "전입신고는 이사 가는 지역 주민센터에 하면 되는데, 신분증 가지고 가서 서류를 작성하면 신고를 할 수 있어. 민원24 홈페이지에서 온라인으로 전입 신고 메뉴를 이용해서 할 수도 있는데 온라인으로 신청하려면 공인인증서가 있어야 해.",
+            "turn_id": "BK22014736-7",
+            "utterance_id": "BK22014736.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전입신고도 온라인으로 가능하다니 편한 세상이네. 아, 우편물을 이사한 곳으로 보내주는 것도 있다고 하던데 뭔지 알아?",
+            "turn_id": "BK22014736-8",
+            "utterance_id": "BK22014736.15"
+        },
+        {
+            "reference_date": "2015-04-14",
+            "reference_text": [
+                {
+                    "value": "전·출입 등으로 수취인의 주소가 변경된 경우 구 주소지가 기재된 우편물을 3개월간 신 주소지로 배달해 주는 우편물 주소이전신고 서비스가 있다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "변경된 주소 내용을 우체국 창구 또는 인터넷우체국(www.epost.go.kr) 등에서 신고하면 된다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jejudomin.co.kr/news/articleView.html?idxno=60208",
+            "search_query": "이사 우편물 주소 변경 서비스",
+            "terminate": false,
+            "text": "응, 우편물 주소이전신고 서비스라고 전출입으로 받는 사람 주소가 바뀐 경우 이전 주소로 배달된 우편물을 새 주소로 보내주는 서비스가 있어. 3개월 동안만 보내주는 건데 바뀐 주소를 우체국 창구나 인터넷 우체국에서 신고하면 돼.",
+            "turn_id": "BK22014736-8",
+            "utterance_id": "BK22014736.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "3개월만 해주는 거구나. 아 참, 나 종량제봉투 엄청 많이 사놨는데 이사 간 곳은 다른 동네라 그대로 쓸 수가 없잖아. 그거 다 버려야 하려나?",
+            "turn_id": "BK22014736-9",
+            "utterance_id": "BK22014736.17"
+        },
+        {
+            "reference_date": "2022-08-29",
+            "reference_text": [
+                {
+                    "value": "이사 오기 전 쓰다 남은 종량제봉투 절대 버리지 마세요.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "신분증을 지참해 동사무소 또는 주민센터에 방문하면 기존 동네에서 구매한 종량제봉투를 새롭게 이사한 주소지에서도 사용할 수 있도록 재활용 스티커를 받을 수 있다.",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "단, 음식물이 아닌 일반 종량제봉투만 해당하니 필수 체크!",
+                    "value_time": "2022-10-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.wikitree.co.kr/articles/784313",
+            "search_query": "이사 종량제봉투",
+            "terminate": false,
+            "text": "종량제봉투 남은 건 버리지 않아도 돼. 신분증 가지고 주민센터에 가면 기존 주소지에서 산 종량제봉투를 새 주소지에서 쓸 수 있게 재활용 스티커를 지급해 줄 거야. 그런데 음식물은 안되고 일반 종량제봉투만 되긴 해.",
+            "turn_id": "BK22014736-9",
+            "utterance_id": "BK22014736.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다 일반 종량제봉투인데 그런 서비스가 있다니 다행이다! 정말 너한테 미리 안 물어봤으면 아무것도 모르고 이사할 뻔했어. 정말 고마워.",
+            "turn_id": "BK22014736-10",
+            "utterance_id": "BK22014736.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도움이 되면 다행이지 뭐. 이사 준비하느라 당분간 정신없겠네. 혹시 준비하다가 모르는 것 있으면 또 연락해줘.",
+            "turn_id": "BK22014736-10",
+            "utterance_id": "BK22014736.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아마 여러 번 연락을 해야 할 것 같아. 정말 고맙고, 다음에 또 연락할게.",
+            "turn_id": "BK22014736-11",
+            "utterance_id": "BK22014736.21"
+        }
+    ]
+}

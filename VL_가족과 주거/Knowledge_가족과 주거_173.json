@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018460",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018460",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신 준비를 한다고 하니까 친구가 임신중독증 조심하라고 하더라. 임신중독증이 뭐야?",
+            "turn_id": "BK22018460-1",
+            "utterance_id": "BK22018460.1"
+        },
+        {
+            "reference_date": "44847.0",
+            "reference_text": [
+                {
+                    "value": "임신중독증은 임신부에게 발생하는 가장 무서운 질병이다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "‘모성 사망’의 원인이 되는 것은 물론 분만 시기가 너무 빠를 경우 태아에게 치명적인 결과를 초래할 수도 있다.",
+                    "value_time": "44848.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/10/12/2022101202364.html",
+            "search_query": "임신중독증이란",
+            "terminate": false,
+            "text": "임신중독증은 임산부가 걸릴 수 있는 질병 중 가장 무서운 질병이에요. 임산부 사망의 원인이 되기도 하고, 분만 시기가 너무 빠를 경우에는 산모뿐만 아니라 태아에게도 치명적인 결과를 일으킬 수 있어요.",
+            "turn_id": "BK22018460-1",
+            "utterance_id": "BK22018460.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 정도로 위험한 병이란 말이야? 그럼 임신중독증 증상은 어떻게 되는데?",
+            "turn_id": "BK22018460-2",
+            "utterance_id": "BK22018460.3"
+        },
+        {
+            "reference_date": "44846.0",
+            "reference_text": [
+                {
+                    "value": "임신 20주 이후에 혈압이 증가하는 것을 임신성 고혈압이라고 한다.",
+                    "value_time": "44846.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이렇게 임신성 고혈압이 발생한 산모에서 단백뇨 또는 다른 혈액검사 상 이상소견(신기능악화, 간 기능 저하, 혈소판감소증)이 있거나, 두통이나 시야장애가 나타날 때 임신중독증, 경련이 동반되는 경우 자간증으로 진단한다.",
+                    "value_time": "44846.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/it/view/2022/10/900604/",
+            "search_query": "임신중독증 증상",
+            "terminate": false,
+            "text": "임신 20주가 지난 후에 혈압이 오르는 것을 임신성 고혈압이라고 해요. 임신성 고혈압이 발생한 산모 중에서 단백뇨나 다른 혈액 검사상 신기능약화나 간 기능 저하, 혈소판 감소증 등의 이상소견이 있는 경우, 두통이나 시야 장애가 나타나는 경우를 임신중독증으로 진단하고 경련이 동반되는 경우는 자간증으로 진단해요.",
+            "turn_id": "BK22018460-2",
+            "utterance_id": "BK22018460.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너무 무섭다. 혹시 검사하기 전에 자가 진단으로 알 수 있는 방법은 없어?",
+            "turn_id": "BK22018460-3",
+            "utterance_id": "BK22018460.5"
+        },
+        {
+            "reference_date": "44102.0",
+            "reference_text": [
+                {
+                    "value": "자가 측정 결과 혈압 140/90mmHg 이상, 단백뇨 + 이상, 체중이 하루에 1kg이상 증가 등이 있을 때 병원에 즉시 내원해야 하며, 그 외 두통이나 시야흐름, 오목가슴 통증 같은 증상이 한 가지 이상이라도 발생한다면 즉시 병원에 내원해야 한다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jemin.com/news/articleView.html?idxno=703998",
+            "search_query": "임신중독증 자가진단",
+            "terminate": false,
+            "text": "집에서 스스로 측정했을 때 혈압이 140/90mmHg 이상, 단백뇨 증가 등의 결과가 나오거나, 몸무게가 하루에 1kg이상 늘어났다면 병원에 방문하는 것이 좋아요. 그 외에도 시야가 흐려지거나 두통이 있을 때, 오목가슴 통증 같은 증상이 하나라도 발생하면 즉시 병원에 내원해야 해요.",
+            "turn_id": "BK22018460-3",
+            "utterance_id": "BK22018460.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 유전 가능성도 있는 거야?",
+            "turn_id": "BK22018460-4",
+            "utterance_id": "BK22018460.7"
+        },
+        {
+            "reference_date": "43318.0",
+            "reference_text": [
+                {
+                    "value": "임신중독증의 유전여부에 대해서는 정확히 밝혀진 바는 없지만, 일반적으로 임신중독증 가족력이 있는 경우 다른 산모에 비해 임신중독증 발생률은 높은 것으로 알려져 있다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.bokuennews.com/news/article.html?no=163242",
+            "search_query": "임신중독증 유전",
+            "terminate": false,
+            "text": "임신중독증이 유전되는지 아닌지는 아직 정확히 밝혀진 바가 없어요. 하지만 일반적으로 임신중독증 가족력이 있는 경우에는 다른 산모에 비해 임신중독증이 발생할 확률이 높아요.",
+            "turn_id": "BK22018460-4",
+            "utterance_id": "BK22018460.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "드문 질환인 거 아니야? 임신중독증을 겪고 있는 산모가 어느 정도나 돼?",
+            "turn_id": "BK22018460-5",
+            "utterance_id": "BK22018460.9"
+        },
+        {
+            "reference_date": "44701.0",
+            "reference_text": [
+                {
+                    "value": "건강보험심사평가원 통계에 따르면 가장 많은 모성 사망 원인 중 하나이기도 한 임신중독증 환자는 2016년 8112명에서 2020년 1만3757명으로 5년간 약 70% 늘었다.",
+                    "value_time": "44846.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4686746",
+            "search_query": "임신중독증 어느 정도",
+            "terminate": false,
+            "text": "건강보험심사평가원의 통계에 따르면 임신중독증 환자는 2016년 8,112명에서 2020년 1만 3,757명으로 5년간 약 70%가 증가했어요.",
+            "turn_id": "BK22018460-5",
+            "utterance_id": "BK22018460.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 많은 사람들이 임신중독증을 앓고 있구나. 갑자기 그렇게 임신중독증 환자가 증가한 이유가 뭐야?",
+            "turn_id": "BK22018460-6",
+            "utterance_id": "BK22018460.11"
+        },
+        {
+            "reference_date": "44846.0",
+            "reference_text": [
+                {
+                    "value": "고령 임신과 만성질환 증가, 스트레스 등으로 임신중독증을 앓는 산모가 늘고 있다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.inews24.com/view/1527633",
+            "search_query": "임신중독증 증가 원인",
+            "terminate": false,
+            "text": "고령에 임신하는 경우가 늘어난 데다가 만성질환과 스트레스 등의 원인으로 임신중독증 환자가 증가하고 있어요.",
+            "turn_id": "BK22018460-6",
+            "utterance_id": "BK22018460.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신중독증 치료법은 어떻게 돼? 임신 중이라 약물을 먹는 것도 쉽지 않을 텐데.",
+            "turn_id": "BK22018460-7",
+            "utterance_id": "BK22018460.13"
+        },
+        {
+            "reference_date": "44846.0",
+            "reference_text": [
+                {
+                    "value": "임신중독증으로 진단된 후에는 혈압 조절이 중요하다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "임신중독증이 중증으로 진행할 가능성이 크면 입원해서 경과 관찰을 해야 한다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "입원 시에는 부종‧두통‧상복부통증‧시야흐림 등의 증상과 혈압‧소변량‧초음파 검사 등을 주기적으로 시행한다.",
+                    "value_time": "44848.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "결국 '출산이 곧 치료'다.",
+                    "value_time": "44848.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.koreahealthlog.com/news/articleView.html?idxno=32959",
+            "search_query": "임신중독증 치료",
+            "terminate": false,
+            "text": "임신중독증 진단을 받은 후에는 혈압을 조절하는 것이 중요해요. 만일 중증으로 진행될 가능성이 크다고 판단되면 입원 후 경과를 관찰하며 치료해야 해요. 부종, 두통, 상복부 통증이나 시야흐림 등의 증상을 체크하고 혈압과 소변량, 초음파 등을 주기적으로 시행하게 되죠. 하지만 결국 임신중독증의 치료법은 출산이에요.",
+            "turn_id": "BK22018460-7",
+            "utterance_id": "BK22018460.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "출산이 확실한 치료법이라니. 그럼 애초에 임신중독증에 걸리지 않게 예방하는 방법은 없어?",
+            "turn_id": "BK22018460-8",
+            "utterance_id": "BK22018460.15"
+        },
+        {
+            "reference_date": "44846.0",
+            "reference_text": [
+                {
+                    "value": "임신중독증은 현재까지 예방할 방법이 없으므로 임신부는 정기방문 시 혈압이나 체중을 확인하고 임신 20주 이후부터는 단백뇨를 체크해야 한다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이때 혈압이 오르거나 단백뇨가 나오면 큰 병원에 와서 혈액검사, 소변검사를 하여 상태를 확인해야 한다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/it/view/2022/10/900604/",
+            "search_query": "임신중독증 예방",
+            "terminate": false,
+            "text": "현재까지 임신중독증은 예방할 방법이 없어요. 그래서 병원을 정기적으로 방문해서 혈압과 체중을 체크하고, 임신 20주 이후부터는 단백뇨를 체크해야 하죠. 이때 혈압이 상승하거나 단백뇨가 나오면 큰 병원에서 혈액검사와 소변검사 등으로 상태를 확인해야 해요.",
+            "turn_id": "BK22018460-8",
+            "utterance_id": "BK22018460.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신을 하는 것도 문제지만, 임신 중에도 조심해야 할 게 너무 많구나.",
+            "turn_id": "BK22018460-9",
+            "utterance_id": "BK22018460.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "결국 스스로 몸을 건강하게 관리하고 주기적인 검사를 받는 것이 건강한 임신을 이어가는 힘인 것 같아요.",
+            "turn_id": "BK22018460-9",
+            "utterance_id": "BK22018460.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네 말이 맞아. 일단 내일 당장 병원을 예약해서 내 몸 상태에 대해 좀 알아봐야겠어.",
+            "turn_id": "BK22018460-10",
+            "utterance_id": "BK22018460.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋은 자세예요! 혹시 근처에 어떤 병원이 있는지 궁금하시면 말씀해주세요. 제가 빠르게 찾아드릴게요.",
+            "turn_id": "BK22018460-10",
+            "utterance_id": "BK22018460.20"
+        }
+    ]
+}

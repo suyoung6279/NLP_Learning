@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008266",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008266",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 아들이 중학생인데, 셀프 염색을 하도 많이 해서 머릿결도 푸석하고, 또 두피도 간지럽다고 해요. 미용실이나 병원을 가기에는 너무 비싼데, 혹시 집에서 관리할 수 있는 방법이 있을까요?",
+            "turn_id": "BK22008266-1",
+            "utterance_id": "BK22008266.1"
+        },
+        {
+            "reference_date": "2014-04-10",
+            "reference_text": [
+                {
+                    "value": "두피 건강을 위해서 머리는 아침보다 저녁에 감는 것이 좋다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "'샴푸하기 1분 전'에 굵은 빗으로 50~100회 정도 충분히 빗질을 해주자.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2014/04/09/2014040901546.html",
+            "search_query": "두피 건강 샴푸하기 전 빗질",
+            "terminate": false,
+            "text": "일단 두피 건강을 위해선 아침보다 저녁에 머리를 감는게 좋은데 머리를 감기 전에 굵은 빗으로 50회에서 100회 정도 충분히 빗질을 해 주는 게 좋아요.",
+            "turn_id": "BK22008266-1",
+            "utterance_id": "BK22008266.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 저희 아들이 귀찮아서 할지 모르겠어요. 그런데 머리 감기 전에 빗질을 하는 이유가 뭔가요?",
+            "turn_id": "BK22008266-2",
+            "utterance_id": "BK22008266.3"
+        },
+        {
+            "reference_date": "2014-04-10",
+            "reference_text": [
+                {
+                    "value": "두피 마사지 효과와 함께 엉킨 머리를 풀어줘 샴푸할 때 머리카락이 덜 빠지게 해준다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또, 두피와 모발에 있는 먼지를 미리 제거해 샴푸 효과를 더 높여준다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2014/04/09/2014040901546.html",
+            "search_query": "샴푸하기 전 빗질 두피 마사지 효과",
+            "terminate": false,
+            "text": "빗질을 해주면 두피 마사지 효과도 있고 또 엉킨 머리를 풀어줘서 머리 감을 때 머리카락이 덜 빠져요. 또 미리 머리카락에 있는 먼지를 제거해줬기 때문에 샴푸가 더 잘 흡수되게 해줘요.",
+            "turn_id": "BK22008266-2",
+            "utterance_id": "BK22008266.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이가 남자 아이라 그런지 머리 감는 것도 금방이에요. 샴푸도 오래 하는게 좋은 건가요?",
+            "turn_id": "BK22008266-3",
+            "utterance_id": "BK22008266.5"
+        },
+        {
+            "reference_date": "2014-04-10",
+            "reference_text": [
+                {
+                    "value": "샴푸 시간은 5분 이내로 한다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "샴푸를 너무 오래 하면 샴푸에 있는 화학성분이 두피를 자극해 두피가 예민해지고 건조해져 탈모 증상이 나타날 수 있다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2014/04/09/2014040901546.html",
+            "search_query": "샴푸 시간 5분 이내",
+            "terminate": false,
+            "text": "그렇지 않아요. 샴푸는 5분 이내로 해야 하는데 너무 오래하게 되면 샴푸에 들어 있는 화학성분이 두피를 자극해 오히려 두피가 예민해지고 건조해져서 안 좋아 질 수 있거든요. 또 탈모가 생길 수 도 있고요.",
+            "turn_id": "BK22008266-3",
+            "utterance_id": "BK22008266.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 그럼 샴푸만 잘 해도 머릿결이 좋아질 수 있나요?",
+            "turn_id": "BK22008266-4",
+            "utterance_id": "BK22008266.7"
+        },
+        {
+            "reference_date": "2014-04-10",
+            "reference_text": [
+                {
+                    "value": "염색이나 펌으로 머릿결이 상했거나 집중적인 케어를 원한다면 샴푸 후 트리트먼트를 하는 것이 좋다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2014/04/09/2014040901546.html",
+            "search_query": "염색 펌 샴푸 후 트리트먼트",
+            "terminate": false,
+            "text": "그렇지 않아요. 머릿결이 많이 상했거나 집중적인 케어를 원한다면 샴푸 후 트리트먼트를 하면 더 도움이 돼요.",
+            "turn_id": "BK22008266-4",
+            "utterance_id": "BK22008266.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "남자 아이라 린스나 트린트먼트를 잘 사용하지는 않아요. 그래도 앞으로 사용하라고 말은 해야겠어요. 혹시 트리트먼트를 할 때 방법이나 요령이 있나요?",
+            "turn_id": "BK22008266-5",
+            "utterance_id": "BK22008266.9"
+        },
+        {
+            "reference_date": "2014-04-10",
+            "reference_text": [
+                {
+                    "value": "머리에 물기가 너무 많으면 제품이 잘 흡수되지 않으므로 수건으로 물기를 살짝 제거하고 발라야 한다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "헤어트리트먼트를 바른 뒤에는 5분 정도 시간을 두는 것이 좋다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "스팀타월 등으로 열처리를 해주면 모발이 팽창돼 흡수가 더 빠르므로 물에 적신 타월을 미리 전자레인지에 데워 놓았다가 머리를 감싸주면 된다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2014/04/09/2014040901546.html",
+            "search_query": "헤어트리트먼트 스팀타월 열처리",
+            "terminate": false,
+            "text": "네, 트리트먼트를 할 때 머리에 물기가 많으면 머리카락에 잘 흡수가 되지 않으니 머리에 물기를 살짝 닦아준 후 트리트먼트를 발라주는 게 좋아요. 또 머리에 바른 후 5분 정도 두는 게 좋은데, 그냥 두는 것보다 스팀타월 등으로 열처리를 해주면 흡수가 더 좋아지기 때문에 수건이나 물에 적신 타월을 뜨겁게 해 놓았다가 트리트먼트를 바른 후 뜨거운 수건으로 머리를 감싸 주면 좋아요.",
+            "turn_id": "BK22008266-5",
+            "utterance_id": "BK22008266.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 그럼 머리를 말릴 때에도 뜨거운 바람으로 말리는게 좋은거예요?",
+            "turn_id": "BK22008266-6",
+            "utterance_id": "BK22008266.11"
+        },
+        {
+            "reference_date": "2014-04-10",
+            "reference_text": [
+                {
+                    "value": "머리를 감은 후 말리는 것도 중요하다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "뜨거운 바람은 모발을 건조하게 해 손상의 위험이 있으므로 찬바람으로 5분 이상 말리는 것이 좋다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2014/04/09/2014040901546.html",
+            "search_query": "머리 감은 후 뜨거운 바람 모발 건조",
+            "terminate": false,
+            "text": "그렇진 않아요. 머리를 말리는 것이 중요한데 뜨거운 바람보다는 찬 바람으로 5분 이상 말려주는 게 좋아요. 뜨거운 바람은 머리카락을 건조하게 만들어 상하게 만들 수 있거든요.",
+            "turn_id": "BK22008266-6",
+            "utterance_id": "BK22008266.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 그럼 머리를 잘 말리지 않으면 어떻게 되는데요?",
+            "turn_id": "BK22008266-7",
+            "utterance_id": "BK22008266.13"
+        },
+        {
+            "reference_date": "2014-04-10",
+            "reference_text": [
+                {
+                    "value": "물기가 남아있는 채로 외출을 하거나 잠을 자는 것은 금물이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "자외선에 머리가 탈색 되거나 자는 동안 세균이 쉽게 번식할 수 있기 때문이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2014/04/09/2014040901546.html",
+            "search_query": "머리 감은 후 물기 세균 번식",
+            "terminate": false,
+            "text": "머리가 다 마르지 않은 상태로 외출을 하면 자외선에 머리가 탈색되어 상할 수 있고 말리지 않은 상태로 잠을 잔다면 자는 동안 세균이 쉽게 번식할 수 있어요.",
+            "turn_id": "BK22008266-7",
+            "utterance_id": "BK22008266.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 그리고 주변에서 들었는데 음식을 잘 챙겨 먹는 것만으로도 머릿결을 좋게 만들 수 있대요. 정말인가요?",
+            "turn_id": "BK22008266-8",
+            "utterance_id": "BK22008266.15"
+        },
+        {
+            "reference_date": "2014-04-10",
+            "reference_text": [
+                {
+                    "value": "평소 두피와 모발에 좋은 음식도 수시로 섭취하자.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "머리카락을 구성하고 있는 케라틴 단백질은 18종의 아미노산이 결합해 있다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "단백질 식품인 콩, 멸치, 우유, 계란 등을 섭취하면 머리카락에 영양소를 공급해 두피와 모발을 건강하게 한다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2014/04/09/2014040901546.html",
+            "search_query": "두피와 모발에 좋은 음식",
+            "terminate": false,
+            "text": "네, 머리카락은 18종의 아미노산이 결합되어 있는 케라틴 단백질로 구성되어 있는데, 콩이나 멸치, 우유, 계단 등 단백질 등 두피와 모발에 좋은 음식을 수시로 먹으면 머리카락에 영양소를 공급해 두피와 머리카락을 건강하게 해줘요.",
+            "turn_id": "BK22008266-8",
+            "utterance_id": "BK22008266.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이에게 혼자 하라고 하면 하지 않을 것 같아요. 오늘 알려주신 대로 제가 직접 챙겨줘야겠어요.",
+            "turn_id": "BK22008266-9",
+            "utterance_id": "BK22008266.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "특히나 남자아이다 보니 세심하게 관리하기 쉽지 않을 수 있죠. 어머님이 옆에서 잘 도와주세요.",
+            "turn_id": "BK22008266-9",
+            "utterance_id": "BK22008266.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 그럴게요. 아이 머리를 볼 때 마다 제가 다 스트레스였는데, 오늘 좋은 정보 알려주셔서 정말 감사해요. 많은 도움이 되었어요.",
+            "turn_id": "BK22008266-10",
+            "utterance_id": "BK22008266.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 정말 다행이네요. 또 궁금한 점 있으면 언제든지 물어보세요.",
+            "turn_id": "BK22008266-10",
+            "utterance_id": "BK22008266.20"
+        }
+    ]
+}

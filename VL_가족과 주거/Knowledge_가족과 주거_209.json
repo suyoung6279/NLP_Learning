@@ -1,0 +1,316 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.6,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018929",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018929",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 강아지를 만질 때 정전기가 너무 심해. 찌릿 하는데 나도 놀라고 강아지도 놀라. 겨울에 정전기는 왜 생기는 거야?",
+            "turn_id": "BK22018929-1",
+            "utterance_id": "BK22018929.1"
+        },
+        {
+            "reference_date": "44533.0",
+            "reference_text": [
+                {
+                    "value": "겨울철에 정전기가 자주 생기는 이유는 날씨가 건조해지기 때문이다.",
+                    "value_time": "44848.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000653916",
+            "search_query": "겨울철 정전기 반려견",
+            "terminate": false,
+            "text": "겨울은 날씨가 건조해지기 때문에 정전기가 자주 생겨.",
+            "turn_id": "BK22018929-1",
+            "utterance_id": "BK22018929.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집이 건조하긴 해. 정전기를 예방하려면 어떻게 하면 좋을까?",
+            "turn_id": "BK22018929-2",
+            "utterance_id": "BK22018929.3"
+        },
+        {
+            "reference_date": "44533.0",
+            "reference_text": [
+                {
+                    "value": "그렇기 때문에, 정전기를 줄이는 가장 효과적인 방법은 실내 습도 관리이다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가습기를 틀거나 젖은 수건으로 실내 습도를 50~60% 정도로 유지하면 정전기를 효과적으로 예방할 수 있다.",
+                    "value_time": "44848.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000653916",
+            "search_query": "겨울철 정전기 줄이는 방법",
+            "terminate": false,
+            "text": "정전기를 감소시키는 제일 좋은 방법은 실내 습도 관리야. 젖은 수건을 활용하거나 가습기를 틀어서 실내 습도를 50%에서 60% 정도로 유지하면 정전기를 효율적으로 방지할 수 있어.",
+            "turn_id": "BK22018929-2",
+            "utterance_id": "BK22018929.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "실내 습도 조절 말고 강아지 털에서 정전기가 생기는데 털은 어떻게 관리하는 게 좋을까?",
+            "turn_id": "BK22018929-3",
+            "utterance_id": "BK22018929.5"
+        },
+        {
+            "reference_date": "44533.0",
+            "reference_text": [
+                {
+                    "value": "목욕 후 빗질은 털이 완전히 마른 후 해주는 것이 좋으며, 플라스틱이나 금속 빗은 정전기가 오르니 나무 빗을 사용해 주는 것이 좋다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000653916",
+            "search_query": "겨울철 반려견 정전기 빗질",
+            "terminate": false,
+            "text": "금속 빗이나 플라스틱 빗은 정전기가 오르니 나무 빗을 써주는 게 좋아. 목욕 후엔 털이 완전히 건조된 후 빗질을 해주는 것이 좋아.",
+            "turn_id": "BK22018929-3",
+            "utterance_id": "BK22018929.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리집 강아지 전용 담요나 방석 이불을 만질 때도 정전기가 생기더라. 정전기를 줄이려면 어떻게 하는 게 좋을까?",
+            "turn_id": "BK22018929-4",
+            "utterance_id": "BK22018929.7"
+        },
+        {
+            "reference_date": "44533.0",
+            "reference_text": [
+                {
+                    "value": "반려견이 사용하는 담요나 방석, 이불 등을 세탁할 때 섬유 유연제나 식초를 한두 방울 정도 넣어 세탁하면 정전기가 발생하는 빈도를 줄일 수 있다.",
+                    "value_time": "44848.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000653916",
+            "search_query": "겨울철 반려견 정전기 담요 방석",
+            "terminate": false,
+            "text": "강아지가 쓰는 방석, 이불, 담요 등을 세탁할 때 식초나 섬유 유연제를 한두 방울 정도 넣어주면, 정전기가 생기는 빈도수를 감소시킬 수 있어.",
+            "turn_id": "BK22018929-4",
+            "utterance_id": "BK22018929.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소파나 카펫은 빨지 못하는데 어떻게 정전기 방지를 할 수 있어?",
+            "turn_id": "BK22018929-5",
+            "utterance_id": "BK22018929.9"
+        },
+        {
+            "reference_date": "44533.0",
+            "reference_text": [
+                {
+                    "value": "또한, 반려견이 자주 노는 소파나 카펫에 정전기 방지 스프레이를 꾸준하게 사용해 주는 것도 좋다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000653916",
+            "search_query": "겨울철 반려견 정전기 방지 스프레이",
+            "terminate": false,
+            "text": "강아지가 잘 노는 카펫이나 소파에 정전기 방지 스프레이를 부지런하게 써주는 것도 좋아.",
+            "turn_id": "BK22018929-5",
+            "utterance_id": "BK22018929.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 내가 우리집 강아지를 만질 때 생기는 정전기도 예방할 수 있나? 손에 뭘 바르면 나으려나?",
+            "turn_id": "BK22018929-6",
+            "utterance_id": "BK22018929.11"
+        },
+        {
+            "reference_date": "44533.0",
+            "reference_text": [
+                {
+                    "value": "마지막으로 보호자도 반려견을 쓰다듬기 전에 반드시 핸드크림 등을 발라 손 보습에 철저하게 신경 쓰는 것이 좋다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000653916",
+            "search_query": "겨울철 반려견 정전기 핸드크림",
+            "terminate": false,
+            "text": "맞아, 사람도 강아지를 만지기 전에 꼭 핸드크림을 발라 손 보습에 꼼꼼히 신경 쓰면 도움이 되지.",
+            "turn_id": "BK22018929-6",
+            "utterance_id": "BK22018929.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "옷에서도 정전기가 많이 생기잖아. 강아지가 옷을 통해 정전기가 생기지 않게 예방하는 방법은 뭐야?",
+            "turn_id": "BK22018929-7",
+            "utterance_id": "BK22018929.13"
+        },
+        {
+            "reference_date": "44533.0",
+            "reference_text": [
+                {
+                    "value": "또한, 니트같이 정전기가 잘 오르는 재질의 옷을 입고 반려견을 안을 때 정전기를 예방하기 위해 옷핀이나 클립을 옷에 끼어두는 것도 좋다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000653916",
+            "search_query": "겨울철 반려견 정전기 예방",
+            "terminate": false,
+            "text": "정전기가 잘 오르는 니트 같은 재질의 옷을 입었을 때 강아지를 안게 된다면, 정전기를 방지하기 위해 클립이나 옷핀을 옷에 끼어두는 것도 좋아.",
+            "turn_id": "BK22018929-7",
+            "utterance_id": "BK22018929.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "금속 재질의 옷핀이나 클립을 옷에 왜 끼어 둬?",
+            "turn_id": "BK22018929-8",
+            "utterance_id": "BK22018929.15"
+        },
+        {
+            "reference_date": "44533.0",
+            "reference_text": [
+                {
+                    "value": "금속 재질로 된 옷핀과 클립은 전자를 공기 중으로 흘려보내주는 역할을 하기 때문에 작은 핀 하나로도 정전기 예방에 큰 효과를 볼 수 있다.",
+                    "value_time": "44848.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000653916",
+            "search_query": "겨울철 반려견 정전기 옷핀",
+            "terminate": false,
+            "text": "옷핀과 클립은 금속 재질로 전자를 공기 중으로 흘려버리는 역할을 해. 작은 핀 하나만으로 정전기 방지에 큰 효과를 볼 수 있어.",
+            "turn_id": "BK22018929-8",
+            "utterance_id": "BK22018929.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "옷에 한번 클립을 끼어 봐야겠다. 정전기 때문에 그동안 너무 괴로웠어.",
+            "turn_id": "BK22018929-9",
+            "utterance_id": "BK22018929.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지도 만지면 아프니까 뭔가 했겠다.",
+            "turn_id": "BK22018929-9",
+            "utterance_id": "BK22018929.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내가 만질 때 우리 강아지가 날 의심스러운 눈으로 쳐다보더라고. 정전기가 심하면 엄청 아프니까.",
+            "turn_id": "BK22018929-10",
+            "utterance_id": "BK22018929.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "이제 정전기 없애는 방법을 알았으니 잘 실행해봐.",
+            "turn_id": "BK22018929-10",
+            "utterance_id": "BK22018929.20"
+        }
+    ]
+}

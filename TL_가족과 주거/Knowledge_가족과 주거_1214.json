@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008029",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008029",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 조리원 퇴소하고 집에 왔어요. 혼자 아기를 돌보려니 정신이 하나도 없네요.",
+            "turn_id": "BK22008029-1",
+            "utterance_id": "BK22008029.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "처음은 누구나 서투르기 마련이죠. 도움이 필요하면 언제든 연락하세요.",
+            "turn_id": "BK22008029-1",
+            "utterance_id": "BK22008029.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 감사해요. 그렇지 않아도 아기 탯줄이 아직 안 떨어졌는데 어떻게 관리해야 할지 궁금해서 연락드렸어요. 보통 탯줄은 언제 떨어져요?",
+            "turn_id": "BK22008029-2",
+            "utterance_id": "BK22008029.3"
+        },
+        {
+            "reference_date": "2018-02-09",
+            "reference_text": [
+                {
+                    "value": "통상적으로는 출생 후 4주이 내에 떨어집니다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 요즈음은 병원에서 조리원으로 가시는 경우가 많아 조리원에서 소독과 관리가 잘되면 2주~3주이 내에 떨어집니다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "몸무게가 작고 탯줄이 얇은 신생아인 경우에는 생후 1주일이내에 떨어질 수도 있습니다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=61382",
+            "search_query": "탯줄 떨어지는 시기",
+            "terminate": false,
+            "text": "신생아의 탯줄은 일반적으로 생후 4주 안에 떨어져요. 그렇지만 최근에는 조리원에서 지내는 경우가 많기 때문에 조리원에서 잘 소독하고 관리하면 2주~3주 안에 떨어지기도 해요. 만약 몸무게가 적게 나가고 탯줄이 얇은 신생아라면 생후 1주일 안에 떨어질 수도 있고요.",
+            "turn_id": "BK22008029-2",
+            "utterance_id": "BK22008029.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 저희 아기는 아직 3주가 안 되었으니 아직은 좀 더 시간이 걸릴 수도 있겠네요. 혹시 생후 4주가 지나도록 탯줄이 떨어지지 않으면 뭔가 문제가 있는 건가요?",
+            "turn_id": "BK22008029-3",
+            "utterance_id": "BK22008029.5"
+        },
+        {
+            "reference_date": "2018-02-09",
+            "reference_text": [
+                {
+                    "value": "만약 4주이 후에도 배꼽이 떨어지지 않는다면 면역질환이나 다른 몸에 질병이 있을 수도 있으므로 소아청소년과 선생님께 진료를 받아보시는 것이 좋습니다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=61382",
+            "search_query": "탯줄 늦게 떨어질 때 대처법",
+            "terminate": false,
+            "text": "신생아의 탯줄이 생후 4주가 지나도 떨어지지 않는다면 면역 질환을 비롯한 질병을 의심해 볼 수 있기 때문에 소아청소년과를 방문하여 진료받아 볼 것을 추천해요.",
+            "turn_id": "BK22008029-3",
+            "utterance_id": "BK22008029.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 잘 기억해 둘게요. 조리원 선생님께서 집에 가도 탯줄이 떨어질 때까지는 소독을 잘해야 한다고 하시던데 소독은 얼마 만에 한 번씩 하면 돼요?",
+            "turn_id": "BK22008029-4",
+            "utterance_id": "BK22008029.7"
+        },
+        {
+            "reference_date": "2021-08-31",
+            "reference_text": [
+                {
+                    "value": "신생아 배꼽은 하루 두번, 오전과 오후에 소독하고 탯줄이 떨어진 후에도 3~4일 정도는 하루 두번씩 소독해주는 것이 좋다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202108311536o",
+            "search_query": "신생아 배꼽 소독",
+            "terminate": false,
+            "text": "1일 2회, 오전과 오후에 한 번씩 소독해 주세요. 그리고 탯줄이 떨어졌다고 바로 소독을 멈추지 말고 3~4일 정도는 1일 2회 소독하는 것이 좋아요.",
+            "turn_id": "BK22008029-4",
+            "utterance_id": "BK22008029.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하루 두 번씩 해야 하는군요. 소독은 뭐로 하면 효과적이에요? 소독 후 주의 사항은 없나요?",
+            "turn_id": "BK22008029-5",
+            "utterance_id": "BK22008029.9"
+        },
+        {
+            "reference_date": "2021-08-31",
+            "reference_text": [
+                {
+                    "value": "소독을 할 때는 70% 농도의 알콜로 하면 소독 효과가 좋고 빨리 건조된다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "소독 후 기저귀를 채우고 옷을 입히기 전에는 배꼽이 잘 말랐는지 확인해야 한다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202108311536o",
+            "search_query": "신생아 배꼽 소독 방법",
+            "terminate": false,
+            "text": "70% 농도의 알코올로 소독하면 효과적이고 건조도 빨라요. 소독을 마친 다음에는 배꼽이 완전히 건조되었는지 확인한 후에 기저귀를 채우고 옷을 입혀야 한다는 것도 기억해 주세요.",
+            "turn_id": "BK22008029-5",
+            "utterance_id": "BK22008029.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 알겠어요. 배꼽이 기저귀나 옷에 쓸리지 않을까 걱정인데 거즈로 덮어두어도 괜찮을까요?",
+            "turn_id": "BK22008029-6",
+            "utterance_id": "BK22008029.11"
+        },
+        {
+            "reference_date": "2021-08-31",
+            "reference_text": [
+                {
+                    "value": "배꼽에 거즈 등을 덧대면 바람이 통하지 않아 배꼽이 떨어지는데 더 오랜 시간이 걸릴 수 있으므로, 염증이 있거나 하는것이 아니라면 임의로 거즈를 대지 않는 것이 좋다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202108311536o",
+            "search_query": "신생아 배꼽 거즈 덧대기",
+            "terminate": false,
+            "text": "거즈 같은 것을 배꼽에 덧대어 두면 통풍이 잘되지 않아서 탯줄이 더디게 떨어질 수 있어요. 그러므로 염증이 있다든지 하는 경우가 아니라면 거즈 등을 덧대지 않는 게 좋아요.",
+            "turn_id": "BK22008029-6",
+            "utterance_id": "BK22008029.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 미리 여쭤보길 잘했네요. 혹시 통목욕은 언제부터 할 수 있어요? 통목욕을 하기 전에는 어떤 식으로 아기를 씻기면 되는지도 궁금해요.",
+            "turn_id": "BK22008029-7",
+            "utterance_id": "BK22008029.13"
+        },
+        {
+            "reference_date": "2017-10-23",
+            "reference_text": [
+                {
+                    "value": "통목욕은 배꼽이 완전히 떨어지기 전에는 시키지 않는 것이 좋으며 이때는 가제 손수건에 물을 묻혀서 아기의 얼굴과 몸을 부드럽게 닦아주는 것이 좋다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "물 온도는 38~40도가 적당하며, 팔꿈치를 물에 담갔을 때 따뜻한 정도로 맞추면 된다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000300985",
+            "search_query": "신생아 통목욕 시기",
+            "terminate": false,
+            "text": "통목욕은 완전히 탯줄이 떨어진 다음에 시키는 게 좋아요. 탯줄이 떨어지기 전에는 물을 묻힌 가제 손수건을 이용해서 부드럽게 아기의 얼굴과 몸을 닦아 주면 되는데 이때 물 온도는 물에 팔꿈치를 담갔을 때 따뜻하다고 느껴지는 38~40도 정도로 맞춰 주세요.",
+            "turn_id": "BK22008029-7",
+            "utterance_id": "BK22008029.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 그럴게요. 그럼 탯줄이 떨어지고 나면 씻길 때 배꼽에 물이 닿아도 괜찮은 건가요?",
+            "turn_id": "BK22008029-8",
+            "utterance_id": "BK22008029.15"
+        },
+        {
+            "reference_date": "2017-10-23",
+            "reference_text": [
+                {
+                    "value": "탯줄이 떨어지면 목욕할 때 배꼽에 물이 조금 들어가는 건 괜찮지만, 목욕 후 물기는 잘 말려 줘야 한다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "배꼽이 완전히 아물기 전에는 혈액이나 분비물이 묻을 수 있고 세균도 번식할 수 있기 때문.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000300985",
+            "search_query": "신생아 탯줄 떨어진 후 주의 사항",
+            "terminate": false,
+            "text": "네, 아기의 탯줄이 떨어진 후에는 목욕시키면서 배꼽에 소량의 물이 들어가는 것은 상관없지만 배꼽이 완벽하게 아물지 않은 상태에서는 혈액, 분비물이 묻거나 세균이 번식할 가능성이 있기 때문에 목욕을 마친 다음에 물기를 꼼꼼하게 건조해야 해요.",
+            "turn_id": "BK22008029-8",
+            "utterance_id": "BK22008029.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세균이 번식할 수 있다니 정말 조심해야겠네요. 혹시 배꼽 관리를 잘하지 못하면 병이 생기거나 할 수도 있나요?",
+            "turn_id": "BK22008029-9",
+            "utterance_id": "BK22008029.17"
+        },
+        {
+            "reference_date": "2019-09-23",
+            "reference_text": [
+                {
+                    "value": "배꼽육아종은 신생아 탯줄이 떨어지고 남은 조직에서 지속적으로 진물이나 피가 묻어나고 염증이 생기는 질환이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "치료법은 배꼽에 남은 살덩어리를 없애는 것이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?3725617",
+            "search_query": "배꼽육아종",
+            "terminate": false,
+            "text": "네, 신생아의 탯줄이 떨어진 후에 남은 조직에서 계속 진물 혹은 피가 묻어나고 염증이 발생하는 배꼽육아종이 생길 수 있는데 이 배꼽육아종은 배꼽에 남아 있는 살덩이를 제거해야 나을 수 있어요.",
+            "turn_id": "BK22008029-9",
+            "utterance_id": "BK22008029.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "배꼽육아종이 생기지 않게 탯줄이 떨어지고 난 다음에도 신경 써서 관리해야겠어요. 자세히 알려 주셔서 감사해요. 많은 도움이 되었어요.",
+            "turn_id": "BK22008029-10",
+            "utterance_id": "BK22008029.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 다행이에요. 궁금한 게 있으면 언제든 물어보세요.",
+            "turn_id": "BK22008029-10",
+            "utterance_id": "BK22008029.20"
+        }
+    ]
+}

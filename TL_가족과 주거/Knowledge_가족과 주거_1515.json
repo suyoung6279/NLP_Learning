@@ -1,0 +1,386 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011632",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011632",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0027"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 출산한 지 얼마 안 돼서 아기에 대해 모르는 것이 너무 많아요. 그런데 주변에 물어볼 사람이 별로 없어서 연락드렸어요. 초보 엄마를 좀 도와주실 수 있나요?",
+            "turn_id": "BK22011632-1",
+            "utterance_id": "BK22011632.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼요. 처음이라 모든 게 새롭고 당황스러우실 텐데 궁금한 것 알려주시면 자세히 설명해 드릴게요. 제가 육아 경험이 많아서 도움이 될 거예요.",
+            "turn_id": "BK22011632-1",
+            "utterance_id": "BK22011632.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 감사합니다. 지금 당장 아이에게 모유 수유를 하루에 몇 번 정도 해야 하는지도 막막해요. 혹시 적절한 모유 수유 횟수에 대해서 알려줄 수 있나요?",
+            "turn_id": "BK22011632-2",
+            "utterance_id": "BK22011632.3"
+        },
+        {
+            "reference_date": "2019-03-08",
+            "reference_text": [
+                {
+                    "value": "신생아는 적어도 8회 이상 모유를 먹여야 한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이보다 적으면 모유의 생산이 줄어 모유만으로 수유하기가 힘들어진다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "신생아 수유 간격은 2~3시간을 넘기지 않도록 하고 밤에는 4시간을 넘기지 않는다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=72592",
+            "search_query": "신생아 수유 횟수",
+            "terminate": false,
+            "text": "보통 아기 들은 적어도 하루에 8번 이상의 모유를 먹어야 하는데 만약 이것보다 횟수가 적으면 모유가 적게 나와 모유만으로 수유하기가 어려워져요. 그리고 아기가 모유를 먹는 시간 차는 2~3시간을 넘지 않도록 하고 밤에는 4시간을 넘기지 않도록 하세요.",
+            "turn_id": "BK22011632-2",
+            "utterance_id": "BK22011632.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "8번 넘게 먹여야 한다니 잘 기억해둘게요. 아, 그리고 아기 몸에 여드름 같은 것이 나는데 왜 그런 건가요? 어떻게 관리를 해야 하는지 궁금해요.",
+            "turn_id": "BK22011632-3",
+            "utterance_id": "BK22011632.5"
+        },
+        {
+            "reference_date": "2017-11-29",
+            "reference_text": [
+                {
+                    "value": "태열은 영유아의 피부가 붉어지고 빨간 좁쌀 같은 것이 돋으며 물집이 잡히는 등의 증상을 말한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "신생아 시기에는 모체에 있는 호르몬이 신생아에게 남아 여드름과 비슷한 증상이 나타날 수 있는데, 태열이 생기면 가려움증과 진물 때문에 예민해지고 칭얼대게 된다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대부분 돌 전에 사라지지만, 제대로 관리하지 않을 경우 고질적인 피부질환으로 이어질 수 있다",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "피부가 건조해지고, 방안의 온도가 높으면 증상이 더 심해질 수 있으므로 방안이 너무 덥지 않으면서 건조하지 않도록 한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000314429",
+            "search_query": "신생아 여드름",
+            "terminate": false,
+            "text": "그건 태열이라고 하는데 아기의 피부가 빨개지고 좁쌀 같은 것이 올라오면서 물집이 잡히는 것을 뜻해요. 신생아 때는 엄마 몸에 있는 호르몬이 아기에게 남아 있기 때문에 여드름과 비슷한 증상이 나타날 수 있는데 이러한 태열이 생기면 가렵고 진물이 나서 아기가 칭얼대고 예민해져요. 대부분은 돌 이전에 없어지지만 제대로 관리하지 않으면 피부질환으로 이어질 수 있죠. 방의 온도가 높아 피부가 건조해지면 더 심해질 수 있기 때문에 방 안 온도를 덥지 않도록 조절하고 피부가 건조해지지 않도록 해주세요.",
+            "turn_id": "BK22011632-3",
+            "utterance_id": "BK22011632.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 이걸 태열이라고 하는군요. 알려주신 방법대로 잘 관리해 볼게요. 그리고 혹시 아기가 아직 탯줄이 있는데 목욕을 시켜도 되나요?",
+            "turn_id": "BK22011632-4",
+            "utterance_id": "BK22011632.7"
+        },
+        {
+            "reference_date": "2021-09-30",
+            "reference_text": [
+                {
+                    "value": "탯줄이 떨어지기 전까지는 물에 닿지 않도록 손이나 발 위주로 부분 목욕하거나, 미온수로 적신 수건으로 닦아줍니다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "탯줄이 떨어지고도 일주일 정도는 물이 닿지 않게 부분 목욕을 시켜줍니다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=98758",
+            "search_query": "신생아 목욕",
+            "terminate": false,
+            "text": "탯줄이 떨어지기 전에는 몸에 물이 묻지 않도록 손,발 위주로만 씻겨주거나, 따뜻한 물로 적신 수건으로 닦아주는 것이 좋아요. 그리고 탯줄이 떨어지고 나서도 일주일 정도는 물이 묻지 않도록 부분만 씻겨주시면 돼요.",
+            "turn_id": "BK22011632-4",
+            "utterance_id": "BK22011632.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알려주신 기간 동안은 부분 목욕으로 대체하도록 할게요! 아, 그리고 아이가 숨 쉴 때 무언가 좀 불규칙한 것 같고 심장도 빨리 뛰는 것 같은데 병원에 가봐야 할까요?",
+            "turn_id": "BK22011632-5",
+            "utterance_id": "BK22011632.9"
+        },
+        {
+            "reference_date": "2022-02-17",
+            "reference_text": [
+                {
+                    "value": " 호흡 : 신생아들은 복식 호흡을 하는데 생후 초기에는 호흡 조절 기능이 미숙해 호흡수가 매우 불규칙 하다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또 1분에 100~150회 정도로 심장이 어른에 비해 2배 가량 빠르게 뛰지만 이는 작은 심장에서 혈액을 충분히 펌프질하기 위한 것으로 지극히 자연스러운 현상이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=157614",
+            "search_query": "신생아 호흡",
+            "terminate": false,
+            "text": "신생아들은 배로 호흡을 하는데 태어난 지 얼마 안된 시기에는 호흡을 조절하는 능력이 미숙하기 때문에 호흡수가 불규칙 해요. 그리고 작은 심장으로 혈액을 충분하게 돌리기 위해 심장이 1분에 100~150회 정도로 성인에 비해 2배정도 빠르게 뛰는데 이것은 지극히 정상적인 현상이에요.",
+            "turn_id": "BK22011632-5",
+            "utterance_id": "BK22011632.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정상적인 반응이라니 정말 다행이에요. 아, 그리고 궁금한 부분이 또 있는데 신생아 때는 앞이 잘 보이나요? 오늘 오전에 눈을 뜨고 있길래 저를 보나 싶어서 너무 기뻤거든요.",
+            "turn_id": "BK22011632-6",
+            "utterance_id": "BK22011632.11"
+        },
+        {
+            "reference_date": "2016-10-20",
+            "reference_text": [
+                {
+                    "value": "신생아의 시력은 빛과 명암만 구분할 수 있기 때문에 정확하게 부모의 얼굴을 볼 수 없다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=201610200134o",
+            "search_query": "신생아 시력",
+            "terminate": false,
+            "text": "신생아의 시력은 빛과 밝고 어두운 것만 구분할 수 있는 정도기 때문에 엄마 아빠의 얼굴을 정확하게 볼 수 없어요.",
+            "turn_id": "BK22011632-6",
+            "utterance_id": "BK22011632.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 저를 아직 제대로 볼 수 없겠네요. 그럼 아기가 언제부터 저와 눈 초점을 맞출 수 있게 되나요?",
+            "turn_id": "BK22011632-7",
+            "utterance_id": "BK22011632.13"
+        },
+        {
+            "reference_date": "2021-11-19",
+            "reference_text": [
+                {
+                    "value": "신생아는 2주 정도가 지날 무렵 빛의 밝기와 명암을 구분할 수 있고, 1개월이 지나면 물체에 초점을 맞출 수 있다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 신생아 시기를 조금씩 벗어나는 이 무렵엔 흑배의 대조가 뚜렷한 초점책, 흑백모빌을 보여주는 것이 좋다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또는 선명한 원색 장난감을 보여주는 것도 초점을 맞추는 데 도움이 된다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202111162319o",
+            "search_query": "신생아 초점",
+            "terminate": false,
+            "text": "보통 신생아는 2주 정도가 지나면 빛의 밝기와 밝고 어두운 것을 구분할 수 있고 한 달이 지나면 물체에 초점을 맞출 수 있게 돼요. 그래서 이 무렵에 흑백의 대조가 분명한 초점책이나 흑백모빌을 보여주면 도움이 되죠. 또한 선명한 원색의 장난감을 보여주면 초점을 맞추는 것을 도와줄 수 있어요.",
+            "turn_id": "BK22011632-7",
+            "utterance_id": "BK22011632.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 얼마 남지 않았네요. 너무 좋아요. 아, 그리고 지금 저희 아이는 먹는 시간을 빼놓고는 거의 자는 것 같은데 이렇게 오래 자도 괜찮은가요?",
+            "turn_id": "BK22011632-8",
+            "utterance_id": "BK22011632.15"
+        },
+        {
+            "reference_date": "2022-01-19",
+            "reference_text": [
+                {
+                    "value": "생후 1개월 미만의 아기의 경우 총 수면 시간은 16시간이며, 신생아 시기에는 밤낮이 따로 없다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "젖 먹는 시간이 낮이고, 배불러 자는 때가 밤이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하루에 5~6회 잠을 자는 것이 보통이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/01/19/2022011901216.html",
+            "search_query": "신생아 수면시간",
+            "terminate": false,
+            "text": "그건 정상이에요. 보통 태어난 지 한 달 미만의 아기들의 총 수면 시간은 16시간 정도에요. 보통 하루에 잠을 5~6번 정도 자요. 그리고 신생아 때는 밤낮이 따로 없어서 모유를 먹는 시간이 낮이고, 배가 불러서 잠자는 시간이 밤인 셈이에요.",
+            "turn_id": "BK22011632-8",
+            "utterance_id": "BK22011632.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이렇게 오래 자는 것이 정상이었다니 처음이다 보니 잘 몰라서 모든 것이 다 걱정되어요. 아, 그리고 마지막으로 저희 아기가 잠을 자다가 갑자기 몸을 움찔거리면서 자꾸 깨는데 혹시 발작 증상인가요? 너무 걱정되네요.",
+            "turn_id": "BK22011632-9",
+            "utterance_id": "BK22011632.17"
+        },
+        {
+            "reference_date": "2020-05-27",
+            "reference_text": [
+                {
+                    "value": "신생아가 갑자기 몸을 움찔하거나 만세를 하듯이 손을 번쩍 드는 행동을 하는 것을 ‘모로 반사’라고 한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "생후 0~3개월경에 많이 나타나며 4개월 이후부터 조금씩 사라지다가 6개월쯤에는 완전히 소실된다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아기가 모로 반사로 인해 잠에서 깨어 울 때는 안심할 수 있도록 몸에 밀착시키고 등을 쓰다듬어 안정시킨다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "신생아의 몸을 고정하는 ‘속싸개’는 모로 반사를 막아주는 효과가 있다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "속싸개는 모로 반사가 지속하는 3~4개월까지 사용하면 된다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000516047",
+            "search_query": "아기 모로반사",
+            "terminate": false,
+            "text": "그건 모로반사라고 하는데 아기가 갑자기 몸을 움찔 떨거나 만세 동작처럼 손을 번쩍 드는 것을 말해요. 태어나고 0~3개월 쯤 됐을 때 많이 나타나고, 4개월이 지나가면서 점차 사라지다가 6개월 쯤에는 완전히 사라져요. 만약 아기가 모로반사 때문에 자꾸 깨서 운다면 아기가 안정될 수 있도록 몸을 바짝 붙이고 등을 쓰다듬어 주면 돼요. 또 모로반사가 자주 일어나는 시기인 3~4개월까지는 아기들의 몸을 고정해주는 속싸개를 해주면 이를 막아주는 효과가 있어요.",
+            "turn_id": "BK22011632-9",
+            "utterance_id": "BK22011632.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 너무 다행이에요. 아기에 대해서 너무 모르는 것이 많아서 아기한테 미안해지네요. 오늘 많은 정보를 알려주셔서 너무 감사합니다.",
+            "turn_id": "BK22011632-10",
+            "utterance_id": "BK22011632.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 다행이에요. 저는 이제 곧 약속 시간이라 먼저 가봐야 할 것 같아요. 앞으로도 궁금한 점이 있으면 언제든 연락 주세요.",
+            "turn_id": "BK22011632-10",
+            "utterance_id": "BK22011632.20"
+        }
+    ]
+}

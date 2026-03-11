@@ -1,0 +1,366 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014446",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014446",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0018"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희집 강아지가 요즘 우울감을 느끼는 것 같아요.",
+            "turn_id": "BK22014446-1",
+            "utterance_id": "BK22014446.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 짐작 가는 이유가 있을까요?",
+            "turn_id": "BK22014446-1",
+            "utterance_id": "BK22014446.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근에 날씨도 춥고 무기력해져서 강아지와 산책을 덜 나가긴 했어요. 혹시 강아지도 겨울이어서 우울한 걸까요?",
+            "turn_id": "BK22014446-2",
+            "utterance_id": "BK22014446.3"
+        },
+        {
+            "reference_date": "43478.0",
+            "reference_text": [
+                {
+                    "value": "계절성 우울증(SAD·Seasonal Affective Disorder)이라는 질환이 있다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "많은 사람이 이미 느끼고 있겠지만 겨울이 되면 우울감을 느끼고 무기력해지는 증상을 말한다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "SAD가 찾아오는 이유에 대해 조금만 검색해봐도 일조량 감소, 운동 부족 등이 원인이 되는 걸 곧 알 수 있다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "서두에 밝혔듯 반려견도 우리와 같은 동물이다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "보호자가 움츠러들고 우울감에 빠지면 반려견 역시 SAD 증상을 보이는 경우가 많다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://shindonga.donga.com/List/3/all/13/1603293/1",
+            "search_query": "계절성 우울증",
+            "terminate": false,
+            "text": "겨울이 되면 무기력하고 우울해지는 것을 계절성 우울증이라고 해요. 원인은 운동량 부족해지고 일조량이 감소하기 때문이죠. 반려견도 우리와 같은 동물이기에 보호자가 우울해지면 역시 같은 계절성 우울증 증상을 보일 수 있어요.",
+            "turn_id": "BK22014446-2",
+            "utterance_id": "BK22014446.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동물도 사람처럼 겨울에 우울해질 수 있군요. 그래도 추운 날에 산책을 시키면 강아지가 추워하지 않을까요?",
+            "turn_id": "BK22014446-3",
+            "utterance_id": "BK22014446.5"
+        },
+        {
+            "reference_date": "43478.0",
+            "reference_text": [
+                {
+                    "value": "몸이 털로 뒤덮여 있긴 하지만 강아지도 추위를 느낀다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일반적으로는 사람보다 추위에 강하지만 크기, 종의 특성에 따라 편차가 크다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://shindonga.donga.com/List/3/all/13/1603293/1",
+            "search_query": "강아지 추위",
+            "terminate": false,
+            "text": "맞아요. 강아지는 몸에 털이 있긴 해도 추위를 느낄 수 있어요. 보통은 사람보다 추위에 강하지만 종이나 크기에 따라 추위를 느끼는 정도의 차이가 커요.",
+            "turn_id": "BK22014446-3",
+            "utterance_id": "BK22014446.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그럼 산책 시에 옷을 입히는 게 좋을까요?",
+            "turn_id": "BK22014446-4",
+            "utterance_id": "BK22014446.7"
+        },
+        {
+            "reference_date": "43478.0",
+            "reference_text": [
+                {
+                    "value": "하지만 대형견에 비해 상대적으로 추위에 약한 소형견을 많이 키우는 우리나라 문화에서는, 상황에 따라 적절한 옷을 입히는 게 오히려 강아지에게 도움이 되는 경우가 많다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://shindonga.donga.com/List/3/all/13/1603293/1",
+            "search_query": "강아지 추울때 옷",
+            "terminate": false,
+            "text": "우리나라는 대형견보다 소형견을 많이 키우는데 소형견은 대형견보다 추위에 더 약해요. 따라서 날씨가 춥다면 옷을 입히는 게 강아지에게 도움이 돼요.",
+            "turn_id": "BK22014446-4",
+            "utterance_id": "BK22014446.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 강아지는 옷 입는 걸 너무 싫어해서 걱정이네요. 어떻게 하면 좋죠?",
+            "turn_id": "BK22014446-5",
+            "utterance_id": "BK22014446.9"
+        },
+        {
+            "reference_date": "43478.0",
+            "reference_text": [
+                {
+                    "value": "대부분 다리에 옷을 끼울 때 거부반응을 보인다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이런 반려견을 키우는 보호자는 다리를 끼우지 않는 형태의 옷을 장만해 다시 시도해보는 게 좋다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://shindonga.donga.com/List/3/all/13/1603293/1",
+            "search_query": "옷 싫어하는 강아지",
+            "terminate": false,
+            "text": "대부분의 강아지는 다리에 옷을 끼우는 것을 거부해요. 다리를 끼우지 않는 옷을 사서 입혀보는 걸 추천할게요.",
+            "turn_id": "BK22014446-5",
+            "utterance_id": "BK22014446.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어요. 집에 강아지 신발도 있는데 신겨줘야 할지 모르겠어요. 강아지가 발이 시리지 않을까요?",
+            "turn_id": "BK22014446-6",
+            "utterance_id": "BK22014446.11"
+        },
+        {
+            "reference_date": "43478.0",
+            "reference_text": [
+                {
+                    "value": "이 조직은 아주 두꺼운 지방층과 각화상피세포, 즉 딱딱한 각질로 이뤄져 있다고 보면 된다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사람처럼 신발을 신도록 진화한 게 아니라서 물이고, 흙이고, 돌바닥이고 얼마든지 뛰어다닐 수 있다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://shindonga.donga.com/List/3/all/13/1603293/1",
+            "search_query": "강아지 발시림",
+            "terminate": false,
+            "text": "그렇진 않아요. 강아지 발바닥의 조직은 각화상피세포, 즉 딱딱한 각질과 아주 두꺼운 지방층으로 이뤄져 있어요. 신발이 없어도 돌바닥, 물, 흙을 잘 다닐 수 있죠.",
+            "turn_id": "BK22014446-6",
+            "utterance_id": "BK22014446.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 신발은 따로 신기지 않아도 될 것 같아요. 그래도 산책 후 깨끗이 발을 닦아야겠죠?",
+            "turn_id": "BK22014446-7",
+            "utterance_id": "BK22014446.13"
+        },
+        {
+            "reference_date": "43478.0",
+            "reference_text": [
+                {
+                    "value": "사람들이 눈을 녹이려고 뿌리는 염화칼슘이다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "염화칼슘은 개의 발에 자극을 주고 트러블을 일으킬 수 있다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "더욱 위험한 일은 반려견이 염화칼슘을 먹는 것이다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://shindonga.donga.com/List/3/all/13/1603293/1",
+            "search_query": "강아지 눈 산책",
+            "terminate": false,
+            "text": "물론이에요. 눈을 녹이기 위해 뿌리는 염화칼슘이 뿌려진 바닥의 경우 개의 발에 좋지 않아요. 트러블을 일으키거나 자극을 주죠. 만약 강아지가 염화칼슘을 먹게 되면 더 위험하고요.",
+            "turn_id": "BK22014446-7",
+            "utterance_id": "BK22014446.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 염화칼슘이 뿌려진 바닥에서는 신발을 신겨야겠어요. 만약 강아지가 신발을 신기 싫어하면 어떡하죠?",
+            "turn_id": "BK22014446-8",
+            "utterance_id": "BK22014446.15"
+        },
+        {
+            "reference_date": "43478.0",
+            "reference_text": [
+                {
+                    "value": "신발에 거부감이 많아 신기기 어려운 반려견이라면 강아지용 풋밤 제품을 발라 발바닥을 보호해주거나, 산책 후 반려견이 발을 핥지 않도록 주의하고 따뜻한 물로 충분히 발을 씻어준 뒤 잘 말려주는 게 좋다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://shindonga.donga.com/List/3/all/13/1603293/1",
+            "search_query": "강아지 풋밤",
+            "terminate": false,
+            "text": "강아지가 신발에 거부감을 보이면 발바닥을 보호해주는 강아지용 풋밤을 바르는 게 좋아요. 산책 후에 발을 핥을 수 있으니 따뜻한 물로 발을 씻고 말려주는 게 좋고요.",
+            "turn_id": "BK22014446-8",
+            "utterance_id": "BK22014446.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산책할 때 참고할게요. 아, 강아지도 사람처럼 감기에 걸릴 수 있는지도 궁금해요.",
+            "turn_id": "BK22014446-9",
+            "utterance_id": "BK22014446.17"
+        },
+        {
+            "reference_date": "43478.0",
+            "reference_text": [
+                {
+                    "value": "겨울철이 되면 강아지도 감기에 잘 걸린다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "최근에는 ‘켄넬코프(Kennel cough)’라고 하는, 예전부터 많이 걸리던 감기뿐 아니라 독감도 점점 유행하는 추세다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사람들이 독감 예방 백신을 맞듯 반려견 백신도 신경 써야 한다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://shindonga.donga.com/List/3/all/13/1603293/1",
+            "search_query": "강아지 감기",
+            "terminate": false,
+            "text": "겨울에 강아지도 감기에 걸릴 수 있죠. 요즘에 감기뿐 아니라 켄넬코프라는 독감도 유행하고 있어요. 우리가 독감 백신을 맞는 것처럼 반려견 백신도 신경 써야해요.",
+            "turn_id": "BK22014446-9",
+            "utterance_id": "BK22014446.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "꼭 그럴게요, 유익한 정보를 많이 배우네요. 이제 강아지와 산책하러 갈게요.",
+            "turn_id": "BK22014446-10",
+            "utterance_id": "BK22014446.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "강아지 산책 잘 시키시고 다음에 봬요.",
+            "turn_id": "BK22014446-10",
+            "utterance_id": "BK22014446.20"
+        }
+    ]
+}

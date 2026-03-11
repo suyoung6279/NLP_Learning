@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013977",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013977",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0036"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내 방이 너무 답답하고 칙칙한 것 같아. 인테리어를 다시 생각해봐야 할 것 같은데, 뭐 좋은 방법 없을까?",
+            "turn_id": "BK22013977-1",
+            "utterance_id": "BK22013977.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 플랜테리어를 많이들 하던데, 한번 시도해보는 게 어때?",
+            "turn_id": "BK22013977-1",
+            "utterance_id": "BK22013977.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 말을 어디서 들어본 적은 있는데 잘은 모르겠네. 플랜테리어가 뭐야?",
+            "turn_id": "BK22013977-2",
+            "utterance_id": "BK22013977.3"
+        },
+        {
+            "reference_date": "43000.0",
+            "reference_text": [
+                {
+                    "value": "식물(plant)과 인테리어(interior)의 합성어로, 식물로 실내를 꾸밈으로써 공기정화 효과와 심리적 안정 효과를 얻고자 하는 인테리어 방법이다.",
+                    "value_time": "44803.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=4294290&cid=43667&categoryId=43667",
+            "search_query": "플랜테리어",
+            "terminate": false,
+            "text": "식물을 뜻하는 플랜트와 인테리어의 합성어야. 쉽게 말해 식물로 실내 공간을 꾸민다는 뜻인데, 식물을 보며 심리적으로 안정감을 느낄 수 있고 공기 청정 효과도 얻을 수 있는 인테리어 방법이야.",
+            "turn_id": "BK22013977-2",
+            "utterance_id": "BK22013977.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "칙칙한 내 방에 식물을 두면 확실히 화사해질 것 같아. 그런데 왜 요즘 그런 말이 생겨날 정도로 식물을 키우는 문화가 유행한 걸까?",
+            "turn_id": "BK22013977-3",
+            "utterance_id": "BK22013977.5"
+        },
+        {
+            "reference_date": "44792.0",
+            "reference_text": [
+                {
+                    "value": "코로나19가 유행하면서 집에 있는 시간이 늘었고, 집에 식물을 두는 ‘플랜테리어’에 대한 관심이 커졌다.",
+                    "value_time": "44803.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "바야흐로 ‘반려식물 전성시대’다.",
+                    "value_time": "44803.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/economy/view/2022/712517",
+            "search_query": "플랜테리어 유행",
+            "terminate": false,
+            "text": "코로나19의 유행으로 사람들이 집에 머무는 시간이 늘어나면서 반려 식물 전성시대라는 말까지 나올 만큼 집에서 식물을 키우는 플랜테리어가 유행하기 시작한 거야.",
+            "turn_id": "BK22013977-3",
+            "utterance_id": "BK22013977.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 코로나의 영향이었구나. 플랜테리어를 하면 구체적으로 어떤 점이 좋아?",
+            "turn_id": "BK22013977-4",
+            "utterance_id": "BK22013977.7"
+        },
+        {
+            "reference_date": "44363.0",
+            "reference_text": [
+                {
+                    "value": "바깥 활동이 어려워진 만큼 실내에 머무는 시간이 늘며 고립감, 답답함을 호소하는 이들도 많아졌다.",
+                    "value_time": "44803.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 실내에 파릇파릇한 식물을 보고 가꾸기만 해도 심신의 안정을 되찾고 집중력을 향상하는 데에도 도움이 될 수 있다.",
+                    "value_time": "44803.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mindgil.com/news/articleView.html?idxno=71617",
+            "search_query": "플랜테리어 장점",
+            "terminate": false,
+            "text": "앞서 얘기했지만, 심리적 안정에 도움을 줄 수 있어. 코로나로 실내 활동 시간이 늘어나면서 답답함이나 고립감으로 힘들어하는 사람들이 많아졌는데, 실내에서 싱그러운 식물을 보고 키우는 것만으로도 안정감을 느끼는 데 도움이 되고 집중력도 높여줄 수 있어.",
+            "turn_id": "BK22013977-4",
+            "utterance_id": "BK22013977.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "식물에 그런 효과가 있었구나. 그리고 또 어떤 좋은 점이 있어?",
+            "turn_id": "BK22013977-5",
+            "utterance_id": "BK22013977.9"
+        },
+        {
+            "reference_date": "44363.0",
+            "reference_text": [
+                {
+                    "value": "플랜테리어는 인테리어에 대한 전문적인 지식이 없더라도 누구나 손쉽게 시도할 수 있다.",
+                    "value_time": "44803.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자신의 집 공간의 조건이나 분위기에 어울리는 식물을 선택해 배치하면 가성비 좋은 인테리어 효과를 얻을 수 있다.",
+                    "value_time": "44803.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mindgil.com/news/articleView.html?idxno=71617",
+            "search_query": "플랜테리어 효과",
+            "terminate": false,
+            "text": "플랜테리어의 좋은 점은 인테리어 전문가가 아니더라도 아무나 쉽게 인테리어 효과를 얻을 수 있다는 점이야. 본인의 집 분위기와 공간의 특성을 고려해서 어울리는 식물을 배치하는 것만으로도 충분히 가성비 좋은 인테리어가 되거든.",
+            "turn_id": "BK22013977-5",
+            "utterance_id": "BK22013977.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금 내게 제일 중요한 효과네. 그런데 식물에도 종류가 많은데, 어떤 걸 고려해서 식물을 골라야 하지?",
+            "turn_id": "BK22013977-6",
+            "utterance_id": "BK22013977.11"
+        },
+        {
+            "reference_date": "44271.0",
+            "reference_text": [
+                {
+                    "value": "플랜테리어를 시작할 때에는 실내 환경 및 관리 조건에 알맞은 식물을 선택하는 것이 좋다.",
+                    "value_time": "44803.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "식물마다 좋아하는 온도, 빛, 물 등의 조건이 있고, 배치하고자 하는 환경에 적응할 수 있는 식물을 선택한다.",
+                    "value_time": "44803.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.naeil.com/news_view/?id_art=379916",
+            "search_query": "플랜테리어 시작",
+            "terminate": false,
+            "text": "먼저 식물을 키우고자 하는 실내의 환경이 어떤지, 관리 조건은 어떤지를 잘 따져야 해. 식물들도 저마다 선호하는 온도와 물, 빛의 정도가 다르거든. 또 화분을 배치할 장소의 환경에 적합한 식물을 골라야겠지.",
+            "turn_id": "BK22013977-6",
+            "utterance_id": "BK22013977.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 식물의 관리 조건이라는 건 어떤 걸 말하는 거야?",
+            "turn_id": "BK22013977-7",
+            "utterance_id": "BK22013977.13"
+        },
+        {
+            "reference_date": "44271.0",
+            "reference_text": [
+                {
+                    "value": "식물을 자주 들여다 볼 틈이 없다면 물을 자주 주지 않아도 되는 건조에 강한 식물, 햇빛이 잘 들지 않는 것이라면 반음지식물이나 음지식물을 고르는 것이 좋다.",
+                    "value_time": "44803.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.naeil.com/news_view/?id_art=379916",
+            "search_query": "플랜테리어 시작",
+            "terminate": false,
+            "text": "예를 들어 너무 바빠서 식물을 관리할 시간이 별로 없다면 자주 물을 주지 않아도 버틸 수 있도록 건조한 환경에 강한 식물을 키우는 게 좋아. 그리고 빛이 부족한 공간이라면 음지식물, 또는 반음지 식물을 선택하는 게 좋지.",
+            "turn_id": "BK22013977-7",
+            "utterance_id": "BK22013977.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그런 식으로 환경과 조건을 따져야 한다는 말이구나. 내 방은 너무 좁아서 식물을 둘 만한 공간이 별로 없는데, 이럴 때 좋은 식물은 뭘까?",
+            "turn_id": "BK22013977-8",
+            "utterance_id": "BK22013977.15"
+        },
+        {
+            "reference_date": "44075.0",
+            "reference_text": [
+                {
+                    "value": "△행잉플랜트= 식물을 화분이나 예쁜 용기 등에 심고 벽이나 천장에 걸어 아래로 늘어트리며 키우는 방식이다.",
+                    "value_time": "44803.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "식물을 키울 수 있는 공간이 협소하거나 반려동물을 키우는 집에서 많이 활용하며 인테리어 소품으로도 각광받고 있다.",
+                    "value_time": "44803.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.knnews.co.kr/news/articleView.php?idxno=1333025",
+            "search_query": "플랜테리어 식물",
+            "terminate": false,
+            "text": "그럴 땐 행잉 플랜트를 추천할게. 천장이나 벽에 화분을 걸어서 밑으로 늘어트려 가며 키우는 식물이야. 화분을 둘 만한 공간이 없거나 집에 동물이 있어서 식물을 키우기 부담스러울 때 추천할 만한 식물인데, 인테리어용으로 인기가 아주 많아.",
+            "turn_id": "BK22013977-8",
+            "utterance_id": "BK22013977.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 딱 내가 찾던 식물인 것 같아. 행잉 플랜트 중에 어떤 식물이 있는지 소개해 줄래?",
+            "turn_id": "BK22013977-9",
+            "utterance_id": "BK22013977.17"
+        },
+        {
+            "reference_date": "43976.0",
+            "reference_text": [
+                {
+                    "value": "해가 많이 들지 않는 곳에서도 키울 수 있는 피토니아, 과습과 물 마름에 강해 ‘똥손’도 거뜬히 키울 수 있는 블루스타고사리도 추천 식물이다.",
+                    "value_time": "44803.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20200525/101207252/1",
+            "search_query": "행잉플랜트",
+            "terminate": false,
+            "text": "우선 피토니아를 소개할게. 피토니아는 빛의 양이 적은 곳에서도 잘 자란다는 장점이 있어. 그리고 다음으로 블루스타 고사리는 물을 많이 줘도 적게 줘도 잘 버티는 특성 덕분에 소위 똥손일지라도 잘 키울 수 있는 식물이야.",
+            "turn_id": "BK22013977-9",
+            "utterance_id": "BK22013977.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "둘 다 너무 좋을 것 같아. 이제 내 방도 화사해질 것 같아 기대되는걸. 좋은 정보 알려줘서 고마워.",
+            "turn_id": "BK22013977-10",
+            "utterance_id": "BK22013977.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "플랜테리어로 멋지게 분위기 변신하길 기대할게.",
+            "turn_id": "BK22013977-10",
+            "utterance_id": "BK22013977.20"
+        }
+    ]
+}

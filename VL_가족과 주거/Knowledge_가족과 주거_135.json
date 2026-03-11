@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018098",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018098",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리집 고양이가 림프구성 형질세포성 구내염 진단을 받았는데, 그게 뭐야?",
+            "turn_id": "BK22018098-1",
+            "utterance_id": "BK22018098.1"
+        },
+        {
+            "reference_date": "44656.0",
+            "reference_text": [
+                {
+                    "value": "림프구성 형질세포성 구내염은 구강점막에 심각한 염증과 궤양이 지속되면서 발생한다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "염증이 잇몸뿐 아니라 혀와 목구멍 주위까지 퍼지면서 목구멍의 염증을 동반하는 것이 특징이다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=58837",
+            "search_query": "고양이 림프구성 형질세포성 구내염",
+            "terminate": false,
+            "text": "림프구성 형질세포성 구내염은 구강 점막에 염증이 심하고 궤양이 지속되면서 발생하는 질환이야. 염증이 잇몸과 혀, 목구멍 주변까지 번지면서 목구멍에도 염증이 생기는 특징이 있어.",
+            "turn_id": "BK22018098-1",
+            "utterance_id": "BK22018098.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어쩐지 밥을 잘 못 먹는다고 했어. 그 구내염은 왜 생기는 거야?",
+            "turn_id": "BK22018098-2",
+            "utterance_id": "BK22018098.3"
+        },
+        {
+            "reference_date": "44656.0",
+            "reference_text": [
+                {
+                    "value": "림프구성 형질세포성 구내염은 아직 원인이 명확하게 밝혀지지 않았다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "주로 구강 내에 생기는 치태에 대한 면역반응으로 인해 발생한다고 추정하고 있다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=58837",
+            "search_query": "고양이 림프구성 형질세포성 구내염 원인",
+            "terminate": false,
+            "text": "림프구성 형질세포성 구내염은 정확한 원인이 아직 밝혀지진 않았어. 보통은 입안에 생기는 치태에 대한 면역반응때문에 나타난다고 추정하고 있어.",
+            "turn_id": "BK22018098-2",
+            "utterance_id": "BK22018098.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "림프구성 형질세포성 구내염에 걸리면 치료는 어떻게 해?",
+            "turn_id": "BK22018098-3",
+            "utterance_id": "BK22018098.5"
+        },
+        {
+            "reference_date": "44656.0",
+            "reference_text": [
+                {
+                    "value": "증상이 약하거나 발치가 어려운 상황이라면 약물치료를 진행하기도 하지만 일반적으로 발치를 통해 치료한다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=58837",
+            "search_query": "고양이 림프구성 형질세포성 구내염 치료",
+            "terminate": false,
+            "text": "보통은 이빨을 뽑아서 치료를 하는데, 증상이 약하게 나타나거나 발치가 어렵다면 약물로 치료하기도 해.",
+            "turn_id": "BK22018098-3",
+            "utterance_id": "BK22018098.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "헉, 고양이 이빨을 뽑아도 돼?",
+            "turn_id": "BK22018098-4",
+            "utterance_id": "BK22018098.7"
+        },
+        {
+            "reference_date": "44656.0",
+            "reference_text": [
+                {
+                    "value": "반려묘의 치아를 제거하는 것에 대해 상당히 우려를 표하는 보호자가 있는데 고양이는 치아가 없더라도 음식을 먹고 소화하는 데는 문제가 없다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "오히려 치아를 제거해야 치통이 사라져 고양이가 더 편안하게 음식을 먹을 수 있다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=58837",
+            "search_query": "고양이 림프구성 형질세포성 구내염 발치",
+            "terminate": false,
+            "text": "응, 보통 고양이 이빨을 뽑는 것에 대해 보호자들이 걱정을 많이 하는데, 고양이는 치아가 없어도 음식을 먹고 소화할 수 있어. 오히려 발치를 하면 치통이 사라져서 더 편하게 음식을 먹을 수 있지.",
+            "turn_id": "BK22018098-4",
+            "utterance_id": "BK22018098.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "미리 관리를 잘 해서 예방하는 게 중요하겠다. 고양이도 양치를 해야 하지?",
+            "turn_id": "BK22018098-5",
+            "utterance_id": "BK22018098.9"
+        },
+        {
+            "reference_date": "44846.0",
+            "reference_text": [
+                {
+                    "value": "고양이는 얼굴을 만지는 것에 굉장한 거부반응을 보이는 경우가 많기 때문에 칫솔질은 상당히 까다로운 작업이다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "치석이 가장 잘 생기는 위쪽 작은 어금니와 큰 어금니로 시작해서 아래쪽 작은 어금니에 칫솔질을 해야한다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.huffingtonpost.kr/news/articleView.html?idxno=202155",
+            "search_query": "고양이 칫솔질하기",
+            "terminate": false,
+            "text": "응, 해야 돼. 그런데 고양이는 얼굴을 만지는 걸 싫어하기 때문에 칫솔질하기가 어려울 수 있어. 그래도 치석이 가장 잘 생기는 위쪽 작은 어금니와 큰 어금니부터 시작해서 아래쪽 작은 어금니까지 칫솔질을 잘 해줘야 해.",
+            "turn_id": "BK22018098-5",
+            "utterance_id": "BK22018098.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "칫솔질은 일주일에 몇 번 하면 돼?",
+            "turn_id": "BK22018098-6",
+            "utterance_id": "BK22018098.11"
+        },
+        {
+            "reference_date": "44846.0",
+            "reference_text": [
+                {
+                    "value": "칫솔질의 권장 주기는 매일이지만, 너무 어렵다면 최소한 2~3일에 한번은 해주는 것이 좋다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.huffingtonpost.kr/news/articleView.html?idxno=202155",
+            "search_query": "고양이 칫솔질하기 권장 주기",
+            "terminate": false,
+            "text": "매일 하는 게 가장 좋지만, 너무 어렵다면 최소한 이틀에서 삼일에 한 번 정도는 해줘야 해.",
+            "turn_id": "BK22018098-6",
+            "utterance_id": "BK22018098.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이가 너무 싫어한다면 향이 있는 치약을 쓰는 건 어떨까?",
+            "turn_id": "BK22018098-7",
+            "utterance_id": "BK22018098.13"
+        },
+        {
+            "reference_date": "44846.0",
+            "reference_text": [
+                {
+                    "value": "고양이가 좋아하는 향이 첨가된 치약이다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "간식을 주듯이 짜서 조금씩 주면서 치약의 맛에 익숙하게 해준다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "처음부터 칫솔을 입에 넣기보다는 손가락에 치약을 묻혀 발라준다는 느낌으로 가볍게 터치한다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.huffingtonpost.kr/news/articleView.html?idxno=202155",
+            "search_query": "고양이 칫솔질하기 향 치약",
+            "terminate": false,
+            "text": "고양이가 좋아하는 향이 나는 치약을 쓰는 건 좋은 방법이야. 처음부터 칫솔을 입에 넣지 말고 손가락에 치약을 묻혀 발라주는 게 좋고, 간식을 주는 것처럼 짜서 조금씩 주면서 치약에 익숙하게 해주는 게 좋아.",
+            "turn_id": "BK22018098-7",
+            "utterance_id": "BK22018098.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "간식처럼 주면 거부감이 덜하겠다. 정기적으로 고양이 스케일링을 하는 것도 좋겠지?",
+            "turn_id": "BK22018098-8",
+            "utterance_id": "BK22018098.15"
+        },
+        {
+            "reference_date": "44846.0",
+            "reference_text": [
+                {
+                    "value": "결국 관리가 어려워 치석이 발생하는 경우가 많고, 때문에 정기적으로 스케일링 관리가 필요하다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 반려동물의 경우 스케일링은 마취 후 진행되기 때문에 너무 자주 하면 몸에 부담이 갈 수 있다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려묘의 치석이 많다고 느껴지면 꼭 동물병원을 방문해 수의사와 상담 후 결정하는 것이 좋다.",
+                    "value_time": "44846.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.huffingtonpost.kr/news/articleView.html?idxno=202155",
+            "search_query": "고양이 스케일링",
+            "terminate": false,
+            "text": "응, 고양이 이빨은 관리가 어려워서 치석이 많이 생겨. 그래서 정기적으로 스케일링을 받아서 관리해야 하는데, 스케일링은 마취를 하기 때문에 너무 자주 하지 않는 게 좋아. 반려묘의 치석이 많아서 스케일링을 해야 된다고 생각이 들면 수의사와 상담해서 결정해야 해.",
+            "turn_id": "BK22018098-8",
+            "utterance_id": "BK22018098.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 칫솔질을 싫어하더라도 미리 관리를 해야 구내염에 안 걸릴 거 같아.",
+            "turn_id": "BK22018098-9",
+            "utterance_id": "BK22018098.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 주기적으로 관리를 꼭 해주면 여러 가지 구강 질환을 예방할 수 있어.",
+            "turn_id": "BK22018098-9",
+            "utterance_id": "BK22018098.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 자세하게 설명해줘서 고마워. 참고해서 고양이 치아를 잘 관리해줘볼게.",
+            "turn_id": "BK22018098-10",
+            "utterance_id": "BK22018098.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 더 궁금한 게 있다면 언제든 연락해.",
+            "turn_id": "BK22018098-10",
+            "utterance_id": "BK22018098.20"
+        }
+    ]
+}

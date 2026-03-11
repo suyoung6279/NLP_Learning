@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015591",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015591",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "주변에서 이제 우리 아이도 유아식을 시작해야 한다고 하던데, 유아식은 언제쯤 시작해야 하고 유아식은 이유식과 뭐가 다른 거야?",
+            "turn_id": "BK22015591-1",
+            "utterance_id": "BK22015591.1"
+        },
+        {
+            "reference_date": "2020-12-03",
+            "reference_text": [
+                {
+                    "value": "완료기 이유식은 고기야채가 고루 섞인 진밥이었다면, 유아식은 밥과 반찬이 따로 제공되어 식사하는 형태로 보통 15개월 전후 씹는 기능이 향상되고 완성되는 시기부터 시도해 볼 수 있습니다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mdilbo.com/detail/o3nRSX/635383",
+            "search_query": "유아식 시기",
+            "terminate": false,
+            "text": "유아식은 씹는 기능이 향상되고 완성되는 15개월부터 시도해 볼 수 있어. 진밥에 고기와 채소를 섞어서 먹이던 것이 완료기 이유식이라면 유아식은 밥과 반찬을 따로 주는 식사의 형태를 갖춘 거라고 생각하면 돼.",
+            "turn_id": "BK22015591-1",
+            "utterance_id": "BK22015591.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유아식은 어른들이 먹는 것과 같은 형태의 식사가 되는 거구나. 그럼, 식사를 떠먹이지 않아도 되는 거야?",
+            "turn_id": "BK22015591-2",
+            "utterance_id": "BK22015591.3"
+        },
+        {
+            "reference_date": "2022-05-31",
+            "reference_text": [
+                {
+                    "value": "손놀림이 좀 더 자유로워진 생후 15~18개월 아이에게는 수저와 식기를 주어 혼자 식사를 해보도록 한다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아이가 음식을 묻히고 떨어뜨리는 게 싫어 엄마가 떠먹이는 것은 좋지 않은 행동이다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202205314792o",
+            "search_query": "유아식 식사연습",
+            "terminate": false,
+            "text": "15~18개월의 아기는 손놀림이 좀 더 자유로워지는 시기라서 혼자 먹는 훈련을 해보도록 해야 해. 음식을 묻히고 떨어뜨린다고 엄마가 떠먹이는 것은 좋지 않아.",
+            "turn_id": "BK22015591-2",
+            "utterance_id": "BK22015591.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혼자 먹을 수 있게 해야 하는 시기구나. 그럼, 식사 간격은 어느 정도가 좋아?",
+            "turn_id": "BK22015591-3",
+            "utterance_id": "BK22015591.5"
+        },
+        {
+            "reference_date": "2022-05-31",
+            "reference_text": [
+                {
+                    "value": "오전 8시에 아침 밥을 먹였다면 4~5시간이 지난 오후 12~1시에 점심을 먹여야 한다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "저녁도 4~5 시간 정도의 간격을 두고 먹이도록 한다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202205314792o",
+            "search_query": "유아기 식사 간격",
+            "terminate": false,
+            "text": "4~5시간 간격을 두는 것이 좋은데, 예를 들면 아침밥을 오전 8시에 먹었다면 점심은 오후 12~1시에 먹도록 하는 것이 좋아.",
+            "turn_id": "BK22015591-3",
+            "utterance_id": "BK22015591.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "4~5시간 간격으로 식사를 할 수 있게 해야겠구나. 그럼, 이때 음식은 어떻게 준비해 줘야 해?",
+            "turn_id": "BK22015591-4",
+            "utterance_id": "BK22015591.7"
+        },
+        {
+            "reference_date": "2020-04-16",
+            "reference_text": [
+                {
+                    "value": "이 시기엔 고형 식사를 통해 영양밀도를 높이는 게 좋다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1~3세는 한 끼에 밥 1/3공기, 단백질 반찬 1가지, 채소류 1~2가지로 구성해 하루 세끼를 먹인다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=84651",
+            "search_query": "유아기 식사 구성",
+            "terminate": false,
+            "text": "고형식으로 영양 밀도를 높여줘야 해. 1~3세에는 하루 세 끼니를 밥 3분의 1공기, 단백질 반찬 1가지, 채소 1~2가지로 먹을 수 있게 해줘야 해.",
+            "turn_id": "BK22015591-4",
+            "utterance_id": "BK22015591.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "균형 있는 식사를 마련해 줘야 하는구나. 근데, 아이가 음식을 돌아다니면서 먹으려고 하는데 어떻게 하면 될까?",
+            "turn_id": "BK22015591-5",
+            "utterance_id": "BK22015591.9"
+        },
+        {
+            "reference_date": "2020-12-03",
+            "reference_text": [
+                {
+                    "value": "호기심이 완성한 시기라 보고 싶고 하고 싶은 게 생기면 식사에 집중하지 못하고 돌아다니며 먹으려고 할 수 있습니다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "식사는 식탁에서 가족과 함께 할 수 있도록 분위기를 만들어 주시고 돌아다니거나, 위험한 행동을 해서는 안 된다는 것을 교육해야합니다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mdilbo.com/detail/o3nRSX/635383",
+            "search_query": "돌아다니면서 먹을 때",
+            "terminate": false,
+            "text": "호기심이 많을 나이라 보고 싶고 하고 싶은 것들 때문에 돌아다니면서 먹으려고 할 수 있어. 이때에는 가족과 식탁에서 같이 먹을 수 있는 분위기를 만들고 돌아다니거나 위험한 행동을 하면 안 된다는 것을 알려줘야 해.",
+            "turn_id": "BK22015591-5",
+            "utterance_id": "BK22015591.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "돌아다니면서 먹지 않게 교육을 시켜야겠구나. 그리고, 소금 섭취가 신경 쓰이는데 어떻게 하면 줄일 수 있을까?",
+            "turn_id": "BK22015591-6",
+            "utterance_id": "BK22015591.11"
+        },
+        {
+            "reference_date": "2015-04-05",
+            "reference_text": [
+                {
+                    "value": "어른과 마찬가지로 어린이도 소금을 지나치게 많이 섭취해서는 안 됩니다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "소금 섭취를 줄이려면 가공식품 (시리얼, 과자 등)의 영양표시사항 중 나트륨 함량을 살펴보고 나트륨을 많이 섭취하지 않도록 주의해야 합니다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000099704",
+            "search_query": "유아 소금섭취",
+            "terminate": false,
+            "text": "어른도 그렇지만 아이도 소금을 많이 먹으면 좋지 않아. 소금 섭취를 줄여주고 싶다면 가공식품의 나트륨 함량을 보고 섭취량을 조절해 줘야 해.",
+            "turn_id": "BK22015591-6",
+            "utterance_id": "BK22015591.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어, 가공식품을 덜 먹이도록 해야겠어. 그리고, 저지방 우유를 먹여도 돼?",
+            "turn_id": "BK22015591-7",
+            "utterance_id": "BK22015591.13"
+        },
+        {
+            "reference_date": "2015-04-05",
+            "reference_text": [
+                {
+                    "value": "그러나 탈지분유 또는 저지방 우유는 열량 및 비타민 A, D의 함량이 낮아서 5세 이하의 어린이들에게는 적당하지 않습니다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000099704",
+            "search_query": "유아 저지방 우유",
+            "terminate": false,
+            "text": "5세 미만의 어린이가 탈지분유나 저지방 우유를 먹는 것은 좋지 않아. 탈지분유나 저지방 우유는 열량과 비타민 A, D 함량이 낮거든.",
+            "turn_id": "BK22015591-7",
+            "utterance_id": "BK22015591.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저지방 우유가 아이한테 더 좋을 거라 생각했는데 아니구나. 그리고, 아이가 싫어하는 음식이 많은데 어떻게 하면 좋을까?",
+            "turn_id": "BK22015591-8",
+            "utterance_id": "BK22015591.15"
+        },
+        {
+            "reference_date": "2019-12-20",
+            "reference_text": [
+                {
+                    "value": "아이가 특정 음식을 싫어할 때 그것이 맛 자체 때문인지 아니면 냄새나 질감, 혹은 형태 때문인지 잘 살펴보자.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그에 맞춰 조리법을 바꾸면 예상 밖으로 잘 먹기도 한다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=80767",
+            "search_query": "편식할 때",
+            "terminate": false,
+            "text": "특정 음식을 아이가 싫어하면 맛 때문인지 아니면 냄새, 질감, 형태 때문인지 파악하는 것이 필요해. 이것을 파악한 후에 조리법을 바꾸면 잘 먹는 경우가 있어.",
+            "turn_id": "BK22015591-8",
+            "utterance_id": "BK22015591.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조리법을 다양하게 해서 먹도록 시도해 봐야겠구나. 유아식은 어떻게 해야 하나 궁금했는데 알려줘서 고마워.",
+            "turn_id": "BK22015591-9",
+            "utterance_id": "BK22015591.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고맙긴, 또 궁금한 건 언제든지 물어봐.",
+            "turn_id": "BK22015591-9",
+            "utterance_id": "BK22015591.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네가 있어서 너무 든든하다. 우리는 다음에 보자, 안녕.",
+            "turn_id": "BK22015591-10",
+            "utterance_id": "BK22015591.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 다음에 보자, 안녕.",
+            "turn_id": "BK22015591-10",
+            "utterance_id": "BK22015591.20"
+        }
+    ]
+}

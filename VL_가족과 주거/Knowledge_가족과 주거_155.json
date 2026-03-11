@@ -1,0 +1,332 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018273",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018273",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0017"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 첫 임신이고, 초기라 그런지 걱정이 많아요. 궁금한 점이 있는데 물어봐도 될까요?",
+            "turn_id": "BK22018273-1",
+            "utterance_id": "BK22018273.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "첫 임신이면 모르는 게 많으실 거예요. 궁금한 점이 있으면 무엇이든지 물어보세요.",
+            "turn_id": "BK22018273-1",
+            "utterance_id": "BK22018273.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 나이가 많아서 그런지 산부인과에서 고위험 산모라고 하더라고요. 보통 어떤 경우에 고위험 산모로 분류되나요?",
+            "turn_id": "BK22018273-2",
+            "utterance_id": "BK22018273.3"
+        },
+        {
+            "reference_date": "2022-06-22",
+            "reference_text": [
+                {
+                    "value": "고위험 산모에는 ▶임산부가 만 35세 이상인 경우 ▶임산부나 가족·친인척 가운데 유전적 질환이 있는 경우 ▶과거에 유산했거나 기형아를 임신·출산한 경험이 있는 여성 등 ▶기형아 1·2차 검사에서 고위험 판정을 받은 경우 ▶태아의 목 투명대 검사 결과 3㎜ 이상으로 측정된 경우 등은 고위험 산모로 분류됩니다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://jhealthmedia.joins.com/article/article_view.asp?pno=25519",
+            "search_query": "고위험산모",
+            "terminate": false,
+            "text": "고위험 산모에는 임산부가 만 35세가 넘은 경우, 임산부 또는 가족, 친인척 중에서 유전성을 가진 질환이 있는 경우, 이전에 유산했거나 기형아를 임신 및 출산한 적이 있는 경우, 기형아 1, 2차 검사에서 고위험 판별 결정이 나온 경우, 태아의 목 투명대를 측정하여 3밀리미터 이상으로 나온 경우 등이 포함돼요.",
+            "turn_id": "BK22018273-2",
+            "utterance_id": "BK22018273.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 만 35세 이상이라 그렇게 말씀하셨나 봐요. 기형아 검사를 언제쯤 받는 건가요?",
+            "turn_id": "BK22018273-3",
+            "utterance_id": "BK22018273.5"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "임신 16~18주 산모는 기형아검사를 할 수 있다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "초음파검사로 다운증후군, 에드워드증후군, 신경관결손 확인이 가능하다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mediahub.seoul.go.kr/archives/2005528",
+            "search_query": "기형아 검사",
+            "terminate": false,
+            "text": "산모가 임신 16주에서 18주가 되면 기형아검사를 받을 수 있어요. 초음파로 검사하는데, 다운증후군, 에드워드증후군, 신경관 결손 등을 판단할 수 있어요.",
+            "turn_id": "BK22018273-3",
+            "utterance_id": "BK22018273.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다음 달쯤이면 받아야겠네요. 기형아검사에서 고위험이 나오면 다른 검사를 더 받아야 하는 건가요?",
+            "turn_id": "BK22018273-4",
+            "utterance_id": "BK22018273.7"
+        },
+        {
+            "reference_date": "2017-12-18",
+            "reference_text": [
+                {
+                    "value": "이외에도 1, 2차 기형아 검사를 통해 나온 결과가 고위험군으로 나온 경우에 실시하게 되는 정밀검사에는 융모막검사, 양수검사, 니프티검사가 있다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/1OOWJAH3WZ",
+            "search_query": "기형아검사 고위험",
+            "terminate": false,
+            "text": "기형아 검사를 두 차례 시행하여 고위험군으로 판정되면 융모막 검사, 양수검사, 니프티검사 등의 정밀검사를 실시할 수 있어요.",
+            "turn_id": "BK22018273-4",
+            "utterance_id": "BK22018273.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정밀 검사를 받아야 하는군요. 먼저 융모막 검사에 대해 알려주세요.",
+            "turn_id": "BK22018273-5",
+            "utterance_id": "BK22018273.9"
+        },
+        {
+            "reference_date": "2020-05-20",
+            "reference_text": [
+                {
+                    "value": "임신 10주~13주 사이 시행하는 융모막 융모검사는 복부 또는 자궁경관을 통해 태반조직을 채취해 염색체를 분석하는 검사방법이다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.k-health.com/news/articleView.html?idxno=48503",
+            "search_query": "융모막 검사",
+            "terminate": false,
+            "text": "융모막 검사는 임신 10주에서 13주 중에 시행해요. 복부나 자궁경관으로 태반조직을 채취하여 염색체를 분석하는 방법이죠.",
+            "turn_id": "BK22018273-5",
+            "utterance_id": "BK22018273.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기형아 검사보다 융모막 검사를 받는 시기가 빠르네요. 그럼 양수검사는 어떻게 하는 건가요?",
+            "turn_id": "BK22018273-6",
+            "utterance_id": "BK22018273.11"
+        },
+        {
+            "reference_date": "2020-08-31",
+            "reference_text": [
+                {
+                    "value": "전 교수는 \"의사가 초음파를 보면서 긴 주삿바늘을 찔러 바늘 끝을 자궁 안으로 접근시켜 양막강(양막으로 둘러싼 태아가 자라는 공간) 안에 있는 양수를 채취해 양수 속 태아의 세포를 분리해 실시하는 유전자 검사\"라고 설명했는데요.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2020082109040005764",
+            "search_query": "양수검사 방법",
+            "terminate": false,
+            "text": "양수검사는 의사가 초음파를 통해 보면서 기다란 주삿바늘을 자궁 내부로 찔러 넣어 양막강 속에 있는 양수를 채취한 다음 양수 속에 포함된 태아의 세포를 분리해서 유전자를 분석하는 검사예요.",
+            "turn_id": "BK22018273-6",
+            "utterance_id": "BK22018273.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "바늘로 자궁 안을 찔러서 양수를 채취하는 거군요. 말로 들으면 무척 위험해 보이는데 어떤가요?",
+            "turn_id": "BK22018273-7",
+            "utterance_id": "BK22018273.13"
+        },
+        {
+            "reference_date": "2018-08-03",
+            "reference_text": [
+                {
+                    "value": "다만 양수검사 시 출혈, 염증, 조기진통, 양막조기파수 등의 위험성이 따르나 그 빈도는 0.8% 정도로 의학적으로 안전한 검사로 되어 있다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000420324",
+            "search_query": "양수검사 위험성",
+            "terminate": false,
+            "text": "양수검사는 조기 진통, 출혈, 염증, 양막 조기파수 등의 위험성이 있어요. 하지만 그 빈도는 약 0.8퍼센트이기 때문에 의학적으로 안전한 방법이에요.",
+            "turn_id": "BK22018273-7",
+            "utterance_id": "BK22018273.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "0.8퍼센트라고 하지만 임산부 입장에서는 조금 불안하긴 하네요. 니프티 검사에 대해서도 알려주세요.",
+            "turn_id": "BK22018273-8",
+            "utterance_id": "BK22018273.15"
+        },
+        {
+            "reference_date": "2021-10-14",
+            "reference_text": [
+                {
+                    "value": "비침습적 산전검사(Non-Invasive Prenatal Test, 이하 NIPT)는 산모 혈액에 존재하는 태아 유래 DNA를 분리하여 태아 염색체 이상과 관련된 질환을 조기에 선별하는 검사 방법이다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://sjbnews.com/news/news.php?number=725717",
+            "search_query": "니프티 검사",
+            "terminate": false,
+            "text": "니프티 검사는 산모 혈액 속에 있는 태아의 DNA를 분리하여 태아에게 염색체 이상과 연관된 질환이 없는지 미리 선별하는 검사 방법이에요.",
+            "turn_id": "BK22018273-8",
+            "utterance_id": "BK22018273.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "니프티 검사는 산모의 혈액으로 진단하는군요. 기형아 검사, 양수 검사, 니프티 검사의 비용을 알고 싶어요.",
+            "turn_id": "BK22018273-9",
+            "utterance_id": "BK22018273.17"
+        },
+        {
+            "reference_date": "2016-02-04",
+            "reference_text": [
+                {
+                    "value": "각 검사의 1회당평균 비용은 니프티 검사가 100만7천원으로 가장 많았다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "양수검사가 71만8천원, 기형아 검사(염색체)가 9만3천원, 조산예측 검사가 6만5천원, 초음파 검사가 5만원으로 각각 나타났다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/society/health/729306.html",
+            "search_query": "기형아검사 비용",
+            "terminate": false,
+            "text": "각 검사의 1회당 평균 비용은 기형아검사가 9만 3천 원, 양수검사가 71만 8천 원이고, 니프티 검사가 100만 7천 원으로 집계되어 가장 비싸요.",
+            "turn_id": "BK22018273-9",
+            "utterance_id": "BK22018273.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비용도 만만치 않네요. 기형아검사 결과가 좋아야 할 텐데 걱정이에요. 아무튼 오늘 말씀해주셔서 궁금증이 많이 풀렸어요.",
+            "turn_id": "BK22018273-10",
+            "utterance_id": "BK22018273.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도움이 되셨다니 다행이네요. 너무 걱정하지 마시고, 마음 편히 드세요. 더 궁금한 것이 있으면 언제든 연락해주시고요.",
+            "turn_id": "BK22018273-10",
+            "utterance_id": "BK22018273.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 많은 정보를 알려주셔서 감사합니다. 마음 편히 가지도록 노력할게요.",
+            "turn_id": "BK22018273-11",
+            "utterance_id": "BK22018273.21"
+        }
+    ]
+}

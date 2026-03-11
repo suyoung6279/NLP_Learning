@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015042",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015042",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "날이 추워도 강아지를 산책시켜야 한다고 하더라. 겨울에 강아지랑 산책을 하려면 어떤 점을 주의해야 해?",
+            "turn_id": "BK22015042-1",
+            "utterance_id": "BK22015042.1"
+        },
+        {
+            "reference_date": "2022-01-04",
+            "reference_text": [
+                {
+                    "value": "마사지를 통해 강아지의 다리 근육도 풀어줄 필요가 있다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "근육이 굳은 상태에서 갑자기 산책을 하면 통증이 느껴지고, 강아지 슬개골 탈구가 일어날 수 있기 때문이다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ikunkang.com/news/articleView.html?idxno=35126",
+            "search_query": "겨울철 강아지 산책 준비",
+            "terminate": false,
+            "text": "맞아, 날이 추워도 강아지를 산책시켜야 해. 강아지와 산책하기 전에 마사지를 해줘서 다리 근육을 풀어주는 것이 좋아. 근육이 굳은 상태에서 갑자기 산책하면 통증이 생기거나 슬개골 탈구의 원인이 되기도 하거든.",
+            "turn_id": "BK22015042-1",
+            "utterance_id": "BK22015042.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산책하러 나가기 전에 준비를 시켜줘야 하는구나. 근데, 어느 온도까지 산책하러 나가도 괜찮은 거야?",
+            "turn_id": "BK22015042-2",
+            "utterance_id": "BK22015042.3"
+        },
+        {
+            "reference_date": "2020-01-03",
+            "reference_text": [
+                {
+                    "value": "소형견과 중형견은 섭씨 -4도부터, 대형견은 섭씨 –9도부터 위험하니 주의해야 한다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그보다 낮은 온도에서 장시간 산책을 하면 생명에 위협을 줄 수 있다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2019121916442005820",
+            "search_query": "겨울철 강아지 산책 온도",
+            "terminate": false,
+            "text": "산책하러 나가면 위험한 온도는 소형견과 중형견은 섭씨 마이너스 4도, 대형견은 마이너스 9도부터야. 너희 강아지는 소형견이니까 마이너스 4도 아래로 내려가면 산책하지 않는 것이 좋아. 이 온도보다 낮을 때 산책을 길게 하면 강아지의 목숨에도 위협이 될 수 있거든.",
+            "turn_id": "BK22015042-2",
+            "utterance_id": "BK22015042.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "온도 기억해 두고 산책하러 나갈 때 온도 확인하고 나가야겠다. 그럼, 겨울에 강아지 산책 시간은 어느 정도가 적합해?",
+            "turn_id": "BK22015042-3",
+            "utterance_id": "BK22015042.5"
+        },
+        {
+            "reference_date": "2020-12-23",
+            "reference_text": [
+                {
+                    "value": "이렇다 보니 겨울철 산책 시간은 30분 내외로 하는 것이 좋다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "활동량이 많은 경우에도 한 시간 이내가 적당하다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://view.asiae.co.kr/article/2020122311190533359",
+            "search_query": "겨울철 강아지 산책 시간",
+            "terminate": false,
+            "text": "30분 내외가 겨울 산책 시간으로 적합해. 활동량이 많은 강아지라도 한 시간을 넘기지 않는 것이 좋아.",
+            "turn_id": "BK22015042-3",
+            "utterance_id": "BK22015042.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 강아지는 활동적인 편은 아니니 30분 이내가 좋겠다. 그럼, 나갈 때 옷을 입히는 것이 좋아?",
+            "turn_id": "BK22015042-4",
+            "utterance_id": "BK22015042.7"
+        },
+        {
+            "reference_date": "2022-01-21",
+            "reference_text": [
+                {
+                    "value": "실외로 나가기 전에 가장 먼저 해야 하는 것은 따뜻한 옷을 입히는 것이다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "강아지는 사람과 달리 온몸에 털로 덮여 있지만 이중모가 아닌 단모종 견종들은 겨울에 특히 추위를 많이 타고 견디지 못하므로 체온을 유지할 수 있도록 외출 전 옷을 입혀주어야 한다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2022012115593832770",
+            "search_query": "강아지 겨울철 산책 옷",
+            "terminate": false,
+            "text": "제일 먼저 할 일이 옷을 입히는 거야. 털이 온몸에 있지만 단모종인 경우 추위를 많이 타거든, 그래서, 외출하기 전에 옷을 입혀줘야 체온을 유지할 수 있어.",
+            "turn_id": "BK22015042-4",
+            "utterance_id": "BK22015042.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "겨울에 외출할 때는 옷을 꼭 입혀야겠구나. 그러면 산책할 때 제일 신경 써 주어야 할 부분은 뭐야?",
+            "turn_id": "BK22015042-5",
+            "utterance_id": "BK22015042.9"
+        },
+        {
+            "reference_date": "2020-12-14",
+            "reference_text": [
+                {
+                    "value": "강아지 산책 시 가장 중요한 건 발 관리다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 지면과 직접 접촉하는 발바닥은 털이 없기 때문에 쉽게 손상되고 건조해진다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "강아지 발바닥 건조가 심해지면 갈라짐, 습진으로 발전하므로 그전에 미리 예방을 위해 보습제를 발라주는 것이 추천된다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/1ZBOJ6JMV7",
+            "search_query": "강아지 겨울철 산책 발관리",
+            "terminate": false,
+            "text": "겨울철 산책할 때 제일 신경 쓸 부분은 발 관리야. 털이 없는 발바닥은 쉽게 손상되고 건조해져 갈라지거나 습진이 생길 수 있어서 미리 보습제를 발라서 예방하는 것이 좋아.",
+            "turn_id": "BK22015042-5",
+            "utterance_id": "BK22015042.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "발바닥 보습제를 하나 장만하는 것이 좋겠구나. 그리고, 눈 온 뒤 염화칼륨 때문에 조심하라고 하던데 어떻게 해야 해?",
+            "turn_id": "BK22015042-6",
+            "utterance_id": "BK22015042.11"
+        },
+        {
+            "reference_date": "2020-12-07",
+            "reference_text": [
+                {
+                    "value": "눈이 오는 경우, 염화칼슘을 뿌려 제설하는 도로가 많기 때문에 반려견이 이것을 밟았을 경우에 따갑다고 느낄 수 있으니 반려견의 발바닥이 다치지 않도록 신발을 신기거나 다른 길을 이용하는 것이 좋다",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.daejonilbo.com/news/articleView.html?idxno=1450225",
+            "search_query": "눈 왔을 때 강아지 산책 발관리",
+            "terminate": false,
+            "text": "내게 강아지 발바닥 보습제 여분이 있으니 하나 줄게. 그리고, 눈이 오면 제설을 위해 뿌리는 염화칼슘은 강아지 발바닥에 닿으면 따갑다고 느낄 수 있으니, 다른 길로 가거나 신발을 신기는 것이 도움이 될 거야.",
+            "turn_id": "BK22015042-6",
+            "utterance_id": "BK22015042.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "발바닥 보습제 준다니 고마워, 그리고, 염화칼슘을 밟지 않도록 조심해야겠구나. 그럼, 산책한 후에는 발 관리를 어떻게 해주면 돼?",
+            "turn_id": "BK22015042-7",
+            "utterance_id": "BK22015042.13"
+        },
+        {
+            "reference_date": "2021-01-15",
+            "reference_text": [
+                {
+                    "value": "산책 후에는 반려견의 발을 깨끗하게 닦아주고 털을 잘 말려줘야 한다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "발바닥에는 로션 등 보습제를 발라 건조하지 않게 해준다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4179989",
+            "search_query": "겨울철 강아지 산책 후 발관리",
+            "terminate": false,
+            "text": "산책한 후에는 발을 깨끗이 닦아주고 잘 말려 주어야 해. 발바닥이 건조하지 않도록 로션 같은 보습제를 발라주는 것도 필요해.",
+            "turn_id": "BK22015042-7",
+            "utterance_id": "BK22015042.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "겨울에는 발바닥의 보습을 신경 써줘야겠구나. 근데, 혹시 추운곳에 오래 있으면 강아지들에게 어떤 점이 문제가 되는 거야?",
+            "turn_id": "BK22015042-8",
+            "utterance_id": "BK22015042.15"
+        },
+        {
+            "reference_date": "2021-01-12",
+            "reference_text": [
+                {
+                    "value": "강아지는 털이 있어도 추운 겨울 밖에 오래 있으면 동상에 걸린다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "주로 털이 적거나 없는 귀 끝, 꼬리 끝, 발 등 신체 말단부에 나타난다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=51888",
+            "search_query": "겨울철 강아지 동상 주의",
+            "terminate": false,
+            "text": "강아지들은 털이 있지만 추운 겨울 밖에 오래 있으면 귀 끝이나 꼬리 끝, 발 같은 신체 말단 부분에 동상이 걸릴 수 있어.",
+            "turn_id": "BK22015042-8",
+            "utterance_id": "BK22015042.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "털이 있어서 괜찮을 줄 알았는데 강아지도 동상에 걸리는구나. 겨울 산책을 조심해서 하는 것이 좋겠네.",
+            "turn_id": "BK22015042-9",
+            "utterance_id": "BK22015042.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 겨울에도 잘 관리하면서 산책시키는 것이 중요하지.",
+            "turn_id": "BK22015042-9",
+            "utterance_id": "BK22015042.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "추워서 어떻게 강아지와 산책하면 좋을지 고민이 많았는데 자세히 알려줘서 고마워.",
+            "turn_id": "BK22015042-10",
+            "utterance_id": "BK22015042.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "고맙긴, 우리는 다음에 또 보자, 안녕.",
+            "turn_id": "BK22015042-10",
+            "utterance_id": "BK22015042.20"
+        }
+    ]
+}

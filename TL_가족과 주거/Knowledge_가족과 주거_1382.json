@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009142",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009142",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0017"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "곧 있으면 추석이라서 우리 집에 친척들이 다 모이게 돼. 오랜만에 볼 생각하니까 반가운 거 있지?",
+            "turn_id": "BK22009142-1",
+            "utterance_id": "BK22009142.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엄청 기대하고 있는 거 같네. 즐거운 시간이 되었으면 좋겠는걸.",
+            "turn_id": "BK22009142-1",
+            "utterance_id": "BK22009142.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리가 친척들이랑 엄청 친하거든. 그런데 추석을 한가위라고도 하잖아. 한가위는 어디서 온 말이야?",
+            "turn_id": "BK22009142-2",
+            "utterance_id": "BK22009142.3"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "또 추석을 우리 고유의 표현으로는 '한가위'라고도 부르는데 '한가위'의 어원은 먼저 '가위'는 음력 8월 또는 가을 한가운데를 의미하며 '한'은 어떤 낱말 앞에 붙어서 크다는 뜻을 더해 주는 우리의 고유의 말이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그래서 한가위는 음력 8월 또는 가을의 한가운데에 있는 큰 날이라고 의미를 풀이할 수 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jemin.com/news/articleView.html?idxno=742917",
+            "search_query": "추석 한가위 어원",
+            "terminate": false,
+            "text": "한가위는 음력 8월이나 가을의 한가운데에 있는 큰 날이라는 의미를 가지고 있는데, 가위가 음력 8월 또는 가을 한가운데를 뜻하고 한은 어떤 단어 앞에 붙여서 크다는 뜻이 있는 우리 고유의 말이야. 그래서 추석을 우리 고유의 표현으로 한가위라고 하는 거지.",
+            "turn_id": "BK22009142-2",
+            "utterance_id": "BK22009142.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 뜻이 있었구나. 예쁜 단어인데 이제야 알겠네. 추석이라는 건 언제부터 내려오던 문화야?",
+            "turn_id": "BK22009142-3",
+            "utterance_id": "BK22009142.5"
+        },
+        {
+            "reference_date": "2022-09-12",
+            "reference_text": [
+                {
+                    "value": "삼국사기에 따르면 기원전 1세기 신라 3대 왕인 유리왕 때 두 공주를 주축으로 파벌을 나눠 음력 7월 15일부터 한 달 후인 음력 8월 15일까지 길쌈(실을 뽑는 일)내기를 했다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여기서 성적이 더 좋은 쪽을 이긴 것으로 판정하고 진 편이 이긴 편에게 술과 음식을 대접하고 춤과 노래를 즐긴 ‘가배’라는 행사를 진행했다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "가배는 고려와 조선까지 이어져 왔고 현대에 와서 1949년 추석 당일, 1986년 추석 다음날, 1989년 추석 전날이 휴일로 지정된 후 2013년 시행된 대체공휴일 제도의 적용을 받게되며 지금과 같은 모습을 갖추게 됐다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.m-economynews.com/news/article.html?no=34975",
+            "search_query": "추석의 유래",
+            "terminate": false,
+            "text": "삼국사기에 따르면 기원전 1세기에 가배라는 행사가 내려온 건데, 가배는 신라 3대 왕인 유리왕 때 두 공주를 주축으로 파벌을 나눠서 음력 7월 15일부터 음력 8월 15일까지 한 달간 길쌈이라는 실을 뽑는 내기를 했어. 여기서 더 좋은 성적을 낸 쪽이 이긴 것으로 판정 짓고, 진 쪽에서 이긴 쪽에게 술이랑 음식을 대접하고 춤과 노래를 즐긴 행사를 말해. 이런 가배가 고려시대와 조선시대까지 이어져 와서 지금과 같은 모습을 갖추게 된 거야.",
+            "turn_id": "BK22009142-3",
+            "utterance_id": "BK22009142.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엄청 오래 전부터 내려오던 거구나. 그 시대부터 내려온거면 북한도 우리처럼 추석이라는 명절을 보내고 있는 거야?",
+            "turn_id": "BK22009142-4",
+            "utterance_id": "BK22009142.7"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "북한은 남측과 달리 추석 당일 하루만 공휴일로 보낸다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "송편과 부침개 등 차례 음식을 준비해 조상의 묘소를 찾아가 제사를 지내는 것이 북한의 일반적인 추석 풍경이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.munhwa.com/news/view.html?no=2022090901039910181001",
+            "search_query": "북한 추석 공휴일",
+            "terminate": false,
+            "text": "맞아, 송편이랑 부침개같이 차례 음식을 준비해서 조상의 묘를 찾아가서 제사를 지내는 게 북한의 일반적인 추석 풍경이야. 대신 우리처럼 며칠을 쉬지는 않고, 추석 당일 하루만 공휴일이야.",
+            "turn_id": "BK22009142-4",
+            "utterance_id": "BK22009142.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "쉬는 날짜는 조금 차이가 있구나. 맛있는 거 많이 먹을 수 있을 텐데, 빨리 추석이 왔으면 좋겠다. 원래 추석에 먹는 전통 음식들은 뭐가 있어?",
+            "turn_id": "BK22009142-5",
+            "utterance_id": "BK22009142.9"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "추석에는 한복을 입고 햅쌀로 빚은 송편과 여러 가지 햇과일·토란국 등 음식들을 장만하여 추수를 감사하는 차례를 지낸다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B6%94%EC%84%9D",
+            "search_query": "추석",
+            "terminate": false,
+            "text": "추석엔 한복을 입고서 햅쌀로 빚는 송편이랑 여러 가지 햇과일들과 토란국 등을 먹는데, 음식들을 장만해서 추수를 감사하는 차례를 지내는 거야.",
+            "turn_id": "BK22009142-5",
+            "utterance_id": "BK22009142.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 우리 집도 차례 지내는 거 때문에 친척들이 다 모이는 거거든. 그런데 차례랑 제사는 다른 거야? 우리 엄마는 제사 지낸다고 말씀하시거든.",
+            "turn_id": "BK22009142-6",
+            "utterance_id": "BK22009142.11"
+        },
+        {
+            "reference_date": "2016-02-18",
+            "reference_text": [
+                {
+                    "value": "한국민족문화대백과에 따르면 명절에 지내는 제사를 차례라고 하며 ‘음력 매달 초하룻날과 보름날, 명절날, 조상 생일 등에 간단히 지내는 제사를 차례라고 한다.’",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "물론 차례도 제사에 포함되는 개념이므로 설날이나 추석에도 제사라고 불러도 무방하다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.breaknews.com/sub_read.html?uid=429689&section=sc11",
+            "search_query": "차례와 제사의 차이점",
+            "terminate": false,
+            "text": "차례도 제사에 포함되는 개념이라서 제사라고 불러도 괜찮아. 한국민족문화대백과에 따르면 명절에 지내는 제사를 차례라고 한다고 되어 있어. 보름날이나 명절날 등에 간단히 지내는 제사를 차례라고 해.",
+            "turn_id": "BK22009142-6",
+            "utterance_id": "BK22009142.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "간단히 지내는 걸 차례라고 하는 거구나. 추석에 하던 옛날 놀이들도 많지? 전통적인 놀이들은 뭐가 있었어?",
+            "turn_id": "BK22009142-7",
+            "utterance_id": "BK22009142.13"
+        },
+        {
+            "reference_date": "2022-09-04",
+            "reference_text": [
+                {
+                    "value": "과거 추석하면 강강술래, 소싸움, 윷놀이 등 다같이 모여 한 해의 풍요를 기원하며 즐거운 놀이를 했다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kyeonggi.com/article/20220904580172",
+            "search_query": "추석에 하는 전통 놀이",
+            "terminate": false,
+            "text": "강강술래, 소싸움, 윷놀이 같은 놀이들이 있지. 과거에 추석이라고 하면 다같이 모여서 한 해의 풍요를 바라면서 이런 재미있는 놀이를 했어.",
+            "turn_id": "BK22009142-7",
+            "utterance_id": "BK22009142.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 맞아. 어릴 때 강강술래한다고 빙글빙글 도는 거 재미있었는데. 그런데 강강술래는 무슨 의미의 놀이인 거야?",
+            "turn_id": "BK22009142-8",
+            "utterance_id": "BK22009142.15"
+        },
+        {
+            "reference_date": "2022-09-08",
+            "reference_text": [
+                {
+                    "value": "특히 추석에는 동네 아이들이 달빛이 가득한 마당에 모여 둥글게 둘러서서 강강술래 춤을 추는데, 풍농을 기원하는 의미를 갖고 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "강강술래는 달을 상징하며 농경사회에서 보름달은 풍요를 상징하며 이는 여성과 관련이 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여성은 생산의 주체이므로 여성 자체가 풍요를 상징하는 존재이며, 둥근 달은 만삭의 여성으로 비유된다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kgnews.co.kr/news/article.html?no=717060",
+            "search_query": "강강술래 뜻",
+            "terminate": false,
+            "text": "강강술래는 달을 상징하는데, 농경사회에서 보름달은 풍요를 상징하거든. 이건 여성이랑 관련이 있어. 여성이 생산의 주체여서 여성 자체가 풍요를 상징하는 존재이고, 둥근 달은 만삭의 여성으로 비유돼. 그래서 추석이면 풍농을 기원하는 의미로 동네 아이들이 달빛이 가득한 마당에 모여서 둥글게 둘러서서 강강술래 춤을 추는 거야.",
+            "turn_id": "BK22009142-8",
+            "utterance_id": "BK22009142.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "왜 그렇게 둥그렇게 모여서 도는 건가 했는데 그런 뜻이 있었던 거구나. 또 궁금한 게 있는데, 추석이 한자어잖아. 어떤 한자 쓰더라?",
+            "turn_id": "BK22009142-9",
+            "utterance_id": "BK22009142.17"
+        },
+        {
+            "reference_date": "2021-09-23",
+            "reference_text": [
+                {
+                    "value": "한자인 추석은 가을 추(秋), 저녁 석(夕)으로 한자 그대로 가을의 저녁으로 해석 할 수 있는데, 8월 정중앙의 가을의 저녁하면 절로 보름달이 떠오른다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.gndomin.com/news/articleView.html?idxno=291321",
+            "search_query": "한자인 추석",
+            "terminate": false,
+            "text": "추석은 가을 추와 저녁 석을 사용해서 가을 저녁이라고 해석할 수 있어.",
+            "turn_id": "BK22009142-9",
+            "utterance_id": "BK22009142.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 많이 알려줘서 너무 고마워. 나 이제 과제 해야 하는데, 빨리 과제부터 마치고 와서 다시 얘기하자.",
+            "turn_id": "BK22009142-10",
+            "utterance_id": "BK22009142.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 나도 너무 즐거운 시간이었어. 잘 끝내고 와서 얘기하자.",
+            "turn_id": "BK22009142-10",
+            "utterance_id": "BK22009142.20"
+        }
+    ]
+}

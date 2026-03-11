@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006478",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006478",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사촌동생이 친구 강아지가 낳은 강아지를 몇 개월 전부터 키우는 중인데요. 이번에 처음 보러 갔는데 생리를 하더라구요.",
+            "turn_id": "BK22006478-1",
+            "utterance_id": "BK22006478.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아직 중성화 수술을 하지 않았나봐요.",
+            "turn_id": "BK22006478-1",
+            "utterance_id": "BK22006478.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 이때까지 강아지를 무서워했어서 동물에 대해 잘 몰라요. 중성화 수술이 뭐죠?",
+            "turn_id": "BK22006478-2",
+            "utterance_id": "BK22006478.3"
+        },
+        {
+            "reference_date": "2022-06-25",
+            "reference_text": [
+                {
+                    "value": "중성화 수술이란 동물의 생식 기능을 없애고 호르몬 분비를 막는 수술입니다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "수컷은 고환을 제거하고 암컷은 자궁과 난소를 제거합니다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "임신과 출산을 막는 것이죠.",
+                    "value_time": "2022-08-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202206241710274482",
+            "search_query": "동물 중성화 수술",
+            "terminate": false,
+            "text": "중성화 수술은 동물의 임신과 출산을 할 수 없게 생식 기능을 제거하고 호르몬 분비를 막는 수술이에요. 이 수술을 통해 수컷은 고환을 암컷은 자궁과 난소를 제거해요.",
+            "turn_id": "BK22006478-2",
+            "utterance_id": "BK22006478.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 중성화 수술을 하면 호르몬 분비까지 막는 거네요. 동물들이 중성화 수술을 하면 장점이 있나요?",
+            "turn_id": "BK22006478-3",
+            "utterance_id": "BK22006478.5"
+        },
+        {
+            "reference_date": "2022-06-25",
+            "reference_text": [
+                {
+                    "value": "중성화 수술은 각종 질병이나 문제 행동을 예방하기 위한 수술이기도 하지만, 동물이 무분별하게 번식하는 것을 방지할 수 있습니다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "버려지는 유기 동물의 수를 관리하는 데에도 도움이 됩니다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202206241710274482",
+            "search_query": "동물 중성화 수술 장점",
+            "terminate": false,
+            "text": "중성화 수술을 하면 동물이 각종 질병에 안 걸릴 수도 있고 문제 행동을 예방할 수 있어요. 동물이 무차별적으로 번식하는 것을 막아서 유기견의 수를 관리할 수도 있죠.",
+            "turn_id": "BK22006478-3",
+            "utterance_id": "BK22006478.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 유기 동물의 수를 관리하는 데도 좋겠네요. 사촌동생 강아지가 암컷인데 만약에 중성화를 하지 않으면 사람과 동일하게 호르몬 변화에 따라 기분과 행동이 달라지나요?",
+            "turn_id": "BK22006478-4",
+            "utterance_id": "BK22006478.7"
+        },
+        {
+            "reference_date": "2022-06-25",
+            "reference_text": [
+                {
+                    "value": "암컷 개는 배란기가 다가오면 여러 장소에 소변을 보거나, 컨디션 저하 또는 우울에 시달립니다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202206241710274482",
+            "search_query": "암컷 개가 중성화를 하지 않으면",
+            "terminate": false,
+            "text": "특히 암컷 개는 배란기 직전에 우울감을 느끼거나 컨디션 저하를 느껴요. 이곳 저곳에 소변을 보기도 해요.",
+            "turn_id": "BK22006478-4",
+            "utterance_id": "BK22006478.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이런 걸 감수해서라도 수술이다 보니 꺼려서 하지 않으면 어떤 질병에 쉽게 걸릴 수 있나요?",
+            "turn_id": "BK22006478-5",
+            "utterance_id": "BK22006478.9"
+        },
+        {
+            "reference_date": "2022-08-19",
+            "reference_text": [
+                {
+                    "value": "하지만 여전히 어릴 적 중성화를 하지 않아 발생한 생식기질환으로 동물병원을 찾는 반려동물을 종종 마주할 때가 있다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대표적인 질환이 자궁축농증이다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "자궁축농증은 세균감염이 발생해 자궁 내에 농이 차는 질환이다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60725",
+            "search_query": "자궁충농증",
+            "terminate": false,
+            "text": "중성화를 하지 않으면 생식기질환 중 하나인 자궁축농증에 걸리기 쉬워요. 이 질환은 세균감염이 발생해서 자궁 내에 농이 차는 증상을 보여요.",
+            "turn_id": "BK22006478-5",
+            "utterance_id": "BK22006478.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자궁 내에 농이 차도 치료가 어렵겠네요. 자궁축농증이 생기는 이유는 뭐죠?",
+            "turn_id": "BK22006478-6",
+            "utterance_id": "BK22006478.11"
+        },
+        {
+            "reference_date": "2022-08-19",
+            "reference_text": [
+                {
+                    "value": "자궁내벽은 발정기를 지날 때마다 호르몬분비의 영향으로 과증식되거나 낭성구조가 형성된다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이러한 구조적 변화가 계속되면 세균이 증식하기 좋은 환경이 된다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60725",
+            "search_query": "자궁축농증이 생기는 이유",
+            "terminate": false,
+            "text": "발정기를 거칠 때마다 자궁내벽은 호르몬 분비로 인해 과증식되거나 낭성구조가 만들어지거든요. 이런 구조적 변화가 지속적으로 이루어지면 세균이 쉽게 증식할 수 있는 환경이 돼버려요.",
+            "turn_id": "BK22006478-6",
+            "utterance_id": "BK22006478.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이구, 반복되면 자궁축농증에 걸리기 쉬우니 새끼를 안 낳을거면 중성화 수술을 해주는 게 좋겠네요. 어린 시기에 수술하는 걸 놓쳐서 중성화 수술이 늦어지면 어떤 증상에 노출되기 쉽나요?",
+            "turn_id": "BK22006478-7",
+            "utterance_id": "BK22006478.13"
+        },
+        {
+            "reference_date": "2022-06-25",
+            "reference_text": [
+                {
+                    "value": "중성화 수술이 늦어지면 유선 종양(유방암) 발생 위험도 증가합니다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "미국수의외과전문의 협회(ACVS)에서는 첫 발정기 이전에 수술을 해야 유선 종양을 높은 확률로 예방할 수 있다고 발표했습니다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202206241710274482",
+            "search_query": "암컷 중성화 수술이 늦어지면",
+            "terminate": false,
+            "text": "중성화 수술이 늦어질수록 유선 종양에 걸릴 위험도 높아져요. 미국수의외과전문의 협회의 발표에 따르면 유선 종양을 높은 확률로 예방하기 위해서는 첫 발정기 이전에 수술을 하는 게 제일 적기에요.",
+            "turn_id": "BK22006478-7",
+            "utterance_id": "BK22006478.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "첫 발정기 이전에 하는 게 좋군요. 그런데 이게 확 와닿지 않는데 보통 몇 개월일 때를 의미해요?",
+            "turn_id": "BK22006478-8",
+            "utterance_id": "BK22006478.15"
+        },
+        {
+            "reference_date": "2022-07-31",
+            "reference_text": [
+                {
+                    "value": "특히 유선종양은 첫 생리 이전에 중성화수술을 하면 99%가 예방되나 3번째 생리 이후에는 74%로 급격히 예방효과가 떨어지기 때문에 6~7개월령 사이가 암컷 중성화수술의 적기로 판단한다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=60458",
+            "search_query": "유선종양",
+            "terminate": false,
+            "text": "6개월에서 7개월 정도가 암컷의 중성화 수술이 좋은 시기에요. 첫 생리 이전에 중성화수술을 하면 유선종양이 99퍼센트나 예방이 되지만 3 번째 생리 후에 중성화 수술을 하면 74퍼센트로 예방효과가 확 떨어지기 때문이죠.",
+            "turn_id": "BK22006478-8",
+            "utterance_id": "BK22006478.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사촌동생 강아지가 태어나서 6개월쯤 됐거든요. 혹시 이 시기에 수술을 하면 단점도 있을까요?",
+            "turn_id": "BK22006478-9",
+            "utterance_id": "BK22006478.17"
+        },
+        {
+            "reference_date": "2022-06-25",
+            "reference_text": [
+                {
+                    "value": "반면 어렸을 때 중성화 수술을 하면 뼈와 근육에 좋지 않은 영향을 미쳐 비만이 될 확률이 높아질 수 있다는 의견도 있습니다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202206241710274482",
+            "search_query": "동물 중성화 수술 단점",
+            "terminate": false,
+            "text": "어릴 때 중성화 수술을 하면 뼈와 근육에 안 좋은 영향을 미쳐서 비만이 될 확률도 높아요.",
+            "turn_id": "BK22006478-9",
+            "utterance_id": "BK22006478.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "장단점이 있지만 장점이 많기 때문에 시기를 놓치지 않고 해주는 게 좋을 것 같네요. 오늘 해주신 얘기 덕분에 사촌동생한테 잘 알려줄 수 있겠어요.",
+            "turn_id": "BK22006478-10",
+            "utterance_id": "BK22006478.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저도 도움이 됐다니 뿌듯하네요. 저는 외근이 있어서 이만 가 볼게요.",
+            "turn_id": "BK22006478-10",
+            "utterance_id": "BK22006478.20"
+        }
+    ]
+}

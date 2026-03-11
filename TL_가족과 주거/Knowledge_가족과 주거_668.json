@@ -1,0 +1,321 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22000159",
+        "name": "2022 한국어 블렌더봇 데이터 BK22000159",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_insvoter3"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0036"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "월경이 멈춰서 임신인지 아닌지 긴가민가한데, 임신 초기 증상이 어떻게 되는지 아시나요?",
+            "turn_id": "BK22000159-1",
+            "utterance_id": "BK22000159.1"
+        },
+        {
+            "reference_date": "2022-04-07",
+            "reference_text": [
+                {
+                    "value": "흔히 알려져 있는 임신 초기 증상으로는 생리를 하지 않는 것과 가슴이 부풀고 커지는 것, 소변이 자주 마려운 것, 질 분비물이 많아지는 것 등이 있다.",
+                    "value_time": "2022-06-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mdtoday.co.kr/news/view/1065597701230968",
+            "search_query": "임신 초기증상",
+            "terminate": false,
+            "text": "네, 생리가 중단되고 소변이 자주 마렵거나 가슴이 부풀고 커지는 현상 등을 임신 초기 증상으로 볼 수 있어요.",
+            "turn_id": "BK22000159-1",
+            "utterance_id": "BK22000159.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 반대로 임신이 아니어도 월경이 없는 경우도 있나요?",
+            "turn_id": "BK22000159-2",
+            "utterance_id": "BK22000159.3"
+        },
+        {
+            "reference_date": "2021-06-28",
+            "reference_text": [
+                {
+                    "value": "이차성 무월경은 초경 이후 임신이나 자연적 폐경이 아님에도 월경을 하지 않는 것이다.",
+                    "value_time": "2022-06-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ggilbo.com/news/articleView.html?idxno=855336",
+            "search_query": "무월경",
+            "terminate": false,
+            "text": "그럼요, 초경 이후 폐경이나 임신이 아님에도 불구하고 월경을 하지 않는 경우를 가리켜 이차성 무월경이라고 불러요.",
+            "turn_id": "BK22000159-2",
+            "utterance_id": "BK22000159.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아예 그런 현상을 부르는 용어가 있었다니, 생각도 못 했네요. 이차성 무월경을 유발하는 원인은 무엇인가요?",
+            "turn_id": "BK22000159-3",
+            "utterance_id": "BK22000159.5"
+        },
+        {
+            "reference_date": "2021-06-27",
+            "reference_text": [
+                {
+                    "value": "◇원인=이차성 무월경의 대표적인 원인으로 과도한 스트레스, 급격한 체중 변화, 식이장애, 수면장애, 극심한 신체활동 등이 있다.",
+                    "value_time": "2022-06-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이러한 호르몬 조절 축이 흔들려 월경을 건너뛰는 일은 누구나 경험할 수 있고 실제로 이차성 무월경 중 약 30%가 이러한 원인들에 의한 것으로 추정된다.",
+                    "value_time": "2022-06-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.daejonilbo.com/news/articleView.html?idxno=1477468",
+            "search_query": "이차성 무월경의 원인",
+            "terminate": false,
+            "text": "약 30퍼센트의 이차성 무월경은 과도한 스트레스와 급격한 체중 변화 혹은 수면장애로 인해 생길 수 있어요. 호르몬의 조절 축이 불안정해지면 누구나 겪을 수 있는 일이죠.",
+            "turn_id": "BK22000159-3",
+            "utterance_id": "BK22000159.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그래서 다이어트를 할 때 가끔씩 월경을 건너뛰었던 거군요.",
+            "turn_id": "BK22000159-4",
+            "utterance_id": "BK22000159.7"
+        },
+        {
+            "reference_date": "2015-04-16",
+            "reference_text": [
+                {
+                    "value": "과도한 다이어트로 인한 무월경의 경우 정상적으로 체중이 돌아오면 다시 생리를 시작하게 될 가능성이 높다.",
+                    "value_time": "2022-06-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20150416115605326",
+            "search_query": "다이어트 무월경",
+            "terminate": false,
+            "text": "네, 충분히 그럴 수 있어요. 과도한 다이어트로 인해 발생한 무월경의 경우에는 나중에 체중이 정상적으로 돌아오면서 다시 생리가 시작될 가능성이 높지요.",
+            "turn_id": "BK22000159-4",
+            "utterance_id": "BK22000159.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 저의 경우에는 현재 가슴 통증이 있는걸로 보아 확실하진 않지만 아무래도 임신 같은데, 임신 초기에 주의해야 할 점을 알려주실 수 있나요?",
+            "turn_id": "BK22000159-5",
+            "utterance_id": "BK22000159.9"
+        },
+        {
+            "reference_date": "2019-06-03",
+            "reference_text": [
+                {
+                    "value": "임신 초기, 특히 임신 8주 이전까지는 수정란이 자궁에 착상한 지 얼마 되지 않고 태반이 완성되지 않아 태아 상태가 불안정하기 때문에 주의를 기울여야 한다.",
+                    "value_time": "2022-06-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "격렬한 동작이나 지나친 흥분은 자궁 수축과 출혈을 일으켜 유산을 일으킬 수 있으므로 피하는 것이 좋다.",
+                    "value_time": "2022-06-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jemin.com/news/articleView.html?idxno=598251",
+            "search_query": "임신 초기 주의사항",
+            "terminate": false,
+            "text": "우선 임신 너무 축하드려요! 자, 임신 8주 이전까지는 수정란이 착상한 지 얼마 되지 않았고, 태반이 완성되지 않아 불안정한 상태이기 때문에 자궁 수축 및 유산을 일으킬 수 있는 격렬한 동작이나 지나친 흥분을 피하셔야 합니다.",
+            "turn_id": "BK22000159-5",
+            "utterance_id": "BK22000159.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 각별히 유의해야겠네요, 감사합니다. 음식도 아무거나 먹으면 안 되겠죠?",
+            "turn_id": "BK22000159-6",
+            "utterance_id": "BK22000159.11"
+        },
+        {
+            "reference_date": "2022-06-10",
+            "reference_text": [
+                {
+                    "value": "초기 임신부는 단백질과 비타민 등은 꼭 먹고, 지방은 적게 먹어 필요 이상으로 열량을 많이 섭취하지 않는 것이 좋다.",
+                    "value_time": "2022-06-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202206102837o",
+            "search_query": "임신 음식",
+            "terminate": false,
+            "text": "우선 초기에는 비타민과 단백질을 꼭 챙겨먹고, 필요 이상으로 열량을 섭취하지 않도록 지방을 줄이는 것이 중요해요.",
+            "turn_id": "BK22000159-6",
+            "utterance_id": "BK22000159.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비타민과 단백질은 언제나 중요하군요. 참, 임신 중에 역시 커피는 마시면 안 되겠죠?",
+            "turn_id": "BK22000159-7",
+            "utterance_id": "BK22000159.13"
+        },
+        {
+            "reference_date": "2020-08-27",
+            "reference_text": [
+                {
+                    "value": "그런데 최근 임산부가 카페인을 섭취하면 유산·사산을 겪을 위험이 커져 아예 카페인을 섭취하지 않는 게 좋다는 연구 결과가 나왔다.",
+                    "value_time": "2022-06-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2020/08/26/2020082602213.html",
+            "search_query": "임신 커피",
+            "terminate": false,
+            "text": "음, 아쉬우시겠지만 최근 카페인을 섭취할 경우에 유산 또는 사산을 겪을 위험이 커져 카페인 섭취를 아예 제한하는게 좋다는 연구 결과가 나왔어요.",
+            "turn_id": "BK22000159-7",
+            "utterance_id": "BK22000159.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 그렇게나 위험하다니 커피는 꼭 디카페인으로 마셔야겠네요.",
+            "turn_id": "BK22000159-8",
+            "utterance_id": "BK22000159.15"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 힘드시겠지만 조심해서 나쁠 건 없죠.",
+            "turn_id": "BK22000159-8",
+            "utterance_id": "BK22000159.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이것저것 알려주셔서 너무 감사해요. 일단 임신이 확실한지 테스트를 해보고 싶은데, 임신테스트기는 어디서 구할 수 있나요?",
+            "turn_id": "BK22000159-9",
+            "utterance_id": "BK22000159.17"
+        },
+        {
+            "reference_date": "2019-11-07",
+            "reference_text": [
+                {
+                    "value": "임신테스트기 파는 곳은 약국, 편의점 등으로 편의점 임신테스트기 가격은 5000~7000원 정도다.",
+                    "value_time": "2022-06-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=724054",
+            "search_query": "임신테스트기 파는곳",
+            "terminate": false,
+            "text": "임신테스트기는 5000원에서 7000원 정도의 가격으로 약국이나 편의점에서 구입할 수 있어요.",
+            "turn_id": "BK22000159-9",
+            "utterance_id": "BK22000159.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 바로 사서 검사해보고 병원에 가봐야겠어요. 나중에 연락 드릴게요, 조심히 들어가세요.",
+            "turn_id": "BK22000159-10",
+            "utterance_id": "BK22000159.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 연락 기다리고 있겠습니다. 좋은 결과 얻으시길 바랄게요.",
+            "turn_id": "BK22000159-10",
+            "utterance_id": "BK22000159.20"
+        }
+    ]
+}

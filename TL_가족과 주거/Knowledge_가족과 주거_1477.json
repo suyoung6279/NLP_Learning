@@ -1,0 +1,403 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.6,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011473",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011473",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0027"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너 혹시 우리나라에서 인기 많은 견종이 뭔지 알아? 강아지를 입양하려고 하는데 아무래도 많이 키우는 견종을 데려오는 게 무난하지 않을까 싶은데.",
+            "turn_id": "BK22011473-1",
+            "utterance_id": "BK22011473.1"
+        },
+        {
+            "reference_date": "2021-03-22",
+            "reference_text": [
+                {
+                    "value": "kb경영연구소의 ‘2021 한국 반려동물보고서’에 따르면, 우리나라에서 가장 많이 키우는 견종은 ‘몰티즈(말티즈)’인 것으로 나타났다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "전체 반려견의 23.7%가 몰티즈였다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "2위는 푸들(19.0%), 3위는 포메라니안(11.0%), 4위는 믹스견(10.7%), 5위는 치와와(10.1%), 6위는 시추(8.2%), 7위는 골든리트리버(7.5%), 8위는 진돗개(6.0%)였다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "다양한 반려동물 설문조사에서 포메라니안이 3위를 차지한 것은 이번이 처음이다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailyvet.co.kr/news/industry/144536",
+            "search_query": "한국 인기 견종",
+            "terminate": false,
+            "text": "kb 경영연구소의 2021 한국 반려동물 보고서에 따르면 우리나라에서는 몰티즈를 가장 많이 키워. 전체 반려견 중 몰티즈가 차지하는 비중은 23.7퍼센트였지. 그다음으로 많이 키우는 건 19퍼센트를 차지한 푸들이고, 3위는 11퍼센트의 포메라니안이야. 포메라니안의 경우 각종 반려동물 설문조사를 포함해서 3위를 한 게 이번이 처음이야.",
+            "turn_id": "BK22011473-1",
+            "utterance_id": "BK22011473.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "포메라니안 인기가 많이 늘어났구나. 나도 사실 포메라니안이 좋긴 한데 귀엽다고 데려올 순 없을 것 같고 건강 관련한 정보를 알아야 결정할 수 있을 것 같다. 강아지들은 종별로 잘 걸리는 질병이 있다던데 포메라니안은 어떤 질병에 취약해?",
+            "turn_id": "BK22011473-2",
+            "utterance_id": "BK22011473.3"
+        },
+        {
+            "reference_date": "2017-04-05",
+            "reference_text": [
+                {
+                    "value": "다음으로 슬개골탈구증이다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "포메라니안에게 흔한 대표적인 질환이며 순종의 경우 믹스견(잡종견)에 비해 발병률이 18.6배 높다는 보고도 있다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=29433",
+            "search_query": "포메라니안 질병",
+            "terminate": false,
+            "text": "포메라니안에게 흔히 발생하는 질병은 슬개골 탈구증이야. 믹스견과 비교했을 때 포메라니안 순종은 이 질병을 겪게 될 확률이 18.6배나 더 높다는 보고가 있어.",
+            "turn_id": "BK22011473-2",
+            "utterance_id": "BK22011473.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "믹스견에 비하면 발병률이 엄청 높네. 근데 슬개골 탈구라는 거 많이 들어보기는 했는데 정확히 어떤 거야?",
+            "turn_id": "BK22011473-3",
+            "utterance_id": "BK22011473.5"
+        },
+        {
+            "reference_date": "2021-11-13",
+            "reference_text": [
+                {
+                    "value": "슬개골탈구는 슬개골이라는 뼈가 내측이나 외측으로 빠지는 상태를 말한다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 중 소형견종(몰티즈, 포메라니안, 치와와 등)은 슬개골이 안쪽으로 빠지는 내측탈구를 선천적으로 갖고 있을 때가 많고 대형견은 외측탈구가 잦은 편이다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "슬개골탈구의 증상은 ▲비정상적인 걸음걸이 ▲간헐적 다리들기 ▲뒷다리 오다리 ▲다리의 예민함 등이 있다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=56482",
+            "search_query": "강아지 슬개골 탈구",
+            "terminate": false,
+            "text": "슬개골이라는 뼈가 내측이나 외측으로 빠지는 걸 슬개골 탈구라고 해. 외측 탈구가 많은 대형 견종들에 반해 포메라니안을 포함한 소형 견종들은 선천적으로 슬개골이 안쪽으로 빠지는 내측 탈구를 가지고 있을 확률이 높지. 슬개골 탈구가 있으면 비정상적으로 걷게 되고 간헐적으로 다리를 드는 동작도 하게 되고 뒷다리가 오다리와 같이 되고 다리가 예민해지는 증상 등이 나타나.",
+            "turn_id": "BK22011473-3",
+            "utterance_id": "BK22011473.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다리에 문제가 생기는 병이면 가벼운 병은 아니네. 근데 뭐, 사람도 나이 들면 다리에 문제가 생기기 마련이니까. 이건 발병 시기가 언제쯤이야?",
+            "turn_id": "BK22011473-4",
+            "utterance_id": "BK22011473.7"
+        },
+        {
+            "reference_date": "2018-01-02",
+            "reference_text": [
+                {
+                    "value": "슬개골탈구는 말티즈, 푸들, 포메라니안, 치와와, 요크셔테리어 등 주로 소형견에서 잘 발생한다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "후천적인 요인으로 발생하기도 하지만 유전적 소인이 강해 선천적으로 발생하는 경우도 많다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "선천적인 경우 6개월이 안 된 어린 나이에도 증상이 나타날 수 있다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=33682",
+            "search_query": "포메라니안 슬개골 탈구 발병 시기",
+            "terminate": false,
+            "text": "빠른 경우 생후 6개월 이전에도 발병할 수가 있어. 슬개골 탈구는 포메라니안을 포함해서 주로 소형견들에게 발생하는 질병인데 후천적 요인보다는 선천적인 요인으로 나타나는 경우가 많거든. 이렇게 선천적인 이유로 발병할 때는 생후 6개월도 되지 않은 어린 나이에도 증상이 발생할 수 있어.",
+            "turn_id": "BK22011473-4",
+            "utterance_id": "BK22011473.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 6개월은 너무 빠르다. 7살 이후 정도면 몰라도. 근데 왜 소형견들은 슬개골 탈구에 취약한 거야?",
+            "turn_id": "BK22011473-5",
+            "utterance_id": "BK22011473.9"
+        },
+        {
+            "reference_date": "2017-09-05",
+            "reference_text": [
+                {
+                    "value": "대게 슬개골이 안착되어 있는 활차구의 홈이 깊숙하게 파여있어야 되는데, 소형견의 경우 이 뼈 자체의 크기가 작아 홈이 얕거나 좁을 수 밖에 없다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이로 인해 홈이 얕아 슬개골이 빠지기 쉬워 슬개골탈구가 쉽게 일어나며 한번 빠지게 되면 인대가 늘어나게 되면서 내측으로 주로 빠지는 슬개골탈구가 발생하게 된다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ikunkang.com/news/articleView.html?idxno=22078",
+            "search_query": "소형견 슬개골 탈구 이유",
+            "terminate": false,
+            "text": "슬개골은 활차구라는 곳에 안착이 되어있는데, 소형견의 경우 이 활차구의 홈이 얕고 좁아서 그래. 깊이 파여있어야 슬개골이 쉽게 빠지지 않는데 소형견은 뼈 크기 자체가 작아서 홈이 깊을 수가 없는 거지. 그래서 슬개골 탈구가 쉽게 발생하는 거야.",
+            "turn_id": "BK22011473-5",
+            "utterance_id": "BK22011473.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뼈 크기가 작으면 슬개골 탈구가 발생하기 쉽구나. 그럼 중형견을 입양해야 하나? 소형견, 중형견, 대형견 기준이 어떻게 되지?",
+            "turn_id": "BK22011473-6",
+            "utterance_id": "BK22011473.11"
+        },
+        {
+            "reference_date": "2021-11-03",
+            "reference_text": [
+                {
+                    "value": "농촌진흥청 국립출산과학원의 분류 기준은 무게인데, 그에 따르면 소형견은 몸무게가 10kg 미만, 중형견은 10~25kg미만, 대형견은 25kg 이상이다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ziksir.com/news/articleView.html?idxno=10410",
+            "search_query": "소형견 중형견 대형견 기준",
+            "terminate": false,
+            "text": "농촌진흥청 국립출산과학원에서는 무게를 기준으로 하고 있는데 소형견은 10kg 미만인 경우, 중형견은 10kg에서 25kg 미만인 경우, 대형견은 25kg 이상인 경우야.",
+            "turn_id": "BK22011473-6",
+            "utterance_id": "BK22011473.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "10kg부터가 중형견이면 내가 키우기엔 너무 클 거 같은데. 난 사실 작은 애를 입양할 생각이었거든. 근데 슬개골 탈구에 취약할 수밖에 없다니 고민된다.",
+            "turn_id": "BK22011473-7",
+            "utterance_id": "BK22011473.13"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "건강과 관련된 문제니 고민될만하지.",
+            "turn_id": "BK22011473-7",
+            "utterance_id": "BK22011473.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "근데 아무래도 우리 집은 소형견 말고는 키우기가 힘들 것 같아. 이런 병이 있다는 걸 알았으니 증상이 나타나면 동물 병원에 가서 치료를 받는 걸로 해야겠어. 슬개골 탈구는 어떤 방법으로 치료를 해?",
+            "turn_id": "BK22011473-8",
+            "utterance_id": "BK22011473.15"
+        },
+        {
+            "reference_date": "2021-02-09",
+            "reference_text": [
+                {
+                    "value": "강아지 슬개골 탈구는 상태와 증상에 따라 4단계로 분류할 수 있다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1기에서 4기로 진행할수록 증상이 심해진다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "초기에 슬개골 탈구 수술을 시작한다면 재발률이 거의 없지만, 만약 3~4기에 발견하고 수술할 경우 약 20~40%의 재발률을 보인다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ikunkang.com/news/articleView.html?idxno=33188",
+            "search_query": "강아지 슬개골 탈구 치료 방법",
+            "terminate": false,
+            "text": "강아지 슬개골 탈구는 증상과 상태에 따라 1기에서 4기까지 나뉘는데 수술을 통해 치료를 해. 초기 단계일 때 수술을 하면 재발 가능성은 아주 희박한 편이지. 하지만 3기나 4기 상태일 때 수술을 하면 재발 가능성이 20퍼센트에서 40퍼센트 정도로 높아져.",
+            "turn_id": "BK22011473-8",
+            "utterance_id": "BK22011473.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수술까지 해야 되는구나. 그래도 관리를 잘해주면 수술 시기를 늦출 수 있을 것 같은데 예방법 같은 것 좀 알려줄래?",
+            "turn_id": "BK22011473-9",
+            "utterance_id": "BK22011473.17"
+        },
+        {
+            "reference_date": "2021-05-25",
+            "reference_text": [
+                {
+                    "value": "슬개골 탈구 예방을 위해서는 어릴 때부터 슬개골 탈구 예방을 위한 환경을 조성해 주는 것이 좋다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려견이 미끄러지지 않도록 러그와 매트를 깔거나 발바닥 털을 밀어주는 것도 방법이다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려견이 주인을 반긴다고 두발로 서는 행동, 높은 침대나 소파에서 뛰어내리는 행동도 다리에 무리가 갈 수 있어 자제시켜야 한다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "과체중도 무릎에 안 좋은 영향을 미치므로 체중 관리와 적절한 운동은 필수다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2021051918062521837",
+            "search_query": "슬개골 탈구 예방",
+            "terminate": false,
+            "text": "일단은 슬개골 탈구를 예방할 수 있는 환경을 만들어주는 게 좋아. 강아지 발바닥의 털을 밀어주고 바닥에 러그와 매트를 깔아서 미끄러지지 않도록 해주는 게 도움이 되지. 또 높은 침대나 소파에서 뛰어내리거나 두발로 서는 행동을 할 때 확실하게 제지시키는 게 좋아. 다리에 무리를 주는 행동이거든. 마지막으로 체중관리와 운동을 통해 무릎에 악영향이 가지 않도록 신경 써주는 것도 필요해.",
+            "turn_id": "BK22011473-9",
+            "utterance_id": "BK22011473.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집에 가자마자 보드에 써놓고 머리에 잘 입력시켜야겠다. 오늘 고마웠어. 덕분에 강아지 입양을 결정하는데 많은 도움이 됐거든.",
+            "turn_id": "BK22011473-10",
+            "utterance_id": "BK22011473.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도움이 됐다니 나도 기분 좋네.",
+            "turn_id": "BK22011473-10",
+            "utterance_id": "BK22011473.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 난 이만 가볼게. 강아지 입양하면 연락할 테니 놀러 와.",
+            "turn_id": "BK22011473-11",
+            "utterance_id": "BK22011473.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 입양하고 나서 꼭 연락 줘.",
+            "turn_id": "BK22011473-11",
+            "utterance_id": "BK22011473.22"
+        }
+    ]
+}

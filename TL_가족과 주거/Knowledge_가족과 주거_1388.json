@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009170",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009170",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0029"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 반려동물을 한번 키워볼까 하는데, 반려동물 중에서 고양이가 가진 장점은 어떤 게 있을까?",
+            "turn_id": "BK22009170-1",
+            "utterance_id": "BK22009170.1"
+        },
+        {
+            "reference_date": "2021-03-03",
+            "reference_text": [
+                {
+                    "value": "고양이는 평소 그루밍을 통하여 평소 스스로를 단정하게 관리하고, 별다른 체취가 나지 않으며 양육에 있어 고양이 특성상 넓은 공간이 필요하지 않다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=919986",
+            "search_query": "고양이 특성",
+            "terminate": false,
+            "text": "고양이는 스스로 그루밍을 하며 몸을 단정하게 관리하는 습성이 있어서 체취가 나지 않는 편이야. 그리고 고양이는 종의 특성상 좁은 공간에서도 키울 수 있어.",
+            "turn_id": "BK22009170-1",
+            "utterance_id": "BK22009170.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집이 그다지 넓지 않아서 걱정이었는데, 다행이네. 그런데 그루밍이 뭐야? 들어보기는 했는데 정확히 어떤 건지 잘 모르겠거든.",
+            "turn_id": "BK22009170-2",
+            "utterance_id": "BK22009170.3"
+        },
+        {
+            "reference_date": "2022-08-25",
+            "reference_text": [
+                {
+                    "value": "'그루밍(Grooming)이란 고양이나 토끼, 원숭이 등이 자신의 혀나 손발을 사용하여 털을 손질하고 다듬는 행위를 말한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "몸단장, 털손질, 차림새 등 다양한 뜻을 지니고 있으며, 자신의 흔적을 지우는 동시에 정서적으로 안정을 취하기 위해 하는 행동이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mediafine.co.kr/news/articleView.html?idxno=20145",
+            "search_query": "그루밍이란",
+            "terminate": false,
+            "text": "그루밍은 고양이를 비롯한 원숭이나 토끼 같은 동물들이 자신의 손발과 혀를 이용해 털을 손질하는 행위를 가리키는 거야. 차림새, 몸 단장, 털 손질 등의 의미를 지니고 있는 거지. 그리고 이 그루밍이라는 행위를 통해 동물들은 자신의 흔적을 지울 수도 있고 정서적인 안정 또한 취할 수 있어.",
+            "turn_id": "BK22009170-2",
+            "utterance_id": "BK22009170.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그루밍이라는 게 고양이만 하는 게 아니었구나. 그럼 털을 다듬는 것 외에 고양이가 그루밍하는 이유는 또 어떤 게 있어?",
+            "turn_id": "BK22009170-3",
+            "utterance_id": "BK22009170.5"
+        },
+        {
+            "reference_date": "2022-08-11",
+            "reference_text": [
+                {
+                    "value": "고양이가 그루밍을 하는 이유는 여러 가지다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "둘째는 체온 조절이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "여름철에는 침으로 털을 적셔 열기에 증발시키는 방식으로 높아진 체온을 떨어뜨린다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/08/707847/",
+            "search_query": "고양이 그루밍 체온 조절",
+            "terminate": false,
+            "text": "고양이가 그루밍을 하는 건 체온을 조절하기 위함이기도 해. 여름철에 털을 침으로 적셔서 증발시키는 방법을 통해 체온을 낮출 수 있거든.",
+            "turn_id": "BK22009170-3",
+            "utterance_id": "BK22009170.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "굉장히 영리한 행동이네. 혹시 고양이가 그루밍을 하는 또 다른 이유가 있을까?",
+            "turn_id": "BK22009170-4",
+            "utterance_id": "BK22009170.7"
+        },
+        {
+            "reference_date": "2022-08-11",
+            "reference_text": [
+                {
+                    "value": "스스로 핥을 수 없는 머리나 목, 귀 뒤쪽 등을 서로 핥아 주면서 신뢰와 애정을 전달하는 것이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "서열이 높은 고양이가 서열이 낮은 고양이를 그루밍해 주며 애틋하게 보살피는 마음을 전하기도 한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/08/707847/",
+            "search_query": "고양이 그루밍 애정 전달",
+            "terminate": false,
+            "text": "고양이 스스로 손질할 수 없는 귀 뒤쪽 부분이나 목, 머리 등을 서로 핥아주며 애정을 전달하기도 해. 또한 서열상 우위를 점하고 있는 고양이가 서열이 낮은 고양이에게 보살피는 마음을 전하는 수단으로 그루밍을 하기도 하지.",
+            "turn_id": "BK22009170-4",
+            "utterance_id": "BK22009170.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다양한 이유로 인해 고양이가 그루밍을 하는 거구나. 그런데 이렇게 혀로 그루밍을 하다 보면 털을 먹게 되기도 할 텐데, 고양이의 건강에 해를 끼치지는 않아?",
+            "turn_id": "BK22009170-5",
+            "utterance_id": "BK22009170.9"
+        },
+        {
+            "reference_date": "2022-08-11",
+            "reference_text": [
+                {
+                    "value": "그루밍하는 동안 삼킨 털이 몸속으로 들어가는데, 대부분은 대변에 섞여 배출되고 일부가 둥글게 뭉쳐져 구토를 통해 입 밖으로 나온다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 장기에 남아 점점 더 크게 뭉쳐진 털뭉치가 어느 쪽으로도 배출되지 않고 있다가 내장 기관을 막아 버리면 생명이 위험할 수 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/08/707847/",
+            "search_query": "그루밍 삼킨 털 위험",
+            "terminate": false,
+            "text": "일반적으로 그루밍으로 인해 몸속으로 들어간 털은 구토나 대변을 통해 배출되는데, 이렇게 배출되지 못하고 털이 장기에 남아 크게 뭉쳐지면 내장 기관이 막히면서 생명이 위험해질 수 있어.",
+            "turn_id": "BK22009170-5",
+            "utterance_id": "BK22009170.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이런 상황이 생기지 않도록 수시로 털을 손질해 주어야겠구나. 특히 털갈이 시기에는 털 손질에 더 신경을 써야 할 것 같은데, 고양이는 주로 어느 시기에 털갈이를 하는 거야?",
+            "turn_id": "BK22009170-6",
+            "utterance_id": "BK22009170.11"
+        },
+        {
+            "reference_date": "2015-10-08",
+            "reference_text": [
+                {
+                    "value": "개와 고양이는 계절에 따라 조금씩 털갈이를 하지만 봄과 가을이 되면 본격적으로 털갈이를 시작한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "품종에 따라 다르지만 가을이 되면 반려동물의 털은 여름철 체온상승 예방을 위한 뻣뻣하고 성긴 털 대신 추위에 대비할 수 있는 조금 더 부드럽고 촘촘한 털로 바뀐다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?2452263",
+            "search_query": "고양이 털갈이",
+            "terminate": false,
+            "text": "개와 마찬가지로 고양이도 계절마다 조금씩 털갈이를 하지만, 봄과 가을에 본격적인 털갈이를 하게 돼. 반려동물의 품종에 따라 차이가 있지만 가을이 되면 여름철 체온 상승 예방을 위해 자라났던 뻣뻣하면서도 성긴 털이 겨울철 추위를 대비해 부드러우면서 촘촘한 털로 탈바꿈하게 되는 거지.",
+            "turn_id": "BK22009170-6",
+            "utterance_id": "BK22009170.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "계절의 날씨에 맞춰 털갈이를 한다는 사실이 정말 신기하네. 그루밍을 하는 습성 외에 고양이가 가진 또 다른 습성에 대해서도 좀 설명해 줄래?",
+            "turn_id": "BK22009170-7",
+            "utterance_id": "BK22009170.13"
+        },
+        {
+            "reference_date": "2022-09-19",
+            "reference_text": [
+                {
+                    "value": "고양이는 다른 고양이과 동물들처럼 높은 곳을 좋아하는 습성이 있다고 한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또, 이 습성 때문에 고양이가 창문 밖으로 뛰어내리는 경우도 있는데 이것을 하이라이즈 신드롬 이라고 한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%96%91%EC%9D%B4",
+            "search_query": "고양이 습성",
+            "terminate": false,
+            "text": "고양이는 높은 곳을 선호하는 습성이 있어. 그래서 간혹 창문 밖으로 뛰어내리는 일이 발생하기도 하는데, 이런 고양이의 행동을 하이라이즈 신드롬이라고 불러.",
+            "turn_id": "BK22009170-7",
+            "utterance_id": "BK22009170.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 그럼 창문마다 방충망을 반드시 설치해야겠네. 고양이는 또 어떤 습성을 가지고 있어?",
+            "turn_id": "BK22009170-8",
+            "utterance_id": "BK22009170.15"
+        },
+        {
+            "reference_date": "2022-09-19",
+            "reference_text": [
+                {
+                    "value": "물을 적게 먹는 습성은 단순히 고양이가 사람과 달리 땀을 통해 열관리를 하지 않기 때문에 몸이 많은 수분섭취량을 요구하지 않을 뿐이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%96%91%EC%9D%B4",
+            "search_query": "고양이 습성 수분섭취량",
+            "terminate": false,
+            "text": "고양이는 물을 적게 마시는 습성도 있어. 사람과 다르게 고양이는 땀을 통해 열관리를 하지 않아 그만큼 요구되는 수분 섭취량 또한 적은 편이거든.",
+            "turn_id": "BK22009170-8",
+            "utterance_id": "BK22009170.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 고양이를 키우기 전에 공부해 놓아야 할 것들이 정말 많네.",
+            "turn_id": "BK22009170-9",
+            "utterance_id": "BK22009170.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려동물을 맞이하는 게 쉬운 일은 아니지.",
+            "turn_id": "BK22009170-9",
+            "utterance_id": "BK22009170.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 조금 더 공부한 후에 고양이를 들여야겠어. 아무튼 오늘 이렇게 설명해 줘서 정말 고마워!",
+            "turn_id": "BK22009170-10",
+            "utterance_id": "BK22009170.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아냐, 나중에 또 궁금한 점이 생기면 언제든 연락해!",
+            "turn_id": "BK22009170-10",
+            "utterance_id": "BK22009170.20"
+        }
+    ]
+}

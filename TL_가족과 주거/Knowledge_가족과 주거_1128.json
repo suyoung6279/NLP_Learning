@@ -1,0 +1,388 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007190",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007190",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 집에 있는 시간이 많이 늘어서 반려동물을 키울 수 있을 것 같아요. 고양이를 키우고 싶어서 알아보는 중이에요. 최근 고양이를 키우는 사람이 점점 많아지고 있는 것 같던데 고양이를 키우는 사람이 얼마나 되나요?",
+            "turn_id": "BK22007190-1",
+            "utterance_id": "BK22007190.1"
+        },
+        {
+            "reference_date": "2022-08-08",
+            "reference_text": [
+                {
+                    "value": "국가통계포털에 따르면 반려동물 보유 가구는 2020년 기준 전체의 약 15.0%(313만 가구)다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이중 고양이만 키우는 가구는 57만 가구(18%)다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kukinews.com/newsView/kuk202208080149",
+            "search_query": "고양이 키우는 가구",
+            "terminate": false,
+            "text": "국가 통계포털에서 발표한 자료에 따르면 2020년 기준으로 전체의 15퍼센트나 되는 가구가 반려동물을 키우고 있는 것으로 확인됐어요. 반려동물을 키우는 가구는 313만 가구인데, 그중 57만 가구는 고양이만 키우는 가구예요.",
+            "turn_id": "BK22007190-1",
+            "utterance_id": "BK22007190.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "거의 60만 가구가 고양이를 키우고 있군요. 저도 고양이를 키우고 싶은데 고양이는 수명이 얼마나 되죠?",
+            "turn_id": "BK22007190-2",
+            "utterance_id": "BK22007190.3"
+        },
+        {
+            "reference_date": "2021-06-01",
+            "reference_text": [
+                {
+                    "value": "강아지나 고양이의 평균 수명은 15년 정도.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "당장 1~2년이 아닌, 10~20년 후에도 돌볼 형편이 되는지 따져봐야 합니다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2021050319230490497",
+            "search_query": "고양이 수명",
+            "terminate": false,
+            "text": "고양이의 평균 수명은 강아지와 비슷하게 15년 정도예요. 그래서 강아지나 고양이를 키우기 전에 1년에서 2년이 아닌 10년에서 20년 후까지 돌볼 형편이 되는지 따져보는 게 반드시 필요해요.",
+            "turn_id": "BK22007190-2",
+            "utterance_id": "BK22007190.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지와 고양이는 평균 15년 정도의 수명을 가지고 있군요. 가장 장수한 고양이는 몇 살 까지 살았나요?",
+            "turn_id": "BK22007190-3",
+            "utterance_id": "BK22007190.5"
+        },
+        {
+            "reference_date": "2020-07-04",
+            "reference_text": [
+                {
+                    "value": "지금까지 가장 장수해 기네스북에 오른 고양이는 텍사스에 살았던 '크림 퍼프(Creme Puff)'다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "녀석은 1967년 8월 3일 태어나 2005년 8월 6일까지 무려 38년 3일을 살았다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/292056",
+            "search_query": "고양이 기네스북 장수",
+            "terminate": false,
+            "text": "기네스북에 가장 장수한 것으로 기록된 고양이는 텍사스의 크림퍼프라는 고양이예요. 크림퍼프는 1967년 8월 3일에 태어나서 38년 3일을 살고 2005년 8월 6일에 하늘나라로 갔어요.",
+            "turn_id": "BK22007190-3",
+            "utterance_id": "BK22007190.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "38년이 넘게 살았다니 반려인은 정말 행복했겠어요. 국내에서 가장 오래 산 고양이는 몇 살인가요?",
+            "turn_id": "BK22007190-4",
+            "utterance_id": "BK22007190.7"
+        },
+        {
+            "reference_date": "2021-01-26",
+            "reference_text": [
+                {
+                    "value": "서울 중랑구에 위치한 한 동물병원에는 올해 28세가 된 고양이가 살고 있다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "비공식 국내 최장수 고양이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이름은 밍키, 페르시안 종의 암컷 고양이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01617046628921656&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "고양이 국내 장수",
+            "terminate": false,
+            "text": "국내에서 가장 장수한 고양이는 서울 중랑구 동물병원에 사는 28살 페르시안 암컷 고양이 밍키예요. 비공식적으로 우리나라에서 제일 오래 산 고양이죠.",
+            "turn_id": "BK22007190-4",
+            "utterance_id": "BK22007190.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "국내에서도 28살이나 먹은 고양이가 있군요. 고양이의 장수 비결이 뭔지 궁금하네요.",
+            "turn_id": "BK22007190-5",
+            "utterance_id": "BK22007190.9"
+        },
+        {
+            "reference_date": "2021-08-28",
+            "reference_text": [
+                {
+                    "value": "지난 1월 한 라디오 방송에 출연한 김 원장은 밍키의 장수 비결을 묻는 질문에 정기적인 검강검진, 균형잡힌 영양공급, 고양이에 적합한 환경 등을 꼽았다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/animalpeople/human_animal/1008461.html",
+            "search_query": "고양이 장수 비결",
+            "terminate": false,
+            "text": "28살 고양이의 반려인인 김원장은 밍키가 장수할 수 있었던 건 정기적인 건강검진과 균형 잡힌 영양 공급, 그리고 고양이가 살기 적합한 환경이 비결이라고 밝혔어요.",
+            "turn_id": "BK22007190-5",
+            "utterance_id": "BK22007190.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "건강검진과 영양공급, 환경제공이 가장 중요하군요. 제가 키울 고양이도 장수하도록 잘 키우고 싶네요. 고양이를 키우기 전에 고양이의 특성을 미리 알면 도움이 될 것 같은데 고양이는 어떤 특성을 가지고 있나요?",
+            "turn_id": "BK22007190-6",
+            "utterance_id": "BK22007190.11"
+        },
+        {
+            "reference_date": "2022-08-08",
+            "reference_text": [
+                {
+                    "value": "혼자 잘 논다, 길들여지는 걸 싫어한다, 특정 대상에 충성하지 않는다 등의 특성이 고양이와 MZ세대의 공통점이라는 것이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202208071836252607",
+            "search_query": "고양이 특성",
+            "terminate": false,
+            "text": "고양이는 MZ세대처럼 혼자 잘 놀고, 길들여지는 걸 싫어해요. 그리고 특정 대상에 충성하지도 않는 특성이 있죠.",
+            "turn_id": "BK22007190-6",
+            "utterance_id": "BK22007190.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "MZ세대와 고양이가 절묘하게 비슷한 점이 있군요. 고양이는 털이 많이 빠지나요?",
+            "turn_id": "BK22007190-7",
+            "utterance_id": "BK22007190.13"
+        },
+        {
+            "reference_date": "2018-09-18",
+            "reference_text": [
+                {
+                    "value": "고양이는 사계 내내 털이 잘 빠지고 계절이 바뀔 시 더욱더 심해진다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려묘 역시 장모종이 단모종보다 털이 엉키기 쉬워 덜 빠지기도 한다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.khan.co.kr/bizlife/sk_index.html?art_id=201808291808003&sec_id=650101&pt=nv",
+            "search_query": "고양이 털 빠짐",
+            "terminate": false,
+            "text": "그럼요. 고양이는 사계절 내내 털이 빠지고 계절이 바뀌면 더 많이 빠져요. 하지만 고양이 중에서는 장모종이 털이 잘 엉켜서 단모종 보다는 덜 빠지는 편이에요.",
+            "turn_id": "BK22007190-7",
+            "utterance_id": "BK22007190.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이는 사계절 내내 털을 뿜어내는군요. 언젠가는 강아지도 키우고 싶은 생각이 있는데 강아지와 고양이를 같이 키울 수도 있나요?",
+            "turn_id": "BK22007190-8",
+            "utterance_id": "BK22007190.15"
+        },
+        {
+            "reference_date": "2017-06-21",
+            "reference_text": [
+                {
+                    "value": "특히 반려동물 중 가장 흔한 개와 고양이를 함께 키우는 가정이 급증하고 있습니다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "합사를 고려하는 가정이라면, 되도록 고양이를 먼저 키우는 것이 유리합니다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "강아지가 서열 본능에 눈 뜨기 전 고양이와 합사한다면 조화를 이룰 가능성이 높습니다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ilyo.co.kr/?ac=article_view&entry_id=254578",
+            "search_query": "개 고양이 합사",
+            "terminate": false,
+            "text": "네, 요즘 강아지와 고양이를 같이 키우는 집이 많이 늘어나고 있어요. 만약 같이 키우고 싶으시다면 고양이를 먼저 키우고 강아지를 데려오시는 게 좋아요. 강아지가 서열 본능이 생기기 전에 고양이와 합사하면 서로 조화롭게 살 확률이 올라가죠.",
+            "turn_id": "BK22007190-8",
+            "utterance_id": "BK22007190.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이를 먼저 키우고 강아지를 데려오는 게 합사에 성공할 수 있는 확률이 높군요. 일단은 고양이부터 잘 키우는 걸 목표로 해야겠어요. 고양이를 키울 때 준비하면 좋은 게 뭐가 있나요?",
+            "turn_id": "BK22007190-9",
+            "utterance_id": "BK22007190.17"
+        },
+        {
+            "reference_date": "2021-06-03",
+            "reference_text": [
+                {
+                    "value": "고양이 키우는 집에 필수품이 몇 가지 있다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 중 1, 2위를 다투는 것이 캣타워와 스크래처다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한편 스크래처는 고양이에게 체력 단련 기구가 되기도 한다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "갑자기 놀라거나 불안을 느낄 때 스크래처를 긁으며 마음을 안정시키는 것.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반대로 기분이 좋을 때도 흥분을 가라앉히기 위해 열심히 긁는다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2021/06/535745/",
+            "search_query": "고양이 필수품",
+            "terminate": false,
+            "text": "고양이를 키울 때 캣타워와 스크래쳐는 필수품이죠. 스크래쳐는 고양이에게 체력 단련 기구이자 심신 안정에 도움을 주는 물건이에요. 갑자기 놀라거나 불안할 때 스크래쳐를 긁어 마음을 진정시킬 수 있고 기분이 좋으면 스크래쳐를 긁어서 흥분된 기분을 가라앉히기도 해요.",
+            "turn_id": "BK22007190-9",
+            "utterance_id": "BK22007190.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "캣타워와 스크래쳐를 반드시 구비해 놓고 고양이를 데리고 와야겠네요. 덕분에 장수 고양이의 비결도 알았고 고양이의 특성에 대해 좀 더 이해할 수 있었어요.",
+            "turn_id": "BK22007190-10",
+            "utterance_id": "BK22007190.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려동물을 들이기 전에 특성을 알고 준비하는 것만큼 중요한 게 없죠. 고양이에 대해 더 궁금한 게 있으면 언제든지 말씀해주세요.",
+            "turn_id": "BK22007190-10",
+            "utterance_id": "BK22007190.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 또 궁금한 게 생기면 여쭤볼게요. 다음에 또 이야기 나눠요.",
+            "turn_id": "BK22007190-11",
+            "utterance_id": "BK22007190.21"
+        }
+    ]
+}

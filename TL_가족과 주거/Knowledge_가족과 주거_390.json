@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015268",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015268",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다음 학기에 휴학을 고민하다가 그냥 쭉 다니기로 했어요. 기숙사를 신청했는데 됐기도 하고요.",
+            "turn_id": "BK22015268-1",
+            "utterance_id": "BK22015268.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오랫동안 고민을 하더니 다음 학기도 다니기로 했네요.",
+            "turn_id": "BK22015268-1",
+            "utterance_id": "BK22015268.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사실 자취집이 고민이었는데 기숙사도 안 될 줄 알았는데 돼서요. 제 대학 동기는 기숙사에 살다가 다음 학기부터는 LH 전세임대주택을 지원 받아서 자취를 시작한다고 하더라고요. 전세임대주택 제도는 어떤 거예요?",
+            "turn_id": "BK22015268-2",
+            "utterance_id": "BK22015268.3"
+        },
+        {
+            "reference_date": "2022-10-04",
+            "reference_text": [
+                {
+                    "value": "지난 2005년 도입된 전세임대주택 제도는 입주자가 주택을 고르면 한국토지주택공사(LH)가 주택소유자와 전세계약을 체결한 뒤 입주자에게 저렴하게 재임대해주는 공공임대주택 제도다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20221004_0002035443&cID=10401&pID=10400",
+            "search_query": "전세임대주택 제도",
+            "terminate": false,
+            "text": "2005년 도입된 전세임대주택 제도는 입주자가 살 주택을 고르면 한국토지주택공사가 주택소유자와 전세계약을 체결해서 더 저렴하게 입주자에게 재임대해주는 공공임대주택 제도 중 하나에요.",
+            "turn_id": "BK22015268-2",
+            "utterance_id": "BK22015268.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "2005년부터 이 제도가 시행이 됐으면 꽤 오래 시행된 제도네요. 전세임대주택의 임대료는 어느 정도 수준으로 형성이 되나요?",
+            "turn_id": "BK22015268-3",
+            "utterance_id": "BK22015268.5"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "전세형 주택의 전체 임대료는 시중 전세 80% 이하 수준으로, 보증금을 최대 80%까지 책정해 입주자의 월세 부담을 줄였다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 입주 초 목돈마련이 어렵다면 보증금을 낮추는 대신 월 임대료를 높이는 보증금 전환제도도 이용할 수 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2022091313212894956",
+            "search_query": "전세임대주택 임대료",
+            "terminate": false,
+            "text": "전세형 임대주택의 전체 임대료는 시중 전세의 80% 이하 수준으로 형성돼요. 또한, 보증금도 최대 80%까지 정해서 입주자가 내야하는 월세 부담도 줄였고요. 만약 입주를 할 때 목돈 마련이 어려우면 보증금을 낮추고 월 임대료를 더 높게 내는 보증금 전환제도를 이용할 수 있어요.",
+            "turn_id": "BK22015268-3",
+            "utterance_id": "BK22015268.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "목돈 마련이 어려운 사람들도 보호하는 장치가 마련됐네요. 전세임대주택의 신청 조건은 뭐에요?",
+            "turn_id": "BK22015268-4",
+            "utterance_id": "BK22015268.7"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "전세형 주택은 무주택 세대구성원이라면 누구나 신청이 가능하다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 입주자 선정시 순위는 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2022091313212894956",
+            "search_query": "전세형 임대주택 신청 조건",
+            "terminate": false,
+            "text": "전세형 임대주택의 신청 조건은 무주택 세대구성원이면 제한 없이 누구나 신청이 가능해요. 하지만 입주자를 선정할 땐 우선 순위를 두고 뽑지만요.",
+            "turn_id": "BK22015268-4",
+            "utterance_id": "BK22015268.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "무주택 세대구성원이 신청 가능하니 지원 제한은 없네요. 전세임대주택을 쓸 때 월 임대료로 이자는 어느 정도를 내게 되나요?",
+            "turn_id": "BK22015268-5",
+            "utterance_id": "BK22015268.9"
+        },
+        {
+            "reference_date": "2022-10-04",
+            "reference_text": [
+                {
+                    "value": "일반·청년·신혼부부·다자녀 유형으로 구성되며 지원 대상자는 월 임대료로 전세지원금 중 임대보증금을 제외한 금액에 대한 연 1~2%의 이자를 납부하면 된다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20221004_0002035443&cID=10401&pID=10400",
+            "search_query": "전세임대주택 제도 이자",
+            "terminate": false,
+            "text": "전세임대주택 제도를 지원 받는 대상자가 지급해야하는 월 임대료는 전세지원금 중 임대보증금을 제외한 금액을 기준으로 연 1~2%의 이자를 내면 돼요.",
+            "turn_id": "BK22015268-5",
+            "utterance_id": "BK22015268.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "연 1~2% 정도면 정말 낮은 편이네요. 이자가 낮다보니 이용을 많이 할 것 같은데 계약률은 어느 정도인가요?",
+            "turn_id": "BK22015268-6",
+            "utterance_id": "BK22015268.11"
+        },
+        {
+            "reference_date": "2022-10-04",
+            "reference_text": [
+                {
+                    "value": "그러나 해를 거듭할수록 계약률이 낮아지며 제도 취지가 무색해지고 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2019년 58% 였던 계약률은 2020년 50%, 2021년 51%, 2022년(40%) 등으로 낮아지는 추세다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 지난해 각각 46%, 52% 였던 서울과 경기 지역 계약률은 올해 37%, 33%에 그치고 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20221004_0002035443&cID=10401&pID=10400",
+            "search_query": "전세임대주택 계약률",
+            "terminate": false,
+            "text": "2019년 58%에서 2020년 50%, 2022년 40%와 같이 해가 지나갈수록 전세임대주택의 계약률은 낮아지고 있어요. 심지어 서울과 경기의 경우 2021년 계약률은 각각 46%, 52%였는데요. 올해의 계약률은 서울 37%, 경기 33%에 머물렀거든요.",
+            "turn_id": "BK22015268-6",
+            "utterance_id": "BK22015268.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전세임대주택의 계약률이 하락하는 이유는 뭘까요? 이 제도의 가장 큰 수혜자인 실수요자들의 생각이 어떤지 궁금해요.",
+            "turn_id": "BK22015268-7",
+            "utterance_id": "BK22015268.13"
+        },
+        {
+            "reference_date": "2022-10-04",
+            "reference_text": [
+                {
+                    "value": "이처럼 실수요자들이 제도를 외면하는 이유는 전세임대 지원한도와 실제 전세가격 간 격차 때문으로 풀이된다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "올해 수도권 기준으로 전세임대 일반 유형의 지원 한도액은 1억2000만원이다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 집값이 수년 동안 크게 올라 전세계약을 체결하는 데 부담이 커 계약 포기로 이어지는 비율이 높다는 게 전문가들 지적이다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20221004_0002035443&cID=10401&pID=10400",
+            "search_query": "전세임대주택 계약률 하락 이유",
+            "terminate": false,
+            "text": "실수요자들이 전세임대주택 제도를 이용하지 않게 된 이유는 전세임대 지원한도와 실제 전세가격 간에 차이가 발생해서 계약 포기로 이어졌기 때문이에요. 집값이 몇 년 동안 큰 폭으로 올라서 전세계약을 체결하는 데 부담이 커져서 계약 포기로 이어진거죠. 수도권 기준으로 올해 전세임대 일반 유형의 지원 한도액은 1억 2000만원이거든요.",
+            "turn_id": "BK22015268-7",
+            "utterance_id": "BK22015268.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하긴 최근 몇 년 동안 집값이 너무 올랐었는데 1억 2000만원으로 부족했을 가능성이 높겠네요. 또 집주인이 전세임대주택으로 내놓는걸 선호하면 괜찮을텐데 공급 측면에서는 계약률 하락에 영향을 미치는 요인이 없을까요?",
+            "turn_id": "BK22015268-8",
+            "utterance_id": "BK22015268.15"
+        },
+        {
+            "reference_date": "2022-10-04",
+            "reference_text": [
+                {
+                    "value": "또한 전세임대의 경우 LH의 권리 분석을 거쳐 계약이 이뤄지는데, 집주인이 이러한 검증 절차를 꺼리고 중개인들도 이를 번거로하면서 협조하지 않아 계약 성사에 어려움을 겪고 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20221004_0002035443&cID=10401&pID=10400",
+            "search_query": "전세임대주택 계약률 하락 이유",
+            "terminate": false,
+            "text": "계약에 앞서 LH의 권리 분석 절차를 밟아야 한다는 점이 있긴 해요. LH가 권리 분석을 한 후 전세임대주택의 계약이 이뤄지기 때문에 중개업자 입장에서는 번거로울 수밖에 없어요. LH 검증 절차를 꺼려하는 집주인도 있기 때문에 계약 성사에 다소 어려움이 있기는 해요.",
+            "turn_id": "BK22015268-8",
+            "utterance_id": "BK22015268.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하긴 검증 절차까지 밟아야한다면 전세임대주택으로 내놓길 싫어할 수 있겠네요. 만약에 전세임대주택의 임대료가 시세보다 더 높은 경우엔 어떻게 되나요?",
+            "turn_id": "BK22015268-9",
+            "utterance_id": "BK22015268.17"
+        },
+        {
+            "reference_date": "2022-10-03",
+            "reference_text": [
+                {
+                    "value": "LH 공공임대주택의 경우 임대료가 주변 전세시세 대비 90%(분양전환공공임대주택은 100%) 이상일 경우 할인이 가능하다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/4820516",
+            "search_query": "전세임대주택 임대료 할인",
+            "terminate": false,
+            "text": "전세임대주택의 임대료가 시세보다 90% 이상 높으면 할인이 가능해요. 대신 분양전환공공임대주택은 100% 이상일 경우 임대료를 할인할 수 있어요.",
+            "turn_id": "BK22015268-9",
+            "utterance_id": "BK22015268.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "공공임대주택의 임대료가 시세보다 더 낮을 수밖에 없겠네요. 덕분에 전세임대주택에 대해 쉽게 잘 이해됐어요.",
+            "turn_id": "BK22015268-10",
+            "utterance_id": "BK22015268.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 됐다니 정말 뿌듯하네요. 저는 다음 일정이 있어서 이만 가 볼게요.",
+            "turn_id": "BK22015268-10",
+            "utterance_id": "BK22015268.20"
+        }
+    ]
+}

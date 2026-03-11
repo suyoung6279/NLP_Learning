@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003362",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003362",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0022"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "큰아이가 어린이집에서 수족구병에 걸려 왔는데, 수족구병은 어떤 병이야?",
+            "turn_id": "BK22003362-1",
+            "utterance_id": "BK22003362.1"
+        },
+        {
+            "reference_date": "2022-07-29",
+            "reference_text": [
+                {
+                    "value": "수족구(手足口)병은 이름 그대로 손, 발, 입안에 물집이 잡히는 병이다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "수족구병은 콕사키바이러스(Coxsackievirus A16) 또는 엔테로바이러스(enterovirus 71) 감염에 의해 발병하는 바이러스성 질환이다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2022072911130001388?did=NA",
+            "search_query": "수족구",
+            "terminate": false,
+            "text": "아이가 아파서 걱정이 많겠구나. 수족병은 콕사키바이러스나 엔테로바이러스에 감염돼서 아이 손이나 발, 입안에 물집이 생기는 바이러스성 질환이야.",
+            "turn_id": "BK22003362-1",
+            "utterance_id": "BK22003362.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "바이러스에 의해 걸리는 병이구나. 지금 열이 나고 반점이 생겼는데 또 어떤 증세가 나타나?",
+            "turn_id": "BK22003362-2",
+            "utterance_id": "BK22003362.3"
+        },
+        {
+            "reference_date": "2022-07-18",
+            "reference_text": [
+                {
+                    "value": "보통 발열 1~2일 후에, 입 안의 볼 안쪽, 잇몸과 혀에 작은 붉은 반점이 나타나며, 수포 또는 궤양으로 변한다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 외에 식욕감소, 피로감, 설사, 구토 등의 증상이 나타난다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/07/15/2022071501794.html",
+            "search_query": "수족구 증세",
+            "terminate": false,
+            "text": "발열 1에서 2일 후에는 볼 안쪽과 잇몸, 혀에 작은 붉은 반점이 나타나다가 수포나 궤양으로 변해. 그리고 식욕이 없고, 피곤해하며, 설사나 구토 증세도 나타날 수 있어.",
+            "turn_id": "BK22003362-2",
+            "utterance_id": "BK22003362.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "입안에 수포가 생기니 입맛이 없긴 하겠어. 혹시 합병증도 나타날 수 있어?",
+            "turn_id": "BK22003362-3",
+            "utterance_id": "BK22003362.5"
+        },
+        {
+            "reference_date": "2022-07-23",
+            "reference_text": [
+                {
+                    "value": "뇌간 뇌척수염, 뇌염이나 회색질척수염와 같은 마비증상, 신경성 폐부종, 폐출혈, 심근염, 심장막염 등의 합병증은 생명을 위협할 수 있다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.econovill.com/news/articleView.html?idxno=582690",
+            "search_query": "수족구 합병증",
+            "terminate": false,
+            "text": "응, 신경성 폐부종, 폐출혈, 심근염, 심장막염이나 뇌간 뇌척수염, 뇌염이나 회색질척수염 같은 마비 증상이 나타날 수 있어.",
+            "turn_id": "BK22003362-3",
+            "utterance_id": "BK22003362.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "합병증이 너무 무서운데 잘 관리해 줘야겠다. 혹시 둘째 아이에게도 전염될 수 있어?",
+            "turn_id": "BK22003362-4",
+            "utterance_id": "BK22003362.7"
+        },
+        {
+            "reference_date": "2022-07-12",
+            "reference_text": [
+                {
+                    "value": "환자가 감염된 후 대변으로 수주에서 수개월까지도 바이러스가 분비될 수 있으며, 호흡기 분비물로는 1-3주까지 감염력을 보일 수 있다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "증상이 없는 상태에서도 바이러스를 분비할 수 있다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mdilbo.com/detail/5yPgc8/673693",
+            "search_query": "수족구 전염력",
+            "terminate": false,
+            "text": "감염된 후 호흡기 분비물로 1에서 3주까지 감염력을 보이기도 하고, 대변으로 수주에서 수개월까지 바이러스가 분비될 수도 있어. 또, 증상이 없는 것 같아도 바이러스가 분비되기도 하니 전염되지 않게 조심해야 해.",
+            "turn_id": "BK22003362-4",
+            "utterance_id": "BK22003362.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "둘째 아이에게 전염되지 않도록 주의해야 하겠네. 그럼 수족구병은 백신은 없어?",
+            "turn_id": "BK22003362-5",
+            "utterance_id": "BK22003362.9"
+        },
+        {
+            "reference_date": "2022-07-12",
+            "reference_text": [
+                {
+                    "value": "수족구병은 아직 백신이 개발되지 않았기 때문에 예방이 최선입니다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/07/12/2022071201371.html",
+            "search_query": "수족구 백신",
+            "terminate": false,
+            "text": "응, 아직 백신이 개발되지 않아 예방하는 것이 중요해.",
+            "turn_id": "BK22003362-5",
+            "utterance_id": "BK22003362.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "백신이 빨리 개발되었으면 좋겠다. 수족구병은 어떻게 간호해 줘야 해?",
+            "turn_id": "BK22003362-6",
+            "utterance_id": "BK22003362.11"
+        },
+        {
+            "reference_date": "2022-04-01",
+            "reference_text": [
+                {
+                    "value": "아이가 수족구병에 걸렸다면 우선 잘 먹여야 한다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "입안이 아파 아이가 잘 먹지 못할 때는 부드럽고 자극적이지 않은 음식을 준비한다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01213606632291856&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "수족구 치료",
+            "terminate": false,
+            "text": "일단 잘 먹이는 것이 중요해. 입안이 아파서 잘 먹지 못할 테니 부드럽고 자극적이지 않은 음식을 준비해 줘.",
+            "turn_id": "BK22003362-6",
+            "utterance_id": "BK22003362.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "계란찜 같은 부드러운 걸 준비해 줘야겠어. 혹시 아이스크림을 달라고 하는데 줘도 될까?",
+            "turn_id": "BK22003362-7",
+            "utterance_id": "BK22003362.13"
+        },
+        {
+            "reference_date": "2022-03-30",
+            "reference_text": [
+                {
+                    "value": "설사만 없다면 아이스크림을 줘도 상관없다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아이들이 좋아하는 아이스크림을 주면 아파도 잘 먹는 경우가 많고 찬 것을 먹이면 입안이 얼얼해져 아픈 것도 좀 잊을 수 있다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.bosa.co.kr/news/articleView.html?idxno=2170824",
+            "search_query": "수족구 음식",
+            "terminate": false,
+            "text": "설사만 없으면 아이스크림 먹여도 괜찮아. 찬 걸 먹으면 입이 얼얼해져서 아픈 것도 좀 줄일 수도 있어.",
+            "turn_id": "BK22003362-7",
+            "utterance_id": "BK22003362.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이스크림 먹어도 돼서 다행이다. 수족구병을 빨리 낫게 하는 방법은 뭐가 있어?",
+            "turn_id": "BK22003362-8",
+            "utterance_id": "BK22003362.15"
+        },
+        {
+            "reference_date": "2019-09-17",
+            "reference_text": [
+                {
+                    "value": "수족구 빨리 낫는 법은 손씻기와 하루 세 번 양치질 생활화다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "가글액을 사용하고 아프면 항생제 치료 등을 한다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailysecu.com/news/articleView.html?idxno=70086",
+            "search_query": "수족구 낫는 법",
+            "terminate": false,
+            "text": "손을 잘 씻고 양치질을 꼭 세 번 하고, 가글액을 사용해서 입안을 청결하게 해줘.",
+            "turn_id": "BK22003362-8",
+            "utterance_id": "BK22003362.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어, 첫째는 잘 관리해 주고 둘째가 옮지 않도록 신경도 써야겠어.",
+            "turn_id": "BK22003362-9",
+            "utterance_id": "BK22003362.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 잘 관리해야지 아이들이 아픈 것만큼 힘든 게 없더라.",
+            "turn_id": "BK22003362-9",
+            "utterance_id": "BK22003362.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 아이가 아프니 집도 엉망이고 힘드네.",
+            "turn_id": "BK22003362-10",
+            "utterance_id": "BK22003362.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "고생스럽겠지만 잘 간호해서 빨리 좋아지길 바랄게.",
+            "turn_id": "BK22003362-10",
+            "utterance_id": "BK22003362.20"
+        }
+    ]
+}

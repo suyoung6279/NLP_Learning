@@ -1,0 +1,409 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016001",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016001",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나 요즘 반려동물을 입양할까 심각하게 고민 중이야. 조카가 토끼를 엄청 키우고 싶어 하는데 언니네 부부가 못 키우게 하거든. 그래서 내가 대신 키우고 우리 집에 자주 놀러 오게 할까 싶어서.",
+            "turn_id": "BK22016001-1",
+            "utterance_id": "BK22016001.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 좋은 이모네. 토끼를 키웠던 한 사람으로서 니가 이것저것 알아보고 신중히 선택했으면 좋겠다. 어쨌든 생명을 들이는 일이니까.",
+            "turn_id": "BK22016001-1",
+            "utterance_id": "BK22016001.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "물론 그래야지. 그나저나 네가 토끼를 키운 적이 있었는지 몰랐는데 그럼 네가 정보를 좀 주면 되겠다. 토끼는 뭘 주식으로 먹어?",
+            "turn_id": "BK22016001-2",
+            "utterance_id": "BK22016001.3"
+        },
+        {
+            "reference_date": "2018-02-12",
+            "reference_text": [
+                {
+                    "value": "사실 토끼의 주식은 건초와 같은 섬유질이 풍부한 식물이라고 합니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "초식동물인 토끼가 먹은 식물을 소화시키기 위해서는 섬유질이 꼭 필요하기 때문입니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "건초의 섬유질은 장 운동을 촉진시켜 장내 독소 발생을 막아주고, 장내 유익균을 증진시키는 등 토끼의 소화기관에서 중요한 역할을 한다고 해요.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/201802121144740691",
+            "search_query": "토끼 주식",
+            "terminate": false,
+            "text": "토끼는 초식동물이라 식물을 먹는데 이 식물을 소화시키려면 섬유질이 필수야. 그래서 섬유질이 많이 들어있는 식물을 주식으로 먹어. 건초와 같은 것들 말이지. 건초에 들어있는 섬유질은 장운동을 활발하게 해줄 뿐 아니라 장 안에 독소가 발생하는 것도 억제해 주고 장내 유익균도 늘려주는 중요한 역할을 해.",
+            "turn_id": "BK22016001-2",
+            "utterance_id": "BK22016001.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "난 당근이 주식일 거라고 생각했는데 건초가 주식이었구나. 그래도 토끼는 당근을 잘 먹으니 주식처럼 많이 주면 어떨까 싶은데 어느 정도 주는 게 좋아?",
+            "turn_id": "BK22016001-3",
+            "utterance_id": "BK22016001.5"
+        },
+        {
+            "reference_date": "2018-06-11",
+            "reference_text": [
+                {
+                    "value": "영국 수의사협회(BVA)는 토끼 주간을 맞아 올바른 식단 원칙을 권고하면서, 토끼에게 당근이 나쁘다고 경고했다고 영국 일간지 익스프레스가 지난 5일(현지시간) 보도했다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 당근은 토끼에게 먹이기엔 당분이 너무 많아, 특별한 간식으로 가끔 주는 것이 바람직하다고 권고했다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그래서 많은 사람들이 토끼의 주식을 당근으로 착각한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 당근에 당분이 너무 많은 것이 문제다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "당근은 토끼에게 간식이 될 수 있지만, 밥이 될 순 없다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.seoul.co.kr/news/newsView.php?id=20180611500055",
+            "search_query": "토끼 당근",
+            "terminate": false,
+            "text": "너처럼 토끼가 당근을 주식으로 한다고 생각하는 사람들이 많은데 당근은 토끼에게 그다지 좋은 식품이 아니라 주식만큼 먹이면 안 돼. 당분이 과도하게 많아서 문제가 되거든. 그래서 영국 수의사협회에서는 토끼에게 당근이 나쁘다는 경고도 했지. 간식으로 아주 가끔만 주는 정도가 적당해.",
+            "turn_id": "BK22016001-3",
+            "utterance_id": "BK22016001.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "당근이 토끼한테 좋지 않다니 좀 충격이다. 나뿐 아니라 이 얘기 들으면 놀랄 사람들 많을 것 같아. 그리고 당근이 안 좋다니까 궁금해지는데 토끼가 먹으면 혹시 위험할 수 있는 음식이 있어?",
+            "turn_id": "BK22016001-4",
+            "utterance_id": "BK22016001.7"
+        },
+        {
+            "reference_date": "2021-10-31",
+            "reference_text": [
+                {
+                    "value": "빵, 과자, 고구마, 감자 등 탄수화물과 전분이 포함된 음식은 독소와 가스를 발생해 생명을 위험하게 할 수 있으니 주지 않도록 한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4473885",
+            "search_query": "토끼 위험한 음식",
+            "terminate": false,
+            "text": "탄수화물과 전분이 포함된 음식은 토끼에게 위험할 수 있어. 독소와 가스를 발생시켜서 목숨까지 위태롭게 할 수 있거든. 그러니 빵, 과자, 고구마, 감자 등은 토끼가 먹는 일이 없도록 주의해야 돼.",
+            "turn_id": "BK22016001-4",
+            "utterance_id": "BK22016001.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 조카한테 얘기해둬야겠다. 그리고 토끼의 수명에 대해서도 궁금한데 어느 정도나 돼? 난 수명이 너무 짧은 동물은 키우기가 좀 그런데.",
+            "turn_id": "BK22016001-5",
+            "utterance_id": "BK22016001.9"
+        },
+        {
+            "reference_date": "2022-04-14",
+            "reference_text": [
+                {
+                    "value": "반려동물로 양육하는 토끼의 평균 수명은 10년 정도로 알려져 있으며, 14-16년 정도 된 고령의 토끼도 있다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.daejonilbo.com/news/articleView.html?idxno=1514392",
+            "search_query": "토끼 평균수명",
+            "terminate": false,
+            "text": "반려동물로 길러지는 토끼는 평균 10년 정도 살 수 있어. 오래 사는 애들은 14년에서 16년까지 살기도 하고.",
+            "turn_id": "BK22016001-5",
+            "utterance_id": "BK22016001.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내 생각보다 수명이 길구나. 그럼 알레르기 문제만 없으면 입양해도 괜찮을 것 같다. 내가 듣기론 개나 고양이는 알레르기를 유발할 수도 있다고 하던데 토끼는 어때?",
+            "turn_id": "BK22016001-6",
+            "utterance_id": "BK22016001.11"
+        },
+        {
+            "reference_date": "2021-10-31",
+            "reference_text": [
+                {
+                    "value": "먼저 가족 중에 알레르기가 있는 사람이 있는지 확인한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "토끼의 털과 토끼가 먹는 건초에는 알레르기를 일으킬 수 있는 성분이 있다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "가족과 토끼 모두의 행복을 위해 입양 전 알레르기가 있는지 꼭 확인한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4473885",
+            "search_query": "토끼 알레르기",
+            "terminate": false,
+            "text": "토끼도 마찬가지야. 토끼의 털이나 토끼가 먹는 건초에는 알레르기를 유발할 수 있는 성분이 포함되어 있거든. 그러니 입양을 염두에 두고 있다면 가족 모두가 알레르기 여부를 미리 확인 보는 게 좋아.",
+            "turn_id": "BK22016001-6",
+            "utterance_id": "BK22016001.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "난 동물 자체가 알레르기를 유발하는 건 줄 알았는데 그런 게 아니었구나. 먹는 거야 뭐, 다른 걸로 대체해 주면 문제가 없을 것 같은데 털이 문제가 되겠다. 토끼 털에 알레르기가 있으면 어떤 증상이 나타나지?",
+            "turn_id": "BK22016001-7",
+            "utterance_id": "BK22016001.13"
+        },
+        {
+            "reference_date": "2017-06-25",
+            "reference_text": [
+                {
+                    "value": "고양이와 개, 토끼 등의 털 알레르기는 콧물, 재채기가 생기거나, 민감성피부는 동물과 닿기만 해도 두드러기나 피부가 가려운 증상이 나타난다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "눈이 충혈되거나, 결막염과 같은 증상이 나타나기도 한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.cctvnews.co.kr/news/articleView.html?idxno=69252",
+            "search_query": "토끼 털 알레르기 증상",
+            "terminate": false,
+            "text": "이건 토끼뿐 아니라 개나 고양이도 다 같은데 얘네들 털에 알레르기가 있으면 콧물이나 재채기 등이 나타나. 또 민감성 피부를 가지고 있는 경우에는 동물과의 접촉만으로도 두드러기가 올라오거나 피부가 가려운 증상도 생기고. 그 외에도 눈이 충혈되거나 결막염 등이 나타날 수도 있어.",
+            "turn_id": "BK22016001-7",
+            "utterance_id": "BK22016001.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "콧물이나 재채기는 몰라도 그 외에 증상들은 가벼운 게 아니네. 그럼 검사를 받아봐야 할 것 같은데 방법 좀 알려줄래?",
+            "turn_id": "BK22016001-8",
+            "utterance_id": "BK22016001.15"
+        },
+        {
+            "reference_date": "2017-06-07",
+            "reference_text": [
+                {
+                    "value": "알레르기 증상이 반려동물 때문인지 알아보는 가장 확실한 방법은 피부과나 이비인후과, 내과 등을 방문해 알레르기 검사를 해보는 것이다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://bravo.etoday.co.kr/view/atc_view.php?varAtcId=7104",
+            "search_query": "알레르기 검사",
+            "terminate": false,
+            "text": "반려동물과 관련된 알레르기 검사는 피부과나 이비인후과, 내과 등을 방문해서 하면 돼. 이게 가장 확실하게 알 수 있는 방법이야.",
+            "turn_id": "BK22016001-8",
+            "utterance_id": "BK22016001.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집 근처에 내과가 있으니 가서 받아봐야겠다. 별다른 문제가 없으면 입양하는 쪽으로 해야겠어. 아, 근데 마음에 걸리는 얘기가 하나 있었는데 누가 토끼는 번식력을 감당할 수 있는 사람만 길러야 된다는 말을 하던데 번식력이 어느 정도야?",
+            "turn_id": "BK22016001-9",
+            "utterance_id": "BK22016001.17"
+        },
+        {
+            "reference_date": "2021-10-31",
+            "reference_text": [
+                {
+                    "value": "토끼들은 번식력이 왕성하다.",
+                    "value_time": "2022-10-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "매달 4~10마리 새끼들을 출산할 수 있다.",
+                    "value_time": "2022-10-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "토끼는 생후 3~6개월 사이에 성적으로 성숙해진다.",
+                    "value_time": "2022-10-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아기 토끼들을 책임질 수 없다면 중성화 수술은 필수.",
+                    "value_time": "2022-10-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "중성화는 자궁과 유방 관련 질병을 예방하고 소변 스프레이 방지에도 도움이 된다.",
+                    "value_time": "2022-10-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4473885",
+            "search_query": "토끼 번식력",
+            "terminate": false,
+            "text": "토끼는 생후 3개월에서 6개월 정도가 되면 성적으로 성숙해지는데 매달 4마리에서 10마리 정도의 새끼를 낳을 정도로 번식력이 엄청난 동물이야. 그러니 새끼들을 감당할 수 없다면 중성화 수술을 해줄 필요가 있어. 중성화 수술은 새끼 문제뿐 아니라 자궁과 유방 관련된 질병을 예방하는 데에도 도움이 되고 소변 스프레이를 방지할 수 있는 효과도 있어. 그러니 이런 점들을 염두에 두고 중성화에 대해 미리 고민해 보면 좋아.",
+            "turn_id": "BK22016001-9",
+            "utterance_id": "BK22016001.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "키우게 된다면 중성화는 꼭 해야겠다. 매달 한 마리도 감당이 안 될 판인데 최대 10마리면 나는 무리야. 너 아니었으면 나중에 힘들어질 뻔했다.",
+            "turn_id": "BK22016001-10",
+            "utterance_id": "BK22016001.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도움이 됐다니 다행이다. 더 궁금한 거 있으면 물어봐도 돼.",
+            "turn_id": "BK22016001-10",
+            "utterance_id": "BK22016001.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아니, 오늘은 여기까지 할게. 대략적인 건 알아뒀으니까 병원 가서 알레르기 검사부터 받아보는 게 좋을 것 같아. 그럼 나 이만 가볼게.",
+            "turn_id": "BK22016001-11",
+            "utterance_id": "BK22016001.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 잘 가고 검사 결과 나오면 그때 또 얘기하자.",
+            "turn_id": "BK22016001-11",
+            "utterance_id": "BK22016001.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 결과 나오면 연락할게.",
+            "turn_id": "BK22016001-12",
+            "utterance_id": "BK22016001.23"
+        }
+    ]
+}

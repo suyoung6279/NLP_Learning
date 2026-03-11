@@ -1,0 +1,433 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015971",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015971",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제 딸이 요즘 짜증을 자주 내요. 엄마를 졸졸 따라다니면서 시도 때도 없이 귀찮게 굴던 게 엊그제 같은데 벌써 사춘기인가 싶고, 걱정되네요. 저랑 대화도 잘하려고 하지 않고 밤늦게 집에 들어오는 일이 잦고 짜증도 잘 내네요.",
+            "turn_id": "BK22015971-1",
+            "utterance_id": "BK22015971.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자녀분의 변화에 많이 당황스러우시겠네요. 정말 속상하실 것 같아요.",
+            "turn_id": "BK22015971-1",
+            "utterance_id": "BK22015971.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "속상하기도 하고 걱정도 많이 되죠. 제 눈에는 아직도 아기 같은데 벌써 사춘기가 찾아왔나 싶어요. 요즘은 대체로 언제쯤 사춘기가 찾아오는지 알려주실 수 있나요?",
+            "turn_id": "BK22015971-2",
+            "utterance_id": "BK22015971.3"
+        },
+        {
+            "reference_date": "2022-08-24",
+            "reference_text": [
+                {
+                    "value": "사춘기는 다른 말로 ‘제2의 성장급등기’라고 불린다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "남아들은 만 13세 경에 사춘기에 접어들며, 여아들은 만 11~12세 경에 사춘기로 접어들게 된다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여자아이의 신체적 성숙이 남자보다 빠른 경향이 있다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailian.co.kr/news/view/1145650/?sc=Naver",
+            "search_query": "사춘기",
+            "terminate": false,
+            "text": "사춘기는 제2의 성장 급등기라고도 불리는데요. 남자아이 같은 경우에는 만 13세 경에 사춘기에 접어들어요. 여자아이들은 만 11~12세 경에 사춘기가 시작되구 요. 그리고 여자아이가 남자아이보다 신체적 성숙이 빠른 경향이 있죠.",
+            "turn_id": "BK22015971-2",
+            "utterance_id": "BK22015971.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 사춘기가 빨리 시작되네요. 중학생쯤은 되어야 사춘기가 찾아오는 줄 알았는데요. 그렇다면 사춘기를 맞은 아이에게는 어떤 특징이 나타나는지도 설명해 주실 수 있나요?",
+            "turn_id": "BK22015971-3",
+            "utterance_id": "BK22015971.5"
+        },
+        {
+            "reference_date": "2020-07-21",
+            "reference_text": [
+                {
+                    "value": "친구들과 무리 지어 몰려다니는 것을 좋아하며, 하루종일 학교에서 함께 지냈으면서 집에 돌아와도 문자와 전화가 끊이질 않는다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반면, 부모와의 대화는 줄고, 무슨 말을 해도 알아서 한다며 소리를 지른다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 외에도 감정 기복이 심하며, 본인의 말과 행동은 앞뒤가 안 맞으면서도 부모의 작은 실수에도 경멸과 비난을 퍼붓기도 하는 모순적인 모습을 보인다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 사춘기 청소년들의 보편적인 특징이다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://edu.donga.com/?p=article&ps=view&at_no=20200721174024912265",
+            "search_query": "사춘기 특징",
+            "terminate": false,
+            "text": "사춘기를 맞은 아이는 친구들과 짝을 지어 몰려다니는 것을 좋아하고 집에 와서도 학교에서 봤던 친구들과 끊이지 않게 메신저와 통화를 하죠. 그렇지만 부모와의 대화는 줄어들며 무슨 말을 해도 알아서 한다며 짜증을 내요. 그 외에도 심한 감정 기복을 보이며, 부모가 작은 실수라도 하면 비난하고 경멸하는 모습을 보이기도 하죠. 이런 모순적인 모습들은 사춘기 청소년들이 보여주는 보편적인 특징이에요.",
+            "turn_id": "BK22015971-3",
+            "utterance_id": "BK22015971.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제 딸이 보이는 증상과 비슷하네요. 그러면 이런 태도 말고 사춘기가 시작되면 나타나는 신체적 변화도 있을까요? 신체적 변화까지 체크해봐야 사춘기인지 아닌지 정확하게 알 수 있을 것 같아요.",
+            "turn_id": "BK22015971-4",
+            "utterance_id": "BK22015971.7"
+        },
+        {
+            "reference_date": "2022-07-11",
+            "reference_text": [
+                {
+                    "value": "사춘기가 시작되면 신체변화가 시작된다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "보통 여아는 유선이 발달하면서 가슴멍울이 생기고 가슴을 살짝만 스쳐도 아프다고 하면서부터, 남아는 고환이 커지면서 사춘기가 시작된다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여아의 경우 일정시간이 지나면서 음모와 액모가 보이고 초경을 하게 된다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "남아는 음경, 음낭, 고환의 크기가 커지며 목소리 변화와 여드름 등의 증후를 보이게 된다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mdtoday.co.kr/news/view/1065606833629213",
+            "search_query": "사춘기 신체 변화",
+            "terminate": false,
+            "text": "사춘기가 찾아오면 신체에도 변화가 찾아오는데요. 보통 여자아이는 유선이 발달하고 가슴멍울이 생기면서 가슴이 살짝만 스쳐도 아프다고 하죠. 또한 남자아이 같은 경우는 사춘기가 시작되면서 고환이 커져요. 또한 여자아이는 일정 시간이 흐르면 음모와 액모를 보이고 초경을 시작하게 돼요. 남자 아이는 음낭, 음경, 고환이 커지고 목소리가 바뀌며 여드름 등의 증상이 나타나죠.",
+            "turn_id": "BK22015971-4",
+            "utterance_id": "BK22015971.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러고 보니 딸이 최근에 월경을 시작하고 음모가 나기 시작했는데 정말 사춘기가 찾아왔나 보네요. 그런데 사춘기에 접어들면 청소년의 행동이 정말 변화하는 거죠? 자녀의 행동 변화가 부모인 저도 참 당황스럽고 속상해서요.",
+            "turn_id": "BK22015971-5",
+            "utterance_id": "BK22015971.9"
+        },
+        {
+            "reference_date": "2021-07-19",
+            "reference_text": [
+                {
+                    "value": "김 교수는 “사춘기에는 남성호르몬인 테스토스테론 분비가 증가하면서 뇌에서 부정적인 감정을 처리하는 편도핵을 자극한다. 또한 인간을 가장 인간답게 해주는 사고능력, 감정 조절 능력을 만들어내는 전두엽이 일시적으로 불안정해진다”며 “이로 인해 뇌 발달과 동시에 정서적 변화가 일어날 수 있으며 이상 행동도 보일 수 있다”고 밝혔다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/special/special_section/2021/07/19/UJNF7GOPZBAFVEGLN2YPW7EUNU/",
+            "search_query": "사춘기 뇌",
+            "terminate": false,
+            "text": "네, 사춘기에 접어들면 남성 호르몬인 테스토스테론이 분비되는 양이 늘어나며 뇌에서 부정적인 감정을 처리하는 편도핵을 자극해요. 또한 인간이라면 가지고 있는 사고능력, 감정을 조절할 수 있는 능력을 만들어내는 전두엽이 일시적으로 불안정해지죠. 이 때문에 뇌가 발달하는 동시에 정서적인 변화가 일어날 수 있고 이상 행동을 할 수도 있는 거에요.",
+            "turn_id": "BK22015971-5",
+            "utterance_id": "BK22015971.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사춘기에 접어들었다고 괜히 짜증 내고 심술부리는 게 아니라 과학적인 이유가 있는 행동이었네요. 아, 그리고 딸이 요즘 여드름이 났다고 많이 속상해하던데 여드름도 사춘기의 증상이 맞죠? 사춘기여서 여드름이 나는 거라면 어떻게 관리를 해줘야 하는 걸까요?",
+            "turn_id": "BK22015971-6",
+            "utterance_id": "BK22015971.11"
+        },
+        {
+            "reference_date": "2022-07-29",
+            "reference_text": [
+                {
+                    "value": "사춘기 청소년들의 대표적인 피부고민이 바로 여드름이다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사춘기에는 호르몬 분비의 급격한 증가나 수면 부족, 불규칙한 생활 습관과 학업 스트레스 등의 이유로 여드름이 심해질 수 있고, 특히 여름에는 덥고 습한 날씨와 강한 자외선으로 인해 땀과 피지 분비가 증가되어 여드름이 악화될 수 있다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "제때 치료하지 않거나 여드름을 면봉이나 손톱을 이용해 무리하게 압출하려 한다면 붉은 자국, 색소침착, 패인흉터를 남길 수 있다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "여드름 치료는 환자별로 정확한 원인을 찾고 그에 따른 적절한 치료를 찾는 것이 중요하기 때문에 전문의의 진료를 통해 정확하게 진단하고 부작용 없이 안전한 시술을 진행하는 것이 필요하다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mediafine.co.kr/news/articleView.html?idxno=13154",
+            "search_query": "사춘기 여드름",
+            "terminate": false,
+            "text": "사춘기 청소년들이 가지고 있는 대표적인 피부 고민을 꼽자면 바로 여드름이에요. 사춘기에는 호르몬이 분비되는 양이 급격하게 증가하고 불충분한 수면량, 규칙적이지 못한 생활 습관, 학업 스트레스 등의 이유로 여드름이 악화될 수 있어요. 특히 여름에는 덥고 습한 날씨와 강한 자외선 때문에 땀과 피지 분비가 늘어서 여드름이 더 심해질 수 있는데요. 때를 맞춰서 치료하지 않거나 여드름을 면봉이나 손톱으로 무리하게 짜내려 한다면 붉은 자국, 색소침착, 패인 흉터가 남을 수 있어요. 또한 여드름 치료는 정확한 원인을 찾아내고 그에 알맞은 치료 방법을 찾는 것이 중요하므로 전문의의 진료를 통해서 증상을 정확하게 진단받고 안전한 시술을 받으시는 게 좋아요.",
+            "turn_id": "BK22015971-6",
+            "utterance_id": "BK22015971.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "딸과 같이 피부과에 찾아가서 진단을 받아보는 게 제일 좋겠네요. 그런데 사춘기에 대해 찾아보니까 사춘기 같아 보여도 알고 보니 우울증일 수도 있다고 하더라고요. 청소년 우울증에 관해서도 설명 해주실 수 있을까요?",
+            "turn_id": "BK22015971-7",
+            "utterance_id": "BK22015971.13"
+        },
+        {
+            "reference_date": "2022-10-12",
+            "reference_text": [
+                {
+                    "value": "자녀가 아직 사춘기가 올 시기도 아닌데 갑작스럽게 고집스럽고 예민해져 고민인 분들이 많습니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사춘기가 너무 일찍 시작된 것이라고 생각하며 가볍게 여기는 경우도 있지만, 아이의 감정 변화 굴곡이 너무 심하다면 사춘기보다는 소아청소년 우울증은 아닌지 의심해볼 필요가 있습니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "소아청소년에게 나타나는 우울증은 성인에 비해 발견이 어려운데, 방치하는 기간이 길어지면 회복과 재발이 반복되면서 우울형 인격이나 만성적 우울증으로 이어질 수 있어 보호자의 각별한 관심과 자가진단을 통한 빠른 발견이 중요합니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthinnews.co.kr/news/articleView.html?idxno=32960",
+            "search_query": "청소년 우울증",
+            "terminate": false,
+            "text": "아직 사춘기가 찾아올 시기가 아닌 자녀인데 갑자기 고집스럽고 예민한 모습을 보여서 고민인 분들이 많은데요. 사춘기가 일찍 시작했다고 심각하지 않게 여기는 경우도 있지만 아이가 너무 심한 감정의 굴곡 변화를 보인다면 사춘기가 아니라 소아청소년 우울증 증상이 아닌지 주의 깊게 살펴보실 필요가 있어요. 성인의 우울증과 비교해 볼 때 소아청소년의 우울증은 발견해 내는 게 쉽지 않지만 방치하는 시간이 늘어나면 회복과 재발이 반복되면서 우울형 인격이나 만성적 우울증으로 이어질 수 있어요. 보호자가 아이에게 깊은 관심을 가지고 자가 진단을 통해서 빠르게 발견해 주시는 게 중요해요.",
+            "turn_id": "BK22015971-7",
+            "utterance_id": "BK22015971.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어린아이들에게도 우울증이 찾아올 수 있다니 충격적이네요. 아, 그런데 사춘기를 겪는 자녀도 혼란스럽겠지만 그런 자녀를 대해야 하는 부모들도 참 당혹스럽거든요. 사춘기 자녀를 대할 때 부모는 어떤 자세를 가져야 할까요?",
+            "turn_id": "BK22015971-8",
+            "utterance_id": "BK22015971.15"
+        },
+        {
+            "reference_date": "2022-08-24",
+            "reference_text": [
+                {
+                    "value": "사춘기 아이에게 부모로써 해줄 수 있는 역할은 이렇다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "첫 번째로, 변화에 대한 이해와 수용이다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "부모는 아이의 변화와 성장을 받아드리는 것이 필요하다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아이가 독립적인 인격체로 스스로 생각하고 결정할 수 있는 성인으로의 과정임을 인지하고 아이의 심리적 변화에 대해 잘 이해하고 이를 수용해주는 태도가 중요하다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailian.co.kr/news/view/1145650/?sc=Naver",
+            "search_query": "사춘기 부모",
+            "terminate": false,
+            "text": "사춘기 자녀에게 부모가 해줄 수 있는 역할에 대해 설명해 드릴게요. 일단 자녀가 보이는 변화에 대해서 이해와 수용을 해주셔야 해요. 부모는 아이가 변화하고 성장하는 과정을 받아들이는 것이 필요하기 때문이죠. 아이를 독립적인 인격체로 봐주셔야 하며, 아이가 스스로 생각하고 결정할 수 있는 성인이 되어가는 과정이라는 것을 인지하고 계셔야 해요. 또한 아이의 심리적인 변화에 대해 이해하려고 노력하고 이를 수용해주는 태도를 가지시는 게 중요하죠.",
+            "turn_id": "BK22015971-8",
+            "utterance_id": "BK22015971.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이해하고 받아들이는 태도가 제일 중요하다는 말씀이네요. 그리고 사실 걱정이 되게 하나 있는데 딸이 얼마 전에 월경을 시작하기도 했고 요즘 성범죄가 워낙 심각한 문제다 보니까 성교육이 필요할 것 같은데요. 성에 관한 얘기를 꺼내는 게 민망하지만 그래도 성에 대한 교육을 꼭 해야 할 것 같은데 어떻게 하는 게 좋을지 알려주실 수 있을까요?",
+            "turn_id": "BK22015971-9",
+            "utterance_id": "BK22015971.17"
+        },
+        {
+            "reference_date": "2020-11-04",
+            "reference_text": [
+                {
+                    "value": "아이에게 성 이야기를 꺼내는 일이 꺼려진다면 책의 도움을 받는 것을 추천합니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2차 성징의 일반적인 사춘기 고민부터 디지털 성범죄, 성별 고정관념, 성적 가치관 등 포괄적인 성 고민까지 전반적인 아동의 성 관련 이슈를 아이들의 눈높이에서 구성한 책이면 좋습니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "부모와 아이가 책을 읽은 뒤에 느낀 점을 서로 이야기해보면 좋습니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아이가 어떤 고민을 하고 있는지 듣고 이에 대해 부모의 생각을 공유하면 효과적인 성교육은 물론 정서적인 교감도 가능해집니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이때 자녀가 사춘기 변화를 자연스럽게 받아들일 수 있도록 도와주세요.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/1ZAA03ZI4K",
+            "search_query": "사춘기 성교육",
+            "terminate": false,
+            "text": "말씀하신 것처럼 아이에게 성에 대한 대화를 시도하는 게 꺼려진다면 책의 도움을 받는 것을 추천해요. 2차 성징의 일반적인 사춘기 고민부터 디지털 성범죄, 성적 가치관 , 성별 고정관념 등 포괄적인 성 고민까지 전반적인 아동의 성을 테마로 한 내용을 아이들의 수준에서 구성한 책을 고르시면 돼요. 그런 다음 부모와 아이가 책을 읽고 난 후 느낀 점을 대화를 통해 나누시면 되는데요. 이를 통해서 아이가 가진 고민에 대해서도 듣고 이에 대해 부모의 생각을 나누면 성에 대한 교육을 효과적으로 할 수 있는 데다 정서적인 교감까지 나눌 수 있죠. 이때 자녀가 사춘기 때 찾아오는 변화를 자연스럽게 받아들이도록 도와주세요.",
+            "turn_id": "BK22015971-9",
+            "utterance_id": "BK22015971.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "책을 통해서 성교육을 가족이 다 같이 하면 더 효과적이겠네요. 이렇게 친절하게 사춘기에 대해서 알려주셔서 정말 감사해요. 자녀의 변화에 좀 더 의연하게 대처할 수 있을 것 같네요.",
+            "turn_id": "BK22015971-10",
+            "utterance_id": "BK22015971.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이 정도로 뭘요. 또 궁금한 게 생기시면 주저 말고 물어봐 주세요.",
+            "turn_id": "BK22015971-10",
+            "utterance_id": "BK22015971.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알려주신 정보들이 도움이 많이 될 것 같아요. 정말 감사해요. 자녀를 이해하고 변화를 수용하려고 노력해 봐야겠어요.",
+            "turn_id": "BK22015971-11",
+            "utterance_id": "BK22015971.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "제 설명이 도움이 되셨다니 저도 기분이 좋네요. 자녀의 변화에 잘 대처하실 수 있기를 바랄게요.",
+            "turn_id": "BK22015971-11",
+            "utterance_id": "BK22015971.22"
+        }
+    ]
+}

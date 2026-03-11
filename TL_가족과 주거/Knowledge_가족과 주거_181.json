@@ -1,0 +1,352 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014629",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014629",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "결혼하고도 혼인신고를 하지 않는 이유는 뭐죠?",
+            "turn_id": "BK22014629-1",
+            "utterance_id": "BK22014629.1"
+        },
+        {
+            "reference_date": "44712.0",
+            "reference_text": [
+                {
+                    "value": "신혼집 마련을 위해 부부 모두 개인 자격으로 주택청약 추첨에 참여하기 위해서다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "부부 모두 주택을 보유하고 있어 혼인신고를 늦추는 가정도 있다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "혼인신고 이후 다주택자 보유세 등 세금 부담을 피하기 위해서다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자녀 계획이 없는 딩크(DINK)족은 결혼 제도 자체가 허례허식이라고 목소리를 높인다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/26667ETNHE",
+            "search_query": "혼인신고를 안 하는 이유",
+            "terminate": false,
+            "text": "자녀 계획이 없어 혼인신고는 허례허식이라고 생각하거나 신혼집을 마련하기 위해 부부가 개인의 자격으로 주택청약 추첨에 참여하려고 혼인신고를 하지 않기도 합니다. 또 부부 모두가 주택을 가지고 있는 경우 다주택자 보유세 등의 세금 부담을 피하려고 혼인신고를 늦추기도 해요.",
+            "turn_id": "BK22014629-1",
+            "utterance_id": "BK22014629.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혼인신고를 해야 하는 기한이 정해져 있나요?",
+            "turn_id": "BK22014629-2",
+            "utterance_id": "BK22014629.3"
+        },
+        {
+            "reference_date": "44788.0",
+            "reference_text": [
+                {
+                    "value": "혼인은 「가족관계의 등록 등에 관한 법률」에 따라 신고함으로써 그 효력이 생기므로 신고기간이 별도로 존재하지는 않습니다(「민법」 제812조제1항 참조).",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=707&ccfNo=4&cciNo=1&cnpClsNo=1&menuType=cnpcls&search_put=",
+            "search_query": "혼인신고",
+            "terminate": false,
+            "text": "혼인은 가족관계의 등록 등에 관한 법률에 따라서 신고해야 그 효력이 발생하기 때문에 신고기한이 따로 있지 않아요.",
+            "turn_id": "BK22014629-2",
+            "utterance_id": "BK22014629.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혼인신고를 하지 않을 경우 불이익이 있나요?",
+            "turn_id": "BK22014629-3",
+            "utterance_id": "BK22014629.5"
+        },
+        {
+            "reference_date": "43887.0",
+            "reference_text": [
+                {
+                    "value": "혼인신고 안하면 특별한 불이익은 없지만 경제적 문제인 상속, 보험금, 재산권 등의 권리는 전혀 없기 때문에 혼인신고를 해주는게 경제적 혜택을 더 받을 수 있다.",
+                    "value_time": "44831.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.insightkorea.co.kr/news/articleView.html?idxno=77276",
+            "search_query": "혼인신고 안하면",
+            "terminate": false,
+            "text": "혼인신고를 하지 않는다고 불이익이 특별히 있는 건 아니지만, 경제적으로 재산권이나 보험금, 상속 등의 권리가 없어요. 혼인신고를 할 경우 이런 경제적인 권리가 생기게 되는 거죠.",
+            "turn_id": "BK22014629-3",
+            "utterance_id": "BK22014629.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사실혼 관계라는 건 무엇을 뜻하는 건가요?",
+            "turn_id": "BK22014629-4",
+            "utterance_id": "BK22014629.7"
+        },
+        {
+            "reference_date": "44803.0",
+            "reference_text": [
+                {
+                    "value": "A 사실상 부부로서 혼인생활을 하고 있으면서 혼인신고를 하지 않았기 때문에 법률혼으로는 인정되지 않는 부부입니다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "A 사실혼 부부 사이에도 법률혼 부부와 마찬가지로 동거 및 부양의 책임이 있으며, 사실혼 해소 시에는 사실혼 파탄에 책임 있는 상대방에게 손해배상청구를 할 수 있습니다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://snvision.seongnam.go.kr/16217",
+            "search_query": "사실혼",
+            "terminate": false,
+            "text": "혼인신고를 하지 않아 법률혼으로 인정되지는 않으면서 사실상으로는 부부로서 혼인생활을 하는 관계를 말해요. 사실혼 부부도 법률혼 부부와 같이 동거 및 부양의 책임이 있고 사실혼을 해소하려 한다면 파탄에 대해 책임이 있는 상대방에게 손해배상청구가 가능해요.",
+            "turn_id": "BK22014629-4",
+            "utterance_id": "BK22014629.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼, 동거도 사실혼 관계라고 볼 수 있나요?",
+            "turn_id": "BK22014629-5",
+            "utterance_id": "BK22014629.9"
+        },
+        {
+            "reference_date": "44803.0",
+            "reference_text": [
+                {
+                    "value": "사실혼으로 인정받기 위해서는 단순 동거가 아닌, 당사자 간에 혼인의사가 합치하고 부부공동생활이라고 인정될 수 있는 혼인생활의 실체가 존재해야 합니다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://snvision.seongnam.go.kr/16217",
+            "search_query": "사실혼 동거",
+            "terminate": false,
+            "text": "사실혼 관계임을 인정받으려면 단순한 동거가 아닌 서로 혼인의사가 일치하고 부부가 공동생활을 한다고 인정할 수 있는 혼인생활의 실체가 있어야 해요.",
+            "turn_id": "BK22014629-5",
+            "utterance_id": "BK22014629.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "만약, 사실혼 관계에서 아이가 태어나면 어떻게 되죠?",
+            "turn_id": "BK22014629-6",
+            "utterance_id": "BK22014629.11"
+        },
+        {
+            "reference_date": "44803.0",
+            "reference_text": [
+                {
+                    "value": "A 아이의 어머니가 아이의 출생신고를 해야 합니다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "혼인 외 자녀는 어머니의 성과 본을 따르고 어머니가 친권과 양육권을 가집니다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://snvision.seongnam.go.kr/16217",
+            "search_query": "혼인 외 아이 출생",
+            "terminate": false,
+            "text": "혼인 외 자녀는 어머니의 성과 본을 따라요. 친권과 양육권도 어머니에게 있고요. 아이의 출생신고도 어머니가 해야 해요.",
+            "turn_id": "BK22014629-6",
+            "utterance_id": "BK22014629.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼, 아버지는 친권 행사를 할 수 없는 건가요?",
+            "turn_id": "BK22014629-7",
+            "utterance_id": "BK22014629.13"
+        },
+        {
+            "reference_date": "44803.0",
+            "reference_text": [
+                {
+                    "value": "아이 아버지가 자녀와의 부자관계를 밝히고자 한다면 아이 아버지가 인지신고를 해야 하며, 아버지가 스스로 부자 관계를 밝히지 않는다면 인지청구의 소를 통해 가족관계등록부상 아버지가 기재되도록 할 수 있습니다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "혼인 외의 자가 아버지로 인지된 경우 부모의 협의로 친권자를 정해야 합니다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://snvision.seongnam.go.kr/16217",
+            "search_query": "혼인 외 아버지 친권",
+            "terminate": false,
+            "text": "아버지가 자기의 자녀임을 인정하고자 하면 아버지가 인지신고를 해야 하고, 아버지가 자기 자녀임을 인정하려 하지 않으면 인지청구의 소를 통해서 가족관계등록부상 아버지로 기재가 가능해요. 혼인 외의 자가 아버지로 인지된 경우 부모의 협의에 의해 친권자를 정해야 해요.",
+            "turn_id": "BK22014629-7",
+            "utterance_id": "BK22014629.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혼인 외의 자가 아버지로 인지되어 부모의 협의로 친권자를 정해야 하는데, 협의가 되지 않으면 어떻게 해야 하나요?",
+            "turn_id": "BK22014629-8",
+            "utterance_id": "BK22014629.15"
+        },
+        {
+            "reference_date": "44803.0",
+            "reference_text": [
+                {
+                    "value": "협의가 이루어지지 않는 경우 가정법원이 직권으로 또는 당사자 청구에 따라 결정합니다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://snvision.seongnam.go.kr/16217",
+            "search_query": "혼인 외 친권 협의",
+            "terminate": false,
+            "text": "협의가 되지 않으면 가정법원의 직권이나 당사자 청구에 따라 결정하게 됩니다.",
+            "turn_id": "BK22014629-8",
+            "utterance_id": "BK22014629.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사실혼 관계를 끝내려면 어떻게 해야 하나요?",
+            "turn_id": "BK22014629-9",
+            "utterance_id": "BK22014629.17"
+        },
+        {
+            "reference_date": "44803.0",
+            "reference_text": [
+                {
+                    "value": "A 법률상 부부가 아니므로 혼인관계를 해소하는 데 법적 절차를 거치지 않아도 됩니다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만, 장래의 발생할 법적 분쟁에 관해 서로 합의서를 작성할 수 있으며, 상대방의 귀책으로 헤어지게 됐을 때에는 정신적, 물질적 피해에 대한 손해배상을 청구할 수 있습니다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://snvision.seongnam.go.kr/16217",
+            "search_query": "사실혼 관계 헤어지게",
+            "terminate": false,
+            "text": "법률혼 관계가 아니기 때문에 혼인관계 해소에 법적인 절차는 필요하지 않아요. 하지만 나중에 발생할 법적인 분쟁에 대해 서로 합의서를 작성할 수 있고, 상대방의 귀책으로 인해 헤어지게 된 것이라면 물질적 및 정신적 피해에 대해 손해배상 청구할 수 있어요.",
+            "turn_id": "BK22014629-9",
+            "utterance_id": "BK22014629.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혼인신고로 고민하게 될 줄은 몰랐어요.",
+            "turn_id": "BK22014629-10",
+            "utterance_id": "BK22014629.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "부부의 상황을 잘 파악해서 판단하세요.",
+            "turn_id": "BK22014629-10",
+            "utterance_id": "BK22014629.20"
+        }
+    ]
+}

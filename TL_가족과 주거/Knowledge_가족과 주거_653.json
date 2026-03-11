@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015988",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015988",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0014"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아내가 벌써 임신 35주가 되었어요. 출산이 가까워지니 불안하기도 하고 궁금한 것들도 많아요.",
+            "turn_id": "BK22015988-1",
+            "utterance_id": "BK22015988.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 어떤 것들이 궁금하세요?",
+            "turn_id": "BK22015988-1",
+            "utterance_id": "BK22015988.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "35주의 아기는 키와 몸무게가 어느 정도 되나요?",
+            "turn_id": "BK22015988-2",
+            "utterance_id": "BK22015988.3"
+        },
+        {
+            "reference_date": "2015-09-21",
+            "reference_text": [
+                {
+                    "value": "태아의 크기는 45~46cm, 체중은 2.3~2.6kg 정도로 신생아와 거의 비슷한 체형으로 변해요.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108506",
+            "search_query": "임신 35주 태아 크기",
+            "terminate": false,
+            "text": "태아의 키는 45~46cm 정도이며 무게는 2.3~2.6kg 정도로 신생아와 거의 비슷한 체형이 돼요.",
+            "turn_id": "BK22015988-2",
+            "utterance_id": "BK22015988.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 정말 많이 자랐네요. 임신 말기가 되면 성장 속도가 느려진다고 하던데, 아닌가요?",
+            "turn_id": "BK22015988-3",
+            "utterance_id": "BK22015988.5"
+        },
+        {
+            "reference_date": "2017-03-02",
+            "reference_text": [
+                {
+                    "value": "지금부터는 아기가 성장속도는 느려지지만, 아기의 체중증가폭은 커져서 1주에 200g 정도 증가합니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ksmnews.co.kr/default/index_view_page.php?idx=168583&part_idx=197",
+            "search_query": "임신 35주 아가 성장속도",
+            "terminate": false,
+            "text": "네, 이제부터는 성장 속도가 느려져요. 하지만 몸무게의 증가 폭은 커져서 1주일에 200g 정도씩 늘어나요.",
+            "turn_id": "BK22015988-3",
+            "utterance_id": "BK22015988.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 이 시기에 태아의 발달은 어느 정도인가요?",
+            "turn_id": "BK22015988-4",
+            "utterance_id": "BK22015988.7"
+        },
+        {
+            "reference_date": "2015-09-21",
+            "reference_text": [
+                {
+                    "value": "피부 보호 물질인 태지도 매우 두터워지고 남녀의 구별이 확실해집니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "비교적 성장 비율이 조금 느려지며, 폐를 제외한 내장의 기능이 대부분이 완전히 성숙해집니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108506",
+            "search_query": "임신 35주 태아 특징",
+            "terminate": false,
+            "text": "이젠 피부 보호 물질인 태지가 매우 두꺼워지며 남녀 구별이 확실해져요. 또 성장 비율이 좀 느려지며 폐를 제외한 내장 기능의 대부분이 완전히 성숙해지죠.",
+            "turn_id": "BK22015988-4",
+            "utterance_id": "BK22015988.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 그럼 지금 아내의 몸 상태는 어떤가요?",
+            "turn_id": "BK22015988-5",
+            "utterance_id": "BK22015988.9"
+        },
+        {
+            "reference_date": "2015-09-21",
+            "reference_text": [
+                {
+                    "value": "출산할 때가 거의 다 되었다는 안도감이 들면서도 걱정이 되고 간혹 조급해지고 마음을 가라앉힐 수 없어서 짜증과 신경이 과민해집니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "멍한 상태는 더 심해지며 코피와 코 막힘, 귀 막힘 증세가 나타나는 수도 있고 빈혈 증세가 나타날 수도 있습니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108506",
+            "search_query": "임신 35주 엄마의 증상",
+            "terminate": false,
+            "text": "출산이 가까워지면서 안도감과 걱정이 동시에 들며 간혹 조급함을 보이거나 짜증을 낼 수도 있어요. 그만큼 신경이 예민해지죠. 또 멍한 상태가 심해지며 코피와 코 막힘, 귀막힘 증세가 나타날 수 있고 빈혈도 일어날 수 있어요.",
+            "turn_id": "BK22015988-5",
+            "utterance_id": "BK22015988.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아내가 많이 힘들겠네요. 요즘 짜증이 부쩍 늘긴 했는데, 잘 받아줘야겠어요. 혹시 필요한 검사는 없나요?",
+            "turn_id": "BK22015988-6",
+            "utterance_id": "BK22015988.11"
+        },
+        {
+            "reference_date": "2015-09-21",
+            "reference_text": [
+                {
+                    "value": "▶ 요즘 필요한 검사는? \"태동 유무 확인\"",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "물론 태동을 느끼지 못한다고 태아가 사망했다고 단정할 수는 없어요.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 달이 가도 배가 부르지 않고 하복부가 무겁고 차게 느껴지며 유방이 덜 팽팽해지고 지금까지 있던 태동이 사라질 때는 즉시 병원을 찾아야 합니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108506",
+            "search_query": "임신 35주 태동 유무 확인",
+            "terminate": false,
+            "text": "태동이 잘 되는지 확인해 줘야 해요. 물론 태동을 잘 느끼지 못한다고 해서 태아가 사망했다고 할 수는 없지만, 달이 가도 배가 부르지 않고 아랫배가 무겁고 차갑게 느껴지며 유방이 덜 팽팽해지고 지금까지 느꼈던 태동을 느끼지 못하게 된다면 즉시 병원에 가서 검사를 받아봐야 해요.",
+            "turn_id": "BK22015988-6",
+            "utterance_id": "BK22015988.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 주의 깊게 살펴야겠네요. 아내가 요즘 신경도 예민하고 많이 초조해하는 것 같던데 마음을 편안하게 하려면 어떻게 해야 할까요?",
+            "turn_id": "BK22015988-7",
+            "utterance_id": "BK22015988.13"
+        },
+        {
+            "reference_date": "2015-09-21",
+            "reference_text": [
+                {
+                    "value": "불안, 초조한 마음이 자주 들 땐 잡념을 버릴 수 있는 십자수를 놓아보세요.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수가 완성될 때까지 정신을 집중하게 되고 이런 자세는 태아에게도 도움이 됩니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 수를 놓으면서 임신부가 손을 많이 움직이면 뇌를 자극하여 태아의 머리에도 좋은 영향을 끼칩니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108506",
+            "search_query": "임신 35주 잡념 버리기",
+            "terminate": false,
+            "text": "불안하고 초조해한다면 잡념을 버릴 수 있는 십자수를 권해드려요. 자수를 놓는 동안 집중을 할 수 있는데 이는 태아에게도 도움이 돼요. 또 자수를 놓으면 손을 많이 쓰게 되는데 이는 뇌극 자극하며 태아의 머리에도 좋은 영향을 끼치게 되죠.",
+            "turn_id": "BK22015988-7",
+            "utterance_id": "BK22015988.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "당장 십자수를 사 줘야겠네요. 참, 요즘 많이 갈증이 난다고 해요. 물을 많이 먹으면 좋지 않다고 들었는데, 갈증을 해결하려면 어떻게 해야 하나요?",
+            "turn_id": "BK22015988-8",
+            "utterance_id": "BK22015988.15"
+        },
+        {
+            "reference_date": "2015-09-21",
+            "reference_text": [
+                {
+                    "value": "A: 물 대신 얼음을 입에 물고 있어 보세요.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 체중이 많이 증가한 임신부라면 물 한잔만으로도 위가 압박을 받아 더욱 갈증을 느끼게 되는데 이때 갈증이 난다고 물을 지나치게 먹으면 체중이 더 나가게 될 수 있기 때문입니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108506",
+            "search_query": "임신 35주 갈증",
+            "terminate": false,
+            "text": "물 대신 얼음을 입에 물고 있는 걸 권해요. 특히 체중이 많이 증가한 상태라면 물 한잔만으로도 위가 압박받아 갈증이 더 심해질 수 있는데, 갈증이 난다고 해서 물을 계속 마시게 되면 체중이 더 늘 수 있기 때문에 물 대신 얼음을 추천해요.",
+            "turn_id": "BK22015988-8",
+            "utterance_id": "BK22015988.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 정말 이제 곧 출산이네요. 준비할 게 너무 많은 것 같은데, 어떤 걸 준비해야 하는지 몇 가지만 알려주실 수 있나요?",
+            "turn_id": "BK22015988-9",
+            "utterance_id": "BK22015988.17"
+        },
+        {
+            "reference_date": "2015-09-21",
+            "reference_text": [
+                {
+                    "value": "아직 수유 브래지어가 없다면 몇 개 준비해두세요.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 출산 후에는 오로가 배출되므로 산모용 패드가 필요합니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "카시트를 구매했다면 미리 차에 설치해두는 것도 좋습니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000108506",
+            "search_query": "임신 35주 출산준비",
+            "terminate": false,
+            "text": "수유 브래지어와 출산 후 오로 배출을 위해 산모용 패드를 준비해 놓는 게 좋아요. 또 카시트를 준비하셨다면 미리 차에 설치해 두는 것도 좋죠.",
+            "turn_id": "BK22015988-9",
+            "utterance_id": "BK22015988.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 카시트 설치는 정말 생각도 못 했네요. 좋은 정보 감사합니다. 오늘 덕분에 많이 배웠어요.",
+            "turn_id": "BK22015988-10",
+            "utterance_id": "BK22015988.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되셨다니 정말 다행이네요. 또 궁금한 점 있으면 언제든지 물어보세요.",
+            "turn_id": "BK22015988-10",
+            "utterance_id": "BK22015988.20"
+        }
+    ]
+}

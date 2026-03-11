@@ -1,0 +1,352 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009286",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009286",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 3.8,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전에 강아지를 데리고 동물병원에 다녀왔는데 산책하면서 야생진드기를 조심하라고 하시더라고요. 이유가 궁금한데 뒤에 대기하는 다른 강아지들이 많아서 그냥 왔는데 혹시 야생진드기를 조심해야 하는 이유가 뭔가요?",
+            "turn_id": "BK22009286-1",
+            "utterance_id": "BK22009286.1"
+        },
+        {
+            "reference_date": "2021-04-28",
+            "reference_text": [
+                {
+                    "value": "야생진드기는 모기처럼 피부에 붙어 자기 몸의 몇 배에 달하는 피를 흡혈한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "게다가 바베시아증, 라임병, 아나플라즈마증 등 진드기 매개 질병까지 일으켜 건강을 위협한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mkhealth.co.kr/news/articleView.html?idxno=52825",
+            "search_query": "야생진드기 흡혈",
+            "terminate": false,
+            "text": "야생진드기는 모기와 같이 피부에 달라붙어서 자기의 몸집의 몇 배에 달하는 피를 흡혈해요. 또 흡혈뿐만 아니라 바베시아증, 라임병, 아나플라즈마즈증과 같은 진드기 매개의 질병을 유발하기 때문에 건강을 위협하거든요.",
+            "turn_id": "BK22009286-1",
+            "utterance_id": "BK22009286.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "피를 빨아먹는 것도 모자라 병까지 유발하는 나쁜 녀석이로군요. 그럼 만약에 진드기에 물렸을 때 어떤 증상을 보이나요?",
+            "turn_id": "BK22009286-2",
+            "utterance_id": "BK22009286.3"
+        },
+        {
+            "reference_date": "2022-03-19",
+            "reference_text": [
+                {
+                    "value": "보통 식욕부진, 기력저하, 창백, 황달, 빈혈 등의 증상이 나타난다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=58562",
+            "search_query": "반려동물 진드기 식욕부진 빈혈",
+            "terminate": false,
+            "text": "대체로 식욕이 떨어진다든지 기력 저하, 창백, 황달, 빈혈과 같은 증상을 보여요.",
+            "turn_id": "BK22009286-2",
+            "utterance_id": "BK22009286.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지들이 대체로 먹는 것을 좋아하는데 식욕부진이라니 안쓰러워요. 그럼 만약에 진드기에 물렸다면 어떻게 대처해야 하는지도 궁금해요.",
+            "turn_id": "BK22009286-3",
+            "utterance_id": "BK22009286.5"
+        },
+        {
+            "reference_date": "2022-03-19",
+            "reference_text": [
+                {
+                    "value": "따라서 진드기에 물렸을 때는 바로 동물병원에 방문해 진드기를 제거, 외부기생충 구제제를 써야 하며 진드기매개성질환 감염여부를 확인해야 한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=58562",
+            "search_query": "반려동물 진드기 외부기생충 구제제",
+            "terminate": false,
+            "text": "진드기에 물린 경우 동물병원에 바로 내원해 진드기를 제거하고 외부기생충 구제제를 사용해야 해요. 또 진드기매개성질환에 감염되었는지도 확인해봐야 하고요.",
+            "turn_id": "BK22009286-3",
+            "utterance_id": "BK22009286.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동물병원에 바로 데려가는 것이 중요하군요. 그럼 예방은 어떻게 할 수 있나요?",
+            "turn_id": "BK22009286-4",
+            "utterance_id": "BK22009286.7"
+        },
+        {
+            "reference_date": "2021-04-28",
+            "reference_text": [
+                {
+                    "value": "야생 진드기는 겨울철을 제외한 3계절 활발히 활동하며, 특히 풀이 우거진 산책로에 높은 확률로 출현한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mkhealth.co.kr/news/articleView.html?idxno=52825",
+            "search_query": "야생진드기 3계절 산책로",
+            "terminate": false,
+            "text": "야생진드기는 겨울을 제외한 3 계절 모두 활발히 활동하죠. 때문에 산책을 시킬 때 풀이 우거진 산책로는 피하는 것이 좋아요. 우거진 산책로에는 야생 진드기가 있을 가능성이 크거든요.",
+            "turn_id": "BK22009286-4",
+            "utterance_id": "BK22009286.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "겨울철을 제외하고 어떤 계절이든 가볍게 생각하면 안 되겠어요. 그럼 혹시라도 강아지가 마음대로 풀이 우거진 곳에 들어간 경우 따로 대처를 해야 하나요?",
+            "turn_id": "BK22009286-5",
+            "utterance_id": "BK22009286.9"
+        },
+        {
+            "reference_date": "2021-04-28",
+            "reference_text": [
+                {
+                    "value": "만일 어쩔 수 없이 풀이 우거진 곳을 지나쳤다면 산책 후 강아지 몸에 진드기가 붙어있는지 체크하도록 한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 귀, 목, 발바닥 주변이 진드기가 붙어있기 쉬운 부위다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 강아지 털을 꼼꼼히 브러싱 해 빗에 진드기가 걸려 나오지 않는지 살펴야 한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mkhealth.co.kr/news/articleView.html?idxno=52825",
+            "search_query": "야생진드기 브러싱",
+            "terminate": false,
+            "text": "강아지가 풀이 우거진 곳에 들어간 경우라면 산책 후 강아지 몸에 진드기가 붙어있는지 확인해야 해요. 특히 귀와 목, 발바닥 주변에 주로 진드기가 붙어있으니 이 부위 위주로 확인해 주는 것도 좋죠. 또 강아지 털을 꼼꼼히 빗어주며 빗에 진드기가 붙어있는지 살펴보는 것도 도움이 되고요.",
+            "turn_id": "BK22009286-5",
+            "utterance_id": "BK22009286.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 강아지가 좀 천방지축인 면이 있어서 매번 이렇게 확인하기 귀찮을 것 같은데 다른 좋은 방법은 없을까요?",
+            "turn_id": "BK22009286-6",
+            "utterance_id": "BK22009286.11"
+        },
+        {
+            "reference_date": "2021-04-28",
+            "reference_text": [
+                {
+                    "value": "매번 이렇게 진드기를 살피는 일이 번거롭다면 야생 진드기 출몰 시즌에는 강아지의 털을 짧게 깎아주는 것이 진드기를 빨리 발견할 수 있는 방법이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mkhealth.co.kr/news/articleView.html?idxno=52825",
+            "search_query": "야생진드기 출몰 시즌 털",
+            "terminate": false,
+            "text": "야생 진드기가 출몰하는 계절에는 강아지 털을 짧게 미용해주는 것도 방법이에요. 진드기를 빠르게 찾을 수 있거든요.",
+            "turn_id": "BK22009286-6",
+            "utterance_id": "BK22009286.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 털을 짧게 자르는 방법도 있군요? 그런데 진드기 퇴치 스프레이와 같은 제품들이 있던데 이건 효과가 있나요?",
+            "turn_id": "BK22009286-7",
+            "utterance_id": "BK22009286.13"
+        },
+        {
+            "reference_date": "2021-04-28",
+            "reference_text": [
+                {
+                    "value": "산책 전 반려견에게 진드기 퇴치 스프레이를 뿌려주는 견주들이 많지만, 전문의들은 스프레이는 진드기 예방에 거의 효과가 없다는 평가다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "목걸이형 진드기 방지 제품도 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "피부 지질층에 진드기를 물리치는 유효성분을 지속적으로 공급하는 원리로 보다 확실한 진드기 예방 효과가 있는 것으로 알려졌다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 일부 민감한 반려동물에게 부작용이 생길 수 있어 논란이 되고 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mkhealth.co.kr/news/articleView.html?idxno=52825",
+            "search_query": "야생진드기 진드기 퇴치 스프레이",
+            "terminate": false,
+            "text": "아뇨, 전문의들의 의견에 따르면 진드기 퇴치 스프레이는 진드기 예방에 거의 효과가 없어요. 대신 목걸이형 진드기 방지 제품이 있는데 피부 지질층에 진드기를 내쫓는 유효성분을 꾸준히 공급해주는 원리라 보다 확실하게 진드기 예방 효과가 있는 편이죠. 다만 민감한 반려동물은 부작용이 나타날 수 있기 때문에 주의해야 하고요.",
+            "turn_id": "BK22009286-7",
+            "utterance_id": "BK22009286.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스프레이가 편해 보였는데 효과가 미미하군요. 아직 사용은 안 해봤지만 저희 아이에게 부작용이 나타날까 봐 걱정인데 다른 예방법은 없을까요?",
+            "turn_id": "BK22009286-8",
+            "utterance_id": "BK22009286.15"
+        },
+        {
+            "reference_date": "2021-04-28",
+            "reference_text": [
+                {
+                    "value": "강아지에 얇은 옷을 입히는 것도 반려견 피부에 진드기가 달라붙는 것을 상당수 예방하는 간단한 방법이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mkhealth.co.kr/news/articleView.html?idxno=52825",
+            "search_query": "야생진드기 진드기 얇은 옷",
+            "terminate": false,
+            "text": "그런 경우라면 얇은 옷을 착용시키는 것도 강아지의 피부에 진드기가 달라붙는 것을 예방하는 데 도움이 돼요.",
+            "turn_id": "BK22009286-8",
+            "utterance_id": "BK22009286.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "옷을 입혀도 도움이 될 수 있군요. 그런데 진드기가 달라붙어 있는 것을 보면 우선 떼어주고 병원에 데려가도 될까요? 그 기간 동안 피가 빨릴 걸 생각하니 께름칙해서요.",
+            "turn_id": "BK22009286-9",
+            "utterance_id": "BK22009286.17"
+        },
+        {
+            "reference_date": "2021-04-28",
+            "reference_text": [
+                {
+                    "value": "그러나 진드기는 피부 깊숙히 주둥이를 박아 흡혈하기에 무턱대고 진드기를 제거하려다 보면 몸체만 분리되고 머리는 계속 강아지 피부에 붙어 문제를 일으킬 수 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "빨리 병원에 데려가 핀셋으로 진드기의 머리 부분부터 세밀하게 떼어내야 한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mkhealth.co.kr/news/articleView.html?idxno=52825",
+            "search_query": "진드기 제거 몸체",
+            "terminate": false,
+            "text": "아뇨, 진드기는 피부 깊숙이 주둥이를 박아서 피를 빨기 때문에 진드기를 무작정 제거하게 되면 몸체만 떨어지고 머리는 그대로 남아 강아지의 피부에 문제를 일으킬 수 있어요. 때문에 무조건 빠른 시일 내에 병원에 데려가 핀셋을 사용해 진드기의 머리 부분부터 떼어낼 수 있도록 해야 하죠.",
+            "turn_id": "BK22009286-9",
+            "utterance_id": "BK22009286.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이고, 제 임의대로 치료해주려다가 큰일이 날 뻔했네요. 오늘 이렇게 야생 진드기에 대해 알려주셔서 감사해요. 저희 강아지도 고마워할 것 같네요.",
+            "turn_id": "BK22009286-10",
+            "utterance_id": "BK22009286.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "하하, 도움이 됐다니 정말 기쁘네요. 그럼 또 연락 주세요.",
+            "turn_id": "BK22009286-10",
+            "utterance_id": "BK22009286.20"
+        }
+    ]
+}

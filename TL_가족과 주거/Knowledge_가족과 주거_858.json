@@ -1,0 +1,364 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003042",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003042",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0001"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 인테리어를 여기저기 알아보러 다니느라 바쁜데 욕실을 어떻게 해야 할지 고민이 많네요.",
+            "turn_id": "BK22003042-1",
+            "utterance_id": "BK22003042.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어떤 부분에 고민이 많으실까요?",
+            "turn_id": "BK22003042-1",
+            "utterance_id": "BK22003042.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그냥 이것저것 알아보고는 있는데 너무 막연한 느낌이에요.",
+            "turn_id": "BK22003042-2",
+            "utterance_id": "BK22003042.3"
+        },
+        {
+            "reference_date": "2018-11-05",
+            "reference_text": [
+                {
+                    "value": "욕실 인테리어의 디자인을 결정하기 전에 철거의 범위를 생각해야 한다.",
+                    "value_time": "2022-07-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/realestate/article/201811010766e",
+            "search_query": "욕실 철거범위",
+            "terminate": false,
+            "text": "음, 그럼 우선 인테리어를 어떤 디자인으로 할 것인지 결정하기 전에 철거 범위를 먼저 생각해 보시는 건 어떠세요?",
+            "turn_id": "BK22003042-2",
+            "utterance_id": "BK22003042.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "디자인이 아니라 철거의 범위를 먼저 생각해 보라고요?",
+            "turn_id": "BK22003042-3",
+            "utterance_id": "BK22003042.5"
+        },
+        {
+            "reference_date": "2018-11-13",
+            "reference_text": [
+                {
+                    "value": "이유는 바로 헌 것을 치우는 '철거'에도 비용이 청구되기 때문이다.",
+                    "value_time": "2022-07-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "거기다 1-2일에 걸쳐 뜯어내는 작업에 매진해야 하다 보니 공사 기간도 그만큼 더 길어진다.",
+                    "value_time": "2022-07-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/realestate/article/201811127315e",
+            "search_query": "욕실 철거 비용",
+            "terminate": false,
+            "text": "네, 철거가 그저 헌 것을 없애버리는 거라 비용에 대해 생각하지 않으시는데 철거도 비용이 들어요. 그리고 하루에서 이틀 정도 철거에 필요한 시간이 들기 때문에 철거 범위에 따라 공사 기간에도 차이가 생기죠.",
+            "turn_id": "BK22003042-3",
+            "utterance_id": "BK22003042.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "막연하게 그저 다 바꾸는 것을 생각했는데 비용 차이도 생기는군요.",
+            "turn_id": "BK22003042-4",
+            "utterance_id": "BK22003042.7"
+        },
+        {
+            "reference_date": "2018-11-13",
+            "reference_text": [
+                {
+                    "value": "기존의 타일을 다 뜯어내고 새 타일을 붙이는 것보다, 타일 위에 새 타일을 덧씌우는 덧방 시공이 50만원 정도로 더 저렴하다.",
+                    "value_time": "2022-07-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/realestate/article/201811127315e",
+            "search_query": "욕실 타일 덧방",
+            "terminate": false,
+            "text": "네, 철거 비용 뿐만 아니라, 욕실의 타일을 다 제거하고 새 타일을 붙이는 것보다 기존의 타일 위에 새 타일을 덧씌우는 덧방 시공이 상대적으로 더 저렴하죠.",
+            "turn_id": "BK22003042-4",
+            "utterance_id": "BK22003042.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 철거 부분은 확실히 잘 고려해서 결정해야겠네요. 그런데 제가 건식 욕실에 관심이 많은데 어떤 장점이 있는지 궁금하더라고요.",
+            "turn_id": "BK22003042-5",
+            "utterance_id": "BK22003042.9"
+        },
+        {
+            "reference_date": "2013-03-22",
+            "reference_text": [
+                {
+                    "value": "건식욕실은 인테리어적인 측면도 좋지만 환기가 잘 되지 않아 곰팡이가 쉽게 피고, 악취가 나는 습식 욕실에 비해 위생적이기 때문이다.",
+                    "value_time": "2022-07-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/business/view/2013/03/217390/",
+            "search_query": "건식 욕실 위생",
+            "terminate": false,
+            "text": "우선 인테리어적인 측면도 측면이지만 환기가 잘 안되어 곰팡이가 피기 쉽고 악취가 날 수 있는 습식 욕실에 비해 위생적인 편이죠.",
+            "turn_id": "BK22003042-5",
+            "utterance_id": "BK22003042.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아닌 게 아니라 확실히 쾌적한 느낌은 있을 것 같네요. 그런데 인테리어적인 측면에서는 어떤 장점이 있는 건가요?",
+            "turn_id": "BK22003042-6",
+            "utterance_id": "BK22003042.11"
+        },
+        {
+            "reference_date": "2012-07-28",
+            "reference_text": [
+                {
+                    "value": "습식에서 사용하기 곤란했던 원목 재질의 수납장이나 가구, 욕실에 놓기에 부담스러웠던 고급 소품을 활용해 자신만의 공간으로 만들 수 있다는 장점 때문이다.",
+                    "value_time": "2022-07-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/003/0004632761?sid=101",
+            "search_query": "건식 욕실 소품",
+            "terminate": false,
+            "text": "습식에서 사용하기 힘든 원목 재질로 된 수납장이나 가구를 사용할 수 있다는 장점이 있어요. 또 기존 습식욕실에 장식하기 부담스러웠던 고급 소품들도 활용해 자신만의 특별한 공간으로 꾸밀 수도 있죠.",
+            "turn_id": "BK22003042-6",
+            "utterance_id": "BK22003042.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무래도 습기가 적으니 나무도 썩지 않고 비싼 소품도 상할 염려가 적으니 더 아름답게 꾸밀 수 있겠군요.",
+            "turn_id": "BK22003042-7",
+            "utterance_id": "BK22003042.13"
+        },
+        {
+            "reference_date": "2018-03-15",
+            "reference_text": [
+                {
+                    "value": "어린아이가 있거나 노년층이 있는 가구의 경우 바닥 미끄러짐 사고 등의 안전사고 예방에도 도움이 된다.",
+                    "value_time": "2022-07-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/specialsection/esc_section/836128.html",
+            "search_query": "건식 욕실 장점",
+            "terminate": false,
+            "text": "네, 또한 안전 면에서도 바닥 미끄러짐 사고 등을 예방할 수 있어서 어린아이나 노년층 가족 구성원이 있는 경우에도 이점이 크죠.",
+            "turn_id": "BK22003042-7",
+            "utterance_id": "BK22003042.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인테리어 측면부터 안전 측면까지 장점이 정말 많은 방식이네요",
+            "turn_id": "BK22003042-8",
+            "utterance_id": "BK22003042.15"
+        },
+        {
+            "reference_date": "2020-05-09",
+            "reference_text": [
+                {
+                    "value": "다만 바닥에 배수구가 없고, 인테리어 시 물에 약한 나무 소재 등을 사용하기도 하는 만큼 이용 시 물이 튀지 않도록 주의를 기울여야 합니다.",
+                    "value_time": "2022-07-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "물이 튀면 빠르게 닦아야 하고, 물청소도 어렵습니다.",
+                    "value_time": "2022-07-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20200508133728081",
+            "search_query": "건식 욕실 물청소",
+            "terminate": false,
+            "text": "네, 다만 몇 가지 단점이 있어요. 바닥에 배수구가 없어 물청소가 어렵고 인테리어 시 물에 약한 원목과 같은 재질을 사용하는 만큼 물이 튀지 않도록 조심해야 해요. 튀더라도 빠르게 닦아내야 하고요.",
+            "turn_id": "BK22003042-8",
+            "utterance_id": "BK22003042.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "물청소하지 못하는 것은 확실히 큰 단점이네요. 미적인 부분에 홀려 건식이 조금 솔깃했는데 우선 보류해야겠어요.",
+            "turn_id": "BK22003042-9",
+            "utterance_id": "BK22003042.17"
+        },
+        {
+            "reference_date": "2020-05-09",
+            "reference_text": [
+                {
+                    "value": "반건식 욕실은 이름 그대로 반만 건식인, 습식과 건식의 장점을 절충한 형태의 욕실입니다.",
+                    "value_time": "2022-07-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하이브리드 욕실이라고 부르기도 합니다.",
+                    "value_time": "2022-07-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "샤워나 목욕을 하는 공간은 습식, 세면기와 변기가 있는 공간은 건식으로 만드는 방식입니다.",
+                    "value_time": "2022-07-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20200508133728081",
+            "search_query": "하이브리드 욕실",
+            "terminate": false,
+            "text": "그런 경우 하이브리드 욕실이라고 부르기도 하는 반건식 욕실도 좋은 선택이 될 수 있어요. 하이브리드 욕실은 건식과 습식의 장점을 절충한 형식이라 샤워나 목욕하는 공간은 습식으로 사용하고 변기가 있는 공간은 건식으로 사용할 수 있어 두 형태의 장점을 두루 가지고 있거든요.",
+            "turn_id": "BK22003042-9",
+            "utterance_id": "BK22003042.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 그런 식으로 절충한 형식도 존재하는군요. 더 알아봐야겠지만 괜찮은 방식일 것 같아요.",
+            "turn_id": "BK22003042-10",
+            "utterance_id": "BK22003042.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 아마도 이 형태를 가장 마음에 들어 하실 것 같네요.",
+            "turn_id": "BK22003042-10",
+            "utterance_id": "BK22003042.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 정말 마지막에 딱 마음에 드는 형태의 욕실을 찾아 다행이네요.",
+            "turn_id": "BK22003042-11",
+            "utterance_id": "BK22003042.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아까 고민이 많아 보이셨는데 만족할만한 형식을 찾으셨다니 다행이네요.",
+            "turn_id": "BK22003042-11",
+            "utterance_id": "BK22003042.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 덕분에 업체와 상담해 빠른 결정을 내릴 수 있을 것 같아요. 감사합니다.",
+            "turn_id": "BK22003042-12",
+            "utterance_id": "BK22003042.23"
+        }
+    ]
+}

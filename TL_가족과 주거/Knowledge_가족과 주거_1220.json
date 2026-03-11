@@ -1,0 +1,361 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008065",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008065",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전에 앵무새를 입양해왔는데, 초보 집사라 그런지 여러 시행착오를 겪고 있어요.",
+            "turn_id": "BK22008065-1",
+            "utterance_id": "BK22008065.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러시군요, 어떤 점이 제일 힘드신가요?",
+            "turn_id": "BK22008065-1",
+            "utterance_id": "BK22008065.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "앵무새가 밥을 잘 먹지 않는 것 같아요. 퇴근하고 돌아와서 확인해봐도 사료가 거의 그대로 있어요.",
+            "turn_id": "BK22008065-2",
+            "utterance_id": "BK22008065.3"
+        },
+        {
+            "reference_date": "2013-11-20",
+            "reference_text": [
+                {
+                    "value": "만약 앵무새가 먹이를 마다할 정도로 식욕 부진 상태에 빠졌다면, 보호자가 직접 급여하는 인공 급여가 필요합니다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "병세가 있는 초기에는 고 탄수화물 먹이 위주로 급여하고, 점차 회복세를 보이면 고단백 고칼로리 음식으로 바꾸시면 됩니다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kukinews.com/newsView/kuk201311200023",
+            "search_query": "앵무새 인공급여",
+            "terminate": false,
+            "text": "만약 앵무새가 먹이를 먹지 않는 식욕 부진 상태라면, 보호자가 직접 주는 인공 급여가 필요해요. 병세가 있는 초기에는 고탄수화물 먹이 위주로 제공하고, 조금씩 나아지는 것 같으면 고단백 고칼로리 음식으로 급여하시면 돼요.",
+            "turn_id": "BK22008065-2",
+            "utterance_id": "BK22008065.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 제가 직접 주는 방법이 있었군요. 그런데 어디서 먹이의 온도도 중요하다고 들은 것 같은데 맞나요?",
+            "turn_id": "BK22008065-3",
+            "utterance_id": "BK22008065.5"
+        },
+        {
+            "reference_date": "2013-11-20",
+            "reference_text": [
+                {
+                    "value": "또한 너무 차가운 먹이를 급여할 경우 앵무새가 저 체온증에 빠질 수 있고, 너무 뜨거운 먹이를 줄 경우에는 모이주머니에 화상을 입을 수 있으니 38~39도 정도로 먹이 온도를 유지해 주시는 것이 좋습니다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kukinews.com/newsView/kuk201311200023",
+            "search_query": "앵무새 먹이 온도",
+            "terminate": false,
+            "text": "네, 너무 찬 먹이를 줄 경우 앵무새가 저체온증에 걸릴 수 있고, 너무 뜨거운 먹이를 제공할 경우에는 모이주머니가 화상을 입을 수 있으니 38~39도의 먹이 온도가 적당해요.",
+            "turn_id": "BK22008065-3",
+            "utterance_id": "BK22008065.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 먹이 온도도 중요하군요. 그렇다면 앵무새가 지내는 온도도 중요할까요? 제가 추위와 더위를 둘 다 많이 타서 에어컨과 히터를 켜고 지내는 날이 많다 보니 혹시 병에 걸리지 않을까 걱정이라서요.",
+            "turn_id": "BK22008065-4",
+            "utterance_id": "BK22008065.7"
+        },
+        {
+            "reference_date": "2016-06-24",
+            "reference_text": [
+                {
+                    "value": "잠자리(보금자리)는 번식 전에는 그다지 필요가 없지만, 겨울철에는 보온을 겸할 수 있는 곳으로 마련한다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "공간을 주면 운동부족으로 비만이 될 수 있으므로 온도 유지만 된다면 일반 횃대에 그냥 두는 것이 좋다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "직접적인 냉·난방에 노출되지 않도록 하고 온도는 15도 이하 40도 이상이 되지 않도록 한다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.naeil.com/news_view/?id_art=200594",
+            "search_query": "앵무새 잠자리",
+            "terminate": false,
+            "text": "잠자리는 번식 전에는 그다지 필요하지 않지만, 겨울철에는 보온이 되는 곳으로 만들어주셔야 해요. 그런데 공간을 주면 운동 부족으로 살이 과도하게 찔 수 있으므로 변함없는 온도만 지속된다면 일반 횃대에 그냥 두는 것이 좋아요. 또 직접적인 냉, 난방은 피하고 15도 이하 40도 이상의 온도는 피하도록 해야 해요.",
+            "turn_id": "BK22008065-4",
+            "utterance_id": "BK22008065.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그러면 가림막을 구입해서 직접적인 냉, 난방에 노출되지 않게 해야겠어요. 그런데 새장 청소는 어떻게 해야 하나요?",
+            "turn_id": "BK22008065-5",
+            "utterance_id": "BK22008065.9"
+        },
+        {
+            "reference_date": "2013-01-14",
+            "reference_text": [
+                {
+                    "value": "청소를 할 때는 매일 새장 밑받침에 붙은 지저분한 찌꺼기들을 씻어 준다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "새장 밑받침 위에 대팻밥을 깔아 주거나 모래판을 사용하면 교체하기에 매우 간편하다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "먹이통에 담겨진 씨앗의 껍질은 입으로 불어서 제거한다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "물통의 물은 버린 후에 잘 씻어 준다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 다음 신선한 물을 다시 넣어 준다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/003/0004926708?sid=004",
+            "search_query": "앵무새 청소",
+            "terminate": false,
+            "text": "청소할 때는 매일 새장 밑받침에 달라붙은 더러운 찌꺼기들을 씻어 주세요. 새장 밑받침 위에 포설을 깔아 주거나 모래판을 사용하면 교체하기에 매우 편리해요. 그리고 먹이통에 담긴 씨앗의 껍질은 입으로 불어서 치워주세요. 물통의 물은 버린 후에 잘 씻어 주고 깨끗한 물을 다시 채워 주세요.",
+            "turn_id": "BK22008065-5",
+            "utterance_id": "BK22008065.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하루에 한 번씩 청소해줘야 하는군요. 그렇다면 대청소도 하나요?",
+            "turn_id": "BK22008065-6",
+            "utterance_id": "BK22008065.11"
+        },
+        {
+            "reference_date": "2013-01-14",
+            "reference_text": [
+                {
+                    "value": "일주일에 한 번씩 먹이통과 먹이 횃대 등을 떼어낸 후 철망에 부착된 이물질을 떼어낸 후 뜨거운 비눗물로 잘 닦아 준다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그리고 휴지로 잘 닦은 후 소독약제를 뿌리고 깔개를 넣기 전에 말린다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "먹이통을 떼어내어 안 먹은 씨앗은 버리고 안쪽을 잘 닦고 신선한 먹이를 준다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/003/0004926708?sid=004",
+            "search_query": "앵무새 청소",
+            "terminate": false,
+            "text": "일주일에 한 번씩 먹이통과 먹이 횃대 등을 분리한 후 철망에 붙은 이물질을 제거해주시고 따듯한 비눗물로 잘 닦아 주세요. 그리고 휴지로 잘 닦은 후 소독 약제를 분사하고 깔개를 깔기 전에 말려주세요. 먹이통을 분리해내서 안 먹은 씨앗은 폐기하고 내부를 잘 닦고 신선한 먹이를 주세요.",
+            "turn_id": "BK22008065-6",
+            "utterance_id": "BK22008065.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그런데 앵무새가 아프다는 건 어떻게 알 수 있을까요?",
+            "turn_id": "BK22008065-7",
+            "utterance_id": "BK22008065.13"
+        },
+        {
+            "reference_date": "2016-06-24",
+            "reference_text": [
+                {
+                    "value": "A: 하루 동안 먹지 않고 털을 부풀리며 고개를 뒤로 박을 때, 항문 주위에 변이 묻어 있을 때, 설사(물만 싸는) 할 때와 콧물이나 침이 나오는 감기 증상을 보일 때는 근처 동물 병원으로 빨리 가시는 게 좋습니다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.naeil.com/news_view/?id_art=200594",
+            "search_query": "앵무새 감기",
+            "terminate": false,
+            "text": "항문 주위에 변이 묻어 있을 때, 하루 동안 먹지 않고 털을 부풀리며 고개를 뒤로 박을 때, 물만 싸는 설사를 할 때와 콧물이나 침이 나오는 감기 증상을 보일 때는 동물 병원에 가는 게 좋아요.",
+            "turn_id": "BK22008065-7",
+            "utterance_id": "BK22008065.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 앵무새를 매일 주의 깊게 봐야겠네요. 근데 앵무새를 키우면서 제가 주의해야 할 다른 점이 또 있을까요?",
+            "turn_id": "BK22008065-8",
+            "utterance_id": "BK22008065.15"
+        },
+        {
+            "reference_date": "2017-07-17",
+            "reference_text": [
+                {
+                    "value": "이미 앵무새를 기르기 시작한 초보자들은 윙컷(앵무새의 비행 날개 깃털을 잘라 주는 것)을 통해 집안에서 발생하는 각종 사고를 미연에 방지하는 것이 앵무새가 주어진 수명을 다 누리도록 돕는 방법이다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전문가의 수준에 이르기 전까지는 윙컷을 꼭 해주는 것이 오히려 앵무새 학대를 방지하는 일이라는 점을 다시 한 번 강조하고 싶다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://edu.donga.com/?p=article&ps=view&at_no=20170717144054760611",
+            "search_query": "앵무새 윙컷",
+            "terminate": false,
+            "text": "앵무새의 비행 날개 깃털을 잘라 주는 윙컷을 통해 집안에서 생길 수 있는 각종 사건, 사고를 미리 방지하는 것이 좋아요. 전문가의 수준에 닿기 전까지는 윙컷을 꼭 해주는 것이 오히려 앵무새 학대를 막는 일이에요.",
+            "turn_id": "BK22008065-8",
+            "utterance_id": "BK22008065.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "참고할게요. 그렇다면 부메랑 같은 훈련은 언제 할 수 있을까요?",
+            "turn_id": "BK22008065-9",
+            "utterance_id": "BK22008065.17"
+        },
+        {
+            "reference_date": "2017-07-17",
+            "reference_text": [
+                {
+                    "value": "이후 앵무새의 습성과 이에 대한 전반적인 지식이 충분히 쌓이면 훈련 전문가의 도움을 받아 일명 부메랑(주인을 떠난 새가 다시 주인에게 돌아오는 단거리 회기 훈련), 사탕 가져오기, 주인이 들어오면 춤추며 인사하기, 정해진 곳에 배변하는 훈련 등 앵무새가 사람과 교감할 수 있는 고난도의 훈련을 실시하기를 권장한다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://edu.donga.com/?p=article&ps=view&at_no=20170717144054760611",
+            "search_query": "앵무새 부메랑",
+            "terminate": false,
+            "text": "앵무새의 습성과 전반적인 지식이 충분히 축적되면 훈련 전문가의 도움을 통해 부메랑 훈련, 사탕 가져오기, 주인이 들어오면 춤추며 인사하기, 정해진 곳에 배변하는 훈련 등 앵무새가 사람과 교감할 수 있는 난이도 높은 트레이닝을 실시할 수 있어요.",
+            "turn_id": "BK22008065-9",
+            "utterance_id": "BK22008065.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 좋은 정보 알려주셔서 감사합니다. 집에 가서 꼭 적용해볼게요.",
+            "turn_id": "BK22008065-10",
+            "utterance_id": "BK22008065.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 앵무새 잘 키우시고 또 봬요.",
+            "turn_id": "BK22008065-10",
+            "utterance_id": "BK22008065.20"
+        }
+    ]
+}

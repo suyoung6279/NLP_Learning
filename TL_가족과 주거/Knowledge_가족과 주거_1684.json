@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012215",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012215",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조심스러운 이야기지만, 친언니가 아이를 입양하는 것에 대해 고민 중이에요.",
+            "turn_id": "BK22012215-1",
+            "utterance_id": "BK22012215.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 정말요? 많은 고민과 신중한 결정이 필요한 일이겠네요.",
+            "turn_id": "BK22012215-1",
+            "utterance_id": "BK22012215.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 아무래도 그렇죠. 듣기로는 입양 방법도 여러 가지라고 하던데 입양 방법에는 무엇이 있나요?",
+            "turn_id": "BK22012215-2",
+            "utterance_id": "BK22012215.3"
+        },
+        {
+            "reference_date": "43792.0",
+            "reference_text": [
+                {
+                    "value": "입양에는 입양특례법에 의한 입양, 민법에 의한 친양자입양, 민법에 의한 일반입양 등 세 종류가 있다.",
+                    "value_time": "44800.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "입양특례법에 의한 입양은 아동 학대 등으로 보호가 필요한 아동이 입양기관을 거쳐 입양되는 경우다.",
+                    "value_time": "44800.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/site/data/html_dir/2019/11/22/2019112202412.html?utm_source=naver&utm_medium=original&utm_campaign=news",
+            "search_query": "입양 방법",
+            "terminate": false,
+            "text": "입양에는 세 가지 방법이 있어요. 먼저, 아동 학대당한 아동처럼 보호가 필요한 아동이 입양기관의 절차를 밟아 입양되는 경우를 입양특례법에 의한 입양이라고 해요. 그 외에는 민법에 의한 일반입양과 친양자 입양이 있어요.",
+            "turn_id": "BK22012215-2",
+            "utterance_id": "BK22012215.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일반입양과 친양자 입양은 어떤 건가요?",
+            "turn_id": "BK22012215-3",
+            "utterance_id": "BK22012215.5"
+        },
+        {
+            "reference_date": "44563.0",
+            "reference_text": [
+                {
+                    "value": "친양자입양은 친부모와의 법적인 관계가 완전히 끊어진다고 볼 수 있다.",
+                    "value_time": "44800.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반면 일반입양은 당사자 간 합의와 친부모의 동의가 있다면 가능하다.",
+                    "value_time": "44800.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://lawtalknews.co.kr/article/KKZK3KTA6YVU",
+            "search_query": "친양자입양 일반입양",
+            "terminate": false,
+            "text": "일반입양은 입양 당사자끼리 합의하고, 친부모의 동의가 있다면 할 수 있어요. 하지만 친양자 입양은 친부모와의 법적 관계가 단절되는 입양이에요.",
+            "turn_id": "BK22012215-3",
+            "utterance_id": "BK22012215.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "입양에 조건이 까다로운 것으로 알고 있는데, 입양 자격은 어떻게 돼요?",
+            "turn_id": "BK22012215-4",
+            "utterance_id": "BK22012215.7"
+        },
+        {
+            "reference_date": "43641.0",
+            "reference_text": [
+                {
+                    "value": "양부모의 입양 자격 요건은 ▲25세 이상 ▲아이와의 나이 차이가 60세 이내 ▲충분한 재산 ▲양자의 종교의 자유 인정 ▲교육과 양육 의무 ▲아동학대, 가정폭력 등의 범죄 경력 없음 ▲약물중독 경력 없음이다.",
+                    "value_time": "44800.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=249742",
+            "search_query": "일반입양 자격 요건",
+            "terminate": false,
+            "text": "입양하려면 양부모는 25세 이상이어야 하고, 입양할 아이와 나이 차이가 60세를 넘으면 안 돼요. 그리고 재산은 넉넉해야 하고, 아동학대 및 가정폭력 등의 범죄 경력과 약물중독 경력도 없어야 해요. 마지막으로 양자의 종교 선택의 자유를 보장해주고, 교육과 양육에 의무를 다해야 하죠.",
+            "turn_id": "BK22012215-4",
+            "utterance_id": "BK22012215.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "입양 자격 요건이 다양하네요. 친양자 입양을 할 때도 요건이 똑같은가요?",
+            "turn_id": "BK22012215-5",
+            "utterance_id": "BK22012215.9"
+        },
+        {
+            "reference_date": "42317.0",
+            "reference_text": [
+                {
+                    "value": "민법 제908조의2 제1항은 친양자 입양요건으로 3년 이상 혼인 중인 부부로서 공동으로 입양하거나 1년 이상 혼인 중인 부부의 한쪽이 그 배우자의 친생자를 친양자로 하는 경우, 친양자로 될 사람이 미성년자일 것 등을 규정하고 있다.",
+                    "value_time": "44800.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lawissue.co.kr/view.php?ud=24134",
+            "search_query": "친양자입양 자격 요건",
+            "terminate": false,
+            "text": "친양자 입양의 자격 요건은 달라요. 민법 제908조의2 제1항에 의하면, 3년 이상 혼인 상태인 부부가 함께 입양하거나 1년 이상 혼인 상태인 부부 중 한 명이 배우자의 친생자를 친양자로 삼는 경우 친양자 입양을 할 수 있어요. 이때 친양자는 미성년자여야 해요.",
+            "turn_id": "BK22012215-5",
+            "utterance_id": "BK22012215.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "친양자입양이 조금 더 까다로운 것 같네요. 그럼 결혼하지 않은 사람은 친양자입양을 할 수 없나요?",
+            "turn_id": "BK22012215-6",
+            "utterance_id": "BK22012215.11"
+        },
+        {
+            "reference_date": "44656.0",
+            "reference_text": [
+                {
+                    "value": "독신자 성인의 친양자 입양을 허용하는 법 개정안이 국무회의를 통과했다.",
+                    "value_time": "44800.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "해당 개정안은 25세 이상 성인이라면 독신자도 친양자를 입양할 수 있도록 했다.",
+                    "value_time": "44800.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "현행 민법은 혼인 중인 부부만이 친양자를 입양을 할 수 있다.",
+                    "value_time": "44800.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/society/view/2022/04/306852/",
+            "search_query": "독신자 입양",
+            "terminate": false,
+            "text": "현재 민법상 혼인 상태의 부부만 친양자 입양을 할 수 있었지만, 결혼하지 않은 성인도 친양자 입양을 할 수 있도록 하는 법 개정안이 국무회의에서 인정됐어요. 이번 개정안은 25세 이상 성인이면 혼인하지 않아도 친양자를 입양할 수 있는 법이에요.",
+            "turn_id": "BK22012215-6",
+            "utterance_id": "BK22012215.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "앞으로 어떻게 될지 지켜봐야겠군요. 혹시 성인이 된 사람을 입양하는 방법도 있나요?",
+            "turn_id": "BK22012215-7",
+            "utterance_id": "BK22012215.13"
+        },
+        {
+            "reference_date": "43833.0",
+            "reference_text": [
+                {
+                    "value": "성인입양은 양부모와 양자가 합의해 입양 신고서를 법원이 아닌 구청 및 시청, 읍면사무소에 제출만 하면 된다.",
+                    "value_time": "44800.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 같이 절차가 간단한 이유는 양부모와 양자의 의사 합치로 이루어지기 때문이다.",
+                    "value_time": "44800.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "단 양자가 성인이더라도 친부모가 있을 경우 동의는 얻어야 한다.",
+                    "value_time": "44800.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://theviewers.co.kr/View.aspx?No=643908",
+            "search_query": "성인 입양",
+            "terminate": false,
+            "text": "네, 성인입양의 경우 양부모와 양자의 합의로 결정되기 때문에 비교적 절차는 간단해요. 합의 후 입양 신고서를 법원이 아니라 구청 또는 시청, 읍면사무소에 제출하면 되는데, 이때 양자에게 친부모가 있다면 동의를 얻어야 해요.",
+            "turn_id": "BK22012215-7",
+            "utterance_id": "BK22012215.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "성인입양은 아동입양보다 간단하네요. 입양가정을 보는 시선이 예전보다는 나아진 것 같은데, 실제로 국내에서 입양이 얼마나 이뤄지고 있는지 궁금해요.",
+            "turn_id": "BK22012215-8",
+            "utterance_id": "BK22012215.15"
+        },
+        {
+            "reference_date": "44692.0",
+            "reference_text": [
+                {
+                    "value": "보건복지부는 ‘입양의 날’을 맞아 11일 '2021 입양통계'를 공개했다.",
+                    "value_time": "44800.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자료에 따르면 지난해 입양 아동은 415명으로 국내 입양이 226명(54.5%), 국외 입양이 189명(45.5%)이었다.",
+                    "value_time": "44800.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2011년 이래 가장 적었다.",
+                    "value_time": "44800.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newsworks.co.kr/news/articleView.html?idxno=597982",
+            "search_query": "입양 가정 수",
+            "terminate": false,
+            "text": "보건복지부가 2022년 5월 11일에 공개한 2021 입양통계를 보면, 2021년 입양된 아동의 수는 415명이에요. 2011년 이후로 가장 적은 숫자였죠. 415명 중 국내 입양이 226명으로 54.5%를, 국외 입양은 189명으로 45.5% 차지했어요.",
+            "turn_id": "BK22012215-8",
+            "utterance_id": "BK22012215.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아직도 입양 아동의 수는 많지 않네요. 입양가정에 대한 정부의 지원이 없어서 그런 건 아닐까요?",
+            "turn_id": "BK22012215-9",
+            "utterance_id": "BK22012215.17"
+        },
+        {
+            "reference_date": "44754.0",
+            "reference_text": [
+                {
+                    "value": "정부는 국내 입양가정에 대한 지원도 늘렸다.",
+                    "value_time": "44800.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "올해부터 보호대상아동 입양 국내가정에 입양축하금 200만원(일시금)을 주고 있으며 10여 년간 동결된 입양아동 양육수당을 기존 월 15만원에서 20만원으로 인상했다.",
+                    "value_time": "44800.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newspim.com/news/view/20220711000263",
+            "search_query": "입양 가정 지원",
+            "terminate": false,
+            "text": "국내 입양가정을 위한 정부의 지원은 늘어났어요. 2022년부터 보호대상아동을 국내 입양하는 가정에 200만원의 입양축하금을 주고, 월 20만원의 입양아동 양육수당을 지급해요. 양육수당의 경우, 10여년간 월 15만원으로 고정되었던 금액을 인상한 거랍니다.",
+            "turn_id": "BK22012215-9",
+            "utterance_id": "BK22012215.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정부도 입양가정을 위해서 노력하고 있었군요. 언니에게도 이 정보를 알려줘야겠어요.",
+            "turn_id": "BK22012215-10",
+            "utterance_id": "BK22012215.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "현명한 결정을 내리는 데에 도움이 되길 바랄게요.",
+            "turn_id": "BK22012215-10",
+            "utterance_id": "BK22012215.20"
+        }
+    ]
+}

@@ -1,0 +1,369 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001775",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001775",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 강아지를 키워볼까 생각 중이에요. 키우게 되면 꼭 해야할 일이 있을까요?",
+            "turn_id": "BK22001775-1",
+            "utterance_id": "BK22001775.1"
+        },
+        {
+            "reference_date": "2022-04-15",
+            "reference_text": [
+                {
+                    "value": "* 동물등록제: 반려동물의 보호와 유실·유기 방지를 위해 반려인이 자신의 반려동물을 전국 시·군·구청에 등록하도록 ‘동물보호법’으로 의무화한 제도이다.",
+                    "value_time": "2022-07-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.korea.kr/news/policyNewsView.do?newsId=148900789",
+            "search_query": "강아지 입양 주의사항",
+            "terminate": false,
+            "text": "아무래도 동물 등록이겠죠. 동물보호법에서 동물 등록제를 의무화했기 때문에 전국 시, 군, 구청에 반려동물을 등록해야 해요. 그래야 강아지를 보호하고 유실과 유기를 방지할 수 있거든요.",
+            "turn_id": "BK22001775-1",
+            "utterance_id": "BK22001775.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 그렇구나, 산책갈 때 주의사항은 따로 없겠죠?",
+            "turn_id": "BK22001775-2",
+            "utterance_id": "BK22001775.3"
+        },
+        {
+            "reference_date": "2022-04-15",
+            "reference_text": [
+                {
+                    "value": "반려견과 사람 간 연결된 줄의 길이가 2m를 넘는 경우 안전조치 의무를 위반한 사항이며 이 경우 50만원 이하의 과태료가 부과될 수 있다.",
+                    "value_time": "2022-07-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.korea.kr/news/policyNewsView.do?newsId=148900789",
+            "search_query": "강아지 입양 주의사항",
+            "terminate": false,
+            "text": "있어요! 산책줄이 2미터가 넘지 않도록 하지 않으면 안전조치 위반으로 50만원 이하의 과태료를 내야할 수도 있어요.",
+            "turn_id": "BK22001775-2",
+            "utterance_id": "BK22001775.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이고, 몰랐으면 큰일 날 뻔했네요.",
+            "turn_id": "BK22001775-3",
+            "utterance_id": "BK22001775.5"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금이라도 알게되어서 다행이네요, 더 궁금하신 거 있으시면 물어보세요.",
+            "turn_id": "BK22001775-3",
+            "utterance_id": "BK22001775.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사실 강아지 목욕도 어느 정도에 시켜줘야 하는지 잘 모르겠어요.",
+            "turn_id": "BK22001775-4",
+            "utterance_id": "BK22001775.7"
+        },
+        {
+            "reference_date": "2022-06-18",
+            "reference_text": [
+                {
+                    "value": "강아지는 일반적으로 2~3주에 한 번 목욕하는 것이 적당합니다.",
+                    "value_time": "2022-07-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "게다가 안쪽에 털이 나 있어 거품이나 물이 들어가면 습기가 차면서 염증이 발생할 수 있습니다.",
+                    "value_time": "2022-07-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "귓속에 솜을 넣어서 물을 막거나 손으로 귀를 내려 귓속에 물이 들어가지 않도록 주의해야 합니다.",
+                    "value_time": "2022-07-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202206171725499427",
+            "search_query": "강아지 목욕 주의사항",
+            "terminate": false,
+            "text": "2주나 3주에 한 번씩 해주시는 게 적당해요. 그리고 조심해야할 게, 귀 안에 물이나 거품이 들어가면 습기때문에 염증이 생기니까 귓속에 솜을 넣거나 귀를 내려줘서 물이 안 들어가게 해주셔야 해요.",
+            "turn_id": "BK22001775-4",
+            "utterance_id": "BK22001775.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 알겠어요. 그리고 강아지들 중성화 수술도 해야 하잖아요, 그건 언제쯤 하는 게 좋을까요?",
+            "turn_id": "BK22001775-5",
+            "utterance_id": "BK22001775.9"
+        },
+        {
+            "reference_date": "2022-06-25",
+            "reference_text": [
+                {
+                    "value": "암컷 개와 고양이는 성견∙성묘가 되고 첫 생리를 하기 전 수술하는 것이 좋습니다.",
+                    "value_time": "2022-07-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수컷은 생후 3~4개월에 수술하는 것이 적절합니다.",
+                    "value_time": "2022-07-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202206241710274482",
+            "search_query": "반려동물 중성화",
+            "terminate": false,
+            "text": "암컷은 첫 생리를 시작하기 전, 수컷은 생후 3,4개월에 하는 게 적당해요.",
+            "turn_id": "BK22001775-5",
+            "utterance_id": "BK22001775.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "중성화 하는 게 부작용이 있다던데, 그런 건 뭐예요?",
+            "turn_id": "BK22001775-6",
+            "utterance_id": "BK22001775.11"
+        },
+        {
+            "reference_date": "2022-01-21",
+            "reference_text": [
+                {
+                    "value": "중성화 수술로 억제되는 호르몬인 테스토스테론과 에스트로겐은 뼈와 근육의 성장에도 영향을 미치는데 성장기를 지나지 않은 상태에서 중성화를 하게 되면 차후 십자인대파열이나 고관절이형성증 같은 정형외과적 질병이 야기되기도 한다.",
+                    "value_time": "2022-07-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.healthinnews.co.kr/news/articleView.html?idxno=27663",
+            "search_query": "반려동물 중성화 반대",
+            "terminate": false,
+            "text": "중성화 수술을 하면 뼈와 근육 성장에 영향을 주는 호르몬인 테스토스테론과 에스트로겐이 억제되는데, 그래서 성장기 전에 중성화를 하면 나중에 정형외과적 질병이 나타날 수도 있어요. 십자인대파열이나 고관절이형성증 같은 거요.",
+            "turn_id": "BK22001775-6",
+            "utterance_id": "BK22001775.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "헐, 부작용이 있으면 안 하는 게 좋지 않아요?",
+            "turn_id": "BK22001775-7",
+            "utterance_id": "BK22001775.13"
+        },
+        {
+            "reference_date": "2022-05-09",
+            "reference_text": [
+                {
+                    "value": "콜로라도 주립 대학의 수의학 병원의 ‘생식샘 제거술의 잠재적인 이점과 부작용에 관한 연구’ 결과를 보면 중성화로 인한 부작용 질환 정도는 ‘약간 증가’, ‘보통 수준의 증가’인 것에 반해 예방 가능한 질환 정도는 ‘눈에 띄는 감소’라는 매우 유의미한 결과를 보인다.",
+                    "value_time": "2022-07-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthinnews.co.kr/news/articleView.html?idxno=29774",
+            "search_query": "강아지 중성화 부작용",
+            "terminate": false,
+            "text": "그렇게 생각하실 수도 있지만 중성화로 인해 부작용 질환이 생기는 정도는 약간이나 보통 정도이지만 예방 가능한 질환에 대한 정도는 매우 유의미하게 감소한다는 결과가 있어요.",
+            "turn_id": "BK22001775-7",
+            "utterance_id": "BK22001775.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 하는 게 좋을 수도 있겠네요, 강아지를 위해 제가 대신 선택하는 일이다 보니 생각이 많아져요.",
+            "turn_id": "BK22001775-8",
+            "utterance_id": "BK22001775.15"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그만큼 책임감이 크신 거죠. 반려동물을 위해 깊게 고민한다는 건 좋은 일이에요.",
+            "turn_id": "BK22001775-8",
+            "utterance_id": "BK22001775.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 생각해주신다니 감사하네요, 한 번 같이 살게 되면 오래오래 함께했으면 좋겠거든요.",
+            "turn_id": "BK22001775-9",
+            "utterance_id": "BK22001775.17"
+        },
+        {
+            "reference_date": "2022-05-29",
+            "reference_text": [
+                {
+                    "value": "미국 사우스캐롤라이나주 테일러스에 사는 토이폭스테리어종 암컷 페블스(Pebbles)가 기네스세계기록의 세계최고령견 인증서 옆에 앉아 있다.",
+                    "value_time": "2022-07-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2000년 3월28일에 태어나 올해 22번째 생일을 맞은 페블스는 17일(현지시간) 세계에서 가장 나이 많은 반려견으로 공식 인정받았다고 영국 일간 가디언이 27일 보도했다.",
+                    "value_time": "2022-07-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220529512765?OutUrl=naver",
+            "search_query": "최고령견",
+            "terminate": false,
+            "text": "미국에 사는 토이폭스테리어종인 페블스라는 개는 2000년 3월 28일에 태어나서 올해 22살이 되었어요. 기네스 세계 기록에 등재된 최고령견인데, 이렇게 오래 사는 강아지도 있으니까 너무 걱정 말아요.",
+            "turn_id": "BK22001775-9",
+            "utterance_id": "BK22001775.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 그렇게 잘 키워보고 싶네요. 강아지가 오랫동안 장수할 수 있는 비결이 뭘까요?",
+            "turn_id": "BK22001775-10",
+            "utterance_id": "BK22001775.19"
+        },
+        {
+            "reference_date": "2022-04-23",
+            "reference_text": [
+                {
+                    "value": "기네스 측에 따르면 2001년 1월 9일에 태어난 토비키스는 지난 3월 16일 기준으로 21년 66일을 살았다.",
+                    "value_time": "2022-07-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "견주가 밝힌 토비키스의 장수 비결은 바로 ‘규칙적인 생활’과 ‘건강한 식단’이다.",
+                    "value_time": "2022-07-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/Inter/article/all/20220423/113037815/1",
+            "search_query": "강아지 장수 비결",
+            "terminate": false,
+            "text": "또 다른 기네스에 오른 21살 강아지 견주가 밝힌 것에 따르면, 규칙적인 생활과 건강한 식단이 장수 비결이에요.",
+            "turn_id": "BK22001775-10",
+            "utterance_id": "BK22001775.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시, 사람이나 동물이나 운동과 건강식은 필수네요. 오늘 좋은 정보 감사해요, 걱정이 훨씬 줄었네요.",
+            "turn_id": "BK22001775-11",
+            "utterance_id": "BK22001775.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다행이에요, 강아지 입양하시면 한 번 보여주세요. 궁금하신 거 있으시면 언제든 연락주시고요!",
+            "turn_id": "BK22001775-11",
+            "utterance_id": "BK22001775.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네 알겠습니다, 다음에 봬요!",
+            "turn_id": "BK22001775-12",
+            "utterance_id": "BK22001775.23"
+        }
+    ]
+}

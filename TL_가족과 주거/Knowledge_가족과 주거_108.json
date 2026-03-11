@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013561",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013561",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 3.8,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 아이들 귀 관리 어떻게 해주고 있어?",
+            "turn_id": "BK22013561-1",
+            "utterance_id": "BK22013561.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "물이 들어갔을 경우에 물기 제거 정도만 해주고 있는데, 왜?",
+            "turn_id": "BK22013561-1",
+            "utterance_id": "BK22013561.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여름방학에 물놀이를 몇 번 갔다 온 이후로 우리 아이가 귀 청소를 자주 해달라고 하는데 괜찮은 건가 싶어서.",
+            "turn_id": "BK22013561-2",
+            "utterance_id": "BK22013561.3"
+        },
+        {
+            "reference_date": "44702.0",
+            "reference_text": [
+                {
+                    "value": "한국건강관리협회에 따르면 귀지는 외이도를 보호하는 역할을 하므로 인위적으로 제거할 필요는 없다.",
+                    "value_time": "44787.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "귀 안에 쌓인 귀지는 음식을 씹을 때 턱이 움직이는 등의 과정을 통해 자연스럽게 떨어져 나가는 경우가 대부분이다.",
+                    "value_time": "44787.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/life/article/2022052001757",
+            "search_query": "귀지제거",
+            "terminate": false,
+            "text": "한국건강관리협회에 의하면 외이도를 보호해 주는 것이 귀지라서 일부러 제거할 필요는 없어. 대부분 음식을 먹을 때 턱이 움직이면서 귀지가 자연스럽게 떨어져 나가거든.",
+            "turn_id": "BK22013561-2",
+            "utterance_id": "BK22013561.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 샤워나 물놀이 후에 물이 귀에 들어갔다면 어떻게 해줘야 해?",
+            "turn_id": "BK22013561-3",
+            "utterance_id": "BK22013561.5"
+        },
+        {
+            "reference_date": "44759.0",
+            "reference_text": [
+                {
+                    "value": "면봉, 귀이개, 손가락 등을 이용한 인위적인 자극은 증상을 더욱 악화될 수 있기 때문에 제자리 뛰기를 통해 자연스럽게 물이 빠지도록 하고 드라이기의 차가운 바람을 통해 귓속을 건조시키는 방법이 좋다.",
+                    "value_time": "44787.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1409259/%ec%9e%98%eb%aa%bb-%ea%b4%80%eb%a6%ac%ed%95%98%eb%a9%b4-%ec%95%88%eb%a9%b4%ec%8b%a0%ea%b2%bd%eb%a7%88%eb%b9%84-%ec%9c%a0%eb%b0%9c%ed%95%98%eb%8a%94-000-%ec%a1%b0%ec%8b%ac/",
+            "search_query": "귀의 물기 제거",
+            "terminate": false,
+            "text": "제자리 뛰기를 시켜서 물이 저절로 빠지게 해주고 드라이기의 차가운 바람을 이용해 말려주는 것이 좋아. 면봉이나 귀이개 등을 이용해 제거하려고 하면 자극이 되니까 사용을 자제해야 해.",
+            "turn_id": "BK22013561-3",
+            "utterance_id": "BK22013561.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 여름철 잘 나타나는 귀 관련한 질병에는 어떤 것들이 있어?",
+            "turn_id": "BK22013561-4",
+            "utterance_id": "BK22013561.7"
+        },
+        {
+            "reference_date": "44763.0",
+            "reference_text": [
+                {
+                    "value": "여름철 많이 발생하는 급성 외이도염은 세균성 감염으로 잦은 수영, 습한 기후 또는 외이도의 외상, 이물 등이 원인이 되어 발생한다.",
+                    "value_time": "44787.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.chosun.com/news/ntype.htm?id=202207220100154360009702&servicedate=20220721",
+            "search_query": "급성 외이도염",
+            "terminate": false,
+            "text": "먼저 여름에 많이 나타나는 급성 외이도염이 있어. 수영을 자주 하거나 기후가 습할 때 또는 외이도가 다치거나 이물질들이 있었을 경우에 생기는 세균성 감염이야.",
+            "turn_id": "BK22013561-4",
+            "utterance_id": "BK22013561.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "급성 외이도염은 증상이 어떻게 나타나는 거야?",
+            "turn_id": "BK22013561-5",
+            "utterance_id": "BK22013561.9"
+        },
+        {
+            "reference_date": "44778.0",
+            "reference_text": [
+                {
+                    "value": "흔한 초기 증상은 가려움이다.",
+                    "value_time": "44787.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "증상이 진행되면서 붓고 통증이 생기며 귀에서 진물이 흐르게 된다.",
+                    "value_time": "44787.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "귀에 뭔가 차 있는 듯한 ‘이충만감’도 동반된다.",
+                    "value_time": "44787.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/life/health/article/202208052150015",
+            "search_query": "급성외이도염 증상",
+            "terminate": false,
+            "text": "처음에는 가려움증이 흔하게 나타나는데 더 진행되면 붓기도 하고 아프면서 진물이 나기도 하지. 귀가 꽉 차 있는 느낌인 이충만감이 생기기도 해.",
+            "turn_id": "BK22013561-5",
+            "utterance_id": "BK22013561.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "만약 외이도염에 걸렸을 경우 치료받으면 다 나을 수 있는 거지?",
+            "turn_id": "BK22013561-6",
+            "utterance_id": "BK22013561.11"
+        },
+        {
+            "reference_date": "44763.0",
+            "reference_text": [
+                {
+                    "value": "외이도염은 적절하게 치료받으면 완치되는 경우가 대부분이지만 증상을 제 때에 치료하지 않으면 만성 외이도염으로 발전할 수 있다.",
+                    "value_time": "44787.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.munhwa.com/news/view.html?no=2022072101039921080001",
+            "search_query": "급성외이도염 치료",
+            "terminate": false,
+            "text": "그럼, 증상이 나타났을 때 치료를 바로 받으면 대부분 완치돼. 하지만 제때 치료 못했을 경우에 만성 외이도염으로 발전할 수 있어.",
+            "turn_id": "BK22013561-6",
+            "utterance_id": "BK22013561.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "만성으로 발전할 수 있다니 증상이 있으면 바로 병원에 가야겠구나. 여름에 조심해야 하는 또 다른 귀 관련 질환이 있을까?",
+            "turn_id": "BK22013561-7",
+            "utterance_id": "BK22013561.13"
+        },
+        {
+            "reference_date": "44777.0",
+            "reference_text": [
+                {
+                    "value": "여름철이 되면 소아 중이염 환자가 급증한다.",
+                    "value_time": "44787.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대부분 물놀이를 다녀온 후 귀의 통증, 먹먹함, 울림, 이명, 청력감소, 발열, 구토, 발열 등 다양한 증상이 나타나 병원을 찾았다가 진단을 받게 된다.",
+                    "value_time": "44787.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20220804000389",
+            "search_query": "중이염",
+            "terminate": false,
+            "text": "여름철에는 어린이 중이염 환자가 엄청 늘어. 물놀이를 갔다 와서 통증, 먹먹함, 울림, 이명, 청력 감소 등의 다양한 증상으로 병원을 많이 찾아.",
+            "turn_id": "BK22013561-7",
+            "utterance_id": "BK22013561.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이가 그런 증상을 보인다면 집에서는 어떻게 처치해 줘야 하는 거야?",
+            "turn_id": "BK22013561-8",
+            "utterance_id": "BK22013561.15"
+        },
+        {
+            "reference_date": "44772.0",
+            "reference_text": [
+                {
+                    "value": "아이가 중이염에 걸려 귀가 아프고 열이 난다면 해열진통제를 먹여도 된다.",
+                    "value_time": "44787.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "열이 조금 내리고 귀의 통증이 잠잠해지면 얼음 주머니나 얼음 수건으로 아이의 귀를 5분 이내로 냉찜질을 해서 편안하게 해주는 것도 도움이 된다.",
+                    "value_time": "44787.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/268Q0C2BQA",
+            "search_query": "중이염 처치법",
+            "terminate": false,
+            "text": "만약에 열이 난다면 해열진통제를 먹여봐. 그 후에 열이 내리고 귀도 덜 아프게 되면 얼음찜질을 5분 정도 해주면 좋아.",
+            "turn_id": "BK22013561-8",
+            "utterance_id": "BK22013561.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "중이염으로 병원에 가면 약을 주던데 무슨 약인 거야?",
+            "turn_id": "BK22013561-9",
+            "utterance_id": "BK22013561.17"
+        },
+        {
+            "reference_date": "44719.0",
+            "reference_text": [
+                {
+                    "value": "중이염 치료의 근본은 항생제 치료다.",
+                    "value_time": "44787.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1~2주 다녀서 낫지 않는다고 병원을 바꾸지 않도록 한다.",
+                    "value_time": "44787.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "항생제는 중간에 중단하면 세균이 완전히 죽지 않을뿐더러, 세균이 항생제에 대한 내성이 생겨서 다음에 더 강한 약을 써야 죽게 된다.",
+                    "value_time": "44787.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202206073850o",
+            "search_query": "중이염 항생제치료",
+            "terminate": false,
+            "text": "기본적으로 병원에 가면 항생제를 줘. 1주나 2주 쯤 다녀도 잘 낫지 않을 수 있는데 병원을 바꾸거나 하면 안 돼. 왜냐하면 항생제를 중간에 멈출 경우 세균이 완전히 죽지 않고 내성이 생겨 나중에는 더 강한 약을 써야 하거든.",
+            "turn_id": "BK22013561-9",
+            "utterance_id": "BK22013561.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "완전히 나을 때까지 같은 병원에서 치료하라는 말이지? 혹시 모르니까 아이 데리고 병원에 가봐야겠네. 오늘 얘기 고마웠어.",
+            "turn_id": "BK22013561-10",
+            "utterance_id": "BK22013561.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 병원 잘 갔다 오고 괜찮았으면 좋겠다.",
+            "turn_id": "BK22013561-10",
+            "utterance_id": "BK22013561.20"
+        }
+    ]
+}

@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016090",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016090",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엄마가 내 어릴 적 얘길 해주셨는데, 나 가졌을 때 임신중독증에 걸려서 엄청 힘드셨대. 임신중독증이 정확히 뭐야? 일종의 질환 같은 거야?",
+            "turn_id": "BK22016090-1",
+            "utterance_id": "BK22016090.1"
+        },
+        {
+            "reference_date": "2022-03-07",
+            "reference_text": [
+                {
+                    "value": "임신중독증(妊娠中毒症, 영어: pre-eclampsia, PE)은 고혈압의 증세를 보이고 종종 많은 양의 단백뇨가 배출되는 임신 질환이다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "자간전증(子癎前症)이라고도 한다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 질병은 임신 후기에 발생하며 시간이 지남에 따라 악화되는 것이 일반적이다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%84%EC%8B%A0%EC%A4%91%EB%8F%85%EC%A6%9D",
+            "search_query": "임신중독증",
+            "terminate": false,
+            "text": "응, 임신중독증은 자간전증이라고도 하는데, 고혈압이 나타나면서 다량의 단백뇨가 나오는 임신 질환이야. 임신중독증은 임신 후기에 발생하고, 점차 시간이 지나면서 증세가 악화되는 게 보통이지.",
+            "turn_id": "BK22016090-1",
+            "utterance_id": "BK22016090.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어우, 우리 엄마 진짜 많이 힘드셨겠다. 임신중독증에 걸리면 주로 어떤 증상이 나타나?",
+            "turn_id": "BK22016090-2",
+            "utterance_id": "BK22016090.3"
+        },
+        {
+            "reference_date": "2022-05-21",
+            "reference_text": [
+                {
+                    "value": "임신중독증을 의심해볼 수 있는 증상으로는 △지속적인 심한 두통 △1주일에 1kg 이상 급격한 체중 증가 △갑작스러운 시력 저하 △갈비뼈 바로 아래쪽 배(상복부)의 극심한 통증 △얼굴·손·발의 부종 등이 있다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 이러한 증상이 없는 데도 정기검사에서 혈압 상승과 함께 단백뇨가 발견되며 진단받는 경우도 많다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/011/0004056310?sid=102",
+            "search_query": "임신중독증 증상",
+            "terminate": false,
+            "text": "임신중독증에 걸리면 심한 두통이 지속적으로 나타나거나 1주일에 1kg 이상 체중이 급격하게 증가하기도 해. 시력이 갑자기 떨어질 수도 있고, 갈비뼈 바로 아래 복부에서 극심한 통증이 생기거나 얼굴, 손, 발 등에 부종이 생길 수 있어. 하지만 이런 증상이 없어도 정기 검사 결과 혈압이 상승함과 동시에 단백뇨가 나타나서 임신중독증 진단을 받는 경우도 많아.",
+            "turn_id": "BK22016090-2",
+            "utterance_id": "BK22016090.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "주요 증상이 없어도 고혈압과 단백뇨 증세가 나타나면 임신중독증이라고 보는 거네. 근데 임신중독증이 그렇게 위험한 거야?",
+            "turn_id": "BK22016090-3",
+            "utterance_id": "BK22016090.5"
+        },
+        {
+            "reference_date": "2022-10-09",
+            "reference_text": [
+                {
+                    "value": "임신중독증이 심하면 폐부종이나 뇌출혈, 간·신장 부전, 혈액 응고 이상 등이 나타난다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "태반·태아로의 혈류 공급에 장애가 생겨 태아의 성장 부전을 유발하거나 사망의 원인이 되기도 한다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/025/0003229403?sid=103",
+            "search_query": "임신중독증 심하면",
+            "terminate": false,
+            "text": "당연하지, 증세가 심하면 폐부종이나 뇌출혈, 간이나 신장 부전, 혈액 응고 이상 등으로 이어질 수 있어서 산모에게 아주 위험해. 게다가 임신중독증으로 인해 태반과 태아에게 혈류가 공급되는 과정에서 문제가 생겨 태아의 성장 부전을 유발할 수도 있고, 나아가 사망의 원인이 되기도 해서 태아에게도 아주 위험하지.",
+            "turn_id": "BK22016090-3",
+            "utterance_id": "BK22016090.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세상에, 상당히 위험한 질환이구나! 혹시 임신중독증 사례가 많아? 그 정도로 위험한데 자주 발생하는 질환이면 특히 임신부들은 걱정이 안 될 수가 없을 것 같은데.",
+            "turn_id": "BK22016090-4",
+            "utterance_id": "BK22016090.7"
+        },
+        {
+            "reference_date": "2022-05-20",
+            "reference_text": [
+                {
+                    "value": "건강보험심사평가원 통계에 따르면 가장 많은 모성 사망 원인 중 하나인 임신중독증 환자가 2016년 8112명에서 2020년 13,757명으로 5년간 약 70% 늘었다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20220520000247",
+            "search_query": "임신중독증 증가 추세",
+            "terminate": false,
+            "text": "그렇지, 아무래도 임신중독증은 가장 많은 모성 사망 원인 중 하나니까. 건강보험심사평가원의 통계에 따르면, 2016년에는 임신중독증 환자가 8112명으로 집계됐는데, 2020년에는 13757명으로 나타났어. 5년간 약 70%나 증가한 거야.",
+            "turn_id": "BK22016090-4",
+            "utterance_id": "BK22016090.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "말도 안 돼, 엄청 늘었잖아! 만약 내가 임신중독증 위험도가 높은 임신부라면 어떻게 해야 돼?",
+            "turn_id": "BK22016090-5",
+            "utterance_id": "BK22016090.9"
+        },
+        {
+            "reference_date": "2022-05-24",
+            "reference_text": [
+                {
+                    "value": "고위험군일 경우 임신 12~28주부터 매일 저용량 아스피린을 복용할 것을 권고하고 있다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고혈압이 있는 임신부는 2~3일간 입원 후 건강상태를 확인한 후 중증일 경우 분만을 결정해야 한다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://jhealthmedia.joins.com/article/article_view.asp?pno=25428&ispc=y",
+            "search_query": "임신중독증 아스피린",
+            "terminate": false,
+            "text": "고위험군에 속할 경우, 임신 12~28주부터 날마다 저용량의 아스피린을 먹을 것을 권고하고 있어. 혹여 고혈압이 있는 임신부라면 2~3일간 병원에 입원해서 건강 상태를 체크해보고 만약 중증일 경우 분만을 결정해야 해.",
+            "turn_id": "BK22016090-5",
+            "utterance_id": "BK22016090.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아스피린이 임신중독증에 쓰일 줄은 몰랐네. 따로 치료 방법은 없는 거야?",
+            "turn_id": "BK22016090-6",
+            "utterance_id": "BK22016090.11"
+        },
+        {
+            "reference_date": "2022-07-23",
+            "reference_text": [
+                {
+                    "value": "임신중독증의 치료는 임신을 종결하는 것이다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 이른 임신 주수에 진단될수록 산모와 태아의 위험도는 증가한다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/353/0000042784?sid=103",
+            "search_query": "임신중독증 치료",
+            "terminate": false,
+            "text": "임신중독증을 치료한다는 건 결국 분만을 해서 임신을 끝내는 것과 마찬가지야. 그래서 임신 초기에 가깝게 진단될수록 산모와 태아의 위험율도 높아지지.",
+            "turn_id": "BK22016090-6",
+            "utterance_id": "BK22016090.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "난감한걸, 만약 임신중독증 증세가 심한데 아기가 아직 나올 때가 안 된 경우엔 완전 진퇴양난이잖아. 그럴 땐 어떻게 해? 그래도 분만을 해야 하는 거야?",
+            "turn_id": "BK22016090-7",
+            "utterance_id": "BK22016090.13"
+        },
+        {
+            "reference_date": "2019-10-11",
+            "reference_text": [
+                {
+                    "value": "임신중독증은 임신의 종결과 함께 증상이 완료되므로 위험성이 커지면 유도분만이나 제왕절개를 통해 출산하는 방법밖에 없다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.naeil.com/news_view/?id_art=327971",
+            "search_query": "임신중독 제왕절개",
+            "terminate": false,
+            "text": "그렇지, 결국 임신의 종결이 곧 임신중독증 치료이기 때문에 그런 위험한 경우엔 유도분만이나 제왕절개를 통해 출산하는 수밖에 없어.",
+            "turn_id": "BK22016090-7",
+            "utterance_id": "BK22016090.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얘기 듣는 내가 다 속상하네. 혹시 임신중독증 진단을 위한 검사는 따로 없나?",
+            "turn_id": "BK22016090-8",
+            "utterance_id": "BK22016090.15"
+        },
+        {
+            "reference_date": "2019-03-27",
+            "reference_text": [
+                {
+                    "value": "우리가 익히 ‘임신중독증’이라고 알고 있는 임신 중 고혈압 질환 ‘전자간증’은 고혈압과 단백뇨(전자간증, 자간전증), 경련(자간증)과 같은 연속적인 고혈압성 증후군을 의미한다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "최근 전자간증의 진단과 예측을 돕는 간단한 혈액 검사법 (sFlt-1/PlGF ratio 검사) 이 예비산모 사이에 화제가 되고 있다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "본 검사는 전자간증의 진단에 도움을 줄 뿐 아니라, 전자간증의 발생의 위험도를 예측하는 데에 도움을 줄 수 있다.",
+                    "value_time": "2022-10-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=43153",
+            "search_query": "전자간증 검사",
+            "terminate": false,
+            "text": "sFIt-1/PIGF ratio 검사라는 간단한 혈액 검사법이 있는데, 전자간증, 즉 임신중독증을 진단하고 예측하는 데에 도움이 되는 검사야. 뿐만 아니라 임신중독증이 발생할 위험도를 예측하는 데에도 쓰일 수 있어.",
+            "turn_id": "BK22016090-8",
+            "utterance_id": "BK22016090.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혈액을 통해 진단할 수 있구나. 얘기 듣고 나니까 엄마한테 잘해야겠다는 생각이 마구 드네.",
+            "turn_id": "BK22016090-9",
+            "utterance_id": "BK22016090.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 어머님이 많이 고생하셨겠다.",
+            "turn_id": "BK22016090-9",
+            "utterance_id": "BK22016090.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 임신중독증 말씀하시면서 효도하라고 농담처럼 그러시더라. 아무튼 덕분에 이것저것 많이 알게 됐어, 고마워.",
+            "turn_id": "BK22016090-10",
+            "utterance_id": "BK22016090.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 됐다니 다행이네. 또 궁금한 거 생기면 언제든 물어봐.",
+            "turn_id": "BK22016090-10",
+            "utterance_id": "BK22016090.20"
+        }
+    ]
+}

@@ -1,0 +1,361 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008148",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008148",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 요즘 반려어를 키워보고 싶은데 물고기에 대해 아는 것이 없어서 좀 여쭤보고 싶어요. 저번에 집에 놀러 갔을 때 어항에 있는 물고기를 보고 너무 이쁘다고 생각했거든요.",
+            "turn_id": "BK22008148-1",
+            "utterance_id": "BK22008148.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잘 왔어요. 저는 열대어를 종류를 바꿔가며 오랫동안 키우고 있어서 아주 잘 알고 있어요. 주변에 반려어를 키우는 사람이 점점 늘어나서 기쁘네요.",
+            "turn_id": "BK22008148-1",
+            "utterance_id": "BK22008148.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 제 주변에도 저처럼 기르고 싶어 하는 사람이 있어서 오늘 들은 정보들을 공유해주려고 해요. 저번 주에 마트에서 물고기를 봐서 오후에 사러 가려고 하는데 거기서 사도 괜찮을까요?",
+            "turn_id": "BK22008148-2",
+            "utterance_id": "BK22008148.3"
+        },
+        {
+            "reference_date": "2018-07-05",
+            "reference_text": [
+                {
+                    "value": "물고기를 키우기로 마음먹었다면 대형마트의 애완동물 코너나 인터넷 쇼핑몰보다는 집에서 가까운 전문 수족관을 먼저 찾는 게 좋다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전문 수족관은 보유하고 있는 물고기의 종류가 다양할 뿐 아니라 각각의 특징과 사육방법 등을 자세히 알려주기 때문이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yeongnam.com/web/view.php?key=20180705.010230817350001",
+            "search_query": "금붕어 대형마트",
+            "terminate": false,
+            "text": "물고기를 키우려면 마트나 인터넷 쇼핑몰에서 구매하는 것보다는 집 근처 전문 수족관을 가보는 것이 좋아요. 전문 수족관은 보유하고 있는 물고기 종류도 다양하고 종류별 특징이나 사육 방법들도 잘 알려주시거든요.",
+            "turn_id": "BK22008148-2",
+            "utterance_id": "BK22008148.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요! 그럼 마트로 가지 않고 전문 수족관으로 가봐야겠어요. 혹시 키우기 쉬운 물고기도 추천해주실 수 있나요?",
+            "turn_id": "BK22008148-3",
+            "utterance_id": "BK22008148.5"
+        },
+        {
+            "reference_date": "2019-04-07",
+            "reference_text": [
+                {
+                    "value": "구피, 네온테트라, 구라미, 코리도라스, 엔젤피시 종류가 비교적 수질관리가 쉽고, 초보자에게 쉬운 편이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mhns.co.kr/news/articleView.html?idxno=202198",
+            "search_query": "키우기 쉬운 물고기",
+            "terminate": false,
+            "text": "처음 키우시는 초보자라 구피나 네온테트라, 구라미 등을 추천해요. 초보자가 기르기 쉽고 비교적 수질 관리하기도 쉽거든요.",
+            "turn_id": "BK22008148-3",
+            "utterance_id": "BK22008148.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "구피는 들어봤어요! 이쁘게 생겼던데 구피로 데려와야겠네요. 혹시 물고기 데려올 때 신경 써야 하는 부분이 있을까요?",
+            "turn_id": "BK22008148-4",
+            "utterance_id": "BK22008148.7"
+        },
+        {
+            "reference_date": "2012-06-21",
+            "reference_text": [
+                {
+                    "value": "물고기를 구입할 때는 가게에서 직접 마른 먹이를 주었을 때 먼저 먹으려고 올라오는 놈부터 뜰채로 건지면 된다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "건강한 물고기는 많이 먹으려고 여러 번 오르내린다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "몸에 상처가 없고 꼬리 부분이 완전한지 확인하고 주인에게 먹이를 무얼 주었는지 물어 본다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지렁이로 키운 놈들은 병이 있을 확률이 높으므로 전용 먹이로 키웠는지 확인하여야 한다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/003/0004565031?sid=103",
+            "search_query": "열대어 구입할때 확인",
+            "terminate": false,
+            "text": "물고기를 데려올 때는 거기서 먹이를 주었을 때 먼저 먹으려고 올라오는 친구들부터 뜰채로 건지면 돼요. 건강한 물고기들은 많이 먹고 싶어서 여러 번 오르락내리락 하거든요. 그리고 몸에 상처가 없는지 꼬리 부분이 완전한지 확인하고 주인에게 전용 먹이를 주고 키웠는지 물어보면 돼요. 만약 지렁이로 키웠다면 병이 있을 확률이 높기 때문이죠.",
+            "turn_id": "BK22008148-4",
+            "utterance_id": "BK22008148.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좋은 팁이네요! 아 그리고 구피를 데려오려면 어항을 꾸며줘야 하는데 어항 외에 추가로 사야 하는 것들은 어떤 것이 있을까요?",
+            "turn_id": "BK22008148-5",
+            "utterance_id": "BK22008148.9"
+        },
+        {
+            "reference_date": "2021-07-02",
+            "reference_text": [
+                {
+                    "value": "어항 속 불순물을 제거하고 물을 정화하는 역할을 하는 여과기, 수온을 26~28도로 유지해주는 히터, 어항 속 밤낮을 만들어주는 조명 등이 대표적인 필수 장비다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/economy/article/2021070199951",
+            "search_query": "물고기 어항",
+            "terminate": false,
+            "text": "어항 속에 있는 불순물을 제거해주고 물을 정화하는 역할을 하는 여과기가 필요해요. 또 수온을 26~28도로 유지해 줄 수 있는 히터나 어항을 밝고 어둡게 조절할 수 있는 조명 등이 대표적인 필수품이죠.",
+            "turn_id": "BK22008148-5",
+            "utterance_id": "BK22008148.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 한 번에 다 사서 가는 게 좋겠네요. 혹시 어항 속에 채울 물은 수돗물을 넣으면 될까요? 아니면 정수기 물을 넣어야 하는지 좀 헷갈리네요.",
+            "turn_id": "BK22008148-6",
+            "utterance_id": "BK22008148.11"
+        },
+        {
+            "reference_date": "2020-10-06",
+            "reference_text": [
+                {
+                    "value": "열대어를 키우는 데 쓰이는 물은 수돗물이 가장 좋은데 막 받은 수돗물에는 염소와 중금속이 있을 수 있어 어항용 약품을 투여하거나 받은 물을 2~3일 둬 나쁜 성분을 중화시켜 사용한다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "간혹 정수기 물을 받아쓰는 가정도 있는데 정수된 물은 미생물이 많이 부족해 권하지 않는다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.knnews.co.kr/news/articleView.php?idxno=1335175",
+            "search_query": "열대어 수돗물",
+            "terminate": false,
+            "text": "열대어를 키울 때는 수돗물이 가장 좋아요. 하지만 막 받은 수돗물에는 염소나 중금속이 있을 위험이 있기 때문에 어항용 약품을 투여하거나 받아논 물을 2~3일 정도 두어 나쁜 성분들을 중화시킨 후에 쓰는 것이 좋죠. 정수기 물은 미생물이 많이 부족하기 때문에 별로 권하지 않아요.",
+            "turn_id": "BK22008148-6",
+            "utterance_id": "BK22008148.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요! 그러면 혹시 물은 어느 정도의 주기로 갈아줘야 할까요? 물관리가 가장 중요하다고 해서 궁금하네요.",
+            "turn_id": "BK22008148-7",
+            "utterance_id": "BK22008148.13"
+        },
+        {
+            "reference_date": "2004-06-10",
+            "reference_text": [
+                {
+                    "value": "10~15일마다 한번씩 전체 물의 3분의 1 가량 갈아주는 ‘부분 물갈이’를 해줘야 한다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 부분 물갈이만 꾸준히 해주면 수조 전체의 물을 갈아주는 ‘전체 물갈이’는 1년에 한번 정도만 해도 된다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/028/0000063430?sid=103",
+            "search_query": "물 갈아주는 주기",
+            "terminate": false,
+            "text": "어항 속 물은 10~15일마다 한 번씩 전체 물의 3분의 1 정도를 갈아주는 부분 물갈이를 해주는 것이 좋아요. 이 부분 물갈이만 잘 해준다면 수조 전체의 물을 갈아야 하는 전체 물갈이는 1년에 1번 정도만 해주면 되거든요.",
+            "turn_id": "BK22008148-7",
+            "utterance_id": "BK22008148.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 자주 갈아주는 것은 아니어서 안심이네요. 아, 그러면 혹시 물고기 먹이는 어느 정도 주면 되나요?",
+            "turn_id": "BK22008148-8",
+            "utterance_id": "BK22008148.15"
+        },
+        {
+            "reference_date": "2010-12-28",
+            "reference_text": [
+                {
+                    "value": "먹이는 한 마리당 1~2분 내에 다 먹을 수 있는 양만 주도록 한다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그래야 배설물이 많이 쌓이지 않는다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "주기는 하루에 한 번이나 이틀에 한 번 정도.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "며칠 집을 비워야 하는 경우라면 3~4일치가 아닌 하루분 정도만 더 주고 가면 된다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=20101227000202",
+            "search_query": "물고기 먹이",
+            "terminate": false,
+            "text": "먹이는 많이 주실 필요는 없고 하루에 한 번이나 이틀에 한 번꼴로 한 마리당 1~2분 이내에 먹어 치울 수 있는 양만 주면 돼요. 그래야 배설물이 많이 쌓이지 않거든요. 며칠 동안 집을 비워야 한다면 하루분 정도만 더 주고 가면 돼요.",
+            "turn_id": "BK22008148-8",
+            "utterance_id": "BK22008148.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 생각했던 것보다 자주 먹는 것은 아니군요. 그럼 마지막으로 이외에 물고기를 기르면서 추가로 신경 써야 할 부분이 있을까요? 처음 키워보는 거라 모르는 게 너무 많네요.",
+            "turn_id": "BK22008148-9",
+            "utterance_id": "BK22008148.17"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "물고기는 대체로 스트레스에 취약하다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수족관 유리를 살짝이라도 두드리면 수족관 안에서는 그 파동이 아주 크게 느껴져 물고기가 놀란다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0700&key=20220704.22018000425",
+            "search_query": "물고기 스트레스",
+            "terminate": false,
+            "text": "물고기는 대부분 스트레스에 취약하기 때문에 어항 유리는 두드리지 않는 것이 좋아요. 살짝만 두드려도 안에서는 그 파동이 크게 느껴져서 물고기들이 놀라거든요.",
+            "turn_id": "BK22008148-9",
+            "utterance_id": "BK22008148.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 몰랐어요. 오늘 잘 알려주신 덕분에 구피를 기르는 데 많은 도움이 될 것 같아요. 제가 어항도 다 꾸며주고 구피까지 데려오면 사진 찍어서 보여드릴게요.",
+            "turn_id": "BK22008148-10",
+            "utterance_id": "BK22008148.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 다행이에요. 제가 말씀드린 팁 잘 생각하면서 건강한 구피 잘 데려오세요. 다음에 또 봬요.",
+            "turn_id": "BK22008148-10",
+            "utterance_id": "BK22008148.20"
+        }
+    ]
+}

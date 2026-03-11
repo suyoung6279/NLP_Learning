@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011799",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011799",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0018"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "친구가 만삭인데, 친구 중 한 명이 이번에 베이비 샤워를 해주자고 하더라고요. 베이비 샤워가 뭔가요?",
+            "turn_id": "BK22011799-1",
+            "utterance_id": "BK22011799.1"
+        },
+        {
+            "reference_date": "2018-06-04",
+            "reference_text": [
+                {
+                    "value": "베이비샤워란 지인들이 함께 모여 출산을 앞둔 산모와 신생아를 축하하고, 선물을 나누는 파티 문화다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=201806022353o",
+            "search_query": "베이비샤워 문화",
+            "terminate": false,
+            "text": "베이비 샤워는 임산부의 친구들을 초대하여 아이와 임산부를 축하하고 선물을 주는 파티 문화에요.",
+            "turn_id": "BK22011799-1",
+            "utterance_id": "BK22011799.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 출산 후가 아닌 전에 축하파티를 열어주는 거군요. 베이비샤워는 아이를 씻긴 다는 뜻인데, 왜 이런 파티를 베이비 샤워라고 하는 거죠?",
+            "turn_id": "BK22011799-2",
+            "utterance_id": "BK22011799.3"
+        },
+        {
+            "reference_date": "2014-07-16",
+            "reference_text": [
+                {
+                    "value": "베이비 샤워의 원래 의미는 아기를 낳으면 임산부의 친구들이나 어머니가 산모의 집을 방문해 아기를 샤워시킨다는 데서 유래된 말이었다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 현대사회로 접어들면서 임산부는 출산 후 휴식을 취해야 한다는 인식이 높아졌고 이에 따라 아기를 낳기 전 베이비 샤워파티를 열게 됐다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.bntnews.co.kr/article/view/bnt201003220017",
+            "search_query": "베이비샤워 유래",
+            "terminate": false,
+            "text": "베이비샤워는 원래 아이 출산 후 임신부의 친구나 엄마가 산모의 집으로 가서 아기를 샤워시키는 것에서 유래가 된 말이에요. 하지만 요즘에는 출산 후에 임산부가 휴식을 취해야 한다는 생각이 커지면서 출산 전에 베이비샤워 파티를 하는 것으로 바뀌게 되었어요.",
+            "turn_id": "BK22011799-2",
+            "utterance_id": "BK22011799.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 베이비샤워라는 이름이 붙은 거구나. 그런데 이런 문화가 언제 생겨나게 된거죠?",
+            "turn_id": "BK22011799-3",
+            "utterance_id": "BK22011799.5"
+        },
+        {
+            "reference_date": "2021-07-08",
+            "reference_text": [
+                {
+                    "value": "현대식 베이비 샤워는 2차 대전 이후 베이비붐 때부터 시작되었다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전쟁이 끝나고 젊은이들이 가정을 이루고 많은 아이가 태어나자 생일잔치와 같이 대중화되기 시작했다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.koreadaily.com/2021/07/08/society/opinion/9520619.html",
+            "search_query": "베이비샤워 대중화",
+            "terminate": false,
+            "text": "베이비 샤워는 2차 세계 대전 이후 베이비 붐이 일면서 시작되었답니다. 전쟁이 끝나고 난 후 젊은 남녀가 가정을 이루게 되면서 아이가 많이 태어나자 생일을 챙기는 것처럼 대중화된 거예요.",
+            "turn_id": "BK22011799-3",
+            "utterance_id": "BK22011799.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각했던 것 보다 훨씬 더 오래된 문화네요. 그런데 베이비샤워는 축하해주는 것 말고는 어떤 얘기를 주로 하게 되나요?",
+            "turn_id": "BK22011799-4",
+            "utterance_id": "BK22011799.7"
+        },
+        {
+            "reference_date": "2021-07-08",
+            "reference_text": [
+                {
+                    "value": "참석하는 사람들은 육아에 필요한 필수품을 갖고 참석하며 순산을 기원하고 태어날 아기를 축복한다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "음식을 나누며 해산을 앞두고 걱정과 두려움이 많을 산모를 편안하게 해 준다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 육아의 지혜를 나눈다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.koreadaily.com/2021/07/08/society/opinion/9520619.html",
+            "search_query": "베이비샤워 순산 기원",
+            "terminate": false,
+            "text": "산모의 순산기원과 곧 태어날 아이를 축복하는 자리라고 보시면 돼요. 출산을 앞둔 산모의 걱정, 두려움을 조금 덜어 줄수 있도록 음식을 나누며 대화를 하는거죠. 거기다 육아에 지혜까지 공유하기도 한답니다.",
+            "turn_id": "BK22011799-4",
+            "utterance_id": "BK22011799.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "듣고 보니 출산하기 전 이런 자리는 꼭 필요할 것 같다는 생각이 드네요. 그럼 베이비샤워는 언제쯤 하는 게 적합할까요?",
+            "turn_id": "BK22011799-5",
+            "utterance_id": "BK22011799.9"
+        },
+        {
+            "reference_date": "2013-06-14",
+            "reference_text": [
+                {
+                    "value": "출산 1~2개월 전에 예비 산모의 집이나 호텔 등에서 축하 자리를 마련하는 것이다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/011/0002347428?sid=103",
+            "search_query": "베이비샤워 출산 2개월전",
+            "terminate": false,
+            "text": "출산 하기 1~2개월 전에 하는 것이 적합해요.",
+            "turn_id": "BK22011799-5",
+            "utterance_id": "BK22011799.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 다음달 쯤에 하면 되겠네요. 그런데 베이비샤워는 몇 명 정도 모여서 하는 게 적당할까요?",
+            "turn_id": "BK22011799-6",
+            "utterance_id": "BK22011799.11"
+        },
+        {
+            "reference_date": "2014-07-16",
+            "reference_text": [
+                {
+                    "value": "베이비 샤워는 20명 내외의 친지나 친구들이 참여하는 것이 일반적이며 주로 여성들을 주축으로 진행된다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.bntnews.co.kr/article/view/bnt201003220017",
+            "search_query": "베이비샤워 친구 친지",
+            "terminate": false,
+            "text": "일반적으로 20명 내외의 친척, 친구가 참여하게 돼요.",
+            "turn_id": "BK22011799-6",
+            "utterance_id": "BK22011799.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 베이비샤워에 참석했을 때 하나씩 선물을 준비하기로 했는데, 전 아기 용품을 준비할까 하거든요. 어떤 선물이 좋을까요?",
+            "turn_id": "BK22011799-7",
+            "utterance_id": "BK22011799.13"
+        },
+        {
+            "reference_date": "2016-10-12",
+            "reference_text": [
+                {
+                    "value": "조작이 쉬워진 분유포트, 젖병소독기 및 부모의 부담을 덜어주는 아기띠가 최근 센스 있는 베이비샤워 선물로 주목받고 있다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.betanews.net/article/646145",
+            "search_query": "베이비샤워 선물",
+            "terminate": false,
+            "text": "쉬운 조작이 가능한 분유포트나 젖병소독기, 부모의 부담을 줄여주는 아기띠 등이 센스있는 선물로 손꼽히고 있어요.",
+            "turn_id": "BK22011799-7",
+            "utterance_id": "BK22011799.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "젖병 소독기가 괜찮을 것 같네요. 저의 가장 친한 친구라 산모를 위한 선물을 하나 더 하고 싶은데, 적합한 게 있을까요?",
+            "turn_id": "BK22011799-8",
+            "utterance_id": "BK22011799.15"
+        },
+        {
+            "reference_date": "2014-06-11",
+            "reference_text": [
+                {
+                    "value": "임산부에게 가장 필요한 영양소 중 하나인 철분을 공급해줄 수 있는 철결핍성 빈혈치료제가 각광받고 있다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이러한 선물은 임산부의 임신기간은 물론 아이 출산 후 산후조리를 할 때에도 유용한 도움을 줄 수 있다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.bntnews.co.kr/article/view/bnt200910130053",
+            "search_query": "베이비샤워 임산부 선물리스트",
+            "terminate": false,
+            "text": "임산부에게는 철분이 가장 필요한 영양소 중 하나랍니다. 임신 기간 뿐 아니라 출산 후, 산후조리에도 유용한 도움이 되니 철결핍성 빈혈치료제를 추천드려요.",
+            "turn_id": "BK22011799-8",
+            "utterance_id": "BK22011799.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "영양제는 생각지도 못했는데 친구를 위한 선물로 딱 좋을 것 같아요. 친구가 곧 첫 출산을 한다니 제가 더 긴장되는 거 있죠.",
+            "turn_id": "BK22011799-9",
+            "utterance_id": "BK22011799.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 제 친구가 첫 출산을 한다면 떨릴 것 같아요.",
+            "turn_id": "BK22011799-9",
+            "utterance_id": "BK22011799.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게요. 저도 떨리는데 제 친구는 얼마나 떨릴까요. 베이비샤워하면서 걱정 말라고 꼭 얘기해줘야겠어요.",
+            "turn_id": "BK22011799-10",
+            "utterance_id": "BK22011799.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "주변 사람들의 응원이 큰 힘이 되어 줄 거예요. 그럼 베이비샤워 준비 잘하시고 다음에 또 만나요.",
+            "turn_id": "BK22011799-10",
+            "utterance_id": "BK22011799.20"
+        }
+    ]
+}

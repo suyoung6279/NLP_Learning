@@ -1,0 +1,367 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006942",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006942",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이가 토해서 놀라서 봤더니 털 뭉치던데 이거 뭐야?",
+            "turn_id": "BK22006942-1",
+            "utterance_id": "BK22006942.1"
+        },
+        {
+            "reference_date": "2019-07-05",
+            "reference_text": [
+                {
+                    "value": "이 털뭉치는 고양이가 자신의 몸을 핥는 그루밍(Grooming)을 하다 삼킨 것으로, 일명 ‘헤어볼(Hairball·모구)’이라 불린다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그루밍 때문에 고양이의 몸속에 들어간 털은 보통 분변으로 조금씩 배출된다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "헤어볼은 배설되지 못하고 소화기관에 덩어리져 있던 털들인데, 구토를 통해 세상 밖으로 나온다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nongmin.com/plan/PLN/SRS/313107/view",
+            "search_query": "헤어볼 원인",
+            "terminate": false,
+            "text": "이건 헤어볼이라는 것인데 고양이가 자신의 몸을 핥는 행동인 그루밍을 하면서 삼킨 털 뭉치야. 그루밍 때문에 몸에 들어간 털 뭉치는 분변으로 조금씩 나오는데, 분변으로 배출되지 못한 소화기관에 있던 털들이 토하면서 나온 거야.",
+            "turn_id": "BK22006942-1",
+            "utterance_id": "BK22006942.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그루밍으로 삼킨 털이 나온 거구나. 그렇지만 토하는 것은 좋지 않을 것 같은데?",
+            "turn_id": "BK22006942-2",
+            "utterance_id": "BK22006942.3"
+        },
+        {
+            "reference_date": "2019-11-18",
+            "reference_text": [
+                {
+                    "value": "헤어볼 자체를 토하는 것은 건강상 큰 문제가 없다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "오히려 헤어볼이 더 커지기 전 변으로 배출하거나, 토해 없애는 편이 좋다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://weekly.donga.com/3/all/11/1902695/1",
+            "search_query": "헤어볼",
+            "terminate": false,
+            "text": "헤어볼을 토하는 것은 큰 문제가 아니야. 헤어볼이 몸속에서 더 커지기 전에 분변이나 구토로 제거하는 것이 더 좋아.",
+            "turn_id": "BK22006942-2",
+            "utterance_id": "BK22006942.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "토해서 걱정했는데 큰 문제가 아니라 다행이야. 그럼 헤어볼에 대해서는 크게 걱정하지 않아도 되는 거야?",
+            "turn_id": "BK22006942-3",
+            "utterance_id": "BK22006942.5"
+        },
+        {
+            "reference_date": "2019-03-29",
+            "reference_text": [
+                {
+                    "value": "헤어볼은 자연스러운 증상이라 할 수 있지만 식이섬유를 섭취할 기회가 적고 운동량이 많지 않은 집고양이들 중 헤어볼이 장내에 많이 남아 변비나 소화불량, 감염을 통한 설사를 유발하기도 한다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.koreahealthlog.com/news/articleView.html?idxno=22998",
+            "search_query": "헤어볼 문제",
+            "terminate": false,
+            "text": "헤어볼은 자연스러운 현상이지만 집고양이들은 식이섬유를 먹을 기회도 적고 운동량도 적어서 헤어볼이 장 내에 많이 남으면 변비와 소화불량, 감염을 통한 설사가 발생할 수 있어.",
+            "turn_id": "BK22006942-3",
+            "utterance_id": "BK22006942.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "헤어볼이 고양이의 건강을 위협할 수 있는 거구나. 그럼, 헤어볼이 덜 생기게 해줘야겠는데 어떻게 하면 될까?",
+            "turn_id": "BK22006942-4",
+            "utterance_id": "BK22006942.7"
+        },
+        {
+            "reference_date": "2019-04-11",
+            "reference_text": [
+                {
+                    "value": "고양이의 털은 약 3개월 정도 간격으로 자라나고, 빠지는 것을 반복하는 하는데, 이 때문에 매일 일정량의 털이 빠지게 된다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 고양이가 그루밍을 하면서 털들을 삼키기 전에 빗질로 제거하는 것이 좋다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=151614",
+            "search_query": "고양이 헤어볼 제거",
+            "terminate": false,
+            "text": "고양이의 털은 3개월 간격으로 자라고 빠지는 것을 반복해서 매일 일정하게 털이 빠지게 돼. 그래서 고양이가 그루밍을 하면서 털을 삼키게 되거든. 고양이가 털을 삼키기 전에 빗질을 해서 털을 제거해 주면 좋아.",
+            "turn_id": "BK22006942-4",
+            "utterance_id": "BK22006942.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "처음부터 삼킬 것 없이 관리해 주면 되겠구나. 그래도 단모종 고양이는 털 관리를 좀 덜 해도 되는 거 아닌가?",
+            "turn_id": "BK22006942-5",
+            "utterance_id": "BK22006942.9"
+        },
+        {
+            "reference_date": "2019-03-28",
+            "reference_text": [
+                {
+                    "value": "단모종 고양이도 장모종 만큼은 아니지만 전용 브러쉬로 꼼꼼하게 털을 빗겨줘야 한다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 건조하고 따뜻한 실내에 생활하는 고양이의 경우 1년 내내 조금씩 털이 빠지므로 보호자의 털손질이 중요하다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.shinailbo.co.kr/news/articleView.html?idxno=1153699",
+            "search_query": "고양이 헤어볼 관리",
+            "terminate": false,
+            "text": "그래도 단모종은 장모종만큼은 아니지만 꼼꼼하게 빗질을 해줘야 해. 실내에서 생활하는 고양이들은 건조하고 따뜻한 곳에서 지내기 때문에 1년 내내 조금씩 털이 빠지거든.",
+            "turn_id": "BK22006942-5",
+            "utterance_id": "BK22006942.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "단모종이든 장모종이든 종류에 상관없이 빗질을 해줘야 하는 거구나. 그럼, 고양이는 어떤 빗을 사용하면 좋아?",
+            "turn_id": "BK22006942-6",
+            "utterance_id": "BK22006942.11"
+        },
+        {
+            "reference_date": "2018-12-05",
+            "reference_text": [
+                {
+                    "value": "장모종 고양이는 가늘고 촘촘한 금속 핀이 박힌 핀브러쉬가 좋습니다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "단모종 고양이는 가늘고 부드러운 금속 핀이 살짝 꺾인 채 촘촘히 박혀 있는 '슬리커 브러쉬'가 적합합니다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.gimhaenews.co.kr/news/articleView.html?idxno=25326",
+            "search_query": "고양이 빗질",
+            "terminate": false,
+            "text": "장모종 고양이는 핀 브러시가 좋은 데 가늘고 촘촘하면서 금속 핀인 것이 좋아. 단모종 고양이는 슬리커 브러시가 좋은데, 가늘고 부드러운 금속 핀이 약간 꺾인 형태로 촘촘하게 박힌 형태의 빗이야.",
+            "turn_id": "BK22006942-6",
+            "utterance_id": "BK22006942.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이 털 길이에 따라 좋은 빗의 형태가 다르구나. 빗질 말고 헤어볼을 줄여주는 다른 방법은 뭐가 있어?",
+            "turn_id": "BK22006942-7",
+            "utterance_id": "BK22006942.13"
+        },
+        {
+            "reference_date": "2019-04-05",
+            "reference_text": [
+                {
+                    "value": "헤어볼 방지 보조제는 몸 안에 남아있는 헤어볼을 장을 통과해 원활히 배출 될 수 있도록 도와주는 제품이다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "더불어 섬유질 성분이 높게 함유되어 있는 헤어볼 억제 사료나 치약처럼 짜서 먹이는 겔 타임의 헤어볼 치료 간식도 있으니 고양이의 기호에 따라 제품을 선택해 먹이는 것도 좋다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=143224",
+            "search_query": "헤어볼 방지제",
+            "terminate": false,
+            "text": "헤어볼 방지 보조제를 먹이는 방법도 있어. 이 보조제는 몸에 있는 헤어롤을 장을 통과해서 원활하게 배출할 수 있도록 돕는 제품이야. 그리고, 섬유질 성분이 많이 들어 있는 헤어볼 억제 사료나 짜서 먹이는 겔 타입의 헤어볼 치료 간식도 있으니 다양하게 활용해 볼 수 있어.",
+            "turn_id": "BK22006942-7",
+            "utterance_id": "BK22006942.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "헤어볼을 줄이는 다양한 제품들이 많구나. 근데 이런 치료제들을 고양이가 잘 먹긴 할까?",
+            "turn_id": "BK22006942-8",
+            "utterance_id": "BK22006942.15"
+        },
+        {
+            "reference_date": "2019-03-28",
+            "reference_text": [
+                {
+                    "value": "고양이가 치료제를 잘 먹지 않는다면, 헤어볼 치료식이 대안이 될 수 있다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "바세린처럼 끈적이는 재료를 넣어 만든 음식으로 캔이나 간식 형태로 다양하게 나온다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.notepet.co.kr/news/article/article_view/?idx=15141&groupCode=AB110AD110",
+            "search_query": "헤어볼 치료식",
+            "terminate": false,
+            "text": "혹시 이런 치료제를 잘 먹지 않으면 헤어볼 치료식도 있어. 바셀린 같은 끈적거리는 재료로 만든 음식으로 캔이나 간식 형태로 다양해.",
+            "turn_id": "BK22006942-8",
+            "utterance_id": "BK22006942.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "끈적이는 성분이 털을 흡착해서 배변을 도와주는 건가 보네. 헤어롤 줄이는 방법이 더 있어?",
+            "turn_id": "BK22006942-9",
+            "utterance_id": "BK22006942.17"
+        },
+        {
+            "reference_date": "2019-03-28",
+            "reference_text": [
+                {
+                    "value": "또한 물을 충분히 마시게 한다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 그루밍에 빠지지 않도록 다른 쪽으로 관심을 끌게 한다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "변비 예방에 좋은 캣 그라스를 먹이는 방법도 있다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.rpm9.com/news/article.html?id=20190328090023",
+            "search_query": "헤어볼 예방",
+            "terminate": false,
+            "text": "물을 충분히 마시게 한다거나 그루밍에 빠지지 않게 다른 쪽으로 관심을 유도하고 변비를 예방해 주는 캣 그라스를 먹이는 방법도 있어.",
+            "turn_id": "BK22006942-9",
+            "utterance_id": "BK22006942.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어, 네가 알려준 방법 이용해서 헤어롤을 줄여줘야겠어, 고마워.",
+            "turn_id": "BK22006942-10",
+            "utterance_id": "BK22006942.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "고맙긴, 언제든지 궁금한 것들 물 봐. 우리는 다음에 보자, 안녕.",
+            "turn_id": "BK22006942-10",
+            "utterance_id": "BK22006942.20"
+        }
+    ]
+}

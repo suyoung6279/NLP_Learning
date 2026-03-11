@@ -1,0 +1,378 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012246",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012246",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0030"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "남편과 결혼을 한 지 5년이 지났지만, 이혼을 하기로 결정했어요.",
+            "turn_id": "BK22012246-1",
+            "utterance_id": "BK22012246.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이혼이라는 힘든 결정을 내리셨네요.",
+            "turn_id": "BK22012246-1",
+            "utterance_id": "BK22012246.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 그런데 이혼도 결혼 못지않게 복잡하더군요. 이혼 방법에도 여러 가지가 있다면서요?",
+            "turn_id": "BK22012246-2",
+            "utterance_id": "BK22012246.3"
+        },
+        {
+            "reference_date": "44810.0",
+            "reference_text": [
+                {
+                    "value": "이혼의 방법에는 3가지가 있는데, 부부가 협의하여 자유롭게 이혼하는 협의이혼과 당사자 간 이혼에 대해 협의하여 할 사항을 법원에서 조정해 주는 조정이혼, 그리고 협의도 조정도 불가능한 경우 민법 제840조에 해당된 사유에 한해 진행해 볼 수 있는 재판상이혼이 있다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.globalepic.co.kr/view.php?ud=202209061715071706992c130dbe_29",
+            "search_query": "이혼 방법",
+            "terminate": false,
+            "text": "네, 이혼 방법에는 협의이혼, 조정이혼, 재판상 이혼으로 총 3가지가 있어요. 협의이혼은 부부가 의논하여 자유롭게 이혼을 결정하는 것이고, 조정이혼은 이혼 당사자끼리 이혼과 관련하여 협의해야 할 내용을 법원에서 조정해주는 것이에요. 그리고 재판상 이혼은 협의와 조정 모두 불가능할 때 하는 것인데, 민법 제840조에 해당되는 사유에 한해서만 진행할 수 있어요.",
+            "turn_id": "BK22012246-2",
+            "utterance_id": "BK22012246.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "협의이혼을 하는 것이 가장 순탄하겠네요. 협의이혼을 하려면 어떻게 해야 하나요?",
+            "turn_id": "BK22012246-3",
+            "utterance_id": "BK22012246.5"
+        },
+        {
+            "reference_date": "44798.0",
+            "reference_text": [
+                {
+                    "value": "협의이혼을 하고자 하는 경우에는 가정법원에 이혼신청서를 내고 3개월정도의 숙려기간을 거친 뒤 별다른 이의가 없다면 이혼이 성립된다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "협의이혼이라 하더라도 이혼합의서를 통해 재산분할, 양육비, 위자료 등의 협의가 있을 수 있고 이혼하게 될 경우 이혼합의서 내용은 이행되어야 한다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.job-post.co.kr/news/articleView.html?idxno=59888",
+            "search_query": "협의 이혼",
+            "terminate": false,
+            "text": "협의이혼을 하기 위해서는 가정법원에 이혼신청서를 제출하고 3개월의 숙려기간이 지나야 해요. 그 후에 이의 사항이 없다면 이혼이 성립돼요. 단, 협의이혼일 경우에도 이혼합의서를 통해 재산분할 및 위자료, 양육비 등의 사항을 의논할 수 있고 이혼한 뒤에 합의한 내용을 지켜야 해요.",
+            "turn_id": "BK22012246-3",
+            "utterance_id": "BK22012246.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이혼합의서 작성으로 생기는 문제점은 없나요?",
+            "turn_id": "BK22012246-4",
+            "utterance_id": "BK22012246.7"
+        },
+        {
+            "reference_date": "44769.0",
+            "reference_text": [
+                {
+                    "value": "다만 협의를 통해 혼인관계를 정리하려는 경우, 이혼합의서작성이 문제가 될 수 있다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "차후에 합의서의 내용을 어기거나 이를 제대로 이행하지 않게 되면서 법적분쟁이 발생하기 때문이다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이러한 문제로 인해 소송이 진행되는 경우가 많기에 이혼합의서작성은 세심한 주의가 필요하다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.globalepic.co.kr/view.php?ud=2022072717344790886cf2d78c68_29",
+            "search_query": "이혼합의서",
+            "terminate": false,
+            "text": "협의이혼에서 작성하는 이혼합의서는 추후에 합의 내용을 지키지 않거나, 제대로 이행하지 않으면 법적 분쟁이 일어날 수 있어요. 이 경우에는 소송이 발생할 수도 있기 때문에 이혼합의서를 작성할 때 신중함이 필요하죠.",
+            "turn_id": "BK22012246-4",
+            "utterance_id": "BK22012246.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "협의이혼도 쉽지는 않네요. 그래도 조정이혼이 더 복잡할 것 같은데, 조정이혼은 어떻게 이뤄지나요?",
+            "turn_id": "BK22012246-5",
+            "utterance_id": "BK22012246.9"
+        },
+        {
+            "reference_date": "44806.0",
+            "reference_text": [
+                {
+                    "value": "조정이혼은 공개재판이 아닌 법원 안에서 비공개 조정을 통해 이혼을 진행하는 이혼절차다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "조정이혼을 신청하면 가정법원에서는 부부의 의견을 충분히 들은 뒤 여러가지 사정을 종합적으로 수렴하여 분쟁요소를 조정한다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ksilbo.co.kr/news/articleView.html?idxno=945907",
+            "search_query": "조정이혼",
+            "terminate": false,
+            "text": "조정이혼은 이혼 신청 후 가정법원의 조정을 거쳐서 이뤄져요. 가정법원에서 부부의 의견을 충분히 듣고 나서 여러 가지 사항을 포괄적으로 수렴하여 마찰 요소를 조정하는데, 이 조정은 공개재판이 아니라 비공개로 진행돼요.",
+            "turn_id": "BK22012246-5",
+            "utterance_id": "BK22012246.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "협의이혼에 비해 조정이혼의 장점이 무엇인가요?",
+            "turn_id": "BK22012246-6",
+            "utterance_id": "BK22012246.11"
+        },
+        {
+            "reference_date": "44799.0",
+            "reference_text": [
+                {
+                    "value": "‘조정’을 한다는 점에서 일종의 협의이혼이라고 볼 수 있겠지만 재산분할이나 위자료와 같은 경제적인 부분에서 확실하게 법적 보호를 받을 수 있고, 집행권원이 발생한다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "즉, 상대방이 조정 사항을 준수하지 않을 경우 별도의 민사소송을 제기할 필요없이 강제집행을 할 수 있다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailysecu.com/news/articleView.html?idxno=139307",
+            "search_query": "조정이혼 장점",
+            "terminate": false,
+            "text": "조정이혼 역시 분쟁 요소를 타협한다는 점에서 일종의 협의이혼이라고 할 수는 있지만, 법적 효과가 있다는 것이 특징이에요. 재산분할 및 위자료와 같은 경제 부분에서 강력한 법적 보호를 받을 수 있고, 집행 권리도 생겨요. 다시 말해서, 조정이혼을 하면 상대방이 조정 사항을 지키지 않았을 때 민사소송을 제기하지 않아도 강제집행을 할 수 있어요.",
+            "turn_id": "BK22012246-6",
+            "utterance_id": "BK22012246.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "협의와 조정에 다른 점이 있었네요. 재판상 이혼은 정해진 사유에 해당돼야 한다고 했는데, 재판상 이혼 사유는 무엇인가요?",
+            "turn_id": "BK22012246-7",
+            "utterance_id": "BK22012246.13"
+        },
+        {
+            "reference_date": "44560.0",
+            "reference_text": [
+                {
+                    "value": "따라서 재판상 이혼을 할 때에는 반드시 △배우자에 부정한 행위가 있었을 때 △배우자가 악의로 다른 일방을 유기한 때 △배우자 또는 그 직계존속으로부터 심히 부당한 대우를 받았을 때 △자기의 직계존속이 배우자로부터 심히 부당한 대우를 받았을 때 △배우자의 생사가 3년 이상 분명하지 아니한 때 △기타 혼인을 계속하기 어려운 중대한 사유가 있을 때 등 상대방의 잘못을 입증해야 한다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.beyondpost.co.kr/view.php?ud=2021122923563530396cf2d78c68_30",
+            "search_query": "재판상 이혼 사유",
+            "terminate": false,
+            "text": "이 사유에는 배우자가 부정한 행위를 저질렀을 때, 배우자가 악의로 상대방을 유기했을 때, 그리고 본인이 배우자나 배우자의 직계존속으로부터 혹은 본인의 직계존속이 배우자로부터 몹시 부적절한 대우를 받았을 경우가 해당돼요. 또한, 배우자의 생사 여부가 3년 이상 불분명할 경우와 기타 혼인을 계속하기 어려운 중대한 이유가 있을 때도 재판상 이혼을 할 수 있어요. 상대방의 잘못을 입증해야 한다는 것이 재판상 이혼 사유의 특징이죠.",
+            "turn_id": "BK22012246-7",
+            "utterance_id": "BK22012246.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 사람들이 흔히 이야기하는 이혼 소송도 재판상 이혼과 관련이 있나요?",
+            "turn_id": "BK22012246-8",
+            "utterance_id": "BK22012246.15"
+        },
+        {
+            "reference_date": "44512.0",
+            "reference_text": [
+                {
+                    "value": "소송을 통한 이혼은 재판상이혼사유만 인정되면 부부 두 사람의 의사가 합치되지 않아도 일방의 주도 하에 진행할 수 있다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우리나라에서는 조정전치주의를 시행, 이혼소송에 앞서 반드시 조정 절차를 거치도록 하고 있는데 전문가로 구성된 조정위원이 당사자의 의견을 듣고 서로의 이견을 좁혀 나갈 수 있도록 도와준다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만일 조정을 통해 합의를 도출할 수 없을 때에는 소송으로 이어지게 된다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailysecu.com/news/articleView.html?idxno=131392",
+            "search_query": "이혼 소송",
+            "terminate": false,
+            "text": "네, 이혼 소송은 재판상 이혼 사유가 인정된다면 부부간의 협의가 없어도 한 사람이 주도하여 진행할 수 있어요. 다만, 우리나라에서는 조정전치주의를 시행하고 있기 때문에 이혼 소송을 하기 전에 필수적으로 조정 절차를 거쳐야 해요. 전문가로 이뤄진 조정위원이 이혼 당사자들의 의견을 듣고 협의할 수 있도록 도와주는 방식이에요. 조정을 거쳐서도 협의가 이뤄지지 않으면 소송을 진행하게 돼요.",
+            "turn_id": "BK22012246-8",
+            "utterance_id": "BK22012246.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어떤 이혼 방식을 택하든 부부간의 협의가 가장 중요한 것 같네요. 이혼 시에 고려해야 할 금전적인 부분은 뭐가 있을까요?",
+            "turn_id": "BK22012246-9",
+            "utterance_id": "BK22012246.17"
+        },
+        {
+            "reference_date": "44530.0",
+            "reference_text": [
+                {
+                    "value": "협의가 되었든 재판상 이혼이 되었든, 이혼 과정에서 ‘위자료’와 ‘재산분할’을 필요로 할 때 이혼 당사자 사이에 금품이 오가기도 한다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "위자료는, 정신적 고통에 대한 금전적 손해 배상을 뜻하며 그 금액은 법률이 정한 일정한 기준이 아닌 각 사안에 맞도록 법관의 자유로운 재량에 맡기고 있다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "재산분할은 위자료와 달리 이혼한 부부 중 어느 한 쪽이 다른 한 쪽을 향해 재산을 나누자고 청구할 수 있는 권리로, 당사자 간 협의가 원만히 이루지지 않을 때에는 가정 법원이 중재한다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.womentimes.co.kr/news/articleView.html?idxno=54540",
+            "search_query": "위자료 재산분할",
+            "terminate": false,
+            "text": "협의를 하든, 재판을 하든, 이혼 방식과 무관하게 위자료와 재산분할이 필요할 경우엔 금품이 오고 가요. 위자료는 정신적 괴로움에 대한 금전적 손해 배상으로, 금액은 법률로 정해져 있지 않기 때문에 사정에 따라 법관이 재량껏 결정하고 있어요. 이와 다르게 재산분할은 이혼 당사자 중 어느 한 명이 상대에게 재산을 나누자고 청구할 수 있는 권리를 말해요. 서로 협의가 이뤄지지 않으면 가정법원이 중재를 해요.",
+            "turn_id": "BK22012246-9",
+            "utterance_id": "BK22012246.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "재산분할은 어떻게 청구하면 되는 건지 알려주세요.",
+            "turn_id": "BK22012246-10",
+            "utterance_id": "BK22012246.19"
+        },
+        {
+            "reference_date": "44783.0",
+            "reference_text": [
+                {
+                    "value": "다만 재산분할청구권은 행사할 수 있는 기간이 법령으로 정해져 있다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이혼한 날부터 2년을 경과하면 재산분할청구권이 소멸하게 되며, 재판상 이혼을 하는 경우에는 재산분할청구를 이혼청구와 함께 하는 것이 일반적이기 때문에 행사기간이 경과할 우려가 거의 없는 편이다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mediafine.co.kr/news/articleView.html?idxno=20009",
+            "search_query": "재산분할청구권",
+            "terminate": false,
+            "text": "재산분할을 청구할 수 있는 기간은 법적으로 이혼한 날부터 2년까지로 제정되어 있어요. 이 기간이 지나면 재산분할 청구권이 소멸돼요. 재판상 이혼을 하는 경우에는 이혼 청구를 할 때 재산분할 청구도 함께하기 때문에 청구 기간을 지날 걱정이 없는 편이에요.",
+            "turn_id": "BK22012246-10",
+            "utterance_id": "BK22012246.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "이혼에 대해서 고민을 많이 해봐야겠어요. 자세하게 알려주셔서 감사합니다.",
+            "turn_id": "BK22012246-11",
+            "utterance_id": "BK22012246.21"
+        }
+    ]
+}

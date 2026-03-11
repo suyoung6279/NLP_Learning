@@ -1,0 +1,402 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014655",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014655",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0015"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너 혹시 고양이 구내염이 어떤 건지 알아? 아는 언니가 자기 고양이가 구내염에 걸려서 엄청 고생하고 있다면서 고양이 집사들은 구내염을 조심하라고 SNS에 글 올려놨던데.",
+            "turn_id": "BK22014655-1",
+            "utterance_id": "BK22014655.1"
+        },
+        {
+            "reference_date": "2021-12-27",
+            "reference_text": [
+                {
+                    "value": "구내염은 말 그대로 입안에 발생하는 염증이다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "잇몸, 혀 주위 점막, 볼 점막, 목구멍 주위 등에 생길 수 있다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "앞서 언급했듯 특히 목구멍 주위에 잘 생기는데 이러면 먹고 마시는 일조차 어려워진다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=57294",
+            "search_query": "고양이 구내염",
+            "terminate": false,
+            "text": "구내염은 잇몸이나 혀 주위 점막, 볼 점막, 목구멍 주위 등 입안에 염증이 생긴 걸 말해. 고양이들의 경우 보통 목구멍 주위에 구내염이 발생하는데 이게 좀 문제가 돼. 침도 삼키기 힘들 정도로 아파서 무언가를 먹는 것 자체가 쉽지 않거든.",
+            "turn_id": "BK22014655-1",
+            "utterance_id": "BK22014655.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뭘 아예 못 먹으면 힘들긴 하겠네. 만약에 우리 고양이가 갑자기 음식을 잘 안 먹으면 구내염은 아닌지 의심해 봐야겠다. 근데 이것 말고 또 어떤 증상이 나타날 수 있어?",
+            "turn_id": "BK22014655-2",
+            "utterance_id": "BK22014655.3"
+        },
+        {
+            "reference_date": "2021-12-27",
+            "reference_text": [
+                {
+                    "value": "침을 넘기는 것도 힘드니 어쩔 수 없이 질질 흘리게 되는데 구내염이 심할 땔 피가 섞인 침을 흘릴 수도 있다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이밖에 증상은 ▲고약한 입냄새가 나고 ▲사료를 먹다가 비명을 지르거나 뱉고 ▲ 그루밍을 하지 못해서 지저분해지고 ▲건식사료보다 습식사료를 먹으려 하고 ▲아파서 자신의 얼굴을 때리는 것 등이다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=57294",
+            "search_query": "고양이 구내염 증상",
+            "terminate": false,
+            "text": "말했다시피 침을 삼키는 게 힘들다 보니 입으로 침을 질질 흘리게 되고 입 냄새도 아주 심해져. 또 사료를 먹다가 비명소리를 내거나 뱉어버리기도 해. 건식보다는 습식 사료를 먹으려는 현상도 나타나고. 또 그루밍을 하지 못해 몸 상태가 깨끗하지 못하고 통증 때문에 자신의 얼굴을 스스로 때리는 증상도 나타나. 구내염이 심한 상태일 땐 피가 섞여 있는 침을 흘리는 경우도 있고.",
+            "turn_id": "BK22014655-2",
+            "utterance_id": "BK22014655.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "증상이 다 겉으로 드러나는 것들이라 알아채기 어렵지는 않겠네. 근데 나 한 가지가 이해가 안 되는데 구내염이 있으면 그루밍은 왜 못하는 거야?",
+            "turn_id": "BK22014655-3",
+            "utterance_id": "BK22014655.5"
+        },
+        {
+            "reference_date": "2017-11-23",
+            "reference_text": [
+                {
+                    "value": "구내염에 골린 고양이들은 입이 아파 그루밍(고양이가 털을 정리하고 몸을 단장하는 행동)을 하기 어렵고, 심할 경우 설염까지 진행돼 빗 역할을 하는 혀의 돌기도 망가져 청결을 유지하기 어렵다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/animalpeople/human_animal/820363.html",
+            "search_query": "고양이 구내염 그루밍",
+            "terminate": false,
+            "text": "구내염은 입에 통증을 유발하니 고양이가 그루밍을 하기가 힘든 거지. 또 구내염이 심해지면 설염까지 앓게 되는데 그렇게 되면 그루밍을 하더라도 몸 상태를 깨끗하게 만들기는 어려워. 고양이 혀에 돋아있는 돌기는 빗과 같은 역할을 하는데 이게 망가져 버리거든.",
+            "turn_id": "BK22014655-3",
+            "utterance_id": "BK22014655.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이한테 청결은 생명이나 다름없는데 그루밍조차 못 하게 하는 거면 이거 꽤 심각한 병이네. 근데 구내염은 대체 왜 생기는 거야?",
+            "turn_id": "BK22014655-4",
+            "utterance_id": "BK22014655.7"
+        },
+        {
+            "reference_date": "2021-12-27",
+            "reference_text": [
+                {
+                    "value": "구내염의 원인은 아직 명확하게 밝혀진 바가 없다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 치태가 염증을 일으켰거나, 면역시스템에 문제가 생겨 잇몸조직에 비정상적인 면역반응이 일어난 것으로 추측하고 있다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 밖에 ▲허피스바이러스 ▲칼리시바이러스 ▲고양이면역결핍바이러스 감염도 원인으로 거론되고 있다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=57294",
+            "search_query": "고양이 구내염 원인",
+            "terminate": false,
+            "text": "안타깝게도 구내염은 현재까지 명확한 원인이 밝혀지지 않았어. 하지만 원인으로 추측되고 있는 것들은 몇 가지 있는데 그중 하나는 치태가 염증을 유발한다는 거야. 또 다른 건 면역 시스템의 이상으로 잇몸 조직에 비정상적인 면역반응이 발생했다는 거고. 그 밖에 거론되고 있는 것들은 허피스 바이러스와 칼리시 바이러스, 고양이 면역결핍 바이러스 등이야.",
+            "turn_id": "BK22014655-4",
+            "utterance_id": "BK22014655.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수의학이 많이 발달했다고 하는데 그래도 원인을 밝혀내지 못한 병이 있구나. 근데 만약에 구내염이 걸리게 되면 치료는 어떻게 해? 미리 알아두는 게 좋을 것 같은데.",
+            "turn_id": "BK22014655-5",
+            "utterance_id": "BK22014655.9"
+        },
+        {
+            "reference_date": "2021-12-27",
+            "reference_text": [
+                {
+                    "value": "구내염 초기에는 염증을 가라앉히는 스테로이드를 비롯해 항생제, 면역억제제 등 약물을 써서 치료해 볼 수 있다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 약물치료만으론 지속적인 효과를 기대하기 어렵다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "어느 순간에는 약물이 듣지 않는다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "게다가 스테로이드는 장기간 쓰기가 부담스러운 게 사실이다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "결국엔 발치를 해야 한다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=57294",
+            "search_query": "고양이 구내염 치료",
+            "terminate": false,
+            "text": "구내염 초기일 때는 약물을 통해 치료를 해. 염증을 완화해 주는 스테로이드나 항생제, 면역억제제 등을 사용하는 거지. 하지만 약물은 어느 순간이 되면 더 이상 효과가 나타나지 않기 때문에 한계가 있어. 무엇보다 스테로이드 같은 경우에는 장기간 사용하는 게 좋지도 않고. 그래서 결국에는 발치를 통해 치료를 하게 돼.",
+            "turn_id": "BK22014655-5",
+            "utterance_id": "BK22014655.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "발치까지 해야 한다고? 입에 염증이 생겼다고 그렇게까지 해야 하는 이유가 있어?",
+            "turn_id": "BK22014655-6",
+            "utterance_id": "BK22014655.11"
+        },
+        {
+            "reference_date": "2021-12-27",
+            "reference_text": [
+                {
+                    "value": "치태가 염증을 일으키는데 치아가 있는 한 치태가 형성되기 마련이니 아예 치아를 뽑아서 치태가 생기지 않게 하기 위해서다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "발치할 때는 송곳니와 앞니만 남겨두고 나머지 치아를 다 뽑는다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그래도 증상이 사라지지 않는다면 모든 치아를 다 뽑아야 한다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=57294",
+            "search_query": "고양이 구내염 치료 발치",
+            "terminate": false,
+            "text": "염증을 유발하는 게 치태인데 이 치태는 치아가 있으면 계속 만들어질 수밖에 없잖아. 그러니 발치를 통해 치태가 만들어질 여지 자체를 없애버리려는 거지. 그래서 발치를 할 때는 송곳니와 앞니를 제외한 나머지 치아를 모두 뽑는 방식으로 진행이 돼. 만약 이렇게 했는데도 증상이 계속된다면 그때는 남겨둔 치아마저 모두 다 뽑을 수밖에 없고.",
+            "turn_id": "BK22014655-6",
+            "utterance_id": "BK22014655.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "치아를 다 뽑으면 먹는 건 어떻게 하지? 당장 사료부터 먹기가 힘들 텐데 무슨 방법이라도 있어?",
+            "turn_id": "BK22014655-7",
+            "utterance_id": "BK22014655.13"
+        },
+        {
+            "reference_date": "2019-05-10",
+            "reference_text": [
+                {
+                    "value": "이가 없으면 잇몸으로 씹는다는 말이 있는데 고양이는 정말 그렇다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고양이는 잇몸으로 습식사료는 물론 건사료를 거뜬히 씹어 먹을 수 있다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고양이는 발치 후에 통증에서 자유로워지므로 컨디션과 식욕이 살아나며 활기를 되찾는다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=43861",
+            "search_query": "고양이 발치 후 사료",
+            "terminate": false,
+            "text": "물론이지. 너 이가 없으면 잇몸으로 씹는다는 말 들어봤지? 이거 고양이한테 해당되는 말이야. 고양이는 잇몸으로 습식뿐 아니라 건식 사료도 씹어먹는 게 가능하거든. 그뿐만 아니라 발치를 하고 나면 그동안에 자기를 괴롭혔던 통증에서도 벗어나기 때문에 식욕이 올라감은 물론 컨디션도 좋아지고 활기도 되살아나게 돼.",
+            "turn_id": "BK22014655-7",
+            "utterance_id": "BK22014655.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 이빨이 없어도 먹을 수가 있다니 신기하다. 오히려 컨디션이 좋아진다니 다행이라는 생각도 들고. 그래도 난 우리 고양이가 살아생전에 발치하는 일이 없었으면 하는데 구내염 예방법에 대해 좀 알려줄래?",
+            "turn_id": "BK22014655-8",
+            "utterance_id": "BK22014655.15"
+        },
+        {
+            "reference_date": "2020-04-14",
+            "reference_text": [
+                {
+                    "value": "고양이 구내염은 치료가 쉽지 않고 완치를 기대하기 힘들어 예방이 필수다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보호자는 동물병원에 내원해 고양이가 정기적인 스케일링을 받을 수 있게 해줘야 한다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 집에서 수시로 양치질을 해줘 구강환경이 청결히 유지될 수 있도록 해야한다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만약 양치질이 힘들다면 치석 예방 사료나 간식을 사용해보길 추천한다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=48058",
+            "search_query": "고양이 구내염 예방",
+            "terminate": false,
+            "text": "일단 집에서는 양치질을 수시로 해줄 필요가 있어. 그래야 입속 환경을 깨끗하게 유지할 수 있으니까. 만약에 양치질이 여의치 않으면 치석을 예방할 수 있는 사료나 간식을 먹이는 것도 괜찮고. 또 동물 병원에서 스케일링을 주기적으로 받는 것도 구내염 예방에 도움이 돼. 잊지 말아야 할 건 구내염은 치료와 완치가 쉽지 않은 병이니 예방이 필수라는 사실이지.",
+            "turn_id": "BK22014655-8",
+            "utterance_id": "BK22014655.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 말 명심해서 앞으로 예방에 신경 좀 써야겠다.",
+            "turn_id": "BK22014655-9",
+            "utterance_id": "BK22014655.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 반려동물이 아프면 보호자도 힘들기는 마찬가지니까 꼭 그렇게 해.",
+            "turn_id": "BK22014655-9",
+            "utterance_id": "BK22014655.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 그런 점 때문에라도 관리 잘 해줘야겠다. 그나저나 고양이 관련된 얘기 하다 보니 우리 애가 보고 싶다. 나 오늘은 이만 가볼게.",
+            "turn_id": "BK22014655-10",
+            "utterance_id": "BK22014655.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 그럼 잘 가고 월요일에 보자.",
+            "turn_id": "BK22014655-10",
+            "utterance_id": "BK22014655.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 잘 쉬다 월요일에 보자.",
+            "turn_id": "BK22014655-11",
+            "utterance_id": "BK22014655.21"
+        }
+    ]
+}

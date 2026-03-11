@@ -1,0 +1,358 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002961",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002961",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안녕하세요. 여름휴가 때 국내 여행을 준비 중인데 집에 강아지를 혼자 두는 게 걱정이에요.",
+            "turn_id": "BK22002961-1",
+            "utterance_id": "BK22002961.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 문제라면 강아지를 애견 호텔에 맡겨두거나, 강아지랑 함께 떠날 수 있는 여행을 준비해보면 어떨까요?",
+            "turn_id": "BK22002961-1",
+            "utterance_id": "BK22002961.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지랑 같이 갈 수 있는 여행지가 있을까요?",
+            "turn_id": "BK22002961-2",
+            "utterance_id": "BK22002961.3"
+        },
+        {
+            "reference_date": "2022-05-06",
+            "reference_text": [
+                {
+                    "value": "애견동반여행, 애견동반펜션, 애견동반호텔, 애견펜션, 애견호텔 등 반려견과 함께 쉴 수 있는 장소들에 대한 자세하고 정확한 정보를 제공하는 반려견 정보 어플 ‘하트독’이 인기 애견동반 숙소를 추천한다.",
+                    "value_time": "2022-07-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://game.dailyesports.com/view.php?ud=202205061826426598eb81adcc4e_26",
+            "search_query": "애견동반펜션",
+            "terminate": false,
+            "text": "하트독이란 반려견 정보 앱을 통해 애견 동반 여행, 애견 동반 펜션, 애견 동반 호텔, 애견 펜션, 애견 호텔 등 반려견과 함께 쉴 수 있는 장소들에 대해 알아볼 수 있어요.",
+            "turn_id": "BK22002961-2",
+            "utterance_id": "BK22002961.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "펜션은 상상이 되는데, 호텔도 가능하다고요?",
+            "turn_id": "BK22002961-3",
+            "utterance_id": "BK22002961.5"
+        },
+        {
+            "reference_date": "2022-06-20",
+            "reference_text": [
+                {
+                    "value": "이국적인 도심과 센트럴파크의 자연을 가장 가까이서 즐길 수 있는 쉐라톤 그랜드 인천 호텔은 애견 동반 객실 패키지 ‘쉐라톤 펫캉스(Sheraton Petcance)’를 출시했다고 밝혔다.",
+                    "value_time": "2022-07-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.thedrive.co.kr/news/newsview.php?ncode=1065588389995836",
+            "search_query": "애견동반호텔",
+            "terminate": false,
+            "text": "이국적인 도심과 센트럴파크의 자연을 가장 가까이서 즐길 수 있는 쉐라톤 그랜드 인천 호텔은 애견 동반 객실 패키지 쉐라톤 펫캉스 상품을 출시했어요.",
+            "turn_id": "BK22002961-3",
+            "utterance_id": "BK22002961.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "펫캉스는 펫과 호캉스를 합친 신조어인가 봐요. 반려동물 동반 여행이 가능한 곳이 점점 많아지나 봐요.",
+            "turn_id": "BK22002961-4",
+            "utterance_id": "BK22002961.7"
+        },
+        {
+            "reference_date": "2022-06-24",
+            "reference_text": [
+                {
+                    "value": "최근 COVID-19의 영향으로 반려동물을 키우는 가구 수가 증가하였고 동물 친화적인 MZ세대가 소비의 주체로 부상하며 다수의 호텔, 리조트, 펜션은 펫 동반 숙박 가능 객실 즉, 펫캉스(펫+호캉스)패키지를 선보이며 반려동물 동반 여행에 대한 긍정적인 효과를 불러오고 있다.",
+                    "value_time": "2022-07-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.itbiznews.com/news/articleView.html?idxno=73502",
+            "search_query": "펫캉스",
+            "terminate": false,
+            "text": "최근 코로나19의 영향으로 반려동물을 키우는 가구 수가 증가하였고 동물 친화적인 MZ세대가 소비의 주체로 부상하면서 다수의 호텔, 리조트 펜션은 펫 동반 가능 객실 즉, 펫캉스 패키지를 선보이면서 반려동물 동반 여행에 대해 긍정적인 효과를 가져오고 있거든요.",
+            "turn_id": "BK22002961-4",
+            "utterance_id": "BK22002961.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "재미있네요, 그래도 강아지랑 호텔 안에서만 있는 건 답답할 것 같은데요!",
+            "turn_id": "BK22002961-5",
+            "utterance_id": "BK22002961.9"
+        },
+        {
+            "reference_date": "2021-05-25",
+            "reference_text": [
+                {
+                    "value": "반려견 전용 해수욕장을 운영하는 '멍비치'가 강원 강릉시 내 SL(에스엘) 호텔과 손 잡고 다음달부터 반려견 전용 객실을 운영한다고 25일 밝혔다.",
+                    "value_time": "2022-07-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한편 멍비치 해수욕장은 7월 10일 개장해 8월 22일까지 이용 가능하다.",
+                    "value_time": "2022-07-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 기간 호텔 이용과 함께 해수욕장에서 강아지와 수영도 즐길 수 있다.",
+                    "value_time": "2022-07-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4316967",
+            "search_query": "멍비치",
+            "terminate": false,
+            "text": "반려견 전용 해수욕장을 운영하는 멍비치는 강원 강릉시 내 에스엘 호텔과 함께 반려견 전용 객실을 운영하고 있어요. 7월 10일에서 8월 22일까지 호텔 이용을 하면서 해수욕장에서 강아지와 수영을 즐길 수도 있답니다.",
+            "turn_id": "BK22002961-5",
+            "utterance_id": "BK22002961.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지랑 같이 해수욕장을 이용할 수 있다고요? 그거 정말 특이한 경험인데요? 또 다른 여행지가 있을까요?",
+            "turn_id": "BK22002961-6",
+            "utterance_id": "BK22002961.11"
+        },
+        {
+            "reference_date": "2022-06-27",
+            "reference_text": [
+                {
+                    "value": "헤븐리 파크는 1700평 규모의 애견카페·애견펜션과 1300평 규모의 베이커리 카페 '모토모토'로 이뤄져있다.",
+                    "value_time": "2022-07-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려동물과 즐길 수 있는 야외 수영장과 잔디밭 운동장을 구비한 복합 테마파크다.",
+                    "value_time": "2022-07-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/business/view/2022/06/562537/",
+            "search_query": "애견수영장",
+            "terminate": false,
+            "text": "놀라긴 아직 일러요. 헤븐리 파크라는 반려동물과 즐길 수 있는 야외 수영장과 잔디밭 운동장을 가지고 있는 복합 테마파크도 있는걸요. 애견 카페와 애견 펜션의 규모는 1700평이고, 1300평 규모의 베이커리 카페도 함께 있어요.",
+            "turn_id": "BK22002961-6",
+            "utterance_id": "BK22002961.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지랑 함께 할 수 있는 공간이 이렇게 많은 줄 몰랐네요. 아, 기회가 된다면 함께 제주도도 가고 싶은데, 아직 강아지랑 비행기까지 타는 건 무리겠죠?",
+            "turn_id": "BK22002961-7",
+            "utterance_id": "BK22002961.13"
+        },
+        {
+            "reference_date": "2021-07-13",
+            "reference_text": [
+                {
+                    "value": "실제 대한항공, 아시아나 등 대부분의 항공사는 케이지와 반려동물 포함 무게가 7KG 이하인 경우 비행기 탑승을 허용하고 있다.",
+                    "value_time": "2022-07-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mkhealth.co.kr/news/articleView.html?idxno=53956",
+            "search_query": "반려견 비행기",
+            "terminate": false,
+            "text": "놀라지 마세요, 그것도 가능해요. 대한항공이나 아시아나 같은 항공사들은 반려동물과 케이지의 무게가 7킬로그램 이하라면 비행기 탑승을 허용하고 있거든요.",
+            "turn_id": "BK22002961-7",
+            "utterance_id": "BK22002961.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 제주도나 해외여행도 강아지랑 함께 떠날 수 있겠어요! 반려견 동반 숙소로 예약하면 숙박도 문제없겠죠?",
+            "turn_id": "BK22002961-8",
+            "utterance_id": "BK22002961.15"
+        },
+        {
+            "reference_date": "2022-06-27",
+            "reference_text": [
+                {
+                    "value": "홈페이지에는 ‘반려견 동반 가능’으로 돼 있고, 객실 현황에서도 빈방이 있다고 나오지만 숙소 주인이 “안 된다”고 하면 어쩔 수 없다.",
+                    "value_time": "2022-07-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려견 동반 입실이나 시설 이용을 제한하거나 추가요금을 내야 하는 경우가 있다.",
+                    "value_time": "2022-07-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://weekly.khan.co.kr/khnm.html?mode=view&code=116&artid=202206171121421",
+            "search_query": "반려견 동반 주의사항",
+            "terminate": false,
+            "text": "그럼요, 하지만 홈페이지에 반려견이 동반 가능하다고 설명되어있고, 객실 현황에서 빈방이 있다고 나오더라도 숙소 주인이 안 된다고 하는 경우도 있어요. 추가 요금을 내야 하는 경우는 그나마 다행인데, 반려견 동반 입실이나 시설 이용이 제한될 수도 있으니 미리 확인 후 방문하는 게 좋아요.",
+            "turn_id": "BK22002961-8",
+            "utterance_id": "BK22002961.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 혹시나 애견 동반 관련 규정에 대한 변동이 없는지 미리 확인해야겠네요. 또 다른 주의사항이 있을까요?",
+            "turn_id": "BK22002961-9",
+            "utterance_id": "BK22002961.17"
+        },
+        {
+            "reference_date": "2022-06-28",
+            "reference_text": [
+                {
+                    "value": "펫티켓 준수 여부에 대한 반려인과 비반려인의 인식차가 큰 것으로 조사됐다.",
+                    "value_time": "2022-07-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려인의 80% 내외가 펫티켓을 ‘잘 준수하고 있다’고 응답한 반면, 비반려인의 경우 30% 내외만이 ‘잘 준수되고 있다’고 응답해 각자 인식의 차이를 보이고 있다.",
+                    "value_time": "2022-07-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.chamnews.net/news/articleView.html?idxno=210429",
+            "search_query": "펫티켓 준수",
+            "terminate": false,
+            "text": "네, 맞아요. 또, 반려인과 비반려인의 인식 차이가 있으니까 더 신경 쓰면 좋을 거예요. 설문조사에 따르면 펫티켓을 잘 준수하고 있다고 생각하는 반려인은 약 80퍼센트였지만, 비반려인은 30퍼센트만이 잘 준수하고 있다고 응답해 인식의 차이를 보이고 있거든요.",
+            "turn_id": "BK22002961-9",
+            "utterance_id": "BK22002961.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럴 수 있겠네요. 강아지를 키우지 않는 사람 입장에서도 생각해봐야겠어요.",
+            "turn_id": "BK22002961-10",
+            "utterance_id": "BK22002961.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 저는 반려동물과 떠나는 첫 여행이라고 해서 더 당부드렸어요.",
+            "turn_id": "BK22002961-10",
+            "utterance_id": "BK22002961.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "감사해요, 덕분에 많은 도움 되었어요.",
+            "turn_id": "BK22002961-11",
+            "utterance_id": "BK22002961.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그럼 예쁜 추억 가득한 여행하길 기원할게요. 다녀오셔서 사진 보여주세요.",
+            "turn_id": "BK22002961-11",
+            "utterance_id": "BK22002961.22"
+        }
+    ]
+}

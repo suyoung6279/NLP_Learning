@@ -1,0 +1,376 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003960",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003960",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0036"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "올해 설날부터 우리 집에서 차례를 지내기로 했어. 할 일이 많을까?",
+            "turn_id": "BK22003960-1",
+            "utterance_id": "BK22003960.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럴 것 같아. 음식 준비도 만만치 않을 테니까.",
+            "turn_id": "BK22003960-1",
+            "utterance_id": "BK22003960.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "차례를 지내본 적이 없어 잘 몰라. 차례에 관해 설명해 줄 수 있니?",
+            "turn_id": "BK22003960-2",
+            "utterance_id": "BK22003960.3"
+        },
+        {
+            "reference_date": "2022-02-25",
+            "reference_text": [
+                {
+                    "value": "차례(茶禮)는 가정마다 설날과 추석에 아침 일찍이 지내는 약식 제사를 말한다.",
+                    "value_time": "2022-08-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일반적인 제사와는 다르다.",
+                    "value_time": "2022-08-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가풍에 따라 정월 대보름, 초파일, 단오, 백중, 동지에도 차례를 지내는 집이 있다.",
+                    "value_time": "2022-08-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B0%A8%EB%A1%80",
+            "search_query": "차례",
+            "terminate": false,
+            "text": "차례는 설날과 추석 아침에 지내는 약식 형태의 제사로, 일반 제사와는 그 절차가 달라. 집안 분위기에 따라서 정월 대보름과 초파일 등에도 차례를 지내는 경우도 있어.",
+            "turn_id": "BK22003960-2",
+            "utterance_id": "BK22003960.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "설날과 추석에만 차례를 지내는 게 아니구나. 그렇다면 차례 지낼 때 상은 어디에 둬? 상 차리는 방향이 있어?",
+            "turn_id": "BK22003960-3",
+            "utterance_id": "BK22003960.5"
+        },
+        {
+            "reference_date": "2022-08-15",
+            "reference_text": [
+                {
+                    "value": "차례상은 방향에 관계없이 지내기 편한 곳에 차리면 되는데, 이 경우 ‘예절의 동서남북’이라 하여 신위(神位, 지방)가 놓인 곳을 북쪽으로 한다.",
+                    "value_time": "2022-08-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "신위를 북쪽에 놓는 것은 북쪽이 음양오행설의 오행 가운데 수(水)를 뜻하고 가장 높은 위치이기 때문이다.",
+                    "value_time": "2022-08-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이는 조상을 높이 받들겠다는 뜻이다.",
+                    "value_time": "2022-08-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lecturernews.com/news/articleView.html?idxno=104608",
+            "search_query": "차례 상차림",
+            "terminate": false,
+            "text": "설 차례상은 방향 관계없이 지내기 편한 곳에 차려. 이때 예절의 동서남북으로 인해 신위가 있는 쪽이 북쪽이 돼. 신위를 북쪽에 놓는 까닭은 북쪽이 음양오행설의 오행 중 수를 뜻하는 가장 높은 위치이기 때문이야. 조상을 높이 받들겠다는 의미지.",
+            "turn_id": "BK22003960-3",
+            "utterance_id": "BK22003960.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 상은 편하게 두면 되겠구나. 그 위에 올라가는 음식은 어떻게 차려야 해?",
+            "turn_id": "BK22003960-4",
+            "utterance_id": "BK22003960.7"
+        },
+        {
+            "reference_date": "2019-02-02",
+            "reference_text": [
+                {
+                    "value": "주로 5열에는 과일류가 진설(陳設)되며 대추, 밤, 배, 감, 사과, 한과류를 올린다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "상을 차리는 사람 기준으로 두 번째 줄(4열)에는 포, 나물, 간장, 나박김치, 식혜가 올라간다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "상을 차리는 사람 기준으로 세 번째 줄(3열)에는 육탕(육류), 소탕(두부, 채소류), 어탕(어패류) 등 3가지 종류의 탕을 올린다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "상을 차리는 사람 기준으로 두 번째 줄(2열)에는 서쪽에서부터 육전(기름에 부친 전), 육적(고기 구운 것), 소적(두부 부친 것), 어적(생선 구운 것), 어전(기름에 부친 것)을 올린다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "주로 1열에는 수저, 밥, 잔, 국을 올린다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ggilbo.com/news/articleView.html?idxno=594625",
+            "search_query": "차례상 음식 종류",
+            "terminate": false,
+            "text": "5열에는 과일류가 진설되는데 대추, 밤 등을 올려. 상 차리는 사람을 기준으로 하여 두 번째 줄에 해당하는 4열에는 포, 나물, 간장 등이 올라가. 그리고 3열에는 육탕과 소탕 등 3가지의 탕이 위치해. 2열에는 육적, 소적 등의 구운 음식이 올라가. 그리고 1열에는 수저, 밥, 잔, 국을 올리지.",
+            "turn_id": "BK22003960-4",
+            "utterance_id": "BK22003960.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음식 종류가 정말 많구나. 나는 전을 만들기로 했는데 걱정이네. 쉽게 만들 수 있는 전을 추천해 줄래?",
+            "turn_id": "BK22003960-5",
+            "utterance_id": "BK22003960.9"
+        },
+        {
+            "reference_date": "2022-05-06",
+            "reference_text": [
+                {
+                    "value": "1. 애호박, 청양고추, 홍고추는 먹기 좋은 크기로 적당하게 썬다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "2. 썰어낸 애호박을 펼쳐놓고 앞뒤로 가는 소금을 살살 뿌려준다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "3. 애호박에 밀가루를 뿌리고 풀어둔 계란물에 넣는다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "4. 기름을 두른 프라이팬에 올려 구워주고, 고추 고명을 호박 위에 올린다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mkhealth.co.kr/news/articleView.html?idxno=57633",
+            "search_query": "애호박전 만들기",
+            "terminate": false,
+            "text": "애호박전을 만들어 봐. 먼저 애호박과 청양고추, 홍고추를 먹기 좋은 크기로 썰어. 그리고 썰어 놓은 애호박 앞뒤로 소금을 살살 뿌려주면 준비 끝이야. 그다음 애호박에 밀가루를 뿌리고 계란 물에 담갔다가 프라이팬에 구우면 돼. 마지막으로 고추 고명을 호박 위에 올리면 완성이야.",
+            "turn_id": "BK22003960-5",
+            "utterance_id": "BK22003960.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 쉬워서 다행이다. 그런데 매번 많은 음식을 할 생각하니 막막하다. 간소하게 차릴 수는 없니?",
+            "turn_id": "BK22003960-6",
+            "utterance_id": "BK22003960.11"
+        },
+        {
+            "reference_date": "2022-07-18",
+            "reference_text": [
+                {
+                    "value": "명절 때마다 너무 많은 음식을 준비하다가 가족 간 갈등의 씨앗이 됐던 차례상에 변화가 예고됐다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이미 많은 가정에서 자체적으로 간소화하고 있지만 유교 단체에서 공식 추진할 예정이라 관심을 끈다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.seoul.co.kr/news/newsView.php?id=20220718500201&wlog_tag3=naver",
+            "search_query": "차례상 간소화",
+            "terminate": false,
+            "text": "가능해. 많은 가정에서 자체적으로 간소화해서 차리고 있어. 그런데 명절에 음식 준비를 하다가 가족 간에 갈등이 자주 생겨서 그런지, 유교 단체에서 차례상 간소화를 공식 추진할 예정이야.",
+            "turn_id": "BK22003960-6",
+            "utterance_id": "BK22003960.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마음 편하게 공식적으로 간소화되었으면 좋겠어. 그런데 간소화하면 어느 정도 규모일까? 간소하게 지내는 차례상의 예시가 궁금해.",
+            "turn_id": "BK22003960-7",
+            "utterance_id": "BK22003960.13"
+        },
+        {
+            "reference_date": "2021-09-11",
+            "reference_text": [
+                {
+                    "value": "실제로 전통을 지키는 종가의 명절 차례상은 간소하다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "조선 시대 대표 성리학자인 명재 윤증(1629~1714) 선생의 파평 윤씨 종가 명재고택의 추석 차례상에는 포와 과일 3가지, 백설기, 차만 올라간다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25006169",
+            "search_query": "종갓집 차례상",
+            "terminate": false,
+            "text": "종가의 명절 차례상을 참고하면 도움이 될 거야. 전통을 중시하는 종가의 명절 차례상은 상당히 간소한 편이야. 조선시대의 유명한 성리학자 명재 윤증의 파평 윤씨 종가의 추석 차례상에는 포, 과일 3가지, 백설기, 차가 올라가.",
+            "turn_id": "BK22003960-7",
+            "utterance_id": "BK22003960.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 정도면 나 혼자서도 준비 가능한데 얼른 간소화되었으면 좋겠다. 그렇지만 올해는 일반 차례상으로 지내야 할 테니 돈도 많이 들겠지?",
+            "turn_id": "BK22003960-8",
+            "utterance_id": "BK22003960.15"
+        },
+        {
+            "reference_date": "2022-01-27",
+            "reference_text": [
+                {
+                    "value": "소상공인시장진흥공단에 따르면 올해 설 차례상 비용(4인 기준)은 전통시장이 평균 26만2645원으로 대형마트 35만6000원보다 약 8만원가량 저렴했다.",
+                    "value_time": "2022-08-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sisacast.kr/news/articleView.html?idxno=34391",
+            "search_query": "차례상 비용",
+            "terminate": false,
+            "text": "전통시장에 가 봐. 소상공인시장진흥공단에 따르면 올해 설 차례상 4인 기준 비용의 경우, 전통시장이 평균 262,645원이야. 대형마트의 35만 6000원에 비해 약 8만 원가량 저렴해.",
+            "turn_id": "BK22003960-8",
+            "utterance_id": "BK22003960.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "장을 보려면 전통시장에 가야겠네. 돈도 돈인데 여기에 들 노동력이 걱정이다. 혹시 밀키트 같은 건 없나?",
+            "turn_id": "BK22003960-9",
+            "utterance_id": "BK22003960.17"
+        },
+        {
+            "reference_date": "2022-01-19",
+            "reference_text": [
+                {
+                    "value": "주요 성수품 가격이 상승하는 가운데 식품업체들은 상대적으로 저렴한 명절 상차림용 간편식 제품을 앞세워 차례상 공략에 나서고 있다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20220118132258902",
+            "search_query": "차례상 밀키트",
+            "terminate": false,
+            "text": "있어. 여러 식품 업체들이 차례상을 염두에 둔 간편식을 시장에 선보이는 중이지. 성수품 대부분의 가격이 오르는 한편 식품 업체들은 저렴하게 명절 상을 차릴 수 있는 간편식 제품을 출시하고 있으니 알아보면 도움이 될 거야.",
+            "turn_id": "BK22003960-9",
+            "utterance_id": "BK22003960.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "차례상을 만들 수 있는 간편식이 있다는 건 처음 알았어. 부모님께 이런 걸 주문하자고 의논드려야지.",
+            "turn_id": "BK22003960-10",
+            "utterance_id": "BK22003960.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "형식보다는 마음이 중요한 거니까, 이런 제품도 괜찮을 것 같아. 상의 잘 해봐!",
+            "turn_id": "BK22003960-10",
+            "utterance_id": "BK22003960.20"
+        }
+    ]
+}

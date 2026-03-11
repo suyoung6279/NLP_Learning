@@ -1,0 +1,366 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007601",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007601",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 3.8,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0010"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저 어제 산후조리원 계약하고 왔어요.",
+            "turn_id": "BK22007601-1",
+            "utterance_id": "BK22007601.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "몇 군데 중에 고민하더니 어디로 결정했어요?",
+            "turn_id": "BK22007601-1",
+            "utterance_id": "BK22007601.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "친정이랑 가까운 곳으로 정했어요. 그래서 출산하는 병원에서 차로 30분 정도 이동해야 하는데 카시트가 필요할까요? 신생아 때는 외출할 일이 별로 없을 것 같아서 아직 안 샀거든요.",
+            "turn_id": "BK22007601-2",
+            "utterance_id": "BK22007601.3"
+        },
+        {
+            "reference_date": "2018-03-13",
+            "reference_text": [
+                {
+                    "value": "대부분의 부모들이 신생아 때는 바깥 외출을 자제하는만큼 카시트는 병원 또는 조리원 퇴원 시에만 잠깐 사용하는 제품으로 인식해 구매를 뒤로 미루는 경우가 많다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 도로교통법상 만 6세 미만의 영유아가 차량에 탑승할 때 카시트 장착이 의무사항으로 규정돼 있는 만큼 반드시 구매해야 한다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/201803131744146475",
+            "search_query": "카시트 장착 의무",
+            "terminate": false,
+            "text": "많은 부모가 신생아 시기에는 외부 활동을 삼가기 때문에 카시트를 병원이나 조리원에서 퇴원할 때만 잠깐 사용한다고 생각해서 장만을 나중으로 미루는 경우가 빈번하죠. 그렇지만 도로교통법상 차량에 탑승하는 만 6세 미만의 영유아는 의무적으로 카시트 장착해야 하니 꼭 마련해야 해요.",
+            "turn_id": "BK22007601-2",
+            "utterance_id": "BK22007601.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 미루지 말고 얼른 준비해야겠어요. 어릴 때는 카시트를 차 뒤쪽을 향하게 장착해야 한다고 들었는데 맞나요?",
+            "turn_id": "BK22007601-3",
+            "utterance_id": "BK22007601.5"
+        },
+        {
+            "reference_date": "2018-07-17",
+            "reference_text": [
+                {
+                    "value": "카시트는 반드시 뒷좌석에 설치하고 만일 아이가 돌 이전이면 뒤보기 장착한다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "신생아는 몸무게 중 머리가 차지하는 비율이 25%나 되기 때문에 차의 움직임에 따라 몸이 앞으로 쉽게 쏠리고 머리, 척추 등에 무리가 갈 수 있기 때문이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=66743",
+            "search_query": "신생아 카시트 설치",
+            "terminate": false,
+            "text": "네, 맞아요. 신생아는 머리의 무게가 전체 몸무게 가운데 25%나 차지하기 때문에 차가 움직일 때 몸이 앞쪽으로 쏠리기 쉽고 머리, 척추 등에 부담이 될 수 있어요. 따라서 돌까지는 카시트를 뒤보기로 장착해야 해요. 그리고 반드시 뒷좌석에 설치해야 한다는 것도 잊지 마시고요.",
+            "turn_id": "BK22007601-3",
+            "utterance_id": "BK22007601.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 뒤보기로 뒷좌석에 설치 꼭 기억할게요. 그런데 카시트에 대해 알아보다 아이소픽스 장착이라는 문구를 보았는데 아이소픽스라는 게 뭘 말하는 건가요?",
+            "turn_id": "BK22007601-4",
+            "utterance_id": "BK22007601.7"
+        },
+        {
+            "reference_date": "2018-11-24",
+            "reference_text": [
+                {
+                    "value": "그 중 ISOFIX(아이소픽스)란 국제표준화기구(ISO)의 기준에 따라 카시트와 자동차를 연결하는 부분을 규격화한 것으로, 별도의 장치 없이 간편하게 차량 내 장치와 카시트를 결합하기만 하면 된다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://moneys.mt.co.kr/news/mwView.php?no=2018112409138097814",
+            "search_query": "아이소픽스",
+            "terminate": false,
+            "text": "아이소픽스는 국제표준화기구의 기준에 따라 자동차와 카시트의 연결부를 규격화시킨 것으로 차량 내부의 장치와 카시트를 쉽게 결합할 수 있고 별도의 장치가 필요 없어요.",
+            "turn_id": "BK22007601-4",
+            "utterance_id": "BK22007601.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 아이소픽스가 적용된 카시트를 구입하는 게 좋겠네요. 생각해 보니 카시트는 무엇보다도 아이의 안전을 확실하게 지켜줄 수 있는 제품을 골라야 할 것 같은데 중점적으로 확인해야 하는 부분이 있을까요?",
+            "turn_id": "BK22007601-5",
+            "utterance_id": "BK22007601.9"
+        },
+        {
+            "reference_date": "2018-11-24",
+            "reference_text": [
+                {
+                    "value": "그중 가장 강조되는 것은 ‘측면 충돌 테스트’ 안전 인증이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "실제 국내 교통사고 유형의 50% 이상이 측면 충돌에 의한 사고이기 때문.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 자동차의 측면은 탑승자와 차체의 사이 간격이 전·후방보다 좁은 만큼, 충돌 사고 발생 시 사망 사고로 이어질 위험이 더욱 높다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "때문에 실제 측면 충돌 시, 카시트가 아이를 얼만큼 효과적으로 보호하는지에 대한 인증 여부를 확인하는 것이 중요하다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://moneys.mt.co.kr/news/mwView.php?no=2018112409138097814",
+            "search_query": "카시트 측면 충돌 테스트",
+            "terminate": false,
+            "text": "무엇보다도 측면 충돌 테스트 안전 인증을 꼼꼼히 확인하는 게 좋아요. 국내에서 발생하는 교통사고 중 50% 이상은 측면 충돌로 인한 사고이고 자동차의 측면은 전방이나 후방에 비해 탑승자와 차체 간의 간격이 좁아 충돌 사고가 일어났을 때 사망에 이를 위험이 매우 높거든요. 그러므로 실제로 측면 충돌 사고가 발생했을 때 아이를 효과적으로 지켜 줄 수 있는지에 대한 인증을 획득한 카시트인지 확인할 필요가 있죠.",
+            "turn_id": "BK22007601-5",
+            "utterance_id": "BK22007601.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "측면에서의 충격에서 아이를 보호하는 게 정말 중요하군요. 명심할게요. 참, 제 친구는 회전형 카시트를 쓴다고 하던데 회전형 카시트는 어떤 제품이에요?",
+            "turn_id": "BK22007601-6",
+            "utterance_id": "BK22007601.11"
+        },
+        {
+            "reference_date": "2018-11-15",
+            "reference_text": [
+                {
+                    "value": "먼저, ‘회전형 카시트’는 승·하차시 겪을 수 있는 불편함을 줄이기 위해 나온 제품으로, 일반적으로 0세에서 5세까지 사용할 수 있다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "회전형 카시트는 차량에 장착한 채로 360도 회전이 가능해 차량 도어 방면으로 카시트를 회전시킨 뒤 아이를 탑승 또는 하차시킬 수 있다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=201811158257o",
+            "search_query": "회전형 카시트",
+            "terminate": false,
+            "text": "회전형 카시트는 차를 타고 내릴 때의 편의성을 높이기 위한 제품으로 차량에 카시트를 장착한 상태로 360도 회전이 가능해서 아이를 태우거나 하차시킬 때 차문 쪽으로 카시트를 돌릴 수 있어요. 사용 시기는 보통 0세부터 5세까지이고요.",
+            "turn_id": "BK22007601-6",
+            "utterance_id": "BK22007601.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 타고 내릴 때 정말 편하긴 하겠네요. 전에 백화점에 갔을 때 보니 카시트의 크기가 굉장히 다양하던데 일반적으로 카시트는 어떻게 구분하나요? 각각의 카시트의 특징도 좀 알려 주세요.",
+            "turn_id": "BK22007601-7",
+            "utterance_id": "BK22007601.13"
+        },
+        {
+            "reference_date": "2014-03-04",
+            "reference_text": [
+                {
+                    "value": "카시트는 일반적으로 아이의 체중과 나이를 기준으로 '캐리어 카시트' '컨버터블 카시트' '주니어용 카시트'로 나뉜다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "신생아부터 12개월까지 작은 아이에게는 바구니 스타일의 캐리어 카시트가 적합하다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "컨버터블 카시트는 바구니형 카시트보다 전반적으로 크기가 크고 아이 스스로 앉아서 사용할 수 있도록 수직 구조로 디자인 되어있다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "주니어용 카시트는 혼자서 완전히 앉을 수 있는 아이에게 적합한 카시트로 약 10년간 사용할 수 있어 활용도 면에서는 가장 뛰어나지만 아이의 신체 사이즈에 정확히 맞지 않을 수 있다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "구입 전 제품이 밀착되는지 반드시 확인해야 한다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2014030417020257233&outlink=1&ref=https%3A%2F%2Fsearch.naver.com",
+            "search_query": "카시트 분류",
+            "terminate": false,
+            "text": "카시트는 보통 캐리어 카시트, 컨버터블 카시트, 주니어용 카시트로 구분되는데 나누는 기준은 아이의 체중과 나이예요. 캐리어 카시트는 바구니 스타일의 제품으로 신생아부터 12개월 정도의 작은 아이에게 적합한 카시트예요. 그리고 컨버터블 카시트는 스스로 앉는 아이에게 적합한 수직 구조로 설계된 제품으로 바구니형 카시트에 비해 크기가 더 커요. 마지막으로 주니어용 카시트는 혼자서 앉는 것이 완벽한 아이에게 적당한 제품으로 10년가량 쓸 수 있어서 활용도는 가장 높지만, 아이의 몸 크기에 딱 맞지 않을 수 있기 때문에 사전에 카시트가 아이의 몸에 밀착되는지를 꼭 확인할 필요가 있어요.",
+            "turn_id": "BK22007601-7",
+            "utterance_id": "BK22007601.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자세한 설명 감사해요. 그런데 만 6세까지 카시트가 의무라고 하지 않았어요? 10년이나 사용하는 주니어 카시트를 쓸 필요가 있나요?",
+            "turn_id": "BK22007601-8",
+            "utterance_id": "BK22007601.15"
+        },
+        {
+            "reference_date": "2022-04-26",
+            "reference_text": [
+                {
+                    "value": "교통안전공단에 따르면 카시트를 착용하지 않고 영유아가 성인용 안전벨트만을 착용할 경우 중상 가능성이 5.5배 증가하는 것으로 나타났다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "때문에 만 6세 이상이라도 성인용 안전벨트를 안전하게 착용할 수 있는 기준인 키 145cm, 몸무게 36kg이 될 때까지 카시트 탑승을 하는 것이 안전하다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://idsn.co.kr/news/view/1065596149768691",
+            "search_query": "카시트 착용 기준",
+            "terminate": false,
+            "text": "교통안전공단의 발표에 의하면 영유아가 카시트가 아닌 성인용 안전벨트만을 사용했을 때 중상을 입을 위험이 5.5배 높아져요. 따라서 만 6세가 넘었더라도 성인용 안전벨트를 착용해도 문제없는 신장 145cm, 체중 36kg의 기준을 충족할 때까지는 카시트를 사용하는 것이 안전을 위한 길이죠.",
+            "turn_id": "BK22007601-8",
+            "utterance_id": "BK22007601.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 이제 이해가 되네요. 제가 예전에 교통사고가 난 차량에 설치했던 카시트는 교체해야 한다는 얘기를 들은 적이 있는데 사실인가요?",
+            "turn_id": "BK22007601-9",
+            "utterance_id": "BK22007601.17"
+        },
+        {
+            "reference_date": "2021-07-08",
+            "reference_text": [
+                {
+                    "value": "교통사고 시, 카시트를 교체하는 이유는 온통 플라스틱과 금속, 그리고 볼트로 체결된 카시트들이 충격으로 인해 크랙이나 유격이 발생할 수 있는 가능성이 크고, 한번 어그러진 카시트 몸체의 강성은 다시 돌아올 수 없기 때문입니다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=96286",
+            "search_query": "교통사고 시 카시트 교체",
+            "terminate": false,
+            "text": "네, 사실이에요. 카시트는 온통 플라스틱, 금속, 볼트로 구성되어 있어서 충격을 받으면 크랙이나 유격이 생길 위험이 높고 카시트 몸체가 한번 어그러지면 본래의 강성은 되찾을 수 없기 때문에 교통사고가 발생하면 카시트를 교체해야 해요.",
+            "turn_id": "BK22007601-9",
+            "utterance_id": "BK22007601.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "계속 궁금했는데 이제야 확실히 알게 되었네요. 친절히 알려 주셔서 감사해요. 정말 큰 도움이 되었어요.",
+            "turn_id": "BK22007601-10",
+            "utterance_id": "BK22007601.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 다행이네요. 앞으로도 궁금한 게 있으면 언제든 물어보세요.",
+            "turn_id": "BK22007601-10",
+            "utterance_id": "BK22007601.20"
+        }
+    ]
+}

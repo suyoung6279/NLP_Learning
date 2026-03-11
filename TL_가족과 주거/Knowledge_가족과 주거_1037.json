@@ -1,0 +1,357 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006215",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006215",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0014"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여기 오기 전에 우리 사촌 언니 집에 있다가 왔는데, 언니는 비혼주의라고 해서 신기했어. 난 아직 그런 문제에 대해 깊게 생각해 본 적이 없거든. 너는 비혼주의에 대해서 좀 알아?",
+            "turn_id": "BK22006215-1",
+            "utterance_id": "BK22006215.1"
+        },
+        {
+            "reference_date": "2022-03-02",
+            "reference_text": [
+                {
+                    "value": "결혼을 하지 않고, 비혼을 선택하는 생각을 비혼주의라고 부른다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B9%84%ED%98%BC%EC%9E%90",
+            "search_query": "비혼주의 뜻",
+            "terminate": false,
+            "text": "나도 아직 확실히 마음을 정한 건 아니지만, 비혼에 대한 생각이 있어. 비혼주의는 결혼을 선택하지 않고, 독신으로 지낼 것을 선택하는 가치관을 말해.",
+            "turn_id": "BK22006215-1",
+            "utterance_id": "BK22006215.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 미혼이라고 불러도 되는 것 아니야? 결혼을 하지 않았으니까 말이야. 비혼과 미혼은 뭐가 다른 것인데?",
+            "turn_id": "BK22006215-2",
+            "utterance_id": "BK22006215.3"
+        },
+        {
+            "reference_date": "2022-03-02",
+            "reference_text": [
+                {
+                    "value": "비혼(非婚)은 미혼(未婚)이라는 단어가 '혼인은 반드시 해야 하는 것이나 아직 하지 않은 상태'라는 의미를 담고 있다는 생각에 기반하여 '혼인 상태가 아님'이라는 보다 주체적인 의미로 여성학계에서 사용하기 시작한 단어이다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B9%84%ED%98%BC%EC%9E%90",
+            "search_query": "비혼 미혼 차이",
+            "terminate": false,
+            "text": "비혼이라는 단어는 미혼보다 주체적인 의미를 담기 위해 여성학계에서 등장했어. 미혼이라는 단어는 혼인을 반드시 해야 하는데, 아직 하지 않은 상태를 뜻한다고 해석할 수 있지만 비혼은 더 주체적으로, 그저 혼인 상태가 아니라는 의미를 담거든.",
+            "turn_id": "BK22006215-2",
+            "utterance_id": "BK22006215.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 깊은 뜻을 담은 단어인 줄 몰랐는데 신기하다. 그러고 보면 주변에 결혼적령기인데 미혼인 사람들이 많지 않아?",
+            "turn_id": "BK22006215-3",
+            "utterance_id": "BK22006215.5"
+        },
+        {
+            "reference_date": "2021-09-27",
+            "reference_text": [
+                {
+                    "value": "30대 미혼인구가 급증하고 있는 가운데, 30대 남성 절반은 결혼을 하지 않은 것으로 나타났다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 30대 남성의 경우 지난해 미혼인구 비중이 50.8%(173만8000명)로 절반을 넘어섰다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지난해 30대 여성 미혼인구 비중도 33.6%(107만7000명)로 5년새 5.5%p 늘었다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newspim.com/news/view/20210927000539",
+            "search_query": "결혼적령기 미혼 비율",
+            "terminate": false,
+            "text": "실제로 결혼적령기라고 할 수 있는 30대 미혼인구가 급증했거든. 특히, 지난해 30대 남성의 절반인 50.8%는 결혼을 하지 않은 것으로 나타났어. 마찬가지로 30대 여성의 미혼인구 비중도 근 5년 사이 5.5%p나 증가하여 33.6%야.",
+            "turn_id": "BK22006215-3",
+            "utterance_id": "BK22006215.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "미혼 인구가 내 주변만 증가한 게 아니라, 실제로 통계적으로 증가했구나. 하긴, 요즘엔 결혼을 꼭 할 필요가 없다는 인식이 확산된 것 같지 않아? 이젠 선택 사항의 반열에 오른 것 같아.",
+            "turn_id": "BK22006215-4",
+            "utterance_id": "BK22006215.7"
+        },
+        {
+            "reference_date": "2020-06-20",
+            "reference_text": [
+                {
+                    "value": "시장조사업체 엠브레인 트렌드모니터가 지난 4월 전국 만 19~45세 미혼남녀 1천200명을 대상으로 실시한 결혼과 결혼식에 대한 인식조사에 따르면 결혼을 꼭 해야 한다고 생각한다는 응답 비율은 18.1%에 불과했다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/society/article/202006208797Y",
+            "search_query": "미혼남녀 결혼 인식조사",
+            "terminate": false,
+            "text": "실제로 조사 결과도 그렇게 나왔어. 엠브레인 트렌드모니터가 2020년 4월 전국의 만 19세부터 45세까지의 미혼남녀 1200명을 대상으로 결혼과 결혼식에 대한 인식 조사를 수행했더니, 결혼을 꼭 해야 한다고 응답한 사람은 18.1%밖에 되지 않았거든.",
+            "turn_id": "BK22006215-4",
+            "utterance_id": "BK22006215.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 정말 인식이 많이 바뀌긴 한 것 같네. 사람들이 비혼을 선택하게 된 이유도 궁금해.",
+            "turn_id": "BK22006215-5",
+            "utterance_id": "BK22006215.9"
+        },
+        {
+            "reference_date": "2020-12-14",
+            "reference_text": [
+                {
+                    "value": "결혼을 꺼리는 이유로, 남자는 '현실적으로 결혼을 위한 조건을 맞추기 어려울 것이라고 생각되어서(집 마련, 재정적 부분 등)'가 51.1%, '혼자사는 것이 더 행복할 것이라고 생각되어서' 29.8% 순이었습니다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반면 여자는 '혼자사는 것이 행복할 것이라고 생각되어서' 25.3%, '가부장제 및 양성불평등 등의 문화 때문에' 24.7% 순으로 응답했습니다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지난 9월 인구보건복지협회가 발표한 '30대 미혼 남녀의 결혼에 대한 인식 조사 결과'에 따르면 향후 결혼 의향에 대해 꼭 할 것 12.4%, 하고 싶은 편 43.1%, 하고 싶지 않은 편 19.8%, 절대 하지 않을 것 4.6%, 잘 모르겠음 20.1%였습니다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://nocutnews.co.kr/news/5464195",
+            "search_query": "비혼주의 이유 통계",
+            "terminate": false,
+            "text": "비혼을 선택하는 이유는 성별에 따라 달라서 흥미로워. 2020년 9월에 발표된 인구보건복지협회의 조사 결과에 따르면, 남성의 비혼 이유 중 가장 높은 비중을 차지한 51.1%는 집 마련이나 재정 문제 등 현실적으로 결혼을 위한 조건을 맞추기 어려울 것이라고 생각하기 때문이었어. 2위인 29.8%는 혼자 사는 것이 더 행복할 것이라고 생각하기 때문이었고. 반면, 여성의 경우에는 혼자 사는 것이 행복할 것이라고 생각하여 비혼인 사람의 비율이 25.3%로 가장 높았고, 가부장제나 양성불평등 등의 사회 인식 문제 때문이라고 대답한 비율이 24.7%를 차지해 만만치 않게 높았어.",
+            "turn_id": "BK22006215-5",
+            "utterance_id": "BK22006215.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이유를 보니까 이해가 된다. 요즘엔 방송에서 비혼주의 선언을 하는 연예인들도 보이더라. 그만큼 비혼 의사를 밝히는 데 거리낌이 없어진 것 같지?",
+            "turn_id": "BK22006215-6",
+            "utterance_id": "BK22006215.11"
+        },
+        {
+            "reference_date": "2020-05-21",
+            "reference_text": [
+                {
+                    "value": "비혼을 선택한 응답자들의 81.4%는 부모님을 포함해 주변과 지인에게 본인의 비혼 의사를 알렸으며, 절반 정도(49.4%)는 앞으로 비혼식 계획도 있다고 답해 눈길을 끌었다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "21일 ‘부부의 날’을 맞아 취업포털 인크루트와 아르바이트 구인·구직 사이트 알바콜이 미혼남녀 568명을 대상으로 조사해 보니 10명 중 8명은 ‘결혼은 필수가 아닌 선택’(85.3%)이라고 답했다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/23782139#home",
+            "search_query": "비혼주의 선언",
+            "terminate": false,
+            "text": "실제로 일반인들도 비혼 선언을 많이 하고 있어. 2020년 취업포털 인크루트와 아르바이트 구인구직 사이트 알바콜이 미혼남녀 568명을 조사한 결과, 비혼을 선택한 응답자들 중 부모님을 비롯한 지인들에게 비혼 의사를 알렸다고 응답한 비율이 81.4%로 나타났거든. 그 중 절반 수준인 49.4%는 차후 비혼식을 치를 계획도 있다고 밝혔어.",
+            "turn_id": "BK22006215-6",
+            "utterance_id": "BK22006215.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비혼식이라는 건 또 뭐야?",
+            "turn_id": "BK22006215-7",
+            "utterance_id": "BK22006215.13"
+        },
+        {
+            "reference_date": "2020-08-27",
+            "reference_text": [
+                {
+                    "value": "결혼식과 마찬가지로 지인들을 초대해 축하를 받는 비혼식을 진행하기도 하고, 전문 스튜디오 등에서 웨딩드레스만 대여해 홀로 사진을 남기는 싱글 웨딩 촬영을 하기도 한다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ntoday.co.kr/news/articleView.html?idxno=74281",
+            "search_query": "비혼식",
+            "terminate": false,
+            "text": "결혼식 비슷하게 아는 사람들을 초대해서 비혼을 축하하는 행사야. 전문 스튜디오 같은 곳에서 웨딩드레스를 대여해서 혼자 사진을 찍는 싱글 웨딩 촬영을 진행하는 사람들도 있어.",
+            "turn_id": "BK22006215-7",
+            "utterance_id": "BK22006215.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비혼주의가 성행하면서 결혼에 대한 문화도 많이 바뀌었다는 게 느껴지는구나. 확실히, 비혼 동거 가족에 대한 인식도 이전보다 많이 좋아진 것 같지 않아?",
+            "turn_id": "BK22006215-8",
+            "utterance_id": "BK22006215.15"
+        },
+        {
+            "reference_date": "2021-05-13",
+            "reference_text": [
+                {
+                    "value": "지난해 여성가족부 조사에서 10명 중 7명(69.7%)이 혼인·혈연관계가 아니어도 생계·주거를 공유하면 ‘가족’이라는 데 동의했다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "비혼 동거를 긍정하는 응답 역시 전 연령대에서 높게 나타났다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "청년세대인 10대(76.1%), 20대(78.6%), 30대(74.2%)는 물론, 중장년인 40대(66.5%), 50대(50.4%), 60대 이상(37.6%)에서도 비혼 동거가 또 하나의 가족 형태로 자리잡을 가능성을 보여줬다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/society/society_general/994963.html#cb",
+            "search_query": "비혼 공동체 증가",
+            "terminate": false,
+            "text": "실제로 2020년 여성가족부 조사에 따르면, 10명 중 7명에 해당하는 69.7%가 혼인이나 혈연 관계로 맺어지지 않아도 생계와 주거를 함께하면 가족이라고 답했어. 이 조사에서 비혼 동거에 긍정하는 사람이 모든 연령대에서 많은 것으로 나타났거든. 젊은 층인 10대는 76.1%, 20대는 78.6%, 30대는 74.2%의 비율로 비혼 동거에 동의한 데다 중장년층인 40대와 50대, 60대에서도 각각 66.5%, 50.4%, 37.6%의 찬성 비율을 보이며 비혼 동거가 새로운 가족 형태 중 하나로 자리잡을 수 있는 여지를 보여줬다고 할 수 있어.",
+            "turn_id": "BK22006215-8",
+            "utterance_id": "BK22006215.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너의 이야기를 들어 보니 새삼스럽게 세상엔 참 여러 삶의 방식이 있다는 것을 알게 돼.",
+            "turn_id": "BK22006215-9",
+            "utterance_id": "BK22006215.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "결혼을 꼭 할 필요 없다는 것이 요즘 세대의 인식이고, 결혼은 한 번 하면 되돌리기 쉽지 않으니 너도 잘 생각해서 결정해 봐.",
+            "turn_id": "BK22006215-9",
+            "utterance_id": "BK22006215.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아직 나에게는 시간이 꽤 있으니까 신중하게 결정해야겠어.",
+            "turn_id": "BK22006215-10",
+            "utterance_id": "BK22006215.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 우리 같이 비혼을 하게 된다면 우리도 비혼 동거 가족이 되어 재미있게 살자.",
+            "turn_id": "BK22006215-10",
+            "utterance_id": "BK22006215.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋은 생각인 것 같아. 그럼 나는 이만 가 볼게, 이따가 보자.",
+            "turn_id": "BK22006215-11",
+            "utterance_id": "BK22006215.21"
+        }
+    ]
+}

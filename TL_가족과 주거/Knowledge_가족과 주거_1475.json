@@ -1,0 +1,342 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011469",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011469",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0029"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 요즘 임신을 준비하고 있어서 임신 관련 정보에 관심이 많은데요, 임산부가 필수적으로 맞아야 하는 예방 접종이 있다고 하는데 혹시 알고 있어요?",
+            "turn_id": "BK22011469-1",
+            "utterance_id": "BK22011469.1"
+        },
+        {
+            "reference_date": "2020-10-12",
+            "reference_text": [
+                {
+                    "value": "대한모체태아의학회가 임신부에게 적극 권장되는 예방접종으로 백일해를 막아주는 ‘Tdap’ 백신과 독감(인플루엔자) 백신을 꼽았다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.kmib.co.kr/article/view.asp?arcid=0924159743&code=14130000",
+            "search_query": "임산부 필수 예방접종",
+            "terminate": false,
+            "text": "대한 모체태아의학회에서는 임산부에게 백일해를 예방하는 Tdap 백신과 독감 백신을 적극적으로 권장하고 있어요. 이걸 말하는 것 같군요.",
+            "turn_id": "BK22011469-1",
+            "utterance_id": "BK22011469.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "독감이야 알고 있지만, Tdap백신이라는 건 처음 들어보는데, 어떤 예방 접종인가요?",
+            "turn_id": "BK22011469-2",
+            "utterance_id": "BK22011469.3"
+        },
+        {
+            "reference_date": "2020-10-12",
+            "reference_text": [
+                {
+                    "value": "Tdap 백신은 백일해와 디프테리아, 파상풍까지 3가지 질환을 예방한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.kmib.co.kr/article/view.asp?arcid=0924159743&code=14130000",
+            "search_query": "Tdap 예방접종",
+            "terminate": false,
+            "text": "Tdap은 백일해, 디프테리아, 파상풍의 3가지 질환을 예방해주는 백신이에요.",
+            "turn_id": "BK22011469-2",
+            "utterance_id": "BK22011469.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 그런데 그중에 백일해라는 건 어떤 질병이에요? 백일해에 대해서는 전혀 모르고 있거든요.",
+            "turn_id": "BK22011469-3",
+            "utterance_id": "BK22011469.5"
+        },
+        {
+            "reference_date": "2020-10-08",
+            "reference_text": [
+                {
+                    "value": "흔히 ‘백일의 기침’이라 불리는 백일해는 전 연령에서 발병하지만 특히 12세 이하 연령군에서 발병이 높으며, 영유아의 경우 10대 사망원인에 꼽힐 정도로 치명적인 질환이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mdon.co.kr/news/article.html?no=29882",
+            "search_query": "백일해",
+            "terminate": false,
+            "text": "백일해는 백일의 기침이라고도 불리는데, 특히 12세 이하 연령군에서 많이 발병해요. 영유아의 10대 사망원인에 속할 정도로 아이들에게는 매우 위험한 질환이죠.",
+            "turn_id": "BK22011469-3",
+            "utterance_id": "BK22011469.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 그런 질환이라니 너무 무섭네요. 그런데 아이가 태어나고 맞아도 되는데 왜 굳이 임신 중에 엄마가 맞아야 하는 거예요? 그렇게 위험한 질병이라면 아이가 직접 주사를 맞는 게 더 효과적일 것 같은데요.",
+            "turn_id": "BK22011469-4",
+            "utterance_id": "BK22011469.7"
+        },
+        {
+            "reference_date": "2020-10-12",
+            "reference_text": [
+                {
+                    "value": "신생아는 태어나서 3개월까지가 백일해에 가장 위험한 시기이지만 출생 후 2, 4, 6개월에 DTaP 백신을 접종하기 때문에 시간적으로 위험시기 면역 형성이 충분치 않다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 임신 중 Tdap 백신을 맞음으로써 항체를 아기에게 전달해 백일해를 예방하자는 것이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.kmib.co.kr/article/view.asp?arcid=0924159743&code=14130000",
+            "search_query": "임신중 백일해 접종 이유",
+            "terminate": false,
+            "text": "그건 백일해에 가장 위험한 때가 태어나서 3개월까지의 신생아 시기이기 때문이죠. Tdap 백신은 출생하고 2, 4, 6개월에 접종하기 때문에 가장 위험한 시기에 면역 형성을 충분히 할 수 없으니까요. 그래서 미리 임신 중에 엄마가 Tdap백신을 맞아서 항체를 아기에게 전달하려고 하는 거예요.",
+            "turn_id": "BK22011469-4",
+            "utterance_id": "BK22011469.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 이유가 있었군요. 그럼 만약에 엄마가 둘째를 임신하면 이 Tdap 접종을 또 해야 하는 거예요?",
+            "turn_id": "BK22011469-5",
+            "utterance_id": "BK22011469.9"
+        },
+        {
+            "reference_date": "2020-10-08",
+            "reference_text": [
+                {
+                    "value": "임신 중 Tdap을 접종한 경우라도 다음 번 임신 기간 동안에는 신생아를 보호할 정도로 충분히 높은 항체를 제공하지 못하므로, 매 임신시마다 Tdap 접종을 권고한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mdon.co.kr/news/article.html?no=29882",
+            "search_query": "둘째 임신시 DTaP 접종",
+            "terminate": false,
+            "text": "맞아요. 이번에 임신하고 Tdap를 접종했더라도 다음 임신 시에는 신생아를 보호할 만큼의 항체를 충분히 제공할 수 없으므로 임신할 때마다 Tdap 접종을 해야 해요.",
+            "turn_id": "BK22011469-5",
+            "utterance_id": "BK22011469.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 아기를 위한 접종이니까 번거롭더라도 매번 해야겠네요. 참, 이 Tdap 말고 독감 백신도 꼭 맞아야 하는 거라고 했죠?",
+            "turn_id": "BK22011469-6",
+            "utterance_id": "BK22011469.11"
+        },
+        {
+            "reference_date": "2020-10-08",
+            "reference_text": [
+                {
+                    "value": "Tdap백신과 함께 접종이 적극 권장되는 인플루엔자 백신은 2019년부터 임신부 대상 국가예방접종사업에 포함될 정도로 필수 접종이 권고되지만, 작년 기준 질병관리본부 조사 결과 임신부의 인플루엔자 백신 접종률은 33.3%로 3명 중 1명 꼴에 불과했다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mdon.co.kr/news/article.html?no=29882",
+            "search_query": "임산부 독감 예방접종",
+            "terminate": false,
+            "text": "네. 독감 백신은 Tdap 백신과 마찬가지로 임신부에게 적극적으로 권장하는 백신이라서 2019년부터는 임신부 대상 국가 예방 접종사업에 포함될 정도죠.",
+            "turn_id": "BK22011469-6",
+            "utterance_id": "BK22011469.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "독감 예방 접종도 굉장히 중요하네요. 그런데 독감 예방 접종 같은 경우는 혹시 아기에게 영향을 줄까 봐 안정성이 걱정되는데, 안심하고 맞아도 되는 건가요?",
+            "turn_id": "BK22011469-7",
+            "utterance_id": "BK22011469.13"
+        },
+        {
+            "reference_date": "2020-10-15",
+            "reference_text": [
+                {
+                    "value": "임신부의 인플루엔자 백신 접종은 의학적으로 안전성이 입증됐다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "접종과 출산 관련 합병증의 관련성은 매우 낮다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 임신 중 인플루엔자 백신을 맞게 되면 인플루엔자 백신 접종을 할 수 없는 6개월 미만의 신생아에게서도 감염 예방 효과를 기대할 수 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/national/welfare-medical/2020/10/15/2AYYCEHHIVG4BBXWHD4L5GAUZ4/",
+            "search_query": "임산부 독감 백신 안전성",
+            "terminate": false,
+            "text": "그럼요. 출산 관련 합병증과 백신의 관련성은 아주 낮아요. 의학적으로 임신부가 인플루엔자 백신을 접종하는데 대한 안전성은 이미 입증이 되었거든요. 게다가 임신 중에 이 독감 백신을 맞으면 아직 독감 백신 접종을 할 수 없는 6개월 미만 신생아도 예방 효과를 얻을 수 있고요.",
+            "turn_id": "BK22011469-7",
+            "utterance_id": "BK22011469.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 안심하고 맞아도 되겠네요. 그럼 이 독감 백신은 언제 맞아야 하나요?",
+            "turn_id": "BK22011469-8",
+            "utterance_id": "BK22011469.15"
+        },
+        {
+            "reference_date": "2020-10-15",
+            "reference_text": [
+                {
+                    "value": "인플루엔자는 항체 생성 기간을 고려해 10월에서 11월 사이에 접종하는 것이 가장 좋다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 독감은 늦게는 3~5월까지도 나타나기 때문에 유행 시기가 지났더라도 접종을 해야 한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/national/welfare-medical/2020/10/15/2AYYCEHHIVG4BBXWHD4L5GAUZ4/",
+            "search_query": "임산부 독감 백신 접종 시기",
+            "terminate": false,
+            "text": "항체 생성 기간을 생각하면 10월~11월 사이에 맞는 것이 좋아요. 하지만 독감이 늦으면 3월에서 5월 사이에도 발생할 수 있으니까 유행하는 시기가 지났어도 꼭 접종하는 게 좋아요.",
+            "turn_id": "BK22011469-8",
+            "utterance_id": "BK22011469.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 한겨울이 지나더라도 독감 백신은 맞아야 하는 거군요. 임신하면 내 건강도 그렇지만 특히 태아의 건강이 걱정되니까 예방 주사 하나도 쉽게 결정하기 어려울 것 같아요.",
+            "turn_id": "BK22011469-9",
+            "utterance_id": "BK22011469.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 산모와 태아 모두가 건강해야 하니까 너무 겁내지 말고 안정성이 입증된 예방접종은 필수로 하는 게 좋겠죠.",
+            "turn_id": "BK22011469-9",
+            "utterance_id": "BK22011469.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아직 임신하지도 않았는데 벌써 어려운 것 같아요. 역시 엄마가 된다는 건 쉬운 일이 아닌가 봐요.",
+            "turn_id": "BK22011469-10",
+            "utterance_id": "BK22011469.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그만큼 아이를 향한 모정이 크다는 증거겠죠. 이것저것 신경 쓸 것이 많다는 건 그만큼 아이를 사랑하고 아낀다는 뜻이니까요.",
+            "turn_id": "BK22011469-10",
+            "utterance_id": "BK22011469.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "지금 저 위로하려고 하는 말이죠? 어쨌든 고맙고, 오늘 대화 정말 유익했어요. 그럼 다음에 또 대화 나누도록 해요.",
+            "turn_id": "BK22011469-11",
+            "utterance_id": "BK22011469.21"
+        }
+    ]
+}

@@ -1,0 +1,366 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015224",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015224",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신 20주가 됐는데 갑자기 몸무게가 너무 많이 늘어나서 놀랐어요.",
+            "turn_id": "BK22015224-1",
+            "utterance_id": "BK22015224.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 벌써 20주가 되셨군요. 몸무게가 얼마나 느셨기에 놀라신 거예요?",
+            "turn_id": "BK22015224-1",
+            "utterance_id": "BK22015224.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "10킬로나 쪄서 이래도 되나 싶다니까요. 그런데 임신 20주 이후에 왜 이렇게 살이 찌는 걸까요? 임신부들은 보통 얼마씩 몸무게가 증가하는 건가요?",
+            "turn_id": "BK22015224-2",
+            "utterance_id": "BK22015224.3"
+        },
+        {
+            "reference_date": "2022-01-04",
+            "reference_text": [
+                {
+                    "value": "임신 중 체중 증가는 임신 여성마다 크게 다르지만 대체로 10~12.5kg이며 대부분 임신 20주 이후에 체중이 늘어난다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "늘어난 체중은 대부분 태아가 자라기 때문이다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아기가 태어난 후 모유를 만들기 위해 모체가 지방을 저장하는 경향도 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/01/04/2022010400806.html",
+            "search_query": "임신 20주 몸무게 증가",
+            "terminate": false,
+            "text": "임신부마다 다르긴 하지만 대체로 10kg에서 12.5kg 정도 몸무게가 늘어나요. 임신 20주 이후에 살이 찌는 이유는 물론 아이가 자라서이기도 하고 아기를 낳은 후 모유를 만들기 위해서 모체가 지방을 저장하기 때문이에요.",
+            "turn_id": "BK22015224-2",
+            "utterance_id": "BK22015224.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 살이 찌는 이유가 다 있었군요. 그러면 21주차가 되면 아기와 산모에게는 어떤 변화와 증상이 있나요?",
+            "turn_id": "BK22015224-3",
+            "utterance_id": "BK22015224.5"
+        },
+        {
+            "reference_date": "2015-09-10",
+            "reference_text": [
+                {
+                    "value": "임신 21주차의 태아는 맛에 반응하기 시작하며, 양수로부터 물과 당분을 흡수해요.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 시기에는 갑상샘 기능이 활발해져 땀을 많이 흘리고 조금만 움직여도 숨이 가빠질 수 있어요.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지정맥류가 발생할 확률도 높아져요.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107978",
+            "search_query": "임신 21주 증상",
+            "terminate": false,
+            "text": "임신 21주차가 되면 태아는 맛에 반응해요. 그리고 양수를 통해 물과 당분을 흡수하기 시작해요. 산모의 경우 갑상샘 기능이 원활해져 땀을 많이 흘리기도 하고 약간만 움직여도 숨이 가빠지게 돼요. 또한 하지 정맥류가 생길 확률도 높은 시기에요.",
+            "turn_id": "BK22015224-3",
+            "utterance_id": "BK22015224.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이가 맛을 느끼니 더 맛있는 걸 많이 먹어야겠네요. 그런데 하지 정맥류는 어떤 병이에요? 임신부에게 왜 하지 정맥류가 잘 생기나요?",
+            "turn_id": "BK22015224-4",
+            "utterance_id": "BK22015224.7"
+        },
+        {
+            "reference_date": "2019-04-26",
+            "reference_text": [
+                {
+                    "value": "또 다리혈관이 튀어나오는 하지정맥류 발생위험도 높다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "임신부는 체중증가로 인해 하지압력이 증가하면서 전신이나 발등, 다리에 부종이 잘 발생한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=43663",
+            "search_query": "임신부 하지정맥류",
+            "terminate": false,
+            "text": "하지 정맥류는 다리 혈관이 튀어나오는 질환인데요. 임신부는 몸무게의 증가로 인해 다리 압력이 늘어나면서 전신과 발등, 다리에 부종이 잘 생기게 돼요.",
+            "turn_id": "BK22015224-4",
+            "utterance_id": "BK22015224.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말요? 몸무게가 늘면 하지 정맥류의 위험도 생기는 거군요. 그러면 하지 정맥류가 생기지 않게 어떻게 하면 되나요?",
+            "turn_id": "BK22015224-5",
+            "utterance_id": "BK22015224.9"
+        },
+        {
+            "reference_date": "2022-07-21",
+            "reference_text": [
+                {
+                    "value": "하지정맥류를 예방하려면 수영, 하체 스트레칭, 요가, 필라테스 등의 운동을 하는 게 좋다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "집에서 간단하게 하체 순환을 개선할 수 있는 운동을 꾸준히 하면 자연스럽게 증상을 완화하고 예방할 수 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mediafine.co.kr/news/articleView.html?idxno=13103",
+            "search_query": "임신 하지정맥류 예방",
+            "terminate": false,
+            "text": "음, 하지 정맥류가 생기지 않게 하려면 운동을 하시는 게 좋아요. 수영과 하체 스트레칭, 요가와 필라테스 등이 도움이 되는데요. 그게 어렵다면 집에서 간편하게 하체 순환을 돕는 운동을 꾸준히 해주시면 하지 정맥류 증상을 완화시키고 예방 가능해요.",
+            "turn_id": "BK22015224-5",
+            "utterance_id": "BK22015224.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 집에서 간단하게라도 하체 스트레칭을 해줘야 하겠어요. 임신 21주 이후에는 하지 정맥류가 생긴다고 하셨는데 현재 20주차에는 혹시 생길 수 있는 질환이 있을까요?",
+            "turn_id": "BK22015224-6",
+            "utterance_id": "BK22015224.11"
+        },
+        {
+            "reference_date": "2022-05-22",
+            "reference_text": [
+                {
+                    "value": "특히 임신 중기(20주) 이후의 산모들은 임신중독증을 각별히 조심해야 한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "임신중독증은 혈압 상승과 함께 소변에서 단백이 검출(단백뇨)되는 질환으로 산모는 물론 태아건강까지 위협한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=59432",
+            "search_query": "임신 20주 임신중독증",
+            "terminate": false,
+            "text": "임신 20주 이후가 되면 임신중독증을 조심하셔야 해요. 임신중독증은 혈압이 높아지는 것은 물론이고 소변에서 단백이 나오는 질환이라 산모와 아이 건강을 모두 위협해요.",
+            "turn_id": "BK22015224-6",
+            "utterance_id": "BK22015224.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말요? 듣기만 해도 무서운 병이니 조심해야겠네요. 그런데 제 친구는 임신 20주차에 삼중 사중 표지자 검사라는 걸 받았다는데 그건 어떤 검사인가요?",
+            "turn_id": "BK22015224-7",
+            "utterance_id": "BK22015224.13"
+        },
+        {
+            "reference_date": "2022-04-25",
+            "reference_text": [
+                {
+                    "value": "산전 기형아 선별 검사에는 삼중 표지자 검사와 사중 표지자 검사가 있다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "두 검사는 모두 임신부의 혈액을 채혈해 기형아 출산 위험률을 측정한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000691274",
+            "search_query": "삼중 사중 표지자 검사",
+            "terminate": false,
+            "text": "아, 삼중 표지자 검사와 사중 표지자 검사는 산전 기형아 선별 검사를 말해요. 이 검사들은 임신부의 피를 뽑아 기형아 출산 위험률을 측정하는 검사에요.",
+            "turn_id": "BK22015224-7",
+            "utterance_id": "BK22015224.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 삼중 사중 표지자 검사는 누가 언제 받는 검사에요? 따로 받아야 하는 시기가 있나요?",
+            "turn_id": "BK22015224-8",
+            "utterance_id": "BK22015224.15"
+        },
+        {
+            "reference_date": "2022-04-25",
+            "reference_text": [
+                {
+                    "value": "임신 15~20주인 임신부라면 삼중 사중 표지자 검사를 권장한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "다만, 출산 시점의 나이가 만 35세 이상인 임신부는 다운증후군이나 에드워드 증후군인 아이를 출산할 확률이 높으므로 반드시 검사를 시행해 태아의 건강을 진단해야 한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한, 다운 증후군 아이를 출산한 경험이 있는 임신부라면, 태아가 기형아일 가능성이 있으므로 삼중 사중 표지자 검사를 받아야 한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000691274",
+            "search_query": "삼중 사중 표지자 검사 시기",
+            "terminate": false,
+            "text": "임신 15주에서 20주가 된 임신부라면 삼중 사중 표지자 검사를 받으시는 게 좋아요. 특히 출산 시점에 나이가 만 35세 이상인 산모라면 다운증후군이나 에드워드 증후군인 아이를 낳을 확률이 높으니 삼중 사중 표지자 검사를 받으셔서 아이의 건강을 확인하셔야 해요. 또한 이전에 다운 증후군 아이를 낳은 경험이 있는 산모라면 태아가 기형아일 가능성이 있을 수 있으니 삼중 사중 표지자 검사를 하셔야 해요.",
+            "turn_id": "BK22015224-8",
+            "utterance_id": "BK22015224.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 저도 해당되는 시기니 꼭 받아야겠네요. 그러면 삼중 사중 표지자 검사를 받을 때 혹시 주의사항이 있나요?",
+            "turn_id": "BK22015224-9",
+            "utterance_id": "BK22015224.17"
+        },
+        {
+            "reference_date": "2022-04-25",
+            "reference_text": [
+                {
+                    "value": "단, 흡연, 당뇨, 다둥이 임신은 표지자 측정에 영향을 줄 수 있는 요인이므로 검사 전 의료진에게 알려야 한다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "검사 전후로 특별한 주의사항은 없다.",
+                    "value_time": "2022-10-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000691274",
+            "search_query": "삼중 사중 표지자 검사 주의사항",
+            "terminate": false,
+            "text": "만약 흡연이나 당뇨, 다둥이를 임신한 경우라면 표지자 측정에 영향이 있을 수 있으니 검사를 받기 전에 의료진에게 알리시는 게 좋아요. 그 외의 분들은 검사 전후로 주의 사항은 없어요.",
+            "turn_id": "BK22015224-9",
+            "utterance_id": "BK22015224.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 20주에는 좀 더 신경 쓸게 많아진 느낌이네요. 모르던 정보를 알려주셔서 너무 고마워요. 다음에도 유용한 정보 또 부탁해요.",
+            "turn_id": "BK22015224-10",
+            "utterance_id": "BK22015224.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요. 검사 잘 받으시고 하지 정맥류 조심하시고 건강 잘 챙기세요. 그럼 나중에 또 봐요.",
+            "turn_id": "BK22015224-10",
+            "utterance_id": "BK22015224.20"
+        }
+    ]
+}

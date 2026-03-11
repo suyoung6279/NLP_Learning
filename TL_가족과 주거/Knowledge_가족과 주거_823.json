@@ -1,0 +1,421 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002652",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002652",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0028"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 강아지 사진 보실래요? 얼마 전에 입양했는데 정말 귀엽죠?",
+            "turn_id": "BK22002652-1",
+            "utterance_id": "BK22002652.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "프로필 사진으로 올린 거 보고 인형인 줄 알았어요. 정말 귀엽네요. 그런데 견종이 뭐예요?",
+            "turn_id": "BK22002652-1",
+            "utterance_id": "BK22002652.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "말티푸예요. 저는 이번에 말티푸라는 견종이 있는지 처음 알았어요.",
+            "turn_id": "BK22002652-2",
+            "utterance_id": "BK22002652.3"
+        },
+        {
+            "reference_date": "2021-03-16",
+            "reference_text": [
+                {
+                    "value": "폼피츠는 포메라니안과 스피츠, 말티푸는 몰티즈(말티즈)와 푸들, 몰키는 몰티즈와 요키(요크셔테리어)가 각각 섞인 견종이다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20210310_0001365003&cID=13001&pID=13000",
+            "search_query": "말티푸",
+            "terminate": false,
+            "text": "아, 말티푸군요. 몰티즈와 푸들이 섞인 견종이잖아요. 말티푸 외에도 포메라니안과 스피츠가 섞인 폼피츠, 몰티즈와 요크셔테리어가 섞인 몰키 같은 견종들도 있죠.",
+            "turn_id": "BK22002652-2",
+            "utterance_id": "BK22002652.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "말티푸 말고도 뭔가 신기한 견종이 많네요. 저는 강아지에 대한 관심이 전혀 없어서 그냥 믹스견이라고만 생각했는데 따로 부르는 이름이 또 있다면서요?",
+            "turn_id": "BK22002652-3",
+            "utterance_id": "BK22002652.5"
+        },
+        {
+            "reference_date": "2020-02-21",
+            "reference_text": [
+                {
+                    "value": "이러한 믹스견은 각 강아지의 장점을 결합하려는 의도로 태어나 일명 '하이브리드견'이라고도 불리는데 엄마, 아빠 강아지의 혈통이 확실해야 한다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 순종을 얻기 위해 근친끼리 교배시키는 순종견은 유전병 위험이 있지만 하이브리드 강아지는 유전병 문제가 없다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "확실한 혈통끼리의 교배와 고질적인 유전병 걱정도 없는 믹스견의 매력은 두 종의 외형적 매력 포인트까지 더해져 두 배가 된다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/269353",
+            "search_query": "하이브리드견",
+            "terminate": false,
+            "text": "맞아요, 하이브리드견이라고 불리고 있죠. 각 견종의 장점을 결합하려는 의도에 의해 태어난 강아지들인데 부견과 모견의 혈통이 확실해야 해요. 근친 간의 교배로 유전병의 위험을 안고 있는 순종견과 달리 유전병을 걱정할 필요가 없어요. 외형적 매력은 물론이고 혈통이 확실한 부모견 사이에서 태어났다는 점, 순종견들의 고질적인 문제인 유전병에 대한 염려가 없다는 점에서 하이브리드견은 굉장히 매력적인 강아지예요.",
+            "turn_id": "BK22002652-3",
+            "utterance_id": "BK22002652.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "입양해 주시는 분이 건강 걱정은 하지 말라고 했다더니 근거가 있는 이야기였군요.",
+            "turn_id": "BK22002652-4",
+            "utterance_id": "BK22002652.7"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지는 어디에서 입양하신 거예요?",
+            "turn_id": "BK22002652-4",
+            "utterance_id": "BK22002652.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동생이 키우고 싶다고 여기저기 알아보더니 전문 브리더를 찾아가서 데리고 왔더라고요. 그런데 브리더가 정확히 뭐예요?",
+            "turn_id": "BK22002652-5",
+            "utterance_id": "BK22002652.9"
+        },
+        {
+            "reference_date": "2022-01-13",
+            "reference_text": [
+                {
+                    "value": "‘브리더Breeder’는 하나 또는 소수 견종을 전문적으로 키우고 양육하는 사람을 말한다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우리나라에서는 아직 전문 브리더에 대한 자격 요건이 없다 보니 브리더와 브리딩 산업을 바라보는 시선이 곱지 않다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "나의 생활 환경과 패턴이 해당 견종을 키우는 데 적합한지, 앞으로의 성장 과정에서 발생 가능한 여러 문제를 해결할 능력과 의지가 있는지 등에 관해 상의할 수 있다(사실 이런 질문은 어떤 경로든 견종이 특정하든 아니든 간에 입양을 희망하는 사람 모두가 스스로에게 묻고 또 물어야 할 질문이기는 하다).",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/01/40357/",
+            "search_query": "전문 브리더",
+            "terminate": false,
+            "text": "한 가지 혹은 소수의 견종을 전문적으로 양육하는 사람을 브리더라고 해요. 조금 더 자세히 설명하자면 아직 우리나라에는 전문 브리더를 검증할 수 있는 자격 요건이 없기 때문에 브리더에 대해 곱지 않은 시선을 가지고 있는 사람들도 많아요. 그렇지만 전문 브리더는 해당 견종에 대한 지식과 이해도가 높기 때문에 자신이 키우기 적합한 견종인지, 앞으로 발생할 수 있는 여러 문제에 대해 해결할 능력이 있는지 입양 전에 충분히 상의할 수 있다는 장점이 있죠.",
+            "turn_id": "BK22002652-5",
+            "utterance_id": "BK22002652.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 적극적으로 입양한 건 동생인데 요즘 일이 바쁘다고 제가 주로 돌보게 되었는데 정말 아무것도 몰라서 걱정이에요.",
+            "turn_id": "BK22002652-6",
+            "utterance_id": "BK22002652.11"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금 강아지가 생후 몇 개월 정도 됐어요?",
+            "turn_id": "BK22002652-6",
+            "utterance_id": "BK22002652.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘로 딱 4개월 되었어요. 제일 궁금한 게 사료는 얼마나 주면 되는 거예요?",
+            "turn_id": "BK22002652-7",
+            "utterance_id": "BK22002652.13"
+        },
+        {
+            "reference_date": "2017-02-08",
+            "reference_text": [
+                {
+                    "value": "생후 3∼4개월 된 강아지에겐 물이나 우유에 사료를 1시간 정도 불려 먹인다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "성견의 경우 하루 2번 사료를 주지만 성장기의 경우 3∼4번 나눠서 급여한다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사료는 보통 몸무게의 3∼5%정도가 적당하며 변 상태에 따라 급여를 조절 한다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.donga.com/3/all/20170207/82761222/3",
+            "search_query": "4개월 강아지 사료",
+            "terminate": false,
+            "text": "몸무게의 3에서 5퍼센트를 주면 적당하고 변 상태에 따라 조절하면 돼요. 생후 4개월 정도까지는 사료를 물이나 우유에 1시간 정도 불려서 3번이나 4번으로 나눠서 먹이면 돼요. 성견이 되면 하루에 2번 사료를 주면 되고요.",
+            "turn_id": "BK22002652-7",
+            "utterance_id": "BK22002652.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "몸무게가 늘어나면 거기에 맞춰서 사료도 조금씩 늘려 줘야겠군요. 그런데 어떤 대변이 건강한 상태인 거예요?",
+            "turn_id": "BK22002652-8",
+            "utterance_id": "BK22002652.15"
+        },
+        {
+            "reference_date": "2022-05-12",
+            "reference_text": [
+                {
+                    "value": "반려견들마다 크기가 다르고 성향에 따라 실내, 혹은 실외 배변이 이루어지기 때문에 정확한 양, 횟수 정도를 단정 지을 수는 없지만 일반적으로 하루에 1~3회, 밝은~어두운 갈색, 휴지로 잡았을 때 형태가 유지되는 모양의 대변이면 건강한 변이라고 볼 수 있다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2022051117510743438",
+            "search_query": "반려견 건강한 대변",
+            "terminate": false,
+            "text": "물론 반려견들의 크기와 성향, 실내 혹은 실외 배변 여부에 따라 다르긴 하지만 일반적으로 하루에 1번에서 3번 배변하고 색깔은 밝거나 어두운 갈색을 띠며 휴지로 잡았을 때 형태가 유지되는 모양이라면 건강한 변이에요.",
+            "turn_id": "BK22002652-8",
+            "utterance_id": "BK22002652.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다행히 저희 강아지는 문제없는 것 같네요. 지금은 분양받을 때 받아 온 사료를 먹이고 있는데 곧 다 떨어져서 새로운 사료로 바꾸려고 하거든요. 사료를 바꿀 때 신경 써야 할 게 있을까요?",
+            "turn_id": "BK22002652-9",
+            "utterance_id": "BK22002652.17"
+        },
+        {
+            "reference_date": "2022-06-10",
+            "reference_text": [
+                {
+                    "value": "강아지 시기에는 ‘전연령용’ 사료보다는 강아지 전용 사료를 급여하는 것이 좋습니다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전연령용 혹은 성견 전용 사료는 강아지 전용 사료에 비해 열량이 낮아 강아지가 에너지를 충분히 만들어 낼 수 없습니다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202206101350513654",
+            "search_query": "강아지 전용 사료",
+            "terminate": false,
+            "text": "우선 아직 강아지 시기이니 강아지 전용 사료를 먹이는 게 좋아요. 강아지 전용 사료는 전 연령용이나 성견 전용 사료에 비해 열량이 높아서 강아지가 필요한 에너지를 충분히 만들어 낼 수 있거든요.",
+            "turn_id": "BK22002652-9",
+            "utterance_id": "BK22002652.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지 전용 사료 꼭 기억할게요. 또 이 시기에 제가 기억해야 할 내용 있으면 알려 주세요.",
+            "turn_id": "BK22002652-10",
+            "utterance_id": "BK22002652.19"
+        },
+        {
+            "reference_date": "2021-07-07",
+            "reference_text": [
+                {
+                    "value": "강아지가 태어나서 4개월에서 6개월이 되면 이갈이 시기가 되어 유치가 빠지기 시작한다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이때 놀라지 말고 빠진 유치는 강아지가 먹지 못하도록 바로 치워준다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한, 잇몸이 많이 가려운 시기이므로 개껌 등으로 간지러움을 해결할 수 있도록 도와 주어야 한다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=52292",
+            "search_query": "강아지 유치",
+            "terminate": false,
+            "text": "강아지는 생후 4개월에서 6개월이 이갈이 시기예요. 만약 유치가 빠지면 강아지가 먹지 못하도록 바로 치워주시고 잇몸이 아주 가려운 시기이니 간지러움을 줄이는 데 도움이 되는 개껌을 주는 것도 좋아요.",
+            "turn_id": "BK22002652-10",
+            "utterance_id": "BK22002652.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "벌써 유치가 빠지는 시기이군요. 그럼 사료 주문하면서 잊지 말고 개껌도 같이 사야겠네요.",
+            "turn_id": "BK22002652-11",
+            "utterance_id": "BK22002652.21"
+        },
+        {
+            "reference_date": "2021-07-07",
+            "reference_text": [
+                {
+                    "value": "강아지의 영구치는 사람과 마찬가지로 죽을 때 까지 쓰는 치아임을 잊지 말아야 한다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 주기적으로 스케일링을 해 주고 강아지 전용 칫솔과 치약으로 닦아 주어야 한다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이렇게 관리하면 강아지의 입 냄새와 함께 충치를 예방할 수 있다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=52292",
+            "search_query": "강아지 칫솔질",
+            "terminate": false,
+            "text": "강아지도 사람처럼 영구치를 평생 사용해야 해요. 따라서 치아 건강 유지를 위해 주기적인 스케일링과 칫솔질이 꼭 필요하죠. 물론 강아지 전용 칫솔과 치약을 사용해야 하고요. 충치와 함께 강아지의 입 냄새도 예방할 수 있으니 꼭 기억해 두세요.",
+            "turn_id": "BK22002652-11",
+            "utterance_id": "BK22002652.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "칫솔질까지 해 줘야 하는 줄은 정말 몰랐어요. 아기 키우는 것과 똑같다는 말이 이제야 실감이 나네요.",
+            "turn_id": "BK22002652-12",
+            "utterance_id": "BK22002652.23"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내가 준 사랑과 정성 이상으로 반려견은 우리에게 한없는 애정을 주잖아요. 또 궁금한 것 있으면 언제든 연락하세요.",
+            "turn_id": "BK22002652-12",
+            "utterance_id": "BK22002652.24"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 감사해요. 다음에 산책 한 번 같이 나가요.",
+            "turn_id": "BK22002652-13",
+            "utterance_id": "BK22002652.25"
+        }
+    ]
+}

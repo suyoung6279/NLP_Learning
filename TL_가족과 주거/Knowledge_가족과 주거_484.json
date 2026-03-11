@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015511",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015511",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이사할 집이 새집이어서 새집증후군이 걱정이야. 근데, 새집증후군을 일으키는 원인은 뭐야?",
+            "turn_id": "BK22015511-1",
+            "utterance_id": "BK22015511.1"
+        },
+        {
+            "reference_date": "2021-11-03",
+            "reference_text": [
+                {
+                    "value": "새집증후군을 일으키는 대표적인 원인물질은 포름알데히드다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "주로 단열재나 합판,섬유,가구 등에서 유출된다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이외에도 벤젠,톨루엔,아세톤,클로로폼 등도 새집증후군을 일으키는 위험한 물질이다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kado.net/news/articleView.html?idxno=1097556",
+            "search_query": "새집증후군 원인물질",
+            "terminate": false,
+            "text": "새집증후군을 일으키는 대표적인 원인은 주로 단열재나 합판, 섬유, 가구에서 나오는 포름알데히드야. 포름알데히드 외에도 벤젠, 톨루엔, 클로로폼도 위험한 물질로 새집증후군을 일으켜.",
+            "turn_id": "BK22015511-1",
+            "utterance_id": "BK22015511.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 몸에 좋지 않은 성분들이구나. 그러면, 새집증후군을 줄여야 할 것 같은데 인테리어할 때 뭘 고려하면 좋을까?",
+            "turn_id": "BK22015511-2",
+            "utterance_id": "BK22015511.3"
+        },
+        {
+            "reference_date": "2020-09-20",
+            "reference_text": [
+                {
+                    "value": "새집 증후군을 피하기 위해서는 친환경 실내 내장재, 자연 소재를 사용한 인테리어 용품을 선택해야 한다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.thedailypost.kr/news/articleView.html?idxno=76221",
+            "search_query": "새집증후군 피하는 인테리어",
+            "terminate": false,
+            "text": "인테리어 용품을 선택할 때 친환경 실내 내장재, 자연 소재로 된 것을 선택하는 것이 새집증후군을 줄이는 데 도움이 돼.",
+            "turn_id": "BK22015511-2",
+            "utterance_id": "BK22015511.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인테리어할 때 친환경 소재로 해야겠구나. 근데, 집 안을 소주로 닦으면 나쁜 물질을 줄일 수 있다는데 맞는 이야기야?",
+            "turn_id": "BK22015511-3",
+            "utterance_id": "BK22015511.5"
+        },
+        {
+            "reference_date": "2022-08-31",
+            "reference_text": [
+                {
+                    "value": "그중 한 가지 퍼진 예로 소주를 수건이나 걸레에 묻혀서 마감재 등을 닦으면 새집의 유해물질과 냄새를 없앨 수 있다는 정보가 있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 마스킹 효과로 마스킹 효과는 어떤 자극이 다른 자극으로 인해 방해 또는 억제되는 효과를 말한다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "소주로 화학물질을 제거할 수는 없고, 순간적인 마스킹 효과인 것이다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailyt.co.kr/newsView/dlt202208310001",
+            "search_query": "세집증후군 소주",
+            "terminate": false,
+            "text": "소주를 수건이나 걸레에 묻혀 마감재를 닦으면 유해 물질과 냄새를 없앨 수 있다는 이야기가 있는데, 소주로 화학물질을 제거할 수는 없어. 소주로 제거된다고 느끼게 되는 것은 소주 냄새로 다른 자극적인 냄새가 줄어들었다고 느끼는 순간적인 마스킹 효과일 뿐이야.",
+            "turn_id": "BK22015511-3",
+            "utterance_id": "BK22015511.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소주는 새집증후군의 원인물질을 없애는 데 도움이 되지 못하는구나. 그러면, 보일러를 틀어 놓는 것은 유해 물질을 없애는 데 도움이 돼?",
+            "turn_id": "BK22015511-4",
+            "utterance_id": "BK22015511.7"
+        },
+        {
+            "reference_date": "2022-04-01",
+            "reference_text": [
+                {
+                    "value": "다음으로 ‘베이킹 아웃(baking out)’을 실시하는 것도 좋은 방법이다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "새집증후군의 예방을 위해 이사하기 전 충분한 시간 동안 고온의 난방과 환기로 벽지, 바닥재, 가구 등에 배어 있는 휘발성유기화합물을 방출시키는 것을 ‘베이킹 아웃’이라고 한다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ksilbo.co.kr/news/articleView.html?idxno=931091",
+            "search_query": "베이킹 아웃",
+            "terminate": false,
+            "text": "그럼, 이사하기 전에 고온으로 난방하고 환기해서 벽지, 바닥재, 가구에 있는 휘발성 유기화합물을 날아가도록 하는 것을 베이킹 아웃이라고 하는데, 이 방법은 새집증후군을 줄이는 데 도움이 돼.",
+            "turn_id": "BK22015511-4",
+            "utterance_id": "BK22015511.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "베이킹 아웃은 이사하기 전에 꼭 해야겠구나. 또, 새집증후군 예방을 위해 식물을 키우는 건 어때?",
+            "turn_id": "BK22015511-5",
+            "utterance_id": "BK22015511.9"
+        },
+        {
+            "reference_date": "2021-09-02",
+            "reference_text": [
+                {
+                    "value": "공기정화 효과가 있는 식물을 키우는 것도 좋은 방법이다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "관엽식물(잎사귀를 보기 위해 기르는 식물)이나 다육식물(잎이나 줄기에 수분이 많은 식물)은 공기오염물질 및 냄새 제거·전자파 차단·심신 안정 등의 효과가 있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대표적인 식물로는 산세베리아, 벤자민, 행운목, 스파티필룸 등이 있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/09/01/2021090101913.html",
+            "search_query": "새집증후군 식물",
+            "terminate": false,
+            "text": "공기 정화 효과가 있는 식물을 집에 들이는 것도 괜찮은 방법이야. 관엽식물이나 다육식물은 공기 중에 오염물질과 냄새를 제거하고, 전자파를 차단하며 마음을 안정되게 하는 효과가 있거든. 집에 두면 좋을 식물로는 산세베리아, 벤자민, 스파티필룸이 있어.",
+            "turn_id": "BK22015511-5",
+            "utterance_id": "BK22015511.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집에 식물을 들이는 것도 생각해 봐야겠구나. 혹시 집에 공기청정기를 돌리는 건 어떨까?",
+            "turn_id": "BK22015511-6",
+            "utterance_id": "BK22015511.11"
+        },
+        {
+            "reference_date": "2020-09-22",
+            "reference_text": [
+                {
+                    "value": "가정집에서는 공기청정기를 사용하는 것도 좋다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "휘발성 유기 화합물 정화 기능이 있는 공기청정기를 활용해야 한다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.khan.co.kr/bizlife/sk_index.html?art_id=202009220700013&sec_id=561801&pt=nv",
+            "search_query": "새집증후군 공기청정기",
+            "terminate": false,
+            "text": "공기청정기를 사용하는 것도 좋아. 이때 사용하는 공기청정기는 휘발성 유기 화합물을 정화하는 기능이 있어야 효과를 볼 수 있어.",
+            "turn_id": "BK22015511-6",
+            "utterance_id": "BK22015511.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집에 있는 공기청정기에 휘발성 유기 화합물 정화 기능이 있는지 확인해 봐야겠네. 그리고, 청소와 관리를 잘하는 것이 중요하겠지?",
+            "turn_id": "BK22015511-7",
+            "utterance_id": "BK22015511.13"
+        },
+        {
+            "reference_date": "2020-09-21",
+            "reference_text": [
+                {
+                    "value": "각종 미생물, 곰팡이에 의한 오염도 새집증후군의 원인이 된다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가습기는 매일 청소하고, 오래된 타일, 에어컨 필터 내 바이러스나 곰팡이는 치명적일 수 있어 주기적으로 청소해야 한다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mkhealth.co.kr/news/articleView.html?idxno=50565",
+            "search_query": "새집증후군 미생물, 곰팡이",
+            "terminate": false,
+            "text": "그렇지, 새집증후군에 원인 중 하나가 미생물이나 곰팡이거든. 가습기를 사용한다면 청소를 매일하고, 에어컨 필터도 주기적으로 청소해서 바이러스나 곰팡이가 번식하는 것을 막아야 해.",
+            "turn_id": "BK22015511-7",
+            "utterance_id": "BK22015511.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가습기나 에어컨의 필터도 잘 청소해야겠구나. 근데, 이렇게 하면 새집증후군을 막을 수 있을까?",
+            "turn_id": "BK22015511-8",
+            "utterance_id": "BK22015511.15"
+        },
+        {
+            "reference_date": "2022-08-31",
+            "reference_text": [
+                {
+                    "value": "만약 새집증후군이 심각하다면 전문 업체를 통한 전문적인 케어 또한 새집 증후군을 예방하고 피할 수 있는 방법이 될 수 있다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailyt.co.kr/newsView/dlt202208310001",
+            "search_query": "새집증후군 없애는 방법",
+            "terminate": false,
+            "text": "새집증후군이 심각하면 관리를 업체에 맡길 수도 있어. 전문적으로 케어를 받으면 새집증후군을 피하거나 예방할 수 있을 거야.",
+            "turn_id": "BK22015511-8",
+            "utterance_id": "BK22015511.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "새집의 상태를 확인해 보고 업체에 의뢰하는 것도 고려해 봐야겠다.",
+            "turn_id": "BK22015511-9",
+            "utterance_id": "BK22015511.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 새집의 상태를 보고 어떻게 할지 결정해.",
+            "turn_id": "BK22015511-9",
+            "utterance_id": "BK22015511.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "새집증후군 때문에 고민이 많았는데 상세히 알려줘서 고마워.",
+            "turn_id": "BK22015511-10",
+            "utterance_id": "BK22015511.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "고맙긴, 이사 준비 잘하고, 우리는 다음에 보자, 안녕.",
+            "turn_id": "BK22015511-10",
+            "utterance_id": "BK22015511.20"
+        }
+    ]
+}

@@ -1,0 +1,316 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.5,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.5,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22017437",
+        "name": "2022 한국어 블렌더봇 데이터 BK22017437",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 3.8,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이가 태어나서 첫 예방접종을 해야 해서 병원을 알아보고 있어.",
+            "turn_id": "BK22017437-1",
+            "utterance_id": "BK22017437.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "첫 예방접종이라 많이 떨리겠네.",
+            "turn_id": "BK22017437-1",
+            "utterance_id": "BK22017437.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 그래서 많이 알아봐야 하겠더라고. 예방접종은 꼭 해야 하는 거지?",
+            "turn_id": "BK22017437-2",
+            "utterance_id": "BK22017437.3"
+        },
+        {
+            "reference_date": "42625.0",
+            "reference_text": [
+                {
+                    "value": "아이는 출생 시 엄마로부터 몸을 보호할 수 있는 항체를 받아서 태어나지 만, 생후 6개월이 되면 대부분 소실되어서 질병으로부터 몸을 보호할 수 없는 상태가 된다.",
+                    "value_time": "44829.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=201609090203o&cid=30",
+            "search_query": "예방접종 해야하는 이유",
+            "terminate": false,
+            "text": "그럼, 출생 시에는 엄마로부터 항체를 받아 태어나기 때문에 몸을 보호할 수 있지만, 생후 6개월이 되면 대부분이 없어져서 질병으로부터 몸을 보호할 수 없게 돼.",
+            "turn_id": "BK22017437-2",
+            "utterance_id": "BK22017437.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. BCG는 조리원에서 맞았고, B형 간염 예방주사를 맞히려고 하는데 무료로 맞을 수 있지?",
+            "turn_id": "BK22017437-3",
+            "utterance_id": "BK22017437.5"
+        },
+        {
+            "reference_date": "44677.0",
+            "reference_text": [
+                {
+                    "value": "우리나라는 만 12세 이하 어린이를 대상으로 결핵(BCG)·B형 간염 등 총 17종의 백신을 개인의 비용부담 없이 무료로 예방접종할 수 있도록 국가필수예방접종으로 지정해 지원하고 있습니다.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://jhealthmedia.joins.com/article/article_view.asp?pno=25324",
+            "search_query": "국가필수예방접종 무료",
+            "terminate": false,
+            "text": "응, 우리나라 경우는 만 12세 이하라면 B형 간염을 비롯해 BCG 등 총 17종 백신을 무료로 예방접종 할 수 있게 필수예방접종으로 지정해서 지원하고 있어.",
+            "turn_id": "BK22017437-3",
+            "utterance_id": "BK22017437.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 혹시 예방접종 가기 전에 준비해야 할 사항이 있니?",
+            "turn_id": "BK22017437-4",
+            "utterance_id": "BK22017437.7"
+        },
+        {
+            "reference_date": "41941.0",
+            "reference_text": [
+                {
+                    "value": "접종 전날에는 목욕을 해 자녀를 청결한 상태로 만들어야 하며, 병원에 가기 전 적정 체온을 유지하고 있는지 체크해야 한다.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/201403040855325212?t=y",
+            "search_query": "아기 예방접종 전",
+            "terminate": false,
+            "text": "응, 예방접종 전날에는 목욕시켜 청결한 상태로 만들어야 해. 그리고 병원 가기 전에 적정 체온인지를 체크해 봐야 해.",
+            "turn_id": "BK22017437-4",
+            "utterance_id": "BK22017437.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "예방접종 시간은 언제가 적당하니?",
+            "turn_id": "BK22017437-5",
+            "utterance_id": "BK22017437.9"
+        },
+        {
+            "reference_date": "42520.0",
+            "reference_text": [
+                {
+                    "value": "모든 예방접종은 열과 통증 등 돌발 상상에 대비해야 하기 때문에 오전에 맞는 것을 원칙으로 한다.",
+                    "value_time": "44829.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=201605302978o&cid=30",
+            "search_query": "아기 예방접종 시간",
+            "terminate": false,
+            "text": "예방접종은 열과 통증과 같은 돌발에 대비해야 하므로 오전에 맞는 것이 원칙이야.",
+            "turn_id": "BK22017437-5",
+            "utterance_id": "BK22017437.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼, 예방접종 후에는 어떤 점을 주의해야 하니?",
+            "turn_id": "BK22017437-6",
+            "utterance_id": "BK22017437.11"
+        },
+        {
+            "reference_date": "42584.0",
+            "reference_text": [
+                {
+                    "value": "예방접종 후 주의사항은 ▲접종 당일 과도한 활동과 외출을 삼가고 ▲목욕은 당일엔 피하고, 다음 날 이상이 없을 때 하는 게 좋고 ▲접종부위는 청결하게 보존해야 하고 ▲접종 후 고열·경련 등의 증세를 보이면 바로 의사의 진찰을 받도록 해야 한다.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://view.asiae.co.kr/news/view.htm?idxno=2016080211013896282",
+            "search_query": "아기 예방접종 후",
+            "terminate": false,
+            "text": "예방접종을 하고 나서는 접종 당일에 과도하게 활동하거나 외출을 삼가고, 목욕을 피하는 것이 좋아. 접종 부위는 깨끗하게 보존하고 접종 후 고열이나 경련의 증상들이 나타나면 진료를 보도록 해야 해.",
+            "turn_id": "BK22017437-6",
+            "utterance_id": "BK22017437.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이를 유심히 잘 지켜봐야겠네. 혹시 열이 날 경우 어떻게 해야 해?",
+            "turn_id": "BK22017437-7",
+            "utterance_id": "BK22017437.13"
+        },
+        {
+            "reference_date": "41502.0",
+            "reference_text": [
+                {
+                    "value": "체온이 38℃를 넘고 아이가 힘들어 하면 해열제를 먹이자.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "감기에 걸렸거나 영유아 예방접종을 받은 날 약간 열이 오르면 우선 물약 타입 해열제를 먹이거나, 좌약 타입 해열제를 엉덩이에 넣어 준다.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2013/08/16/2013081601550.html",
+            "search_query": "아기 예방접종 열",
+            "terminate": false,
+            "text": "체온이 38℃가 넘어가서 아이가 힘들어하는 상황이 오면 해열제를 먹이는 것이 좋아. 예방접종 후에 약간 열이 오르게 되면 물약 타입 해열제를 먹이거나 아니면 좌약 타입의 해열제를 엉덩이에 넣어주면 돼.",
+            "turn_id": "BK22017437-7",
+            "utterance_id": "BK22017437.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 해열제를 먹여도 열이 떨어지지 않는다면 어떻게 해야 해?",
+            "turn_id": "BK22017437-8",
+            "utterance_id": "BK22017437.15"
+        },
+        {
+            "reference_date": "41502.0",
+            "reference_text": [
+                {
+                    "value": "생후 3개월 이상 아이에게 해열제를 쓰고 몸을 닦아준 후 2~3시간 지나도록 기운이 없고 체온이 그대로이면 응급실로 데려가야 한다.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2013/08/16/2013081601550.html",
+            "search_query": "아기 예방접종 응급실",
+            "terminate": false,
+            "text": "생후 3개월이 지난 아이가 해열제 복용하고 몸을 닦아준 후 2~3시간이 지나도 열이 떨어지지 않고 기운이 없다면 응급실로 데려가는 것이 좋아.",
+            "turn_id": "BK22017437-8",
+            "utterance_id": "BK22017437.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 응급실까지 가야 하다니 걱정이 되네. 그런데 시기마다 해야 하는 예방접종이 있던데, 잊어버리지 않게 안내받을 수 있는 서비스가 있을까?",
+            "turn_id": "BK22017437-9",
+            "utterance_id": "BK22017437.17"
+        },
+        {
+            "reference_date": "42755.0",
+            "reference_text": [
+                {
+                    "value": "질병관리본부에서 만든 앱으로 아이의 예방접종 기록을 조회하거나 접종 시기 알람 서비스를 받을 수 있다.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=201701129138o",
+            "search_query": "아기 예방접종 알람 서비스",
+            "terminate": false,
+            "text": "질병관리본부에서 만든 앱인데 아이 예방접종 기록을 조회하고 접종하는 시기를 알람으로 알려주는 앱이 있어.",
+            "turn_id": "BK22017437-9",
+            "utterance_id": "BK22017437.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다행이다. 바쁘고 정신없어서 잊으면 어쩌지 걱정이 되었는데, 알람까지 온다니 안심이네. 우선 조만간 있을 예방접종부터 잘 다녀와야겠다.",
+            "turn_id": "BK22017437-10",
+            "utterance_id": "BK22017437.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 첫 예방접종이라 떨리겠다. 주사 잘 맞고 오고 시간 될 때 한번 보자.",
+            "turn_id": "BK22017437-10",
+            "utterance_id": "BK22017437.20"
+        }
+    ]
+}

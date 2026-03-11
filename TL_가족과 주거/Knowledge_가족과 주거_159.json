@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014424",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014424",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저기 저 사람 좀 봐. 뭔가가 쓰인 플래카드를 들고 있어.",
+            "turn_id": "BK22014424-1",
+            "utterance_id": "BK22014424.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러네, 시위를 하고 있나 봐.",
+            "turn_id": "BK22014424-1",
+            "utterance_id": "BK22014424.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 생활동반자법 제정 촉구를 한다고 쓰여 있네. 그런데 생활동반자법이 대체 뭐야?",
+            "turn_id": "BK22014424-2",
+            "utterance_id": "BK22014424.3"
+        },
+        {
+            "reference_date": "44554.0",
+            "reference_text": [
+                {
+                    "value": "생활동반자법은 혼인이나 혈연 관계가 아니라도 함께 살기로 한 다양한 형태의 공동체에 법적 권리와 복지 혜택을 부여하는 법안이다.",
+                    "value_time": "44821.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/national/national-general/article/202112241742001",
+            "search_query": "생활동반자법",
+            "terminate": false,
+            "text": "생활동반자법은 기존에 혼인이나 혈연 관계만을 가족으로 보고 보호한 것과 달리, 그러한 관계가 아니더라도 공동으로 살아가겠다는 의사를 보이는 다양한 공동체에게도 차별 없이 법적 권리와 복지 혜택을 부여하는 법안이야.",
+            "turn_id": "BK22014424-2",
+            "utterance_id": "BK22014424.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 요즘은 새로운 형태의 가족이 늘고 있으니까. 그런데 근래 들어 그런 의견이 나오는 건 무엇 때문이야?",
+            "turn_id": "BK22014424-3",
+            "utterance_id": "BK22014424.5"
+        },
+        {
+            "reference_date": "44525.0",
+            "reference_text": [
+                {
+                    "value": "최근 결혼을 하지 않고 함께 사는 비혼동거 가족 등 전통적 가족 형태와 다른 새로운 유형의 가족이 늘어나면서 '생활동반자법' 도입 필요성에 대한 논의가 활발해지고 있다.",
+                    "value_time": "44821.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "현행 가족 관련 법·제도들이 결혼한 부부와 자녀 등으로 구성된 전통적 가족 개념만 전제로 하고 있는 경우가 대부분이어서 비혼동거 가족 등 새로운 유형의 가족을 보호하는 데 미흡한 점이 있는 만큼 보완 입법이 필요하다는 것이다.",
+                    "value_time": "44821.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.lawtimes.co.kr/Legal-News/Legal-News-View?serial=174305",
+            "search_query": "생활동반자법 도입 필요성",
+            "terminate": false,
+            "text": "일단 최근에 비혼 동거 가족 등 전통적인 가족의 형태와는 다른 새로운 가족들이 증가하고 있는 게 큰 이유가 되겠지. 가족과 관련된 현행법이나 제도들은 대개 결혼으로 맺어진 부부와 자녀로 구성된 전통적인 가족 개념만 인정하고 있어서, 새로운 유형의 가족들을 보호하기에는 너무 부족한 점이 많다는 거지. 그런 상황에서 현 상황에 대한 보완책으로 입법이 필요하다는 의견이 나오고 있는 거야.",
+            "turn_id": "BK22014424-3",
+            "utterance_id": "BK22014424.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 현재 그런 상황이었구나. 그런데 한국 법률에서 가족의 기준은 정확히 어떻게 되어 있지?",
+            "turn_id": "BK22014424-4",
+            "utterance_id": "BK22014424.7"
+        },
+        {
+            "reference_date": "44812.0",
+            "reference_text": [
+                {
+                    "value": "혼인·혈연·입양으로 이루어진 사회의 기본단위'.",
+                    "value_time": "44821.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가족 정책을 수립하고 집행하는 기초가 되는 법인 '건강가정기본법'에서 말하는 가족의 의미는 이렇다.",
+                    "value_time": "44821.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "시민들의 사적 삶 전반을 규정하는 민법 제779조에서의 정의는 심지어 더 좁다.",
+                    "value_time": "44821.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002863051&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+            "search_query": "한국 가족의 법률적 기준",
+            "terminate": false,
+            "text": "일단 가족 정책을 수립하고 집행하는 근간이 되는 법인 건강가정기본법에서는 가족을 혼인이나 혈연, 혹은 입양으로 이루어진 사회의 기본단위로 설정하고 있어. 민법 제779조는 시민들의 사적인 삶에 대한 전반적인 규정을 마련하는 민법인데, 거기에 나와 있는 가족의 정의는 심지어 더 협소해.",
+            "turn_id": "BK22014424-4",
+            "utterance_id": "BK22014424.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게, 법률은 다양한 가족 형태를 전제하지 않는구나. 그럼 비혼 동거 같은 다양한 가족 형태에 대한 일반 사람들의 인식은 좀 어때?",
+            "turn_id": "BK22014424-5",
+            "utterance_id": "BK22014424.9"
+        },
+        {
+            "reference_date": "44525.0",
+            "reference_text": [
+                {
+                    "value": "통계청이 지난해 11월 발표한 '2020년 사회조사 결과'에 따르면 '결혼을 하지 않더라도 함께 살 수 있다'고 대답한 비율이 59.7%로 나왔다.",
+                    "value_time": "44821.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2018년 56.4%에 비해 상승한 수치다.",
+                    "value_time": "44821.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.lawtimes.co.kr/Legal-News/Legal-News-View?serial=174305",
+            "search_query": "비혼 동거에 대한 인식 변화",
+            "terminate": false,
+            "text": "전반적으로는 사람들의 인식이 크게 변화하고 있어. 통계청이 2020년 11월에 2020년 사회조사 결과를 발표했는데, 거기에 따르면 결혼을 하지 않더라도 함께 살 수 있다는 문항에 대한 긍정 답안이 59.7%로 나왔어. 이건 2018년 조사에서 56.4%의 긍정 답안이 나왔던 것에 비해 맹백히 상승한 수치야.",
+            "turn_id": "BK22014424-5",
+            "utterance_id": "BK22014424.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 인식이 개선되고 있다니 다행이야. 그런데 현재 비혼 동거를 하는 사람들은 혹시 어떤 불편함을 겪게 되는 거야?",
+            "turn_id": "BK22014424-6",
+            "utterance_id": "BK22014424.11"
+        },
+        {
+            "reference_date": "44525.0",
+            "reference_text": [
+                {
+                    "value": "일례로 수술 동의서에 보호자로 서명을 할 수 없다.",
+                    "value_time": "44821.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 주택공급 정책은 '법률혼'을 중심으로 구성돼 있어 비혼 동거 가족은 혜택을 받기 어렵다.",
+                    "value_time": "44821.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고용보험이나 건강보험의 피부양자로도 등록할 수 없고, 배우자의 연간 소득이 100만원 이하인 경우 적용되는 소득공제도 받지 못한다.",
+                    "value_time": "44821.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.lawtimes.co.kr/Legal-News/Legal-News-View?serial=174305",
+            "search_query": "현행 비혼 동거의 불편함",
+            "terminate": false,
+            "text": "일단 동거인이 수술을 받아야 할 때 보호자로서 동의서에 서명을 할 수가 없어. 정부의 주택공급 정책도 법률혼을 위주로 마련되어 있어서, 비혼 동거 가족은 혜택을 받기 어려워. 또 동거인의 고용보험이나 건강보험의 피부양자로도 등록하는 일도 불가능하고, 배우자의 연간 소득이 100만원 이하일 경우 받게 되는 소득공제 혜택도 당연히 받지 못하지.",
+            "turn_id": "BK22014424-6",
+            "utterance_id": "BK22014424.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "똑같은 가족인데 정말 불공평한 것 같아. 그럼 외국의 경우는 어때? 외국에는 생활동반자법이 제정되어 있니?",
+            "turn_id": "BK22014424-7",
+            "utterance_id": "BK22014424.13"
+        },
+        {
+            "reference_date": "44525.0",
+            "reference_text": [
+                {
+                    "value": "프랑스는 1999년 대안적인 결혼 제도인 팍스(PACS, Pacts Civil De Solidarite) 제도를 만들었다.",
+                    "value_time": "44821.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "독일도 2001년 팍스와 비슷한 생활동반자법을 제정하면서 법적 사각지대에 있던 새로운 가족 공동체들을 제도권 안으로 끌어안았다.",
+                    "value_time": "44821.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.lawtimes.co.kr/Legal-News/Legal-News-View?serial=174305",
+            "search_query": "외국의 생활동반자법",
+            "terminate": false,
+            "text": "응, 일단 프랑스의 경우 1999년 대안적인 결혼 제도로서 팍스 제도를 제정했어. 독일은 2001년에 프랑스의 팍스와 유사한 생활동반자법을 제정해서, 그간 법적인 사각지대에 자리하고 있던 다양한 가족 공동체들을 제도권 안으로 수용해냈지.",
+            "turn_id": "BK22014424-7",
+            "utterance_id": "BK22014424.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 국가들은 오래전부터 그런 법안을 만들어 왔구나. 그런데 한국에서는 이전에 생활동반자법이 발의된 적이 없었던 거야?",
+            "turn_id": "BK22014424-8",
+            "utterance_id": "BK22014424.15"
+        },
+        {
+            "reference_date": "44554.0",
+            "reference_text": [
+                {
+                    "value": "2014년 진선미 당시 새정치민주연합 의원이 생활동반자법 발의를 추진했지만 정치권 안팎의 반대에 부딪혀 무산됐다.",
+                    "value_time": "44821.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/national/national-general/article/202112241742001",
+            "search_query": "진선미 생활동반자법",
+            "terminate": false,
+            "text": "아니야, 2014년에 한 번 시도한 적이 있어. 당시에 새정치민주연합에 소속되어 있던 진선미 의원이 생활동반자법을 발의하기 위한 시도를 했는데, 정치권 안팎의 반발이 거세서 결국 발의가 무산된 일이 있었어.",
+            "turn_id": "BK22014424-8",
+            "utterance_id": "BK22014424.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저런, 그래도 다음에는 기회가 있겠지? 요즘은 생활동반자법을 발의하기 위한 공적인 움직임은 없는 거야?",
+            "turn_id": "BK22014424-9",
+            "utterance_id": "BK22014424.17"
+        },
+        {
+            "reference_date": "44664.0",
+            "reference_text": [
+                {
+                    "value": "국가인권위원회(인권위)가 성소수자의 기본권 보장과 차별 차단 등을 위해 법 개정이 필요하다는 의견을 국회에 냈다.",
+                    "value_time": "44821.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "인권위는 13일 \"국회의장에게 성소수자의 기본권 보장을 위해 주거·의료·재산분할 등 성소수자의 생활공동체 유지에 필요한 보호기능 등이 포함된 법률을 제정할 것과, 실재하는 다양한 가족형태와 가족에 대한 인식의 변화를 수용하고 성소수자에 대한 편견과 차별을 예방하기 위해 국회 계류 중인 '건강가정기본법 일부개정법률안'을 조속히 심의·의결해 개정할 것을 권고했다\"고 밝혔다.",
+                    "value_time": "44821.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20220413_0001831494&cID=10201&pID=10200",
+            "search_query": "인권위 생활동반자법",
+            "terminate": false,
+            "text": "아니야, 2022년 4월 13일, 국가인권위원회가 성소수자의 기본권을 보장하고 차별을 막기 위해 법 개정이 필요하다는 의견을 국회에 제출했거든. 인권위는 국회의장에게 성소수자의 기본권을 보장하고, 성소수자의 생활공동체 유지와 보호를 위한 주거, 의료, 재산분할 법률을 제정할 것을, 그리고 이미 존재하고 있는 다양한 가족 형태에 대한 인식을 반영하여 국회에 계류 중인 건강가정기본법 일부개정법률안을 빠르게 심의하고 의결하여 개정하라는 권고를 냈거든.",
+            "turn_id": "BK22014424-9",
+            "utterance_id": "BK22014424.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 이제 시대가 바뀌고 있으니, 새로운 법도 필요하지.",
+            "turn_id": "BK22014424-10",
+            "utterance_id": "BK22014424.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 나도 그렇게 생각해.",
+            "turn_id": "BK22014424-10",
+            "utterance_id": "BK22014424.20"
+        }
+    ]
+}

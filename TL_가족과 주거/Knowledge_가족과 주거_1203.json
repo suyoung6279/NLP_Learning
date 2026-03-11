@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007956",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007956",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0001"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "곧 새 아파트에 입주하는데 주변에서 새집증후군 때문에 난리네요. 새집증후군이 정확히 어떤 건가요?",
+            "turn_id": "BK22007956-1",
+            "utterance_id": "BK22007956.1"
+        },
+        {
+            "reference_date": "2014-04-01",
+            "reference_text": [
+                {
+                    "value": "원래 뜻은 ‘새 건물의 건축자재나 벽지에 포함돼 있는 화학물질이 실내로 발산되어 두통, 알레르기, 코막힘 따위를 유발하는 현상’이나 최근 아무런 이유 없이 새 집을 좋아하는 증상을 말함.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://weekly.khan.co.kr/khnm.html?mode=view&code=113&artid=201403242037281&pt=nv",
+            "search_query": "새집증후군뜻",
+            "terminate": false,
+            "text": "새집증후군은 새집의 벽지, 건축자재에 포함되어 있는 화학물질이 실내로 발산되어서 알레르기나 코막힘, 두통 따위를 일으키는 현상을 말하는 거야.",
+            "turn_id": "BK22007956-1",
+            "utterance_id": "BK22007956.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "새집증후군 때문에 건강을 해칠 수도 있겠네요. 그럼 새집증후군의 원인 중 가장 해로운 물질은 뭔가요?",
+            "turn_id": "BK22007956-2",
+            "utterance_id": "BK22007956.3"
+        },
+        {
+            "reference_date": "2019-05-22",
+            "reference_text": [
+                {
+                    "value": "위의 새집증후군의 원인이 되는 가장 대표적인 화학물질을 뽑자면 포름알데하이드가 있다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "포름알데하이드는 실내 건축 및 마감 재료로 사용되는 목질 판상제품(합판, 파티클보드, 섬유판 등)을 제조하기위해 사용되는 접착제의 성분으로써 새집증후군의 가장 큰 원인 물질이다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.m-i.kr/news/articleView.html?idxno=605520",
+            "search_query": "새집증후군 원인",
+            "terminate": false,
+            "text": "포름알데하이드가 새집증후군의 가장 큰 원인물질이지. 목질 판상제품은 실내 건축 및 마감 재료로 사용되는데 이 포름알데하이드가 목질 판상제품을 만들 때 쓰이는 접착제의 성분이거든.",
+            "turn_id": "BK22007956-2",
+            "utterance_id": "BK22007956.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "포름알데하이드가 사용되는 마감재료가 문제네요. 새집증후군의 증상은 어떤 게 있나요?",
+            "turn_id": "BK22007956-3",
+            "utterance_id": "BK22007956.5"
+        },
+        {
+            "reference_date": "2019-09-19",
+            "reference_text": [
+                {
+                    "value": "호흡기 질환과 피부 질환이 가장 두드러지게 나타난다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "새집증후군으로 의심할 수 있는 증상에는 두통, 기침, 피로감, 현기증, 집중력 저하 등이 있다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kbsm.net/news//view.php?idx=255504",
+            "search_query": "새집증후군 증상",
+            "terminate": false,
+            "text": "피부 질환이나 호흡기 질환이 제일 많이 나타나는 증상이지. 기침, 피로감, 두통, 현기증, 집중력 저하를 보이는 사람들도 있어.",
+            "turn_id": "BK22007956-3",
+            "utterance_id": "BK22007956.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 새집증후군 때문에 두드러기나 발진이 날 수도 있나요?",
+            "turn_id": "BK22007956-4",
+            "utterance_id": "BK22007956.7"
+        },
+        {
+            "reference_date": "2019-12-31",
+            "reference_text": [
+                {
+                    "value": "새집증후군제거를 제대로 하지 않고 입주할시에는 면역력이 약한 아이들이나 노인분들의 경우는 새집증후군증상인 두드러기증상이나 두통증상이 일어날 수 있으며 속매스꺼움이나 아토피가 발생하는 경우가 많아 꼭 새집에 들어갈때는 새집증후군제거를 정확히 하고 입주하는 것 이 좋다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.discoverynews.kr/news/articleView.html?idxno=152325",
+            "search_query": "새집증후군 두드러기",
+            "terminate": false,
+            "text": "그렇지, 면역력이 약한 노인이나 아이들의 경우에는 두통이나 두드러기 증상을 보이기도 해. 속이 메스껍거나 아토피가 발생하는 경우도 꽤 되니까 새집증후군 제거를 꼭 하고 입주하는 게 좋지.",
+            "turn_id": "BK22007956-4",
+            "utterance_id": "BK22007956.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "들으면 들을수록 새집증후군이 위험한 거네요. 혹시 새집증후군 때문에 발생한 피해에 대해 보상을 받을 수도 있나요?",
+            "turn_id": "BK22007956-5",
+            "utterance_id": "BK22007956.9"
+        },
+        {
+            "reference_date": "2012-02-02",
+            "reference_text": [
+                {
+                    "value": "2004년 경기도 용인시의 한 아파트에 입주한 신청인은 새 아파트의 유해물질이 아기에게 아토피 질환이나 천식 등을 유발할 수 있다는 얘기를 듣고 입주 2주 전부터 실내를 최고 온도로 올리고, 환기를 반복적으로 시킨 후 입주했다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 입주 후 4~5일 지나 생후 7개월인 아기의 등에 두드러기가 나기 시작해 등 전체로 퍼지자 공기청정기를 설치하고 하루 3~4회씩 환기를 시켰다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그런데도 아토피성 피부질환이 계속 심해지자 친환경 자재를 사용하지 않은 시공사를 상대로 피해배상을 요구했다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "위원회는 실내공간 오염물질 측정결과와 유해성 평가자료 및 피해자 피부병 발병 상황 등을 종합하고 면역기능이 상대적으로 약한 생후 7개월 아기에게 피부병 등 피해를 입힐 개연성을 인정해 피신청인으로 하여금 치료비, 실내 공기질 개선비용 등 총 300여만을 배상토록 하는 결정을 내렸다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=201202011516564060699",
+            "search_query": "새집증후군 피해보상",
+            "terminate": false,
+            "text": "2004년에 용인시의 새 아파트에 입주한 사람이 친환경 자재를 사용하지 않은 시공사를 상대로 피해 보상을 요구해서 치료비, 실내 공기질 개선비용 등 총 300여만 원을 배상받은 일이 있었어. 이 사람은 새 아파트에 입주하기 2주 전부터 아기에게 천식이나 아토피가 생길까 우려해 실내 온도를 최고로 올리는 등 준비를 했었어. 근데 입주하고 4~5일 정도 후에 생후 7개월인 아기의 등에 두드러기가 생기기 시작해서 하루 3~4회씩 환기도 하고 공기청정기도 설치했는데도 아기의 아토피성 피부질환이 심해지니까 피해 보상을 요구하게 된 거야.",
+            "turn_id": "BK22007956-5",
+            "utterance_id": "BK22007956.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그나마 피해 보상을 받았다니 다행이네요. 근데 새집에 들어가기 전에 실내 온도를 최고로 높이는 게 도움이 되나요?",
+            "turn_id": "BK22007956-6",
+            "utterance_id": "BK22007956.11"
+        },
+        {
+            "reference_date": "2020-05-26",
+            "reference_text": [
+                {
+                    "value": "새아파트새집증후군 제거 방법으로는 실내 온도를 높여 유해물질 방출량을 늘린 다음 환기를 시켜 밖으로 배출시키는 ‘베이크아웃’이 있다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ccdailynews.com/news/articleView.html?idxno=1068703",
+            "search_query": "새집증후군 제거방법",
+            "terminate": false,
+            "text": "그럼, 실내 온도를 높여서 유해 물질 방출량을 늘린 후에 환기를 시키는 베이크아웃은 새집증후군 제거 방법 중 하나야.",
+            "turn_id": "BK22007956-6",
+            "utterance_id": "BK22007956.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 하는 방법을 베이크아웃이라고 하는군요. 새집에 입주하기 전에 환기는 어떤 식으로 해야 할까요?",
+            "turn_id": "BK22007956-7",
+            "utterance_id": "BK22007956.13"
+        },
+        {
+            "reference_date": "2022-08-27",
+            "reference_text": [
+                {
+                    "value": "입주 전 2~3일간 3~40도의 온도로 5~6시간 동안 열을 높인 상태에서 창문은 활짝 열어 수시로 환기해야 한다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/08/26/2022082601870.html",
+            "search_query": "새집증후군 환기 방법",
+            "terminate": false,
+            "text": "입주 전 2~3일간 창문을 활짝 열어서 수시로 환기하는 게 좋아. 이때 3~40도의 온도로 5~6시간 동안 열을 높인 상태에서 창문을 여는 게 좋아.",
+            "turn_id": "BK22007956-7",
+            "utterance_id": "BK22007956.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "열을 높인 상태에서 수시로 환기하기, 기억해야겠네요. 혹시 그 밖에 또 새집증후군에 도움 되는 게 있을까요?",
+            "turn_id": "BK22007956-8",
+            "utterance_id": "BK22007956.15"
+        },
+        {
+            "reference_date": "2022-08-31",
+            "reference_text": [
+                {
+                    "value": "이밖에도 새집 공기 정화에 탁월한 숯을 곳곳에 놓거나 포름알데히드 제거가 있는 백고니아, 산소공급을 해주는 선인장, 음이온을 방출하는 로즈마리, 일산화탄소를 제거하는 아펠란드라 등의 식물을 놓는 것도 도움이 된다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailyt.co.kr/newsView/dlt202208310001",
+            "search_query": "새집증후군 공기정화 식물",
+            "terminate": false,
+            "text": "새집증후군의 원인인 포름알데히드 제거에 효과가 있는 백고니아와 같은 식물을 놓는 것도 공기정화에 도움이 될 거야. 백고니아 외에도 일산화탄소를 제거하는 아펠란드라나 산소공급을 해주는 선인장도 좋아.",
+            "turn_id": "BK22007956-8",
+            "utterance_id": "BK22007956.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저 식물 키우는 거 좋아하는데 집에 선인장과 백고니아를 들여야겠네요.",
+            "turn_id": "BK22007956-9",
+            "utterance_id": "BK22007956.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "공기 정화에 도움이 되니 잘 키우도록 해.",
+            "turn_id": "BK22007956-9",
+            "utterance_id": "BK22007956.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 저는 이만 이사 준비하러 가볼게요. 오늘 새집증후군에 대해 많이 알려주셔서 감사해요.",
+            "turn_id": "BK22007956-10",
+            "utterance_id": "BK22007956.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "또 궁금한 게 있으면 물어봐. 이사 준비 잘하고 다음에 또 대화 나누자, 안녕.",
+            "turn_id": "BK22007956-10",
+            "utterance_id": "BK22007956.20"
+        }
+    ]
+}

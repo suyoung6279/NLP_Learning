@@ -1,0 +1,366 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014838",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014838",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너 혹시 강아지 눈 밑에 눈물 자국이 왜 생기는지 알아? 최근에 우리 강아지한테 눈물 자국이 생겨서 볼 때마다 신경이 쓰이는데.",
+            "turn_id": "BK22014838-1",
+            "utterance_id": "BK22014838.1"
+        },
+        {
+            "reference_date": "2021-03-22",
+            "reference_text": [
+                {
+                    "value": "강아지의 눈물자국을 유발하는 '유루증'(눈물흘림증)은 많은 애견인들의 골칫거리다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "유루증은 눈물이 나오는 길이 좁아졌거나 막히면서 눈에 고여 있는 눈물이 눈꺼풀 밖으로 넘쳐흐르는 상태를 말한다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4248212",
+            "search_query": "강아지 눈물 자국",
+            "terminate": false,
+            "text": "강아지 눈물 자국은 눈물흘림증이라고도 불리는 유루증으로 인해 생겨. 유루증이 뭐냐면, 눈물이 배출되는 통로가 좁아지거나 막혀서 눈에 고여있는 눈물이 눈꺼풀 밖으로 흘러넘치는 질환이야.",
+            "turn_id": "BK22014838-1",
+            "utterance_id": "BK22014838.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "눈물 때문에 자국이 생기는 거라고? 눈물은 투명한데 왜 우리 강아지 눈물 자국은 갈색이지? 이유가 뭘까?",
+            "turn_id": "BK22014838-2",
+            "utterance_id": "BK22014838.3"
+        },
+        {
+            "reference_date": "2022-02-12",
+            "reference_text": [
+                {
+                    "value": "반려견의 눈가에 나타나는 갈색자국은 눈물에 있는 포르피린이라는 성분 때문이다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "포르피린은 햇빛, 공기 등과 만나면 갈색으로 변한다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "강아지가 흘린 눈물로 털이 젖어있으면 착색되면서 눈물자국이 생긴다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=58051",
+            "search_query": "강아지 갈색 눈물 자국 이유",
+            "terminate": false,
+            "text": "눈물 속 포르피린이라는 성분이 강아지 눈가에 갈색 자국을 남기는 거야. 이 성분은 햇빛이나 공기와 만나면 갈색으로 바뀌는 성질이 있거든. 그러니 강아지 눈가의 털이 눈물로 인해 젖어있으면 변색이 돼버리는 거지.",
+            "turn_id": "BK22014838-2",
+            "utterance_id": "BK22014838.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 색이 변한다니 좀 신기하다. 근데 눈물 자국에서 약간 시큼한 냄새도 나던데 이건 왜 그런 걸까?",
+            "turn_id": "BK22014838-3",
+            "utterance_id": "BK22014838.5"
+        },
+        {
+            "reference_date": "2022-02-07",
+            "reference_text": [
+                {
+                    "value": "또 눈 주변 털이 오랫동안 축축하게 젖어 있으면 세균이나 효모균이 증식해 눈물자국에서 시큼한 냄새가 날 수 있다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=57950",
+            "search_query": "강아지 눈물 자국 냄새",
+            "terminate": false,
+            "text": "시큼한 냄새가 난다면 그건 세균이나 효모균 때문이야. 눈물로 인해 눈가의 털이 오랫동안 축축한 상태로 있으면 세균이나 효모균이 번식할 수 있거든.",
+            "turn_id": "BK22014838-3",
+            "utterance_id": "BK22014838.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세균이 원인이면 이거 가볍게 볼 게 아닌 것 같네. 난 미관상 보기 안 좋아서 신경이 쓰였던 건데. 근데 대체 유루증은 왜 생기는 거야?",
+            "turn_id": "BK22014838-4",
+            "utterance_id": "BK22014838.7"
+        },
+        {
+            "reference_date": "2020-12-11",
+            "reference_text": [
+                {
+                    "value": "유루증이 발생하는 원인은 크게 두 가지로 눈물 배출에 이상이 생긴 것과 눈물 생성이 많아진 것으로 나누어 볼 수 있다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "먼저 눈물 배출에 이상이 생긴 것은 비루관이나 누점에 문제가 생긴 경우다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "눈물은 누점으로 들어가 비루관을 통해 코로 흘러내려 간다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이때 누점이 비정상적으로 작거나, 눈꺼풀이 말려 누점을 막거나, 비루관이 막혔다면 눈물이 눈 밖으로 흐른다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=51415",
+            "search_query": "강아지 유루증 원인",
+            "terminate": false,
+            "text": "유루증의 원인은 크게 두 가지로 나눌 수 있어. 그중 하나는 눈물을 배출하는 데에 문제가 생긴 경우야. 비루관이나 누점에 문제가 생기면 눈물을 배출하는 데에도 문제가 생기거든. 눈물은 원래 누점으로 들어가서 비루관을 거쳐 코로 흘러내리는 게 정상인데 누점이 과도하게 작거나 눈꺼풀이 말려서 누점을 막아버리거나 또는 비루관이 막히게 되면 눈물이 눈 밖으로 흘러내리는 증상이 나타나게 돼. 다른 원인은 눈물이 많이 만들어지는 상황 때문이고.",
+            "turn_id": "BK22014838-4",
+            "utterance_id": "BK22014838.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러니까 눈물의 통로를 담당하는 기관에 문제가 발생하면 유루증이 생긴다는 거구나. 그럼 눈물이 과다하게 생성되는 건 뭣 때문이야?",
+            "turn_id": "BK22014838-5",
+            "utterance_id": "BK22014838.9"
+        },
+        {
+            "reference_date": "2020-12-11",
+            "reference_text": [
+                {
+                    "value": "눈물이 과다하게 생성되는 원인으로는 ▲음식 알레르기 ▲속눈썹이 눈을 찌름 ▲결막염, 안검염 같은 안과질환 등이다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 주변 환경이나 스트레스로 눈물이 지나치게 많이 만들어져도 유루증이 나타날 수 있다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=51415",
+            "search_query": "강아지 유루증 원인 눈물 과다",
+            "terminate": false,
+            "text": "음식 알레르기가 나타나거나 속눈썹이 눈을 찌르거나 결막염, 안검염과 같은 안과질환이 있으면 눈물이 과도하게 많이 만들어져. 주변 환경이나 스트레스가 있어도 마찬가지고.",
+            "turn_id": "BK22014838-5",
+            "utterance_id": "BK22014838.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 음식 알레르기 때문에도 눈물이 많아질 수 있다고? 음식이라면 어떤 걸 말하는 거야?",
+            "turn_id": "BK22014838-6",
+            "utterance_id": "BK22014838.11"
+        },
+        {
+            "reference_date": "2019-09-08",
+            "reference_text": [
+                {
+                    "value": "강아지의 눈물 질환은 음식에 의한 알레르기 반응으로 나타나는 경우 역시 허다한데, 이때 유발되는 눈물은 음식으로 완화가 가능하다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "평소 반려견이 먹고 있던 사료나 간식의 성분을 살펴 체질에 맞지 않는 음식을 찾아내고, 착색료나 방부제가 포함되지 않은 저알러지 사료, 알러지를 유발하지 않는 간식으로 대체한다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sisacast.kr/news/articleView.html?idxno=30449",
+            "search_query": "강아지 유루증 음식 알레르기",
+            "terminate": false,
+            "text": "강아지가 먹는 사료나 간식 등이지. 그러니 이 음식들의 성분을 확인해 봐서 강아지의 체질에 맞지 않는 걸 걸러내고 착색료나 방부제가 들어있지 않은 저 알레르기 사료나 알레르기를 유발하지 않는 간식으로 바꿔주면 눈물 질환이 나아질 수 있어.",
+            "turn_id": "BK22014838-6",
+            "utterance_id": "BK22014838.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 사료 바꾼 지 얼마 안 됐는데 그럼 이것 때문일 가능성도 있겠네. 성분표 찍어뒀다 병원에 가서 한번 물어봐야겠다. 그리고 간 김에 아예 치료도 할까 하는데 강아지 유루증은 치료를 어떻게 해?",
+            "turn_id": "BK22014838-7",
+            "utterance_id": "BK22014838.13"
+        },
+        {
+            "reference_date": "2022-02-07",
+            "reference_text": [
+                {
+                    "value": "원인을 알아냈다면 시술, 식이조절, 털정리 등 원인에 맞는 적절한 치료와 눈물자국 관리가 필요하다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "단 유루증의 원인이 비루관이 막힌 것이라면 시술로 뚫는다고 하더라도 다시 막힐 가능성이 커 시술보다는 눈물자국을 관리를 해주는 것을 추천한다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=57950",
+            "search_query": "강아지 유루증 치료",
+            "terminate": false,
+            "text": "유루증은 원인을 먼저 찾아낸 다음 그에 맞춰 시술이나 식이조절, 털 정리 등으로 치료를 해. 다만 비루관 막힘으로 인해 유루증이 생겼다면 이 경우에는 시술이 그다지 좋은 방법이 아니야. 시술을 통해 비루관을 뚫어줘도 추후에 다시 막힐 확률이 높거든. 그래서 이 경우에는 눈물자국을 관리해 주는 방법이 더 나아.",
+            "turn_id": "BK22014838-7",
+            "utterance_id": "BK22014838.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그러고 보니 눈물 자국을 어떻게 관리해 줘야 하는지 궁금했었는데 방법 좀 알려줄래?",
+            "turn_id": "BK22014838-8",
+            "utterance_id": "BK22014838.15"
+        },
+        {
+            "reference_date": "2022-02-07",
+            "reference_text": [
+                {
+                    "value": "눈물자국은 부드러운 화장솜에 식염수나 인공눈물을 적신 후 눈물이 흐른 부분을 화장솜으로 살살 닦아주면 간단하게 관리할 수 있다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이때 화장솜이 눈에 닿지 않도록 주의해야 한다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만약 시중에 판매되고 있는 눈물자국 제거용 제품을 사용하고 싶다면 반드시 사용 전에 눈과 피부에 자극적인 화학성분이 들어있지 않은지 수의사와 상담한 후 제품을 선택하길 바란다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=57950",
+            "search_query": "강아지 눈물 자국 관리",
+            "terminate": false,
+            "text": "간단한데, 식염수나 인공눈물을 부드러운 화장솜에 적셔서 눈물이 흐른 부위를 살살 닦아주기만 하면 돼. 이때 주의해야 할 건 화장솜이 눈에 닿지 않게 해야 한다는 거지. 만일 이외에 시중에 나와 있는 눈물자국 제거용 제품을 활용하고 싶다면 수의사와 상담을 해본 후에 적절한 제품을 구매해서 그걸로 하는 게 좋아. 눈과 피부에 자극을 줄 수 있는 화학성분이 들어있지는 않은지 체크를 해볼 필요가 있거든.",
+            "turn_id": "BK22014838-8",
+            "utterance_id": "BK22014838.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "난 마침 집에 식염수가 있으니 그걸로 해야겠다. 그나저나 너는 강아지 관련된 지식이 정말 풍부하다. 다른 애들한테도 이것저것 알려주는 거 많이 봤는데.",
+            "turn_id": "BK22014838-9",
+            "utterance_id": "BK22014838.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지를 오래 키우면서 궁금한 게 많아서 공부를 많이 했거든. 그래서 그래.",
+            "turn_id": "BK22014838-9",
+            "utterance_id": "BK22014838.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "덕분에 내가 덕을 많이 보네. 오늘 정보 고마웠고 난 알바 시간이 다 돼서 이만 가볼게. 금요일에 보자.",
+            "turn_id": "BK22014838-10",
+            "utterance_id": "BK22014838.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 알바 잘하고 금요일에 보자.",
+            "turn_id": "BK22014838-10",
+            "utterance_id": "BK22014838.20"
+        }
+    ]
+}

@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018923",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018923",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0001"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이한테 적절한 수분공급이 중요하다고 해서 물을 잘 먹이고 싶은데, 물을 얼마나 마셔야 적정량일까?",
+            "turn_id": "BK22018923-1",
+            "utterance_id": "BK22018923.1"
+        },
+        {
+            "reference_date": "43839.0",
+            "reference_text": [
+                {
+                    "value": "일반적으로 고양이 체중 1kg당 50cc 전후의 수분섭취를 추천한다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "건조사료나 캔사료에도 수분이 포함돼 있어서 실제 음수량은 조금 적어도 된다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=46860",
+            "search_query": "고양이 체중 음수량",
+            "terminate": false,
+            "text": "보통 고양이 체중 1kg당 50cc 전후의 음수량을 추천해. 캔 사료나 건조사료에도 수분이 함유돼 있어서 실제 음수량은 조금 적어도 돼.",
+            "turn_id": "BK22018923-1",
+            "utterance_id": "BK22018923.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이는 왜 수분을 많이 섭취하지 않는 거야?",
+            "turn_id": "BK22018923-2",
+            "utterance_id": "BK22018923.3"
+        },
+        {
+            "reference_date": "43839.0",
+            "reference_text": [
+                {
+                    "value": "원래 고양이는 사막의 건조한 기후에서 수분이 많은 설치류를 주 먹이로 삼으며 살았다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그래서 몸에 들어온 수분을 신장에서 재흡수하는 능력이 뛰어나다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=46860",
+            "search_query": "고양이 사막 수분",
+            "terminate": false,
+            "text": "본디 고양이는 수분이 많은 쥐류를 주 먹이로 선정하고, 사막의 건조한 기후에서 생활했어. 그래서 신장에서 몸에 들어온 수분을 재흡수하는 능력이 좋아.",
+            "turn_id": "BK22018923-2",
+            "utterance_id": "BK22018923.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이가 수분을 재흡수하는 능력이 좋은데도, 집에서 키우는 고양이들의 음수량이 문제가 되는 이유는 뭐야?",
+            "turn_id": "BK22018923-3",
+            "utterance_id": "BK22018923.5"
+        },
+        {
+            "reference_date": "43839.0",
+            "reference_text": [
+                {
+                    "value": "하지만 현재의 고양이는 건사료를 주로 먹으면서 물을 적게 먹는 습성은 아직도 남아 있기 때문에 보호자 모르게 만성 탈수가 지속되는 경우가 종종 있다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=46860",
+            "search_query": "고양이 건사료 만성탈수",
+            "terminate": false,
+            "text": "지금의 고양이는 물을 부족하게 먹는 습관은 아직도 남아있는데, 건사료를 주로 먹기 때문이야. 사람 모르게 만성 탈수가 계속되는 경우가 왕왕 있어.",
+            "turn_id": "BK22018923-3",
+            "utterance_id": "BK22018923.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가끔 물 먹는 소리를 크게 내길래 많이 먹는다고 생각했는데. 고양이는 한 번에 물을 많이 마시지 못할까?",
+            "turn_id": "BK22018923-4",
+            "utterance_id": "BK22018923.7"
+        },
+        {
+            "reference_date": "43839.0",
+            "reference_text": [
+                {
+                    "value": "물그릇에 담긴 물을 먹는 모습이 많이 관찰되면 물을 많이 마셨다고 판단하는 때도 있다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 고양이는 혀를 감아올려 물을 떠먹기 때문에 흘리는 양이 절반 이상 되므로 가능한 한 쉽게 많이 먹을 수 있게 해줘야 한다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=46860",
+            "search_query": "고양이 물그릇 흘리는 양",
+            "terminate": false,
+            "text": "물그릇에 있는 물을 마시는 모습이 많이 보이면 물을 많이 먹었다고 생각할 때도 있어. 하지만 고양이는 혀를 감아올려 물을 떠 마시기 때문에, 잃는 양이 반 이상 돼. 그래서 가능한 한 편하게 많이 마실 수 있게 해줘야 해.",
+            "turn_id": "BK22018923-4",
+            "utterance_id": "BK22018923.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 흘리는 게 반이라니. 고양이가 좋아하는 물은 어떤 물이야?",
+            "turn_id": "BK22018923-5",
+            "utterance_id": "BK22018923.9"
+        },
+        {
+            "reference_date": "43839.0",
+            "reference_text": [
+                {
+                    "value": "고양이는 흐르는 깨끗한 물을 먹는 습성이 있어서 고양이 정수기를 설치해 주는 것도 좋은 방법이다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "정수기는 세척이 편리하고, 소음이 적고, 필터 교환이 편리한 것을 선택한다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=46860",
+            "search_query": "고양이 깨끗한물 정수기",
+            "terminate": false,
+            "text": "고양이는 흐르는 맑은 물을 마시는 버릇이 있어서 고양이 정수기를 놓아주는 것도 좋은 방법이야. 정수기는 소음이 적고, 세척이 손쉽고, 필터 교환이 용이한 것을 택하면 돼.",
+            "turn_id": "BK22018923-5",
+            "utterance_id": "BK22018923.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집에 정수기가 없으면, 물을 어떻게 해주는 게 좋을까?",
+            "turn_id": "BK22018923-6",
+            "utterance_id": "BK22018923.11"
+        },
+        {
+            "reference_date": "43839.0",
+            "reference_text": [
+                {
+                    "value": "또 여러 형태의 물그릇을 여러 곳에 놓아두는 것도 좋다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "물그릇을 사료 그릇 옆에 두는 것도, 사료를 조금씩 여러 곳에 두는 것도 음수량을 늘릴 방법이다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "물그릇을 고양이가 자주 지나다니는 곳, 쉬는 곳에 두는 것도 좋다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=46860",
+            "search_query": "고양이 깨끗한 물 습성",
+            "terminate": false,
+            "text": "여러 모양의 물그릇을 여러 군데 놔두는 것도 좋아. 고양이가 쉬는 곳, 자주 지나다니는 곳에 물그릇을 둬. 사료 그릇 옆에 물그릇을 놔두거나, 사료를 조금씩 여러 군데에 놓는 것도 음수량을 늘리는 방법이야.",
+            "turn_id": "BK22018923-6",
+            "utterance_id": "BK22018923.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "물그릇도 여러 개 사봐야겠다. 고양이가 깨끗한 물을 좋아하면 물을 자주 갈아줘야 할까?",
+            "turn_id": "BK22018923-7",
+            "utterance_id": "BK22018923.13"
+        },
+        {
+            "reference_date": "43839.0",
+            "reference_text": [
+                {
+                    "value": "물그릇을 자주 갈아주고, 깨끗하게 세척하는 것도 중요하다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "물그릇에 사료 부스러기 등이 떨어져 있으면 흥미를 잃는 고양이가 많다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=46860",
+            "search_query": "고양이 물그릇",
+            "terminate": false,
+            "text": "맞아, 물그릇에 사료 찌꺼기 등이 떠 있으면, 많은 고양이가 입맛을 잃어. 물그릇을 수시로 바꾸고, 깔끔하게 닦는 것도 중요해.",
+            "turn_id": "BK22018923-7",
+            "utterance_id": "BK22018923.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 물그릇도 자주 갈아 줘야겠다. 그 밖에 물을 섭취할 방법이 있을까?",
+            "turn_id": "BK22018923-8",
+            "utterance_id": "BK22018923.15"
+        },
+        {
+            "reference_date": "43839.0",
+            "reference_text": [
+                {
+                    "value": "사료나 캔사료에 물을 섞어서 주는 것도 유용하다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 방법은 개묘차가 있다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고양이마다 기호성이 다를 수 있다. 동결건조 간식을 좋아하는 고양이라면 건조간식을 물에 불려서 줘보자.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=46860",
+            "search_query": "고양이 건조간식 물",
+            "terminate": false,
+            "text": "캔 사료나 사료에 물을 넣어 주는 것도 유용해. 이 방법은 묘차가 있어서 고양이마다 기호가 다를 수 있어. 동결건조 간식을 즐기는 고양이라면 물에 건조 간식을 불려서 줘봐.",
+            "turn_id": "BK22018923-8",
+            "utterance_id": "BK22018923.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동결건조 간식 좋아하는데 물에 불려서 먹여봐야겠어. 건조된 건 잘 먹는데, 물에 불려주면 먹을지 모르겠네.",
+            "turn_id": "BK22018923-9",
+            "utterance_id": "BK22018923.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여러 가지 시도해보고 잘 먹을 수 있는 방법을 찾아 봐.",
+            "turn_id": "BK22018923-9",
+            "utterance_id": "BK22018923.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 물그릇도 사러 가야 하는데, 주말에 시간 되면 고양이 박람회 같이 가보자.",
+            "turn_id": "BK22018923-10",
+            "utterance_id": "BK22018923.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋아, 오랜만에 구경도 하고 재미있겠다.",
+            "turn_id": "BK22018923-10",
+            "utterance_id": "BK22018923.20"
+        }
+    ]
+}

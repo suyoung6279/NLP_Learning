@@ -1,0 +1,397 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016947",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016947",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0010"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유튜브에서 고슴도치를 우연히 봤는데 너무 귀엽더라고요. 반려동물로 키워보려고 하는데 고슴도치에 관해서 알려주실 수 있을까요?",
+            "turn_id": "BK22016947-1",
+            "utterance_id": "BK22016947.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 고슴도치를 반려동물로 키우는 분들이 많으시죠. 어떤 점이 궁금하세요?",
+            "turn_id": "BK22016947-1",
+            "utterance_id": "BK22016947.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "막상 키우려고 하니 고슴도치에 관해 아는 게 없더라고요. 모든 고슴도치를 애완으로 키울 수 있는 건가요?",
+            "turn_id": "BK22016947-2",
+            "utterance_id": "BK22016947.3"
+        },
+        {
+            "reference_date": "44019.0",
+            "reference_text": [
+                {
+                    "value": "고슴도치의 종류는 17종이지만 애완동물로 적합한 종은 딱 한 종, 아프리카 피그미 고슴도치이다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 종일 유일한 애완 고슴도치로 꼽히고 있는 이유는 집에서 키우기에 적합한 작은 크기이고 가지고 있는 기질 자체가 애완동물로서 가장 적합하기 때문이다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://college.koreadaily.com/%EC%9D%B4%EC%83%89-%EB%B0%98%EB%A0%A4%EB%8F%99%EB%AC%BC-%EA%B3%A0%EC%8A%B4%EB%8F%84%EC%B9%98-%EC%9E%85%EC%96%91-%EC%A0%84-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-%ED%95%84%EC%88%98%EC%A0%95%EB%B3%B4/",
+            "search_query": "애완 고슴도치 종류",
+            "terminate": false,
+            "text": "고슴도치는 17가지 종으로 나뉘지만, 애완동물로 키울 수 있는 건 아프리카 피그미 고슴도치뿐이에요. 아프리카 피그미 고슴도치를 유일하게 애완으로 키울 수 있는 이유는 집에서 키우기에 알맞은 크기와 기질을 가지고 있기 때문이에요.",
+            "turn_id": "BK22016947-2",
+            "utterance_id": "BK22016947.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "딱 한 종만 애완으로 키우기 적합하다면 선택권이 없네요. 고슴도치의 장점은 어떤 게 있나요?",
+            "turn_id": "BK22016947-3",
+            "utterance_id": "BK22016947.5"
+        },
+        {
+            "reference_date": "44314.0",
+            "reference_text": [
+                {
+                    "value": "고슴도치는 무척 조용한 동물이다.",
+                    "value_time": "44839.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "잠자는 시간이 길고 별 다른 소리를 내지 않는다.",
+                    "value_time": "44839.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "동물사육에서 소음으로 인한 이웃간의 충돌은 염려하지 않아도 되며, 까탈스러운 동물도 아니다.",
+                    "value_time": "44839.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "털도 날리지도 않고 분변도 많지 않다고 한다.",
+                    "value_time": "44839.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.seniormaeil.com/news/articleView.html?idxno=28778",
+            "search_query": "고슴도치 장점",
+            "terminate": false,
+            "text": "고슴도치는 잠자는 시간 말고는 별다른 소리를 내지 않기 때문에 무척 조용한 동물이에요. 그래서 집에서 키우면서 소음으로 인한 이웃 간의 갈등은 걱정하지 않아도 돼요. 게다가 성격이 까탈스럽거나, 털이 날리지도 않아요. 분변의 양도 많지 않고요.",
+            "turn_id": "BK22016947-3",
+            "utterance_id": "BK22016947.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "장점이 아주 많네요. 제가 동물 털 알레르기가 있어서 고슴도치를 키우려는 거거든요. 고슴도치가 잘 걸리는 질병이 있나요?",
+            "turn_id": "BK22016947-4",
+            "utterance_id": "BK22016947.7"
+        },
+        {
+            "reference_date": "44197.0",
+            "reference_text": [
+                {
+                    "value": "고슴도치가 취약한 질병에는 폐렴, 기생충, 소화불량, 설사 등이 있다.",
+                    "value_time": "44839.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "비틀거리는 증상을 보이기도 하는데 이를 ‘비틀거리는 고슴도치 증후군’이라 부른다.",
+                    "value_time": "44839.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그밖에 심장병과 암 발병 우려도 있다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 가시가 빠지는 경우라면 건강상 문제가 있는 것으로 여겨야 한다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.famtimes.co.kr/news/articleView.html?idxno=502160",
+            "search_query": "고슴도치 건강",
+            "terminate": false,
+            "text": "고슴도치가 걸리기 쉬운 질병에는 소화불량, 설사, 폐렴, 기생충 등이 있어요. 비틀거리는 증상을 보이기도 하는데 이것을 일컬어 비틀거리는 고슴도치 증후군이라고 명명해요. 이 외에도 심장병과 암 발병 확률이 있고요. 만약 가시가 빠진다면 건강상 문제가 있는 것이므로 눈여겨보셔야 해요.",
+            "turn_id": "BK22016947-4",
+            "utterance_id": "BK22016947.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "취약한 질병이 많네요. 가시가 빠지면 안 좋은 징조군요. 고슴도치의 수명은 얼마나 되나요?",
+            "turn_id": "BK22016947-5",
+            "utterance_id": "BK22016947.9"
+        },
+        {
+            "reference_date": "42818.0",
+            "reference_text": [
+                {
+                    "value": "이날 동물병원의사는 \"고슴도치의 수명은 길어야 5년, 잘못 키우면 짧게 1년밖에 안 된다\"고 설명했다.",
+                    "value_time": "44839.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/star/broadcasting-service/view/2017/03/199255/",
+            "search_query": "고슴도치 수명",
+            "terminate": false,
+            "text": "고슴도치의 수명은 길게 보면 5년이고, 잘 케어를 해주지 않으면 짧게 1년밖에 못 살기도 해요.",
+            "turn_id": "BK22016947-5",
+            "utterance_id": "BK22016947.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "5년이라니 너무 짧은 것 같아요. 고슴도치 수명이 그것밖에 안 되는지 몰랐어요. 고슴도치도 주인을 알아보겠죠?",
+            "turn_id": "BK22016947-6",
+            "utterance_id": "BK22016947.11"
+        },
+        {
+            "reference_date": "44421.0",
+            "reference_text": [
+                {
+                    "value": "고슴도치는 시각보다 후각으로 먼저 인지하는 동물이다.",
+                    "value_time": "44839.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이는 주인을 눈보다 냄새로 먼저 알아본다는 의미다.",
+                    "value_time": "44839.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그렇기 때문에 냄새를 익히기 전까지는 가시를 세우거나 이빨로 깨물 수 있다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.imaeil.com/page/view/2019092421260244540",
+            "search_query": "고슴도치 주인",
+            "terminate": false,
+            "text": "고슴도치는 시각보다 후각에 의존하는 동물이기 때문에 주인을 눈보다 냄새로 먼저 알아봐요. 그래서 주인의 냄새가 익숙해지기 전까지는 가시를 세우거나 이빨로 깨물 수 있으니 주의하세요.",
+            "turn_id": "BK22016947-6",
+            "utterance_id": "BK22016947.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고슴도치는 시각보다 후각이 더 발달한 동물이군요. 고슴도치에게 먹이로 어떤 것을 주면 좋을까요?",
+            "turn_id": "BK22016947-7",
+            "utterance_id": "BK22016947.13"
+        },
+        {
+            "reference_date": "41565.0",
+            "reference_text": [
+                {
+                    "value": "사료를 급여할 때에는 알갱이를 잘게 부수거나 물에 불려 주는 것이 좋습니다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한, 사료의 영양성분 만으로는 등의 가시를 만드는 데 충분하지 않기 때문에 일주일에 서너 번씩 밀웜이나 귀뚜라미 같은 벌레를 주는 것이 좋습니다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 때 작게 자른 야채를 함께 주면 금상첨화겠죠?",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kukinews.com/newsView/kuk201310180080",
+            "search_query": "고슴도치 먹이",
+            "terminate": false,
+            "text": "사료를 줄 때에는 내용물을 잘게 부수거나 물에 불려 주는 것이 좋아요. 그리고 사료만으로는 가시를 만드는 데 영양을 충분히 공급할 수 없기 때문에 일주일에 3에서 4번 밀웜, 귀뚜라미 등의 벌레를 주는 것이 좋아요. 이때 작게 자른 야채를 같이 주면 더 좋고요.",
+            "turn_id": "BK22016947-7",
+            "utterance_id": "BK22016947.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사료 말고 벌레나 야채도 먹는군요. 고슴도치를 키우려면 케이지가 필요하겠죠?",
+            "turn_id": "BK22016947-8",
+            "utterance_id": "BK22016947.15"
+        },
+        {
+            "reference_date": "43444.0",
+            "reference_text": [
+                {
+                    "value": "강아지나 고양이처럼 활동범위가 커 넓은 공간이 필요한 동물과 달리 고슴도치는 협소한 공간에서도 충분히 키울 수 있다.",
+                    "value_time": "44839.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "다만 고슴도치는 활동성이 아예 없는 동물은 아니기 때문에 케이지는 클수록 좋다.",
+                    "value_time": "44839.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "쳇바퀴와 같은 놀이기구를 좋아하니 이 점도 참고하자.",
+                    "value_time": "44839.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/196948",
+            "search_query": "고슴도치 케이지",
+            "terminate": false,
+            "text": "고슴도치는 활동 범위가 커 넓은 공간이 필요한 강아지나 고양이와 달리 좁은 공간에서도 충분히 키울 수 있어요. 그렇지만 고슴도치도 활동성이 아예 없지는 않기 때문에 케이지는 클수록 좋고요. 쳇바퀴와 같은 놀이기구를 좋아하니 함께 넣어주세요.",
+            "turn_id": "BK22016947-8",
+            "utterance_id": "BK22016947.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인터넷에서 케이지와 쳇바퀴를 함께 주문 해야겠어요. 고슴도치는 당연히 직접 가서 구매해야겠지요?",
+            "turn_id": "BK22016947-9",
+            "utterance_id": "BK22016947.17"
+        },
+        {
+            "reference_date": "44495.0",
+            "reference_text": [
+                {
+                    "value": "현행 동물보호법에서 반려동물로 지정된 종은 개·고양이·토끼·페럿·기니피그·햄스터 등 6종이다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이들은 당국에 신고한 동물운송업자를 통해서만 배송하거나, 구매자에게 직접 전달하는 방법으로만 판매할 수 있다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반면 여기에 해당되지 않는 고슴도치 등 특수동물은 택배 배송이 금지되지 않은 데다가 구체적인 규정도 없어 운송 중 폐사 등 문제에 노출되어 있다는 지적이다.",
+                    "value_time": "44839.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailyvet.co.kr/news/policy/155416",
+            "search_query": "동물보호법 고슴도치",
+            "terminate": false,
+            "text": "현재 동물보호법에서 반려동물로 지정된 것은 개, 고양이, 토끼, 페럿, 기니피그, 햄스터 등 6가지예요. 이 동물들은 구매자에게 직접 전달하거나 나라에 신고한 동물운송업자를 통해서만 배송하는 방법으로 판매할 수 있어요. 하지만 동물보호법에 지정되지 않은 고슴도치는 택배 배송이 금지되지 않았고, 이에 대한 구체적인 규정도 없어 운송 중 폐사할 수 있는 문제점이 있어요.",
+            "turn_id": "BK22016947-9",
+            "utterance_id": "BK22016947.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 고슴도치가 반려동물로 지정되지 않았다고요? 6종뿐이라니 놀랍네요. 요즘 반려동물도 다양화되고 있는데 현행법에도 반영되어야 한다고 생각해요.",
+            "turn_id": "BK22016947-10",
+            "utterance_id": "BK22016947.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 동의합니다. 시대에 맞게 법도 변화해야죠. 그럼 고슴도치 건강하게 잘 키우시고, 더 궁금한 점이 있으면 문의해 주세요.",
+            "turn_id": "BK22016947-10",
+            "utterance_id": "BK22016947.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 오늘 말씀 많이 도움이 되었어요. 시간 내 주셔서 감사합니다.",
+            "turn_id": "BK22016947-11",
+            "utterance_id": "BK22016947.21"
+        }
+    ]
+}

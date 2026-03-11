@@ -1,0 +1,358 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003215",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003215",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0027"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신에 관련된 정보들을 보다가 상상 임신이라는 말을 봤는데 상상 임신이 뭔가요?",
+            "turn_id": "BK22003215-1",
+            "utterance_id": "BK22003215.1"
+        },
+        {
+            "reference_date": "2015-12-07",
+            "reference_text": [
+                {
+                    "value": "상상 임신이란 실제로 임신하지 않았는데도 임신했을 때처럼 신체적인 변화가 나타나는 것을 말한다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2015/12/07/2015120702417.html",
+            "search_query": "상상임신",
+            "terminate": false,
+            "text": "상상 임신은 진짜 임신을 한 것이 아닌데 임신을 한 것처럼 신체적인 변화가 나타나는 것을 말해요.",
+            "turn_id": "BK22003215-1",
+            "utterance_id": "BK22003215.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 일이 일어나기도 하는군요. 그럼 아이가 생기지 않았는데도 생리가 멈추고 입덧도 하나요?",
+            "turn_id": "BK22003215-2",
+            "utterance_id": "BK22003215.3"
+        },
+        {
+            "reference_date": "2015-12-07",
+            "reference_text": [
+                {
+                    "value": "실제 월경의 중단과 함께 자궁의 확장, 월경 시간의 휴지, 입덧, 젖의 분비와 같은 임신의 징후가 나타난다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.khan.co.kr/bizlife/sk_index.html?cat=view&art_id=201512071419133&sec_id=560101&pt=nv",
+            "search_query": "상상임신 증상",
+            "terminate": false,
+            "text": "네, 맞아요. 실제로 생리가 멈추고 자궁이 커지기도 해요. 생리 기간의 휴지, 입덧, 모유 분비가 일어나기도 하죠.",
+            "turn_id": "BK22003215-2",
+            "utterance_id": "BK22003215.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 신기해요. 어떻게 임신을 안 했는데 그런 몸의 변화가 생기는 건지, 원인이 있나요?",
+            "turn_id": "BK22003215-3",
+            "utterance_id": "BK22003215.5"
+        },
+        {
+            "reference_date": "2019-06-23",
+            "reference_text": [
+                {
+                    "value": " 심리적인 원인: 유산으로 인해 최근 아기를 잃은 경우, 임신이 되지 않는 난임",
+                    "value_time": "2022-07-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": " 신체적인 원인: 신체의 변화, 비만으로 인한 복부 팽만, 소화불량이나 배에 가스가 차 있는 상태를 아기의 태동으로 오인",
+                    "value_time": "2022-07-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=107717",
+            "search_query": "상상임신 원인",
+            "terminate": false,
+            "text": "크게 심리적 원인과 신체적 원인을 생각해볼 수 있어요. 심리적인 원인은 최근 유산으로 아이를 잃었거나, 임신이 잘 안되는 난임일 경우에요. 신체적인 원인은 몸의 변화, 체중이 늘어나며 생기는 복부 팽만, 소화불량이나 배에 가스가 차 있는 상태를 태동으로 오해하는 경우에요.",
+            "turn_id": "BK22003215-3",
+            "utterance_id": "BK22003215.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "심리적인 원인이 참 안타깝네요. 요즘은 보통 임신테스트기로 확인하잖아요. 상상 임신인 경우에도 양성이 나올까요?",
+            "turn_id": "BK22003215-4",
+            "utterance_id": "BK22003215.7"
+        },
+        {
+            "reference_date": "2015-12-07",
+            "reference_text": [
+                {
+                    "value": "그런데 상상 임신의 경우에도 이와 같은 신체 변화가 나타나 실제 임신과 구분이 어려운 경우가 많다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "심지어 임신테스트기가 양성으로 나오는 경우도 있다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2015/12/07/2015120702417.html",
+            "search_query": "상상임신 임신테스트기",
+            "terminate": false,
+            "text": "나올 수 있어요. 상상 임신이라 하더라도 실제 임신과 같은 증상이 나타나고 임신테스트기가 양성으로 나올 때도 있어 구분하기가 매우 어려워요.",
+            "turn_id": "BK22003215-4",
+            "utterance_id": "BK22003215.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "진짜 임신했다고 믿게 되겠네요. 만약 상상 임신으로 진단받는다면 치료할 수 있나요?",
+            "turn_id": "BK22003215-5",
+            "utterance_id": "BK22003215.9"
+        },
+        {
+            "reference_date": "2015-12-07",
+            "reference_text": [
+                {
+                    "value": "상상 임신을 가장 효과적으로 치료하는 방법은 초음파와 같은 기술을 활용해 환자가 임신하지 않았음을 객관적으로 보여주는 것이다.",
+                    "value_time": "2022-08-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자신의 신체적 변화가 실제 임신이 아님을 알게 되면 상상 임신 증상이 쉽게 사라진다.",
+                    "value_time": "2022-08-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 이밖에 약물치료와 같은 일반적인 치료법은 아직 없다.",
+                    "value_time": "2022-08-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2015/12/07/2015120702417.html",
+            "search_query": "상상임신 치료방법",
+            "terminate": false,
+            "text": "가장 효과적인 치료 방법은 초음파와 같은 기술을 이용해서 임신한 상태가 아니라는 것을 객관적으로 보여주는 거예요. 이런 검사를 이용해 임신하지 않았음을 스스로 느끼면 상상 임신의 증상은 쉽게 사라져요. 하지만 약물치료나 일반적으로 시행할 수 있는 치료법은 아직 없어 안타까운 부분도 있죠.",
+            "turn_id": "BK22003215-5",
+            "utterance_id": "BK22003215.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "눈으로 확인시켜주는 것밖에 방법이 없군요. 정말 안타깝네요. 그럼 반대로 임신했는데 안 했다고 착각하는 경우도 있을까요?",
+            "turn_id": "BK22003215-6",
+            "utterance_id": "BK22003215.11"
+        },
+        {
+            "reference_date": "2021-04-04",
+            "reference_text": [
+                {
+                    "value": "임신거부증은 원치 않는 임신으로 고통을 느끼는 여성이 자신을 보호하기 위해 임신 사실 자체를 부정하고 임신하지 않았다고 여기는 것이다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.seoul.co.kr/news/newsView.php?id=20210404500003",
+            "search_query": "임신거부증",
+            "terminate": false,
+            "text": "임신거부증이라고 해요. 원하지 않는 임신으로 인해 여성은 고통을 느끼게 되고 자신을 보호하기 위해서 임신 사실 자체를 거부하고 임신을 안 했다고 생각하는 거예요.",
+            "turn_id": "BK22003215-6",
+            "utterance_id": "BK22003215.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상상 임신과는 완전히 반대되는 증상이네요. 그럼 임신거부증의 경우 임신을 했는데도 생리를 계속하게 되나요?",
+            "turn_id": "BK22003215-7",
+            "utterance_id": "BK22003215.13"
+        },
+        {
+            "reference_date": "2021-04-04",
+            "reference_text": [
+                {
+                    "value": "막달까지 월경이 지속되는 경우도 일부 있고, 배가 별로 나오지 않고, 입덧이나 태아의 움직임도 없어 임신을 자각하지 못한다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.seoul.co.kr/news/newsView.php?id=20210404500003&wlog_tag3=naver",
+            "search_query": "임신거부증 월경",
+            "terminate": false,
+            "text": "임신 후기까지도 생리를 계속하는 경우가 일부 있어요. 배도 별로 나오지 않고 입덧이나 태동도 없어 임신임을 자각하지 못해요.",
+            "turn_id": "BK22003215-7",
+            "utterance_id": "BK22003215.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이가 불쌍하게 느껴져요. 보통 임신해서 중기를 넘어가면 배가 나오잖아요. 모를 수 없을 것 같은데 배가 안 나올 수 있나요?",
+            "turn_id": "BK22003215-8",
+            "utterance_id": "BK22003215.15"
+        },
+        {
+            "reference_date": "2021-03-22",
+            "reference_text": [
+                {
+                    "value": "태아가 숨어서 자라기도 하기 때문에 태아가 성장하는 자궁이 배 앞쪽에 위치한 게 아니라 위쪽으로 올라가거나 척추에 들러붙는 경우도 있다.",
+                    "value_time": "2022-08-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 자궁의 형태가 둥글게 부풀어 오르는 게 아니라 위아래로 길쭉하게 자라나기도 한다.",
+                    "value_time": "2022-08-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=02548566628985944&mediaCodeNo=257",
+            "search_query": "임신거부증 배",
+            "terminate": false,
+            "text": "네. 보통은 자궁이 배 앞에 위치하지만 이 경우 태아가 뱃속에 숨어 성장하기 때문에 위로 올라가거나 척추에 붙어 자라기도 하거든요. 또 자궁이 둥글게 부풀어 오르는 것이 아니라 위아래로 길게 자라기도 해요.",
+            "turn_id": "BK22003215-8",
+            "utterance_id": "BK22003215.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상상 임신은 아이가 실제로는 없으니까 좀 덜 하지만 임신거부증은 실제 아이가 있는데 거부당하는 거라 더 마음이 안 좋아요. 일종의 정신질환일까요?",
+            "turn_id": "BK22003215-9",
+            "utterance_id": "BK22003215.17"
+        },
+        {
+            "reference_date": "2017-05-25",
+            "reference_text": [
+                {
+                    "value": "임신거부증은 대개 원치 않는 임신으로 고통을 느끼는 여성이 자신을 보호하기 위해 임신 사실 자체를 부정하는 것으로 정신질환의 하나다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아직 진단 기준조차 없어 연구가 필요한 실정이다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.viva100.com/main/view.php?key=20170524010008260",
+            "search_query": "임신거부증 정신질환",
+            "terminate": false,
+            "text": "아직 진단 기준도 없고 연구가 필요한 상황이긴 하지만, 임신거부증은 보통 원하지 않은 임신으로 인해 고통을 느끼며 자신을 보호하기 위해 임신 자체를 부정하는 정신질환의 하나라고 보고 있어요.",
+            "turn_id": "BK22003215-9",
+            "utterance_id": "BK22003215.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상상 임신도 임신거부증도 둘 다 너무 안타까워요.",
+            "turn_id": "BK22003215-10",
+            "utterance_id": "BK22003215.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 임신에 대해서는 아직 모르는 부분이 많기 때문에 이런 일들이 생겨나요. 조금 더 의학이 발전하면 상상 임신이나 임신거부증에 대해서도 더 많이 밝혀질 거예요.",
+            "turn_id": "BK22003215-10",
+            "utterance_id": "BK22003215.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "임신은 마냥 행복하고 좋은 일이라고만 생각했는데 꼭 그렇지 않다는 걸 오늘 알았어요. 많이 알려줘서 고마워요. 다음에는 좀 더 재밌는 이야기를 해봐요.",
+            "turn_id": "BK22003215-11",
+            "utterance_id": "BK22003215.21"
+        }
+    ]
+}

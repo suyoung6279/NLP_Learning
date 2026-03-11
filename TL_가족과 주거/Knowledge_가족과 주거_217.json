@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014773",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014773",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 들어 주위에 이혼하는 사람들이 꽤 많네요. 결혼하기가 망설여져요.",
+            "turn_id": "BK22014773-1",
+            "utterance_id": "BK22014773.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 그렇게 생각해요. 결혼이라는 걸 다시 한번 생각하게 되고요.",
+            "turn_id": "BK22014773-1",
+            "utterance_id": "BK22014773.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제 주위에만 이렇게 이혼을 많이 하는 건지 궁금하네요. 우리나라 이혼율이 지금 어떤가요?",
+            "turn_id": "BK22014773-2",
+            "utterance_id": "BK22014773.3"
+        },
+        {
+            "reference_date": "2021-10-02",
+            "reference_text": [
+                {
+                    "value": "경제협력개발기구(OECD)가 발표한 ‘한눈에 보는 사회 2019’에 따르면 대한민국의 경우 조이혼율(인구 1,000명당 이혼율)이 2016년 기준으로 2.1명으로 OECD 주요 국가 평균인 1.9명을 넘었다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000638852",
+            "search_query": "국내 이혼율",
+            "terminate": false,
+            "text": "경제협력개발기구의 한눈에 보는 사회 2019 발표에 따르면 한국의 조이혼율은 2016년을 기준으로 2.1명을 기록했어요. OECD 주요 국가의 평균 이혼율은 1.9명으로 대조되죠.",
+            "turn_id": "BK22014773-2",
+            "utterance_id": "BK22014773.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "OECD 주요 국가 평균과 겨우 0.2명밖에 차이가 안 나네요? 생각보다 한국 이혼율이 그렇게 안 높은가 봐요?",
+            "turn_id": "BK22014773-3",
+            "utterance_id": "BK22014773.5"
+        },
+        {
+            "reference_date": "2021-05-20",
+            "reference_text": [
+                {
+                    "value": "경제협력개발기구(OECD) 회원국 중 우리나라가 이혼율 9위다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아시아에서는 1위다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.goodnews1.com/news/articleView.html?idxno=113233",
+            "search_query": "한국 이혼율 순위",
+            "terminate": false,
+            "text": "아니에요. 경제협력개발기구 회원국 중에서 한국의 이혼율은 9위를 차지하고 있고 아시아에서 이혼율은 1위인걸요.",
+            "turn_id": "BK22014773-3",
+            "utterance_id": "BK22014773.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세상에, 아시아에서 이혼율이 1위라니 이혼율이 매우 높은 거였군요. 그런데 보통 얼마나 살고 이혼을 결심하나요? 2년이 제일 많다고 들었는데 맞나요?",
+            "turn_id": "BK22014773-4",
+            "utterance_id": "BK22014773.7"
+        },
+        {
+            "reference_date": "2021-09-04",
+            "reference_text": [
+                {
+                    "value": "이혼 전 혼인 지속기간은 지난해 기준 20년 이상이 36%를 기록, 가장 많은 것으로 나타났다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "4년 이하가 19.9%, 5년에서 9년 이하 17.5%, 10년에서 14년 이하 15%, 15년부터 19년 이하 11.6%를 기록했다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20210904503383?OutUrl=naver",
+            "search_query": "이혼 전 혼인 지속기간",
+            "terminate": false,
+            "text": "지난해 기준으로 20년 이상 산 부부의 이혼율이 36퍼센트로 가장 높았어요. 19.9퍼센트를 차지한 4년 차 부부, 5년에서 9년 차 부부는 17.5퍼센트, 10년에서 14년 이하 부부는 15퍼센트, 15년부터 19년 이하로 함께 산 부부는 11.6퍼센트로 20년 이상 부부의 뒤를 이었죠.",
+            "turn_id": "BK22014773-4",
+            "utterance_id": "BK22014773.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 함께 오래 살고 이혼을 하네요. 그런데 요새는 코로나 때문에 이혼율이 그다지 높지 않겠어요. 어차피 집에만 있잖아요.",
+            "turn_id": "BK22014773-5",
+            "utterance_id": "BK22014773.9"
+        },
+        {
+            "reference_date": "2022-01-03",
+            "reference_text": [
+                {
+                    "value": "팬데믹이 지속되면서 해외에서는 이혼율이 증가하고 있다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이동 제한 조치와 재택근무 확대로 집에서 보내는 시간이 많아지면서 부부간 갈등이 증가한 것이다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newspost.kr/news/articleView.html?idxno=95980",
+            "search_query": "해외 이혼",
+            "terminate": false,
+            "text": "오히려 재택근무 확대, 이동 제한 조치 때문에 집에서 지내는 시간이 많아져 해외에서는 이혼율이 상승하고 있어요. 집에서 시간을 많이 보내는 만큼 갈등도 함께 증가하거든요.",
+            "turn_id": "BK22014773-5",
+            "utterance_id": "BK22014773.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "의외네요. 저는 오히려 이혼율이 감소할 줄 알았어요. 그럼 우리나라도 코로나 때문에 이혼율이 많이 증가했나요?",
+            "turn_id": "BK22014773-6",
+            "utterance_id": "BK22014773.11"
+        },
+        {
+            "reference_date": "2021-12-30",
+            "reference_text": [
+                {
+                    "value": "우리나라는 달랐다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "오히려 이혼율이 감소하고 있다는 통계가 발표돼 눈길을 끌었다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.kmib.co.kr/article/view.asp?arcid=0016621273&code=61121111&cp=nv",
+            "search_query": "한국 이혼율 감소",
+            "terminate": false,
+            "text": "아니요, 통계에 따르면 해외와 달리 우리나라는 이혼율이 감소하고 있다는 것을 알 수 있어요.",
+            "turn_id": "BK22014773-6",
+            "utterance_id": "BK22014773.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 오히려 해외의 이혼율이 떨어지고 한국의 이혼율이 증가할 줄 알았는데 그 반대네요. 한국에서는 왜 이혼율이 감소하고 있나요?",
+            "turn_id": "BK22014773-7",
+            "utterance_id": "BK22014773.13"
+        },
+        {
+            "reference_date": "2022-02-01",
+            "reference_text": [
+                {
+                    "value": "명절 스트레스로 인한 가족 간 다툼이 줄어들면서 이혼율에도 영향을 미치고 있는 것이다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "삼성생명 인생금융연구소는 코로나로 고향찾기가 줄어들고 제사 준비 등으로 인한 고부 갈등이나 부부싸움이 감소한 것이 원인이라고 분석했다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "온 가족이 모이는 명절 문화도 신종 코로나바이러스 감염증(코로나19)에 영향을 받으면서 다양한 변화와 현상으로 표출되고 있다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailian.co.kr/news/view/1078532/?sc=Naver",
+            "search_query": "명절 이혼",
+            "terminate": false,
+            "text": "이 경우도 코로나의 영향 중 하나라고 할 수 있는데요. 삼성생명 인생금융연구소에서는 코로나 때문에 부부 싸움이나 고부 갈등이 줄면서 이혼율에 영향을 미쳤다고 분석했어요. 코로나로 인해 고향을 찾아가거나 제사를 준비하는 일이 드물어졌거든요. 다시 말해 명절에 받는 스트레스가 없어지니 가족 간의 다툼이 줄어든 게 이혼율에도 영향을 준 것이죠.",
+            "turn_id": "BK22014773-7",
+            "utterance_id": "BK22014773.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와 신기하네요. 명절에 사람들이 스트레스를 많이 받긴 하죠. 그런데 우리나라에서 어느 도시의 이혼율이 가장 높나요?",
+            "turn_id": "BK22014773-8",
+            "utterance_id": "BK22014773.15"
+        },
+        {
+            "reference_date": "2021-03-22",
+            "reference_text": [
+                {
+                    "value": "인천시가 2019년 기준 이혼율이 국내 특광역시 7개 중에서 가장 높은 것으로 나타났다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 결과 인천시가 국내 광역시광역시·도 17곳 중 이혼건수가 7176건, 이혼율이 2.5%로 조사됐다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.incheontoday.com/news/articleView.html?idxno=207084",
+            "search_query": "국내 이혼율 최대 도시",
+            "terminate": false,
+            "text": "특광역시 7개 기준으로 2019년 자료를 보면 인천시의 이혼율이 가장 높아요. 이혼 건수는 7176건이고 이혼율은 2.5%를 기록했어요.",
+            "turn_id": "BK22014773-8",
+            "utterance_id": "BK22014773.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인천이 이혼율이 가장 높을지 몰랐어요. 다시 생각해보니 국내외 할 것 없이 참 이혼을 많이 하네요. 그럼 결혼율도 코로나 영향을 받나요?",
+            "turn_id": "BK22014773-9",
+            "utterance_id": "BK22014773.17"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "미국은 지난 2016년부터 결혼율이 지속적으로 하락하는 가운데, 2020년 펜데믹으로 결혼을 미루는 커플이 크게 늘어난 것이다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "코로나바이러스 감염사태로 인해 봉쇄령이 내려지고 대규모 회합 등이 금지되면서 결혼을 미루거나 아예 포기하는 사태까지 발생했다.",
+                    "value_time": "2022-10-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.koreadaily.com/2022/08/05/society/generalsociety/20220805133047160.html",
+            "search_query": "미국 결혼율",
+            "terminate": false,
+            "text": "네, 그럼요. 미국의 경우 결혼율이 2016년부터 계속 하락세였는데 펜데믹이 2020년에 터지면서 결혼을 미루는 현상도 많이 발생했거든요. 게다가 코로나로 인해 국가에서 봉쇄령을 내리거나 대규모 모임을 금지하면서 결혼을 미루는 것뿐 아니라 포기하는 커플까지 나오고 있어요.",
+            "turn_id": "BK22014773-9",
+            "utterance_id": "BK22014773.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이런, 참 안타깝네요. 어렵게 만난 인연들이었을 텐데. 저도 이혼율이 이렇게 증가하는 시대에 사람을 만날 때 신중히 만나야겠어요.",
+            "turn_id": "BK22014773-10",
+            "utterance_id": "BK22014773.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋은 생각이네요, 오늘 대화 정말 즐거웠어요. 조심히 들어가시고 다음에 또 봬요.",
+            "turn_id": "BK22014773-10",
+            "utterance_id": "BK22014773.20"
+        }
+    ]
+}

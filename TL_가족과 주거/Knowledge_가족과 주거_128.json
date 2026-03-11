@@ -1,0 +1,372 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013836",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013836",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0028"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "코로나로 인한 팬데믹 현상과 이혼율이 연관이 있다는 얘기를 들었는데, 정말인가요?",
+            "turn_id": "BK22013836-1",
+            "utterance_id": "BK22013836.1"
+        },
+        {
+            "reference_date": "44564.0",
+            "reference_text": [
+                {
+                    "value": "팬데믹이 지속되면서 해외에서는 이혼율이 증가하고 있다.",
+                    "value_time": "44794.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이동 제한 조치와 재택근무 확대로 집에서 보내는 시간이 많아지면서 부부간 갈등이 증가한 것이다.",
+                    "value_time": "44794.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newspost.kr/news/articleView.html?idxno=95980",
+            "search_query": "코로나 해외 이혼율",
+            "terminate": false,
+            "text": "네, 맞아요. 팬데믹이 계속되자 해외에서는 이혼율이 늘고 있어요. 재택근무가 증가하고 외출에 제한이 걸리니까 집에 있는 시간이 길어지면서 부부 간 갈등이 늘어난 것이죠.",
+            "turn_id": "BK22013836-1",
+            "utterance_id": "BK22013836.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무래도 오래 붙어있다보면 그만큼 부딪힐 일도 많아지니까요. 그 무슨 신조어도 있다고 들었는데 뭐였죠?",
+            "turn_id": "BK22013836-2",
+            "utterance_id": "BK22013836.3"
+        },
+        {
+            "reference_date": "44560.0",
+            "reference_text": [
+                {
+                    "value": "코로나19(Covid-19)와 이혼(Divorce)를 합친 신조어 ‘코비디보스(Covidivorce)’라는 말까지 생겨났다.",
+                    "value_time": "44794.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.kmib.co.kr/article/view.asp?arcid=0016621273&code=61121111&cp=nv",
+            "search_query": "코비디보스",
+            "terminate": false,
+            "text": "코로나19의 Covid와 이혼의 Divorce가 합쳐진 코비디보스Covidivorce라는 신조어요. 얼마나 많았으면 이런 신조어까지 만들어 졌을까요.",
+            "turn_id": "BK22013836-2",
+            "utterance_id": "BK22013836.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신조어까지 생길 정도로 꽤 큰 사회 현상인가봐요. 국내에서도 비슷하게 이혼율이 증가하고 있는 상황인가요?",
+            "turn_id": "BK22013836-3",
+            "utterance_id": "BK22013836.5"
+        },
+        {
+            "reference_date": "44564.0",
+            "reference_text": [
+                {
+                    "value": "하지만 국내에서는 해외와 달리 이혼율이 감소하고 있다는 통계가 발표됐다.",
+                    "value_time": "44794.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "최근 통계청이 발표한 ‘2021년 사회조사결과’에 따르면 지난 2020년 이혼 건수는 10만 6500건이다.",
+                    "value_time": "44794.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "직전년인 2019년 11만 800건에 비해 약 4300건이 감소했다.",
+                    "value_time": "44794.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "국내 이혼율이 코로나19 사태 발발 이후 꾸준히 감소했다는 것이다.",
+                    "value_time": "44794.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newspost.kr/news/articleView.html?idxno=95980",
+            "search_query": "코로나 국내 이혼율",
+            "terminate": false,
+            "text": "아니요. 우리나라는 해외와 다르게 오히려 이혼율이 줄고있다는 통계 결과가 나왔어요. 최근 통계청이 내놓은 2021년 사회조사결과에 의하면 지난 2020년 이혼 건수는 10만 6500건으로 직전년인 2019년의 이혼 건수인 11만 800건과 비교했을 때 대략 4300건이 줄어들었죠. 코로나19 유행 이후로 이혼율이 지속적으로 낮아지고 있다는 걸 알 수 있죠.",
+            "turn_id": "BK22013836-3",
+            "utterance_id": "BK22013836.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "왜 우리나라는 해외와는 반대의 현상이 나타나는 건가요?",
+            "turn_id": "BK22013836-4",
+            "utterance_id": "BK22013836.7"
+        },
+        {
+            "reference_date": "44560.0",
+            "reference_text": [
+                {
+                    "value": "가족 사이의 관계가 돈독해지며 정상화되고, 추석이나 설 등 명절 이후 급증했던 이혼 건수가 친인척 왕래 감소로 줄어들었으며, 결혼의 절대 숫자도 감소했다는 점 등이 이혼 건수 감소의 원인으로 분석된다.",
+                    "value_time": "44794.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25036914",
+            "search_query": "코로나 국내 이혼율 감소 원인",
+            "terminate": false,
+            "text": "이혼 건수 감소 요인으로는 가족 사이의 관계가 더 친밀해지면서 정상화되고, 친인척 간의 왕래가 줄어들면서 설이나 추석 같은 명절 이후 급증했던 이혼율이 줄어들고, 결혼 건수의 절대적인 수치도 줄었기 때문이에요.",
+            "turn_id": "BK22013836-4",
+            "utterance_id": "BK22013836.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여러가지 이유가 있는 거군요. 그런데 명절이랑 이혼율이 실제 증명된 상관 관계가 있나요?",
+            "turn_id": "BK22013836-5",
+            "utterance_id": "BK22013836.9"
+        },
+        {
+            "reference_date": "44638.0",
+            "reference_text": [
+                {
+                    "value": "실제 통계청 발표에 따르면 한가위, 설날 전후와 다른 시기를 비교했을 때보다 이혼율이 10% 이상 높아지는 것을 확인할 수 있다.",
+                    "value_time": "44794.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.thegolftimes.co.kr/news/articleView.html?idxno=53467",
+            "search_query": "명절 이혼",
+            "terminate": false,
+            "text": "네. 실제로 통계청 발표에 의하면 설날과 한가위 같은 명절 전후 시기를 다른 때와 비교해보면 이혼율이 10퍼센트 이상 증가했어요.",
+            "turn_id": "BK22013836-5",
+            "utterance_id": "BK22013836.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "명절 스트레스가 가족 간의 불화를 유발한다는 게 실제 수치로도 입증이 되는 거군요. 그럼 정말 코로나 이후로 명절에 친척을 만나는 게 줄어드니까 이혼율도 줄었나요?",
+            "turn_id": "BK22013836-6",
+            "utterance_id": "BK22013836.11"
+        },
+        {
+            "reference_date": "44591.0",
+            "reference_text": [
+                {
+                    "value": "통상 명절이 포함된 달보다 그 다음 달에 늘어나던 이혼 신청 추이도 신종 코로나바이러스 감염증(코로나19) 확산이 시작된 2020년 달라진 것으로 나타났다.",
+                    "value_time": "44794.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "통계청의 월별 이혼건수 통계를 보면 2020년 설 연휴가 있던 1월 이혼 건수는 8800여건이었으나 2월엔 8200여건으로 줄었다.",
+                    "value_time": "44794.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "추석 연휴가 포함된 10월엔 9300여건이었는데, 11월 8900여건으로 감소했다.",
+                    "value_time": "44794.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "코로나19가 없던 시기와 비교하면 다른 통계 추이다.",
+                    "value_time": "44794.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20220126001060",
+            "search_query": "코로나 명절 이혼",
+            "terminate": false,
+            "text": "네, 보통 명절 다음 달의 이혼 신청 건수가 명절이 있던 달보다 늘어나는 현상을 보이던 것이 코로나19 유행이 시작된 2020년에는 사라졌거든요. 통계청이 조사한 월별 이혼건수 통계에 따르면 설 연휴가 있던 2020년 1월 이혼 건수는 8800여건인데 비해 2월은 8200여건으로 오히려 줄어들었고, 추석 또한 연휴가 있던 10월은 9300여건이었으나 그 다음달인 11월에는 8900여건으로 감소했어요. 팬데믹 이전 시기와는 전혀 다른 추이를 보이고 있죠.",
+            "turn_id": "BK22013836-6",
+            "utterance_id": "BK22013836.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조사 결과로 확인될 정도의 현상이라니 정말 신기하네요. 명절에 가족간 모임이 줄어든 것 외에도 코로나로 인해 이혼율이 감소한 다른 요인에 대해서도 궁금해요.",
+            "turn_id": "BK22013836-7",
+            "utterance_id": "BK22013836.13"
+        },
+        {
+            "reference_date": "44274.0",
+            "reference_text": [
+                {
+                    "value": "통계청이 발표한 ‘2020년 혼인·이혼 통계’에 따르면 지난해 혼인 건수는 21만3500건으로 1970년 관련 통계를 작성한 이래 가장 적었다.",
+                    "value_time": "44794.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "결혼 자체가 줄어들자 이혼 건수도 전년 대비 감소했다.",
+                    "value_time": "44794.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지난해 이혼은 10만7000건으로 전년보다 4000건(3.9%) 감소했다.",
+                    "value_time": "44794.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이혼 건수가 감소한 건 2017년 이후 3년 만이다.",
+                    "value_time": "44794.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.wsobi.com/news/articleView.html?idxno=116389",
+            "search_query": "코로나 국내 혼인 감소 이혼율",
+            "terminate": false,
+            "text": "아까 말씀드렸듯 혼인 건수의 절대적 숫자가 줄어든 영향도 있죠. 통계청이 내놓은 2020년 혼인 및 이혼 통계 자료에 의하면 지난해 혼인 건수는 21만 3500건으로 해당 통계를 조사한 1970년 이래 제일 적은 수치로 나타났어요. 결혼을 하는 일 자체가 감소하니까 이혼하는 경우도 전년 대비 줄어드는 거죠. 지난해 이혼 건수는 전년보다 4000건, 약 3.9퍼센트 줄어든 10만 7000건으로 이혼 건수가 줄어든 건 2017년 이후 3년 만의 일이에요.",
+            "turn_id": "BK22013836-7",
+            "utterance_id": "BK22013836.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하긴 결혼을 안하면 이혼을 할 일도 없죠. 다른 요인은 또 뭐가 있나요?",
+            "turn_id": "BK22013836-8",
+            "utterance_id": "BK22013836.15"
+        },
+        {
+            "reference_date": "44560.0",
+            "reference_text": [
+                {
+                    "value": "또 다른 관계 요인으로는 ‘회식 감소’가 꼽힌다.",
+                    "value_time": "44794.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2~3차까지 이어지는 술자리가 부부 싸움으로 연결되는 경우가 잦은데, 인원·영업시간 단축 조치로 싸울 이유가 자체가 줄어든다는 것이다.",
+                    "value_time": "44794.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.kmib.co.kr/article/view.asp?arcid=0016621273&code=61121111&cp=nv",
+            "search_query": "코로나 국내 이혼율 감소",
+            "terminate": false,
+            "text": "이혼율 감소에 영향을 미치는 또 다른 요인으로는 회식이 줄어든 것도 들 수 있어요. 보통 2차 3차까지 이어지는 긴 술자리는 부부간 불화의 씨앗이 되는 경우가 많은데, 모임 인원 제한 및 영업시간 단축 규제로 인해 회식이 줄어들면서 자연스럽게 부부 간 갈등도 줄어든 거죠.",
+            "turn_id": "BK22013836-8",
+            "utterance_id": "BK22013836.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아아, 충분히 이해가 가네요. 배우자가 집에 너무 늦게 들어오는 날은 전쟁 시작이죠. 그 외에도 다른 원인이 또 있을까요?",
+            "turn_id": "BK22013836-9",
+            "utterance_id": "BK22013836.17"
+        },
+        {
+            "reference_date": "44560.0",
+            "reference_text": [
+                {
+                    "value": "이외에도 코로나19 때문에 결혼 자체가 줄어든 점과 경제적 어려움이 커지면서 이혼을 망설이는 점 역시 이혼율을 낮추는 데 영향을 미쳤다는 분석도 나왔다.",
+                    "value_time": "44794.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.kmib.co.kr/article/view.asp?arcid=0016621273&code=61121111&cp=nv",
+            "search_query": "코로나 국내 이혼율 감소",
+            "terminate": false,
+            "text": "네. 코로나19로 인해 경제적으로 어려움을 겪는 경우가 많아지면서 선뜻 이혼을 결심하지 못하는 상황도 늘 수밖에 없는데 이런 경우 또한 이혼율 감소의 요인이 될 수 있죠.",
+            "turn_id": "BK22013836-9",
+            "utterance_id": "BK22013836.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "코로나19가 정말 일상 곳곳에 많은 영향을 미치고 있네요. 어서 빨리 팬데믹이 끝나고 예전으로 돌아갈 수 있으면 좋겠어요.",
+            "turn_id": "BK22013836-10",
+            "utterance_id": "BK22013836.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 맞아요. 저도 이따금씩 코로나 이전의 시절이 그리워요.",
+            "turn_id": "BK22013836-10",
+            "utterance_id": "BK22013836.20"
+        }
+    ]
+}

@@ -1,0 +1,347 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006371",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006371",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "며칠 후면 집에 강아지가 오는 데 이것저것 준비할 것도 궁금한 것도 많네. 새끼 강아지는 언제부터 목욕 시키면 되는 거야?",
+            "turn_id": "BK22006371-1",
+            "utterance_id": "BK22006371.1"
+        },
+        {
+            "reference_date": "2022-06-18",
+            "reference_text": [
+                {
+                    "value": "아직 어린 강아지는 스스로 체온을 조절하는 데 능숙하지 않습니다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "때문에 100일이 지났거나 종합 백신 접종을 한 날부터 최소 일주일이 지난 후 목욕을 시키는 것이 좋습니다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202206171725499427",
+            "search_query": "새끼 강아지 목욕",
+            "terminate": false,
+            "text": "어린 새끼 강아지는 스스로 체온을 조절하기 힘들어서 생후 100일 지났거나, 종합 백신 접종을 하고 최소한 일주일이 지난 다음 목욕을 시키면 돼.",
+            "turn_id": "BK22006371-1",
+            "utterance_id": "BK22006371.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너무 어린 강아지는 목욕을 시키는 게 아니구나. 그럼 첫 목욕을 시키고 그 다음부터는 얼마나 자주 씻기면 될까?",
+            "turn_id": "BK22006371-2",
+            "utterance_id": "BK22006371.3"
+        },
+        {
+            "reference_date": "2019-04-05",
+            "reference_text": [
+                {
+                    "value": "강아지의 예방접종이 끝난 후 목욕을 시킬 때에는 보통 10~15일에 한 번 정도가 적당하다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "너무 잦은 목욕은 털의 광택을 없애고 피부를 거칠게 하거나 피부병의 원인이 되기 때문이다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://digitalchosun.dizzo.com/site/data/html_dir/2015/03/23/2015032313005.html",
+            "search_query": "강아지 목욕 횟수",
+            "terminate": false,
+            "text": "예방접종이 끝나고 목욕을 시킨 후에는 10에서 15일 정도 한 번씩 시키면 돼. 너무 자주 목욕을 시키면 털에 광택도 없어지고, 피부가 거칠어지고 피부병이 생기기도 하거든.",
+            "turn_id": "BK22006371-2",
+            "utterance_id": "BK22006371.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "목욕을 자주 시켜도 강아지한테는 안 좋구나. 처음 목욕시킬 때 강아지가 목욕을 두려워하지 않게 하려면 어떻게 할까?",
+            "turn_id": "BK22006371-3",
+            "utterance_id": "BK22006371.5"
+        },
+        {
+            "reference_date": "2022-03-19",
+            "reference_text": [
+                {
+                    "value": "처음부터 몸에 물을 적시기보단 물에 좋아하는 장난감을 띄워 흥미를 유발한다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "스스로 물에 들어가게 만들고 목욕 시간을 짧게 해 스트레스를 줄인다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1386996/%ec%9c%84%eb%93%9c%ed%8e%ab-%eb%b0%98%eb%a0%a4%eb%8f%99%eb%ac%bc-%eb%aa%a9%ec%9a%95-%ec%96%bc%eb%a7%88%eb%82%98-%ec%9e%90%ec%a3%bc-%ec%8b%9c%ec%bc%9c%ec%95%bc-%ed%95%98%eb%82%98/",
+            "search_query": "새끼 강이지 목욕 방법",
+            "terminate": false,
+            "text": "물을 처음부터 적시지 말고 물에 강아지가 좋아하는 장난감을 넣어 흥미를 유발해서 스스로 물에 들어가게 하면 좋아. 그리고 목욕시간은 짧게 해서 스트레스를 덜 받게 해 주고.",
+            "turn_id": "BK22006371-3",
+            "utterance_id": "BK22006371.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지들에게는 목욕하는 것도 스트레스일 수 있나 보네. 샴푸는 어떤 걸 사는 게 좋을까?",
+            "turn_id": "BK22006371-4",
+            "utterance_id": "BK22006371.7"
+        },
+        {
+            "reference_date": "2020-07-30",
+            "reference_text": [
+                {
+                    "value": "강아지들은 본능적으로 피부를 자주 핥기 때문에 천연 제품으로 만들어진 순한 샴푸를 선택하는 것이 좋다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.wikitree.co.kr/articles/557559",
+            "search_query": "강아지 샴푸",
+            "terminate": false,
+            "text": "강아지들은 본능적으로 피부를 자주 핥아. 그래서, 천연 원료로 만들어진 순한 샴푸를 구입하는 것이 좋아.",
+            "turn_id": "BK22006371-4",
+            "utterance_id": "BK22006371.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어, 원료를 잘 보고 구입할게. 그리고 목욕시킬 때 물 온도는 어느 정도가 좋아?",
+            "turn_id": "BK22006371-5",
+            "utterance_id": "BK22006371.9"
+        },
+        {
+            "reference_date": "2020-07-14",
+            "reference_text": [
+                {
+                    "value": "너무 차가운 물은 체온을 떨어트릴 수 있어서 어린 강아지에게 위험할 수도 있고 너무 뜨거우 것 역시 좋지 않다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "미지근한 온도가 가장 좋다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=127079",
+            "search_query": "강아지 목욕물 온도",
+            "terminate": false,
+            "text": "물의 온도가 너무 뜨거우면 어린 강아지에게 위험할 수 있고, 차가우면 체온이 떨어질 수도 있으니 미지근한 온도로 목욕시키는 것이 좋아.",
+            "turn_id": "BK22006371-5",
+            "utterance_id": "BK22006371.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 물 온도를 신경 써야겠네. 그리고, 목욕시킬 때 조심해야 할 것들 있으면 알려 줘.",
+            "turn_id": "BK22006371-6",
+            "utterance_id": "BK22006371.11"
+        },
+        {
+            "reference_date": "2018-02-21",
+            "reference_text": [
+                {
+                    "value": "귀에 물이 들어가지 않도록 주의합니다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "귀 내부나 발가락 사이가 습해져서 질환이 생기는 경우 잘 낫지 않고 재발률이 높습니다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ggilbo.com/news/articleView.html?idxno=445727",
+            "search_query": "강아지 목욕 주의",
+            "terminate": false,
+            "text": "물이 귀에 들어가면 좋지 않으니 조심해야 해. 귓속이나 발가락 사이가 습해서 질환이 생기면 쉽게 낫지도 않고 다시 재발하는 경우도 많거든.",
+            "turn_id": "BK22006371-6",
+            "utterance_id": "BK22006371.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 그렇겠네, 목욕 시켜줄 때 귀는 최대한 조심해야겠데. 그리고 또 다른 것도 있어?",
+            "turn_id": "BK22006371-7",
+            "utterance_id": "BK22006371.13"
+        },
+        {
+            "reference_date": "2016-03-18",
+            "reference_text": [
+                {
+                    "value": "샤워기소리에 민감하기 때문에 샤워기를 몸에 직접 닿게 해서 소리가 나지 않게 한다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newsinside.kr/news/articleView.html?idxno=392571",
+            "search_query": "강아지 목욕",
+            "terminate": false,
+            "text": "강아지들은 샤워기 소리에 민감한 편이야. 그래서 샤워기를 몸에 직접 닿게 해서 소리를 줄여주는 것이 좋아.",
+            "turn_id": "BK22006371-7",
+            "utterance_id": "BK22006371.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "샤워기 소리에 민감할 거라곤 생각 못 한 부분이네. 중요한 정보다 진짜. 아 목욕시키고 꼭 털도 말려줘야 하는 거지?",
+            "turn_id": "BK22006371-8",
+            "utterance_id": "BK22006371.15"
+        },
+        {
+            "reference_date": "2021-07-01",
+            "reference_text": [
+                {
+                    "value": "무엇보다 물이 닿았을 경우 항상 털을 꼼꼼히 말려 주어야 한다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2021063017563950655",
+            "search_query": "강아지 목욕 시키기",
+            "terminate": false,
+            "text": "응, 물에 닿은 경우에는 꼼꼼하게 털을 말려 줘야 해.",
+            "turn_id": "BK22006371-8",
+            "utterance_id": "BK22006371.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "드라이어를 하나 사놔야 겠다. 이빨도 닦아줘야 할까?",
+            "turn_id": "BK22006371-9",
+            "utterance_id": "BK22006371.17"
+        },
+        {
+            "reference_date": "2021-07-07",
+            "reference_text": [
+                {
+                    "value": "이는 주기적으로 스케일링을 해 주고 강아지 전용 칫솔과 치약으로 닦아 주어야 한다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이렇게 관리하면 강아지의 입 냄새와 함께 충치를 예방할 수 있다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=52292",
+            "search_query": "강아지 치아관리",
+            "terminate": false,
+            "text": "그럼 좋지. 강아지 전용 칫솔과 치약을 이용해서 닦아주고 주기적으로 스케일링을 해주면 강아지 입 냄새도 줄이고 충치도 예방할 수 있어.",
+            "turn_id": "BK22006371-9",
+            "utterance_id": "BK22006371.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지용 칫솔과 치약도 구입해야겠구나. 강아지에 대해 궁금한 것이 많았는데 알려줘서 고마워.",
+            "turn_id": "BK22006371-10",
+            "utterance_id": "BK22006371.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "언제든지 궁금한 것 있으면 물어봐. 우리는 다음에 만나자, 안녕.",
+            "turn_id": "BK22006371-10",
+            "utterance_id": "BK22006371.20"
+        }
+    ]
+}

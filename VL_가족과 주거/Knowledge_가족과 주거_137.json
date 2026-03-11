@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.5,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018100",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018100",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_nhn_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지에게 외이도염이 가장 흔하게 발생하는 귀 질환이라고 하던데 맞아?",
+            "turn_id": "BK22018100-1",
+            "utterance_id": "BK22018100.1"
+        },
+        {
+            "reference_date": "44189.0",
+            "reference_text": [
+                {
+                    "value": "이때 외이도염은 귀질환 중 가장 흔하게 발생하는 질환이다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 강아지의 외이도는 사람과는 다르게 ‘ㄴ’자 모양으로 된 해부학적 구조 때문에 외이도염이 잘 발생한다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=51657",
+            "search_query": "강아지 외이도염",
+            "terminate": false,
+            "text": "응, 강아지 외이도는 사람과 달리 니은 자 모양으로 되어 있어. 이런 해부학적 구조 때문에 외이도염은 가장 흔하게 발생하는 귀 질환이야.",
+            "turn_id": "BK22018100-1",
+            "utterance_id": "BK22018100.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 강아지 외이도염은 어떻게 진단해?",
+            "turn_id": "BK22018100-2",
+            "utterance_id": "BK22018100.3"
+        },
+        {
+            "reference_date": "44189.0",
+            "reference_text": [
+                {
+                    "value": "외이도염 진단방법은 검이경을 통한 육안적인 평가와 귀지 채취 후 세포학적 평가가 있다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이때 검이경을 통해서는 기생충, 이물질, 이도의 상태를 육안으로 검사할 수 있고 채취한 귀지를 염색해 세균, 곰팡이 등을 현미경으로 세포학적으로 검사할 수 있다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=51657",
+            "search_query": "강아지 외이도염 진단 방법",
+            "terminate": false,
+            "text": "외이도염은 검이경을 통해서는 이물질이나 기생충이 있는지, 그리고 이도의 상태를 눈으로 검사하는 방법이 있어. 그리고 귀지를 채취해서 세포학적으로 검사하는 방법이 있는데, 채취한 귀지를 염색해서 세균이나 곰팡이가 있는지 현미경으로 검사해.",
+            "turn_id": "BK22018100-2",
+            "utterance_id": "BK22018100.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 외이도염 진단을 받으면 어떻게 치료를 해?",
+            "turn_id": "BK22018100-3",
+            "utterance_id": "BK22018100.5"
+        },
+        {
+            "reference_date": "44189.0",
+            "reference_text": [
+                {
+                    "value": "치료방법은 내과적인 처치와 외과적인 처치로 분류한다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대부분의 경우에는 내과적인 처치로 치료가 되지만 만성적으로 진행된 경우에는 외이도를 제거하는 수술적인 방법으로 치료할 수 있다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=51657",
+            "search_query": "강아지 외이도염 치료 방법",
+            "terminate": false,
+            "text": "외이도염 치료 방법은 내과적인 처치 방법과 외과적인 처치 방법으로 나눌 수 있어. 대부분은 내과적인 처치로 치료가 가능한데, 만성적으로 진행됐을 때는 외이도를 제거하는 수술을 해야 해.",
+            "turn_id": "BK22018100-3",
+            "utterance_id": "BK22018100.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내과적인 처치 방법은 어떤 게 있어?",
+            "turn_id": "BK22018100-4",
+            "utterance_id": "BK22018100.7"
+        },
+        {
+            "reference_date": "44189.0",
+            "reference_text": [
+                {
+                    "value": "내과적인 처치는 경미한 경우엔 귀세정제를 사용해서 귀세척이 가능하지만 심한 경우엔 생리식염수, 세정액, 외과용 흡입기(섹션)를 통해 외이도 내의 지저분한 이물질들을 모두 세척해야한다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 원인체에 따라 항생제, 항진균제, 소염제 등을 처방해서 외이염이 완전히 없어질 때까지 약물적인 처치를 병행한다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=51657",
+            "search_query": "강아지 외이도염 내과적인 처치",
+            "terminate": false,
+            "text": "내과적인 처치 방법으로 귀를 세척하는데, 증상이 가벼울 땐 귀 세정제를 사용해서 귀 세척을 해. 증상이 심할 땐 생리식염수나 세정액으로 세척을 하거나 외과용 흡입기를 사용해서 외이도 안에 더러운 이물질들을 제거해. 그리고 원인체에 따라 항생제나 소염제, 항진균제를 처방하는 약물 치료를 같이 하기도 해.",
+            "turn_id": "BK22018100-4",
+            "utterance_id": "BK22018100.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지의 귀를 세척할 때 레이저를 사용한다고도 들었는데 정말이야?",
+            "turn_id": "BK22018100-5",
+            "utterance_id": "BK22018100.9"
+        },
+        {
+            "reference_date": "44189.0",
+            "reference_text": [
+                {
+                    "value": "최근에는 레이저를 이용해 귀세척 후 귀주변과 외이도 부위를 조사함으로써 염증과 통증을 경감시키고 주변부에 혈류속도도 증가시켜서 회복속도를 빠르게 해주는 방법도 사용된다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=51657",
+            "search_query": "강아지 외이도염 레이저 귀 세척",
+            "terminate": false,
+            "text": "응, 최근에 사용하는 방법인데, 레이저를 이용해서 귀를 세척하고 나서 외이도 부위와 귀 주변을 조사해. 이 방법은 염증이나 통증을 완화시키고 주변부에 혈류 속도가 빨라져서 회복 속도가 빨라져.",
+            "turn_id": "BK22018100-5",
+            "utterance_id": "BK22018100.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 외이도염이 만성적으로 이어진다면 고막이 손상될 수도 있다던데 정말이야?",
+            "turn_id": "BK22018100-6",
+            "utterance_id": "BK22018100.11"
+        },
+        {
+            "reference_date": "44189.0",
+            "reference_text": [
+                {
+                    "value": "외이도염이 만성적으로 발생하는 경우엔 고막손상을 동반할 수 있다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "증상이 더 심해지면 중이염, 내이염을 발생시켜 이로 인해서 안면마비, 사경과 같은 신경계질환까지 발생하게 되기도 한다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=51657",
+            "search_query": "강아지 외이도염 만성적 고막",
+            "terminate": false,
+            "text": "맞아, 만성적으로 외이도염이 발생한다면 고막이 손상될 수 있어. 증상이 더 악화되면 중이염이나 내이염을 발생시켜서 안면마비, 사경 같은 신경계에도 문제가 생길 수 있어.",
+            "turn_id": "BK22018100-6",
+            "utterance_id": "BK22018100.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 무서운 질병이구나. 귀 세척을 잘 해줘야 할 거 같은데, 면봉으로 닦아줘도 돼?",
+            "turn_id": "BK22018100-7",
+            "utterance_id": "BK22018100.13"
+        },
+        {
+            "reference_date": "44189.0",
+            "reference_text": [
+                {
+                    "value": "귀세척은 면봉에 귀세정제를 묻혀서 닦으면 절대 안 된다.",
+                    "value_time": "44845.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "외이도 내에 귀세정제를 충분히 넣고 외이도를 여러 번 마사지한 후 마사지로 인해 녹은 귀지를 솜(탈지면, 화장솜 등)으로 닦아줘야한다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=51657",
+            "search_query": "강아지 외이도염 귀세척 면봉",
+            "terminate": false,
+            "text": "아니, 면봉으로 귀를 세척하면 절대 안 돼. 외이도 안에 귀 세정제를 충분하게 넣고 마사지를 해. 마사지를 하면 귀지가 녹는데, 면봉을 쓰지 않고 화장솜이나 탈지면 같은 솜으로 닦아줘야 해.",
+            "turn_id": "BK22018100-7",
+            "utterance_id": "BK22018100.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "면봉은 사용하면 안되는구나, 큰일날 뻔했다. 강아지 외이도염을 예방하기 위해 음식관리도 잘 해줘야 하지 않아?",
+            "turn_id": "BK22018100-8",
+            "utterance_id": "BK22018100.15"
+        },
+        {
+            "reference_date": "44189.0",
+            "reference_text": [
+                {
+                    "value": "음식관리 또한 예방법 중 하나로 알레르기를 일으킬 수 있는 간식이나 음식을 먹이면 안 된다.",
+                    "value_time": "44845.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=51657",
+            "search_query": "강아지 외이도염 예방법 음식관리",
+            "terminate": false,
+            "text": "맞아, 알레르기가 생기는 음식을 먹이지 않고 음식 관리를 잘 해주면 외이도염을 예방할 수 있어.",
+            "turn_id": "BK22018100-8",
+            "utterance_id": "BK22018100.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 우리 집 강아지도 귀가 약해서 외이도염에 대해 궁금했어.",
+            "turn_id": "BK22018100-9",
+            "utterance_id": "BK22018100.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려견의 귀 질환은 보호자가 주의깊게 관찰을 잘하고, 세척을 잘 해주고 음식관리만 해줘도 예방할 수 있어.",
+            "turn_id": "BK22018100-9",
+            "utterance_id": "BK22018100.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 관리에 좀 더 신경써줄 수 있을 것 같아. 쉽고 자세하게 얘기해줘서 고마워.",
+            "turn_id": "BK22018100-10",
+            "utterance_id": "BK22018100.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "더 궁금한 게 있다면 언제든 연락해도 좋아. 좋은 하루 보내.",
+            "turn_id": "BK22018100-10",
+            "utterance_id": "BK22018100.20"
+        }
+    ]
+}

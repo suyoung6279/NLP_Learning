@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22017712",
+        "name": "2022 한국어 블렌더봇 데이터 BK22017712",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_nhn_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집에 반려동물을 들이고 나니 분위기가 확 바뀐 것 같아. 이제는 내가 먹을 것보다 우리 고양이 먹을 것부터 챙긴다니까?",
+            "turn_id": "BK22017712-1",
+            "utterance_id": "BK22017712.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너 고양이 키우는구나, 자기 먹을 거보다 반려동물 거부터 챙기다니. 그것만 들어도 따뜻하고 다정한 집사라는 게 느껴지네!",
+            "turn_id": "BK22017712-1",
+            "utterance_id": "BK22017712.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 말해주니 고맙네, 그나저나 요즘은 펫 가전을 많이 찾아보는 중이야. 조금 있으면 내가 다른 집으로 이사를 가야 하는데, 겸사겸사 스마트 제품들로 교환하면 편할 것 같아서. 일단 렌탈 쪽을 좀 알아보는 중인데, 현대렌탈케어에서 나온 고양이 자동화장실에 어떤 기능이 있는지 알려줄래?",
+            "turn_id": "BK22017712-2",
+            "utterance_id": "BK22017712.3"
+        },
+        {
+            "reference_date": "2020-11-17",
+            "reference_text": [
+                {
+                    "value": "고양이가 네모난 상자에 들어가면 동작 감지 센서를 통해 자동으로 배설물을 처리해준다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "스마트 모니터링 기능이 있어 모바일 앱으로 고양이 몸무게 등 건강 정보도 확인할 수 있다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://biz.chosun.com/site/data/html_dir/2020/11/16/2020111602488.html?utm_source=naver&utm_medium=original&utm_campaign=biz",
+            "search_query": "현대렌탈케어 고양이 자동화장실",
+            "terminate": false,
+            "text": "고양이가 상자 안으로 들어가면, 제품의 센서를 통해 동작이 감지되면서 고양이 배설물을 자동으로 처리해줘. 그리고 스마트 모니터링 기능도 있어서, 모바일 어플을 통해서 고양이의 몸무게나 여러 건강 정보도 체크할 수 있지.",
+            "turn_id": "BK22017712-2",
+            "utterance_id": "BK22017712.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "몸무게까지 알 수 있구나. 의무 사용 기간은 어떻게 돼?",
+            "turn_id": "BK22017712-3",
+            "utterance_id": "BK22017712.5"
+        },
+        {
+            "reference_date": "2020-11-17",
+            "reference_text": [
+                {
+                    "value": "고객에게는 의무 사용 기간(36개월) 동안 1~2개월 주기로 전용 모래를 보내준다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://biz.chosun.com/site/data/html_dir/2020/11/16/2020111602488.html?utm_source=naver&utm_medium=original&utm_campaign=biz",
+            "search_query": "현대렌탈케어 고양이 자동화장실 의무 사용 기간",
+            "terminate": false,
+            "text": "의무 사용 기간은 36개월이야. 이 기간에 1개월에서 2개월 주기로 고객에게 제품 전용 모래도 보내주지.",
+            "turn_id": "BK22017712-3",
+            "utterance_id": "BK22017712.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그리고 디클펫토리라는 브랜드에서도 고양이 자동화장실을 판매한다던데. 이 브랜드는 언제부터 고양이 자동화장실을 판매해왔어?",
+            "turn_id": "BK22017712-4",
+            "utterance_id": "BK22017712.7"
+        },
+        {
+            "reference_date": "2022-04-05",
+            "reference_text": [
+                {
+                    "value": "디클펫트리는 2019년 국내에 고양이 자동화장실를 첫 출시했으며 가격이 저렴한 실속버전, 배변통이 커진 확장버전, 기능성이 향상된 와이파이버전 등으로 꾸준히 업데이트 해왔다",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kbsm.net/news/view.php?idx=344815",
+            "search_query": "디클펫트리 고양이 자동화장실",
+            "terminate": false,
+            "text": "디클펫트리가 국내에서 고양이 자동화장실을 판매하기 시작한 건 2019년도부터야. 출시 이후로 가격이 저렴한 실속버전 제품이나 배변통이 커진 확장버전 제품, 그리고 기능성이 업그레이드된 와이파이버전 등으로 꾸준히 출시 제품을 업데이트해 왔지.",
+            "turn_id": "BK22017712-4",
+            "utterance_id": "BK22017712.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 올해에 출시된 모모라는 모델도 기존 제품에 비해 차이점이 있겠네? 어떤 부분들이 달라졌는지 알 수 있을까?",
+            "turn_id": "BK22017712-5",
+            "utterance_id": "BK22017712.9"
+        },
+        {
+            "reference_date": "2022-04-05",
+            "reference_text": [
+                {
+                    "value": "디클펫트리 고양이 자동화장실 모모는 활용성 좋은 디자인, 쉬운 분해, 스마트 탈취기능, 저소음 설계, 다양한 모래 사용, 동작감지센서, 전용어플 원격관리가 가능한 와이파이 모델로 이전세대 보다 더욱 더 뛰어난 성능을 자랑한다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kbsm.net/news/view.php?idx=344815",
+            "search_query": "디클펫트리 모모",
+            "terminate": false,
+            "text": "모모는 우선 활용하기 좋은 디자인과 분해하기 편리한 구조를 가지고 있어. 그리고 스마트 탈취 기능과 동작감지센서가 들어있지. 또한, 다양한 모래 사용이 가능하고 저소음으로 설계되었어. 전용어플로 원격관리가 가능한 와이파이 모델이라서 이전 세대보다 성능이 보다 강화되었지.",
+            "turn_id": "BK22017712-5",
+            "utterance_id": "BK22017712.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알려줘서 고마워, 모모 모델이 출시된 때가 정확히 언제야? 그리고 왠지 가격도 엄청나게 올랐을 것 같은데?",
+            "turn_id": "BK22017712-6",
+            "utterance_id": "BK22017712.11"
+        },
+        {
+            "reference_date": "2022-04-05",
+            "reference_text": [
+                {
+                    "value": "이 가운데 더 많은 기능과 디자인까지 변화된 새로운 디클펫트리 고양이 자동화장실 모모(MoMo)를 4월 출시했다고 밝혔다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그렇지만 가격은 이전 세대 수준으로 가격대비 성능비가 좋아 애묘인들에게 큰 인기를 끌 전망이다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kbsm.net/news/view.php?idx=344815",
+            "search_query": "디클펫트리 모모 가격",
+            "terminate": false,
+            "text": "그렇지 않아, 제품 가격은 이전 세대 수준이거든. 그리고 모모는 올해 4월에 출시되었어.",
+            "turn_id": "BK22017712-6",
+            "utterance_id": "BK22017712.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알려줘서 고마워, 아 그리고 LG전자에서도 펫 케어 코스 기능을 넣은 가전들을 내놓고 있다던데. LG의 어떤 가전들에 펫 케어 코스가 들어간 거야?",
+            "turn_id": "BK22017712-7",
+            "utterance_id": "BK22017712.13"
+        },
+        {
+            "reference_date": "2022-08-20",
+            "reference_text": [
+                {
+                    "value": "LG전자는 최근 ‘UP 가전’으로 출시된 트롬 세탁기, 건조기, 미니워시, 워시타워에 ‘펫 케어 코스’를 업그레이드해 반려동물 관련 기능 강화에 나서고 있다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.viva100.com/main/view.php?key=20220818010004600",
+            "search_query": "LG전자 펫 케어 코스",
+            "terminate": false,
+            "text": "최근에 LG전자에서 UP 가전으로 출시된 제품들에 반려동물 관련 기능인 펫 케어 코스가 업그레이드되었어. 이 UP 가전에는 트롬 세탁기, 미니워시, 건조기, 워시타워가 있지.",
+            "turn_id": "BK22017712-7",
+            "utterance_id": "BK22017712.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그중에서도 건조기나 세탁기에 펫 케어 코스가 들어가면 어떤 기능이 발휘되는 거야?",
+            "turn_id": "BK22017712-8",
+            "utterance_id": "BK22017712.15"
+        },
+        {
+            "reference_date": "2022-05-13",
+            "reference_text": [
+                {
+                    "value": "트롬 세탁기 펫케어 코스는 6모션 손빨래 동작, 세 차례에 걸친 온수헹굼을 포함한 4중 안심헹굼 등을 통해 생활 얼룩을 효과적으로 제거하며, 건조기는 ‘펫케어 건조볼’과 함께 사용할 경우 옷에 붙은 반려동물 털을 쉽게 제거할 수 있다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01843366632328592&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "트롬 세탁기 펫케어 코스",
+            "terminate": false,
+            "text": "우선 트롬 세탁기에서 펫케어 코스를 선택하면 6모션 손빨래 동작과 세 차례의 온수헹굼을 포함한 4종 안심헹굼 등을 이용할 수 있어. 이를 통해 생활 얼룩을 제거할 수 있지. 그리고 건조기는 펫케어 건조볼을 이용해 옷에 붙은 반려동물의 털을 제거할 수 있어.",
+            "turn_id": "BK22017712-8",
+            "utterance_id": "BK22017712.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "펫케어 건조볼은 건조기 제품과 함께 제공되는 거야? 그리고 건조기의 펫케어 코스를 이용할 때 털 말고 체취를 해결할 수 있는 기능은 없을까?",
+            "turn_id": "BK22017712-9",
+            "utterance_id": "BK22017712.17"
+        },
+        {
+            "reference_date": "2022-05-13",
+            "reference_text": [
+                {
+                    "value": "별도 판매하는 펫케어 건조볼과 전용 필터를 함께 사용하면 의류를 관리하는 데 효과적이다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "트롬 건조기의 펫케어 코스는 트루스팀을 활용해 젖은 옷감은 물론 마른 의류에 밴 반려동물의 체취, 배변 냄새 등을 제거한다.",
+                    "value_time": "2022-10-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://kr.aving.net/news/articleView.html?idxno=1709002",
+            "search_query": "트롬 건조기 펫케어 건조볼",
+            "terminate": false,
+            "text": "아니, 펫케어 건조볼은 별도로 판매되는 제품이야. 의류 관리시 전용 필터와 함께 사용하면 되지. 그리고 건조기의 펫케어 코스에는 트루스팀 기능도 있는데, 이 기능으로 젖은 온감 냄새나 마른 의류에 배어있는 반려동물의 체취, 배변 냄새 등을 제거할 수 있어.",
+            "turn_id": "BK22017712-9",
+            "utterance_id": "BK22017712.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 궁금했던 상품들이 많았는데 자세히 알려줘서 고마워. 이사 준비하다가 궁금한 게 생기면 또 연락할게.",
+            "turn_id": "BK22017712-10",
+            "utterance_id": "BK22017712.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "언제든지 환영이야, 이사 준비 잘하길 바랄게.",
+            "turn_id": "BK22017712-10",
+            "utterance_id": "BK22017712.20"
+        }
+    ]
+}

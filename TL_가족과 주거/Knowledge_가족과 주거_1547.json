@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011693",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011693",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0017"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "주위에 반려견이 있는 사람은 많은데 도베르만을 키우는 사람은 본 적이 없네요. 혹시 도베르만 견종에 대해 잘 아시나요?",
+            "turn_id": "BK22011693-1",
+            "utterance_id": "BK22011693.1"
+        },
+        {
+            "reference_date": "2019-03-17",
+            "reference_text": [
+                {
+                    "value": "한편 ‘세계의 명견들’(시공사)에 따르면 도베르만의 원래 이름은 도베르만 핀셔((Doberman Pinscher)다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1865∼70년 경비견을 만들 목적으로 다양한 품종 교배를 실시한 결과 독일에서 개량돼 탄생했다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20190317518213?OutUrl=naver",
+            "search_query": "도베르만",
+            "terminate": false,
+            "text": "네, 도베르만은 본래 이름이 도베르만 핀셔에요. 1865년에서 1870년 독일에서 경비견을 만들 목적으로 다양한 품종 교배를 통해 탄생했죠.",
+            "turn_id": "BK22011693-1",
+            "utterance_id": "BK22011693.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "개량되어 탄생한 견종이군요. 경비견이라니, 도베르만 이미지와 딱 어울려요.",
+            "turn_id": "BK22011693-2",
+            "utterance_id": "BK22011693.3"
+        },
+        {
+            "reference_date": "2015-05-27",
+            "reference_text": [
+                {
+                    "value": "이 개의 초기 사용 목적은 사냥터 경비원의 신변 보호를 위해 침입자를 찾아내거나 제압하는 것이었고, 지금은 초기 사용목적이 많이 줄었으나 침입자 퇴치 게임은 아직도 성행하고 있다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/011/0002688559?sid=103",
+            "search_query": "도베르만 사냥",
+            "terminate": false,
+            "text": "네, 도베르만은 사냥터 경비원의 신변 보호를 위해 침입자를 찾아내거나 제압을 위해 투입되었어요. 현재에는 그러한 목적으로 인한 투입은 많이 줄었고요.",
+            "turn_id": "BK22011693-2",
+            "utterance_id": "BK22011693.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그럼 도베르만의 성격은 어떤가요?",
+            "turn_id": "BK22011693-3",
+            "utterance_id": "BK22011693.5"
+        },
+        {
+            "reference_date": "2015-05-27",
+            "reference_text": [
+                {
+                    "value": "도베르만 핀셔의 성격은 조용하고 침착하다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 원기왕성하고 주의 깊으며 단호하고 충직하면서 순종적이다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "어린 강아지 때에는 장난을 치기도 하고 반항을 종종 하는데 이것은 훈련을 통해 시정되야 한다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/011/0002688559?sid=103",
+            "search_query": "도베르만 성격",
+            "terminate": false,
+            "text": "도베르만은 조용하고 침착한 성격으로 충직하며 순종적이에요. 어린 강아지 때는 장난이나 반항을 보이기도 하지만, 훈련을 통해 고쳐야 해요.",
+            "turn_id": "BK22011693-3",
+            "utterance_id": "BK22011693.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "훈련이 필요겠군요, 그런데 도베르만의 크기는 구체적으로 어떻게 되는지 궁금해요.",
+            "turn_id": "BK22011693-4",
+            "utterance_id": "BK22011693.7"
+        },
+        {
+            "reference_date": "2019-03-17",
+            "reference_text": [
+                {
+                    "value": "독일 원산으로 키 61~72㎝, 체중은 30~45㎏ 성장하는 대형견이다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20190317518213?OutUrl=naver",
+            "search_query": "도베르만 크기",
+            "terminate": false,
+            "text": "대형견인 도베르만의 키의 경우 61센티미터에서 72센티미터이고, 체중은 30킬로그램에서 45킬로그램까지 성장해요.",
+            "turn_id": "BK22011693-4",
+            "utterance_id": "BK22011693.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도베르만을 보면 늠름해 보여요. 도베르만은 특히 귀가 위쪽으로 뾰족하게 솟아 있어서 더 날렵하고 매력 있어 보여요.",
+            "turn_id": "BK22011693-5",
+            "utterance_id": "BK22011693.9"
+        },
+        {
+            "reference_date": "2019-06-02",
+            "reference_text": [
+                {
+                    "value": "도베르만 핀셔는 원래 덮인 귀를 가지고 태어난다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 많은 도베르만 핀셔가 생후 3개월 무렵 ‘단이 수술’이라고 불리는 수술을 통해 귀의 일부가 잘리게 된다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.viva100.com/main/view.php?key=20190602002234486",
+            "search_query": "도베르만 귀",
+            "terminate": false,
+            "text": "그런데 원래 도베르만의 귀는 덮여있는 모양이에요. 그래서 많은 경우 생후 3개월 무렵에 귀의 일부를 자르는 단이 수술을 해요.",
+            "turn_id": "BK22011693-5",
+            "utterance_id": "BK22011693.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "귀를 자른다니, 너무 아플 거 같은데요.",
+            "turn_id": "BK22011693-6",
+            "utterance_id": "BK22011693.11"
+        },
+        {
+            "reference_date": "2019-06-02",
+            "reference_text": [
+                {
+                    "value": "단이 수술을 받는 도베르만 핀셔는 극도의 공포감을 느끼게 되며 고통과 출혈도 피할 수 없다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.viva100.com/main/view.php?key=20190602002234486",
+            "search_query": "도베르만 단이 수술",
+            "terminate": false,
+            "text": "그렇죠, 수술을 받는 도베르만은 공포와 고통을 겪게 되죠.",
+            "turn_id": "BK22011693-6",
+            "utterance_id": "BK22011693.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 단지 귀 모양 때문에 수술을 하는 건가요?",
+            "turn_id": "BK22011693-7",
+            "utterance_id": "BK22011693.13"
+        },
+        {
+            "reference_date": "2019-06-27",
+            "reference_text": [
+                {
+                    "value": "단이수술을 찬성하는 사람들이 가장 자주 하는 주장은 귀를 자르지 않으면 위생적으로 좋지 않아서 귓병에 걸리기 쉽다는 것이다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우선 이 주장은 의학적으로 검증된 것은 아닌 것으로 보인다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://gametoc.hankyung.com/news/articleView.html?idxno=51981",
+            "search_query": "도베르만 단이 수술 위생",
+            "terminate": false,
+            "text": "단이 수술에 찬성하는 사람은 귀를 수술하지 않으면 위생적으로 좋지 않아, 귓병이 잘 걸린다는 입장인데요. 이러한 주장은 의학적으로 검증되지는 않았어요.",
+            "turn_id": "BK22011693-7",
+            "utterance_id": "BK22011693.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 제가 알기로는 견종 중에 꼬리를 자르는 개도 있는데 혹시 도베르만도 그러나요?",
+            "turn_id": "BK22011693-8",
+            "utterance_id": "BK22011693.15"
+        },
+        {
+            "reference_date": "2015-05-27",
+            "reference_text": [
+                {
+                    "value": "꼬리는 생후 일주일 이내에, 귀는 생후2~4개월에 단미, 단이를 해준다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/011/0002688559?sid=103",
+            "search_query": "도베르만 단미 단이",
+            "terminate": false,
+            "text": "네, 생후 일주일 이내에 꼬리를 자르는 단미를 진행해요.",
+            "turn_id": "BK22011693-8",
+            "utterance_id": "BK22011693.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생후 일주일인데 단미라니, 안타깝네요.",
+            "turn_id": "BK22011693-9",
+            "utterance_id": "BK22011693.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇죠, 도베르만에 대해 더 궁금한 게 있으신가요?",
+            "turn_id": "BK22011693-9",
+            "utterance_id": "BK22011693.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아니요, 궁금한 게 모두 해소되었어요. 오늘 좋은 정보 주셔서 감사해요.",
+            "turn_id": "BK22011693-10",
+            "utterance_id": "BK22011693.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요, 다음에 또 대화 나눠요.",
+            "turn_id": "BK22011693-10",
+            "utterance_id": "BK22011693.20"
+        }
+    ]
+}

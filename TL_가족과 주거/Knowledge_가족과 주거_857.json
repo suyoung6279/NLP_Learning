@@ -1,0 +1,327 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22000255",
+        "name": "2022 한국어 블렌더봇 데이터 BK22000255",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저, 남편이랑 이혼하려고 하는데 질문 좀 드려도 될까요?",
+            "turn_id": "BK22000255-1",
+            "utterance_id": "BK22000255.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "남편분과 이혼하려고 하시는군요. 무슨 질문인지는 모르겠지만 얼마든지 물어보셔도 돼요.",
+            "turn_id": "BK22000255-1",
+            "utterance_id": "BK22000255.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이혼을 결심하긴 했는데, 이혼 절차에 대해서 하나도 몰라서요.",
+            "turn_id": "BK22000255-2",
+            "utterance_id": "BK22000255.3"
+        },
+        {
+            "reference_date": "2022-06-10",
+            "reference_text": [
+                {
+                    "value": "국내 이혼 절차는 협의이혼, 재판상의 이혼, 조정이혼 총 3가지로 구분된다.",
+                    "value_time": "2022-06-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://idsn.co.kr/news/view/1065587171346700",
+            "search_query": "이혼",
+            "terminate": false,
+            "text": "국내 이혼 절차는 총 세가지가 있는데, 협의이혼, 재판상의 이혼, 조정이혼으로 구분돼요.",
+            "turn_id": "BK22000255-2",
+            "utterance_id": "BK22000255.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "협의이혼이랑 재판상의 이혼은 알겠는데, 조정이혼은 뭔가요?",
+            "turn_id": "BK22000255-3",
+            "utterance_id": "BK22000255.5"
+        },
+        {
+            "reference_date": "2022-05-17",
+            "reference_text": [
+                {
+                    "value": "‘조정이혼’은 조정을 통해 이혼에 대한 합의를 성립하고 이를 조서에 기재함으로써 확정판결과 동일한 효력을 얻는 방법이다.",
+                    "value_time": "2022-06-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mediafine.co.kr/news/articleView.html?idxno=12818",
+            "search_query": "조정 이혼",
+            "terminate": false,
+            "text": "조정이혼은 조정을 통해 이혼에 대해 합의를 성립하고 이를 조서에 기재해서 확정 판결이랑 동일한 효력을 얻을 수 있는 방법이에요. 서로 이혼하는 데 있어서 합의는 되셨어요?",
+            "turn_id": "BK22000255-3",
+            "utterance_id": "BK22000255.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사실 남편이 바람을 피웠거든요. 저한테 들켜서 저는 이혼하자고 말했는데 남편은 말도 안 된다고 하네요.",
+            "turn_id": "BK22000255-4",
+            "utterance_id": "BK22000255.7"
+        },
+        {
+            "reference_date": "2022-06-10",
+            "reference_text": [
+                {
+                    "value": "이러한 외도가 확인되었다면 이를 입증할 수 있는 증거를 확보하여 외도이혼을 진행할 수 있다.",
+                    "value_time": "2022-06-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.beopbo.com/news/articleView.html?idxno=310096",
+            "search_query": "외도 이혼",
+            "terminate": false,
+            "text": "상심이 정말 크셨겠어요. 남편의 외도가 확인되었으면 입증할 수 있는 증거를 확보해서 외도 이혼을 진행할 수 있어요.",
+            "turn_id": "BK22000255-4",
+            "utterance_id": "BK22000255.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 날벼락 같았죠. 외도를 입증할 수 있는 증거는 어떤 증거를 말하는 건가요?",
+            "turn_id": "BK22000255-5",
+            "utterance_id": "BK22000255.9"
+        },
+        {
+            "reference_date": "2022-06-08",
+            "reference_text": [
+                {
+                    "value": "중요한 것은 CCTV, 블랙박스 영상, 차량 운행 기록, 금전 사용 기록 등 합법적 증거수집을 통해 본인에게 유리한 증거를 확보하는 것이다.",
+                    "value_time": "2022-06-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=105610",
+            "search_query": "외도 이혼 증거",
+            "terminate": false,
+            "text": "CCTV 영상이나 남편 차량 블랙박스 영상 같은 것도 좋고 차량 운행 기록, 금전 사용 기록 등도 수집하시면 좋아요. 대신 합법적으로 수집을 하셔야지 본인한테 유리해요.",
+            "turn_id": "BK22000255-5",
+            "utterance_id": "BK22000255.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일단 남편 차 블랙박스는 떼어 오긴 했는데 다행이네요. 그런데 남편이 이혼을 계속 거부하면 어떻게 하죠.",
+            "turn_id": "BK22000255-6",
+            "utterance_id": "BK22000255.11"
+        },
+        {
+            "reference_date": "2021-11-19",
+            "reference_text": [
+                {
+                    "value": "하지만 이혼 과정은 원만하지 않은 경우가 적지 않고, 특히 부부 일방이 이혼을 원하지만 다른 일방이 협의를 거부하며 이혼에 응하지 않는다면 불가피하게 재판상 이혼 절차가 필요하다.",
+                    "value_time": "2022-06-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mediafine.co.kr/news/articleView.html?idxno=11894",
+            "search_query": "외도 이혼 거부",
+            "terminate": false,
+            "text": "부부 중 한 쪽이 협의를 거부하고 이혼에 응하지 않으면 불가피하게 재판상 이혼 절차가 필요해요. 이혼 소송 준비를 하셔야 하는데 괜찮으시겠어요?",
+            "turn_id": "BK22000255-6",
+            "utterance_id": "BK22000255.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "만약에 소송이 필요하면 진행해야죠. 소송 준비하는 데 많이 힘들까요?",
+            "turn_id": "BK22000255-7",
+            "utterance_id": "BK22000255.13"
+        },
+        {
+            "reference_date": "2021-11-19",
+            "reference_text": [
+                {
+                    "value": "실제 이혼소송 돌입 시 주요쟁점으로는 이혼의 유책 사유 판별을 시작으로 자녀에 대한 친권, 양육권, 양육비와 재산분할, 위자료 등이 대표적이며 이를 비롯한 다양한 문제들을 마주하게 된다.",
+                    "value_time": "2022-06-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mediafine.co.kr/news/articleView.html?idxno=11894",
+            "search_query": "이혼소송 사전준비",
+            "terminate": false,
+            "text": "이혼소송에 돌입하게 되면 이혼의 유책 사유 판별 부터 시작해서 자녀에 대한 친권 문제도 고려해야 해요. 그리고 양육비랑 재산분할도 문제가 되고 위자료도 대표적인 문제죠.",
+            "turn_id": "BK22000255-7",
+            "utterance_id": "BK22000255.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "위자료 너무 중요하죠. 제가 상처받은 만큼 위자료도 최대한 받고 싶어요.",
+            "turn_id": "BK22000255-8",
+            "utterance_id": "BK22000255.15"
+        },
+        {
+            "reference_date": "2022-06-10",
+            "reference_text": [
+                {
+                    "value": "사랑하는 배우자로부터 배신을 당했다는 생각에 무조건 높은 액수의 위자료를 요구하는 경우가 많으나 현실에서는 여러 기준을 고려해 위자료 액수를 결정하기 때문에 무리한 주장을 한다 해서 유리하다고 보기는 어렵다.",
+                    "value_time": "2022-06-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "위자료 산정 기준으로는 혼인 기간 대비 부정행위의 기간, 구체적인 외도 행위의 수위, 상간자의 반성 여부, 부정행위를 하게 된 경위 등이 있다.",
+                    "value_time": "2022-06-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.beopbo.com/news/articleView.html?idxno=310096",
+            "search_query": "외도 이혼 위자료",
+            "terminate": false,
+            "text": "배신을 당하셨으니 높은 액수의 위자료를 생각하시는 건 이해하지만 이혼 위자료는 현실적으로 여러 기준을 고려해서 액수를 결정하게 돼요. 위자료 산정 기준에는 혼인 기간 대비 부정행위의 기간이 있고 구체적인 외도 행위의 수위도 기준에 들어가죠. 상간자가 반성은 하는지 부정행위를 하게 된 경위 등도 위자료에 영향을 주고요.",
+            "turn_id": "BK22000255-8",
+            "utterance_id": "BK22000255.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 외도라서 최대한 받을 수 있을 줄 알았는데, 생각보다 복잡하네요. 그 상간녀한테도 꼭 처벌을 받게 하거나 소송을 하고 싶은데, 가능한가요?",
+            "turn_id": "BK22000255-9",
+            "utterance_id": "BK22000255.17"
+        },
+        {
+            "reference_date": "2022-06-09",
+            "reference_text": [
+                {
+                    "value": "유부남, 유부녀가 다른 이성과 부정행위를 저지르는 불륜 행각은 간통죄 폐지로 형사처벌은 받지 않으나 명백한 이혼 사유이며, 유책 배우자와 상간자는 부정행위로 인한 피해에 대해 민사상 손해배상 책임을 피할 수 없다.",
+                    "value_time": "2022-06-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.globalepic.co.kr/view.php?ud=202206031324427422992c130dbe_29",
+            "search_query": "외도 이혼 상간녀",
+            "terminate": false,
+            "text": "간통죄 폐지로 상간녀는 형사처벌은 받지 않아요. 하지만 부정행위로 인한 피해에 대해 민사상 손해배상 책임은 지게 할 수 있죠.",
+            "turn_id": "BK22000255-9",
+            "utterance_id": "BK22000255.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 상간녀에 대한 소송도 같이 준비해야겠네요. 앞으로 할 일이 태산이군요.",
+            "turn_id": "BK22000255-10",
+            "utterance_id": "BK22000255.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마음 굳게 먹으시고 준비 잘 하세요. 소송하시려면 체력도 기르시고요.",
+            "turn_id": "BK22000255-10",
+            "utterance_id": "BK22000255.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "덕분에 마음 굳게 먹을 수 있을 것 같아요. 너무 감사합니다.",
+            "turn_id": "BK22000255-11",
+            "utterance_id": "BK22000255.21"
+        }
+    ]
+}

@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015343",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015343",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 키우는 반려견의 털이 평소보다 많이 빠져서 걱정이에요. 이렇게 털이 많이 빠지는 이유가 뭘까요?",
+            "turn_id": "BK22015343-1",
+            "utterance_id": "BK22015343.1"
+        },
+        {
+            "reference_date": "2022-09-27",
+            "reference_text": [
+                {
+                    "value": "강아지에게서 털이 빠지는 것은 계절의 변화, 빛의 양, 반려견의 건강상태 등이 영향을 미친다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보통 환절기를 털갈이 시기라고 부르는 것도 계절의 영향을 받아 주로 봄과 가을에 털이 상당히 많이 빠지기 때문이다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61314",
+            "search_query": "환절기 털갈이",
+            "terminate": false,
+            "text": "강아지 털빠짐의 원인에는 계절의 변화, 빛의 양, 반려견의 건강상태 등이 작용을 해요. 보통 환절기인 봄과 가을을 털갈이 시즌이라고 칭하는 것도 계절의 영향을 받아 털이 꽤 많이 빠지기 때문이에요.",
+            "turn_id": "BK22015343-1",
+            "utterance_id": "BK22015343.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "환절기의 영향이 크군요. 그런데 저희 집 강아지는 단모종이거든요. 단모종이 장모종보다 털이 더 많이 빠지기도 하나요?",
+            "turn_id": "BK22015343-2",
+            "utterance_id": "BK22015343.3"
+        },
+        {
+            "reference_date": "2022-09-27",
+            "reference_text": [
+                {
+                    "value": "반려동물마다 털이 빠지는 정도는 각각 차이가 있다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "강아지는 털의 길이에 따라 길이가 길면 장모종, 길이가 짧으면 단모종으로 분류한다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "단모종은 털이 자라는 속도가 빠르고 그만큼 털이 교체되는 시기도 짧아 일반적으로 장모종보다 털이 많이 빠지는 편이다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61314",
+            "search_query": "단모종",
+            "terminate": false,
+            "text": "네, 반려동물마다 털이 빠지는 정도의 차이가 있어요. 강아지는 털의 길이에 의해 털 길이가 길면 장모종, 털 길이가 짧으면 단모종으로 구분해요. 단모종은 장모종보다 털이 많이 빠지는 편이며, 털이 자라는 속도가 빠르고 그만큼 털이 교체되는 주기도 짧아요.",
+            "turn_id": "BK22015343-2",
+            "utterance_id": "BK22015343.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 근데 그걸 감안해도 털이 한 번에 너무 많이 빠지는 것 같은데, 이게 정상이 맞나요?",
+            "turn_id": "BK22015343-3",
+            "utterance_id": "BK22015343.5"
+        },
+        {
+            "reference_date": "2022-09-27",
+            "reference_text": [
+                {
+                    "value": "사람은 각각의 모발이 독립적인 성장주기가 있어서 털이 빠진다고 해도 평균적으로 하루 60~80개 정도만 빠져 일정한 모발의 수를 유지한다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이와 달리 동물은 털갈이할 때 순간적으로 평소보다 훨씬 많은 털이 빠진다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 동물에게 털갈이는 자연스러운 현상으로 시간이 지나면 털이 다시 자라나니 너무 걱정하지 않아도 된다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61314",
+            "search_query": "털갈이",
+            "terminate": false,
+            "text": "사람의 경우 모발마다 독립적인 성장주기가 있어서 털이 빠진다고 해도 일반적으로 하루 60~80개 정도만 빠져서 거의 동일한 모발의 수를 유지하죠. 이와 달리 동물은 털갈이할 때 일시적으로 평소보다 많은 양의 털이 빠져요. 하지만 동물에게 털갈이는 자연스러운 현상이고, 시간이 흐르면 털 역시 다시 자라니 너무 걱정하지 마세요.",
+            "turn_id": "BK22015343-3",
+            "utterance_id": "BK22015343.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "털갈이를 할 때 일시적으로 많은 털이 빠진다고 하셨는데, 혹시 한 쪽 부위만 털이 유난히 많이 빠지는 것도 정상인가요? 저희 강아지가 특정부위에만 털이 없는 곳도 있거든요.",
+            "turn_id": "BK22015343-4",
+            "utterance_id": "BK22015343.7"
+        },
+        {
+            "reference_date": "2022-09-27",
+            "reference_text": [
+                {
+                    "value": "탈모는 ▲정상적으로 털이 있어야 하는 부위에 털이 없거나 ▲특정 부위에만 털이 빠지거나 ▲피부가 보일 정도로 과하게 털이 빠지는 특징이 있다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61314",
+            "search_query": "탈모",
+            "terminate": false,
+            "text": "그런 경우 탈모를 의심해보셔야 해요. 탈모는 정상적으로 털이 있어야 하는 부위에 털이 없거나, 특정 부위에만 털이 빠지거나, 피부가 보일 정도로 과하게 털이 빠지는 특징이 나타나거든요.",
+            "turn_id": "BK22015343-4",
+            "utterance_id": "BK22015343.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희 강아지가 탈모일 수도 있겠네요. 그런데 탈모의 원인이 뭔가요?",
+            "turn_id": "BK22015343-5",
+            "utterance_id": "BK22015343.9"
+        },
+        {
+            "reference_date": "2022-09-27",
+            "reference_text": [
+                {
+                    "value": "탈모는 호르몬질환이나 피부병(아토피, 감염성)으로 일어날 수 있다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그중에서도 강아지 탈모의 가장 대표적인 원인은 호르몬 문제다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "부신피질호르몬, 갑상선호르몬 등에 이상이 있다면 털이 대칭으로 빠지는 탈모가 나타날 수 있다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러니 탈모가 의심된다면 먼저 호르몬 검사 등을 진행해 다른 원인이 되는 질환은 없는지 살펴보는 것이 좋다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61314",
+            "search_query": "강아지 탈모 호르몬",
+            "terminate": false,
+            "text": "탈모는 호르몬 질환이나 아토피, 감염성 같은 피부염으로 발생할 수 있어요. 그중에서도 강아지 탈모의 제일 대표적인 원인은 호르몬 문제예요. 부신피질호르몬, 갑상선호르몬 등에 문제가 있다면 털이 대칭으로 빠지는 탈모가 생길 수 있어요. 그래서 탈모가 의심된다면 먼저 호르몬 검사 등을 받아 다른 원인이 되는 질환은 없는지 검사 받는 것이 필요해요.",
+            "turn_id": "BK22015343-5",
+            "utterance_id": "BK22015343.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "호르몬이 탈모에 큰 영향을 미치는 거였군요. 혹시 다른 원인도 있나요?",
+            "turn_id": "BK22015343-6",
+            "utterance_id": "BK22015343.11"
+        },
+        {
+            "reference_date": "2022-09-27",
+            "reference_text": [
+                {
+                    "value": "만일 가려움과 함께 탈모가 나타난다면 피부병을 의심해봐야 한다. 원인이 옴진드기나 피부사상균이라면 전염성이 있으니 반드시 주의해야 한다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61314",
+            "search_query": "피부병 탈모",
+            "terminate": false,
+            "text": "네, 만일 탈모가 가려움과 함께 발생한다면 피부병을 의심해봐야 해요. 특히 원인이 옴진드기나 피부사상균이라면 전염 가능성이 있으니 매우 조심해야 해요.",
+            "turn_id": "BK22015343-6",
+            "utterance_id": "BK22015343.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 저희 강아지는 가려워하는 부위만 털이 없어서 휑한데, 이건 원인이 뭘까요?",
+            "turn_id": "BK22015343-7",
+            "utterance_id": "BK22015343.13"
+        },
+        {
+            "reference_date": "2022-09-27",
+            "reference_text": [
+                {
+                    "value": "또 심한 가려움과 함께 가려워하는 부위에만 탈모가 나타난다면 알레르기를 의심해볼 수 있다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아토피가 원인이라면 동물병원에서 사이토포인트 주사를 맞히고 식이 관리를 통해 알레르기원을 차단해주는 것이 중요하다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61314",
+            "search_query": "알레르기 탈모",
+            "terminate": false,
+            "text": "만약 심한 가려움과 함께 가려워하는 부위에만 털이 빠진다면 알레르기 때문이라고 생각해 볼 수 있어요. 만약 아토피가 원인이라면 동물병원에서 사이토포인트 주사를 맞히고 식이 관리를 통해 알레르기원을 막아주는 것이 중요하거든요.",
+            "turn_id": "BK22015343-7",
+            "utterance_id": "BK22015343.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무래도 저희 강아지가 알러지 때문에 탈모가 생긴 것 같네요. 그럼 탈모 예방법에는 어떤게 있을까요?",
+            "turn_id": "BK22015343-8",
+            "utterance_id": "BK22015343.15"
+        },
+        {
+            "reference_date": "2022-09-27",
+            "reference_text": [
+                {
+                    "value": "강아지 탈모를 예방하기 위해서는 평소 오메가3, 오메가6 합제의 필수지방산을 급여하는 것이 좋고, 털을 잘 빗겨주고 보습제를 사용해 반려견에게 보습관리를 해주는 것을 추천한다.",
+                    "value_time": "2022-10-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=61314",
+            "search_query": "강아지 탈모 예방",
+            "terminate": false,
+            "text": "강아지 탈모를 예방하기 위해서는 평소 오메가3, 오메가6 합제의 필수지방산을 주는 것이 좋고, 털을 잘 빗어주고 보습제를 이용해 반려견에게 보습관리를 해주는 것이 좋아요.",
+            "turn_id": "BK22015343-8",
+            "utterance_id": "BK22015343.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 일단 저희 강아지를 내일 동물병원에 데려가 봐야겠어요.",
+            "turn_id": "BK22015343-9",
+            "utterance_id": "BK22015343.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 제 생각도 마찬가지예요. 치료가 잘 됐으면 좋겠네요.",
+            "turn_id": "BK22015343-9",
+            "utterance_id": "BK22015343.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 유용한 정보 주셔서 정말 감사합니다. 저는 이만 들어가 볼게요.",
+            "turn_id": "BK22015343-10",
+            "utterance_id": "BK22015343.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 그럼 조심히 들어가세요.",
+            "turn_id": "BK22015343-10",
+            "utterance_id": "BK22015343.20"
+        }
+    ]
+}

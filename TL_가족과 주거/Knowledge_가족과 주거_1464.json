@@ -1,0 +1,372 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011427",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011427",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0029"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오랜만에 우리 집에서 만나니까 좋다. 내가 키우는 강아지들 처음 보는 거지?",
+            "turn_id": "BK22011427-1",
+            "utterance_id": "BK22011427.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 정말 귀엽다. 암컷 1마리랑 수컷 1마리 맞지?",
+            "turn_id": "BK22011427-1",
+            "utterance_id": "BK22011427.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 둘이 부부야. 새끼까지 한 가족이 되었으면 해서 일부러 중성화 수술을 안 했는데, 혹시 강아지 임신기간에 대해서 알고 있어?",
+            "turn_id": "BK22011427-2",
+            "utterance_id": "BK22011427.3"
+        },
+        {
+            "reference_date": "2016-08-23",
+            "reference_text": [
+                {
+                    "value": "일반적으로 개의 임신기간은 배란일 기준으로 60~65일입니다(평균 63일).",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "임신기간의 차이는 개의 종류마다 조금씩 다르고 일반적으로 수정된 태아(胎芽)의 수가 많을 경우 출산일이 빨라지기도 합니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.khan.co.kr/bizlife/sk_index.html?art_id=201608231744003&sec_id=650101&pt=nv",
+            "search_query": "강아지 임신 기간",
+            "terminate": false,
+            "text": "응, 강아지 임신기간은 배란일로부터 약 60~65일 사이야. 다만 종류마다 조금씩 임신 기간의 차이가 있고 수정된 태아가 많을수록 출산일이 빨라지기도 해.",
+            "turn_id": "BK22011427-2",
+            "utterance_id": "BK22011427.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그런데 강아지가 임신할 수 있는 나이는 어느 정도야? 사람은 폐경이 있잖아.",
+            "turn_id": "BK22011427-3",
+            "utterance_id": "BK22011427.5"
+        },
+        {
+            "reference_date": "2016-03-02",
+            "reference_text": [
+                {
+                    "value": "개와 고양이에게 폐경이란 없습니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사람과 마찬가지로 노견이나 노묘가 임신하는 경우에도 기형아 출산, 난산 등 노산의 위험성이 존재합니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "때문에 중성화하지 않은 반려동물을 기를 경우, 반려인의 세심한 관찰과 주의가 필요합니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/201603021363414946",
+            "search_query": "임신 가능한 강아지 나이",
+            "terminate": false,
+            "text": "강아지는 폐경이 없어. 다만 사람과 비슷하게 늙은 강아지가 임신할 경우 기형아를 낳거나 난산을 할 위험이 크기 때문에 중성화하지 않은 강아지라면 세심하게 살피고 주의를 해야해.",
+            "turn_id": "BK22011427-3",
+            "utterance_id": "BK22011427.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어, 그럼 강아지가 임신을 하면 나타나는 증상에는 어떤 게 있어?",
+            "turn_id": "BK22011427-4",
+            "utterance_id": "BK22011427.7"
+        },
+        {
+            "reference_date": "2021-01-19",
+            "reference_text": [
+                {
+                    "value": "보통 암컷 강아지는 생리가 끝나게 되면 커졌던 젖꼭지나 생식기의 크기가 서서히 줄어드는게 일반적이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 젖꼭지와 생식기의 크기가 줄어들지 않고 그 상태가 계속 유지된다면 임신했을 확률이 높다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=135588",
+            "search_query": "강아지 임신 증상",
+            "terminate": false,
+            "text": "암컷 강아지는 보통 생리할 때 커졌던 젖꼭지나 생식기가 생리가 끝나면 서서히 작아지는 게 정상인데, 유두와 생식기의 크기가 작아지지 않고 유지가 된다면 임신했을 가능성이 높아.",
+            "turn_id": "BK22011427-4",
+            "utterance_id": "BK22011427.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 생리 후를 잘 확인해야겠네. 혹시 강아지가 임신으로 확인될 경우에 관리는 어떻게 하면 좋을까?",
+            "turn_id": "BK22011427-5",
+            "utterance_id": "BK22011427.9"
+        },
+        {
+            "reference_date": "2020-01-15",
+            "reference_text": [
+                {
+                    "value": "임신 초기에 해 줘야 할 것은 영양 관리다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 임신 전에 먹던 성견용 사료가 아닌 칼로리가 높은 자견용 사료를 먹이고 그 양과 횟수도 늘려주는 게 좋다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sisajournal.com/news/articleView.html?idxno=194536",
+            "search_query": "강아지 임신 후 관리",
+            "terminate": false,
+            "text": "임신을 하면 태아가 자라기 위해 칼로리 소모가 많아지기 때문에 임신 초기에는 영양을 관리하는 것이 중요해. 임신하기 전에 먹던 성견용 사료보다는 칼로리가 높은 새끼 강아지용 사료를 먹고 양과 횟수도 늘리는 것이 좋아.",
+            "turn_id": "BK22011427-5",
+            "utterance_id": "BK22011427.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그럼 강아지가 출산하기 전에 확인해야 할 것은 어떤 게 있을까?",
+            "turn_id": "BK22011427-6",
+            "utterance_id": "BK22011427.11"
+        },
+        {
+            "reference_date": "2020-01-15",
+            "reference_text": [
+                {
+                    "value": "출산 전 동물병원을 방문해 배 속에 있는 새끼들의 발육 상태와 산자수를 확인하는 것은 필수다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 산자수를 미리 확인하지 않으면 긴 분만 과정 동안 배 속의 모든 새끼들이 정상적으로 분만되었는지 알 수 없어 대처가 어려워진다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sisajournal.com/news/articleView.html?idxno=194536",
+            "search_query": "강아지 출산 전 확인해야 할것",
+            "terminate": false,
+            "text": "출산 전에는 동물 병원에 가서 배 속에 있는 새끼들이 잘 자라고 있는지와, 몇 마리가 있는지를 확인해야 해. 뱃속에 몇 마리가 있는지 모를 경우 분만 과정 동안 모든 새끼들을 낳았는지 알 수가 없기 때문에 대처하기가 힘들거든.",
+            "turn_id": "BK22011427-6",
+            "utterance_id": "BK22011427.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무래도 새끼 수를 모르면 다 낳았는지 확인이 어렵겠네. 그럼 강아지 출산 준비는 어떻게 해야 할까?",
+            "turn_id": "BK22011427-7",
+            "utterance_id": "BK22011427.13"
+        },
+        {
+            "reference_date": "2016-10-25",
+            "reference_text": [
+                {
+                    "value": "보호자는 분만이 시작되기 1주일 전부터는 강아지에게 분만할 장소를 마련해 주어야 합니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가능한 한 어미개에게 익숙하고 어둡지만 따뜻하며 조용한 곳이 좋습니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "바닥에는 포근한 담요를 깔아주고 분만 후 지저분해지지 않도록 관리해 주는 것이 중요합니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.khan.co.kr/bizlife/sk_index.html?art_id=201609071525013&sec_id=650101&pt=nv",
+            "search_query": "강아지 출산 준비",
+            "terminate": false,
+            "text": "출산 예정일 1주일 전쯤에는 강아지가 출산할 장소를 마련해야 해. 되도록 임신한 강아지에게 어둡지만 익숙하면서도 따뜻하고 시끄럽지 않은 장소가 좋아. 또 바닥에는 포근한 담요를 깔아주고 출산 후 더러워지지 않도록 관리하는 것도 중요해.",
+            "turn_id": "BK22011427-7",
+            "utterance_id": "BK22011427.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 잘 기억하도록 할게. 그럼 출산 예정일이 다가왔을 때 출산이 임박했다는 징후를 어떻게 알 수 있어?",
+            "turn_id": "BK22011427-8",
+            "utterance_id": "BK22011427.15"
+        },
+        {
+            "reference_date": "2022-05-28",
+            "reference_text": [
+                {
+                    "value": "출산징후를 간단하게 소개하자면 어미가 산만하게 움직이거나 땅을 파거나 바닥을 긁는 행동을 보인다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "체온이 내려가면 곧 분만할 것으로 보면 된다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=59528",
+            "search_query": "강아지 출산 징후",
+            "terminate": false,
+            "text": "임신한 강아지가 부산스럽게 움직인다거나 땅을 파고 바닥을 긁는다면 곧 출산을 한다는 징후야. 또 체온이 내려가는 것도 곧 분만을 한다는 걸 알 수 있어.",
+            "turn_id": "BK22011427-8",
+            "utterance_id": "BK22011427.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "체온이 내려가는 것도 출산의 징후구나. 그런데 강아지가 난산인 경우에는 어떡하지? 또 어떻게 하면 알 수 있어?",
+            "turn_id": "BK22011427-9",
+            "utterance_id": "BK22011427.17"
+        },
+        {
+            "reference_date": "2020-01-15",
+            "reference_text": [
+                {
+                    "value": "출산 예정일이 됐는데도 분만 징후가 없거나, 30분 이상 진통이 지속되었음에도 태아가 나오지 않는 경우 난산일 가능성이 높다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "되도록 빨리 가까운 동물병원을 찾는 것이 좋다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sisajournal.com/news/articleView.html?idxno=194536",
+            "search_query": "강아지 난산",
+            "terminate": false,
+            "text": "첫 번째로 출산 예정일인데도 출산 징후가 나타나지 않거나 두 번째로 진통이 30분 이상 계속되는데도 새끼가 나오지 않는다면 난산의 가능성이 높기 때문에, 그럴 때는 즉시 근처의 동물 병원에 가야 해.",
+            "turn_id": "BK22011427-9",
+            "utterance_id": "BK22011427.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아직 우리 강아지가 임신한 것은 아니지만 임신과 출산 과정을 잘 준비할 수 있을 것 같아. 알려줘서 정말 고마워.",
+            "turn_id": "BK22011427-10",
+            "utterance_id": "BK22011427.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도움이 되어 다행이야. 아, 벌써 시간이 이렇게 됐네. 이제 집에 가봐야 할 것 같아.",
+            "turn_id": "BK22011427-10",
+            "utterance_id": "BK22011427.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "말하느라 시간 가는 줄도 몰랐어. 조심히 가고 다음에 또 보자.",
+            "turn_id": "BK22011427-11",
+            "utterance_id": "BK22011427.21"
+        }
+    ]
+}

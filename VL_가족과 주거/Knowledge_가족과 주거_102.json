@@ -1,0 +1,348 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018031",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018031",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_nhn_voter0007"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 비혼을 선택하려고 해요.",
+            "turn_id": "BK22018031-1",
+            "utterance_id": "BK22018031.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 그렇게 생각한 이유가 있나요?",
+            "turn_id": "BK22018031-1",
+            "utterance_id": "BK22018031.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "경제력도 떨어져서 제 한 몸 건사하기도 힘들 것 같고, 좋은 양육자가 될 것 같지 않아요. 제 주위에는 비혼인 친구들도 많아서 같이 나이를 먹어가는 것도 즐거울 것 같아요.",
+            "turn_id": "BK22018031-2",
+            "utterance_id": "BK22018031.3"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근 그렇게 생각하는 사람들이 많아지고 있긴 하죠.",
+            "turn_id": "BK22018031-2",
+            "utterance_id": "BK22018031.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 나중에 병들고 아픈 순간이 걱정되기는 해요. 주위에 가족이 없을 때, 혹은 가족이 있어도 아픈 나를 대신해서 제 친구들이 나를 돌볼 수 있을까요. 병원에도 같이 가 주고, 약도 처방받아주거나 하는 일들이 가능할까요?",
+            "turn_id": "BK22018031-3",
+            "utterance_id": "BK22018031.5"
+        },
+        {
+            "reference_date": "44834.0",
+            "reference_text": [
+                {
+                    "value": "돌봄에 관심 없는 법적 가족을 대신해서 친구들이 처방전을 받을 수 있을까?",
+                    "value_time": "44837.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "답은 ‘아니오’다.",
+                    "value_time": "44837.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ildaro.com/9453",
+            "search_query": "다양한 가족 정책",
+            "terminate": false,
+            "text": "현행법상 돌봄에 관심이 없는 법적 가족을 대신해서 친구들이 나를 돌봐 주더라도, 처방전을 받는 것은 어려워요.",
+            "turn_id": "BK22018031-3",
+            "utterance_id": "BK22018031.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "친구들과 아무리 가족처럼 살아도 안되는 건가요? 그 이유가 뭐예요?",
+            "turn_id": "BK22018031-4",
+            "utterance_id": "BK22018031.7"
+        },
+        {
+            "reference_date": "44834.0",
+            "reference_text": [
+                {
+                    "value": "1인가구 수가 ‘정상가족’으로 여겨지는 4인가구의 수를 한참 넘어섰음에도 불구하고, 혈연과 이성애 관계로 맺어진 가족이 아닌 다양한 가족의 형태가 등장해 이들이 돌봄을 수행하고 있음에도 불구하고, 여전히 법과 제도가 낡은 형태에 머물러 있는 탓이다.",
+                    "value_time": "44837.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ildaro.com/9453",
+            "search_query": "다양한 가족 정책",
+            "terminate": false,
+            "text": "요즘은 이른바 정상가족으로 여겨지는 4인 가구의 수 이상으로 1인 가구 수가 증가했어요. 또, 혈연이나 이성애 관계로 이루어진 가족이 아닌 다양한 가족의 형태도 많이 등장했죠. 이들이 돌봄의 역할을 수행하고 있음에도, 아직까지 법이나 제도가 구시대적인 형태에 머물러 있기 때문이에요.",
+            "turn_id": "BK22018031-4",
+            "utterance_id": "BK22018031.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다른 나라의 사례는 어때요? 외국에서도 의료행위에 대해 가족만 대리인이 될 수 있나요?",
+            "turn_id": "BK22018031-5",
+            "utterance_id": "BK22018031.9"
+        },
+        {
+            "reference_date": "44834.0",
+            "reference_text": [
+                {
+                    "value": "허민숙 국회 입법조사처 입법조사관은 의료행위에서 ‘보호자/대리인’이 법적 가족으로 제한되는 한국과 달리 “호주, 영국, 미국 등지에선 의료 결정에 있어서 당사자의 평소 신념과 바람을 가장 잘 알고 있는 신뢰 깊은 자이면 건강돌봄 대리인 자격이 충분하다”고 설명했다.",
+                    "value_time": "44837.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ildaro.com/9453",
+            "search_query": "다양한 가족 대리인",
+            "terminate": false,
+            "text": "한국은 의료행위에서 보호자와 대리인이 될 수 있는 건 법적 가족만 가능해요. 하지만 영국이나 호주, 미국 등지에서는 의료적 결정을 할 때에 의료 당사자가 평소에 가진 신념과 바람을 가장 잘 알고 있는 신뢰 깊은 사람이라면 건강돌봄 대리인 자격을 가질 수 있어요.",
+            "turn_id": "BK22018031-5",
+            "utterance_id": "BK22018031.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 그렇군요. 그렇다면 가족의 개념 역시 한국과는 차이가 있어요?",
+            "turn_id": "BK22018031-6",
+            "utterance_id": "BK22018031.11"
+        },
+        {
+            "reference_date": "44834.0",
+            "reference_text": [
+                {
+                    "value": "가족이라는 개념 역시 “혈연이나 법률혼으로 연결되지 않았으나 가족처럼 가까운 관계에 있는 친밀한 사람을 가족으로 여기는 ‘선택된 가족’(chosen family)으로 확대”되었다고 했다.",
+                    "value_time": "44837.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ildaro.com/9453",
+            "search_query": "선택된 가족",
+            "terminate": false,
+            "text": "가족이라는 개념도 혈연이나 법률로 이어지지 않더라도 가족처럼 가까운 관계에 있는 친밀한 사람을 가족으로 여기죠. 기존의 가족 개념이 이른바 선택된 가족으로 확대되었다고 할 수 있어요.",
+            "turn_id": "BK22018031-6",
+            "utterance_id": "BK22018031.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "선택된 가족이라니, 흥미롭네요. 그러면 국가적으로도 가족으로 인정해 주는 건가요?",
+            "turn_id": "BK22018031-7",
+            "utterance_id": "BK22018031.13"
+        },
+        {
+            "reference_date": "44834.0",
+            "reference_text": [
+                {
+                    "value": "“스웨덴에선 친밀한 관계에 있는 자(closely-related person)을 돌보게 될 경우, 정부로부터 돌봄 수당도 받을 수 있다”고 덧붙였다.",
+                    "value_time": "44837.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이미 다른 국가들에선 법과 제도가 사회의 변화와 발맞춰 나아가고 있는 것이다.",
+                    "value_time": "44837.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ildaro.com/9453",
+            "search_query": "스웨덴 가족 정책",
+            "terminate": false,
+            "text": "네, 특히 스웨덴에서는 친밀한 관계에 있는 사람을 돌보는 경우에 국가로부터 돌봄 수당을 받을 수도 있어요. 이미 여러 국가에서 제도와 법률이 사회적 변화에 따라 바뀌어 가고 있는거죠.",
+            "turn_id": "BK22018031-7",
+            "utterance_id": "BK22018031.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 우리나라의 가족 정책 상황은 어떤가요?",
+            "turn_id": "BK22018031-8",
+            "utterance_id": "BK22018031.15"
+        },
+        {
+            "reference_date": "44834.0",
+            "reference_text": [
+                {
+                    "value": "지난 해 여성가족부는 건강가정기본법의 가족 정의를 변경하여, 비혼(非婚) 동거 가구와 아동학대 등으로 생겨난 위탁가정 등을 법적 가족으로 인정하며, 지원 대상으로 여러 가족 형태를 포괄하겠다는 계획(4차 건강가정기본계획 2021~2025년)을 밝힌 바 있다.",
+                    "value_time": "44837.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ildaro.com/9453",
+            "search_query": "건강가정기본법",
+            "terminate": false,
+            "text": "2021년에 여성가족부에서는 건강가정기본법의 가족 정의를 바꾸고자 했어요. 비혼 동거 가구나 아동 학대 등 여러 가지 이유로 인해 발생한 위탁 가정 등을 법적 가족으로 인정하고자 했어요. 그래서 가족 정책의 지원 대상으로 다양한 가족 형태 포괄하겠다는 4차 건강가정기본계획을 발표했었죠.",
+            "turn_id": "BK22018031-8",
+            "utterance_id": "BK22018031.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다행히 우리나라도 점차 바뀌고 있는 거죠?",
+            "turn_id": "BK22018031-9",
+            "utterance_id": "BK22018031.17"
+        },
+        {
+            "reference_date": "44834.0",
+            "reference_text": [
+                {
+                    "value": "그러나 현 정부 들어와서 여성가족부는 이 계획을 철회하고, 혼인과 혈연, 입양으로 이뤄진 기존의 단위로 법적 가족 규정을 유지하겠다는 입장을 냈다.",
+                    "value_time": "44837.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ildaro.com/9453",
+            "search_query": "건강가정기본법 여성가족부",
+            "terminate": false,
+            "text": "아쉽게도 아니에요. 정부가 바뀐 후, 여성가족부는 이 계획을 철회했어요. 혼인 관계나 혈연, 입양으로 이루어진 현행법상 구성된 가족 규정을 유지하겠다고 발표했어요.",
+            "turn_id": "BK22018031-9",
+            "utterance_id": "BK22018031.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "불과 1년만에 건강가정기본계획이 뒤집히다니, 놀라운데요. 건강가정기본계획을 수정하지 않아도 문제가 없을까요?",
+            "turn_id": "BK22018031-10",
+            "utterance_id": "BK22018031.19"
+        },
+        {
+            "reference_date": "44834.0",
+            "reference_text": [
+                {
+                    "value": "또한 2005년 국가인권위원회는 “건강가정기본법이라는 법률 명은 ‘건강가정’과 상반되는 ‘건강하지 않는 가정’이라는 개념을 도출시키므로, 다른 기본법과 같이 중립적인 법률 명으로 수정하여야 한다고 권고”했다.",
+                    "value_time": "44837.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그리고 올해 4월, 국가인권위원회는 “실재하는 다양한 가족형태에 대한 인식의 변화를 수용하고, 성소수자에 대한 편견과 차별을 예방하는 취지로 1)성소수자 인권보호를 위한 법률 제정 2)건강가정기본법 개정을 권고”했다.",
+                    "value_time": "44837.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ildaro.com/9453",
+            "search_query": "건강가정기본법 인권위원회",
+            "terminate": false,
+            "text": "음, 국가인권위원회에서는 2005년부터 건강가정기본법이라는 법률명부터 지적해 왔어요. 건강가정과, 건강하지 않은 가정을 구분짓는다는 것이죠. 다른 기본법과 같은 중립적인 명칭으로 변경할 것을 지적해 왔어요. 그리고 2022년 4월에도 실존하는 여러 가족 형태에 대한 인식의 변화, 그리고 성소수자에 대한 차별이나 편견을 예방해야 한다고 주장했어요. 이에 따라 건강가정기본법을 개정을 권고하고, 성소수자에 대한 인권보호를 위한 법률을 제정하기를 권고했어요.",
+            "turn_id": "BK22018031-10",
+            "utterance_id": "BK22018031.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "현 정부의 가족 정책 추진은 어떤 방향으로 진행되는지 계속 지켜봐야 겠어요.",
+            "turn_id": "BK22018031-11",
+            "utterance_id": "BK22018031.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 새로이 등장한 가족 개념이다 보니 법안을 변경하는 것도 쉽지 않겠어요.",
+            "turn_id": "BK22018031-11",
+            "utterance_id": "BK22018031.22"
+        }
+    ]
+}

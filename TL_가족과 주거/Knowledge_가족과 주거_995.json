@@ -1,0 +1,387 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005345",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005345",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "출산 후 모유수유를 할지 분유수유를 할지 고민돼요. 모유수유가 특별히 좋은 점이 있을까요?",
+            "turn_id": "BK22005345-1",
+            "utterance_id": "BK22005345.1"
+        },
+        {
+            "reference_date": "2021-08-23",
+            "reference_text": [
+                {
+                    "value": "모유는 아기에게 가장 이상적인 음식으로 평가받는다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "실제 모유는 아기의 지능과 신체 발달에 필요한 영양소와 면역성분을 다량 함유하고 있다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 모유수유를 하는 동안 엄마와의 피부 접촉 등을 통해 정신건강, 정서나 사회성 발달에도 도움을 준다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/08/23/2021082301305.html",
+            "search_query": "모유수유 장점",
+            "terminate": false,
+            "text": "모유는 아이에게 가장 이상적인 음식으로 불려요. 아기의 지능과 성장 발달에 필요한 영양소, 면역성분을 풍부하게 함유하고 있거든요. 게다가 모유수유를 하면 엄마와 밀착하게 되고 그로 인해 정신건강, 정서나 사회성 발달에도 도움을 주죠.",
+            "turn_id": "BK22005345-1",
+            "utterance_id": "BK22005345.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 좋은 점이 많네요. 지인들이 분유수유를 하더라도 초유는 꼭 먹여야 한다고 하던데 초유가 뭔가요?",
+            "turn_id": "BK22005345-2",
+            "utterance_id": "BK22005345.3"
+        },
+        {
+            "reference_date": "2022-06-07",
+            "reference_text": [
+                {
+                    "value": "'초유'란 말 그대로 첫 번째 우유 또는 모유를 뜻한다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "초유는 임신 후반기부터 만들어지고, 아기를 출산한 지 2~3일 정도까지 나온다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "초유는 일반적인 모유나 우유보다도 필수 아미노산을 비롯한 영양 성분이 풍부하게 함유되어 있는데, 락토페린도 그중 하나이다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000705446",
+            "search_query": "초유란",
+            "terminate": false,
+            "text": "초유는 단어의 뜻 그대로 첫 번째 우유, 혹은 모유를 말해요. 임신 후반기부터 생성되고, 출산하고 2일에서 3일 정도까지 나오게 되죠. 초유는 일반 모유나 우유보다 필수 아미노산, 락토페린을 포함한 영양 성분이 풍부하게 들어있어요.",
+            "turn_id": "BK22005345-2",
+            "utterance_id": "BK22005345.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 출산하고 며칠만이라도 수유하는 것이 좋다고 하는군요. 초유만 먹여도 아기에게 좋은 영향이 있을까요?",
+            "turn_id": "BK22005345-3",
+            "utterance_id": "BK22005345.5"
+        },
+        {
+            "reference_date": "2021-08-03",
+            "reference_text": [
+                {
+                    "value": "초유에는 많은 양의 면역글로블린A(IgA)이 포함되어 있어 아기의 코와 목에 보호층을 형성한다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이외에도 다른 여러 항체가 포함되어 감염성질환을 예방해 준다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그렇기 때문에 신생아의 질병도 줄여준다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "중이염이나 호흡기감염, 장염, 조산아의 괴사성 장질환, 알레르기질환, 크론병과 궤양성대장염, 당뇨병, 소아성백혈병, 영아돌연사증후군 위험도 감소하는 것으로 알려져 있다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.medworld.co.kr/news/articleView.html?idxno=203712",
+            "search_query": "초유만 먹여도 되나요",
+            "terminate": false,
+            "text": "네, 그럼요. 초유는 면역글로블린이 풍부해 아기의 코, 목에 보호층을 만들어줘요. 이외에도 여러 가지 항체가 들어있어서 감염성질환 예방에 효과가 있고 신생아가 걸릴 수 있는 질병도 막아주죠. 중이염, 호흡기감염, 장염, 조산아에게서 나타나는 괴사성 장 질환, 알레르기, 크론병, 궤양성대장염, 당뇨병, 소아성 백혈병, 영아돌연사증후군의 위험도 낮춰준다고 알려져 있어요.",
+            "turn_id": "BK22005345-3",
+            "utterance_id": "BK22005345.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좋은 점을 듣다 보니 초유만이라도 먹여야겠다는 생각이 드네요. 모유수유를 하면 엄마의 식사도 늘려야 하나요?",
+            "turn_id": "BK22005345-4",
+            "utterance_id": "BK22005345.7"
+        },
+        {
+            "reference_date": "2014-11-07",
+            "reference_text": [
+                {
+                    "value": "개인차는 있지만 수유 중 더 필요한 열량은 하루 500kcal 정도다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이왕이면 신선한 채소와 과일, 미역과 같이 철분과 칼슘, 각종 미네랄이 풍부한 음식 위주로 식단을 짜는 것이 좋다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/news/article/201411073354o",
+            "search_query": "모유수유 엄마 먹는 것",
+            "terminate": false,
+            "text": "개인에 따라 조금씩 차이는 있을 수 있지만 모유수유를 한다면 하루 500kcal 정도 더 필요해요. 가능하다면 신선한 채소, 과일을 먹고 미역처럼 철분, 칼슘, 여러 가지 미네랄이 많이 들어있는 식사 위주로 챙겨 드시는 것이 좋죠.",
+            "turn_id": "BK22005345-4",
+            "utterance_id": "BK22005345.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 칼로리가 더 많이 필요하진 않네요. 모유를 먹이면 엄마가 가려 먹어야 하는 것이 많다던데 진짜인가요?",
+            "turn_id": "BK22005345-5",
+            "utterance_id": "BK22005345.9"
+        },
+        {
+            "reference_date": "2019-01-23",
+            "reference_text": [
+                {
+                    "value": "빈혈과 아이의 수면 장애를 유발할 수 있기 때문에 커피, 콜라, 홍차 등 카페인 음료는 피하는 것이 좋다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "생강, 마늘, 고춧가루 등 매운 음식과 향신료는 아이에게 설사나 복통을 일으킬 수도 있다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=71382",
+            "search_query": "모유수유할 때 못먹는 음식",
+            "terminate": false,
+            "text": "커피나 콜라, 홍차와 같이 카페인이 함유된 음료는 빈혈뿐 아니라 아이에게 수면 장애가 생길 수 있어 피해야 해요. 또 생강이나 마늘, 고춧가루 등 매운 음식이나 향신료는 아기에게 설사나 복통이 생길 수 있으니 주의가 필요해요.",
+            "turn_id": "BK22005345-5",
+            "utterance_id": "BK22005345.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 많이 번거롭게 느껴져요. 게다가 잘못하면 젖몸살이 올 수도 있다고 하니 걱정이 많아요. 젖몸살을 예방할 수 있는 방법이 있나요?",
+            "turn_id": "BK22005345-6",
+            "utterance_id": "BK22005345.11"
+        },
+        {
+            "reference_date": "2018-06-08",
+            "reference_text": [
+                {
+                    "value": "모유수유의 첫 골든타임인 출산 1일~3일 사이.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "산부인과에 입원해 있을 때 초유를 먹여 유방을 비워주면 젖몸살 예방에 큰 도움이 된다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=65714",
+            "search_query": "모유수유 젖몸살 예방",
+            "terminate": false,
+            "text": "모유수유의 첫 번째 골든타임이라 하는 출산 1일 차부터 3일 차 사이, 병원에 입원해 있을 때 초유를 아기에게 수유하며 유방을 비워내면 젖몸살을 예방하는데 큰 효과가 있어요.",
+            "turn_id": "BK22005345-6",
+            "utterance_id": "BK22005345.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 초유를 잘 먹이는 게 중요하군요. 그럼 저도 일단 초유를 먹이면서 지켜보고 결정해야겠어요. 모유수유를 하기 위해 준비해야 할 것들이 있을까요?",
+            "turn_id": "BK22005345-7",
+            "utterance_id": "BK22005345.13"
+        },
+        {
+            "reference_date": "2021-05-07",
+            "reference_text": [
+                {
+                    "value": "임신 중에 가슴 마사지를 꾸준히 해주면 유선 발육을 촉진해 출산 후 젖이 잘 돌고 유방의 혈액순환이 좋아진다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "유방 마사지는 하루에 한 번, 2~3분 정도가 적당하며, 잠자기 직전이나 목욕 후에 할 것을 권한다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "단, 유두를 너무 자극하면 자궁 수축을 유발할 수 있으므로 배가 당기는 증상이 나타나면 마사지를 중단해야 한다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202105078940o",
+            "search_query": "모유수유위해 준비",
+            "terminate": false,
+            "text": "임신 중에 꾸준히 가슴 마사지를 하세요. 마사지하면 유선 발육을 촉진해서 아이를 낳고 난 후에 모유가 잘 돌고 가슴의 혈액순환이 원활해져요. 가슴 마사지는 잠들기 전이나 목욕 후에 하면 되고 하루에 한 번, 2분에서 3분 정도가 좋아요. 하지만 유두에 너무 자극을 주면 자궁 수축이 생길 수 있으니 마사지 중 배가 당기는 증상이 있다면 바로 중단하세요.",
+            "turn_id": "BK22005345-7",
+            "utterance_id": "BK22005345.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "출산 전부터 착실히 준비해야 하는군요. 모유수유 용품은 뭐가 필요한가요?",
+            "turn_id": "BK22005345-8",
+            "utterance_id": "BK22005345.15"
+        },
+        {
+            "reference_date": "2022-03-18",
+            "reference_text": [
+                {
+                    "value": "유축기와 모유저장팩, 수유쿠션, 수유패드,수유용 브라 등을 준비하면 보다 수월하게 모유수유를 할 수 있다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/news/article/202203185174o",
+            "search_query": "모유수유용품 준비",
+            "terminate": false,
+            "text": "유축기, 모유저장팩, 수유쿠션, 수유패드, 수유용 브라를 미리 준비해두시면 수월하게 모유수유를 할 수 있어요.",
+            "turn_id": "BK22005345-8",
+            "utterance_id": "BK22005345.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 필요한 용품이 많지 않네요. 메모해두고 하나씩 구매해둬야겠어요. 모유수유를 하면 자동으로 다이어트가 된다고 하던데 진짜인가요?",
+            "turn_id": "BK22005345-9",
+            "utterance_id": "BK22005345.17"
+        },
+        {
+            "reference_date": "2018-08-08",
+            "reference_text": [
+                {
+                    "value": "산모들 사이에서 산후 다이어트의 정석으로 여겨지는 것 중 하나가 모유 수유다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "실제로 체중 감량에 효과가 있는지에 대해서는 다양한 이견들이 있지만, 모유수유를 할 때 대략 700~800kcal 가 소모되기 때문에 많은 에너지를 소비하는데 도움이 된다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "특히 그 중 약 300kcal 에 해당하는 에너지가 다이어트 시 중요하게 여겨지는 지방에서 나온다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/society/article/201808081146f",
+            "search_query": "모유수유 다이어트 효과",
+            "terminate": false,
+            "text": "엄마들 사이에서는 모유수유가 산후 다이어트의 정석으로 여겨지죠. 실제로 다이어트에 효과가 있는지에 대해서 여러 의견들이 있긴 해요. 하지만 모유수유를 하면 대략 700에서 800kcal 정도를 사용하기 때문에 에너지를 다량 소비하는 데 효과가 있죠. 특히 300kcal 정도는 다이어트를 할 때 포인트라고 할 수 있는 지방에서 나와요.",
+            "turn_id": "BK22005345-9",
+            "utterance_id": "BK22005345.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "듣던 중 반가운 소식이네요. 안 그래도 임신하고 체중이 점점 불어나서 걱정이었거든요. 점점 모유수유 쪽으로 생각이 기울게 되네요.",
+            "turn_id": "BK22005345-10",
+            "utterance_id": "BK22005345.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "모유도 분유도 모두 좋으니 너무 스트레스받지 마세요. 초유를 먹이면서 어떻게 하고 싶은지 정하면 마음이 편하실 거예요. 몸조리 잘하시고 다음에 또 만나요.",
+            "turn_id": "BK22005345-10",
+            "utterance_id": "BK22005345.20"
+        }
+    ]
+}

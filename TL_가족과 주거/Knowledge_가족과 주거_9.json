@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012321",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012321",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번에 결혼해서 전셋집으로 이사를 하는데 전입신고를 해야 한다고 하더라구요. 전입신고가 뭔가요?",
+            "turn_id": "BK22012321-1",
+            "utterance_id": "BK22012321.1"
+        },
+        {
+            "reference_date": "44128.0",
+            "reference_text": [
+                {
+                    "value": "전입신고는 임차인의 법적 권리를 보장받을 수 있는 가장 기본적인 조건입니다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전입신고는 새로운 주거지로 이사를 할 때 주소지 변경 및 등록을 하는 것을 말합니다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20201023_0001208754&cID=10401&pID=10400",
+            "search_query": "전입신고",
+            "terminate": false,
+            "text": "전입신고는 새로운 주거지에 이사했을 때 주소지 변경 및 등록하는 절차예요. 임차인은 전입신고를 함으로써 주거지에 대한 법적인 권리를 보장받을 수 있는 가장 기본적인 조건이 성립돼요.",
+            "turn_id": "BK22012321-1",
+            "utterance_id": "BK22012321.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "권리 보장이 되는 절차라면 꼭 해야겠네요. 전입신고는 어떻게 하는 건지 알려주실 수 있나요?",
+            "turn_id": "BK22012321-2",
+            "utterance_id": "BK22012321.3"
+        },
+        {
+            "reference_date": "43881.0",
+            "reference_text": [
+                {
+                    "value": "전입신고 하는법은 동주민센터를 방문해 비치된 전입신고서를 양식에 맞게 작성한 후 담당자에게 제출하면 된다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "동주민센터엔 전입신고서 양식이 상세하게 적혀있기 때문에 쓰는데 무리는 없다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.insightkorea.co.kr/news/articleView.html?idxno=76655",
+            "search_query": "전입신고 하는 법",
+            "terminate": false,
+            "text": "동주민센터에 가서 전입신고서 양식에 맞춰 내용을 기재한 뒤 담당자에게 제출하면 됩니다. 동주민센터에 전입신고서가 비치되어 있고 양식도 상세하게 적혀 있기 때문에 쉽게 작성하실 수 있어요.",
+            "turn_id": "BK22012321-2",
+            "utterance_id": "BK22012321.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 간단하네요. 전입신고를 할 때 준비해 가야 할 것들이 있나요?",
+            "turn_id": "BK22012321-3",
+            "utterance_id": "BK22012321.5"
+        },
+        {
+            "reference_date": "43636.0",
+            "reference_text": [
+                {
+                    "value": "세대주 본인이 직접 방문해 전입신고하는 법은 전입신고 준비물인 본인 신분증만 지참하면 된다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=413506",
+            "search_query": "전입신고 준비물",
+            "terminate": false,
+            "text": "세대주 본인이 직접 방문하실 경우 세대주 본인의 신분증만 지참하고 가시면 돼요.",
+            "turn_id": "BK22012321-3",
+            "utterance_id": "BK22012321.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 세대원인데 대리인이 신청해도 신분증만 챙겨가면 되나요?",
+            "turn_id": "BK22012321-4",
+            "utterance_id": "BK22012321.7"
+        },
+        {
+            "reference_date": "43636.0",
+            "reference_text": [
+                {
+                    "value": "단, 세대원 등 전입신고 대리인 신청은 세대주 신분증과 세대주 도장, 방문자의 신분증을 추가로 지참해야 한다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=413506",
+            "search_query": "전입신고 준비물",
+            "terminate": false,
+            "text": "세대원 등 대리인이 전입신고를 하실 경우에도 방문자의 신분증이 필요한데 이 외에 세대주의 신분증과 세대주의 도장을 추가로 지참하셔야 합니다.",
+            "turn_id": "BK22012321-4",
+            "utterance_id": "BK22012321.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지인은 전입신고를 하고 확정일자도 꼭 받아야 한다고 하던데 확정일자가 뭔가요?",
+            "turn_id": "BK22012321-5",
+            "utterance_id": "BK22012321.9"
+        },
+        {
+            "reference_date": "44128.0",
+            "reference_text": [
+                {
+                    "value": "확정일자는 임대차계약서에 기입한 날짜를 말합니다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "임차인은 전입신고와 확정일자를 통해 임대보증금에 대한 권리와 거주권을 주장할 수 있는 '대항력'과 '우선 변제권'을 갖추게 됩니다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20201023_0001208754&cID=10401&pID=10400",
+            "search_query": "확정일자",
+            "terminate": false,
+            "text": "임대차계약서에 기재한 날짜를 확정일자라고 합니다. 전입신고와 확정일자를 통해서 임차인에게 임대보증금에 대한 권리와 거주권을 주장할 수 있는 대항력과 우선변제권이 주어지죠.",
+            "turn_id": "BK22012321-5",
+            "utterance_id": "BK22012321.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전입신고와 확정일자 둘 다 모두 중요하겠네요. 전입신고를 하고 확정일자까지 받으면 말씀하신 대항력이 바로 생기나요?",
+            "turn_id": "BK22012321-6",
+            "utterance_id": "BK22012321.11"
+        },
+        {
+            "reference_date": "42403.0",
+            "reference_text": [
+                {
+                    "value": "전세계약을 한 임차인은 실거주를 위해 이사를 하면서 동사무소(주민센터)에 전입신고를 하고 계약서에 확정일자를 받으면 다음날 0시부터 대항력이 생긴다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.viva100.com/main/view.php?key=20160202010000638",
+            "search_query": "대항력",
+            "terminate": false,
+            "text": "네. 주민센터에 가셔서 전입신고를 하고 계약서에 확정일자를 받으면 다음 날 0시부터 대항력이 발생합니다.",
+            "turn_id": "BK22012321-6",
+            "utterance_id": "BK22012321.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 요즘 좀 바빠서 시간이 없는데 전입신고에도 기한이 따로 있는 건가요?",
+            "turn_id": "BK22012321-7",
+            "utterance_id": "BK22012321.13"
+        },
+        {
+            "reference_date": "43881.0",
+            "reference_text": [
+                {
+                    "value": "전입신고 기간은 새로운 거주지에 전입한 날부터 14일 이내에 거주지 관할 주민센터에 신고해야 한다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.insightkorea.co.kr/news/articleView.html?idxno=76655",
+            "search_query": "전입신고 기간",
+            "terminate": false,
+            "text": "네. 새로운 거주지에 전입한 날부터 14일 이내에 관할 주민센터에 전입신고를 하셔야 해요.",
+            "turn_id": "BK22012321-7",
+            "utterance_id": "BK22012321.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 기한을 놓쳐서 말씀하신 기간 내에 전입신고를 못 하면 불이익이 있나요?",
+            "turn_id": "BK22012321-8",
+            "utterance_id": "BK22012321.15"
+        },
+        {
+            "reference_date": "43800.0",
+            "reference_text": [
+                {
+                    "value": "전입신고 안하면 정당한 사유없이 14일 이내에 신고를 하지않는다면 5만원 이하의 과태료를 내야한다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mediapia.co.kr/news/articleView.html?idxno=38401#0BrP",
+            "search_query": "전입신고 안하면",
+            "terminate": false,
+            "text": "정당한 사유 없이 14일 이내에 전입신고를 하지 않으면 5만원 이하의 과태료가 부과됩니다.",
+            "turn_id": "BK22012321-8",
+            "utterance_id": "BK22012321.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그만큼 전입신고가 중요해서 과태료까지 부과하나 보네요. 잊지말고 시간내서 꼭 전입신고하고 확정일자도 받아야겠네요.",
+            "turn_id": "BK22012321-9",
+            "utterance_id": "BK22012321.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전입신고와 확정일자로 재산에 대한 권리를 보장받을 수 있으니 중요한 절차죠.",
+            "turn_id": "BK22012321-9",
+            "utterance_id": "BK22012321.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전셋집은 처음이라 전입신고를 어떻게 해야 할지 막막했는데 도움 주셔서 감사합니다.",
+            "turn_id": "BK22012321-10",
+            "utterance_id": "BK22012321.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네. 말씀드린 내용 잘 숙지하셔서 전입신고 잘 마치시길 바랄게요.",
+            "turn_id": "BK22012321-10",
+            "utterance_id": "BK22012321.20"
+        }
+    ]
+}

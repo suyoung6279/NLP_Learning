@@ -1,0 +1,400 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008141",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008141",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 우리 강아지가 통 기운이 없어서 너무 신경 쓰여. 요 며칠 축져져 있는 모습이 보기 안쓰럽더라고.",
+            "turn_id": "BK22008141-1",
+            "utterance_id": "BK22008141.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "에고. 강아지가 말도 못 하니 그 모습을 그저 지켜봐야 하는 견주의 마음이 참 안 좋겠네. 혹시 병원에는 다녀와 봤어?",
+            "turn_id": "BK22008141-1",
+            "utterance_id": "BK22008141.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "병원에 가봤는데 별다른 이상이 없다고 하더라고. 의사 선생님 말씀으로는 가을 타는 것 같다고 하던데 사람도 아니고 강아지가 가을 탄다는 게 말이 돼? 정말 강아지도 사람처럼 가을을 타기도 하나?",
+            "turn_id": "BK22008141-2",
+            "utterance_id": "BK22008141.3"
+        },
+        {
+            "reference_date": "2020-09-08",
+            "reference_text": [
+                {
+                    "value": "결론부터 말하자면 반려견도 가을을 탈 수 있다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가을에 급격히 우울해지고 감성적으로 변하는 것은 일종의 ‘계절성 우울 증상’으로 자외선이 내리쬐는 여름과는 달리 가을이 되면서 일조량 감소로 인해 멜라토닌이 늘고 행복 호르몬인 세로토닌이 줄어들면서 우을증을 유발한다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.donga.com/article/all/20200908/102838548/2",
+            "search_query": "가을 타는 반려견",
+            "terminate": false,
+            "text": "반려견도 가을을 타긴 하지. 가을이 되면서 우울해지고 감성적으로 바뀌는 걸 일종의 계절성 우울 증상이라고 보거든. 자외선이 내리쬐는 여름 날씨와는 달리 가을이 되면서 일조량이 줄어들어 멜라토닌이 늘고 행복 호르몬인 세로토닌이 분비가 줄어들거든. 이때 우울증이 올 수 있어.",
+            "turn_id": "BK22008141-2",
+            "utterance_id": "BK22008141.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려견도 날씨에 영향을 받는구나. 그럼 반려견의 우울한 기분을 풀어줄 수 있는 가장 좋은 방법에는 어떤 게 있어?",
+            "turn_id": "BK22008141-3",
+            "utterance_id": "BK22008141.5"
+        },
+        {
+            "reference_date": "2020-09-10",
+            "reference_text": [
+                {
+                    "value": "산책은 반려견의 정서적 우울감을 해소하는 가장 좋은 방법이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "개의 뇌에 가장 큰 자극을 주는 것이 후각이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "산책하며 여러 가지 냄새를 맡게 하면 반려견의 기분과 정신 상태에 좋은 효과를 준다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "산책하면서 햇볕을 충분히 쐬게 함으로써 세로토닌 분비를 도와야 한다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20200909_0001160205&cID=13001&pID=13000",
+            "search_query": "산책 반려견 우울 해소",
+            "terminate": false,
+            "text": "산책이 가장 좋지. 산책은 반려견의 정서적인 우울함을 없앨 수 있는 제일 좋은 방법이야. 개의 뇌에 가장 큰 자극을 주는 건은 바로 후각 활동이거든. 산책하면서 다양한 냄새를 맡게 되면 자연스레 반려견의 기분과 정신에 좋은 영향을 끼칠 수 있어. 산책하면서 충분히 햇볕을 쐐야 하고 이때 세로토닌이 분비되는 거지.",
+            "turn_id": "BK22008141-3",
+            "utterance_id": "BK22008141.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 반려견한테 산책이 그 정도로 중요한 줄 몰랐어. 우리처럼 맞벌이하는 부부와 함께 사는 반려견에게는 산책이 더더욱 필요하겠네?",
+            "turn_id": "BK22008141-4",
+            "utterance_id": "BK22008141.7"
+        },
+        {
+            "reference_date": "2020-09-10",
+            "reference_text": [
+                {
+                    "value": "반려견은 산책을 좋아한다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "반려견 산책은 신체적, 정신적 건강을 위해 반드시 필요하다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "직장인인 반려인을 온종일 집에서 기다리는 반려견에게 산책은 필수라고 할 수 있다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.donga.com/article/all/20200909/102867019/3",
+            "search_query": "반려견 우울 극복",
+            "terminate": false,
+            "text": "당연하지. 반려견은 기본적으로 산책을 좋아하거든. 신체적, 정신적 건강을 위해서 반려견의 산책은 무조건 행해져야 해. 특히 직장인이 키우는 반려견은 온종일 집에만 있기 때문에 산책은 필수야.",
+            "turn_id": "BK22008141-4",
+            "utterance_id": "BK22008141.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무리 귀찮고 힘들더라도 우리 몽이의 산책을 더더욱 신경 써야겠네. 이외에도 반려견의 스트레스를 풀어주는 방법은 또 뭐가 있어?",
+            "turn_id": "BK22008141-5",
+            "utterance_id": "BK22008141.9"
+        },
+        {
+            "reference_date": "2021-02-16",
+            "reference_text": [
+                {
+                    "value": "이 밖에도 집안에서 장난감을 이용한 놀이나 클래식 음악을 들려주는 방법으로 스트레스를 낮춰주고 장시간 외출할 경우 창밖을 볼 수 있게 커튼을 활짝 젖혀두고 나가거나, 사람 목소리를 들을 수 있도록 라디오나 TV를 켜두는 것도 우울증 예방과 치료에 도움이 된다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kgnews.co.kr/news/article.html?no=629007",
+            "search_query": "반려견 우울 해소",
+            "terminate": false,
+            "text": "집안에서 할 수 있는 활동 중, 장난감을 이용한 놀이나 클래식 장르의 음악을 틀어주는 방법으로도 반려견의 스트레스를 낮춰줄 수 있어. 장시간 외출할 경우 창밖을 구경할 수 있도록 커튼을 활짝 열어주고, 사람의 목소리를 들을 수 있도록 TV나 라디오를 틀어놓는 것도 우울증 방지와 치료에 효과가 있지.",
+            "turn_id": "BK22008141-5",
+            "utterance_id": "BK22008141.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오 이건 무조건 적어놔야겠네. 우리 몽이는 스킨십을 좋아하거든. 반려견과 스킨십을 하는 것도 우울증 해소에 도움이 될까?",
+            "turn_id": "BK22008141-6",
+            "utterance_id": "BK22008141.11"
+        },
+        {
+            "reference_date": "2017-05-17",
+            "reference_text": [
+                {
+                    "value": "우울증으로 고생하는 개에게 가족의 사랑이 듬뿍 담긴 스킨십은 최고의 치료법이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 개가 스킨십을 거부하는 상황이면 무리하게 껴안기보다 개 옆에 가만히 앉아있거나 같은 공간을 공유하는 것도 좋다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/201705171682486673",
+            "search_query": "반려견 스킨십 우울증",
+            "terminate": false,
+            "text": "물론이지. 우울증으로 고통받고 있는 반려견에게 가족의 사랑이 가득 담긴 스킨십은 가장 좋은 치료법이야. 혹시라도 개가 스킨십을 거부한다면 무리하게 안기보다는 반려견 옆에 조용히 앉아있거나 같은 공간을 공유하는 방법도 괜찮아.",
+            "turn_id": "BK22008141-6",
+            "utterance_id": "BK22008141.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잘 기억해둬야겠네. 반려견과 함께 지내다 보니 정서적 교감이 무엇보다 중요한 것 같더라고. 보호자와 교감이 잘 되는 반려견일수록 덜 우울하겠지?",
+            "turn_id": "BK22008141-7",
+            "utterance_id": "BK22008141.13"
+        },
+        {
+            "reference_date": "2020-09-09",
+            "reference_text": [
+                {
+                    "value": "반려견은 정서적 교감을 나누는 보호자들의 감정 변화를 쉽게 알아차리고, 그에 영향을 많이 받기 때문에 반려견의 우울감 해소에는 무엇보다도 보호자의 사랑과 관심이 가장 효과적이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보호자와의 정서적 교감이 적절하게 이뤄진다면 반려견은 계절성 우울감으로부터 해방돼 행복한 계절을 보낼 수 있을 것이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.cooknchefnews.com/news/newsview.php?ncode=1065575943116523",
+            "search_query": "반려견 우울 극복",
+            "terminate": false,
+            "text": "그렇지. 반려견은 정서적 교류를 하는 보호자들의 감정 상태를 쉽게 눈치채거든. 그에 많은 영향을 받기 때문에 반려견의 우울감 해소에는 무엇보다도 보호자의 따뜻한 관심과 사랑이 효과적이야. 보호자와 정서적인 교류가 잘 행해진 반려견의 경우 계절성 우울감을 극복할 수 있을뿐더러 행복한 계절을 보낼 수 있어.",
+            "turn_id": "BK22008141-7",
+            "utterance_id": "BK22008141.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "갑자기 책임감이 강하게 느껴지네. 그럼 우울증을 앓는 반려견이 하는 특이 행동에는 어떤 게 있어?",
+            "turn_id": "BK22008141-8",
+            "utterance_id": "BK22008141.15"
+        },
+        {
+            "reference_date": "2020-10-03",
+            "reference_text": [
+                {
+                    "value": "만약 반려견이 △앞발 등 특정부위를 지나치게 핥는 행위 △꼬리 물기 △앉은 상태에서 등을 구부리는 행위 △갑자기 식욕이 증가하거나 감소하는 변화 △수면습관의 변화 등 증상을 보인다면 우울증을 의심해봐야 한다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.skyedaily.com/news/news_view.html?ID=113005",
+            "search_query": "반려견 우울증 의심",
+            "terminate": false,
+            "text": "혹시라도 반려견이 앞발 등 특정 부위를 심하게 핥거나, 꼬리를 무는 것, 혹은 앉은 상태에서 등을 구부리는 행동을 하는지 잘 지켜봐야 해. 이 외에도 갑자기 식욕이 왕성해지거나 감소하는 변화나 수면 패턴이 변화 등의 증상이 나타나면 우울증을 의심해 봐야 해.",
+            "turn_id": "BK22008141-8",
+            "utterance_id": "BK22008141.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이런 행동들을 했던 적이 있었던 것 같아서 더 걱정되네. 보호자로서 마음가짐을 달리해야 해겠다는 생각이 들어. 그나저나 반려견이 혼자 집에 있는 최대 시간은 어느 정도야?",
+            "turn_id": "BK22008141-9",
+            "utterance_id": "BK22008141.17"
+        },
+        {
+            "reference_date": "2017-05-11",
+            "reference_text": [
+                {
+                    "value": "전문가들은 사람 없이 반려견 혼자 집을 지켜도 정신 건강에 무방한 시간을 '4시간'으로 규정하고 있다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 이후에는 반드시 반려견과 함께 시간을 보내야 하는 것이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/newsRead.php?ArtNo=105132",
+            "search_query": "반려견 혼자 집 시간",
+            "terminate": false,
+            "text": "전문가들은 사람 없이 반려견 홀로 집을 지켜도 정신 건강에 영향이 없는 시간을 4시간으로 보고 있어. 그 이후에는 반드시 반려견과 같이 시간을 보내야 한다는 의미지.",
+            "turn_id": "BK22008141-9",
+            "utterance_id": "BK22008141.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 반려인으로서 반성해야 할 할 점이 한두 가지가 아니라서 우리 몽이한테 너무 미안해지네.",
+            "turn_id": "BK22008141-10",
+            "utterance_id": "BK22008141.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이제부터라도 반려견한테 조금 더 관심을 가져주면 되지. 너무 자책하지 마.",
+            "turn_id": "BK22008141-10",
+            "utterance_id": "BK22008141.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 반려견이 내 진심을 알아주면 참 좋겠다는 생각이 드네. 오늘부터 매일 산책도 시켜주고 정서적 교감을 많이 할 수 있도록 노력해야겠어. 몰랐으면 놓칠 뻔했는데 이렇게 집어줘서 정말 고마워.",
+            "turn_id": "BK22008141-11",
+            "utterance_id": "BK22008141.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아니야. 평소 정신없이 살다 보면 놓치기 쉬운 것들이지. 이제부터라도 조금씩 노력하고 서로 맞춰가다 보면 되지 않을까?",
+            "turn_id": "BK22008141-11",
+            "utterance_id": "BK22008141.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러니까 말이야. 오늘 정말 고마웠고 덕분에 고민이 조금 해결된 느낌이야. 나는 이제 우리 몽이랑 산책을 가보려고, 다음에 보자!",
+            "turn_id": "BK22008141-12",
+            "utterance_id": "BK22008141.23"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그렇게 말해주니 내가 더 고맙네. 그럼 즐거운 산책 시간 되고 궁금한 점 있으면 언제든 연락해. 그럼 좋은 하루 보내.",
+            "turn_id": "BK22008141-12",
+            "utterance_id": "BK22008141.24"
+        }
+    ]
+}

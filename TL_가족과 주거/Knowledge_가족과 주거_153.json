@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014346",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014346",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저희집 고양이가 아파서 주말 동안에 동물병원에 다녀왔어요.",
+            "turn_id": "BK22014346-1",
+            "utterance_id": "BK22014346.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이가 아파서 많이 속상하시겠어요. 어떤 병에 걸린 건가요?",
+            "turn_id": "BK22014346-1",
+            "utterance_id": "BK22014346.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이가 신장병에 걸려서 병원에 갔어요. 페르시안 종이 원래 신장병에 취약한가요?",
+            "turn_id": "BK22014346-2",
+            "utterance_id": "BK22014346.3"
+        },
+        {
+            "reference_date": "43752.0",
+            "reference_text": [
+                {
+                    "value": "다낭신장병은 페르시안 고양이의 유전적 질환으로 페르시안 품종 40%에서 확인할 수 있다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 낭종의 크기가 너무 작은 어린 연령에서는 놓칠 수 있기 때문에 유전적인 소인이 있는 페르시안의 경우 어릴 때 확인되지 않았더라도 4개월, 더 나아가 9개월 후에 다시 한번 확인하는 것이 좋다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=45889",
+            "search_query": "페르시안 신장",
+            "terminate": false,
+            "text": "네, 특히 다낭신장병은 페르시안 고양이의 유전병이라서 페르시안 고양이의 40%에서 발견돼요. 고양이가 어릴 땐 낭종이 너무 작아서 놓치기 쉽거든요. 페르시안 같은 경우 유전력이 있으니까 어릴 때 발견된 적 없더라도 4개월, 다음 9개월 후에 검진을 받아보는 게 좋아요.",
+            "turn_id": "BK22014346-2",
+            "utterance_id": "BK22014346.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다낭성신장 검진을 진행하게 된다면 어떤 항목을 검사받게 되나요?",
+            "turn_id": "BK22014346-3",
+            "utterance_id": "BK22014346.5"
+        },
+        {
+            "reference_date": "42968.0",
+            "reference_text": [
+                {
+                    "value": "일반적으로 정확한 진단을 위해서는 단 한 가지의 검사가 아니라 종합적인 검사를 수차례 진행해야 한다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "종합적 검사항목에는 혈액, 소변검사와 초음파검사가 포함된다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "혈압측정도 필요하다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.khan.co.kr/bizlife/sk_index.html?art_id=201708211755004&sec_id=561801&pt=nv",
+            "search_query": "다낭성신장 고양이",
+            "terminate": false,
+            "text": "다낭성신장을 정확하게 진단하기 위해서는 종합검사를 여러번 시행하게 돼요. 종합 검사에는 혈액, 초음파, 소변 검사가 있고 혈압도 측정해야 해요.",
+            "turn_id": "BK22014346-3",
+            "utterance_id": "BK22014346.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 해서 다낭성신장 질환이 발견이 되면 어떻게 치료를 해야 하나요?",
+            "turn_id": "BK22014346-4",
+            "utterance_id": "BK22014346.7"
+        },
+        {
+            "reference_date": "44331.0",
+            "reference_text": [
+                {
+                    "value": "다낭성신장병증(PKD), 심근비대증(HCM) 등 고양이 유전병은 막을 수도 없고 치료할 수도 없다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 조기에 발견했을 때 치밀한 관리를 통해서 수명을 연장할 수 있다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=53742",
+            "search_query": "다낭성신장 치료 고양이",
+            "terminate": false,
+            "text": "슬프게도 심근비대증이나 다낭성신장병증 같은 고양이 유전병은 예방도 치료도 어려워요. 대신 조기에 발견하면 세심하게 관리함으로써 수명을 연장하는 것은 가능해요.",
+            "turn_id": "BK22014346-4",
+            "utterance_id": "BK22014346.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "치료가 어렵다니 너무 속상하네요. 페르시안처럼 유전병이 있는 고양이 품종이 또 있을까요?",
+            "turn_id": "BK22014346-5",
+            "utterance_id": "BK22014346.9"
+        },
+        {
+            "reference_date": "43704.0",
+            "reference_text": [
+                {
+                    "value": "스코티쉬 킬트는 '골연골 이형성증'이라는 유전병을 앓는 스코티쉬 폴드와 다리가 짧은 킬트를 교배해 유전병에 더욱 취약한 것으로 알려졌다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2019082713290071906",
+            "search_query": "스코티쉬 유전",
+            "terminate": false,
+            "text": "네, 이를 테면 스코티쉬 킬트 종은 스코트쉬 폴드와 다리가 짧은 킬트를 교배한 종인데, 스코티쉬 폴드 같은 경우는 골연골 이형성증이라는 유전병을 앓고 있기 때문에 더욱 유전병에 걸리기 쉬워요.",
+            "turn_id": "BK22014346-5",
+            "utterance_id": "BK22014346.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이름만 들어도 무시무시한 병인 것 같은데, 혹시 어떤 병인지 설명해주시겠어요?",
+            "turn_id": "BK22014346-6",
+            "utterance_id": "BK22014346.11"
+        },
+        {
+            "reference_date": "42997.0",
+            "reference_text": [
+                {
+                    "value": "그런데 이 고양이들은 정상 고양이와 다르게 뼈와 연골을 변형시키는 유전자가 있어 접힌 귀 모습뿐 아니라 성장하면서 앞, 뒷다리 사지 말단뼈 부분과 꼬리뼈 연골이 울퉁불퉁 뭉치거나 변형되어 정체불명의 뼈 형태로 변하는 '골연골이형성증'(osteochondrodysplasia)이란 무서운 유전병으로 진행되면서 평생 통증으로 인한 보행 장애를 가지고 살아가게 된다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?3104518",
+            "search_query": "골연골 이형성증",
+            "terminate": false,
+            "text": "골연골 이형성증은 연골과 뼈가 변형되는 유전자로 인해 발생해요. 정상적인 고양이들과는 다르게 귀가 접힌다든가, 자라면서 앞다리와 뒷다리 사지 말단뼈 부분 그리고 꼬리뼈 연골이 울퉁불퉁하게 변형되고 뭉쳐서 알아볼 수 없는 형태로 뼈가 바뀌어요. 이 유전병에 걸리면 통증 때문에 평생 보행 장애를 안고 살아가게 돼요.",
+            "turn_id": "BK22014346-6",
+            "utterance_id": "BK22014346.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스코티쉬 폴드가 그런 병에 취약한 줄 몰랐어요. 선천적으로 귀가 안 들리는 고양이종도 있다고 들었는데, 사실인가요?",
+            "turn_id": "BK22014346-7",
+            "utterance_id": "BK22014346.13"
+        },
+        {
+            "reference_date": "43972.0",
+            "reference_text": [
+                {
+                    "value": "코넬고양이건강센터에 따르면 17~22%의 흰색 고양이, 40%의 파란 눈 고양이가 청각장애를 갖고 태어난다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "파란 눈과 흰색 털을 만드는 유전자 변형이 귀 내부 구조의 기형도 일으키기 때문인데, 특히 뇌에 소리 신호를 보내는 달팽이관이 제 역할을 하지 못하는 경우가 많다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://nownews.seoul.co.kr/news/newsView.php?id=20200521601014&wlog_tag3=naver",
+            "search_query": "고양이 유전 청력",
+            "terminate": false,
+            "text": "사실이에요, 코넬고양이건강센터에서 밝히길 파란 눈을 가진 고양이의 40퍼센트와 흰색털을 가진 고양이의 17~22퍼센트가 선천적으로 청각장애를 가져요. 흰 털과 파란 눈을 형성하는 유전자 변형이 귀 내부 구조 또한 변형시키는데, 많은 경우에 뇌에 소리 신호를 전달하는 달팽이관이 제대로 작동하지 못하기 때문이에요.",
+            "turn_id": "BK22014346-7",
+            "utterance_id": "BK22014346.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유전으로 인해 청력에도 문제가 생길 수 있군요. 많은 고양이가 이렇게 유전병에 시달리는 이유는 무엇이죠?",
+            "turn_id": "BK22014346-8",
+            "utterance_id": "BK22014346.15"
+        },
+        {
+            "reference_date": "43710.0",
+            "reference_text": [
+                {
+                    "value": "원하는 고양이가 나오면 이를 계속 유지하기 위해 ‘선발육종법(selection breeding)’과 ‘근친교배 (inbreeding)’를 하게 되고, 품종묘의 특징이 발현되도록 하는 과정에서 유전적 기형인 ‘유전병’이 발생하게 된다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ize.co.kr/news/articleView.html?idxno=24971",
+            "search_query": "고양이 유전병 교배",
+            "terminate": false,
+            "text": "원하는 특질의 고양이가 태어났을 때, 선발육종법과 근친교배를 실시해서 이것을 유지하려고 해요. 이렇게 품종묘의 특성이 발생하게 만드는 과정에서 유전적 기형인 유전병이 생겨나요.",
+            "turn_id": "BK22014346-8",
+            "utterance_id": "BK22014346.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "교배로 인한 고양이 유전병 문제가 매우 심각하군요. 국내에 이를 제재하는 법은 없나요?",
+            "turn_id": "BK22014346-9",
+            "utterance_id": "BK22014346.17"
+        },
+        {
+            "reference_date": "43109.0",
+            "reference_text": [
+                {
+                    "value": "스코티쉬 폴드 종의 첫 발생지였던 스코틀랜드에서는 유전병으로 인한 스코티쉬 폴드 고양이의 고통이 심각한 것으로 밝혀지자 국가적으로 이 종의 번식과 교배 금지를 검토한다고 밝혔다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 현재 한국에서는 이러한 유전병을 가진 고양이의 번식과 교배를 특별히 제재하는 법안이 없다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.weeklytoday.com/news/articleView.html?idxno=62549",
+            "search_query": "고양이 교배 제재",
+            "terminate": false,
+            "text": "2018년도까지도 국내에 유전병을 타고난 고양이의 교배와 번식을 제재하는 법안이 없었어요. 스코티쉬 폴드가 처음 탄생한 스코틀랜드에서 스코티쉬 고양이가 유전병으로인해 심각한 고통을 겪는 것을 인식하고 국가 차원에서 해당 품종의 교배와 번식을 금지하는 것을 검토한다고 밝힌 것과는 대비되죠.",
+            "turn_id": "BK22014346-9",
+            "utterance_id": "BK22014346.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 품종묘와 유전병에 대한 인식이 얼른 확산되어야겠어요.",
+            "turn_id": "BK22014346-10",
+            "utterance_id": "BK22014346.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "맞아요, 그래야 고통받는 고양이들이 줄어들 거예요.",
+            "turn_id": "BK22014346-10",
+            "utterance_id": "BK22014346.20"
+        }
+    ]
+}

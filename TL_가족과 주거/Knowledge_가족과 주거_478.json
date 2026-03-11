@@ -1,0 +1,361 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015502",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015502",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이사를 해야 하는데 이사 방법이 다양하더라. 어떤 이사를 해야 할지 고민인데, 용달 이사는 뭐야?",
+            "turn_id": "BK22015502-1",
+            "utterance_id": "BK22015502.1"
+        },
+        {
+            "reference_date": "2020-03-12",
+            "reference_text": [
+                {
+                    "value": "용달이사는 원룸, 고시원 등 혼자 사는 사람들이 많이 이용하는 서비스다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "용달이사는 차량만 빌리는 서비스로, 포장과 운반은 본인이 해야 한다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=231118",
+            "search_query": "용달이사",
+            "terminate": false,
+            "text": "이사 때문에 고민이 많구나. 원룸이나 고시원에서 혼자 사는 사람들이 많이 이용하는 이사 방법이 용달 이사야. 차량만 빌려서 이사하는 건데, 이삿짐을 싸고 운반하는 것은 본인이 직접 해야 해.",
+            "turn_id": "BK22015502-1",
+            "utterance_id": "BK22015502.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "차만 빌려서 이사하는 게 용달 이사구나. 그러면, 용달 이사를 하는 경우 이삿짐은 어떻게 싸야 하는 건데?",
+            "turn_id": "BK22015502-2",
+            "utterance_id": "BK22015502.3"
+        },
+        {
+            "reference_date": "2020-03-12",
+            "reference_text": [
+                {
+                    "value": "이삿짐을 쌀 때는 종류별, 공간별로 물건을 나누어 싸야 한다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한, 아래에는 무거운 것을 넣고, 위에는 가벼운 것을 넣어 포장해야 한다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "깨지기 쉬운 물건은 신문지나 뽁뽁이로 감싸주는 것이 좋다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=231118",
+            "search_query": "이삿짐싸기",
+            "terminate": false,
+            "text": "공간별, 종류별로 물건을 구별해서 이삿짐을 싸야 해. 무거운 것은 아래로 가게하고 위에는 가벼운 것을 넣어야 해. 깨지기 쉬운 물건들은 뽁뽁이나 신문지를 이용해서 감싸야 하고.",
+            "turn_id": "BK22015502-2",
+            "utterance_id": "BK22015502.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이삿짐을 한 번도 직접 싸본 적이 없어서 고민이 되긴 하네. 그럼, 일반 이사는 어떻게 이사하는 건데?",
+            "turn_id": "BK22015502-3",
+            "utterance_id": "BK22015502.5"
+        },
+        {
+            "reference_date": "2020-03-12",
+            "reference_text": [
+                {
+                    "value": "일반이사란 짐 정리를 고객 스스로가 한다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "서비스는 사실상 포장이 어려운 큰 짐 포장, 이삿짐 이동 뿐이다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "일반이사는 짐 자체가 적은 자취하는 사람들, 짐을 직접 포장하고 정리하는 데 무리가 없는 사람들이 이용한다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=242580",
+            "search_query": "일반이사",
+            "terminate": false,
+            "text": "짐 정리를 고객이 하는 게 일반 이사야. 업체는 포장이 어려운 큰 짐을 포장해 주고, 이삿짐을 이동해 주는 거야. 짐이 적은 자취생이나, 직접 짐을 포장하는 데 어려움을 느끼지 않는 사람이 이용하는 이사야.",
+            "turn_id": "BK22015502-3",
+            "utterance_id": "BK22015502.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "짐이 많지 않은 사람들에게 괜찮은 이사가 일반 이사구나. 그럼, 반포장 이사는 어떻게 해주는 거야?",
+            "turn_id": "BK22015502-4",
+            "utterance_id": "BK22015502.7"
+        },
+        {
+            "reference_date": "2020-03-12",
+            "reference_text": [
+                {
+                    "value": "반포장이사는 말 그대로 일부는 업체가 일부는 직접 포장하고 정리하는 이사 방법이다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "짐이 부담스럽지 않고 몇 개의 대형가구만 있다면 반포장이사를 이용하는 것이 좋다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "냉장고, 장롱 등 직접 움직이기 어려운 가구만 업체에게 부탁하고, 이용객은 작은 짐들과 살림살이 등을 포장하면 된다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=265964",
+            "search_query": "반포장이사",
+            "terminate": false,
+            "text": "업체가 일부는 직접 포장하고 정리해 주는 이사 방법으로, 짐이 많지 않고 대형 가구만 있다면 반포장 이사도 좋은 방법이야. 작은 짐과 살림살이는 직접 싸고 냉장고나 장롱 같은 움직이기 어려운 가구를 업체가 이사해 주는 거야.",
+            "turn_id": "BK22015502-4",
+            "utterance_id": "BK22015502.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나에게는 반포장 이사도 괜찮은 방법이네. 그러면, 포장이사는 어떤 서비스를 해주는 건데?",
+            "turn_id": "BK22015502-5",
+            "utterance_id": "BK22015502.9"
+        },
+        {
+            "reference_date": "2020-03-12",
+            "reference_text": [
+                {
+                    "value": "포장이사란 짐을 싸는 것 부터 시작해 짐 풀기, 운송, 청소까지 업체에 모두 맡기는 것이다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "침대와 식탁, 소파 등의 규모가 큰 가구뿐만 아니라 가전제품과 살림살이 등 다양한 짐을 포장할 수 있다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=256595",
+            "search_query": "포장이사",
+            "terminate": false,
+            "text": "짐을 싸는 것부터 짐을 운반하고 풀고, 청소까지 업체가 해주는 거야. 침대, 소파, 식탁같이 큰 가구와 가전제품, 살림살이까지 다 포장해 주는 거야.",
+            "turn_id": "BK22015502-5",
+            "utterance_id": "BK22015502.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "포장이사하는 것이 제일 편한 방법이긴 하겠다. 근데, 포장이사 비용을 줄이는 방법은 없을까?",
+            "turn_id": "BK22015502-6",
+            "utterance_id": "BK22015502.11"
+        },
+        {
+            "reference_date": "2018-01-04",
+            "reference_text": [
+                {
+                    "value": "1) ‘손 없는 날’이나 주말보다 이사가 많이 없는 평일에 이사 하는 것이 조금 더 저렴하게 이용할 수 있다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2) 이사할 짐의 무게에 따라 이사비용이 추가되니 방문견적 전 버릴 짐은 미리 버리는 것이 좋다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2018/01/8232/",
+            "search_query": "포장이사 저렴하게하는 방법",
+            "terminate": false,
+            "text": "주말이나 손 없는 날보다는 평일에 이사하면 좀 저렴하고, 이삿짐이 무거우면 비용이 늘어나니 방문 견적 내기 전에 짐을 미리 버리는 것도 도움이 될 거야.",
+            "turn_id": "BK22015502-6",
+            "utterance_id": "BK22015502.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비용을 줄이는 방법으로 그런 방법이 있구나. 근데 내가 이사 날짜와 입주 날짜가 달라서 짐을 보관해야 하는데 어떻게 하면 될까?",
+            "turn_id": "BK22015502-7",
+            "utterance_id": "BK22015502.13"
+        },
+        {
+            "reference_date": "2018-01-04",
+            "reference_text": [
+                {
+                    "value": "보편적인 이사 방법은 아니지만 짐을 빼는 날짜와 입주 날짜가 다를 때 보관이사를 이용한다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "미리 짐을 빼고 업체의 컨테이너에 보관해두었다가 입주 날짜에 맞춰 다시 운반해주는 방법이다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2018/01/8232/",
+            "search_query": "보관이사",
+            "terminate": false,
+            "text": "이사 날짜와 입주 날짜가 다른 경우에는 보관이사를 이용하면 돼. 미리 뺀 짐을 업체의 컨테이너에 보관했다가 입주하기로 한 날에 운반해 주는 방법이야.",
+            "turn_id": "BK22015502-7",
+            "utterance_id": "BK22015502.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "짐 보관 때문에 고민이 많았는데 보관이사를 이용하면 되겠네. 근데 이사 비용을 결정하는 것은 이사 방법 말고 또 뭐가 있어?",
+            "turn_id": "BK22015502-8",
+            "utterance_id": "BK22015502.15"
+        },
+        {
+            "reference_date": "2022-03-17",
+            "reference_text": [
+                {
+                    "value": "일반이사부터 포장이사까지는 도움 인력의 숫자와 출발지와 도착지 간의 거리, 이삿짐 크기, 층수 및 엘리베이터 이용가능여부, 시간대, 사다리차 등 다양한 요건에 따라 가격이 천차만별로 갈린다.",
+                    "value_time": "2022-10-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=58533",
+            "search_query": "이삿짐 가격 결정요인",
+            "terminate": false,
+            "text": "이사 비용을 결정하는 요소들은 도와주는 인력의 수, 출발하는 곳과 도착하는 곳의 거리, 이삿짐의 크기, 층수와 엘리베이터 사용 가능 여부, 시간, 사다리차 같은 것들이야.",
+            "turn_id": "BK22015502-8",
+            "utterance_id": "BK22015502.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이사 비용에 영향을 주는 것들이 생각보다 많구나.",
+            "turn_id": "BK22015502-9",
+            "utterance_id": "BK22015502.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 그러니 잘 고민해서 이사 방법과 이사업체를 선택하도록 해.",
+            "turn_id": "BK22015502-9",
+            "utterance_id": "BK22015502.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어, 이사 방법에 대해 궁금한 것이 많았는데 자세히 알려줘서 고마워.",
+            "turn_id": "BK22015502-10",
+            "utterance_id": "BK22015502.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "고맙긴, 우리는 다음에 만나자, 안녕.",
+            "turn_id": "BK22015502-10",
+            "utterance_id": "BK22015502.20"
+        }
+    ]
+}

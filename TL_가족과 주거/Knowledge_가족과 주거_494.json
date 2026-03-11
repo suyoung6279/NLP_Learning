@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015562",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015562",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다음 달이면 자취하던 집에서 나가야 하는데 당최 어디로 가야 할지 고민이네요. 친구가 쉐어하우스에 사는 데 좋다고 추천해서 좀 알아볼까 하는데, 쉐어하우스가 정확히 어떤 거예요?",
+            "turn_id": "BK22015562-1",
+            "utterance_id": "BK22015562.1"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "먼저 쉐어하우스는 다른 사람과 일정 공간을 공유하면서 지내는 주거 형태를 말합니다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "화장실과 부엌 등 공용 공간을 공유하는 ‘플랫 셰어’와 방까지 함께 공유하는 ‘룸 셰어’로 구분할 수 있습니다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=62719",
+            "search_query": "쉐어하우스란",
+            "terminate": false,
+            "text": "아, 집 구하는 일이 정말 쉽지 않죠. 쉐어하우스는 여러 사람이랑 일정 공간을 공유하며 생활하는 주거 형태를 말해요. 화장실이랑 부엌 같은 공용 공간을 함께 쓰는 플랫 셰어가 있고, 방도 공유해서 쓰는 룸 셰어가 있고요.",
+            "turn_id": "BK22015562-1",
+            "utterance_id": "BK22015562.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여러 사람끼리 함께 사는 형태군요. 이런 곳도 계약 기간이 2년인가요? 들어갔는데 성향에 안 맞으면 어떻게 버틸지 걱정되네요.",
+            "turn_id": "BK22015562-2",
+            "utterance_id": "BK22015562.3"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "3개월, 6개월 등 짧은 거주 기간으로 계약을 할 수 있기 때문에 잦은 이동이 필요한 사람들에게 도움을 주고 있습니다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "최근에는 1달이라는 짧은 기간 동안 거주가 가능한 쉐어하우스도 있어 거주기간을 편하게 고를 수 있는 장점이 있어요.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=62719",
+            "search_query": "쉐어하우스 계약 기간",
+            "terminate": false,
+            "text": "그렇지 않아요. 3개월이나 6개월 식으로 짧게 계약을 할 수 있어서 자주 집을 옮겨야 하는 사람들에게 편리하죠. 요즘에는 1달처럼 아주 짧은 기간도 거주할 수 있는 쉐어하우스가 등장해서 편하게 기간을 맞출 수 있어요.",
+            "turn_id": "BK22015562-2",
+            "utterance_id": "BK22015562.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 그럼 1달만 일단 계약해서 살아보고 더 살지 말지 결정할 수 있겠네요. 근데 그럼 보증금이 쎈 편인가요?",
+            "turn_id": "BK22015562-3",
+            "utterance_id": "BK22015562.5"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "대부분의 원룸은 백 단위 혹은 천 단위의 큰 보증금으로 이루어져 있지만, 쉐어하우스는 상대적으로 저렴한 보증금으로 입주가 가능합니다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=62719",
+            "search_query": "쉐어하우스 보증금 저렴",
+            "terminate": false,
+            "text": "그렇지도 않아요. 원룸 같은 경우는 대부분 백이나 천 단위로 보증금이 크게 매겨지지만 쉐어하우스는 그보다 저렴한 가격으로도 입주할 수 있어요.",
+            "turn_id": "BK22015562-3",
+            "utterance_id": "BK22015562.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가격이 어느 정도로까지 떨어질 수 있는데요?",
+            "turn_id": "BK22015562-4",
+            "utterance_id": "BK22015562.7"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "보증금 100만 원 이하로 얻을 수 있는 방들이 많이 있기 때문에 아직 보증금을 마련하지 못한 사회초년생 혹은 갑자기 집을 구해야 하는 사람들에게 도움이 되고 있어요.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=62719",
+            "search_query": "쉐어하우스 보증금 정도",
+            "terminate": false,
+            "text": "어떤 방은 보증금 100만 원 이하로도 계약할 수 있어요. 그래서 보증금을 미처 마련하지 못한 사회초년생이나 갑자기 집을 얻어야 하는 사람들한테 도움이 많이 되죠.",
+            "turn_id": "BK22015562-4",
+            "utterance_id": "BK22015562.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 정말 낮은 금액으로도 가능하네요. 쉐어하우스만의 장점도 있나요?",
+            "turn_id": "BK22015562-5",
+            "utterance_id": "BK22015562.9"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "쉐어하우스는 특성상 다른 사람들과 일정 공간을 공유하기 때문에 다양한 사람들을 만날 수 있습니다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "평소 혼자 지내는 것에 외로움을 느끼거나 불안함을 느끼는 사람들에게는 외로움과 불안함을 없앨 수 있는 좋은 환경이에요.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=62719",
+            "search_query": "쉐어하우스 장점",
+            "terminate": false,
+            "text": "그럼요. 쉐어하우스는 주거 형태 특성상 여러 사람이랑 공유해야 하는 공간이 정해져 있어서 사람들을 다양하게 만나기 좋아요. 혼자 지내는 삶에 외로움을 느끼고 있다거나 불안함을 느끼고 있다면 이런 걸 해소할 수 있는 좋은 환경이죠.",
+            "turn_id": "BK22015562-5",
+            "utterance_id": "BK22015562.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 점은 확실히 좋네요! 혼자 살다 보면 가끔 밤에 무서울 때가 있거든요. 근데 제가 쉐어하우스 알아보려다가 코리빙하우스라는 것도 검색어에 같이 걸렸는데, 이건 어떤 방식이에요?",
+            "turn_id": "BK22015562-6",
+            "utterance_id": "BK22015562.11"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "코리빙하우스(Co-living House)는 (Cooperative)와 (Living)의 합성어로 독립된 공간과 공용 공간이 완벽하게 구분된 주거 형태를 말합니다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=62719",
+            "search_query": "코리빙하우스란",
+            "terminate": false,
+            "text": "코리빙하우스는 Cooperative와 Living이라는 단어의 합성어예요. 독립적으로 쓸 수 있는 공간과 공용 공간이 확실하게 구분된 주거 형태죠.",
+            "turn_id": "BK22015562-6",
+            "utterance_id": "BK22015562.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 쉐어하우스랑 어떤 부분이 다른 거예요?",
+            "turn_id": "BK22015562-7",
+            "utterance_id": "BK22015562.13"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "코리빙하우스는 쉐어하우스와 다르게 기본적으로 독립적인 각자의 방을 갖추고 있습니다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "즉, 사생활을 완벽하게 보장받을 수 있으며 다양한 사람들과 만남이나 대화하고 싶을 경우에는 공용 공간으로 나와 사람들과 어울릴 수 있죠.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=62719",
+            "search_query": "코리빙하우스와 쉐어하우스 차이",
+            "terminate": false,
+            "text": "코리빙하우스와 쉐어하우스의 차이는 독립적인 개인 공간이 기본적으로 제공된다는 거예요. 사생활을 지키기 쉽고 여러 사람과 만나거나 이야기는 나누고 싶을 땐 공용 공간에서 어울리면 돼요.",
+            "turn_id": "BK22015562-7",
+            "utterance_id": "BK22015562.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 쉐어하우스는 방을 공유해야 할 수도 있는데 코리빙하우스는 공유 공간이 아예 분리되어 있군요. 그럼 코리빙하우스의 특징은 뭔가요?",
+            "turn_id": "BK22015562-8",
+            "utterance_id": "BK22015562.15"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "코리빙하우스에서는 업무, 휴식, 취미 등의 다양한 활동을 할 수 있는 공간을 보유하고 있습니다.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "영화관, 헬스장, 워킹 룸 등 입주민들이 사용할 수 있도록 공간을 마련하여 제공하고 있어요.",
+                    "value_time": "2022-10-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=62719",
+            "search_query": "코리빙하우스 특징",
+            "terminate": false,
+            "text": "코리빙하우스에는 업무나 휴식, 취미같이 여러 활동을 수행할 수 있는 공간이 마련되어 있어요. 또, 영화관이나 헬스장, 워킹 룸 같이 입주한 사람들이 이용할 수 있는 공간도 따로 마련해 지원하고 있고요.",
+            "turn_id": "BK22015562-8",
+            "utterance_id": "BK22015562.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 시설이 생각보다 다양하게 마련되어 있네요.",
+            "turn_id": "BK22015562-9",
+            "utterance_id": "BK22015562.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 요즘은 이렇게 주거 형태가 다양하게 나와 있으니까 여러 곳을 후보지로 두고 생각해 봐요. 좋은 집을 찾을 수 있을 거예요.",
+            "turn_id": "BK22015562-9",
+            "utterance_id": "BK22015562.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 이참에 쉐어하우스랑 코리빙하우스도 좀 더 살펴볼까 싶네요. 덕분에 좋은 정보 얻어 가요, 전문가님!",
+            "turn_id": "BK22015562-10",
+            "utterance_id": "BK22015562.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아니에요, 도움이 되었다면 다행이죠! 그럼 좋은 집 구하길 바라요. 조심히 들어가고 내일 봐요!",
+            "turn_id": "BK22015562-10",
+            "utterance_id": "BK22015562.20"
+        }
+    ]
+}

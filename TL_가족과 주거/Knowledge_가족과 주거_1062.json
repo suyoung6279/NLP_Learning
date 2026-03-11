@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006504",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006504",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안녕하세요, 학생 컨설팅을 받고 싶어서 왔는데요. 고3 컨설팅 가능하신가요?",
+            "turn_id": "BK22006504-1",
+            "utterance_id": "BK22006504.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 어떤 점을 컨설팅받고 싶으셔서 오셨나요?",
+            "turn_id": "BK22006504-1",
+            "utterance_id": "BK22006504.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이가 이제 고3인데, 아직 대학 입시에 관해 전혀 몰라서요. 대학 입학 전형이 많아서 헷갈리던데 추천하시는 전형이 있나요?",
+            "turn_id": "BK22006504-2",
+            "utterance_id": "BK22006504.3"
+        },
+        {
+            "reference_date": "2022-03-10",
+            "reference_text": [
+                {
+                    "value": "수시 전형은 크게 학생부종합전형, 학생부교과전형, 논술전형, 특기자전형의 4가지로 구분된다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "학생부종합전형(약칭 학종)은 학교생활기록부를 종합적으로 반영하는 전형으로, 내신성적(정량평가)뿐만 아니라 수상, 자격증, 진로, 창의적 체험활동, 교과학습, 독서, 행동발달 등(정성평가) 등 학교생활기록부의 거의 모든 요소들을 종합적으로 평가하여 학생들을 선발하는 전형이다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EB%8C%80%ED%95%99_%EC%9E%85%EC%8B%9C_%EC%A0%9C%EB%8F%84",
+            "search_query": "대입 전형",
+            "terminate": false,
+            "text": "수시 전형은 크게 학생부종합전형, 학생부교과전형, 논술전형, 특기자전형의 4가지로 구분돼요. 그중에서도 종합전형을 추천해 드리는데, 학생부종합전형은 학교생활기록부를 종합적으로 반영하는 전형으로, 내신성적뿐만 아니라 수상, 자격증, 진로, 창의적 체험활동, 교과 학습, 독서, 행동 발달 등 학교생활기록부의 거의 모든 요소를 종합적으로 평가하여 학생들을 선발하는 전형이에요.",
+            "turn_id": "BK22006504-2",
+            "utterance_id": "BK22006504.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "종합 평가가 정성평가인 만큼 많은 논란이 있을 거 같은데 아닌가요?",
+            "turn_id": "BK22006504-3",
+            "utterance_id": "BK22006504.5"
+        },
+        {
+            "reference_date": "2022-01-24",
+            "reference_text": [
+                {
+                    "value": "첫째, 대학합격을 결정하는 '서류'의 신뢰성과 공정성이 보장되지 않는다는 것이고, 둘째, 대학에서 평가하는 과정도 신뢰성과 공정성이 보장이 안 된다는 것이다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "학생부 서류는 내신성적과 수상실적을 제외하면 모두 교사와 학생이 \"주관적으로 작성한 내용\"들이다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 이렇게 주관적으로 작성된 서류에 대해 신뢰성과 공정성 시비가 생겨나는 것은 애초부터 불가피한 일이다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002799043&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+            "search_query": "학종 비판",
+            "terminate": false,
+            "text": "맞아요. 논란의 주된 이유로 첫째, 대학합격을 결정하는 서류의 신뢰성과 공정성이 보장되지 않는다는 것이고, 둘째, 대학에서 평가하는 과정도 신뢰성과 공정성이 보장이 안 된다는 것이에요. 학생부 서류는 내신성적과 수상 실적을 제외하면 모두 교사와 학생이 주관적으로 작성한 내용들이에요. 따라서 이렇게 주관적으로 작성된 서류에 대해 신뢰성과 공정성 시비가 생겨나는 것은 애초부터 불가피한 일이죠.",
+            "turn_id": "BK22006504-3",
+            "utterance_id": "BK22006504.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 문제가 있군요. 지금 3학년인데 활동을 많이 하지 못했거든요. 혹시 다른 전형은 없을까요?",
+            "turn_id": "BK22006504-4",
+            "utterance_id": "BK22006504.7"
+        },
+        {
+            "reference_date": "2022-08-29",
+            "reference_text": [
+                {
+                    "value": "학생부교과전형은 비수도권 대학에서 선발 비중이 높다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이번 수시모집에서 지난해 대비 5천958명이 증가해 전체 모집 인원의 44.2%를 학생부교과전형으로 선발하게 된다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.imaeil.com/page/view/2022082116100240738",
+            "search_query": "학생부교과전형",
+            "terminate": false,
+            "text": "교과 전형은 어떠세요? 학생부교과전형은 비수도권 대학에서 선발 비중이 높아요. 이번 수시모집에서 지난해 대비 5천958명이 증가해 전체 모집 인원의 44.2%를 학생부교과전형으로 선발하게 돼요.",
+            "turn_id": "BK22006504-4",
+            "utterance_id": "BK22006504.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "교과 전형이 괜찮은 거 같아요. 더 자세히 설명해주실 수 있나요?",
+            "turn_id": "BK22006504-5",
+            "utterance_id": "BK22006504.9"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "내신이 유리한 수험생이라면 학생부교과 90%와 출결 10%가 반영되는 ‘학생부교과전형’을 노려볼 만하다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "학생부교과 교과성적우수자전형과 학교장추천전형의 경우 수능최저학력기준을 적용한다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2022083009220004106?did=NA",
+            "search_query": "수능최저학력기준",
+            "terminate": false,
+            "text": "내신이 유리한 수험생이라면 학생부 교과 90%와 출결 10%가 반영되는 ‘학생부교과전형’을 노려볼 만해요. 그런데 학생부 교과성적 우수자 전형과 학교장 추천 전형의 경우 수능최저학력기준을 적용해요.",
+            "turn_id": "BK22006504-5",
+            "utterance_id": "BK22006504.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 그러면 반영 비율은 모든 대학이 같나요?",
+            "turn_id": "BK22006504-6",
+            "utterance_id": "BK22006504.11"
+        },
+        {
+            "reference_date": "2022-08-29",
+            "reference_text": [
+                {
+                    "value": "대학에 따라 성적이 우수한 특정 몇 개 학기만 선택할 수도 있어, 특정 학기 성적이 우수한 수험생이라면 해당 대학의 지원을 적극 고려해볼 만하다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "교과별로도 전 교과를 반영하는 대학이 있는가 하면 일부 교과만 반영하는 경우도 있다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전 학기 성적이 고른 편이라면 모든 교과를 반영하는 대학으로, 특정 과목 성적이 우수하다면 해당 과목을 많이 반영할 수 있는 대학에 지원하는 게 유리하다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2022082918173860606",
+            "search_query": "대학 반영 비율",
+            "terminate": false,
+            "text": "아니요, 과별로도 전 교과를 반영하는 대학이 있는가 하면 일부 교과만 반영하는 경우도 있어요. 전 학기 성적이 고른 편이라면 모든 교과를 반영하는 대학으로, 특정 과목 성적이 우수하다면 해당 과목을 많이 반영할 수 있는 대학에 지원하는 게 유리해요.",
+            "turn_id": "BK22006504-6",
+            "utterance_id": "BK22006504.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그러면 수능최저학력기준을 적용하는 다른 전형도 있나요?",
+            "turn_id": "BK22006504-7",
+            "utterance_id": "BK22006504.13"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "세종대는 \"논술전형은 상대적으로 학생부 성적이 불리하더라도 수능 최저학력기준을 충족시킬 수 있다면 유리하다\"며 \"지원 대학의 수능 최저학력기준을 목표로 남은 기간 전략적으로 수능 영역별 맞춤 전략을 세우는 것이 필요하다\"고 설명했다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.businesspost.co.kr/BP?command=article_view&num=290637",
+            "search_query": "논술 전형",
+            "terminate": false,
+            "text": "논술전형이 있어요. 논술전형은 상대적으로 학생부 성적이 불리하더라도 수능 최저학력기준을 충족시킬 수 있다면 유리해요.",
+            "turn_id": "BK22006504-7",
+            "utterance_id": "BK22006504.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "많은 전형을 들었는데도 무엇을 선택해야 할지 너무 헷갈리네요. 수시 전략을 간략하게 설명해주실 수 있나요?",
+            "turn_id": "BK22006504-8",
+            "utterance_id": "BK22006504.15"
+        },
+        {
+            "reference_date": "2022-08-29",
+            "reference_text": [
+                {
+                    "value": "대학수학능력시험(수능) 모의평가 성적에 비해 교과성적이 좋거나 비교과영역이 우수하다면 학생부위주 전형이 유리하다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "학생부보다 수능 경쟁력이 더 큰 경우에는 수시 논술전형을 고려해 봄직하다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/4784420",
+            "search_query": "수시 전략",
+            "terminate": false,
+            "text": "수능 모의평가 성적에 비해 교과성적이 좋거나 비교과영역이 우수하다면 학생부 위주 전형이 유리해요. 그런데 학생부보다 수능 경쟁력이 더 큰 경우에는 수시 논술전형을 고려해 보세요.",
+            "turn_id": "BK22006504-8",
+            "utterance_id": "BK22006504.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 많은 도움이 될 거 같네요. 다른 참고사항 말씀해주실 건 없나요?",
+            "turn_id": "BK22006504-9",
+            "utterance_id": "BK22006504.17"
+        },
+        {
+            "reference_date": "2022-08-29",
+            "reference_text": [
+                {
+                    "value": "일반대학은 수시 원서를 6개까지만 쓸 수 있지만, 전문대는 무제한으로 지원할 수 있다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 1개 대학이라도 수시 모집에서 합격하면 등록 여부와 관계없이 정시는 지원할 수 없어 주의해야 한다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/society/article/2022082831381",
+            "search_query": "수시 모집",
+            "terminate": false,
+            "text": "일반대학은 수시 원서를 6개까지만 쓸 수 있지만, 전문대는 무제한으로 지원할 수 있어요. 다만 1개 대학이라도 수시 모집에서 합격하면 등록 여부와 관계없이 정시는 지원할 수 없어 주의해야 해요.",
+            "turn_id": "BK22006504-9",
+            "utterance_id": "BK22006504.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "감사합니다, 오늘 컨설팅으로 많은 걸 알아가네요. 다음에 또 오겠습니다!",
+            "turn_id": "BK22006504-10",
+            "utterance_id": "BK22006504.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 언제든지 상담하러 오세요!",
+            "turn_id": "BK22006504-10",
+            "utterance_id": "BK22006504.20"
+        }
+    ]
+}

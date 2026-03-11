@@ -1,0 +1,414 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011481",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011481",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0004"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려동물을 입양하려고 하는데 강아지를 데려올지, 고양이를 데려올지 너무 고민돼요. 강아지와 고양이의 가장 큰 차이점은 뭔가요?",
+            "turn_id": "BK22011481-1",
+            "utterance_id": "BK22011481.1"
+        },
+        {
+            "reference_date": "2015-01-07",
+            "reference_text": [
+                {
+                    "value": "반려동물을 기르는 사람들이 가장 피부로 느끼는 개와 고양이의 차이는 주인과의 스킨십이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "개는 틈만 나면 주인의 스킨십을 받고 싶어하지만, 고양이는 주인과 거의 스킨십을 하지 않는다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/science/science_general/672495.html",
+            "search_query": "강아지 고양이 차이점",
+            "terminate": false,
+            "text": "반려동물과 함께 생활하는 사람들이 가장 크게 느끼는 강아지와 고양이의 차이점은 사람과의 스킨쉽이에요. 강아지는 시간만 나면 사람의 스킨쉽을 받고 싶어 하고 원하지만, 고양이는 사람과 스킨쉽을 거의 하지 않거든요.",
+            "turn_id": "BK22011481-1",
+            "utterance_id": "BK22011481.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 들어본 적 있어요. 고양이는 혼자 있는 걸 좋아한다고 하죠? 그럼 고양이는 외로움을 잘 타지 않나요?",
+            "turn_id": "BK22011481-2",
+            "utterance_id": "BK22011481.3"
+        },
+        {
+            "reference_date": "2017-01-08",
+            "reference_text": [
+                {
+                    "value": "주인이 외출했을 때 강아지가 느끼는 것만큼의 분리불안을 경험하지는 않지만 고양이도 외로움을 경험한다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "주인을 독립된 개체로 인지하기 때문에 의존하진 않지만 상호작용을 피하는 것은 아니다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "혼자 집에서 방치할 경우, 주인과의 유대감이 떨어지고 스트레스를 받을 수 있다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/society/view/2017/01/16849/",
+            "search_query": "고양이 외로움",
+            "terminate": false,
+            "text": "아니에요. 주인이 외출하면 강아지만큼의 분리불안까지는 겪지 않지만, 고양이도 외로움을 느껴요. 주인을 하나의 독립 개체로 인정하기 때문에 의존성을 띠진 않지만, 상호작용을 안 하는 건 아니니까요. 혼자 집에서 방치된다면 주인과의 유대감이 낮아지고 스트레스를 받을 수도 있어요.",
+            "turn_id": "BK22011481-2",
+            "utterance_id": "BK22011481.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 회사에 가야 하다 보니 혼자 두는 시간이 좀 길 것 같은데, 고양이가 외로움을 느끼면 어떤 증상들을 보이나요?",
+            "turn_id": "BK22011481-3",
+            "utterance_id": "BK22011481.5"
+        },
+        {
+            "reference_date": "2018-10-12",
+            "reference_text": [
+                {
+                    "value": "고양이를 외롭게 방치했을 경우, 외출하고 돌아온 보호자를 보고 운다거나 침대에 올라가는 등 여러 증상들을 보일 수 있습니다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 외로움을 많이 타는 고양이는 스트레스 때문에 아플 수도 있습니다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://realfoods.co.kr/view.php?ud=20181012000650&ret=search&search=%EB%AF%B8%EA%B5%AD%20%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4",
+            "search_query": "고양이 외로움 증상",
+            "terminate": false,
+            "text": "고양이를 외롭게 만들면, 외출 후 집으로 돌아온 사람을 보고 울거나 침대에 올라가는 등 여러 가지 행동들을 보일 수 있어요. 또 외로움을 많이 타는 고양이의 경우 스트레스를 받아 아프기도 하고요.",
+            "turn_id": "BK22011481-3",
+            "utterance_id": "BK22011481.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이는 독립적이니 외로움에 대한 부분은 신경 쓰지 않아도 될 것 같았는데 아니었네요. 고양이가 외로움을 느끼지 않으려면 어떻게 해줘야 하나요?",
+            "turn_id": "BK22011481-4",
+            "utterance_id": "BK22011481.7"
+        },
+        {
+            "reference_date": "2022-04-16",
+            "reference_text": [
+                {
+                    "value": " -하루 두 번씩 최소 10~20분 정도 온 관심이 향하도록 놀아주세요,",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "감각을 자극할만한 장난감들로 고양이들의 흥미를 일깨워주세요.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그릇에 담긴 간식보단 보호자님의 손길이 묻어나는 간식을 주어 사랑을 듬뿍 받고 있다는 기분을 안겨주세요.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.salgoonews.com/news/articleView.html?idxno=18325",
+            "search_query": "고양이 외로움 느끼지 않게",
+            "terminate": false,
+            "text": "하루에 두 번, 최소 10~20분 정도는 모든 관심이 쏠리도록 놀아주는 거예요. 감각을 자극하는 장난감을 이용해 흥미를 만들어주면 돼요. 그리고 간식을 그릇에 담아주기보다는 손길을 느낄 수 있는 간식으로 지금 사랑을 충분히 받고 있다는 기분을 느끼게 해주면 돼요.",
+            "turn_id": "BK22011481-4",
+            "utterance_id": "BK22011481.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 어렵진 않으니 함께 지내기 힘들지 않을 것 같아요. 아, 그리고 고양이는 목욕을 안 시켜줘도 된다고 하던데 맞나요?",
+            "turn_id": "BK22011481-5",
+            "utterance_id": "BK22011481.9"
+        },
+        {
+            "reference_date": "2016-08-17",
+            "reference_text": [
+                {
+                    "value": "고양이 목욕은 반드시 해야 하는 것은 아니다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고양이가 스스로 자기의 털에 침을 발라 정리하는 ‘그루밍’ 자체가 목욕하는 것과 동일한 효과가 있다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/201608171141853249",
+            "search_query": "고양이 목욕 안해도",
+            "terminate": false,
+            "text": "맞아요. 고양이는 목욕을 필수로 시켜야 하는 것은 아니에요. 스스로 자신의 털에 침을 묻혀 정리하는 그루밍이 목욕과 같은 효과를 내거든요.",
+            "turn_id": "BK22011481-5",
+            "utterance_id": "BK22011481.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "목욕이 필요 없다니 고양이 쪽으로 확 마음이 기울게 되네요. 강아지는 주기적으로 목욕이 꼭 필요하죠?",
+            "turn_id": "BK22011481-6",
+            "utterance_id": "BK22011481.11"
+        },
+        {
+            "reference_date": "2017-07-19",
+            "reference_text": [
+                {
+                    "value": "목욕은 반려견의 코트와 피부를 깨끗하고 건강하게 유지하고, 먼지와 기생충 걱정을 없애는데도 도움이 된다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사람처럼 매일 씻을 필요는 없지만, 정기적인 목욕이 필요하다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailygaewon.com/news/articleView.html?idxno=3245",
+            "search_query": "강아지 목욕 필요성",
+            "terminate": false,
+            "text": "맞아요. 사람과 같이 매일 목욕할 필요는 없지만, 주기적으로 해야 해요. 목욕하면 강아지의 코트와 피부를 청결하고 건강하게 관리할 수 있고, 먼지나 기생충에 대한 걱정을 해소하는 데도 도움이 되죠.",
+            "turn_id": "BK22011481-6",
+            "utterance_id": "BK22011481.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "매일 해야 한다고 했으면 조금 힘들뻔했는데 다행이네요. 강아지들의 목욕 주기는 대략 어느 정도 되나요?",
+            "turn_id": "BK22011481-7",
+            "utterance_id": "BK22011481.13"
+        },
+        {
+            "reference_date": "2015-12-28",
+            "reference_text": [
+                {
+                    "value": "개의 피부재생주기는 22일, 대략 3주다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "피부세포가 각질로 떨어져 나가는 데 22일이 걸린다는 이야기다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "3~4주에 1회 할 경우 건강한 피부세포가 버티고 있는 상황에서 각질을 제거하는 것이어서 최적이라는 평가다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.notepet.co.kr/news/article/article_view/?idx=2938",
+            "search_query": "강아지 목욕 주기",
+            "terminate": false,
+            "text": "강아지의 피부 재생 주기는 22일 정도로 약 3주에요. 피부세포가 각질로 변화되어 탈락하는데 22일이 걸리는 거니 3~4주에 한 번씩 목욕을 시켜주는 것이 적당해요. 건강한 피부 세포가 버텨주면서 각질을 없애주는 거니까요.",
+            "turn_id": "BK22011481-7",
+            "utterance_id": "BK22011481.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대략 한 달에 한 번에서 두 번 정도 해주면 되겠네요. 혹시 강아지 목욕할 때 사람이 사용하는 제품을 써도 되나요?",
+            "turn_id": "BK22011481-8",
+            "utterance_id": "BK22011481.15"
+        },
+        {
+            "reference_date": "2022-06-18",
+            "reference_text": [
+                {
+                    "value": "강아지는 사람과 다르게 약알칼리성 피부를 가지고 있으므로 사람이 사용하는 샴푸, 린스, 바디워시 등을 사용해서는 안됩니다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사람의 샴푸에는 각종 화학 성분이 들어있기 때문이죠.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "화학 성분이 강아지의 피부에 흡수되면 체내에 독성 물질이 쌓이거나 피지막이 손상되는 등 각종 질병을 유발할 수 있습니다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202206171725499427",
+            "search_query": "강아지 목욕 사람 샴푸",
+            "terminate": false,
+            "text": "강아지는 사람과 달리 피부가 약알칼리성을 띠고 있어요. 사람이 쓰는 샴푸나 린스, 바디워시 같은 제품에는 여러 가지 화학 성분들이 함유 되어있기 때문에 쓰면 안 돼요. 제품에 들어있는 화학 성분들이 강아지 피부에 흡수되면 몸 안에 독성 물질이 축적되거나 피지막 손상 등 여러 가지 질병이 생길 수 있거든요.",
+            "turn_id": "BK22011481-8",
+            "utterance_id": "BK22011481.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지를 입양하게 된다면 미리 준비해두는 것이 좋겠네요. 혹시 목욕 후 관리 방법이 따로 있나요?",
+            "turn_id": "BK22011481-9",
+            "utterance_id": "BK22011481.17"
+        },
+        {
+            "reference_date": "2018-01-10",
+            "reference_text": [
+                {
+                    "value": "◆6단계 마무리 확인·정돈= 마지막으로 트러블이 생기기 쉬운 발바닥 틈과 귀 안쪽까지 확인하면 반려견 건강에 도움이 된다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 샤워 후 건조해진 반려견 모발에 수분 미스트를 더해주면 피부와 모발에 적당한 수분공급과 정전기를 방지 할 수 있다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiae.co.kr/article/2018011013363409673",
+            "search_query": "강아지 목욕 후 관리",
+            "terminate": false,
+            "text": "목욕을 마친 후에 트러블이 잘 발생하는 발바닥 틈이나 귀 안쪽까지 체크해주면 강아지 건강에 도움이 돼요. 그리고 목욕을 마친 뒤 털이 건조해질 수 있어 수분 미스트를 피부나 털에 적당히 뿌려주면 수분공급뿐 아니라 정전기 방지 효과도 있어 좋고요.",
+            "turn_id": "BK22011481-9",
+            "utterance_id": "BK22011481.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지랑 고양이는 확실히 설명을 들을수록 다른 매력을 가지고 있다는 게 느껴져요. 혹시 강아지와 고양이를 함께 키워도 될까요?",
+            "turn_id": "BK22011481-10",
+            "utterance_id": "BK22011481.19"
+        },
+        {
+            "reference_date": "2018-03-03",
+            "reference_text": [
+                {
+                    "value": "둘 다 어릴 때 입양하면 서로 쉽게 친해질 수 있지만 그렇지 않으면 보호자가 영역을 나눠주고 서로 친해질 충분한 시간을 주는게 좋다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고양이 사료가 좀 더 맛있기 때문에 개가 고양이 사료를 뺏어 먹을 수 있다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고양이 사료는 높은 곳에 주어야 한다.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 고양이는 볼일을 볼 때 누군가 접근하면 스트레스를 받을 수 있으므로 화장실도 구분해주자.",
+                    "value_time": "2022-10-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?3247391",
+            "search_query": "강아지 고양이 같이 키우기",
+            "terminate": false,
+            "text": "네. 강아지와 고양이 둘 다 어릴 때 데려오면 쉽게 친해질 수 있는데, 그렇지 않은 경우라면 주인이 서로의 영역을 분리해주고 친해질 수 있는 충분한 시간을 주는 것이 좋아요. 그리고 고양이 사료가 비교적 맛있기 때문에 강아지가 사료를 뺏어 먹지 않도록 높은 곳으로 옮겨 주셔야 해요. 마지막으로 고양이는 화장실을 이용할 때 누군가 가까이 오면 스트레스를 받는 성향이라 화장실을 분리해 주는 것도 중요해요.",
+            "turn_id": "BK22011481-10",
+            "utterance_id": "BK22011481.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "함께 지낼 수 있는 방법이 있다니 제 고민이 좀 덜어지는 것 같아요! 조금 더 신중하게 고민해보고 결정할게요. 오늘 이야기 고마워요.",
+            "turn_id": "BK22011481-11",
+            "utterance_id": "BK22011481.21"
+        }
+    ]
+}

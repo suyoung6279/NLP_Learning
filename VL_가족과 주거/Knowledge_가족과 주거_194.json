@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018910",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018910",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0001"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "코로나19 상황으로 인해 재택근무를 계속하다 보니, 반려견과 함께하는 시간이 길어 좋았어요. 그런데, 요즘 갑자기 거리두기가 완화되면서 사무실로 출근하게 되었어요.",
+            "turn_id": "BK22018910-1",
+            "utterance_id": "BK22018910.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저런, 반려견이 주인과 떨어지게 되었군요.",
+            "turn_id": "BK22018910-1",
+            "utterance_id": "BK22018910.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 제가 출근하면서부터 저희 집 반려동물인 강아지가 너무 힘들어하더라고요. 자꾸 낑낑거리고 짖는데, 분리불안 증상인가요?",
+            "turn_id": "BK22018910-2",
+            "utterance_id": "BK22018910.3"
+        },
+        {
+            "reference_date": "44632.0",
+            "reference_text": [
+                {
+                    "value": "구토와 침 흘림, 하울링, 물건 파손, 부적절한 배설 등으로 불안과 스트레스를 표출한다.",
+                    "value_time": "44848.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "혼자 있는 시간이 길어지면 분리불안은 더욱 악화된다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1385486/%ec%9c%84%eb%93%9c%ed%8e%ab%ec%a7%91%ec%97%90-%ed%98%bc%ec%9e%90-%eb%91%90%ea%b3%a0-%eb%82%98%ea%b0%88-%ec%88%98-%ec%97%86%ec%96%b4%eb%b0%98%eb%a0%a4%ea%b2%ac-%eb%b6%84%eb%a6%ac%eb%b6%88/",
+            "search_query": "강아지 분리불안",
+            "terminate": false,
+            "text": "네, 강아지가 혼자 있는 시간이 길어질수록 분리불안 증상은 악화돼요. 하울링 뿐만 아니라 침을 흘리며 토하기도 하고, 물건을 부수거나 지정된 장소가 아닌 곳에 배설하기도 해요. 반려견이 불안과 스트레스를 표출하는 행동이죠.",
+            "turn_id": "BK22018910-2",
+            "utterance_id": "BK22018910.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 분리불안을 발생시키는 요인은 무엇일까요?",
+            "turn_id": "BK22018910-3",
+            "utterance_id": "BK22018910.5"
+        },
+        {
+            "reference_date": "44632.0",
+            "reference_text": [
+                {
+                    "value": "분리불안은 주인과의 관계로 생긴다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "유년기부터 주인이나 생활환경이 여러 번 바뀐 경우, 유기견 보호소 입양견은 분리불안 증세를 호소하는 경우가 더 많다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1385486/%ec%9c%84%eb%93%9c%ed%8e%ab%ec%a7%91%ec%97%90-%ed%98%bc%ec%9e%90-%eb%91%90%ea%b3%a0-%eb%82%98%ea%b0%88-%ec%88%98-%ec%97%86%ec%96%b4%eb%b0%98%eb%a0%a4%ea%b2%ac-%eb%b6%84%eb%a6%ac%eb%b6%88/",
+            "search_query": "강아지 분리불안 주인 관계",
+            "terminate": false,
+            "text": "보통 분리불안은 주인과의 관계 문제로 인해 생기게 돼요. 어린 시절부터 주인이 자꾸 바뀌었거나, 또 생활 환경에 잦은 변화가 있는 경우 분리불안 증세를 보이는 경우가 많아요.",
+            "turn_id": "BK22018910-3",
+            "utterance_id": "BK22018910.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "환경의 영향을 받는다는 말씀이시군요. 그렇다면 품종도 분리불안에 영향을 미치나요?",
+            "turn_id": "BK22018910-4",
+            "utterance_id": "BK22018910.7"
+        },
+        {
+            "reference_date": "44632.0",
+            "reference_text": [
+                {
+                    "value": "반면 품종은 분리불안에 영향을 미치지 않고, 성격과 연령은 영향을 미친다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1385486/%ec%9c%84%eb%93%9c%ed%8e%ab%ec%a7%91%ec%97%90-%ed%98%bc%ec%9e%90-%eb%91%90%ea%b3%a0-%eb%82%98%ea%b0%88-%ec%88%98-%ec%97%86%ec%96%b4%eb%b0%98%eb%a0%a4%ea%b2%ac-%eb%b6%84%eb%a6%ac%eb%b6%88/",
+            "search_query": "강아지 분리불안 증상 성격",
+            "terminate": false,
+            "text": "반려견의 품종은 분리불안에 영향을 주지 않아요. 다만 성격이나 나이로 인해 발생할 수는 있어요.",
+            "turn_id": "BK22018910-4",
+            "utterance_id": "BK22018910.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "성격이나 연령은 분리불안에 어떤 영향을 줘요?",
+            "turn_id": "BK22018910-5",
+            "utterance_id": "BK22018910.9"
+        },
+        {
+            "reference_date": "44632.0",
+            "reference_text": [
+                {
+                    "value": "연구에 따르면 노령견일수록 인지 장애 증상에 더해 약 50% 이상이 분리불안 문제를 겪는 것으로 나타났다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또, 활발하고 사교적인 성격보다 겁이 많고 소심한 성격의 강아지가 분리불안이 발생할 확률이 높았다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1385486/%ec%9c%84%eb%93%9c%ed%8e%ab%ec%a7%91%ec%97%90-%ed%98%bc%ec%9e%90-%eb%91%90%ea%b3%a0-%eb%82%98%ea%b0%88-%ec%88%98-%ec%97%86%ec%96%b4%eb%b0%98%eb%a0%a4%ea%b2%ac-%eb%b6%84%eb%a6%ac%eb%b6%88/",
+            "search_query": "강아지 분리불안 증상 영향",
+            "terminate": false,
+            "text": "연구에 의하면 나이가 많은 강아지일수록 인지 장애 증상에 더하여 50퍼센트 이상이 분리불안을 겪는다고 해요. 또, 겁이 많거나 소심한 반려견이 활발하고 사교성있는 반려견보다 분리불안이 생길 확률이 더 높고요.",
+            "turn_id": "BK22018910-5",
+            "utterance_id": "BK22018910.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 그래서 집에 돌아오면 미안한 마음에 주말에는 강아지와 보내는 시간을 가지려고 노력하고 있어요. 이런 행동이 분리불안에 도움이 될까요?",
+            "turn_id": "BK22018910-6",
+            "utterance_id": "BK22018910.11"
+        },
+        {
+            "reference_date": "44632.0",
+            "reference_text": [
+                {
+                    "value": "귀가 후 미안함에 함께 수면을 취하거나, 주말 내내 붙어서 휴식하는 경우가 있다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 오히려 의존도를 높이고 분리불안을 악화하는 행동이다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1385486/%ec%9c%84%eb%93%9c%ed%8e%ab%ec%a7%91%ec%97%90-%ed%98%bc%ec%9e%90-%eb%91%90%ea%b3%a0-%eb%82%98%ea%b0%88-%ec%88%98-%ec%97%86%ec%96%b4%eb%b0%98%eb%a0%a4%ea%b2%ac-%eb%b6%84%eb%a6%ac%eb%b6%88/",
+            "search_query": "강아지 분리불안 증상 악화",
+            "terminate": false,
+            "text": "혼자 있는 반려견에게 미안한 마음이 들어서 함께 수면을 취하거나, 주말 내내 붙어서 쉬는 경우가 있긴 하죠. 하지만 이런 상황은 반려견의 의존도를 높이며 분리불안 증상을 더 나쁘게 만드는 행동이 될 수 있어요.",
+            "turn_id": "BK22018910-6",
+            "utterance_id": "BK22018910.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 분리불안 증상을 줄여 주고, 의존도를 낮춰 주는 훈련법이 있을까요?",
+            "turn_id": "BK22018910-7",
+            "utterance_id": "BK22018910.13"
+        },
+        {
+            "reference_date": "44632.0",
+            "reference_text": [
+                {
+                    "value": "독립성을 키워주기 위해선 집안 환경에 적응 훈련이 필요하다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려견과 떨어져 있는 시간을 점차 늘리는 것도 현명하다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1385486/%ec%9c%84%eb%93%9c%ed%8e%ab%ec%a7%91%ec%97%90-%ed%98%bc%ec%9e%90-%eb%91%90%ea%b3%a0-%eb%82%98%ea%b0%88-%ec%88%98-%ec%97%86%ec%96%b4%eb%b0%98%eb%a0%a4%ea%b2%ac-%eb%b6%84%eb%a6%ac%eb%b6%88/",
+            "search_query": "강아지 분리불안 외출 훈련",
+            "terminate": false,
+            "text": "음, 강아지의 독립심을 키워주기 위해서는 실내 공간 환경에 적응시키는 훈련이 도움이 돼요. 또, 강아지와 떨어져 있는 시간을 점진적으로 늘리는 훈련을 하는 것도 좋고요.",
+            "turn_id": "BK22018910-7",
+            "utterance_id": "BK22018910.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 외에 도움이 되는 훈련이 또 있을까요?",
+            "turn_id": "BK22018910-8",
+            "utterance_id": "BK22018910.15"
+        },
+        {
+            "reference_date": "44632.0",
+            "reference_text": [
+                {
+                    "value": "특히, 귀가 후 행동이 중요하다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반려견이 꼬리를 흔들며 반갑게 맞이할 때 눈높이를 맞추고 부드러운 목소리로 말을 걸며 쓰다듬는다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1385486/%ec%9c%84%eb%93%9c%ed%8e%ab%ec%a7%91%ec%97%90-%ed%98%bc%ec%9e%90-%eb%91%90%ea%b3%a0-%eb%82%98%ea%b0%88-%ec%88%98-%ec%97%86%ec%96%b4%eb%b0%98%eb%a0%a4%ea%b2%ac-%eb%b6%84%eb%a6%ac%eb%b6%88/",
+            "search_query": "강아지 분리불안 외출 스트레스",
+            "terminate": false,
+            "text": "집에 돌아왔을 때 주인의 행동이 정말 중요해요. 강아지는 꼬리를 흔들면서 반갑게 주인을 맞이할 거예요. 그 상황에서, 강아지와 시선을 맞추며 부드럽게 이야기를 걸며 쓰다듬어 주어야 해요.",
+            "turn_id": "BK22018910-8",
+            "utterance_id": "BK22018910.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 그 행동이 왜 도움이 되는 거예요?",
+            "turn_id": "BK22018910-9",
+            "utterance_id": "BK22018910.17"
+        },
+        {
+            "reference_date": "44632.0",
+            "reference_text": [
+                {
+                    "value": "이는 반려견이 기다린 시간을 이해한다는 제스처로 분리불안 증세를 완화하고 스트레스 해소에 도움을 준다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이런 행동이 반복되면 반려견은 주인 외출 후 돌아온다는 사실을 인지한다.",
+                    "value_time": "44848.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1385486/%ec%9c%84%eb%93%9c%ed%8e%ab%ec%a7%91%ec%97%90-%ed%98%bc%ec%9e%90-%eb%91%90%ea%b3%a0-%eb%82%98%ea%b0%88-%ec%88%98-%ec%97%86%ec%96%b4%eb%b0%98%eb%a0%a4%ea%b2%ac-%eb%b6%84%eb%a6%ac%eb%b6%88/",
+            "search_query": "강아지 분리불안 스트레스 해소",
+            "terminate": false,
+            "text": "그 행동은 강아지가 기다린 시간을 이해한다는 의미예요. 강아지의 분리불안 증상을 완화하고, 스트레스를 낮추는데 도움을 줄 수 있어요. 이런 행동이 반복된다면 강아지는 주인이 밖에 나갔다가 언젠가 돌아온다는 사실을 인식하게 돼요.",
+            "turn_id": "BK22018910-9",
+            "utterance_id": "BK22018910.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 저도 가르쳐 주셨던 방법을 활용해서 적용해 보아야겠어요.",
+            "turn_id": "BK22018910-10",
+            "utterance_id": "BK22018910.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 강아지의 분리불안 증상이 개선되었으면 좋겠습니다.",
+            "turn_id": "BK22018910-10",
+            "utterance_id": "BK22018910.20"
+        }
+    ]
+}

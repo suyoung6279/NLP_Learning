@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009255",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009255",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘은 주변에서 이혼을 준비한다는 얘기가 종종 들려와요. 요즘 우리나라에 이혼하는 사람들이 많나요?",
+            "turn_id": "BK22009255-1",
+            "utterance_id": "BK22009255.1"
+        },
+        {
+            "reference_date": "2021-05-20",
+            "reference_text": [
+                {
+                    "value": "하루에 300쌍의 부부가 남남이 된다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "OECD가 발표한 ‘한눈에 보는 사회 2019’에 따르면 한국조이혼율(인구 1000명당 이혼율)은 2016년 기준 2.1명으로 1991년 1.1명보다 2배 치솟았으며 OECD 평균인 1.9명을 넘었다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.goodnews1.com/news/articleView.html?idxno=113233",
+            "search_query": "우리나라 이혼율",
+            "terminate": false,
+            "text": "우리나라는 매일 300쌍의 부부가 이혼하고 있어요. OECD 발표에 의하면 인구 천명당 이혼율이 1991년에는 1.1명, 2016년에는 2.1명으로 2배가 높아졌어요. 이는 OECD 평균인 1.9명보다 높은 수치에요.",
+            "turn_id": "BK22009255-1",
+            "utterance_id": "BK22009255.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "300쌍이라니 생각보다 많네요. 예전에는 이혼했다고 하면 인식이 좋지 않았는데 요즘은 어떤가요?",
+            "turn_id": "BK22009255-2",
+            "utterance_id": "BK22009255.3"
+        },
+        {
+            "reference_date": "2022-07-27",
+            "reference_text": [
+                {
+                    "value": "이혼율이 높아지고 이혼을 주제로 다루는 TV 프로그램이 늘어나고 있어 예전과는 다르게 이혼에 대한 인식이 개방적으로 변한 것은 사실이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lawissue.co.kr/view.php?ud=2022072717131390666cf2d78c68_12",
+            "search_query": "이혼에 대한 인식",
+            "terminate": false,
+            "text": "요즘처럼 이혼율이 증가하고 TV에서도 이혼을 주제로 한 프로그램이 많아지고 있어 예전보다는 이혼에 대한 생각이 개방적으로 변한 것은 맞아요.",
+            "turn_id": "BK22009255-2",
+            "utterance_id": "BK22009255.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하긴 요즘 이혼은 흠이 아니라는 말도 하더라구요. 이혼에 대한 인식이 변했다면 이혼소송도 늘어났나요?",
+            "turn_id": "BK22009255-3",
+            "utterance_id": "BK22009255.5"
+        },
+        {
+            "reference_date": "2019-11-14",
+            "reference_text": [
+                {
+                    "value": "‘2019 사법연감’에 따르면 작년 한 해 법원에 접수된 1심 가사소송 사건은 4만 7,994건으로 전년에 비해 1% 늘어났다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 중 이혼소송은 75.1%(3만 6,054건)에 달해 타 가사소송 가운데 가장 높은 비중을 차지하는 것으로 집계됐다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.e2news.com/news/articleView.html?idxno=216563",
+            "search_query": "이혼소송 건수 증가",
+            "terminate": false,
+            "text": "2019 사법연감에 의하면 1년 동안 법원에 접수된 1심 가사소송 사건 중 이혼 소송이 75.1%를 차지하여 가사소송 가운데 가장 큰 비중을 차지하는 것으로 밝혀졌어요.",
+            "turn_id": "BK22009255-3",
+            "utterance_id": "BK22009255.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이혼소송이 75%라니 놀라운 수치네요. 만약 이혼을 결심했다면 가장 먼저 무엇부터 하면 되나요?",
+            "turn_id": "BK22009255-4",
+            "utterance_id": "BK22009255.7"
+        },
+        {
+            "reference_date": "2019-11-14",
+            "reference_text": [
+                {
+                    "value": "A.이혼은 어떤 절차로 진행할지 결정하는 것부터 첫 걸음이 시작된다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가장 널리 알려진 이혼 방법으로 협의이혼과 이혼소송이 대표적이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.e2news.com/news/articleView.html?idxno=216563",
+            "search_query": "이혼 절차 첫 걸음",
+            "terminate": false,
+            "text": "협의이혼과 이혼소송이 대표적인 이혼 방법인데, 이혼을 결심했다면 가장 먼저 어떤 절차를 밟아 이혼을 할지 결정해야 해요.",
+            "turn_id": "BK22009255-4",
+            "utterance_id": "BK22009255.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제일 먼저 절차부터 정해야 하는군요. 이혼 소송은 알겠는데 협의이혼은 뭔가요?",
+            "turn_id": "BK22009255-5",
+            "utterance_id": "BK22009255.9"
+        },
+        {
+            "reference_date": "2019-11-14",
+            "reference_text": [
+                {
+                    "value": "협의이혼은 부부 모두가 이혼을 원하고 양육권, 재산분할 문제에 대해 이견이 없을 때, 이혼소송은 부부 한 쪽만 이혼을 원하거나 좀처럼 좁혀지지 않는 의견 차이가 있을 때 선택하게 된다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.e2news.com/news/articleView.html?idxno=216563",
+            "search_query": "이혼소송 협의이혼",
+            "terminate": false,
+            "text": "협의이혼이란 부부 둘 다 이혼을 희망하고 양육권이나 재산 분할에 대한 이견이 없을 때 진행할 수 있는 이혼 방법이에요.",
+            "turn_id": "BK22009255-5",
+            "utterance_id": "BK22009255.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 처음에는 부부 모두 합의해서 협의이혼으로 정했다가 나중에 이혼소송으로 바뀌는 경우도 있나요?",
+            "turn_id": "BK22009255-6",
+            "utterance_id": "BK22009255.11"
+        },
+        {
+            "reference_date": "2019-11-14",
+            "reference_text": [
+                {
+                    "value": "하지만 이들 중 적지 않은 비율이 결국 이혼소송을 선택하는데 양육비, 재산분할, 위자료 등 미리 협의했던 사항을 상대 배우자가 제대로 지키지 않을 가능성이 있기 때문이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.e2news.com/news/articleView.html?idxno=216563",
+            "search_query": "이혼소송 협의이혼",
+            "terminate": false,
+            "text": "처음에는 협의 이혼에 과정을 밟다가 결국 이혼소송을 선택하는 분들이 많아요. 양육비나 위자료, 재산분할 등을 미리 합의했던 대로 지켜지지 않을 가능성이 있다는 판단에서에요.",
+            "turn_id": "BK22009255-6",
+            "utterance_id": "BK22009255.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 이혼소송을 하게 되면 협의이혼보다는 어려운 점이 많을 것 같은데 이혼소송의 장단점이 뭘까요?",
+            "turn_id": "BK22009255-7",
+            "utterance_id": "BK22009255.13"
+        },
+        {
+            "reference_date": "2019-11-14",
+            "reference_text": [
+                {
+                    "value": "A.이혼소송은 위자료나 재산분할, 양육권 등에서 타협이 이뤄지지 않는 부분을 가사법원 재판부의 도움을 받아 결정하고, 유책 배우자를 대상으로 일방적인 이혼을 청구할 수 있다는 장점이 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 이혼소송은 협의이혼에 비해 과정이 복잡하고 짧게는 수개월, 길게는 수년까지 걸릴 수 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.e2news.com/news/articleView.html?idxno=216563",
+            "search_query": "이혼소송의 장단점",
+            "terminate": false,
+            "text": "이혼소송을 소송을 하게 되면 재산 분할 및 위자료, 양육권 등 협의가 이루어지지 않는 부분을 재판부의 도움을 통해 결정을 할 수 있어요. 또한 배우자가 유책 사유가 있을 때 일방적인 이혼을 할 수 있다는 장점이 있답니다. 그렇지만 협의이혼보다 과정이 더 복잡하고 수개월, 수년까지 기간이 소요될 수 있다는 것이 단점이에요.",
+            "turn_id": "BK22009255-7",
+            "utterance_id": "BK22009255.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수년까지 걸려 소송을 한다면 몸도 마음도 지칠 것 같아요. 협의이혼은 불안하고 소송까지 하는 건 부담스럽다면 다른 선택지가 있을까요?",
+            "turn_id": "BK22009255-8",
+            "utterance_id": "BK22009255.15"
+        },
+        {
+            "reference_date": "2019-11-14",
+            "reference_text": [
+                {
+                    "value": "A.미처 협의되지 못한 부분이 남아 있고 이혼소송까지 끌고 갈 자신이 없다면 ‘조정이혼’을 고려할 수 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "조정이혼은 공개 재판이 아닌 법원 안에서의 비공개 조정을 통해 이혼을 진행하는 제3의 이혼절차다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.e2news.com/news/articleView.html?idxno=216563",
+            "search_query": "조정이혼 고려",
+            "terminate": false,
+            "text": "아직까지 협의 되지 못한 부분이 있고 끝까지 이혼 소송을 하는 것이 힘들게 느껴진다면 조정 이혼을 고려해 볼 수 있어요. 조정 이혼이란 제 3의 이혼절차로써 공개재판이 아닌 법원 안에서 비공개 조정을 하는 방식이에요.",
+            "turn_id": "BK22009255-8",
+            "utterance_id": "BK22009255.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조정이혼이라는 방법도 있군요. 이혼 방법이 생각했던 것 보다 여러가지네요.",
+            "turn_id": "BK22009255-9",
+            "utterance_id": "BK22009255.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "각자 상황에 맞는 방법을 찾아 절차를 밟으면 되니 이혼 방법이나 절차에 대해 알고 있으면 선택이 더 쉬워질거에요.",
+            "turn_id": "BK22009255-9",
+            "utterance_id": "BK22009255.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇겠네요. 한번 맺은 부부의 연이 끝까지 이어지면 좋겠지만 어쩔 수 없이 이혼하는 상황도 이해해 줘야할 것 같아요. 오늘 대화 너무 즐거웠어요.",
+            "turn_id": "BK22009255-10",
+            "utterance_id": "BK22009255.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "본인의 삶의 만족도가 더 중요한거니까요. 그럼 다음에 만나 또다른 주제로 얘기 나눠요. 안녕히 가세요.",
+            "turn_id": "BK22009255-10",
+            "utterance_id": "BK22009255.20"
+        }
+    ]
+}

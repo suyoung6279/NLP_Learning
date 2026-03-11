@@ -1,0 +1,337 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012410",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012410",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자녀들에게 성교육을 해주고 싶은데 어떤 것을 알려주면 좋을까요?",
+            "turn_id": "BK22012410-1",
+            "utterance_id": "BK22012410.1"
+        },
+        {
+            "reference_date": "44728.0",
+            "reference_text": [
+                {
+                    "value": "피임(避妊)은 성교를 거쳐 임신이 되는 것을 일정한 수단을 사용하여 막는 행위이다.",
+                    "value_time": "44774.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%94%BC%EC%9E%84",
+            "search_query": "피임",
+            "terminate": false,
+            "text": "임신이 되는 것을 막는 피임에 대해 알려주면 좋을 것 같아요.",
+            "turn_id": "BK22012410-1",
+            "utterance_id": "BK22012410.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "피임에는 다양한 방법이 있을 것 같아요.",
+            "turn_id": "BK22012410-2",
+            "utterance_id": "BK22012410.3"
+        },
+        {
+            "reference_date": "44455.0",
+            "reference_text": [
+                {
+                    "value": "피임 방법에는 ▲복합 경구용 피임약 ▲남성용 콘돔 ▲자궁 내 장치 ▲피하이식 호르몬 피임법 ▲불임수술 ▲자연적 방법 ▲응급피임(사후피임) 등이 있다.",
+                    "value_time": "44774.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.medigatenews.com/news/843825756",
+            "search_query": "피임법",
+            "terminate": false,
+            "text": "여성은 피임을 위해 경구용 피임약을 먹거나, 자궁 내 장치나 피하이식 호르몬을 삽입할 수 있고, 남성은 콘돔을 착용하여 여성의 임신을 막을 수 있어요.",
+            "turn_id": "BK22012410-2",
+            "utterance_id": "BK22012410.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여성이 하는 피임법에는 호르몬 약이나 장치를 삽입하는 거라고 설명해 주셨는데 경구용 피임약은 어떻게 임신을 되는 걸 예방하나요?",
+            "turn_id": "BK22012410-3",
+            "utterance_id": "BK22012410.5"
+        },
+        {
+            "reference_date": "44722.0",
+            "reference_text": [
+                {
+                    "value": "경구 피임약(먹는 피임약)은 생리와 임신에 관여하는 호르몬인 에스트로겐과 프로게스테론을 함유한 약으로, 배란을 조절하여 피임이 가능케 하는 약물을 말합니다.",
+                    "value_time": "44774.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다음 달에 피임을 원하면 이번 달 월경이 시작된 날부터 5일 이내 매일 한 알씩 복용하게 되는데요.",
+                    "value_time": "44774.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sisacast.kr/news/articleView.html?idxno=34981",
+            "search_query": "경구 피임약 원리",
+            "terminate": false,
+            "text": "경구 피임약은 에스트로겐과 프로게스트론 호르몬을 섭취하여 배란을 조절하는 약으로 생리가 시작된 날 5일 이내 매일 한 알씩 섭취하면 다음 달에 피임이 돼요.",
+            "turn_id": "BK22012410-3",
+            "utterance_id": "BK22012410.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "경구 피임약을 섭취하면 부작용도 있을 것 같은데 어떤 게 있나요?",
+            "turn_id": "BK22012410-4",
+            "utterance_id": "BK22012410.7"
+        },
+        {
+            "reference_date": "44368.0",
+            "reference_text": [
+                {
+                    "value": "경구피임약을 찾는 소비자는 부정출혈이 고민인 경우가 가장 많고 이어 속이 불편하다, 몸이 붓고 머리가 아프다는 호소 등이 있다.",
+                    "value_time": "44774.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kpanews.co.kr/article/show.asp?idx=223450&category=D",
+            "search_query": "경구 피임약 부작용",
+            "terminate": false,
+            "text": "경구 피임약을 먹다 보면 부정출혈이 생기거나 몸이 붓거나 머리가 아플 수 있어요.",
+            "turn_id": "BK22012410-4",
+            "utterance_id": "BK22012410.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "경구 피임약의 부작용이 계속 지속되나요?",
+            "turn_id": "BK22012410-5",
+            "utterance_id": "BK22012410.9"
+        },
+        {
+            "reference_date": "44368.0",
+            "reference_text": [
+                {
+                    "value": "처음 경구피임약을 복용하거나 간헐적으로 복용하는 환자들은 외부 호르몬으로 인해 일시적으로 부작용이 생길 수 있다.",
+                    "value_time": "44774.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 시간이 지나면서 몸이 적응하기 때문에 대부분 부작용은 평균 2-3개월 정도의 시간이 지나면서 완화된다.",
+                    "value_time": "44774.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kpanews.co.kr/article/show.asp?idx=223450&category=D",
+            "search_query": "경구 피임약 부작용",
+            "terminate": false,
+            "text": "경구 피임약을 복용하면 2개월에서 3개월까지 일시적으로 부작용이 생길 수 있어요. 하지만 시간이 지나면서 몸이 호르몬 약에 익숙해지면 증상이 완화돼요.",
+            "turn_id": "BK22012410-5",
+            "utterance_id": "BK22012410.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "피임약을 오래 먹으면 불임이 되나요?",
+            "turn_id": "BK22012410-6",
+            "utterance_id": "BK22012410.11"
+        },
+        {
+            "reference_date": "42489.0",
+            "reference_text": [
+                {
+                    "value": "심 교수는 \"피임약을 오래 복용하다 보면 당연히 초산의 연령이 늦어지기 마련\"이라며 \"노화에 따라 임신 성공 가능성이 줄어드는 것뿐이지 피임약 때문이 아니다\"라고 설명했다.",
+                    "value_time": "44774.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20160429092800017",
+            "search_query": "피임약 불임",
+            "terminate": false,
+            "text": "피임약이 불임을 일으키지 않아요. 첫 아이를 낳는 연령이 늦어짐에 따라 여성의 몸은 노화가 진행이 되는데 피임약을 복용하는 기간이 길어짐에 따른 노화가 임신에 영향을 준거라고 할 수 있어요.",
+            "turn_id": "BK22012410-6",
+            "utterance_id": "BK22012410.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "앞에서 피임 방법으로 콘돔과 경구 피임약을 언급하셨는데 피임률은 어느 정도예요?",
+            "turn_id": "BK22012410-7",
+            "utterance_id": "BK22012410.13"
+        },
+        {
+            "reference_date": "44099.0",
+            "reference_text": [
+                {
+                    "value": "성매개 질환 예방에 효과적인 '콘돔'의 평균 피임 성공률은 약 82%로 알려져 있다.",
+                    "value_time": "44774.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "경구피임약은 평균 91%의 피임 성공률을 보인다.",
+                    "value_time": "44774.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2020/09/25/2020092500878.html",
+            "search_query": "피임약 피임률",
+            "terminate": false,
+            "text": "콘돔 피임률이 82퍼센트인 거에 비해 경구 피임약의 피임률은 약 91퍼센트에요.",
+            "turn_id": "BK22012410-7",
+            "utterance_id": "BK22012410.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "콘돔이 다른 피임법에 비해 피임률이 낮은 이유는 뭔가요?",
+            "turn_id": "BK22012410-8",
+            "utterance_id": "BK22012410.15"
+        },
+        {
+            "reference_date": "44642.0",
+            "reference_text": [
+                {
+                    "value": "콘돔의 사용법은 복잡하지 않지만 잘못 사용해 찢어지거나 빠지면 피임에 실패할 가능성이 높아지므로 정확한 사용법을 숙지해야 한다.",
+                    "value_time": "44774.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=103657",
+            "search_query": "콘돔 실패",
+            "terminate": false,
+            "text": "콘돔의 사용방법은 어렵지는 않지만, 간혹 찢어지거나, 빠지게 되면 임신을 할 수 있기 때문에 사용 전에 정확한 이용방법을 잘 익혀야 해요.",
+            "turn_id": "BK22012410-8",
+            "utterance_id": "BK22012410.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "콘돔이 찢어져서 피임이 제대로 되지 않으면 어떻게 해야 하나요?",
+            "turn_id": "BK22012410-9",
+            "utterance_id": "BK22012410.17"
+        },
+        {
+            "reference_date": "43063.0",
+            "reference_text": [
+                {
+                    "value": "응급피임약은 예상하지 못했던 응급 상황에서 임신을 피하기 위해 복용합니다.",
+                    "value_time": "44774.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 응급피임약을 먹었어도 100% 피임을 보장하지 않는다는 점을 감안해야 합니다.",
+                    "value_time": "44774.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://jhealthmedia.joins.com/article/article_view.asp?pno=18878",
+            "search_query": "콘돔 찢어짐",
+            "terminate": false,
+            "text": "응급피임약을 복용하면 임신이 되는 것을 막을 수 있지만 완벽하게 피임을 보장하지 못해요.",
+            "turn_id": "BK22012410-9",
+            "utterance_id": "BK22012410.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "피임법을 정확히 알고 있어야 할 것 같아요.",
+            "turn_id": "BK22012410-10",
+            "utterance_id": "BK22012410.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 오늘 대화를 통해 얻은 성교육 정보를 자녀에게 자세히 전달을 해 피임을 정확히 이해할 수 있게 해주세요.",
+            "turn_id": "BK22012410-10",
+            "utterance_id": "BK22012410.20"
+        }
+    ]
+}

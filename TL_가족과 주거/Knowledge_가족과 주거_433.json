@@ -1,0 +1,363 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015393",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015393",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와이프가 임신 17주가 되었어요. 오늘 같이 산부인과에 가서 초음파를 보고 왔는데, 너무 신기해요. 궁금한 것들도 많고요.",
+            "turn_id": "BK22015393-1",
+            "utterance_id": "BK22015393.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 저도 초음파는 볼 때마다 신기하더라고요. 어떤 점들이 궁금하세요?",
+            "turn_id": "BK22015393-1",
+            "utterance_id": "BK22015393.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "먼저 17주 태아의 크기는 어느 정도 인가요?",
+            "turn_id": "BK22015393-2",
+            "utterance_id": "BK22015393.3"
+        },
+        {
+            "reference_date": "2015-09-10",
+            "reference_text": [
+                {
+                    "value": " 크기: 양파만 해져서 약 11cm의 정도로 자랐으며, 몸무게는 약 110g 정도예요.",
+                    "value_time": "2022-10-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107973",
+            "search_query": "임신 17주 태아 크기",
+            "terminate": false,
+            "text": "네, 17주 태아는 약 11cm 정도로 무게는 약 110g 정도에요. 양파만 하다고 생각하면 돼요.",
+            "turn_id": "BK22015393-2",
+            "utterance_id": "BK22015393.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 아직 많이 작은데, 이 시기의 태아는 어떤 특징들이 있나요?",
+            "turn_id": "BK22015393-3",
+            "utterance_id": "BK22015393.5"
+        },
+        {
+            "reference_date": "2015-09-10",
+            "reference_text": [
+                {
+                    "value": " 특징: 몸 전체에 땀샘이 생기기 시작하고, 귓속에 작은 뼈가 단단해지면서 청각 기관이 크게 발달해 조용한 음악을 들으면 안정된 모습을 보여요.",
+                    "value_time": "2022-10-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "단맛과 쓴맛을 구분하게 되며, 눈썹, 속눈썹, 머리털이 자라고 손톱, 발톱도 생겨나고 지문도 생깁니다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107973",
+            "search_query": "임신 17주 태아 특징",
+            "terminate": false,
+            "text": "태아의 몸 전체에 땀샘이 생기기 시작하고 귓속에 작은 뼈가 단단해지면서 청각이 발달해요. 조용한 음악을 들으면 안정되기도 하죠. 또 단맛과 쓴맛을 구분하게 되며, 눈썹과 속눈썹, 머리카락이 자라고 손톱 발톱도 생겨나고 지문이 생기기 시작해요.",
+            "turn_id": "BK22015393-3",
+            "utterance_id": "BK22015393.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맛을 구분할 수 있다니, 앞으로 먹는거에 더 신경을 써야 겠네요. 그럼 이시기에 아내의 몸 상태는 어떤가요?",
+            "turn_id": "BK22015393-4",
+            "utterance_id": "BK22015393.7"
+        },
+        {
+            "reference_date": "2015-09-10",
+            "reference_text": [
+                {
+                    "value": "자궁의 크기는 멜론 크기 만해지며 작은 떨림의 미약한 태동이 나타나기도 해요.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "유륜이 넓어지고 색이 짙어지며, 유선의 발달이 두드러져요.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "복부 가운데 배꼽부터 임신 선이 나타나고, 임신성 기미가 생기기도 해요.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107973",
+            "search_query": "임신 17주 엄마의 증상",
+            "terminate": false,
+            "text": "이제 미약하지만 작은 떨림이나 태동이 나타나기 시작해요. 자궁의 크기는 멜론만해지며 유륜이 넓어지고 색이 짙어져요. 또 유선이 발달하고 복부 가운데 배꼽부터 임신선이 나타나며 임신성 기미가 생길 수 있어요.",
+            "turn_id": "BK22015393-4",
+            "utterance_id": "BK22015393.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "벌써 태동을 느낄 수도 있군요. 혹시 이 시점에 어떤 태교가 좋은지 아시나요?",
+            "turn_id": "BK22015393-5",
+            "utterance_id": "BK22015393.9"
+        },
+        {
+            "reference_date": "2015-09-10",
+            "reference_text": [
+                {
+                    "value": "뇌의학자들의 연구에 의하면 임신 중 수학책을 보거나 외국어를 듣는 것보다 좋은 그림을 보고 즐거운 음악을 들으면서 마음이 편안해지는 것이 더 좋은 태교라고 해요.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "되도록 스트레스를 받지 않고 즐거운 마음을 가지는 것이 중요해요.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107973",
+            "search_query": "임신 17주 필요한 태교",
+            "terminate": false,
+            "text": "뇌의학자들의 연구에 따르면 임신 중 수학책을 보거나 외국어를 듣는 것보다 좋은 그림책이나 즐거운 음악을 들으며 엄마의 마음이 편해지는게 더 좋은 태교라고 해요. 엄마가 스트레스 받지 않는게 제일 중요해요.",
+            "turn_id": "BK22015393-5",
+            "utterance_id": "BK22015393.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와이프가 스트레스를 받지 않는게 제일 중요하군요. 혹시 이 시기에 와이프에게 필요한 영양소는 어떤 것이 있는지 알 수 있을까요?",
+            "turn_id": "BK22015393-6",
+            "utterance_id": "BK22015393.11"
+        },
+        {
+            "reference_date": "2015-09-10",
+            "reference_text": [
+                {
+                    "value": "빈혈이 없어도 이 시기부터는 본격적인 철분이 필요하고, 칼슘이 부족할 경우 산모의 뼈에서 칼슘이 빠져나와 태아의 부족한 칼슘을 보충하므로 칼슘 보충도 필요해요.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107973",
+            "search_query": "임신 17주 필요한 영양소",
+            "terminate": false,
+            "text": "본격적으로 철분과 칼슘이 필요한 시기이기 때문에 빈혈이 없어도 철분을 드시는 게 좋고, 산모의 뼈에서 칼슘이 빠져나와 태아의 부족한 칼슘을 보충해야 하므로 칼슘도 함께 드시는 게 좋아요.",
+            "turn_id": "BK22015393-6",
+            "utterance_id": "BK22015393.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 참, 태아보험이라는 게 있다는데 혹시 태아보험에 대해서 아시나요? 지금 가입해야 하는 건가요?",
+            "turn_id": "BK22015393-7",
+            "utterance_id": "BK22015393.13"
+        },
+        {
+            "reference_date": "2015-09-10",
+            "reference_text": [
+                {
+                    "value": "A. 적어도 임신 22주 이전에 가입하는 것이 좋아요.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "태아보험은 보통 손해보험사인 경우 임신을 인지한 이후, 생명보험사의 경우 임신 16주차부터 가입할 수 있어요.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "임신 22주 이후에도 가입할 수 있지만, 특약 추가가 어려워질 수 있어 별도로 확인이 필요해요.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107973",
+            "search_query": "임신 17주 태아보험",
+            "terminate": false,
+            "text": "태아보험은 보통 손해보험사인 경우 임신을 인지한 이후, 생명보험사인 경우 임신 16주차부터 가입할 수 있지만 임신 22주 이후에는 특약 추가가 어려울 수 있어 임신 22주 이전에 가입하는 게 좋아요.",
+            "turn_id": "BK22015393-7",
+            "utterance_id": "BK22015393.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 슬슬 알아봐야 겠네요. 그리고 요즘 아내가 변비가 생긴 것 같은데, 임신 증상 중 변비도 있나요?",
+            "turn_id": "BK22015393-8",
+            "utterance_id": "BK22015393.15"
+        },
+        {
+            "reference_date": "2015-09-10",
+            "reference_text": [
+                {
+                    "value": "임신 중에는 황체 호르몬이 장의 움직임을 둔화시키거나, 자궁의 크기가 커짐에 따라 장을 압박해 변비가 생기기 쉬워요.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107973",
+            "search_query": "임신 중 변비 예방",
+            "terminate": false,
+            "text": "네, 맞아요. 임신 중에는 황체 호르몬이 장의 움직임을 둔하게 만들고, 또 자궁의 크기가 커지기 때문에 장을 압박해 변비에 걸리기 쉬워요.",
+            "turn_id": "BK22015393-8",
+            "utterance_id": "BK22015393.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 근데 변비가 생겨도 임신 중에는 약을 먹기가 쉽지 않잖아요. 변비 예방을 위한 방법이 있을까요?",
+            "turn_id": "BK22015393-9",
+            "utterance_id": "BK22015393.17"
+        },
+        {
+            "reference_date": "2015-09-10",
+            "reference_text": [
+                {
+                    "value": "변비 예방을 위해 6~8컵의 물을 마시고, 섬유소가 풍부한 음식을 많이 먹고, 철분 보충제 양을 점검하세요",
+                    "value_time": "2022-10-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000107973",
+            "search_query": "임신 중 변비 예방",
+            "terminate": false,
+            "text": "변비를 예방하기 위해서 하루 6~8컵의 물을 마시고 섬유소가 많이 들어있는 음식을 드시는 게 좋아요. 또 철분 보충제를 먹는다면 양을 점검해보시는 것도 좋아요.",
+            "turn_id": "BK22015393-9",
+            "utterance_id": "BK22015393.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 좋은 정보네요. 변비 예방 방법은 아내에게 꼭 얘기해 줘야 겠어요.",
+            "turn_id": "BK22015393-10",
+            "utterance_id": "BK22015393.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 아무래도 약을 먹기 힘드니, 미리 예방하면 좋죠.",
+            "turn_id": "BK22015393-10",
+            "utterance_id": "BK22015393.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 오늘 좋은 정보 많이 알려주셔서 감사해요. 궁금한 점이 많았는데 덕분에 해결이 되었어요.",
+            "turn_id": "BK22015393-11",
+            "utterance_id": "BK22015393.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되셨다니 다행이네요. 또 궁금한 점 있으시면 언제든지 물어보세요.",
+            "turn_id": "BK22015393-11",
+            "utterance_id": "BK22015393.22"
+        }
+    ]
+}

@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008796",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008796",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0046"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 남편이 살이 쪘어요. 본인 말로는 요새 잠을 잘 자지 못해서 살이 쪘다던데, 잠을 못 자면 살이 찐다는 게 사실인가요?",
+            "turn_id": "BK22008796-1",
+            "utterance_id": "BK22008796.1"
+        },
+        {
+            "reference_date": "2016-03-02",
+            "reference_text": [
+                {
+                    "value": "잠자는 시간이 너무 짧으면 몸이 쉽게 피곤해지고 그만큼 신체 활동이 줄면서 살이 찌기 쉬워진다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "호르몬 변화가 생기면서 식욕은 더욱 커지는 반면 에너지 소비는 줄어들기 때문이다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/201603021052429617",
+            "search_query": "잠자는 시간이 짧으면",
+            "terminate": false,
+            "text": "네, 맞아요. 잠을 적게 자면 몸이 쉽게 피곤해지고 그만큼 활동량이 줄어들면서 살이 찔 수 있어요. 활동량은 줄지만, 호르몬 변화로 식욕은 커지기 때문이에요.",
+            "turn_id": "BK22008796-1",
+            "utterance_id": "BK22008796.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 남편 말이 정말이었군요. 요새 정말 통 잠을 못 자긴 하더라고요. 그럼 잠을 못 자면 살찌는 것 말고 다른 문제점은 없나요?",
+            "turn_id": "BK22008796-2",
+            "utterance_id": "BK22008796.3"
+        },
+        {
+            "reference_date": "2016-03-02",
+            "reference_text": [
+                {
+                    "value": "또한 우리 몸의 생체리듬인 서커디언 리듬이 불규칙하게 되면 식욕을 촉진하는 그렐린의 분비가 많아지면서 살이 찌기 쉽고 그만큼 제2형 당뇨병의 위험이 커진다는 연구결과도 있다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/201603021052429617",
+            "search_query": "서커디언 리듬 불규칙",
+            "terminate": false,
+            "text": "살이 찌게 되면 그만큼 제2형 당뇨병에 걸릴 위험 또한 커지죠.",
+            "turn_id": "BK22008796-2",
+            "utterance_id": "BK22008796.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 잠을 잘 자야겠네요. 잠을 잘 자기 위해서 딱히 지켜야 할 것들이 있나요?",
+            "turn_id": "BK22008796-3",
+            "utterance_id": "BK22008796.5"
+        },
+        {
+            "reference_date": "2016-03-02",
+            "reference_text": [
+                {
+                    "value": "◆ 잠들기 전 스마트폰 사용은 자제한다",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/201603021052429617",
+            "search_query": "잠들기 전 스마트폰",
+            "terminate": false,
+            "text": "네, 가장 먼저 잠을 잘 자려면 잠자기 전에 핸드폰 사용은 하지 않는 게 좋아요.",
+            "turn_id": "BK22008796-3",
+            "utterance_id": "BK22008796.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그 얘기는 정말 많이 들어서 알고 있어요. 남편에게도 잠자기 전에 그렇게 핸드폰을 보지 말라고 말하는데도 잘 듣지 않더라고요. 그런데 잠자기 전에 핸드폰을 하지 말아야 하는 정확한 이유가 뭔가요?",
+            "turn_id": "BK22008796-4",
+            "utterance_id": "BK22008796.7"
+        },
+        {
+            "reference_date": "2016-03-02",
+            "reference_text": [
+                {
+                    "value": "스마트폰 등 전자기기의 블루라이트가 수면을 방해하기 때문에 잠들기 30분 전부터는 이러한 기기 사용을 최소화하는 것이 좋다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/201603021052429617",
+            "search_query": "스마트폰 블루라이트",
+            "terminate": false,
+            "text": "스마트폰이나 전자기기에는 블루라이트 라는 게 있는데 수면을 방해해요. 그렇기 때문에 잠자기 30분 전부터는 스마트폰이나 전자기기를 사용하지 말라고 하는 거예요.",
+            "turn_id": "BK22008796-4",
+            "utterance_id": "BK22008796.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 그리고 잠을 잘 자지 못하면 살이 찐다고 하셨는데, 반대로 잠을 잘 자면 살이 빠질 수도 있나요?",
+            "turn_id": "BK22008796-5",
+            "utterance_id": "BK22008796.9"
+        },
+        {
+            "reference_date": "2016-03-02",
+            "reference_text": [
+                {
+                    "value": "◆ 방을 어둡게 만든다",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "빛 하나 없이 완전히 컴컴한 곳에서 잠을 자는 여성이 그렇지 않은 여성에 비해 비만이 될 가능성이 21%나 줄어든다는 연구결과가 있다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/201603021052429617",
+            "search_query": "살 빠지는 수면습관",
+            "terminate": false,
+            "text": "네, 맞아요. 예로 방을 아주 깜깜하게 빛 하나 없이 해놓고 잠을 자면 그렇지 않은 여성에 비해 살이 빠질 가능성이 21퍼센트나 돼요. 그러니 잠을 잘 때에는 방을 어둡게 해 놓고 자는 게 좋겠죠.",
+            "turn_id": "BK22008796-5",
+            "utterance_id": "BK22008796.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그래요? 빛이 있고 없고가 살을 빼는 데 영향을 준다니 놀랍네요. 어떤 원리로 그런 건가요?",
+            "turn_id": "BK22008796-6",
+            "utterance_id": "BK22008796.11"
+        },
+        {
+            "reference_date": "2016-03-02",
+            "reference_text": [
+                {
+                    "value": "빛으로 인해 숙면을 취하지 못하면 멜라토닌의 분비가 적어지는데, 생체리듬을 조절해 우리가 잠을 잘 수 있도록 돕고 면역계, 신경계 등 우리 몸에 광범위한 영향을 미치는 멜라토닌의 분비가 적어지면 생체리듬이 깨져 비만으로 이어지기 쉽다는 것이다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/201603021052429617",
+            "search_query": "숙면 멜라토닌 분비",
+            "terminate": false,
+            "text": "우리가 잘 때 우리 몸에선 멜라토닌이라는 성분이 나와 생체 리듬을 조절해 주고 잠을 잘 수 있도록 도와주는데, 빛으로 인해 잠을 깊게 잘 자지 못하면 이 멜라토닌 분비가 적어져요. 멜라토닌 분비가 적어지면서 생체 리듬이 깨지게 되고 살이 찔 수 있는 거죠.",
+            "turn_id": "BK22008796-6",
+            "utterance_id": "BK22008796.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 빛에 노출되지 않게 숙면을 취하면 살이 빠진다는 거죠?",
+            "turn_id": "BK22008796-7",
+            "utterance_id": "BK22008796.13"
+        },
+        {
+            "reference_date": "2016-03-02",
+            "reference_text": [
+                {
+                    "value": "얼마나 오래 잠을 자느냐 보다 얼마나 같은 시간에 잠자리에 드느냐가 더 중요하다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "취침 시간과 기상 시간이 일정한 사람이 체지방을 더 많이 감소하게 된다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/201603021052429617",
+            "search_query": "살 빠지는 수면습관",
+            "terminate": false,
+            "text": "네, 맞아요. 하지만 숙면도 좋지만 얼마나 잠을 오래 자느냐보다는 잠자는 시간과 일어나는 시간이 얼마나 규칙적이고 일정한지가 더 중요해요. 이렇게 규칙적으로 잠을 자는 사람의 체지방이 더 많이 줄어들거든요.",
+            "turn_id": "BK22008796-7",
+            "utterance_id": "BK22008796.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 잠자면서 살 빼기 위해 필요한 조건들이 꽤 많네요. 혹시 다른 방법들이 더 있나요?",
+            "turn_id": "BK22008796-8",
+            "utterance_id": "BK22008796.15"
+        },
+        {
+            "reference_date": "2016-03-02",
+            "reference_text": [
+                {
+                    "value": "◆ 운동과 건강한 식습관은 계속 유지한다",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "몸에 좋은 음식을 챙겨먹고 더 많은 양의 운동을 하며 건강한 생활습관을 가질 수 있도록 끊임없이 노력해야 한다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/201603021052429617",
+            "search_query": "운동과 건강한 식습관",
+            "terminate": false,
+            "text": "살을 빼기 위해 가장 중요한 건 꾸준한 운동과 식습관이죠. 건강한 음식들을 먹고 꾸준한 운동을 하는 생활 습관을 가지는 게 제일 중요해요.",
+            "turn_id": "BK22008796-8",
+            "utterance_id": "BK22008796.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 맞아요. 제가 잠시 깜빡했네요. 잠자는 습관도 중요하지만 운동도 함께 해야 한다고 남편에게 얘기해 줘야겠어요.",
+            "turn_id": "BK22008796-9",
+            "utterance_id": "BK22008796.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 좋은 생각이에요. 노력 없이는 절대 살을 뺄 수 없죠.",
+            "turn_id": "BK22008796-9",
+            "utterance_id": "BK22008796.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 명심할게요. 덕분에 제가 남편을 좀 더 챙겨야겠다는 생각이 들었어요. 오늘 좋은 정보 많이 알려주셔서 감사해요.",
+            "turn_id": "BK22008796-10",
+            "utterance_id": "BK22008796.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요, 또 궁금한 점 있으면 언제든지 물어보세요.",
+            "turn_id": "BK22008796-10",
+            "utterance_id": "BK22008796.20"
+        }
+    ]
+}

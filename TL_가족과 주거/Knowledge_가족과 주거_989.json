@@ -1,0 +1,366 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.6,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005272",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005272",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0029"
+            },
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 3.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임신한 이후에 아직까지 큰 불편함은 없는데 입덧이 언제 시작될지 몰라서 너무 불안해요.",
+            "turn_id": "BK22005272-1",
+            "utterance_id": "BK22005272.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 입덧이 아직 오지 않았는데 미리 걱정하는 거예요?",
+            "turn_id": "BK22005272-1",
+            "utterance_id": "BK22005272.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 주변에서 입덧에 대한 얘기를 하도 많이 들어서요. 그런데 임신을 하면 입덧은 왜 하는 거예요?",
+            "turn_id": "BK22005272-2",
+            "utterance_id": "BK22005272.3"
+        },
+        {
+            "reference_date": "2022-02-15",
+            "reference_text": [
+                {
+                    "value": "입덧의 원인은 명확하게 규명되지 않았으나, 여러 가설들이 제기돼 왔다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "첫 번째가 정신분석학적 이론에서 임신 중의 구역 및 구토를 전환 혹은 신체화의 과정으로 이해하는 것이다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "두 번째는 융모성성선자극호르몬(hCG)의 분비와 관련돼 있다는 추측이다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.seoul.co.kr/news/newsView.php?id=20220215022006&wlog_tag3=naver",
+            "search_query": "입덧 이유",
+            "terminate": false,
+            "text": "아, 입덧이 생기는 원인이 뚜렷하게 밝혀진 점은 없어요. 대신 가설 몇 가지가 있는데 임신으로 인한 구역과 구토를 전환 또는 신체화의 과정으로 보는 정신분석학적 이론이 있어요. 또 다른 가설로는 융모성성선자극호르몬이 발생하는 것과 관련됐다는 추측이 있어요.",
+            "turn_id": "BK22005272-2",
+            "utterance_id": "BK22005272.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 현대의학이 입덧의 원인을 정확히 밝히지 못한다는 게 더 신기하네요. 그러면 입덧은 언제부터 시작하는 건가요? 구역질은 몇 번씩 하게 돼요?",
+            "turn_id": "BK22005272-3",
+            "utterance_id": "BK22005272.5"
+        },
+        {
+            "reference_date": "2022-02-15",
+            "reference_text": [
+                {
+                    "value": "보통은 임신 4~6주 사이에 시작해 12~16주까지 지속된다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하루 한두 번 헛구역질에서 10번 이상으로 증가해 정상적인 생활을 어렵게 하는 경우가 다반사다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.seoul.co.kr/news/newsView.php?id=20220215022006&wlog_tag3=naver",
+            "search_query": "입덧 시작시기",
+            "terminate": false,
+            "text": "입덧은 임신 4주에서 6주 사이에서 시작하게 돼서 12주에서 16주까지 계속돼요. 헛구역질의 경우 하루 한두 번에서 10번 이상으로 늘어서 정상적으로 생활하기 어려울 수 있어요.",
+            "turn_id": "BK22005272-3",
+            "utterance_id": "BK22005272.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 헛구역질은 생각만 해도 아찔해지네요. 입덧의 증상은 어떻게 나타나요?",
+            "turn_id": "BK22005272-4",
+            "utterance_id": "BK22005272.7"
+        },
+        {
+            "reference_date": "2022-02-15",
+            "reference_text": [
+                {
+                    "value": "증상은 주로 구역질과 식욕부진으로 나타난다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "피로감을 더 느끼기도 하고 두통을 동반하기도 한다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아침 공복에 증상이 심해지는 경향이 있어, 영어로 ‘모닝 시크니스’(morning sickness)라고도 불린다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.seoul.co.kr/news/newsView.php?id=20220215022006&wlog_tag3=naver",
+            "search_query": "입덧 증상",
+            "terminate": false,
+            "text": "입덧의 증상은 구역질과 식욕이 없는 걸로 나타나요. 또 피로함을 더 느낄 수 있고, 두통이 같이 올 수도 있어요. 특히 아침 빈속에 입덧의 증상이 더 심해지는 현상이 있어서 영어로 모닝 시크니스로 불리기도 해요.",
+            "turn_id": "BK22005272-4",
+            "utterance_id": "BK22005272.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그런데 임산부만 입덧을 하는 게 아니라 남편도 입덧을 하는 경우가 있다던데 혹시 알고 계세요?",
+            "turn_id": "BK22005272-5",
+            "utterance_id": "BK22005272.9"
+        },
+        {
+            "reference_date": "2022-03-27",
+            "reference_text": [
+                {
+                    "value": "쿠바드 증후군은 남성이 입덧을 하는 현상을 말한다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 일부 예비 아빠에게서 입덧을 하는 것처럼 입맛을 잃고 메스꺼움, 헛구역질, 구토 증상을 동반하는 '쿠바드 증후군'이 나타나는 경우도 있다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongdo.co.kr/web/view.php?key=20220327010006042",
+            "search_query": "쿠바드 증후군",
+            "terminate": false,
+            "text": "아, 남자가 입덧을 하는 증상인 쿠바드 증후군을 말씀하시는 거군요. 일부 예비 아빠들이 입덧을 겪는 것처럼 입맛이 없고, 메스꺼움, 헛구역질, 구토 증상을 느끼는 것이 쿠바드 증후군이에요.",
+            "turn_id": "BK22005272-5",
+            "utterance_id": "BK22005272.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말요? 남편도 입덧을 하는 게 실제로 있는 일이라니 믿기지 않네요. 쿠바드 증후군이 생기는 이유가 있나요?",
+            "turn_id": "BK22005272-6",
+            "utterance_id": "BK22005272.11"
+        },
+        {
+            "reference_date": "2022-03-30",
+            "reference_text": [
+                {
+                    "value": "쿠바드 증후군의 원인에는 여러 가지 이론이 있다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "페로몬(pheromone·같은 종 동물 개체 사이의 소통과 신호에 사용되는 체외분비성 물질), 신체의 생리주기, 스트레스와 관련 있다는 설이 있으며 심리적인 변화나 호르몬 변화에 따라 신체가 반응하는 것이라는 이론도 있다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/it/view/2022/03/284783/",
+            "search_query": "쿠바드 증후군 원인",
+            "terminate": false,
+            "text": "쿠바드 증후군이 생기는 이유에는 여러 이론이 있어요. 동일 종 동물 개체 사이의 소통과 신호에 쓰이는 체외 분비성 물질인 페로몬이 영향을 미칠 수 있다는 이론이 있고요. 또 다른 이유로는 신체의 생리주기, 스트레스로 인해서일 수도 있어요. 또 심리적 변화나 호르몬 변화로 인해 몸이 반응하는 것이라는 이론도 있어요.",
+            "turn_id": "BK22005272-6",
+            "utterance_id": "BK22005272.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 입덧처럼 쿠바드 증후군의 원인도 명확하지 않군요. 그러면 입덧이 생기면 어떻게 대처해야 하나요?",
+            "turn_id": "BK22005272-7",
+            "utterance_id": "BK22005272.13"
+        },
+        {
+            "reference_date": "2020-04-23",
+            "reference_text": [
+                {
+                    "value": "임신 중에는 하루 세번 규칙적으로 식사를 하는 것이 좋지만, 입덧이 심할 때는 조금씩 자주 먹는 것이 낫다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "공복 혹은 과식 상태인 경우 입덧이 더 심해질 수 있으므로 적은 양의 식사를 하고 소화가 잘 되는 음식을 먹도록 한다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202004233170o",
+            "search_query": "입덧 완화 방법",
+            "terminate": false,
+            "text": "물론 임신 상태에는 규칙적으로 식사를 하는 게 좋지만 입덧이 심할 때는 적은 양을 자주 먹는 게 좋아요. 빈속이거나 과식을 하면 입덧이 더 심해지니 소량의 식사를 하고 소화가 잘 되는 음식을 먹어야 해요.",
+            "turn_id": "BK22005272-7",
+            "utterance_id": "BK22005272.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 하지만 구토가 심하면 음식을 먹기 어렵잖아요. 구토를 계속하면 위험한 거 아닌가요?",
+            "turn_id": "BK22005272-8",
+            "utterance_id": "BK22005272.15"
+        },
+        {
+            "reference_date": "2021-11-24",
+            "reference_text": [
+                {
+                    "value": "입덧으로 인해 구토가 심하면 음식 섭취가 어렵고, 이로 인해 몸무게가 감소하고 탈수, 전해질 균형 훼손 등의 합병증이 생길 수 있다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "증상이 심한 경우엔 진료를 받고 빠르게 대처할 필요가 있다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/11/23/2021112301838.html",
+            "search_query": "입덧 구토",
+            "terminate": false,
+            "text": "맞아요. 구토가 심해지면 음식을 먹기가 어려워지고 그로 인해 몸무게도 줄어들어요. 또 탈수 증상과 전해질 균형이 나빠지는 등의 합병증이 생길 위험이 있어요. 입덧으로 인한 구토 증상이 심하면 진료를 받는 게 좋아요.",
+            "turn_id": "BK22005272-8",
+            "utterance_id": "BK22005272.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 임산부는 약을 먹을 수 없지 않나요? 병원에 간다고 해도 먹을 수 있는 약이 있어요?",
+            "turn_id": "BK22005272-9",
+            "utterance_id": "BK22005272.17"
+        },
+        {
+            "reference_date": "2021-11-24",
+            "reference_text": [
+                {
+                    "value": "현재 국내외에서 입덧치료제로 허가된 의약품으로는 항히스타민제 계열인 '독시라민' 10mg과 비타민 B6 10mg으로 구성된 복합제가 있다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 약은 미국 FDA에서 '임부 투여 안전성(태아 위험도 분류) A등급'으로 분류된 약물이다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "임산부 투여 안전성 A등급은 임산부 대상 적절한 약물 조정 연구에서 태아 위험성이 증명되지 않은 약이라는 것을 의미한다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/11/23/2021112301838.html",
+            "search_query": "입덧 치료제",
+            "terminate": false,
+            "text": "네, 국내와 해외에서 입덧 치료제로 인정된 의약품이 있는데 항히스타민제 계열인 독시라민 10mg과 비타민 B6 10mg으로 구성된 복합제가 있어요. 말씀드린 약은 미국 FDA에서 임산부 투여 안정성이 A등급으로 구분된 약이에요. 임산부 투여 안정성 A등급이란 임산부를 대상으로 한 적절한 약물 조정 연구에서 태아에게 위험성이 없다고 밝혀진 약을 뜻해요.",
+            "turn_id": "BK22005272-9",
+            "utterance_id": "BK22005272.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 임산부의 구토를 완화해 주고 태아에게 안전한 입덧 치료제가 있어서 다행이네요. 오늘 정말 좋은 정보 알려주셔서 고마워요.",
+            "turn_id": "BK22005272-10",
+            "utterance_id": "BK22005272.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요. 입덧이 없으면 좋겠지만 만약 생기더라도 잘 대처하고 건강 잘 챙기시기 바라요. 그럼 다음에 봐요.",
+            "turn_id": "BK22005272-10",
+            "utterance_id": "BK22005272.20"
+        }
+    ]
+}

@@ -1,0 +1,363 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014670",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014670",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0021"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 임신했어요. 현재 임신 6주라는데, 축하해 주세요.",
+            "turn_id": "BK22014670-1",
+            "utterance_id": "BK22014670.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 너무 축하드려요. 임신 6주면 슬슬 입덧이 있을 때 같은데, 몸은 괜찮으세요?",
+            "turn_id": "BK22014670-1",
+            "utterance_id": "BK22014670.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안 그래도 그것 때문에 걱정이에요. 저는 괜찮은데, 저희 남편이 요즘 입덧해요. 이렇게 남편이 입덧하는 경우도 있나요?",
+            "turn_id": "BK22014670-2",
+            "utterance_id": "BK22014670.3"
+        },
+        {
+            "reference_date": "2022-04-10",
+            "reference_text": [
+                {
+                    "value": "◇증상=입덧은 임신 초기인 4-8주에 시작해 16주 정도가 지나면 대부분 없어지는 현상으로, 많은 임신부가 경험한다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 일부 예비 아빠에게서 입덧을 하는 것처럼 입맛을 잃고 메스꺼움, 헛구역질, 구토 등 증상을 동반하는 `쿠바드 증후군`이 나타나기도 한다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.daejonilbo.com/news/articleView.html?idxno=1513814",
+            "search_query": "입덧하는 남편",
+            "terminate": false,
+            "text": "네, 입덧은 임신 4주에서 8주 정도에 시작해서 16주 정도가 되면 대부분 사라지는 현상으로 많은 임산부가 입맛을 잃고 메스꺼움이나 헛구역질, 구토 등의 증상들을 경험하곤 해요. 하지만 일부 남편들도 쿠바드 증후군이라고 해서 이런 입덧 증상을 대신 겪기도 하죠.",
+            "turn_id": "BK22014670-2",
+            "utterance_id": "BK22014670.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 저희 남편도 쿠바드 증후군인가 봐요. 이런 증상이 왜 생기는 건가요?",
+            "turn_id": "BK22014670-3",
+            "utterance_id": "BK22014670.5"
+        },
+        {
+            "reference_date": "2022-04-10",
+            "reference_text": [
+                {
+                    "value": "전 세계 다양한 문화권에서 여러 형태로 관찰되고 있는 쿠바드 증후군은 예비 아빠가 임신한 아내와 비슷한 심리·신체적 증상을 경험하는 것으로, 원인에는 여러 가지 이론이 있다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "페로몬과 신체의 생리주기, 스트레스 또는 심리적 변화나 호르몬 변화에 따른 신체적 반응 등이 꼽힌다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.daejonilbo.com/news/articleView.html?idxno=1513814",
+            "search_query": "쿠바드 증후군",
+            "terminate": false,
+            "text": "네, 이 쿠바드 증후군의 원인은 여러 가지의 이론이 있는데, 그중 페로몬과 신체의 생리주기, 스트레스 또는 심리적 변화나 호르몬 변화 같은 신체적 반응 등이 꼽히고 있어요.",
+            "turn_id": "BK22014670-3",
+            "utterance_id": "BK22014670.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 그렇군요. 그럼 입덧의 증상에는 어떤 것들이 있나요?",
+            "turn_id": "BK22014670-4",
+            "utterance_id": "BK22014670.7"
+        },
+        {
+            "reference_date": "2022-04-10",
+            "reference_text": [
+                {
+                    "value": "보통 입덧의 증상은 음식물 냄새, 담배 연기, 각종 비린내 등으로 갑자기 비위가 상하면서 식욕이 뚝 떨어지거나 속이 메슥거리고 구토를 유발하는 것이 일반적이다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또 먹는 즉시 토해버리기도 하며, 갑자기 신 것이 먹고 싶어지거나 평소에는 입에 대지도 않았던 음식이 갑자기 생각나기도 한다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.daejonilbo.com/news/articleView.html?idxno=1513814",
+            "search_query": "입덧 증상 음식물 냄새",
+            "terminate": false,
+            "text": "보통 음식물 냄새나 담배 연기, 각종 비린내 등의 냄새로 비위가 상해 식욕이 감퇴하거나 속이 울렁거리고 구토를 유발하는 증상이 대표적이에요. 또 음식을 먹자마자 토하기도 하고 신 것이 먹고 싶어지거나 평소 먹지 않았던 음식이 먹고 싶어지는 증상도 있어요.",
+            "turn_id": "BK22014670-4",
+            "utterance_id": "BK22014670.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 맞아요. 남편 보니까 냄새에 많이 민감하던데, 다들 그런 건가요?",
+            "turn_id": "BK22014670-5",
+            "utterance_id": "BK22014670.9"
+        },
+        {
+            "reference_date": "2022-04-10",
+            "reference_text": [
+                {
+                    "value": "어떤 사람은 아침이나 공복 시에 가볍게 메스꺼움을 느끼는 정도지만, 심한 사람은 냉장고 근처에만 가도 구토를 한다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.daejonilbo.com/news/articleView.html?idxno=1513814",
+            "search_query": "입덧 증상 아침 공복",
+            "terminate": false,
+            "text": "사람마다 달라요. 어떤 사람은 아침 공복에 가벼운 메스꺼움을 느끼기도 하고 심한 사람은 냉장고 근처에만 가도 입덧을 느끼기도 해요.",
+            "turn_id": "BK22014670-5",
+            "utterance_id": "BK22014670.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이고, 그럼 남편의 입덧을 좀 줄일 수 있는 방법은 없나요?",
+            "turn_id": "BK22014670-6",
+            "utterance_id": "BK22014670.11"
+        },
+        {
+            "reference_date": "2022-04-10",
+            "reference_text": [
+                {
+                    "value": "◇예방=입덧을 할 때는 영양적인 면이나 식사시간 등에 대한 걱정을 뒤로하고 먹을 수 있을 때 먹고 싶은 것을 먹고 싶은 만큼 먹으면 된다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "신경을 쓰면 오히려 증상이 심해질 수 있기 때문이다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.daejonilbo.com/news/articleView.html?idxno=1513814",
+            "search_query": "입덧 영양적인 식사 시간",
+            "terminate": false,
+            "text": "음식을 먹을 때 신경을 쓰면 입덧이 더 심해질 수 있어요. 그러니 음식을 먹을 땐 영양이나 식사 시간 등을 너무 따지지 않고 먹고 싶을 때 먹을 수 있는 만큼 먹으면 돼요.",
+            "turn_id": "BK22014670-6",
+            "utterance_id": "BK22014670.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "남편은 먹고 싶어 하는 음식이 없는 것 같아요. 특히 냄새에 예민하던데 그건 어떻게 해야 하나요?",
+            "turn_id": "BK22014670-7",
+            "utterance_id": "BK22014670.13"
+        },
+        {
+            "reference_date": "2022-04-10",
+            "reference_text": [
+                {
+                    "value": "섭취뿐 아니라 냄새 자체에 거부감이 생겨 음식을 가까이하지 못할 때는 더운 음식보다는 찬 음식을 먹는 것이 냄새가 적어 한결 먹기 편하다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "입덧으로 구토를 할 경우 수분을 보충해줘야 하는데, 지나치면 위장의 기능이 저하되므로 물 대신 얼음 등을 먹도록 한다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.daejonilbo.com/news/articleView.html?idxno=1513814",
+            "search_query": "입덧 찬 음식",
+            "terminate": false,
+            "text": "냄새 자체에 거부감이 생겨서 입덧을 하는 경우에는 냄새가 많이 나는 더운 음식보다는 냄새가 덜 나는 찬 음식을 먹도록 해보세요. 한결 음식을 먹는게 편해질 거예요. 또 입덧으로 구토를 할 경우엔 수분도 함께 보충해줘야 하는데, 물은 과하게 되면 위장 기능이 떨어지므로 물 대신에 얼음을 먹는 것도 좋아요.",
+            "turn_id": "BK22014670-7",
+            "utterance_id": "BK22014670.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 남편에게 냄새가 덜 나는 찬 음식을 챙겨줘야 겠네요. 임신은 제가 했는데, 남편이 입덧을 하다 보니 이건 챙겨주는 게 반대가 된 것 같아 서운하기도 해요. 저 역시 한창 조심해야 할 때인데, 저 스스로 주의할 점은 뭐가 있을까요?",
+            "turn_id": "BK22014670-8",
+            "utterance_id": "BK22014670.15"
+        },
+        {
+            "reference_date": "2022-04-10",
+            "reference_text": [
+                {
+                    "value": "따라서 임신 기간 동안에는 최대한 마음을 편안하게 갖는 것이 중요하며, 주위사람들도 임신으로 인해 스트레스 받지 않도록 배려해줘야 한다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.daejonilbo.com/news/articleView.html?idxno=1513814",
+            "search_query": "임신 기간 스트레스",
+            "terminate": false,
+            "text": "너무\\ 서운해 하지 마세요. 임신 기간에는 스트레스받지 않고 편안하게 마음을 다스리는 게 제일 중요해요.",
+            "turn_id": "BK22014670-8",
+            "utterance_id": "BK22014670.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 주위에선 남편이 저를 너무 사랑해서 입덧도 대신 해준다고 하니 좋게 생각해야죠. 찬 음식으로 챙겨주고 물이나 얼음을 통해 탈수가 오지 않도록 해주면 되는 거죠? 혹시 더 알아야 할 내용들이 있을까요?",
+            "turn_id": "BK22014670-9",
+            "utterance_id": "BK22014670.17"
+        },
+        {
+            "reference_date": "2022-04-10",
+            "reference_text": [
+                {
+                    "value": "경미한 입덧은 음식을 조절하고 휴식을 취하면 된다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 구토가 심해 탈수 증상이 나타나고 물도 마실 수 없으며, 중심을 잡을 수 없다거나 체중이 눈에 띄게 줄었다면 반드시 전문의와 상담해 입덧약 복용 등의 적절한 지시를 받는 것이 좋다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.daejonilbo.com/news/articleView.html?idxno=1513814",
+            "search_query": "입덧 음식 조절 휴식",
+            "terminate": false,
+            "text": "입덧이 약할 경우에는 음식을 조절하고 휴식을 취하면 되지만 구토가 심해 탈수 증상이 나타나고 물도 잘 못 마시며, 중심을 잘 못 잡거나 몸무게가 급격하게 줄어든다면 그땐 병원에 가서 의사와 상담해야 해요. 입덧을 줄이는 약도 있거든요.",
+            "turn_id": "BK22014670-9",
+            "utterance_id": "BK22014670.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이고, 약까지 먹어야 할 정도까지는 가지 않았으면 좋겠네요. 오늘 좋은 정보 정말 감사드려요. 빨리 남편 입덧이 끝났으면 좋겠어요.",
+            "turn_id": "BK22014670-10",
+            "utterance_id": "BK22014670.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 저도 빨리 남편분의 입덧이 끝나길 바라요.",
+            "turn_id": "BK22014670-10",
+            "utterance_id": "BK22014670.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 감사해요. 오늘 좋은 정보 알려주셔서 정말 많은 도움이 되었어요.",
+            "turn_id": "BK22014670-11",
+            "utterance_id": "BK22014670.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되셨다니 정말 다행이네요. 또 궁금한 점 있으면 언제든지 물어보세요.",
+            "turn_id": "BK22014670-11",
+            "utterance_id": "BK22014670.22"
+        }
+    ]
+}

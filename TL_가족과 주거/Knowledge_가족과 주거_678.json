@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016037",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016037",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0046"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 반려견 흑색종은 어떤 질환인가요? 얼마 전에 흑색종을 주의해야 한다는 얘기를 들었는데 어떤 질환인지 잘 몰라서 궁금해요.",
+            "turn_id": "BK22016037-1",
+            "utterance_id": "BK22016037.1"
+        },
+        {
+            "reference_date": "2022-01-18",
+            "reference_text": [
+                {
+                    "value": "흑색종(Melanoma)은 검은 색소인 멜라닌을 만들어내는 멜라닌세포로부터 유래한 피부종양이다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 흑색종의 이름 그대로 갈색 또는 검은색의 덩어리로 발견된다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "문제는 간혹 착색되지 않은 흑색종이 나타날 수 있다는 것이다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이때는 검은색이 아닌 분홍색의 덩어리로 나타날 때도 있다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=57691",
+            "search_query": "반려견 흑색종",
+            "terminate": false,
+            "text": "흑색종은 검은 색소인 멜라닌을 생성하는 멜라닌 세포로부터 생기는 피부종양이에요. 경우에 따라 착색되지 않은 분홍색의 덩어리로 흑색종이 나타나는 경우도 있지만 보통은 흑색종이라는 이름과 같이 검은색이나 갈색의 덩어리로 발견되죠.",
+            "turn_id": "BK22016037-1",
+            "utterance_id": "BK22016037.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "말 그대로 검은색의 종양이라 흑색종인 거군요? 그런데 흑색종은 강아지에게서만 나타나는 병인가요?",
+            "turn_id": "BK22016037-2",
+            "utterance_id": "BK22016037.3"
+        },
+        {
+            "reference_date": "2022-01-18",
+            "reference_text": [
+                {
+                    "value": "흑색종은 사람보다 강아지에서 훨씬 발병률이 높고 진행속도도 빠른 편이며 고양이에서는 강아지와 비교해 상당히 드물게 나타나는 편이다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=57691",
+            "search_query": "반려견 흑색종 고양이",
+            "terminate": false,
+            "text": "아뇨, 흑색종은 사람도 발병할 수 있는 질환이고 고양이도 발병할 수 있는 질환이에요. 다만 강아지가 발병률이 훨씬 높은 데다가 병이 진행되는 과정도 훨씬 빠르죠.",
+            "turn_id": "BK22016037-2",
+            "utterance_id": "BK22016037.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지에게만 발생하는 질병은 아닌 거군요. 그러면 흑색종은 어디에 발병하는 건가요?",
+            "turn_id": "BK22016037-3",
+            "utterance_id": "BK22016037.5"
+        },
+        {
+            "reference_date": "2022-01-18",
+            "reference_text": [
+                {
+                    "value": "흑색종이 발병하는 부위는 구강, 발바닥, 생식기 등 다양한 곳에서 발생할 수 있지만 가장 많이 발견되는 부위는 구강(잇몸, 혀, 입술 등)이다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=57691",
+            "search_query": "반려견 흑색종 발병부위",
+            "terminate": false,
+            "text": "흑색종은 구강, 발바닥, 생식기와 같이 다양한 부위에서 나타날 수 있지만 가장 흔하게 생기는 곳은 잇몸, 혀, 입술과 같은 구강 부위예요.",
+            "turn_id": "BK22016037-3",
+            "utterance_id": "BK22016037.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "흑색종은 구강 부위에 가장 많이 발생하는군요. 그런데 흑색종이 발견되면 무조건 악성종양인 건가요?",
+            "turn_id": "BK22016037-4",
+            "utterance_id": "BK22016037.7"
+        },
+        {
+            "reference_date": "2022-01-18",
+            "reference_text": [
+                {
+                    "value": "일반적인 피부에 발생하는 흑색종은 양성이지만 앞서 말했듯이 점막 부분, 특히 입안의 점막에서 발생하는 구강 흑색종은 악성도가 강한 편이다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=57691",
+            "search_query": "반려견 흑색종 구강",
+            "terminate": false,
+            "text": "아뇨, 보통 피부에 발생하는 흑색종은 양성인 경우도 있어요. 다만 점막부위는 악성종양일 가능성이 큰데 특히 아까 말씀드린 대로 구강에 생긴 흑색종은 악성도가 더 높은 편이죠.",
+            "turn_id": "BK22016037-4",
+            "utterance_id": "BK22016037.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "구강에 생기는 흑색종을 조심해야겠네요. 그럼 구강 흑색종이 발생한 경우 어떤 증상을 보이는지 궁금해요.",
+            "turn_id": "BK22016037-5",
+            "utterance_id": "BK22016037.9"
+        },
+        {
+            "reference_date": "2022-01-18",
+            "reference_text": [
+                {
+                    "value": "구강 흑색종이라면 ▲입에서 냄새가 남 ▲입에서 출혈이 발생함 ▲침을 흘림 ▲제대로 씹지 못함 ▲통증 ▲식욕 부진 ▲체중감소 등의 증상이 나타난다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=57691",
+            "search_query": "반려견 구강 흑색종",
+            "terminate": false,
+            "text": "네, 구강에 흑색종이 생긴 경우 입냄새가 난다거나 출혈이 발생할 수 있고 침을 흘리거나 저작 활동을 제대로 못하는 등의 증상을 보여요.",
+            "turn_id": "BK22016037-5",
+            "utterance_id": "BK22016037.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이고, 말로만 들어도 안쓰러워 보일 것 같아요. 그럼 흑색종을 초기에 발견할 수 있나요?",
+            "turn_id": "BK22016037-6",
+            "utterance_id": "BK22016037.11"
+        },
+        {
+            "reference_date": "2022-01-18",
+            "reference_text": [
+                {
+                    "value": "초기에는 이상이 잘 발견되지 않지만 빠른 속도로 커지고 주변 조직으로도 빠르게 퍼진다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "특히 림프절이나 폐로 전이되기 쉽고 뼛속까지 침범하기 때문에 반려견의 생명을 위협하는 종양 중 하나라고 할 수 있다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=57691",
+            "search_query": "반려견 흑색종 전이",
+            "terminate": false,
+            "text": "아뇨, 초기에는 이상을 잘 발견할 수 없는 종양이에요. 그러나 급속히 커지고 주변 조직으로 빠르게 전이되기 때문에 반려견의 생명을 위협하는 종양중 하나죠.",
+            "turn_id": "BK22016037-6",
+            "utterance_id": "BK22016037.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "빠른 속도로 퍼진다니 정말 무섭네요. 그럼 만약에 흑색종이 악성으로 의심된다면 어떻게 해야 하나요?",
+            "turn_id": "BK22016037-7",
+            "utterance_id": "BK22016037.13"
+        },
+        {
+            "reference_date": "2022-01-18",
+            "reference_text": [
+                {
+                    "value": "반려견의 흑색종이 악성으로 의심된다면 반드시 CT검사를 받아보길 권장한다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "CT검사는 피부 아래의 기저 조직과 뼈 깊숙한 곳까지 확인할 수 있어 방사선검사나 초음파검사로는 확인할 수 없는 미세한 전이를 정확하게 알아낼 수 있다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=57691",
+            "search_query": "반려견 흑색종 ct",
+            "terminate": false,
+            "text": "반려견에게서 발견된 흑색종이 악성으로 의심된다면 무조건 CT 검사를 통해 진단받아야 해요. CT 검사는 피부 아래의 기저 조직과 뼈 깊숙한 곳까지 볼 수 있기 때문에 방사선 검사나 초음파 검사로는 분별하기 힘든 미세한 전이를 정확하게 확인할 수 있거든요.",
+            "turn_id": "BK22016037-7",
+            "utterance_id": "BK22016037.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "CT 검사를 통해 악성 흑색종 여부를 파악해야 하는군요. 그럼 반려견은 흑색종 치료를 어떻게 받는지 궁금해요.",
+            "turn_id": "BK22016037-8",
+            "utterance_id": "BK22016037.15"
+        },
+        {
+            "reference_date": "2022-01-18",
+            "reference_text": [
+                {
+                    "value": "이를 바탕으로 종양의 크기나 전이도 등을 종합적으로 평가한 후 흑색종 제거 수술, 방사선요법, 약물복용 등의 치료를 진행하게 된다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=57691",
+            "search_query": "반려견 흑색종 치료",
+            "terminate": false,
+            "text": "네, 검사를 바탕으로 종양의 크기와 전이도 등을 종합적으로 판단한 후 흑색종을 제거하는 수술을 하거나 방사선 치료, 약물 투약과 같은 치료를 진행해요.",
+            "turn_id": "BK22016037-8",
+            "utterance_id": "BK22016037.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려견들도 사람이 암에 걸렸을 때와 비슷한 치료를 받는군요. 말 못 하는 아이들이 겪어야 하는 걸 생각하면 마음이 정말 안 좋네요. 오늘 이렇게 반려견의 흑색종에 대해 알려주셔서 감사해요.",
+            "turn_id": "BK22016037-9",
+            "utterance_id": "BK22016037.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "궁금이님은 정말 마음이 따뜻하시네요. 다음에도 반려견과 관련해 궁금한 게 생기시면 또 질문해주세요.",
+            "turn_id": "BK22016037-9",
+            "utterance_id": "BK22016037.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 그럼 다음에 또 연락드릴게요. 그나저나 항상 이렇게 도움만 받아서 어떡하죠?",
+            "turn_id": "BK22016037-10",
+            "utterance_id": "BK22016037.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "항상 고맙다고 말씀하시니 저야말로 도움이 될 수 있어서 기뻐요. 그럼 또 연락 주세요.",
+            "turn_id": "BK22016037-10",
+            "utterance_id": "BK22016037.20"
+        }
+    ]
+}

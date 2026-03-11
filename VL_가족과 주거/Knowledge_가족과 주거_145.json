@@ -1,0 +1,387 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018165",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018165",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요새 이유식 횟수를 늘리면서 아기가 변비로 고생하는 것 같아서 안쓰러워요. 아기 변비는 왜 생기는 거예요?",
+            "turn_id": "BK22018165-1",
+            "utterance_id": "BK22018165.1"
+        },
+        {
+            "reference_date": "43115.0",
+            "reference_text": [
+                {
+                    "value": "이유식 처음 시작할 때에는 아기 장염이나 변비 등 문제가 발생할 수 있다.",
+                    "value_time": "44854.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 수분이 많은 초기 이유식에서 입자가 있는 중기 이유식으로 넘어갈 때 소화기관에 문제가 나타나는 경우가 흔하다.",
+                    "value_time": "44854.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "미성숙 단계에 있는 아기들은 입자를 쉽게 소화시키지 못하기 때문이다.",
+                    "value_time": "44854.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또 치아가 발달하지 않고 씹는 방법을 몰라 그냥 삼켜 소화 장애를 일으키는 경우도 있다.",
+                    "value_time": "44854.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.fsnews.co.kr/news/articleView.html?idxno=24712",
+            "search_query": "아기 변비",
+            "terminate": false,
+            "text": "이유식을 시작하면 아기가 장염이나 변비를 앓곤 하지요. 보통 수분 함량이 높은 초기 이유식에서 중기 이유식으로 넘어갈 때 소화기관에 문제가 생기는 경우가 많아요. 아직 다 자라지 않았기 때문에 입자를 잘 소화하지 못하기도 하고, 치아가 발달하지 않거나 씹는 일에 미숙해서 그냥 삼키는 바람에 소화에 문제가 생기기도 해요.",
+            "turn_id": "BK22018165-1",
+            "utterance_id": "BK22018165.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소화를 시키지 못해서가 아니라, 혹시 아기의 선천적인 문제로도 변비가 생길 수 있을까요?",
+            "turn_id": "BK22018165-2",
+            "utterance_id": "BK22018165.3"
+        },
+        {
+            "reference_date": "41696.0",
+            "reference_text": [
+                {
+                    "value": "즉 기질적으로 선천 거대 결장, 선천 갑상샘 저하증 등의 원인으로 인한 변비 발생은 5~10%에 불과하며, 대부분 이유식 이후나 배변 습관을 익히는 시기부터 시작되어 심리적 혹은 신체적으로 배변에 장애를 느끼는 기능성 배변 장애가 주로 많다.",
+                    "value_time": "44854.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000003583",
+            "search_query": "아기 변비 원인",
+            "terminate": false,
+            "text": "선천 거대 결장, 선천 갑상샘 저하증 등 기질적 원인으로 변비가 생기는 경우는 5에서 10퍼센트 정도밖에 되지 않아요. 대부분은 기능성 배변 장애로, 이유식을 하면서, 또는 배변 습관을 배우는 때부터 심리적이거나 신체적으로 배변에 어려움을 느끼는 것이에요.",
+            "turn_id": "BK22018165-2",
+            "utterance_id": "BK22018165.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아기가 변비인지 판단할 수 있는 기준이 있나요?",
+            "turn_id": "BK22018165-3",
+            "utterance_id": "BK22018165.5"
+        },
+        {
+            "reference_date": "44159.0",
+            "reference_text": [
+                {
+                    "value": "일반적으로 소아변비는 배변횟수가 일주일에 3회 미만인 경우를 말하며 3회 이상이더라도 배변 시 통증이 발생하는 질환을 말한다.",
+                    "value_time": "44854.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 같은 증상이 3개월 이상 지속되면 만성이라고 할 수 있다.",
+                    "value_time": "44854.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000562741",
+            "search_query": "아기 변비 배변횟수",
+            "terminate": false,
+            "text": "소아 변비라고 하면 보통 배변횟수가 한 주에 세 번이 안 될 때, 세 번 이상이라고 해도 배변할 때 아픔을 느낄 때를 말해요. 이런 증상이 석 달 이상 계속되면 만성 변비라 하고요.",
+            "turn_id": "BK22018165-3",
+            "utterance_id": "BK22018165.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다행히 아직 그 정도는 아니네요. 그래도 아기가 힘들어하는 만큼 방법을 찾아보려 하는데, 아기 변비에 좋은 식이 요법이 있나요?",
+            "turn_id": "BK22018165-4",
+            "utterance_id": "BK22018165.7"
+        },
+        {
+            "reference_date": "44159.0",
+            "reference_text": [
+                {
+                    "value": "아이의 이유식을 만들 때는 섬유소가 풍부한 식품을 위주로 식단을 구성하는 것이 좋다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "섬유소가 풍부한 식품에는 브로콜리, 콩, 해조류 등이 있다.",
+                    "value_time": "44847.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "채소류는 매끼 2가지 이상 섭취하는 것이 좋으며 자두, 배, 복숭아를 주스 마시는 것도 변비를 완화시킬 수 있는 방법 중 하나다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000562741",
+            "search_query": "아기 변비 식이",
+            "terminate": false,
+            "text": "섬유소가 많이 들어간 음식으로 이유식 식단을 짜 보세요. 섬유소가 풍부한 음식으로 브로콜리, 콩, 해조류 등이 있어요. 끼니마다 두 가지 이상의 채소를 먹도록 하고요. 자두, 배, 복숭아를 주스로 마시는 것도 변비를 낫게 할 수 있답니다.",
+            "turn_id": "BK22018165-4",
+            "utterance_id": "BK22018165.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "식이 말고 아기의 변비를 완화할 수 있는 다른 방법에는 뭐가 있나요?",
+            "turn_id": "BK22018165-5",
+            "utterance_id": "BK22018165.9"
+        },
+        {
+            "reference_date": "44159.0",
+            "reference_text": [
+                {
+                    "value": "따뜻한 목욕은 아이의 복부 근육을 이완시켜 배변 활동을 도울 수 있으며 손가락 끝으로 아이의 배를 시계 방향으로 원을 그리며 마사지하는 것 또한 배변 활동을 유도할 수 있다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아이를 눕힌 후 자전거를 타듯 다리를 번갈아 가며 밀어주는 운동을 하는 것도 좋다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000562741",
+            "search_query": "아기 변비 완화 방법",
+            "terminate": false,
+            "text": "따뜻한 물로 목욕하면 아이의 복부 근육이 풀어져 배변을 도울 수 있어요. 아이의 복부를 손가락 끝으로 시계 방향으로 둥글게 돌리며 마사지하는 것도 도움이 되고요. 아이가 눕게 한 뒤 자전거 타듯이 다리를 교차해 밀어주는 운동도 좋아요.",
+            "turn_id": "BK22018165-5",
+            "utterance_id": "BK22018165.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 아기가 변비로 힘들어 한다면, 해결할 방법이 있을까요?",
+            "turn_id": "BK22018165-6",
+            "utterance_id": "BK22018165.11"
+        },
+        {
+            "reference_date": "41760.0",
+            "reference_text": [
+                {
+                    "value": "3일 정도 대변을 보지 않는다면 다음과 같은 변비 해소법을 사용해 보자.",
+                    "value_time": "44854.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 오일을 충분히 바른 면봉 끝을 항문에 넣는 것도 효과가 있다.",
+                    "value_time": "44854.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 때 넣는 길이는 면이 있는 부분, 즉 1~2cm 정도에서 멈춘다.",
+                    "value_time": "44854.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=20347",
+            "search_query": "아기 변비 대책",
+            "terminate": false,
+            "text": "사흘 정도 동안 배변하지 않았다면, 면봉 끝에 오일을 넉넉하게 바르고, 항문에 넣는 방법이 있어요. 이때 1에서 2센티미터 정도의 면이 있는 곳까지만 넣어야 해요.",
+            "turn_id": "BK22018165-6",
+            "utterance_id": "BK22018165.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "만약에 변비가 계속되면 아이 건강에 어떤 문제가 생길까요?",
+            "turn_id": "BK22018165-7",
+            "utterance_id": "BK22018165.13"
+        },
+        {
+            "reference_date": "43115.0",
+            "reference_text": [
+                {
+                    "value": "이러한 증상이 지속될 경우 아이의 배변활동에도 영향을 주고, 딱딱해진 대변으로 인해 항문에 상처가 생기는 등의 문제가 발생할 수 있다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 영양소의 흡수가 원활하게 이루어지지 않는 경우 영양 불균형이 생기고 성장 발달에도 악영향을 끼칠 수 있다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.fsnews.co.kr/news/articleView.html?idxno=24712",
+            "search_query": "아기 변비 문제",
+            "terminate": false,
+            "text": "증상이 지속되면 아이의 배변 활동에 영향이 있는 것은 물론, 대변이 굳어 항문에 상처가 나는 등의 위험이 있어요. 영양소 잘 흡수되지 않는다면 영양 불균형으로 아이가 자라는 데도 좋지 않은 영향을 미칠 수 있고요.",
+            "turn_id": "BK22018165-7",
+            "utterance_id": "BK22018165.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "심해지기 전에 해결할 수 있도록 해야겠네요. 아기에게 유산균을 먹여도 괜찮을까요?",
+            "turn_id": "BK22018165-8",
+            "utterance_id": "BK22018165.15"
+        },
+        {
+            "reference_date": "42738.0",
+            "reference_text": [
+                {
+                    "value": "이유식에 아기용 프로바이오틱스 유산균 제제를 함께 섞여 먹이는 것도 추천할 만하다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "프로바이오틱스는 장내 유익균을 증식시키고 변비나 설사를 유발하는 유해균을 억제해 장 연동운동을 활발하게 한다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대장 점막의 산도를 낮춰 아기에게 필요한 비타민, 미네랄 등 영양소가 효율적으로 흡수되는 데 도움을 준다.",
+                    "value_time": "44847.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newstomato.com/ReadNews.aspx?no=721029",
+            "search_query": "아기 유산균",
+            "terminate": false,
+            "text": "이유식에 아기가 먹을 수 있도록 나온 프로바이오틱스 유산균 제제를 섞어서 주는 것도 좋아요. 프로바이오틱스는 장내 유익균을 늘리고, 변비, 설사를 초래하는 유해균은 줄어들게 해서, 장의 연동운동을 돕거든요. 대장 점막의 산도가 낮아지게 해, 아기에게 필수적인 비타민, 미네랄 같은 영양소의 수용을 도울 수도 있고요.",
+            "turn_id": "BK22018165-8",
+            "utterance_id": "BK22018165.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 아기 유산균을 고를 때 어떤 기준을 갖고 고르면 좋을까요?",
+            "turn_id": "BK22018165-9",
+            "utterance_id": "BK22018165.17"
+        },
+        {
+            "reference_date": "43066.0",
+            "reference_text": [
+                {
+                    "value": "프로바이오틱스 유산균을 먹이는 것도 변비 해결에 효과적인 방법이다.",
+                    "value_time": "44854.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아기에게 프로바이오틱스를 먹일 땐 첨가물이 없는 유산균을 먹이는 것이 좋다.",
+                    "value_time": "44854.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "오렌지향, 포도향, D-소르비톨 등은 대표적인 식품첨가물로, 제품 라벨에 이러한 성분명이 없는지 확인하고 구매하는 것이 아기 건강을 위해 필요하다.",
+                    "value_time": "44854.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=51857",
+            "search_query": "아기 유산균 고를 때",
+            "terminate": false,
+            "text": "변비를 해결하기 위해 아기에게 프로바이오틱스 유산균을 먹이려 한다면, 첨가물이 없는 제품을 고르는 것이 좋아요. 대표적인 식품첨가물로 오렌지 향, 포도 향, D 소르비톨 등이 있으니, 제품의 라벨에서 성분들을 확인하고 고르도록 하세요.",
+            "turn_id": "BK22018165-9",
+            "utterance_id": "BK22018165.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알려주신 대로 이유식 식단을 바꾸고, 첨가물이 없는 유산균을 골라봐야겠어요.",
+            "turn_id": "BK22018165-10",
+            "utterance_id": "BK22018165.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저도 아기가 빨리 나아서 편해질 수 있길 바랄게요.",
+            "turn_id": "BK22018165-10",
+            "utterance_id": "BK22018165.20"
+        }
+    ]
+}

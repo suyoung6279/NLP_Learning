@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012656",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012656",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지도 사람처럼 충치가 잘 생길까?",
+            "turn_id": "BK22012656-1",
+            "utterance_id": "BK22012656.1"
+        },
+        {
+            "reference_date": "44617.0",
+            "reference_text": [
+                {
+                    "value": "일반적으로 개의 치아는 사람보다 충치 발생 위험이 적다.",
+                    "value_time": "44776.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사람과 달리 탄수화물이나 당 섭취가 많지 않고, 치아 사이 간격도 넓으며, 침의 산성도가 높기 때문이다.",
+                    "value_time": "44776.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.healthinnews.co.kr/news/articleView.html?idxno=28288",
+            "search_query": "강아지 충치",
+            "terminate": false,
+            "text": "강아지는 침의 산성도가 높아서 사람보다 충치가 생길 확률이 낮아. 또한 치아와 치아 사이의 간격도 많이 벌어졌고, 사람처럼 당분이나 탄수화물을 많이 먹지 않기 때문이야.",
+            "turn_id": "BK22012656-1",
+            "utterance_id": "BK22012656.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 그래도 강아지 양치는 잘 해주는 게 좋지?",
+            "turn_id": "BK22012656-2",
+            "utterance_id": "BK22012656.3"
+        },
+        {
+            "reference_date": "44758.0",
+            "reference_text": [
+                {
+                    "value": "치석에는 많은 유해 세균이 있어 반려동물의 구취와 치주 질환을 일으키기 때문에 일상 속 관리가 필요하다.",
+                    "value_time": "44776.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1409054/",
+            "search_query": "강아지 치석",
+            "terminate": false,
+            "text": "그럼. 강아지의 치석에는 나쁜 세균이 많아서 입 냄새와 치주 질환을 발생시키기 때문에 평상시에 관리를 잘 해주는 게 좋아.",
+            "turn_id": "BK22012656-2",
+            "utterance_id": "BK22012656.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "매일 양치를 시켜주는 게 좋을까?",
+            "turn_id": "BK22012656-3",
+            "utterance_id": "BK22012656.5"
+        },
+        {
+            "reference_date": "43276.0",
+            "reference_text": [
+                {
+                    "value": "때문에 강아지가 생후 3~12주인 유치시기부터 매일 양치질을 해주는 것이 좋다.",
+                    "value_time": "44776.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?3352821",
+            "search_query": "강아지 양치 매일",
+            "terminate": false,
+            "text": "맞아. 강아지는 생후 3주에서 12주 사이에 유치가 나는데 이때부터 이를 매일 닦아주는 게 좋아.",
+            "turn_id": "BK22012656-3",
+            "utterance_id": "BK22012656.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "귀찮으면 양치질을 건너뛰곤 했는데 꼭 매일 양치질을 시켜줘야겠다.",
+            "turn_id": "BK22012656-4",
+            "utterance_id": "BK22012656.7"
+        },
+        {
+            "reference_date": "44604.0",
+            "reference_text": [
+                {
+                    "value": "치아 관리도 강아지 수명에 큰 영향을 미친다.",
+                    "value_time": "44776.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "치석이 많아지면 잇몸에 염증을 유발한다.",
+                    "value_time": "44776.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "염증은 치주염은 물론 신장, 심장 질환 등으로 악화될 수 있어, 치석을 잘 관리해야 한다.",
+                    "value_time": "44776.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1380619/",
+            "search_query": "강아지 양치 수명",
+            "terminate": false,
+            "text": "좋은 생각이야. 강아지의 장수에는 치아가 많은 영향을 끼치거든. 치석이 많아지게 되면 잇몸에 염증을 생기게 만들기 때문에 치석이 생기지 않도록 관리를 해줘야 해. 잇몸 염증은 신장과 심장을 안 좋아지게 만들고 치주염을 유발하거든.",
+            "turn_id": "BK22012656-4",
+            "utterance_id": "BK22012656.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "치아 관리를 잘 해줘서 강아지의 수명을 늘려야겠어. 그런데 강아지도 스케일링을 받지 않아?",
+            "turn_id": "BK22012656-5",
+            "utterance_id": "BK22012656.9"
+        },
+        {
+            "reference_date": "43626.0",
+            "reference_text": [
+                {
+                    "value": "사람이 정기적으로 스케일링이 필요한 것처럼 강아지도 스케일링을 통해 더 청결하게 구강을 관리해줄 수 있답니다.",
+                    "value_time": "44776.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.notepet.co.kr/news/article/article_view/?idx=15923",
+            "search_query": "강아지 스케일링",
+            "terminate": false,
+            "text": "응. 강아지도 사람처럼 정기적인 스케일링이 필요해. 스케일링을 받게 되면 더욱 깨끗하게 치아 관리를 해 줄 수 있거든.",
+            "turn_id": "BK22012656-5",
+            "utterance_id": "BK22012656.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 강아지는 스케일링 받을 때 마취해야 하지 않아?",
+            "turn_id": "BK22012656-6",
+            "utterance_id": "BK22012656.11"
+        },
+        {
+            "reference_date": "43530.0",
+            "reference_text": [
+                {
+                    "value": "강아지 치아를 스케일링하기 위해서는 사람과 달리 전신마취가 필수적이다.",
+                    "value_time": "44776.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.imaeil.com/page/view/2019030516365953186",
+            "search_query": "강아지 스케일링 전신마취",
+            "terminate": false,
+            "text": "맞아. 사람과 다르게 강아지는 스케일링할 때 전신마취를 반드시 필요로 해.",
+            "turn_id": "BK22012656-6",
+            "utterance_id": "BK22012656.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "치아 관리를 위해서 스케일링도 정기적으로 해줘야겠다. 그런데 강아지랑 뽀뽀해도 괜찮을까?",
+            "turn_id": "BK22012656-7",
+            "utterance_id": "BK22012656.13"
+        },
+        {
+            "reference_date": "44650.0",
+            "reference_text": [
+                {
+                    "value": "하지만, 반려견과의 뽀뽀는 드물지만 감염을 일으킬 수 있어 주의가 필요하다.",
+                    "value_time": "44776.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "단, 개의 구강에 있던 균도 사람 입에 상처가 있으면 이를 통해 몸속으로 침투해 부작용을 일으킬 수 있다.",
+                    "value_time": "44776.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/03/30/2022033001267.html",
+            "search_query": "강아지와 뽀뽀",
+            "terminate": false,
+            "text": "드물긴 하지만 강아지와 뽀뽀하는 건 감염을 발생시킬 수 있어 조심해야 해. 사람 입에 상처가 난 상태에서 뽀뽀하면 강아지의 입속에 있던 균이 사람의 몸속으로 들어와 부작용이 나타날 수 있거든.",
+            "turn_id": "BK22012656-7",
+            "utterance_id": "BK22012656.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 한 가지 궁금한 게 있는데 강아지가 사람 치약을 사용해도 돼?",
+            "turn_id": "BK22012656-8",
+            "utterance_id": "BK22012656.15"
+        },
+        {
+            "reference_date": "43417.0",
+            "reference_text": [
+                {
+                    "value": "지난 12일 영국 텔레그래프(telegraph)는 사람이 쓰는 치약에 들어있는 불소와 인공감미료 자일리톨 성분은 개가 삼킬 경우 유해하다는 연구 결과를 보도했다.",
+                    "value_time": "44776.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.notepet.co.kr/news/article/article_view/?idx=13815",
+            "search_query": "강아지 사람 치약",
+            "terminate": false,
+            "text": "사람이 사용하는 치약에는 불소와 인공감미료 자일리톨이 들어있는데 강아지가 먹게 되면 유해하다는 영국 연구 결과가 2018년 11월 12일 발표되었어.",
+            "turn_id": "BK22012656-8",
+            "utterance_id": "BK22012656.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자일리톨 성분이 강아지한테 위험하구나?",
+            "turn_id": "BK22012656-9",
+            "utterance_id": "BK22012656.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아. 강아지에게는 사람 치약을 사용하지 않아야 한다는 걸 잊지 마.",
+            "turn_id": "BK22012656-9",
+            "utterance_id": "BK22012656.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "꼭 기억할게! 지금 바로 강아지 양치시키러 가야겠어.",
+            "turn_id": "BK22012656-10",
+            "utterance_id": "BK22012656.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응. 매일 잊지 말고 강아지 양치 잘 시켜줘!",
+            "turn_id": "BK22012656-10",
+            "utterance_id": "BK22012656.20"
+        }
+    ]
+}

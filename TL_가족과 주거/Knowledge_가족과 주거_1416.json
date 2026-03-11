@@ -1,0 +1,337 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009251",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009251",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이제 곧 출산 예정일이에요. 얼른 아기를 만나고 싶네요.",
+            "turn_id": "BK22009251-1",
+            "utterance_id": "BK22009251.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엄마가 된 걸 미리 축하드려요. 출산 예정일이 다음 달이죠?",
+            "turn_id": "BK22009251-1",
+            "utterance_id": "BK22009251.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 맞아요. 그런데 요즘 산후조리에 관심이 커져서요. 보통 산후조리 기간은 어느 정도 되나요?",
+            "turn_id": "BK22009251-2",
+            "utterance_id": "BK22009251.3"
+        },
+        {
+            "reference_date": "2022-07-18",
+            "reference_text": [
+                {
+                    "value": "출산 후, 산모가 임신 전 몸 상태로 돌아가기 위해 최소 60일에서 최대 90일까지의 산후조리 기간이 필요하다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.medisobizanews.com/news/articleView.html?idxno=89063",
+            "search_query": "산후조리 기간",
+            "terminate": false,
+            "text": "산모가 아기를 낳고 임신하기 전의 신체 상태로 돌아가려면 약 60일에서 90일 정도의 산후조리 기간이 필요해요.",
+            "turn_id": "BK22009251-2",
+            "utterance_id": "BK22009251.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 혹시 산후조리 기간에 산후조리를 잘하지 못하게 되면 어떻게 되나요?",
+            "turn_id": "BK22009251-3",
+            "utterance_id": "BK22009251.5"
+        },
+        {
+            "reference_date": "2022-04-25",
+            "reference_text": [
+                {
+                    "value": "출산 후 관리를 잘 한다면 회복기 이후에 정상적인 생활이 가능하지만, 적절한 조리와 회복을 하지 못한다면 산후풍과 같은 후유증이 나타날 수 있어 주의가 필요하다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=104609",
+            "search_query": "산후조리 못하면",
+            "terminate": false,
+            "text": "적절한 산후조리를 하지 못해 회복이 되지 않는다면 산후풍과 같은 후유증이 생길 수 있어 조심해야 해요. 산후조리를 잘한다면 회복기 이후에는 원래대로 생활이 가능하고요.",
+            "turn_id": "BK22009251-3",
+            "utterance_id": "BK22009251.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산후풍이라니 조심해야겠어요. 그럼 어떻게 하면 산후조리를 잘하는 건가요?",
+            "turn_id": "BK22009251-4",
+            "utterance_id": "BK22009251.7"
+        },
+        {
+            "reference_date": "2021-08-03",
+            "reference_text": [
+                {
+                    "value": "출산 후에는 몸과 마음이 상당히 지친 상태로, 회복을 위해 충분한 휴식을 취하면서 영양이 풍부한 음식을 섭취해야 한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202108038611o",
+            "search_query": "산후조리",
+            "terminate": false,
+            "text": "아기를 낳고 난 후에는 심신이 많이 지쳐있기 때문에 충분한 휴식을 통해 회복하고 영양가가 많은 음식을 먹어야 해요.",
+            "turn_id": "BK22009251-4",
+            "utterance_id": "BK22009251.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 영양가가 많은 산후조리 음식에는 어떤 게 있을까요?",
+            "turn_id": "BK22009251-5",
+            "utterance_id": "BK22009251.9"
+        },
+        {
+            "reference_date": "2016-12-03",
+            "reference_text": [
+                {
+                    "value": "◆ 미역 = 몸 안의 열을 식혀 주고 피를 맑게 하며 요오드, 칼슘, 무기질 등을 풍부하게 함유하고 있어 산모에게 좋은 음식 중 대표격으로 꼽힌다. 출산 후 최소 2~3주 이상은 미역국을 섭취하는 것이 좋다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=45330",
+            "search_query": "산후조리 음식",
+            "terminate": false,
+            "text": "대표적인 산후조리 음식으로는 미역이 있어요. 미역은 몸 안의 열을 내리고 피를 깨끗하게 하며 요오드, 칼슘, 무기질 등이 많이 들어있어 산모에게 좋은 음식이에요. 그렇기 때문에 출산하고 2~3주 이상은 미역국을 먹는 것이 좋아요.",
+            "turn_id": "BK22009251-5",
+            "utterance_id": "BK22009251.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "미역국을 먹으라는 얘기는 많이 듣긴 했어요. 그런데 언제부터 산모가 미역을 먹기 시작했나요? 과거에도 미역을 먹었을까요?",
+            "turn_id": "BK22009251-6",
+            "utterance_id": "BK22009251.11"
+        },
+        {
+            "reference_date": "2022-02-28",
+            "reference_text": [
+                {
+                    "value": "언제부터 산모가 미역국을 먹었는지 정확한 기록을 찾기 힘들지만, 8세기 초 중국 당나라 서견 등이 현종의 명에 따라 편찬한 ‘초학기’에는 ‘고래가 새끼를 낳은 뒤 미역을 뜯어 먹고 산후 상처를 낫게 하는 것을 보고 고구려인들이 산모에게 미역을 먹였다\"고 돼있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2022022022240002203?did=NA",
+            "search_query": "산모미역",
+            "terminate": false,
+            "text": "산모가 미역국을 언제부터 먹기 시작했는지는 정확한 기록이 없어요. 다만 8세기 초 중국 당나라에서 현종의 명령으로 서견 등 집필한 초학기를 보면, 고래가 새끼를 낳은 후 미역을 먹고 출산 후 생긴 상처가 나은 것을 보며 고구려인들이 산모에게 미역을 먹게 했다는 기록이 있어요.",
+            "turn_id": "BK22009251-6",
+            "utterance_id": "BK22009251.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고구려라니, 오래전부터 내려온 전통이었네요. 또 다른 산후조리 음식에는 뭐가 있을까요?",
+            "turn_id": "BK22009251-7",
+            "utterance_id": "BK22009251.13"
+        },
+        {
+            "reference_date": "2016-12-03",
+            "reference_text": [
+                {
+                    "value": "◆ 마 = 마는 단백질과 비타민B가 풍부하게 함유돼 있어 산후 피로회복에 효과적이고 위장을 보호하는 역할을 한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=45330",
+            "search_query": "산후조리 음식",
+            "terminate": false,
+            "text": "다른 산후조리 음식으로는 마가 있어요. 마는 단백질과 비타민B가 많이 들어있어 출산 후 피로회복을 도와주고 위를 보호해 주거든요.",
+            "turn_id": "BK22009251-7",
+            "utterance_id": "BK22009251.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마즙으로 먹어도 좋겠네요. 즙 하니까 생각난 건데, 산후조리를 할 때 호박즙을 먹으면 좋다던데요. 진짠가요?",
+            "turn_id": "BK22009251-8",
+            "utterance_id": "BK22009251.15"
+        },
+        {
+            "reference_date": "2016-02-26",
+            "reference_text": [
+                {
+                    "value": "하지만 산후 조리 음식으로 호박을 ‘즙’ 형태로 지나치게 복용하면 문제가 될 수 있습니다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "당질로 인한 산후비만을 야기하거나 각기나 황달이 생길 수도 있습니다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이뇨작용이 수유를 방해할 수도 있습니다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.womennews.co.kr/news/articleView.html?idxno=91398",
+            "search_query": "산후조리 호박즙",
+            "terminate": false,
+            "text": "산후조리를 할 때 호박을 즙으로 만들어 많이 복용하면 좋지 않아요. 호박에 들어있는 당질로 인해 비만이 될 수 있고 각기나 황달의 증상이 생길 수도 있거든요. 또한 호박의 이뇨 작용이 수유를 힘들게 할 수 있어요.",
+            "turn_id": "BK22009251-8",
+            "utterance_id": "BK22009251.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 부기를 빼준다는 게 이뇨작용 때문이었나 봐요. 마지막으로 산후조리 팁이 있다면 알려주실래요?",
+            "turn_id": "BK22009251-9",
+            "utterance_id": "BK22009251.17"
+        },
+        {
+            "reference_date": "2022-06-27",
+            "reference_text": [
+                {
+                    "value": "출산 후에는 식은땀이 자주 나는데, 약간 덥다고 느낄 정도로 이불을 덮는 것이 적당하다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "옷은 흡습성이 좋은 것으로 입어 상쾌하게 지내도록 한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202206178570o",
+            "search_query": "산후조리 팁",
+            "terminate": false,
+            "text": "산후조리를 할 때는 식은땀이 수시로 나는데 그때마다 살짝 더운 느낌이 들 정도로 이불을 덮는 것이 좋아요. 또 흡습성이 뛰어난 옷을 입어 상쾌하게 지내는 것도 방법이죠.",
+            "turn_id": "BK22009251-9",
+            "utterance_id": "BK22009251.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 좋은 정보 감사합니다. 이제 아기 키우느라 한동안은 못 볼 것 같아 아쉬워요.",
+            "turn_id": "BK22009251-10",
+            "utterance_id": "BK22009251.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전화드릴게요, 예쁜 아기 낳고 몸조리 잘하세요.",
+            "turn_id": "BK22009251-10",
+            "utterance_id": "BK22009251.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 그럼 다음에 봬요.",
+            "turn_id": "BK22009251-11",
+            "utterance_id": "BK22009251.21"
+        }
+    ]
+}

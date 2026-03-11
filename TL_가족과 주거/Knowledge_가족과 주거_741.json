@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016509",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016509",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "할머니가 있는 시골에 있는 개가 새끼를 낳았다고 해서 한 마리 분양받기로 했어. 털 색이 갈색이라 인절미라고 부를까 해.",
+            "turn_id": "BK22016509-1",
+            "utterance_id": "BK22016509.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 귀엽겠다. 강아지를 키우려면 반려동물로 등록을 해야 해.",
+            "turn_id": "BK22016509-1",
+            "utterance_id": "BK22016509.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려동물 동물등록제는 들어는 봤는데 잘 모르겠어. 어떤 건지 설명해 줄 수 있어?",
+            "turn_id": "BK22016509-2",
+            "utterance_id": "BK22016509.3"
+        },
+        {
+            "reference_date": "44820.0",
+            "reference_text": [
+                {
+                    "value": "동물등록제'는 동물의 보호, 유실·유기 방지, 질병의 관리, 공중위생상의 위해 방지 등을 위해 '동물보호법'에 따라 2008년에 도입됐다.",
+                    "value_time": "44828.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatoday.co.kr/view.php?key=20220914010007640",
+            "search_query": "동물등록제",
+            "terminate": false,
+            "text": "동물등록제는 2008년에 동물보호법에 따라 동물의 보호 또는 질병관리 그리고 유실 또는 유기 예방 및 공중위생상의 위해 방지 등의 취지로 만들어졌어.",
+            "turn_id": "BK22016509-2",
+            "utterance_id": "BK22016509.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동물등록제를 실시하면 좋은 점이 있어?",
+            "turn_id": "BK22016509-3",
+            "utterance_id": "BK22016509.5"
+        },
+        {
+            "reference_date": "44820.0",
+            "reference_text": [
+                {
+                    "value": "이 제도는 키우는 동물을 보호자 이름으로 등록한 후 동물을 잃어버리거나 기르는 곳에서 나가는 등의 일이 발생했을 때 해당 동물을 손쉽게 찾을 수 있는 장점이 있다.",
+                    "value_time": "44828.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지자체에서 운영하는 공공시설의 출입 및 시설 사용도 가능한 점에 이점도 있다.",
+                    "value_time": "44828.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatoday.co.kr/view.php?key=20220914010007640",
+            "search_query": "동물등록제 등록",
+            "terminate": false,
+            "text": "반려동물을 키우는 사람의 이름으로 등록하면 추후 잃어버렸을 때 수월하게 찾을 수 있어. 지자체에서 운영하는 공공시설의 출입 및 시설 사용도 가능해.",
+            "turn_id": "BK22016509-3",
+            "utterance_id": "BK22016509.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나! 입양 후 등록은 언제까지 접수해야 하는 거야?",
+            "turn_id": "BK22016509-4",
+            "utterance_id": "BK22016509.7"
+        },
+        {
+            "reference_date": "44740.0",
+            "reference_text": [
+                {
+                    "value": "반려동물을 소유한 사람은 해당 동물의 소유권을 취득한 날 또는 소유한 동물의 월령이 2개월이 된 날부터 30일 이내에 등록해야 한다.",
+                    "value_time": "44828.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/267F7UFG0E",
+            "search_query": "동물등록제 신고",
+            "terminate": false,
+            "text": "반려동물을 키우는 사람은 동물의 소유권을 얻은 날이나 동물의 달나이가 2개월이 된 날부터 30일 이내에 접수해야 해.",
+            "turn_id": "BK22016509-4",
+            "utterance_id": "BK22016509.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "등록 신고를 하지 않거나 변경 사항을 신고하지 않으면 어떻게 돼?",
+            "turn_id": "BK22016509-5",
+            "utterance_id": "BK22016509.9"
+        },
+        {
+            "reference_date": "44822.0",
+            "reference_text": [
+                {
+                    "value": "대상 동물 미등록 시에는 ‘동물보호법 제47조’에 따라 60만원 이하, 변경사항 미신고는 40만원 이하 과태료가 각각 부과된다.",
+                    "value_time": "44828.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kwnews.co.kr/page/view/2022091810520135246",
+            "search_query": "동물등록제 미등록",
+            "terminate": false,
+            "text": "반려동물을 등록하지 않았을 때에는 동물보호법 제47조에 따라 60만 원 이하의 과태료와 변경 사항을 신고하지 않았을 때에는 40만 원 이하 과태료가 각각 부과돼.",
+            "turn_id": "BK22016509-5",
+            "utterance_id": "BK22016509.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라에서 동물등록제를 의무화한 이유는 뭘까?",
+            "turn_id": "BK22016509-6",
+            "utterance_id": "BK22016509.11"
+        },
+        {
+            "reference_date": "43883.0",
+            "reference_text": [
+                {
+                    "value": "반려동물 숫자가 증가하는 만큼 버려지는 동물의 숫자도 늘고 있기 때문이다.",
+                    "value_time": "44828.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전국의 동물보호센터가 2018년 한 해에 구조한 유기동물은 12만1077마리에 이른다.",
+                    "value_time": "44828.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "버려지는 동물의 75.8%는 개다.",
+                    "value_time": "44828.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이어 고양이가 23.2%를 차지한다.",
+                    "value_time": "44828.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/005/0001290937?sid=101",
+            "search_query": "동물등록제 유기동물",
+            "terminate": false,
+            "text": "반려동물이 많아지는 만큼 버려지는 유기 동물이 늘어났기 때문이야. 2018년에 전국의 동물보호센터에서 구조한 동물은 12만 1,077마리로 75.8%가 개, 23.2%는 고양이였어.",
+            "turn_id": "BK22016509-6",
+            "utterance_id": "BK22016509.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동물 등록제를 실시하고 효과가 있었어?",
+            "turn_id": "BK22016509-7",
+            "utterance_id": "BK22016509.13"
+        },
+        {
+            "reference_date": "44820.0",
+            "reference_text": [
+                {
+                    "value": "이와 관련 유실·유기되는 개의 마릿수는 2019년 10만2363마리에서 2020년 9만5261마리, 2021년 8만4723마리로 감소 추세를 보이고 있다.",
+                    "value_time": "44828.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatoday.co.kr/view.php?key=20220914010007640",
+            "search_query": "동물등록제 효과",
+            "terminate": false,
+            "text": "응, 잃어버리거나 유기하는 동물이 2019년 102,363마리에서 2020년 95,261마리, 2021년 84,723마리로 감소하는 모습을 보이고 있어.",
+            "turn_id": "BK22016509-7",
+            "utterance_id": "BK22016509.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "효과가 있어서 정말 다행이다. 등록은 어떻게 하는 거야?",
+            "turn_id": "BK22016509-8",
+            "utterance_id": "BK22016509.15"
+        },
+        {
+            "reference_date": "44820.0",
+            "reference_text": [
+                {
+                    "value": "2개월령에 도달 또는 취득 후 30일 이내 개에게 무선전자식별장치를 체내(목덜미)에 삽입하는 내장형 방식 또는 목걸이 등으로 부착하는 외장형 방식 중 선택해 등록할 수 있다.",
+                    "value_time": "44828.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이와 관련 무선전자식별장치를 동물 몸속에 삽입하는 내장형 등록 시 반드시 동물병원을 방문해야 한다.",
+                    "value_time": "44828.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatoday.co.kr/view.php?key=20220914010007640",
+            "search_query": "반려동물등록제",
+            "terminate": false,
+            "text": "반려동물이 2개월 되거나 입양 후 30일 이내로 반려동물의 목덜미에 무선전자식별장치를 넣는 내장형 방식과 목걸이 등으로 부착이 가능한 외장형 방식을 골라 등록하면 돼. 반려견의 몸속에 넣는 무선전자식별장치 내장형으로 등록할 때에는 꼭 동물병원을 찾아가야 해.",
+            "turn_id": "BK22016509-8",
+            "utterance_id": "BK22016509.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동물등록의 관리 정보에는 어떤 내용들이 들어있어?",
+            "turn_id": "BK22016509-9",
+            "utterance_id": "BK22016509.17"
+        },
+        {
+            "reference_date": "44820.0",
+            "reference_text": [
+                {
+                    "value": "동물등록의 관리정보를 통해 소유자 성명·주민등록번호·전화번호·주소 등 소유자 정보와 동물의 등록번호·이름·품종·털 색깔·성별·중성화 여부·출생일 등을 파악할 수 있다.",
+                    "value_time": "44828.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatoday.co.kr/view.php?key=20220914010007640",
+            "search_query": "동물등록 정보",
+            "terminate": false,
+            "text": "동물등록의 관리 정보에는 소유자 성명, 주민등록번호, 전화번호, 주소와 동물의 등록번호, 이름, 품종, 털 색깔, 성별, 중성화 여부, 출생일 등이 들어 있어서 정보등록을 통해 파악할 수 있어.",
+            "turn_id": "BK22016509-9",
+            "utterance_id": "BK22016509.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알려줘서 고마워. 강아지가 집에 오자마자 병원에 가서 등록해야겠다.",
+            "turn_id": "BK22016509-10",
+            "utterance_id": "BK22016509.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래 잊지 말고 꼭 해줘. 나도 나중에 같이 놀자.",
+            "turn_id": "BK22016509-10",
+            "utterance_id": "BK22016509.20"
+        }
+    ]
+}

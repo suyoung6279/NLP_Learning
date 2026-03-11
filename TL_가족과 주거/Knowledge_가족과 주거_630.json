@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015924",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015924",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 산부인과에 가서 정기검진을 받았는데, 뱃속 아이가 거꾸로 있다고 해서 깜짝 놀랐어요. 아이가 거꾸로 있는 이유가 뭐예요?",
+            "turn_id": "BK22015924-1",
+            "utterance_id": "BK22015924.1"
+        },
+        {
+            "reference_date": "2017-04-25",
+            "reference_text": [
+                {
+                    "value": "원인은 자궁 내 양수가 너무 적거나 혹은 너무 많은 경우, 다태아 임신, 조산 경험, 자궁 형태가 비정상적인 경우, 자궁근종, 전치태반(태반이 자궁 입구에 가깝게 위치해 있거나 경관을 막고 있는 경우) 등을 들 수 있다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.koreatimes.com/article/1052332",
+            "search_query": "역아 원인",
+            "terminate": false,
+            "text": "역아의 원인은 다양한데요. 자궁 내의 양수양이 적거나 너무 많은 경우, 다태아를 임신했을 때, 조산을 경험한 적이 있을 때, 자궁의 형태가 비정상적인 경우, 태반이 자궁 입구에 가까이 있거나 경관을 막고 있는 전치태반일 때, 자궁근종 일 때 등이 있어요.",
+            "turn_id": "BK22015924-1",
+            "utterance_id": "BK22015924.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역아 원인이 생각보다 많네요. 그런데 저처럼 아이가 거꾸로 있는 경우가 흔한가요?",
+            "turn_id": "BK22015924-2",
+            "utterance_id": "BK22015924.3"
+        },
+        {
+            "reference_date": "2018-09-12",
+            "reference_text": [
+                {
+                    "value": "전체 임신부 중 약 3~4% 정도가 출산 시까지 역아를 경험하는데, 양수 과다 혹은 과소증, 자궁이완, 자궁기형 등이 원인이기도 하지만 별다른 이유 없이 발생하기도 한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "태아의 머리가 골반 쪽을 향하지 않고 거꾸로 자리 잡은 역아는 임산부가 피하고 싶어 하는 상황 중 하나일 것이다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000433961",
+            "search_query": "임신부 역아 경험",
+            "terminate": false,
+            "text": "태아의 머리가 골반 쪽을 향하는 것이 정상적이지만, 반대로 자리 잡은 역아라면 임산부가 피하고 싶어 하는 상황 중 하나 일거에요. 이런 역아는 전체 임신부 가운데 약 3~4% 정도가 경험하고 있답니다.",
+            "turn_id": "BK22015924-2",
+            "utterance_id": "BK22015924.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "3~4%정도면 역아를 경험하는 임산부가 많지는 않은 거네요. 그럼 역아는 자연분만을 못하는 건가요?",
+            "turn_id": "BK22015924-3",
+            "utterance_id": "BK22015924.5"
+        },
+        {
+            "reference_date": "2018-11-06",
+            "reference_text": [
+                {
+                    "value": "과거에는 역아 상태에서 자연분만을 할 경우 태아 건강에 부정적인 영향을 미칠 수 있다는 이유로 제왕절개 수술을 시행하는 경우가 많았다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 최근에는 자연분만을 선호하는 산모들이 늘면서 수술 없이 태아의 머리가 아래로 향하도록 회전시키는 역아외회전술(ECV·External Cephalic Version)이 새로운 대안으로 떠오른다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01203766619403096&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "역아 자연분만",
+            "terminate": false,
+            "text": "예전에는 역아 상태에서 자연분만을 하면 건강에 부정적인 영향을 줄 수 있다는 이유로 제왕절개를 하는 경우가 많았는데요. 요즘에는 자연분만을 원하는 산모가 늘어나면서 수술하지 않고 태아 머리를 아래로 회전시키는 역아외회전술을 통해 출산을 하는 대안이 생겨났어요.",
+            "turn_id": "BK22015924-3",
+            "utterance_id": "BK22015924.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역아외회전술은 처음 들어봐요. 어떤 건지 자세히 설명해 주시겠어요?",
+            "turn_id": "BK22015924-4",
+            "utterance_id": "BK22015924.7"
+        },
+        {
+            "reference_date": "2018-11-06",
+            "reference_text": [
+                {
+                    "value": "그 중 역아외회전술은 전문의료진이 직접 산모의 복부를 손으로 만져가며 태아의 위치를 돌리는 시술법이다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 별도 마취 없이 실시간으로 태아와 산모 상태를 확인하면서 산모 복부 바깥에서 시행하는 시술법이어서 안전성을 보장한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전문의료진이 한 손으로 태아의 머리를 아래 방향으로 밀고 다른 손으로 엉덩이를 위로 밀어올리면서 태아가 제 위치를 찾도록 조정한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01203766619403096&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "역아외회전술",
+            "terminate": false,
+            "text": "역아외회전술은 산모의 복부를 전문의료진이 직접 손으로 만지면서 태아의 위치를 바로잡는 시술법이에요. 한 손으로는 태아 머리를 아래쪽으로 밀고 다른 한 손으로는 엉덩이를 위로 밀어 올리면서 태아 위치를 조정하는 거죠. 역아외회전술은 마취가 필요 없고 실시간으로 산모와 태아 상태를 확인할 수 있으며, 산모 복부에 바깥쪽에서 시행하는 시술법이다 보니 안정성이 보장되어 있답니다.",
+            "turn_id": "BK22015924-4",
+            "utterance_id": "BK22015924.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 직접 아이를 밀어서 방향을 돌리는 시술법이구나. 역아외회전술을 받을 수 있는 임신주수가 정해져 있나요?",
+            "turn_id": "BK22015924-5",
+            "utterance_id": "BK22015924.9"
+        },
+        {
+            "reference_date": "2018-11-06",
+            "reference_text": [
+                {
+                    "value": "역아외회전술은 태아의 성장과 임신 주수를 고려, 36~37주에 실시한다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01203766619403096&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "역아외회전술 임신주수",
+            "terminate": false,
+            "text": "네. 역아외회전술은 시술이 가능한 시기가 정해져 있어요. 태아의 성장과 임산부의 임신 주수를 고려하여 보통 36~37주 정도 되면 시술받을 수 있답니다.",
+            "turn_id": "BK22015924-5",
+            "utterance_id": "BK22015924.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "36~37주면 저는 조금 더 기다려야 하네요. 역아외회전술 시술 시간은 얼마나 걸리나요?",
+            "turn_id": "BK22015924-6",
+            "utterance_id": "BK22015924.11"
+        },
+        {
+            "reference_date": "2018-11-06",
+            "reference_text": [
+                {
+                    "value": "시술 시간은 5~10분 정도로 짧으며, 한 번 시술로 바로 돌지 않을 경우 1~2시간 쉬었다가 다시 시행할 수 있다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 총 2~3회까지 반복 가능하다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01203766619403096&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "역아외회전술 시술 시간",
+            "terminate": false,
+            "text": "역아외회전술 시술 시간은 약 5~10분 정도로 짧은 편이에요. 한번 시술을 해서 아이가 바로 돌지 않는다면 1~2시간 휴식을 취한 후 다시 시행 할 수 있어요. 거기다 2~3회까지 반복하는 것도 가능하답니다.",
+            "turn_id": "BK22015924-6",
+            "utterance_id": "BK22015924.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각만큼 오래 걸리지는 않네요. 역아회전술을 하게 되면 대부분 아이가 정상 위치로 돌아오게 되나요?",
+            "turn_id": "BK22015924-7",
+            "utterance_id": "BK22015924.13"
+        },
+        {
+            "reference_date": "2018-12-16",
+            "reference_text": [
+                {
+                    "value": "역아외회전술을 통해 아이가 정상 태위로 돌아가는 성공률은 약 60%에 이른다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한 번 제 위치로 돌아온 태아가 다시 역아로 돌아가는 경우는 많지 않아 자연분만으로 이어질 가능성이 높아진다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20181216001381?OutUrl=naver",
+            "search_query": "역아외회전술 성공률",
+            "terminate": false,
+            "text": "역아외회전술로 아이가 정상적 위치로 돌아오는 성공률은 약 60% 정도에요. 한번 정상 위치로 돌아온 아이가 다시 역아로 돌아가는 경우가 흔치는 않으니 역아외회전술을 성공하고 나면 자연분만을 할 가능성이 높아지는 거죠.",
+            "turn_id": "BK22015924-7",
+            "utterance_id": "BK22015924.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "60%면 절반 이상이니 기대를 걸어볼 만 하네요. 그럼 역아외회전술은 모든 산모가 할 수 있는 시술인가요?",
+            "turn_id": "BK22015924-8",
+            "utterance_id": "BK22015924.15"
+        },
+        {
+            "reference_date": "2018-11-06",
+            "reference_text": [
+                {
+                    "value": "다만 모든 역아 산모들이라고 해서 역아외회전술을 시행할 수 있는 것은 아니다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "과거 자궁 수술과 전치태반, 자궁 기형 등의 이력이 있을 경우 역아외회전술을 통한 자연분만은 불가능하다.",
+                    "value_time": "2022-10-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01203766619403096&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "역아외회전술 불가능",
+            "terminate": false,
+            "text": "그렇지는 않아요. 전에 자궁 수술을 받은 적이 있다거나 전치태반, 자궁기형과 같은 이력이 있는 산모라면 역아외회전술로 자연분만을 하는 것은 불가능하답니다.",
+            "turn_id": "BK22015924-8",
+            "utterance_id": "BK22015924.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역아외회전술에 문제 되는 이력이 없기는 하지만 불가능하다는 진단을 받을까 봐 조금 걱정이 되네요.",
+            "turn_id": "BK22015924-9",
+            "utterance_id": "BK22015924.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너무 걱정하지는 마시고, 먼저 산부인과에 가셔서 전문가와 정확하게 상담을 해 보시는 것이 좋을 것 같아요.",
+            "turn_id": "BK22015924-9",
+            "utterance_id": "BK22015924.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내일 병원 예약해서 역아외회전술 가능 여부를 확인해 봐야겠네요. 역아라는 말을 듣고 심장이 철렁했는데, 이런 시술이 있다니 그나마 마음이 놓여요. 유용한 정보 알려주셔서 감사해요.",
+            "turn_id": "BK22015924-10",
+            "utterance_id": "BK22015924.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요. 너무 염려 마시고 마음 편히 병원에 다녀오세요. 그럼 다음에 또 대화 나눠요.",
+            "turn_id": "BK22015924-10",
+            "utterance_id": "BK22015924.20"
+        }
+    ]
+}

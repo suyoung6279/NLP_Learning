@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014453",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014453",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근 SNS에 자녀 사진을 올리는 부모들이 많아지면서 셰어런츠라는 지적을 받기도 하더라고요. 셰어런츠가 뭔지 아시나요?",
+            "turn_id": "BK22014453-1",
+            "utterance_id": "BK22014453.1"
+        },
+        {
+            "reference_date": "43164.0",
+            "reference_text": [
+                {
+                    "value": "공유를 뜻하는 셰어(share)와 부모(parents)의 합성어로 자녀의 모든 일상을 SNS에 올리는 부모를 가리킨다.",
+                    "value_time": "44812.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=5138954&cid=43667&categoryId=43667",
+            "search_query": "셰어런츠",
+            "terminate": false,
+            "text": "셰어런츠란 자녀의 모든 일상 사진을 SNS에 올리는 부모를 뜻해요. 공유를 의미하는 셰어와 부모를 합친 말이죠.",
+            "turn_id": "BK22014453-1",
+            "utterance_id": "BK22014453.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이의 사진을 허락 없이 SNS에 공유하는 것이 정서적 아동학대가 될 수 있다는데 그 이유는 뭔가요?",
+            "turn_id": "BK22014453-2",
+            "utterance_id": "BK22014453.3"
+        },
+        {
+            "reference_date": "44810.0",
+            "reference_text": [
+                {
+                    "value": "숭실사이버대 아동학과 김영심 교수는 “부모가 자녀의 모든 것을 자신의 소유 개념으로 생각하고 게시하다 보니 부작용이 발생하는 것”이라며 “어린 자녀의 경우 부모가 게시하는 사진이 미래의 자신에게 어떠한 영향을 미칠지 인지하기가 어렵기 때문에 정서적 아동학대에 취약하다”고 말했다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/09/06/2022090602051.html",
+            "search_query": "셰어런츠 정서적 아동학대",
+            "terminate": false,
+            "text": "숭실사이버대학교 아동학과 김영심 교수에 따르면, 그 이유는 부모가 자식을 소유물이라는 생각으로 사진을 게시하기 때문이에요. 특히 어린아이일 경우 부모가 올린 사진이 미래의 자신에게 어떤 영향을 줄지 알기 어려우므로 정서적 아동학대에 취약해요.",
+            "turn_id": "BK22014453-2",
+            "utterance_id": "BK22014453.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 이로 인해 다른 문제가 생길 수도 있나요?",
+            "turn_id": "BK22014453-3",
+            "utterance_id": "BK22014453.5"
+        },
+        {
+            "reference_date": "44810.0",
+            "reference_text": [
+                {
+                    "value": "아이는 부모의 눈치를 보며 부모가 원하는 행동을 하게 되는데, 이러한 현상이 심해질 경우 착한아이콤플렉스로 이어질 위험도 있다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 밖에도 과도하게 아이의 정보를 공유함으로써 범죄 노출의 위험성이 커진다는 부작용도 존재한다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/09/06/2022090602051.html",
+            "search_query": "셰어런츠 문제점",
+            "terminate": false,
+            "text": "아이는 부모가 원하는 행동을 하려고 눈치를 보게 돼요. 이런 모습이 지속되면 착한 아이 콤플렉스로 이어지기도 하죠. 또 과도하게 아이의 정보를 공유해서 범죄에 노출될 위험도 생겨요.",
+            "turn_id": "BK22014453-3",
+            "utterance_id": "BK22014453.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 심각한 문제를 야기하기도 하네요. 아이가 커서 사진 때문에 곤란해질 수도 있지 않나요?",
+            "turn_id": "BK22014453-4",
+            "utterance_id": "BK22014453.7"
+        },
+        {
+            "reference_date": "43052.0",
+            "reference_text": [
+                {
+                    "value": "실제 호주에서는 18세가 된 딸이 부모에게 자신이 어렸을 때 SNS에 올렸던 사진을 삭제해 달라고 요청했으나 부모가 거절하자 부모를 고소하는 사건이 일어나기도 했다.",
+                    "value_time": "44812.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=69262",
+            "search_query": "셰어런츠 관련 사건",
+            "terminate": false,
+            "text": "맞아요. 실제 호주에서 18세 딸이 부모에게 자신의 어릴 적 사진을 SNS에서 삭제하라는 요구를 하고 부모가 거절하자 고소하는 사건도 있었어요.",
+            "turn_id": "BK22014453-4",
+            "utterance_id": "BK22014453.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자신의 어린 시절 사진이 인터넷에 떠돌면 정말 불편할 것 같아요. 자녀의 사진을 SNS에 올리는 사람들은 얼마나 될지 궁금해요.",
+            "turn_id": "BK22014453-5",
+            "utterance_id": "BK22014453.9"
+        },
+        {
+            "reference_date": "44426.0",
+            "reference_text": [
+                {
+                    "value": "지난 3월 국제 구호개발 NGO ‘세이브더칠드런’이 만 0~11세 자녀를 둔 부모 중 최근 3개월 동안 SNS에 콘텐츠를 올린 경험이 있는 1천 명을 대상으로 한 설문조사 결과 ‘자녀의 사진이나 영상을 게시한 적이 있다’고 답한 비율이 86.1%였다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newspost.kr/news/articleView.html?idxno=94159",
+            "search_query": "자녀 사진 SNS 올리는 비율",
+            "terminate": false,
+            "text": "2021년 3월 국제 구호개발 NGO 세이브더칠드런의 만 0~11세 자녀의 부모를 대상으로 한 설문조사에 따르면, 최근 3개월 동안 SNS에 콘텐츠를 올린 경험이 있는 1천 명 중 자녀의 사진이나 영상을 게시한 비율이 86.1%에 달해요.",
+            "turn_id": "BK22014453-5",
+            "utterance_id": "BK22014453.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 도대체 부모들이 셰어런팅을 하는 이유가 뭔가요?",
+            "turn_id": "BK22014453-6",
+            "utterance_id": "BK22014453.11"
+        },
+        {
+            "reference_date": "44426.0",
+            "reference_text": [
+                {
+                    "value": "핵가족 사회로 변화하면서 초보 부모가 가지는 육아 고민에 대한 정보를 얻을 곳이 적어졌기 때문이다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자녀 양육에 대한 많은 관심에 비해 정보가 부족하다 보니, 같은 관심사를 가진 부모들과 의사소통하고 자신만의 육아 노하우를 게시하는 일이 활발해진다는 것이다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newspost.kr/news/articleView.html?idxno=94159",
+            "search_query": "셰어런팅 이유",
+            "terminate": false,
+            "text": "이유는 핵가족 사회로 바뀌며 초보 부모가 육아 정보를 얻을 곳이 줄었기 때문이에요. 관심에 비해 정보가 적으니 다른 부모들과 육아 노하우를 공유하고 소통하는 활동이 많아지는 거죠.",
+            "turn_id": "BK22014453-6",
+            "utterance_id": "BK22014453.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 이유가 있었는지 몰랐어요.",
+            "turn_id": "BK22014453-7",
+            "utterance_id": "BK22014453.13"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "분명 장점도 있겠지만 단점을 무시할 수는 없어요.",
+            "turn_id": "BK22014453-7",
+            "utterance_id": "BK22014453.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게요, 셰어런팅과 관련된 규정은 없나요?",
+            "turn_id": "BK22014453-8",
+            "utterance_id": "BK22014453.15"
+        },
+        {
+            "reference_date": "44426.0",
+            "reference_text": [
+                {
+                    "value": "프랑스에서는 부모가 자녀 사진을 본인 동의 없이 SNS에 게재할 경우, 최대 1년 징역에 벌금 4만5,000유로 (약 5,900만 원)의 벌금을 물어야 한다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newspost.kr/news/articleView.html?idxno=94159",
+            "search_query": "셰어런팅 규정",
+            "terminate": false,
+            "text": "프랑스의 경우 부모가 자녀의 사진을 동의 없이 SNS에 올리면 4만5,000유로 한화로 약 5,900만 원의 벌금과 최대 1년 징역에 처해질 수 있어요.",
+            "turn_id": "BK22014453-8",
+            "utterance_id": "BK22014453.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한국의 경우는 어떤 규정이 있나요?",
+            "turn_id": "BK22014453-9",
+            "utterance_id": "BK22014453.17"
+        },
+        {
+            "reference_date": "44426.0",
+            "reference_text": [
+                {
+                    "value": "우리나라는 현재 셰어런팅에 관련해 법적 규정은 없는 상태다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 개인정보보호법과 정보통신망법에서 법정 대리인의 통제권만 언급하고 있어 구체적인 내용은 더욱 세분화해 아동의 개인 정보 보호에 주목해야 할 필요가 있다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newspost.kr/news/articleView.html?idxno=94159",
+            "search_query": "셰어런팅 한국 규정",
+            "terminate": false,
+            "text": "우리나라는 아직 셰어런팅에 관한 규정은 존재하지 않으며, 개인정보보호법과 정보통신망법에서 법정 대리인의 통제권만 나와 있어요. 아동의 개인정보 보호를 위해 내용을 세분화할 필요가 있죠.",
+            "turn_id": "BK22014453-9",
+            "utterance_id": "BK22014453.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 빨리 법적인 조치가 생겼으면 좋겠네요.",
+            "turn_id": "BK22014453-10",
+            "utterance_id": "BK22014453.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "맞아요, 문제점을 인식하면 해결하려는 노력이 중요한 것 같아요.",
+            "turn_id": "BK22014453-10",
+            "utterance_id": "BK22014453.20"
+        }
+    ]
+}

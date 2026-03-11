@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016732",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016732",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전문가님, 제가 여기 오다가 주인과 산책하러 나온 큰 개를 한 마리 봤거든요. 온몸이 까맣던데 주인한테 무슨 견종이냐고 물어보니까, 진돗개라고 하더라고요. 온몸이 까만 진돗개도 있나요?",
+            "turn_id": "BK22016732-1",
+            "utterance_id": "BK22016732.1"
+        },
+        {
+            "reference_date": "44790.0",
+            "reference_text": [
+                {
+                    "value": "흑구는 검은색 털을 가진 진돗개입니다.",
+                    "value_time": "44841.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "온몸이 검은색인데, 털 표면이 검붉거나 꼬리에 노란 털이 섞인 경우도 있어요.",
+                    "value_time": "44841.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한, 배, 입, 눈 근처에 털에 얼룩이 있을 수 있습니다.",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/131579/",
+            "search_query": "진돗개 흑구",
+            "terminate": false,
+            "text": "네, 존재합니다. 검은 털을 가진 진돗개를 흑구라고 해요. 전신이 검은색인데, 털 표면이 검붉은색이거나 꼬리에 노란 털이 섞여 있는 개도 있습니다. 또, 배, 입, 눈 부근에 난 털에 얼룩이 있기도 하고요.",
+            "turn_id": "BK22016732-1",
+            "utterance_id": "BK22016732.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 진돗개가 백구와 황구만 있는 게 아니었네요. 그러면 진돗개 종류는 모두 몇 가지가 있나요?",
+            "turn_id": "BK22016732-2",
+            "utterance_id": "BK22016732.3"
+        },
+        {
+            "reference_date": "44790.0",
+            "reference_text": [
+                {
+                    "value": "진돗개는 털 색깔에 따라 6가지 종류로 나뉩니다.",
+                    "value_time": "44841.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "황구와 백구만 천연기념물로 인정받고 있어 나머지 4가지 종류는 잘 알려져 있지 않은데요.",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/131579/",
+            "search_query": "진돗개 종류",
+            "terminate": false,
+            "text": "천연기념물로 지정된 황구와 백구를 비롯하여 털 색에 따라 모두 여섯 가지 종이 있는데, 나머지 네 종류는 잘 알려지지 않았죠.",
+            "turn_id": "BK22016732-2",
+            "utterance_id": "BK22016732.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그러면 황구, 백구, 흑구 외에 세 가지 종류가 더 있군요. 진돗개가 기본적으로 가진 신체적 특징에는 어떤 것이 있나요?",
+            "turn_id": "BK22016732-3",
+            "utterance_id": "BK22016732.5"
+        },
+        {
+            "reference_date": "44743.0",
+            "reference_text": [
+                {
+                    "value": "일반적으로 수컷은 암컷보다 머리가 크며 암컷은 좀 더 여우와 같은 두상을 가진다.",
+                    "value_time": "44841.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "수컷은 48 ~ 53cm, 암컷은 45~50cm 가량이며 수컷 성견의 경우 18~27kg 가량, 암컷 성견의 경우 15~24kg 가량이다.",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A7%84%EB%8F%97%EA%B0%9C",
+            "search_query": "진돗개 외모",
+            "terminate": false,
+            "text": "수컷의 키가 48에서 53센티미터이고 암컷은 45에서 50센티미터 정도인데요. 체중은 수컷 성견이 18에서 27킬로그램 정도이고, 암컷 성견은 15에서 24킬로그램 정도입니다. 보통 수컷이 암컷보다 머리가 크고, 암컷은 두상이 좀 더 여우와 닮아있죠.",
+            "turn_id": "BK22016732-3",
+            "utterance_id": "BK22016732.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "머리 모양 가지고 암수를 구분할 수가 있겠군요. 그건 그렇고 어떤 진돗개는 진도개라고 불리던데, 둘은 무슨 차이가 있나요?",
+            "turn_id": "BK22016732-4",
+            "utterance_id": "BK22016732.7"
+        },
+        {
+            "reference_date": "44790.0",
+            "reference_text": [
+                {
+                    "value": "바로 진도군에서 태어난 진돗개 중에서, 견종 표준에 맞아 심의에 통과해 천연기념물로 인정된 경우만 ‘진도개’라고 부른다는 건데요.",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "진도에서 태어나지 않았거나, 견종 표준에 맞지 않으면 진도개가 아닌 진돗개라고 부른답니다.",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/131579/",
+            "search_query": "진돗개와 진도개 사이 다른 점",
+            "terminate": false,
+            "text": "진도군에서 출생한 진돗개 가운데 견종 표준에 부합하여 심의를 거쳐 천연기념물로 지정된 경우만 진도개라고 부릅니다. 진도 외의 지역에서 태어났거나, 견종 표준에 부합하지 않으면 진도개가 아니라 진돗개라고 부르죠.",
+            "turn_id": "BK22016732-4",
+            "utterance_id": "BK22016732.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "진돗개 중에 특별 보호 대상으로 진도개를 선별하는군요. 그건 그렇고 진돗개 하면 우리나라의 전통 개인데, 유래에 관하여 알려주세요.",
+            "turn_id": "BK22016732-5",
+            "utterance_id": "BK22016732.9"
+        },
+        {
+            "reference_date": "44790.0",
+            "reference_text": [
+                {
+                    "value": "진돗개의 시조는 정확히 밟혀진 바는 없지만, 중국 송나라 혹은 몽고에서 유입된 개가 진돗개의 시조다 혹은 고구려를 중심으로 생겨난 한반도 토착견이라는 등 여러 가지 설이 있답니다.",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/131579/",
+            "search_query": "진돗개의 시조",
+            "terminate": false,
+            "text": "아직 기원이 확실히 파악되지는 않았습니다. 다만 중국 송나라 내지 몽골에서 들어온 개가 진돗개의 시조라는 이야기가 있고, 고구려를 중심으로 나타난 한반도 토착 개라는 주장 등 여러 가지 설이 존재합니다.",
+            "turn_id": "BK22016732-5",
+            "utterance_id": "BK22016732.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아직 명확하게 밝혀진 바가 없군요. 진돗개의 성격은 어떤 편인가요?",
+            "turn_id": "BK22016732-6",
+            "utterance_id": "BK22016732.11"
+        },
+        {
+            "reference_date": "44790.0",
+            "reference_text": [
+                {
+                    "value": "대담한 성격에 충직하고 영리해 귀소 본능이 뛰어나다.",
+                    "value_time": "44841.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대부분 차분한 성격을 가지고 있지만 경계심이 높아 적을 만났을 때 공격성을 보일 수 있다.",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mypetlife.co.kr/91355/",
+            "search_query": "진돗개 성격",
+            "terminate": false,
+            "text": "성격이 대담하고 충직하면서 영리한 데다, 귀소 본능이 뛰어납니다. 보통은 성격이 차분하지만, 경계심이 강해 적을 만나면 공격성을 드러낼 수 있어요.",
+            "turn_id": "BK22016732-6",
+            "utterance_id": "BK22016732.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 머리가 좋은 편이지만 경계심이 조금 있군요. 그건 그렇고 군견 중에 진돗개는 안 보이던데 왜 그런 건가요?",
+            "turn_id": "BK22016732-7",
+            "utterance_id": "BK22016732.13"
+        },
+        {
+            "reference_date": "42188.0",
+            "reference_text": [
+                {
+                    "value": "진돗개는 충성심이 강해 자신을 돌봐 주던 군견병이 전역하면 통제가 어려워 군견으로 활동하기 어려운 것으로 알려져 있다.",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=7484",
+            "search_query": "진돗개 군견",
+            "terminate": false,
+            "text": "충성심이 강하다 보니 자신을 돌보던 군견병이 제대하면 통제하기 힘들어집니다. 그래서 군견으로 활용하기 어려워요.",
+            "turn_id": "BK22016732-7",
+            "utterance_id": "BK22016732.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "충성심이 너무 강해서 군견으로 쓰기는 어렵군요. 진돗개를 키우면서 주의해야 할 점은 무엇이 있나요?",
+            "turn_id": "BK22016732-8",
+            "utterance_id": "BK22016732.15"
+        },
+        {
+            "reference_date": "44743.0",
+            "reference_text": [
+                {
+                    "value": "진돗개는 깔끔한 성격으로 가족들과 생활하는 실내에서 배변을 하지 않고 실외 배변을 하는 경우가 많다.",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 최소 3~4회의 산책을 해주는 것이 좋다.",
+                    "value_time": "44841.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A7%84%EB%8F%97%EA%B0%9C",
+            "search_query": "진돗개",
+            "terminate": false,
+            "text": "진돗개는 깔끔한 성격이기 때문에, 가족과 함께 사는 실내에서 배변하지 않고 실외 배변하는 경우가 흔합니다. 그 때문에 최소 서너 번은 산책하는 편이 좋아요.",
+            "turn_id": "BK22016732-8",
+            "utterance_id": "BK22016732.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 깔끔을 떨기 때문에 집 밖에서 배변하는군요.",
+            "turn_id": "BK22016732-9",
+            "utterance_id": "BK22016732.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집에서 배변을 안 하는 게 장점이죠.",
+            "turn_id": "BK22016732-9",
+            "utterance_id": "BK22016732.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "덕분에 진돗개의 구체적인 특징까지도 알게 되었네요. 덕분에 오늘도 즐거웠습니다. 그러면 다음에 만날 때까지 안녕히 계세요.",
+            "turn_id": "BK22016732-10",
+            "utterance_id": "BK22016732.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 다음에 또 뵙겠습니다.",
+            "turn_id": "BK22016732-10",
+            "utterance_id": "BK22016732.20"
+        }
+    ]
+}

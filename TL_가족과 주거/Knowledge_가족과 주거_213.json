@@ -1,0 +1,332 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001264",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001264",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전에 우리 집 고양이 등에 큰 구멍이 난 걸 발견했어. 그곳에만 털이 없더라고.",
+            "turn_id": "BK22001264-1",
+            "utterance_id": "BK22001264.1"
+        },
+        {
+            "reference_date": "2021-06-02",
+            "reference_text": [
+                {
+                    "value": "반려동물이 곰팡이성 피부병을 앓으면 탈모도 진행됩니다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202106021004468790",
+            "search_query": "고양이 탈모",
+            "terminate": false,
+            "text": "반려 동물이 곰팡이성 피부병을 앓으면 탈모가 생길 수 있어. 한 번 병원에 데려가 보는 게 좋을 것 같은데?",
+            "turn_id": "BK22001264-1",
+            "utterance_id": "BK22001264.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "곰팡이성 피부병이라면 집에 곰팡이가 있다는 소리인가? 내가 너무 집을 안 치워서 그런 거야?",
+            "turn_id": "BK22001264-2",
+            "utterance_id": "BK22001264.3"
+        },
+        {
+            "reference_date": "2018-08-29",
+            "reference_text": [
+                {
+                    "value": "특히 습하거나 청결하지 않은 환경에서 곰팡이성 피부병을 앓는 고양이들이 많이 발생한다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?3409804",
+            "search_query": "고양이 곰팡이성 피부병 원인",
+            "terminate": false,
+            "text": "만약 피부병이 맞다면 그럴 가능성이 있지. 특히 습하거나 청결하지 않은 환경에서 걸릴 확률이 높거든.",
+            "turn_id": "BK22001264-2",
+            "utterance_id": "BK22001264.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내가 집을 그렇게 더럽게 썼던가? 매일 청소기도 돌리는데 말이야.",
+            "turn_id": "BK22001264-3",
+            "utterance_id": "BK22001264.5"
+        },
+        {
+            "reference_date": "2018-01-18",
+            "reference_text": [
+                {
+                    "value": "진료를 받은 후에 피부병이 아니라는 것이 확인됐다면 심리적인 요인을 생각해 볼 수 있다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kado.net/news/articleView.html?idxno=893301",
+            "search_query": "고양이 곰팡이성 피부병",
+            "terminate": false,
+            "text": "일단은 진료를 먼저 받아 봐. 피부병이 아닐 수도 있는데, 그렇다면 심리적인 요인이 원인이거든.",
+            "turn_id": "BK22001264-3",
+            "utterance_id": "BK22001264.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "심리적 요인이라면 스트레스를 받아서 탈모가 왔을 수도 있다는 거야?",
+            "turn_id": "BK22001264-4",
+            "utterance_id": "BK22001264.7"
+        },
+        {
+            "reference_date": "2020-01-23",
+            "reference_text": [
+                {
+                    "value": "심리적으로 불안하거나 스트레스가 많은 고양이도 오버그루밍을 심하게 하면서 탈모와 피부염이 생기기도 한다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=47016",
+            "search_query": "고양이 탈모 심리적",
+            "terminate": false,
+            "text": "응, 스트레스가 많으면 고양이가 오버그루밍을 심하게 해서 탈모나 피부염이 생기거든.",
+            "turn_id": "BK22001264-4",
+            "utterance_id": "BK22001264.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 집 고양이가 왜 스트레스를 받고 있는 거지? 내가 요즘 집에 잘 없어서 외로워서 그런가?",
+            "turn_id": "BK22001264-5",
+            "utterance_id": "BK22001264.9"
+        },
+        {
+            "reference_date": "2018-01-22",
+            "reference_text": [
+                {
+                    "value": "고양이를 외롭게 방치했을 때 여러 증상을 보인다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "외출하고 돌아온 보호자를 보고 운다거나 침대에 올라온다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?3212890",
+            "search_query": "고양이 스트레스 외로움",
+            "terminate": false,
+            "text": "고양이는 외로우면 여러 증상을 보여. 외출하고 집에 들어갔을 때 너를 보고 운다거나 그랬어? 침대에 따라 올라오거나 말이야.",
+            "turn_id": "BK22001264-5",
+            "utterance_id": "BK22001264.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각해보니까 요새 계속 나를 졸졸 따라다니면서 울었던 것 같아. 심심해서 놀아 달라고 말하던 거였을까?",
+            "turn_id": "BK22001264-6",
+            "utterance_id": "BK22001264.11"
+        },
+        {
+            "reference_date": "2020-05-17",
+            "reference_text": [
+                {
+                    "value": "개와 달리 고양이는 정면으로 바라보거나 울음소리로 의사소통을 하는 경우가 많지 않다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이러한 녀석들이 똑바로 바라보고 소리를 낸다는 것은 분명 뭔가 원하는 게 있거나, 불만 사항이 있다는 뜻이다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/282393",
+            "search_query": "고양이 집사 따라다니기",
+            "terminate": false,
+            "text": "고양이는 개와 달리 정면으로 바라보거나 울음 소리로 소통하는 경우가 많지 않아. 그러니까 너를 따라다니거나 똑바로 바라보고 소리를 낸다는 것은 원하는 게 있거나, 불만이 있다는 뜻이야.",
+            "turn_id": "BK22001264-6",
+            "utterance_id": "BK22001264.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "확실히 놀아 달라고 말하던 거였네. 그동안 나에게 불만이 많았던 거야.",
+            "turn_id": "BK22001264-7",
+            "utterance_id": "BK22001264.13"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요새 외출을 많이 해?",
+            "turn_id": "BK22001264-7",
+            "utterance_id": "BK22001264.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 이것저것 처리할 일이 갑자기 많아져서. 그럼 고양이가 스트레스 받지 않게 하려면 어떻게 해야 하지?",
+            "turn_id": "BK22001264-8",
+            "utterance_id": "BK22001264.15"
+        },
+        {
+            "reference_date": "2019-07-30",
+            "reference_text": [
+                {
+                    "value": "특히 고양이는 거의 실내에서 지내기 때문에 이 스트레스를 다양한 방법으로 푸는데 뛰어다니거나 무언가를 긁거나 반려인과 노는 것이다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=110193",
+            "search_query": "반려묘 스트레스 해결",
+            "terminate": false,
+            "text": "고양이가 스트레스를 푸는 방법은 다양하지. 실내에서 뛰어 다니거나, 무언가를 긁거나. 너랑 노는 것도 스트레스 해소에 좋은 방법이고 말이야.",
+            "turn_id": "BK22001264-8",
+            "utterance_id": "BK22001264.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "결국 내가 많이 놀아주는 게 최선이겠네. 그래도 스트레스를 완화해주는 다른 제품들은 없나?",
+            "turn_id": "BK22001264-9",
+            "utterance_id": "BK22001264.17"
+        },
+        {
+            "reference_date": "2021-07-13",
+            "reference_text": [
+                {
+                    "value": "고양이가 좋아하는 마따따비 나무로 만든 스틱공 내부에 캣닢으로 만들어진 작은 볼이 들어간 형태로 공처럼 굴리면서 놀 수 있어서 고양이의 스트레스 해소와 흥미유발에 효과적이다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ujeil.com/news/articleView.html?idxno=279746",
+            "search_query": "고양이 스트레스 해소",
+            "terminate": false,
+            "text": "고양이가 좋아하는 마따따비 나무나 캣닢으로 만들어진 장난감은 어때? 가지고 놀면서 고양이들이 스트레스를 해소할 수 있어. 흥미 유발에도 효과적이고.",
+            "turn_id": "BK22001264-9",
+            "utterance_id": "BK22001264.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집에 가자마자 장난감부터 찾아 봐야겠다. 초보 집사는 오늘도 반성을 하네.",
+            "turn_id": "BK22001264-10",
+            "utterance_id": "BK22001264.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어서 들어가서 고양이랑 먼저 놀아줘.",
+            "turn_id": "BK22001264-10",
+            "utterance_id": "BK22001264.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 일단 고양이랑 먼저 논 다음에 간식을 찾아 봐야지. 오늘 너무 유용한 정보를 줘서 고마워. 그럼 다음에 또 보자.",
+            "turn_id": "BK22001264-11",
+            "utterance_id": "BK22001264.21"
+        }
+    ]
+}

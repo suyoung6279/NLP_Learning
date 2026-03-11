@@ -1,0 +1,363 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22015034",
+        "name": "2022 한국어 블렌더봇 데이터 BK22015034",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "언니와 통화 중에, 조카가 스쿨림픽 대회에 나가려고 한다네요. 언니가 손님 왔다며 전화를 급하게 끊어서 자세히 묻지 못했는데 스쿨림픽 대회가 뭐예요?",
+            "turn_id": "BK22015034-1",
+            "utterance_id": "BK22015034.1"
+        },
+        {
+            "reference_date": "2022-09-29",
+            "reference_text": [
+                {
+                    "value": "서울특별시와 서울시 중소기업 지원 전문기관 서울산업진흥원(SBA)는 아프리카TV와 함께 전국 고등학교 대상 e스포츠 대항전 '2022 서울컵 x 스쿨림픽'을 개최한다고 29일 밝혔다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.efnews.co.kr/news/articleView.html?idxno=98788",
+            "search_query": "스쿨림픽",
+            "terminate": false,
+            "text": "2022 서울컵 스쿨림픽 대회는 전국에 있는 고등학생들이 겨루는 e스포츠 대항전이에요. 9월 29일에 대회를 연다고 발표했고, 서울특별시와 서울시 중소기업 지원 전문기관인 서울산업진흥원, 아프리카TV가 주최하고 있어요.",
+            "turn_id": "BK22015034-1",
+            "utterance_id": "BK22015034.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "e스포츠요? 말은 좀 들어 본 것 같긴 한데 어떤 스포츠 종류인지 정확히는 모르겠네요. 혹시 아세요?",
+            "turn_id": "BK22015034-2",
+            "utterance_id": "BK22015034.3"
+        },
+        {
+            "reference_date": "2022-08-20",
+            "reference_text": [
+                {
+                    "value": "일렉트로닉 스포츠(electronic sports), 또는 간단히 줄여서 e스포츠(esports)는 컴퓨터 통신이나 인터넷 따위를 통해서 온라인상으로 이루어지는 게임을 통틀어 이르는 말이다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "e스포츠의 종목으로 간주되는 게임들은 보통 실시간 전략 게임, 1인칭 슈팅 게임, 경주 게임 같은 장르들이다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/E%EC%8A%A4%ED%8F%AC%EC%B8%A0",
+            "search_query": "e스포츠",
+            "terminate": false,
+            "text": "e스포츠는 일렉트로닉 스포츠를 간단히 줄여서 일컫는 말로 인터넷이나 컴퓨터 통신 등을 통해서 온라인상으로 행해지는 게임을 통틀어서 말하는 거에요. e스포츠로 간주 되는 게임 종목들은 주로 1인칭 슈팅게임이나 실시간 전략 게임, 경주 게임 같은 장르들이죠.",
+            "turn_id": "BK22015034-2",
+            "utterance_id": "BK22015034.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스포츠라는 명칭이 붙어서 몸으로 하는 대회인가 싶었는데, 온라인으로 하는 게임 경기를 e스포츠라고 하는 거군요. 조카가 프로게이머가 되고 싶어 한다더니 드디어 경기에도 나가나 보네요. 그런데, 서울컵 대회는 언제부터 있었어요?",
+            "turn_id": "BK22015034-3",
+            "utterance_id": "BK22015034.5"
+        },
+        {
+            "reference_date": "2022-09-29",
+            "reference_text": [
+                {
+                    "value": "서울컵은 서울특별시가 주최하고 서울산업진흥원이 주관하는 대규모 e스포츠대회로 지난 2017년부터 스타크래프트, 오버워치, 배틀그라운드 등 다양한 종목으로 진행되어 왔다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "올해는 전국 고등학교 e스포츠 대항전 형태로 기획되어 e스포츠 저변 확대 및 건전한 게임 문화 조성에 기여할 전망이다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.efnews.co.kr/news/articleView.html?idxno=98788",
+            "search_query": "서울컵 e스포츠",
+            "terminate": false,
+            "text": "서울컵 e스포츠 경기는 지난 2017년부터 서울특별시가 주최하고 서울산업진흥원이 주관하는 대규모 대회로 스타크래프트, 배틀그라운드, 오버워치 등 다양한 종목으로 진행되어 왔어요. 올해는 e스포츠 저변 확대와 건전한 게임문화 조성에 목표를 두고 전국 고등학교 대항전 형태로 기획되었죠.",
+            "turn_id": "BK22015034-3",
+            "utterance_id": "BK22015034.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "서울컵으로 해서 매해 성격이 조금씩 다른가 보군요. 올해 대회는 고등학교 대항전으로 치르는 거고요. 작년만 해도 코로나가 한창이던 시기인데 작년 대회는 어떻게 진행되었는지 궁금하네요.",
+            "turn_id": "BK22015034-4",
+            "utterance_id": "BK22015034.7"
+        },
+        {
+            "reference_date": "2021-11-09",
+            "reference_text": [
+                {
+                    "value": "서울시, 서울산업진흥원이 주최·주관하는 ‘2021 서울컵’이 오는 12일, 13일 양일간 서울 대치동 프릭업 스튜디오에서 열린다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이번 대회는 ‘이터널 리턴’으로 열린다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "중계 방송은 아프리카TV, 유튜브, 트위치TV를 통해 시청할 수 있다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.kmib.co.kr/article/view.asp?arcid=0016448883&code=61151111&cp=nv",
+            "search_query": "2021 서울컵 e스포츠",
+            "terminate": false,
+            "text": "서울시가 주최하고 서울산업진흥원이 주관한 2021 서울컵 대회는 2021년 11월 12일과 13일 이틀간 서울 대치동 프릭업 스튜디오에서 개최되었어요. 게임 종목은 이터널 리턴이라는 종목으로 진행했고 유튜브와 아프리카TV, 트위치TV를 통해서 중계방송 하는 것을 시청했었죠.",
+            "turn_id": "BK22015034-4",
+            "utterance_id": "BK22015034.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대회 형태뿐 아니라 게임 종류도 해마다 변경되나 보네요. 올해에는 어떤 게임 종목들로 대회를 치르나요?",
+            "turn_id": "BK22015034-5",
+            "utterance_id": "BK22015034.9"
+        },
+        {
+            "reference_date": "2022-09-29",
+            "reference_text": [
+                {
+                    "value": "2022 서울컵 x 스쿨림픽은 인기 게임 리그 오브 레전드(League of Legends)와 발로란트(VALORANT), 피파 온라인4(FIFA Online4) 등 3개 종목으로 펼쳐진다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.efnews.co.kr/news/articleView.html?idxno=98788",
+            "search_query": "2022 서울컵 스쿨림픽 종목",
+            "terminate": false,
+            "text": "이번에 개최되는 2022 서울컵 스쿨림픽에서 진행되는 게임은 총 3종목으로 피파 온라인4와 발로란트, 리그 오브 레전드에요.",
+            "turn_id": "BK22015034-5",
+            "utterance_id": "BK22015034.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "평소 그 종목을 주로 한 학생들이 훨씬 유리하겠네요. 대회에 참가하려면 어떤 자격이나 조건이 따로 있나요?",
+            "turn_id": "BK22015034-6",
+            "utterance_id": "BK22015034.11"
+        },
+        {
+            "reference_date": "2022-09-29",
+            "reference_text": [
+                {
+                    "value": "리그 오브 레전드와 발로란트는 티어에 상관 없이 같은 고등학교 재학생으로 구성된 5인 1팀이라면 누구나 참여 가능하다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "피파 온라인4 역시 티어에 상관 없이 고등학생 모두 참여할 수 있다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.efnews.co.kr/news/articleView.html?idxno=98788",
+            "search_query": "2022 서울컵 스쿨림픽 참여 조건",
+            "terminate": false,
+            "text": "3종목 모두 게임 수준 제한 없이 고등학교 재학생이면 누구나 참여 가능해요. 단, 발로란트와 리그 오브 레전드는 1팀이 5인이어야 하는데 같은 학교 재학생으로만 구성해야 하죠.",
+            "turn_id": "BK22015034-6",
+            "utterance_id": "BK22015034.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "게임 수준과 상관없이 참여 가능하다고 하니 엄청 많은 학생들이 신청하겠는데요. 대회에서 좋은 성적인 경우 상금이나 상품도 있나요?",
+            "turn_id": "BK22015034-7",
+            "utterance_id": "BK22015034.13"
+        },
+        {
+            "reference_date": "2022-09-29",
+            "reference_text": [
+                {
+                    "value": "대회 총 상금은 2천200만 원 규모로 각 종목별 1위부터 4위까지 상금이 주어지고, 우수 입상팀(자)에게는 트로피 및 상장이 수여된다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.efnews.co.kr/news/articleView.html?idxno=98788",
+            "search_query": "2022 서울컵 스쿨림픽 상금",
+            "terminate": false,
+            "text": "대회 총 상금 규모는 2천200만 원으로, 1위부터 4위까지 각 종목별로 상금을 받을 수 있어요. 우수 입상자나 팀은 상장 및 트로피를 받을 수 있고요.",
+            "turn_id": "BK22015034-7",
+            "utterance_id": "BK22015034.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상금을 나누면 엄청 큰 액수는 아니지만 그래도 학생들에게는 상당히 유용할 것 같네요. 저희 조카처럼 진로가 프로게이머인 학생들에게는 값진 경험도 되고요.",
+            "turn_id": "BK22015034-8",
+            "utterance_id": "BK22015034.15"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇죠, 경험만큼 큰 자산은 없으니까요.",
+            "turn_id": "BK22015034-8",
+            "utterance_id": "BK22015034.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 경험은 돈으로도 살 수 없는 거니까요. 올해는 대면 행사들도 많이 하던데, 이번 대회는 혹시 오프라인으로 참관 가능한가요?",
+            "turn_id": "BK22015034-9",
+            "utterance_id": "BK22015034.17"
+        },
+        {
+            "reference_date": "2022-09-29",
+            "reference_text": [
+                {
+                    "value": "2022 서울컵 x 스쿨림픽은 오는 10월 중순 경 1, 2차 온라인 예선을 시작으로 대회의 막을 올린다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "결승전은 10월 29일, 30일 양일간 상암 서울e스타디움에서 관중들의 응원 속에서 치러질 예정이다.",
+                    "value_time": "2022-10-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.efnews.co.kr/news/articleView.html?idxno=98788",
+            "search_query": "2022 서울컵 스쿨림픽 상암 서울e스타디움",
+            "terminate": false,
+            "text": "2022 서울컵 x 스쿨림픽 대회의 예선전은 10월 중순 경에 1차와 2차로 온라인으로 치러지면서 대회도 시작돼요. 이후 결승전은 상암 서울e스타디움에서 10월29일과 30일 이틀 동안 관중들의 응원을 받으며 치러질 예정이에요.",
+            "turn_id": "BK22015034-9",
+            "utterance_id": "BK22015034.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "결승에 올라야만 직관하면서 응원할 수 있군요. 시험은 아니지만 조카가 좋은 성적 올리라고 초콜릿이라도 사다 줘야겠어요.",
+            "turn_id": "BK22015034-10",
+            "utterance_id": "BK22015034.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이모의 응원 받고 좋은 성적 낼 거에요. 저도 응원할게요.",
+            "turn_id": "BK22015034-10",
+            "utterance_id": "BK22015034.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "감사해요, 오늘 덕분에 좋은 정보도 많이 얻었어요. 지금 일어나 봐야 할 것 같은데, 다음 만날 때 궁금한 것 또 여쭤봐도 될까요?",
+            "turn_id": "BK22015034-11",
+            "utterance_id": "BK22015034.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그럼요, 궁금한 것 있으면 무엇이든지 물어보세요. 조심히 가시고 다음에 또 뵈어요.",
+            "turn_id": "BK22015034-11",
+            "utterance_id": "BK22015034.22"
+        }
+    ]
+}

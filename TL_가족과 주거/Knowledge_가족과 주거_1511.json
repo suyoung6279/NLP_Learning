@@ -1,0 +1,361 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011624",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011624",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0012"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지를 키우는 게 처음이라 아직 모르는 부분이 많아서 그런데, 반려견을 산책시킬 때는 어떤 점을 주의해야 해?",
+            "turn_id": "BK22011624-1",
+            "utterance_id": "BK22011624.1"
+        },
+        {
+            "reference_date": "2022-07-11",
+            "reference_text": [
+                {
+                    "value": "강아지에게 산책은 필수지만 지금처럼 햇빛이 강한 낮에는 오히려 독이 된다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "햇빛으로 데워진 아스팔트에서 올라오는 열기나 강한 햇빛에 노출되면서 열사병에 걸리기 쉽고 심지어는 화상을 입을 수도 있어 주의가 필요하다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ikunkang.com/news/articleView.html?idxno=36218",
+            "search_query": "강아지 산책 햇빛",
+            "terminate": false,
+            "text": "강아지에게 있어서 산책은 필수적인 요소지만 햇빛이 강하게 내리비치는 낮에 산책하는 건 오히려 독이 될 수 있어. 햇빛에 노출된 뜨거운 아스팔트의 열기로 인해 열사병에 걸릴 수 있고 심한 경우에는 강아지가 화상을 입을 수도 있거든.",
+            "turn_id": "BK22011624-1",
+            "utterance_id": "BK22011624.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강아지는 더위에 강한 줄 알고 있었는데, 아니었구나. 혹시 열사병으로 인해 반려견이 목숨을 잃을 수도 있어?",
+            "turn_id": "BK22011624-2",
+            "utterance_id": "BK22011624.3"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "일반적으로 반려견의 체온이 41도가 넘어가면 열사병으로 규정한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고체온증이라고도 하는데, 40도가 넘어가면 쇼크 증상이 나타날 수도 있다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "적절한 조치를 취하지 않아 고체온 상태가 10~20분 정도 유지되면 의식이 저하되고 뇌와 주요 장기가 심하게 손상되어 생명을 잃을 수 있다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000726851",
+            "search_query": "반려견 열사병 증상",
+            "terminate": false,
+            "text": "응. 우선 반려견의 체온이 41도 이상 오르게 되면 열사병으로 규정할 수 있는데, 열사병에 걸리면 고체온증으로 인해 쇼크 증상이 나타날 수 있어. 그리고 이 상태가 10분에서 20분 정도 계속되면 강아지의 의식이 저하되고 주요 장기 및 뇌가 심각하게 손상되며 목숨 또한 위험해지게 되는 거야.",
+            "turn_id": "BK22011624-2",
+            "utterance_id": "BK22011624.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 생명을 잃을 수도 있다니 산책 시 반려견의 상태를 잘 확인해 봐야겠네. 그럼 반려견이 열사병에 걸린 경우 초기에는 주로 어떤 증상이 나타나게 돼?",
+            "turn_id": "BK22011624-3",
+            "utterance_id": "BK22011624.5"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "열사병 초기에는 반려견의 맥박이 빨라지고, 입 점막의 색깔이 선홍빛을 띤다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "구토나 설사, 경련 등의 증상을 보일 수도 있다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "체온이 높아질수록 반려견은 헉헉거리며 빠르게 호흡하고, 과호흡이 지속되면 불안증과 탈수, 흥분 상태가 되어 열사병을 가속화시킨다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000726851",
+            "search_query": "반려견 열사병 초기 증상",
+            "terminate": false,
+            "text": "반려견이 열사병에 걸렸다면 초기에는 맥박의 속도가 빨라지고 입안 점막의 색이 선홍빛으로 변하거나 경련이나 설사 그리고 구토 증상이 생길 수 있어. 또한 반려견은 체온이 오를수록 호흡도 가빠지게 되는데, 이로 인해 과호흡이 오면서 흥분, 탈수, 불안 상태가 되며 열사병을 더 악화시킬 수 있지.",
+            "turn_id": "BK22011624-3",
+            "utterance_id": "BK22011624.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "열사병의 이런 초기 증상들을 잘 기억했다가 혹시 모를 사고가 일어나지 않도록 조심해야겠네. 그럼 혹시 열사병에 취약한 견종이 따로 있을까?",
+            "turn_id": "BK22011624-4",
+            "utterance_id": "BK22011624.7"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "특히 불도그, 시추, 페키니즈와 같이 코가 납작하고 주둥이가 짧은 단두종 반려견이라면 열사병에 더욱 민감하게 반응해야 한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "단두종은 연구개가 늘어져 숨쉬기가 더욱 어려운 '연구개노장'이 있어 호흡으로 체온을 조절하기 어렵기 때문이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000726851",
+            "search_query": "단두종 열사병",
+            "terminate": false,
+            "text": "응. 시추나 페키니즈, 불도그 같이 주둥이의 길이가 짧고 코가 납작한 단두종 강아지들은 연구개가 늘어져 있어서 연구개노장으로 인해 호흡이 더 힘든 경향이 있어. 그래서 호흡을 통해 체온을 조절하는 게 쉽지 않은데, 이 때문에 단두종 반려견들이 열사병에 더 취약한 편이야.",
+            "turn_id": "BK22011624-4",
+            "utterance_id": "BK22011624.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "날씨가 더운 날에는 최대한 산책을 피하는 게 좋겠네. 혹시 반려견이 열사병에 걸린 것 같다면 어떤 조처를 해야 할까?",
+            "turn_id": "BK22011624-5",
+            "utterance_id": "BK22011624.9"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "만약, 반려견이 열사병에 걸린 것 같다면 신속한 조치를 취해야 한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그늘진 곳으로 이동해 의식이 있는지 확인하고, 얼음 물이나 찬물을 소량씩 급여하거나 혀에 적셔 주어야 한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000726851",
+            "search_query": "반려견 열사병 조치",
+            "terminate": false,
+            "text": "만약 반려견이 열사병에 걸린 것으로 판단된다면 빠르게 응급조치를 취해야 해. 우선 강아지를 그늘진 장소로 옮기고 의식 여부를 확인한 다음에 찬물 또는 얼음물을 조금씩 혀에 적셔주면 돼.",
+            "turn_id": "BK22011624-5",
+            "utterance_id": "BK22011624.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어려운 방법은 아니구나. 혹시 산책 외에 반려견에게 열사병을 일으킬 수 있는 행동은 또 어떤 게 있어?",
+            "turn_id": "BK22011624-6",
+            "utterance_id": "BK22011624.11"
+        },
+        {
+            "reference_date": "2019-06-25",
+            "reference_text": [
+                {
+                    "value": "특히 여름철 차 안은 불과 10여분 사이에 반려견에게 열사병을 유발할 수 있으므로 절대 차 안에 반려견을 혼자 두지 말아야 한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.imaeil.com/page/view/2019062509460697736",
+            "search_query": "반려견 열사병 차 안",
+            "terminate": false,
+            "text": "여름철에 반려견을 혼자 차 안에 두는 행동도 피해야 해. 날씨가 더운 여름에는 10여 분 남짓 되는 짧은 시간에도 열사병을 유발할 수 있거든.",
+            "turn_id": "BK22011624-6",
+            "utterance_id": "BK22011624.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 반려견을 차에 잠시 두고 쇼핑하거나 하는 행동은 반드시 피해야겠구나. 또 어떤 상황에 반려견이 열사병에 노출되게 되는 거야?",
+            "turn_id": "BK22011624-7",
+            "utterance_id": "BK22011624.13"
+        },
+        {
+            "reference_date": "2019-06-25",
+            "reference_text": [
+                {
+                    "value": "여름철 물놀이 중 다발하는 질병은 의외로 열사병이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "물속을 제외한 한낮의 더운 실외 환경이 반려견에게 고체온증과 과호흡을 유발하기 때문이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.imaeil.com/page/view/2019062509460697736",
+            "search_query": "반려견 물놀이 열사병",
+            "terminate": false,
+            "text": "여름철 물놀이 또한 반려견에게 열사병을 불러올 수 있어. 물속은 괜찮지만 물 밖의 날씨는 반려견에게 더위로 인해 과호흡이나 고체온증을 유발하기 쉬운 환경이거든.",
+            "turn_id": "BK22011624-7",
+            "utterance_id": "BK22011624.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여름철에 반려견과 야외 활동을 하는 경우에는 항상 열사병을 조심해야겠네. 그런데 더운 날씨가 강아지에게 과호흡을 유발하는 건 어떤 원리 때문인 거야?",
+            "turn_id": "BK22011624-8",
+            "utterance_id": "BK22011624.15"
+        },
+        {
+            "reference_date": "2021-08-09",
+            "reference_text": [
+                {
+                    "value": "개는 체온이 상승하면 호흡이 빨라진다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "몸에 땀샘이 없다보니 폐와 혀의 표면적을 넓혀 수분을 증발시켜 체온을 낮추려 한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 주변 기온이 높으면 빠른 호흡을 할수록 오히려 체온이 급상승한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.imaeil.com/page/view/2021080817352970494",
+            "search_query": "개 체온 상승 호흡",
+            "terminate": false,
+            "text": "강아지는 체온이 오르면 호흡 또한 빨라지게 되는데, 더운 날씨로 인해 호흡이 빨라지면서 체온 또한 급격하게 오르게 되는 거야. 강아지의 몸에는 땀샘이 없어서 체온을 내리기 위해 폐와 혀의 표면적을 넓혀 수분을 증발시키거든.",
+            "turn_id": "BK22011624-8",
+            "utterance_id": "BK22011624.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 이런 까닭으로 더운 날씨가 강아지에게 과호흡을 유발하는 거구나.",
+            "turn_id": "BK22011624-9",
+            "utterance_id": "BK22011624.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 혹시 반려견과 열사병에 대해 더 궁금한 점은 없어?",
+            "turn_id": "BK22011624-9",
+            "utterance_id": "BK22011624.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 지금 알려준 정보만으로도 충분해. 설명해 줘서 고마워!",
+            "turn_id": "BK22011624-10",
+            "utterance_id": "BK22011624.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아냐, 또 궁금한 점이 생기면 언제든 물어봐!",
+            "turn_id": "BK22011624-10",
+            "utterance_id": "BK22011624.20"
+        }
+    ]
+}

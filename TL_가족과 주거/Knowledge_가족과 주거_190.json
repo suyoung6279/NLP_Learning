@@ -1,0 +1,417 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014672",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014672",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전에 제 친한 친구를 만났거든요. 그 친구가 결혼을 준비 중인데 결혼식 비용 때문에 스트레스를 많이 받는 것 같더라고요. 요즘 결혼식 비용이 그렇게 비싼가요?",
+            "turn_id": "BK22014672-1",
+            "utterance_id": "BK22014672.1"
+        },
+        {
+            "reference_date": "2022-10-01",
+            "reference_text": [
+                {
+                    "value": "‘결혼’이라는 이름으로 가격을 비싸게 받는 관행 탓이다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "부케만 해도 저렴한 게 10만원대, 대부분 20만원을 훌쩍 넘는다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "결혼식 당일 드레스를 입고 이동하는 차량 가격은 택시비의 10배를 넘어선다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25106040#home",
+            "search_query": "결혼 관행",
+            "terminate": false,
+            "text": "네, 결혼이라는 이름으로 비싼 비용을 받는 관례 때문이에요. 부케만 해도 싼 것이 10만원대, 거의 20만원을 훌쩍 뛰어넘죠. 또 결혼식 즉일 드레스를 입고 식장으로 가는 차량 비용은 택시비의 10배를 넘어요.",
+            "turn_id": "BK22014672-1",
+            "utterance_id": "BK22014672.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 비싸도 너무 비싸네요. 그러면 스드메 비용은 어떤가요?",
+            "turn_id": "BK22014672-2",
+            "utterance_id": "BK22014672.3"
+        },
+        {
+            "reference_date": "2022-10-01",
+            "reference_text": [
+                {
+                    "value": "계약금 외 추가금이 많은 점도 문제다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "추가금은 웨딩컨설팅 회사와 스드메 계약을 맺을 때부터 시작된다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "일단 저렴한 업체로 구성해 단가를 낮춰 계약을 유도하고, 업체 변경 시 차액에 대한 추가금을 부과하는 형식이다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 박리다매로 운영되는 컨설팅사에겐 ‘당장의 계약 성사’가 중요하기 때문이다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "문제는 예비 신랑·신부에게는 ‘스드메’ 또는 ‘드메’ 등 2개 업체 이상의 패키지 가격만 고지해 업체별 정확한 가격을 알 수 없다는 점이다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25106040#home",
+            "search_query": "스드메 계약",
+            "terminate": false,
+            "text": "스드메도 계약금 외 추가금이 많이 든다는 것이 문제점이에요. 추가금은 웨딩컨설팅 회사와 스드메 계약을 할 때부터 시작 돼요. 일단 가격이 싼 업체로 선정해 단가를 내려 계약을 하고, 업체를 바꿀 때 차액에 대한 추가금을 매기는 형식이에요. 이는 박리다매로 경영하는 컨설팅사에겐 당장의 계약을 따내는 것이 중요하기 때문이에요. 그런데 문제는 예비 신랑 및 신부에게는 스드메 또는 드메 등 2개 업체 이상의 패키지 비용만 알려주어서 업체 별 확실한 금액을 알 수 없다는 거에요.",
+            "turn_id": "BK22014672-2",
+            "utterance_id": "BK22014672.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 스드메 패키지에 모든 항목이 포함되는게 아니라는 말씀이신거에요?",
+            "turn_id": "BK22014672-3",
+            "utterance_id": "BK22014672.5"
+        },
+        {
+            "reference_date": "2022-10-01",
+            "reference_text": [
+                {
+                    "value": "선정한 업체를 방문할 때마다 ‘필수’ 추가금이 부가된다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "드레스 숍을 고르기 위한 일명 ‘드레스 투어’ 시 각 숍마다 피팅비 5만원을 내야 한다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "드레스숍에서 사진 촬영도 할 수 없다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "피팅비 5만원을 지불하는데도, 기억에 의존해 마음에 드는 숍을 골라야 한다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25106040#home",
+            "search_query": "드레스 숍",
+            "terminate": false,
+            "text": "네, 스드메에서 고른 업체를 찾아갈 때마다 필수 추가금이 부과 돼요. 드레스 숍을 선택하기 위한 일명 드레스 투어 시 각 숍마다 피팅비 5만원을 지불해야 해요. 심지어 드레스숍에서 사진도 찍을 수 없어요. 피팅비 5만원을 내는데도, 기억에 의존해 마음에 드는 숍을 선택해야 해요.",
+            "turn_id": "BK22014672-3",
+            "utterance_id": "BK22014672.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기억에 의존하는데 한계가 있을 텐데 마음에 드는 드레스는 결국 어떻게 고르나요?",
+            "turn_id": "BK22014672-4",
+            "utterance_id": "BK22014672.7"
+        },
+        {
+            "reference_date": "2022-10-01",
+            "reference_text": [
+                {
+                    "value": "그래서 나온 궁여지책이 드레스 스케치다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "신부가 드레스를 갈아입고 나오면 앞에서 대기하고 있는 신랑이나 플래너가 재빠르게 드레스 모양을 그리고, 소재 및 특징을 기입하는 방식이다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25106040#home",
+            "search_query": "드레스 스케치",
+            "terminate": false,
+            "text": "그래서 나온 궁여일책이 드레스 스케치에요. 신부가 드레스를 개복하고 나오면 앞에서 기다리던 신랑이나 웨딩 플래너가 빠르게 드레스 모양을 그리고, 소재 및 특징을 쓰는 방법을 사용하고 있어요.",
+            "turn_id": "BK22014672-4",
+            "utterance_id": "BK22014672.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그런데 왜 드레스 숍에서는 사진 촬영을 못하게 하나요?",
+            "turn_id": "BK22014672-5",
+            "utterance_id": "BK22014672.9"
+        },
+        {
+            "reference_date": "2022-10-01",
+            "reference_text": [
+                {
+                    "value": "지난 27일 청담동의 한 드레스숍 관계자는 “디자인 유출도 우려되고, 사진으로 보는 느낌과 실제 느낌이 다르기 때문에 촬영을 금지하고 있다”고 말했다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다른 드레스숍의 이유도 별반 다르지 않다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 본식 드레스숍으로 선택한 이후에는 사진 촬영이 가능하고, 소셜미디어에 모델 착용 컷을 올리는 것을 보면 드레스숍의 도용 우려는 설득력이 부족하다는 게 소비자들의 의견이다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25106040#home",
+            "search_query": "디자인 유출 우려",
+            "terminate": false,
+            "text": "9월 27일 청담동의 한 드레스숍 관계자는 디자인 누출도 걱정되고, 사진으로 보는 느낌과 실제 느낌이 다르기 때문에 촬영을 금하고 있다고 말했어요. 다른 드레스숍의 이유도 대동소이 해요. 하지만 본식 드레스숍으로 고른 이후에는 사진 촬영이 허용되고, 소셜미디어에 모델 착용 샷을 업로드하는 것을 보면 드레스숍의 도용 우려는 설득력이 떨어지는게 사실이죠.",
+            "turn_id": "BK22014672-5",
+            "utterance_id": "BK22014672.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이러니 하네요. 그런데 스드메 패키지에 포함되지 않는 또 다른 항목들도 있나요?",
+            "turn_id": "BK22014672-6",
+            "utterance_id": "BK22014672.11"
+        },
+        {
+            "reference_date": "2022-10-01",
+            "reference_text": [
+                {
+                    "value": "스튜디오 촬영을 할 때 드레스를 정리해주는 직원(일명 ‘헬퍼’)에게도 25만원을 현금으로 줘야한다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사진 촬영 원본도 33만원 등 별도 비용을 내고 구매해야 한다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "점심시간대 예식이면 오전 7시쯤 메이크업이 잡히고 ‘얼리스타트’ 비용으로 5만~6만원이 추가된다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "결혼식 당일에도 헬퍼비 25만원을 지급해야 한다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 모든 비용이 필수지만 스드메 계약 금액엔 포함이 안 돼 있다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25106040#home",
+            "search_query": "스드메 계약 금액",
+            "terminate": false,
+            "text": "네, 스튜디오 촬영시 드레스를 정리해주는 직원, 일명 헬퍼에게도 25만원을 현금으로 지불해야 해요. 사진 촬영 원본도 33만원 등 별도로 금액을 지불하고 구매해야 해요. 또 만약 점심시간대에 결혼식이 잡혀 있으면 오전 7시쯤 메이크업을 하게 되는데, 이때 얼리스타트 비용으로 5만~6만원이 추가 돼요. 결혼식 당일에도 헬퍼비 25만원을 주어야 하고요. 이 모든 비용이 필수지만 스드메 계약 금액엔 미포함 되어 있어요.",
+            "turn_id": "BK22014672-6",
+            "utterance_id": "BK22014672.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "결국 선택할 수 밖에 없는 옵션들인데 스드메 금액에는 포함시키지 않은 채로 판매하고 있다는 거네요. 확실히 예상보다 결혼 비용이 많이 들겠네요. 그런데 예식장 금액은 짐작 가능한 정도인가요?",
+            "turn_id": "BK22014672-7",
+            "utterance_id": "BK22014672.13"
+        },
+        {
+            "reference_date": "2022-10-01",
+            "reference_text": [
+                {
+                    "value": "스드메 업체와 웨딩홀의 정확한 가격을 알 수 없다는 점이 대표적이다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가장 비용이 많이 드는 웨딩홀의 경우에도 기본 견적가에서 월·일에 따라 할인가가 다르고, 심지어는 같은 날 오후 12시30분 예식인지 오후 2시 예식인지에 따라서도 가격이 달라진다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 정확한 가격을 알 수 있는 방법은 방문 상담 후 견적서를 받는 방법뿐이다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25106040#home",
+            "search_query": "웨딩홀",
+            "terminate": false,
+            "text": "아니요, 웨딩홀의 확실한 비용을 모른다는 점도 문제에요. 가장 큰 금액을 쓰는 웨딩홀의 경우에도 기본 견적가에서 월, 일에 따라 할인 정도가 다르고, 심지어는 같은 날 오후 12시30분 예식인지 오후 2시 예식인지에 따라서도 가격의 차이가 생겨요. 정확한 비용을 알 수 있는 수단은 방문 상담 후 견적서를 받는 방법 밖에 없어요.",
+            "turn_id": "BK22014672-7",
+            "utterance_id": "BK22014672.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "매번 시간을 비우고 방문해야만 정확한 가격을 알 수 있으니 그것도 스트레스 받는 일이겠어요. 그런데 식장 비용과 식대 비용은 얼마나 하나요?",
+            "turn_id": "BK22014672-8",
+            "utterance_id": "BK22014672.15"
+        },
+        {
+            "reference_date": "2022-10-01",
+            "reference_text": [
+                {
+                    "value": "코로나19로 2년간 비용을 동결한 웨딩홀 업계가 올해부터 본격 가격 인상에 나서면서 식대와 대관료도 큰 폭으로 올랐다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "서울 강남구의 한 웨딩홀은 대관료를 지난해 790만원에서 960만원으로 21.5% 인상했고, 식대도 6만9000원에서 8만9000원으로 29% 높였다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "서울 송파구의 한 웨딩홀 식대는 16.9% 올라 6만9000원이고, 중구의 한 웨딩홀 식대도 10% 상승해 5만5000원이다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25106040#home",
+            "search_query": "웨딩홀 대관료 식대",
+            "terminate": false,
+            "text": "코로나19로 2년간 가격 상승을 중단한 웨딩홀 업계가 올해부터 본격적으로 가격을 높이기 시작하면서 식대와 대관료도 크게 올랐어요. 서울 강남구의 한 웨딩홀은 대관료를 지난해 790만원에서 960만원으로 21.5% 올렸고, 식대도 6만9000원에서 8만9000원으로 29% 인상했어요. 서울 송파구의 한 웨딩홀 식대는 16.9% 인상해 6만9000원이고, 중구의 한 웨딩홀 식대도 10% 올려 5만5000원이에요.",
+            "turn_id": "BK22014672-8",
+            "utterance_id": "BK22014672.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "식대와 대관료가 큰 폭으로 상승했네요. 그것도 예비 부부에게는 부담이겠어요. 축의금을 5만원 내려고 했는데, 들어보니 식대가 보통 5만원을 훌쩍 넘는 것 같네요?",
+            "turn_id": "BK22014672-9",
+            "utterance_id": "BK22014672.17"
+        },
+        {
+            "reference_date": "2022-10-01",
+            "reference_text": [
+                {
+                    "value": "7년차 김지은 웨딩플래너는 “가격 동결 여파로 올해 웨딩홀 가격도 많이 올랐지만, 물가 상승으로 내년에도 가격을 인상하겠다는 홀이 많다”며 “이제 수도권에서 식대가 5만원 미만인 곳은 손꼽을 정도”라고 말했다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25106040#home",
+            "search_query": "웨딩홀 식대",
+            "terminate": false,
+            "text": "네, 이제 수도권에서 식대가 5만원 미만인 곳은 손꼽을 정도죠.",
+            "turn_id": "BK22014672-9",
+            "utterance_id": "BK22014672.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 친구 결혼식 때 축의금을 조금 더 내는걸 고려해봐야 겠네요. 오늘 유용한 정보 알려주셔서 감사했어요.",
+            "turn_id": "BK22014672-10",
+            "utterance_id": "BK22014672.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 조심히 들어가시고 다음에 또 얘기 나눠요.",
+            "turn_id": "BK22014672-10",
+            "utterance_id": "BK22014672.20"
+        }
+    ]
+}

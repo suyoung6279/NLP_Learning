@@ -1,0 +1,428 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012211",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012211",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0007"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번에 본가에서 독립했어요. 부모님이랑 떨어져 사는 건 처음이에요.",
+            "turn_id": "BK22012211-1",
+            "utterance_id": "BK22012211.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "독립하게 된 거 축하드려요! 그럼 혼자 사시는 건가요?",
+            "turn_id": "BK22012211-1",
+            "utterance_id": "BK22012211.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "원룸에서 혼자 살아요. 저희 건물 이웃들은 대부분 혼자 사는 사람이 많더라고요. 요즘 혼자 사는 사람이 많은가요?",
+            "turn_id": "BK22012211-2",
+            "utterance_id": "BK22012211.3"
+        },
+        {
+            "reference_date": "44797.0",
+            "reference_text": [
+                {
+                    "value": "1인 가구 비율은 2012년 33.3%에서 2015년 34.5%, 2018년 36.7% 등으로 꾸준히 증가해 왔다.",
+                    "value_time": "44797.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220823/115112476/1",
+            "search_query": "1인 가구 비율",
+            "terminate": false,
+            "text": "혼자 사는 1인 가구 수는 지속적으로 늘어나고 있어요. 2012년에는 33.3%였던 1인 가구 비율이 2015년에는 34.5%로 올랐고, 그 이후 2018년에는 36.7%를 차지했거든요.",
+            "turn_id": "BK22012211-2",
+            "utterance_id": "BK22012211.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "계속해서 증가하고 있었네요. 이렇게 1인 가구 수가 늘어나는 이유는 뭘까요?",
+            "turn_id": "BK22012211-3",
+            "utterance_id": "BK22012211.5"
+        },
+        {
+            "reference_date": "44797.0",
+            "reference_text": [
+                {
+                    "value": "1인 가구의 증가는 2030세대 청년층과 60대 이상 고령층에서 동시에 나타나는 현상이다.",
+                    "value_time": "44797.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "청년층의 경우 실업과 경제적 부담 등으로 결혼을 기피하고 독립하는 경우가 많아졌다.",
+                    "value_time": "44797.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고령층에서는 가정 해체와 사별 등으로 원치 않는 홀몸 생활을 감내하는 1인 가구가 상당수다.",
+                    "value_time": "44797.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220823/115112394/1",
+            "search_query": "1인 가구 증가 이유",
+            "terminate": false,
+            "text": "1인 가구는 2030 젊은 세대뿐만 아니라 60대 이상 고령층에서도 증가하고 있는데, 그 이유는 달라요. 먼저, 2030 청년들은 일자리가 없거나 경제적 어려움 때문에 결혼하지 않고 독립하는 경우가 늘어났어요. 고령층은 가정이 붕괴하거나 배우자가 사망하면서 의도치 않게 혼자 살아가야 하는 1인 가구의 수가 꽤 많죠.",
+            "turn_id": "BK22012211-3",
+            "utterance_id": "BK22012211.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "젊은 세대에서만 1인 가구가 많은 건 아니었네요. 전 혼자 살기 시작하면서 생활이 많이 바뀌었어요.",
+            "turn_id": "BK22012211-4",
+            "utterance_id": "BK22012211.7"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "특히 어떤 부분에서 달라졌다는 걸 느끼세요?",
+            "turn_id": "BK22012211-4",
+            "utterance_id": "BK22012211.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "장을 보러 가면 양이 적은 제품들을 사게 돼요. 제품의 양은 부모님과 함께 살 때는 생각하지 않았던 부분이거든요.",
+            "turn_id": "BK22012211-5",
+            "utterance_id": "BK22012211.9"
+        },
+        {
+            "reference_date": "44795.0",
+            "reference_text": [
+                {
+                    "value": "식료품 구매 시 고려하는 여러 요소 가운데 1인 가구와 다인 가구의 차이가 가장 뚜렷하게 나타나는 항목은 용량 또는 사이즈다.",
+                    "value_time": "44797.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "유통업계에서는 간편한 조리를 선호하고 음식물쓰레기 발생을 기피하는 1인 가구를 겨냥해 앞다퉈 ‘소포장 제품’을 내놓고 있다.",
+                    "value_time": "44797.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.businesspost.co.kr/BP?command=article_view&num=290589",
+            "search_query": "1인 가구 소비",
+            "terminate": false,
+            "text": "말씀하신 것처럼, 식료품을 살 때 1인 가구와 다인 가구는 용량이나 사이즈를 고려하는 부분에서 그 차이가 명백하게 드러나요. 특히 손쉬운 조리 방법을 좋아하고, 음식물쓰레기가 생기는 것을 피하고 싶어 하는 1인 가구를 위해 유통업계에서는 소포장 제품을 경쟁처럼 출시하고 있어요.",
+            "turn_id": "BK22012211-5",
+            "utterance_id": "BK22012211.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 소포장 제품을 구입하게 되더라고요. 심지어 과일도 큰 사이즈는 비싸기도 하고, 혼자 다 먹지 못해서 아예 사지를 못하겠어요.",
+            "turn_id": "BK22012211-6",
+            "utterance_id": "BK22012211.11"
+        },
+        {
+            "reference_date": "44794.0",
+            "reference_text": [
+                {
+                    "value": "올여름 대형마트에서 복숭아가 수박을 제치고 최고 인기 과일이 된 것으로 나타났다.",
+                    "value_time": "44797.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1∼2인 가구 증가에 따른 소비 트렌드 변화와 수박 가격 인상 등이 영향을 끼친 것으로 보인다.",
+                    "value_time": "44797.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "21일 이마트에 따르면 지난달 1일부터 이달 18일까지 이마트에서 판매하는 전체 과일 매출 중 복숭아가 1위를 차지했다.",
+                    "value_time": "44797.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220820032700003?input=1195m",
+            "search_query": "1인 가구 과일",
+            "terminate": false,
+            "text": "2022년 8월 21일 이마트 조사에 의하면, 2022년 7월 1일부터 8월 18일까지 이마트에서 판매한 전체 과일 중 복숭아가 수박을 제치고 매출 1위를 기록했어요. 이번 여름에 복숭아가 가장 인기 있는 과일이 된 이유는 1인 및 2인 가구가 증가하면서 달라진 소비 트렌드와 비싸진 수박 가격의 영향을 받은 것으로 추정돼요.",
+            "turn_id": "BK22012211-6",
+            "utterance_id": "BK22012211.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1인 가구에 맞춰서 세상이 달라지고 있는 것 같아요. 그래도 그에 따른 문제점이 있겠죠?",
+            "turn_id": "BK22012211-7",
+            "utterance_id": "BK22012211.13"
+        },
+        {
+            "reference_date": "44777.0",
+            "reference_text": [
+                {
+                    "value": "서울시 1인가구 실태조사 결과를 살펴보면 서울시 1인가구 중 외로움을 경험한 비율이 62.1%이며, 이 중 중장년 1인가구(65.3%), 특히 중장년 남성 1인가구(66%)의 외로움 경험률이 높은 것으로 조사되었습니다.",
+                    "value_time": "44797.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "청년 1인가구의 외로움 비율은 58.9%, 노년 1인가구는 64.8%로 집계되었습니다.",
+                    "value_time": "44797.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.seouland.com/arti/society/society_general/9964.html",
+            "search_query": "1인 가구 문제점",
+            "terminate": false,
+            "text": "네, 실제로 1인 가구는 외로움을 크게 느낀다는 조사 결과가 있어요. 서울시 1인 가구를 대상으로 조사했는데, 외로움을 경험한 비율이 62.1%를 기록했어요. 중장년 1인 가구는 65.3%가 외로움을 느꼈는데, 이 중에서 중장년 남성이 66%의 비율로 외로움을 느끼는 경우가 가장 많았어요. 그리고 1인 가구 중 청년층은 58.9%를, 노년층은 64.8%가 외로움을 느낀다고 조사됐어요.",
+            "turn_id": "BK22012211-7",
+            "utterance_id": "BK22012211.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무래도 혼자 살다 보니까 외로움을 느끼는 경우가 많겠네요. 혼자 살면 어려움이 많은데, 혹시 1인 가구를 도와주는 정책이 있다면 알려줄래요?",
+            "turn_id": "BK22012211-8",
+            "utterance_id": "BK22012211.15"
+        },
+        {
+            "reference_date": "44793.0",
+            "reference_text": [
+                {
+                    "value": "‘씽글벙글 서울(서울시 1인 가구 포털)’은 서울의 1인 가구를 위한 지원제도, 주거지원 정보 등을 제공하는 곳으로, 해당 사이트를 통해 본인이 거주하는 구에 어떤 지원제도가 존재하는지, 신청 및 이용 방법 등에 대한 정보를 찾아볼 수 있다.",
+                    "value_time": "44797.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.youthdaily.co.kr/news/article.html?no=108935",
+            "search_query": "1인가구 지원 정책",
+            "terminate": false,
+            "text": "서울시에서는 1인 가구 포털인 씽글벙글 서울을 운영하고 있어요. 서울에 사는 1인 가구를 지원해주는 제도로, 주거지원 정보 등을 제공해줘요. 사이트에 접속하면 본인이 사는 구에서 어떤 제도를 지원하는지나 신청 및 이용 방법을 알아볼 수 있어요.",
+            "turn_id": "BK22012211-8",
+            "utterance_id": "BK22012211.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "구체적으로 어떤 지원을 제공해주는지 궁금해요.",
+            "turn_id": "BK22012211-9",
+            "utterance_id": "BK22012211.17"
+        },
+        {
+            "reference_date": "44742.0",
+            "reference_text": [
+                {
+                    "value": "1인가구 전월세 안심계약 도움서비스는 지역 여건에 밝은 주거안심매니저(공인중개사)가 이중계약이나 깡통전세 등 전월세 계약과정에서 부당한 일을 겪지 않도록 상담해준다.",
+                    "value_time": "44797.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "집을 보러 갈 때도 동행해서 혼자 집을 볼 때 놓칠 수 있는 점을 확인하고 점검해준다.",
+                    "value_time": "44797.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 서비스는 연령과 상관없이 1인가구이면 누구나 이용할 수 있다.",
+                    "value_time": "44797.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/economy/real_estate/article/202206301115021",
+            "search_query": "1인 가구 도움 서비스",
+            "terminate": false,
+            "text": "1인 가구가 전월세 계약을 할 때 지역에 대해 잘 아는 주거안심매니저인 공인중개사가 도움을 주는 전월세 안심계약 도움서비스를 제공해요. 자세히 말하자면 집을 보러 갈 때 공인중개사가 동행해서 혼자서는 놓칠 수 있는 부분을 함께 살펴주거나, 이중계약이나 깡통전세와 같은 전월세 계약 과정에서 벌어지는 부당 계약을 방지할 수 있도록 상담해주는 서비스예요. 나이와는 상관없이 1인 가구라면 누구든지 지원받을 수 있어요.",
+            "turn_id": "BK22012211-9",
+            "utterance_id": "BK22012211.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 집을 계약할 때 곤란한 일이 많았는데, 이런 서비스가 있는 줄 알았다면 적극적으로 이용했을 거예요. 또 다른 정책에 대해서도 알려주세요.",
+            "turn_id": "BK22012211-10",
+            "utterance_id": "BK22012211.19"
+        },
+        {
+            "reference_date": "44755.0",
+            "reference_text": [
+                {
+                    "value": "서울시는 ‘1인가구 병원 안심동행서비스’의 동행매니저(수검자 2~3명당 1명씩)를 무료로 파견해 건강검진 수검을 지원한다.",
+                    "value_time": "44797.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "‘1인가구 병원 안심동행서비스’는 지난해 11월에 시작해 최근 누적 3700여 명이 이용하는 등 높은 호응을 이어가고 있는 사업이다",
+                    "value_time": "44797.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20220713_0001941090&cID=10201&pID=10200",
+            "search_query": "1인가구 병원 동행",
+            "terminate": false,
+            "text": "2021년 11월부터 시작한 1인 가구 병원 안심동행서비스는 수검자 두세 명당 한 명의 동행매니저를 무료로 파견하여 건강검진 수검을 도와주는 지원 서비스예요. 최근 누적 이용자가 3,700여 명이나 되는 뜨거운 반응을 받는 사업이랍니다.",
+            "turn_id": "BK22012211-10",
+            "utterance_id": "BK22012211.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "노년층 1인 가구에서 이용하면 좋은 서비스네요. 이런 제도들 덕분에 1인 가구로 지내는 건 나쁘지 않지만 부동산 시장에서는 어려움을 느껴요. 주택청약에서도 불리하고요.",
+            "turn_id": "BK22012211-11",
+            "utterance_id": "BK22012211.21"
+        },
+        {
+            "reference_date": "44782.0",
+            "reference_text": [
+                {
+                    "value": "주택 청약시장에서 소외됐던 1인 가구(사별 또는 이혼을 포함)의 새 아파트 분양받을 기회가 많아졌다.",
+                    "value_time": "44797.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지난해 말 주택청약제도가 개편되면서 1인 가구도 생애최초 특별공급으로 신청할 수 있게 돼서다.",
+                    "value_time": "44797.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20220809000457",
+            "search_query": "1인가구 생애최초",
+            "terminate": false,
+            "text": "주택청약을 받을 때 불리했던 1인 가구도 이제는 새 아파트를 분양 받을 기회가 확대됐어요. 2021년 말에 주택청약제도가 새로 변경되면서 1인 가구도 생애최초 특별공급으로 아파트 청약을 신청할 수 있거든요.",
+            "turn_id": "BK22012211-11",
+            "utterance_id": "BK22012211.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너무 좋은 기회가 생겼군요. 혼자 살만한 크기의 부동산을 구입하는 것이 목표였는데, 1인 가구에 맞는 크기가 많지 않더라고요.",
+            "turn_id": "BK22012211-12",
+            "utterance_id": "BK22012211.23"
+        },
+        {
+            "reference_date": "44773.0",
+            "reference_text": [
+                {
+                    "value": "1인 가구가 전체 가구 수의 3분의 1을 차지하며 주요 가구 형태로 자리 잡자 주택 시장도 이러한 가구 형태의 변화에 발맞춰 소형 아파트 거래가 증가하고 있다.",
+                    "value_time": "44797.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01810566632400096&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "1인가구 부동산",
+            "terminate": false,
+            "text": "요즘은 1인 가구가 선호하는 소형 아파트 거래가 늘어나고 있어요. 전체 가구 수의 3분의 1에 다다를 만큼 1인 가구가 중요한 가구 형태로 떠오르면서, 주택 시장도 1인 가구 증가에 맞춰 변화하고 있기 때문이에요.",
+            "turn_id": "BK22012211-12",
+            "utterance_id": "BK22012211.24"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "1인 가구가 늘어나면서 달라지고 있는 것들이 참 많네요. 덕분에 알게 된 정보가 많아요. 감사해요.",
+            "turn_id": "BK22012211-13",
+            "utterance_id": "BK22012211.25"
+        }
+    ]
+}

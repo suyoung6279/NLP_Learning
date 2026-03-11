@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22016064",
+        "name": "2022 한국어 블렌더봇 데이터 BK22016064",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번 주가 출산 예정일이라 분만을 곧 할 것 같은데 궁금한 게 한두 가지가 아니에요.",
+            "turn_id": "BK22016064-1",
+            "utterance_id": "BK22016064.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 곧 아기를 낳으러 가시겠군요. 어떤 점이 그렇게 궁금하신 건가요?",
+            "turn_id": "BK22016064-1",
+            "utterance_id": "BK22016064.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 출산하러 갈 때 매니큐어를 바른 채로 가도 되나요? 아니면 매니큐어를 다 지워야 하나요?",
+            "turn_id": "BK22016064-2",
+            "utterance_id": "BK22016064.3"
+        },
+        {
+            "reference_date": "2022-06-09",
+            "reference_text": [
+                {
+                    "value": "메이크업은 피하는 것이 좋고, 출산을 앞두고서도 매니큐어를 바르지 않도록 한다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "안색이나 손톱색깔은 산모의 몸 상태를 판단하는 매우 중요한 정보이기 때문이다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202206090067o",
+            "search_query": "분만시 매니큐어",
+            "terminate": false,
+            "text": "출산 전에는 매니큐어를 바르시지 않는 게 좋아요. 손톱 색은 의사가 산모의 몸 상태를 파악하는 중요한 정보에요. 만약 매니큐어를 바르셨다면 출산 전이니 미리 지워두시는 게 좋아요.",
+            "turn_id": "BK22016064-2",
+            "utterance_id": "BK22016064.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 하마터면 그냥 갈뻔했네요. 꼭 지우고 가야겠네요. 그런데 듣자 하니 진통이 오면 정말 오랜 시간 진통을 겪는 경우도 있다던데 진통을 하다 졸리면 자도 되나요?",
+            "turn_id": "BK22016064-3",
+            "utterance_id": "BK22016064.5"
+        },
+        {
+            "reference_date": "2022-06-09",
+            "reference_text": [
+                {
+                    "value": "미약 진통일 경우 자는 동안 진통을 느끼지 못하기도 하는데, 잠이 큰 도움이 될 수 있다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "분만이 임박하면 자연스럽게 잠에서 깨게 되므로, 졸음이 몰려오면 편안한 마음으로 자도록 한다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202206090067o",
+            "search_query": "분만시 졸음",
+            "terminate": false,
+            "text": "그럼요. 약한 진통이 올 경우 자는 동안에는 진통을 느끼지 못하기도 해요. 그럴 땐 잠이 큰 도움이 되는데요. 분만이 다가오면 자연스럽게 잠에서 깨니 만약 분만을 기다리다 졸음이 오면 편하게 주무셔도 돼요.",
+            "turn_id": "BK22016064-3",
+            "utterance_id": "BK22016064.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 분만 상황은 예측이 안되니 졸음이 오면 잠을 자는 게 낫겠네요. 그런데 분만 전에 관장을 한다고 들었는데 사실인가요? 왜 관장을 해야 하나요?",
+            "turn_id": "BK22016064-4",
+            "utterance_id": "BK22016064.7"
+        },
+        {
+            "reference_date": "2021-03-24",
+            "reference_text": [
+                {
+                    "value": "관장은 태아의 감염위험을 줄일 수 있다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "분만 시 힘을 줄 때 아기의 머리가 장을 밀어 대변이 나오는 경우가 있는데 이때 태아가 대변 속 세균에 감염될 수 있기 때문이다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/life/health/article/202103241728002",
+            "search_query": "분만 전 관장",
+            "terminate": false,
+            "text": "관장을 하는 이유는 태아의 감염 위험을 줄이기 위해서예요. 분만 시 산모가 힘을 줄 때 아기의 머리가 장을 밀어서 대변이 나올 수 있어요. 이때 자칫했다가는 대변 속 세균이 태아를 감염시킬 수 있어요. 그러니 관장은 하시는 게 좋아요.",
+            "turn_id": "BK22016064-4",
+            "utterance_id": "BK22016064.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "휴, 아기를 위해서는 어쩔 수 없이 해야겠네요. 그런데 친구가 분만 시 관장 말고도 회음부 절개를 한다고 하던데 진짜예요? 회음부는 왜 절개하는 건가요?",
+            "turn_id": "BK22016064-5",
+            "utterance_id": "BK22016064.9"
+        },
+        {
+            "reference_date": "2021-03-24",
+            "reference_text": [
+                {
+                    "value": "회음부절개는 분만 시 회음부가 불규칙하게 찢어지거나 항문손상을 예방하기 위해서다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "회음부가 잘 이완돼 머리가 나오는 데 문제없다면 꼭 절개할 필요는 없다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/life/health/article/202103241728002",
+            "search_query": "분만 전 회음부 절개",
+            "terminate": false,
+            "text": "아, 회음부 절개를 하는 이유는 분만할 때 회음부가 일정하지 않게 찢어지거나 항문이 손상될 수 있어서 하는 거예요. 만약 회음부가 잘 이완돼서 아기의 머리가 나오는데 문제가 없으면 회음부 절개를 꼭 해야 하는 건 아니에요.",
+            "turn_id": "BK22016064-5",
+            "utterance_id": "BK22016064.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말요? 그러면 분만 상황에서 회음부 절개는 결정 되는 거겠네요. 그런데 분만 전 제모도 해야 한다고 하던데 제모는 왜 하는 건가요?",
+            "turn_id": "BK22016064-6",
+            "utterance_id": "BK22016064.11"
+        },
+        {
+            "reference_date": "2021-03-24",
+            "reference_text": [
+                {
+                    "value": "제모는 세균감염을 방지하고 분만 후 상처봉합을 위해 필요하다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "봉합해야하는 부분만 제모하며 시행하지 않는 경우도 있다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/life/health/article/202103241728002",
+            "search_query": "분만 전 제모",
+            "terminate": false,
+            "text": "제모가 불필요하다고 느끼실 수 있는데요. 제모는 세균감염을 막아주기 위해 하는 거예요. 또한 분만 후에 상처 봉합을 위해서도 필요한데요. 봉합해야 하는 부분만 제모할 수도 있고 제모를 하지 않는 경우도 있으니 너무 걱정하지 않으셔도 돼요.",
+            "turn_id": "BK22016064-6",
+            "utterance_id": "BK22016064.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 몸에 큰 이상이 없다면 자연분만을 하게 될 텐데요. 자연분만은 어떤 과정으로 진행되나요?",
+            "turn_id": "BK22016064-7",
+            "utterance_id": "BK22016064.13"
+        },
+        {
+            "reference_date": "2020-09-21",
+            "reference_text": [
+                {
+                    "value": "자연분만의 과정은 크게 3기로 나뉜다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "진통이 시작되면서 자궁구가 열리는 제 1기 개구기(준비기), 자궁경부가 열리고 아기가 태어나는 제 2기인 배출기 (산출기), 아기가 나오고 태반 등 부속물이 나오는 제 3기 후산기다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202009213095o",
+            "search_query": "자연분만과정",
+            "terminate": false,
+            "text": "자연분만은 3가지 과정으로 나뉘어요. 먼저 진통을 시작하면 자궁구가 열리면서 제1기 개구기 즉 준비기에 접어들어요. 그 후 자궁 경부가 열리면 아기가 태어나는 제2기 배출기 또는 산출기가 진행돼요. 이후 아기가 나온 후 태반 등의 부속물이 나오는 제3기 후산기로 분만 과정은 이뤄져요.",
+            "turn_id": "BK22016064-7",
+            "utterance_id": "BK22016064.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 듣기엔 간단해 보이는데 실제로는 만만치 않을 것 같네요. 그러면 출산 때 가장 오랜 시간이 걸리는 때가 어떤 때인가요?",
+            "turn_id": "BK22016064-8",
+            "utterance_id": "BK22016064.15"
+        },
+        {
+            "reference_date": "2019-01-26",
+            "reference_text": [
+                {
+                    "value": "① 분만 제 1기(개구기 또는 준비기) : 진통이 시작되는 순간부터 자궁경부가 10cm 정도 완전히 열릴 때까지의 단계로 분만 과정 중 가장 많은 시간이 소요되는 단계.",
+                    "value_time": "2022-10-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01118486622361656&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "자연분만과정 중 소요시간",
+            "terminate": false,
+            "text": "분만 과정 중에 가장 많은 시간이 걸리는 때는 분만 제1기인 개구기 또는 준비기 때예요. 진통이 시작되는 순간부터 자궁경부가 10cm 정도 완벽하게 열릴 때까지의 단계가 바로 그 과정이에요.",
+            "turn_id": "BK22016064-8",
+            "utterance_id": "BK22016064.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 진통이 시작되면 그때부터 마음의 준비를 해야겠네요. 그런데 출산을 알리는 몇 가지 징후가 있다고 하던데 그게 뭔가요?",
+            "turn_id": "BK22016064-9",
+            "utterance_id": "BK22016064.17"
+        },
+        {
+            "reference_date": "2019-01-22",
+            "reference_text": [
+                {
+                    "value": "출산을 알리는 3가지 징후는 진통, 피 섞인 분비물(이슬), 양막파수다.",
+                    "value_time": "2022-10-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.medisobizanews.com/news/articleView.html?idxno=57516",
+            "search_query": "출산을 알리는 징후",
+            "terminate": false,
+            "text": "출산이 임박했음을 알리는 3가지 징후가 있는데요. 바로 진통과 피 섞인 분비물, 양막파수에요. 이 3가지 징후가 있다면 출산이 다가왔음을 아셔야 해요.",
+            "turn_id": "BK22016064-9",
+            "utterance_id": "BK22016064.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 이제 정말 충분하게 출산에 대해 알아뒀으니 직접 겪을 일만 남았네요. 오늘 알려주신 정보가 정말 큰 도움이 됐어요. 이제 아기 낳은 후에 또 만나요.",
+            "turn_id": "BK22016064-10",
+            "utterance_id": "BK22016064.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "너무 걱정 마시고 마음 편하게 가지시고 순산하세요. 아기 낳은 후에 건강한 모습으로 다시 만나요.",
+            "turn_id": "BK22016064-10",
+            "utterance_id": "BK22016064.20"
+        }
+    ]
+}

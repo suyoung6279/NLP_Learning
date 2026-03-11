@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012283",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012283",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 유튜브에서 고양이 영상 보는 게 취미인데 고양이는 길들이기 힘든 것 같더라. 고양이를 계속 보다 보니 너무 사랑스러워서 키우고 싶은데, 그러려면 고양이에 대해 좀 더 알아야겠지? 고양이는 언제부터 인간들과 함께 살게 되었어?",
+            "turn_id": "BK22012283-1",
+            "utterance_id": "BK22012283.1"
+        },
+        {
+            "reference_date": "44805.0",
+            "reference_text": [
+                {
+                    "value": "고양이와 인간의 공생관계는 농경의 발달로 이집트 문명이 발생했을 무렵 곡식을 저장하는 창고에 모여든 쥐를 따라온 것이 시작으로 알려져 있다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "때문에 고양이는 길들여진 동물인 가축의 특성을 전혀 지니고 있지 않으며, 가축이라기보다는 인간과 공생관계라고 보는 것이 맞다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%96%91%EC%9D%B4",
+            "search_query": "고양이 반려동물",
+            "terminate": false,
+            "text": "고양이와 인간이 함께 지내게 된 건 이집트 문명이 생겨났을 때 곡식 저장 창고에 모여든 쥐를 따라서 오면서부터 시작되었어. 그래서 고양이는 길들는 가축의 특성이 없어 인간과 공생하는 관계가 된 거지.",
+            "turn_id": "BK22012283-1",
+            "utterance_id": "BK22012283.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 고양이들 행동을 보면 민첩하기도 하고 감각이 굉장히 발달한 동물인 것 같던데 그래서 쥐를 잘 잡는 건가?",
+            "turn_id": "BK22012283-2",
+            "utterance_id": "BK22012283.3"
+        },
+        {
+            "reference_date": "44707.0",
+            "reference_text": [
+                {
+                    "value": "고양이는 적은 양의 빛에서 움직임을 감지하는 데 능숙하고 청각과 후각이 예민하며 머리와 몸 밖으로 튀어나온 긴 수염으로 촉각이 강화된다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이러한 감각들은 고양이들이 새벽과 해질녘에 효과적으로 사냥을 할 수 있도록 진화했다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%96%91%EC%9D%B4%EC%9D%98_%EA%B0%90%EA%B0%81",
+            "search_query": "고양이의 감각",
+            "terminate": false,
+            "text": "맞아. 고양이는 적은 빛에서도 움직임을 잘 감지할 수 있고 청각과 후각이 예민해. 특히 몸 바깥쪽으로 튀어나온 긴 수염으로는 촉각이 강화되지. 이런 감각들을 사용해서 새벽이나 해 질 녘에 사냥을 잘 할 수 있게 진화한 거야.",
+            "turn_id": "BK22012283-2",
+            "utterance_id": "BK22012283.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이가 사냥하는 동물이면 주로 육식하는 거지?",
+            "turn_id": "BK22012283-3",
+            "utterance_id": "BK22012283.5"
+        },
+        {
+            "reference_date": "44742.0",
+            "reference_text": [
+                {
+                    "value": "고양이는 육식 동물이며, 채식은 잘 하지 않는다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고양이들은 단맛을 느끼는 미뢰가 혀에 전혀 없기 때문에 단 것에서 맛을 전혀 느낄 수가 없다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%96%91%EC%9D%B4%EC%9D%98_%EC%8A%B5%EC%84%B1",
+            "search_query": "고양이 식사습관",
+            "terminate": false,
+            "text": "맞아, 고양이는 육식동물이라서 채식은 거의 하지 않아. 특이한 점은 고양이들은 혀에 단맛을 느끼는 미뢰가 없어서 단맛을 전혀 느끼지 못해.",
+            "turn_id": "BK22012283-3",
+            "utterance_id": "BK22012283.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이가 단맛을 못 느낀다는 건 처음 안 사실이네. 고양이 영상을 보다보면 혀로 털을 핥던데 이런 행동을 하는 이유는 뭐야?",
+            "turn_id": "BK22012283-4",
+            "utterance_id": "BK22012283.7"
+        },
+        {
+            "reference_date": "44742.0",
+            "reference_text": [
+                {
+                    "value": "털 손질은 고양이들 스스로 깨끗하게 하는 것 뿐만 아니라, 체외 기생충을 확실히 막는 다는 데에서 굉장히 중요하다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%96%91%EC%9D%B4%EC%9D%98_%EC%8A%B5%EC%84%B1",
+            "search_query": "고양이 털 손질",
+            "terminate": false,
+            "text": "고양이들은 스스로 깨끗하게 하기 위해서 털 손질을 하는데 체외 기생충을 확실하게 막을 수 있기 때문에 고양이에게는 중요한 행동이야.",
+            "turn_id": "BK22012283-4",
+            "utterance_id": "BK22012283.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그거 말고도 신기했던 게 고양이 집사들이 고양이한테 하악질이라는 단어를 쓰던데 무슨 뜻인지 알려줄 수 있어?",
+            "turn_id": "BK22012283-5",
+            "utterance_id": "BK22012283.9"
+        },
+        {
+            "reference_date": "44742.0",
+            "reference_text": [
+                {
+                    "value": "하악거리는 소리와 같은 짧게 내는 소리는 고양이가 화가 났거나 방어적인 상태라는 것을 말한다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이것을 고양이 집사들은 '하악질'이라고 한다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%96%91%EC%9D%B4%EC%9D%98_%EC%8A%B5%EC%84%B1",
+            "search_query": "고양이 하악질",
+            "terminate": false,
+            "text": "고양이가 화나거나 방어적인 태도를 취할 때, 마치 하악거리는 듯한 소리를 짧게 내는데 이 소리를 고양이 키우는 사람들은 하악질이라고 해.",
+            "turn_id": "BK22012283-5",
+            "utterance_id": "BK22012283.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 화난 표정을 지으면서 하악거리는 소리를 냈구나. 내가 본 영상에는 털이 없는 고양이도 있던데 어떤 종인지 알아?",
+            "turn_id": "BK22012283-6",
+            "utterance_id": "BK22012283.11"
+        },
+        {
+            "reference_date": "44742.0",
+            "reference_text": [
+                {
+                    "value": "넓은 의미로 스핑크스 고양이는 털이 없는, 즉 무모 종의 고양이로 분류되는데, 이런 무모종의 고양이는 스핑크스 이외에도 데본렉스 와 코호나 라는 고양이가 대표적으로 꼽힌다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%95%91%ED%81%AC%EC%8A%A4_(%EA%B3%A0%EC%96%91%EC%9D%B4)",
+            "search_query": "털 없는 고양이",
+            "terminate": false,
+            "text": "털이 없는 고양이를 무모종이라고 하는데 대표적으로 스핑크스, 데본렉스, 코호나라는 종이 있어.",
+            "turn_id": "BK22012283-6",
+            "utterance_id": "BK22012283.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "무모종 영상도 한번 찾아봐야겠다. 고양이를 키우기 전에 알레르기 검사를 받아야 하는데 고양이 알레르기가 있을까 봐 걱정돼. 고양이 털 때문에 알레르기가 일어나는 거지?",
+            "turn_id": "BK22012283-7",
+            "utterance_id": "BK22012283.13"
+        },
+        {
+            "reference_date": "42154.0",
+            "reference_text": [
+                {
+                    "value": "고양이에 의한 알레르기는 ‘고양이털 알레르기’라고 알려졌으나 사실 직접적인 원인을 ‘털’이라고 보기는 어렵다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "알레르기를 유발하는 원인은 고양이의 털, 피부조직, 소변, 피 등에 포함된 특정 단백질 성분이다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://biz.heraldcorp.com/view.php?ud=201505302343063661240_1",
+            "search_query": "고양이 알레르기 원인",
+            "terminate": false,
+            "text": "흔히 고양이 털 때문에 알레르기가 일어난다고 알려져 있는데 직접적인 원인은 피부 조직, 소변, 피 등에 포함된 특정 단백질 성분이야.",
+            "turn_id": "BK22012283-7",
+            "utterance_id": "BK22012283.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 무모종도 고양이 알레르기를 유발할 수 있겠네. 한 번 입양하면 오랫동안 키워야 하는데 입양 전에 고양이랑 생활해 볼 방법 없을까?",
+            "turn_id": "BK22012283-8",
+            "utterance_id": "BK22012283.15"
+        },
+        {
+            "reference_date": "44707.0",
+            "reference_text": [
+                {
+                    "value": "고양이 카페(cat café)는 실내에 고양이를 풀어 놓아 고양이와 접촉 시간을 제공하는 형태의 카페이다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%96%91%EC%9D%B4_%EC%B9%B4%ED%8E%98",
+            "search_query": "고양이 카페",
+            "terminate": false,
+            "text": "고양이 카페에 가보는 걸 추천할게. 카페에 고양이를 풀어 놓고 고양이와 접촉할 수 있는 시간을 주는 곳이라서 입양 전에 가보면 도움이 될 거야.",
+            "turn_id": "BK22012283-8",
+            "utterance_id": "BK22012283.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "애견 카페만 생각해봤지, 고양이 카페가 있을 거라곤 생각을 안 해봤네. 일단 고양이 카페부터 가봐야겠어.",
+            "turn_id": "BK22012283-9",
+            "utterance_id": "BK22012283.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 그러고 나서 고양이 알레르기에 문제가 없으면 유기묘 임시 보호도 해보고 신중하게 입양 결정하면 좋을 것 같아.",
+            "turn_id": "BK22012283-9",
+            "utterance_id": "BK22012283.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "영상 보고 막연하게 귀엽고 예쁘다고만 생각했는데 실제로 고양이를 접해 보고 생활해 봐야 내가 집사로서 적합한지 확실히 알 수 있을 것 같아. 여러 가지로 알려줘서 고마워.",
+            "turn_id": "BK22012283-10",
+            "utterance_id": "BK22012283.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "입양은 신중하게 결정하는 게 좋지. 내가 자주 가는 고양이 카페 있는데 이번 주말에 같이 가보자.",
+            "turn_id": "BK22012283-10",
+            "utterance_id": "BK22012283.20"
+        }
+    ]
+}

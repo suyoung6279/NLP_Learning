@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013484",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013484",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아기를 낳은 지 얼마 되지 않았는데, 감정이 조절이 안 되는 거 같아. 산후 우울증 같은데, 정확히 어떤 걸 산후우울증이라고 해?",
+            "turn_id": "BK22013484-1",
+            "utterance_id": "BK22013484.1"
+        },
+        {
+            "reference_date": "44721.0",
+            "reference_text": [
+                {
+                    "value": "산후 우울증(Postpartum depression)은 출산 4주 이내에 우울감이 심해지는 증상이다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000705405",
+            "search_query": "산후 우울증",
+            "terminate": false,
+            "text": "많이 힘들겠구나, 출산한 지 4주 안에 우울감 증상이 심해지는 현상을 산후우울증이라고 불러.",
+            "turn_id": "BK22013484-1",
+            "utterance_id": "BK22013484.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나는 2주가 좀 지났어. 산후 우울증 증상으로는 어떤 게 있어?",
+            "turn_id": "BK22013484-2",
+            "utterance_id": "BK22013484.3"
+        },
+        {
+            "reference_date": "44692.0",
+            "reference_text": [
+                {
+                    "value": "산후우울증은 아이를 낳은 뒤 심한 우울함, 불안함 등을 느끼는 것으로 ▲불면증 ▲의욕 저하 ▲급격한 체중 변화 ▲집중력 저하 등과 같은 증상이 함께 나타나기도 한다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/05/11/2022051102133.html",
+            "search_query": "산후우울증 증상",
+            "terminate": false,
+            "text": "출산 후 심한 불안감, 우울감을 느끼게 되는 산후우울증은 불면증, 의욕이 떨어진다든가, 급격하게 체중이 변화하는 등 여러 증상이 있어.",
+            "turn_id": "BK22013484-2",
+            "utterance_id": "BK22013484.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내가 너무 이른 나이에 아이를 출산해서 그런 걸까? 잘 적응을 못하겠어. 나이와 산후우울증에도 관계가 있을까?",
+            "turn_id": "BK22013484-3",
+            "utterance_id": "BK22013484.5"
+        },
+        {
+            "reference_date": "44670.0",
+            "reference_text": [
+                {
+                    "value": "통계청 자료에 따르면 만 24세 이하의 47%가 산후우울증의 고위험군에 해당한다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그렇다고 해서 모든 20대가 산후우울증에 취약하다는 뜻은 아니다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보건복지부의 2021년 산후조리 실태조사에 따르면, 산후우울감을 경험하였다고 대답한 25~29세 산모는 50.5%로 평균보다 우울감을 경험하는 비율이 낮았다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/04/18/2022041801335.html",
+            "search_query": "나이 산후우울증",
+            "terminate": false,
+            "text": "통계청의 자료에 의하면 만 24세 이하의 47%가 산후우울증 고위험에 해당하지만, 모든 20대가 산후우울증이 잘 걸리는 건 아니야. 보건복지부 2021년 산후조리 실태조사에 따르면 25~29세 산모가 산후우울감 경험이 있었다고 한 비율이 50.5%로 우울감 경험 비율 평균보다 낮기 때문이야.",
+            "turn_id": "BK22013484-3",
+            "utterance_id": "BK22013484.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내 친구는 자신도 우울했다고, 산후우울감일 수도 있다고 하더라고, 산후우울증이랑 뭐가 다른 거야?",
+            "turn_id": "BK22013484-4",
+            "utterance_id": "BK22013484.7"
+        },
+        {
+            "reference_date": "44721.0",
+            "reference_text": [
+                {
+                    "value": "산후 우울감은 30~75%의 산모에게 나타날 정도로 흔한 감정으로, 출산 후 3~5일부터 시작되며 2주 이내에 호전된다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "일시적인 우울감, 감정 기복 등이 나타나며, 일상에 지장이 갈 정도로 증상이 심하지 않다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000705405",
+            "search_query": "산후우울감",
+            "terminate": false,
+            "text": "산후우울감은 보통 아기를 낳은 뒤 3~5일부터 시작해서 2주 안이면 대부분 사라지고, 30~75%의 산모가 경험할 정도로 흔한 감정이야. 일시적으로 우울하고 감정 기복이 생기기 때문에 일상에 큰 지장이 가지 않아.",
+            "turn_id": "BK22013484-4",
+            "utterance_id": "BK22013484.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 그런데 우울감이라도 3주가 지났고, 너무 감정 기복도 심하고, 우울하고 힘이 없어.",
+            "turn_id": "BK22013484-5",
+            "utterance_id": "BK22013484.9"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너무 우울할 때는 의사의 도움을 받는 것도 좋아.",
+            "turn_id": "BK22013484-5",
+            "utterance_id": "BK22013484.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네 말대로 병원에 가서 산후 우울증인지 진단받아 봐야겠어. 어떻게 진단하는 거야?",
+            "turn_id": "BK22013484-6",
+            "utterance_id": "BK22013484.11"
+        },
+        {
+            "reference_date": "44721.0",
+            "reference_text": [
+                {
+                    "value": "산후 우울증의 진단 기준은 우울증 진단 기준과 동일하다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "출산 후에 우울증의 증상이 나타난다면 산후 우울증으로 진단한다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000705405",
+            "search_query": "산후우울증 진단 기준",
+            "terminate": false,
+            "text": "우울증 진단기준과 산후우울증 진단기준은 같은데, 아기를 낳은 뒤에 우울증 증상이 나타나면 산후우울증이라고 진단해.",
+            "turn_id": "BK22013484-6",
+            "utterance_id": "BK22013484.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산후우울증 치료는 약물치료도 하는 거야? 아무리 우울해도 모유 수유가 걱정되네.",
+            "turn_id": "BK22013484-7",
+            "utterance_id": "BK22013484.13"
+        },
+        {
+            "reference_date": "44721.0",
+            "reference_text": [
+                {
+                    "value": "산후 우울증의 정도가 심각할 때, 산모는 항우울제 등의 약물을 처방받는다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "약물이 아기에게 영향을 줄 수 있기 때문에, 약물 치료를 받는 동안에는 수유를 피하는 것이 좋다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000705405",
+            "search_query": "산후우울증 약물치료",
+            "terminate": false,
+            "text": "산후우울증이 너무 심하면 항우울제 등의 약을 먹기도 하는데, 약은 아기에게 영향이 있을 수 있기 때문에 약을 먹는 동안에는 모유 수유하지 않는 게 좋아.",
+            "turn_id": "BK22013484-7",
+            "utterance_id": "BK22013484.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안전하게 우울증을 치료할 방법은 없을까?",
+            "turn_id": "BK22013484-8",
+            "utterance_id": "BK22013484.15"
+        },
+        {
+            "reference_date": "44721.0",
+            "reference_text": [
+                {
+                    "value": "안전한 우울증 치료법으로 꼽히는 경두개 자기자극술을 다른 치료와 병행하는 방법도 있다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "경두개 자기자극법은 자기장으로 뇌의 전두엽에 전류를 유발함으로써 우울증을 해소하는 치료다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000705405",
+            "search_query": "안전한 우울증 치료법",
+            "terminate": false,
+            "text": "경두 개 자기 자극술을 안전하게 우울증을 치료하는 방법이야. 자기장으로 뇌 전두엽에 전류를 발생시켜서 우울증을 치료하는 것으로 다른 치료와 병행하여 치료해.",
+            "turn_id": "BK22013484-8",
+            "utterance_id": "BK22013484.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산후우울증 치료에 가장 중요한 건 뭘까?",
+            "turn_id": "BK22013484-9",
+            "utterance_id": "BK22013484.17"
+        },
+        {
+            "reference_date": "44721.0",
+            "reference_text": [
+                {
+                    "value": "산후 우울증 치료를 위해서는 산모의 노력과 가족의 사랑이 가장 중요하다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "산모는 불안감과 우울감이 자연스러운 현상이며, 시간이 지나면 나아질 것이라는 긍정적인 생각을 가져야 한다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 남편은 배우자의 산후 우울증을 가볍게 여기지 말고, 배우자를 공감하고 응원하는 마음을 아낌없이 표현해야 한다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000705405",
+            "search_query": "산후우울증치료에 중요",
+            "terminate": false,
+            "text": "가장 중요한 건 산모의 노력과 가족의 사랑이 우선이야. 또 산모는 항상 긍정적으로 이런 불안감과 우울감은 자연스러운 것으로 생각하고, 시간이 지나면 나아질 거라는 마음가짐을 해야 해. 남편은 아내의 산후 우울증을 별거 아니라고 생각하지 않고, 공감해주고 응원하는 마음을 표현해야 해.",
+            "turn_id": "BK22013484-9",
+            "utterance_id": "BK22013484.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "남편에게 내 증상을 말하고 같이 병원에 가봐야겠어. 고마워.",
+            "turn_id": "BK22013484-10",
+            "utterance_id": "BK22013484.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "대화를 나누고 싶거나 더 궁금한 게 있다면 언제든지 나에게 물어봐.",
+            "turn_id": "BK22013484-10",
+            "utterance_id": "BK22013484.20"
+        }
+    ]
+}

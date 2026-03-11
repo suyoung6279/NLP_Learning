@@ -1,0 +1,361 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014656",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014656",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0029"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전에 친구를 만났는데 결혼 계획을 세우고 있다고 하더라고요. 근데 호텔에서 결혼하는 럭셔리 웨딩을 하려고 하는 모양인데 이미 예약이 많이 차서 고민이라고 했어요. 요즘 호텔 웨딩 예약하기가 그렇게 힘든가요?",
+            "turn_id": "BK22014656-1",
+            "utterance_id": "BK22014656.1"
+        },
+        {
+            "reference_date": "2022-09-17",
+            "reference_text": [
+                {
+                    "value": "업계에 따르면 롯데·조선·신라·워커힐호텔 등 주요 5성급 호텔 웨딩 예약이 내년 상반기까지 거의 다 마감됐다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "올해 예식은 이미 사회적 거리두기가 완화됐던 지난 2~3월에 모두 마감됐다는 게 업계 관계자의 설명이다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "롯데호텔 관계자는 “현재 올해 겨울 비수기를 제외하고는 웨딩 예약이 모두 차 있고, 내년 예약도 접수를 받고 있는데 성수기 주말 자리는 거의 다 마감됐다”고 밝혔다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "조선호텔과 워커힐호텔도 내년 상반기까지 일부 일자를 제외하고는 모두 예약이 꽉 차 있는 상황이다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://economist.co.kr/2022/09/17/industry/normal/20220917090015307.html",
+            "search_query": "호텔 웨딩 예약",
+            "terminate": false,
+            "text": "네, 롯데, 조선, 신라, 워커힐호텔 등 주요 5성급 호텔 웨딩 예약이 내년 상반기까지 거의 다 찼어요. 올해 예식 역시 사회적 거리두기가 느슨해졌던 지난 2~3월에 이미 모두 마감됐죠. 롯데호텔 관계자의 말에 따르면 현재 올해 겨울 비수기를 빼고는 웨딩 예약이 전부 차 있고, 내년 예약도 받고 있는데 성수기 주말 자리는 거의 다 찼다고 했어요. 조선호텔과 워커힐호텔도 내년 상반기까지 일부 날짜를 빼고는 전부 예약이 꽉 차 있는 상황이에요.",
+            "turn_id": "BK22014656-1",
+            "utterance_id": "BK22014656.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "결혼하려면 예식장 예약하는 게 제일 큰일이겠네요. 그런데 이런 럭셔리 웨딩을 하려면 얼마 정도 지출하게 되나요?",
+            "turn_id": "BK22014656-2",
+            "utterance_id": "BK22014656.3"
+        },
+        {
+            "reference_date": "2022-09-17",
+            "reference_text": [
+                {
+                    "value": "럭셔리 웨딩은 보통 규모가 큰 5성급 호텔에서 올리는 결혼식을 통칭하지만, 기본 구성에 예비부부가 꽃장식이나 답례품, 식사 등의 옵션을 자유롭게 선택할 수 있어 가격이 천차만별이다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "호텔업계 관계자는 “요즘엔 호텔에서 제공하는 결혼식 기본 구성에 옵션을 추가하는 것이 거의 ‘기본값’이 됐다”며 “호텔 웨딩을 원하는 고객들 대부분이 차별화된 특별한 포인트를 찾기 때문에 비용이 많이 들어간다”고 설명했다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://economist.co.kr/2022/09/17/industry/normal/20220917090015307.html",
+            "search_query": "호텔 웨딩 비용",
+            "terminate": false,
+            "text": "럭셔리 웨딩은 보통 사이즈가 큰 5성급 호텔에서 식을 올리는 것을 총칭하지만, 기본 구성에 예비부부가 꽃장식, 답례품, 식사 등의 선택을 마음대로 할 수 있어 가격이 천차만별이죠. 그리고 요즘엔 호텔 웨딩의 기본 구성에 옵션을 더하는 것이 대부분 디폴트 값이 됐어요. 호텔 웨딩을 원하는 예비부부들이 대개 차별화된 독특한 포인트를 찾기 때문에 돈이 많이 들어가요.",
+            "turn_id": "BK22014656-2",
+            "utterance_id": "BK22014656.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그런데 호텔 웨딩을 원하는 고객들이 특별한 포인트를 원한다고 하셨는데, 호텔들에서는 이를 어떻게 충족시키고 있나요?",
+            "turn_id": "BK22014656-3",
+            "utterance_id": "BK22014656.5"
+        },
+        {
+            "reference_date": "2022-09-17",
+            "reference_text": [
+                {
+                    "value": "롯데호텔 서울은 크리스탈볼룸, 사파이어볼룸, 에메랄드홀 등 다양한 웨딩 장소를 마련해 예비부부들이 규모나 취향에 맞게 선택할 수 있도록 하고 있다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "롯데호텔 관계자는 “크리스탈볼룸을 예약하면 바로크 양식의 인테리어로 꾸며진 ‘아테네가든’을 신부 대기실로 활용할 수 있어 레트로한 이미지를 좋아하는 젊은 세대 사이에서 인기가 많다”고 설명했다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://economist.co.kr/2022/09/17/industry/normal/20220917090015307.html",
+            "search_query": "크리스탈볼룸",
+            "terminate": false,
+            "text": "예를 들어 롯데호텔 서울은 크리스탈볼룸, 사파이어볼룸, 에메랄드홀 등 여러 웨딩 장소를 갖춰서 예비부부들이 규모나 취향에 맞게 고를 수 있게 하고 있어요. 그중 크리스탈볼룸을 고르면 바로크 양식의 인테리어로 장식된 아테네가든을 신부 대기실로 사용할 수 있어 레트로한 이미지를 선호하는 젊은 세대 사이에서 인기가 많아요.",
+            "turn_id": "BK22014656-3",
+            "utterance_id": "BK22014656.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 레트로가 대세다 보니 확실히 인기가 있겠네요. 다른 호텔들은 또 어떤 차별점을 어필하고 있나요?",
+            "turn_id": "BK22014656-4",
+            "utterance_id": "BK22014656.7"
+        },
+        {
+            "reference_date": "2022-09-17",
+            "reference_text": [
+                {
+                    "value": "웨스틴 조선 서울은 시그니처 장식 중 하나인 은하수 조명이 있는 그랜드볼룸과 환구단 배경의 라일락룸 등에서 맞춤형 웨딩이 가능하다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 지난해 문을 연 조선 팰리스 호텔은 웨스틴 조선처럼 오랜 시간 운영돼오며 만들어진 고즈넉한 분위기는 없지만 꽃장식이 화려하게 맞춤형으로 들어가 차별점이 있다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://economist.co.kr/2022/09/17/industry/normal/20220917090015307.html",
+            "search_query": "웨스틴 조선",
+            "terminate": false,
+            "text": "웨스틴 조선 서울은 시그니처 장식 중 하나인 은하수 조명이 있는 그랜드볼룸과 환구단 배경의 라일락룸 등에서 맞춤형 웨딩을 올릴 수 있어요. 특히 지난해 오픈 한 조선 팰리스 호텔은 웨스틴 조선처럼 긴 시간 관리되며 만들어진 고요하고 아늑한 분위기는 없지만 꽃장식이 아름답게 빛나는 맞춤형으로 들어가는 차별점이 있어요.",
+            "turn_id": "BK22014656-4",
+            "utterance_id": "BK22014656.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 제 친구가 다른 호텔들보다 워커힐 호텔에서 결혼하고 싶어 하던데, 워커힐 호텔은 또 어떤 차별점이 있나요?",
+            "turn_id": "BK22014656-5",
+            "utterance_id": "BK22014656.9"
+        },
+        {
+            "reference_date": "2022-09-17",
+            "reference_text": [
+                {
+                    "value": "워커힐은 200~300석 규모의 연회장을 다수 갖고 있고, 특히 ‘애스톤하우스’에서 야외 결혼식이 가능해 많은 연예인 부부가 찾고 있는 곳이기도 하다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가장 최근엔 배우 현빈과 손예진이 이곳에서 결혼식을 올리며 일반 예비부부들의 문의가 잇따른 것으로 전해진다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://economist.co.kr/2022/09/17/industry/normal/20220917090015307.html",
+            "search_query": "애스톤하우스",
+            "terminate": false,
+            "text": "워커힐은 200~300석 규모의 연회장을 대부분 갖추고 있고, 특히 애스톤하우스에서 야외 결혼식을 할 수 있어 많은 연예인 부부가 찾기도 해요. 가장 최근엔 배우 현빈과 손예진이 에스톤하우스에서 결혼식을 올려서 일반 예비부부들의 문의가 이어지기도 했죠.",
+            "turn_id": "BK22014656-5",
+            "utterance_id": "BK22014656.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "야외 결혼식이라니 한국에서는 특별하긴 하네요. 그런데 왜 이렇게 럭셔리 웨딩의 수요가 올라갔나요?",
+            "turn_id": "BK22014656-6",
+            "utterance_id": "BK22014656.11"
+        },
+        {
+            "reference_date": "2022-09-17",
+            "reference_text": [
+                {
+                    "value": "업계에서는 코로나19로 인한 보복 소비 심리가 웨딩에도 영향을 줬다고 분석하고 있다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "업계 관계자는 “코로나19로 예식을 미뤘던 예비부부들이 기다리는 동안 한 번 뿐인 결혼식을 이제 제대로 하고 싶다, 돈을 더 많이 쓰고 싶다는 생각에 보복 심리처럼 호텔 예식을 많이 찾는 것으로 보인다”고 밝혔다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "실제로 팬데믹 때는 사회적 거리두기로 인한 인원 제한 때문에 스몰웨딩이 인기 있었던 반면 최근엔 200~300석 규모의 대형 웨딩 예식 상담이 급증했다는 설명이다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://economist.co.kr/2022/09/17/industry/normal/20220917090015307.html",
+            "search_query": "호텔 예식 보복 심리",
+            "terminate": false,
+            "text": "코로나19로 인한 보복 소비 심리가 웨딩에도 영향을 준 탓이에요. 코로나19로 결혼식을 미뤘던 예비부부들이 기다리는 동안 한 번뿐인 결혼식을 제대로 하고 싶다, 돈을 더 많이 사용하고 싶다는 생각에 보복 심리처럼 호텔 예식을 많이 선택하는 거죠. 실제로 팬데믹 때는 사회적 거리두기방침으로 인해 인원 제한 규정 때문에 스몰웨딩이 인기를 끌었던 반면 최근엔 200~300석 크기의 대형 웨딩 예식 상담이 급증한 거죠.",
+            "turn_id": "BK22014656-6",
+            "utterance_id": "BK22014656.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "보복 심리가 작용한 거군요. 그럼 럭셔리 웨딩 수요가 올라간 또 다른 이유는 없나요?",
+            "turn_id": "BK22014656-7",
+            "utterance_id": "BK22014656.13"
+        },
+        {
+            "reference_date": "2022-09-17",
+            "reference_text": [
+                {
+                    "value": "유명 연예인들의 호텔 예식 모습이 미디어를 통해 노출되면서 럭셔리 웨딩 상담이 증가했다는 의견도 있다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지난달 21일 리듬체조 국가대표 출신 손연재의 결혼식 사진이 올라오면서 손연재가 선택한 신라호텔 예식장과 웨딩드레스, 웨딩 슈즈, 부케, 메이크업 등이 주목을 받았다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://economist.co.kr/2022/09/17/industry/normal/20220917090015307.html",
+            "search_query": "연예인 호텔 예식",
+            "terminate": false,
+            "text": "유명 연예인들의 호텔 예식 장면이 대중매체를 통해 보여지면서 럭셔리 웨딩 상담이 늘어나기도 했어요. 2022년 7월 21일 리듬체조 국가대표 출신 손연재의 결혼식 사진이 공개되면서 손연재가 고른 신라호텔 예식장과 웨딩드레스, 웨딩 슈즈, 부케, 메이크업 등이 관심을 받았어요.",
+            "turn_id": "BK22014656-7",
+            "utterance_id": "BK22014656.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그랬군요, 손연재가 고른 신라호텔 예식장이 많이 특별했나 봐요?",
+            "turn_id": "BK22014656-8",
+            "utterance_id": "BK22014656.15"
+        },
+        {
+            "reference_date": "2022-09-17",
+            "reference_text": [
+                {
+                    "value": "특히 한 연예 프로그램에 웨딩 플래너가 출연해 손연재가 결혼식을 올린 신라호텔 다이너스티 홀에 대해 “층고가 높고 웅장해서 럭셔리 웨딩으로 손꼽히는 웨딩홀”이라고 설명하고 “입장하는 곳부터 계단, 포토월, 웨딩 케이크까지 전부 풍성한 생화 장식으로 꾸며주는 곳으로 유명하고, 꽃장식 비용만 중형차 한 대 값이 들어간다”고 밝혀 크게 화제가 됐다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://economist.co.kr/2022/09/17/industry/normal/20220917090015307.html",
+            "search_query": "다이너스티 홀",
+            "terminate": false,
+            "text": "네, 손연재가 결혼식을 했던 신라호텔 다이너스티 홀은 층높이가 높고 규모가 커서 럭셔리 웨딩으로 손꼽히는 웨딩홀이에요. 게다가 입장하는 곳부터 계단, 포토월, 웨딩 케이크까지 전부 풍성한 생화로 꾸며주는 곳으로 유명해서 꽃장식 금액만 중형차 한 대 값이에요.",
+            "turn_id": "BK22014656-8",
+            "utterance_id": "BK22014656.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "결혼은 한 번뿐이니 그런 곳에서 결혼하려는 마음도 이해가 되네요.",
+            "turn_id": "BK22014656-9",
+            "utterance_id": "BK22014656.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 게다가 코로나 19로 결혼식을 계속 미뤘다면 저라도 럭셔리 결혼을 고려해 볼 것 같아요.",
+            "turn_id": "BK22014656-9",
+            "utterance_id": "BK22014656.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 오늘 대화 흥미로웠어요. 다음에 만나서 또 얘기 나눠요.",
+            "turn_id": "BK22014656-10",
+            "utterance_id": "BK22014656.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 그럼 조심히 들어가세요.",
+            "turn_id": "BK22014656-10",
+            "utterance_id": "BK22014656.20"
+        }
+    ]
+}

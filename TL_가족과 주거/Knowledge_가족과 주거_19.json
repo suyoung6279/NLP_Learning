@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012371",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012371",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0029"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0004"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근 신문에서 영 케어러라는 단어를 봤어요. 가족 돌봄 청년이라고 하더라고요. 낯선 단어여서 너무 생소한데, 가족 돌봄 청년이 무슨 뜻인가요?",
+            "turn_id": "BK22012371-1",
+            "utterance_id": "BK22012371.1"
+        },
+        {
+            "reference_date": "44817.0",
+            "reference_text": [
+                {
+                    "value": "가족돌봄청(소)년‘이란 장애와 질병, 약물 등의 문제를 가진 가족을 돌보고 있는 청년으로서, 가족을 돌보느라 미래를 준비하는 데에 어려움을 겪는 청(소)년을 뜻한다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://kpenews.com/View.aspx?No=2531412",
+            "search_query": "가족돌봄청년",
+            "terminate": false,
+            "text": "가족 돌봄 청년이란 질병이나 장애, 약물 등의 문제가 있는 가족을 케어하고 있는 청년을 의미해요. 그중에서도 돌봐야 할 가족이 있기 때문에 미래를 준비하는 데 어려움을 겪고 있는 청년들을 뜻해요.",
+            "turn_id": "BK22012371-1",
+            "utterance_id": "BK22012371.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 청년들이 있군요. 그렇다면 영 케어러는 어떤 돌봄 활동을 하나요?",
+            "turn_id": "BK22012371-2",
+            "utterance_id": "BK22012371.3"
+        },
+        {
+            "reference_date": "44824.0",
+            "reference_text": [
+                {
+                    "value": "영 케어러의 돌봄 활동은 약 복용 관리나 이동 보조 등의 일반적인 돌봄부터 목욕과 용변 보조 등의 신체 돌봄, 정서적 지원, 각종 집안일과 형제 돌보기 등 아픈 가족 구성원을 돌보는 것 이외에 다양한 내용을 포함한다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002866266&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+            "search_query": "영 케어러 돌봄",
+            "terminate": false,
+            "text": "영 케어러는 아동을 보조하거나 약 복용 관리 등의 일반적인 돌봄 활동을 하기도 하고요. 또 용변 보조, 목욕 등의 신체적인 돌봄, 그 외에는 정서적 지원, 다양한 집안일을 수행하거나 형제를 돌보는 등 투병 중인 가족을 돌보는 것 이외에도 여러 활동을 하고 있어요.",
+            "turn_id": "BK22012371-2",
+            "utterance_id": "BK22012371.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그런데 저는 잘 기억이 나지 않는데, 혹시 사회적으로 이슈가 되었던 특별한 가족 돌봄과 관련된 사건이 있었나요?",
+            "turn_id": "BK22012371-3",
+            "utterance_id": "BK22012371.5"
+        },
+        {
+            "reference_date": "44817.0",
+            "reference_text": [
+                {
+                    "value": "12일 서구에 따르면 가족돌봄청년에 대한 사회적 관심은 지난달 광주에서 발생한 ‘보호종료아동 자살사건’과 수원의 ‘세모녀 사건’으로 부각됐다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "광주 서구(구청장 김이강)가 광주 지자체 최초로 ‘가족돌봄청년’을 지원하는 사업을 추진해 눈길을 끈다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://kpenews.com/View.aspx?No=2531412",
+            "search_query": "가족돌봄청년 광주",
+            "terminate": false,
+            "text": "2022년 9월 12일 광주시 서구는 보호종료아동 자살 사건과 수원에서의 세 모녀 사건으로 가족 돌봄 청년에 대한 사회적 관심이 집중되자 지자체 최초로 가족돌봄청년 지원사업을 추진해 관심을 끌었어요.",
+            "turn_id": "BK22012371-3",
+            "utterance_id": "BK22012371.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안타까운 일이 많이 있었네요. 혹시 우리나라에는 영 케어러가 얼마나 있나요?",
+            "turn_id": "BK22012371-4",
+            "utterance_id": "BK22012371.7"
+        },
+        {
+            "reference_date": "44820.0",
+            "reference_text": [
+                {
+                    "value": "우리나라에는 영 케어러가 몇 명인지 기본 통계조차 없다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "영국, 스웨덴, 스위스 등 선진국에서 청소년 인구의 5∼8%를 영 케어러로 추정하는 것을 기준으로 보면 우리나라도 18만∼29만5000명 정도일 것이라 추산할 뿐이다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220915/115476345/1",
+            "search_query": "영 케어러 가족돌봄청년",
+            "terminate": false,
+            "text": "현재 국내에는 영 케어러가 몇 명인지에 대한 통계 수치가 없어요. 스웨덴이나 스위스, 영국 등에서 청소년 인구의 5에서 8퍼센트를 영 케어러로 추정하고 있어요. 그걸 기준으로 하여 국내에도 18만 명에서 29만 5천명 정도가 되지 않을까 하고 추정하고 있죠.",
+            "turn_id": "BK22012371-4",
+            "utterance_id": "BK22012371.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "통계 자료조차 없다니, 그야말로 복지의 사각지대네요. 영 케어러는 어떤 어려움을 주로 겪고 있나요?",
+            "turn_id": "BK22012371-5",
+            "utterance_id": "BK22012371.9"
+        },
+        {
+            "reference_date": "44820.0",
+            "reference_text": [
+                {
+                    "value": "과도한 간병은 때로는 영 케어러에게 신체적, 정신적 부담과 고통을 부과하기도 한다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "교육 훈련의 기회를 제약함으로써 미래 고용 및 자립 능력에 부정적 영향을 끼친다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220915/115476345/1",
+            "search_query": "영 케어러",
+            "terminate": false,
+            "text": "과도한 간병은 때때로 신체적, 정신적 부담을 주며 영 케어러에게 고통이 되기도 해요. 교육 훈련받을 기회들이 줄어들면서 미래에 자립할 수 있는 능력이나 미래 고용에 나쁜 영향을 미치기도 해요.",
+            "turn_id": "BK22012371-5",
+            "utterance_id": "BK22012371.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 간병으로 인해 다양한 기회들이 줄어들면서 미래에도 부정적인 영향을 끼칠 수 있겠어요. 어린 나이에 돌봄이나 간병을 하다 보면 더 힘든 점이 많을 것 같아요.",
+            "turn_id": "BK22012371-6",
+            "utterance_id": "BK22012371.11"
+        },
+        {
+            "reference_date": "44820.0",
+            "reference_text": [
+                {
+                    "value": "이들은 아직 인격이 미숙한 상태여서 환자 상태가 나빠지면 자책하기 쉽고 자존감과 자신감이 쉽게 무너진다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아직 어리기 때문에 집안일도 돌봄도 모두 미숙하고, 정보를 얻거나 도움을 구하는 일에도 미숙하다.",
+                    "value_time": "44824.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220915/115476345/1",
+            "search_query": "영 케어러",
+            "terminate": false,
+            "text": "네, 아직 어린 연령이기 때문에 집안일이나 가족을 돌보는 것도 미숙하죠. 또 정보를 얻거나 주위에 도움을 구하는 것도 익숙하지 않을 거예요. 게다가 인격적으로도 아직 미성숙하기 때문에 환자의 상태가 악화되면 쉽게 자책하고, 자존감과 자신감이 급속히 낮아져요.",
+            "turn_id": "BK22012371-6",
+            "utterance_id": "BK22012371.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "설명을 들을수록 안타깝네요. 국가적으로도 관리가 필요할 것 같아요.",
+            "turn_id": "BK22012371-7",
+            "utterance_id": "BK22012371.13"
+        },
+        {
+            "reference_date": "44816.0",
+            "reference_text": [
+                {
+                    "value": "올해 정부에서는 ‘가족 돌봄 청(소)년 실태조사’를 실시한다고 발표했다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "실태조사와 별개로 정부에서는 ‘가족을 돌보는 청년, 국가가 함께 돌보겠습니다’를 발표하며 가족 돌봄 청(소)년 지원을 약속했다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=107683",
+            "search_query": "영 케어러 실태조사",
+            "terminate": false,
+            "text": "네, 그래서 정부에서는 올해 가족 돌봄 청년 실태조사를 실시한다고 했어요. 그리고 그와는 별도로 국가에서 가족을 돌보는 청년, 국가가 함께 돌보겠습니다. 라고 하며 가족 돌봄 청년 지원을 하기로 발표했어요.",
+            "turn_id": "BK22012371-7",
+            "utterance_id": "BK22012371.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 국가에서 가족 돌봄 청년 지원을 고려하고 있군요.",
+            "turn_id": "BK22012371-8",
+            "utterance_id": "BK22012371.15"
+        },
+        {
+            "reference_date": "44816.0",
+            "reference_text": [
+                {
+                    "value": "그러나 발표된 대책은 청년 정책에 초점이 맞추어져 있어, 어린 나이에 돌봄을 시작했거나 스스로 돌봄을 한다는 것을 인지하지 못하는 경우 등 사각지대가 발생할 수 있다.",
+                    "value_time": "44824.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibabynews.com/news/articleView.html?idxno=107683",
+            "search_query": "가족돌봄청년 실태조사",
+            "terminate": false,
+            "text": "네, 하지만 발표된 정책이 청년 위주로 초점이 맞춰져 있다 보니, 저연령에 돌봄을 시작하게 되었거나, 자신이 가족 돌봄을 하고 있다는 사실을 인지하지 못할 경우 사각지대에 놓일 수도 있습니다.",
+            "turn_id": "BK22012371-8",
+            "utterance_id": "BK22012371.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 청년들이 힘들다고 많이들 이야기하는데, 영 케어러들은 본인뿐만 아니라 가족까지 신경을 항상 써야 하니까 더 고될 것 같아요.",
+            "turn_id": "BK22012371-9",
+            "utterance_id": "BK22012371.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 돌봄 문제를 그저 개인에게 전가하기보다 사회적으로 풀어갈 수는 없을지 같이 고민해 봐야 할 시점이에요.",
+            "turn_id": "BK22012371-9",
+            "utterance_id": "BK22012371.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제 친구나 지인 중에서도 비슷한 상황에 처한 사람은 없는지 항상 신경 써야 할 것 같아요.",
+            "turn_id": "BK22012371-10",
+            "utterance_id": "BK22012371.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 그 외에도 이웃들이나 동네 주민들에게 다양한 관심을 가졌으면 좋겠습니다.",
+            "turn_id": "BK22012371-10",
+            "utterance_id": "BK22012371.20"
+        }
+    ]
+}

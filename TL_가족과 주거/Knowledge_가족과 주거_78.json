@@ -1,0 +1,352 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013305",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013305",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전 양부모가 입양아를 학대했다는 기사를 읽었어요.",
+            "turn_id": "BK22013305-1",
+            "utterance_id": "BK22013305.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너무 끔찍한 일인 것 같아요. 그럴 거면 왜 입양했는지 모르겠어요.",
+            "turn_id": "BK22013305-1",
+            "utterance_id": "BK22013305.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 그렇게 생각하는데, 우리나라에서 입양이라는 의미가 정확히 어떻게 되나요?",
+            "turn_id": "BK22013305-2",
+            "utterance_id": "BK22013305.3"
+        },
+        {
+            "reference_date": "2022-02-23",
+            "reference_text": [
+                {
+                    "value": "일상적인 용어로서 입양은 양자를 들이거나 양자로 들어가는 행위를 말하고, 법률적인 용어로서 입양은 양부모가 될 사람과 양자가 될 사람이 양친자 관계를 맺는 신분행위를 말한다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%85%EC%96%91",
+            "search_query": "입양",
+            "terminate": false,
+            "text": "입양은 일상적인 의미로는 양자를 들이거나 혹 양자로 들어가는 행위를 의미해요. 또 법률적인 용어로 풀이하면 양부모가 되고자 하는 사람과 양자가 되려는 사람이 양친자 관계를 맺는 행위를 의미하고요.",
+            "turn_id": "BK22013305-2",
+            "utterance_id": "BK22013305.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "현재 입양은 어떤 법률에 따라서 처리되고 있나요?",
+            "turn_id": "BK22013305-3",
+            "utterance_id": "BK22013305.5"
+        },
+        {
+            "reference_date": "2017-05-14",
+            "reference_text": [
+                {
+                    "value": "2011년 개정된 입양특례법은 아동 학대를 예방하고, 허위·위장 입양을 막기 위해 여러 제한을 뒀는데, 특히 출생신고가 된 아동만을 입양할 수 있도록 했다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?2991724",
+            "search_query": "입양특례법",
+            "terminate": false,
+            "text": "입양특례법은 2011년 개정되면서 아동 학대 예방과 허위나 위장 입양을 막고자 여러 제한을 두었어요. 그중 특히 출생신고를 한 아동만 입양이 가능하게 했어요.",
+            "turn_id": "BK22013305-3",
+            "utterance_id": "BK22013305.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "출생신고를 무조건해야 하는 게 필수가 되었단 말씀이신가요?",
+            "turn_id": "BK22013305-4",
+            "utterance_id": "BK22013305.7"
+        },
+        {
+            "reference_date": "2022-05-23",
+            "reference_text": [
+                {
+                    "value": "입양대상아동을 출산한 친생부모는 가족관계등록제도에 따라 자신이 출산한 자녀에 대한 출생신고를 한 뒤에야 친권을 포기하고 자녀를 입양 보내는 절차를 진행할 수 있게 되었습니다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002837426",
+            "search_query": "입양 출생신고",
+            "terminate": false,
+            "text": "네, 가족관계등록제도에 의해 입양하려는 아동을 출산한 친생부모가 출생신고를 한 다음, 친권을 포기하고 자녀를 입양을 보내는 절차를 진행하게 됐어요.",
+            "turn_id": "BK22013305-4",
+            "utterance_id": "BK22013305.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그러면 미혼모들은 쉽게 출생신고를 하지 못하는 상황일 텐데 이 때문에 다른 문제가 발생하진 않았나요?",
+            "turn_id": "BK22013305-5",
+            "utterance_id": "BK22013305.9"
+        },
+        {
+            "reference_date": "2017-05-14",
+            "reference_text": [
+                {
+                    "value": "입양특례법 개정 이후 베이비박스에 맡겨진 아동이 늘어난 것도 이와 무관치 않은 것으로 풀이된다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2010년 베이비박스에 맡겨진 아동은 37명에 그쳤지만 2011년 79명으로 2배 증가했고, 2012년 252명으로 오른 이후 매년 250명대를 유지하고 있다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?2991724",
+            "search_query": "베이비박스",
+            "terminate": false,
+            "text": "베이비박스에 맡긴 아기가 증가한 일이 입양특례법 개정과 무관하다 볼 수 없죠. 2010년에는 37명의 아이가 베이비박스에 맡겨졌지만, 2011년에는 79명으로 2배 늘었고, 2012년은 252명이 되었어요. 그 이후 매년 250명대를 유지하고 있으니까요.",
+            "turn_id": "BK22013305-5",
+            "utterance_id": "BK22013305.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 출생신고 의무화 외에 입양특례법에는 또 어떤 제도가 포함되어 있나요?",
+            "turn_id": "BK22013305-6",
+            "utterance_id": "BK22013305.11"
+        },
+        {
+            "reference_date": "2022-05-23",
+            "reference_text": [
+                {
+                    "value": "넷째, 입양숙려기간제의 도입입니다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 제도에 의해서 친생부모는 자녀를 출산하고 1주일이 지난 뒤에 입양을 결정할 수 있게 되었습니다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002837426",
+            "search_query": "입양숙려기간제",
+            "terminate": false,
+            "text": "입양 숙려 기간제 도입에 따라 친생부모가 자녀를 낳은 뒤 1주일이 지나고 나서야 입양 결정을 할 수 있게 됐어요.",
+            "turn_id": "BK22013305-6",
+            "utterance_id": "BK22013305.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1주일 동안 친생부모가 고민을 할 수 있는 기간을 주는군요. 입양부모의 자격조건 등에 대해서는 변화가 없었나요?",
+            "turn_id": "BK22013305-7",
+            "utterance_id": "BK22013305.13"
+        },
+        {
+            "reference_date": "2022-05-23",
+            "reference_text": [
+                {
+                    "value": "둘째, 입양부모의 자격조건 강화입니다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이전에도 예비입양부모들은 '충분한' 재산과 자녀를 양육할 준비를 갖추고 있는지 여부 등으로 부모가 될 자격을 판정받았는데, 그 기준에 더하여 약물이나 범죄 이력이 없다는 것을 입증한 뒤에야 입양신청을 할 수 있게 되었습니다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002837426",
+            "search_query": "입양부모 자격조건",
+            "terminate": false,
+            "text": "입양부모 자격조건 강화의 경우, 예전에는 충분한 재산 여부와 자녀를 양육할 수 있는 준비를 갖추었는지 등으로 부모 자격을 판정받았어요. 이에 더해 약물과 범죄 이력이 없다는 입증을 받아야지만 입양 신청이 가능해졌어요.",
+            "turn_id": "BK22013305-7",
+            "utterance_id": "BK22013305.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자격조건을 강화한 건 아주 잘한 일 같네요. 현재 입양 절차는 정부가 주도하에 이뤄지고 있나요?",
+            "turn_id": "BK22013305-8",
+            "utterance_id": "BK22013305.15"
+        },
+        {
+            "reference_date": "2021-10-12",
+            "reference_text": [
+                {
+                    "value": "현재 입양 절차는 민간 입양기관 주도로 이뤄지고 있다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "입양 부모와 관련한 필수 서류를 검토해 최종 입양 허가를 내리는 것은 가정법원이지만, 입양 신청부터 예비 양부모와의 상담·조사, 양부모와 아동의 결연, 사후관리까지 입양 절차 전반을 떠맡고 있는 것은 민간기관이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/society/society_general/1014747.html",
+            "search_query": "입양 절차",
+            "terminate": false,
+            "text": "아뇨, 현재 입양은 민간 입양기관이 주도해 절차를 진행하고 있는데요. 입양부모에 대한 필수 서류 검토를 통해 최종 입양 허가는 가정법원에서 내려요. 하지만 입양 신청과 예비 양부모 상담 및 조사, 아동과의 결연과 사후관리까지 모든 부분에서 민간 입양기관이 전반적으로 입양 절차를 관리하고 있죠.",
+            "turn_id": "BK22013305-8",
+            "utterance_id": "BK22013305.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정부가 여러모로 더 관여한다면 민간 기관의 업무가 좀 덜어지겠네요. 그런데 독신은 여전히 아이 입양이 불가능한가요?",
+            "turn_id": "BK22013305-9",
+            "utterance_id": "BK22013305.17"
+        },
+        {
+            "reference_date": "2022-04-05",
+            "reference_text": [
+                {
+                    "value": "법무부는 미혼의 독신도 친양자가 될 사람의 복리를 보장할 수 있는 25세 성인은 친양자를 입양할 수 있도록 개정안을 마련했다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 입양 절차는 더 까다로워진다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가정법원이 입양을 허가할 때 고려하는 필수 요소에 양육 상황과 능력뿐 아니라 양육 시간, 입양 후 양육 환경을 추가해 심사가 이뤄진다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://biz.chosun.com/topics/law_firm/2022/04/05/3P5W5S4FLJBGXKLTDRG5O3UTFQ/",
+            "search_query": "입양 제도",
+            "terminate": false,
+            "text": "아뇨, 25세 성인이자 미혼의 독신도 친양자를 입양할 수 있는 개정안을 법무부가 마련했어요. 다만 입양 절차가 더 까다로워져서 가정법원이 요구하는 필수 요소 외에도 양육 상황과 능력, 양육 환경, 양육 시간 등을 추가해서 심사가 진행될 거예요.",
+            "turn_id": "BK22013305-9",
+            "utterance_id": "BK22013305.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 드디어 독신도 입양을 할 수 있는 시대가 오겠군요.",
+            "turn_id": "BK22013305-10",
+            "utterance_id": "BK22013305.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 주변에서도 이런 점을 아쉬워했는데 말이죠. 다만 입양에는 신중한 선택과 판단이 필요하겠죠.",
+            "turn_id": "BK22013305-10",
+            "utterance_id": "BK22013305.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 저도 그렇게 생각해요.",
+            "turn_id": "BK22013305-11",
+            "utterance_id": "BK22013305.21"
+        }
+    ]
+}

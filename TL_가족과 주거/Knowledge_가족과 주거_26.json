@@ -1,0 +1,357 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012412",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012412",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내년에 남자친구랑 결혼하기로 했어. 문제없이 결혼을 잘 진행하고 싶은 생각이 머릿속에 가득 찼어.",
+            "turn_id": "BK22012412-1",
+            "utterance_id": "BK22012412.1"
+        },
+        {
+            "reference_date": "44788.0",
+            "reference_text": [
+                {
+                    "value": "자칫 복잡하고 어려울 수 있는 결혼을 좀 더 수월하게 준비하기 위해서는 우선 체계적인 계획을 세우는 것이 필요합니다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=170&ccfNo=2&cciNo=1&cnpClsNo=1",
+            "search_query": "결혼준비",
+            "terminate": false,
+            "text": "축하해요. 결혼 준비는 복잡하고 어려울 수 있어서 체계적으로 계획을 세우는 게 좋아요. 준비는 다 되었나요?",
+            "turn_id": "BK22012412-1",
+            "utterance_id": "BK22012412.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아니, 아직 시작도 못 했어. 뭐부터 준비해야 할까?",
+            "turn_id": "BK22012412-2",
+            "utterance_id": "BK22012412.3"
+        },
+        {
+            "reference_date": "44788.0",
+            "reference_text": [
+                {
+                    "value": "결혼날짜가 정해진 후 본격적인 결혼준비는 예산계획을 세우는 것에서 시작됩니다.",
+                    "value_time": "44805.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "결혼준비에는 많은 비용이 드는 만큼 신혼집, 혼수, 예식, 신혼여행 등 각 항목별로 미리 예산계획을 잡아 놓는 것이 필요합니다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=170&ccfNo=2&cciNo=1&cnpClsNo=1",
+            "search_query": "결혼준비체크리스트",
+            "terminate": false,
+            "text": "결혼 날짜가 정해졌다면 가장 먼저 예산계획을 세워야 해요. 신혼집, 혼수, 예식, 신혼여행 등 항목별로 지출해야 할 비용이 많으니까요.",
+            "turn_id": "BK22012412-2",
+            "utterance_id": "BK22012412.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신혼집을 구하기가 쉽지 않아서 청약을 넣을까 하는데, 청약제도는 어떤 것이 있어?",
+            "turn_id": "BK22012412-3",
+            "utterance_id": "BK22012412.5"
+        },
+        {
+            "reference_date": "44638.0",
+            "reference_text": [
+                {
+                    "value": "사람들이 가장 많이 신청하는 ‘공공분양주택’은 무주택 서민 및 혼인 기간 7년 이내 신혼부부와 예비신혼부부, 다자녀가구 등을 위한 제도다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또, ‘민영주택 특별공급’은 공공택지 내 전용 85㎡ 이하 민영주택을 공급하는 제도다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "신혼부부들에게는 전체 공급물량의 20% 내로 배정되고, 일반공급과 청약 경쟁을 하지 않아도 되는 장점이 있다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.korea.kr/news/reporterView.do?newsId=148899702",
+            "search_query": "신혼집마련",
+            "terminate": false,
+            "text": "보통 사람들은 공공분양주택이나 민영주택 특별공급을 통해서 신혼집을 얻고 있어요. 공공분양주택은 무주택 서민이나 혼인 기간이 7년 이내인 부부들을 대상으로 주택을 분양하는 제도예요. 민영주택 특별공급은 공공택지 내 전용 85제곱미터 이하 공급하는 민영주택 중에서 20% 이내의 물량을 신혼부부에게 배정하는 청약제도예요. 민영주택 특별공급은 일반공급과 청약 경쟁을 하지 않아도 돼요. 이 두 가지 중 적당한 걸 알아보는 게 좋겠어요.",
+            "turn_id": "BK22012412-3",
+            "utterance_id": "BK22012412.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "청약 조건과 종류가 있었군요! 그렇다면 청약제도 말고 전세비용을 마련할 수 있는 방법은 없을까?",
+            "turn_id": "BK22012412-4",
+            "utterance_id": "BK22012412.7"
+        },
+        {
+            "reference_date": "44146.0",
+            "reference_text": [
+                {
+                    "value": "전세자금 마련으로 고민인 신혼부부를 대상으로 하는, 주택도시기금 신혼부부 전세자금 대출이 있습니다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "혼인기간이 7년 이내이거나 3개월 이내에 결혼예정인 신혼부부가 조건을 충족하면 신청할 수 있으며, 최대 2.2억원 한도로 대출을 받을 수 있습니다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.finance-news.co.kr/209",
+            "search_query": "신혼부부전세자금대출",
+            "terminate": false,
+            "text": "주택도시기금에서 전세자금 마련으로 고민하는 신혼부부를 대상을 전세자금을 대출해주고 있어요. 3개월 이내에 결혼할 예정이 있거나 혼인 기간이 7년 이내의 부부 중에서 조건을 갖춘 부부는 최대 2.2억원까지 대출을 받을 수 있어요.",
+            "turn_id": "BK22012412-4",
+            "utterance_id": "BK22012412.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 모두 알아보고 집을 마련해야겠어. 혼수도 준비해야하는데 혼수에는 어떤 것들이 포함되는 거야?",
+            "turn_id": "BK22012412-5",
+            "utterance_id": "BK22012412.9"
+        },
+        {
+            "reference_date": "44606.0",
+            "reference_text": [
+                {
+                    "value": "필수 혼수 품목으로는 냉장고(85.6%), 세탁기(80.2%), 침대(70.1%), TV(64.7%), 에어컨(50.1%), 건조기(34.5%) 등이 꼽혔다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/society/article/2022021412687",
+            "search_query": "신혼혼수",
+            "terminate": false,
+            "text": "많은 사람이 냉장고, 세탁기, 침대, TV, 에어컨, 건조기 등등을 필수 혼수 품목으로 생각하고 있어요.",
+            "turn_id": "BK22012412-5",
+            "utterance_id": "BK22012412.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이 많은 것들을 준비하려면 예산이 많이 필요하겠네. 다른 사람들은 결혼 예산에 얼마나 쓸까?",
+            "turn_id": "BK22012412-6",
+            "utterance_id": "BK22012412.11"
+        },
+        {
+            "reference_date": "44606.0",
+            "reference_text": [
+                {
+                    "value": "신혼부부 총 결혼 비용이 평균 약 2억 9000만 원에 달하는 것으로 나타났다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/society/article/2022021412687",
+            "search_query": "평균결혼비용",
+            "terminate": false,
+            "text": "신혼부부들은 평균 약 2억 9000만 원 정도를 결혼 비용으로 사용하고 있어요.",
+            "turn_id": "BK22012412-6",
+            "utterance_id": "BK22012412.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비용이 많이 드는구나. 요즘엔 작은 결혼식도 많이 하잖아. 작은 결혼식을 하는 건 어떨까?",
+            "turn_id": "BK22012412-7",
+            "utterance_id": "BK22012412.13"
+        },
+        {
+            "reference_date": "44792.0",
+            "reference_text": [
+                {
+                    "value": "특히 코로나 팬데믹 이후 사회적 거리두기가 시행되면서 하객을 49명까지만 받아야 하는 상황이 지속되자 어쩔 수 없이 스몰웨딩을 치러야 하는 경우도 발생했다.",
+                    "value_time": "44805.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이전까지 큰 웨딩홀에서 진행되던 결혼식 대신 나의 개성과 취향이 묻어나는 스몰웨딩에 대한 관심이 커졌기 때문이다",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "호텔업계에 따르면 스몰웨딩을 선호하는 예비신랑신부들 가운데 럭셔리하고 프라이빗한 결혼식을 선호하는 사람이 늘었다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://woman.chosun.com/news/articleView.html?idxno=101435",
+            "search_query": "스몰웨딩경향",
+            "terminate": false,
+            "text": "좋은 생각이에요. 코로나19 팬데믹 이후에 거리두기 때문에 작은 결혼식을 하는 추세가 늘어나고 있어요. 큰 웨딩홀에서 하던 결혼식과 달리 자기 개성과 취향을 드러낼 수 있기 때문이에요. 하지만 요즘엔 소규모의 결혼식이라고 해도 비용이 많이 드는 화려한 결혼식을 선호하는 사람이 늘었어요.",
+            "turn_id": "BK22012412-7",
+            "utterance_id": "BK22012412.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "코로나19 유행 이후에 결혼을 한다고 해도 신혼여행을 가도 괜찮을까?",
+            "turn_id": "BK22012412-8",
+            "utterance_id": "BK22012412.15"
+        },
+        {
+            "reference_date": "44800.0",
+            "reference_text": [
+                {
+                    "value": "팬데믹 초반에는 감염 위험과 자가격리 등을 이유로 국내 여행지들이 후보에 올랐다.",
+                    "value_time": "44805.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "상대적으로 해외여행이 자유로워진 2022년을 기점으로는 미뤄뒀던 신혼여행을 실행에 옮기는 ‘지각 허니문’ 커플과 ‘세컨드 허니문’을 준비하는 이들도 늘어나는 분위기다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/life/style/article/202208271800001",
+            "search_query": "코로나신혼여행",
+            "terminate": false,
+            "text": "코로나19가 유행했던 초반에도 감염 위험성과 자가격리 등의 이유로 국내를 위주로 신혼여행을 많이 갔어요. 하지만 2022년에는 상대적으로 해외여행이 자유로워지면서 뒤늦게라도 해외로 신혼여행을 가는 지각 허니문과 세컨드 허니문 등이 많아지는 분위기가 되었어요.",
+            "turn_id": "BK22012412-8",
+            "utterance_id": "BK22012412.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내년에는 올해보다 조금 나아지길 기다리며 신혼여행지를 골라야겠어! 요즘에 인기 있는 해외 신혼여행지는 어디야?",
+            "turn_id": "BK22012412-9",
+            "utterance_id": "BK22012412.17"
+        },
+        {
+            "reference_date": "44748.0",
+            "reference_text": [
+                {
+                    "value": "대표적인 신혼여행지의 인기도 눈에 띄었다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "몰디브(183.8%↑), 칸쿤(111.5%↑), 몰타섬(115.3%↑), 타히티섬(161.7%↑), 하와이(61%↑)는 2022년 4월~5월 검색량이 2019년 같은 기간보다 증가했다.",
+                    "value_time": "44805.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/07/591304/",
+            "search_query": "코로나19신혼여행지순위",
+            "terminate": false,
+            "text": "몰디브나 칸쿤, 몰타섬, 타히티섬, 하와이 등등 예전부터 대표적이었던 신혼여행지가 코로나19 이후에도 인기가 많아요. 2019년에 비해 2022년 4월에서 5월 사이에 검색 수가 많이 증가한 추세예요.",
+            "turn_id": "BK22012412-9",
+            "utterance_id": "BK22012412.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 내 취향을 잘 생각해서 결혼 준비를 해야겠어. 알려줘서 고마워.",
+            "turn_id": "BK22012412-10",
+            "utterance_id": "BK22012412.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 꼼꼼하게 준비하셔서 좋은 결혼식 하시길 바라요.",
+            "turn_id": "BK22012412-10",
+            "utterance_id": "BK22012412.20"
+        }
+    ]
+}

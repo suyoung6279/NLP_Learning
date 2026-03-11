@@ -1,0 +1,352 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.5,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014619",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014619",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "결혼 준비에 웨딩플래너가 필요할지 고민인데, 웨딩플래너가 뭐죠?",
+            "turn_id": "BK22014619-1",
+            "utterance_id": "BK22014619.1"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "웨딩플래너는 결혼(Weding)과 계획자(Planner)의 합성어다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이들은 예비부부와 함께 △예식장 △스드메(스튜디오·드레스·메이크업) △신혼여행 등 결혼식 준비뿐만 아니라 혼수나 예물, 가전 구입 등까지 결혼 전반의 과정을 도와준다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.womentimes.co.kr/news/articleView.html?idxno=57360",
+            "search_query": "웨딩플래너",
+            "terminate": false,
+            "text": "웨딩플래너는 결혼이라는 Weding과 계획자라는 Planner의 합성어예요. 웨딩플래너는 예비부부와 함께 예식장이나 소위 스드메라고 말하는 스튜디오, 드레스, 메이크업과 신혼여행 등 결혼식 준비를 함께해요. 여기에만 그치지 않고 혼수나 예물, 가전 구입까지 결혼 전반의 과정을 도와줘요.",
+            "turn_id": "BK22014619-1",
+            "utterance_id": "BK22014619.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "웨딩플래너도 종류가 있다는데 뭐예요?",
+            "turn_id": "BK22014619-2",
+            "utterance_id": "BK22014619.3"
+        },
+        {
+            "reference_date": "2020-11-15",
+            "reference_text": [
+                {
+                    "value": "웨딩플래너는 크게 두 종류로 나뉩니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "결혼 준비 계약의 설계와 예비부부와 드레스·메이크업 샵 등에 함께 방문하는 ‘동행 웨딩플래너’, 계약 설계만 도와주는 ‘비동행 웨딩플래너’가 있죠.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kukinews.com/newsView/kuk202011130231",
+            "search_query": "웨딩플래너 종류",
+            "terminate": false,
+            "text": "웨딩플래너를 크게 동행, 비 동행의 두 종류로 나눌 수 있어요. 동행 웨딩플래너는 결혼 준비 계약의 설계를 도와주고 예비부부와 함께 드레스나 메이크업 샵 등에 방문해요. 비 동행 웨딩플래너는 계약 설계만 도와주죠.",
+            "turn_id": "BK22014619-2",
+            "utterance_id": "BK22014619.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "웨딩플래너를 만나려면 어디로 가야 하죠?",
+            "turn_id": "BK22014619-3",
+            "utterance_id": "BK22014619.5"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "웨딩플래너는 보통 지인 소개나 웨딩전문박람회 등에서 예비부부를 만나 상담을 통해 자신이 가지고 있는 풍부한 웨딩 상품 정보를 안내하고 예산이나 취향을 토대로 결혼식 계획을 짠다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.womentimes.co.kr/news/articleView.html?idxno=57360",
+            "search_query": "웨딩플래너 만나",
+            "terminate": false,
+            "text": "웨딩플래너는 일반적으로 지인으로부터 소개받거나 웨딩박람회 등에서 만날 수 있어요.",
+            "turn_id": "BK22014619-3",
+            "utterance_id": "BK22014619.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어떤 웨딩플래너가 좋을지 골라보고 싶은데 어떻게 해야 하죠?",
+            "turn_id": "BK22014619-4",
+            "utterance_id": "BK22014619.7"
+        },
+        {
+            "reference_date": "2020-11-15",
+            "reference_text": [
+                {
+                    "value": "먼저 웨딩업체들이 주력 상품이나 트렌드를 소개하는 웨딩박람회를 고려해볼 만합니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다양한 업체의 부스에서 소속 웨딩플래너와 이야기를 나눠볼 수 있습니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kukinews.com/newsView/kuk202011130231",
+            "search_query": "웨딩플래너",
+            "terminate": false,
+            "text": "웨딩업체들의 주력 상품과 트렌드 등을 보여주는 웨딩박람회에 가 보시면 여러 업체의 부스에서 웨딩플래너들과 이야기해 볼 수 있어요.",
+            "turn_id": "BK22014619-4",
+            "utterance_id": "BK22014619.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "웨딩플래너를 인터넷으로 알아볼 수 있는 방법은 없나요?",
+            "turn_id": "BK22014619-5",
+            "utterance_id": "BK22014619.9"
+        },
+        {
+            "reference_date": "2020-11-15",
+            "reference_text": [
+                {
+                    "value": "다수의 웨딩플래너 업체가 각각의 온라인 홈페이지를 운영하고 있거든요.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "온라인으로 원하는 플래너에게 상담 예약을 신청할 수도 있습니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kukinews.com/newsView/kuk202011130231",
+            "search_query": "웨딩플래너 업체",
+            "terminate": false,
+            "text": "여러 웨딩플래너 업체들이 각각 인터넷 홈페이지를 운영하고 있으니 홈페이지에서 원하는 웨딩플래너에게 상담을 예약 신청할 수 있어요.",
+            "turn_id": "BK22014619-5",
+            "utterance_id": "BK22014619.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "웨딩플래너와 상담하려면 상담비를 내야 하나요?",
+            "turn_id": "BK22014619-6",
+            "utterance_id": "BK22014619.11"
+        },
+        {
+            "reference_date": "2020-11-15",
+            "reference_text": [
+                {
+                    "value": "이 중 몇몇의 웨딩플래너 업체는 대략 5만원의 비용을 받고 상담을 진행합니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사전에 상담비 여부를 확인하는 것을 추천합니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kukinews.com/newsView/kuk202011130231",
+            "search_query": "웨딩플래너 상담비",
+            "terminate": false,
+            "text": "5만 원 정도의 상담비를 받는 업체들도 있으니 상담에 들어가기 전에 상담비를 꼭 확인하세요.",
+            "turn_id": "BK22014619-6",
+            "utterance_id": "BK22014619.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "결혼 준비하는데 웨딩플래너가 꼭 필요하나요?",
+            "turn_id": "BK22014619-7",
+            "utterance_id": "BK22014619.13"
+        },
+        {
+            "reference_date": "2020-11-15",
+            "reference_text": [
+                {
+                    "value": "웨딩플래너는 예비부부의 결혼준비 스타일에 따라 필요할 수도, 혹은 그렇지 않을 수도 있습니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "웨딩플래너 도움 없이 결혼 준비를 하는 일명 ‘워킹’(Walking) 예비부부도 있으니까요.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "워킹으로 결혼을 준비한다면 웨딩플래너에게 지불하는 비용을 줄일 수 있다는 장점이 있습니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kukinews.com/newsView/kuk202011130231",
+            "search_query": "웨딩플래너 필요",
+            "terminate": false,
+            "text": "예비부부가 결혼을 준비하는 스타일에 따라서 웨딩플래너가 필요할 수도 있고 필요 없을 수도 있어요. 웨딩플래너의 도움을 받지 않고 결혼을 준비하는 소위 워킹 예비부부도 있으니까요. 워킹으로 결혼 준비한다면 웨딩플래너 비용을 아낄 수 있죠.",
+            "turn_id": "BK22014619-7",
+            "utterance_id": "BK22014619.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "웨딩플래너 관련된 전공이 있다던데 맞나요?",
+            "turn_id": "BK22014619-8",
+            "utterance_id": "BK22014619.15"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "특별한 학력이 요구되진 않지만 요즘엔 전문학교에 관련 학과가 개설됐고, 협회에 전문 아카데미 과정도 있어 사전에 지식을 쌓을 수 있다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.womentimes.co.kr/news/articleView.html?idxno=57360",
+            "search_query": "웨딩플래너 전공",
+            "terminate": false,
+            "text": "웨딩플래너에게 특별한 학력이 요구되지는 않지만 전문학교에 관련된 학과가 개설되어 있고, 협회에 전문 아카데미 과정도 있어요.",
+            "turn_id": "BK22014619-8",
+            "utterance_id": "BK22014619.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 웨딩플래너와 계약하면 웨딩플래너에게 따로 인센티브가 있나요?",
+            "turn_id": "BK22014619-9",
+            "utterance_id": "BK22014619.17"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "회사에 소속된 플래너의 수입은 기본급과 인센티브로 이뤄지는데 계약 성사 건수에 따라 월급도 달라진다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.womentimes.co.kr/news/articleView.html?idxno=57360",
+            "search_query": "웨딩플래너 수익",
+            "terminate": false,
+            "text": "회사에 소속되어 있는 웨딩플래너의 수입은 기본급과 인센티브로 형성돼요. 계약이 성사된 건수에 따라서 월급도 달라지죠.",
+            "turn_id": "BK22014619-9",
+            "utterance_id": "BK22014619.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "웨딩박람회에서 잘 알아보고 선택해야겠네요.",
+            "turn_id": "BK22014619-10",
+            "utterance_id": "BK22014619.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "여러 웨딩박람회를 다녀보는 것도 도움이 될 거예요.",
+            "turn_id": "BK22014619-10",
+            "utterance_id": "BK22014619.20"
+        }
+    ]
+}

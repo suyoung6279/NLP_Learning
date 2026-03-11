@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.5,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22018059",
+        "name": "2022 한국어 블렌더봇 데이터 BK22018059",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 3.6,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 집 고양이가 중성화 수술 이후로 살이 점점 더 찌는 거 같아. 이러다 돼지가 되겠어.",
+            "turn_id": "BK22018059-1",
+            "utterance_id": "BK22018059.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사진 보니까 살찐 것 같긴 하더라. 그래도 고양이는 귀엽지.",
+            "turn_id": "BK22018059-1",
+            "utterance_id": "BK22018059.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 외형은 귀여운데 건강에 안 좋으니까 걱정이야. 고양이가 비만이 되는 원인은 뭘까?",
+            "turn_id": "BK22018059-2",
+            "utterance_id": "BK22018059.3"
+        },
+        {
+            "reference_date": "44448.0",
+            "reference_text": [
+                {
+                    "value": "비만의 주된 원인은 과식, 분비 계통의 이상 또는 식욕 이상 등의 대사적 변화, 품종, 유전적 원인, 운동 제한 등이 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2021090818275342911",
+            "search_query": "고양이 비만 원인",
+            "terminate": false,
+            "text": "비만의 주된 원인은 과식, 식욕 이상 또는 분비 계통의 이상 등의 대사적 변화와 유전적 원인, 품종, 운동 제한 등이 있어.",
+            "turn_id": "BK22018059-2",
+            "utterance_id": "BK22018059.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집에서 고양이가 비만인지 아닌지 체크하는 방법도 있을까?",
+            "turn_id": "BK22018059-3",
+            "utterance_id": "BK22018059.5"
+        },
+        {
+            "reference_date": "44448.0",
+            "reference_text": [
+                {
+                    "value": "가정에서 반려동물의 비만을 진단할 수 있는 방법에는 ‘신체조건 점수(BCS-Body Condition Score)’가 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "반려동물의 외형과 갈비뼈를 만져보며 비만도를 확인하는 방법이다.",
+                    "value_time": "44844.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2021090818275342911",
+            "search_query": "고양이 비만 체크",
+            "terminate": false,
+            "text": "신체조건 점수로 가정에서 고양이의 비만을 판단할 수 있어. 고양이의 외형과 갈비뼈를 만져보며, 비만도를 체크하는 법이야.",
+            "turn_id": "BK22018059-3",
+            "utterance_id": "BK22018059.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집에서 해보면 되겠네. 만졌을 때 이상적인 체형은 어떤 거야?",
+            "turn_id": "BK22018059-4",
+            "utterance_id": "BK22018059.7"
+        },
+        {
+            "reference_date": "44448.0",
+            "reference_text": [
+                {
+                    "value": "이상적인 체형은 갈비뼈 아래쪽으로 허리가 있고, 약간의 지방과 늑골이 만져지는 정도다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기본적인 최소량의 복부 지방은 있을 수 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2021090818275342911",
+            "search_query": "고양이 이상적체형",
+            "terminate": false,
+            "text": "기본적인 최소량의 복부의 지방은 있을 수 있지만, 갈비뼈 아래쪽으로 허리가 있고, 조금의 지방과 늑골이 만져지는 수준이 이상적인 체형이야.",
+            "turn_id": "BK22018059-4",
+            "utterance_id": "BK22018059.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "만졌을 때 비만 고양이는 어떤 체형이야?",
+            "turn_id": "BK22018059-5",
+            "utterance_id": "BK22018059.9"
+        },
+        {
+            "reference_date": "44448.0",
+            "reference_text": [
+                {
+                    "value": "비만인 고양이는 갈비뼈가 두꺼운 지방으로 덮여 있어 만져지지 않고, 많은 복부지방이 축적되어 있다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "심한 경우 요추부(허리) 위쪽이나 얼굴, 사지에도 지방축적이 관찰된다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2021090818275342911",
+            "search_query": "비만 고양이 모습",
+            "terminate": false,
+            "text": "복부지방이 잔뜩 축적되어 있고, 갈비뼈가 두꺼운 지방으로 묻혀있어 안 만져지면 비만 고양이야. 심한 경우 얼굴, 허리 위쪽이나 사지에도 지방축적이 관찰돼.",
+            "turn_id": "BK22018059-5",
+            "utterance_id": "BK22018059.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "딱 우리 고양이 체형이네, 진짜 비만인가 봐. 집에서 자율 급식하고 있는데 양을 정해서 줘야 할까?",
+            "turn_id": "BK22018059-6",
+            "utterance_id": "BK22018059.11"
+        },
+        {
+            "reference_date": "44448.0",
+            "reference_text": [
+                {
+                    "value": "다이어트를 할 때는 칼로리 조절과 식이 선택이 필수다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자율 급식을 피하고 정확한 양을 계량해서 주는 것이 좋다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2021090818275342911",
+            "search_query": "고양이 다이어트",
+            "terminate": false,
+            "text": "자율 급식을 하지 않고, 정확한 양을 재서 주는 것이 좋아. 다이어트를 할 때는 식이 선택과 칼로리 조절이 필수야.",
+            "turn_id": "BK22018059-6",
+            "utterance_id": "BK22018059.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사료도 다이어트 사료로 바꿔야겠다. 다이어트 사료는 하루에 몇 번 줘야 해?",
+            "turn_id": "BK22018059-7",
+            "utterance_id": "BK22018059.13"
+        },
+        {
+            "reference_date": "44448.0",
+            "reference_text": [
+                {
+                    "value": "양질의 단백질, 낮은 탄수화물, 저지방 사료를 하루 2~3회 정도 나누어 공급한다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 간식을 제한하고, 가벼운 실내 운동을 하는 것도 도움이 된다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2021090818275342911",
+            "search_query": "고양이 다이어트 식단",
+            "terminate": false,
+            "text": "낮은 탄수화물, 양질의 단백질, 저지방 사료를 하루 2회 또는 3회 정도 나눠 먹여줘. 또 간식을 규제하고, 쉬운 실내 운동을 하는 것도 도움이 돼.",
+            "turn_id": "BK22018059-7",
+            "utterance_id": "BK22018059.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "먹는 게 많았던 것 같긴 해. 다이어트하는 동안 간식을 안 줘야겠어. 다른 고양이들도 있어서 따로 밥을 먹여야 하는데 방법이 있을까?",
+            "turn_id": "BK22018059-8",
+            "utterance_id": "BK22018059.15"
+        },
+        {
+            "reference_date": "44448.0",
+            "reference_text": [
+                {
+                    "value": "다묘 가정이라면 비만 고양이와 나머지 고양이의 밥 주는 공간을 달리하는 것도 방법이다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "식사 시간도 15~30분 정도로 제한하고 식사가 끝난 후 먹지 않은 나머지 음식은 과감하게 치우자.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2021090818275342911",
+            "search_query": "다묘가정 고양이",
+            "terminate": false,
+            "text": "여러 마리 고양이를 키우는 집이라면 나머지 고양이와 비만 고양이의 밥 주는 공간을 다르게 하는 것도 방법이야. 식사 시간도 15분에서 30분 정도로 규제하고, 식사가 끝난 후 안 먹고 남은 음식은 과감하게 치워줘.",
+            "turn_id": "BK22018059-8",
+            "utterance_id": "BK22018059.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시간 정해서 따로 줘야겠어. 다이어트를 할 때 주의해야 하는 점도 있을까?",
+            "turn_id": "BK22018059-9",
+            "utterance_id": "BK22018059.17"
+        },
+        {
+            "reference_date": "44448.0",
+            "reference_text": [
+                {
+                    "value": "또한 급격한 체중 감소(1주 3% 이상)는 지방간의 요인이 될 수 있기에 주당 1~2% 정도 점진적인 감량이 추천된다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "체중 감소를 위해선 목표치 도달을 위한 정기적인 관찰과 보호자의 꾸준한 관심이 필수적이다.",
+                    "value_time": "44844.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.busan.com/view/busan/view.php?code=2021090818275342911",
+            "search_query": "고양이 다이어트 지방간",
+            "terminate": false,
+            "text": "1주동안에 3% 이상의 급격한 체중 감소는 지방간의 원인이 될 수 있어서, 주당 1%에서 2% 정도 단계적 감량을 추천해. 체중 감소를 위해서는 반려인의 목표치 달성을 위한 정기적인 관찰과 꾸준한 관심이 필수적이야.",
+            "turn_id": "BK22018059-9",
+            "utterance_id": "BK22018059.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 뚱뚱한 고양이 오래 살 수 있게 꾸준하게 감량해줘야겠다.",
+            "turn_id": "BK22018059-10",
+            "utterance_id": "BK22018059.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 마트에 새로운 고양이 장난감이 많이 나왔던데, 재미있는 장난감을 사서 놀아줘 봐. 운동에 도움이 될 거야.",
+            "turn_id": "BK22018059-10",
+            "utterance_id": "BK22018059.20"
+        }
+    ]
+}

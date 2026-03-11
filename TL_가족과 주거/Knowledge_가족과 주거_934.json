@@ -1,0 +1,327 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004199",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004199",
+        "topic": "가족과 주거",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0011"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려동물로 앵무새를 한번 키워볼까 하는데, 보통 앵무새는 몇 년 정도 살 수 있어?",
+            "turn_id": "BK22004199-1",
+            "utterance_id": "BK22004199.1"
+        },
+        {
+            "reference_date": "2012-12-09",
+            "reference_text": [
+                {
+                    "value": "일반적으로 앵무새의 수명은 소형은 10~15년, 중형 앵무새의 경우 20~25년 정도 산다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20121209000165",
+            "search_query": "앵무새 수명",
+            "terminate": false,
+            "text": "앵무새의 종류에 따라 다르지만 보통 소형 앵무새의 수명은 10년에서 15년이야. 그리고 조금 더 큰 중형 앵무새는 20년에서 25년 정도까지 살 수 있어.",
+            "turn_id": "BK22004199-1",
+            "utterance_id": "BK22004199.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 생각보다 오래 사는구나. 강아지보다 훨씬 작은데 수명은 비슷하네.",
+            "turn_id": "BK22004199-2",
+            "utterance_id": "BK22004199.3"
+        },
+        {
+            "reference_date": "2018-09-03",
+            "reference_text": [
+                {
+                    "value": "수명이 길어 사람과 평생을 함께 살 수 있다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "종류에 따라 다르지만 평균 50~70년까지 사는 앵무새도 있다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.wikitree.co.kr/articles/365575",
+            "search_query": "앵무새 수명 70년",
+            "terminate": false,
+            "text": "응, 앵무새 중에는 50년에서 70년 정도까지 살 수 있는 종도 있어. 앵무새의 종류에 따라 차이가 있지만 수명이 긴 편이어서 사람과 평생을 같이할 수도 있다고 보면 돼.",
+            "turn_id": "BK22004199-2",
+            "utterance_id": "BK22004199.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반려동물의 죽음을 겪는 것도 엄청 힘든 일인데, 수명이 길다는 것 자체가 한 가지 장점이 될 수 있겠네. 앵무새는 반려동물로서 또 어떤 장점을 가지고 있을까?",
+            "turn_id": "BK22004199-3",
+            "utterance_id": "BK22004199.5"
+        },
+        {
+            "reference_date": "2021-05-06",
+            "reference_text": [
+                {
+                    "value": "이 뿐만 아니라 기대 수명이 길어 평생 반려동물로 함께 할 수 있고 스스로 목욕을 하고 자율 배식이 가능하다는 점도 앵무새가 대중들에게 사랑을 받고 있는 이유로 꼽힌다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1065594883795038",
+            "search_query": "앵무새 스스로 목욕",
+            "terminate": false,
+            "text": "수명이 길어서 평생 같이할 수 있다는 것 말고도 자율 배식 방식으로 키울 수 있다는 점과 앵무새 스스로 몸을 씻을 줄 안다는 장점들 덕분에 앵무새가 사람들에게 사랑받고 있지.",
+            "turn_id": "BK22004199-3",
+            "utterance_id": "BK22004199.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 스스로 몸단장도 할 줄 아는구나. 앵무새가 똑똑하다고 들었는데, 정말인가 봐.",
+            "turn_id": "BK22004199-4",
+            "utterance_id": "BK22004199.7"
+        },
+        {
+            "reference_date": "2021-04-05",
+            "reference_text": [
+                {
+                    "value": "앵무새는 다른 새보다 지능이 높은 편에 속해 5살 어린이에 버금가는 IQ를 보이고, 훈련을 통해 간단한 퍼즐이나 물건 옮기기도 가능하다고 한다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2021040519025894673",
+            "search_query": "앵무새 지능",
+            "terminate": false,
+            "text": "응, 앵무새는 다른 새들보다 지능이 좋아서 5살 어린이 정도 되는 아이큐를 가지고 있거든. 그래서 훈련만 시켜주면 물건 옮기는 것도 할 수 있고 간단한 퍼즐도 해결할 수 있지.",
+            "turn_id": "BK22004199-4",
+            "utterance_id": "BK22004199.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대단하다. 그럼 앵무새가 말을 할 수 있다는 것도 사실이겠는걸?",
+            "turn_id": "BK22004199-5",
+            "utterance_id": "BK22004199.9"
+        },
+        {
+            "reference_date": "2016-06-24",
+            "reference_text": [
+                {
+                    "value": "앵무새가 사람의 말을 따라 할 수 있는 것은 사람의 혀와 비슷한 혀를 가졌기 때문이라는데 모든 종류가 다 말을 할 수 있는 것은 아니고 종류에 따라 어린 시기부터(생후 25일에서 30일) 꾸준히 놀아주며 친밀한 관계를 쌓고 말하는 훈련을 시켜야 가능하다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.naeil.com/news_view/?id_art=200594",
+            "search_query": "앵무새 사람의 혀",
+            "terminate": false,
+            "text": "그 말도 사실이야. 모든 종류의 앵무새가 말을 할 수 있는 건 아니지만 어린 시기인 생후 30일 전후부터 꾸준하게 교감을 하며 친밀감을 쌓게 되면 훈련을 통해 말을 가르치는 것도 충분히 가능한 일이거든. 이렇게 사람의 말을 흉내 낼 수 있는 건 앵무새의 혀가 사람의 혀와 비슷한 구조를 지녔기 때문이지.",
+            "turn_id": "BK22004199-5",
+            "utterance_id": "BK22004199.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "실제로 앵무새가 말하는 걸 한 번도 들어보지 못해서 사실이 아닌 줄 알았거든. 단순히 혀의 생김새가 비슷해서 말을 할 수 있는 걸까? 또 어떤 이유로 앵무새가 말을 할 수 있는 걸까?",
+            "turn_id": "BK22004199-6",
+            "utterance_id": "BK22004199.11"
+        },
+        {
+            "reference_date": "2014-12-14",
+            "reference_text": [
+                {
+                    "value": "언어 학습 기능이 없는 새들과 비교해 앵무새의 뇌에 있는 ‘노래핵’에 있는 유전자 3개가 소리를 기억하고 흉내 내는 발성 학습과 연관돼 있다는 사실을 밝힌 것이다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=5687",
+            "search_query": "앵무새 발성학습 유전자",
+            "terminate": false,
+            "text": "다른 언어 학습 능력이 없는 새들과 비교했을 때 앵무새는 뇌 속 노래핵이라는 곳에 소리를 따라 하고 기억할 수 있는 발성 학습과 관련된 3개의 유전자가 존재한다는 사실이 밝혀지기도 했어.",
+            "turn_id": "BK22004199-6",
+            "utterance_id": "BK22004199.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그렇구나. 그나저나 앵무새를 반려동물로 맞이하기 전에 알아두어야 할 점은 어떤 게 있을까? 모란앵무 같은 소형 앵무새를 한번 키워보고 싶은데 말이야.",
+            "turn_id": "BK22004199-7",
+            "utterance_id": "BK22004199.13"
+        },
+        {
+            "reference_date": "2016-06-24",
+            "reference_text": [
+                {
+                    "value": "모란앵무인 경우 온종일 이유 없이 울기 때문에 소음이 발생할 수 있고, 생후 9개월~1년이 지나 성조(어른 새)가 됐을 때는 암컷인 경우 심하게 사람을 물기도 한다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.naeil.com/news_view/?id_art=200594",
+            "search_query": "모란앵무 소음",
+            "terminate": false,
+            "text": "모란앵무 종류는 아무런 이유 없이 온종일 소리 내며 울 수 있어서 소음이 생길 수 있다는 것과, 암컷의 경우에는 1년 정도 지나고 나서 성조가 되었을 때 심한 입질이 있을 수 있다는 걸 알아둬야 해.",
+            "turn_id": "BK22004199-7",
+            "utterance_id": "BK22004199.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 야생의 새들도 보면 온종일 울기도 하잖아. 소음 부분도 신경 써서 생각해 봐야겠네. 앵무새를 들이기 전에 또 어떤 점을 미리 알아둬야 좋을까?",
+            "turn_id": "BK22004199-8",
+            "utterance_id": "BK22004199.15"
+        },
+        {
+            "reference_date": "2022-03-08",
+            "reference_text": [
+                {
+                    "value": "보통 동물병원들은 강아지, 고양이 등을 주로 치료하기 때문에 새 전문 병원은 거의 찾기가 어렵다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.asiae.co.kr/news/view.htm?idxno=2009052404302285986",
+            "search_query": "새 전문 병원",
+            "terminate": false,
+            "text": "조류의 경우에는 조류를 전문으로 보는 병원이 거의 없기 때문에 강아지나 고양이들처럼 동물 병원에 가서 치료받는 게 쉽지 않다는 것도 알고 있어야 해.",
+            "turn_id": "BK22004199-8",
+            "utterance_id": "BK22004199.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 정말이야? 앵무새도 아프면 바로 동물 병원에 가면 되는 줄 알았는데, 그게 어렵다는 거구나.",
+            "turn_id": "BK22004199-9",
+            "utterance_id": "BK22004199.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 그래서 미리 조류 전문 병원의 위치를 파악해 두는 게 좋을 거야.",
+            "turn_id": "BK22004199-9",
+            "utterance_id": "BK22004199.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어, 앵무새를 키우게 되면 꼭 그렇게 할게.",
+            "turn_id": "BK22004199-10",
+            "utterance_id": "BK22004199.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "앵무새에 대해 더 궁금한 점이 있으면 언제든지 물어봐도 되니까 편하게 연락해!",
+            "turn_id": "BK22004199-10",
+            "utterance_id": "BK22004199.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 고마워! 앵무새를 반려동물로 들이는 것에 대해 가족들과 상의해 보고 결정해야겠어. 내가 다음에 다시 연락할게!",
+            "turn_id": "BK22004199-11",
+            "utterance_id": "BK22004199.21"
+        }
+    ]
+}
